@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-08-16_01_Hofmannsthal_AS">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [16. 8. 1891]</title>
+                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="2036"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>GB</country>
+                                <settlement>Cambridge</settlement>
+                                <repository>University Library</repository>
+                                <idno>Schnitzler, B 43</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Visitenkarte von Hugo von Hofmannsthal sen., Bleistift. Von Schnitzler
+                                    auf der Namensseite mit Bleistift datiert »<quote>
+                                        <date>16/8 91</date>
+                                    </quote>«. Von unbekannter Hand auf der Rückseite mit Bleistift
+                                    nummeriert: »<quote>6</quote>«.</p>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <biblStruct corresp="HvHAS">
+                        <monogr>
+                            <author key="pmb11740">Hofmannsthal, Hugo</author>
+                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <title level="m">Briefwechsel</title>
+                            <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                            <imprint>
+                                <pubPlace>Frankfurt am Main</pubPlace>
+                                <publisher>S. Fischer</publisher>
+                                <date when="1964">1964</date>
+                            </imprint>
+                            <biblScope unit="pp">12</biblScope>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName key="pmb895">Strobl</placeName>
+                    <date when="1891-08-16" n="01">[16. 8. 1891]</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb234">Ischl</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="GHS" when="2018-11-26">Angelegt</change>
+            <change who="MAM" when="2019-01-08">Durchsicht</change>
+            <change who="MAM" when="2019-01-08">Index check</change>
+            <change who="GHS" when="2019-09-09">finalisiert</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00009"/>
+        <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00010"/>
+    </facsimile>
+    <text type="card">
+        <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <salute>
+                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00010"/>Liebſter
+                        Freund!</salute>
+                </opener>
+                <p>Heute nacht vielleicht infolge ſchlechter Champignons ſehr unwohl kann heute kaum
+                    ſtehen. Seien Sie und <persName key="pmb10863">Richard</persName> nicht bös und
+                    behandeln Sie meine Unarten als Object der Analyſe.</p>
+                <closer>
+                    <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00009"/>Herzlichst<lb/>
+                    <signed>Loris.</signed>
+                </closer>
+                <postscript>
+                    
+                    <p rend="center">
+                        <hi rend="pre-print">D<hi rend="superscript">r.</hi>
+                            <space unit="chars" quantity="1"/>
+                            <persName key="pmb11737">Hugo von Hofmannsthal</persName>
+                        </hi>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

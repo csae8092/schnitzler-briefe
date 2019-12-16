@@ -1,0 +1,18 @@
+version: '2'
+services:
+  arthur-schnitzler-briefe:
+    image: "acdh/arthur-schnitzler-briefe"
+    labels:
+      - traefik.backend=arthur-schnitzler-briefe
+      - traefik.frontend.rule=Host:arthur-schnitzler-briefe.sisyphos.arz.oeaw.ac.at
+      - traefik.docker.network=web
+      - traefik.port=8080
+    networks:
+      - web
+    build:
+      context: .
+      dockerfile: Dockerfile
+networks:
+  web:
+    external:
+      name: web

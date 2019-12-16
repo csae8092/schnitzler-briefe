@@ -1,0 +1,238 @@
+i {
+    cursor:pointer;
+}
+
+.reference {
+    cursor: pointer;
+    color: #A63437;
+}
+
+span.data-hr {
+    background-color: #ffff00;
+}
+
+.card {
+    overflow: visible;
+}
+
+.unlinked-entity {
+    color: #A63437;
+}
+
+a {
+    color: #A63437;
+}
+
+a:not([href]):not([tabindex]) {
+    color: #A63437;
+    text-decoration: none;
+}
+
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar .navbar-brand {
+    padding-right: 0;
+}
+
+.navbar .navbar-brand img {
+    height: 4rem;
+    max-height: unset;
+}
+
+#wrapper-hero-content {
+    background-position: top;
+    padding: 4rem 0;
+}
+
+#wrapper-hero-content::after {
+    background-color: rgba(2, 121, 51, 0.10);
+}
+
+#wrapper-hero-content>#wrapper-hero-inner>p {
+    font-size: 1.25rem;
+}
+
+.container-fluid {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.sticky-navbar {
+    z-index: 1001;
+}
+
+#srcbuttons {
+    margin-bottom:0;
+    padding:0.5rem;
+}
+
+.rangeslider {
+        margin-bottom: 1rem;
+}
+
+.btn-link {
+        color:#A63437;
+        font-size:1.2rem;
+    }
+
+#srcbuttons a:hover {
+        text-decoration:none;
+}
+
+.btn-link.quotationbtn {
+    color: #A63437;
+    padding-top:0;
+    text-decoration:none;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.quotationbtn:hover {
+    color:black;
+}
+
+.btn-outline-success {
+    border-color:#A63437;
+    color:#A63437;
+}
+
+ .btn-xs {
+  padding: .25rem .4rem;
+  font-size: .875rem;
+  line-height: .5;
+}
+
+ #loader {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        z-index:999;
+        width: 150px;
+        height: 150px;
+        margin: -75px 0 0 -75px;
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #A63437;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+        }
+
+        /* Safari */
+        @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+        }
+
+        @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+        }
+
+.containingloader {
+    min-height:500px;
+}
+
+.table td {
+    padding:0.3rem;
+}
+
+td li {
+    list-style-type:none;
+}
+
+td p {
+    margin-bottom: 0.2rem;
+}
+
+#copyLinkTextfield-wrapper:before {
+    position: absolute;
+    border-color: transparent;
+    border-style: solid;
+    bottom: -5px;
+    left: 50%;
+    margin-left: -5px;
+    content: "";
+    border-width: 5px 5px 0 5px;
+    border-color: black transparent transparent transparent;
+    z-index: 99;
+}
+
+
+#copyLinkTextfield-wrapper {
+    position: absolute;
+    width:500px;
+    left: -200px;
+    top: -75px;
+    display: none;
+}
+
+
+#res-act-button-copy-url {
+    position: relative;
+    z-index: 9;
+    display:inline-block;
+    color: #A63437;
+    cursor:pointer;
+}
+
+.res-act-button:hover {
+    color:black !important;
+}
+
+#copyLinkInputBtn {
+    position: absolute;
+    z-index: 99;
+    left: 10px;
+    top: 3px;
+    color: #A63437;
+}
+
+#copyLinkTextfield {
+    position: relative;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 2px 5px 2px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #A63437;
+    font-family: inherit;
+    font-style: italic;
+    font-size: 13px;
+    text-align: left;
+    overflow:hidden;
+    resize: none;
+}
+
+supplied { 
+    background-color: #f1f1f1;
+    border: 1px solid red;
+  }
+
+#supplied { 
+    background-color: #f1f1f1;
+    border: 1px solid blue;
+  }
+
+damage {
+  text-decoration: underline;
+  -webkit-text-decoration-color: red; /* safari still uses vendor prefix */
+  text-decoration-color: red;
+}
+
+
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: green;
+    border-color: green;
+}
+.btn-outline-success:not(:disabled):not(.disabled):active {
+    color: #fff;
+    background-color: #A63437;
+    border-color: #A63437;
+}
