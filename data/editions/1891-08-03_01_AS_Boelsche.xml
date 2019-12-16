@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1890-09_01_AS_Boelsche">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-08-03_01_AS_Boelsche">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Wilhelm Bölsche, [Anfang September]
-                    1890</title>
+                <title level="a">Arthur Schnitzler an Wilhelm Bölsche, 3. 8. 1891</title>
                 <author key="pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
@@ -17,9 +20,9 @@
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
                         <placeName>
-                     <country>A</country>
-    <settlement>Wien</settlement>
-   </placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -33,7 +36,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="ASBW" n="2158"/>
+                <idno type="ASBW" n="2163"/>
                 <availability status="free">
                     <p>Copyright © 2018</p>
                 </availability>
@@ -49,11 +52,12 @@
                                 <country>PL</country>
                                 <settlement>Wrocław</settlement>
                                 <repository>Biblioteka Uniwersytecka</repository>
-                                <idno>Böl.Pis 1773</idno>
+                                <idno>Böl.Pis 1760</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Von Bölsche als
-                                    »Erledigt« gezeichnet.</p>
+                                <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Von Bölsche mit schwarzer
+                                    Tinte mit dem Vermerk »<quote>Angen</quote>
+                                    <supplied>ommen</supplied>« beschriftet.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -61,7 +65,7 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb3227">Bölsche, Wilhelm</author>
+                            <author key="pmb11061">Bölsche, Wilhelm</author>
                             <title level="m">Briefwechsel. Mit Autoren der Freien Bühne</title>
                             <editor>Hg. Gerd-Hermann Susen</editor>
                             <imprint>
@@ -69,7 +73,7 @@
                                 <publisher>Weidler</publisher>
                                 <date when="2010">2010</date>
                             </imprint>
-                            <biblScope unit="pp">667</biblScope>
+                            <biblScope unit="pp">671–672</biblScope>
                         </monogr>
                         <series>
                             <title level="s">Werke und Briefe. Wissenschaftliche Ausgabe</title>
@@ -84,22 +88,25 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
+                <correspAction  type="sent">
                     <persName key="pmb2121">Schnitzler, Arthur</persName>
                     <placeName key="pmb50">Wien</placeName>
-                    <date when="1890-09" n="01">[Anfang September] 1890</date>
+                    <date when="1891-08-03" n="01">3. 8. 1891</date>
                 </correspAction>
-                <correspAction type="received">
+                <correspAction  type="received">
                     <persName key="pmb11061">Bölsche, Wilhelm</persName>
                     <placeName key="pmb168">Berlin</placeName>
                 </correspAction>
-            </correspDesc>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1891-05-05_01">Schnitzler an Bölsche, [5. 5. 1891]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1891-10-06_01">Bölsche an Schnitzler, 6. 10. 1891</ptr>
+            </correspContext>
+         </correspDesc>
         </profileDesc>
         <revisionDesc status="approved">
-            <change who="GHS" when="2019-01-10">Angelegt aus Buchausgabe</change>
+            <change who="GHS" when="2019-01-11">Angelegt aus Buchausgabe</change>
             <change who="MAM" when="2019-01-14">Index check</change>
-            <change who="MAM" when="2019-03-04">Durchsicht</change>
-            <change who="GHS" when="2019-09-02">finalisiert</change>
+            <change who="GHS" when="2019-09-06">finalisiert</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -110,33 +117,25 @@
         <body>
             <div type="writingSession" n="1">
                 <opener>
-                    <salute rend="center">
-                        <pb facs="Böl.Pis 1773-1"/>Sehr geehrter Herr Redakteur.</salute>
+                    <salute>
+                        <pb facs="Böl.Pis 1760-1"/>Sehr geehrter Herr Redacteur!</salute>
                 </opener>
-                <p>Erlauben Sie mir, Ihnen beifolgende <anchor type="commentary" xml:id="KL2158-1"/>
-                    <rs type="work" key="pmb33688">Skizze</rs>
-                    <note type="commentary" xml:id="KL2158-1h">
-                        <workName key="pmb33688">Aus der Kaffeehausecke</workName>. <persName key="pmb2121">Schnitzler</persName> hat sie am <date>3. 2.</date> und
-                        unmittelbar vor diesem Brief, am <date>29. 8. 1890</date>, abgefasst. Sie
-                        blieb zu Lebzeiten unpubliziert.</note> vorzulegen. Sie iſt raſch geleſen;
-                    ich fürchte kaum, Sie allzuſehr in Anſpruch zu nehmen. Vielleicht finden Sie,
-                    daß ſie ſich dem Rahmen Ihrer <workName key="pmb36149">
-                        <hi rend="latintype">Freien Bühne für modernes Leben</hi>
-                    </workName> ohne allzu ſchli<c rendition="#gemination-m"/>en Zwang einfügen
-                    ließe – in dieſem Falle würde ich Sie höflichſt um Veröffentlichung derſelben
-                    erſuchen. Misfällt ſie Ihnen, ſehr geehrter Herr, <pb facs="Böl.Pis 1773-1"/>
-                    <damage agent="paperloss">
-                        <supplied>ha</supplied>
-                    </damage>ben Sie wohl die Güte, das kleine Heft an meine Adreſſe
-                    zurückzuſenden.</p>
-                <closer>Ich bin mit ausgezeichneter Hochachtung<lb/> Ihr ergebner<lb/>
+                <p>Vor einigen Monaten war ich ſo frei, Ihnen eine Skizze, »<workName key="pmb30257">Der Sohn</workName>« betitelt, einzuſenden, mit dem Erſuchen, mich davon zu
+                    verſtändigen, ob Sie dieſelbe in Ihrer geſchätzten <rs type="work" key="pmb36166">Zeitſchrift</rs> zur Veröffentlichung bringen wollen. Da mir
+                    bis heute keine Nachricht zugeko<c rendition="#gemination-m"/>en, <pb facs="Böl.Pis 1760-2"/>wiederhole ich hiermit meine Anfrage.</p>
+                <closer>Mit ausgezeichneter Hochachtung<lb/>
                     <signed>
-                        <hi rend="latintype">Dr.  med.</hi> Arthur Schnitzler</signed>
+                        <hi rend="latintype">Dr</hi> Arthur Schnitzler</signed>
                 </closer>
                 <postscript>
                     <p>
-                        <hi rend="latintype">
-                            <placeName key="pmb542">Wien, I. Giselastraße 11</placeName>.</hi>
+                        <placeName key="pmb542">
+                            <hi rend="latintype">Wien I Giselastraße 11</hi>
+                        </placeName>
+                        <lb/>
+                            <date>
+                                <hi rend="latintype">3. August 1891</hi>
+                            </date>.
                     </p>
                 </postscript>
             </div>

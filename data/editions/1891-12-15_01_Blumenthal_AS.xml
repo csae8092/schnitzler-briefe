@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-12-15_01_Blumenthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-12-15_01_Blumenthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -54,9 +58,9 @@
                                 <p>Brief von fremder Hand mit eh. Unterschrift, 1 Bl., 2 S, schwarze
                                     Tinte. Von Schnitzler mit Bleistift beschriftet: »<quote>
                                         <hi rend="latintype">Blumenthal</hi>
-                                    </quote>«. Von unbekannter Hand mit Rotstift und mit Bleistift
+                                    </quote>«. Von unbekannter Hand mit rotem Buntstift und mit Bleistift
                                     jeweils nummeriert: »<quote>1</quote>«. Eine Unterstreichung mit
-                                    Rotstift.</p>
+                                    rotem Buntstift.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -68,16 +72,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
+                <correspAction  type="sent">
                     <persName key="pmb14328">Blumenthal, Oscar</persName>
                     <placeName key="pmb168">Berlin</placeName>
                     <date when="1891-12-15" n="01">15. 12. 1891</date>
                 </correspAction>
-                <correspAction type="received">
+                <correspAction  type="received">
                     <persName key="pmb2121">Schnitzler, Arthur</persName>
                     <placeName key="pmb50">Wien</placeName>
                 </correspAction>
-            </correspDesc>
+            <correspContext>
+               <ptr type="next" subtype="toAuthor" target="1892-01-16_01">Blumenthal an Schnitzler, 16. 1. 1892</ptr>
+            </correspContext>
+         </correspDesc>
         </profileDesc>
         <revisionDesc status="approved">
             <change who="GHS" when="2019-06-16">Angelegt</change>
@@ -132,9 +139,9 @@
                 <p>
                     <pb facs="MS-SCHNITZLER-B-00015-000-00004"/>Ich habe Herrn <persName key="pmb12491">Reicher</persName> den Rath gegeben, unter der Vorausſetzung
                     Ihres Einverſtändniſſes, das Stück zunächſt einmal mit ſeiner <orgName key="pmb29252">Gaſtſpielgeſellſchaft</orgName> auf der <anchor type="commentary" xml:id="G18"/>
-                    <placeName key="pmb410">Muſik- und
+               <placeName key="pmb410">Muſik- und
                         Theaterausſtellung</placeName>
-                    <note type="commentary" xml:id="G18h">Die
+               <note type="commentary" xml:id="G18h">Die
                         Wiener Musik- und Theaterausstellung des Jahres 1892 (eigentlicher Name:
                         »Internationale Ausstellung für Musik- und Theaterwesen«) dauerte vom 7. 5.
                         bis zum 9. 10. 1892.</note> zur Darſtellung zu bringen. Sie werden dann in

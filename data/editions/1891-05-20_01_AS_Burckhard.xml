@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-05-20_01_AS_Burckhard">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-05-20_01_AS_Burckhard">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17,8 +21,8 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                      <country>A</country>
-    <settlement>Wien</settlement>
-   </placeName>
+                     <settlement>Wien</settlement>
+                  </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -103,16 +107,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
+                <correspAction  type="sent">
                     <persName key="pmb2121">Schnitzler, Arthur</persName>
                     <placeName key="pmb50">Wien</placeName>
                     <date when="1891-05-20" n="01">[20.] 5. 1891</date>
                 </correspAction>
-                <correspAction type="received">
+                <correspAction  type="received">
                     <persName key="pmb11036">Burckhard, Max</persName>
                     <placeName key="pmb50">Wien</placeName>
                 </correspAction>
-            </correspDesc>
+            <correspContext>
+               <ptr type="next" subtype="toAuthor" target="1891-07-14_01">Burckhard an Schnitzler, 14. 7. 1891</ptr>
+            </correspContext>
+         </correspDesc>
         </profileDesc>
         <revisionDesc status="approved">
             <change who="MAM" when="2018-10-15">Angelegt</change>

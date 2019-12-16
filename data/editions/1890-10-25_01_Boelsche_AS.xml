@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1890-10-25_01_Boelsche_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1890-10-25_01_Boelsche_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,9 +20,9 @@
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
                         <placeName>
-                     <country>A</country>
-    <settlement>Wien</settlement>
-   </placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -52,7 +56,7 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Brief, 1 Bl., 1 S., schwarze Tinte. Von Schnitzler mit
-                                    Rotstift nummeriert: »<quote>3</quote>«.</p>
+                                    rotem Buntstift nummeriert: »<quote>3</quote>«.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -83,16 +87,20 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
+                <correspAction  type="sent">
                     <persName key="pmb11061">Bölsche, Wilhelm</persName>
                     <placeName key="pmb168">Berlin</placeName>
                     <date when="1890-10-25" n="01">25. 10. 1890</date>
                 </correspAction>
-                <correspAction type="received">
+                <correspAction  type="received">
                     <persName key="pmb2121">Schnitzler, Arthur</persName>
                     <placeName key="pmb50">Wien</placeName>
                 </correspAction>
-            </correspDesc>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1890-10-14_01">Schnitzler an Bölsche, 14. 10. 1890</ptr>
+               <ptr type="next" subtype="toAuthor" target="1891-05-05_01">Schnitzler an Bölsche, [5. 5. 1891]</ptr>
+            </correspContext>
+         </correspDesc>
         </profileDesc>
         <revisionDesc status="approved">
             <change who="GHS" when="2019-01-11">Angelegt aus Buchausgabe</change>

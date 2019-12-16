@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-08_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-08_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -84,17 +88,24 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
+                <correspAction  type="sent">
                     <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
                     <placeName key="pmb50">Wien</placeName>
-                    <date notBefore="1891-07-27" notAfter="1891-08-05" when="1891-08" n="01">[Anfang
+                    <date notBefore="1891-07-27"
+                     notAfter="1891-08-05"
+                     when="1891-08"
+                     n="01">[Anfang
                         August] 1891</date>
                 </correspAction>
-                <correspAction type="received">
+                <correspAction  type="received">
                     <persName key="pmb2121">Schnitzler, Arthur</persName>
                     <placeName key="pmb50">Wien</placeName>
                 </correspAction>
-            </correspDesc>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1891-08-16_01">Hofmannsthal an Schnitzler, [16. 8. 1891]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1891-09-09_01">Hofmannsthal an Schnitzler, 9. 9. [1891]</ptr>
+            </correspContext>
+         </correspDesc>
         </profileDesc>
         <revisionDesc status="approved">
             <change who="GHS" when="2018-11-23">Angelegt</change>
@@ -115,9 +126,10 @@
                     Ihren Brief. Sie müſſen ihn ſehr ſchwer geſchrieben haben. Ich habe das damals
                     empfunden und empfinde es jetzt wieder.</p>
                 <p>
-                    <anchor type="commentary" xml:id="KL2017-1"/>Damals<note type="commentary" xml:id="KL2017-1h">Zwischen dem <date>22.</date> und
+                    <anchor type="commentary" xml:id="KL2017-1"/>Damals<note type="commentary" xml:id="KL2017-1h">zwischen dem <date>22.</date> und
                             <date>31. 7. 1891</date>, vgl. <bibl>Hofmannsthal:
-                                <workName>Aufzeichnungen</workName>, S. 128</bibl>.</note> – um
+                                <workName>Aufzeichnungen</workName>, S. 128</bibl>
+               </note> – um
                     mich, als ich ihn las, ſtanden <persName key="pmb11707">
                         <hi rend="latintype">Robert</hi>
                     </persName> und <persName key="pmb29189">

@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-03-11_01_AS_Conrad">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-03-11_01_AS_Conrad">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -63,15 +67,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
+                <correspAction  type="sent">
                     <persName key="pmb2121">Schnitzler, Arthur</persName>
                     <placeName key="pmb50">Wien</placeName>
                     <date when="1891-03-11" n="01">11. 3. 1891</date>
                 </correspAction>
-                <correspAction type="received">
+                <correspAction  type="received">
                     <persName key="pmb11098">Conrad, Michael Georg</persName>
                 </correspAction>
-            </correspDesc>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1890-11-14_01">Conrad an Schnitzler, 14. 11. 1890</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-03-28_01">Conrad an Schnitzler, 28. 3. 1893</ptr>
+            </correspContext>
+         </correspDesc>
         </profileDesc>
         <revisionDesc status="approved">
             <change who="MAM" when="2019-02-19">Angelegt</change>

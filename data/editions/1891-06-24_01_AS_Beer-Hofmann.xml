@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-06-24_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-06-24_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -74,16 +78,20 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
+            <correspAction  type="sent">
                <persName key="pmb2121">Schnitzler, Arthur</persName>
                <placeName key="pmb50">Wien</placeName>
                <date when="1891-06-24" n="01">24. 6. 1891</date>
             </correspAction>
-            <correspAction type="received">
+            <correspAction  type="received">
                <persName key="pmb10863">Beer-Hofmann, Richard</persName>
                <placeName key="pmb50">Wien</placeName>
-               <date when="1891-06-24" n="01">24. 6. 1891</date>
+               <date when="1891-06-24">24. 6. 1891</date>
             </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1891-06-06_01">Schnitzler an Beer-Hofmann, 6. 6. 1891</ptr>
+               <ptr type="next" subtype="toAuthor" target="1891-08-11_02">Schnitzler an Beer-Hofmann, 11. 8. 1891</ptr>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="approved">
@@ -121,7 +129,7 @@
                <pb facs="1891_AS_RBH_00027"/>
                <salute>Lieber Richard, </salute>ich habe einen völlig freien Abend vor mir, we<c rendition="#gemination-n"/> es Ihnen alſo recht iſt, treffen wir uns. Haben Sie
                die Abſicht, <anchor type="commentary" xml:id="G16"/>eventuell aufs Land<note type="commentary" xml:id="G16h">Schnitzler fuhr mit <persName key="pmb10863">Beer-Hofmann</persName> und <persName key="pmb2167">Salten</persName> zur
-                     <placeName key="">Türkenschanze</placeName>.</note>, ſo holen Sie mich
+                     <placeName key="pmb113">Türkenschanze</placeName>.</note>, ſo holen Sie mich
                vielleicht zwiſchen <time>5</time> u <time>½ 6</time> ab – Erſcheinen Sie nicht, ſo
                werd ich <hi n="1" rend="underline">
                   <hi rend="latintype">ca</hi>

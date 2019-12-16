@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-12-04_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-12-04_01_Hofmannsthal_AS">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
@@ -16,9 +19,9 @@
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
                         <placeName>
-                     <country>A</country>
-    <settlement>Wien</settlement>
-   </placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -55,8 +58,8 @@
                                     Bleistift jeweils auf der Text- und auf der Anschriftenseite
                                     datiert: »<quote>
                                         <date>
-                                            <del rend="strikethrough">2</del>4 12 91</date>.</quote>« Von fremder Hand mit Bleistift nummeriert:
-                                        »<quote>2</quote>«.</p>
+                                            <del rend="strikethrough">2</del>4 12 91</date>.</quote>« Von fremder Hand mit Bleistift
+                                    nummeriert: »<quote>2</quote>«.</p>
                                 <stamp n="1">
                                     <placeName key="pmb50">Wien</placeName>
                                     <date>4/12 91</date>
@@ -104,17 +107,21 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
+                <correspAction  type="sent">
                     <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
                     <placeName key="pmb50">Wien</placeName>
-                    <date when="1891-12-04" n="1">4. 12. 1891</date>
+                    <date when="1891-12-04" n="01">4. 12. 1891</date>
                 </correspAction>
-                <correspAction type="received">
+                <correspAction  type="received">
                     <persName key="pmb2121">Schnitzler, Arthur</persName>
                     <placeName key="pmb50">[Wien]</placeName>
-                    <date when="1891-12-04" n="1">4. 12. 1891</date>
+                    <date when="1891-12-04">4. 12. 1891</date>
                 </correspAction>
-            </correspDesc>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1891-09-11_01">Schnitzler an Hofmannsthal, 11. 9. 1891</ptr>
+               <ptr type="next" subtype="toAuthor" target="1891-12-06_01">Hofmannsthal an Schnitzler, [6. 12. 1891]</ptr>
+            </correspContext>
+         </correspDesc>
         </profileDesc>
         <revisionDesc status="approved">
             <change who="MAM" when="2016-03-04">Angelegt aus OCR</change>
@@ -147,8 +154,9 @@
                 <p>
                     <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00018"/>
                     <persName key="pmb10815">Bahr</persName> wohnt <placeName key="pmb500">Heumarkt 9, 3 Stiege, 3. Stock Thür 37</placeName>. Kommt aber, wenn sie
-                    ihm nichts anderes schreiben, ebenso wie ich <anchor type="commentary" xml:id="KL406-1"/>Sonntag<note type="commentary" xml:id="KL406-1h">
-                        <date>am 6. 12. 1891</date>.</note> um <time>5</time> zu ihnen.</p>
+                    ihm nichts anderes schreiben, ebenso wie ich <anchor type="commentary" xml:id="KL406-1"/>Sonntag<note type="commentary" xml:id="KL406-1h">Am
+                        Sonntag, den <date>6. 12. 1891</date>, besuchten Schnitzler und <persName key="pmb11740">Hofmannsthal</persName> am Nachmittag den erkrankten
+                            <persName key="pmb10815">Bahr</persName> im <placeName key="pmb500">Heumarkt</placeName>.</note> um <time>5</time> zu ihnen.</p>
                 <closer>
                     <signed>Loris.</signed>
                 </closer>

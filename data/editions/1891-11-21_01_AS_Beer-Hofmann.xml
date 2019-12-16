@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-11-21_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-11-21_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -74,16 +78,20 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
+            <correspAction  type="sent">
                <persName key="pmb2121">Schnitzler, Arthur</persName>
                <placeName key="pmb50">Wien</placeName>
                <date when="1891-11-21" n="01">21. 11. 1891</date>
             </correspAction>
-            <correspAction type="received">
+            <correspAction  type="received">
                <persName key="pmb10863">Beer-Hofmann, Richard</persName>
                <placeName key="pmb53">Wien 3/2</placeName>
-               <date when="1891-11-22" n="01">22. 11. 1891</date>
+               <date when="1891-11-22">22. 11. 1891</date>
             </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1891-09-22_01">Schnitzler an Beer-Hofmann, 22. 9. 1891</ptr>
+               <ptr type="next" subtype="toAuthor" target="1891-12-05_01">Schnitzler an Beer-Hofmann, 5. 12. 1891</ptr>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="approved">
@@ -121,8 +129,9 @@
                <pb facs="1891_AS_RBH_00008"/>
                <salute>Lieber Richard! </salute>
                <anchor type="commentary" xml:id="G16"/>
-                    <date>So<c rendition="#gemination-n"/>tag</date>
-                    <note type="commentary" xml:id="G16h">am 22. 11. 1891.</note>
+               <date>So<c rendition="#gemination-n"/>tag</date>
+               <note type="commentary" xml:id="G16h">Am Sonntag, den 22. 11. 1891,
+                  trafen sich <persName key="pmb11740">Hofmannsthal</persName>, <persName key="pmb10863">Beer-Hofmann</persName> und <persName key="pmb2167">Salten</persName> bei Schnitzler.</note>
                <space unit="chars" quantity="1"/>
                <time>Nachmittag 4 Uhr</time> bin ich zu Hauſe. <hi rend="latintype">
                   <persName key="pmb11740">Loris</persName>

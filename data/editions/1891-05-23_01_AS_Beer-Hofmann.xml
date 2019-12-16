@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-05-23_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-05-23_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -16,7 +20,9 @@
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
                   <placeName>
-                     <country>A</country> <settlement>Wien</settlement> </placeName>
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName>
                </address>
             </funder>
          </titleStmt>
@@ -93,16 +99,20 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
+            <correspAction  type="sent">
                <persName key="pmb2121">Schnitzler, Arthur</persName>
                <placeName key="pmb50">Wien</placeName>
                <date when="1891-05-23" n="01">23. 5. 1891</date>
             </correspAction>
-            <correspAction type="received">
+            <correspAction  type="received">
                <persName key="pmb10863">Beer-Hofmann, Richard</persName>
                <placeName key="pmb833">Brünn</placeName>
-               <date when="1891-05-24" n="01">24. 5. 1891</date>
+               <date when="1891-05-24">24. 5. 1891</date>
             </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1891-05-19_01">Beer-Hofmann an Schnitzler, 19. 5. 1891</ptr>
+               <ptr type="next" subtype="toAuthor" target="1891-05-30_01">Beer-Hofmann an Schnitzler, 30. 5. 1891</ptr>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="approved">

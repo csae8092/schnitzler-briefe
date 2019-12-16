@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-07-27_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-07-27_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -79,16 +83,20 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
+                <correspAction  type="sent">
                     <persName key="pmb2121">Schnitzler, Arthur</persName>
                     <placeName key="pmb50">Wien</placeName>
                     <date when="1891-07-27" n="01">27. 7. 1891</date>
                 </correspAction>
-                <correspAction type="received">
+                <correspAction  type="received">
                     <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
                     <placeName key="pmb50">Wien</placeName>
                 </correspAction>
-            </correspDesc>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1891-07-13_01">Hofmannsthal an Schnitzler, 13. 7. [1891]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1891-08-11_01">Schnitzler an Hofmannsthal, 11. 8. 1891</ptr>
+            </correspContext>
+         </correspDesc>
         </profileDesc>
         <revisionDesc status="approved">
             <change who="GHS" when="2018-11-28">Angelegt</change>
@@ -110,8 +118,7 @@
                     <dateline rend="right">
                         <pb facs="Hs-30885,9a_001.TIF"/>
                         <placeName key="pmb50">Wien</placeName>, <date>27. Juli
-                        1891</date>.<!-- Trennstrich soll Text absetzen, keine Unterstreichung -->
-                    </dateline>
+                        1891</date>.<!-- Trennstrich soll Text absetzen, keine Unterstreichung --></dateline>
                 </opener>
                 <p>
                     <salute>Verehrter Freund, </salute>eine Karte, die ich eben von <persName key="pmb11485">Paul Goldma<c rendition="#gemination-n"/>
@@ -168,7 +175,7 @@
                     </persName>s <workName key="pmb33682">Drama<del rend="strikethrough">turgie</del> Entwürfe</workName>, <persName key="pmb5883">
                         <hi rend="latintype">Jonas Lie</hi>
                     </persName>
-                    <space unit="chars" quantity="1"/>
+               <space unit="chars" quantity="1"/>
                     <hi rend="latintype">etc.</hi> Beſonders <persName key="pmb12358">
                         <hi rend="latintype">Nietz</hi>’ſche</persName> – zuletzt <pb facs="Hs-30885,9b_001.TIF"/>hat mich ſein Schluſscapitel und das <rs type="work" key="pmb33680">Schlußgedicht</rs> zu <workName key="pmb33678">
                         <hi rend="latintype">Jenseits von Gut u Böse</hi>

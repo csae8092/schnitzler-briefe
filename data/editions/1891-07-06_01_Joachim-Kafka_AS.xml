@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-07-06_01_Joachim-Kafka_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-07-06_01_Joachim-Kafka_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -19,8 +23,8 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                      <country>A</country>
-    <settlement>Wien</settlement>
-   </placeName>
+                     <settlement>Wien</settlement>
+                  </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -76,18 +80,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
+                <correspAction  type="sent">
                     <persName key="pmb28812">Joachim, Jaques</persName>
                     <persName key="pmb2563">Kafka, Eduard Michael</persName>
                     <placeName key="pmb50">Wien</placeName>
                     <date when="1891-07-06" n="01">6. 7. 1891</date>
                 </correspAction>
-                <correspAction type="received">
+                <correspAction  type="received">
                     <persName key="pmb2121">Schnitzler, Arthur</persName>
                     <placeName key="pmb50">Wien</placeName>
-                    <date when="1891-07-07" n="01">7. 7. 1891</date>
+                    <date when="1891-07-07">7. 7. 1891</date>
                 </correspAction>
-            </correspDesc>
+            
+         </correspDesc>
         </profileDesc>
         <revisionDesc status="approved">
             <change who="GHS" when="2019-09-18">Angelegt</change>
@@ -149,8 +154,9 @@
                 </closer>
                 <postscript>
                     <p>
-                        <anchor type="textConst" xml:id="TG4"/>Dieſe Einladung<note type="textConst" xml:id="TG4h">am linken Rand</note> gilt zugleich als
-                            <hi rend="latintype">Legitimation</hi>.</p>
+                        <anchor type="textConst" xml:id="TG4"/>Dieſe Einladung gilt zugleich als
+                        <hi rend="latintype">Legitimation</hi>.<note type="textConst" xml:id="TG4h">am linken Rand</note>
+               </p>
                 </postscript>
             </div>
         </body>

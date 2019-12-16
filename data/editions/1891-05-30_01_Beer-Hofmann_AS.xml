@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-05-30_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-05-30_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -82,15 +86,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
+            <correspAction  type="sent">
                <persName key="pmb10863">Beer-Hofmann, Richard</persName>
                <placeName key="pmb833">Brünn</placeName>
                <date when="1891-05-30" n="01">30. 5. 1891</date>
             </correspAction>
-            <correspAction type="received">
+            <correspAction  type="received">
                <persName key="pmb2121">Schnitzler, Arthur</persName>
                <placeName key="pmb50">Wien</placeName>
             </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1891-05-23_01">Schnitzler an Beer-Hofmann, 23. 5. 1891</ptr>
+               <ptr type="next" subtype="toAuthor" target="1891-06-06_01">Schnitzler an Beer-Hofmann, 6. 6. 1891</ptr>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="approved">
@@ -113,7 +121,7 @@
             </opener>
             <p>Denken Sie mein <rs type="person" key="pmb40187 pmb27289" cert="low">Cousin</rs> hat
                auf mein Anrathen <anchor type="commentary" xml:id="G11"/>die alten Jahrgänge<note type="commentary" xml:id="G11h">
-                        <workName key="pmb35860">An der schönen blauen
+                  <workName key="pmb35860">An der schönen blauen
                      Donau</workName>, ein »Unterhaltungsblatt für die Familie«, erschien seit dem
                   15. Januar 1886 alle 14 Tage. Die von <persName key="pmb10863">Beer-Hofmann</persName> angesprochenen Texte finden sich in den Jahrgängen
                   1888 bis 1890.</note> der »<workName key="pmb35860">blauen Donau</workName>«
@@ -139,12 +147,16 @@
                   <date>30 Mai 91</date>
                </dateline>
                <p>
-                  <anchor type="textConst" xml:id="TG1"/>Daß Sie<note type="textConst" xml:id="TG1h">weiter quer am linken Rand.</note> mir als Adresse <anchor type="commentary" xml:id="KLMAM2019092309-1"/>
+                  <anchor type="textConst" xml:id="TG1"/>Daß Sie mir als Adresse <anchor type="commentary" xml:id="KLMAM2019092309-1"/>
                   <placeName key="pmb542">Giselastrasse</placeName> und nicht <placeName key="pmb274">Ring</placeName>
                   <note type="commentary" xml:id="KLMAM2019092309-1h">Das Haus hatte zwei Eingänge,
                      wobei die letztere Adresse die repräsentativere darstellt.</note> angaben ist
-                  sehr hübsch von Ihnen; ich danke. Mein Brief <anchor type="textConst" xml:id="TG2"/>und »Sie«<note type="textConst" xml:id="TG2h">weiter am oberen Rand auf dem
-                     Kopf</note> werden sich auf der Stiege treffen.</p>
+                  sehr hübsch von Ihnen; ich danke. Mein Brief<note type="textConst" xml:id="TG1h">quer am linken Rand.</note>
+                  <space unit="chars" quantity="1"/>
+                  <anchor type="textConst" xml:id="TG2"/>und »Sie« werden sich auf der Stiege
+                     treffen.<note type="textConst" xml:id="TG2h">am oberen Rand auf dem
+                  Kopf</note>
+               </p>
             </postscript>
          </div>
       </body>

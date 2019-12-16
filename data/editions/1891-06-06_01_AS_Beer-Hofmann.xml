@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-06-06_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-06-06_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -85,15 +89,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
+            <correspAction  type="sent">
                <persName key="pmb2121">Schnitzler, Arthur</persName>
                <placeName key="pmb50">Wien</placeName>
                <date when="1891-06-06" n="01">6. 6. 1891</date>
             </correspAction>
-            <correspAction type="received">
+            <correspAction  type="received">
                <persName key="pmb10863">Beer-Hofmann, Richard</persName>
                <placeName key="pmb833">Brünn</placeName>
             </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1891-05-30_01">Beer-Hofmann an Schnitzler, 30. 5. 1891</ptr>
+               <ptr type="next" subtype="toAuthor" target="1891-06-24_01">Schnitzler an Beer-Hofmann, 24. 6. 1891</ptr>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="approved">
@@ -149,12 +157,12 @@
                Ich habe die Idee angeregt, zuſa<c rendition="#gemination-m"/>en ein Buch zu ediren
                (was <anchor type="commentary" xml:id="G12"/>nicht von <persName key="pmb2563">Edi =
                   Kafka</persName>
-                    <note type="commentary" xml:id="G12h">
-                        <persName key="pmb2563">Kafka</persName> forderte Schnitzler erst <date>Ende August 1891</date> auf, an einem
+               <note type="commentary" xml:id="G12h">
+                  <persName key="pmb2563">Kafka</persName> forderte Schnitzler erst <date>Ende August 1891</date> auf, an einem
                   »Oeſterreichiſchen Jahrbuch für moderne Literatur« mitzuarbeiten; vgl. den Brief
                   von <persName key="pmb2563">Kafka</persName> vom <date>30. 8. 1891</date>.</note> ko<c rendition="#gemination-m"/>t) Titel: <anchor type="commentary" xml:id="G13"/>
-                    <workName key="pmb33688">Aus der Kaffehausecke</workName>
-                    <note type="commentary" xml:id="G13h">Diesen Titel trug die von <persName key="pmb11061">Bölsche</persName> vor Jahresfrist abgelehnte <rs type="work" key="pmb33688">Novelle</rs>, die bislang
+               <workName key="pmb33688">Aus der Kaffehausecke</workName>
+               <note type="commentary" xml:id="G13h">Diesen Titel trug die von <persName key="pmb11061">Bölsche</persName> vor Jahresfrist abgelehnte <rs type="work" key="pmb33688">Novelle</rs>, die bislang
                      unveröffentlicht geblieben war; vgl. den Brief <persName key="pmb11061">Bölsches</persName> vom <date>17. 9. 1890</date>.</note>.
                   Sa<c rendition="#gemination-m"/>lung von Skizzen, Noveletten, Impreſſionen,
                Aphorismen – <pb facs="1891_AS_RBH_00034"/>jeder hat möglichſt individuell zu ſein –
