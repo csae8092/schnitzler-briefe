@@ -2,12 +2,42 @@ i {
     cursor:pointer;
 }
 
+.signed   { text-align: right;
+font-family: serif;}
+
+.closer {font-family: serif;}
+
+.pre-print { font-family: sans-serif; 
+}
+
+.stamp { font-family: sans-serif; 
+        color:blue;
+}
+
+.p {
+    margin: 0 !important;
+}
+
+.small_caps {
+    font-variant: small-caps;
+}
+
+.antiqua {
+    font-variant: small-caps;
+}
+
+.gemination {
+    text-decoration: overline solid;
+    color: green;
+    background-color: #ffff00;
+}
+
 .reference {
     cursor: pointer;
     color: #A63437;
 }
 
-span.data-hr {
+.data-hr {
     background-color: #ffff00;
 }
 
@@ -48,7 +78,7 @@ a:not([href]):not([tabindex]) {
 }
 
 #wrapper-hero-content::after {
-    background-color: rgba(2, 121, 51, 0.10);
+    background-color: rgba(166, 52, 55, 0.1);
 }
 
 #wrapper-hero-content>#wrapper-hero-inner>p {
@@ -149,6 +179,8 @@ td p {
     margin-bottom: 0.2rem;
 }
 
+
+
 #copyLinkTextfield-wrapper:before {
     position: absolute;
     border-color: transparent;
@@ -158,9 +190,10 @@ td p {
     margin-left: -5px;
     content: "";
     border-width: 5px 5px 0 5px;
-    border-color: black transparent transparent transparent;
+    border-color: black transparent;
     z-index: 99;
 }
+
 
 
 #copyLinkTextfield-wrapper {
@@ -178,6 +211,11 @@ td p {
     display:inline-block;
     color: #A63437;
     cursor:pointer;
+}
+
+.inline {
+    display: inline-block;
+  padding-left: 45px;
 }
 
 .res-act-button:hover {
@@ -208,22 +246,38 @@ td p {
     resize: none;
 }
 
-supplied { 
-    background-color: #f1f1f1;
-    border: 1px solid red;
-  }
-
-#supplied { 
-    background-color: #f1f1f1;
-    border: 1px solid blue;
-  }
-
-damage {
-  text-decoration: underline;
-  -webkit-text-decoration-color: red; /* safari still uses vendor prefix */
-  text-decoration-color: red;
+.strikethrough {
+    text-decoration: line-through;
 }
 
+.italic {
+    font-style: italic;
+}
+
+.spaced_out {
+ letter-spacing: 8px;   
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.doubleUnderline {
+    text-decoration:underline;
+    border-bottom: 1px solid #000;
+}
+
+.tripleUnderline {
+	border-bottom: 3px double;
+	line-height: 1.9em;
+}
+
+.damage {
+  background-image: linear-gradient(to right, grey 70%, transparent 75%);
+  background-position: 0 1.1em;
+  background-repeat: repeat-x;
+  background-size: 8px 2.5px;
+}
 
 
 .btn-outline-success:hover {
@@ -235,4 +289,15 @@ damage {
     color: #fff;
     background-color: #A63437;
     border-color: #A63437;
+}
+
+.superscript { position: relative; top: -0.5em; font-size: 80%; }
+.subscript { position: relative; top: 0.5em; font-size: 80%; }
+
+.editionText { 
+    margin: 0 !important;
+    line-height: 1,75; 
+font-size: 140%;
+font-family:serif;
+    
 }

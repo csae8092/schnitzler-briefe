@@ -15,31 +15,66 @@
     </xsl:template>
     <xsl:template match="tei:hi">
         <xsl:choose>
-            <xsl:when test="@rend = 'ul'">
-                <u>
+            <xsl:when test="@rend = 'subscript'">
+                <span class="subscript">
                     <xsl:apply-templates/>
-                </u>
+                </span>
             </xsl:when>
             <xsl:when test="@rend = 'superscript'">
-                <sup>
+                <span class="superscript">
                     <xsl:apply-templates/>
-                </sup>
+                </span>
             </xsl:when>
-            <xsl:when test="@rend = 'strikethrough'">
-                <strike>
+            <xsl:when test="@rend = 'italics'">
+               <span class="italic">
                     <xsl:apply-templates/>
-                </strike>
+                </span>
             </xsl:when>
-            <xsl:when test="@rend = 'italic'">
-                <i>
+              <xsl:when test="@rend = 'underline'"> 
+              <xsl:choose>
+              <xsl:when test="@n='1'">
+              <span class="underline">
                     <xsl:apply-templates/>
-                </i>
-            </xsl:when>
-            <xsl:when test="@rend = 'sup'">
-                <sup>
+                </span>
+                </xsl:when>
+                              <xsl:when test="@n='2'">
+              <span class="doubleUnderline">
                     <xsl:apply-templates/>
-                </sup>
+                </span>
+                </xsl:when>
+                <xsl:otherwise>
+                 <span class="tripleUnderline">
+                    <xsl:apply-templates/>
+                </span>
+                </xsl:otherwise>
+                </xsl:choose>
+                </xsl:when>
+                <xsl:when test="@rend = 'pre-print'">
+               <span class="pre-print">
+                    <xsl:apply-templates/>
+                </span>
             </xsl:when>
+            <xsl:when test="@rend = 'bold'">
+               <strong>
+                    <xsl:apply-templates/>
+                </strong>
+            </xsl:when>
+            <xsl:when test="@rend = 'stamp'">
+               <span class="stamp">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
+            <xsl:when test="@rend = 'small_caps'">
+               <span class="small_caps">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
+             <xsl:when test="@rend = 'spaced_out'">
+               <span class="spaced_out">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
+            
             <xsl:otherwise>
                 <span>
                     <xsl:attribute name="style">
@@ -50,6 +85,8 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+
+    
     <!--    footnotes -->
     <xsl:template match="tei:note">
         <xsl:element name="a">
@@ -173,7 +210,6 @@
         </strong>
     </xsl:template>
     <xsl:template match="tei:rs[@ref or @key]">
-        <strong>
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">
@@ -185,10 +221,8 @@
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
-        </strong>
     </xsl:template>
     <xsl:template match="tei:persName[@key]|tei:rs[@type='person' and @key]">
-        <strong>
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listperson.xml</xsl:attribute>
@@ -197,11 +231,9 @@
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
-        </strong>
     </xsl:template>
     
     <xsl:template match="tei:placeName[@key]|tei:rs[@type='place' and @key]">
-        <strong>
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listplace.xml</xsl:attribute>
@@ -210,11 +242,9 @@
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
-        </strong>
     </xsl:template>
     
     <xsl:template match="tei:workName[@key]|tei:rs[@type='work' and @key]">
-        <strong>
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listwork.xml</xsl:attribute>
@@ -223,11 +253,9 @@
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
-        </strong>
     </xsl:template>
     
     <xsl:template match="tei:orgName[@key]|tei:rs[@type='organisation' and @key]">
-        <strong>
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listorg.xml</xsl:attribute>
@@ -236,11 +264,9 @@
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
-        </strong>
     </xsl:template>
     
     <xsl:template match="tei:region[@key] | tei:country[@key]">
-        <strong>
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listplace.xml</xsl:attribute>
@@ -249,7 +275,6 @@
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
-        </strong>
     </xsl:template>
     <!-- additions -->
     <xsl:template match="tei:add">
@@ -572,4 +597,39 @@
             <xsl:apply-templates/>
         </code>
     </xsl:template>
+    <xsl:template match="tei:lb">
+    <lb/>
+    </xsl:template>
+        
+        <xsl:template match="tei:p[@rend='center']">
+        <p align="center">
+        <xsl:apply-templates/>
+        </p>
+        </xsl:template>
+           <xsl:template match="tei:p[@rend='right']">
+        <p align="right">
+        <xsl:apply-templates/>
+        </p>
+        </xsl:template>
+        <xsl:template match="tei:p[@rend='left']">
+        <p align="left">
+        <xsl:apply-templates/>
+        </p>
+        </xsl:template>
+        <xsl:template match="tei:lb">
+        <br/>
+        </xsl:template>
+        <xsl:template match="tei:c[@rendition='#kaufmannsund']">
+        &amp;
+        </xsl:template>
+        <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-auf']">
+       {
+        </xsl:template>
+        <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-zu']">
+       }
+        </xsl:template>
+       <xsl:template match="tei:c[@rendition = '#gemination-m']">
+         <span class="gemination">m</span>oj
+        </xsl:template>
+    
 </xsl:stylesheet>

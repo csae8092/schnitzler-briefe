@@ -14,8 +14,14 @@
     <xsl:param name="projectName"/>
     <xsl:param name="authors"/>
     <xsl:variable name="signatur">
-        <xsl:value-of select=".//tei:msIdentifier/tei:settlement/text()"/>
-        <xsl:value-of select=".//tei:msIdentifier/tei:institution/text()"/> <xsl:value-of select=".//tei:msIdentifier/tei:repository[1]/text()"/> <xsl:value-of select=".//tei:msIdentifier/tei:idno[1]/text()"/>
+   <xsl:if test=".//tei:msIdentifier/tei:settlement/text() and not(empty(.//tei:msIdentifier/tei:settlement/text()))">
+            <xsl:value-of select=".//tei:msIdentifier/tei:settlement/text()"/>
+        </xsl:if>
+        <xsl:value-of select=".//tei:msIdentifier/tei:institution/text()"/>
+        <xsl:text>, </xsl:text>
+        <xsl:value-of select=".//tei:msIdentifier/tei:repository[1]/text()"/>
+        <xsl:text>, </xsl:text>
+        <xsl:value-of select=".//tei:msIdentifier/tei:idno[1]/text()"/>
     </xsl:variable>
  <!--
 ##################################
@@ -90,11 +96,17 @@
                     </p>
                     <p>
                         <hr/>
-                        <h3>Zitierhinweis</h3>
+                        <h4>Archivquelle:</h4>
                         <blockquote class="blockquote">
-                            <cite title="Source Title">
-                                <xsl:value-of select="$signatur"/>, In: <xsl:value-of select="$projectName"/>. hg. v. <xsl:value-of select="$authors"/>
-                            </cite>
+                                <xsl:value-of select="$signatur"/>
+                        </blockquote>                    
+                    </p>
+                     <p>
+                        <hr/>
+                        <h4>Zitierempfehlung:</h4>
+                        <blockquote class="blockquote">
+                        <xsl:value-of select="//tei:fileDesc/tei:titleStmt/tei:title[@level='a']"/>.
+                        In: <xsl:value-of select="$projectName"/>. Hg. v. <xsl:value-of select="$authors"/>, 2018–[2021]. <xsl:value-of select="document-uri()"/>
                         </blockquote>                    
                     </p>
                 </div>
@@ -119,7 +131,7 @@
                                     <xsl:if test="//tei:msIdentifier">
                                         <tr>
                                             <th>
-                                                <abbr title="//tei:msIdentifie">Signatur</abbr>
+                                                <abbr title="//tei:msIdentifier">Signatur</abbr>
                                             </th>
                                             <td>
                                                 <xsl:for-each select="//tei:msIdentifier/child::*">
@@ -224,7 +236,83 @@
                 </div>
             </div>
         </div>
-        
+       
         
     </xsl:template>
+    <xsl:template match="tei:signed">
+        <div class="signed">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template match="tei:p[ancestor::tei:body and not(ancestor::tei:note) and not(ancestor::tei:footNote) and not(ancestor::tei:caption) and not(parent::tei:bibl)]|tei:dateline|tei:salute|tei:closer">
+    <xsl:choose>
+    <xsl:when test="@rend='right'">
+    <p align="right" class="editionText">
+    <xsl:apply-templates/>
+    </p>
+    </xsl:when>
+    <xsl:when test="@rend='left'">
+    <p align="left" class="editionText">
+    <xsl:apply-templates/>
+    </p>
+    </xsl:when>
+    <xsl:when test="@rend='center'">
+    <p align="center" class="editionText">
+    <xsl:apply-templates/>
+    </p>
+    </xsl:when>
+    <xsl:when test="@rend='inline'">
+    <p class="inline editionText">
+    <xsl:apply-templates/>
+    </p>
+    </xsl:when>
+    <xsl:otherwise>
+    <p class="editionText">
+     <xsl:apply-templates/>
+    </p>
+    </xsl:otherwise>
+    </xsl:choose>
+    </xsl:template>
+    
+     <xsl:template match="tei:p">
+    <xsl:choose>
+    <xsl:when test="@rend='right'">
+    <p align="right">
+    <xsl:apply-templates/>
+    </p>
+    </xsl:when>
+    <xsl:when test="@rend='left'">
+    <p align="left">
+    <xsl:apply-templates/>
+    </p>
+    </xsl:when>
+    <xsl:when test="@rend='center'">
+    <p align="center">
+    <xsl:apply-templates/>
+    </p>
+    </xsl:when>
+    <xsl:when test="@rend='inline'">
+    <p style="inline">
+    <xsl:apply-templates/>
+    </p>
+    </xsl:when>
+    <xsl:otherwise>
+    <p>
+     <xsl:apply-templates/>
+    </p>
+    </xsl:otherwise>
+    </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template match="tei:address">
+    <div class="address">
+        <xsl:apply-templates/>
+    </div>
+    </xsl:template>
+    <xsl:template match="tei:damage">
+    <span class="damage">
+    <xsl:apply-templates/>
+    </span>
+    </xsl:template>
+
 </xsl:stylesheet>
