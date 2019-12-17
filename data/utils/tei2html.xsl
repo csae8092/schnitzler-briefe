@@ -316,77 +316,14 @@
     </xsl:template>
     
     <!-- additions -->
-    <xsl:template match="tei:add">
-        <xsl:element name="span">
-            <xsl:attribute name="style">
-                <xsl:text>color:blue;</xsl:text>
-            </xsl:attribute>
-            <xsl:attribute name="title">
-                <xsl:choose>
-                    <xsl:when test="@place='margin'">
-                        <xsl:text>zeitgenössische Ergänzung am Rand</xsl:text>(<xsl:value-of select="./@place"/>).
-                    </xsl:when>
-                    <xsl:when test="@place='above'">
-                        <xsl:text>zeitgenössische Ergänzung oberhalb</xsl:text>(<xsl:value-of select="./@place"/>)
-                    </xsl:when>
-                    <xsl:when test="@place='below'">
-                        <xsl:text>zeitgenössische Ergänzung unterhalb</xsl:text>(<xsl:value-of select="./@place"/>)
-                    </xsl:when>
-                    <xsl:when test="@place='inline'">
-                        <xsl:text>zeitgenössische Ergänzung in der gleichen Zeile</xsl:text>(<xsl:value-of select="./@place"/>)
-                    </xsl:when>
-                    <xsl:when test="@place='top'">
-                        <xsl:text>zeitgenössische Ergänzung am oberen Blattrand</xsl:text>(<xsl:value-of select="./@place"/>)
-                    </xsl:when>
-                    <xsl:when test="@place='bottom'">
-                        <xsl:text>zeitgenössische Ergänzung am unteren Blattrand</xsl:text>(<xsl:value-of select="./@place"/>)
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:text>zeitgenössische Ergänzung am unteren Blattrand</xsl:text>(<xsl:value-of select="./@place"/>)
-                    </xsl:otherwise>
-                </xsl:choose>
-            </xsl:attribute>
-            <xsl:text/>
-            <xsl:apply-templates/>
-        </xsl:element>
-    </xsl:template><!-- Bücher -->
+ <!-- Bücher -->
     <xsl:template match="tei:bibl">
         <xsl:element name="strong">
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template><!-- Seitenzahlen -->
     <!-- Seitenzahlen -->
-    <xsl:template match="tei:pb">
-        <xsl:text>|</xsl:text>
-    </xsl:template>
-    
-    <xsl:template match="tei:unclear">
-        <xsl:element name="unclear">
-            <xsl:attribute name="class">
-                <xsl:text>unclear</xsl:text>
-            </xsl:attribute>
-            <xsl:apply-templates/>
-        </xsl:element>
-    </xsl:template>
-    <xsl:template match="tei:damage">
-        <xsl:element name="damage">
-            <xsl:apply-templates/>
-        </xsl:element>
-    </xsl:template>
-    <xsl:template match="addrLine">
-        <xsl:apply-templates/>
-        <br/>
-    </xsl:template>
-    <xsl:template match="address">
-        <p padding-bottom="1cm">
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-    <xsl:template match="tei:supplied">
-        <xsl:text>[</xsl:text>
-        <xsl:apply-templates/>
-        <xsl:text>]</xsl:text>
-    </xsl:template>
+   
     
     <!-- Tabellen -->
     <xsl:template match="tei:table">
@@ -436,19 +373,8 @@
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template><!-- Zeilenumbürche   -->
-    <xsl:template match="tei:lb">
-        <br/>
-    </xsl:template><!-- Absätze    -->
-    <xsl:template match="tei:p">
-        <xsl:element name="p">
-            <xsl:apply-templates/>
-        </xsl:element>
-    </xsl:template><!-- Durchstreichungen -->
-    <xsl:template match="tei:del">
-        <xsl:element name="strike">
-            <xsl:apply-templates/>
-        </xsl:element>
-    </xsl:template>
+   
+  
     <xsl:template match="tei:origDate[@notBefore and @notAfter]">
         <xsl:variable name="dates">
             <xsl:value-of select="./@*" separator="-"/>

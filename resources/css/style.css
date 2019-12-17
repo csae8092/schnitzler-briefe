@@ -2,16 +2,24 @@ i {
     cursor:pointer;
 }
 
-.signed   { text-align: right;
-font-family: serif;}
+.signed   { 
+ text-align: right;
+ }
 
-.closer {font-family: serif;}
 
-.pre-print { font-family: sans-serif; 
+.closer {
+    
 }
 
-.stamp { font-family: sans-serif; 
-        color:blue;
+.pre-print {
+ background-color: rgba(255, 239, 158, .5);
+ color: rgba(0,0,0,0.4);
+}
+
+.stamp {
+        color: rgba(15,76,129, 0.75);
+        font-weight: bold;
+        
 }
 
 .p {
@@ -22,14 +30,56 @@ font-family: serif;}
     font-variant: small-caps;
 }
 
+
+.div {
+    padding-bottom: 2rem
+}
+
+.address {
+    padding-bottom: 1rem;
+   width: 50%;
+}
+
+
+.addrLine {
+    font-family: serif;
+    font-size: medium;
+    line-height: 0.7;
+}
+
+
 .antiqua {
     font-variant: small-caps;
 }
 
 .gemination {
-    text-decoration: overline solid;
-    color: green;
-    background-color: #ffff00;
+    text-decoration: none;
+}
+
+.illegible {
+    color: #bcc2c0;
+}
+
+.outOfScope {
+    color: #bcc2c0;
+}
+
+.del {
+    text-decoration: line-through
+}
+
+.subst-add {
+}
+
+.add {
+}
+
+.opener {
+  margin-bottom: 1rem;
+}
+
+.salute {
+    text-align: left;
 }
 
 .reference {
@@ -255,11 +305,11 @@ td p {
 }
 
 .spaced_out {
- letter-spacing: 8px;   
+ letter-spacing: 5px;   
 }
 
 .underline {
-    text-decoration: underline;
+    border-bottom: 1px solid #000;
 }
 
 .doubleUnderline {
@@ -292,12 +342,34 @@ td p {
 }
 
 .superscript { position: relative; top: -0.5em; font-size: 80%; }
+.steuerzeichen { position: relative; top: -1em; font-size: 50%; }
+.steuerzeichenUnten { position: relative; bottom: -0.4em; font-size: 50%; }
+
 .subscript { position: relative; top: 0.5em; font-size: 80%; }
 
 .editionText { 
     margin: 0 !important;
-    line-height: 1,75; 
-font-size: 140%;
-font-family:serif;
+    line-height: 1.75; 
+    font-size: x-large;
+    font-family:serif;
     
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline; /* NEW */
+  justify-content: space-between;
+  
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.unsicher {
+    color: gray;
 }
