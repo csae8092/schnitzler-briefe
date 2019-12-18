@@ -691,10 +691,27 @@
         </xsl:choose>
     </xsl:template>
     <xsl:template match="tei:handShift[@scribe]">
+        <xsl:variable name="scribe">
+        <xsl:value-of select="@scribe"/>
+        </xsl:variable>
         <xsl:text>[hs. </xsl:text>
-        NAME DES SCHREIBERS
+        <xsl:value-of select="foo:vorname-vor-nachname(//tei:correspDesc//tei:persName[@key  = $scribe])"/>
         <xsl:text>:] </xsl:text>
     </xsl:template>
+    
+    <xsl:function name="foo:vorname-vor-nachname">
+        <xsl:param name="autorname"/>
+        <xsl:choose>
+            <xsl:when test="contains($autorname, ', ')">
+                <xsl:value-of select="substring-after($autorname, ', ')"/>
+                <xsl:text> </xsl:text>
+                <xsl:value-of select="substring-before($autorname, ', ')"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="$autorname"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
     
     <xsl:template match="tei:salute[parent::tei:opener]">
         <div class="salute editionText">
@@ -816,6 +833,20 @@
         <span class="unsicher">
             <xsl:apply-templates/>
         </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:lg[@type='poem']">
+        <div class="poem editionText">
+        <ul>
+            <xsl:apply-templates/>
+        </ul>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:l">
+            <li>
+                <xsl:apply-templates/>
+            </li>
     </xsl:template>
     
 </xsl:stylesheet>
