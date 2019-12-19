@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-   xml:id="L1899-09-20_01_AS-Goldmann_Beer-Hofmann">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-09-20_01_AS-Goldmann_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -56,17 +53,20 @@
                         <idno>Schnitzler, B 8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Bildpostkarte, Bleistift. Motiv: »Gruss aus <placeName key="pmb146"
-                              >Frankfurt a.&#8239;M.</placeName><space unit="chars" quantity="1"
-                              /><placeName key="pmb43121">Rossmarkt</placeName>«.</p>
+                        <p>eh. Bildpostkarte, Bleistift. Motiv: »Gruss aus <placeName key="pmb146">Frankfurt a. M.</placeName>
+                                    <space unit="chars" quantity="1"/>
+                                    <placeName key="pmb43121">Rossmarkt</placeName>«.</p>
                         <stamp n="1">
                            <placeName key="pmb146">Frankfurt</placeName>
-                           <date when="1899-09-20"><supplied>20.&#160;</supplied>9.&#160;99</date>
+                           <date when="1899-09-20">
+                                        <supplied>20. </supplied>9. 99</date>
                            <time>6-7N</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb946"><supplied>Vahrn</supplied></placeName>
-                           <date when="1899-09-22">22.&#160;9.&#160;99</date>
+                           <placeName key="pmb946">
+                                        <supplied>Vahrn</supplied>
+                                    </placeName>
+                           <date when="1899-09-22">22. 9. 99</date>
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -109,20 +109,34 @@
             <address>
                <addrLine>
                   <pb facs="1899_AS_RBH_3_00009.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
-                     Beer-Hofmann</hi></addrLine>
+                     Beer-Hofmann</hi>
+                    </addrLine>
                <addrLine>
-                  <placeName key="pmb946"><hi rend="latintype">Vahrn</hi></placeName>
+                  <placeName key="pmb946">
+                            <hi rend="latintype">Vahrn</hi>
+                        </placeName>
                </addrLine>
-               <addrLine>bei <hi rend="latintype"><placeName key="pmb28068"
-                  >Brixen</placeName></hi></addrLine>
+               <addrLine>bei <hi rend="latintype">
+                            <placeName key="pmb28068">Brixen</placeName>
+                        </hi>
+                    </addrLine>
                <addrLine>
-                  <placeName key="pmb423"><hi rend="latintype">Tirol</hi></placeName></addrLine>
+                  <placeName key="pmb423">
+                            <hi rend="latintype">Tirol</hi>
+                        </placeName>
+                    </addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
-            <p><pb facs="1899_AS_RBH_3_00008.jpeg"/>Herzliche Grüße<lb/><signed>Arthur</signed></p>
-            <p><handShift scribe="pmb11485"/>Herzlichen Gruß. Vielen Dank für den ſchönen
-                  Brief!<lb/><signed>P. G.</signed></p>
+            <p>
+                    <pb facs="1899_AS_RBH_3_00008.jpeg"/>Herzliche Grüße<lb/>
+                    <signed>Arthur</signed>
+                </p>
+            <p>
+                    <handShift scribe="pmb11485"/>Herzlichen Gruß. Vielen Dank für den ſchönen
+                  Brief!<lb/>
+                    <signed>P. G.</signed>
+                </p>
          </div>
       </body>
    </text>

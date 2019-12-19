@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-   xml:id="L1899-09-30_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-09-30_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -58,12 +55,12 @@
                         <stamp n="1">
                            <!-- Das hatten wir noch nie (gabs ab und zu in meinem Bölsche-Ziegel) ein Zugpoststempel -->
                            <!-- er nennt die Strecke des Zuges [Cöln (RH) - Niederlahnst{ein} - Frankfurt (M)], die Zugnummer (könnte 32 sein) und das Datum (30.9.99) - wie angeben?-->
-                           <placeName></placeName>
-                           <date>30.&#160;9.&#160;99</date>
+                           <placeName/>
+                           <date>30. 9. 99</date>
                         </stamp>
                         <stamp n="2">
                            <placeName key="pmb40832">St. Michael in Eppan</placeName>
-                           <date>1&#160;10&#160;99</date>
+                           <date>1 10 99</date>
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -106,15 +103,21 @@
             <address>
                <addrLine>
                   <pb facs="1899_AS_RBH_3_00019.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
-                     Beer-Hofmann</hi></addrLine>
+                     Beer-Hofmann</hi>
+                    </addrLine>
                <addrLine>
-                  <placeName key="pmb40832"><hi rend="latintype">St. Michael</hi></placeName>
+                  <placeName key="pmb40832">
+                            <hi rend="latintype">St. Michael</hi>
+                        </placeName>
                </addrLine>
                <addrLine>in Eppan</addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
-            <p rend="center"><pb facs="1899_AS_RBH_3_00018.jpeg"/><hi rend="latintype">Heilô!</hi></p>
+            <p rend="center">
+                    <pb facs="1899_AS_RBH_3_00018.jpeg"/>
+                    <hi rend="latintype">Heilô!</hi>
+                </p>
          </div>
       </body>
    </text>

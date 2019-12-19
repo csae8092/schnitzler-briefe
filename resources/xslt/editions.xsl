@@ -14,7 +14,7 @@
     <xsl:param name="projectName"/>
     <xsl:param name="authors"/>
     <xsl:variable name="quotationURL">
-        OASCH
+        klapptnoned
     </xsl:variable>
     <xsl:variable name="quotationString">
         <xsl:value-of select="concat('Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren. Digitale Edition. Hg. Martin Anton Müller und Gerd Hermann Susen. ', $doctitle, ', ', $quotationURL, ' (Stand ', $currentDate, ') PID: ', $pid)"/>
@@ -33,27 +33,6 @@
 ### Seitenlayout und -struktur ###
 ##################################
 -->
-    
-    <head>
-            <link href="resources/css/cslink.css" rel="stylesheet"/>
-    </head>
-    
-    <style>
-        .popover {
-        border-radius: 0px;
-        }
-        .list-goup {
-        }
-        .list-group-item {
-        border-radius: 0px;
-        }
-        .list-group-item:first-child, .list-group-item:last-child {
-        border-radius: 0;
-        }
-        .popover hr {
-        width: 50%;
-        }
-    </style>
     
    
     <xsl:template match="/">
@@ -114,20 +93,26 @@
                         </xsl:choose>
                     </xsl:variable>
                     <p style="text-align:center;">
-                        <xsl:if test="not(tei:teiHeader[1]/tei:revisionDesc[1]/@status ='approved')">
-                            <span style="color: orange;">TEXTQUALITÄT: ENTWURF</span>
-                        </xsl:if>
+                        <xsl:choose>
+                            <xsl:when test="not(//tei:teiHeader[1]/tei:revisionDesc[1]/@status ='approved')">
+                                <a class="ml-3" data-toggle="modal" data-target="#qualitaet">
+                                    <span style="color: orange;">QUALITÄT: ENTWURF</span>
+                                </a>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                
+                            </xsl:otherwise>
+                        </xsl:choose>
                         <a class="ml-3" data-toggle="modal" data-target="#ueberlieferung">ÜBERLIEFERUNG</a>
                         <a class="ml-3" data-toggle="modal" data-target="#correspdesc">CORRESPDESC</a>
                         <a class="ml-3">
                             <xsl:attribute name="href">
                                 <xsl:value-of select="$path2source"/>
-                            </xsl:attribute>TEI</a>
-                        <!--<div class="res-act-button res-act-button-copy-url" id="res-act-button-copy-url" data-copyuri="{$quotationURL}">
-                            <span id="copy-url-button">
-                                <i class="fas fa-quote-right"/> ZITIEREN
-                                <!-\- {{ "Copy Resource Link"|trans }}-\->
-                            </span>
+                            </xsl:attribute>TEI </a>
+                        <a class="ml-3" data-copyuri="{$quotationURL}">
+                            
+                                ZITIEREN
+                            
                             <span id="copyLinkTextfield-wrapper">
                                 <span type="text" name="copyLinkInputBtn" id="copyLinkInputBtn" data-copyuri="{$quotationString}">
                                     <i class="far fa-copy"/>
@@ -136,8 +121,7 @@
                                     <xsl:value-of select="$quotationString"/>
                                 </textarea>
                             </span>
-                        </div>
-                        -->
+                        </a>
                         <a class="ml-3">
                             <xsl:attribute name="href">
                             <xsl:value-of select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?document=entry__', $datum,'.xml')"/>
@@ -157,12 +141,31 @@
                 </div>
                 <div class="card-footer">
                     <dl class="kommentarhang">
-                        <xsl:apply-templates select="//tei:anchor[@type='commentary']|//tei:note[@type='commentary']" mode="lemma"/>
+                        <xsl:apply-templates select="//tei:anchor[@type='textConst']|//tei:note[@type='textConst']|//tei:anchor[@type='commentary']|//tei:note[@type='commentary']" mode="lemma"/>
                     </dl>
                     
                     
                
               
+                </div>
+            </div>
+            
+            <div class="modal fade" id="qualitaet" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                <h5>Textqualität</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">x</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Dieses Korrespondenzstück wurde noch nicht ausreichend mit dem Original abgeglichen. Es entspricht damit noch nicht 
+                                den angestrebten Qualitätsstandards und sollte derzeit noch nicht als Zitatvorlage dienen.
+                            </p>
+                        </div>
+                    
+            </div>
                 </div>
             </div>
             
@@ -602,9 +605,8 @@
     <xsl:template match="tei:anchor[@type='textConst']" mode="lemma">
         <xsl:for-each-group select="following-sibling::node()" group-ending-with="//tei:note[@type = 'textConst' ]">
             <xsl:if test="position() eq 1">
-                <strong>
-                    <xsl:apply-templates select="current-group()[position() != last()]" mode="lemma"/>
-                </strong>]
+                <dt class="kommentar-lemma">
+                    <xsl:apply-templates select="current-group()[position() != last()]" mode="lemma"/>]</dt>
             </xsl:if>
         </xsl:for-each-group>
     </xsl:template>
