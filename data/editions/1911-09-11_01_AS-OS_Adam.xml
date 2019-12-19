@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1911-09-11_01_AS-OS_Adam">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Arthur und Olga Schnitzler an Robert Adam, [nach dem 10. 9. 1911?]</title>
+                <author key="pmb2121">Schnitzler, Arthur</author>
+                <author key="pmb2173">Schnitzler, Olga</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                     <country>A</country>
+    <settlement>Wien</settlement>
+   </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="2370"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>D</country>
+                                <settlement>Marbach am Neckar</settlement>
+                                <repository>Deutsches Literaturarchiv</repository>
+                                <idno>96.34.2/31</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>gedruckte Karte mit Trauerrand, ms. Briefumschlag.</p>
+                              <stamp n="1">
+                                 <placeName key="pmb50">Wien</placeName>
+                              </stamp>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <persName key="pmb2173">Schnitzler, Olga</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                    <date notBefore="1908" notAfter="1918" when="1911-09-11" n="01">[nach dem 10. 9. 1911?]</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pmb12438">Adam, Robert</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="MAM" when="2019-05-21">Angelegt</change>
+            <change who="MAM" when="2019-05-21">Index check</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="card">
+        <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                  <pb facs=""/>Herrn Dr. Robert Adam</addrLine>
+                    <addrLine>
+                  <placeName key="pmb62">Wien XII.</placeName>
+               </addrLine>
+                    <addrLine>
+                  <placeName key="pmb1239">Meidlinger Hauptstrasse 56</placeName>.</addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+              <p>
+               <pb facs=""/>
+               <hi rend="pre-print">ARTHUR UND OLGA SCHNITZLER</hi>
+            </p>
+                <p>
+               <hi rend="pre-print">DANKEN HERZLICHST FÜR DIE IHNEN ERWIESENE <anchor type="commentary" xml:id="KL2370-1"/>THEILNAHME<note type="commentary" xml:id="KL2370-1h">Die undatierte Karte, dessen Datum auf dem Stempel nicht
+                    zu entziffern ist, lässt sich durch die verwendete Briefmarke eingrenzen, die <date>1908</date> – anlässlich des sechzigjährigen Thronjubiläums Kaiser <persName key="pmb2513">Franz Joseph</persName>s ausgegeben wurde. 
+                    Der nächste familiäre Todesfall, für den eine eigens gedruckte Karte erstellt worden sein dürfte, ist der Tod von <persName key="pmb2121">Schnitzler</persName>s Mutter <persName key="pmb12701">Luise</persName> am <date>9. 9. 1911</date>.</note>.</hi>
+            </p>
+            </div>
+        </body>
+    </text>
+</TEI>

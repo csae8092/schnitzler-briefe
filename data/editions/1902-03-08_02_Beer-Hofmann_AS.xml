@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1902-03-08_02_Beer-Hofmann_AS">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 8. 3. 1902</title>
+            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </editor>
+            <funder>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASBW</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
+            <idno type="ASBW" n="2577"/>
+            <availability status="free">
+               <p>Copyright © 2019</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 8</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="ASBH">
+                  <monogr>
+                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <title level="m">Briefwechsel 1891–1931</title>
+                     <editor>Hg. Konstanze Fliedl</editor>
+                     <imprint>
+                        <pubPlace>Wien, Zürich</pubPlace>
+                        <publisher>Europaverlag</publisher>
+                        <date when="1992">1992</date>
+                     </imprint>
+                     <biblScope unit="pp">XXXX</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction  type="sent">
+               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName key="pmb173">Rodaun</placeName>
+               <date when="1902-03-08" n="02">8. 3. 1902</date>
+            </correspAction>
+            <correspAction  type="received">
+               <persName key="pmb2121">Schnitzler, Arthur</persName>
+            </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1902-03-03_01">Schnitzler an Beer-Hofmann, 3. 3. 1902</ptr>
+               <ptr type="next" subtype="toAuthor" target="1902-06-14_01">Schnitzler an Beer-Hofmann, 14. 6. 1902</ptr>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="proposed">
+         <change who="MAM" when="2019-06-12">Automatisch angelegt aus Buchausgabe</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <placeName key="pmb173">Rodaun</placeName>
+                  <space unit="chars" quantity="1"/>
+                  <date when="1902-03-08">8/III 02</date>
+               </dateline>
+            </opener>
+            <p>
+               <salute>Lieber Arthur! </salute>Man sieht und hört nichts von Ihnen. Suchen Sie noch
+               Wohnung? Wir müssen ja doch einmal etwas verabreden. Bitte fügen</p>
+            <p>Sie auf beiliegendem Couvert die nähere Adresse bei, und werfen Sie es dann in ein
+               Postkastel. Was macht <persName key="pmb12740">Gustav Schwarzkopf</persName>; sagen
+               Sie ihm daß ich gekränkt bin.</p>
+            <closer>Von Herzen Ihr <signed>Richard</signed>
+            </closer>
+         </div>
+
+      </body>
+   </text>
+</TEI>

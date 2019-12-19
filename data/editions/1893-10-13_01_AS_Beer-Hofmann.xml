@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-10-13_01_AS_Beer-Hofmann">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann,
+               13. 10. 1893</title>
+            <author key="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </editor>
+            <funder>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASBW</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
+            <idno type="ASBW" n="2769"/>
+            <availability status="free">
+               <p>Copyright © 2019</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>U.S.A.</country>
+                        <settlement>Yale</settlement>
+                        <repository>Beinecke Rare Book and Manuscript Library</repository>
+                        <idno>Yale Collection of German Literature, MSS 31</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Postkarte (Rohrpost), Bleistift.</p>
+                        <stamp n="1">
+                           <placeName key="pmb51">Wien 1/1</placeName>
+                           <date>13 X 93</date>
+                           <time>5 40N</time>
+                        </stamp>
+                        <stamp n="2">
+                           <placeName key="pmb51">Wien 1/1</placeName>
+                           <date>13 X <unclear>9</unclear>3</date>
+                           <time>5 50N</time>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction  type="sent">
+               <persName key="pmb2121">Schnitzler, Arthur</persName>
+               <placeName key="pmb50">Wien</placeName>
+               <date when="1893-10-13" n="01">13. 10. 1893</date>
+            </correspAction>
+            <correspAction  type="received">
+               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName key="pmb51">Wien</placeName>
+               <date when="1893-10-13">13. 10. 1893</date>
+            </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1893-10-05_01">Schnitzler an Beer-Hofmann, [zwischen 5. 10. und
+                  14. 11. 1893]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-10-14_01">Schnitzler an Beer-Hofmann, [14. 10. 1893?]</ptr>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="GHS" when="2019-10-03">angelegt aus Faksimile</change>
+         <change who="MAM" when="2019-10-03">Durchsicht</change>
+         <change who="MAM" when="2019-12-03">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="1893_AS_RBH_3_00023.jpeg"/>
+      <graphic url="1893_AS_RBH_3_00024.jpeg"/>
+   </facsimile>
+   <text type="card">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>
+                  <pb facs="1893_AS_RBH_2_00023.jpeg"/>
+                  <hi rend="latintype">Herrn Dr. Rich.
+                     Beer-Hofmann</hi>
+               </addrLine>
+               <addrLine>
+                  <placeName key="pmb50">Wien</placeName>
+               </addrLine>
+               <addrLine>
+                  <placeName key="pmb338">
+                     <hi rend="latintype">I
+                     Wollzeile 15</hi>
+                  </placeName>.</addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <p>
+               <pb facs="1893_AS_RBH_2_00022.jpeg"/>
+               <salute>Lieber Richard, </salute>ich habe den
+               Sitz zur <workName key="pmb31709">Palaſt-<hi rend="latintype">revolution</hi>
+               </workName> u hole Sie morgen we<c rendition="#gemination-n"/>s
+               Ihnen recht, um <time>½ 7</time> von <hi rend="latintype">
+                  <placeName key="pmb34">Griensteidl</placeName>
+               </hi> ab</p>
+            <closer>Ihr er<unclear>gb</unclear>
+               <signed>Arth</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1904-02-15_01_Mann_AS">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Thomas Mann an Arthur Schnitzler, 15. 2. 1904</title>
+                <author key="pmb12176">Mann, Thomas</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="1980"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                 <listWit>
+                    <witness n="1">
+                  <msDesc>
+                      <msIdentifier>
+                          <country>GB</country>            
+                          <settlement>Cambridge</settlement>            
+                          <repository>University Library</repository>            
+                          <idno>Schnitzler, B 67</idno>
+                      </msIdentifier>
+                      <physDesc>
+                          <p>eh. Briefkarte.</p>
+                      </physDesc>
+                  </msDesc>
+                    </witness>
+                </listWit> 
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Arthur Schnitzler – Thomas Mann: Briefe</title>
+                            <author>Krotkoff, Hertha</author>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Modern Austrian Literature</title>
+                            <biblScope unit="jg">7</biblScope>
+                            <biblScope unit="nr">1/2</biblScope>
+                            <imprint>
+                                <date when="1974">1974</date>
+                            </imprint>
+                            <biblScope unit="pp">13</biblScope>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb12176">Mann, Thomas</persName>
+                    <placeName key="pmb38129">München</placeName>
+                    <date when="1904-02-15" n="02">15. 2. 1904</date>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                </correspAction>
+            <correspContext>
+               <ptr type="next" subtype="toAuthor" target="1908-08-07_01">Mann an Schnitzler, 7. 8. 1908</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="GHS" when="2018-11-11">Angelegt</change>
+            <change who="MAM" when="2018-12-10">Durchsicht</change>
+            <change who="MAM" when="2018-12-11">Index check</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="card">
+        <body>
+           
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline>
+                  <pb facs="gray00208"/>
+                  <placeName key="pmb38129">München</placeName> d. <date>15. II. 1904</date>
+                  <lb/>
+                  <placeName key="pmb1241">Konradstraße</placeName> 11 pt</dateline>
+                    <salute>Verehrter Herr:</salute>
+            </opener>                         
+                <p>Durch unſeren gemeinſamen <rs type="person" key="pmb11324">Verleger</rs> erhielt ich das Exemplar Ihres Schauspiels »<workName key="pmb29985">Der einsame Weg</workName>« mit
+                    Ihrer liebenswürdigen Widmung und beeile mich, Ihnen meine Freude und Dankbarkeit auszudrücken. Seien
+                    Sie überzeugt, <pb facs="gray00209"/>daß ich den freundlichen Beifall des Dichters der »<workName key="pmb29863">Lebendigen Stunden</workName>«
+                    von ganzem Herzen zu ſchätzen weiß!</p>
+                <closer>Ihr ergebener<lb/>
+                    <signed>Thomas Mann.</signed>
+                    
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

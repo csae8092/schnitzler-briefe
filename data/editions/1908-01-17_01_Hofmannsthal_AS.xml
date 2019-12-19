@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1908-01-17_01_Hofmannsthal_AS"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 17. 1. 1908</title>
+            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </editor>
+            <funder>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASBW</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
+            <idno type="ASBW" n="3054"/>
+            <availability status="free">
+               <p>Copyright © 2019</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 43</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                              <hi rend="latintype">Hugo</hi>
+                           </quote>«. XXXX</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HvHAS">
+                  <monogr>
+                     <author key="pmb11740">Hofmannsthal, Hugo</author>
+                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefwechsel</title>
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1964">1964</date>
+                     </imprint>
+                     <biblScope unit="pp">XXXX</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
+               <!--<placeName key="pmb50">Wien</placeName>-->
+               <date when="1908-01-17" n="01">17. 1. 1908</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="pmb2121">Schnitzler, Arthur</persName>
+               <placeName key="pmb50">Wien</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="proposed">
+         <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <date>Freitag</date>.</dateline>
+               <salute>mein lieber Arthur</salute>
+            </opener>
+            <p>ich freue mich sehr. (Mehr als ich gedacht hätte daß ich mich freuen würde, wenn man
+               mir vorher gesagt hatte: wird es Sie freuen, wenn A<c rendition="#dots" n="3"/>?) </p>
+            <p>Es ist besonders lieb, daß Sie ihn (durch den <rs type="person" key="pmb13097"
+                  >Redacteur</rs> der <rs type="work" key="pmb35935">Zeit</rs>) gleich <rs
+                  type="work" key="pmb33041">mir verliehen</rs> haben. Aber, im Ernst, hätte ich ihn
+               jemals bekommen, bevor Sie ihn hatten so hätte ich ihn mit einem sehr groben Brief
+               zurückgeschickt, so leid es mir um das Geld getan hätte.<space unit="chars"
+                  quantity="5"/>Komisch übrigens (gewiß hat der <rs type="person" key="pmb13097"
+                  >Interviewer</rs> sich blöd ausgedrückt) daß Sie sich sollten so quasi
+               »bescheiden« ausgedrückt haben statt zu sagen: Natürlich muß ich ihn kriegen, schon
+               längst hätten mir die Schweine ihn geben müssen u. s. f. Ich sehne mich sehr nach
+               Ihnen. <space unit="chars" quantity="5"/>Wie wird uns <persName key="pmb2173"
+                  >Olga</persName> dafür entschädigen, daß sie sich wichtig gemacht hat? Nun
+               übrigens, das arme Ding, ich lasse sie schön und herzlich grüßen. </p>
+            <p>Von Herzen</p>
+            <closer>Ihr <signed>Hugo</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

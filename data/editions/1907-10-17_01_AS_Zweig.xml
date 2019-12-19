@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1907-10-17_01_AS_Zweig">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Arthur Schnitzler an Stefan Zweig, 17. 10. 1907</title>
+                <author key="pmb2121">Schnitzler, Arthur</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="2193"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                 <!--<listWit>
+                     <witness n="1">
+                         <msDesc>
+                     <msIdentifier>
+                         <country>IL</country>           
+                         <settlement>Jerusalem</settlement>
+                         <repository>The National Library of Israel</repository>
+                         <idno>ARC. Ms. Var. 305</idno>
+                     </msIdentifier>
+                     <physDesc>
+                         <p>XXXX</p>
+                         <!-\- Original an Zweig noch nicht vorhanden -\->
+                     </physDesc>
+                         </msDesc></witness>
+                 </listWit>-->
+                <listBibl>
+                    <biblStruct>
+                            <monogr> 
+                                <author key="pmb13212">Zweig, Stefan</author> 
+                                <title level="m">Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler</title>
+                                <editor>Hg. Jeffrey B. Berlin, Hans-Ulrich Lindken, Donald A. Prater</editor>
+                                <imprint>
+                                    <pubPlace>Berlin</pubPlace>
+                                    <publisher>S. Fischer</publisher>
+                                    <date when="1987">1987</date>
+                                </imprint>
+                                <biblScope unit="pp">353</biblScope>
+                            </monogr>
+                    </biblStruct>
+                    
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                    <date when="1907-10-17" n="01">17. 10. 1907</date>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb13212">Zweig, Stefan</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                </correspAction>
+            <correspContext>
+               <ptr type="next" subtype="toAuthor" target="1908-01-15_01">Zweig an Schnitzler, 15. 1. 190[8?]</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="GHS" when="2019-01-25">Angelegt</change>
+            <change who="MAM" when="2019-02-26">Durchsicht</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession" n="1">
+                <p>
+               <salute>Verehrteſter Herr Doktor, </salute>ſchönſten Dank für die liebenswürdige Überſendung Ihres
+                    <rs type="work" key="pmb33716">Novellenbuches</rs>, auf deſſen Lectüre ich mich aufrichtig freue.</p>
+                <closer>Ihr Sie hochſchätzender<lb/>
+                    <signed>Arthur Schnitzler.</signed>                                               
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

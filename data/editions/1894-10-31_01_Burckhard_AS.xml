@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-10-31_01_Burckhard_AS">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Max Burckhard an Arthur Schnitzler, [31. 10. 1894]</title>
+                <author key="pmb11036">Burckhard, Max</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="1902"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>GB</country>
+                                <settlement>Cambridge</settlement>
+                                <repository>University Library</repository>
+                                <idno>Schnitzler, B 20</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>ms. Telegramm, auf das Textfeld zusammengeschnitten. Von
+                                    Schnitzler mit Bleistift datiert: »<quote>
+                                        <date>31/X 94</date>
+                                    </quote>«. Von unbekannter Hand nummeriert:
+                                    »<quote>2</quote>«.</p>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb11036">Burckhard, Max</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                    <date when="1894-10-31" n="01">[31. 10. 1894]</date>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1894-07-02_02">Burckhard an Schnitzler, 2. 7. 1894</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-11-04_01">Burckhard an Schnitzler, [4. 11. 1894]</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="MAM" when="2018-10-15">Angelegt</change>
+            <change who="MAM" when="2018-10-01">Index check</change>
+            <change who="GHS" when="2019-10-06">finalisiert</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="MS-SCHNITZLER-B-00020-000-00009.jpg"/>
+    </facsimile>
+    <text type="telegram">
+        <body>
+            <div type="writingSession" n="1">
+                <p>
+                    <pb facs="MS-SCHNITZLER-B-00020-000-00009.jpg"/>gratuliere herzlichst. <rs key="pmb29917" type="work">stueck</rs> hat tiefen eindruck auf mich gemacht.
+                    lebenswahr und poetische wirkung freilich in anderem sinne als dem gewoehnlichen
+                    zugleich. werde wegen factischem vorgehen puncto censur muendlich naeheres
+                    besprechen. herzliche empfehlung <signed>doctor <anchor type="textConst" xml:id="TL902-1"/>burckhard<note type="textConst" xml:id="TL902-1h">Satzfehler: »<quote>burchhard</quote>«.</note>
+                    </signed>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

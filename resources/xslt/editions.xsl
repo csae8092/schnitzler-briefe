@@ -13,15 +13,20 @@
     <xsl:param name="progress"/>
     <xsl:param name="projectName"/>
     <xsl:param name="authors"/>
-    <xsl:variable name="signatur">
-   <xsl:if test=".//tei:msIdentifier/tei:settlement/text() and not(empty(.//tei:msIdentifier/tei:settlement/text()))">
-            <xsl:value-of select=".//tei:msIdentifier/tei:settlement/text()"/>
-        </xsl:if>
-        <xsl:value-of select=".//tei:msIdentifier/tei:institution/text()"/>
-        <xsl:text>, </xsl:text>
-        <xsl:value-of select=".//tei:msIdentifier/tei:repository[1]/text()"/>
-        <xsl:text>, </xsl:text>
-        <xsl:value-of select=".//tei:msIdentifier/tei:idno[1]/text()"/>
+    <xsl:variable name="quotationURL">
+        OASCH
+    </xsl:variable>
+    <xsl:variable name="quotationString">
+        <xsl:value-of select="concat('Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren. Digitale Edition. Hg. Martin Anton Müller und Gerd Hermann Susen. ', $doctitle, ', ', $quotationURL, ' (Stand ', $currentDate, ') PID: ', $pid)"/>
+    </xsl:variable>
+    <xsl:variable name="doctitle">
+        <xsl:value-of select="//tei:title[@type='main']/text()"/>
+    </xsl:variable>
+    <xsl:variable name="currentDate">
+        <xsl:value-of select="format-date(current-date(), '[Y]-[M]-[D]')"/>
+    </xsl:variable>
+    <xsl:variable name="pid">
+        <xsl:value-of select="//tei:publicationStmt//tei:idno[@type='URI']/text()"/>
     </xsl:variable>
  <!--
 ##################################
@@ -118,13 +123,28 @@
                             <xsl:attribute name="href">
                                 <xsl:value-of select="$path2source"/>
                             </xsl:attribute>TEI</a>
+                        <!--<div class="res-act-button res-act-button-copy-url" id="res-act-button-copy-url" data-copyuri="{$quotationURL}">
+                            <span id="copy-url-button">
+                                <i class="fas fa-quote-right"/> ZITIEREN
+                                <!-\- {{ "Copy Resource Link"|trans }}-\->
+                            </span>
+                            <span id="copyLinkTextfield-wrapper">
+                                <span type="text" name="copyLinkInputBtn" id="copyLinkInputBtn" data-copyuri="{$quotationString}">
+                                    <i class="far fa-copy"/>
+                                </span>
+                                <textarea rows="3" name="copyLinkTextfield" id="copyLinkTextfield" value="">
+                                    <xsl:value-of select="$quotationString"/>
+                                </textarea>
+                            </span>
+                        </div>
+                        -->
                         <a class="ml-3">
                             <xsl:attribute name="href">
                             <xsl:value-of select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?document=entry__', $datum,'.xml')"/>
                         </xsl:attribute>TAGEBUCH</a>
-                        <label>
+                       <!-- <label>
                              <input type="checkbox" id="check_auszeichnungen"> MARKIERUNGEN</input>
-                        </label>
+                        </label>-->
                         
                         
                         <!--<div id="csLink" data-correspondent-1-name="" data-correspondent-1-id="" data-correspondent-2-name="" data-correspondent-2-id="http://d-nb.info/gnd/115674667" data-start-date="$datum" data-end-date="" data-range="30" data-selection-when="before-after" data-selection-span="median-before-after" data-result-max="4" data-exclude-edition="#AVHR">
@@ -132,37 +152,21 @@
                    </p>
                     <p style="text-align:center;">
                         <input type="range" min="1" max="{$amount}" value="{$currentIx}" data-rangeslider="" style="width:100%;"/>
-                        <a id="output" class="btn btn-main btn-outline-primary btn-sm" href="show.html?document=entry__1879-03-03.xml&amp;directory=editions" role="button">Oiso</a>
+                        <a id="output" class="btn btn-main btn-outline-primary btn-sm" href="show.html?document=entry__1889-08-02_01_Mamroth_AS.xml&amp;directory=editions" role="button">Gehe zu</a>
                     </p>
                 </div>
                 <div class="card-footer">
-                    <p style="text-align:center;">
-                        <xsl:for-each select="tei:TEI/tei:text/tei:body//tei:note">
-                            <div class="footnotes">
-                                <xsl:element name="a">
-                                    <xsl:attribute name="name">
-                                        <xsl:text>fn</xsl:text>
-                                        <xsl:number level="any" format="1" count="tei:note[./tei:p]"/>
-                                    </xsl:attribute>
-                                    <a>
-                                        <xsl:attribute name="href">
-                                            <xsl:text>#fna_</xsl:text>
-                                            <xsl:number level="any" format="1" count="tei:note"/>
-                                        </xsl:attribute>
-                                        <sup>
-                                            <xsl:number level="any" format="1" count="tei:note[./tei:p]"/>
-                                        </sup>
-                                    </a>
-                                </xsl:element>
-                                <xsl:apply-templates/>
-                            </div>
-                        </xsl:for-each>
-                    </p>
+                    <dl class="kommentarhang">
+                        <xsl:apply-templates select="//tei:anchor[@type='commentary']|//tei:note[@type='commentary']" mode="lemma"/>
+                    </dl>
+                    
+                    
+               
+              
                 </div>
             </div>
             
-            <script type="text/javascript" src="resources/js/cslink.js"/>
-            
+           
             <div class="modal fade" id="correspdesc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
@@ -579,5 +583,32 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
+    
+    <xsl:template match="tei:anchor[@type='commentary']" mode="lemma">
+        <xsl:for-each-group select="following-sibling::node()" group-ending-with="//tei:note[@type = 'commentary' ]">
+            <xsl:if test="position() eq 1">
+                <dt class="kommentar-lemma">
+                    <xsl:apply-templates select="current-group()[position() != last()]" mode="lemma"/>]</dt>
+            </xsl:if>
+        </xsl:for-each-group>
+    </xsl:template>
+    
+    <xsl:template match="tei:note" mode="lemma">
+        <dd class="kommentar-text">
+        <xsl:apply-templates/>
+        </dd>
+    </xsl:template>
+    
+    <xsl:template match="tei:anchor[@type='textConst']" mode="lemma">
+        <xsl:for-each-group select="following-sibling::node()" group-ending-with="//tei:note[@type = 'textConst' ]">
+            <xsl:if test="position() eq 1">
+                <strong>
+                    <xsl:apply-templates select="current-group()[position() != last()]" mode="lemma"/>
+                </strong>]
+            </xsl:if>
+        </xsl:for-each-group>
+    </xsl:template>
+    
+   
    
 </xsl:stylesheet>

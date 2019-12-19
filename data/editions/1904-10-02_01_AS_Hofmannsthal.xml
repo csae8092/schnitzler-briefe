@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1904-10-02_01_AS_Hofmannsthal"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 2. 10. 1904</title>
+            <author key="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </editor>
+            <funder>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASBW</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
+            <idno type="ASBW" n="2982"/>
+            <availability status="free">
+               <p>Copyright © 2019</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>D</country>
+                        <settlement>Frankfurt am Main</settlement>
+                        <repository>Freies Deutsches Hochstift</repository>
+                        <idno>Hs-30885,XXXX</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HvHAS">
+                  <monogr>
+                     <author key="pmb11740">Hofmannsthal, Hugo</author>
+                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefwechsel</title>
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1964">1964</date>
+                     </imprint>
+                     <biblScope unit="pp">XXXX</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction  type="sent">
+               <persName key="pmb2121">Schnitzler, Arthur</persName>
+               <placeName key="pmb50">Wien</placeName>
+               <date when="1904-10-02" n="01">2. 10. 1904</date>
+            </correspAction>
+            <correspAction  type="received">
+               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName key="pmb50">Wien</placeName>
+            </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1904-09_01">Hofmannsthal, Hofmannsthal an Schnitzler, 1904-09</ptr>
+               <ptr type="next" subtype="toAuthor" target="1904-10-08_01">Hofmannsthal an Schnitzler, 8. 10. 1904</ptr>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="proposed">
+         <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <placeName key="pmb50">Wien</placeName>, <date>2. 10. 904</date>
+               </dateline>
+            </opener>
+            <p>
+               <salute>Lieber, </salute>in dieser Woche werden wir uns kaum sehen können; – es fügt
+               sich gerade, daß allerlei zusammen kommt: <anchor type="commentary" xml:id="KMAM201909278-1"/>
+               <persName key="pmb11201">Duse</persName>
+               <note type="commentary" xml:id="KMAM201909278h">Gastspiel von
+                  <persName key="pmb11201">Eleonora Duse</persName>, <date>6. 10. 1904</date> am <orgName key="pmb36996">Theater an der Wien</orgName> in der Hauptrolle
+                  von <workName key="pmb30641">Die Kameliendame</workName>.</note>,
+               <placeName key="pmb14">Burgtheater</placeName> (<workName key="pmb41439">Heinrich</workName>),
+                  <placeName key="pmb40">Josefstadt</placeName>, Familie, und so müssen wir das
+               abendliche <placeName key="pmb63">Hietzing</placeName> auf Beginn nächster Woche
+               verschieben. Nachmittags arbeite ich so viel als möglich. Wie ist Ihre Einteilung?
+               Wenn man einmal in den Vormittagsstunden nach <placeName key="pmb173">Rodaun</placeName> käme, (wofür ich freilich nicht garantieren kann) würde man
+               Sie stören? Die Bücher haben Sie bekommen? </p>
+            <closer>Von Herzen<lb/>Ihr<lb/>
+               <signed>Arthur</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

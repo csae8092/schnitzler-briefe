@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1916-05-10_01_Adam_AS">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Robert Adam an Arthur Schnitzler, 10. 5. 1916</title>
+                <author key="pmb12438">Adam, Robert</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="2114"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                 <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>D</country>          
+                                <settlement>Marbach am Neckar</settlement>
+                                <repository>Deutsches Literaturarchiv</repository>
+                                <idno>A:Schnitzler, HS.NZ85.1.4230,13</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Brief, 1 Bl., 2 S. Von Schnitzler beschriftet:
+                                    »<quote>
+                              <hi rend="latintype">Adam</hi>
+                           </quote>« und: »<quote>
+                              <placeName key="pmb1239">XII. Meidl Hpts 58</placeName>
+                           </quote>«.</p>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb12438">Adam, Robert</persName>
+                    <placeName key="pmb1239">Wien</placeName>
+                    <date when="1916-05-10" n="01">10. 5. 1916</date>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                    
+                </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1915-10-21_01">Adam an Schnitzler, 21. 10. 1915</ptr>
+               <ptr type="next" subtype="toAuthor" target="1916-05-15_01">Schnitzler an Adam, 15. 5. 1916</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="GHS" when="2018-12-12">Angelegt</change>
+            <change who="MAM" when="2018-12-28">Index check</change>
+            <change who="MAM" when="2018-12-28">Durchsicht</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                  <pb facs="OGL Kopie"/>
+                  <placeName key="pmb1239">Wien</placeName>, am <date>10. Mai 1916</date>
+               </dateline>
+                    <salute>Hochgeehrter Herr Doktor!</salute>
+            </opener>
+                <p>Ich möchte gerne alles vermeiden, was Ihnen als Aufdringlichkeit erſcheinen
+                    könnte, und doch drängt es mich, bei Ihnen wieder einmal vorzuſprechen, um Ihnen
+                    mein Herz auszuſchütten und etwas Ermutigung zu haben. Darf ich, da ich bei
+                    meinen letzten Beſuchen nicht das Glück hatte, Sie anzutreffen, mir die Anfrage
+                    erlauben, ob und wann ich bei Ihnen vor<pb facs="OGL Kopie"/>ſprechen
+                    könnte, ohne Sie zu ſtören?</p>
+                <p>Ich bitte Sie, hochverehrter Herr Doktor, mir dieſe Behelligung nicht übel zu
+                    nehmen.</p>
+                <p>Mit den ergebenſten Grüßen</p>
+                <closer>Ihr<lb/>
+                    <signed>Robert Adam</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

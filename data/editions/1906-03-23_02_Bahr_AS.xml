@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1906-03-23_02_Bahr_AS">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, [23. 3. 1906]</title>
+            <author key="pmb10815">Bahr, Hermann</author>
+            <editor>
+               
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>  
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher> 
+            <idno type="HBAS-L" n="1299"/>
+            <availability status="free">
+               <p>Copyright © 2018</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>            
+                        <settlement>Cambridge</settlement>            
+                        <repository>University Library</repository>            
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>hs. Telegramm, beschnitten, erkennbar: Aufgabeort <placeName key="pmb50">Wien</placeName>, Uhrzeit: <time>6 Uhr</time>, von Schnitzler datiert: »<quote>
+                              <date>23/3/906</date>
+                           </quote>«.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>                
+               <biblStruct corresp="HBAS">                              
+                  <monogr>                             
+                     <author key="pmb10815">Bahr, Hermann</author>                                  
+                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
+                     <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
+                     <imprint>                                       
+                        <pubPlace>Göttingen</pubPlace>                                       
+                        <publisher>Wallstein</publisher>                                       
+                        <date when="2018">2018</date>                                  
+                     </imprint>                             
+                  </monogr>                     
+               </biblStruct>             
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction  type="sent">
+               <persName key="pmb10815">Bahr, Hermann</persName>
+               <placeName key="pmb50">Wien</placeName>
+               <date when="1906-03-23" n="02">[23. 3. 1906]</date>
+            </correspAction>
+            <correspAction  type="received">
+               <persName key="pmb2121">Schnitzler, Arthur</persName>
+               <placeName key="pmb50">[Wien]</placeName>
+            </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1906-02-04_01">Bahr an Schnitzler, 4. 2. 1906</ptr>
+               <ptr type="next" subtype="toAuthor" target="1906-06-21_01">Bahr an Schnitzler, 21. 6. 1906</ptr>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="KI MAM" when="2015-12-15">Kollationiert</change>
+         <change who="KI MAM" when="2017-05-29">Kollationiert</change>
+         <change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
+         
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00241"/>
+   </facsimile>
+   <text type="telegram">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <persName key="pmb10818">Mildenburg</persName>
+               <space unit="chars" quantity="1"/>
+               <anchor type="commentary" xml:id="KL299-1"/>singt morgen<note type="commentary" xml:id="KL299-1h">Am <date when="1906-03-24">24. 3. 1906</date> brachte die <placeName key="pmb15">Hofoper</placeName>
+                  <space unit="chars" quantity="1"/>
+                  <workName key="pmb30613">Don Giovanni</workName>;
+                <persName key="pmb10818">Mildenburg</persName> sang <rs type="work" key="pmb30613">Donna Anna</rs>.</note> herzlichst <signed>hermann</signed>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

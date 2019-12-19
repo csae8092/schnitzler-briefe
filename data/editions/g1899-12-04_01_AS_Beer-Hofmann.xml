@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1899-12-04_01_AS_Beer-Hofmann">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 4. 12. 1899</title>
+            <author key="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </editor>
+            <funder>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASBW</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
+            <idno type="ASBW" n="2538"/>
+            <availability status="free">
+               <p>Copyright © 2019</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 8</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Postkarte, Bleistift.</p>
+                        <stamp n="1">
+                           <placeName key="pmb51">Wien 1/1</placeName>
+                           <date>4.&#160;12.&#160;99</date>
+                           <time>10-11N</time>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="pmb2121">Schnitzler, Arthur</persName>
+               <placeName key="pmb50">Wien</placeName>
+               <date when="1899-12-04" n="01">4. 12. 1899</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName key="pmb50">Wien</placeName>
+            </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1899-09-12_01">Beer-Hofmann an Schnitzler, 12. 9. 1899</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-09-29_01">Schnitzler an Beer-Hofmann, 29. 9. 1899</ptr>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="proposed">
+         <change who="GHS" when="2019-12-15">angelegt aus Faksimile</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="1899_AS_RBH_3_00044.jpeg"/>
+      <graphic url="1899_AS_RBH_3_00045.jpeg"/>
+   </facsimile>
+   <text type="card">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>
+                  <pb facs="1899_AS_RBH_3_00044.jpeg"/>Herrn <hi rend="latintype">Dr Richard
+                     Beer-Hofmann</hi></addrLine>
+               <addrLine>
+                  <placeName key="pmb50">Wien</placeName>
+               </addrLine>
+               <addrLine>
+                  <hi rend="latintype">
+                     <placeName key="pmb338">I. Wollzeile 15</placeName>
+                  </hi>.</addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <p><pb facs="1899_AS_RBH_3_00045.jpeg"/><salute>lieber Richard, </salute>ſehr
+               wahrſcheinlich, dſs ich morgen Dinſtag im Club nachtmahle und dann bis gegen ½12 dort
+               bleibe.</p>
+            <p>Mittwoch will ich zu Siegfried, komme nachher wohl auch hin.</p>
+            <closer>Herzlichen Gruſs Ihr <signed>Arthur</signed></closer>
+         </div>
+      </body>
+   </text>
+</TEI>

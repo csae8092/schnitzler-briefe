@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1913-07-19_03_AS_Wedekind">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Arthur Schnitzler an Frank Wedekind, 19. 7. 1913</title>
+                <author key="pmb2121">Schnitzler, Arthur</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="1719"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>D</country>
+                                <settlement>München</settlement>
+                                <repository>Monacensia</repository>
+                                <idno>FW B 159</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Karte, von unbekannter Hand beschriftet: »<quote>
+                                        <date>Aug. 13</date>
+                                    </quote>«.</p>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                    <date when="1913-07-19" n="03">19. 7. 1913</date>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb13068">Wedekind, Frank</persName>
+                </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1910-06-19_02">Wedekind an Schnitzler, 19. 6. 1910</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="MAM" when="2018-08-07">Angelegt aus Kopie</change>
+            <change who="MAM" when="2018-02-14">Index check</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <p>
+                        <pb facs=""/>
+                        <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
+                        <lb/>
+                        <hi rend="pre-print">
+                            <placeName key="pmb150">Wien XVIII. Sternwartestrasse 71</placeName>
+                        </hi>
+                    </p>
+                    <dateline rend="right">
+                        <date>19/7 91<unclear>3</unclear>
+                        </date>
+                    </dateline>
+                    <salute>verehrter Herr Wedekind,</salute>
+                </opener>
+                <p>erſt heute, da bei uns alles wieder in Ordnung iſt und wir uns zur Abreiſe
+                    rüſten, dank ich Ihnen für Ihre lieben theilnahmsvollen Zeilen, die Sie
+                    anläßlich der Erkrankung unſeres <rs type="person" key="pmb12692">Sohnes</rs> an
+                    uns gerich<pb facs=""/>tet haben. Glücklicherweiſe ist die Sache von Anfang an
+                    leicht verlaufen, und wir hatten mehr Unannehmlichkeiten als Sorgen.</p>
+                <p>Sie mein ſehr verehrter lieber Herr Wedekind u Ihre <subst>
+                        <del rend="overwritten">li</del>
+                        <add place="inline">verehrte</add>
+                    </subst>
+                    <space unit="chars" quantity="1"/>
+                    <rs type="person" key="pmb5405">Gattin</rs> bei guter Gelegenheit wiederzuſehen
+                    hoffen meine Frau u ich von Herzen. Wie ſchade daſſ wir diesmal Sie beide und
+                        »<workName key="pmb33269">Franziska</workName>« verſäumt haben!</p>
+                <closer>Viele Grüße von Ihrem <signed>Arthur Schnitzler</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

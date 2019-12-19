@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1916-11-16_01_AS_Adam">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Arthur Schnitzler an Robert Adam, 16. 11. 1916</title>
+                <author key="pmb2121">Schnitzler, Arthur</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="2338"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>D</country>
+                                <settlement>Marbach am Neckar</settlement>
+                                <repository>Deutsches Literaturarchiv</repository>
+                                <idno>96.34.1/22</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Ansichtskarte, Lateinschrift, Motiv: »<quote>
+                                        <placeName key="pmb150">Sternwartestr. 71</placeName>
+                                    </quote>«, mit <persName key="pmb2173">Olga</persName> und
+                                        <persName key="pmb12692">Heinrich</persName> links vor dem
+                                    Haus und Schnitzler und <persName key="pmb2238">Lili</persName>
+                                    auf dem Söller (»<quote>
+                              <persName key="pmb34407">Franz
+                                            Ankner</persName>, Fot., <placeName key="pmb58">Wien VIII.</placeName>
+                           </quote>«).</p>
+                                <stamp n="1">
+                                    <date when="1916-11-18">
+                              <unclear>1</unclear>8. XI. 16</date>
+                                </stamp>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                    <date when="1916-11-16" n="01">16. 11. 1916</date>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb12438">Adam, Robert</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1916-10-11_01">Schnitzler an Adam, 11. 10. 1916</ptr>
+               <ptr type="next" subtype="toAuthor" target="1916-11-20_01">Adam an Schnitzler, 20. 11. 1916</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="MAM" when="2019-05-13">Angelegt</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="card">
+        <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                  <pb facs=""/>Hrn Dr. Robert Adam Pollak</addrLine>
+                    <addrLine>
+                  <placeName key="pmb62">Wien XII</placeName>
+               </addrLine>
+                    <addrLine>
+                  <placeName key="pmb1239">Meidlinger Hauptstr 56</placeName>.</addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                  <pb facs=""/>
+                  <date>16. 11. 916</date>.</dateline>
+                </opener>
+                <p>
+               <salute>Verehrter Herr Doktor,</salute> vielen Dank für die
+                        freundl<unclear>iche</unclear> Ueberſendg der <persName key="pmb11190">Dumas</persName>
+               <space unit="chars" quantity="1"/>
+               <rs key="pmb33652" type="work">Mem</rs> – geſtern erſt bega<c rendition="#gemination-n"/> ich
+                    ſie zu leſen – und hoffe ſehr Sie zu ſehen <unclear>u</unclear> zu ſprechen, ehe
+                    ich zu Ende gelangt <subst>
+                        <del rend="overwritten">
+                     <unclear>w</unclear>
+                  </del>
+                        <add place="inline">bin</add>
+                    </subst>. Sie befinden ſich wohl wieder beſſer? Oder ganz gut? Dies und aehnliches wünschend mit herzlichem Gruß</p>
+                <closer>Ihr <lb/>
+               <signed>ArthurSchnitzler</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

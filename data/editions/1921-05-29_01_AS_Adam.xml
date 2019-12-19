@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1921-05-29_01_AS_Adam">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Arthur Schnitzler an Robert Adam, 29. 5. 1921</title>
+                <author key="pmb2121">Schnitzler, Arthur</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="2367"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>D</country>
+                                <settlement>Marbach am Neckar</settlement>
+                                <repository>Deutsches Literaturarchiv</repository>
+                                <idno>96.34.2/26</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Postkarte, Lateinschrift, Bleistift.</p>
+                              <stamp n="1">
+                                  <placeName key="pmb50">
+                              <unclear>Wien</unclear>
+                           </placeName>
+                                  <date when="1921-05-30">30. V. 21</date>
+                                  <time>5</time>
+                              </stamp>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                    <date when="1921-05-29" n="01">29. 5. 1921</date>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb12438">Adam, Robert</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1921-05-25_01">Schnitzler an Adam, 25. 5. 1921</ptr>
+               <ptr type="next" subtype="toAuthor" target="1922-05-13_01">Adam an Schnitzler, 13. 5. 1922</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="MAM" when="2019-05-17">Angelegt</change>
+            <change who="MAM" when="2019-05-17">Index check</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="card">
+        <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                  <pb facs=""/>A. S.</addrLine>
+                    <addrLine>
+                  <placeName key="pmb68">Wien XVIII</placeName>
+               </addrLine>
+                    <addrLine>
+                  <placeName key="pmb150">Sternwartestr <unclear>71</unclear>
+                  </placeName>
+               </addrLine>
+                </address>
+                <address>
+                    <addrLine>Hrn Ob.L.R</addrLine>
+                    <addrLine>Dr. Robert Ad. Pollak</addrLine>
+                    <addrLine>
+                  <placeName key="pmb62">Wien XII</placeName>
+               </addrLine>
+                    <addrLine>
+                  <placeName key="pmb1239">58 Meidlinger Hptstr 58</placeName>.</addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                  <pb facs=""/>
+                  <date>29/5 1921</date>
+               </dateline>
+                    <salute>Verehrter Herr Doktor,</salute>
+                </opener>
+                <p>eben erhalt ich dringende Einladg zu einer Sitzg eines Autorenverbands für 
+                <date>Dinstag</date> – dürft ich Sie vielleicht statt <date>Dinstag</date> – am 
+                    <pb facs=""/>
+               <date>Donnerstag, 2/6</date>
+               <space unit="chars" quantity="1"/>
+               <time>gegen ½ 7</time>
+                erwarten?</p>
+                <closer>Mit verbindl Gruß<lb/>Ihr sehr ergeb <signed>A. S.</signed>
+            </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

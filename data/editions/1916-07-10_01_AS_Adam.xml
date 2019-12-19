@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1916-07-10_01_AS_Adam">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Arthur Schnitzler an Robert Adam, 10. 7. 1916</title>
+                <author key="pmb2121">Schnitzler, Arthur</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="2334"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>D</country>
+                                <settlement>Marbach am Neckar</settlement>
+                                <repository>Deutsches Literaturarchiv</repository>
+                                <idno>96.34.1/18</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Karte, Bleistift, Lateinschrift.</p>
+                                <stamp n="1">
+                                    <date when="1916-07-10">10. VII. <supplied>1916</supplied>
+                           </date>
+                                </stamp>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb34401">Altaussee</placeName>
+                    <date when="1916-07-10" n="01">10. 7. 1916</date>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb12438">Adam, Robert</persName>
+                    <placeName key="pmb34401">Altaussee</placeName>
+                </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1916-06-29_01">Schnitzler an Adam, 29. 6. 1916</ptr>
+               <ptr type="next" subtype="toAuthor" target="1916-07-19_01">Schnitzler an Adam, 19. 7. 1916</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="MAM" when="2019-05-13">Angelegt</change>
+            <change who="MAM" when="2019-06-17">Index check</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="card">
+        <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                  <pb facs=""/>Schnitzler</addrLine>
+                    <addrLine>
+                  <placeName key="pmb34401">Altaussee</placeName>
+               </addrLine>
+                    <addrLine>
+                  <placeName key="pmb34402">Fischerndorf 79</placeName>
+               </addrLine>
+                </address>
+                <address>
+                    <addrLine>Hrn Dr. Rob. Adam Pollak, Bezirksrichter aus <placeName key="pmb50">Wien</placeName>
+               </addrLine>
+                    <addrLine>d. Z. <placeName key="pmb415">Markt Aussee</placeName>
+               </addrLine>
+                    <addrLine>bei <persName key="pmb34405">Althauser</persName>
+               </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <p>
+               <pb facs=""/>
+               <salute>verehrter Herr Doktor, </salute>ich habe sehr bedauert Ihren
+                    Besuch versäumt zu haben. Würde es Ihnen etwa passen, am <anchor type="commentary" xml:id="KL2334-1"/>
+               <date>Mittwoch</date>
+               <note type="commentary" xml:id="KL2334-1h">
+                  <date>12. 7. 1916</date>
+               </note> oder <date>Donnerstag</date> um
+                        <time>6 Uhr Nm</time> mich zu einem Spaziergang abzuholen? Oder ist
+                    Ihnen der Vomittg lieber? Da könnten Sie da<c rendition="#gemination-n"/> (wie
+                    wir es auch thun) beim <placeName key="pmb106">Seewirth</placeName> speisen? Ich
+                        <unclear>treffe in Ihren</unclear>
+               <space unit="chars" quantity="1"/>
+               <gap unit="chars" quantity="5" reason="illegible"/> u. Sie zu sehen. Herzlichst
+                        grüßen<supplied>d</supplied> Ihr ergebn<unclear>er</unclear>
+                    <signed>A. S.</signed>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

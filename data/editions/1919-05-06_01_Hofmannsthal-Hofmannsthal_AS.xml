@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1919-05-06_01_Hofmannsthal-Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Gerty und Hugo von Hofmannsthal an Arthur Schnitzler,
+               6. 5. 1919</title>
+            <author key="pmb2292">Hofmannsthal, Gerty von</author>
+            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </editor>
+            <funder>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASBW</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
+            <idno type="ASBW" n="3137"/>
+            <availability status="free">
+               <p>Copyright © 2019</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 43</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                              <hi rend="latintype">Hugo</hi>
+                           </quote>«. XXXX</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HvHAS">
+                  <monogr>
+                     <author key="pmb11740">Hofmannsthal, Hugo</author>
+                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefwechsel</title>
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1964">1964</date>
+                     </imprint>
+                     <biblScope unit="pp">283</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction  type="sent">
+               <persName key="pmb2292">Hofmannsthal, Gerty von</persName>
+               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName key="pmb34031">XXXX</placeName>
+               <date when="1919-05-06" n="01">6. 5. 1919</date>
+            </correspAction>
+            <correspAction  type="received">
+               <persName key="pmb2121">Schnitzler, Arthur</persName>
+               <placeName key="pmb50">Wien</placeName>
+            </correspAction>
+            
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="proposed">
+         <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <date>6. V.</date>
+               </dateline>
+            </opener>
+            <p>Viele herzliche Grüße von einem kleinen Ausflug, den wir bei dem herrlichen Wetter
+               sehr genießen!</p>
+            <p>Hoffentlich auf baldiges Wiedersehen in <placeName key="pmb50">Wien</placeName>.
+               Herzlichst <persName key="pmb2292">Gerty</persName>.</p>
+            <p>
+               <handShift scribe="pmb11740"/>Ich hatte nach meiner Rückkehr eine physisch sehr
+               schlechte Zeit. Nun ists besser. – Auf bald. </p>
+            <closer>Ihr <signed>Hugo</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

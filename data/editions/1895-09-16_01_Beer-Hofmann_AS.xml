@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1895-09-16_01_Beer-Hofmann_AS">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 16. 9. 1895</title>
+                <author key="pmb10863">Beer-Hofmann, Richard</author>
+                <editor>
+                    <name full="yes" instant="false">Müller, Martin Anton</name>
+                </editor>
+                <funder>
+                    <name full="yes" instant="false">FWF - Fonds für Wissenschaft und
+                        Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>HBAS</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name full="yes" instant="false">Kurt Ifkovits</name>
+                    <name full="yes" instant="false">Martin Anton Müller</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="HBAS-L" n="1516"/>
+                <availability status="free">
+                    <p>Copyright © 2015</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>GB</country>
+                                <settlement>Cambridge</settlement>
+                                <repository>University Library</repository>
+                                <idno>Schnitzler, B 8</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Postkarte, blauer Buntstift; Lateinschrift. Von unbekannter Hand
+                                    mit Bleistift nummeriert: »<quote>70</quote>«.</p>
+                                <stamp n="1">
+                                    <placeName key="pmb59">Wien 9/3</placeName>
+                                    <date>19. 9. 95</date>
+                                    <time>9 V</time>
+                                    <action>Bestellt</action>
+                                </stamp>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+                    <placeName key="pmb759">Schönberg im Stubaital</placeName>
+                    <date when="1895-09-16" n="01">16. 9. 1895</date>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                    <date when="1895-09-19">19. 9. 1895</date>
+                </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1895-09-15_01">Schnitzler an Beer-Hofmann, 15. 9. 1895</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-09-17_01">Beer-Hofmann an Schnitzler, 17. 9. 1895</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="GHS" when="2019-10-17">angelegt aus Faksimile</change>
+            <change who="MAM" when="2019-10-17">Durchsicht</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00151"/>
+        <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00152"/>
+    </facsimile>
+    <text type="card">
+        <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00151"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
+                    <addrLine>Wien</addrLine>
+                    <addrLine>
+                  <placeName key="pmb397">IX Frankgasse 1</placeName>
+               </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <p>
+               <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00152"/>
+                    <salute>Lieber Arthur! </salute>Wann <hi n="2" rend="underline">frühestens</hi>
+                    wird »<hi rend="underline" n="1">
+                  <workName key="pmb29917">Liebelei</workName>
+               </hi> aufgeführt. 
+                    Glauben Sie dass vor
+                    <date>6</date> oder <date>7 Oktober</date>?«</p>
+                <p>Ich bin seit gestern früh allein hier, bleibe <hi n="1" rend="underline">hier</hi> bis mindestens <date>Donnerstag</date>.</p>
+                <closer>Herzlichst Ihr<lb/>
+               <signed>Richard</signed>
+                </closer>
+                <p>
+               <date>16/IX 95</date>
+               <space unit="chars" quantity="1"/>
+               <placeName key="pmb759">Schönberg Stubaythal</placeName>
+            </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-03-13_01_Hofmannsthal_AS">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler,
+                    13. 3. 1896</title>
+                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="2831"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>GB</country>
+                                <settlement>Cambridge</settlement>
+                                <repository>University Library</repository>
+                                <idno>Schnitzler, B 43</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>XXXX Buchabschrift eh. Brief, 1 Bl., 1 S. Von
+                                    Schnitzler beschriftet: »<quote>
+                              <hi rend="latintype">Hugo</hi>
+                           </quote>«. XXXX</p>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <biblStruct corresp="HvHAS">
+                        <monogr>
+                            <author key="pmb11740">Hofmannsthal, Hugo</author>
+                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <title level="m">Briefwechsel</title>
+                            <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                            <imprint>
+                                <pubPlace>Frankfurt am Main</pubPlace>
+                                <publisher>S. Fischer</publisher>
+                                <date when="1964">1964</date>
+                            </imprint>
+                            <biblScope unit="pp">65</biblScope>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                    <date when="1896-03-13" n="01">13. 3. 1896</date>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1896-02-20_01">Hofmannsthal an Schnitzler, [20. 2. 1896]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-05-17_01">Hofmannsthal an Schnitzler, 17. 5. [1896]</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="GHS" when="2019-07-10">Angelegt aus Buchscan, da Original bislang noch
+                nicht vorliegend</change>
+            <change who="MAM" when="2019-07-10">Index check</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                  <pb facs=""/>
+                  <date>13. 3. 96</date>
+               </dateline>
+                    <salute>lieber Arthur.</salute>
+                </opener>
+                <p>Wir sehen uns zu selten. Könnte ich nicht <date>Sonntag</date> nach
+                        <time>7</time> zu Ihnen kommen. Ich denke, wir gehen dann zusammen nach
+                        <time>½ 10 Uhr</time> in diese Gesellschaft. Oder stört es Sie beim
+                    Anziehen, wenn ich dabei bin? Bitte Antwort.</p>
+                <closer> Herzlich<lb/>Ihr<lb/>
+               <signed>Hugo</signed>
+            </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

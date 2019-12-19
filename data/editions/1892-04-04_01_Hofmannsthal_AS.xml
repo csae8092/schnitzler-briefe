@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+    xml:id="L1892-04_01_Hofmannsthal_AS">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [4. 4. 1892?]</title>
+                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="2197"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>GB</country>
+                                <settlement>Cambridge</settlement>
+                                <repository>University Library</repository>
+                                <idno>Schnitzler, B 43</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Brief mit aufgeprägtem Wappen, 1 Bl., 4 S., schwarze Tinte.
+                                    Von Schnitzler mit Bleistift datiert:
+                                        »<quote>Anf April 92</quote>« und nummeriert:
+                                        »<quote>24</quote>«.</p>
+                                <!-- Ich habe notiert, dass zwei Seiten des Briefes in der Vorlage (pdf und tif) fehlen! -->
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <biblStruct corresp="HvHAS">
+                        <monogr>
+                            <author key="pmb11740">Hofmannsthal, Hugo</author>
+                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <title level="m">Briefwechsel</title>
+                            <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                            <imprint>
+                                <pubPlace>Frankfurt am Main</pubPlace>
+                                <publisher>S. Fischer</publisher>
+                                <date when="1964">1964</date>
+                            </imprint>
+                            <biblScope unit="pp">19–20</biblScope>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                    <date when="1892-04-04" notAfter="1892-04-13" n="01">[4. 4. 1892?]</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                </correspAction>
+                <correspContext>
+                    <ptr type="previous" subtype="toAuthor" target="1892-03-27_02">Schnitzler an Hofmannsthal, 27. 3. 1892</ptr>
+                    <ptr type="next" subtype="toAuthor" target="1892-04-10_01">Hofmannsthal an Schnitzler, 10. 4. 1892</ptr>
+                </correspContext>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="GHS" when="2019-02-06">Angelegt</change>
+            <change who="MAM" when="2019-02-26">Durchsicht</change>
+            <change who="MAM" when="2019-09-26">Index check</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00051"/>
+        <!-- die beiden inneren Seiten des Doppelblatts fehlen sowohl in Mikrofilm als auch im Faksimile. Schnitzler/Nickl wohl die Abschrift als Quelle? -->
+        <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00052"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <salute>
+                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00051"/>Lieber Freund.</salute>
+                </opener>
+                <!-- Der Text ist nicht wirklich korrigiert; muss noch erledigt werden!!! -->
+                <p>Ich habe ausdrücklich und wiederholt gebeten, meinen Namen als Überſetzer auf den
+                        <anchor type="commentary" xml:id="KL2179-1"/>Einladungen<note
+                        type="commentary" xml:id="KL2179-1h">Es handelt sich um die Einladung für
+                        die Veranstaltung am <date>13. 4. 1892</date> (<persName key="pmb12156"
+                            >Maeterlinck</persName>s <workName key="pmb30189">L’Intruse</workName>,
+                        in der Übersetzung von <persName key="pmb14756">Ferry Beraton</persName>
+                        sowie eine einleitende »Conferènce« von <persName key="pmb10815">Hermann
+                            Bahr</persName>), die, da vergessen worden war, eine polizeiliche
+                        Genehmigung einzuholen, kurzfristig abgesagt wurde. Sie wurde dann – durch
+                        das Verbot mit gestiegenem Publikumsinteresse – am <date>2. 5. 1892</date>
+                        abgehalten. Die Einladungskarte an <persName key="pmb11666">Marie
+                            Herzfeld</persName> wurde am <date>4. 4. 1892</date> aufgegeben (<bibl>
+                            <persName key="pmb11740">Hugo von Hofmannsthal</persName>:
+                                <workName>Briefe an Marie Herzfeld</workName>. Hg. Horst Weber.
+                            Heidelberg: <orgName>Lothar Stiehm</orgName>
+                            <space unit="chars" quantity="1"/>
+                            <date>1967</date>, S. 24</bibl>.), am Vorabend fand eine Besprechung
+                        statt – was die zeitliche Einordnung ermöglichen dürfte.</note> nicht zu
+                    nennen. Man hat zwar mit Herrn <persName key="pmb11491">von
+                        Goldſchmidt</persName> dieſe Rückſicht gehabt, mit mir aber nicht. Ich
+                    ſtreiche auf meinen Einladungen, um weiter keine Geſchichten zu machen, das
+                    Loris einfach durch. Ich habe <pb facs=""/>weder Luſt für <persName
+                        key="pmb14756">Bératon</persName>s <workName key="pmb30189"
+                        >Überſetzung</workName>, die ich nicht kenne, einzuſtehen noch hätte ich
+                    eine von mir unterzeichnete Überſetzung jemals von <persName key="pmb14756"
+                        >Beraton</persName> korrigieren laſſen. Dieſen groben Brief bekommen Sie,
+                    weil mir die Anderen wurſt ſind, und Sie verdienen ihn auch, weil Sie bei der
+                    Beſprechung (<time>½ 11</time>) wahrſcheinlich ſchläfrig waren und nicht
+                    aufgelegt, Tactloſigkeiten zu verhindern. Ich bitte Sie, zu veranlaſſen, daß
+                    mein Name auf den übrigen Einladungen ausgeſtrichen wird. Übrigens iſt der Stil
+                    der Einladungen ebenſo hübſch als ihr Inhalt unzureichend – »werden zur
+                    Aufführung gelangen« iſt geradezu lächerlich. Werden – wieſo? von wem? wodurch?
+                    Das ganze ſieht aus als ob ſchon eine (geſcheite) Erklärung vorangegangen wäre.
+                        <workName key="pmb30189">L’Intrus</workName> iſt eine directe Verfälſchung,
+                    das Stück heißt <workName key="pmb30189">l’Intruse</workName>. <pb
+                        facs="MS-SCHNITZLER-B-00043-B-00001-000-00052"/>Seit wann ändert man
+                    Titel?</p>
+                <p>Ich weiß noch nicht, ob ich mich entſchließen werde, dieſe Wiſche auszuſchicken.
+                    Wozu haben Sie dann geſtern die Geſchichte vor mir feſtgeſetzt? Wozu ſind
+                    überhaupt Beſprechungen, wenn hinterdrein immer alles geändert wird?</p>
+                <closer>Ekelhaft!<lb/>
+                    <signed>Loris.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

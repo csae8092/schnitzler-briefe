@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1924-03-27_01_Braun_AS">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Felix Braun an Arthur Schnitzler, 27. 3. 1924</title>
+                <author key="pmb11002">Braun, Felix</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="2061"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                
+                 <listWit>
+                     <witness n="1">
+                         <msDesc>
+                             <msIdentifier>
+                                 <country>D</country>           
+                                 <settlement>Marbach am Neckar</settlement>
+                                 <repository>Deutsches Literaturarchiv</repository>
+                                 <idno>A:Schnitzler, HS.NZ85.1.2604,2</idno>
+                             </msIdentifier>
+                             <physDesc>
+                                 <p>eh. Karte. Von Schnitzler beschrieben mit »<quote>
+                              <placeName key="pmb1092">
+                                 <hi rend="latintype">Siestr. 191</hi>
+                              </placeName>
+                           </quote>«.</p>
+                             </physDesc>
+                         </msDesc>
+                     </witness>
+                </listWit> 
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+        <correspDesc>
+            <correspAction  type="sent">
+               <persName key="pmb11002">Braun, Felix</persName>
+               <placeName key="pmb50">Wien</placeName>
+                <date when="1924-03-27" n="01">27. 3. 1924</date>
+            </correspAction>
+            <correspAction  type="received">
+               <persName key="pmb2121">Schnitzler, Arthur</persName>
+               <placeName key="pmb50">Wien</placeName>
+            </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1922-05-13_02">Braun an Schnitzler, 13. 5. 1922</ptr>
+               <ptr type="next" subtype="toAuthor" target="1924-10-02_01">Braun an Schnitzler, 2. 10. 1924</ptr>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="MAM" when="2018-12-03">Angelegt</change>
+            <change who="MAM" when="2018-12-03">Index check</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession" n="1">
+               <opener>
+                   <dateline rend="center">
+                  <pb facs=""/>
+                  <placeName key="pmb50">Wien</placeName>, den <date>27. III. 1924</date>
+               </dateline>
+               <salute>Verehrter Herr Doktor!</salute>
+               </opener>
+                <p>Erlauben Sie, daß ich Ihnen ein Dankwort ſchreibe für die große Liebenswürdigkeit, mit
+                der Sie, wie mir Frau <persName key="pmb18077">Heller</persName> heute zu meiner Freude
+                erzählte, als es ſich um die Zuweiſung des <persName key="pmb3138">
+                  <hi rend="latintype">Paul Géraldy</hi>
+               </persName>
+                beſtimmten Honorars an einen <placeName key="pmb50">Wien</placeName>er Schriftſteller
+                handelte, für mich eingetreten ſind. Es hat mich tief gerührt, daß Sie es waren, der mir
+                dieſe Ehrung zuerkannt hat. Seien Sie, verehrter Herr Doktor, dafür von Herzen bedankt!</p>
+                <closer>Mit beſter Empfehlung, in beſonderer Verehrung, Ihr<lb/>
+               <signed>Felix Braun.</signed>
+            </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1912-11-20_01_AS_Brandes">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Arthur Schnitzler an Georg Brandes, 20. 11. 1912</title>
+                <author key="pmb2121">Schnitzler, Arthur</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="1708"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Dk</country>
+                                <settlement>Kopenhagen</settlement>
+                                <repository>Det Kongelige Bibliotek</repository>
+                                <idno>Georg Brandes Arkiv</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>ms. Brief mit eh. Unterschrift, Nachschrift und einer hs.
+                                    Korrektur in schwarzer Tinte. Von unbekannter Hand mit Bleistift nummeriert:
+                                        »<quote>33.</quote>«</p>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <biblStruct corresp="ASGB">
+                        <monogr>
+                            <author key="pmb10992">Brandes, Georg</author>
+                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <title level="m">Ein Briefwechsel</title>
+                            <editor>Hg. Kurt Bergel</editor>
+                            <imprint>
+                                <pubPlace>Bern</pubPlace>
+                                <publisher>Francke</publisher>
+                                <date when="1956">1956</date>
+                            </imprint>
+                            <biblScope unit="pp">105</biblScope>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                    <date when="1912-11-20" n="01">20. 11. 1912</date>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb10992">Brandes, Georg</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1912-09-26_01">Brandes an Schnitzler, 26. 9. 1912</ptr>
+               <ptr type="next" subtype="toAuthor" target="1912-11-20_02">Brandes an Schnitzler, 20. 11. 1912</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="MAM" when="2018-08-02">Angelegt</change>
+            <change who="MAM" when="2018-02-14">Index check</change>
+            <change who="GHS" when="2019-08-13">facs aktualisiert, korrigiert, finalisiert</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="Georg_Brandes_arkiv_149"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <p>
+                        <pb facs="Georg_Brandes_arkiv_149.jpg"/>
+                        <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
+                        <lb/>
+                        <hi rend="pre-print">
+                            <placeName key="pmb150">Wien XVIII. Sternwartestrasse 71</placeName>
+                        </hi>
+                    </p>
+                    <dateline rend="right">
+                  <date>20. 11. 1912</date>
+               </dateline>
+                    <salute rend="center">Lieber und verehrter Herr Brandes.</salute>
+                </opener>
+                <p>Da ich leider nicht weiss, wo Sie abgestiegen sind, sende ich Ihnen diesen Brief
+                    in die <placeName key="pmb1013">Urania</placeName>. Ich frage vor allem bei
+                    Ihnen an, ob Sie uns das Vergnügen machen wollen am <date>Freitag</date> Abend
+                    gegen acht bei uns zu essen. Es wäre sehr liebenswürdig von Ihnen mir gleich
+                    nach Empfang dieser Zeilen pneumatisch eine zusagende Antwort zu senden.
+                        <date>Morgen Abend, Donnerstag</date>, werde ich Ihnen nach Ihrer <anchor type="commentary" xml:id="KL708-1"/>Vorlesung<note type="commentary" xml:id="KL708-1h">In seinem zweiten Vortrag sprach er am
+                            <date>21. 11. 1912</date> um <time>½ 8</time> im Volksbildungshaus
+                            <placeName key="pmb1013">Urania</placeName> über »<persName key="pmb11461">Goethe</persName> und die
+                        Zeitalter«. Am Vortrag hatte er bereits über »<quote>
+                            <persName key="pmb5424">Jeanne d’Arc</persName>
+                        </quote>« gesprochen, die dritte und letzte Vorlesung war <persName key="pmb12877">Strindberg</persName> gewidmet.</note> endlich wieder
+                        <anchor type="commentary" xml:id="KL708-2"/>die Hand drücken<note type="commentary" xml:id="KL708-2h">Im <bibl>
+                            <workName key="pmb33243">Tagebuch</workName>
+                        </bibl> schreibt <persName key="pmb2121">Schnitzler</persName>, Brandes bereits
+                        in der Früh im Hotel aufgesucht zu haben.</note> können. Seien Sie
+                    willkommen in <placeName key="pmb50">Wien</placeName> und herzliche Grüsse.</p>
+                <closer>Ihr sehr ergebener<lb/>
+                    <signed>
+                        <handShift/>ArthurSchnitzler</signed>
+                </closer>
+                <postscript>
+                    <p>
+                        <handShift medium="typewriter"/>
+                        <date>Samstag</date>
+                        <space unit="chars" quantity="1"/>
+                        <time>Abend</time> fahre ich nach <placeName key="pmb168">Berlin</placeName> zu den Proben meines neuen <rs type="work" key="pmb30203">Stückes</rs>. Sollten Sie den Freitag Abend schon vergeben haben, so
+                        schenken Sie uns den <add place="below">
+                            <date>Freitag</date>
+                        </add> Mittag gegen <time>½ 2</time>.</p>
+                    <p>Herrn Georg Brandes, <placeName key="pmb50">Wien</placeName>.</p>
+                    <p>
+                        <handShift/>Erfahre eben Ihre Adreſſe – ſchicke alſo den Brief ans
+                            <placeName key="pmb446">Continental</placeName>.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

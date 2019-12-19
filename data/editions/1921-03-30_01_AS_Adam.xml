@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1921-03-30_01_AS_Adam">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Arthur Schnitzler an Robert Adam, 30. 3. 1921</title>
+                <author key="pmb2121">Schnitzler, Arthur</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="2365"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>D</country>
+                                <settlement>Marbach am Neckar</settlement>
+                                <repository>Deutsches Literaturarchiv</repository>
+                                <idno>96.34.2/25</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Postkarte, Lateinschrift.</p>
+                               <stamp n="1">
+                                   <placeName key="pmb50">
+                              <gap quantity="1" reason="illegible" unit="chars"/>/4 Wien 68</placeName>
+                                   <date when="1921-03-30">30. III. 21</date>
+                               </stamp>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                    <date when="1921-03-30" n="01">30. 3. 1921</date>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb12438">Adam, Robert</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1920-11-20_01">Schnitzler an Adam, 20. 11. 1920</ptr>
+               <ptr type="next" subtype="toAuthor" target="1921-05-25_01">Schnitzler an Adam, 25. 5. 1921</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="MAM" when="2019-05-17">Angelegt</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="card">
+        <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                  <pb facs=""/>
+                  <placeName key="pmb150">XVIII. Sternwartestr 71</placeName>
+               </addrLine>
+                </address>
+                <address>
+                    <addrLine>Herrn Ob.Landesger.Rath</addrLine>
+                    <addrLine>Dr. Robert Adam Pollak</addrLine>
+                    <addrLine>
+                  <placeName key="pmb62">Wien XII/<hi rend="subscript">1</hi>
+                  </placeName>.</addrLine>
+                    <addrLine>
+                  <placeName key="pmb1239">Meidlinger Hptstr. 58</placeName>.</addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                  <pb facs=""/>
+                  <date>30. 3. 1921</date>
+               </dateline>
+                    <salute>Verehrtester Herr Doctor</salute>
+                </opener>
+                <p>entschuldigen Sie, dſs ich Ihre liebe Karte so lange nicht beantwortet habe, — und daß
+                ich Ihnen auch heute noch keinen bestimmten Tag nenne, an dem ich endlich wieder das Vergnügen 
+                zu haben hoffe Sie zu sehen; – diese letzte Wochen waren wie verhext, und für 
+                die nächsten Tage will ich mich noch nicht verpflichten, weil an meiner kleinen <rs type="person" key="pmb2238">Tochter</rs>
+                    eine kleine Operation (Rachenmandel) vorgenommen werden soll, und ich im <rs type="place" key="pmb89">Sanatorium</rs> bei ihr sein
+                <pb facs=""/>werde. Ich denke daß ich Ende der <add place="above">nächsten</add> Woche Ihnen
+                zur Verfügung stehen kann. Bis dahin sein Sie aufs herzlichste gegrüßt von Ihrem sehr ergebnen</p>
+                <closer>
+               <signed>ArthurSchnitzler</signed>
+            </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

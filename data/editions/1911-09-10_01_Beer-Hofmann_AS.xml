@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1911-09-10_01_Beer-Hofmann_AS">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler,
+               [10.? 9. 1911]</title>
+            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </editor>
+            <funder>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASBW</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
+            <idno type="ASBW" n="2690"/>
+            <availability status="free">
+               <p>Copyright © 2019</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 8</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>ms. Telegramm</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="ASBH">
+                  <monogr>
+                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <title level="m">Briefwechsel 1891–1931</title>
+                     <editor>Hg. Konstanze Fliedl</editor>
+                     <imprint>
+                        <pubPlace>Wien, Zürich</pubPlace>
+                        <publisher>Europaverlag</publisher>
+                        <date when="1992">1992</date>
+                     </imprint>
+                     <biblScope unit="pp">215</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction  type="sent">
+               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName key="pmb415">Bad Aussee</placeName>
+               <date notBefore="1911-09-10"
+                     when="1911-09-10"
+                     notAfter="1911-09-20"
+                     n="01">[10.? 9. 1911]</date>
+            </correspAction>
+            <correspAction  type="received">
+               <persName key="pmb2121">Schnitzler, Arthur</persName>
+            </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1911-06-15_02">Beer-Hofmann an Schnitzler, 15. 6. 1911</ptr>
+               <ptr type="next" subtype="toAuthor" target="1911-10-09_01">Beer-Hofmann an Schnitzler, 9. 10. 1911</ptr>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2019-06-12">Automatisch angelegt aus Buchausgabe</change>
+         <change who="MAM" when="2019-09-18">Durchsicht mit Faksimile</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS-SCHNITZLER-B-0008-B-00002-000-00230"/>
+   </facsimile>
+   <text type="telegram">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <placeName key="pmb415">badaussee</placeName> 496 44
+                     <time>11/40</time>
+               </dateline>
+            </opener>
+            <p>bitte uebermitteln sye ihrem <rs type="person" key="pmb12698">bruder</rs> u ihrer <rs type="person" key="pmb2461">Schwester</rs> mein aufrichtigstes <anchor type="commentary" xml:id="KL2690-1"/>bejlejd<note type="commentary" xml:id="KL2690-1h">Die Mutter <persName key="pmb12701">Louise
+                     Schnitzler</persName> war am <date>9. 9. 1911</date>
+                  gestorben.</note> sye selbst lieber arthur wiszen denke ich dasz ich heute wie
+               immer an allem was sye an gutem und boesem trifft von herzen antejl nehme
+                  <signed>richard. +</signed>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

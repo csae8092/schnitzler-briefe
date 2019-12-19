@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1910-06-19_01_Beer-Hofmann_AS">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 
+                                19. 6. 1910</title>
+            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </editor>
+            <funder>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt> 
+         <editionStmt>
+            <edition>ASBW</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
+            <idno type="ASBW" n="2674"/>
+            <availability status="free">
+               <p>Copyright © 2019</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 8</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="ASBH">
+                  <monogr>
+                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <title level="m">Briefwechsel 1891–1931</title>
+                     <editor>Hg. Konstanze Fliedl</editor>
+                     <imprint>
+                        <pubPlace>Wien, Zürich</pubPlace>
+                        <publisher>Europaverlag</publisher>
+                        <date when="1992">1992</date>
+                     </imprint>
+                     <biblScope unit="pp">XXXX</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction  type="sent">
+               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName key=""/>
+               <date when="1910-06-19" n="01">19. 6. 1910</date>
+            </correspAction>
+            <correspAction  type="received">
+               <persName key="pmb2121">Schnitzler, Arthur</persName>
+            </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1910-05-17_01">Beer-Hofmann an Schnitzler, 17. 5. 1910</ptr>
+               <ptr type="next" subtype="toAuthor" target="1910-06-26_01">Schnitzler an Beer-Hofmann, 26. 6. 1910</ptr>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="proposed">
+         <change who="MAM" when="2019-06-12">Automatisch angelegt aus Buchausgabe</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS-SCHNITZLER-B-0008-B-00002-000-00160"/>
+   </facsimile>
+   <text type="letter">
+      <body>
+         
+				        <div type="writingSession" n="1">
+					          <opener>
+						            <dateline rend="right">
+							              <date when="1910-06-19">19/VI 10</date>
+						            </dateline>
+					          </opener>
+					          <p>
+						            <salute>Lieber Arthur! </salute>
+						            <persName key="pmb2534">Naëmah</persName> ist heute <time>Früh</time> gefallen und hat
+						sich am Kinn verletzt – die Wunde reicht bis auf den Knochen – so dass wir
+						bei Ihrem <rs type="person" key="pmb12698">Bruder</rs> im Spital waren der die Wunde
+						vernähte. Es ist hoffentlich nichts Bedeutendes trotzdem möchte aber
+					             <persName key="pmb10860">Paula</persName> bei dem <rs type="person" key="pmb2534">Kind</rs> bleiben. Ist auch
+						unruhig wenn ich zu Ihnen hinübergehe, da sie die Association: Scharlach –
+						Wunde – septisch etc. nicht los wird. Verzeihen Sie also wenn wir heute
+						nicht kommen, und so spät absagen. Herzliche Grüße Ihnen und Ihrer Frau.</p>
+					          <closer>
+						            <signed>Richard</signed>
+					          </closer>
+				        </div>
+			      
+      </body>
+   </text>
+</TEI>

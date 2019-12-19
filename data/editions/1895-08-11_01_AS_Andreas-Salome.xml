@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L041XXX">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Arthur Schnitzler an Lou Andreas-Salomé,
+                    11. 8. 1895</title>
+                <author key="pmb2121">Schnitzler, Arthur</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country> Wien </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="000"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>D</country>
+                                <settlement>Göttingen</settlement>
+                                <repository>Lou Andreas-Salomé Archiv</repository>
+                                <idno>Schnitzler</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Brief, 1 Bl., 3 S., schwarze Tinte.</p>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <date when="1895-08-11" n="01">11. 8. 1895</date>
+                    <placeName key="pmb50">Wien</placeName>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb10762">Andreas-Salomé, Lou</persName>
+                </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1895-08-09_01">Andreas-Salomé an Schnitzler, 9. 8. 1895</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-08-17_01">Andreas-Salomé an Schnitzler, [vor dem 17. 8. 1895]</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="MAM" when="2019-11-11">Angelegt</change>
+            <change who="MAM" when="2019-11-11">Index check</change>
+            <change who="GHS" when="2019-11-13">finalisiert</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="Schnitzler Brief 2a"/>
+        <graphic url="Schnitzler Brief 2b"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <salute>
+                        <pb facs="Schnitzler Brief 2a"/>Verehrte Frau Lou,</salute>
+                </opener>
+                <p>es trifft ſich alles aufs beſte. Heute früh ko<c rendition="#gemination-m"/>’ ich
+                    in <placeName key="pmb50">Wien</placeName> an, und <del rend="strikethrough">treffe</del> finde Ihre lieben Zeilen, für die ich herzlich danke.</p>
+                <p>Ich fahre in 2 oder 3 Tagen nach <placeName key="pmb213">Iſchl</placeName>
+                    und ko<c rendition="#gemination-m"/>e etwa <date>20.</date> oder
+                        <date>21.</date> nach <placeName key="pmb30">Salzburg</placeName>. Dort
+                    einige Tage zugleich mit Ihnen und in Ihrer Geſellſchaft zu verbringen, freut
+                        <pb facs="Schnitzler Brief 2b"/>mich ganz beſonders. Von <placeName key="pmb30">S.</placeName> aus fahre ich, wahrſcheinlich per Rad u auf einem
+                    Umweg nach <placeName key="pmb38129">München</placeName>. Es geht aus Ihrer
+                    Karte nicht deutlich hervor, ob Sie <placeName key="pmb38129">München</placeName> vor oder nach <placeName key="pmb30">Salzburg</placeName> zu beſuchen denken. Sollte das letztere der Fall ſein,
+                    ſo wärs aber ganz beſonders ſchön.</p>
+                <p>In <placeName key="pmb213">Iſchl</placeName> wohne ich <placeName key="pmb214">
+                  <hi rend="latintype">Rudolfshöhe</hi>
+               </placeName>, <pb facs="Schnitzler Brief 2b"/>wo ich Nachricht von Ihnen vorzufinden hoffe. In
+                        <placeName key="pmb30">Salzb.</placeName> werde ich wahrſcheinlich im
+                        <placeName key="pmb230">oesterr. Hof</placeName> abſteigen. <persName key="pmb10863">Richard</persName> iſt wohl von den genauen <placeName key="pmb30">Salzb.</placeName> Daten gleichfalls in Ke<c rendition="#gemination-n"/>tnis geſetzt? – </p>
+                <closer>Viele Grüße und auf angenehmes Wiederſehen!<lb/>Ihr Sie
+                        hochſch<unclear>ätz</unclear>ender<lb/>
+               <signed>ArthSch</signed>
+            </closer>
+                <postscript>
+                    <dateline>
+                  <date>11. 8. 95</date>.<lb/>
+                  <placeName key="pmb50">Wien</placeName>
+               </dateline>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

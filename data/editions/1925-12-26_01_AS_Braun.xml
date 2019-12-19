@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1925-12-26_01_AS_Braun">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Arthur Schnitzler an Felix Braun, 26. 12. 1925</title>
+                <author key="pmb2121">Schnitzler, Arthur</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="2093"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                 <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>A</country>            
+                                <settlement>Wien</settlement>            
+                                <repository>Wienbibliothek im Rathaus</repository>            
+                                <idno>H.I.N.-198.049</idno>
+                            </msIdentifier>
+                           <physDesc>
+                               <p>eh. Postkarte, ovaler Absenderkleber: »<quote>
+                                   <p>A. S.</p>
+                                   <p>
+                                       <placeName key="pmb68">Wien, XVIII.</placeName>
+                                   </p>
+                                   <p>
+                                       <placeName key="pmb150">Sternwartestr. 71</placeName>
+                                   </p>
+                               </quote>«, Lateinschrift.</p>
+                               <stamp n="1">
+                                   <placeName key="pmb50">/1 Wien 88</placeName>
+                                   <date when="1925-12-27">27. <supplied>X</supplied>II. 24</date>
+                                   <time>11</time>
+                               </stamp>
+                           </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                    <date when="1925-12-26" n="01">26. 12. 1925</date>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb11002">Braun, Felix</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1925-12-14_01">Braun an Schnitzler, 14. 12. 1925</ptr>
+               <ptr type="next" subtype="toAuthor" target="1926-03-15_01">Braun an Schnitzler, 15. 3. 1926</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="MAM" when="2018-12-05">Angelegt</change>
+            <change who="MAM" when="2018-12-12">Index check</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="card">
+        <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                  <pb facs="Wienbibliothek H.I.N.-198049_vs.tif"/>Herrn Felix Braun</addrLine>
+                    <addrLine>
+                  <placeName key="pmb69">Wien XIX</placeName>
+               </addrLine>
+                    <addrLine>
+                  <placeName key="pmb1092">Sieveringer Hauptstr 149</placeName>
+               </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                  <pb facs="Wienbibliothek H.I.N.-198049_vs.tif"/>
+                  <date>26/12 925</date>
+               </dateline>
+                    <salute>lieber Herr Felix Braun,</salute>    
+                </opener>                         
+                <p>Ihre schönen Worte über die »<workName key="pmb30751">Frau des Richters</workName>« haben mich
+                herzlich erfreut. Vielen Dank und die besten Wünsche und Grüße
+                zum neuen Jahr.</p>
+                <closer>Ihr<lb/>
+               <signed>Arthur Schnitzler</signed>
+            </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

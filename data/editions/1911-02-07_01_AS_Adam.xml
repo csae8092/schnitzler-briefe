@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1911-02-07_01_AS_Adam">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Arthur Schnitzler an Robert Adam, 7. 2. 1911</title>
+                <author key="pmb2121">Schnitzler, Arthur</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="2309"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                 <listWit>
+                     <witness n="1">
+                         <msDesc>
+                             <msIdentifier>
+                                 <country>D</country>           
+                                 <settlement>Marbach am Neckar</settlement>
+                                 <repository>Deutsches Literaturarchiv</repository>
+                                 <idno>A:Schnitzler, 96.34.1/4</idno>
+                             </msIdentifier>
+                             <physDesc>
+                                 <p>hs. Bildpostkarte, Motiv: »<quote>
+                              <p>
+                                 <placeName key="pmb113">Türkenschanz-Park</placeName>.</p>
+                              <p>Aussichtsturm</p>. <p>
+                                 <placeName key="pmb68">Wien XVIII/1</placeName>
+                              </p>
+                           </quote>«.</p>
+                                 <stamp n="1">
+                                     <placeName key="pmb59">9/1 Wien</placeName>
+                                     <date when="1911-02-07">7. <supplied>2. 1911</supplied>
+                           </date>
+                                     <time>5</time>
+                                 </stamp>
+                             </physDesc>
+                         </msDesc>
+                     </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                    <date when="1911-02-07" n="01">7. 2. 1911</date>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb12438">Adam, Robert</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1911-02-03_01">Adam an Schnitzler, 3. 2. 1911</ptr>
+               <ptr type="next" subtype="toAuthor" target="1911-02-09_02">Adam an Schnitzler, 9. 2. 1911</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="MAM" when="2019-04-17">Angelegt</change>
+            <change who="MAM" when="2019-06-12">Index check</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="card">
+        <body>
+            <div type="address">
+            <address>
+                <addrLine>
+                  <pb facs=""/>Herrn Robert Adam,</addrLine>
+                <addrLine>
+                  <placeName key="pmb62">Wien XII</placeName>.</addrLine>
+                <addrLine>
+                  <placeName key="pmb1239">Meidlinger Hptstr 56</placeName>.</addrLine>
+            </address>
+            </div>
+            <div type="writingSession">
+                <p>Besten Dank für die freundlichen Mittheilungen. Aller Anfang <c rendition="#dots" n="4"/> Aber ich will
+                nicht gar zu originell ſein.</p>
+                <closer>Verbindlichſt grüßt<lb/>Ihr ſehr ergebner<lb/>
+               <signed>Arthur Schnitzler</signed>
+            </closer>
+                <postscript>
+                    <dateline rend="right">
+                  <date>7/2. 911</date>.</dateline>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

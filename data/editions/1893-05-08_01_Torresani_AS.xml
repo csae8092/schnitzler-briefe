@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-05-08_01_Torresani_AS">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Carl Torresani an Arthur Schnitzler, 8. 5. 1893</title>
+            <author key="pmb26121">Torresani, Carl</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </editor>
+            <funder>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASBW</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
+            <idno type="ASBW" n="2773"/>
+            <availability status="free">
+               <p>Copyright © 2019</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS Schn 4/86/1</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Von Schnitzler mit Bleistift
+                           nummeriert: »<quote>5</quote>«.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction  type="sent">
+               <persName key="pmb26121">Torresani, Carl</persName>
+               <placeName key="pmb462">Venedig</placeName>
+               <date when="1893-05-08" n="01">8. 5. 1893</date>
+            </correspAction>
+            <correspAction  type="received">
+               <persName key="pmb2121">Schnitzler, Arthur</persName>
+               <placeName key="pmb50">Wien</placeName>
+            </correspAction>
+            
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="GHS" when="2019-10-06">angelegt aus Faksimile</change>
+         <change who="MAM" when="2019-10-07">Durchsicht</change>
+         <change who="MAM" when="2019-10-22">Index check</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="TMW HS_Schn4_86_1_1.jpg"/>
+      <graphic url="TMW HS_Schn4_86_1_2.jpg"/>
+   </facsimile>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline>
+                  <pb facs="TMW HS_Schn4_86_1_1.jpg"/>
+                  <placeName key="pmb462">Venedig</placeName>
+                  <space unit="chars" quantity="1"/>
+                  <date>8/5 93</date>
+               </dateline>
+               <salute>Hochgeſchätzter Herr Doktor!</salute>
+            </opener>
+            <p>Zu meinem tiefen Bedauern las ich in den Zeitungen die Nachricht von dem
+               unerſetzlichen <rs type="person" key="pmb12695">Verluſte</rs>  der Sie betroffen hat;
+               geſtatten Sie mir, <subst>
+                  <del rend="strikethrough">Ihnen</del>
+                  <add place="above">Sie</add>
+               </subst> in aufrichtiger und herzlicher Weiſe meines Mitgefühles zu verſichern. Es
+               ſind nun ſchon einige Tage vergangen, Sie werden das Bitterſte bereits verwunden
+               haben u. ſich in philoſophiſcher Weiſe zu tröſten ſuchen. Aber in ſolchen <pb facs="TMW HS_Schn4_86_1_2"/>Fällen muß man mit <rs type="work" key="pmb31213">Romeo</rs> ſagen: »<rs type="work" key="pmb31213">Hängt die Philoſophie.</rs>« –
+               ſie tröſtet immer nur die die ſie nicht brauchen, und ein wahrer Schmerz muß ſich in
+               ſich ſelbſt erſchöpfen. Möge die Dauer bei Ihnen eine mäßige ſein.</p>
+            <closer>In herzlicher Freundſchaft u. Hochſchätzung<lb/>Ihr ergebenſter<lb/>
+               <signed>Torresani</signed>
+            </closer>
+            <postscript>
+               <p>Für alle Fälle theile ich Ihnen
+                  meine Adreſſe mit, mittels welcher Karten mich zu allen Zeiten treffen: »H. u.
+                  G. Adv. Dr. <persName key="pmb41810">
+                     <hi rend="latintype">Klemperer</hi>
+                  </persName>, <placeName key="pmb790">I Tuchlauben 7 Wien</placeName>.<supplied>«</supplied>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1903-10-12_01_Blei_AS">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Franz Blei an Arthur Schnitzler, 12. 10. 1903</title>
+                <author key="pmb10955">Blei, Franz</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="1900"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>GB</country>
+                                <settlement>Cambridge</settlement>
+                                <repository>University Library</repository>
+                                <idno>Schnitzler, B 14</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>XXXX 1. Seite aus Abschrift YYYY eh. Brief, 1 Bl., 2 S.,
+                                    Lateinschrift. Von Schnitzler beschriftet: »<quote>
+                                        <hi rend="latintype">Blei</hi>
+                                    </quote>« und datiert »<quote>12/10 903</quote>«, von
+                                    unbekannter Hand nummeriert: »<quote>
+                                        <del rend="strikethrough">7</del> 2</quote>« XXXX AM
+                                    ORIGINAL SCHAUEN und datiert: »<date>12/10/1903</date> «</p>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb10955">Blei, Franz</persName>
+                    <date when="1903-10-12" n="01">12. 10. 1903</date>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                </correspAction>
+            <correspContext>
+               <ptr type="next" subtype="toAuthor" target="1903-10-17_01">Blei an Schnitzler, 17. 10. 1903</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="MAM" when="2018-10-15">Angelegt. 1. Seite aus Abschrift, da Faksimile des
+                Mikrofilms kaum zu entziffern</change>
+            <change who="MAM" when="2018-10-17">Index check</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <pb facs="gray00760"/>
+                        <placeName key="pmb1166">München, Arcisstrasse 19</placeName>
+                    </dateline>
+                    <salute>Sehr geehrter Herr Arthur Schnitzler,</salute>
+                </opener>
+                <p>Miss <persName key="pmb29141">Johnson</persName> kam mit Empfehlungen von sehr
+                    guten <placeName key="pmb254">
+                        <country>Engländern</country>
+                    </placeName>, wie <persName key="pmb5613">Yeats</persName> und <persName key="pmb5608">A. Symons</persName> zu mir und auf die Frage, was sie
+                    übersetzen solle, rieth ich ihr zu dem <workName key="pmb29843">Grünen
+                        Kakadu</workName>. Die Dame wird sicher eine sehr gute Übertragung zu stand
+                    bringen und dass sie damit bei den <placeName key="pmb254">
+                        <country>englischen</country>
+                    </placeName> Bühnen mehr Glück haben wird wie mit ihren eigenhändigen Stücken
+                    ist keine Frage. Wenn Sie <pb facs="gray00761"/>daher nicht andere entscheidende
+                    Gründe dagegen haben, möchte ich mir erlauben, Ihnen Miss <persName key="pmb29141">Johnson</persName> für die Übertragung zu empfehlen.</p>
+                <closer>Ich bin Ihr ganz ergebener<lb/>
+                    <signed>Franz Blei</signed>
+                </closer>
+                <postscript>
+                    <dateline>
+                        <date>12. 10. 1903</date>. </dateline>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

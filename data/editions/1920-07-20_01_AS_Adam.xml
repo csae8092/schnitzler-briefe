@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1920-07-20_01_AS_Adam">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Arthur Schnitzler an Robert Adam, 20. 7. 192[0]</title>
+                <author key="pmb2121">Schnitzler, Arthur</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="2368"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>D</country>
+                                <settlement>Marbach am Neckar</settlement>
+                                <repository>Deutsches Literaturarchiv</repository>
+                                <idno>96.34.2/28</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Postkarte, Lateinschrift. Die Empfängeradresse von unbekannter Hand geändert zu: »<quote>
+                              <p>
+                                 <placeName key="pmb1036">
+                                    <hi rend="latintype">Gutenstein</hi>
+                                 </placeName>
+                              </p>
+                              <p>
+                                 <placeName key="pmb1263">
+                                    <hi rend="latintype">Haus der Ruhe</hi>
+                                 </placeName>
+                              </p>
+                              <p>
+                                 <placeName key="pmb1003">N. Ö.</placeName>
+                              </p>
+                           </quote>«.</p>
+                              <stamp n="1">
+                                  <date when="1920-07-21">21. <unclear>VII. 20</unclear>
+                           </date>
+                              </stamp>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                    <date when="1920-07-20" n="01">20. 7. 1922</date>
+                </correspAction>
+                <correspAction  type="forwarded">
+                    <persName key="pmb27659">[unbekannt]</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb12438">Adam, Robert</persName>
+                    <placeName key="pmb1036">Gutenstein</placeName>
+                </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1920-07-14_01">Schnitzler an Adam, 14. 7. 1920</ptr>
+               <ptr type="next" subtype="toAuthor" target="1920-10-28_01">Schnitzler an Adam, 28. 10. 1920</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="MAM" when="2019-05-20">Angelegt</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="card">
+        <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                  <pb facs=""/>A. S. <placeName key="pmb68">Wien XVIII</placeName>
+               </addrLine>
+                    <addrLine>
+                  <placeName key="pmb150">Sternwartestr 7<unclear>1</unclear>
+                  </placeName>
+               </addrLine>
+                </address>
+                <address>
+                    <addrLine>Herrn Dr. Robert Adam Pollak</addrLine>
+                    <addrLine>Ober Landesgerichtsrath</addrLine>
+                    <addrLine>
+                  <placeName key="pmb62">Wien XII</placeName>
+               </addrLine>
+                    <addrLine>
+                  <placeName key="pmb1239">Meidlinger Hptstr 58</placeName>.</addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                  <pb facs=""/>
+                  <date>20. 7. 192<unclear>0</unclear>
+                  </date>
+               </dateline>
+                    <salute>Verehrter Herr Doctor,</salute>
+                </opener>
+              <p>vielen Dank für die rasche und liebenswerte Erfüllung meiner Bitte.</p>
+                <p>Ich wünsche baldige Wiederherstellung u grüße Sie herzlichst!</p>
+                <closer>Ihr<lb/>
+               <signed>Arthur Schnitzler</signed>
+            </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

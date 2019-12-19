@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-03-14_01_AS_Beer-Hofmann">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, [14. 3. 1897?]</title>
+                <author key="pmb2121">Schnitzler, Arthur</author>
+                <editor>
+                    <name full="yes" instant="false">Müller, Martin Anton</name>
+                </editor>
+                <funder>
+                    <name full="yes" instant="false">FWF - Fonds für Wissenschaft und
+                        Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>HBAS</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name full="yes" instant="false">Kurt Ifkovits</name>
+                    <name full="yes" instant="false">Martin Anton Müller</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="HBAS-L" n="1518"/>
+                <availability status="free">
+                    <p>Copyright © 2015</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>U.S.A.</country>
+                                <settlement>Yale</settlement>
+                                <repository>Beinecke Rare Book and Manuscript Library</repository>
+                                <idno>Yale Collection of German Literature, MSS 31</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Briefkarte, Bleistift. Von unbekannter Hand mit Bleistift
+                                    datiert:
+                                    »<quote>
+                              <date>16. 3. 1897</date>?</quote>«.</p>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb50">[Wien]</placeName>
+                    <date when="1897-03-14" n="01">[14. 3. 1897?]</date>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+                </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1897-01-21_01">Schnitzler an Beer-Hofmann, [zwischen 21. 1. und
+                  3. 12. 1897?]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-03-16_01">Schnitzler an Beer-Hofmann, 16. 3. 1897</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="GHS" when="2019-10-29">angelegt aus Faksimile</change>
+            <change who="MAM" when="2019-11-12">Durchsicht</change>
+            <change who="MAM" when="2019-11-12">Index check</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="1897_AS_RBH_1_00006.jpeg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="writingSession" n="1">
+                <p>
+               <pb facs="1897_AS_RBH_1_00006.jpeg"/>
+                    <salute>lieber Richard, </salute>bitte ko<c rendition="#gemination-m"/>en Sie
+                        <anchor type="commentary" xml:id="KLM20191112-1"/>
+               <date>
+                  <hi n="1" rend="underline">Mittwoch</hi>
+               </date>
+               <note type="commentary" xml:id="KLM20191112-1h">Mutmaßliche Datierung unter der Annahme, dass das
+                        Treffen am <date>17. 3. 1897</date> gemeint ist, bei dem neben
+                            <persName key="pmb10863">Beer-Hofmann</persName> auch <persName key="pmb3167">Hugo Felix</persName>, <persName key="pmb11701">Georg
+                            Hirschfeld</persName>, <persName key="pmb11740">Hugo von
+                            Hofmannsthal</persName>, <persName key="pmb2167">Felix Salten</persName>
+                        und <persName key="pmb26392">Leo Vanjung</persName> anwesend waren.
+                            <persName key="pmb2121">Schnitzler</persName> las zum ersten Mal
+                            <workName key="pmb29855">Reigen</workName> im privaten Kreis vor.
+                    </note> nach dem Nachtmahl zu mir; <persName key="pmb11740">Hugo</persName>,
+                        <persName key="pmb11701">Hirſchfeld</persName>, <persName key="pmb12740">Schwkopf</persName>, <rs type="person" key="pmb3167">Muſik</rs> u.
+                        Sie</p>
+                <closer>Herzlich Ihr <signed>Arthur</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

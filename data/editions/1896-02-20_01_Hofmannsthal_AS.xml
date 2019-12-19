@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-02-20_01_Hofmannsthal_AS">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [20. 2. 1896]</title>
+                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="2292"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>GB</country>
+                                <settlement>Cambridge</settlement>
+                                <repository>University Library</repository>
+                                <idno>Schnitzler, B 43</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Brief; 1 Bl., 1 S., schwarze Tinte. Von Schnitzler mit
+                                    Bleistift datiert: »<quote>
+                                        <date>20/2 96</date>
+                                    </quote>«. Von unbekannter Hand mit Bleistift nummeriert:
+                                        »<quote>80</quote>«.</p>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <biblStruct corresp="HvHAS">
+                        <monogr>
+                            <author key="pmb11740">Hofmannsthal, Hugo</author>
+                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <title level="m">Briefwechsel</title>
+                            <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                            <imprint>
+                                <pubPlace>Frankfurt am Main</pubPlace>
+                                <publisher>S. Fischer</publisher>
+                                <date when="1964">1964</date>
+                            </imprint>
+                            <biblScope unit="pp">64-65</biblScope>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                    <date when="1896-02-20" n="01">[20. 2. 1896]</date>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1895-11-26_01">Schnitzler an Hofmannsthal, 26. 11. 1895</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-03-13_01">Hofmannsthal an Schnitzler, 13. 3. 1896</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="GHS" when="2019-04-06">Angelegt</change>
+            <change who="MAM" when="2019-05-06">Durchsicht</change>
+            <change who="MAM" when="2019-05-01">Index check</change>
+            <change who="GHS" when="2019-10-23">finalisiert</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00173"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00173"/>
+                        <date>Donnerstag</date>.</dateline>
+                    <salute>lieber Arthur</salute>
+                </opener>
+                <p>mir iſt ſchrecklich leid, ich bin nicht frei, ganz zufällig. Wenn Sie mir’s nur
+                    2 Tage früher geſagt hätten! Soll ich nach <time>11</time> noch ko<c rendition="#gemination-m"/>en, oder iſt es Ihnen gleichgiltig?</p>
+                <closer>Ihr<lb/>
+                    <signed>Hugo.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

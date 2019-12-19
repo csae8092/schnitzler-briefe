@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1901-06-07_01_AS_Hofmannsthal"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 7. 6. 1901</title>
+            <author key="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </editor>
+            <funder>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASBW</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
+            <idno type="ASBW" n="2890"/>
+            <availability status="free">
+               <p>Copyright © 2019</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>D</country>
+                        <settlement>Frankfurt am Main</settlement>
+                        <repository>Freies Deutsches Hochstift</repository>
+                        <idno>Hs-30885,XXXX</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HvHAS">
+                  <monogr>
+                     <author key="pmb11740">Hofmannsthal, Hugo</author>
+                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefwechsel</title>
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1964">1964</date>
+                     </imprint>
+                     <biblScope unit="pp">146</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction  type="sent">
+               <persName key="pmb2121">Schnitzler, Arthur</persName>
+               <placeName key="pmb50">Wien</placeName>
+               <date when="1901-06-07" n="01">7. 6. 1901</date>
+            </correspAction>
+            <correspAction  type="received">
+               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName key="pmb50">Wien</placeName>
+            </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1901-01_01">Hofmannsthal an Schnitzler, 1901-01</ptr>
+               <ptr type="next" subtype="toAuthor" target="1901-06-07_02">Hofmannsthal an Schnitzler, 7. 6. 1901</ptr>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="proposed">
+         <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <placeName key="pmb50">Wien</placeName>, <date>7. Juni 901</date>. </dateline>
+               <salute>Mein lieber Hugo, </salute>
+            </opener>
+            <p>Sie erinnern sich vielleicht dieser kleinen Kassette oder wie Sie’s nennen wollen,
+               aus <placeName key="pmb30">Salzburg</placeName>. Ich möchte gern, daß Sie irgendwo in
+               der <placeName key="pmb40297">Rodauner Villa</placeName> einen Platz fänden sie
+               hinzustellen und sich dabei manchmal jenes <placeName key="pmb30">Salzburg</placeName>er Tags beim <placeName key="pmb40036">Svatek</placeName>
+               erinnern; und andrer Tage auch. Adieu und auf ein schönes Wiedersehn, spätestens zu
+               Anfang des Herbstes. Grüßen Sie <persName key="pmb2292">Gerty</persName>, ich brauche
+               Ihnen beiden nicht erst zu sagen, wie viel Glück ich Ihnen wünsche. </p>
+            <closer>Immer Ihr<lb/>
+               <signed>Arthur</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

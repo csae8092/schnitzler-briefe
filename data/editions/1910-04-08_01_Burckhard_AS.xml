@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+    xml:id="L1910-04-08_01_Burckhard_AS">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Max Burckhard an Arthur Schnitzler, 8. 4. 1910</title>
+                <author key="pmb11036">Burckhard, Max</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="1971"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>GB</country>
+                                <settlement>Cambridge</settlement>
+                                <repository>University Library</repository>
+                                <idno>Schnitzler, B 20</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Brief, 1 Bl., 1 S. XXXX </p>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pmb11036">Burckhard, Max</persName>
+                    <placeName key="pmb33">St. Gilgen</placeName>
+                    <date when="1910-04-08" n="01">8. 4. 1910</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <!--<placeName key="pmb50">Wien</placeName>-->
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="GHS" when="2018-11-05">Angelegt</change>
+            <change who="MAM" when="2018-11-21">Durchsicht</change>
+            <change who="MAM" when="2018-11-21">Index check</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <p>
+                        <seg rend="left">
+                            <pb facs="TMW HS_Schn1_73_1.jpg"/>
+                            <hi rend="pre-print">Dr. Max Burckhard</hi>
+                        </seg>
+                        <seg rend="right">
+                            <hi rend="pre-print"><placeName key="pmb436">Wien, IX.
+                                    Porzellangasse&#160;48</placeName></hi>
+                            <space unit="chars" quantity="1"/>
+                            <c rendition="#dots" n="10"/>
+                        </seg>
+                    </p>
+                    <p rend="right">
+                        <hi rend="pre-print">
+                            <placeName key="pmb33">St. Gilgen</placeName>
+                        </hi>
+                        <space unit="chars" quantity="1"/>
+                        <date>8. 4. 10</date>
+                    </p>
+                    <salute>Lieber verehrter Herr Doctor!</salute>
+                </opener>
+                <p>Ich habe Zweifel, ob ein Brief, den ich geſtern an Sie ſchrieb, aufgegeben wurde,
+                    und ſage daher vorſichtsweiſe heute nochmal Dank für Ihren lieben Brief, den ich
+                    bei der Rückkehr aus <placeName key="pmb1217">Portofino</placeName> vorfand.
+                    Mich hat es außerordentlich gefreut, daſs <workName key="pmb33516"
+                        >Trinacria</workName> Sie intereſſiert hat, da ich bei perſönlichen
+                    Reminiscenzen i<c rendition="#gemination-m"/>er ganz beſonders unſicher bin über
+                    die Wirkung auf andere. Ich habe <placeName key="pmb451">Sicilien</placeName> ſo
+                    gerne gewonnen, daſs ich fünfmal unten war und bei ſolchen Gelegenheiten nicht
+                    nur ſehr viel herumgeradelt u -gekraxelt bin, ſondern auch bis in die Tiefe
+                    archäologiſcher Localſtudien geſunken bin.</p>
+                <closer>Auf ſehr baldiges Wiederſehen in <placeName key="pmb50">Wien</placeName>,
+                    und hoffentlich wieder in <placeName key="pmb33">St. Gilgen</placeName>. Mit
+                    Handkuß u herzl Grüßen<lb/>Ihr<lb/>
+                    <signed>D<hi rend="superscript">r</hi>Burckhard</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

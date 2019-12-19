@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1913-05-05_01_AS_Adam">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Arthur Schnitzler an Robert Adam, 5. 5. 1913</title>
+                <author key="pmb2121">Schnitzler, Arthur</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="2327"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                 <listWit>
+                    <witness n="1">
+                        <msDesc>
+                           <msIdentifier>
+                               <country>D</country>           
+                               <settlement>Marbach am Neckar</settlement>
+                               <repository>Deutsches Literaturarchiv</repository>
+                               <idno>96.34.1/10</idno>
+                           </msIdentifier>
+                            <physDesc>
+                                <p>ms. Karte mit eh. Unterschrift und ms. Umschlag. Von fremder Hand am Umschlag unterhalb des Namens: »<quote>k.k. Bezirksrichter</quote>«.</p>
+                                <stamp n="1">
+                                    <placeName key="pmb58">1/1 Wien 8</placeName>
+                                    <date when="1913-05-05">5. IV. 13</date>
+                                    <time>5</time>
+                                </stamp>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                    <date when="1913-05-05" n="01">5. 5. 1913</date>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb12438">Adam, Robert</persName>
+                    <placeName key="pmb1240">Zistersdorf</placeName>
+                </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1913-04-15_01">Adam an Schnitzler, 15. 4. 1913</ptr>
+               <ptr type="next" subtype="toAuthor" target="1913-05-07_01">Adam an Schnitzler, 7. 5. 1913</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="MAM" when="2019-05-07">Angelegt</change>
+            <change who="MAM" when="2019-06-12">Index check</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="card">
+        <body>
+            <div type="address">
+            <address>
+                <addrLine>
+                  <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
+               </addrLine>
+                <addrLine>
+                  <hi rend="pre-print">
+                     <placeName key="pmb150">Wien XVIII. Sternwartestrasse 71</placeName>
+                  </hi>
+               </addrLine>
+            </address>
+                <address>
+                    <addrLine>
+                  <pb facs=""/>Herrn Dr. Robert Adam Pollak</addrLine>
+                    <addrLine>
+                  <placeName key="pmb1240">Zistersdorf</placeName>.</addrLine>
+                    <addrLine>
+                  <placeName key="pmb1003">Niederösterreich</placeName>.</addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                   <p>
+                  <seg rend="left">
+                     <pb facs=""/>
+                     <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
+                  </seg>
+                  <seg rend="right">
+                     <date>5. 5. 1913</date>.</seg>
+               </p>
+                    <p>
+                  <hi rend="pre-print">
+                     <placeName key="pmb150">Wien XVIII. Sternwartestrasse 71</placeName>
+                  </hi>
+               </p>
+                    <salute rend="center">Sehr geehrter Herr Doktor.</salute>
+            </opener>                         
+                <p>Ihre Studie »<workName key="pmb33582">Fatme</workName>« habe ich mit wirklichem Interesse und Vergnügen gelesen. Mit bestem Danke
+                    sende ich das Manuscript heute an Sie zurück.</p>
+                <closer>Verbindlich grüssend<lb/>Ihr sehr ergebener<lb/>
+               <signed>
+                  <handShift/>Arthur Schnitzler</signed>                                               
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

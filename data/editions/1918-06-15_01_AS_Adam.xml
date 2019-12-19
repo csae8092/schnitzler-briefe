@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1918-06-15_01_AS_Adam">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Arthur Schnitzler an Robert Adam, 15. 6. 1918</title>
+                <author key="pmb2121">Schnitzler, Arthur</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="2351"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>D</country>
+                                <settlement>Marbach am Neckar</settlement>
+                                <repository>Deutsches Literaturarchiv</repository>
+                                <idno>96.34.2/9</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Postkarte, Lateinschrift.</p>
+                                <stamp n="1">
+                                    <date when="1918-06-15">16. <supplied>6. 1918</supplied>
+                           </date>
+                                </stamp>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                    <date when="1918-06-15" n="01">15. 6. 1918</date>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb12438">Adam, Robert</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1918-06-12_01">Adam an Schnitzler, 12. 6. 1918</ptr>
+               <ptr type="next" subtype="toAuthor" target="1918-07-17_01">Adam an Schnitzler, 17. 7. 1918</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="MAM" when="2019-05-15">Angelegt</change>
+            <change who="MAM" when="2019-05-15">Index check</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="card">
+        <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                  <pb facs=""/>
+                  <placeName key="pmb58">Wien XVIII. Sternwartestr. 71</placeName>.</addrLine>
+                </address>
+                <address>
+                    <addrLine>Herrn Dr. Robert Adam Pollak.</addrLine>
+                    <addrLine>
+                  <placeName key="pmb62">Wien XII</placeName>.</addrLine>
+                    <addrLine>
+                  <placeName key="pmb1239">Meidlinger Hauptstr 58</placeName>.</addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <p>
+                  <seg rend="left">
+                     <pb facs=""/>
+                     <hi rend="pre-print">A. S.</hi>
+                  </seg>
+                  <seg rend="right">
+                     <date>15. 6. 18</date>
+                  </seg>
+               </p>
+                    <salute rend="inline">Verehrter Herr Doktor, </salute>
+                </opener>
+                <p>vielen Dank für Ihren lieben Brief. Paſſt es Ihnen, ſo erwarte ich Sie gern am <date>Mitwwoch (19.)</date> gegen
+                <time>7 Uhr Abends</time> Oder geben Sie ſelbſt einen anderen Tag an. Jedenfalls ſreue ich mich Sie bald wiederzusehen.</p>
+                <closer>Herzlich  ſehr ergebner<lb/>
+               <signed>Arthur Schnitzler</signed>
+            </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

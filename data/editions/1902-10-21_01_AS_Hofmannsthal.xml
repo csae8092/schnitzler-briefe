@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1902-10-21_01_AS_Hofmannsthal"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 21. 10. 1902</title>
+            <author key="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </editor>
+            <funder>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASBW</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
+            <idno type="ASBW" n="2915"/>
+            <availability status="free">
+               <p>Copyright © 2019</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>D</country>
+                        <settlement>Frankfurt am Main</settlement>
+                        <repository>Freies Deutsches Hochstift</repository>
+                        <idno>Hs-30885,XXXX</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HvHAS">
+                  <monogr>
+                     <author key="pmb11740">Hofmannsthal, Hugo</author>
+                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefwechsel</title>
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1964">1964</date>
+                     </imprint>
+                     <biblScope unit="pp">XXXX</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction  type="sent">
+               <persName key="pmb2121">Schnitzler, Arthur</persName>
+               <placeName key="pmb168">Berlin</placeName>
+               <date when="1902-10-21" n="01">21. 10. 1902</date>
+            </correspAction>
+            <correspAction  type="received">
+               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName key="pmb50">Wien</placeName>
+            </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1902-10-07_01">Hofmannsthal an Schnitzler, 7. 10. 1902</ptr>
+               <ptr type="next" subtype="toAuthor" target="1902-10-23_01">Hofmannsthal an Schnitzler, 23. 10. 1902</ptr>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="proposed">
+         <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <salute>lieber, </salute>die <persName key="pmb12618">Sandrock</persName> möchte den
+                  <workName key="pmb31639">Tod des Tizian</workName>, wohl um ihn vorzulesen; –
+               bitte sehr lassen Sie ihr ein Exemplar senden. – Ich bin heut <time>Früh</time> aus <placeName key="pmb735">Agnetendorf</placeName> gekommen, wo ich nach 6tägigem <placeName key="pmb168">Berlin</placeName>er Aufenthalt, 1 Tag mit <persName key="pmb10986">Brahm</persName> bei <persName key="pmb11617">Hauptmann</persName> sehr an genehm
+               verbrachte. – <workName key="pmb29857">Beatrice</workName> dürfte im
+                  <date>Feber</date> am <placeName key="pmb3">Dtsch. Th.</placeName> gespielt werden. –
+               <workName key="pmb40622">M. Vanna</workName> ist ein außerordentlicher Kassenerfolg. Die
+               Aufführung läßt zu wünschen übrig. Haben Sie meinen Brief erhalten? – Schreiben Sie
+               ein Wort, wie’s Ihnen geht. Herzlichst</p>
+            <closer>Ihr <signed>A.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

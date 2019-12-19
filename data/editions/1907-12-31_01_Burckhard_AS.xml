@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1907-12-31_01_Burckhard_AS">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Max Burckhard an Arthur Schnitzler, 31. 12. 1907</title>
+                <author key="pmb11036">Burckhard, Max</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="1958"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                 <listWit>
+                    <witness n="1">
+                  <msDesc>
+                      <msIdentifier>
+                          <country>GB</country>            
+                          <settlement>Cambridge</settlement>            
+                          <repository>University Library</repository>            
+                          <idno>Schnitzler, B 20</idno>
+                      </msIdentifier>
+                      <physDesc>
+                          <p>eh. Brief, 1 Bl., 2 S. Von unbekannter Hand mit Bleistift nummeriert: »<quote>21</quote>«.</p>
+                      </physDesc>
+                  </msDesc>
+                    </witness>
+                </listWit> 
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+            <correspDesc>
+                <correspAction  type="sent">
+                    <persName key="pmb11036">Burckhard, Max</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                    <date when="1907-12-31" n="01">31. 12. 1907</date>
+                </correspAction>
+                <correspAction  type="received">
+                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <placeName key="pmb50">Wien</placeName>
+                </correspAction>
+            <correspContext>
+               <ptr type="previous" subtype="toAuthor" target="1907-11-23_01">Burckhard an Schnitzler, 23. 11. 1907</ptr>
+               <ptr type="next" subtype="toAuthor" target="1908-06-07_01">Burckhard an Schnitzler, 7. 6. 1908</ptr>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+        <revisionDesc status="proposed">
+            <change who="GHS" when="2018-11-02">Angelegt</change>
+            <change who="MAM" when="2018-11-21">Durchsicht</change>
+            <change who="MAM" when="2018-11-21">Index check</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <p>
+                  <seg rend="left">
+                     <pb facs="DSC_0665.JPG"/>
+                     <hi rend="pre-print">D<hi rend="superscript">r.</hi> Max Burckhard</hi>
+                  </seg>
+                        <seg rend="right">
+                     <hi rend="pre-print">
+                        <placeName key="pmb436">Wien, IX. Porzellangasse 48</placeName>
+                     </hi>
+                     <space unit="chars" quantity="1"/>
+                     <date>31. 12. 07</date>
+                  </seg>
+               </p>
+                    <p rend="right">
+                  <hi rend="pre-print">
+                     <del rend="strikethrough">St. Gilgen</del>
+                  </hi>
+                  <space unit="chars" quantity="7"/>
+               </p>
+                    <salute>Lieber, verehrter Herr Doctor!</salute>
+            </opener>
+                <p>Ich kann Ihnen gar nicht ſagen wie ſehr mich die Nachricht von der Erkrankung
+                    Ihrer Frau <rs type="person" key="pmb2173">Gemahlin</rs> betrübt und erſchreckt hat, und ich freue mich nur von
+                    ganzem Herzen zu hören, daſs ſie ſich ſchon auf dem Wege der Geneſung befindet.
+                    Das ſind wohl jetzt ſchwere Zeiten <pb facs="DSC_0666.JPG"/>für Sie gewesen.
+                    Mögen um ſo beſſere und frohere nun kommen.</p>
+                <p>Ich danke Ihnen vielmals für Ihren lieben Brief und wünſche Ihnen und der
+                    gnädigen <rs type="person" key="pmb2173">Frau</rs> von ganzem Herzen das allerbeſte für das neue Jahr und für
+                    immerdar.</p>
+                <closer>Ihr getreuer<lb/>
+                    <signed>D<hi rend="superscript">r</hi>Burckhard</signed>
+                    
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
