@@ -8,14 +8,14 @@
     
     <xsl:template match="@ref">
         <xsl:choose>
-            <xsl:when test="starts-with(data(.), '#')">
+            <xsl:when test="starts-with(data(.), 'pmb')">
                 <xsl:attribute name="ref">
                     <xsl:value-of select="data(.)"/>
                 </xsl:attribute>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:attribute name="ref">
-                    <xsl:value-of select="concat('#', data(.))"/>
+                    <xsl:value-of select="concat('pmb', data(.))"/>
                 </xsl:attribute>
             </xsl:otherwise>
         </xsl:choose>

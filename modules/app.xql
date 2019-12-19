@@ -142,9 +142,9 @@ let $root := tokenize(document-uri(root($node)), '/')
 declare function app:nameOfIndexEntry($node as node(), $model as map (*)){
 
     let $searchkey := xs:string(request:get-parameter("searchkey", "No search key provided"))
-    let $withHash:= '#'||$searchkey
+    let $withHash:= $searchkey
     let $entities := collection($app:editions)//tei:TEI//*[@ref=$withHash]
-    let $terms := (collection($app:editions)//tei:TEI[.//tei:term[./text() eq substring-after($withHash, '#')]])
+    let $terms := (collection($app:editions)//tei:TEI[.//tei:term[./text() eq $withHash]])
     let $noOfterms := count(($entities, $terms))
     let $hit := collection($app:indices)//*[@xml:id=$searchkey]
     let $name := if (contains(node-name($hit), 'person'))
@@ -212,9 +212,9 @@ let $href := concat('show.html','?document=', app:getDocName($node), '&amp;direc
 
 declare function app:indexSearch_hits($node as node(), $model as map(*),  $searchkey as xs:string?, $path as xs:string?){
 let $indexSerachKey := $searchkey
-let $searchkey:= '#'||$searchkey
+let $searchkey:= $searchkey
 let $entities := collection($app:data)//tei:TEI[.//*/@ref=$searchkey]
-let $terms := collection($app:editions)//tei:TEI[.//tei:term[./text() eq substring-after($searchkey, '#')]]
+let $terms := collection($app:editions)//tei:TEI[.//tei:term[./text() eq $searchkey]]
 for $title in ($entities, $terms)
     let $docTitle := string-join(root($title)//tei:titleStmt/tei:title[@type='main']//text(), ' ')
     let $hits := if (count(root($title)//*[@ref=$searchkey]) = 0) then 1 else count(root($title)//*[@ref=$searchkey])

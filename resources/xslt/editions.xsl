@@ -209,12 +209,18 @@
                                         </xsl:choose>
                                     </th>
                                     <td>
+                                        <xsl:if test="./tei:date">
                                         <xsl:value-of select="./tei:date"/>
                                                 <br/>
+                                        </xsl:if>
+                                        <xsl:if test="./tei:persName">
                                        <xsl:value-of select="./tei:persName" separator=";"/>
                                                 <br/>
+                                        </xsl:if>
+                                        <xsl:if test="./tei:placeName">
                                         <xsl:value-of select="./tei:placeName" separator=";"/>
                                                 <br/>
+                                        </xsl:if>
                                     </td>
                                 </tr>
                             </xsl:for-each>
@@ -269,7 +275,7 @@
                                 <tbody>
                                     <xsl:if test="tei:msDesc/tei:msIdentifier">
                                         <tr>
-                                            <th>Signatur
+                                            <th valign="top">Signatur
                                             </th>
                                             <td>
                                                 <xsl:for-each select="tei:msDesc/tei:msIdentifier/child::*">
@@ -281,7 +287,7 @@
                                     </xsl:if>
                                     <xsl:if test="//tei:physDesc">
                                         <tr>
-                                            <th>
+                                            <th valign="top">
                                                 Beschreibung
                                             </th>
                                             <td>
@@ -291,7 +297,7 @@
                                         <xsl:if test="tei:msDesc/tei:physDesc/tei:stamp">
                                             <xsl:for-each select="tei:msDesc/tei:physDesc/tei:stamp">
                                             <tr>
-                                                <th>
+                                                <th valign="top">
                                                     Stempel
                                                     <xsl:value-of select="@n"/>
                                                     
@@ -327,7 +333,7 @@
                                 <table class="table table-striped">
                                     <tbody>
                                             <tr>
-                                                <th>
+                                                <th valign="top">
                                                 </th>
                                                 <td>
                                                         <xsl:choose>

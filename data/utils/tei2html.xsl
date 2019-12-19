@@ -43,7 +43,7 @@
                     <div class="card">
                         <div class="card-header">
                             <div class="row" style="text-align:left">
-                                <div class="col-md-2">
+                                <div>
                                     <xsl:if test="$prev">
                                         <h1>
                                             <a>
@@ -294,9 +294,9 @@
         </xsl:for-each>
     </xsl:template><!-- reference strings   -->
     
-    <xsl:template match="*[starts-with(data(@ref), '#')]">
+    <xsl:template match="*[starts-with(data(@ref), 'pmb')]">
         <xsl:variable name="xml-id">
-            <xsl:value-of select="substring-after(data(@ref), '#')"/>
+            <xsl:value-of select="data(@ref)"/>
         </xsl:variable>
         <xsl:variable name="index-entry">
             <xsl:value-of select="normalize-space(string-join(//*[@xml:id=$xml-id]//text(), ' '))"/>
@@ -306,7 +306,7 @@
         </abbr>
     </xsl:template>
     
-    <xsl:template match="*[not(starts-with(data(@ref), '#'))][@ref]">
+    <xsl:template match="*[not(starts-with(data(@ref), 'pmb'))][@ref]">
         <a>
             <xsl:attribute name="href">
                 <xsl:value-of select="@ref"/>

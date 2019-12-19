@@ -19,7 +19,7 @@ for $x in collection($app:editions)//tei:TEI
         {
         for $y in $persons
         return
-        collection($app:indices)//id(substring-after($y, '#'))
+        collection($app:indices)//id($y)
         }
     </listPerson>
     
@@ -29,7 +29,7 @@ for $x in collection($app:editions)//tei:TEI
         {
         for $y in $places
         return
-        collection($app:indices)//id(substring-after($y, '#'))
+        collection($app:indices)//id($y)
         }
     </listPlace>
     
@@ -39,7 +39,7 @@ for $x in collection($app:editions)//tei:TEI
         {
         for $y in $orgs
         return
-        collection($app:indices)//id(substring-after($y, '#'))
+        collection($app:indices)//id($y)
         }
     </listOrg>
     

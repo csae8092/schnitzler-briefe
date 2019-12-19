@@ -176,7 +176,7 @@
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listtitle.xml</xsl:attribute>
                 <xsl:attribute name="data-key">
-                    <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                    <xsl:value-of select="data(@ref)"/>
                     <xsl:value-of select="@key"/>
                 </xsl:attribute>
                 <xsl:value-of select="."/>
@@ -189,7 +189,7 @@
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listplace.xml</xsl:attribute>
                 <xsl:attribute name="data-key">
-                    <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                    <xsl:value-of select="data(@ref)"/>
                     <xsl:value-of select="@key"/>
                 </xsl:attribute>
                 <xsl:value-of select="."/>
@@ -202,26 +202,26 @@
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listperson.xml</xsl:attribute>
                 <xsl:attribute name="data-key">
-                    <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                    <xsl:value-of select="data(@ref)"/>
                     <xsl:value-of select="@key"/>
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
         </strong>
     </xsl:template>
-    <xsl:template match="tei:rs[@ref or @key]">
+    <!--<xsl:template match="tei:rs[@ref or @key]">
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">
                     <xsl:value-of select="concat('list', data(@type), '.xml')"/>
                 </xsl:attribute>
                 <xsl:attribute name="data-key">
-                    <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                    <xsl:value-of select="data(@ref)"/>
                     <xsl:value-of select="@key"/>
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
-    </xsl:template>
+    </xsl:template>-->
     <xsl:template match="tei:persName[@key]|tei:rs[@type='person' and @key]">
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
@@ -561,9 +561,6 @@
         </code>
     </xsl:template>
         
-        <xsl:template match="tei:lb">
-        <br/>
-        </xsl:template>
         <xsl:template match="tei:c[@rendition='#kaufmannsund']">
         &amp;
         </xsl:template>

@@ -64,7 +64,7 @@ let $stored := xmldb:store($temp, 'cmfi-temp.xml', $CMFI)
 let $changed := 
 
 for $person in doc($stored)//tei:correspAction/tei:persName
-let $oldID := substring-after(data($person/@ref), '#')
+let $oldID := data($person/@ref)
 let $newID := doc($app:personIndex)//tei:person[@xml:id=$oldID]//tei:idno/text()
 let $test := if (starts-with($newID, 'http')) then update replace $person/@ref with $newID else ()
 return doc($stored) 
