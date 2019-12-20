@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-12-16_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-12-16_01_Beer-Hofmann_AS">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, [16. 12. 1891]</title>
-                <author key="pmb10863">Beer-Hofmann, Richard</author>
+                <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, [16.&#160;12.&#160;1891]</title>
+                <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -48,10 +52,10 @@
                                 <country>UK</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte; Lateinschrift. Von
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte; Lateinschrift. Von
                                     Schnitzler mit Bleistift datiert: »<quote>
                                         <date when="1891-12-16">16/12 91</date>
                                     </quote>« und nummeriert: »<quote>5</quote>«.</p>
@@ -62,8 +66,8 @@
                 <listBibl>
                     <biblStruct corresp="ASBH">
                         <monogr>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
-                            <author key="pmb10863">Beer-Hofmann, Richard</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                             <title level="m">Briefwechsel 1891–1931</title>
                             <editor>Hg. Konstanze Fliedl</editor>
                             <imprint>
@@ -76,8 +80,8 @@
                     </biblStruct>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb10815">Bahr, Hermann</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10815">Bahr, Hermann</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel, Aufzeichnungen, Dokumente
                                 (1891–1931)</title>
                             <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
@@ -97,18 +101,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1891-12-16" n="01">[16. 12. 1891]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1891-12-16" n="01">[16.&#160;12.&#160;1891]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1891-12-12_01">Schnitzler an Beer-Hofmann, 12. 12. 1891</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-01-12_01">Schnitzler an Beer-Hofmann, 12. 1. 1892</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1891-12-12_01">Schnitzler an Beer-Hofmann, 12.&#160;12.&#160;1891</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-01-12_01">Schnitzler an Beer-Hofmann, 12.&#160;1.&#160;1892</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -124,24 +128,9 @@
         <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00014.jpg"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p rend="right">
-                        <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00013.jpg"/>Im Caffée</p>
-                    <salute rend="center">Lieber Arthur!</salute>
-                </opener>
-                <p>
-                    <persName key="pmb10815">Hermann Bahr</persName> erzählt mir soeben: Er hat
-                    Brief von <persName key="pmb12491">Reicher</persName>, das <workName key="pmb29823">Märchen</workName> ist am <orgName key="pmb35053">Lessingtheater</orgName> angeno<c rendition="#gemination-m"/>en; <persName key="pmb14328">Blumenthal</persName> ist entzückt <del rend="strikethrough">und</del> wird ihnen <!-- sic -->
-                    <add place="above">aber</add> eine Reihe
-                    von »unbedeutenden« (?) Aenderungen vorschlagen.</p>
-                <closer>
-                    <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00014.jpg"/>Es grüßt sie
-                    <!-- sic -->von Herzen<space unit="chars" quantity="4"/>Ihr<lb/>
-                    <signed>Richard</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><p rend="right"><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00013.jpg"/>Im Caffée</p><salute rend="center">Lieber Arthur!</salute></opener><p><rs ref="#pmb10815" type="person">Hermann Bahr</rs> erzählt mir soeben: Er hat
+                    Brief von <rs ref="#pmb12491" type="person">Reicher</rs>, das <rs ref="#pmb29823" type="work">Märchen</rs> ist am <rs ref="#pmb35053" type="organisation">Lessingtheater</rs> angeno<c rendition="#gemination-m"/>en; <rs ref="#pmb14328" type="person">Blumenthal</rs> ist entzückt <del rend="strikethrough">und</del> wird ihnen <!-- sic --><add place="above">aber</add> eine Reihe
+                    von »unbedeutenden« (?) Aenderungen vorschlagen.</p><closer><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00014.jpg"/>Es grüßt sie
+                    <!-- sic -->von Herzen<space unit="chars" quantity="4"/>Ihr<lb/><signed>Richard</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-11-19_01_Blumenthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-11-19_01_Blumenthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Oscar Blumenthal an Arthur Schnitzler, 19. 11. 1896</title>
-                <author key="pmb14328">Blumenthal, Oscar</author>
+                <title level="a">Oscar Blumenthal an Arthur Schnitzler, 19.&#160;11.&#160;1896</title>
+                <author ref="#pmb14328">Blumenthal, Oscar</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,11 +52,11 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 15</idno>
+                                <idno>Schnitzler, B&#160;15</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>ms. Brief mit eh. Unterschrift und einer hs. Korrektur, 1 Bl.,
-                                    2 S. Von unbekannter Hand mit Bleistift nummeriert:
+                                <p>ms. Brief mit eh. Unterschrift und einer hs. Korrektur, 1&#160;Bl.,
+                                    2&#160;S. Von unbekannter Hand mit Bleistift nummeriert:
                                     »<quote>8</quote>«. Eine Unterstreichung mit rotem Buntstift.</p>
                             </physDesc>
                         </msDesc>
@@ -65,18 +69,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb14328">Blumenthal, Oscar</persName>
-                    <placeName key="pmb168">Berlin</placeName>
-                    <date when="1896-11-19" n="01">19. 11. 1896</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb14328">Blumenthal, Oscar</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
+                    <date when="1896-11-19" n="01">19.&#160;11.&#160;1896</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-11-14_02">Blumenthal an Schnitzler, 14. 11. 1896</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-05-12_02">Blumenthal an Schnitzler, 12. 5. 1897</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-11-14_02">Blumenthal an Schnitzler, 14.&#160;11.&#160;1896</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-05-12_02">Blumenthal an Schnitzler, 12.&#160;5.&#160;1897</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -92,55 +96,20 @@
         <graphic url="MS-SCHNITZLER-B-00015-000-00022"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p rend="center">
-                        <pb facs="MS-SCHNITZLER-B-00015-000-00021"/>
-                        <hi rend="pre-print">
-                            <orgName key="pmb35053">
-                                <hi rend="small_caps">Lessing-Theater</hi>
-                            </orgName>
-                        </hi>
-                    </p>
-                    <p rend="center">
-                        <hi rend="pre-print">
-                            <hi rend="small_caps">Director</hi>:</hi>
-                        <space unit="chars" quantity="1"/>
-                        <hi rend="pre-print">
-                            <hi rend="small_caps">Dr.</hi> OSCAR BLUMENTHAL.</hi>
-                    </p>
-                    <p rend="right">
-                        <hi rend="pre-print">
-                            <placeName key="pmb168">Berlin N.W. (40)</placeName>, den</hi>
-                        <space unit="chars" quantity="1"/>
-                        <date>19. November <hi rend="pre-print">18</hi>96</date>.</p>
-                    <salute rend="center">Sehr geehrter Herr Doctor!</salute>
-                </opener>
-                
-                <p>Ich sage Ihnen zunächst meinen wärmsten Dank für Ihre prinzipielle Zustimmung zu
-                    meinem Vorschlage, von der ich auch Freund <persName key="pmb12265">MITTERWURZER</persName> sofort benachrichtige. Die Aussicht, dass Sie durch
-                    ein neues Schlussstück den <rs key="pmb29935" type="work">Cyclus</rs> abrunden
+        <body><div type="writingSession" n="1"><opener><p rend="center"><pb facs="MS-SCHNITZLER-B-00015-000-00021"/><hi rend="pre-print"><rs ref="#pmb35053" type="organisation"><hi rend="small_caps">Lessing-Theater</hi></rs></hi></p><p rend="center"><hi rend="pre-print"><hi rend="small_caps">Director</hi>:</hi><space unit="chars" quantity="1"/><hi rend="pre-print"><hi rend="small_caps">Dr.</hi> OSCAR BLUMENTHAL.</hi></p><p rend="right"><hi rend="pre-print"><rs ref="#pmb168" type="place">Berlin N.W. (40)</rs>, den</hi><space unit="chars" quantity="1"/><date>19.&#160;November <hi rend="pre-print">18</hi>96</date>.</p><salute rend="center">Sehr geehrter Herr Doctor!</salute></opener><p>Ich sage Ihnen zunächst meinen wärmsten Dank für Ihre prinzipielle Zustimmung zu
+                    meinem Vorschlage, von der ich auch Freund <rs ref="#pmb12265" type="person">MITTERWURZER</rs> sofort benachrichtige. Die Aussicht, dass Sie durch
+                    ein neues Schlussstück den <rs ref="#pmb29935" type="work" subtype="implied">Cyclus</rs> abrunden
                     werden, erfreut mich noch ganz besonders. Jedenfalls werde ich jetzt das Buch
                     noch einmal von Anfang bis zu Ende auf mich wirken lassen, und auch die von
-                    Ihnen hervorgehobenen Plaudereien »<workName key="pmb30159">AGONIE</workName>«
-                    und »<workName key="pmb30145">DENKSTEINE</workName>« in’s Auge fassen, damit wir
-                    uns zunächst über die Auswahl aus dem Vorhandenem schlüssig machen. <subst>
-                        <del rend="strikethrough">Damit</del>
-                        <add place="above"><!-- handschriftlich von Bl. -->Darin</add>
-                    </subst> stimme ich mit Ihnen selbstverständlich überein, dass die Frauenrollen
+                    Ihnen hervorgehobenen Plaudereien »<rs ref="#pmb30159" type="work">AGONIE</rs>«
+                    und »<rs ref="#pmb30145" type="work">DENKSTEINE</rs>« in’s Auge fassen, damit wir
+                    uns zunächst über die Auswahl aus dem Vorhandenem schlüssig machen. <subst><del rend="strikethrough">Damit</del><add place="above"><!-- handschriftlich von Bl. -->Darin</add></subst> stimme ich mit Ihnen selbstverständlich überein, dass die Frauenrollen
                     in den verschiedenen Stücken von verschiedenen Darstellerinnen gespielt werden
-                    müssen. Das »<orgName key="pmb35053">LESSING-THEATER</orgName>« hat
+                    müssen. Das »<rs ref="#pmb35053" type="organisation">LESSING-THEATER</rs>« hat
                     glücklicherweise eine reiche Auswahl <pb facs="MS-SCHNITZLER-B-00015-000-00022"/>von frischen weiblichen Talenten, die für diese Stücke zur Verfügung stehen.
-                    Gewiss finden Sie inzwischen auch einmal Gelegenheit mit <persName key="pmb12265">MITTERWURZER</persName> persönlich zusammenzutreffen; der
+                    Gewiss finden Sie inzwischen auch einmal Gelegenheit mit <rs ref="#pmb12265" type="person">MITTERWURZER</rs> persönlich zusammenzutreffen; der
                     lebhafte Eifer, mit welchem er auf den Gedanken eingegangen ist, lässt mich
-                    hoffen, dass er aus Ihrem <workName key="pmb29935">ANATOL</workName> ein
-                    packendes Characterbild schaffen wird.</p>
-                <closer>Mit besten Grüssen Ihr<lb/> aufrichtig ergebener<lb/>
-                    <signed>
-                        <handShift scribe="pmb14328"/>Dr. Osc. Blumenthal</signed>
-                </closer>
-            </div>
-        </body>
+                    hoffen, dass er aus Ihrem <rs ref="#pmb29935" type="work">ANATOL</rs> ein
+                    packendes Characterbild schaffen wird.</p><closer>Mit besten Grüssen Ihr<lb/> aufrichtig ergebener<lb/><signed><handShift scribe="pmb14328"/>Dr. Osc. Blumenthal</signed></closer></div></body>
     </text>
 </TEI>

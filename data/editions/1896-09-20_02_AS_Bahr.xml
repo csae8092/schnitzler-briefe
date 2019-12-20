@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-09-20_02_AS_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-09-20_02_AS_Bahr">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, [20. 9. 1896?]</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, [20.&#160;9.&#160;1896?]</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -60,10 +64,10 @@
             <listBibl>
                <biblStruct corresp="DASB">
                   <analytic>
-                     <title level="a">[20. 9. 1896?], Abschrift</title>
+                     <title level="a">[20.&#160;9.&#160;1896?], Abschrift</title>
                   </analytic>
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint> 
@@ -80,8 +84,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -99,18 +103,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">[Wien]</placeName>
-               <date when="1896-09-20" n="02">[20. 9. 1896?]</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
+               <date when="1896-09-20" n="02">[20.&#160;9.&#160;1896?]</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-09-19_01">Bahr an Schnitzler, [19.? 9. 1896]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-09-24_01">Bahr an Schnitzler, 24. 9. 1896</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-09-19_01">Bahr an Schnitzler, [19.? 9.&#160;1896]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-09-24_01">Bahr an Schnitzler, 24.&#160;9.&#160;1896</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -126,35 +130,13 @@
      <graphic url="HS_AM60153Ba_R"/>
   </facsimile>
   <text type="card">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <anchor type="commentary" xml:id="KL008-1"/>
-                  <date>Sonntag abd</date>
-                  <note type="commentary" xml:id="KL008-1h">Undatiert. Am <date>14. 9. 1896</date>, nachdem ihn
-                <persName key="pmb2121">Schnitzler</persName> nicht in <placeName key="pmb662">Baden</placeName> angetroffen hat, schreibt ihm <persName key="pmb10863">Beer-Hofmann</persName>: »<quote>Ich dürfte am <date>24.</date> in <placeName key="pmb50">Wien</placeName> sein.</quote>«
-                    (<bibl>
-                        <workName>Bw</workName> Schnitzler/Beer-Hofmann 94 [mit falscher
-                Datierung in der Wiedergabe]</bibl>); der 20. ist ein Sonntag.</note>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Hermann, </salute>als ich gestern Abend fragte, wußte man noch nichts von
-          deiner Sendung, jetzt eben beim Nachhausegehen übergab mir die <rs type="person" key="pmb27696">Hausmeisterin</rs> das
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><anchor type="commentary" xml:id="KL008-1"/><date>Sonntag abd</date><note type="commentary" xml:id="KL008-1h">Undatiert. Am <date>14.&#160;9.&#160;1896</date>, nachdem ihn
+                <rs ref="#pmb2121" type="person">Schnitzler</rs> nicht in <rs ref="#pmb662" type="place">Baden</rs> angetroffen hat, schreibt ihm <rs ref="#pmb10863" type="person">Beer-Hofmann</rs>: »<quote>Ich dürfte am <date>24.</date> in <rs ref="#pmb50" type="place">Wien</rs> sein.</quote>«
+                    (<bibl><rs type="work">Bw</rs> Schnitzler/Beer-Hofmann 94 [mit falscher
+                Datierung in der Wiedergabe]</bibl>); der 20. ist ein Sonntag.</note></dateline></opener><p><salute>Lieber Hermann, </salute>als ich gestern Abend fragte, wußte man noch nichts von
+          deiner Sendung, jetzt eben beim Nachhausegehen übergab mir die <rs type="person" ref="#pmb27696" subtype="implied">Hausmeisterin</rs> das
           Paket; da dein Brief mit der Adresse mit eingeschlossen war, hatte sie nicht
-          gewußt, dass es für mich gehörte. – <subst>
-                  <del rend="overwritten">h</del>
-                  <add place="inline">H</add>
-               </subst>erzlichen Dank! <pb facs="HS_AM60153Ba_R"/>
-               <persName key="pmb10863">Richard</persName> wohnt <hi rend="latintype">
-                  <placeName key="pmb680">Baden,
-  <anchor type="commentary" xml:id="KL008-2"/>Franzensgasse<note type="commentary" xml:id="KL008-2h">Irrtum <persName key="pmb2121">Schnitzlers</persName>, er wohnte »-straße«.</note> 54</placeName>
-               </hi>, kommt am 24. herein. – </p>
-            <closer>Herzlichen Gruss dein<lb/>
-               <signed>Arth</signed>
-            </closer>
-         </div>
-      </body>
+          gewußt, dass es für mich gehörte. – <subst><del rend="overwritten">h</del><add place="inline">H</add></subst>erzlichen Dank! <pb facs="HS_AM60153Ba_R"/><rs ref="#pmb10863" type="person">Richard</rs> wohnt <hi rend="latintype"><rs ref="#pmb680" type="place">Baden,
+  <anchor type="commentary" xml:id="KL008-2"/>Franzensgasse<note type="commentary" xml:id="KL008-2h">Irrtum <rs ref="#pmb2121" type="person">Schnitzlers</rs>, er wohnte »-straße«.</note> 54</rs></hi>, kommt am 24. herein. – </p><closer>Herzlichen Gruss dein<lb/><signed>Arth</signed></closer></div></body>
   </text>
 </TEI>

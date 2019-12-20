@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1927-12-25_02_Mann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1927-12-25_02_Mann_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Thomas Mann an Arthur Schnitzler, 25. 12. 1927</title>
-                <author key="pmb12176">Mann, Thomas</author>
+                <title level="a">Thomas Mann an Arthur Schnitzler, 25.&#160;12.&#160;1927</title>
+                <author ref="#pmb12176">Mann, Thomas</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 67</idno>
+                                <idno>Schnitzler, B&#160;67</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Briefkarte. Von Schnitzler beschrieben mit »<quote>
@@ -83,18 +87,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12176">Mann, Thomas</persName>
-                    <placeName key="pmb38129">München</placeName>
-                    <date when="1927-12-25" n="02">25. 12. 1927</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12176">Mann, Thomas</persName>
+                    <placeName ref="#pmb38129">München</placeName>
+                    <date when="1927-12-25" n="02">25.&#160;12.&#160;1927</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1925-06-07_01">Schnitzler an Mann, 7. 6. 1925</ptr>
-               <ptr type="next" subtype="toAuthor" target="1928-05-28_01">Mann an Schnitzler, 28. 5. 1928</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1925-06-07_01">Schnitzler an Mann, 7.&#160;6.&#160;1925</ptr>
+               <ptr type="next" subtype="toAuthor" target="1928-05-28_01">Mann an Schnitzler, 28.&#160;5.&#160;1928</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -105,38 +109,8 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p>
-                        <seg rend="left">
-                            <pb facs="gray00229.pdf"/>
-                            <hi rend="pre-print">
-                                <hi rend="small_caps">Dr. Thomas Mann</hi>
-                            </hi>
-                        </seg>
-                        <seg rend="right">
-                            <hi rend="pre-print">
-                                <placeName key="pmb38129">MÜNCHEN</placeName> den</hi>
-                            <space unit="chars" quantity="1"/>
-                            <date>25. XII. 27</date>.</seg>
-                    </p>
-                    <p rend="right">
-                        <hi rend="pre-print">
-                            <placeName key="pmb1213">POSCHINGERSTR. 1</placeName>
-                        </hi>
-                    </p>
-                    <salute>Lieber, verehrter Arthur Schnitzler,</salute>
-                </opener>
-                <p>von Herzen Dank für das Weihnachtsgeſchenk Ihres <rs type="work" key="pmb30053">Spruchbuches</rs>, das ſo voll iſt von ſchön und klar geformter Weisheit!
-                    Sie ſind ganz darin mit Ihrer Unbeſtechlichkeit, Freiheit <damage agent="ink">
-                        <unclear>und</unclear>
-                    </damage> Güte, und nicht nur im Einzelnen, ſondern als Ganzes iſt es
-                    liebenswert.</p>
-                <closer>Ein glückliches neues Jahr wünſcht Ihnen<lb/> Ihr treu ergebener<lb/>
-                    <signed>Thomas Mann.</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs="gray00229.pdf"/><hi rend="pre-print"><hi rend="small_caps">Dr. Thomas Mann</hi></hi></seg><seg rend="right"><hi rend="pre-print"><rs ref="#pmb38129" type="place">MÜNCHEN</rs> den</hi><space unit="chars" quantity="1"/><date>25.&#160;XII.&#160;27</date>.</seg></p><p rend="right"><hi rend="pre-print"><rs ref="#pmb1213" type="place">POSCHINGERSTR. 1</rs></hi></p><salute>Lieber, verehrter Arthur Schnitzler,</salute></opener><p>von Herzen Dank für das Weihnachtsgeſchenk Ihres <rs type="work" ref="#pmb30053" subtype="implied">Spruchbuches</rs>, das ſo voll iſt von ſchön und klar geformter Weisheit!
+                    Sie ſind ganz darin mit Ihrer Unbeſtechlichkeit, Freiheit <damage agent="ink"><unclear>und</unclear></damage> Güte, und nicht nur im Einzelnen, ſondern als Ganzes iſt es
+                    liebenswert.</p><closer>Ein glückliches neues Jahr wünſcht Ihnen<lb/> Ihr treu ergebener<lb/><signed>Thomas Mann.</signed></closer></div></body>
     </text>
 </TEI>

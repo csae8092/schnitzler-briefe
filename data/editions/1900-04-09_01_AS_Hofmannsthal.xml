@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1900-04-09_01_AS_Hofmannsthal" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1900-04-09_01_AS_Hofmannsthal"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 9. 4. 1900</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 9.&#160;4.&#160;1900</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Hs-30885,XXXX</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1900-04-09" n="01">9. 4. 1900</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1900-04-09" n="01">9.&#160;4.&#160;1900</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1900-04-03_01">Schnitzler an Hofmannsthal, 3. 4. 1900</ptr>
-               <ptr type="next" subtype="toAuthor" target="1900-05-06_01">Hofmannsthal an Schnitzler, 6. 5. 1900</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1900-04-03_01">Schnitzler an Hofmannsthal, 3.&#160;4.&#160;1900</ptr>
+               <ptr type="next" subtype="toAuthor" target="1900-05-06_01">Hofmannsthal an Schnitzler, 6.&#160;5.&#160;1900</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,51 +103,36 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb50">Wien</placeName>. <date>9. 4. 900</date>. </dateline>
-            </opener>
-            <p>
-               <salute>mein lieber Hugo, </salute>heute Vormittag habe ich Ihren <rs type="person" key="pmb11737">Papa</rs> gesprochen, und ihn zu meiner Freude so vortrefflich
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb50" type="place">Wien</rs>. <date>9.&#160;4.&#160;900</date>. </dateline></opener><p><salute>mein lieber Hugo, </salute>heute Vormittag habe ich Ihren <rs type="person" ref="#pmb11737" subtype="implied">Papa</rs> gesprochen, und ihn zu meiner Freude so vortrefflich
                aussehend und bei so guter Stimmung getroffen, wie nur einer sein kann, der morgen
                wieder aufsteht. Ich war gestern <time>Früh</time> gleich nach meiner Ankunft bei
-               Ihrer <rs type="person" key="pmb18404">Mama</rs> und fand sie schon vollkommen
+               Ihrer <rs type="person" ref="#pmb18404" subtype="implied">Mama</rs> und fand sie schon vollkommen
                beruhigt und hauptsächlich froh über die viele Sympathie von allen Seiten, die bei
                dieser Gelegenheit sich aussprach. Soweit ich (ohne Untersuchung) das ganze
                beurteilen kann, scheint mir eine organische Erkrankung (des Herzens) vollkommen
                ausgeschlossen; ich weiß nicht einmal, ob es richtig ist, von »Anfällen von
                Herzschwäche« zu sprechen; mir kommt der vagus als der schuldige vor, und als ich
-               heute vor Ihrer <rs type="person" key="pmb18404">Mama</rs> von vagus Neurose sprach,
-               sagte sie, Dr. <persName key="pmb40212">Schandlbauer</persName> habe dieselbe
+               heute vor Ihrer <rs type="person" ref="#pmb18404" subtype="implied">Mama</rs> von vagus Neurose sprach,
+               sagte sie, Dr. <rs ref="#pmb40212" type="person">Schandlbauer</rs> habe dieselbe
                Vermutung ausgesprochen. Jeden falls dürfen Sie so vergnügt und unbesorgt weiterleben
-               als vorher. Allerdings kommt’s mir sehr fraglich vor, daß Ihre <rs type="person" key="pmb18404">Mama</rs> sich entschließen wird, Ihren <rs type="person" key="pmb11737">Papa</rs> zu Ihnen nach <placeName key="pmb182">Paris</placeName> fahren
-               zu lassen; das ist ganz begreiflich. Ich höre immer wieder, von <persName key="pmb10863">Richard</persName> und von Ihrer <rs type="person" key="pmb18404">Mama</rs>, daß Sie sich so wohl fühlen und mit Lust arbeiten, und so freue ich
+               als vorher. Allerdings kommt’s mir sehr fraglich vor, daß Ihre <rs type="person" ref="#pmb18404" subtype="implied">Mama</rs> sich entschließen wird, Ihren <rs type="person" ref="#pmb11737" subtype="implied">Papa</rs> zu Ihnen nach <rs ref="#pmb182" type="place">Paris</rs> fahren
+               zu lassen; das ist ganz begreiflich. Ich höre immer wieder, von <rs ref="#pmb10863" type="person">Richard</rs> und von Ihrer <rs type="person" ref="#pmb18404" subtype="implied">Mama</rs>, daß Sie sich so wohl fühlen und mit Lust arbeiten, und so freue ich
                mich nicht nur auf Sie sondern auch auf das, was Sie mitbringen werden. Ich war auf
                meiner Reise eigentlich nur in den Stunden ziemlich gut dran, in denen ich
-               geschrieben hab e; – das Wetter war selten schön, nur in <placeName key="pmb682">Ragusa</placeName> 3 klare Tage, aber da wars für <placeName key="pmb682">Ragusa</placeName> und für <date>Anfang April</date> doch zu kühl. In
-               <placeName key="pmb38096">Abbazia</placeName> hat es ununterbrochen gegossen; dort war ich viel
-               mit <persName key="pmb11701">Georg Hirschfeld</persName> zusammen, zu dem ich neue
-               Sympathie gefaßt habe. <persName key="pmb9233">Elly</persName> liebe ich aber noch
+               geschrieben hab e; – das Wetter war selten schön, nur in <rs ref="#pmb682" type="place">Ragusa</rs> 3 klare Tage, aber da wars für <rs ref="#pmb682" type="place">Ragusa</rs> und für <date>Anfang April</date> doch zu kühl. In
+               <rs ref="#pmb38096" type="place">Abbazia</rs> hat es ununterbrochen gegossen; dort war ich viel
+               mit <rs ref="#pmb11701" type="person">Georg Hirschfeld</rs> zusammen, zu dem ich neue
+               Sympathie gefaßt habe. <rs ref="#pmb9233" type="person">Elly</rs> liebe ich aber noch
                immer nicht. Es war mir auffallend, wie viel ich auf meiner Reise geträumt habe; so
-               lebhaft und bewegt wie nie, und meine <rs type="person" key="pmb2378">Tote</rs> ist
+               lebhaft und bewegt wie nie, und meine <rs type="person" ref="#pmb2378" subtype="implied">Tote</rs> ist
                mir vier oder fünf Mal erschienen. Der sonderbarste von allen Träumen war der, daß
                ich träumte, ich hätte drei Träume gehabt, die mir den Tod vorhergesagt und erzählte
                jemandem diese 3 Träume, nach dem Aufwachen erinnerte ich mich nur an einen
-               davon deutlich. – Ich bin noch immer an der langen <rs type="work" key="pmb30486">Novelle</rs>, vor <date>Ostern</date> wird sie doch fertig, dann dictier ich sie;
-               fange aber gleich was neues an, entweder eine kurze <rs type="work" key="pmb33808" cert="low">Geschichte</rs> oder dieses <rs type="work" key="pmb30945">Sommerstück</rs>; – eigentlich hab ich ein Gefühl von Unerschöpflichkeit wie nie
-               zuvor, aber es ist mehr theoretisch, – macht mich nicht besonders glücklich. Ich
+               davon deutlich.&#160;– Ich bin noch immer an der langen <rs type="work" ref="#pmb30486" subtype="implied">Novelle</rs>, vor <date>Ostern</date> wird sie doch fertig, dann dictier ich sie;
+               fange aber gleich was neues an, entweder eine kurze <rs type="work" ref="#pmb33808" cert="low" subtype="implied">Geschichte</rs> oder dieses <rs type="work" ref="#pmb30945" subtype="implied">Sommerstück</rs>; – eigentlich hab ich ein Gefühl von Unerschöpflichkeit wie nie
+               zuvor, aber es ist mehr theoretisch,&#160;– macht mich nicht besonders glücklich. Ich
                empfinde meinen Verlust schwerer und sichrer als je. Leben Sie wohl und schreiben Sie
-               mir bald ein Wort. </p>
-            <closer>Von Herzen<lb/>Ihr<lb/>
-               <signed>Arthur.</signed>
-            </closer>
-            <postscript>
-               <p>Ich hoffe Sie haben meinen Brief (aus <placeName key="pmb50">Wien</placeName>) und
-                  auch die Karten aus <placeName key="pmb265">Dalmatien</placeName> bekommen.</p>
-            </postscript>
-         </div>
-      </body>
+               mir bald ein Wort. </p><closer>Von Herzen<lb/>Ihr<lb/><signed>Arthur.</signed></closer><postscript><p>Ich hoffe Sie haben meinen Brief (aus <rs ref="#pmb50" type="place">Wien</rs>) und
+                  auch die Karten aus <rs ref="#pmb265" type="place">Dalmatien</rs> bekommen.</p></postscript></div></body>
    </text>
 </TEI>

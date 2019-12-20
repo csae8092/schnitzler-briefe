@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-11-08_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-11-08_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [8. 11. 1892]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [8.&#160;11.&#160;1892]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,13 +52,13 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief mit aufgeprägtem Wappen, 1 Bl., 2 S., schwarze Tinte.
+                                <p>eh. Brief mit aufgeprägtem Wappen, 1&#160;Bl., 2&#160;S., schwarze Tinte.
                                     Von Schnitzler mit Bleistift nummeriert: »<quote>33</quote>« und
                                     datiert: »<quote>
-                                        <date>Nov. 92</date>
+                                        <date>Nov.&#160;92</date>
                                     </quote>«.</p>
                             </physDesc>
                         </msDesc>
@@ -63,8 +67,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -83,18 +87,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1892-11-08" n="01">[8. 11. 1892]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1892-11-08" n="01">[8.&#160;11.&#160;1892]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1892-10-15_01">Hofmannsthal an Schnitzler, 15. 10. 1892</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-11-09_01">Schnitzler an Hofmannsthal, 9. 11. 1892</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1892-10-15_01">Hofmannsthal an Schnitzler, 15.&#160;10.&#160;1892</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-11-09_01">Schnitzler an Hofmannsthal, 9.&#160;11.&#160;1892</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -108,37 +112,13 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00068"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00067"/>
-                        <date>Dienstag</date>.</dateline>
-                    <salute rend="center">lieber Doctor.</salute>
-                </opener>
-                <p>Ich kann leider einer Familienverpflichtung wegen abſolut nicht zu <placeName key="pmb49">
-                  <hi rend="latintype">Pfob</hi>
-               </placeName> kommen. <anchor type="commentary" xml:id="KL2137-2"/>
-                    <date>Samſtag</date>
-                    <note type="commentary" xml:id="KL2137-2h">Erstaufführung im <placeName key="pmb20">Deutschen Volkstheater</placeName> am
-                            <date>12. 11. 1892</date>.</note> gehe ich in »<workName key="pmb31971">
-                        <hi rend="latintype">Musotte</hi>
-                    </workName>«; könnten wir nicht miteinander ſoupieren? bitte gelegentlich
-                    Antwort. Falls <persName key="pmb4326">
-                        <hi rend="latintype">Robert Ehrhart</hi>
-                    </persName> da iſt, ſo ſagen Sie ihm, bitte, daß ich ſeinen leider wieder
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00067"/><date>Dienstag</date>.</dateline><salute rend="center">lieber Doctor.</salute></opener><p>Ich kann leider einer Familienverpflichtung wegen abſolut nicht zu <rs ref="#pmb49" type="place"><hi rend="latintype">Pfob</hi></rs> kommen. <anchor type="commentary" xml:id="KL2137-2"/><date>Samſtag</date><note type="commentary" xml:id="KL2137-2h">Erstaufführung im <rs ref="#pmb20" type="place">Deutschen Volkstheater</rs> am
+                            <date>12.&#160;11.&#160;1892</date>.</note> gehe ich in »<rs ref="#pmb31971" type="work"><hi rend="latintype">Musotte</hi></rs>«; könnten wir nicht miteinander ſoupieren? bitte gelegentlich
+                    Antwort. Falls <rs ref="#pmb4326" type="person"><hi rend="latintype">Robert Ehrhart</hi></rs> da iſt, ſo ſagen Sie ihm, bitte, daß ich ſeinen leider wieder
                     verfehlten Beſuch <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00068"/>wenn er
                     mir nicht abſchreibt, <date>Donnerstag</date> zwiſchen <time>10</time> u
-                        <time>11</time> erwidern werde, um über die <rs type="work" key="pmb33712" cert="low">Novelle</rs> zu reden. Ich finde ſie ſehr gut gemacht und wenn
-                    auch ein bißchen <anchor type="commentary" xml:id="KL2137-1"/>
-                    <hi rend="latintype">vieux jeu</hi>
-                    <note type="commentary" xml:id="KL2137-1h">frz. altes Spiel.</note>, doch im
-                    ganzen fertig u. verwendbar.</p>
-                <p>Grüße alle herzlichſt</p>
-                <closer>
-                    <signed>Loris.</signed>
-                </closer>
-            </div>
-        </body>
+                        <time>11</time> erwidern werde, um über die <rs type="work" ref="#pmb33712" cert="low" subtype="implied">Novelle</rs> zu reden. Ich finde ſie ſehr gut gemacht und wenn
+                    auch ein bißchen <anchor type="commentary" xml:id="KL2137-1"/><hi rend="latintype">vieux jeu</hi><note type="commentary" xml:id="KL2137-1h">frz. altes Spiel.</note>, doch im
+                    ganzen fertig u. verwendbar.</p><p>Grüße alle herzlichſt</p><closer><signed>Loris.</signed></closer></div></body>
     </text>
 </TEI>

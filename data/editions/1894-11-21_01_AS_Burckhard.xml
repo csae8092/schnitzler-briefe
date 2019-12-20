@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-11-21_01_AS_Burckhard">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-11-21_01_AS_Burckhard">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Max Burckhard, 21. 11. 1894</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Max Burckhard, 21.&#160;11.&#160;1894</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -44,28 +48,28 @@
                 <listBibl>
                     <biblStruct>
                         <analytic>
-                            <author key="pmb11447">Glossy, Karl</author>
-                            <title level="a" key="pmb33434">Schnitzlers Einzug ins Burgtheater.
+                            <author ref="#pmb11447">Glossy, Karl</author>
+                            <title level="a" ref="#pmb33434">Schnitzlers Einzug ins Burgtheater.
                                 Unbekannte Briefe des Dichters</title>
                         </analytic>
                         <monogr>
-                            <title level="j" key="pmb29351">Neue Freie Presse</title>
+                            <title level="j" ref="#pmb29351">Neue Freie Presse</title>
                             <biblScope unit="nr">24162</biblScope>
                             <biblScope unit="pp">14</biblScope>
                             <imprint>
-                                <date when="1931-12-19">19. 12. 1931</date>
+                                <date when="1931-12-19">19.&#160;12.&#160;1931</date>
                             </imprint>
                         </monogr>
                     </biblStruct>
                     <biblStruct>
                         <analytic>
-                            <author key="pmb11447">Glossy, Karl</author>
-                            <title level="a" key="pmb33434">Schnitzlers Einzug ins Burgtheater.
+                            <author ref="#pmb11447">Glossy, Karl</author>
+                            <title level="a" ref="#pmb33434">Schnitzlers Einzug ins Burgtheater.
                                 Unbekannte Briefe des Dichters</title>
                         </analytic>
                         <monogr>
                             <title level="m">Wiener Studien und Dokumente.</title>
-                            <editor>Zum 85. Geburtstag des Verfassers herausgegeben von seinen
+                            <editor>Zum 85.&#160;Geburtstag des Verfassers herausgegeben von seinen
                                 Freunden</editor>
                             <imprint>
                                 <date when="1933">1933</date>
@@ -103,18 +107,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1894-11-21" n="01">21. 11. 1894</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1894-11-21" n="01">21.&#160;11.&#160;1894</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11036">Burckhard, Max</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11036">Burckhard, Max</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-11-04_01">Burckhard an Schnitzler, [4. 11. 1894]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-11-22_01">Burckhard an Schnitzler, [22. 11. 1894]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-11-04_01">Burckhard an Schnitzler, [4.&#160;11.&#160;1894]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-11-22_01">Burckhard an Schnitzler, [22.&#160;11.&#160;1894]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -125,25 +129,18 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-                    <hi rend="spaced_out">Schnitzler an Burckhard</hi>, <date>21. November
-                        1894</date>: »Sehr geehrter Herr Direktor, ſollte ſich mein <rs type="work" key="pmb29917">Stück</rs> jetzt in Ihren Händen befinden, ſo würde ich
+        <body><div type="writingSession" n="1"><p><hi rend="spaced_out">Schnitzler an Burckhard</hi>, <date>21.&#160;November
+                        1894</date>: »Sehr geehrter Herr Direktor, ſollte ſich mein <rs type="work" ref="#pmb29917" subtype="implied">Stück</rs> jetzt in Ihren Händen befinden, ſo würde ich
                     bitten, es mir recht bald für einige Zeit – hoffentlich nicht für immer – ſenden
-                    zu wollen. Ich möchte es ſehr gern <anchor type="commentary" xml:id="KL905-1"/>jemandem<note type="commentary" xml:id="KL905-1h">Eventuell <persName key="pmb12618">Adele Sandrock</persName>, der er <workName key="pmb29917">Liebelei</workName> am <date>1. 12. 1894</date>
+                    zu wollen. Ich möchte es ſehr gern <anchor type="commentary" xml:id="KL905-1"/>jemandem<note type="commentary" xml:id="KL905-1h">Eventuell <rs ref="#pmb12618" type="person">Adele Sandrock</rs>, der er <rs ref="#pmb29917" type="work">Liebelei</rs> am <date>1.&#160;12.&#160;1894</date>
                         vorliest.</note> zeigen und kann die neue Abſchrift, die ich mir wieder nach
                     meinem ſehr ſchlecht leſerlichen Manuskript anfertigen laſſe, erſt im Laufe der
-                    nächſten Woche erhalten. Sollte ſich Frau <persName key="pmb2850">Hohenfels</persName> intereſſieren, in günſtigem Sinne entſcheiden – um ſo
+                    nächſten Woche erhalten. Sollte ſich Frau <rs ref="#pmb2850" type="person">Hohenfels</rs> intereſſieren, in günſtigem Sinne entſcheiden – um ſo
                     beſſer. Wenn nicht, ſo werde ich mir jedenfalls erlauben, auf Ihren
-                    liebenswürdigen Vorſchlag in Betreff Frau <persName key="pmb2299">Sorma</persName> zurückzukommen. Ich kann dieſe Gelegenheit nicht
+                    liebenswürdigen Vorſchlag in Betreff Frau <rs ref="#pmb2299" type="person">Sorma</rs> zurückzukommen. Ich kann dieſe Gelegenheit nicht
                     vorübergehen laſſen, ohne Ihnen wieder, mein ſehr verehrter Herr Direktor, für
                     Ihre Freundlichkeit und Ihre Bemühungen aufs allerwärmſte zu danken. Ihr
                     Entgegenkommen läßt mich noch immer an einen ſchließlichen Erfolg glauben. Ihr
-                    Sie aufrichtig hochſchätzender Arthur Schnitzler.«</p>
-
-
-            </div>
-        </body>
+                    Sie aufrichtig hochſchätzender Arthur Schnitzler.«</p></div></body>
     </text>
 </TEI>

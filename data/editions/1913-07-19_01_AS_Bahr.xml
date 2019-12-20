@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1913-07-19_01_AS_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1913-07-19_01_AS_Bahr">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 19. 7. [1913]</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 19.&#160;7. [1913]</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name full="yes" instant="false">Müller, Martin Anton</name>
             </editor>
@@ -52,7 +56,7 @@
                      </msIdentifier>
                      <physDesc>
                         <p>ms. Telegramm, Absenderzeile: »<quote>
-                              <placeName key="pmb50">wien</placeName>
+                              <rs ref="#pmb50" type="place">wien</rs>
                            </quote>«, aufgenommen »<quote>
                               <time>1 Uhr <hi rend="superscript">20n</hi>
                               </time>
@@ -68,11 +72,11 @@
             <listBibl>
                <biblStruct corresp="DASB">
                   <analytic>
-                     <title level="a">20. 7. [1913]</title>
+                     <title level="a">20.&#160;7. [1913]</title>
 
                   </analytic>
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G.
                         Daviau</editor>
@@ -91,8 +95,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">
                   <monogr>
-                     <author key="pmb10815">Bahr, Hermann</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
                      <imprint>
@@ -110,18 +114,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1913-07-19" n="01">19. 7. [1913]</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1913-07-19" n="01">19.&#160;7. [1913]</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb30">Salzburg</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb30">Salzburg</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1913-04-25_01">Schnitzler an Bahr, 2[5]. 4. 1913</ptr>
-               <ptr type="next" subtype="toAuthor" target="1913-07-19_02">Schnitzler an Bahr, [19.] 7. 1913</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1913-04-25_01">Schnitzler an Bahr, 2[5].&#160;4.&#160;1913</ptr>
+               <ptr type="next" subtype="toAuthor" target="1913-07-19_02">Schnitzler an Bahr, [19.] 7.&#160;1913</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -136,25 +140,9 @@
       <graphic url="HS_AM23397Ba"/>
    </facsimile>
    <text type="telegram">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="HS_AM23397Ba"/>herman bahr <placeName key="pmb30">salzburg</placeName>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb160">schloss arenberg</placeName>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>vergangner gemeinsamer stunden inigst gedenkend noch manche kuenftige erhoffend doch
+      <body><div type="address"><address><addrLine><pb facs="HS_AM23397Ba"/>herman bahr <rs ref="#pmb30" type="place">salzburg</rs></addrLine><addrLine><rs ref="#pmb160" type="place">schloss arenberg</rs></addrLine></address></div><div type="writingSession" n="1"><p>vergangner gemeinsamer stunden inigst gedenkend noch manche kuenftige erhoffend doch
                auch in getrennten dir freundschaftlich nach send ich dir zu gleich im namen meiner
-                  <rs type="person" key="pmb2173">frau</rs> herzlichste wuensche und treue gruesze
-               als dein alter <signed>arthur schnitzler</signed>
-            </p>
-
-         </div>
-      </body>
+                  <rs type="person" ref="#pmb2173" subtype="implied">frau</rs> herzlichste wuensche und treue gruesze
+               als dein alter <signed>arthur schnitzler</signed></p></div></body>
    </text>
 </TEI>

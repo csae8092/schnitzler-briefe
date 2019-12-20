@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-06-05_01_AS-Kramer_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1898-06-05_01_AS-Kramer_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler und Leopold Kramer an Richard Beer-Hofmann,
-               5. 6. 1898</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
-            <author key="pmb11981">Kramer, Leopold</author>
+               5.&#160;6.&#160;1898</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
+            <author ref="#pmb11981">Kramer, Leopold</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -54,9 +58,9 @@
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Bildpostkarte, Bleistift (Lateinschrift). Motiv: »Gruss aus
-                              <placeName key="pmb36189">Krieglach</placeName>.«</p>
+                              <rs ref="#pmb36189" type="place">Krieglach</rs>.«</p>
                         <stamp n="1">
-                           <placeName key="pmb34860">Steindorf am Ossiacher See</placeName>
+                           <rs ref="#pmb34860" type="place">Steindorf am Ossiacher See</rs>
                            <date>
                               <supplied>5</supplied> 6 <supplied>98</supplied>
                            </date>
@@ -68,8 +72,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -88,20 +92,20 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <persName key="pmb11981">Kramer, Leopold</persName>
-               <placeName key="pmb36189">Krieglach</placeName>
-               <date when="1898-06-05" n="01">5. 6. 1898</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <persName ref="#pmb11981">Kramer, Leopold</persName>
+               <placeName ref="#pmb36189">Krieglach</placeName>
+               <date when="1898-06-05" n="01">5.&#160;6.&#160;1898</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb34860">Steindorf am Ossiacher See</placeName>
-               <date when="1898-06-05">5. 6. 1898</date>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb34860">Steindorf am Ossiacher See</placeName>
+               <date when="1898-06-05">5.&#160;6.&#160;1898</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1898-06-04_01">Schnitzler an Beer-Hofmann, 4. 6. 1898</ptr>
-               <ptr type="next" subtype="toAuthor" target="1898-06-15_01">Beer-Hofmann an Schnitzler, 15. 6. 1898</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1898-06-04_01">Schnitzler an Beer-Hofmann, 4.&#160;6.&#160;1898</ptr>
+               <ptr type="next" subtype="toAuthor" target="1898-06-15_01">Beer-Hofmann an Schnitzler, 15.&#160;6.&#160;1898</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -115,45 +119,11 @@
       <graphic url="1898_AS_RBH_2_00017.jpeg"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1898_AS_RBH_2_00016.jpeg"/>
-                  <hi rend="latintype">Dr. Richard
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb34860">Steindorf</placeName>
-                  </hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">am <placeName key="pmb40374">Ossiacher
-                     See</placeName>
-                  </hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb651">Kärnthen</placeName>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date when="1898-06-05">So<c rendition="#gemination-n"/>tag</date>.</dateline>
-            </opener>
-            <p>Hier iſt das erſte Nachtquartier. I<c rendition="#gemination-m"/>er näher. Herzlichst
-               Ihr <signed>Arth</signed>
-            </p>
-         </div>
-         <div type="writingSession" n="2">
-            <p>
-               <handShift scribe="pmb11981"/>Dr. Schnitzler maltraitirt mich schrecklich. Ich komme
-               luftleer nach <placeName key="pmb40376">Ossiach</placeName> –
-                  <signed>Kramer</signed>
-            </p>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="1898_AS_RBH_2_00016.jpeg"/><hi rend="latintype">Dr. Richard
+                     Beer-Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb34860" type="place">Steindorf</rs></hi></addrLine><addrLine><hi rend="latintype">am <rs ref="#pmb40374" type="place">Ossiacher
+                     See</rs></hi></addrLine><addrLine><rs ref="#pmb651" type="place">Kärnthen</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><date when="1898-06-05">So<c rendition="#gemination-n"/>tag</date>.</dateline></opener><p>Hier iſt das erſte Nachtquartier. I<c rendition="#gemination-m"/>er näher. Herzlichst
+               Ihr <signed>Arth</signed></p></div><div type="writingSession" n="2"><p><handShift scribe="pmb11981"/>Dr. Schnitzler maltraitirt mich schrecklich. Ich komme
+               luftleer nach <rs ref="#pmb40376" type="place">Ossiach</rs>&#160;–
+                  <signed>Kramer</signed></p></div></body>
    </text>
 </TEI>

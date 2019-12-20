@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1903-11-03_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1903-11-03_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 3. 11. 1903</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 3.&#160;11.&#160;1903</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <!-- <placeName key="pmb50">Wien</placeName> -->
-               <date when="1903-11-03" n="01">3. 11. 1903</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <!-- <placeName ref="#pmb50">Wien</placeName> -->
+               <date when="1903-11-03" n="01">3.&#160;11.&#160;1903</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1903-10-08_01">Hofmannsthal an Schnitzler, 8. 10. 1903</ptr>
-               <ptr type="next" subtype="toAuthor" target="1903-11-04_01">Schnitzler an Hofmannsthal, 4. 11. 1903</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1903-10-08_01">Hofmannsthal an Schnitzler, 8.&#160;10.&#160;1903</ptr>
+               <ptr type="next" subtype="toAuthor" target="1903-11-04_01">Schnitzler an Hofmannsthal, 4.&#160;11.&#160;1903</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,29 +105,12 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>3 XI. 903</date>
-               </dateline>
-               <salute>lieber, </salute>
-            </opener>
-            <p>
-               <persName key="pmb11617">Hauptmann</persName>, <persName key="pmb10986">Brahm</persName>, <persName key="pmb11581">Harden</persName> lassen Sie herzlich
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>3 XI.&#160;903</date></dateline><salute>lieber, </salute></opener><p><rs ref="#pmb11617" type="person">Hauptmann</rs>, <rs ref="#pmb10986" type="person">Brahm</rs>, <rs ref="#pmb11581" type="person">Harden</rs> lassen Sie herzlich
                grüßen. Mittlerer bittet dringend, ihn <hi rend="underline" n="1">unverweilt</hi> zu
-               verständigen, wie bald er Ihr <rs type="work" key="">Stück</rs> erwarten darf. Er hat
+               verständigen, wie bald er Ihr <rs type="work" subtype="implied" ref="">Stück</rs> erwarten darf. Er hat
                große chancen, es <hi rend="underline" n="1">baldigst</hi> zu spielen. Aber Vorlesen!
-               Bitten lesen Sie es vor. Das sind so gemütliche Abende. Bei Ihnen, bei <persName key="pmb10863">Richard</persName>, wo immer. Hoffentlich bald. </p>
-            <closer>Von Herzen<lb/>
-               <signed>Hugo</signed>
-            </closer>
-            <postscript>
-               <p>P. S. <persName key="pmb2292">Gerty</persName> und das neue <rs type="person" key="pmb3244">baby</rs> sind wohl, <workName key="pmb30633">Elektra</workName> in <placeName key="pmb168">Berlin</placeName> des gleichen. Die Bekannten des Bearbeiters haben dort
+               Bitten lesen Sie es vor. Das sind so gemütliche Abende. Bei Ihnen, bei <rs ref="#pmb10863" type="person">Richard</rs>, wo immer. Hoffentlich bald. </p><closer>Von Herzen<lb/><signed>Hugo</signed></closer><postscript><p>P.&#160;S. <rs ref="#pmb2292" type="person">Gerty</rs> und das neue <rs type="person" ref="#pmb3244" subtype="implied">baby</rs> sind wohl, <rs ref="#pmb30633" type="work">Elektra</rs> in <rs ref="#pmb168" type="place">Berlin</rs> des gleichen. Die Bekannten des Bearbeiters haben dort
                   vorläufig für 7 oder 8 Vorstellungen alle Plätze vorgemerkt. Es ist doch ein
-                  Glück, daß man so viele Bekannte hat und daß Dr. <persName key="pmb11485">Goldmann</persName> nicht zu ihnen gehört. </p>
-            </postscript>
-         </div>
-      </body>
+                  Glück, daß man so viele Bekannte hat und daß Dr. <rs ref="#pmb11485" type="person">Goldmann</rs> nicht zu ihnen gehört. </p></postscript></div></body>
    </text>
 </TEI>

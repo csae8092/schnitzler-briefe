@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-07-18_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1899-07-18_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 18. 7. 1899</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 18.&#160;7.&#160;1899</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Hs-30885,XXXX</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>XXXXeh. Brief, 1 Bl., 1 S. XXXX</p>
+                                <p>XXXXeh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -59,8 +63,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -79,18 +83,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb909">Velden</placeName>
-                    <date when="1899-07-18" n="02">18. 7. 1899</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb909">Velden</placeName>
+                    <date when="1899-07-18" n="02">18.&#160;7.&#160;1899</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb772">Marienbad</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb772">Marienbad</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-07-15_02">Hofmannsthal an Schnitzler, 15. 7. [1899]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-07-20_02">Hofmannsthal an Schnitzler, 20. 7. [1899]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-07-15_02">Hofmannsthal an Schnitzler, 15.&#160;7.&#160;[1899]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-07-20_02">Hofmannsthal an Schnitzler, 20.&#160;7.&#160;[1899]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -104,34 +108,11 @@
         <graphic url=""/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline>
-                  <pb facs="Hs-30885,84_001"/>
-                        <date>18. 7. 99</date>
-                    </dateline>
-                </opener>
-                <p>
-                    <salute>lieber Hugo, </salute>ich bin heut Früh hier angekommen. <add place="above">Meine</add>
-                    <space unit="chars" quantity="1"/>
-                    <rs key="pmb12701" type="person">Mutter</rs> und <rs key="pmb2461" type="person">Schwester</rs> wohnen hier. – Habe Nachmittag mit <rs type="person" key="pmb14711">Schwager</rs> u. <rs type="person" key="pmb14707">Schwester</rs> (von <rs type="person" key="pmb2378">
-                        <hi rend="underline" n="1">ihr</hi>
-                    </rs>) am See ein Rendezvous. – Heut ist der <hi rend="underline" n="1">18</hi>. – – Warte auf Nachricht von <persName key="pmb10863">Richard</persName>, ob er nicht arbeitet (eine Karte deutet es an) – bevor
-                    ich ihn besuche. – Bleibe mindestens 8 Tage hier. – Ob ich meine Radtour bis
-                        <date>1. Sept.</date> hinausschiebe, fraglich. – Auch <persName key="pmb2167">Salten</persName> wollte sie mitmachen. – Keiner bindet <pb facs="Hs-30885,84_002"/>den andern. Im <date>August</date> sehn wir uns
-                    jedenfalls, komme ins <placeName key="pmb429">Salzkammergut</placeName> – wäre
-                    schön, wenn wir zusammen wären u jeder arbeitete. </p>
-                <p>– Will jetzt gleich, in dieser Minute, mein <rs type="work" key="pmb29857">Stück</rs> hervornehmen. – Was ist das <rs type="work" key="pmb32432">Ihre</rs>? Historisch? Was neues? Neue Idee? Ich freue mich, daß Sie in
-                    Stimmung sind. Bitte gleich wieder eine Zeile.</p>
-                <closer>Von Herzen Ihr <signed>Arth</signed>
-                </closer>
-                <postscript>
-                    <p>
-                        <placeName key="pmb36282">Velden, Pension Pundschu</placeName>
-                    </p>
-                </postscript>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><dateline><pb facs="Hs-30885,84_001"/><date>18.&#160;7.&#160;99</date></dateline></opener><p><salute>lieber Hugo, </salute>ich bin heut Früh hier angekommen. <add place="above">Meine</add><space unit="chars" quantity="1"/><rs ref="#pmb12701" type="person" subtype="implied">Mutter</rs> und <rs ref="#pmb2461" type="person" subtype="implied">Schwester</rs> wohnen hier.&#160;– Habe Nachmittag mit <rs type="person" ref="#pmb14711" subtype="implied">Schwager</rs> u. <rs type="person" ref="#pmb14707" subtype="implied">Schwester</rs> (von <rs type="person" ref="#pmb2378" subtype="implied"><hi rend="underline" n="1">ihr</hi></rs>) am See ein Rendezvous.&#160;– Heut ist der <hi rend="underline" n="1">18</hi>.&#160;– – Warte auf Nachricht von <rs ref="#pmb10863" type="person">Richard</rs>, ob er nicht arbeitet (eine Karte deutet es an) – bevor
+                    ich ihn besuche.&#160;– Bleibe mindestens 8 Tage hier.&#160;– Ob ich meine Radtour bis
+                        <date>1.&#160;Sept.</date> hinausschiebe, fraglich.&#160;– Auch <rs ref="#pmb2167" type="person">Salten</rs> wollte sie mitmachen.&#160;– Keiner bindet <pb facs="Hs-30885,84_002"/>den andern. Im <date>August</date> sehn wir uns
+                    jedenfalls, komme ins <rs ref="#pmb429" type="place">Salzkammergut</rs> – wäre
+                    schön, wenn wir zusammen wären u jeder arbeitete. </p><p>– Will jetzt gleich, in dieser Minute, mein <rs type="work" ref="#pmb29857" subtype="implied">Stück</rs> hervornehmen.&#160;– Was ist das <rs type="work" ref="#pmb32432" subtype="implied">Ihre</rs>? Historisch? Was neues? Neue Idee? Ich freue mich, daß Sie in
+                    Stimmung sind. Bitte gleich wieder eine Zeile.</p><closer>Von Herzen Ihr <signed>Arth</signed></closer><postscript><p><rs ref="#pmb36282" type="place">Velden, Pension Pundschu</rs></p></postscript></div></body>
     </text>
 </TEI>

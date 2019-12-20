@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-07-23_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-07-23_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Richard Beer-Hofmann an Arthur Schnitzler,
-               [23. 3. 1897]</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+               [23.&#160;3.&#160;1897]</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -49,10 +53,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., Bleistift; Lateinschrift. Von Schnitzler
+                        <p>eh. Brief, 1 Bl., 1&#160;S., Bleistift; Lateinschrift. Von Schnitzler
                            mit Bleistift datiert: »<quote>
                               <date when="1897-07-23">23/III 97</date>
                            </quote>«. Von unbekannter Hand mit Bleistift
@@ -68,18 +72,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1897-03-23" n="03">23. 3. 1897</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1897-03-23" n="03">23.&#160;3.&#160;1897</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-03-18_01">Schnitzler an Beer-Hofmann, 18. 3. 1897</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-03-24_02">Beer-Hofmann an Schnitzler, 24. 3. 1897</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-03-18_01">Schnitzler an Beer-Hofmann, 18.&#160;3.&#160;1897</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-03-24_02">Beer-Hofmann an Schnitzler, 24.&#160;3.&#160;1897</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -93,15 +97,8 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00230"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00230"/>
-               <salute>Lieber Arthur!</salute>
-               Ein Frl. <persName key="pmb26937" cert="low">Wengeroff</persName> (<placeName key="pmb34438">Russin</placeName>) möchte Sie und <persName key="pmb11740">Hugo</persName> heut nach <time>10</time> im Caffee sehn. Wenn Sie können ko<c rendition="#gemination-m"/>en Sie doch. Führer = Herr <persName key="pmb42758">A.
-                  Brauner</persName>. Gefasst sein!</p>
-            <closer>Herzlichst<lb/>Richard</closer>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00230"/><salute>Lieber Arthur!</salute>
+               Ein Frl. <rs ref="#pmb26937" cert="low" type="person">Wengeroff</rs> (<rs ref="#pmb34438" type="place">Russin</rs>) möchte Sie und <rs ref="#pmb11740" type="person">Hugo</rs> heut nach <time>10</time> im Caffee sehn. Wenn Sie können ko<c rendition="#gemination-m"/>en Sie doch. Führer = Herr <rs ref="#pmb42758" type="person">A.
+                  Brauner</rs>. Gefasst sein!</p><closer>Herzlichst<lb/>Richard</closer></div></body>
    </text>
 </TEI>

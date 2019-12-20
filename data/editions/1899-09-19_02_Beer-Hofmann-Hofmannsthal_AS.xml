@@ -1,13 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-09-19_02_Beer-Hofmann-Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+    xml:id="L1899-09-19_02_Beer-Hofmann-Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Richard Beer-Hofmann und Hugo von Hofmannsthal an Arthur
-                    Schnitzler, 19. 9. 1899</title>
-                <author key="pmb10863">Beer-Hofmann, Richard</author>
-                <author key="pmb11740">Hofmannsthal, Hugo</author>
+                    Schnitzler, 19.&#160;9.&#160;1899</title>
+                <author ref="#pmb10863">Beer-Hofmann, Richard</author>
+                <author ref="#pmb11740">Hofmannsthal, Hugo</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -50,19 +53,17 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 8</idno>
+                                <idno>Schnitzler, B&#160;8</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Bildpostkarte, schwarze Tinte; Lateinschrift. Motiv:
                                         »<quote>Künstler-Postkarte. Zweierlei Pegasus.</quote>«</p>
                                 <stamp n="1">
-                                    <placeName key="pmb946">
-                                        <supplied>Vahrn</supplied>
-                                    </placeName>
+                                    <rs ref="#pmb946" type="place"><supplied>Vahrn</supplied></rs>
                                     <date>20. 9. 99</date>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb146">Frankfurt (Main)</placeName>
+                                    <rs ref="#pmb146" type="place">Frankfurt (Main)</rs>
                                     <date>22. 9. 99</date>
                                     <time>7-8V</time>
                                 </stamp>
@@ -73,8 +74,8 @@
                 <listBibl>
                     <biblStruct corresp="ASBH">
                         <monogr>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
-                            <author key="pmb10863">Beer-Hofmann, Richard</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                             <title level="m">Briefwechsel 1891–1931</title>
                             <editor>Hg. Konstanze Fliedl</editor>
                             <imprint>
@@ -94,19 +95,19 @@
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-                    <persName key="pmb11740">Hofmannsthal, Hugo</persName>
-                    <placeName key="pmb946">Vahrn</placeName>
-                    <date when="1899-09-19" n="02">19. 9. 1899</date>
+                    <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo</persName>
+                    <placeName ref="#pmb946">Vahrn</placeName>
+                    <date when="1899-09-19" n="02">19.&#160;9.&#160;1899</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb146">Frankfurt (Main)</placeName>
-                    <date when="1899-09-22" n="02">22. 9. 1899</date>
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb146">Frankfurt (Main)</placeName>
+                    <date when="1899-09-22" n="02">22.&#160;9.&#160;1899</date>
                 </correspAction>
                 <correspContext>
-                    <ptr type="previous" subtype="toAuthor" target="1898-09-05_01">Beer-Hofmann, Hofmannsthal an Schnitzler, 5. 9. 1898</ptr>
-                    <ptr type="next" subtype="toAuthor" target="1900-07-18_01">Beer-Hofmann, Hofmannsthal an Schnitzler, 18. 7. 1900</ptr>
+                    <ptr type="previous" subtype="toAuthor" target="1898-09-05_01">Beer-Hofmann, Hofmannsthal an Schnitzler, 5.&#160;9.&#160;1898</ptr>
+                    <ptr type="next" subtype="toAuthor" target="1900-07-18_01">Beer-Hofmann, Hofmannsthal an Schnitzler, 18.&#160;7.&#160;1900</ptr>
                 </correspContext>
             </correspDesc>
         </profileDesc>
@@ -120,37 +121,7 @@
         <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00323.jpg"/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00322"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
-                    <addrLine>
-                        <placeName key="pmb146">Frankfurt a. Main</placeName>
-                    </addrLine>
-                    <addrLine>Poste restante</addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00323"/>
-                        <placeName key="pmb946">Vahrn</placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date when="1899-09-19">19/IX 1899</date>
-                    </dateline>
-                </opener>
-                <p>
-                    <persName key="pmb34875">Adolf Pichler</persName>
-                    <space unit="chars" quantity="5"/> Arthur S.</p>
-                <p>Dies wünschen Ihnen</p>
-                <closer>
-                    <signed>Richard</signed>
-                    <lb/>
-                    <signed>
-                        <handShift scribe="pmb11740"/>Hugo</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00322"/>D<hi
+                            rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb146" type="place">Frankfurt a. Main</rs></addrLine><addrLine>Poste restante</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00323"/><rs ref="#pmb946" type="place">Vahrn</rs><space unit="chars" quantity="1"/><date when="1899-09-19">19/IX 1899</date></dateline></opener><p><rs ref="#pmb34875" type="person">Adolf Pichler</rs><space unit="chars" quantity="5"/> Arthur S.</p><p>Dies wünschen Ihnen</p><closer><signed>Richard</signed><lb/><signed><handShift scribe="pmb11740"/>Hugo</signed></closer></div></body>
     </text>
 </TEI>

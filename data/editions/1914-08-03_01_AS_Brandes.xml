@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1914-08-03_01_AS_Brandes">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1914-08-03_01_AS_Brandes">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Georg Brandes, 3. 8. 1914</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Georg Brandes, 3.&#160;8.&#160;1914</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Georg Brandes Arkiv</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 2 Bl., 6 S., Lateinschrift, mit hs. Paginierung 1–6,
+                                <p>eh. Brief, 2&#160;Bl., 6&#160;S., Lateinschrift, mit hs. Paginierung 1–6,
                                     schwarze Tinte. Von unbekannter Hand mit Bleistift beschriftet:
                                         »<quote>A. Schnitzler</quote>« und nummeriert
                                         »<quote>35.</quote>«, das zweite Blatt erneut mit Bleistift
@@ -63,8 +67,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -83,18 +87,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb12589">Celerina</placeName>
-                    <date when="1914-08-03" n="01">3. 8. 1914</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb12589">Celerina</placeName>
+                    <date when="1914-08-03" n="01">3.&#160;8.&#160;1914</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb10992">Brandes, Georg</persName>
-                    <placeName key="pmb36300">Kopenhagen</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb10992">Brandes, Georg</persName>
+                    <placeName ref="#pmb36300">Kopenhagen</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1913-03-05_01">Brandes an Schnitzler, 5. 3. 1913</ptr>
-               <ptr type="next" subtype="toAuthor" target="1914-08-23_01">Brandes an Schnitzler, 23. 8. 1914</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1913-03-05_01">Brandes an Schnitzler, 5.&#160;3.&#160;1913</ptr>
+               <ptr type="next" subtype="toAuthor" target="1914-08-23_01">Brandes an Schnitzler, 23.&#160;8.&#160;1914</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -114,95 +118,47 @@
         <graphic url="Georg_Brandes_arkiv_158"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p>
-                        <pb facs="Georg_Brandes_arkiv_153.jpg"/>
-                        <placeName key="pmb1138">
-                     <hi rend="pre-print">Cresta Palace</hi>
-                  </placeName>
-                        <lb/>
-                        <placeName key="pmb586">
-    
-                     <hi rend="pre-print">Celerina b. St Moritz</hi>
-    
-                  </placeName>
-                        <lb/>
-                        <hi rend="pre-print">Direction: <persName key="pmb29130">Carl
-                                Sonderhof</persName>
-                        </hi>
-                    </p>
-                    <dateline rend="right">
-                        <date>3. August 914</date>.</dateline>
-                    <salute>mein sehr verehrter Freund,</salute>
-                </opener>
-                <p>ich erfahre hier, auf einem <rs key="pmb27748" type="person">Umweg über <placeName key="pmb244">
-                     <country>Schweden</country>
-                  </placeName>
-                    </rs>, dass der literarische <orgName key="pmb29679">Nobelpreis</orgName> dieses
-                    Jahr an <placeName key="pmb41240">
-                  <country>Oesterreich</country>
-               </placeName> fallen soll und daß, unter oder neben anderen, ich hiefür nicht
-                    unerheblich in Betracht kommen dürfte. Nun weiß ich aber, daß von <placeName key="pmb244">
-                  <country>Schweden</country>
-               </placeName> aus vor Entscheidung der Angelegenheit bei gewissen officiellen
-                    Körperschaften des betreffenden Landes, so bei der <orgName key="pmb29395">Akademie der Wissenschaften</orgName> und dem <placeName key="pmb24">Unterrichtsministerium</placeName> angefragt zu werden pflegt, wie sich
+        <body><div type="writingSession" n="1"><opener><p><pb facs="Georg_Brandes_arkiv_153.jpg"/><rs ref="#pmb1138" type="place"><hi rend="pre-print">Cresta Palace</hi></rs><lb/><rs ref="#pmb586" type="place"><hi rend="pre-print">Celerina b. St Moritz</hi></rs><lb/><hi rend="pre-print">Direction: <rs ref="#pmb29130" type="person">Carl
+                                Sonderhof</rs></hi></p><dateline rend="right"><date>3.&#160;August 914</date>.</dateline><salute>mein sehr verehrter Freund,</salute></opener><p>ich erfahre hier, auf einem <rs ref="#pmb27748" type="person" subtype="implied">Umweg über <rs ref="#pmb244" type="place"><country>Schweden</country></rs></rs>, dass der literarische <rs ref="#pmb29679" type="organisation">Nobelpreis</rs> dieses
+                    Jahr an <rs ref="#pmb41240" type="place"><country>Oesterreich</country></rs> fallen soll und daß, unter oder neben anderen, ich hiefür nicht
+                    unerheblich in Betracht kommen dürfte. Nun weiß ich aber, daß von <rs ref="#pmb244" type="place"><country>Schweden</country></rs> aus vor Entscheidung der Angelegenheit bei gewissen officiellen
+                    Körperschaften des betreffenden Landes, so bei der <rs ref="#pmb29395" type="organisation">Akademie der Wissenschaften</rs> und dem <rs ref="#pmb24" type="place">Unterrichtsministerium</rs> angefragt zu werden pflegt, wie sich
                     diese zu dem <pb facs="Georg_Brandes_arkiv_154.jpg"/>Vorschlag verhalten, und,
-                        we<c rendition="#gemination-n"/> mich nicht alles trügt, – Eindrücke und
-                    Erfahrungen, – erfreu ich mich an diesen Stellen (was Sie vielleicht nicht einmal
+                        we<c rendition="#gemination-n"/> mich nicht alles trügt,&#160;– Eindrücke und
+                    Erfahrungen,&#160;– erfreu ich mich an diesen Stellen (was Sie vielleicht nicht einmal
                     Wunder nehmen wird) keiner sonderlichen Sympathien; ja ich ka<c rendition="#gemination-n"/> mir vorstellen, daß eine eventuell beabsichtigte
                         Zuerke<c rendition="#gemination-n"/>ung jenes Preises an mich gerade in
                     meinem Vaterland bei manchen maßgebenden Factoren auf einen Widerspruch stieße,
                     der nur durch das Wort eines Manns von höchster Bedeutung und weitestem Ruhm
-                    paralysirt werden könnte. In diesem Zusa<c rendition="#gemination-m"/>enhang <subst>
-                        <del rend="overwritten">
-                            <unclear>d</unclear>
-                        </del>
-                        <add place="inline">a</add>
-                    </subst>ber könnt’ ich kaum an jemand andern denken als an Sie, der mir schon
+                    paralysirt werden könnte. In diesem Zusa<c rendition="#gemination-m"/>enhang <subst><del rend="overwritten"><unclear>d</unclear></del><add place="inline">a</add></subst>ber könnt’ ich kaum an jemand andern denken als an Sie, der mir schon
                     ein Schätzer, ein <pb facs="Georg_Brandes_arkiv_155.jpg"/>Freund gewesen ist zu
                     einer Zeit, da ich von andern Kritikern und Kennern nicht oder kaum bemerkt
                     wurde, und der seither, durch mehr als zwanzig Jahre meinen Weg nicht nur mit
                     künstlerischer, sondern <add place="above">auch</add> was ich sehr wohlthuend
                     empfand, menschlicher Antheilnahme begleitet hat; und habe mich gefragt, ob Sie
-                    sich wohl bereit fänden, ein solches Wort für mich, – das sich im Ernstfall
+                    sich wohl bereit fänden, ein solches Wort für mich,&#160;– das sich im Ernstfall
                     wahrscheinlich als sehr notwendig erweisen würde – an der entscheidenden Stelle
-                    auszusprechen? Ob Sie <add place="above">
-                        <del rend="strikethrough">nun</del>
-                    </add> diese Anregung nun als eine nicht allzu bescheidne Bitte oder als den
+                    auszusprechen? Ob Sie <add place="above"><del rend="strikethrough">nun</del></add> diese Anregung nun als eine nicht allzu bescheidne Bitte oder als den
                     erlaubten Versuch auffassen wollen, mich Ihnen in einem geeigneten Moment
                     einfach in Erinnerung zu bringen, <pb facs="Georg_Brandes_arkiv_156.jpg"/>– was
                     ich hier gesagt habe, gilt natürlich nur für den Fall daß Sie (was mir
                     allerdings selbstverständlich scheint) von dem schwedischen Comité um Ihre
-                    Meinung gefragt werden sollten; – andern Falls betrachten Sie bitte diesen Brief
+                    Meinung gefragt werden sollten;&#160;– andern Falls betrachten Sie bitte diesen Brief
                     hier nur insoweit als vorhanden, als er Ihnen wieder einmal den Ausdruck meines
                     dankbaren Vertrauens, sowie einer Freundschaft übermittelt, die auch in <del rend="strikethrough">in</del> Jahren, da man einander nicht begegnete,
-                    gleich herzlich weiterlebte.</p>
-                <p>Vielleicht mag ein solches Schreiben in so aufgewühlter Zeit, wo aus den
+                    gleich herzlich weiterlebte.</p><p>Vielleicht mag ein solches Schreiben in so aufgewühlter Zeit, wo aus den
                     bedenklichen Dünsten der Politik allmälig die erhabnen Wolkenbildun<pb facs="Georg_Brandes_arkiv_157.jpg"/>gen der Weltgeschichte aufzusteigen
                         begi<c rendition="#gemination-n"/>en, kaum der Beachtung werth erscheinen;
-                    aber, wir empfinden und erfahren es doch alle immer wieder, – auch in so
-                    bewegten Epochen fordert die Einzelexistenz von Tag zu Tag ihr Recht, – und wie
-                    diesmal üblergesinnte meinen könnten, – auch mehr als das. Sie aber, mein
+                    aber, wir empfinden und erfahren es doch alle immer wieder,&#160;– auch in so
+                    bewegten Epochen fordert die Einzelexistenz von Tag zu Tag ihr Recht,&#160;– und wie
+                    diesmal üblergesinnte meinen könnten,&#160;– auch mehr als das. Sie aber, mein
                     verehrter Freund, nehmen mir diesen Ruf, der hoffentlich nicht allzustörend in
-                    Ihre Sommerruhe dringt, keinesfalls übel, wo immer er Sie erreichen möge.</p>
-                <p>Wir befinden uns unter ziemlich sonderbaren Verhältnissen hier in <placeName key="pmb586">Celerina</placeName>; auch die <placeName key="pmb34006">
-                  <country>Schweiz</country>
-               </placeName> hat völligen Kriegszustand; wie die Dinge eben stehen, wäre es mir,
-                    mit <rs type="person" key="pmb2173">Frau</rs> und <rs type="person" key="pmb2173 pmb2238">Kindern</rs>, nur unter den ärgsten <pb facs="Georg_Brandes_arkiv_158.jpg"/>Unbequemlichkeiten möglich, über die
-                    Grenze in die Heimat zu kommen, – und so bleiben wir denn vorläufig <add place="above">hier</add>, in nicht geringer Unruhe; aber freuen uns doch der
+                    Ihre Sommerruhe dringt, keinesfalls übel, wo immer er Sie erreichen möge.</p><p>Wir befinden uns unter ziemlich sonderbaren Verhältnissen hier in <rs ref="#pmb586" type="place">Celerina</rs>; auch die <rs ref="#pmb34006" type="place"><country>Schweiz</country></rs> hat völligen Kriegszustand; wie die Dinge eben stehen, wäre es mir,
+                    mit <rs type="person" ref="#pmb2173" subtype="implied">Frau</rs> und <rs type="person" ref="#pmb2173 pmb2238" subtype="implied">Kindern</rs>, nur unter den ärgsten <pb facs="Georg_Brandes_arkiv_158.jpg"/>Unbequemlichkeiten möglich, über die
+                    Grenze in die Heimat zu kommen,&#160;– und so bleiben wir denn vorläufig <add place="above">hier</add>, in nicht geringer Unruhe; aber freuen uns doch der
                     Wald-, Wiesen- und Himmelsruhe in diesem schönen Thal – das von dem Lärm der
                     Welt nichts zu wissen scheint, trotz dreier gri<c rendition="#gemination-m"/>igen Soldaten, die im Wartesaal des Bahnhofs ihr Vaterland schützen und Karten
-                    spielen. –</p>
-                <p>Wollen Sie mir eine Zeile schreiben, so bitte ich doch jedenfalls an meine
-                        <placeName key="pmb50">Wien</placeName>er Wohnung (<placeName key="pmb150">XVIII. Sternwartestraße 71</placeName>) zu adressiren.</p>
-                <p>Mit den herzlichsten Grüßen, auch von meiner <rs type="person" key="pmb2173">Frau</rs>
-                </p>
-                <closer>Ihr stets ergebner<lb/>
-                    <signed>Arthur Schnitzler</signed>
-                </closer>
-            </div>
-        </body>
+                    spielen.&#160;–</p><p>Wollen Sie mir eine Zeile schreiben, so bitte ich doch jedenfalls an meine
+                        <rs ref="#pmb50" type="place">Wien</rs>er Wohnung (<rs ref="#pmb150" type="place">XVIII. Sternwartestraße 71</rs>) zu adressiren.</p><p>Mit den herzlichsten Grüßen, auch von meiner <rs type="person" ref="#pmb2173" subtype="implied">Frau</rs></p><closer>Ihr stets ergebner<lb/><signed>Arthur Schnitzler</signed></closer></div></body>
     </text>
 </TEI>

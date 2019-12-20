@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1917-07-23_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1917-07-23_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 23. 7. 1917</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 23.&#160;7.&#160;1917</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,17 +83,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1917-07-23" n="01">23. 7. 1917</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1917-07-23" n="01">23.&#160;7.&#160;1917</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1917-07-18_01">Beer-Hofmann an Schnitzler, 18. 7. 1917</ptr>
-               <ptr type="next" subtype="toAuthor" target="1918-04-12_01">Schnitzler an Beer-Hofmann, 12. 4. 1918</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1917-07-18_01">Beer-Hofmann an Schnitzler, 18.&#160;7.&#160;1917</ptr>
+               <ptr type="next" subtype="toAuthor" target="1918-04-12_01">Schnitzler an Beer-Hofmann, 12.&#160;4.&#160;1918</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -98,20 +102,12 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb50">Wien</placeName>, <date when="1917-07-23">23. 7. 1917</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Richard </salute>– man wird so leicht unbescheiden! Da Sie mir einen
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb50" type="place">Wien</rs>, <date when="1917-07-23">23.&#160;7.&#160;1917</date></dateline></opener><p><salute>Lieber Richard </salute>– man wird so leicht unbescheiden! Da Sie mir einen
                Brief geschrieben haben, so war es mir natürlich sehr erfreulich gewesen, darin auch
-               etwas über Sie, die Ihren, Ihr Leben, Ihr Arbeiten, und was es eben so von <placeName key="pmb213">Ischl</placeName> nach <placeName key="pmb50">Wien</placeName> zu
+               etwas über Sie, die Ihren, Ihr Leben, Ihr Arbeiten, und was es eben so von <rs ref="#pmb213" type="place">Ischl</rs> nach <rs ref="#pmb50" type="place">Wien</rs> zu
                berichten gibt vorzufinden, und ich hoffe, dass Sie in der Antwort auf diesen hier
                einiges nachtragen werden. Ich will Ihnen heute nur sagen, daß es Arthur K. völlig
-               gut geht und daß er Mittwoch in seine <placeName key="pmb50">Wien</placeName>er
+               gut geht und daß er Mittwoch in seine <rs ref="#pmb50" type="place">Wien</rs>er
                (übrigens definitiv gekündigte) Wohnung wiederkehrt. Vorgestern fugte es sich, daß er
                mir seine Ideen (über die er mir schon manches vorher andeutungsweise initgetheilt) –
                in einer Art von Zusammenhang vortrug. Meine Vorbildung in der Philosophie ist zu
@@ -129,21 +125,16 @@
                meine Auffassung – oder sagen wir Empfindung – entgegenkämen. Über die Krankheit
                selbst, und über die Arzte wollen wir uns mündlich unterhalten. Wann? Salzkammergut
                nicht sehr wahrscheinlich. Ende August gedenken wir (wenns nicht gar zu unbequem)
-               nach <placeName key="pmb2318">Partenkirchen</placeName> zu meiner <rs type="person" key="pmb2315">Schwägerin</rs>, ev. halten wir uns in <placeName key="pmb30">Salzburg</placeName> auf. – Hier ist es ganz erträglich, ich mache (fast immer
-               allein) schöne Spaziergänge im <placeName key="pmb50">Wien</placeName>er Wald, (den
+               nach <rs ref="#pmb2318" type="place">Partenkirchen</rs> zu meiner <rs type="person" ref="#pmb2315" subtype="implied">Schwägerin</rs>, ev. halten wir uns in <rs ref="#pmb30" type="place">Salzburg</rs> auf.&#160;– Hier ist es ganz erträglich, ich mache (fast immer
+               allein) schöne Spaziergänge im <rs ref="#pmb50" type="place">Wien</rs>er Wald, (den
                Sie kennen lernen sollten) – entdecke immer neue Gegenden, mit neuen Schönheiten. Im
                übrigen arbeite ich – es ist, neben dem Spazierengehen, die einzige Art, über das
                Grauen, die Sinnlosigkeit und die Abgeschmacktheit dieser Zeit gelegentlich
                wegzukommen. Sinnlosigkeit? – Oder sollte es doch einen Sinn haben? Dann müßte man
-               erst recht verrückt werden. – Nehmen Sie unser Beileid zu Schufterls Hinscheiden; bei
+               erst recht verrückt werden.&#160;– Nehmen Sie unser Beileid zu Schufterls Hinscheiden; bei
                uns hat sich nun auch so ein kleines Thierchen einquartiert, das eigentlich der
-                  <persName key="pmb24945">Wucki</persName> gehört, die jetzt mit ihm auf Urlaub ist
-               – in <placeName key="pmb36639">Oberhollabrunn</placeName>. Die Rückkehr beider
-               erwarte ich mit Fassung.</p>
-            <closer>Ihr <signed>Arthur</signed>
-            </closer>
-            <p>Wir grüßen Sie Alle herzlichst.</p>
-         </div>
-      </body>
+                  <rs ref="#pmb24945" type="person">Wucki</rs> gehört, die jetzt mit ihm auf Urlaub ist
+               – in <rs ref="#pmb36639" type="place">Oberhollabrunn</rs>. Die Rückkehr beider
+               erwarte ich mit Fassung.</p><closer>Ihr <signed>Arthur</signed></closer><p>Wir grüßen Sie Alle herzlichst.</p></div></body>
    </text>
 </TEI>

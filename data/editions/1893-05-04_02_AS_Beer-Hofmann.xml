@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, [zwischen
-               5. 5. 1893 und 2. 5. 1894]</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+               5.&#160;5.&#160;1893 und 2.&#160;5.&#160;1894]</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -52,7 +56,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief mit Trauerrand, 1 Bl., 2 S., Bleistift.</p>
+                        <p>eh. Brief mit Trauerrand, 1&#160;Bl., 2&#160;S., Bleistift.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -64,14 +68,14 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key=""/>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref=""/>
                <date notBefore="1893-05-04" notAfter="1894-05-02" n="02">[zwischen
-                  5. 5. 1893 und 2. 5. 1894]</date>
+                  5.&#160;5.&#160;1893 und 2.&#160;5.&#160;1894]</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             
          </correspDesc>
@@ -85,23 +89,9 @@
       <graphic url="1893_AS_RBH_3_00003.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="1893_AS_RBH_2_00003.jpeg"/>Herzlichen Gruſs, ich freue mich ſehr Sie
+      <body><div type="writingSession" n="1"><p><pb facs="1893_AS_RBH_2_00003.jpeg"/>Herzlichen Gruſs, ich freue mich ſehr Sie
                   <anchor type="commentary" xml:id="KLMAM20191001-3"/>heute<note type="commentary" xml:id="KLMAM20191001-3h">Das undatierte Korrespondenzstück lässt sich durch den
-                  Trauerrand nach der Beerdigung und im Jahr nach dem Tod des Vaters <persName key="pmb12695">Johann Schnitzler</persName> verorten.</note>
-               <space unit="chars" quantity="1"/>
-               <time>Abend</time> zu ſehen.</p>
-            <closer>Ihr <signed>Arthur</signed>
-            </closer>
-            <postscript>
-               <p>
-                  <pb facs="1893_AS_RBH_2_00003.jpeg"/>Vielleicht erfahre ich noch, wo Sie vorher
-                  ſind?</p>
-               <p>Es iſt aber nicht nothwendig</p>
-            </postscript>
-         </div>
-      </body>
+                  Trauerrand nach der Beerdigung und im Jahr nach dem Tod des Vaters <rs ref="#pmb12695" type="person">Johann Schnitzler</rs> verorten.</note><space unit="chars" quantity="1"/><time>Abend</time> zu ſehen.</p><closer>Ihr <signed>Arthur</signed></closer><postscript><p><pb facs="1893_AS_RBH_2_00003.jpeg"/>Vielleicht erfahre ich noch, wo Sie vorher
+                  ſind?</p><p>Es iſt aber nicht nothwendig</p></postscript></div></body>
    </text>
 </TEI>

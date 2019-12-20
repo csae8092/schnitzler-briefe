@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-01-10_02_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1899-01-10_02_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, [10. 1. 1899]</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, [10.&#160;1.&#160;1899]</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Hs-30885,XXXX</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>XXXXeh. Brief, 1 Bl., 1 S. XXXX</p>
+                                <p>XXXXeh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -59,8 +63,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -79,18 +83,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1899-01-10" n="02">[10. 1. 1899]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1899-01-10" n="02">[10.&#160;1.&#160;1899]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-01-10_01">Hofmannsthal an Schnitzler, [10. 1. 1899]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-01-11_01">Hofmannsthal an Schnitzler, [nach dem 11.? 1. 1899]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-01-10_01">Hofmannsthal an Schnitzler, [10.&#160;1.&#160;1899]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-01-11_01">Hofmannsthal an Schnitzler, [nach dem 11.?&#160;1.&#160;1899]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -99,30 +103,17 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs=""/>
-                        <date>Dienstag</date>.</dateline>
-                </opener>
-                <p>
-                    <salute>Mein lieber Hugo, </salute>ich wußte gar nicht, daß Sie schon da sind.
-                    Morgen komm ich jedenfalls ins <placeName key="pmb49">Pfob</placeName> u. freu
-                    mich Sie endlich wiederzusehen. <placeName key="pmb49">Pfob</placeName> ist
-                    allerdings wenig. Vor <placeName key="pmb49">Pfob</placeName> will ich morgen
-                    komischerweise ins <placeName key="pmb36264">Jantschtheater</placeName> zu
-                        <workName key="pmb36267">Theodora</workName>, u. zw. hab ich mit <persName key="pmb13055">Wassermann</persName> vor <time>½ 8</time> im Vorraum des
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>Dienstag</date>.</dateline></opener><p><salute>Mein lieber Hugo, </salute>ich wußte gar nicht, daß Sie schon da sind.
+                    Morgen komm ich jedenfalls ins <rs ref="#pmb49" type="place">Pfob</rs> u. freu
+                    mich Sie endlich wiederzusehen. <rs ref="#pmb49" type="place">Pfob</rs> ist
+                    allerdings wenig. Vor <rs ref="#pmb49" type="place">Pfob</rs> will ich morgen
+                    komischerweise ins <rs ref="#pmb36264" type="place">Jantschtheater</rs> zu
+                        <rs ref="#pmb36267" type="work">Theodora</rs>, u. zw. hab ich mit <rs ref="#pmb13055" type="person">Wassermann</rs> vor <time>½&#160;8</time> im Vorraum des
                     Theaters Rendezvous. Vielleicht hat er eine geschenkte Loge; ev. kaufen wir uns
-                    Billetts. Vielleicht sind Sie auch vor <time>½ 8</time> im Vorraum. Eine gute
-                        <rs type="person" key="pmb36269">Schauspielerin</rs> soll die <rs type="work" key="pmb36267">Theodora</rs> spielen.</p>
-                <p>Mir ist es wieder innerlich recht miserabel gegangen; aber mit dem Arbeiten
-                    besser. Im übrigen muß ich über <orgName key="pmb36247">Burg</orgName> mit Ihnen
-                    reden. Denken Sie, daß der <workName key="pmb29843">Kakadu</workName> nicht
-                    unbeträchtliche Chancen hat! – Aber das alles mündlich –</p>
-                <closer>Von Herzen<lb/>Ihr<signed>Arthur</signed>
-                </closer>
-            </div>
-        </body>
+                    Billetts. Vielleicht sind Sie auch vor <time>½&#160;8</time> im Vorraum. Eine gute
+                        <rs type="person" ref="#pmb36269" subtype="implied">Schauspielerin</rs> soll die <rs type="work" ref="#pmb36267" subtype="implied">Theodora</rs> spielen.</p><p>Mir ist es wieder innerlich recht miserabel gegangen; aber mit dem Arbeiten
+                    besser. Im übrigen muß ich über <rs ref="#pmb36247" type="organisation">Burg</rs> mit Ihnen
+                    reden. Denken Sie, daß der <rs ref="#pmb29843" type="work">Kakadu</rs> nicht
+                    unbeträchtliche Chancen hat! – Aber das alles mündlich&#160;–</p><closer>Von Herzen<lb/>Ihr<signed>Arthur</signed></closer></div></body>
     </text>
 </TEI>

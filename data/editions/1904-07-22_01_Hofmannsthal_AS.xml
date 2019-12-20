@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1904-07-22_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1904-07-22_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 22. 7. 1904</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 22.&#160;7.&#160;1904</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb573">Bad Fusch</placeName>
-               <date when="1904-07-22" n="01">22. 7. 1904</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb573">Bad Fusch</placeName>
+               <date when="1904-07-22" n="01">22.&#160;7.&#160;1904</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1904-07-11_01">Hofmannsthal an Schnitzler, 11. 7. 1904</ptr>
-               <ptr type="next" subtype="toAuthor" target="1904-08-05_01">Schnitzler an Hofmannsthal, 5. 8. 1904</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1904-07-11_01">Hofmannsthal an Schnitzler, 11.&#160;7.&#160;1904</ptr>
+               <ptr type="next" subtype="toAuthor" target="1904-08-05_01">Schnitzler an Hofmannsthal, 5.&#160;8.&#160;1904</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,39 +105,23 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb573">Bad Fusch</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date>22ten [?] 7. 904</date>
-               </dateline>
-               <salute>lieber, </salute>
-            </opener>
-            <p>hier bin ich wirklich wie unter dem ersten Anhauch der Luft gesund geworden, und von
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb573" type="place">Bad Fusch</rs><space unit="chars" quantity="1"/><date>22ten [?] 7. 904</date></dateline><salute>lieber, </salute></opener><p>hier bin ich wirklich wie unter dem ersten Anhauch der Luft gesund geworden, und von
                einem inn e m Reichtum, daß ich manchmal, gegen Abend, auf eine steile Berglehne
                hinauf klettern muß, nur um das Blut vom Kopf abzuleiten und den unaufhörlichen
                Zudrang von Gedanken, Bildern, Situationen, abzuleiten. Es ist mir schwerer, in
                solchen Zeiten ein Buch zu lesen. Ich möchte alles, was mir in die Hände fällt,
-               dramatisieren, selbst den <workName key="pmb32408">
-                  <persName key="pmb11461">Goethe</persName>–<persName key="pmb12654">Schiller</persName>’schen Briefwechsel</workName>, oder die <workName key="pmb40232">Linzer Tagespost</workName>. </p>
-            <p>Das »<workName key="pmb31091">gerettete Venedig</workName>« hab ich heute
+               dramatisieren, selbst den <rs ref="#pmb32408" type="work"><rs ref="#pmb11461" type="person">Goethe</rs>–<rs ref="#pmb12654" type="person">Schiller</rs>’schen Briefwechsel</rs>, oder die <rs ref="#pmb40232" type="work">Linzer Tagespost</rs>. </p><p>Das »<rs ref="#pmb31091" type="work">gerettete Venedig</rs>« hab ich heute
                abgeschlossen. Was noch daran zu tun ist, das wenige läßt sich unter dem Abschreiben
                tun. Indessen sind aber, wie leuchtende Wolkeninseln hinter den Bergen hervor andere
                Stoffe gestiegen, zum Teil aus dem geheimnisvollen Abgrund des niemals schlafenden,
-               umbildenden Gedächtnisses: das »<workName key="pmb33722">Leben ein Traum</workName>« dieser fast zu
-               große Stoff, hat seinen tiefen dem <persName key="pmb11068">Calderon</persName> fast
-               entgegengesetzten Schluß gefunden, »<workName key="pmb41626">Pentheus</workName>« im Stoff den
-               <workName key="pmb32111">Bacchen</workName> des <persName key="pmb4107">Euripides</persName>
+               umbildenden Gedächtnisses: das »<rs ref="#pmb33722" type="work">Leben ein Traum</rs>« dieser fast zu
+               große Stoff, hat seinen tiefen dem <rs ref="#pmb11068" type="person">Calderon</rs> fast
+               entgegengesetzten Schluß gefunden, »<rs ref="#pmb41626" type="work">Pentheus</rs>« im Stoff den
+               <rs ref="#pmb32111" type="work">Bacchen</rs> des <rs ref="#pmb4107" type="person">Euripides</rs>
                nahe, aber viel reicher und schöner, hat sich zum Scenarium gegliedert, zweiactig;
-               »<workName key="pmb41628">Orest in Delphi</workName>« der <workName key="pmb30633">Elektra</workName> 2ter Teil
+               »<rs ref="#pmb41628" type="work">Orest in Delphi</rs>« der <rs ref="#pmb30633" type="work">Elektra</rs> 2ter Teil
                zeigt seine Gestalten unheimlich deutlich – mit dieser Fracht gehe ich den
-                  <date>31.</date> nach <placeName key="pmb656">Markt-Aussee, Ramgut</placeName>.
-               Lassen Sie mich hier oder dort nicht ohne Nachricht. </p>
-            <closer>Ihr <signed>Hugo</signed>
-            </closer>
-         </div>
-      </body>
+                  <date>31.</date> nach <rs ref="#pmb656" type="place">Markt-Aussee, Ramgut</rs>.
+               Lassen Sie mich hier oder dort nicht ohne Nachricht. </p><closer>Ihr <signed>Hugo</signed></closer></div></body>
    </text>
 </TEI>

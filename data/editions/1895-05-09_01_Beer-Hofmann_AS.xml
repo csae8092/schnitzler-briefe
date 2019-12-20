@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-05-09_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1895-05-09_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Richard Beer-Hofmann an Arthur Schnitzler,
-               [9. 5. 1895]</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+               [9.&#160;5.&#160;1895]</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -49,10 +53,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., Bleistift; Lateinschrift. Von Schnitzler mit
+                        <p>eh. Brief, 1 Bl., 1&#160;S., Bleistift; Lateinschrift. Von Schnitzler mit
                            Bleistift datiert: »<quote>
                               <date>
                                  <subst>
@@ -64,16 +68,16 @@
                            Beer-Hofmanns: »<quote>
                               <p>D<hi rend="superscript">r</hi>
                                  <space unit="chars" quantity="1"/>
-                                 <persName key="pmb42215">
+                                 <rs ref="#pmb42215" type="person">
                                     <add place="above">Josef</add>
-                                 Heidenthaller</persName>
+                                 Heidenthaller</rs>
                               </p>
-                              <p>Wohnung <placeName key="pmb42213">Johannesgasse 3. u. 5</placeName>
+                              <p>Wohnung <rs ref="#pmb42213" type="place">Johannesgasse 3. u. 5</rs>
                               </p>
                               <p>
-                                 <placeName key="pmb168">Berlin</placeName>! D<hi rend="superscript">r</hi>.
-                                    <persName key="pmb5420">F. C.
-                                 Andreas</persName>.</p>
+                                 <rs ref="#pmb168" type="place">Berlin</rs>! D<hi rend="superscript">r</hi>.
+                                    <rs ref="#pmb5420" type="person">F.&#160;C.
+                                 Andreas</rs>.</p>
                               <p>vor. 10 Tagen.</p>
                            </quote>«</p>
                      </physDesc>
@@ -87,18 +91,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1895-05-09" n="01">[9. 5. 1895]</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1895-05-09" n="01">[9.&#160;5.&#160;1895]</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-05-03_01">Beer-Hofmann an Schnitzler, [3.? 5. 1895]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-05-13_01">Schnitzler an Beer-Hofmann, 13. 5. 1895</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-05-03_01">Beer-Hofmann an Schnitzler, [3.?&#160;5.&#160;1895]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-05-13_01">Schnitzler an Beer-Hofmann, 13.&#160;5.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -113,20 +117,8 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00128"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00127"/>
-               <rs type="person" key="pmb10762">Wir</rs> sind die Strasse längs des Hauses (<placeName key="pmb177">Stelzer</placeName>) (<placeName key="pmb1006">Badgasse</placeName>) geradeaus in
+      <body><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00127"/><rs type="person" ref="#pmb10762" subtype="implied">Wir</rs> sind die Strasse längs des Hauses (<rs ref="#pmb177" type="place">Stelzer</rs>) (<rs ref="#pmb1006" type="place">Badgasse</rs>) geradeaus in
                den Wald gegangen und halten uns i<c rendition="#gemination-m"/>er an der Mauer des
-                  <placeName key="pmb42229">Kalksburger Convicts</placeName> –</p>
-            <closer>
-               <signed>Richard</signed>
-            </closer>
-            <postscript>
-               <p>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</p>
-            </postscript>
-         </div>
-      </body>
+                  <rs ref="#pmb42229" type="place">Kalksburger Convicts</rs> –</p><closer><signed>Richard</signed></closer><postscript><p>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</p></postscript></div></body>
    </text>
 </TEI>

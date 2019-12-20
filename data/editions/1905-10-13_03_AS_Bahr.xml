@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1905-10-13_03_AS_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1905-10-13_03_AS_Bahr">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 13. 10. 1905</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 13.&#160;10.&#160;1905</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -60,10 +64,10 @@
             <listBibl>
                <biblStruct corresp="DASB">
                   <analytic>
-                     <title level="a">13. 10. 1905, Abschrift</title>
+                     <title level="a">13.&#160;10.&#160;1905, Abschrift</title>
                   </analytic>
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint> 
@@ -80,8 +84,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -99,18 +103,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1905-10-13" n="03">13. 10. 1905</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1905-10-13" n="03">13.&#160;10.&#160;1905</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1905-10-13_02">Bahr an Schnitzler, 13. 10. 1905</ptr>
-               <ptr type="next" subtype="toAuthor" target="1906-01-29_01">Bahr an Schnitzler, 29. 1. 1906</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1905-10-13_02">Bahr an Schnitzler, 13.&#160;10.&#160;1905</ptr>
+               <ptr type="next" subtype="toAuthor" target="1906-01-29_01">Bahr an Schnitzler, 29.&#160;1.&#160;1906</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -126,44 +130,12 @@
      <graphic url="HS_AM60177Ba_R"/>
   </facsimile>
   <text type="card">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <p>
-                  <seg rend="left">
-                     <pb facs=""/>
-                     <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
-                  </seg>
-                  <seg rend="right">
-                     <date>13. X. 905</date>
-                  </seg>
-               </p>
-               <p>
-                  <hi rend="pre-print">
-                     <placeName key="pmb133">Wien, XVIII. Spoettelgasse 7</placeName>.</hi>
-               </p>
-            </opener>
-            <p>
-               <salute>eben, lieber Hermann, </salute>kommt der <workName key="pmb29907">
-                  <hi rend="latintype">Klub</hi> der Erlöser</workName>, und dazu, zum 2. Mal, der <hi rend="latintype">
-                  <workName key="pmb30001">arme
-          Narr</workName>
-               </hi>, den ich also schon gelesen, der mir eines deiner <anchor type="label" xml:id="LL087-1">merkwürdigsten Produkte</anchor>
-          zu sein scheint, und den ich am liebsten als eine Art von Vorspiel zu <damage agent="hole">
-                  <supplied>e</supplied>
-               </damage>inem ganz voll tönenden Drama auf dem Theater <pb facs="HS_AM60177Ba_R"/>sehen
-          möchte, das aber natürlich auch von <damage agent="hole">
-                  <supplied>dir</supplied>
-               </damage> sein müßte,
+      <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></seg><seg rend="right"><date>13.&#160;X. 905</date></seg></p><p><hi rend="pre-print"><rs ref="#pmb133" type="place">Wien, XVIII. Spoettelgasse 7</rs>.</hi></p></opener><p><salute>eben, lieber Hermann, </salute>kommt der <rs ref="#pmb29907" type="work"><hi rend="latintype">Klub</hi> der Erlöser</rs>, und dazu, zum 2.&#160;Mal, der <hi rend="latintype"><rs ref="#pmb30001" type="work">arme
+          Narr</rs></hi>, den ich also schon gelesen, der mir eines deiner <anchor type="label" xml:id="LL087-1">merkwürdigsten Produkte</anchor>
+          zu sein scheint, und den ich am liebsten als eine Art von Vorspiel zu <damage agent="hole"><supplied>e</supplied></damage>inem ganz voll tönenden Drama auf dem Theater <pb facs="HS_AM60177Ba_R"/>sehen
+          möchte, das aber natürlich auch von <damage agent="hole"><supplied>dir</supplied></damage> sein müßte,
           und zu dem mir alle Elemente in geheimnisvoller Weise schon in diesem seltsamen
-          Akt zu liegen scheinen.</p>
-            <p>Darf ich dir bei dieser Gelegenheit gleich für <rs type="work" key="pmb30003">deine lieben Worte</rs> in der <orgName key="pmb29421">Volkszeitg</orgName> die Hand
-          drücken?</p>
-            <p>
-               <anchor type="commentary" xml:id="KL087-1"/>Sonntag oder Montag<note type="commentary" xml:id="KL087-1h">Am Montag, dem <date>16. 10. 1905</date>, fuhr er mit <persName key="pmb10986">Brahm</persName> auf den <placeName key="pmb189">Semmering</placeName>.</note> fahr ich fort, auf einige Tage nur, dann auf Wiedersehen.</p>
-            <closer>Von Herzen dein <signed>A.</signed>
-            </closer>
-         </div>
-      </body>
+          Akt zu liegen scheinen.</p><p>Darf ich dir bei dieser Gelegenheit gleich für <rs type="work" ref="#pmb30003" subtype="implied">deine lieben Worte</rs> in der <rs ref="#pmb29421" type="organisation">Volkszeitg</rs> die Hand
+          drücken?</p><p><anchor type="commentary" xml:id="KL087-1"/>Sonntag oder Montag<note type="commentary" xml:id="KL087-1h">Am Montag, dem <date>16.&#160;10.&#160;1905</date>, fuhr er mit <rs ref="#pmb10986" type="person">Brahm</rs> auf den <rs ref="#pmb189" type="place">Semmering</rs>.</note> fahr ich fort, auf einige Tage nur, dann auf Wiedersehen.</p><closer>Von Herzen dein <signed>A.</signed></closer></div></body>
   </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-11-30_02_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1898-11-30_02_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [30. 11. 1898]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [30.&#160;11.&#160;1898]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte. Von Schnitzler mit
                                     Bleistift datiert: »<quote>
                                         <date>30/11 98</date>
                                     </quote>«. Von unbekannter Hand mit Bleistift nummeriert:
@@ -64,8 +68,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -84,18 +88,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1898-11-30" n="02">[30. 11. 1898]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1898-11-30" n="02">[30.&#160;11.&#160;1898]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1898-11-19_01">Hofmannsthal an Schnitzler, 19.  11. 1898</ptr>
-               <ptr type="next" subtype="toAuthor" target="1898-12-03_01">Hofmannsthal an Schnitzler, 3. 12. 1898</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1898-11-19_01">Hofmannsthal an Schnitzler, 19.&#160;&#160;11.&#160;1898</ptr>
+               <ptr type="next" subtype="toAuthor" target="1898-12-03_01">Hofmannsthal an Schnitzler, 3.&#160;12.&#160;1898</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -112,35 +116,9 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00284"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00284"/>
-                        <hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
-                            Schnitzler</hi>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb397">
-                            <hi rend="latintype">Frankgasse</hi> 1</placeName>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00283"/>lieber Arthur</salute>
-                </opener>
-                <p>an der <anchor type="commentary" xml:id="KL2248-1"/>Caſſa<note type="commentary" xml:id="KL2248-1h">Am Abend fand die Uraufführung von <workName key="pmb30219">Das Vermächtnis</workName> statt. Im <workName key="pmb33243">Tagebuch</workName> notiert <persName key="pmb2121">Schnitzler</persName>: »<quote>Unannehml. wegen Sitzen</quote>«.</note>
+        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00284"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
+                            Schnitzler</hi></addrLine><addrLine><rs ref="#pmb397" type="place"><hi rend="latintype">Frankgasse</hi> 1</rs></addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00283"/>lieber Arthur</salute></opener><p>an der <anchor type="commentary" xml:id="KL2248-1"/>Caſſa<note type="commentary" xml:id="KL2248-1h">Am Abend fand die Uraufführung von <rs ref="#pmb30219" type="work">Das Vermächtnis</rs> statt. Im <rs ref="#pmb33243" type="work">Tagebuch</rs> notiert <rs ref="#pmb2121" type="person">Schnitzler</rs>: »<quote>Unannehml. wegen Sitzen</quote>«.</note>
                         beko<c rendition="#gemination-m"/>en die Leute die Auskunft, daſs die Sitze
-                    und Logen durch Sie direct zu beziehen ſind, alſo was ſoll machen!</p>
-                <closer>
-                    <signed>Hugo</signed>
-                </closer>
-                <postscript>
-                    <p>Es handelt ſich um die Loge »<persName key="pmb34331">Frankenſtein</persName>.«</p>
-                </postscript>
-            </div>
-        </body>
+                    und Logen durch Sie direct zu beziehen ſind, alſo was ſoll machen!</p><closer><signed>Hugo</signed></closer><postscript><p>Es handelt ſich um die Loge »<rs ref="#pmb34331" type="person">Frankenſtein</rs>.«</p></postscript></div></body>
     </text>
 </TEI>

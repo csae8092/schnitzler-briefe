@@ -1,12 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L042XXX">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L042XXX">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Friedrich M. Fels an Arthur Schnitzler,
-                    4. 10. 1895</title>
-                <author key="pmb2450">Fels, Friedrich M.</author>
+                    4.&#160;10.&#160;1895</title>
+                <author ref="#pmb2450">Fels, Friedrich M.</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -16,8 +18,8 @@
                     <address>
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
-                        <placeName>
-                            <country>A</country> Wien </placeName>
+                        <rs type="place">
+                            <country>A</country> Wien </rs>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,7 +52,7 @@
                                 <idno>A:Schnitzler, HS.NZ85.1.2956</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S., schwarze Tinte,
+                                <p>eh. Brief, 1&#160;Bl., 3&#160;S., schwarze Tinte,
                                     Lateinschrift. Von Schnitzler nummeriert:
                                     »<quote>26</quote>«.</p>
                             </physDesc>
@@ -65,13 +67,13 @@
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName key="pmb2450">Fels, Friedrich M.</persName>
-                    <placeName key="pmb484">Zürich</placeName>
-                    <date when="1895-10-04" n="01">4. 10. 1895</date>
+                    <persName ref="#pmb2450">Fels, Friedrich M.</persName>
+                    <placeName ref="#pmb484">Zürich</placeName>
+                    <date when="1895-10-04" n="01">4.&#160;10.&#160;1895</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -80,60 +82,53 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs=""/>
-                        <placeName key="pmb42505">Zürich I,
-                            Schifflände 30</placeName>, III. Stock<lb/>, am
-                            <date>4. Oktober 1895</date>
-                    </dateline>
-                    <salute rend="center">Lieber Doktor Schnitzler!</salute>
-                </opener>
-                <p>Wie Sie aus der Datierung ersehen, bin ich, dank Ihrer und <persName key="pmb10863">Beer-Hofma<c rendition="#gemination-n"/>
-                    </persName>s Hilfe,
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><rs ref="#pmb42505" type="place">Zürich I,
+                            Schifflände&#160;30</rs>, III.&#160;Stock<lb/>, am
+                            <date>4.&#160;Oktober&#160;1895</date></dateline><salute rend="center">Lieber Doktor Schnitzler!</salute></opener><p>Wie Sie aus der Datierung ersehen, bin ich, dank Ihrer und <rs
+                        ref="#pmb10863" type="person">Beer-Hofma<c rendition="#gemination-n"/></rs>s Hilfe,
                     wieder im Besitze einer eigenen Wohnung. Ich danke Ihnen herzlich. Ich wohne
-                    jetzt bei einer beka<c rendition="#gemination-n"/>ten <rs type="person" key="">Familie</rs>, zusa<c rendition="#gemination-m"/>en mit einem <rs type="person" key="pmb42528">Freunde</rs>, einem alten Herrn, <placeName key="pmb50">Wien</placeName>er, Schwager von <persName key="pmb42521">Dreher</persName> in <placeName key="pmb42535">Schwechat</placeName>, der früher
-                    lange Jahre in <placeName key="pmb175">Amerika</placeName> und <placeName key="pmb151">Deutschland</placeName> ein groſser Fabrikant war, da<c rendition="#gemination-n"/> fallierte und nun in seinen alten Tagen als
-                    Reisender eines Papiergeschäfts mühsam sein Leben fristet. Wir haben zusa<c rendition="#gemination-m"/>en ein groſses Wohnzi<c rendition="#gemination-m"/>er, ein Kabinet und einen Alkoven, wofür wir 50 francs zahlen – gewiſs
-                    billig. Na, der Teufel wird schon weiterhelfen.</p>
-                <p>Ich hätte noch eine Bitte. Wären Sie so freundlich, bei <persName key="pmb10863">Beer-Hofma<c rendition="#gemination-n"/>
-                    </persName> nachzufragen, ob er
-                    vielleicht wieder einen <pb facs=""/>alten Anzug hat; das Porto ka<c rendition="#gemination-n"/> ja nicht viel kosten. Und ich bin absolut
+                    jetzt bei einer beka<c rendition="#gemination-n"/>ten <rs type="person" subtype="implied" ref=""
+                        >Familie</rs>, zusa<c rendition="#gemination-m"/>en mit einem <rs
+                        type="person" ref="#pmb42528" subtype="implied">Freunde</rs>, einem alten Herrn, <rs
+                        ref="#pmb50" type="place">Wien</rs>er, Schwager von <rs ref="#pmb42521" type="person"
+                            >Dreher</rs> in <rs ref="#pmb42535" type="place">Schwechat</rs>, der früher
+                    lange Jahre in <rs ref="#pmb175" type="place">Amerika</rs> und <rs
+                        ref="#pmb151" type="place">Deutschland</rs> ein groſser Fabrikant war, da<c
+                        rendition="#gemination-n"/> fallierte und nun in seinen alten Tagen als
+                    Reisender eines Papiergeschäfts mühsam sein Leben fristet. Wir haben zusa<c
+                        rendition="#gemination-m"/>en ein groſses Wohnzi<c rendition="#gemination-m"
+                    />er, ein Kabinet und einen Alkoven, wofür wir 50&#160;francs zahlen – gewiſs
+                    billig. Na, der Teufel wird schon weiterhelfen.</p><p>Ich hätte noch eine Bitte. Wären Sie so freundlich, bei <rs ref="#pmb10863" type="person"
+                            >Beer-Hofma<c rendition="#gemination-n"/></rs> nachzufragen, ob er
+                    vielleicht wieder einen <pb facs=""/>alten Anzug hat; das Porto ka<c
+                        rendition="#gemination-n"/> ja nicht viel kosten. Und ich bin absolut
                     auſserstande, mir selbst einen beizubringen. Seien Sie nicht böse, und besten
-                    Dank im vorhinein.</p>
-                <p>Ich schreibe wirklich einen <rs type="work" key="pmb42538">Aufsatz</rs> für <persName key="pmb13088">Wengraf</persName> und <persName key="pmb2509">Osten</persName> und werde
-                        da<c rendition="#gemination-n"/>
-                    <space unit="chars" quantity="1"/>
-                    <rs type="person" key="">einen</rs> für die <workName key="pmb41189">Preſse</workName> schreiben. Apropos <orgName key="pmb29270">Preſse</orgName>: Dr. <persName key="pmb11707">Hirschfeld</persName>
-                    muſs ja jetzt wieder in <placeName key="pmb50">Wien</placeName> sein, und Sie
+                    Dank im vorhinein.</p><p>Ich schreibe wirklich einen <rs type="work" ref="#pmb42538" subtype="implied">Aufsatz</rs> für <rs
+                    ref="#pmb13088" type="person">Wengraf</rs> und <rs ref="#pmb2509" type="person">Osten</rs> und werde
+                        da<c rendition="#gemination-n"/><space unit="chars" quantity="1"/><rs
+                        type="person" subtype="implied" ref="">einen</rs> für die <rs ref="#pmb41189" type="work"
+                        >Preſse</rs> schreiben. Apropos <rs ref="#pmb29270" type="organisation"
+                        >Preſse</rs>: Dr.&#160;<rs ref="#pmb11707" type="person">Hirschfeld</rs>
+                    muſs ja jetzt wieder in <rs ref="#pmb50" type="place">Wien</rs> sein, und Sie
                         kö<c rendition="#gemination-n"/>ten vielleicht bei Gelegenheit mit ihm
-                    sprechen, ob es sich nicht machen lieſse, daſs ich für das Blatt die <placeName key="pmb34006">Schweiz</placeName>er Korrespondenz, auch über Politik und
+                    sprechen, ob es sich nicht machen lieſse, daſs ich für das Blatt die <rs
+                        ref="#pmb34006" type="place">Schweiz</rs>er Korrespondenz, auch über Politik und
                     Volkswirtschaft, übernähme. Ich haben bego<c rendition="#gemination-n"/>en, mich
-                    in die Verhältniſse einzuleben, und glaube, daſs ich genügen würde.</p>
-                <p>Daſs <persName key="pmb12152">Mackay</persName> Ihnen gefallen hat, freut mich.
+                    in die Verhältniſse einzuleben, und glaube, daſs ich genügen würde.</p><p>Daſs <rs ref="#pmb12152" type="person">Mackay</rs> Ihnen gefallen hat, freut mich.
                     Auch ich habe ihn gern. Er hat, bei viel Schlauheit und einiger Reserviertheit,
                     viele liebenswürdige Seiten, vor allem eine sehr angenehme Naivetät. Naiv ist
-                    zwar auch <persName key="pmb7784">Henckell</persName>, dabei aber entsetzlich
-                    langweilig und geistlos. Sie haben mich einen Antisemiten gena<c rendition="#gemination-n"/>t, aber – mit Ariern verkehrt es sich wirklich zu
-                    schwer.</p>
-                <p>
-                    <pb facs=""/>Nehmen Sie mir meine neue Bitte nicht übel, grüßen Sie <persName key="pmb10863">Beer-Hofma<c rendition="#gemination-n"/>
-                    </persName>,
-                        <persName key="pmb11740">Loris</persName>, <persName key="pmb11707">Hirschfeld</persName> etc von mir und seien Sie selbst herzlichst
-                    gegrüßt</p>
-                <closer>von<lb/>Ihrem<lb/>
-                    <signed>Fels</signed>
-                </closer>
-                <postscript>
-                    <p>Was sagen Sie zu <persName key="pmb12152">Mackay</persName>s neuestem <rs type="work" key="">Buch</rs>? Erscheint bald wieder etwas von Ihnen? Wie
-                        stehts mit der <rs type="work" key="pmb29917">Aufführung</rs>? <rs type="work" key="">
-                            <persName key="">David</persName>
-                        </rs> ko<c rendition="#gemination-m"/>t also am <date>12.</date> daran; ich bin
-                        begierig.</p>
-                </postscript>
-            </div>
-        </body>
+                    zwar auch <rs ref="#pmb7784" type="person">Henckell</rs>, dabei aber entsetzlich
+                    langweilig und geistlos. Sie haben mich einen Antisemiten gena<c
+                        rendition="#gemination-n"/>t, aber – mit Ariern verkehrt es sich wirklich zu
+                    schwer.</p><p><pb facs=""/>Nehmen Sie mir meine neue Bitte nicht übel, grüßen Sie <rs
+                        ref="#pmb10863" type="person">Beer-Hofma<c rendition="#gemination-n"/></rs>,
+                        <rs ref="#pmb11740" type="person">Loris</rs>, <rs ref="#pmb11707" type="person"
+                        >Hirschfeld</rs> etc von mir und seien Sie selbst herzlichst
+                    gegrüßt</p><closer>von<lb/>Ihrem<lb/><signed>Fels</signed></closer><postscript><p>Was sagen Sie zu <rs ref="#pmb12152" type="person">Mackay</rs>s neuestem <rs
+                            type="work" subtype="implied" ref="">Buch</rs>? Erscheint bald wieder etwas von Ihnen? Wie
+                        stehts mit der <rs type="work" ref="#pmb29917" subtype="implied">Aufführung</rs>? <rs
+                            type="work" subtype="implied" ref=""><rs type="person" ref="">David</rs></rs> ko<c
+                            rendition="#gemination-m"/>t also am <date>12.</date> daran; ich bin
+                        begierig.</p></postscript></div></body>
     </text>
 </TEI>

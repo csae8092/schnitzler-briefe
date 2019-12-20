@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1907-09-05_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1907-09-05_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 5. 9. 1907</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 5.&#160;9.&#160;1907</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb189">XXXX</placeName>
-               <date when="1907-09-05" n="01">5. 9. 1907</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb189">XXXX</placeName>
+               <date when="1907-09-05" n="01">5.&#160;9.&#160;1907</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1907-09-01_01">Hofmannsthal an Schnitzler, 1. 9. 1907</ptr>
-               <ptr type="next" subtype="toAuthor" target="1907-09-16_01">Schnitzler an Hofmannsthal, 16. 9. 1907</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1907-09-01_01">Hofmannsthal an Schnitzler, 1.&#160;9.&#160;1907</ptr>
+               <ptr type="next" subtype="toAuthor" target="1907-09-16_01">Schnitzler an Hofmannsthal, 16.&#160;9.&#160;1907</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,26 +105,11 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>5 IX.</date>
-               </dateline>
-            </opener>
-            <p>Schreibe bei Ihrer <rs type="person" key="pmb12701">Mama</rs> – d. h. diese Karte, nicht mein
-    <rs type="work" key="">Stück</rs>. Letzteres schreib ich in meinem Zimmer. Es ist sehr schön.
-               Ich finde es ist wie von <persName key="pmb12338">Nestroy</persName>, wenn er Schnitzler gelesen hätte und
-               <persName key="pmb5892">Goldoni</persName> copieren wollen hätte. Nun im Ernst, es ist viel besser wie
-               <persName key="pmb12338">Nestroy</persName>, <persName key="pmb5892">Goldoni</persName> und (natürlich) Schnitzler und
-   schlechter wie nichts. <date>Ende Septemb.</date> bin ich in <placeName key="pmb50">Wien</placeName>. </p>
-            <closer>
-               <signed>Hugo.</signed>
-            </closer>
-            <postscript>
-               <p>Einen schönen Gruß und viele Küsse von <rs type="person" key="pmb12701">Mama</rs>. </p>
-            </postscript>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>5 IX.</date></dateline></opener><p>Schreibe bei Ihrer <rs type="person" ref="#pmb12701" subtype="implied">Mama</rs> – d.&#160;h. diese Karte, nicht mein
+    <rs type="work" subtype="implied" ref="">Stück</rs>. Letzteres schreib ich in meinem Zimmer. Es ist sehr schön.
+               Ich finde es ist wie von <rs ref="#pmb12338" type="person">Nestroy</rs>, wenn er Schnitzler gelesen hätte und
+               <rs ref="#pmb5892" type="person">Goldoni</rs> copieren wollen hätte. Nun im Ernst, es ist viel besser wie
+               <rs ref="#pmb12338" type="person">Nestroy</rs>, <rs ref="#pmb5892" type="person">Goldoni</rs> und (natürlich) Schnitzler und
+   schlechter wie nichts. <date>Ende Septemb.</date> bin ich in <rs ref="#pmb50" type="place">Wien</rs>. </p><closer><signed>Hugo.</signed></closer><postscript><p>Einen schönen Gruß und viele Küsse von <rs type="person" ref="#pmb12701" subtype="implied">Mama</rs>. </p></postscript></div></body>
    </text>
 </TEI>

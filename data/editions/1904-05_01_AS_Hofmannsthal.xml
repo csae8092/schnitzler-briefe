@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1904-05_01_AS_Hofmannsthal" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1904-05_01_AS_Hofmannsthal"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 1904-05</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Hs-30885,XXXX</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-                <placeName key="pmb50">Wien</placeName> 
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                <placeName ref="#pmb50">Wien</placeName> 
                <date when="1904-05" n="01">1904-05</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1904-05-22_01">Schnitzler, Schnitzler an Hofmannsthal, 22. 05. 1904</ptr>
-               <ptr type="next" subtype="toAuthor" target="1904-06-15_01">Hofmannsthal an Schnitzler, 15. 6. 1904</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1904-05-22_01">Schnitzler, Schnitzler an Hofmannsthal, 22.&#160;05.&#160;1904</ptr>
+               <ptr type="next" subtype="toAuthor" target="1904-06-15_01">Hofmannsthal an Schnitzler, 15.&#160;6.&#160;1904</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,31 +103,22 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <salute>mein lieber Hugo, </salute>
-            </opener>
-            <p>unter den jetzigen Witterungsverhältnissen empfiehlt es sich jedenfalls, unsern
-               Spaziergang erst gegen <time>Abend</time>, etwa von <time>5 ½ Uhr</time> an zu
-               machen, und irgendwo draußen (<placeName key="pmb242">Salmannsdorf</placeName>, etc.)
-               zu nachtmahlen. Richten Sie sichs also mit <persName key="pmb2292">Gerty</persName>
-               lieber so ein, daß Sie an dem betre ffenden Tag nicht mehr nach <placeName key="pmb173">Rodaun</placeName> hinaus müssen. Unsre Gegend (worunter ich
-                  <placeName key="pmb169">Pötzleinsdorf</placeName>, <placeName key="pmb170">Neuwaldegg</placeName>, <placeName key="pmb473">Weidlingbach</placeName> etc.,
-               kurz alles zwischen der alten <placeName key="pmb41239">Tulln</placeName>er
+      <body><div type="writingSession" n="1"><opener><salute>mein lieber Hugo, </salute></opener><p>unter den jetzigen Witterungsverhältnissen empfiehlt es sich jedenfalls, unsern
+               Spaziergang erst gegen <time>Abend</time>, etwa von <time>5&#160;½ Uhr</time> an zu
+               machen, und irgendwo draußen (<rs ref="#pmb242" type="place">Salmannsdorf</rs>, etc.)
+               zu nachtmahlen. Richten Sie sichs also mit <rs ref="#pmb2292" type="person">Gerty</rs>
+               lieber so ein, daß Sie an dem betre ffenden Tag nicht mehr nach <rs ref="#pmb173" type="place">Rodaun</rs> hinaus müssen. Unsre Gegend (worunter ich
+                  <rs ref="#pmb169" type="place">Pötzleinsdorf</rs>, <rs ref="#pmb170" type="place">Neuwaldegg</rs>, <rs ref="#pmb473" type="place">Weidlingbach</rs> etc.,
+               kurz alles zwischen der alten <rs ref="#pmb41239" type="place">Tulln</rs>er
                Reichsstraße bis zur <geogName type="river">Donau</geogName> verstehe) ist wirklich
-               wundervoll, ich radle manchmal (zu selten) nur in den Wald zwischen <placeName key="pmb169">Pötzleinsdorf</placeName> und <placeName key="pmb170">Neuwaldegg</placeName> und bin immer wieder von neuem entzückt. Schade daß man
+               wundervoll, ich radle manchmal (zu selten) nur in den Wald zwischen <rs ref="#pmb169" type="place">Pötzleinsdorf</rs> und <rs ref="#pmb170" type="place">Neuwaldegg</rs> und bin immer wieder von neuem entzückt. Schade daß man
                nirgends angenehme oder nur mögliche Hotels findet. Ich schlage Ihnen den
-                  <date>Mittwoch</date> vor, an welchem Tag wir Sie mit <persName key="pmb2292">Gerty</persName> um <time>5</time> erwarten. Sind Sie aber schon
-                  <time>Vormittag</time> in <placeName key="pmb50">Wien</placeName>, so wär es
-               ausnehmend nett, wenn Sie bei uns schon speisten (gegen <time>½ 2</time>) – wir ruhen uns dann in
+                  <date>Mittwoch</date> vor, an welchem Tag wir Sie mit <rs ref="#pmb2292" type="person">Gerty</rs> um <time>5</time> erwarten. Sind Sie aber schon
+                  <time>Vormittag</time> in <rs ref="#pmb50" type="place">Wien</rs>, so wär es
+               ausnehmend nett, wenn Sie bei uns schon speisten (gegen <time>½&#160;2</time>) – wir ruhen uns dann in
                der Nachmittagshitze aus, und gehen fort, wann’s uns beliebt. Viel liegt in der Zeit,
-               in der man sich nicht gesehen hat – <placeName key="">Sicilien</placeName> und <placeName key="">Holland</placeName> – was mir beinahe noch
-               wichtiger scheint als der kleine <persName key="pmb11988">Kraus</persName>, der Sie zu früh, und der große Graus, der Sie
-               zu spät gepackt hat. – Auf Wiedersehen. Antwort erbeten. </p>
-            <closer>Herzlichst<lb/>Ihr <signed>A.</signed>
-            </closer>
-         </div>
-      </body>
+               in der man sich nicht gesehen hat – <rs type="place" ref="">Sicilien</rs> und <rs type="place" ref="">Holland</rs> – was mir beinahe noch
+               wichtiger scheint als der kleine <rs ref="#pmb11988" type="person">Kraus</rs>, der Sie zu früh, und der große Graus, der Sie
+               zu spät gepackt hat.&#160;– Auf Wiedersehen. Antwort erbeten. </p><closer>Herzlichst<lb/>Ihr <signed>A.</signed></closer></div></body>
    </text>
 </TEI>

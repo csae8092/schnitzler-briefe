@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1904-10-15_01_AS_Hofmannsthal" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1904-10-15_01_AS_Hofmannsthal"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 15. 10. 1904</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 15.&#160;10.&#160;1904</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Hs-30885,XXXX</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1904-10-15" n="01">15. 10. 1904</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1904-10-15" n="01">15.&#160;10.&#160;1904</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1904-10-14_01">Hofmannsthal an Schnitzler, 14. 10. 1904</ptr>
-               <ptr type="next" subtype="toAuthor" target="1904-10-16_01">Hofmannsthal an Schnitzler, 16. 10. 1904</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1904-10-14_01">Hofmannsthal an Schnitzler, 14.&#160;10.&#160;1904</ptr>
+               <ptr type="next" subtype="toAuthor" target="1904-10-16_01">Hofmannsthal an Schnitzler, 16.&#160;10.&#160;1904</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,78 +103,62 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb50">Wien</placeName>, <date>15. Oktober 1904</date>.</dateline>
-               <salute>Lieber Hugo!</salute>
-            </opener>
-            <p>Daß Sie <persName key="pmb20466">Lindemann</persName> Ihre Stücke verweigerten,
-               wundert mich, denn dazu liegt meiner Empfindung nach keine Ursache vor. <persName key="pmb11324">Fischer</persName> schrieb mir vor Monaten, er wolle seinen Autoren
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb50" type="place">Wien</rs>, <date>15.&#160;Oktober 1904</date>.</dateline><salute>Lieber Hugo!</salute></opener><p>Daß Sie <rs ref="#pmb20466" type="person">Lindemann</rs> Ihre Stücke verweigerten,
+               wundert mich, denn dazu liegt meiner Empfindung nach keine Ursache vor. <rs ref="#pmb11324" type="person">Fischer</rs> schrieb mir vor Monaten, er wolle seinen Autoren
                das Ansinnen stellen, aus Ursache des bewußten Streitfalles zwischen ihm und
-                  <persName key="pmb20466">L.</persName>, resp. zwischen mir und <persName key="pmb20466">L.</persName> in Betreff des »<workName key="pmb29985">Einsamen
-                  Wegs</workName>«, dem <persName key="pmb20466">L.</persName>schen Unternehmen ihre
+                  <rs ref="#pmb20466" type="person">L.</rs>, resp. zwischen mir und <rs ref="#pmb20466" type="person">L.</rs> in Betreff des »<rs ref="#pmb29985" type="work">Einsamen
+                  Wegs</rs>«, dem <rs ref="#pmb20466" type="person">L.</rs>schen Unternehmen ihre
                dramatischen Arbeiten bis auf Weiteres zu verweigern. Ich sprach mich mit
                Entschiedenheit dagegen aus, da mir jede Art von Solidarität ziemlich zuwider ist und
                ich besonders in dem vorliegenden Fall es auch von jedem andern Autor unrichtig
                gefunden hätte, aus einer rein privat prozessualen Sache eine öffentliche Affaire zu
                machen und damit vielleicht andere Leute, die die ganze Geschichte nicht
                interessiert, materiell zu schädigen. Damit erledigt sich Ihre Frage von selbst, und
-               ich bitte Sie nur, ohne jede Rücksicht auf mich, auch bei <persName key="pmb20466">Lindemann</persName> Ihre Stücke ganz nach Gutdünken zu placieren. Aber sonst
-               steht die Sache nicht so einfach, und <persName key="pmb20466">Lindemann</persName>
-               ist gewiß nicht so frei von Schuld, als es im Brief des Fräulein <persName key="pmb11195">Dumont</persName> an Sie in allerbestem Glauben dargestellt wird.
-               Insbesondere handelt es sich darum, daß <persName key="pmb20466">L.</persName> nach
-               der matten Aufnahme des <rs type="work">Stück</rs>s durch das <placeName key="pmb168">Berlin</placeName>er Publikum weder von einer vorher, noch von einer nachher zu
+               ich bitte Sie nur, ohne jede Rücksicht auf mich, auch bei <rs ref="#pmb20466" type="person">Lindemann</rs> Ihre Stücke ganz nach Gutdünken zu placieren. Aber sonst
+               steht die Sache nicht so einfach, und <rs ref="#pmb20466" type="person">Lindemann</rs>
+               ist gewiß nicht so frei von Schuld, als es im Brief des Fräulein <rs ref="#pmb11195" type="person">Dumont</rs> an Sie in allerbestem Glauben dargestellt wird.
+               Insbesondere handelt es sich darum, daß <rs ref="#pmb20466" type="person">L.</rs> nach
+               der matten Aufnahme des <rs type="work" subtype="implied">Stück</rs>s durch das <rs ref="#pmb168" type="place">Berlin</rs>er Publikum weder von einer vorher, noch von einer nachher zu
                zahlenden Garantiesumme etwas wissen wollte, trotzdem vor der Aufführung – ich
                glaube, am Tage der Aufführung – ein Telegramm von ihm eingelaufen war, das sich mit
-               den letzten Bedingungen <persName key="pmb11324">Fischers</persName> einverstanden
-               erklärte, – womit nicht nur nach allgemeinem Usus, sondern auch nach dem Urteil
+               den letzten Bedingungen <rs ref="#pmb11324" type="person">Fischers</rs> einverstanden
+               erklärte,&#160;– womit nicht nur nach allgemeinem Usus, sondern auch nach dem Urteil
                juridischer Sachverständiger, ein rechtsgiltiger Vertrag zustande gekommen war; – und
-               daß sich <persName key="pmb11324">Fischer</persName> durchaus nicht hütet, die
-               Angelegenheit auf dem Klageweg zu erledigen, (wie Frl. <persName key="pmb11195">Dumont</persName> in ihrem Brief sagt) ersehen Sie am besten aus den zwei
+               daß sich <rs ref="#pmb11324" type="person">Fischer</rs> durchaus nicht hütet, die
+               Angelegenheit auf dem Klageweg zu erledigen, (wie Frl. <rs ref="#pmb11195" type="person">Dumont</rs> in ihrem Brief sagt) ersehen Sie am besten aus den zwei
                Briefen, die ich Ihnen hier beilege und um deren Rücksendung ich Sie bitte, und aus
-               denen Sie 1. ersehen, daß Justizrat <persName key="pmb4532">Jonas</persName> die
-               Forderung der sofortigen Zahlung der 5000 M. für begründet hält, und 2. daß <persName key="pmb11324">Fischer</persName> nur meine Einwilligung abwartet, um den Prozeß
-               gegen <persName key="pmb20466">Lindemann</persName> einzuleiten. Diese Einwilligung
-               werde ich ihm natürlich nicht versagen.</p>
-            <p>Worin ich <persName key="pmb11324">Fischer</persName> Unrecht gebe, ist eigentlich
-               nur, daß er nicht gleich zu Beginn der Verhandlungen – lange vor Aufführung des <rs type="work">Stücks</rs> in <placeName key="pmb168">Berlin</placeName> – den
-                  <persName key="pmb20466">Lindemann</persName>’schen Antrag in seinem ganzen Umfang
-               (5000 M. Garantie und Aufführung des <rs type="work">Stücks</rs> in allen von
-                  <persName key="pmb20466">L.</persName> angegebenen Städten) angenommen hat, obwohl
+               denen Sie 1. ersehen, daß Justizrat <rs ref="#pmb4532" type="person">Jonas</rs> die
+               Forderung der sofortigen Zahlung der 5000&#160;M. für begründet hält, und 2. daß <rs ref="#pmb11324" type="person">Fischer</rs> nur meine Einwilligung abwartet, um den Prozeß
+               gegen <rs ref="#pmb20466" type="person">Lindemann</rs> einzuleiten. Diese Einwilligung
+               werde ich ihm natürlich nicht versagen.</p><p>Worin ich <rs ref="#pmb11324" type="person">Fischer</rs> Unrecht gebe, ist eigentlich
+               nur, daß er nicht gleich zu Beginn der Verhandlungen – lange vor Aufführung des <rs type="work" subtype="implied">Stücks</rs> in <rs ref="#pmb168" type="place">Berlin</rs> – den
+                  <rs ref="#pmb20466" type="person">Lindemann</rs>’schen Antrag in seinem ganzen Umfang
+               (5000&#160;M. Garantie und Aufführung des <rs type="work" subtype="implied">Stücks</rs> in allen von
+                  <rs ref="#pmb20466" type="person">L.</rs> angegebenen Städten) angenommen hat, obwohl
                ich ihm telegraphisch meine entschiedene Zustimmung kundgab, sondern daß er sich dann
                erst in Verhandlungen über einzelne Städte einließ, die von der Tournee
-               ausgeschlossen sein sollten. Aber »unvornehm« kann ich das auch nicht finden. – Was
+               ausgeschlossen sein sollten. Aber »unvornehm« kann ich das auch nicht finden.&#160;– Was
                aber nun eine vorherige Zahlung der Garantiesumme anlangt, so würde ich zu dieser
                Forderung in einem ähnlichen Fall meinen Vertreter neuerdings autorisieren; denn
-               gerade die in dem Brief des Frl. <persName key="pmb11195">Dumont</persName>
+               gerade die in dem Brief des Frl. <rs ref="#pmb11195" type="person">Dumont</rs>
                angeführten Daten beweisen, wie gering die finanzielle Sicherheit ist, die in einem
-               Unternehmen in der Art des <persName key="pmb20466">Lindemann</persName>’schen,
+               Unternehmen in der Art des <rs ref="#pmb20466" type="person">Lindemann</rs>’schen,
                selbst bei den besten Absichten und den reinsten künstlerischen Intentionen, den
-               Autoren geboten werden kann.</p>
-            <p>Übrigens hätte ja <persName key="pmb20466">Lindemann</persName> sich mindestens zu
+               Autoren geboten werden kann.</p><p>Übrigens hätte ja <rs ref="#pmb20466" type="person">Lindemann</rs> sich mindestens zu
                einer teilweisen vorherigen Zahlung verstehen können; aber, ganz im Gegenteil, und
-               dies ist wohl das Wichtigste bei der Betrachtung des ganzen Streitfalls –, nach der
-                  <placeName key="pmb168">Berlin</placeName>er Première wollte er, trotz des vor der
+               dies ist wohl das Wichtigste bei der Betrachtung des ganzen Streitfalls&#160;–, nach der
+                  <rs ref="#pmb168" type="place">Berlin</rs>er Première wollte er, trotz des vor der
                Première eingelangten vertragsgleichen Telegramms, weder von einer vorher, noch von
-               einer nachher zu zahlenden Garantie, noch überhaupt von einer Aufführung des <rs type="work">Stück</rs>es im Verlauf seiner Tournee etwas wissen. </p>
-            <p>Bitte, lieber Hugo, grüßen Sie Frl. <persName key="pmb11195">Dumont</persName>
+               einer nachher zu zahlenden Garantie, noch überhaupt von einer Aufführung des <rs type="work" subtype="implied">Stück</rs>es im Verlauf seiner Tournee etwas wissen. </p><p>Bitte, lieber Hugo, grüßen Sie Frl. <rs ref="#pmb11195" type="person">Dumont</rs>
                herzlich und teilen Sie ihr doch in Ihrer Antwort auch mit, was ich Ihnen gleich im
                Beginn dieses Briefs gesagt habe: daß es durchaus meinen Intentionen widersprach und
-               widerspricht, wenn <persName key="pmb11324">Fischer</persName> aus Anlaß des
+               widerspricht, wenn <rs ref="#pmb11324" type="person">Fischer</rs> aus Anlaß des
                bekannten Streitfalls dem neuen Unternehmen auch Stücke seiner anderen Autoren
-               verweigert, daß mir im übrigen aber das Vorgehen <persName key="pmb11324">Fischers</persName> in meiner Sache einwandfrei erscheint. </p>
-            <p>
-               <handShift/>Herzliche Grüße und auf baldiges Wiedersehen. Mit meinem »burlesken
-               Abend« bei <persName key="pmb12504">Reinhardt</persName> ist’s nichts. Er will die
-               <rs type="work" key="pmb31547">Familienscene</rs> allein, die ich aber lieber für bessere
+               verweigert, daß mir im übrigen aber das Vorgehen <rs ref="#pmb11324" type="person">Fischers</rs> in meiner Sache einwandfrei erscheint. </p><p><handShift/>Herzliche Grüße und auf baldiges Wiedersehen. Mit meinem »burlesken
+               Abend« bei <rs ref="#pmb12504" type="person">Reinhardt</rs> ist’s nichts. Er will die
+               <rs type="work" ref="#pmb31547" subtype="implied">Familienscene</rs> allein, die ich aber lieber für bessere
                Gelegenheit zurückbehalte. Über
-               <workName key="pmb29843">Kakadu</workName>–<workName key="pmb32512">Abenteurer</workName> ist noch kein
-               Telegramm eingelangt.</p>
-            <closer>Ihr <signed>A.</signed>
-            </closer>
-         </div>
-      </body>
+               <rs ref="#pmb29843" type="work">Kakadu</rs>–<rs ref="#pmb32512" type="work">Abenteurer</rs> ist noch kein
+               Telegramm eingelangt.</p><closer>Ihr <signed>A.</signed></closer></div></body>
    </text>
 </TEI>

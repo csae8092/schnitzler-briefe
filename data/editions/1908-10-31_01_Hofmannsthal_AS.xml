@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1908-10-31_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1908-10-31_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 31. 10. 1908</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 31.&#160;10.&#160;1908</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,11 +52,11 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>ms. Typoskript. Die Abschrift dürfte nach dem Tod Hofmannsthals von seiner <rs type="person" key="pmb18743">Witwe</rs> oder 
-                           seiner  <rs type="person" key="pmb3220">Tochter</rs> erstellt worden sein. Warum sie sich in <persName key="pmb2121">Schnitzler</persName>s Nachlass befindet – und wo das
+                        <p>ms. Typoskript. Die Abschrift dürfte nach dem Tod Hofmannsthals von seiner <rs type="person" ref="#pmb18743" subtype="implied">Witwe</rs> oder 
+                           seiner  <rs type="person" ref="#pmb3220" subtype="implied">Tochter</rs> erstellt worden sein. Warum sie sich in <rs ref="#pmb2121" type="person">Schnitzler</rs>s Nachlass befindet – und wo das
                            Original ist, ist ungeklärt.</p>
                      </physDesc>
                   </msDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb173">Rodaun</placeName>
-               <date when="1908-10-31" n="01">31. 10. 1908</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb173">Rodaun</placeName>
+               <date when="1908-10-31" n="01">31.&#160;10.&#160;1908</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1908-10-03_01">Hofmannsthal an Schnitzler, 3. 10. 1908</ptr>
-               <ptr type="next" subtype="toAuthor" target="1908-11-23_01">Hofmannsthal an Schnitzler, 23. 11. 1908</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1908-10-03_01">Hofmannsthal an Schnitzler, 3.&#160;10.&#160;1908</ptr>
+               <ptr type="next" subtype="toAuthor" target="1908-11-23_01">Hofmannsthal an Schnitzler, 23.&#160;11.&#160;1908</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -104,41 +108,21 @@
       <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00319"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb173">Rodaun</placeName> d <date>31 X 08</date>
-               </dateline>
-               <salute>Mein lieber Arthur,</salute>
-            </opener>
-            <p>wegen des Schreibers danke ich sehr, aber ich möchte lieber ein Frauenzimmer von
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb173" type="place">Rodaun</rs> d <date>31 X 08</date></dateline><salute>Mein lieber Arthur,</salute></opener><p>wegen des Schreibers danke ich sehr, aber ich möchte lieber ein Frauenzimmer von
                weiblichem Geschlecht. Um mir das nachzutragen, dürften Sie nicht der berüchtigte
-               Erotiker sein! </p>
-            <p>Was den »<orgName key="pmb34262">Morgen</orgName>
-               <supplied>«</supplied> betrifft, so
+               Erotiker sein! </p><p>Was den »<rs ref="#pmb34262" type="organisation">Morgen</rs><supplied>«</supplied> betrifft, so
                hänge ich mit diesem schönen Unternehmen ausschließlich nur mehr durch einen Proceß
-               zusammen, werde aber gern das nächste Mal bei Ihnen die <rs type="work" key="pmb41642">Gedichte</rs> von <persName key="pmb13136">Winterstein</persName>
-               anschauen, vielleicht kann man sie an <persName key="pmb10955">Blei</persName> für
-               seine <rs type="organisation" key="pmb29552">Zeitschrift</rs> schicken oder sonstwo
+               zusammen, werde aber gern das nächste Mal bei Ihnen die <rs type="work" ref="#pmb41642" subtype="implied">Gedichte</rs> von <rs ref="#pmb13136" type="person">Winterstein</rs>
+               anschauen, vielleicht kann man sie an <rs ref="#pmb10955" type="person">Blei</rs> für
+               seine <rs type="organisation" ref="#pmb29552" subtype="implied">Zeitschrift</rs> schicken oder sonstwo
                hin. Drittens bitte ich Sie recht herzlich, den eingelegten Brief mir zuliebe
                durchzusehen und wenn Sie keinen Grund dagegen haben demgemäß dieses Fräulein
-                  <persName key="pmb36427">Braun</persName> vom <placeName key="pmb20">Volkstheater</placeName>, das sich auch schon direct an Sie gewandt hat, bei sich
+                  <rs ref="#pmb36427" type="person">Braun</rs> vom <rs ref="#pmb20" type="place">Volkstheater</rs>, das sich auch schon direct an Sie gewandt hat, bei sich
                zu empfangen. Denn ich sage mir daß es einem so anständigen Menschen wie Dr.
-                  <persName key="pmb36407">Camillo Müller</persName>, der mich außerdem nur sehr
+                  <rs ref="#pmb36407" type="person">Camillo Müller</rs>, der mich außerdem nur sehr
                oberflächlich kennt, gewiß schwer gefallen ist so ausführlich deswegen an mich zu
                schreiben und vielleicht hängt für die arme Person wirklich unberechenbar viel daran,
-               daß man ihr hilft. Und es ist ja sehr möglich, daß sich Herr <persName key="pmb26880">Weiße</persName> hier wieder einmal wie ein Schwein gegen jemanden benimmt etc. </p>
-            <p>Ich wurschtle mich weiter gegen das Ende meines vierten <rs type="work" key="">Actes</rs> und bin </p>
-            <closer>von Herzen<lb/>Ihr<signed>Hugo.</signed>
-            </closer>
-            <postscript>
-               <p>
-                  <anchor type="commentary" xml:id="KLMAM20191017-16"/>Gruß von der <rs type="person" key="pmb18743">Schreiberin</rs>
-                  <note type="commentary" xml:id="KLMAM20191017-16h">Das deutet darauf hin, dass das Original von
-                        <persName key="pmb2292">Gerty von Hofmannsthal</persName> geschrieben war.</note>. </p>
-            </postscript>
-         </div>
-      </body>
+               daß man ihr hilft. Und es ist ja sehr möglich, daß sich Herr <rs ref="#pmb26880" type="person">Weiße</rs> hier wieder einmal wie ein Schwein gegen jemanden benimmt etc. </p><p>Ich wurschtle mich weiter gegen das Ende meines vierten <rs type="work" subtype="implied" ref="">Actes</rs> und bin </p><closer>von Herzen<lb/>Ihr<signed>Hugo.</signed></closer><postscript><p><anchor type="commentary" xml:id="KLMAM20191017-16"/>Gruß von der <rs type="person" ref="#pmb18743" subtype="implied">Schreiberin</rs><note type="commentary" xml:id="KLMAM20191017-16h">Das deutet darauf hin, dass das Original von
+                        <rs ref="#pmb2292" type="person">Gerty von Hofmannsthal</rs> geschrieben war.</note>. </p></postscript></div></body>
    </text>
 </TEI>

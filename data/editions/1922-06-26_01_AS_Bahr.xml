@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1922-06-26_01_AS_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1922-06-26_01_AS_Bahr">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 26. 6. 192[2]</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 26.&#160;6.&#160;192[2]</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -60,10 +64,10 @@
             <listBibl>
                <biblStruct corresp="DASB">
                   <analytic>
-                     <title level="a">26. 6. 1920, Abschrift</title>
+                     <title level="a">26.&#160;6.&#160;1920, Abschrift</title>
                   </analytic>
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint> 
@@ -80,8 +84,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -99,17 +103,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1922-06-26" n="01">26. 6. 192[2]</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1922-06-26" n="01">26.&#160;6.&#160;192[2]</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1922-06-09_01">Bahr an Schnitzler, 9. 6. 1922</ptr>
-               <ptr type="next" subtype="toAuthor" target="1930-02-16_01">Schnitzler an Bahr, 16. 2. 1930</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1922-06-09_01">Bahr an Schnitzler, 9.&#160;6.&#160;1922</ptr>
+               <ptr type="next" subtype="toAuthor" target="1930-02-16_01">Schnitzler an Bahr, 16.&#160;2.&#160;1930</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -125,29 +129,8 @@
      <graphic url="HS_AM60133Ba_R"/>
    </facsimile>
   <text type="card">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                    <placeName key="pmb50">Wien</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date>26. 6. 2<unclear>2</unclear>
-                  </date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>lieber Hermann, </salute>darf ich dir Mr <persName key="pmb2276">Scofield Thayer</persName> vorstellen, Herausgeber der <orgName key="pmb29371">Dial</orgName>, einer der
-          charmantesten und anregendsten jungen <placeName key="pmb175">
-                  <country>Amerikaner</country>
-               </placeName>, die mir begegnet sind! Ich
-          sage nicht mehr, denn ich hoffe, du wirst dir die Zeit nehmen Mr <persName key="pmb2276">Thayer</persName>
-               <space unit="chars" quantity="1"/>
-               <pb facs="HS_AM60133Ba_R"/>einmal zu empfangen und ebenso persönlich kennen lernen.</p>
-            <p>Er bringt dir meine herzlichsten Grüße.</p>
-            <closer>Auf Wiedersehen!<lb/>Dein getreuer<lb/>
-               <signed>Arthur</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date>26.&#160;6.&#160;2<unclear>2</unclear></date></dateline></opener><p><salute>lieber Hermann, </salute>darf ich dir Mr <rs ref="#pmb2276" type="person">Scofield Thayer</rs> vorstellen, Herausgeber der <rs ref="#pmb29371" type="organisation">Dial</rs>, einer der
+          charmantesten und anregendsten jungen <rs ref="#pmb175" type="place"><country>Amerikaner</country></rs>, die mir begegnet sind! Ich
+          sage nicht mehr, denn ich hoffe, du wirst dir die Zeit nehmen Mr <rs ref="#pmb2276" type="person">Thayer</rs><space unit="chars" quantity="1"/><pb facs="HS_AM60133Ba_R"/>einmal zu empfangen und ebenso persönlich kennen lernen.</p><p>Er bringt dir meine herzlichsten Grüße.</p><closer>Auf Wiedersehen!<lb/>Dein getreuer<lb/><signed>Arthur</signed></closer></div></body>
   </text>
 </TEI>

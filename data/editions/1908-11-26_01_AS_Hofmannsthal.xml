@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1908-11-26_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1908-11-26_01_AS_Hofmannsthal">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 26. 11. 1908</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 26.&#160;11.&#160;1908</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -51,7 +54,7 @@
                                 <idno>Hs-30885,133</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S.</p>
+                                <p>eh. Brief, 1&#160;Bl., 3&#160;S.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -59,8 +62,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -73,8 +76,8 @@
                     </biblStruct>
                     <biblStruct corresp="HBAS">
                         <monogr>
-                            <author key="pmb10815">Bahr, Hermann</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10815">Bahr, Hermann</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel, Aufzeichnungen, Dokumente
                                 (1891–1931)</title>
                             <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
@@ -93,17 +96,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">[Wien]</placeName>
-                    <date when="1908-11-26" n="01">26. 11. 1908</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">[Wien]</placeName>
+                    <date when="1908-11-26" n="01">26.&#160;11.&#160;1908</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1908-11-23_01">Hofmannsthal an Schnitzler, 23. 11. 1908</ptr>
-               <ptr type="next" subtype="toAuthor" target="1909-03-19_01">Hofmannsthal an Schnitzler, 19. 3. 1909</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1908-11-23_01">Hofmannsthal an Schnitzler, 23.&#160;11.&#160;1908</ptr>
+               <ptr type="next" subtype="toAuthor" target="1909-03-19_01">Hofmannsthal an Schnitzler, 19.&#160;3.&#160;1909</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -114,47 +117,19 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p>
-                        <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
-                        <lb/>
-                        <hi rend="pre-print">
-                            <placeName key="pmb133">Wien XVIII. Spoettelgasse 7</placeName>.</hi>
-                    </p>
-                    <dateline rend="right">
-                        <date>2<subst>
-                                <del rend="overwritten">5</del>
-                                <add place="inline">6</add>
-                            </subst>. 11. 08</date>
-                    </dateline>
-                </opener>
-                <p>
-                    <salute>mein lieber Hugo, </salute> gestern waren wir in <anchor type="commentary" xml:id="KL451-1"/>
-                    <workName key="pmb31985">2 × 2 = 5</workName>
-                    <note type="commentary" xml:id="KL451-1h">Von <persName key="pmb13107">Gustav
-                            Wied</persName>.</note> (<hi rend="underline" n="1">unbedingt</hi>
-                    anzusehen, schon, u. besonders wegen <persName key="pmb11224">Ethofer</persName>) vorgestern beim <workName key="pmb31987">Krampus</workName>, heut gehn wir ins Tonkünstlerconcert, Samstag zum <persName key="pmb11165">Dohnanyi</persName>, Sonntag zum <hi rend="latintype">
-                        <persName key="pmb11640">Heine</persName> Abend</hi> – es gibt so verhexte
+        <body><div type="writingSession" n="1"><opener><p><hi rend="pre-print">Dr. Arthur Schnitzler</hi><lb/><hi rend="pre-print"><rs ref="#pmb133" type="place">Wien XVIII. Spoettelgasse 7</rs>.</hi></p><dateline rend="right"><date>2<subst><del rend="overwritten">5</del><add place="inline">6</add></subst>.&#160;11.&#160;08</date></dateline></opener><p><salute>mein lieber Hugo, </salute> gestern waren wir in <anchor type="commentary" xml:id="KL451-1"/><rs ref="#pmb31985" type="work">2&#160;×&#160;2&#160;=&#160;5</rs><note type="commentary" xml:id="KL451-1h">Von <rs ref="#pmb13107" type="person">Gustav
+                            Wied</rs>.</note> (<hi rend="underline" n="1">unbedingt</hi>
+                    anzusehen, schon, u. besonders wegen <rs ref="#pmb11224" type="person">Ethofer</rs>) vorgestern beim <rs ref="#pmb31987" type="work">Krampus</rs>, heut gehn wir ins Tonkünstlerconcert, Samstag zum <rs ref="#pmb11165" type="person">Dohnanyi</rs>, Sonntag zum <hi rend="latintype"><rs ref="#pmb11640" type="person">Heine</rs> Abend</hi> – es gibt so verhexte
                     Wochen; hingegen wollen wir am Montag oder Dienstag für 2 Tage auf den
-                        <placeName key="pmb189">Semmering</placeName>, es wäre sehr schön, wenn Sie
-                    u <persName key="pmb2292">Gerty</persName> auch hinauf kämen; schrei<pb/>ben Sie
-                    mir ein Wort. (Nicht unmöglich, dss auch <persName key="pmb13055">Wassermann</persName> u <persName key="pmb12176">Thomas Mann</persName>
-                    (mit dem wir gestern Mittag bei <persName key="pmb13055">W.</persName> zusammen
-                    waren) hinaufkommen.)</p>
-                <p>– Es freut mich, dss Sie meine Ansicht von den <persName key="pmb13136">Winterstein</persName>’schen <rs type="work" key="pmb41642">Gedichten</rs>
-                    theilen. <anchor type="commentary" xml:id="KL20191001-8"/>Einmal<note type="commentary" xml:id="KL20191001-8h">Am <date>13. 12. 1906</date>.</note> hab ich schon an <persName key="pmb2914">Bie</persName>
-                    geschrieben u ihm <rs type="work" key="pmb41642">Gedichte</rs> von <persName key="pmb13136">W.</persName> geschickt, es waren aber viel schwächere als
-                    diesmal; wenn Sie glauben, so könnte man doch die <orgName key="pmb29212">
-                        <hi rend="latintype">N. Rdsch</hi>
-                    </orgName> noch einmal<pb/> versuchen; ein paar Zeilen von Ihnen denk ich wären
-                    von allergrößtem Werth. Übrigens schreib ich auch an den Baron <persName key="pmb13136">W.</persName>, vielleicht hat er eine andre Bitte an Sie. –
-                    Also auf sehr baldiges Wiedersehen; u herzliche Grüße.</p>
-                <closer>Ihr<lb/>
-                    <signed>Arthur</signed>
-                </closer>
-            </div>
-        </body>
+                        <rs ref="#pmb189" type="place">Semmering</rs>, es wäre sehr schön, wenn Sie
+                    u <rs ref="#pmb2292" type="person">Gerty</rs> auch hinauf kämen; schrei<pb/>ben Sie
+                    mir ein Wort. (Nicht unmöglich, dss auch <rs ref="#pmb13055" type="person">Wassermann</rs> u <rs ref="#pmb12176" type="person">Thomas Mann</rs>
+                    (mit dem wir gestern Mittag bei <rs ref="#pmb13055" type="person">W.</rs> zusammen
+                    waren) hinaufkommen.)</p><p>– Es freut mich, dss Sie meine Ansicht von den <rs ref="#pmb13136" type="person">Winterstein</rs>’schen <rs type="work" ref="#pmb41642" subtype="implied">Gedichten</rs>
+                    theilen. <anchor type="commentary" xml:id="KL20191001-8"/>Einmal<note type="commentary" xml:id="KL20191001-8h">Am <date>13.&#160;12.&#160;1906</date>.</note> hab ich schon an <rs ref="#pmb2914" type="person">Bie</rs>
+                    geschrieben u ihm <rs type="work" ref="#pmb41642" subtype="implied">Gedichte</rs> von <rs ref="#pmb13136" type="person">W.</rs> geschickt, es waren aber viel schwächere als
+                    diesmal; wenn Sie glauben, so könnte man doch die <rs ref="#pmb29212" type="organisation"><hi rend="latintype">N. Rdsch</hi></rs> noch einmal<pb/> versuchen; ein paar Zeilen von Ihnen denk ich wären
+                    von allergrößtem Werth. Übrigens schreib ich auch an den Baron <rs ref="#pmb13136" type="person">W.</rs>, vielleicht hat er eine andre Bitte an Sie. –
+                    Also auf sehr baldiges Wiedersehen; u herzliche Grüße.</p><closer>Ihr<lb/><signed>Arthur</signed></closer></div></body>
     </text>
 </TEI>

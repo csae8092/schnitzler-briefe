@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-07-12_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-07-12_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 12. 7. 1893</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 12.&#160;7.&#160;1893</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,9 +55,9 @@
                                 <idno>Hs-30885,36</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief mit Trauerrand, 1 Bl., 4 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief mit Trauerrand, 1&#160;Bl., 4&#160;S., schwarze Tinte. Von Schnitzler mit
                                     Bleistift datiert: »<quote>
-                                        <date>12. 7. 93</date>
+                                        <date>12.&#160;7.&#160;93</date>
                                     </quote>«.</p>
                             </physDesc>
                         </msDesc>
@@ -62,8 +66,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -82,18 +86,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb213">Bad Ischl</placeName>
-                    <date when="1893-07-12" n="01">12. 7. 1893</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb213">Bad Ischl</placeName>
+                    <date when="1893-07-12" n="01">12.&#160;7.&#160;1893</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-07-08_02">Hofmannsthal an Schnitzler, Beer-Hofmann, 8. 7. 1893</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-07-19_01">Hofmannsthal an Schnitzler, 19. 7. 1893</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-07-08_02">Hofmannsthal an Schnitzler, Beer-Hofmann, 8.&#160;7.&#160;1893</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-07-19_01">Hofmannsthal an Schnitzler, 19.&#160;7.&#160;1893</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -109,61 +113,17 @@
         <graphic url="Hs-30885,36_002.TIF"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="Hs-30885,36_001"/>Lieber Loris,</salute>
-                </opener>
-                <p>meine <anchor type="commentary" xml:id="KL2178-1"/>
-                    <rs type="work" key="pmb30005 pmb30749">Einakter</rs>
-                    <note type="commentary" xml:id="KL2178-1h">Nur <workName key="pmb30005">Abschiedssouper</workName> wurde gegeben.</note> ſind
-                        <date>Freitag</date>. Erſte Probe geſtern – <rs type="work" key="pmb30005">Anatol</rs> (Herr <persName key="pmb11788">
-                        <hi rend="latintype">Hoefer</hi>
-                    </persName>) erſchien einfach nicht. – Ich nahm mit <persName key="pmb2601">
-                        <hi rend="latintype">Jarno</hi>
-                    </persName> die <rs type="work" key="pmb30005 pmb30749">Stücke</rs> durch;
-                    Inſcenierung, Stellung etc. – Die <persName key="pmb4073">
-                        <hi rend="latintype">Griebl</hi>
-                    </persName> gibt die <rs type="work" key="pmb30005">
-                        <hi rend="latintype">Annie</hi>
-                    </rs>. – </p>
-                <p>Urtheil <persName key="pmb11388">
-                        <hi rend="latintype">Friese</hi>
-                    </persName>’s: Es iſt <pb facs="Hs-30885,36_002.TIF"/>ein Skandal, ſo was
-                    aufzuführen. – Frau <persName key="pmb29193">
-                        <hi rend="latintype">Friese</hi>
-                    </persName> (dieſe alte Stabscanaille, wie <persName key="pmb2601">
-                        <hi rend="latintype">Jarno</hi>
-                    </persName> ſagt) hat ſich <hi n="1" rend="underline">geſchämt</hi>, wie ſie das
-                        <workName key="pmb30005">Abſch.-<hi rend="latintype">souper</hi>
-                    </workName> geleſen. –</p>
-                <p>Die Cenſur ſtrich: <hi rend="underline" n="1">am Buſen geruht</hi> u ſetzte dafür
-                        <hi n="1" rend="underline">gekoſt</hi>. –</p>
-                <p>– Ob mir die Geſchichte für <placeName key="pmb168">Berlin</placeName> nützen
-                    wird, iſt nicht abzuſehen – da <persName key="pmb2601">
-                        <hi rend="latintype">Jarno</hi>
-                    </persName> höchſt un<pb facs="Hs-30885,36_002.TIF"/>verläßlich zu ſein ſcheint.
-                    Ihm hat die <workName key="pmb30837">Frage a. d. Sch.</workName> ſchon 150 Mark
-                    getragen – ſo viel bekam jeder der Mitwirkenden bei <anchor type="commentary" xml:id="KL2178-2"/>
-                    <persName key="pmb5895">
-                        <hi rend="latintype">Grelling</hi>
-                    </persName>
-                    <note type="commentary" xml:id="KL2178-2h">Privataufführung bei <persName key="pmb5895">Richard Grelling</persName> kurz vor dem
-                            <date>14. 1. 1891</date>.</note>. –</p>
-                <p>Gearbeitet hab ich beinah nichts; alles ungewiſſe, ſo nichtig es ſein mag,
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="Hs-30885,36_001"/>Lieber Loris,</salute></opener><p>meine <anchor type="commentary" xml:id="KL2178-1"/><rs type="work" ref="#pmb30005 pmb30749" subtype="implied">Einakter</rs><note type="commentary" xml:id="KL2178-1h">Nur <rs ref="#pmb30005" type="work">Abschiedssouper</rs> wurde gegeben.</note> ſind
+                        <date>Freitag</date>. Erſte Probe geſtern – <rs type="work" ref="#pmb30005" subtype="implied">Anatol</rs> (Herr <rs ref="#pmb11788" type="person"><hi rend="latintype">Hoefer</hi></rs>) erſchien einfach nicht.&#160;– Ich nahm mit <rs ref="#pmb2601" type="person"><hi rend="latintype">Jarno</hi></rs> die <rs type="work" ref="#pmb30005 pmb30749" subtype="implied">Stücke</rs> durch;
+                    Inſcenierung, Stellung etc.&#160;– Die <rs ref="#pmb4073" type="person"><hi rend="latintype">Griebl</hi></rs> gibt die <rs type="work" ref="#pmb30005" subtype="implied"><hi rend="latintype">Annie</hi></rs>.&#160;– </p><p>Urtheil <rs ref="#pmb11388" type="person"><hi rend="latintype">Friese</hi></rs>’s: Es iſt <pb facs="Hs-30885,36_002.TIF"/>ein Skandal, ſo was
+                    aufzuführen.&#160;– Frau <rs ref="#pmb29193" type="person"><hi rend="latintype">Friese</hi></rs> (dieſe alte Stabscanaille, wie <rs ref="#pmb2601" type="person"><hi rend="latintype">Jarno</hi></rs> ſagt) hat ſich <hi n="1" rend="underline">geſchämt</hi>, wie ſie das
+                        <rs ref="#pmb30005" type="work">Abſch.-<hi rend="latintype">souper</hi></rs> geleſen.&#160;–</p><p>Die Cenſur ſtrich: <hi rend="underline" n="1">am Buſen geruht</hi> u ſetzte dafür
+                        <hi n="1" rend="underline">gekoſt</hi>.&#160;–</p><p>– Ob mir die Geſchichte für <rs ref="#pmb168" type="place">Berlin</rs> nützen
+                    wird, iſt nicht abzuſehen – da <rs ref="#pmb2601" type="person"><hi rend="latintype">Jarno</hi></rs> höchſt un<pb facs="Hs-30885,36_002.TIF"/>verläßlich zu ſein ſcheint.
+                    Ihm hat die <rs ref="#pmb30837" type="work">Frage a.&#160;d. Sch.</rs> ſchon 150 Mark
+                    getragen – ſo viel bekam jeder der Mitwirkenden bei <anchor type="commentary" xml:id="KL2178-2"/><rs ref="#pmb5895" type="person"><hi rend="latintype">Grelling</hi></rs><note type="commentary" xml:id="KL2178-2h">Privataufführung bei <rs ref="#pmb5895" type="person">Richard Grelling</rs> kurz vor dem
+                            <date>14.&#160;1.&#160;1891</date>.</note>.&#160;–</p><p>Gearbeitet hab ich beinah nichts; alles ungewiſſe, ſo nichtig es ſein mag,
                     beſchäftigt nach außen hin u macht daher nervös, – Hoffentlich haben <pb facs="Hs-30885,36_001.TIF"/>Sie Ihre glückliche Verſeſti<c rendition="#gemination-m"/>ung wiedergefunden. – Schade, daſs Sie Freitag
-                    nicht da ſind.</p>
-                <closer>Herzlichen Gruß<lb/>Ihr<signed>Arth.</signed>
-                </closer>
-                <postscript>
-                    <p>
-                        <placeName key="pmb213">
-                            <hi rend="latintype">Ischl</hi>
-                        </placeName>, <date>12. 7. 93.</date>
-                    </p>
-                </postscript>
-            </div>
-        </body>
+                    nicht da ſind.</p><closer>Herzlichen Gruß<lb/>Ihr<signed>Arth.</signed></closer><postscript><p><rs ref="#pmb213" type="place"><hi rend="latintype">Ischl</hi></rs>, <date>12.&#160;7.&#160;93.</date></p></postscript></div></body>
     </text>
 </TEI>

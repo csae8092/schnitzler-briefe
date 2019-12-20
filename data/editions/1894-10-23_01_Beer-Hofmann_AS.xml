@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-10-23_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1894-10-23_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 23. 10. 1894</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 23.&#160;10.&#160;1894</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,12 +51,12 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 4 S., Bleistift; Lateinschrift. Von Schnitzler mit
+                        <p>eh. Brief, 1&#160;Bl., 4&#160;S., Bleistift; Lateinschrift. Von Schnitzler mit
                            Bleistift datiert: »<quote>
-                              <date>23/10 94</date>
+                              <date>23/10&#160;94</date>
                            </quote>« und nummeriert »<quote>51</quote>«. </p>
                      </physDesc>
                   </msDesc>
@@ -62,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -83,18 +86,18 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb595">Neapel</placeName>
-               <date when="1894-10-23" n="01">23. 10. 1894</date>
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb595">Neapel</placeName>
+               <date when="1894-10-23" n="01">23.&#160;10.&#160;1894</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1894-10-26">26. 10. 1894</date>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1894-10-26">26.&#160;10.&#160;1894</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-10-20_02">Beer-Hofmann an Schnitzler, 20. 10. 1894</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-10-26_01">Schnitzler an Beer-Hofmann, 26. 10. 1894</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-10-20_02">Beer-Hofmann an Schnitzler, 20.&#160;10.&#160;1894</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-10-26_01">Schnitzler an Beer-Hofmann, 26.&#160;10.&#160;1894</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -112,69 +115,28 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00114"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p>
-               <salute>
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00113"/>Lieber Arthur! </salute>Soeben
-               erhalte ich Ihren »<persName key="pmb12899">Sudermann</persName>«brief, er hat sich
-               mit meinem gestrigen gekreuzt, wo ich von »<workName key="pmb30397">Schmetterlingsschlacht</workName>« sprach. Also ich habe richtig empfunden. Schön
-               wär es wenn »<workName key="pmb29917">Liebelei</workName>« am <placeName key="pmb14">Burgtheater</placeName> drankäme – sehr <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00114"/>schön, der Erfolg der Aufführung
+      <body><div type="writingSession" n="1"><p><salute><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00113"/>Lieber Arthur! </salute>Soeben
+               erhalte ich Ihren »<rs ref="#pmb12899" type="person">Sudermann</rs>«brief, er hat sich
+               mit meinem gestrigen gekreuzt, wo ich von »<rs ref="#pmb30397" type="work"
+                  >Schmetterlingsschlacht</rs>« sprach. Also ich habe richtig empfunden. Schön
+               wär es wenn »<rs ref="#pmb29917" type="work">Liebelei</rs>« am <rs ref="#pmb14" type="place"
+                  >Burgtheater</rs> drankäme – sehr <pb
+                  facs="MS-SCHNITZLER-B-0008-B-00001-000-00114"/>schön, der Erfolg der Aufführung
                wäre beinahe nebensächlich <del rend="strikethrough">neb</del> gegenüber dem Erfolg
-               der Annahme. Freilich, <persName key="pmb24702">Schönthan</persName> und <persName key="pmb2570">Rudolf Lothar</persName> und das <workName key="pmb41206">Buch
-                  Hiob</workName>, spielt man auch am <placeName key="pmb14">Burgtea<pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00114"/>ter</placeName>. Nur <hi rend="underline" n="1">wir</hi> würden eigentlich erstaunt sein daß »<workName key="pmb29917">Liebelei</workName>« angeno<c rendition="#gemination-m"/>en wird,
+               der Annahme. Freilich, <rs ref="#pmb24702" type="person">Schönthan</rs> und <rs
+                  ref="#pmb2570" type="person">Rudolf Lothar</rs> und das <rs ref="#pmb41206" type="work">Buch
+                  Hiob</rs>, spielt man auch am <rs ref="#pmb14" type="place">Burgtea<pb
+                     facs="MS-SCHNITZLER-B-0008-B-00001-000-00114"/>ter</rs>. Nur <hi
+                  rend="underline" n="1">wir</hi> würden eigentlich erstaunt sein daß »<rs
+                  ref="#pmb29917" type="work">Liebelei</rs>« angeno<c rendition="#gemination-m"/>en wird,
                und finden die Annahme all’ des Andern begreiflich. Nein arrogant sind wir nicht. In
-                  <placeName key="pmb1283">Pompei<del rend="strikethrough">j</del>
-                    </placeName> war ich heute; ich bin ganz krank <del rend="strikethrough">nach</del> vor Sehnsucht nach <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00113"/>wirklichen <placeName key="pmb445">römischen</placeName> Bädern. Im Culturraffinement sind wir noch alle Barbaren.
-               Ja – Theater wollten Sie wissen?</p>
-            <table>
-               <row>
-                  <cell>
-                            <workName key="pmb41215">La martire</workName> (<persName key="pmb41213">Samarra</persName>)</cell>
-                  <cell>
-                            <placeName key="pmb886">Mailand</placeName>
-                        </cell>
-               </row>
-               <row>
-                  <cell>
-                            <workName key="pmb41217">Medici</workName>
-                        </cell>
-               </row>
-            </table>
-            <table>
-               <row>
-                  <cell>Premiere von</cell>
-                        <cell>
-                            <workName key="pmb30445">Ennemico del popolo</workName>
-                  </cell>
-                  <cell>
-                     <placeName key="pmb445">Rom</placeName>
-                        </cell>
-               </row>
-               <row>
-                  <cell>
-                            <space unit="chars" quantity="5"/>“<space unit="chars" quantity="3"/>“<space unit="chars" quantity="2"/>
-                        </cell>
-                        <cell>
-                            <workName key="pmb41222">Puppenfee</workName>
-                            <space unit="chars" quantity="1"/>
-                        <anchor type="commentary" xml:id="KLMAM20190924-1"/>
-                        <workName key="pmb41222">la fata del bambol</workName>
-                        <note type="commentary" xml:id="KLMAM20190924-1h">ital. richtig: <workName key="pmb41222">La fata delle bambole</workName>.</note>
-                        </cell>
-               </row>
-            </table>
-            <p>Varietés, Operetten etc. überall.</p>
-            <closer>Herzlichst Ihr <signed>Richard.</signed>
-            </closer>
-            <postscript>
-               <p>der sich auf Sie freut</p>
-               <dateline rend="right">
-                  <placeName key="pmb595">Neapel</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date when="1894-10-23">23/X 94</date>.</dateline>
-            </postscript>
-         </div>
-      </body>
+                  <rs ref="#pmb1283" type="place">Pompei<del rend="strikethrough">j</del></rs> war ich heute; ich bin ganz krank <del
+                  rend="strikethrough">nach</del> vor Sehnsucht nach <pb
+                  facs="MS-SCHNITZLER-B-0008-B-00001-000-00113"/>wirklichen <rs ref="#pmb445" type="place"
+                  >römischen</rs> Bädern. Im Culturraffinement sind wir noch alle Barbaren.
+               Ja – Theater wollten Sie wissen?</p><table><row><cell><rs ref="#pmb41215" type="work">La martire</rs> (<rs ref="#pmb41213" type="person"
+                     >Samarra</rs>)</cell><cell><rs ref="#pmb886" type="place">Mailand</rs></cell></row><row><cell><rs ref="#pmb41217" type="work">Medici</rs></cell></row></table><table><row><cell>Premiere von</cell><cell><rs ref="#pmb30445" type="work">Ennemico del popolo</rs></cell><cell><rs ref="#pmb445" type="place">Rom</rs></cell></row><row><cell><space unit="chars" quantity="5"/>“<space unit="chars" quantity="3"/>“<space
+                     unit="chars" quantity="2"/></cell><cell><rs ref="#pmb41222" type="work">Puppenfee</rs><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KLMAM20190924-1"/><rs ref="#pmb41222" type="work">la fata del bambol</rs><note type="commentary" xml:id="KLMAM20190924-1h">ital. richtig: <rs
+                           ref="#pmb41222" type="work">La fata delle bambole</rs>.</note></cell></row></table><p>Varietés, Operetten etc. überall.</p><closer>Herzlichst Ihr <signed>Richard.</signed></closer><postscript><p>der sich auf Sie freut</p><dateline rend="right"><rs ref="#pmb595" type="place">Neapel</rs><space unit="chars" quantity="1"/><date when="1894-10-23">23/X 94</date>.</dateline></postscript></div></body>
    </text>
 </TEI>

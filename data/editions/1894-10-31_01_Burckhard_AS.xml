@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-10-31_01_Burckhard_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-10-31_01_Burckhard_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Max Burckhard an Arthur Schnitzler, [31. 10. 1894]</title>
-                <author key="pmb11036">Burckhard, Max</author>
+                <title level="a">Max Burckhard an Arthur Schnitzler, [31.&#160;10.&#160;1894]</title>
+                <author ref="#pmb11036">Burckhard, Max</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 20</idno>
+                                <idno>Schnitzler, B&#160;20</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>ms. Telegramm, auf das Textfeld zusammengeschnitten. Von
@@ -67,18 +71,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11036">Burckhard, Max</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1894-10-31" n="01">[31. 10. 1894]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11036">Burckhard, Max</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1894-10-31" n="01">[31.&#160;10.&#160;1894]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-07-02_02">Burckhard an Schnitzler, 2. 7. 1894</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-11-04_01">Burckhard an Schnitzler, [4. 11. 1894]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-07-02_02">Burckhard an Schnitzler, 2.&#160;7.&#160;1894</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-11-04_01">Burckhard an Schnitzler, [4.&#160;11.&#160;1894]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -92,16 +96,9 @@
         <graphic url="MS-SCHNITZLER-B-00020-000-00009.jpg"/>
     </facsimile>
     <text type="telegram">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-                    <pb facs="MS-SCHNITZLER-B-00020-000-00009.jpg"/>gratuliere herzlichst. <rs key="pmb29917" type="work">stueck</rs> hat tiefen eindruck auf mich gemacht.
+        <body><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00020-000-00009.jpg"/>gratuliere herzlichst. <rs ref="#pmb29917" type="work" subtype="implied">stueck</rs> hat tiefen eindruck auf mich gemacht.
                     lebenswahr und poetische wirkung freilich in anderem sinne als dem gewoehnlichen
                     zugleich. werde wegen factischem vorgehen puncto censur muendlich naeheres
-                    besprechen. herzliche empfehlung <signed>doctor <anchor type="textConst" xml:id="TL902-1"/>burckhard<note type="textConst" xml:id="TL902-1h">Satzfehler: »<quote>burchhard</quote>«.</note>
-                    </signed>
-                </p>
-            </div>
-        </body>
+                    besprechen. herzliche empfehlung <signed>doctor <anchor type="textConst" xml:id="TL902-1"/>burckhard<note type="textConst" xml:id="TL902-1h">Satzfehler: »<quote>burchhard</quote>«.</note></signed></p></div></body>
     </text>
 </TEI>

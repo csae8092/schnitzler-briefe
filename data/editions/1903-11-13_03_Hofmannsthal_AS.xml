@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1903-11-13_03_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1903-11-13_03_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 13. 11. 1903</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 13.&#160;11.&#160;1903</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb173">Rodaun</placeName>
-               <date when="1903-11-13" n="03">13. 11. 1903</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb173">Rodaun</placeName>
+               <date when="1903-11-13" n="03">13.&#160;11.&#160;1903</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1903-11-06_01">Hofmannsthal an Schnitzler, 6. 11. 1903</ptr>
-               <ptr type="next" subtype="toAuthor" target="1903-12-01_01">Hofmannsthal an Schnitzler, 1. 12. 1903</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1903-11-06_01">Hofmannsthal an Schnitzler, 6.&#160;11.&#160;1903</ptr>
+               <ptr type="next" subtype="toAuthor" target="1903-12-01_01">Hofmannsthal an Schnitzler, 1.&#160;12.&#160;1903</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,15 +105,7 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb173">Rodaun</placeName>, <date>13. 11. 1903</date>
-               </dateline>
-               <salute>Mein lieber Arthur, </salute>
-            </opener>
-            <p>der »<workName key="pmb29985">einsame Weg</workName>« ist ein schönes großes
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb173" type="place">Rodaun</rs>, <date>13.&#160;11.&#160;1903</date></dateline><salute>Mein lieber Arthur, </salute></opener><p>der »<rs ref="#pmb29985" type="work">einsame Weg</rs>« ist ein schönes großes
                Theaterstück, dessen mit nichts zu vergleichende geistig-gespenstische und doch
                wieder reale Gestalten einen mit unglaublicher Kraft halten und halten, und nach
                einer ziemlich unruhigen Nacht, die sie verschuldet haben, am Morgen noch lebendiger,
@@ -117,29 +113,22 @@
                verdünnten Luft ganze Existenzen miteinander ringen, miteinander abrechnen,
                Vergangenheit und Gegenwart ineinander wechselweise aufheben und sich ineinander
                verwinden, die geheimnisvollsten Verschuldungen ihre intimste feinste Bestrafung
-               finden, – diesen Ton werde ich nie ganz vergessen und nie die Stunde, wo ich ihn zum
+               finden,&#160;– diesen Ton werde ich nie ganz vergessen und nie die Stunde, wo ich ihn zum
                ersten Mal gehört habe. Er war mir vielleicht um desto ergreifender, dieser Ton, weil
                er noch nicht ganz erobert, nicht ganz gesichert war und weil so, für den erregten
                Zuhörer, zu den überreichen Vorgängen des Dramas noch ein andres, Mitschwingendes
                dazukam: zu fühlen, wie Sie, in den bewegten Schatten dieses Dramas, für Monate Ihr
                ganzes Dasein, Ihr menschliches-künstlerisches, einziges Dasein, in einer Weise
-               besessen haben, wie nie zuvor – besessen bis zum Erschaudern. – Ich bin sehr
+               besessen haben, wie nie zuvor – besessen bis zum Erschaudern.&#160;– Ich bin sehr
                glücklich, lieber Arthur, daß Sie etwas so Schönes, Tiefes, mit nichts Vergleichbares
-               machen konnten. </p>
-            <closer>Von Herzen<lb/>Ihr<signed>Hugo</signed>
-            </closer>
-            <postscript>
-               <p>P. S. <rs type="work" key="pmb29985">Felix</rs> erste Worte: »Die Begeisterung
+               machen konnten. </p><closer>Von Herzen<lb/>Ihr<signed>Hugo</signed></closer><postscript><p>P.&#160;S. <rs type="work" ref="#pmb29985" subtype="implied">Felix</rs> erste Worte: »Die Begeisterung
                   scheint nicht gerade groß zu sein« (oder so ähnlich), haben einen so saloppen,
-                     <workName key="pmb29935">anatol</workName>-mäßigen jour-Ton, daß sie einem die
+                     <rs ref="#pmb29935" type="work">anatol</rs>-mäßigen jour-Ton, daß sie einem die
                   Figur für 5 Minuten ganz falsch hinstellen. Warum soll dieser Mensch zu seiner
-                  rechten <rs type="work" key="pmb29985">Schwester</rs> nicht einfach sagen: »Nun,
+                  rechten <rs type="work" ref="#pmb29985" subtype="implied">Schwester</rs> nicht einfach sagen: »Nun,
                   deine Freude über meine Ankunft scheint mir nicht gerade groß«<c rendition="#dots" n="3"/> oder so ähnlich. Dieses Wort »Begeisterung«: nämlich ein großes Wort
                   wählen, um es dann durch ironischen Ton sogleich zu drücken, also hausse und
-                  baisse in einem Satz veranstalten, ist direct jüdisch-<placeName key="pmb50">wien</placeName>erischer Jargon und <rs type="work" key="">Felix</rs> würde
-                  das gewiß nicht in den Mund nehmen. </p>
-            </postscript>
-         </div>
-      </body>
+                  baisse in einem Satz veranstalten, ist direct jüdisch-<rs ref="#pmb50" type="place">wien</rs>erischer Jargon und <rs type="work" subtype="implied" ref="">Felix</rs> würde
+                  das gewiß nicht in den Mund nehmen. </p></postscript></div></body>
    </text>
 </TEI>

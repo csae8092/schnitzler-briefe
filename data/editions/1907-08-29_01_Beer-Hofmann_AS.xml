@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1907-08-29_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1907-08-29_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 29. 8. 1907</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 29.&#160;8.&#160;1907</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,17 +83,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb909">Velden</placeName>
-               <date when="1907-08-29" n="01">29. 8. 1907</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb909">Velden</placeName>
+               <date when="1907-08-29" n="01">29.&#160;8.&#160;1907</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1907-08-25_01">Schnitzler an Beer-Hofmann, 25. 8. 1907</ptr>
-               <ptr type="next" subtype="toAuthor" target="1907-09-22_01">Beer-Hofmann an Schnitzler, [nach dem 22. 9. 1907]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1907-08-25_01">Schnitzler an Beer-Hofmann, 25.&#160;8.&#160;1907</ptr>
+               <ptr type="next" subtype="toAuthor" target="1907-09-22_01">Beer-Hofmann an Schnitzler, [nach dem 22.&#160;9.&#160;1907]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -98,31 +102,16 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb909">Velden</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date when="1907-08-29">29/VIII 07</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Arthur! </salute>Wir haben überlegt: Es wäre mit drei <rs type="person" key="pmb2534 pmb2668 pmb13923">Kindern</rs> und der <persName key="pmb39674">Christine</persName> – (6 in einem Wagen) nicht schön 4 Tage
-               im Wagen bis <placeName key="pmb40263">Bozen</placeName> zu fahren. Auch für das
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb909" type="place">Velden</rs><space unit="chars" quantity="1"/><date when="1907-08-29">29/VIII 07</date></dateline></opener><p><salute>Lieber Arthur! </salute>Wir haben überlegt: Es wäre mit drei <rs type="person" ref="#pmb2534 pmb2668 pmb13923" subtype="implied">Kindern</rs> und der <rs ref="#pmb39674" type="person">Christine</rs> – (6 in einem Wagen) nicht schön 4 Tage
+               im Wagen bis <rs ref="#pmb40263" type="place">Bozen</rs> zu fahren. Auch für das
                täglich Aus- und Einpacken – täglich wo anders übernachten – sind bessere Nerven
-               nötig, als <persName key="pmb10860">Paula</persName> augenblicklich hat Sie hat nur
+               nötig, als <rs ref="#pmb10860" type="person">Paula</rs> augenblicklich hat Sie hat nur
                den Wunsch viel zu schlafen, ruhig zu sitzen, und in sehr heisser Sonne zu braten. So
-               drängt Alles nach dem <placeName key="pmb259">Lido</placeName>, den wir in nicht ganz
+               drängt Alles nach dem <rs ref="#pmb259" type="place">Lido</rs>, den wir in nicht ganz
                sieben Stunden von hier erreichen können. Ich reise also Samstag hier ab – bin es –
-               wenn Sie dies lesen hoffentlich schon – übernachte in <placeName key="pmb5075">Villach</placeName> und fahre Sonntag Früh nach <placeName key="pmb462">Venedig</placeName>, – vorläufig <placeName key="pmb310">Bauer-Grünwald</placeName>, bis wir Zimmer auf dem <placeName key="pmb259">Lido</placeName> bekommen. So werde ich Sie erst wieder in <placeName key="pmb50">Wien</placeName> sehen, ausser Sie wählen den Rückweg über <placeName key="pmb462">Venedig</placeName> – was ja auch einiges für sich hätte. Im <date>Herbst</date>
+               wenn Sie dies lesen hoffentlich schon – übernachte in <rs ref="#pmb5075" type="place">Villach</rs> und fahre Sonntag Früh nach <rs ref="#pmb462" type="place">Venedig</rs>,&#160;– vorläufig <rs ref="#pmb310" type="place">Bauer-Grünwald</rs>, bis wir Zimmer auf dem <rs ref="#pmb259" type="place">Lido</rs> bekommen. So werde ich Sie erst wieder in <rs ref="#pmb50" type="place">Wien</rs> sehen, ausser Sie wählen den Rückweg über <rs ref="#pmb462" type="place">Venedig</rs> – was ja auch einiges für sich hätte. Im <date>Herbst</date>
                erhoffe ich mir ein paar schöne Tage mit Spaziergängen mit Ihnen – hier folgt eine
-               Schilderung <placeName key="pmb50">Wien</placeName>s im Herbst – von Ihnen besser
-               besorgt als von mir. Von Herzen</p>
-            <closer>Ihr <signed>Richard</signed>
-            </closer>
-            <p>Grüsse an Frau <persName key="pmb2173">Olga</persName> von <persName key="pmb10860">Paula</persName> und mir</p>
-         </div>
-      </body>
+               Schilderung <rs ref="#pmb50" type="place">Wien</rs>s im Herbst – von Ihnen besser
+               besorgt als von mir. Von Herzen</p><closer>Ihr <signed>Richard</signed></closer><p>Grüsse an Frau <rs ref="#pmb2173" type="person">Olga</rs> von <rs ref="#pmb10860" type="person">Paula</rs> und mir</p></div></body>
    </text>
 </TEI>

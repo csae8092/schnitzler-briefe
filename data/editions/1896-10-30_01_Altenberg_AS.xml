@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-10-30_01_Altenberg_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-10-30_01_Altenberg_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Peter Altenberg an Arthur Schnitzler, [30.? 10. 1896]</title>
-                <author key="pmb2147">Altenberg, Peter</author>
+                <title level="a">Peter Altenberg an Arthur Schnitzler, [30.?&#160;10.&#160;1896]</title>
+                <author ref="#pmb2147">Altenberg, Peter</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +51,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 2</idno>
+                                <idno>Schnitzler, B&#160;2</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief, 1&#160;Bl., 3&#160;S., schwarze Tinte. Von Schnitzler mit
                                     Bleistift auf das falsche Jahr datiert: »<quote>
                                         <date>Nov 97</date>
                                     </quote>«. Von unbekannter Hand mit Bleistift nummeriert:
@@ -63,12 +66,12 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Das Wort. Tragikomödie in fünf Akten. Fragment</title>
                             <editor>Aus dem Nachlaß hg. und eingel. von Kurt Bergel</editor>
                             <imprint>
                                 <pubPlace>Frankfurt am Main</pubPlace>
-                                <publisher>S. Fischer</publisher>
+                                <publisher>S.&#160;Fischer</publisher>
                                 <date when="1966">1966</date>
                             </imprint>
                             <biblScope unit="pp">8–9</biblScope>
@@ -76,7 +79,7 @@
                     </biblStruct>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb2147">Altenberg, Peter</author>
+                            <author ref="#pmb2147">Altenberg, Peter</author>
                             <title level="m">Die Selbsterfindung eines Dichters. Briefe und
                                 Dokumente 1892–1896</title>
                             <editor>Hg. und mit einem Nachwort von Leo A. Lensing</editor>
@@ -96,17 +99,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2147">Altenberg, Peter</persName>
-                    <date when="1896-10-30" n="01">[30.? 10. 1896]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2147">Altenberg, Peter</persName>
+                    <date when="1896-10-30" n="01">[30.?&#160;10.&#160;1896]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb168">Berlin</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-10-29_01">Schnitzler an Altenberg, 29. 10. 1896</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-03-24_01">Altenberg an Schnitzler, [24. 3. 1897]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-10-29_01">Schnitzler an Altenberg, 29.&#160;10.&#160;1896</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-03-24_01">Altenberg an Schnitzler, [24.&#160;3.&#160;1897]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -123,70 +126,36 @@
         <graphic url="MS-SCHNITZLER-B-00002-000-00014"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="MS-SCHNITZLER-B-00002-000-00013"/>Lieber <hi rend="latintype">D<hi rend="superscript">r.</hi>
-                        </hi> Arthur Schnitzler:</salute>
-                </opener>
-                <p>Sie können ſich gar nicht vorſtellen, wie tief mich ihre wunderbare
-                    Aufmerkſamkeit ergriffen hat.</p>
-                <p>Sie haben einem Bankrottirer des Lebens zu ſeinen ſparſamen Augenblicken des
-                    Glückes einen heiligen Augenblick hinzugefügt.</p>
-                <p>Mögen Sie, edler Sieger im Leben, nicht ſich wundern, wenn Einer, der durch
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00002-000-00013"/>Lieber <hi rend="latintype">D<hi rend="superscript">r.</hi></hi> Arthur Schnitzler:</salute></opener><p>Sie können ſich gar nicht vorſtellen, wie tief mich ihre wunderbare
+                    Aufmerkſamkeit ergriffen hat.</p><p>Sie haben einem Bankrottirer des Lebens zu ſeinen ſparſamen Augenblicken des
+                    Glückes einen heiligen Augenblick hinzugefügt.</p><p>Mögen Sie, edler Sieger im Leben, nicht ſich wundern, wenn Einer, der durch
                     körperliche, ſeeliſche und ökonomiſche Leiden beſiegt und zerdrückt <add place="above">iſt</add>, manchesmal mit Verwunderung auf Jene blickt, <pb facs="MS-SCHNITZLER-B-00002-000-00014"/>welchen das Schickſal freundlicher
                     lächelt. Mögen Sie mir es verzeihen, der ich die »<hi n="1" rend="underline">ewige Bewegung</hi>«, das »<hi n="1" rend="underline">innere Stürmen</hi>«
                     für das Schönſte halte, wenn ich mit Verwunderung auf ihren innigeren
-                    Freundeskreis blicke, in welchem uralte Greiſe wie <persName key="pmb2157">Leo
-                        Ebermann</persName> und <persName key="pmb12740">Gustav
-                        Schwarzkopf</persName> Stammſitze haben.</p>
-                <p>Merkwürdig, Sie waren der Erſte, der mir über meine Manuſkripte erlöſende Worte
-                    ſagte. Nun bringen Sie mir ein wundervolles Urtheil<space unit="chars" quantity="1"/>
-                    <pb facs="MS-SCHNITZLER-B-00002-000-00013"/>von <persName key="pmb11617">G. Hauptmann</persName>.</p>
-                <p>Sie haben ſich i<c rendition="#gemination-m"/>er fein und zart gegen mich
-                    benommen.</p>
-                <p>Möge in kommender Zeit ein freundſchaftliche<del rend="strikethrough">s</del>res
+                    Freundeskreis blicke, in welchem uralte Greiſe wie <rs ref="#pmb2157" type="person">Leo
+                        Ebermann</rs> und <rs ref="#pmb12740" type="person">Gustav
+                        Schwarzkopf</rs> Stammſitze haben.</p><p>Merkwürdig, Sie waren der Erſte, der mir über meine Manuſkripte erlöſende Worte
+                    ſagte. Nun bringen Sie mir ein wundervolles Urtheil<space unit="chars" quantity="1"/><pb facs="MS-SCHNITZLER-B-00002-000-00013"/>von <rs ref="#pmb11617" type="person">G. Hauptmann</rs>.</p><p>Sie haben ſich i<c rendition="#gemination-m"/>er fein und zart gegen mich
+                    benommen.</p><p>Möge in kommender Zeit ein freundſchaftliche<del rend="strikethrough">s</del>res
                     Zuſammenleben mir Gelegenheit geben, meine keimenden Neigungen auswachſsen zu
-                    laſſen. Das wünſche ich mir!</p>
-                <p>Schreiben Sie mir aus <placeName key="pmb168">Berlin</placeName>. Sie erleben
+                    laſſen. Das wünſche ich mir!</p><p>Schreiben Sie mir aus <rs ref="#pmb168" type="place">Berlin</rs>. Sie erleben
                     dort gewiſs ſehr viel. Ich ſelbſt lebe in Sehnſucht nach meiner ſchwarzen
-                    Freundin <anchor type="commentary" xml:id="KL870-1"/>
-                    <persName key="pmb29138">
-                        <hi n="1" rend="underline">
-                            <hi rend="latintype">Nahbadûh</hi>
-                        </hi>
-                    </persName>
-                    <note type="commentary" xml:id="KL870-1h">Dabei handelt es sich um eine der
-                        Schaustellerinnen des in <placeName key="pmb50">Wien</placeName> errichteten
-                            <placeName key="pmb290">Afrika</placeName>-Dorfes, das <persName key="pmb2147">Altenberg</persName> frequentierte. Seine Liebe zu
-                        derselben kommt im Buch <workName key="pmb31539">Ashantee</workName>
-                            (<bibl>Berlin: <orgName key="pmb29639">S. Fischer</orgName>
-                            <date>1897</date>
-                        </bibl>) mehrfach zum Ausdruck. Es handelt sich dabei aber nicht um eine
+                    Freundin <anchor type="commentary" xml:id="KL870-1"/><rs ref="#pmb29138" type="person"><hi n="1" rend="underline"><hi rend="latintype">Nahbadûh</hi></hi></rs><note type="commentary" xml:id="KL870-1h">Dabei handelt es sich um eine der
+                        Schaustellerinnen des in <rs ref="#pmb50" type="place">Wien</rs> errichteten
+                            <rs ref="#pmb290" type="place">Afrika</rs>-Dorfes, das <rs ref="#pmb2147" type="person">Altenberg</rs> frequentierte. Seine Liebe zu
+                        derselben kommt im Buch <rs ref="#pmb31539" type="work">Ashantee</rs>
+                            (<bibl>Berlin: <rs ref="#pmb29639" type="organisation">S.&#160;Fischer</rs><date>1897</date></bibl>) mehrfach zum Ausdruck. Es handelt sich dabei aber nicht um eine
                         literarische Figur, sondern um die Literarisierung einer Leidenschaft, wie
-                            <persName key="pmb11701">Georg Hirschfeld</persName> andeutet (<bibl>
-                            <persName key="pmb11701">Georg Hirschfeld</persName>: <workName key="pmb33420">Wiener Erinnerungen</workName>. In: <workName key="pmb36374">Neue Freie Presse</workName>, Nr. 24163,
-                                <date>20. 12. 1931</date>, S. 31</bibl>).</note>, dieſem »<anchor type="commentary" xml:id="KL870-2"/>letzten Wahnſinne meiner Seele<note type="commentary" xml:id="KL870-2h">Sofern es als Zitat gemeint ist, könnte
-                        es auf <persName key="pmb11057">Lord Byron</persName> (<workName key="pmb33424">The Giaour</workName>: »<rs type="work" key="pmb33424">The cherish’d madness of my heart</rs>«, deutsch »<quote>Geliebter
-                            Wahnsinn meiner Seele</quote>«, <bibl>
-                            <workName key="pmb33422">
-                                <persName key="pmb11057">Lord Byron</persName>’s sämmtliche
-                                Werke</workName>. Nach den Anforderungen unserer Zeit neu übersetzt
-                            von Mehreren. Siebenter Band. Stuttgart: <orgName>Hoffmann’sche
-                                Verlags-Buchhandlung</orgName>
-                            <space unit="chars" quantity="1"/>
-                            <date>1839</date>, S. 96</bibl>) oder <persName key="pmb5591">Friedrich
-                            Halm</persName> (»<rs type="work" key="pmb33424">O Wahnsinn meiner
-                            Seele, / Der Wirklichkeit in leerem Traum vermengt!</rs>«, <bibl>
-                            <workName key="pmb33424">Griseldis</workName>. Dramatisches Gedicht von
-                                <persName key="pmb5591">Friedrich Halm</persName>. Wien:
-                                <orgName>Carl Gerold</orgName>
-                            <space unit="chars" quantity="1"/>
-                            <date>1837</date>, S. 109</bibl>) zurückgehen.</note>«!</p>
-                <closer>Ihr <signed>Peter Altenberg</signed>
-                </closer>
-            </div>
-        </body>
+                            <rs ref="#pmb11701" type="person">Georg Hirschfeld</rs> andeutet (<bibl><rs ref="#pmb11701" type="person">Georg Hirschfeld</rs>: <rs ref="#pmb33420" type="work">Wiener Erinnerungen</rs>. In: <rs ref="#pmb36374" type="work">Neue Freie Presse</rs>, Nr.&#160;24163,
+                                <date>20.&#160;12.&#160;1931</date>, S.&#160;31</bibl>).</note>, dieſem »<anchor type="commentary" xml:id="KL870-2"/>letzten Wahnſinne meiner Seele<note type="commentary" xml:id="KL870-2h">Sofern es als Zitat gemeint ist, könnte
+                        es auf <rs ref="#pmb11057" type="person">Lord Byron</rs> (<rs ref="#pmb33424" type="work">The Giaour</rs>: »<rs type="work" ref="#pmb33424" subtype="implied">The cherish’d madness of my heart</rs>«, deutsch »<quote>Geliebter
+                            Wahnsinn meiner Seele</quote>«, <bibl><rs ref="#pmb33422" type="work"><rs ref="#pmb11057" type="person">Lord Byron</rs>’s sämmtliche
+                                Werke</rs>. Nach den Anforderungen unserer Zeit neu übersetzt
+                            von Mehreren. Siebenter Band. Stuttgart: <rs type="organisation">Hoffmann’sche
+                                Verlags-Buchhandlung</rs><space unit="chars" quantity="1"/><date>1839</date>, S.&#160;96</bibl>) oder <rs ref="#pmb5591" type="person">Friedrich
+                            Halm</rs> (»<rs type="work" ref="#pmb33424" subtype="implied">O Wahnsinn meiner
+                            Seele, / Der Wirklichkeit in leerem Traum vermengt!</rs>«, <bibl><rs ref="#pmb33424" type="work">Griseldis</rs>. Dramatisches Gedicht von
+                                <rs ref="#pmb5591" type="person">Friedrich Halm</rs>. Wien:
+                                <rs type="organisation">Carl Gerold</rs><space unit="chars" quantity="1"/><date>1837</date>, S.&#160;109</bibl>) zurückgehen.</note>«!</p><closer>Ihr <signed>Peter Altenberg</signed></closer></div></body>
     </text>
 </TEI>

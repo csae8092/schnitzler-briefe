@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1929-08-28_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1929-08-28_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 28. 8. 1929</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 28.&#160;8.&#160;1929</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,17 +83,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1929-08-28" n="01">28. 8. 1929</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1929-08-28" n="01">28.&#160;8.&#160;1929</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1927-07-17_01">Schnitzler an Beer-Hofmann, 17. 7. 1927</ptr>
-               <ptr type="next" subtype="toAuthor" target="1931-09-14_01">Beer-Hofmann an Schnitzler, 14. 9. 1931</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1927-07-17_01">Schnitzler an Beer-Hofmann, 17.&#160;7.&#160;1927</ptr>
+               <ptr type="next" subtype="toAuthor" target="1931-09-14_01">Beer-Hofmann an Schnitzler, 14.&#160;9.&#160;1931</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -98,52 +102,29 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb50">Wien</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date when="1929-08-28">28. VIII. 29</date>.</dateline>
-            </opener>
-            <p>
-               <salute>Lieber Arthur! </salute>Ich hoffe am <anchor type="commentary" xml:id="KLMAM20190925-2"/>
-               <date>6. VIII.</date>
-               <note type="commentary" xml:id="KLMAM20190925-2h">
-                  <persName key="pmb2167">Salten</persName> hatte am
-                     <date>6. 9. 1929</date> seinen 60. Geburtstag.</note> schon
-               in <placeName key="pmb772">Marienbad</placeName> zu sein. Jedenfalls werde ich
-                  <persName key="pmb2167">F. S.</persName> telegraphieren – <rs type="work" key="pmb41327">geschrieben</rs> habe ich ja für <orgName key="pmb36907">Zsolnays</orgName> ›<workName key="pmb41325">Almanach</workName>‹. Blumen? –
-               Nein! Irgend eine kleine Gabe? – </p>
-            <p>Ich will mich nach Ihnen richten. Eigentlich: Bei einem Andern wäre all das kein
-               Problem. Aber bei <persName key="pmb2167">F. S.</persName>! Er ist mistrauisch,
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date when="1929-08-28">28.&#160;VIII.&#160;29</date>.</dateline></opener><p><salute>Lieber Arthur! </salute>Ich hoffe am <anchor type="commentary" xml:id="KLMAM20190925-2"/><date>6. VIII.</date><note type="commentary" xml:id="KLMAM20190925-2h"><rs ref="#pmb2167" type="person">Salten</rs> hatte am
+                     <date>6.&#160;9.&#160;1929</date> seinen 60.&#160;Geburtstag.</note> schon
+               in <rs ref="#pmb772" type="place">Marienbad</rs> zu sein. Jedenfalls werde ich
+                  <rs ref="#pmb2167" type="person">F. S.</rs> telegraphieren – <rs type="work" ref="#pmb41327" subtype="implied">geschrieben</rs> habe ich ja für <rs ref="#pmb36907" type="organisation">Zsolnays</rs> ›<rs ref="#pmb41325" type="work">Almanach</rs>‹. Blumen? –
+               Nein! Irgend eine kleine Gabe? – </p><p>Ich will mich nach Ihnen richten. Eigentlich: Bei einem Andern wäre all das kein
+               Problem. Aber bei <rs ref="#pmb2167" type="person">F. S.</rs>! Er ist mistrauisch,
                grundsätzlich leicht verletzt, immer witternd, man schätze ihn nicht genug, dabei –
                in seiner Eigenschaft als Kritiker – zu leicht der Ansicht zugeneigt, man tue etwas
                um ihn bei guter Laune zu erhalten – sogar bei uns, glaube ich, vielleicht von
                Argwohn befallen, und sich sagend: »Ich habe weder Blumen noch sonst was geschickt
                als B.-H. 60. wurde – na – wer weiss, was wäre, wenn ich nicht Kritiker wäre —«
                Schwer mit ihm! Also: Telegramm – keine Blumen – irgendeine Aufmerksamkeit später,
-               wenn Sie der Ansicht sind.</p>
-            <p>Was das Hôtel unter Ihrem Fenster anlangt – vor 31 Jahren waren Sie mit
-                  <persName key="pmb11740">Hugo</persName> dort – »in den nächsten 31 Jahren wird es
+               wenn Sie der Ansicht sind.</p><p>Was das Hôtel unter Ihrem Fenster anlangt – vor 31 Jahren waren Sie mit
+                  <rs ref="#pmb11740" type="person">Hugo</rs> dort – »in den nächsten 31 Jahren wird es
                wol auch noch unter diesem Fenster sein« – Wäre ich der Hôtelbesitzer würde ich auf
                diese – Ihre – Äusserung hin, hoch versichern. Bei Schnitzler pflegen solche Hôtels
-               draufhin höhnisch abzubrennen. – Ich bin in den Wehen des <rs type="work" key="pmb41330">IV.</rs> – d. h. jetzt <rs type="work" key="pmb41330">IV.</rs> +
-                  <rs type="work" key="pmb41330">V. Bild</rs>es – ich wittere, dass aus
+               draufhin höhnisch abzubrennen.&#160;– Ich bin in den Wehen des <rs type="work" ref="#pmb41330" subtype="implied">IV.</rs>&#160;– d.&#160;h. jetzt <rs type="work" ref="#pmb41330" subtype="implied">IV.</rs> +
+                  <rs type="work" ref="#pmb41330" subtype="implied">V. Bild</rs>es – ich wittere, dass aus
                geheimnisvollen rhythmischen Gründen die VII Bilder auf V sich zurückbilden
-               werden!</p>
-            <p>Gutes Wetter! Gute Laune – soviel ein besserer Mensch – ohne sich etwas zu vergeben –
-               aufbringen kann, und alles Liebe von <persName key="pmb10860">Paula</persName> und
-               mir! Ihr</p>
-            <closer>
-               <signed>Richard</signed>
-            </closer>
-            <p>Grüsse, und gute Wünsche für Frau <persName key="pmb12435">P.</persName>
-            </p>
-            <p>Format dieses Zettels nicht Geiz – sondern weil <anchor type="commentary" xml:id="KL2725-1"/>Ducki<note type="commentary" xml:id="KL2725-1h">Zahme
+               werden!</p><p>Gutes Wetter! Gute Laune – soviel ein besserer Mensch – ohne sich etwas zu vergeben –
+               aufbringen kann, und alles Liebe von <rs ref="#pmb10860" type="person">Paula</rs> und
+               mir! Ihr</p><closer><signed>Richard</signed></closer><p>Grüsse, und gute Wünsche für Frau <rs ref="#pmb12435" type="person">P.</rs></p><p>Format dieses Zettels nicht Geiz – sondern weil <anchor type="commentary" xml:id="KL2725-1"/>Ducki<note type="commentary" xml:id="KL2725-1h">Zahme
                   Haustaube.</note> den oberen Rand meines letzten Brief-Kartels, während ich
-               schrieb – besiegelte.</p>
-         </div>
-      </body>
+               schrieb – besiegelte.</p></div></body>
    </text>
 </TEI>

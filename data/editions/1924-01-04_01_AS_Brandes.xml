@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1924-01-04_01_AS_Brandes">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1924-01-04_01_AS_Brandes">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Georg Brandes, 4. 1. 1924</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Georg Brandes, 4.&#160;1.&#160;1924</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -55,19 +59,19 @@
                             <p>eh. Karte, ovaler Absenderkleber: »<quote>
                               <p>A. S.</p>
                               <p>
-                                 <placeName key="pmb68">Wien, XVIII.</placeName>
+                                 <rs ref="#pmb68" type="place">Wien, XVIII.</rs>
                               </p>
                               <p>
-                                 <placeName key="pmb150">Sternwartestr.71</placeName>
+                                 <rs ref="#pmb150" type="place">Sternwartestr.71</rs>
                               </p>
                            </quote>«, Lateinschrift. Von unbekannter
                             Hand mit Bleistift nummeriert: »<quote>Schnitzler 47.</quote>«.</p>
                             <stamp n="1">
-                                <placeName key="pmb68">18/<gap quantity="1" reason="illegible" unit="chars"/>
+                                <rs ref="#pmb68" type="place">18/<gap quantity="1" reason="illegible" unit="chars"/>
                               <space unit="chars" quantity="1"/>
                               <supplied>Wien</supplied>
-                           </placeName>
-                                <date when="1924-01-05">5. 1. 2<unclear>4</unclear>
+                           </rs>
+                                <date when="1924-01-05">5.&#160;1.&#160;2<unclear>4</unclear>
                            </date>
                                 <time>16</time>
                             </stamp>
@@ -78,8 +82,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>  
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -98,20 +102,20 @@
             <language ident="de-AT">German</language>
          </langUsage>
         <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1924-01-04" n="01">4. 1. 1924</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1924-01-04" n="01">4.&#160;1.&#160;1924</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10992">Brandes, Georg</persName>
-               <placeName key="pmb36300">Kopenhagen</placeName>
-               <date when="1924-01-05">5. 1. 2<unclear>4</unclear>
+            <correspAction  type="received">
+               <persName ref="#pmb10992">Brandes, Georg</persName>
+               <placeName ref="#pmb36300">Kopenhagen</placeName>
+               <date when="1924-01-05">5.&#160;1.&#160;2<unclear>4</unclear>
                </date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1923-06-11_01">Brandes an Schnitzler, 11. 6. 1923</ptr>
-               <ptr type="next" subtype="toAuthor" target="1924-06-23_01">Schnitzler an Brandes, 23. 6. 1924</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1923-06-11_01">Brandes an Schnitzler, 11.&#160;6.&#160;1923</ptr>
+               <ptr type="next" subtype="toAuthor" target="1924-06-23_01">Schnitzler an Brandes, 23.&#160;6.&#160;1924</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -121,39 +125,13 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>An</addrLine>
-                    <addrLine>Georg Brandes</addrLine>
-                    <addrLine>
-                  <placeName key="pmb36300">Kopenhagen</placeName>
-               </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="Georg_Brandes_arkiv_207.jpg"/>
-                  <placeName key="pmb50">Wien</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date>4. 1. 24</date>.</dateline>
-                    </opener>
-                <p>
-               <salute>Mein verehrter und lieber Freund, </salute>nach dem wunderbaren 
-                    <workName key="pmb33237">Voltaire</workName> ist nun, zu Weihnachten, Ihr <workName key="pmb33384">Michel Angelo</workName> bei mir 
+        <body><div type="address"><address><addrLine>An</addrLine><addrLine>Georg Brandes</addrLine><addrLine><rs ref="#pmb36300" type="place">Kopenhagen</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Georg_Brandes_arkiv_207.jpg"/><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date>4.&#160;1.&#160;24</date>.</dateline></opener><p><salute>Mein verehrter und lieber Freund, </salute>nach dem wunderbaren 
+                    <rs ref="#pmb33237" type="work">Voltaire</rs> ist nun, zu Weihnachten, Ihr <rs ref="#pmb33384" type="work">Michel Angelo</rs> bei mir 
                     eingetroffen und ich kann nur mit stolzer Freude für das neue prächtige Geschenk danken. Ich will 
                     heute nur meine herzlichen Neujahrsgrüße hinzufügen und Sie bitten, mir gelegentlich wieder ein Wort über 
-                    Ihr Befinden zu schreiben. Daß Sie vor nicht langer Zeit in <placeName key="pmb182">Paris</placeName> waren, 
-                    hab ich gelesen und gehört; - ich habe mich in diesem Winter bisher daheim gehalten, u. <pb facs="Georg_Brandes_arkiv_206.jpg"/>führe 
-                    ein ziemlich zurückgezogenes Leben, sehe aber dabei nicht wenig Menschen, viele aus dem Ausland, meistens <placeName key="pmb175">
-                  <country>Amerikaner</country>
-               </placeName>. 
-                    Und nächstens werd ich Ihnen wohl wieder ein neues Stück zusenden können. –</p>
-                <closer>Seien Sie tausendmal gegrüßt in alter Bewunderung und Liebe von Ihrem<lb/>
-               <signed>Arthur Schnitzler</signed>
-            </closer>
-            </div>
-        </body>
+                    Ihr Befinden zu schreiben. Daß Sie vor nicht langer Zeit in <rs ref="#pmb182" type="place">Paris</rs> waren, 
+                    hab ich gelesen und gehört;&#160;- ich habe mich in diesem Winter bisher daheim gehalten, u. <pb facs="Georg_Brandes_arkiv_206.jpg"/>führe 
+                    ein ziemlich zurückgezogenes Leben, sehe aber dabei nicht wenig Menschen, viele aus dem Ausland, meistens <rs ref="#pmb175" type="place"><country>Amerikaner</country></rs>. 
+                    Und nächstens werd ich Ihnen wohl wieder ein neues Stück zusenden können.&#160;–</p><closer>Seien Sie tausendmal gegrüßt in alter Bewunderung und Liebe von Ihrem<lb/><signed>Arthur Schnitzler</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-03-27_01_AS_Brandes">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1898-03-27_01_AS_Brandes">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Georg Brandes, 27. 3. 1898</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Georg Brandes, 27.&#160;3.&#160;1898</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Georg Brandes Arkiv</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 3 Bl., 12 S., schwarze Tinte. Von unbekannter Hand mit
+                                <p>eh. Brief, 3&#160;Bl., 12&#160;S., schwarze Tinte. Von unbekannter Hand mit
                                     Bleistift nummeriert: »<quote>11. Schnitzler</quote>« sowie das
                                     Datum unterhalb der Datierung wiederholt: »<quote>
                                         <date>27–3–98</date>
@@ -66,8 +70,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -80,7 +84,7 @@
                     </biblStruct>
                     <biblStruct corresp="ASB1">
                         <monogr>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefe 1875–1912</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -99,16 +103,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <date when="1898-03-27" n="01">27. 3. 1898</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <date when="1898-03-27" n="01">27.&#160;3.&#160;1898</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb10992">Brandes, Georg</persName>
+                <correspAction  type="received">
+                    <persName ref="#pmb10992">Brandes, Georg</persName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1898-03-16_01">Brandes an Schnitzler, 16. 3. 1898</ptr>
-               <ptr type="next" subtype="toAuthor" target="1898-09-22_01">Schnitzler an Brandes, 22. 9. 1898</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1898-03-16_01">Brandes an Schnitzler, 16.&#160;3.&#160;1898</ptr>
+               <ptr type="next" subtype="toAuthor" target="1898-09-22_01">Schnitzler an Brandes, 22.&#160;9.&#160;1898</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -133,96 +137,57 @@
         <graphic url="Georg_Brandes_arkiv_052"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="Georg_Brandes_arkiv_043.jpg"/>
-                        <placeName key="pmb50">Wien</placeName>, <date>27. 3. 98</date>
-                    </dateline>
-                    <salute>Verehrteſter Herr Brandes,</salute>
-                </opener>
-                <p>es war wirklich nicht nothwendig uns für etwas zu danken, was uns ſelbſt ſo viel
-                    Freude gemacht hat wie die Möglichkeit während Ihres <placeName key="pmb50">Wien</placeName>er Aufenthalts einige Stunden mit Ihnen zu verbringen;
-                    jedenfalls aber freut mich Ihre liebe Nachricht aus <placeName key="pmb451">Sicilien</placeName>, die mir von Ihrem Wohlbefinden ſo ange<pb facs="Georg_Brandes_arkiv_044.jpg"/>nehme Kunde gibt. Über Ihre Aufnahme in
-                        <placeName key="pmb445">Rom</placeName> hatte ich ſchon irgendwo geleſen;
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Georg_Brandes_arkiv_043.jpg"/><rs ref="#pmb50" type="place">Wien</rs>, <date>27.&#160;3.&#160;98</date></dateline><salute>Verehrteſter Herr Brandes,</salute></opener><p>es war wirklich nicht nothwendig uns für etwas zu danken, was uns ſelbſt ſo viel
+                    Freude gemacht hat wie die Möglichkeit während Ihres <rs ref="#pmb50" type="place">Wien</rs>er Aufenthalts einige Stunden mit Ihnen zu verbringen;
+                    jedenfalls aber freut mich Ihre liebe Nachricht aus <rs ref="#pmb451" type="place">Sicilien</rs>, die mir von Ihrem Wohlbefinden ſo ange<pb facs="Georg_Brandes_arkiv_044.jpg"/>nehme Kunde gibt. Über Ihre Aufnahme in
+                        <rs ref="#pmb445" type="place">Rom</rs> hatte ich ſchon irgendwo geleſen;
                     der ungeſtörte Fortgang Ihrer Reiſe ließ mich auch vermuthen, daſs Sie von Hauſe
                     günſtige Mittheilungen erhielten, was mir nun durch Ihren Brief erfreulich
-                    beſtätigt wird. Wir haben auch aus <placeName key="pmb36300">Kopenhagen</placeName> Ihre Bücher geſchickt bekommen; herzlichen Dank
-                    dafür. Den <anchor type="commentary" xml:id="KL749-3"/>Band<note type="commentary" xml:id="KL749-3h">
-                        <date>1897</date> erschien von <workName key="pmb31977">Die Hauptströmungen
-                            der Literatur des neunzehnten Jahrhunderts</workName> im Verlag <orgName key="pmb29693">Barsdorf</orgName> eine »<quote>fünfte, gänzlich neu
+                    beſtätigt wird. Wir haben auch aus <rs ref="#pmb36300" type="place">Kopenhagen</rs> Ihre Bücher geſchickt bekommen; herzlichen Dank
+                    dafür. Den <anchor type="commentary" xml:id="KL749-3"/>Band<note type="commentary" xml:id="KL749-3h"><date>1897</date> erschien von <rs ref="#pmb31977" type="work">Die Hauptströmungen
+                            der Literatur des neunzehnten Jahrhunderts</rs> im Verlag <rs ref="#pmb29693" type="organisation">Barsdorf</rs> eine »<quote>fünfte, gänzlich neu
                             bearbeitete und bedeutend vermehrte Auflage</quote>« in
-                        27 Lieferungen.</note> aus den <workName key="pmb31977">Hauptſtrömungen</workName> hab ich ſchon gekannt, in der früheren <pb facs="Georg_Brandes_arkiv_051.jpg"/>Ausgabe; dagegen habe ich Ihre <rs type="work" key="pmb33289">Rede über das Nationalgefühl</rs> zum erſten Mal
+                        27 Lieferungen.</note> aus den <rs ref="#pmb31977" type="work">Hauptſtrömungen</rs> hab ich ſchon gekannt, in der früheren <pb facs="Georg_Brandes_arkiv_051.jpg"/>Ausgabe; dagegen habe ich Ihre <rs type="work" ref="#pmb33289" subtype="implied">Rede über das Nationalgefühl</rs> zum erſten Mal
                     geleſen. Ich glaube dſs ſie als ein wahres Muſter ihrer Gattung gelten kann, da
-                    ſie ſchwungvoll und ſachlich zugleich iſt.</p>
-                <p>Die <anchor type="commentary" xml:id="KL749-1"/>Aufnahme<note type="commentary" xml:id="KL749-1h">
-                        <workName key="pmb29899">Freiwild</workName> wurde vom
-                            <date>4. 2. 1898</date> bis zum <date>26. 2. 1898</date> am <placeName key="pmb118">Carl-Theater in Wien</placeName> gegeben.</note> des
-                        »<workName key="pmb29899">Freiwild</workName>«, nach der Sie ſich
+                    ſie ſchwungvoll und ſachlich zugleich iſt.</p><p>Die <anchor type="commentary" xml:id="KL749-1"/>Aufnahme<note type="commentary" xml:id="KL749-1h"><rs ref="#pmb29899" type="work">Freiwild</rs> wurde vom
+                            <date>4.&#160;2.&#160;1898</date> bis zum <date>26.&#160;2.&#160;1898</date> am <rs ref="#pmb118" type="place">Carl-Theater in Wien</rs> gegeben.</note> des
+                        »<rs ref="#pmb29899" type="work">Freiwild</rs>«, nach der Sie ſich
                     erkundigen, war hier am erſten Abend eine ſehr gute; die Kritik war im ganzen
                     wenig wohlwollend. Sie wiſſen, daſs ich ſelbſt <pb facs="Georg_Brandes_arkiv_052.jpg"/>eine geringe Meinung von dem
-                    künſtleriſchen Werth dieſes <rs type="work" key="pmb29899">Stücks</rs> habe;
+                    künſtleriſchen Werth dieſes <rs type="work" ref="#pmb29899" subtype="implied">Stücks</rs> habe;
                     aber davon war wenig die Rede. Dagegen <del rend="strikethrough">flo</del> iſt
                     bei der Beſprechung der angeblichen Tendenz ſo viel Bornirtheit und Verlogenheit
                     aufgeflogen – wie Staubwolken, wenn ein galoppirendes Roſs über die Landſtraße
                     jagt. Insbeſondre die antiſemitiſchen Blätter leiſteten unglaubliches in
                     Denunziationen. Es iſt ſchließlich ſo weit geko<c rendition="#gemination-m"/>en,
-                    daſs die Direktion <pb facs="Georg_Brandes_arkiv_045.jpg"/>des <rs type="place" key="pmb118">Theaters</rs> nach ſieben Vorſtellungen »auf einen Wink von
+                    daſs die Direktion <pb facs="Georg_Brandes_arkiv_045.jpg"/>des <rs type="place" ref="#pmb118" subtype="implied">Theaters</rs> nach ſieben Vorſtellungen »auf einen Wink von
                     oben«, (über den man mir ſelbſt nur unter 4 Augen Aufſchluß geben wollte, was
-                    ich nicht annahm) das Stück abſetzte. –</p>
-                <p>Mein neues <rs type="work" key="pmb30219">Schauspiel</rs> ko<c rendition="#gemination-m"/>t im Herbſt in der <placeName key="pmb14">Burg</placeName> dran (we<c rendition="#gemination-n"/> die Hofcensur
-                    nichts dawider hat); jetzt habe ich ein paar einaktige <rs type="work" key="pmb32562">Sachen</rs> geſchrieben und möchte bald wieder an was
-                    größeres gehen. Bei dem neuen <rs type="work" key="pmb30219">Schauſpiel</rs> iſt
+                    ich nicht annahm) das Stück abſetzte.&#160;–</p><p>Mein neues <rs type="work" ref="#pmb30219" subtype="implied">Schauspiel</rs> ko<c rendition="#gemination-m"/>t im Herbſt in der <rs ref="#pmb14" type="place">Burg</rs> dran (we<c rendition="#gemination-n"/> die Hofcensur
+                    nichts dawider hat); jetzt habe ich ein paar einaktige <rs type="work" ref="#pmb32562" subtype="implied">Sachen</rs> geſchrieben und möchte bald wieder an was
+                    größeres gehen. Bei dem neuen <rs type="work" ref="#pmb30219" subtype="implied">Schauſpiel</rs> iſt
                     mir ſtärker als je ein Grundmangel <pb facs="Georg_Brandes_arkiv_046.jpg"/>meines Schaffens zum Bewußtſein gekommen. Ich finde nemlich, daſs mir die
                         <anchor type="commentary" xml:id="KL749-2"/>Nebenfiguren meiſtens nicht übel
-                    gelingen; hingegen iſt meine Hauptperson <del rend="strikethrough">
-                        <unclear>meiſtens</unclear>
-                    </del> i<c rendition="#gemination-m"/>er irgend wer, dem was ſehr trauriges
+                    gelingen; hingegen iſt meine Hauptperson <del rend="strikethrough"><unclear>meiſtens</unclear></del> i<c rendition="#gemination-m"/>er irgend wer, dem was ſehr trauriges
                         paſſirt<note type="commentary" xml:id="KL749-2h">Eine vergleichbare Aussage
-                        auch im <bibl>
-                            <workName key="pmb33243">Tagebuch</workName>
-                        </bibl>, <date>21. 2. 1898</date>.</note> – und nicht viel mehr. Sie holt
-                    ihre Bedeutung aus ihrem Schickſal, nicht aus ihrem Weſen.</p>
-                <p>Die »<workName key="pmb33283">Luſt</workName>« von <persName key="pmb2142">d’Annuncio</persName>, die Sie auf der Reiſe geleſen haben, war mir auch
-                    nicht ſympathiſch. Vor allem ſchien mir einiger <hi rend="latintype">Snobismus</hi>
-                    <pb facs="Georg_Brandes_arkiv_049.jpg"/>drin zu ſtecken; auch Bildungs<hi rend="latintype">snobismus</hi>. Dagegen wäre möglicherweiſe nichts
+                        auch im <bibl><rs ref="#pmb33243" type="work">Tagebuch</rs></bibl>, <date>21.&#160;2.&#160;1898</date>.</note> – und nicht viel mehr. Sie holt
+                    ihre Bedeutung aus ihrem Schickſal, nicht aus ihrem Weſen.</p><p>Die »<rs ref="#pmb33283" type="work">Luſt</rs>« von <rs ref="#pmb2142" type="person">d’Annuncio</rs>, die Sie auf der Reiſe geleſen haben, war mir auch
+                    nicht ſympathiſch. Vor allem ſchien mir einiger <hi rend="latintype">Snobismus</hi><pb facs="Georg_Brandes_arkiv_049.jpg"/>drin zu ſtecken; auch Bildungs<hi rend="latintype">snobismus</hi>. Dagegen wäre möglicherweiſe nichts
                     einzuwenden, we<c rendition="#gemination-n"/> nicht gewiſſe künſtleriſche
                     Schwächen daraus hervorgingen. Ein Dichter hat gewiſs das Recht zu ſagen: Sie
-                    ſah aus wie die <workName key="pmb33281">
-                        <hi rend="latintype">Madonna</hi>
-                    </workName> von <persName key="pmb3527">
-                        <hi rend="latintype">Rafael</hi>
-                    </persName> in <placeName key="pmb866">
-                        <hi rend="latintype">Dresden</hi>
-                    </placeName> oder er erinnerte mich an ein Portrait von <persName key="pmb5428">Rembrandt</persName>; – aber er darf nicht verlangen, daſs ich mir was
+                    ſah aus wie die <rs ref="#pmb33281" type="work"><hi rend="latintype">Madonna</hi></rs> von <rs ref="#pmb3527" type="person"><hi rend="latintype">Rafael</hi></rs> in <rs ref="#pmb866" type="place"><hi rend="latintype">Dresden</hi></rs> oder er erinnerte mich an ein Portrait von <rs ref="#pmb5428" type="person">Rembrandt</rs>; – aber er darf nicht verlangen, daſs ich mir was
                     vorſtellen ſoll, we<c rendition="#gemination-n"/> er ſchildert: Sie hat Hände
                     wie die <pb facs="Georg_Brandes_arkiv_050.jpg"/>Dame auf dem Bild eines unbeka<c rendition="#gemination-n"/>ten Malers das in einer unbekannten Galerie in
-                    einer ganz kleinen <placeName key="pmb40306">
-                        <country>italieniſchen</country>
-                    </placeName> Stadt hängt. Derartiges findet ſich in der »<workName key="pmb33283">Luſt</workName>« nicht gerade ſelten. – Was ich aber ſonſt
-                    von <persName key="pmb2142">d’Annuncio</persName> kenne, hat mich mit
-                    Bewunderung erfüllt. Ich meine den »<workName key="pmb33285">Triumph des
-                        Todes</workName>« und die »<workName key="pmb33287">Unſchuldige</workName>.«
-                    –</p>
-                <p>Wie lange bleiben Sie noch in <placeName key="pmb40306">
-                        <country>Italien</country>
-                    </placeName>? Werden wir bald wieder von <pb facs="Georg_Brandes_arkiv_047.jpg"/>Ihnen hören? Ich brauche die »Wir« nicht näher zu bezeichnen. <persName key="pmb11485">Paul Goldmann</persName> geht auf etwa ein halbes Jahr nach
-                        <placeName key="pmb1108">
-                        <country>China</country>
-                    </placeName> und <placeName key="pmb318">
-                        <country>Japan</country>
-                    </placeName>, im Auftrag ſeines <rs type="organisation" key="pmb29442">Blattes</rs>; er ſchifft ſich am <date>5. April</date> in <placeName key="pmb994">Genua</placeName> ein. Ich will in der Charwoche per Rad vom
-                        <placeName key="pmb608">Bre<c rendition="#gemination-n"/>er</placeName> aus
-                    durchs <geogName>Ampezzothal</geogName> nach <placeName key="pmb462">Venedig</placeName>.</p>
-                <p>Von meiner <rs type="person" key="pmb12701">Mama</rs> und <persName key="pmb10863">Beer-Hofmann</persName> habe ich Ihnen die beſten Grüße zu
+                    einer ganz kleinen <rs ref="#pmb40306" type="place"><country>italieniſchen</country></rs> Stadt hängt. Derartiges findet ſich in der »<rs ref="#pmb33283" type="work">Luſt</rs>« nicht gerade ſelten. – Was ich aber ſonſt
+                    von <rs ref="#pmb2142" type="person">d’Annuncio</rs> kenne, hat mich mit
+                    Bewunderung erfüllt. Ich meine den »<rs ref="#pmb33285" type="work">Triumph des
+                        Todes</rs>« und die »<rs ref="#pmb33287" type="work">Unſchuldige</rs>.«
+                    –</p><p>Wie lange bleiben Sie noch in <rs ref="#pmb40306" type="place"><country>Italien</country></rs>? Werden wir bald wieder von <pb facs="Georg_Brandes_arkiv_047.jpg"/>Ihnen hören? Ich brauche die »Wir« nicht näher zu bezeichnen. <rs ref="#pmb11485" type="person">Paul Goldmann</rs> geht auf etwa ein halbes Jahr nach
+                        <rs ref="#pmb1108" type="place"><country>China</country></rs> und <rs ref="#pmb318" type="place"><country>Japan</country></rs>, im Auftrag ſeines <rs type="organisation" ref="#pmb29442" subtype="implied">Blattes</rs>; er ſchifft ſich am <date>5. April</date> in <rs ref="#pmb994" type="place">Genua</rs> ein. Ich will in der Charwoche per Rad vom
+                        <rs ref="#pmb608" type="place">Bre<c rendition="#gemination-n"/>er</rs> aus
+                    durchs <geogName>Ampezzothal</geogName> nach <rs ref="#pmb462" type="place">Venedig</rs>.</p><p>Von meiner <rs type="person" ref="#pmb12701" subtype="implied">Mama</rs> und <rs ref="#pmb10863" type="person">Beer-Hofmann</rs> habe ich Ihnen die beſten Grüße zu
                     ſagen; <pb facs="Georg_Brandes_arkiv_048.jpg"/>mögen Sie, verehrteſter Herr
                     Brandes, angenehmes denken und angenehmes erleben und uns, wenn Sie ſich auf der
-                    Rückreiſe wieder in <placeName key="pmb50">Wien</placeName> aufhalten (was
-                    dringend gewünſcht wird) mancherlei davon erzählen. </p>
-                <closer>Herzlichſt ergeben<lb/>Ihr <signed>ArthurSchnitzler</signed>
-                </closer>
-            </div>
-        </body>
+                    Rückreiſe wieder in <rs ref="#pmb50" type="place">Wien</rs> aufhalten (was
+                    dringend gewünſcht wird) mancherlei davon erzählen. </p><closer>Herzlichſt ergeben<lb/>Ihr <signed>ArthurSchnitzler</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-12-24_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1899-12-24_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 24. 12. 1899</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 24.&#160;12.&#160;1899</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,21 +54,19 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief mit Umschlag, 1 Bl., 3 S., Bleistift.</p>
+                        <p>eh. Brief mit Umschlag, 1&#160;Bl., 3&#160;S., Bleistift.</p>
                         <stamp n="1">
-                           <placeName key="pmb59">Wien 1/1</placeName>
-                           <date>19 XII 99</date>
-                           <time>4 10N</time>
+                           <rs ref="#pmb59" type="place">Wien 1/1</rs>
+                           <date>19&#160;XII&#160;99</date>
+                           <time>4&#160;10N</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb59">Wien 9/1</placeName>
-                           <date>24.<supplied> 12. 99</supplied>
-                                    </date>
+                           <rs ref="#pmb59" type="place">Wien 9/1</rs>
+                           <date>24.<supplied>&#160;12.&#160;99</supplied></date>
                            <time>5-6N</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb51">Wie<supplied>n 1/1</supplied>
-                                    </placeName>
+                           <rs ref="#pmb51" type="place">Wie<supplied>n 1/1</supplied></rs>
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -74,8 +75,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -95,17 +96,17 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="50">Wien</placeName>
-               <date when="1899-12-24" n="01">24. 12. 1899</date>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="50">Wien</placeName>
+               <date when="1899-12-24" n="01">24.&#160;12.&#160;1899</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="50">Wien</placeName>
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-11-25_01">Schnitzler an Beer-Hofmann, 25. 11. 1899</ptr>
-               <ptr type="next" subtype="toAuthor" target="1900-02-14_01">Beer-Hofmann an Schnitzler, 14. 2. 1900</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-11-25_01">Schnitzler an Beer-Hofmann, 25.&#160;11.&#160;1899</ptr>
+               <ptr type="next" subtype="toAuthor" target="1900-02-14_01">Beer-Hofmann an Schnitzler, 14.&#160;2.&#160;1900</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -121,42 +122,13 @@
       <graphic url="1899_AS_RBH_3_00053.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1899_AS_RBH_3_00050.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
-                     Beer-Hofmann</hi>
-                    </addrLine>
-               <addrLine>
-                  <placeName key="pmb50">Wien</placeName>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb338">I. Wollzeile 15</placeName>
-                  </hi>.</addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                        <pb facs="1899_AS_RBH_3_00052.jpeg"/>
-                  <date when="1899-12-24">24. 12. 99</date>
-               </dateline>
-               <salute>Mein lieber Richard,</salute>
-            </opener>
-            <p>ich kann nur ſagen, es iſt geradezu feinſinnig, was diesmal keine Beleidigung
+      <body><div type="address"><address><addrLine><pb facs="1899_AS_RBH_3_00050.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
+                     Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I. Wollzeile 15</rs></hi>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1899_AS_RBH_3_00052.jpeg"/><date when="1899-12-24">24.&#160;12.&#160;99</date></dateline><salute>Mein lieber Richard,</salute></opener><p>ich kann nur ſagen, es iſt geradezu feinſinnig, was diesmal keine Beleidigung
                bedeuten ſoll, und ich bin (wiſſen Sie kein andres Wort?) beſchämt, befangen – und
-               verſuche mich mit einem Witz aus der Affaire zu <pb facs="1899_AS_RBH_3_00053.jpeg"/>ziehen – z. B. daſs ich immer auf einen der 3 Einakter verzichten muſs – bei
+               verſuche mich mit einem Witz aus der Affaire zu <pb facs="1899_AS_RBH_3_00053.jpeg"
+               />ziehen – z.&#160;B. daſs ich immer auf einen der 3 Einakter verzichten muſs – bei
                Ihrem Geſchenk auf die Gefährtin – aber ich will (was gleich ein zweiter Witz iſt)
-               die Schachtel ſelbſt als Gefährtin anſehen da sie (dritter Witz) keine alte iſt.</p>
-            <p>
-                    <pb facs="1899_AS_RBH_3_00053.jpeg"/>Also herzlichen Dank und Gruſs; auf Wiedersehen
-               morgen, wohl ſchon in der Joſefſtadt.</p>
-            <closer>Ihr <signed>Arthur</signed>
-            </closer>
-         </div>
-
-      </body>
+               die Schachtel ſelbſt als Gefährtin anſehen da sie (dritter Witz) keine alte iſt.</p><p><pb facs="1899_AS_RBH_3_00053.jpeg"/>Also herzlichen Dank und Gruſs; auf Wiedersehen
+               morgen, wohl ſchon in der Joſefſtadt.</p><closer>Ihr <signed>Arthur</signed></closer></div></body>
    </text>
 </TEI>

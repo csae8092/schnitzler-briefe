@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1904-07-28_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1904-07-28_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 28. 7. 1904</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 28.&#160;7.&#160;1904</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,17 +83,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key=""/>
-               <date when="1904-07-28" n="01">28. 7. 1904</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref=""/>
+               <date when="1904-07-28" n="01">28.&#160;7.&#160;1904</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1904-07-12_01">Beer-Hofmann an Bahr, 12. 7. 1904</ptr>
-               <ptr type="next" subtype="toAuthor" target="1904-08-01_01">Beer-Hofmann an Bahr, 1. 8. 1904</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1904-07-12_01">Beer-Hofmann an Bahr, 12.&#160;7.&#160;1904</ptr>
+               <ptr type="next" subtype="toAuthor" target="1904-08-01_01">Beer-Hofmann an Bahr, 1.&#160;8.&#160;1904</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -98,32 +102,15 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date when="1904-07-28">28. 7. 904</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Richard</salute> – ich hatte mir wirklich schon eingebildet – es
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date when="1904-07-28">28.&#160;7.&#160;904</date></dateline></opener><p><salute>Lieber Richard</salute> – ich hatte mir wirklich schon eingebildet – es
                könnte ein Brief sein – aber auch für den Theaterzettel mit Gruss und Spass danke ich
-               Ihnen herzlich. Wir waren etwa 14 Tage (mit <rs type="person" key="pmb12701">Mama</rs>) in <placeName key="pmb483">Reichenau</placeName>, sind
-               <date>Samstag</date> zurück; es war wunderschön, ich war im <placeName key="pmb40881">Naßwald</placeName> und endlich sogar auf der <geogName type="mountain">Rax</geogName>, habe etliches gearbeitet, und was meine Gesundheit anbelangt, so
+               Ihnen herzlich. Wir waren etwa 14 Tage (mit <rs type="person" ref="#pmb12701" subtype="implied">Mama</rs>) in <rs ref="#pmb483" type="place">Reichenau</rs>, sind
+               <date>Samstag</date> zurück; es war wunderschön, ich war im <rs ref="#pmb40881" type="place">Naßwald</rs> und endlich sogar auf der <geogName type="mountain">Rax</geogName>, habe etliches gearbeitet, und was meine Gesundheit anbelangt, so
                ist sie eigentlich kommt mir vor besser als vor der Gelbsucht. Nun bleiben wir
                wahrscheinlich (von Ausflügen von ein paar Tagen abgesehen) bis <date>Ende
-                  August</date> hier und fahren dann vielleicht auf 10-14 Tage nach <placeName key="pmb213">Ischl</placeName> bei welcher Gelegenheit ich Sie hoffentlich sehen
-               und – als letzter unter den <c rendition="#dots" n="3"/> »Näheren« das <rs type="work">Stück</rs> hören werde, von dem mir <persName key="pmb2167">Salten</persName> vorgestern höchst begeistert sprach. Ich denke. Sie sind bald
+                  August</date> hier und fahren dann vielleicht auf 10-14 Tage nach <rs ref="#pmb213" type="place">Ischl</rs> bei welcher Gelegenheit ich Sie hoffentlich sehen
+               und – als letzter unter den <c rendition="#dots" n="3"/> »Näheren« das <rs type="work" subtype="implied">Stück</rs> hören werde, von dem mir <rs ref="#pmb2167" type="person">Salten</rs> vorgestern höchst begeistert sprach. Ich denke. Sie sind bald
                fertig? – Schreiben Sie mir bald, wenn auch nur eine Zeile, auch wie es Ihnen allen
-               geht. – Mein Balkon ist ein Luftkurort (heute übrigens beinah ein Sturmkurort).</p>
-            <p>Wir grüssen Sie Beide<footNote xml:id="fn2596-1">
-                  <p>Subjekt</p>
-               </footNote> Beide<footNote xml:id="fn2596-2">
-                  <p>Objekt.</p>
-               </footNote> Von Herzen</p>
-            <closer>Ihr <signed>A.</signed>
-            </closer>
-         </div>
-      </body>
+               geht.&#160;– Mein Balkon ist ein Luftkurort (heute übrigens beinah ein Sturmkurort).</p><p>Wir grüssen Sie Beide<footNote xml:id="fn2596-1"><p>Subjekt</p></footNote> Beide<footNote xml:id="fn2596-2"><p>Objekt.</p></footNote> Von Herzen</p><closer>Ihr <signed>A.</signed></closer></div></body>
    </text>
 </TEI>

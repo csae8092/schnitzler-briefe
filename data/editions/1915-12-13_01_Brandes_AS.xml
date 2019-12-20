@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1915-12-13_01_Brandes_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1915-12-13_01_Brandes_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Georg Brandes an Arthur Schnitzler, 13. 12. 1915</title>
-                <author key="pmb10992">Brandes, Georg</author>
+                <title level="a">Georg Brandes an Arthur Schnitzler, 13.&#160;12.&#160;1915</title>
+                <author ref="#pmb10992">Brandes, Georg</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 17</idno>
+                                <idno>Schnitzler, B&#160;17</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S., Lateinschrift, schwarze Tinte. Von
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S., Lateinschrift, schwarze Tinte. Von
                                     Schnitzler mit Bleistift beschriftet: »<quote>
                                         <hi rend="latintype">Brandes</hi>
                                     </quote>«. Von unbekannter Hand mit Bleistift nummeriert:
@@ -64,8 +68,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -84,18 +88,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb10992">Brandes, Georg</persName>
-                    <placeName key="pmb36300">Kopenhagen</placeName>
-                    <date when="1915-12-13" n="01">13. 12. 1915</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb10992">Brandes, Georg</persName>
+                    <placeName ref="#pmb36300">Kopenhagen</placeName>
+                    <date when="1915-12-13" n="01">13.&#160;12.&#160;1915</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1915-12-09_01">Schnitzler an Brandes, 9. 12. 1915</ptr>
-               <ptr type="next" subtype="toAuthor" target="1915-12-22_01">Schnitzler an Brandes, 22. 12. 1915</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1915-12-09_01">Schnitzler an Brandes, 9.&#160;12.&#160;1915</ptr>
+               <ptr type="next" subtype="toAuthor" target="1915-12-22_01">Schnitzler an Brandes, 22.&#160;12.&#160;1915</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -111,93 +115,43 @@
         <graphic url="MS-SCHNITZLER-B-00017-A-00001-000-00086"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00085"/>
-                        <placeName key="pmb36300">Kopenhagen</placeName> d.
-                            <date>13 December 15</date>
-                    </dateline>
-                </opener>
-                <p>
-                    <salute>Verehrter Freund </salute>
-                    <space unit="chars" quantity="7"/>Es war mir eine angenehme Ueberraschung, so
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00085"/><rs ref="#pmb36300" type="place">Kopenhagen</rs> d.
+                            <date>13 December 15</date></dateline></opener><p><salute>Verehrter Freund </salute><space unit="chars" quantity="7"/>Es war mir eine angenehme Ueberraschung, so
                     bald von Ihnen zu hören. Ich erwartete das nicht. Ich bin leider bettlägerig.
                     Sie wissen als Artzt, wie langwierig dies verdammte Uebel ist, gegen welches das
                     Serum erst zehn Jahre nach meinem Tode gefunden wird. Warme Umschläge imponiren
-                    den Bacillen nicht, und ich kann ihnen das nicht verdenken.</p>
-                <p>
-                    <persName key="pmb2357">Peter Nansen</persName> soll besser sein. Es ist nur
-                    eine Bronchitis, die ein schwaches Fieber verursacht.</p>
-                <p>Sie haben ja völlig und unbestrittenes Recht, wenn Sie behaupten, als Dramatiker
-                    nicht mit irgend einer Ihrer Persönlichkeiten identisch zu sein. Aber die <rs type="work" key="pmb30203">Schlussscene</rs> scheint mir jedoch den
+                    den Bacillen nicht, und ich kann ihnen das nicht verdenken.</p><p><rs ref="#pmb2357" type="person">Peter Nansen</rs> soll besser sein. Es ist nur
+                    eine Bronchitis, die ein schwaches Fieber verursacht.</p><p>Sie haben ja völlig und unbestrittenes Recht, wenn Sie behaupten, als Dramatiker
+                    nicht mit irgend einer Ihrer Persönlichkeiten identisch zu sein. Aber die <rs type="work" ref="#pmb30203" subtype="implied">Schlussscene</rs> scheint mir jedoch den
                     Totaleindruck zusammenfassen zu sollen. <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00086"/>Ueber die Feierlichen denke
                     ich natürlich wie Sie. Da ich die 20 Jahre älter bin gewiss mit noch grösserem
-                    Widerwille als Sie.</p>
-                <p>Was Sie über die Kritiker sagen erstaunt mich nicht; ich kenne nichts
-                    widerlicheres und dümmeres.</p>
-                <p>
-                    <persName key="pmb3471">Lassalle</persName> sagte »<anchor type="commentary" xml:id="KL809-1"/>Zwei Arten von Menschen sind mir vor Allem verhasst
-                    Journalisten und Juden – und ich bin beides.<note type="commentary" xml:id="KL809-1h">Nicht genauer nachgewiesenes Zitat in <bibl>
-                            <workName key="pmb33368"/>
-                            <persName key="pmb3471">Ferdinand Lassalle</persName>’s Briefe an
-                                <persName key="pmb11662">Georg Herwegh</persName>. Nebst Briefen der
-                            Gräfin <persName key="pmb5505">Sophie Hatzfeldt</persName> an Frau
-                                <persName key="pmb5501">Emma Herwegh</persName>. Herausgegeben von
-                                <persName key="pmb5498">Marcel Herwegh</persName>. Mit einem Bild
-                            und Brief <persName key="pmb3471">Lassalle’s</persName>. Zürich:
-                                <orgName>Albert Müller’s Verlag</orgName>
-                            <space unit="chars" quantity="1"/>
-                            <date>1896</date>, S. 4–5</bibl>: »<quote>›Zwei Dinge in der Welt‹ –
-                            pflegte <persName key="pmb3471">Lassalle</persName> zu sagen – ›sind mir
+                    Widerwille als Sie.</p><p>Was Sie über die Kritiker sagen erstaunt mich nicht; ich kenne nichts
+                    widerlicheres und dümmeres.</p><p><rs ref="#pmb3471" type="person">Lassalle</rs> sagte »<anchor type="commentary" xml:id="KL809-1"/>Zwei Arten von Menschen sind mir vor Allem verhasst
+                    Journalisten und Juden – und ich bin beides.<note type="commentary" xml:id="KL809-1h">Nicht genauer nachgewiesenes Zitat in <bibl><rs ref="#pmb33368" type="work"/><rs ref="#pmb3471" type="person">Ferdinand Lassalle</rs>’s Briefe an
+                                <rs ref="#pmb11662" type="person">Georg Herwegh</rs>. Nebst Briefen der
+                            Gräfin <rs ref="#pmb5505" type="person">Sophie Hatzfeldt</rs> an Frau
+                                <rs ref="#pmb5501" type="person">Emma Herwegh</rs>. Herausgegeben von
+                                <rs ref="#pmb5498" type="person">Marcel Herwegh</rs>. Mit einem Bild
+                            und Brief <rs ref="#pmb3471" type="person">Lassalle’s</rs>. Zürich:
+                                <rs type="organisation">Albert Müller’s Verlag</rs><space unit="chars" quantity="1"/><date>1896</date>, S.&#160;4–5</bibl>: »<quote>›Zwei Dinge in der Welt‹ –
+                            pflegte <rs ref="#pmb3471" type="person">Lassalle</rs> zu sagen – ›sind mir
                             vor Allem verhaßt: Journalisten und Juden; und Beides bin
                         ich!‹</quote>«.</note>«– Ich hasse die Kritiker und verachte sie, besonders
-                    die moralisierenden.</p>
-                <p>Einen Punkt muss ich beantworten, eine schwache <anchor type="commentary" xml:id="KL809-2"/>
-                    <subst>
-                        <del rend="strikethrough">Andeutung</del>
-                        <add place="above">Anspielung</add>
-                    </subst>
-                    <note type="commentary" xml:id="KL809-2h">
-                        <ptr target="LL710-1"/>
-                    </note>. Sie sagen, ich wisse wohl jetzt mehr über den Krieg als im Anfang.
-                    Einst schrieben Sie mir ebenfalls, ich solle doch nicht glauben, in <placeName key="pmb50">Wien</placeName> herrsche Hungersnoth. <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00086"/>Ich vergass damals zu
-                    antworten.</p>
-                <p>Irgend ein erbärmlicher Wicht von <rs key="pmb27750" type="person">Journalist</rs>, der in einem <placeName key="pmb434">
-                        <country>dänischen</country>
-                    </placeName>
-                    <space unit="chars" quantity="1"/>Blatt irgend einen der gewöhnlichen
-                    idiotischen <rs type="work" key="pmb33372">Artikel</rs> von einem sogenannt
-                        <placeName key="pmb34438">
-                        <country>russischen</country>
-                    </placeName>
-                    <space unit="chars" quantity="1"/>
-                    <rs type="person" key="pmb27751">Correspondenten</rs> gelesen hatte, bekam den
+                    die moralisierenden.</p><p>Einen Punkt muss ich beantworten, eine schwache <anchor type="commentary" xml:id="KL809-2"/><subst><del rend="strikethrough">Andeutung</del><add place="above">Anspielung</add></subst><note type="commentary" xml:id="KL809-2h"><ptr target="LL710-1"/></note>. Sie sagen, ich wisse wohl jetzt mehr über den Krieg als im Anfang.
+                    Einst schrieben Sie mir ebenfalls, ich solle doch nicht glauben, in <rs ref="#pmb50" type="place">Wien</rs> herrsche Hungersnoth. <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00086"/>Ich vergass damals zu
+                    antworten.</p><p>Irgend ein erbärmlicher Wicht von <rs ref="#pmb27750" type="person" subtype="implied">Journalist</rs>, der in einem <rs ref="#pmb434" type="place"><country>dänischen</country></rs><space unit="chars" quantity="1"/>Blatt irgend einen der gewöhnlichen
+                    idiotischen <rs type="work" ref="#pmb33372" subtype="implied">Artikel</rs> von einem sogenannt
+                        <rs ref="#pmb34438" type="place"><country>russischen</country></rs><space unit="chars" quantity="1"/><rs type="person" ref="#pmb27751" subtype="implied">Correspondenten</rs> gelesen hatte, bekam den
                     Einfall, im Anfang des Krieges, <hi n="1" rend="underline">mich</hi> deshalb
                     anzugreifen, <hi n="1" rend="underline">mich</hi> dafür verantwortlich zu
-                    machen. Darin soll gestanden haben, in <placeName key="pmb50">Wien</placeName>
-                    hungere man.</p>
-                <p>Ich hatte den <rs type="work" key="pmb33372">Artikel</rs>
-                    <space unit="chars" quantity="1"/>
-                    <hi n="1" rend="underline">nie gelesen</hi>, nie gesehen, viel weniger
+                    machen. Darin soll gestanden haben, in <rs ref="#pmb50" type="place">Wien</rs>
+                    hungere man.</p><p>Ich hatte den <rs type="work" ref="#pmb33372" subtype="implied">Artikel</rs><space unit="chars" quantity="1"/><hi n="1" rend="underline">nie gelesen</hi>, nie gesehen, viel weniger
                     geschrieben oder aufgenommen. Nun ging diese <anchor type="commentary" xml:id="KL809-3"/>Idiotie<note type="commentary" xml:id="KL809-3h">Nicht
-                        nachgewiesen.</note> wie ein Lauffeuer durch die <placeName key="pmb151">
-                        <country>deutsche</country>
-                    </placeName> und <placeName key="pmb41240">
-                        <country>österreichische</country>
-                    </placeName> Presse, mit imbecilen Schimpfworten gegen mich.</p>
-                <p>Sie scheinen daran geglaubt zu haben. So sind wir alle. Wie viele tausend Mal wir
+                        nachgewiesen.</note> wie ein Lauffeuer durch die <rs ref="#pmb151" type="place"><country>deutsche</country></rs> und <rs ref="#pmb41240" type="place"><country>österreichische</country></rs> Presse, mit imbecilen Schimpfworten gegen mich.</p><p>Sie scheinen daran geglaubt zu haben. So sind wir alle. Wie viele tausend Mal wir
                     erfahren haben, dass das Gedruckte <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00085"/>nur Lüge war, immer wieder
-                    glauben wir an etwas. </p>
-                <p>Mein junger <rs type="person" key="pmb4394">Schwiegersohn</rs> ist noch nicht
+                    glauben wir an etwas. </p><p>Mein junger <rs type="person" ref="#pmb4394" subtype="implied">Schwiegersohn</rs> ist noch nicht
                     verwundet, aber leidet grässlich an <hi n="1" rend="underline">Leere</hi>, fühlt
                     es, als verliere er den Verstand, werde alt und grau. Es ist immer besser als
-                    Wunden und Tod.</p>
-                <closer>Ich bin von ganzem Herzen Ihr Freund<lb/>
-                    <signed>G B</signed>
-                </closer>
-            </div>
-        </body>
+                    Wunden und Tod.</p><closer>Ich bin von ganzem Herzen Ihr Freund<lb/><signed>G&#160;B</signed></closer></div></body>
     </text>
 </TEI>

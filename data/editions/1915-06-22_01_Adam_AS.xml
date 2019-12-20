@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1915-06-22_01_Adam_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1915-06-22_01_Adam_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 22. 6. 1915</title>
-                <author key="pmb12438">Adam, Robert</author>
+                <title level="a">Robert Adam an Arthur Schnitzler, 22.&#160;6.&#160;1915</title>
+                <author ref="#pmb12438">Adam, Robert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>A:Schnitzler, HS.NZ85.1.4230,9</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S. Von Schnitzler beschriftet: »<quote>
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Adam</hi>
                            </quote>«.</p>
                             </physDesc>
@@ -65,18 +69,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb1240">Zistersdorf</placeName>
-                    <date when="1915-06-22" n="01">22. 6. 1915</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb1240">Zistersdorf</placeName>
+                    <date when="1915-06-22" n="01">22.&#160;6.&#160;1915</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1915-06-18_01">Schnitzler an Adam, 18. 6. 1915</ptr>
-               <ptr type="next" subtype="toAuthor" target="1915-07-11_01">Schnitzler an Adam, 11. 7. 1915</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1915-06-18_01">Schnitzler an Adam, 18.&#160;6.&#160;1915</ptr>
+               <ptr type="next" subtype="toAuthor" target="1915-07-11_01">Schnitzler an Adam, 11.&#160;7.&#160;1915</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -87,44 +91,26 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="OGL Kopie"/>
-                  <placeName key="pmb1240">Ziſtersdorf</placeName>, <date>22. Juni 1915</date>
-               </dateline>
-                    <salute>Hochverehrter Herr Doktor!</salute>
-            </opener>
-                <p>Ich kann Ihnen anzeigen, daß es mir nach längerer Beratung mit unſerem
-                    <rs type="person" key="pmb27756">Poſtmeiſter</rs>, der über den Kriegspoſtverkehr mit den Verbündeten nicht viel
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="OGL Kopie"/><rs ref="#pmb1240" type="place">Ziſtersdorf</rs>, <date>22.&#160;Juni 1915</date></dateline><salute>Hochverehrter Herr Doktor!</salute></opener><p>Ich kann Ihnen anzeigen, daß es mir nach längerer Beratung mit unſerem
+                    <rs type="person" ref="#pmb27756" subtype="implied">Poſtmeiſter</rs>, der über den Kriegspoſtverkehr mit den Verbündeten nicht viel
                     beſſer informiert zu ſein ſcheint als ich, gelungen iſt, das Manuſkript des
-                    »<workName key="pmb33606">
-                  <hi rend="latintype">Fremden</hi>
-               </workName>« mit einem
-                    Briefe an den <orgName key="pmb29639">Fischerschen Verlag</orgName> zu ſenden, und ich gebe
-                    mich der Hoffnung hin, daß beides den Beſtimmungsort erreicht.</p>
-                <p>Zugleich erlaube ich mir, Ihnen das Manuſkript der Komödie: »<workName key="pmb33628">Geſellſchaft</workName>« zu
-                    ſchicken, die, wie ich Ihnen erzählte, vom »<placeName key="pmb20">Deutschen Volkstheater</placeName>« abgelehnt
+                    »<rs ref="#pmb33606" type="work"><hi rend="latintype">Fremden</hi></rs>« mit einem
+                    Briefe an den <rs ref="#pmb29639" type="organisation">Fischerschen Verlag</rs> zu ſenden, und ich gebe
+                    mich der Hoffnung hin, daß beides den Beſtimmungsort erreicht.</p><p>Zugleich erlaube ich mir, Ihnen das Manuſkript der Komödie: »<rs ref="#pmb33628" type="work">Geſellſchaft</rs>« zu
+                    ſchicken, die, wie ich Ihnen erzählte, vom »<rs ref="#pmb20" type="place">Deutschen Volkstheater</rs>« abgelehnt
                     wurde. Ein Meiſterwerk iſt ſie ja gewiß nicht, obwohl ich meinen möchte, daß
                     ſie, vom techniſchen Geſichtspunkt aus betrachtet, einem gelernten »Dramaturgen«
                     Freudentränen entlocken könnte. Aber <del rend="strikethrough">iſ</del> ſie iſt <pb facs="OGL Kopie"/>wohl
                     vergnüglich; allerdings kann ich dieſe ihre Eigenſchaft ſelbſt nicht objektiv
                     einſchätzen, aber ich ſchließe es daraus, daß ich ſie mit derſelben
-                    Behaglichkeit niederſchrieb, die den alten <persName key="pmb11190">Dumas</persName> beim Verfaſſen ſeiner heitern
+                    Behaglichkeit niederſchrieb, die den alten <rs ref="#pmb11190" type="person">Dumas</rs> beim Verfaſſen ſeiner heitern
                     Romane hell auflachen ließ. Wenn die Erlebniſſe meiner Helden, die ich zum
                     größten Teil perſönlich kennen lernen durfte – den Daniel Rubinstein ſchilderten
-                    mir nur Perſonen, die er mit ſeiner intereſſanten Bekanntſchaft beehrt hatte –,
+                    mir nur Perſonen, die er mit ſeiner intereſſanten Bekanntſchaft beehrt hatte&#160;–,
                     Sie auch nur ein wenig erheitern, wird es mich außerordentlich freuen.
                     Eigentlich habe ich doch die Hoffnung noch nicht ganz aufgegeben, diese Komödie
                     bei einer Bühne anzubringen (allenfalls nach einigen Verbeſſerungen); denn ich
-                    glaube, daß ſie eine ganze Anzahl »guter Rollen« enthält.</p>
-                <p>Indem ich Ihnen. hochverehrter Herr Doktor, für Ihre große Liebenswürdigkeit
-                    nochmals herzlich danke, verbleibe ich Ihr ſehr ergebener</p>
-                <closer>
-               <signed>Robert Adam</signed>                                               
-                </closer>
-            </div>
-        </body>
+                    glaube, daß ſie eine ganze Anzahl »guter Rollen« enthält.</p><p>Indem ich Ihnen. hochverehrter Herr Doktor, für Ihre große Liebenswürdigkeit
+                    nochmals herzlich danke, verbleibe ich Ihr ſehr ergebener</p><closer><signed>Robert Adam</signed></closer></div></body>
     </text>
 </TEI>

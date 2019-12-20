@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1913-05-22_01_Mann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1913-05-22_01_Mann_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Thomas Mann an Arthur Schnitzler, 22. 5. 1913</title>
-                <author key="pmb12176">Mann, Thomas</author>
+                <title level="a">Thomas Mann an Arthur Schnitzler, 22.&#160;5.&#160;1913</title>
+                <author ref="#pmb12176">Mann, Thomas</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                           <country>GB</country>            
                           <settlement>Cambridge</settlement>            
                           <repository>University Library</repository>            
-                          <idno>Schnitzler, B 67</idno>
+                          <idno>Schnitzler, B&#160;67</idno>
                       </msIdentifier>
                       <physDesc>
-                          <p>eh. Brief, 1 Bl., 3 S. Von Schnitzler beschriftet: »<quote>
+                          <p>eh. Brief, 1&#160;Bl., 3&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Thomas Mann</hi>
                            </quote>«.</p>
                       </physDesc>
@@ -61,12 +65,12 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb12176">Mann, Thomas</author>
+                            <author ref="#pmb12176">Mann, Thomas</author>
                             <title level="m">Briefe 1889–1936</title>
                             <editor>Mann, Erika</editor>
                             <imprint>
                                 <date when="1961">1961</date>
-                                <publisher>S. Fischer</publisher>
+                                <publisher>S.&#160;Fischer</publisher>
                                 <pubPlace>Frankfurt am Main</pubPlace>
                             </imprint>
                             <biblScope unit="pp">102</biblScope>
@@ -95,18 +99,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12176">Mann, Thomas</persName>
-                    <placeName key="pmb424">Bad Tölz</placeName>
-                    <date when="1913-05-22" n="01">22. 5. 1913</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12176">Mann, Thomas</persName>
+                    <placeName ref="#pmb424">Bad Tölz</placeName>
+                    <date when="1913-05-22" n="01">22.&#160;5.&#160;1913</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1912-12-08_01">Mann an Schnitzler, 8. 12. 1912</ptr>
-               <ptr type="next" subtype="toAuthor" target="1914-02-15_01">Mann an Schnitzler, 15. 2. 1914</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1912-12-08_01">Mann an Schnitzler, 8.&#160;12.&#160;1912</ptr>
+               <ptr type="next" subtype="toAuthor" target="1914-02-15_01">Mann an Schnitzler, 15.&#160;2.&#160;1914</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -117,23 +121,7 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p rend="right">
-                  <pb facs="gray00217.pdf"/>
-                  <hi rend="pre-print">
-                     <placeName key="pmb424">BAD TÖLZ</placeName>, DEN</hi>
-                  <space unit="chars" quantity="1"/>
-                  <date>22. Mai 1913</date>.</p>
-                    <p rend="right">
-                  <hi rend="pre-print">
-                     <placeName key="pmb1243">LANDHAUS THOMAS MANN</placeName>
-                  </hi>
-               </p>     
-                    <salute>Verehrter Herr Doctor:</salute>
-            </opener>
-                <p>Ihre wundervolle <rs type="work" key="pmb32133">Sommergeſchichte</rs>, von der mir ein Exemplar in Ihrem gütigen
+        <body><div type="writingSession" n="1"><opener><p rend="right"><pb facs="gray00217.pdf"/><hi rend="pre-print"><rs ref="#pmb424" type="place">BAD TÖLZ</rs>, DEN</hi><space unit="chars" quantity="1"/><date>22.&#160;Mai 1913</date>.</p><p rend="right"><hi rend="pre-print"><rs ref="#pmb1243" type="place">LANDHAUS THOMAS MANN</rs></hi></p><salute>Verehrter Herr Doctor:</salute></opener><p>Ihre wundervolle <rs type="work" ref="#pmb32133" subtype="implied">Sommergeſchichte</rs>, von der mir ein Exemplar in Ihrem gütigen
                     Auftrage zugeſandt wurde, habe ich geſtern Abend in großer Bewegung beendigt.
                     Sie wird mich noch lange feſthalten und beſchäftigen. Die heutige Kunſt versteht
                     ſich ja im Ganzen nicht ſchlecht auf »Stimmung«; aber einen Fall, wo Stimmung
@@ -144,21 +132,13 @@
                     Schickſalsgeſpinſtes zu prüfen und zu bewundern und bitte Ihnen meinen tiefen
                     Respekt ausdrücken zu dürfen vor Ihrer großen Zaubermacht. Der Schluß geht mir
                     beſtändig nach. Trotz feinſter, vielfältigſter Vorbereitung – ist er möglich ſo
-                    oder iſt er es nicht? Auf jeden Fall iſt er überwältigend schön.</p>
-                <p>Ich habe die Überraſchung, zu ſehen, daß mein »<workName key="pmb33592">Tod in Venedig</workName>«, 
+                    oder iſt er es nicht? Auf jeden Fall iſt er überwältigend schön.</p><p>Ich habe die Überraſchung, zu ſehen, daß mein »<rs ref="#pmb33592" type="work">Tod in Venedig</rs>«, 
                     bei deſſen
                     Herſtellung ich <pb facs="gray00218"/>auf garnichts hoffte, sehr warm
-                    aufgenommen wird. Bis auf einen giftigen Angriff des Herrn <persName key="pmb11910">Kerr</persName>, hinter deſſen
-                    tänzerischen <rs type="work" key="pmb33594">Pamphletchen</rs> gegen mich ſich freilich viel Charakter-Elend
+                    aufgenommen wird. Bis auf einen giftigen Angriff des Herrn <rs ref="#pmb11910" type="person">Kerr</rs>, hinter deſſen
+                    tänzerischen <rs type="work" ref="#pmb33594" subtype="implied">Pamphletchen</rs> gegen mich ſich freilich viel Charakter-Elend
                     verbirgt, habe ich faſt nur ſehr Ehrenvolles darüber gehört. Und daß die erſte
-                    Beruhigung vom Autor der »<workName key="pmb32133">Frau Beate</workName>« kam, darüber bin ich nun wieder beſonders
-                    glücklich.</p>
-                <p>Mit den beſten Empfehlungen an Sie und Ihre <rs type="person" key="pmb2173">Gattin</rs>, verehrter Herr Doctor,</p>
-                <closer>Ihr ergebenſter<lb/>
-                    <signed>Thomas Mann.</signed>
-                    
-                </closer>
-            </div>
-        </body>
+                    Beruhigung vom Autor der »<rs ref="#pmb32133" type="work">Frau Beate</rs>« kam, darüber bin ich nun wieder beſonders
+                    glücklich.</p><p>Mit den beſten Empfehlungen an Sie und Ihre <rs type="person" ref="#pmb2173" subtype="implied">Gattin</rs>, verehrter Herr Doctor,</p><closer>Ihr ergebenſter<lb/><signed>Thomas Mann.</signed></closer></div></body>
     </text>
 </TEI>

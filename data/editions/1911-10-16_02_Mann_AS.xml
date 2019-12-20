@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1911-10-16_02_Mann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1911-10-16_02_Mann_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Thomas Mann an Arthur Schnitzler, 16. 10. 1911</title>
-                <author key="pmb12176">Mann, Thomas</author>
+                <title level="a">Thomas Mann an Arthur Schnitzler, 16.&#160;10.&#160;1911</title>
+                <author ref="#pmb12176">Mann, Thomas</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 67</idno>
+                                <idno>Schnitzler, B&#160;67</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S. Von Schitzler beschriftet: »<quote>
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S. Von Schitzler beschriftet: »<quote>
                                         <hi rend="latintype">Mann</hi>
                                     </quote>«.</p>
                             </physDesc>
@@ -82,18 +86,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12176">Mann, Thomas</persName>
-                    <placeName key="pmb38129">München</placeName>
-                    <date when="1911-10-16" n="02">16. 10. 1911</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12176">Mann, Thomas</persName>
+                    <placeName ref="#pmb38129">München</placeName>
+                    <date when="1911-10-16" n="02">16.&#160;10.&#160;1911</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1911-09-25_01">Mann an Schnitzler, 25. 9. 1911</ptr>
-               <ptr type="next" subtype="toAuthor" target="1912-12-08_01">Mann an Schnitzler, 8. 12. 1912</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1911-09-25_01">Mann an Schnitzler, 25.&#160;9.&#160;1911</ptr>
+               <ptr type="next" subtype="toAuthor" target="1912-12-08_01">Mann an Schnitzler, 8.&#160;12.&#160;1912</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -104,32 +108,19 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="gray00215.pdf"/>
-                        <placeName key="pmb38129">München</placeName> den
-                        <date>16. X. 1911</date>.</dateline>
-                    <salute>Sehr verehrter Herr:</salute>
-                </opener>
-                <p>Es war mir eine beſondere Freude, am Morgen nach der Première, noch ganz erfüllt
-                    von Ihrer Kunst, das Buch des »<workName key="pmb30207">Weiten
-                    Landes</workName>« von Ihrer eigenen Hand zu empfangen. Ich danke Ihnen von
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="gray00215.pdf"/><rs ref="#pmb38129" type="place">München</rs> den
+                        <date>16.&#160;X.&#160;1911</date>.</dateline><salute>Sehr verehrter Herr:</salute></opener><p>Es war mir eine beſondere Freude, am Morgen nach der Première, noch ganz erfüllt
+                    von Ihrer Kunst, das Buch des »<rs ref="#pmb30207" type="work">Weiten
+                    Landes</rs>« von Ihrer eigenen Hand zu empfangen. Ich danke Ihnen von
                     Herzen. Ihr Stück hat hier tiefen Eindruck gemacht, der Beifall am Schluſſe
-                    ruhte nicht, bis der <rs type="person" key="pmb10840">Regiſſeur</rs> in Ihrem
-                    Namen gedankt hatte. Die Aufführung war recht leidlich, <persName key="pmb12837">Steinrück</persName> in ſeiner Art meiſter<pb facs="gray00208"/>haft, wenn
+                    ruhte nicht, bis der <rs type="person" ref="#pmb10840" subtype="implied">Regiſſeur</rs> in Ihrem
+                    Namen gedankt hatte. Die Aufführung war recht leidlich, <rs ref="#pmb12837" type="person">Steinrück</rs> in ſeiner Art meiſter<pb facs="gray00208"/>haft, wenn
                     auch wohl nicht der Menſch, den Sie geſehen haben. Es fehlte die aeußere
                     Weichheit, die zu der gefährlichen Energie des Mannes ſo lebensvoll
                     kontraſtieren müßte. Dieſer letztere, der erotiſche Ernſt, war deſto
-                    eindrucksvoller betont. Mein <rs type="person" key="pmb12170">Bruder</rs> und
+                    eindrucksvoller betont. Mein <rs type="person" ref="#pmb12170" subtype="implied">Bruder</rs> und
                     ich verbrachten den Reſt des Abends <add place="above">mit</add> den
                     Hauptdarſtellern. Das Telegramm »an Arthur« war allgemeines
-                    Herzensbedürfnis.</p>
-                <closer>Ihr ergebener<lb/>
-                    <signed>Thomas Mann.</signed>
-                </closer>
-            </div>
-        </body>
+                    Herzensbedürfnis.</p><closer>Ihr ergebener<lb/><signed>Thomas Mann.</signed></closer></div></body>
     </text>
 </TEI>

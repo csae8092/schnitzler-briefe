@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-05-02_01_Andreas-Salome_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1895-05-02_01_Andreas-Salome_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Lou Andreas-Salomé an Arthur Schnitzler, [2. 5.? 1895]</title>
-                <author key="pmb10762">Andreas-Salomé, Lou</author>
+                <title level="a">Lou Andreas-Salomé an Arthur Schnitzler, [2.&#160;5.? 1895]</title>
+                <author ref="#pmb10762">Andreas-Salomé, Lou</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 3</idno>
+                                <idno>Schnitzler, B&#160;3</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., schwarze Tinte. Von Schnitzler mit
                                     Bleistift datiert: »<quote>
                                         <date>April 95</date>
                                     </quote>«. Von unbekannter Hand mit rotem Buntstift doppelt nummeriert: »<quote>
@@ -67,18 +71,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb10762">Andreas-Salomé, Lou</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1895-05-02" n="01">[2. 5.? 1895]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1895-05-02" n="01">[2.&#160;5.?&#160;1895]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-05-01_01">Andreas-Salomé an Schnitzler, [1. 5. 1895]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-05-25_01">Andreas-Salomé an Schnitzler, 25. 5. 1895</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-05-01_01">Andreas-Salomé an Schnitzler, [1.&#160;5.&#160;1895]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-05-25_01">Andreas-Salomé an Schnitzler, 25.&#160;5.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -93,35 +97,17 @@
         <graphic url="MS-SCHNITZLER-B-00003-000-00007"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline>
-                        <pb facs="MS-SCHNITZLER-B-00003-000-00007"/>
-                        <placeName key="pmb1101">
-                            <hi rend="latintype">Hotel Royal</hi>
-                        </placeName>
-                        <lb/>
-                        <anchor type="commentary" xml:id="KL722-1"/>Donnerſtag<note type="commentary" xml:id="KL722-1h">Der Brief vom
-                                <date>28. 4. 1895</date> schließt es aus, dass die Datierung
-                                <persName key="pmb2121">Schnitzler</persName>s zutrifft und dieser
+        <body><div type="writingSession" n="1"><opener><dateline><pb facs="MS-SCHNITZLER-B-00003-000-00007"/><rs ref="#pmb1101" type="place"><hi rend="latintype">Hotel Royal</hi></rs><lb/><anchor type="commentary" xml:id="KL722-1"/>Donnerſtag<note type="commentary" xml:id="KL722-1h">Der Brief vom
+                                <date>28.&#160;4.&#160;1895</date> schließt es aus, dass die Datierung
+                                <rs ref="#pmb2121" type="person">Schnitzler</rs>s zutrifft und dieser
                             Brief an einem Donnerstag im <date>April 1895</date> verfasst ist.
                             Datiert man ihn auf den ersten Donnerstag im Mai, fügen sich die Objekte
                             gut zusammen, vertauscht sich aber die Reihenfolge der nummerierten
-                            Objekte »4« und »3«.</note>.</dateline>
-                    <salute>Sehr geehrter Herr <hi rend="latintype">D<hi rend="superscript">r</hi>
-                        </hi>,</salute>
-                </opener>
-                <p>morgen bin ich um <time>6 Uhr</time> noch nicht zu Hauſe, aber dafür in Ihrer
-                    nächſten Nähe, nämlich in der <placeName key="pmb386">Univerſität</placeName>
-                    (Hörſaal N<hi rend="superscript">o</hi> 35) Wäre es nicht am einfachſten, Sie
+                            Objekte »4« und »3«.</note>.</dateline><salute>Sehr geehrter Herr <hi rend="latintype">D<hi rend="superscript">r</hi></hi>,</salute></opener><p>morgen bin ich um <time>6 Uhr</time> noch nicht zu Hauſe, aber dafür in Ihrer
+                    nächſten Nähe, nämlich in der <rs ref="#pmb386" type="place">Univerſität</rs>
+                    (Hörſaal N<hi rend="superscript">o</hi>&#160;35) Wäre es nicht am einfachſten, Sie
                     holten mich dort ab und wir ſuchten uns von dort einen Plauderwinkel? Für den
                     Fall, daß Ihnen das nicht paßt, treffen Sie mich gegen <time>7 Uhr</time> in
-                    meiner Hôtelwohnung.</p>
-                <closer>Mit beſtem Gruß<lb/>
-                    <signed>Lou Andreas-Salomé.</signed>
-                </closer>
-            </div>
-        </body>
+                    meiner Hôtelwohnung.</p><closer>Mit beſtem Gruß<lb/><signed>Lou Andreas-Salomé.</signed></closer></div></body>
     </text>
 </TEI>

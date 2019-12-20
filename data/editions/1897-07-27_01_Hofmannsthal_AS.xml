@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-07-27_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-07-27_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 27. 7. 1897</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 27.&#160;7.&#160;1897</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,18 +52,18 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Postkarte, schwarze Tinte. Von unbekannter Hand mit Bleistift nummeriert:
                                         »<quote>94a</quote>«.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb573">Bad Fusch</placeName>
+                                    <rs ref="#pmb573" type="place">Bad Fusch</rs>
                                     <date when="1897-07-28">28/7 <unclear>9</unclear>7</date>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb50">Wien</placeName>
-                                    <date when="1897-07-29">29. 7. 97</date>
+                                    <rs ref="#pmb50" type="place">Wien</rs>
+                                    <date when="1897-07-29">29.&#160;7.&#160;97</date>
                                     <time>8.V</time>
                                     <action>Bestellt</action>
                                 </stamp>
@@ -70,8 +74,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -90,19 +94,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb573">Bad Fusch</placeName>
-                    <date when="1897-07-27" n="01">27. 7. 1897</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb573">Bad Fusch</placeName>
+                    <date when="1897-07-27" n="01">27.&#160;7.&#160;1897</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1897-07-29">29. 7. 1897</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1897-07-29">29.&#160;7.&#160;1897</date>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-07-22_01">Schnitzler an Hofmannsthal, 22. 7. 1897</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-08-09_01">Hofmannsthal an Schnitzler, [9.? 8. 1897]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-07-22_01">Schnitzler an Hofmannsthal, 22.&#160;7.&#160;1897</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-08-09_01">Hofmannsthal an Schnitzler, [9.?&#160;8.&#160;1897]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -118,48 +122,9 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00218"/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00217"/>
-                  <hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi>
-               </addrLine>
-                    <addrLine>
-                        <placeName key="pmb50">
-                     <hi rend="latintype">Wien</hi>
-                  </placeName>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb397">
-                     <hi rend="latintype">IX Franckgasse 1</hi>
-                  </placeName>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00218"/>
-                        <date>27. VII.</date>
-                    </dateline>
-                    <salute>lieber Arthur</salute>
-                </opener>
-                <p>bitte ſeien Sie ſo lieb und ſchicken an <persName key="pmb10765">Poldy</persName>
-                        (<placeName key="pmb34314">
-                        <hi rend="latintype">Villa Andrian</hi>
-                    </placeName>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="pmb34401">
-                        <hi rend="latintype">Alt-Aussee</hi>
-                    </placeName>) möglichſt bald ein <hi rend="underline" n="1">Buch</hi> wo
+        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00217"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><rs ref="#pmb50" type="place"><hi rend="latintype">Wien</hi></rs></addrLine><addrLine><rs ref="#pmb397" type="place"><hi rend="latintype">IX Franckgasse 1</hi></rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00218"/><date>27.&#160;VII.</date></dateline><salute>lieber Arthur</salute></opener><p>bitte ſeien Sie ſo lieb und ſchicken an <rs ref="#pmb10765" type="person">Poldy</rs>
+                        (<rs ref="#pmb34314" type="place"><hi rend="latintype">Villa Andrian</hi></rs><space unit="chars" quantity="1"/><rs ref="#pmb34401" type="place"><hi rend="latintype">Alt-Aussee</hi></rs>) möglichſt bald ein <hi rend="underline" n="1">Buch</hi> wo
                     Symptome gewöhnlicher Neuraſthenie drinſtehen, damit er nervöſe Beklemmungen u.
-                    dgl. als ſolche erkennen kann.</p>
-                <p>Bin wohl und hätte gern Nachricht von Ihnen, bis <date>5<hi rend="superscript">ten</hi> Auguſt</date> hierher.</p>
-                <closer>Herzlich Ihr<lb/>
-                    <signed>Hugo.</signed>
-                </closer>
-            </div>
-        </body>
+                    dgl. als ſolche erkennen kann.</p><p>Bin wohl und hätte gern Nachricht von Ihnen, bis <date>5<hi rend="superscript">ten</hi> Auguſt</date> hierher.</p><closer>Herzlich Ihr<lb/><signed>Hugo.</signed></closer></div></body>
     </text>
 </TEI>

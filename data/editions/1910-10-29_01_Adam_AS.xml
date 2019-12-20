@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1910-10-29_01_Adam_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1910-10-29_01_Adam_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 29. 10. 1910</title>
-                <author key="pmb12438">Adam, Robert</author>
+                <title level="a">Robert Adam an Arthur Schnitzler, 29.&#160;10.&#160;1910</title>
+                <author ref="#pmb12438">Adam, Robert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>A:Schnitzler, HS.NZ85.1.4230,2</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 2 Bl., 2 S. Von Schnitzler beschriftet: »<quote>
+                                <p>eh. Brief, 2&#160;Bl., 2&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Adam</hi>
                            </quote>«.</p>
                             </physDesc>
@@ -66,13 +70,13 @@
          </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1910-10-29" n="01">29. 10. 1910</date>
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1910-10-29" n="01">29.&#160;10.&#160;1910</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -83,39 +87,15 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="Kopie OGL"/>
-                  <placeName key="pmb50">Wien</placeName>, am <date>29. Oktober 1910</date>
-               </dateline>
-                    <salute>Hochverehrter Herr Doktor!</salute>
-            </opener>
-                <p>Die wohlwollenden Zeilen, die Sie mir im vorigen Jahre anläßlich der Überſendung meiner Komödie:
-                    »<workName key="pmb33578">Die Geſchichte Alî ibn Bekkârs mit Schams an-Nahâr</workName>« ſandten, geben mit den Mut,
-                    mit einer Bitte an Sie heranzutreten.</p>
-                <p>Ich habe eine neue Komödie zum Abschluſſe gebracht, die den Titel <workName key="pmb33580">
-                  <hi rend="latintype">Neidhard</hi>
-               </workName> führt,
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Kopie OGL"/><rs ref="#pmb50" type="place">Wien</rs>, am <date>29.&#160;Oktober 1910</date></dateline><salute>Hochverehrter Herr Doktor!</salute></opener><p>Die wohlwollenden Zeilen, die Sie mir im vorigen Jahre anläßlich der Überſendung meiner Komödie:
+                    »<rs ref="#pmb33578" type="work">Die Geſchichte Alî ibn Bekkârs mit Schams an-Nahâr</rs>« ſandten, geben mit den Mut,
+                    mit einer Bitte an Sie heranzutreten.</p><p>Ich habe eine neue Komödie zum Abschluſſe gebracht, die den Titel <rs ref="#pmb33580" type="work"><hi rend="latintype">Neidhard</hi></rs> führt,
                     und möchte gerne, bevor ich mit ihr in die Öffentlichkeit trete, <pb facs="OGL Kopie"/>Ihren Rat, hochverehrter Herr Doktor, einholen, welcher Weg
                     wohl einzuſchlagen wäre, um dieſer Komödie, an der ich ſehr lang mit ganzem
                     Herzen arbeitete und die ich ſelbſt für reifer und intereſſanter halte als die
-                    Ihnen bekannte <rs type="work" key="pmb33578">arabiſche</rs>, mehr Publizität zu ſichern, als jener zuteil geworden
-                    iſt.</p>
-                <p>Sollten Sie die Güte haben, einem ratloſen Poeten freundlich beizuſtehen, ſo
-                    bitte ich um kurze Nachricht, wann ich bei Ihnen vorſprechen könnte.</p>
-                <p>Seien Sie, hochverehrter Herr Doktor, meiner Dankbarkeit und unbegrenzten
-                    Hochſchätzung gewiß!</p>
-                <closer>Ihr ergebener<lb/>
-                    <signed>Robert Adam</signed>
-                </closer>
-                <postscript>
-               <p>
-                  <placeName key="pmb1239">Wien XII/<hi rend="subscript">1</hi> Meidlinger Hauptſtr. 56</placeName>
-               </p>
-            </postscript>
-            </div>
-        </body>
+                    Ihnen bekannte <rs type="work" ref="#pmb33578" subtype="implied">arabiſche</rs>, mehr Publizität zu ſichern, als jener zuteil geworden
+                    iſt.</p><p>Sollten Sie die Güte haben, einem ratloſen Poeten freundlich beizuſtehen, ſo
+                    bitte ich um kurze Nachricht, wann ich bei Ihnen vorſprechen könnte.</p><p>Seien Sie, hochverehrter Herr Doktor, meiner Dankbarkeit und unbegrenzten
+                    Hochſchätzung gewiß!</p><closer>Ihr ergebener<lb/><signed>Robert Adam</signed></closer><postscript><p><rs ref="#pmb1239" type="place">Wien XII/<hi rend="subscript">1</hi> Meidlinger Hauptſtr. 56</rs></p></postscript></div></body>
     </text>
 </TEI>

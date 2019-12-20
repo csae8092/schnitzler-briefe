@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1911-09-11_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1911-09-11_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 11. 9. 1911</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 11.&#160;9.&#160;1911</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -82,13 +86,13 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb415">Aussee</placeName>
-               <date when="1911-09-11" n="01">11. 9. 1911</date>
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb415">Aussee</placeName>
+               <date when="1911-09-11" n="01">11.&#160;9.&#160;1911</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -97,37 +101,25 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb415">Aussee</placeName>, <date>11. IX</date>.</dateline>
-               <salute>mein lieber Arthur </salute>
-            </opener>
-            <p>die traurige Nachricht fand ich, nach einigen trüben Andeutungen durch Freunde, heute morgens
-   in der Zeitung – so war es unmöglich, zurechtzukommen, um dem Begräbnis Ihrer guten <rs type="person" key="pmb12701">Mutter</rs> beizuwohnen.Daß jemand nicht mehr ist, ist auch für den Fernerstelie nd en unfaßbar, ja es ist, als antwortete das menschliche Innere
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb415" type="place">Aussee</rs>, <date>11.&#160;IX</date>.</dateline><salute>mein lieber Arthur </salute></opener><p>die traurige Nachricht fand ich, nach einigen trüben Andeutungen durch Freunde, heute morgens
+   in der Zeitung – so war es unmöglich, zurechtzukommen, um dem Begräbnis Ihrer guten <rs type="person" ref="#pmb12701" subtype="implied">Mutter</rs> beizuwohnen.Daß jemand nicht mehr ist, ist auch für den Fernerstelie nd en unfaßbar, ja es ist, als antwortete das menschliche Innere
    auf die Zumutung, dies hinzunehmen, mit einer verdoppelten Lebhaftigkeit der Vorstellung. So lebt
-   Ihre <rs type="person" key="pmb12701">Mutter</rs> für mich in diesen Stunden – und immer wieder,
+   Ihre <rs type="person" ref="#pmb12701" subtype="implied">Mutter</rs> für mich in diesen Stunden – und immer wieder,
    nach 10, nach 15, nach 20 Jahren kommt für mich ein einsamer Spaziergang, eine stockende
    Arbeitsstunde, in der ein Toter so völlig auf lebt, dies ist eines der Geheimnisse unseres
-   Innern.</p>
-            <p>Es ist mir ein lieber Gedanke, daß Sie nach der Qual dieser Tage daran gehen, ein dichterisches
+   Innern.</p><p>Es ist mir ein lieber Gedanke, daß Sie nach der Qual dieser Tage daran gehen, ein dichterisches
    Gebilde, in dem so viel Ihres stärksten wahrsten inneren Lebens zusammengedrängt ist, auf die
-   Bühne <supplied>zu</supplied> bringen. Daß man auf diese Weise, ebenso wie in den <rs type="person" key="pmb3220 pmb3241 pmb3244">Kindern</rs>, irgend etwas von sich weitergibt,
+   Bühne <supplied>zu</supplied> bringen. Daß man auf diese Weise, ebenso wie in den <rs type="person" ref="#pmb3220 pmb3241 pmb3244" subtype="implied">Kindern</rs>, irgend etwas von sich weitergibt,
    gleichsam ans Unendliche weitergibt, ist für mich eine von den Compensationen. Es gibt noch
    geheimnisvollere, wenn man in das Mysterium des Lebens eind ri ngt, wie es manchmal gestattet,
    aber nicht mitteilbar ist. In den Tiefen der Arbeit liegen sie und auch in den Tiefen des
-   aufnehmenden Lebens, und sind Ihnen bekannt wie mir. – Es scheint mir in manchen Momenten als das
+   aufnehmenden Lebens, und sind Ihnen bekannt wie mir.&#160;– Es scheint mir in manchen Momenten als das
    einzig Natürliche, jetzt zu Ihnen zu fahren und Tage bei Ihnen zu sein. Ich täte es
    augenblicklich, wären Sie auf dem Lande, wo ich wirklich andauernd bei Ihnen wäre. Auch hält mich
-   noch etwas zurück. Mein <rs type="person" key="pmb11737">Vater</rs> war diesen ganzen schweren
-    <date>Sommer</date> in <placeName key="pmb50">Wien</placeName>, ist jetzt bei uns und freut
-               sich auf eine kleine auf heiternde Reise nach <placeName key="pmb506">Hamburg</placeName> u.
-    <placeName key="pmb36300">Kopenhagen</placeName>, der ich auch meine Herbstarbeitswochen zunächst opfere. Wir
-   treten sie am besten von <placeName key="pmb38129">München</placeName> aus an. </p>
-            <closer>Von Herzen<lb/>Ihr<signed>Hugo.</signed>
-            </closer>
-         </div>
-      </body>
+   noch etwas zurück. Mein <rs type="person" ref="#pmb11737" subtype="implied">Vater</rs> war diesen ganzen schweren
+    <date>Sommer</date> in <rs ref="#pmb50" type="place">Wien</rs>, ist jetzt bei uns und freut
+               sich auf eine kleine auf heiternde Reise nach <rs ref="#pmb506" type="place">Hamburg</rs> u.
+    <rs ref="#pmb36300" type="place">Kopenhagen</rs>, der ich auch meine Herbstarbeitswochen zunächst opfere. Wir
+   treten sie am besten von <rs ref="#pmb38129" type="place">München</rs> aus an. </p><closer>Von Herzen<lb/>Ihr<signed>Hugo.</signed></closer></div></body>
    </text>
 </TEI>

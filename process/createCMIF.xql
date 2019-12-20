@@ -9,7 +9,7 @@ declare option exist:serialize "method=xml media-type=text/xml omit-xml-declarat
 (: script to generate a cmfi file from a collection of documents using the correspdesc module
  : you can pass in via url-param @baseURL :)
 
-let $baseURL := request:get-parameter("baseURL", "https://arthur-schnitzler-briefe-korrespondenz.acdh.oeaw.ac.at")
+let $baseURL := request:get-parameter("baseURL", "https://schnitzler-briefe-korrespondenz.acdh.oeaw.ac.at")
 
 (: create the CMFI document:)
 let $CMFI := 
@@ -64,7 +64,7 @@ let $stored := xmldb:store($temp, 'cmfi-temp.xml', $CMFI)
 let $changed := 
 
 for $person in doc($stored)//tei:correspAction/tei:persName
-let $oldID := data($person/@ref)
+let $oldID := substring-after(data($person/@ref), '#')
 let $newID := doc($app:personIndex)//tei:person[@xml:id=$oldID]//tei:idno/text()
 let $test := if (starts-with($newID, 'http')) then update replace $person/@ref with $newID else ()
 return doc($stored) 

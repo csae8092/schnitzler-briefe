@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1922-05-13_01_Adam_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1922-05-13_01_Adam_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 13. 5. 1922</title>
-                <author key="pmb12438">Adam, Robert</author>
+                <title level="a">Robert Adam an Arthur Schnitzler, 13.&#160;5.&#160;1922</title>
+                <author ref="#pmb12438">Adam, Robert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -49,10 +53,10 @@
                                 <country>GB</country>            
                                 <settlement>Cambridge</settlement>            
                                 <repository>University Library</repository>            
-                                <idno>Schnitzler, B 1</idno>
+                                <idno>Schnitzler, B&#160;1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>(Kopie) eh. Brief, 1 Bl., 2 S. Von Schnitzler beschriftet:
+                                <p>(Kopie) eh. Brief, 1&#160;Bl., 2&#160;S. Von Schnitzler beschriftet:
                                     »<quote>
                               <hi rend="latintype">Adam</hi>
                            </quote>«.</p>
@@ -67,18 +71,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb1246">Millstatt</placeName>
-                    <date when="1922-05-13" n="01">13. 5. 1922</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb1246">Millstatt</placeName>
+                    <date when="1922-05-13" n="01">13.&#160;5.&#160;1922</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1921-05-29_01">Schnitzler an Adam, 29. 5. 1921</ptr>
-               <ptr type="next" subtype="toAuthor" target="1927-03-21_01">Adam an Schnitzler, 21. 3. 1927</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1921-05-29_01">Schnitzler an Adam, 29.&#160;5.&#160;1921</ptr>
+               <ptr type="next" subtype="toAuthor" target="1927-03-21_01">Adam an Schnitzler, 21.&#160;3.&#160;1927</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -89,31 +93,12 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="OGL Adam, Robert Polack 60. Geburtstag.pdf"/>
-                  <hi rend="latintype">
-                     <placeName key="pmb1246">Millstatt</placeName>
-                  </hi>,
-                        den <date>13. <hi rend="latintype">Mai</hi> 1922</date>
-               </dateline>
-                    <salute rend="center">Hochverehrter Herr Doktor!</salute>
-            </opener>
-                <p>Geſtatten Sie mir, mich mit dieſen Zeilen dem Reigen der Gratulanten
-                    anzuſchließen, der Ihren kommenden 60. Geburtstag als einen für <placeName key="pmb41240">
-                  <country>Öſterreich</country>
-               </placeName> und
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="OGL Adam, Robert Polack 60. Geburtstag.pdf"/><hi rend="latintype"><rs ref="#pmb1246" type="place">Millstatt</rs></hi>,
+                        den <date>13.&#160;<hi rend="latintype">Mai</hi> 1922</date></dateline><salute rend="center">Hochverehrter Herr Doktor!</salute></opener><p>Geſtatten Sie mir, mich mit dieſen Zeilen dem Reigen der Gratulanten
+                    anzuſchließen, der Ihren kommenden 60. Geburtstag als einen für <rs ref="#pmb41240" type="place"><country>Öſterreich</country></rs> und
                     die deutſche Literatur freudigen Werktag feiert. Wie ſehr ich Ihre Arbeiten
                     ſchätze, brauche ich Ihnen bei dieſem Anlaß wohl nicht zu wiederholen. Möge es
                     Ihnen vergönnt ſein, <pb facs="OGL Adam, Robert Polack 60. Geburtstag.pdf"/>noch viele Jahre hindurch Ihr Weſen in Werken auszuſchöpfen und uns die ſüße
-                    Reife Ihrer Kunſt genießen zu laſſen.</p>
-                <p>Nehmen Sie meine herzlichſten Grüße und Empfehlungen entgegen!</p>
-                <closer>Ihr ergebener<lb/>
-                    <signed>D<hi rend="superscript">r</hi>RAdam</signed>
-                </closer>
-            </div>
-        </body>
+                    Reife Ihrer Kunſt genießen zu laſſen.</p><p>Nehmen Sie meine herzlichſten Grüße und Empfehlungen entgegen!</p><closer>Ihr ergebener<lb/><signed>D<hi rend="superscript">r</hi>RAdam</signed></closer></div></body>
     </text>
 </TEI>

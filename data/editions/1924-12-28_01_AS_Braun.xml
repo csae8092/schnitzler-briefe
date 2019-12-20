@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1924-12-28_01_AS_Braun">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1924-12-28_01_AS_Braun">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Felix Braun, 28. 12. 1924</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Felix Braun, 28.&#160;12.&#160;1924</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -54,15 +58,15 @@
                                <p>eh. Postkarte, ovaler Absenderkleber: »<quote>
                                    <p>A. S.</p>
                                    <p>
-                                       <placeName key="pmb68">Wien, XVIII.</placeName>
+                                       <rs ref="#pmb68" type="place">Wien, XVIII.</rs>
                                    </p>
                                    <p>
-                                       <placeName key="pmb150">Sternwartestr. 71</placeName>
+                                       <rs ref="#pmb150" type="place">Sternwartestr.&#160;71</rs>
                                    </p>
                                </quote>«, Lateinschrift. Die falsche Hausnummer von unbekannter Hand durchgestrichen und mit Bleistift mit »<quote>191</quote>« ersetzt. </p>
                                <stamp n="1">
-                                   <placeName key="pmb68">18/1 Wien 110</placeName>
-                                   <date when="1924-12-29">29. XII. 24</date>
+                                   <rs ref="#pmb68" type="place">18/1 Wien 110</rs>
+                                   <date when="1924-12-29">29.&#160;XII.&#160;24</date>
                                    <time>17</time>
                                </stamp>
                            </physDesc>
@@ -77,13 +81,13 @@
          </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1924-12-28" n="01"> 28. 12. 1924</date>
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1924-12-28" n="01"> 28.&#160;12.&#160;1924</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="pmb11002">Braun, Felix</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                    <persName ref="#pmb11002">Braun, Felix</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -93,35 +97,8 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>Hrn</addrLine>
-                    <addrLine>Felix Braun</addrLine>
-                    <addrLine>
-                  <placeName key="pmb69">Wien XIX</placeName>
-               </addrLine>
-                    <addrLine>
-                  <placeName key="pmb1092">Sieveringer Straße 99</placeName>
-               </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="Wienbibliothek H.I.N.-198047_rs.tif"/>
-                  <date>28. 12. 24</date>
-               </dateline>
-                    <salute>lieber und verehrter Herr Braun, </salute>    
-                </opener>                         
-                <p>schönsten Dank für das neue Buch – die »<workName key="pmb29941">Else</workName>« (Sie
+        <body><div type="address"><address><addrLine>Hrn</addrLine><addrLine>Felix Braun</addrLine><addrLine><rs ref="#pmb69" type="place">Wien XIX</rs></addrLine><addrLine><rs ref="#pmb1092" type="place">Sieveringer Straße 99</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Wienbibliothek H.I.N.-198047_rs.tif"/><date>28.&#160;12.&#160;24</date></dateline><salute>lieber und verehrter Herr Braun, </salute></opener><p>schönsten Dank für das neue Buch – die »<rs ref="#pmb29941" type="work">Else</rs>« (Sie
                 hätten das zweite Exemplar auch von mir direct haben können) ist nun
-                hoffentlich richtig in Ihrem<pb facs="Wienbibliothek H.I.N.-198047_rs.tif"/> Besitz gelangt.</p>
-                <closer>Herzliche Neujahrsgrüße!<lb/>Ihr<lb/>
-               <signed>Arthur Schnitzler</signed>
-            </closer>
-                                                               
-            </div>
-        </body>
+                hoffentlich richtig in Ihrem<pb facs="Wienbibliothek H.I.N.-198047_rs.tif"/> Besitz gelangt.</p><closer>Herzliche Neujahrsgrüße!<lb/>Ihr<lb/><signed>Arthur Schnitzler</signed></closer></div></body>
     </text>
 </TEI>

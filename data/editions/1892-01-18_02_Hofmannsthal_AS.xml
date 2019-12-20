@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-01-18_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-01-18_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 18. 1. 1892</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 18.&#160;1.&#160;1892</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Postkarte, Bleistift. Von Schnitzler jeweils auf der Text-
@@ -57,13 +61,13 @@
                                     </quote>«. Von unbekannter Hand mit Bleistift nummeriert:
                                         »<quote>16</quote>«.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb50">Wien 3/1</placeName>
-                                    <date>18. 1. 92</date>
+                                    <rs ref="#pmb50" type="place">Wien 3/1</rs>
+                                    <date>18.&#160;1. 92</date>
                                     <time>1-2V</time>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb50">Wien Kärntnerring</placeName>
-                                    <date>18. 1. 92</date>
+                                    <rs ref="#pmb50" type="place">Wien Kärntnerring</rs>
+                                    <date>18.&#160;1. 92</date>
                                     <time>1-2N</time>
                                 </stamp>
                             </physDesc>
@@ -73,8 +77,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -93,18 +97,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1892-01-18" n="02">18. 1. 1892</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1892-01-18" n="02">18.&#160;1.&#160;1892</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1892-01-12_02">Hofmannsthal an Schnitzler, 12. 1. 1892</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-01-25_01">Hofmannsthal an Schnitzler, [25. –29. 1. 1892?]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1892-01-12_02">Hofmannsthal an Schnitzler, 12.&#160;1.&#160;1892</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-01-25_01">Hofmannsthal an Schnitzler, [25.&#160;–29.&#160;1.&#160;1892?]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -120,48 +124,11 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00036"/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00036"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="pmb501">I Kärnthnerring 12</placeName>
-                            <space unit="chars" quantity="7"/>Wien</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">2 Stiege 3 Stock</hi>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute rend="inline">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00035"/>Geſchätzter
-                        Herr.</salute>
-                </opener>
-                <p>
-                    <anchor type="commentary" xml:id="G23"/>
-               <date>Dienſtag</date>
-               <note type="commentary" xml:id="G23h">der 19. 1.</note> um <date>12 Uhr</date> bin
-                    ich ſehr natürlich in der <rs type="place" key="pmb1273">Schule</rs>, dann mache
+        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00036"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb501" type="place">I Kärnthnerring 12</rs><space unit="chars" quantity="7"/>Wien</hi></addrLine><addrLine><hi rend="latintype">2 Stiege 3 Stock</hi></addrLine></address></div><div type="writingSession" n="1"><opener><salute rend="inline"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00035"/>Geſchätzter
+                        Herr.</salute></opener><p><anchor type="commentary" xml:id="G23"/><date>Dienſtag</date><note type="commentary" xml:id="G23h">der 19. 1.</note> um <date>12 Uhr</date> bin
+                    ich ſehr natürlich in der <rs type="place" ref="#pmb1273" subtype="implied">Schule</rs>, dann mache
                     ich Aufgaben und von <time>3–4</time> habe ich Deutſchſtunde. Aber
-                        <date>Mittwoch</date> um <time>½ 1</time> möchte ich ins <placeName key="pmb1274">
-                        <hi rend="latintype">Hotel Kummer</hi>
-                    </placeName> kommen können. Wenn Sie mir nicht mehr antworten, betrachte ich
-                    dieſen Antrag als abgelehnt und komme erſt <hi rend="latintype">
-                        <date>Freitag</date>
-                    </hi>
-                    <space unit="chars" quantity="1"/>
-                    <time>2 Uhr</time> zu <persName key="pmb14756">
-                        <hi rend="latintype">Bératon</hi>
-                    </persName> ſitzen.</p>
-                <closer>
-                    <signed>Loris</signed>
-                </closer>
-            </div>
-        </body>
+                        <date>Mittwoch</date> um <time>½&#160;1</time> möchte ich ins <rs ref="#pmb1274" type="place"><hi rend="latintype">Hotel Kummer</hi></rs> kommen können. Wenn Sie mir nicht mehr antworten, betrachte ich
+                    dieſen Antrag als abgelehnt und komme erſt <hi rend="latintype"><date>Freitag</date></hi><space unit="chars" quantity="1"/><time>2 Uhr</time> zu <rs ref="#pmb14756" type="person"><hi rend="latintype">Bératon</hi></rs> ſitzen.</p><closer><signed>Loris</signed></closer></div></body>
     </text>
 </TEI>

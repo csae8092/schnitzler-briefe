@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-05-17_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-05-17_01_Hofmannsthal_AS">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 17. 5. [1896]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 17.&#160;5.&#160;[1896]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -48,10 +51,10 @@
                                 <country>UK</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief mit aufgeprägtem Wappen, 1 Bl., 4 S. Von unbekannter
+                                <p>eh. Brief mit aufgeprägtem Wappen, 1&#160;Bl., 4&#160;S. Von unbekannter
                                     Hand nummeriert: »<quote>1</quote>«.</p>
                             </physDesc>
                         </msDesc>
@@ -60,8 +63,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -74,8 +77,8 @@
                     </biblStruct>
                     <biblStruct corresp="HBAS">
                         <monogr>
-                            <author key="pmb10815">Bahr, Hermann</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10815">Bahr, Hermann</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel, Aufzeichnungen, Dokumente
                                 (1891–1931)</title>
                             <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
@@ -95,18 +98,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb636">Tlumatsch/Tłumacz</placeName>
-                    <date when="1896-05-17" n="01">17. 5. [1896]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb636">Tlumatsch/Tłumacz</placeName>
+                    <date when="1896-05-17" n="01">17.&#160;5.&#160;[1896]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">[Wien]</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">[Wien]</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-03-13_01">Hofmannsthal an Schnitzler, 13. 3. 1896</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-05-23_01">Schnitzler an Hofmannsthal, 23. 5. 1896</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-03-13_01">Hofmannsthal an Schnitzler, 13.&#160;3.&#160;1896</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-05-23_01">Schnitzler an Hofmannsthal, 23.&#160;5.&#160;1896</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -123,62 +126,34 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00002"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00001"/>
-                        <placeName key="pmb636">
-                            <hi rend="latintype">
-                                <anchor type="commentary" xml:id="KL435-2"/>Tłumacz<note type="commentary" xml:id="KL435-2h">Hugo von Hofmannsthal
-                                    leistete im <date>Mai 1896</date> seinen Militärdienst in
-                                    Tłumacz ab.</note> bei Stanislau</hi>
-                        </placeName>
-                        <space unit="chars" quantity="1"/>
-                        <hi rend="latintype">(<placeName key="pmb644">Galizien</placeName>)</hi>
-                        <lb/>
-                        <hi rend="latintype">K. u. K. 8<hi rend="superscript">tes</hi>
-                            Uhlanenregiment</hi>
-                        <lb/>
-                        <date>Sonntag 17<hi rend="superscript">ten</hi> Mai</date>.</dateline>
-                    <salute>lieber Arthur!</salute>
-                </opener>
-                <p>vor einer Woche hat mir meine <rs type="person" key="pmb18404">Mutter</rs>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00001"/><rs ref="#pmb636" type="place"><hi rend="latintype"><anchor type="commentary" xml:id="KL435-2"/>Tłumacz<note type="commentary" xml:id="KL435-2h">Hugo von Hofmannsthal
+                                    leistete im <date>Mai&#160;1896</date> seinen Militärdienst in
+                                    Tłumacz ab.</note> bei Stanislau</hi></rs><space unit="chars" quantity="1"/><hi rend="latintype">(<rs ref="#pmb644" type="place">Galizien</rs>)</hi><lb/><hi rend="latintype">K.&#160;u.&#160;K. 8<hi rend="superscript">tes</hi>
+                            Uhlanenregiment</hi><lb/><date>Sonntag 17<hi rend="superscript">ten</hi> Mai</date>.</dateline><salute>lieber Arthur!</salute></opener><p>vor einer Woche hat mir meine <rs type="person" ref="#pmb18404" subtype="implied">Mutter</rs>
                     geſchrieben, Sie hätten mit ihr geſprochen und ihr erzählt, daſs im Herbſt
-                    wieder ein <del rend="strikethrough">ein</del>
-                    <space unit="chars" quantity="1"/>
-                    <rs type="work" key="pmb29899">Stück</rs> von Ihnen aufgeführt werden wird. Das
+                    wieder ein <del rend="strikethrough">ein</del><space unit="chars" quantity="1"/><rs type="work" ref="#pmb29899" subtype="implied">Stück</rs> von Ihnen aufgeführt werden wird. Das
                     hat mich, wie es der Zufall manchmal bringt, ſo »hiſtoriſch« berührt. Die ganze
                     Zeit, ſeit wir uns kennen, iſt mir als ein ganzes eingefallen, wie eine
                     Landſchaft, <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00002"/>aber viel
                     merkwürdiger: als wenn man in einem Thal ſtünde und durch die Wände der Berge
-                    hindurch die andern Thäler gleichzeitig ſehen würde.</p>
-                <p>Auch der gute <persName key="pmb11485">Goldmann</persName> ist mir ſehr ſtark
+                    hindurch die andern Thäler gleichzeitig ſehen würde.</p><p>Auch der gute <rs ref="#pmb11485" type="person">Goldmann</rs> ist mir ſehr ſtark
                     eingefallen und ſein ſonderbares ſchmerzliches Leben. Es iſt merkwürdig, wie
                     ſtark man an Vergangenes denken kann, wenn man ſo allein und abgeſchnitten lebt,
-                    wie ich hier. Mir iſt eingefallen, wie mir der <persName key="pmb11485">Goldmann</persName> zum erſten Mal von <persName key="pmb12358">Nietzſche</persName> und von <persName key="pmb10815">Bahr</persName>
-                    erzählt hat, das ganze kleine <anchor type="commentary" xml:id="KL435-1"/>Redactionszimmer<note type="commentary" xml:id="KL435-1h">
-                        <persName key="pmb11485">Goldmann</persName> war bis <date>1890</date>
-                        Redakteur der Zeitschrift <workName key="pmb35860">An der schönen blauen
-                            Donau</workName>, in der <persName key="pmb2121">Schnitzler</persName>
+                    wie ich hier. Mir iſt eingefallen, wie mir der <rs ref="#pmb11485" type="person">Goldmann</rs> zum erſten Mal von <rs ref="#pmb12358" type="person">Nietzſche</rs> und von <rs ref="#pmb10815" type="person">Bahr</rs>
+                    erzählt hat, das ganze kleine <anchor type="commentary" xml:id="KL435-1"/>Redactionszimmer<note type="commentary" xml:id="KL435-1h"><rs ref="#pmb11485" type="person">Goldmann</rs> war bis <date>1890</date>
+                        Redakteur der Zeitschrift <rs ref="#pmb35860" type="work">An der schönen blauen
+                            Donau</rs>, in der <rs ref="#pmb2121" type="person">Schnitzler</rs>
                         einige frühe Texte publizierte.</note> und unſre <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00002"/>erſten Begegnungen, und
                     alles kommt mir ſo unglaublich vergangen vor und ſo nett und altmodiſch wie eine
-                    Geſchichte aus der <persName key="pmb4332">Jean Paul</persName>-Zeit. <hi rend="underline" n="1">Wir haben doch in dieſen paar Jahren ſehr viele
+                    Geſchichte aus der <rs ref="#pmb4332" type="person">Jean Paul</rs>-Zeit. <hi rend="underline" n="1">Wir haben doch in dieſen paar Jahren ſehr viele
                         ſchöne Stunden gehabt.</hi> Wir haben ſehr oft das Leben reich und groß
                     geſehen und waren im Stande, viele Dinge auf einander zu beziehen, und immer hat
                     ſichs wieder verändert, das war das ſchönſte. <anchor type="label" xml:id="LL435-1">Auch daſs wir voneinander nicht gar zu viel wiſſen und
                         immer <del rend="strikethrough">ein</del> jeder <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00001"/>wie ein Neuer aus ſeinem
-                        Leben hervortritt und wieder hinein geht, ist ſehr ſchön.</anchor>
-                </p>
-                <p>Über meinen augenblicklichen Zuſtand will ich lieber nichts erzählen: die Station
+                        Leben hervortritt und wieder hinein geht, ist ſehr ſchön.</anchor></p><p>Über meinen augenblicklichen Zuſtand will ich lieber nichts erzählen: die Station
                     iſt von einer teufliſchen Häſslichkeit, die Menſchen nicht recht erfreulich, das
-                    Wetter fortwährend elend. Ich habe einige Bändchen <persName key="pmb4336">Platon</persName> mit, auch den <persName key="pmb4337">Pindar</persName>
-                    und den unerſchöpflichen erſten Band von <persName key="pmb11461">Goethe</persName>: die Lieder, die Elegien, und die Sprüche. Ich freue mich
-                    im ſtillen (wenn auch mit Zweifeln) Ihr neues <rs type="work" key="pmb29899">Stück</rs> noch im <date>Juni</date> bei der <persName key="pmb24686">Tini</persName> zu hören.</p>
-                <closer>Herzlich Ihr<lb/>
-                    <signed>Hugo.</signed>
-                </closer>
-            </div>
-        </body>
+                    Wetter fortwährend elend. Ich habe einige Bändchen <rs ref="#pmb4336" type="person">Platon</rs> mit, auch den <rs ref="#pmb4337" type="person">Pindar</rs>
+                    und den unerſchöpflichen erſten Band von <rs ref="#pmb11461" type="person">Goethe</rs>: die Lieder, die Elegien, und die Sprüche. Ich freue mich
+                    im ſtillen (wenn auch mit Zweifeln) Ihr neues <rs type="work" ref="#pmb29899" subtype="implied">Stück</rs> noch im <date>Juni</date> bei der <rs ref="#pmb24686" type="person">Tini</rs> zu hören.</p><closer>Herzlich Ihr<lb/><signed>Hugo.</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1905-10-13_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1905-10-13_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 13. 10. 1905</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 13.&#160;10.&#160;1905</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,17 +85,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>                
-               <!--<placeName key="pmb50">Wien</placeName>-->
-               <date when="1905-10-13" n="01">13. 10. 1905</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>                
+               <!--<placeName ref="#pmb50">Wien</placeName>-->
+               <date when="1905-10-13" n="01">13.&#160;10.&#160;1905</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1905-10-03_01">Schnitzler an Hofmannsthal, 3. 10. 1905</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1905-10-03_01">Schnitzler an Hofmannsthal, 3.&#160;10.&#160;1905</ptr>
                <ptr type="next" subtype="toAuthor" target="1905_02">Hofmannsthal, Hofmannsthal an Schnitzler, 1905</ptr>
             </correspContext>
          </correspDesc>
@@ -101,15 +105,9 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p>
-               <salute>Lieber, </salute>ich höre eben von I da, daß Sie nach der Première paar Tage weg wollen.
-   Nun ich habe größte Lust und Bedürfnis eben falls ab Freitag oder Samstag wegzugehen. <placeName key="pmb189">Semmering</placeName> oder sonst, jedenfalls nicht weit, aber gute stärkende Luft.
+      <body><div type="writingSession" n="1"><p><salute>Lieber, </salute>ich höre eben von I da, daß Sie nach der Première paar Tage weg wollen.
+   Nun ich habe größte Lust und Bedürfnis eben falls ab Freitag oder Samstag wegzugehen. <rs ref="#pmb189" type="place">Semmering</rs> oder sonst, jedenfalls nicht weit, aber gute stärkende Luft.
    Wie schön wäre es endlich wieder beisammen zu sei n! Schreiben Sie mir gleich, hoffentlich gehts
-   zusammen. </p>
-            <closer>Hugo</closer>
-         </div>
-      </body>
+   zusammen. </p><closer>Hugo</closer></div></body>
    </text>
 </TEI>

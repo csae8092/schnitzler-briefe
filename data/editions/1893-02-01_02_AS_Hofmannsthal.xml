@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-02-01_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-02-01_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, [1. 2. 1893]</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, [1.&#160;2.&#160;1893]</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -69,8 +73,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -89,18 +93,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1893-02-01" n="02">[1. 2. 1893]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1893-02-01" n="02">[1.&#160;2.&#160;1893]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-01-30_02">Hofmannsthal an Schnitzler, [30.? 1. 1893]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-02-02_02">Hofmannsthal an Schnitzler, 2. 2. [1893]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-01-30_02">Hofmannsthal an Schnitzler, [30.?&#160;1.&#160;1893]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-02-02_02">Hofmannsthal an Schnitzler, 2.&#160;2. [1893]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -117,45 +121,27 @@
         <graphic url="Hs-30885,33_002.TIF"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="Hs-30885,33_001.TIF"/>Mein lieber Hugo,</salute>
-                </opener>
-                <p>
-                    <persName key="pmb2450">Fels</persName> befindet ſich bereits beſſer; ernſtere
-                    Beſorgniſſe ſind nun wohl auszuſchließen. Hingegen wäre nunmehr Ihre ſ. Z.
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="Hs-30885,33_001.TIF"/>Mein lieber Hugo,</salute></opener><p><rs ref="#pmb2450" type="person">Fels</rs> befindet ſich bereits beſſer; ernſtere
+                    Beſorgniſſe ſind nun wohl auszuſchließen. Hingegen wäre nunmehr Ihre ſ.&#160;Z.
                     beſprochene Liebenswürdigkeit ſehr erwünſcht, u die Idee mit den Freunden ohne
                         Namensne<c rendition="#gemination-n"/>ung iſt ſehr gut, und raſcher
-                    Durchführung zu empfehlen. –</p>
-                <p>Die Arbeit <persName key="pmb2147">Engländer</persName>s iſt über <workName key="pmb31157">Sölneß</workName>; <persName key="pmb2420">Schick</persName>
-                    richtete das Ihnen übermittelte Erſuchen an mich. –</p>
-                <p>Was ſoll ich der <orgName key="pmb29614">akad. Vereinigung</orgName> ins <rs type="work" key="pmb29935">Exemplar</rs> ſchreiben, ich ke<c rendition="#gemination-n"/> mich da gar nicht aus? – <persName key="pmb4937">Teltſch</persName> erhält eins, <pb facs="Hs-30885,33_001.TIF"/>ſobald ich
-                    wieder welche von <orgName key="pmb29716">Berlin</orgName> beko<c rendition="#gemination-m"/>e, in ein paar Tagen; ich grüſs ihn herzlich. –
-                    Sah heute im <placeName key="pmb83">Gewerbemuſeum</placeName> Ihr <anchor type="commentary" xml:id="KL2145-2"/>
-                    <rs type="work" key="pmb33698">Relief</rs>
-                    <note type="commentary" xml:id="KL2145-2h">Das <rs type="work" key="pmb33698">Relief</rs> befindet sich heute in der <bibl>Sammlung Richard und Hilda
-                            Mises, <orgName key="pmb29616">Houghton Library</orgName>,
-                            Harvard</bibl>.</note>. Plötzlich lag es da, zwiſchen einem <placeName key="pmb1283">pompej</placeName>aniſchen Tiſchfuſs und einem <placeName key="pmb1145">Nürnberg</placeName>er Hanswurſt. – Ich glaube, es iſt ſehr
-                    gut, hab’ aber kein gutes Licht gehabt. –</p>
-                <p>
-                    <persName key="pmb2167">
-                        <hi rend="latintype">Salten</hi>
-                    </persName> ſoll <date>Mitte März</date> fort. – <anchor type="commentary" xml:id="KL2145-1"/>
-                    <workName key="pmb30195">Familie</workName> beendet<note type="commentary" xml:id="KL2145-1h">Das erlaubt die Datierung des Briefes nach dem
-                            <date>24. 1. 1893</date>, da dieser Tag sowohl im <workName key="pmb33243">Tagebuch</workName> wie am Manuskript (<bibl>Vgl.
-                                <workName>EV</workName> 508</bibl>) als Datum des Abschlusses
+                    Durchführung zu empfehlen.&#160;–</p><p>Die Arbeit <rs ref="#pmb2147" type="person">Engländer</rs>s iſt über <rs ref="#pmb31157" type="work">Sölneß</rs>; <rs ref="#pmb2420" type="person">Schick</rs>
+                    richtete das Ihnen übermittelte Erſuchen an mich.&#160;–</p><p>Was ſoll ich der <rs ref="#pmb29614" type="organisation">akad. Vereinigung</rs> ins <rs type="work" ref="#pmb29935" subtype="implied">Exemplar</rs> ſchreiben, ich ke<c rendition="#gemination-n"/> mich da gar nicht aus? – <rs ref="#pmb4937" type="person">Teltſch</rs> erhält eins, <pb facs="Hs-30885,33_001.TIF"/>ſobald ich
+                    wieder welche von <rs ref="#pmb29716" type="organisation">Berlin</rs> beko<c rendition="#gemination-m"/>e, in ein paar Tagen; ich grüſs ihn herzlich.&#160;–
+                    Sah heute im <rs ref="#pmb83" type="place">Gewerbemuſeum</rs> Ihr <anchor type="commentary" xml:id="KL2145-2"/><rs type="work" ref="#pmb33698" subtype="implied">Relief</rs><note type="commentary" xml:id="KL2145-2h">Das <rs type="work" ref="#pmb33698" subtype="implied">Relief</rs> befindet sich heute in der <bibl>Sammlung Richard und Hilda
+                            Mises, <rs ref="#pmb29616" type="organisation">Houghton Library</rs>,
+                            Harvard</bibl>.</note>. Plötzlich lag es da, zwiſchen einem <rs ref="#pmb1283" type="place">pompej</rs>aniſchen Tiſchfuſs und einem <rs ref="#pmb1145" type="place">Nürnberg</rs>er Hanswurſt.&#160;– Ich glaube, es iſt ſehr
+                    gut, hab’ aber kein gutes Licht gehabt.&#160;–</p><p><rs ref="#pmb2167" type="person"><hi rend="latintype">Salten</hi></rs> ſoll <date>Mitte März</date> fort.&#160;– <anchor type="commentary" xml:id="KL2145-1"/><rs ref="#pmb30195" type="work">Familie</rs> beendet<note type="commentary" xml:id="KL2145-1h">Das erlaubt die Datierung des Briefes nach dem
+                            <date>24.&#160;1.&#160;1893</date>, da dieser Tag sowohl im <rs ref="#pmb33243" type="work">Tagebuch</rs> wie am Manuskript (<bibl>Vgl.
+                                <rs type="work">EV</rs> 508</bibl>) als Datum des Abschlusses
                         genannt wird.</note>, traue mich nicht <del rend="overwritten">zu</del> ſie
                     durchzuleſen; fürchte mich vor der grauſamen Gewißheit. Abſicht: <date>Ende
                         Feber</date> auf 10–14 Tage in die Wärme, von der Klinik und dem grauen
-                    Leben weg, das <rs type="work" key="pmb30195">Stück</rs> im Koffer. <anchor type="commentary" xml:id="KL2145-3"/>Schreibe jetzt »<workName key="pmb31975">Verwandlungen</workName>«<note type="commentary" xml:id="KL2145-3h">Am <date>28. 1. 1893</date> nahm <persName key="pmb2121">Schnitzler</persName> die Arbeit an <workName key="pmb31975">Verwandlungen</workName> wieder auf, was, gemeinsam mit den Datierungen
+                    Leben weg, das <rs type="work" ref="#pmb30195" subtype="implied">Stück</rs> im Koffer. <anchor type="commentary" xml:id="KL2145-3"/>Schreibe jetzt »<rs ref="#pmb31975" type="work">Verwandlungen</rs>«<note type="commentary" xml:id="KL2145-3h">Am <date>28.&#160;1.&#160;1893</date> nahm <rs ref="#pmb2121" type="person">Schnitzler</rs> die Arbeit an <rs ref="#pmb31975" type="work">Verwandlungen</rs> wieder auf, was, gemeinsam mit den Datierungen
                         der vorangehenden zwei Korrespondenzstücke, auf die hier geantwortet wird,
                         nach vorne hin beschränkt. </note>, Novellette in Briefen, u gehe heut Abend
                     auf die <anchor type="commentary" xml:id="KL2145-4"/>Redoute<note type="commentary" xml:id="KL2145-4h">Finaler Hinweis zur Datierung: Am
-                            <date>1. 2. 1893</date> besuchte <persName key="pmb2121">Schnitzler</persName> die Redoute der <placeName key="pmb15">Hofoper</placeName>.</note>, weil ich ein Lebemann bin. – Ihr herzlich
-                    ergebener Arthur, welcher Sie bald zu ſehen und zu hören verlangt. –</p>
-            </div>
-        </body>
+                            <date>1.&#160;2.&#160;1893</date> besuchte <rs ref="#pmb2121" type="person">Schnitzler</rs> die Redoute der <rs ref="#pmb15" type="place">Hofoper</rs>.</note>, weil ich ein Lebemann bin.&#160;– Ihr herzlich
+                    ergebener Arthur, welcher Sie bald zu ſehen und zu hören verlangt.&#160;–</p></div></body>
     </text>
 </TEI>

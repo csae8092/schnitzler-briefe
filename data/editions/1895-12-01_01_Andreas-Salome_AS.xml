@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-12-01_01_Andreas-Salome_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1895-12-01_01_Andreas-Salome_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Lou Andreas-Salomé an Arthur Schnitzler, [1. 12. 1895]</title>
-                <author key="pmb10762">Andreas-Salomé, Lou</author>
+                <title level="a">Lou Andreas-Salomé an Arthur Schnitzler, [1.&#160;12.&#160;1895]</title>
+                <author ref="#pmb10762">Andreas-Salomé, Lou</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,12 +52,12 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 3</idno>
+                                <idno>Schnitzler, B&#160;3</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., schwarze Tinte. Von Schnitzler mit
                                     Bleistift datiert: »<quote>
-                                        <date>1/12 95</date>
+                                        <date>1/12&#160;95</date>
                                     </quote>«. Von unbekannter Hand mit rotem Buntstift nummeriert:
                                         »<quote>11.</quote>«.</p>
                             </physDesc>
@@ -67,18 +71,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb10762">Andreas-Salomé, Lou</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1895-12-01" n="01">[1. 12. 1895]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1895-12-01" n="01">[1.&#160;12.&#160;1895]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-11-25_02">Andreas-Salomé an Schnitzler, [25. –26.? 11. 1895]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-12-08_01">Andreas-Salomé an Schnitzler, 8. 12. 1895</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-11-25_02">Andreas-Salomé an Schnitzler, [25.&#160;–26.?&#160;11.&#160;1895]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-12-08_01">Andreas-Salomé an Schnitzler, 8.&#160;12.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -93,30 +97,10 @@
         <graphic url="MS-SCHNITZLER-B-00003-000-00025"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00003-000-00025"/>
-                        <date>Sonntag</date>.</dateline>
-                    <salute>Lieber Herr <hi rend="latintype">D<hi rend="superscript">r</hi>
-                        </hi>,</salute>
-                </opener>
-                <p>am liebſten wäre es mir, wenn <add place="above">am Dienstag</add> Jemand von
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00003-000-00025"/><date>Sonntag</date>.</dateline><salute>Lieber Herr <hi rend="latintype">D<hi rend="superscript">r</hi></hi>,</salute></opener><p>am liebſten wäre es mir, wenn <add place="above">am Dienstag</add> Jemand von
                     Ihnen <hi n="1" rend="underline">nach</hi> Ihrem Theaterbeſuch mich vom
-                        <placeName key="pmb1101">
-                        <hi rend="latintype">Hôtel Royal</hi>
-                    </placeName> zum Nachtmahl im <placeName key="pmb34">
-                        <hi rend="latintype">Griensteidl</hi>
-                    </placeName> abholen könnte. Aber ich habe keine Ahnung ob das ein großer Umweg
-                    für Sie wäre, in dem Fall wage ich mich auch allein in’s <placeName key="pmb34">
-                        <hi rend="latintype">Griensteidl</hi>
-                    </placeName>, <del rend="strikethrough">f</del> wenn Sie mich wiſſen laſſen
-                    wollen um welche Zeit ich es thun ſoll.</p>
-                <closer>Mit herzlichen Grüßen Ihre<lb/>
-                    <signed>LouAS.</signed>
-                </closer>
-            </div>
-        </body>
+                        <rs ref="#pmb1101" type="place"><hi rend="latintype">Hôtel Royal</hi></rs> zum Nachtmahl im <rs ref="#pmb34" type="place"><hi rend="latintype">Griensteidl</hi></rs> abholen könnte. Aber ich habe keine Ahnung ob das ein großer Umweg
+                    für Sie wäre, in dem Fall wage ich mich auch allein in’s <rs ref="#pmb34" type="place"><hi rend="latintype">Griensteidl</hi></rs>, <del rend="strikethrough">f</del> wenn Sie mich wiſſen laſſen
+                    wollen um welche Zeit ich es thun ſoll.</p><closer>Mit herzlichen Grüßen Ihre<lb/><signed>LouAS.</signed></closer></div></body>
     </text>
 </TEI>

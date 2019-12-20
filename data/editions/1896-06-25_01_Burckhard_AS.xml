@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-06-25_01_Burckhard_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-06-25_01_Burckhard_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Max Burckhard an Arthur Schnitzler, 25. 6. 1896</title>
-                <author key="pmb11036">Burckhard, Max</author>
+                <title level="a">Max Burckhard an Arthur Schnitzler, 25.&#160;6.&#160;1896</title>
+                <author ref="#pmb11036">Burckhard, Max</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 20</idno>
+                                <idno>Schnitzler, B&#160;20</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., schwarze Tinte. Von Schnitzler nummeriert:
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., schwarze Tinte. Von Schnitzler nummeriert:
                                         »<quote>8</quote>«.</p>
                             </physDesc>
                         </msDesc>
@@ -64,18 +68,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11036">Burckhard, Max</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1896-06-25" n="02">25. 6. 1896</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11036">Burckhard, Max</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1896-06-25" n="02">25.&#160;6.&#160;1896</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-09-15_02">Burckhard an Schnitzler, 15. 9. 1895</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-10-27_01">Burckhard an Schnitzler, [zwischen 27. 10. und 1. 11. 1896]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-09-15_02">Burckhard an Schnitzler, 15.&#160;9.&#160;1895</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-10-27_01">Burckhard an Schnitzler, [zwischen 27.&#160;10. und 1.&#160;11.&#160;1896]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -90,37 +94,11 @@
         <graphic url="MS-SCHNITZLER-B-00020-000-00019.jpg"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p>
-                        <seg rend="left">
-                            <pb facs="MS-SCHNITZLER-B-00020-000-00019.jpg"/>
-                            <hi rend="pre-print">
-                                <placeName key="pmb14">k. k. Hofburgtheater</placeName>
-                                Direction</hi>
-                        </seg>
-                        <seg rend="right">
-                            <placeName key="pmb50">Wien</placeName>
-                            <space unit="chars" quantity="1"/>
-                            <date>25/6 96</date>
-                        </seg>
-                    </p>
-                    <salute>Sehr verehrter Herr Doctor!</salute>
-                </opener>
-                <p>Bezugnehmend auf unſere mündliche Rückſprache bin ich ſo frei, Ihnen die Komödie
-                        <anchor type="commentary" xml:id="KL948-1"/>
-                    <workName key="pmb33506 pmb33508" cert="medium">Der Glückspilz</workName>
-                    <note type="commentary" xml:id="KL948-1h">Unklar. Von <persName key="pmb2408">Alfred Capus</persName> kommen die zwei Stücke <workName key="pmb33506">Brignolle et sa fille</workName> (Uraufführung
-                            <date>23. 11. 1894</date>) und <workName key="pmb33508">Innocent</workName> (Uraufführung <date>7. 2. 1896</date>) in
-                        Frage.</note> von <persName key="pmb2408">
-                        <hi rend="latintype">Capus</hi>
-                    </persName> mit verbindlichem Danke für Ihre freundliche Bemühung
-                    zurückzuſenden.</p>
-                <closer>In aufrichtiger Verehrung<lb/>
-                    <signed>D<hi rend="superscript">r</hi>Burckhard</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs="MS-SCHNITZLER-B-00020-000-00019.jpg"/><hi rend="pre-print"><rs ref="#pmb14" type="place">k.&#160;k. Hofburgtheater</rs>
+                                Direction</hi></seg><seg rend="right"><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date>25/6&#160;96</date></seg></p><salute>Sehr verehrter Herr Doctor!</salute></opener><p>Bezugnehmend auf unſere mündliche Rückſprache bin ich ſo frei, Ihnen die Komödie
+                        <anchor type="commentary" xml:id="KL948-1"/><rs ref="#pmb33506 pmb33508" cert="medium" type="work">Der Glückspilz</rs><note type="commentary" xml:id="KL948-1h">Unklar. Von <rs ref="#pmb2408" type="person">Alfred Capus</rs> kommen die zwei Stücke <rs ref="#pmb33506" type="work">Brignolle et sa fille</rs> (Uraufführung
+                            <date>23.&#160;11.&#160;1894</date>) und <rs ref="#pmb33508" type="work">Innocent</rs> (Uraufführung <date>7.&#160;2.&#160;1896</date>) in
+                        Frage.</note> von <rs ref="#pmb2408" type="person"><hi rend="latintype">Capus</hi></rs> mit verbindlichem Danke für Ihre freundliche Bemühung
+                    zurückzuſenden.</p><closer>In aufrichtiger Verehrung<lb/><signed>D<hi rend="superscript">r</hi>Burckhard</signed></closer></div></body>
     </text>
 </TEI>

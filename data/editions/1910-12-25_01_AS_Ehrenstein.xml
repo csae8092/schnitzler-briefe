@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1910-12-25_01_AS_Ehrenstein">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1910-12-25_01_AS_Ehrenstein">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Albert Ehrenstein, 25. 12. 1910</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Albert Ehrenstein, 25.&#160;12.&#160;1910</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,11 +52,11 @@
                             <country>IL</country>           
                         <settlement>Jerusalem</settlement>
                             <repository>The National Library of Israel</repository>
-                            <idno>ARC. Ms. Var. 306 1 118</idno>
+                            <idno>ARC. Ms.&#160;Var. 306&#160;1&#160;118</idno>
                         </msIdentifier>
                         <physDesc>
                             <p>eh. Bildpostkarte, Motiv: »<pb facs="NLJ0011v.tif"/>
-                           <quote>Wasserfall im <placeName key="pmb113">Türkenschanzpark Wien XVIII/I</placeName>.</quote>« Von unbekannter
+                           <quote>Wasserfall im <rs ref="#pmb113" type="place">Türkenschanzpark Wien XVIII/I</rs>.</quote>« Von unbekannter
                             Hand nummeriert: »<quote>11</quote>«.</p>
                         </physDesc>
                     </msDesc>
@@ -65,18 +69,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1910-12-25" n="01">25. 12. 1910</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1910-12-25" n="01">25.&#160;12.&#160;1910</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11230">Ehrenstein, Albert</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11230">Ehrenstein, Albert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1910-10-09_01">Schnitzler an Ehrenstein, 9. 10. 1910</ptr>
-               <ptr type="next" subtype="toAuthor" target="1910-12-31_01">Ehrenstein an Schnitzler, 31. 12. 1910</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1910-10-09_01">Schnitzler an Ehrenstein, 9.&#160;10.&#160;1910</ptr>
+               <ptr type="next" subtype="toAuthor" target="1910-12-31_01">Ehrenstein an Schnitzler, 31.&#160;12.&#160;1910</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -87,34 +91,6 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>Hrn Dr. <hi rend="latintype">Albert Ehrenstein</hi>
-               </addrLine>
-                    <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb64">Wien XIV</placeName>
-                  </hi>
-               </addrLine>
-                    <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb300">Ottakringer Hptstr 114</placeName>.</hi>
-               </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <p>
-               <pb facs="NLJ0011r.tif"/>
-               <anchor type="commentary" xml:id="KL955-1"/>Gratulire<note type="commentary" xml:id="KL955-1h">Zur Promotion, die am <date>21. 12. 1910</date> stattgefunden hatte.</note> herzlichst.</p>
-                <closer>
-               <signed>ArthSch</signed>
-                </closer>
-                <postscript>
-               <dateline>
-                  <date>25. 12. 910</date>.</dateline>
-            </postscript>
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine>Hrn Dr. <hi rend="latintype">Albert Ehrenstein</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb64" type="place">Wien XIV</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb300" type="place">Ottakringer Hptstr&#160;114</rs>.</hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="NLJ0011r.tif"/><anchor type="commentary" xml:id="KL955-1"/>Gratulire<note type="commentary" xml:id="KL955-1h">Zur Promotion, die am <date>21.&#160;12.&#160;1910</date> stattgefunden hatte.</note> herzlichst.</p><closer><signed>ArthSch</signed></closer><postscript><dateline><date>25.&#160;12.&#160;910</date>.</dateline></postscript></div></body>
     </text>
 </TEI>

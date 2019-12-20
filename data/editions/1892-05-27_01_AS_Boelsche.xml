@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-05-27_01_AS_Boelsche">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-05-27_01_AS_Boelsche">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Wilhelm Bölsche, 27. 5. 1892</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Wilhelm Bölsche, 27.&#160;5.&#160;1892</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Böl.Pis 1765</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., schwarze Tinte. Von Bölsche als
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., schwarze Tinte. Von Bölsche als
                                             »<quote>Erl<supplied>edigt</supplied>
                                     </quote>« gezeichnet.</p>
                             </physDesc>
@@ -61,7 +65,7 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb11061">Bölsche, Wilhelm</author>
+                            <author ref="#pmb11061">Bölsche, Wilhelm</author>
                             <title level="m">Briefwechsel. Mit Autoren der Freien Bühne</title>
                             <editor>Hg. Gerd-Hermann Susen</editor>
                             <imprint>
@@ -84,18 +88,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1892-05-27" n="01">27. 5. 1892</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1892-05-27" n="01">27.&#160;5.&#160;1892</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11061">Bölsche, Wilhelm</persName>
-                    <placeName key="pmb168">Berlin</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
                 </correspAction>
             <correspContext>
                <ptr type="previous" subtype="toAuthor" target="1892-04_01">Bölsche an Schnitzler, [Anfang April 1892]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-07-24_01">Bölsche an Schnitzler, [24. 7. 1892]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-07-24_01">Bölsche an Schnitzler, [24.&#160;7.&#160;1892]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -111,34 +115,8 @@
         <!-- $$$$ Dateinamen müssen noch ergänzt werden! -->
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="Böl.Pis 1765"/>
-                        <placeName key="pmb50">Wien</placeName>.<lb/>
-                        <date>
-                            <hi rend="latintype">
-                                <date>27. Mai 92</date>
-                            </hi>
-                        </date>
-                    </dateline>
-                    <salute>Sehr geehrter Herr,</salute>
-                </opener>
-                <p>darf ich Sie noch einmal höflichſt darum bitten, mir vor dem Abdruck meiner an
-                    Sie geſandten <rs type="work" key="pmb30169">Skizze</rs> die Correcturbogen gef.
-                    ſenden zu laſſen? –</p>
-                <closer>Hochachtungsvoll<lb/>Ihr ſehr ergebner<lb/>
-                    <signed>
-                        <hi rend="latintype">Dr</hi> Arthur Schnitzler</signed>
-                </closer>
-                <postscript>
-                    <dateline>
-                        <placeName key="pmb542">
-                     <hi rend="latintype">I Giselastraße 11</hi>
-                  </placeName>.</dateline>
-                </postscript>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Böl.Pis 1765"/><rs ref="#pmb50" type="place">Wien</rs>.<lb/><date><hi rend="latintype"><date>27.&#160;Mai 92</date></hi></date></dateline><salute>Sehr geehrter Herr,</salute></opener><p>darf ich Sie noch einmal höflichſt darum bitten, mir vor dem Abdruck meiner an
+                    Sie geſandten <rs type="work" ref="#pmb30169" subtype="implied">Skizze</rs> die Correcturbogen gef.
+                    ſenden zu laſſen?&#160;–</p><closer>Hochachtungsvoll<lb/>Ihr ſehr ergebner<lb/><signed><hi rend="latintype">Dr</hi> Arthur Schnitzler</signed></closer><postscript><dateline><rs ref="#pmb542" type="place"><hi rend="latintype">I Giselastraße 11</hi></rs>.</dateline></postscript></div></body>
     </text>
 </TEI>

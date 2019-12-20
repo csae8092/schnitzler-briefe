@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1901-04-22_01_Andreas-Salome_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1901-04-22_01_Andreas-Salome_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Lou Andreas-Salomé an Arthur Schnitzler, [22. 4. 1901]</title>
-                <author key="pmb10762">Andreas-Salomé, Lou</author>
+                <title level="a">Lou Andreas-Salomé an Arthur Schnitzler, [22.&#160;4.&#160;1901]</title>
+                <author ref="#pmb10762">Andreas-Salomé, Lou</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 3</idno>
+                                <idno>Schnitzler, B&#160;3</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Briefkarte, schwarze Tinte. Von Schnitzler mit Bleistift
@@ -67,17 +71,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb10762">Andreas-Salomé, Lou</persName>
-                    <date when="1901-04-22" n="01">[22. 4. 1901]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
+                    <date when="1901-04-22" n="01">[22.&#160;4.&#160;1901]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-01-28_01">Andreas-Salomé an Schnitzler, 28. 1. 1896</ptr>
-               <ptr type="next" subtype="toAuthor" target="1906-02-19_01">Andreas-Salomé an Schnitzler, 19. 2. 1906</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-01-28_01">Andreas-Salomé an Schnitzler, 28.&#160;1.&#160;1896</ptr>
+               <ptr type="next" subtype="toAuthor" target="1906-02-19_01">Andreas-Salomé an Schnitzler, 19.&#160;2.&#160;1906</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -93,48 +97,16 @@
         <graphic url="MS-SCHNITZLER-B-00003-000-00040"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="MS-SCHNITZLER-B-00003-000-00039"/>Lieber Herr Doktor,</salute>
-                </opener>
-                <p>ſehr freu ich mich darüber, Ihr neues <rs type="work" key="pmb30486">Buch</rs> von
-                    Ihnen zu empfangen, nachdem ich die Bekanntſchaft mit Frau <rs type="work" key="pmb30486">
-                        <hi rend="latintype">Bertha Garlan</hi>
-                    </rs> und Frau <rs type="work" key="pmb30486">
-                        <hi rend="latintype">Rupius</hi>
-                    </rs> in der <anchor type="commentary" xml:id="KL732-1"/>
-                    <workName key="pmb36152">
-                        <hi rend="latintype">N. D. Rundschau</hi>
-                    </workName>
-                    <note type="commentary" xml:id="KL732-1h">Nachdem <workName key="pmb30486">Frau
-                            Bertha Garlan</workName> in drei Teilen zwischen <date>Januar</date> und
-                        <date>März 1901</date> in der <workName key="pmb36152">Neuen Deutschen
-                            Rundschau</workName> erschienen war, wurde die Buchausgabe <date>Mitte April</date>
-                        ausgeliefert (<bibl>
-                            <workName key="pmb30486">Frau Bertha Garlan</workName>. Roman. Berlin:
-                                <orgName key="pmb29639">S. Fischer</orgName>
-                            <space unit="chars" quantity="1"/>
-                            <date>1901</date>.)</bibl>
-                    </note> gemacht habe. Um Frau <rs type="work" key="pmb30486">
-                        <hi rend="latintype">Rupius</hi>
-                    </rs> focht ich ſogar mit <persName key="pmb5412">Frieda Bülow</persName> einen
-                    großen Streit aus; ich hielt es mit Herrn <rs type="work" key="pmb30486">
-                        <hi rend="latintype">Rupius</hi>
-                    </rs>.</p>
-                <p>Hoffentlich geht es Ihnen drüben in <placeName key="pmb50">Wien</placeName> ſo gut, wie mir hier, wo ich zwar nur zur Hälfte bin, denn <pb facs="MS-SCHNITZLER-B-00003-000-00040"/>am liebſten ſind mein <rs type="person" key="pmb5420">Mann</rs> und ich in <placeName key="pmb34438">
-                  <country>Rußland</country>
-               </placeName> und reiſen auch demnächſt wieder auf lange dorthin. Erſt ſeit ein
-                    paar Jahren kenne ich meine <placeName key="pmb34438">
-                  <country>ruſſiſche</country>
-               </placeName> Heimath in ihrem weitern Umkreis, mit ihren Landſchaften und
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00003-000-00039"/>Lieber Herr Doktor,</salute></opener><p>ſehr freu ich mich darüber, Ihr neues <rs type="work" ref="#pmb30486" subtype="implied">Buch</rs> von
+                    Ihnen zu empfangen, nachdem ich die Bekanntſchaft mit Frau <rs type="work" ref="#pmb30486" subtype="implied"><hi rend="latintype">Bertha Garlan</hi></rs> und Frau <rs type="work" ref="#pmb30486" subtype="implied"><hi rend="latintype">Rupius</hi></rs> in der <anchor type="commentary" xml:id="KL732-1"/><rs ref="#pmb36152" type="work"><hi rend="latintype">N. D. Rundschau</hi></rs><note type="commentary" xml:id="KL732-1h">Nachdem <rs ref="#pmb30486" type="work">Frau
+                            Bertha Garlan</rs> in drei Teilen zwischen <date>Januar</date> und
+                        <date>März 1901</date> in der <rs ref="#pmb36152" type="work">Neuen Deutschen
+                            Rundschau</rs> erschienen war, wurde die Buchausgabe <date>Mitte April</date>
+                        ausgeliefert (<bibl><rs ref="#pmb30486" type="work">Frau Bertha Garlan</rs>. Roman. Berlin:
+                                <rs ref="#pmb29639" type="organisation">S.&#160;Fischer</rs><space unit="chars" quantity="1"/><date>1901</date>.)</bibl></note> gemacht habe. Um Frau <rs type="work" ref="#pmb30486" subtype="implied"><hi rend="latintype">Rupius</hi></rs> focht ich ſogar mit <rs ref="#pmb5412" type="person">Frieda Bülow</rs> einen
+                    großen Streit aus; ich hielt es mit Herrn <rs type="work" ref="#pmb30486" subtype="implied"><hi rend="latintype">Rupius</hi></rs>.</p><p>Hoffentlich geht es Ihnen drüben in <rs ref="#pmb50" type="place">Wien</rs> ſo gut, wie mir hier, wo ich zwar nur zur Hälfte bin, denn <pb facs="MS-SCHNITZLER-B-00003-000-00040"/>am liebſten ſind mein <rs type="person" ref="#pmb5420" subtype="implied">Mann</rs> und ich in <rs ref="#pmb34438" type="place"><country>Rußland</country></rs> und reiſen auch demnächſt wieder auf lange dorthin. Erſt ſeit ein
+                    paar Jahren kenne ich meine <rs ref="#pmb34438" type="place"><country>ruſſiſche</country></rs> Heimath in ihrem weitern Umkreis, mit ihren Landſchaften und
                     Menſchen; ſeitdem weiß ich erſt, daß ſie meine Heimath iſt, und daß ich
-                    eigentlich dort lebe.</p>
-                <closer>Herzlichen Gruß Ihnen allen!<lb/>
-                    <signed>Frau Lou.</signed>
-                </closer>
-            </div>
-        </body>
+                    eigentlich dort lebe.</p><closer>Herzlichen Gruß Ihnen allen!<lb/><signed>Frau Lou.</signed></closer></div></body>
     </text>
 </TEI>

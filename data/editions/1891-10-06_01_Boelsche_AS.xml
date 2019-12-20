@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-10-06_01_Boelsche_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-10-06_01_Boelsche_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Wilhelm Bölsche an Arthur Schnitzler, 6. 10. 1891</title>
-                <author key="pmb11061">Bölsche, Wilhelm</author>
+                <title level="a">Wilhelm Bölsche an Arthur Schnitzler, 6.&#160;10.&#160;1891</title>
+                <author ref="#pmb11061">Bölsche, Wilhelm</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>A:Schnitzler, HS.NZ85.1.2577,2</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., schwarze Tinte. Von unbekannter Hand mit
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., schwarze Tinte. Von unbekannter Hand mit
                                     rotem Buntstift nummeriert: »<quote>2</quote>«.</p>
                             </physDesc>
                         </msDesc>
@@ -60,7 +64,7 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb11061">Bölsche, Wilhelm</author>
+                            <author ref="#pmb11061">Bölsche, Wilhelm</author>
                             <title level="m">Briefwechsel. Mit Autoren der Freien Bühne</title>
                             <editor>Hg. Gerd-Hermann Susen</editor>
                             <imprint>
@@ -83,18 +87,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11061">Bölsche, Wilhelm</persName>
-                    <placeName key="pmb168">Berlin</placeName>
-                    <date when="1891-10-06" n="01">6. 10. 1891</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
+                    <date when="1891-10-06" n="01">6.&#160;10.&#160;1891</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1891-08-03_01">Schnitzler an Bölsche, 3. 8. 1891</ptr>
-               <ptr type="next" subtype="toAuthor" target="1891-12-15_02">Bölsche an Schnitzler, 15. 12. 1891</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1891-08-03_01">Schnitzler an Bölsche, 3.&#160;8.&#160;1891</ptr>
+               <ptr type="next" subtype="toAuthor" target="1891-12-15_02">Bölsche an Schnitzler, 15.&#160;12.&#160;1891</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -110,37 +114,15 @@
         <!-- $$$$ Dateinamen müssen noch ergänzt werden! -->
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="HS.NZ85.1.2577,2"/>
-                        <placeName key="pmb1275">Friedrichshagen</placeName>
-                        <lb/>b. <placeName key="pmb168">Berlin</placeName>.<lb/>
-                        <placeName key="pmb1276">Wilhelmſtr 72</placeName>.<lb/>
-                        <date>6. X. 91</date>.</dateline>
-                    <salute rend="center">Hochgeehrter Herr Doktor!</salute>
-                </opener>
-                <p>Ich ſehe eben mit Bedauern, daß <anchor type="commentary" xml:id="KL1891-10-06_01_Boelsche_AS"/>mein <rs type="person" key="pmb3394">Stellvertreter</rs>
-                    <note type="commentary" xml:id="KL1891-10-06_01_Boelsche_ASh">
-                        <persName key="pmb3394">Julius Hart</persName> betreute die Redaktion der
-                            <workName key="pmb36149">Freien Bühne</workName> vom <date>26.
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="HS.NZ85.1.2577,2"/><rs ref="#pmb1275" type="place">Friedrichshagen</rs><lb/>b. <rs ref="#pmb168" type="place">Berlin</rs>.<lb/><rs ref="#pmb1276" type="place">Wilhelmſtr 72</rs>.<lb/><date>6.&#160;X.&#160;91</date>.</dateline><salute rend="center">Hochgeehrter Herr Doktor!</salute></opener><p>Ich ſehe eben mit Bedauern, daß <anchor type="commentary" xml:id="KL1891-10-06_01_Boelsche_AS"/>mein <rs type="person" ref="#pmb3394" subtype="implied">Stellvertreter</rs><note type="commentary" xml:id="KL1891-10-06_01_Boelsche_ASh"><rs ref="#pmb3394" type="person">Julius Hart</rs> betreute die Redaktion der
+                            <rs ref="#pmb36149" type="work">Freien Bühne</rs> vom <date>26.
                             August</date> bis zum <date>23. September</date>.</note> während meiner
                     mehrmonatlichen Abweſenheit Sie nicht benachrichtigt hat, daß Ihre Novelle
-                        »<workName key="pmb30257">Der Sohn</workName>« von mir angenommen worden
-                    war. Nur etwas warten muß ſie leider, das <anchor type="commentary" xml:id="KL2164-1"/>
-                    <rs type="work" key="pmb33690">Drama</rs>
-                    <note type="commentary" xml:id="KL2164-1h">
-                        <bibl>
-                            <persName key="pmb13169">Ernst von Wolzogen</persName>: <workName key="pmb33690">Das Lumpengesindel. Komödie in 5 Aufzügen</workName>.
-                            In: <workName key="pmb36149">Freie Bühne für modernes Leben</workName>,
-                            Jg. 2, H. 40–52, <date>7. 10. 1891</date> – <date>30. 10. 1891</date>
+                        »<rs ref="#pmb30257" type="work">Der Sohn</rs>« von mir angenommen worden
+                    war. Nur etwas warten muß ſie leider, das <anchor type="commentary" xml:id="KL2164-1"/><rs type="work" ref="#pmb33690" subtype="implied">Drama</rs><note type="commentary" xml:id="KL2164-1h"><bibl><rs ref="#pmb13169" type="person">Ernst von Wolzogen</rs>: <rs ref="#pmb33690" type="work">Das Lumpengesindel. Komödie in 5 Aufzügen</rs>.
+                            In: <rs ref="#pmb36149" type="work">Freie Bühne für modernes Leben</rs>,
+                            Jg.&#160;2, H.&#160;40–52, <date>7.&#160;10.&#160;1891</date> – <date>30.&#160;10.&#160;1891</date>
                             (13 Teile)</bibl>.</note>, das wir jetzt abdrucken, ſchiebt alle
-                    Novellen zurück.</p>
-                <closer>Mit vorzüglicher Hochachtung<lb/>
-                    <signed>Wilhelm Bölsche</signed>
-                </closer>
-            </div>
-        </body>
+                    Novellen zurück.</p><closer>Mit vorzüglicher Hochachtung<lb/><signed>Wilhelm Bölsche</signed></closer></div></body>
     </text>
 </TEI>

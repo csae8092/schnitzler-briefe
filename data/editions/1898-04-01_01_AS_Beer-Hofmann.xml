@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-04-01_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1898-04-01_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 1. 4. 1898</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 1.&#160;4.&#160;1898</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -53,17 +57,17 @@
                      <physDesc>
                         <p>eh. Briefkarte mit Umschlag, schwarze Tinte.</p>
                         <stamp n="1">
-                           <placeName key="pmb59">Wien 9/3</placeName>
-                           <date when="1898-04-01">1. 4. 98</date>
-                           <time>5–6 N</time>
+                           <rs ref="#pmb59" type="place">Wien 9/3</rs>
+                           <date when="1898-04-01">1.&#160;4.&#160;98</date>
+                           <time>5–6&#160;N</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb51">
-                              <supplied>Wi</supplied>en 1/1</placeName>
+                           <rs ref="#pmb51" type="place">
+                              <supplied>Wi</supplied>en 1/1</rs>
                            <date when="1898-04-02">
-                              <supplied>2.</supplied> 4. 98</date>
+                              <supplied>2.</supplied>&#160;4.&#160;98</date>
                            <time>
-                              <supplied>7–8</supplied>½ N</time>
+                              <supplied>7–8</supplied>½&#160;N</time>
                            <action>
                               <supplied>Best</supplied>ellt</action>
                         </stamp>
@@ -78,19 +82,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1898-04-01" n="01">1. 4. 1898</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1898-04-01" n="01">1.&#160;4.&#160;1898</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1898-04-02">2. 4. 1898</date>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1898-04-02">2.&#160;4.&#160;1898</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1898-03-22_01">Schnitzler an Beer-Hofmann, 22. 3. 1898</ptr>
-               <ptr type="next" subtype="toAuthor" target="1898-04-03_01">Beer-Hofmann an Schnitzler, 3. 4. 1898</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1898-03-22_01">Schnitzler an Beer-Hofmann, 22.&#160;3.&#160;1898</ptr>
+               <ptr type="next" subtype="toAuthor" target="1898-04-03_01">Beer-Hofmann an Schnitzler, 3.&#160;4.&#160;1898</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -107,39 +111,11 @@
       <graphic url="1898_AS_RBH_1_00041.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1898_AS_RBH_1_00037.jpeg"/>Herrn <hi rend="latintype">Dr. Rich.
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb50">Wien</placeName>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb338">
-                     <hi rend="latintype">I.
-                     Wollzeile 15</hi>
-                  </placeName>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="1898_AS_RBH_1_00040.jpeg"/>
-               <salute>Lieber Richard, </salute>verſäumen Sie gewiſs nicht, an <persName key="pmb11485">Paul</persName> (<placeName key="pmb994">
-                  <hi rend="latintype">Genua</hi>
-               </placeName>, <hi rend="latintype">ferma in posta</hi>), natürlich
-               gleich, ein paar Worte des <anchor type="commentary" xml:id="KLM20191125-1"/>Abſchieds<note type="commentary" xml:id="KLM20191125-1h">
-                  <persName key="pmb11485">Goldmann</persName> bestieg am
-                     <date>5. 4. 1898</date> in <placeName key="pmb994">Genua</placeName> ein Schiff nach <placeName key="pmb1108">China</placeName>.</note> zu ſchreiben. – Laſſen Sie mich wegen So<c rendition="#gemination-n"/>tag was <pb facs="1898_AS_RBH_1_00041.jpeg"/>wiſſen,
-                  we<c rendition="#gemination-n"/> Sie frei ſind. –</p>
-            <p>Im Fall ſchlechten Wetters bin ich übrigens <date>Samſtg</date> Abds im <placeName key="pmb819">Pucher</placeName>.</p>
-            <closer>Herzlichſt Ihr <lb/>
-               <signed>Arthur</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="1898_AS_RBH_1_00037.jpeg"/>Herrn <hi rend="latintype">Dr. Rich.
+                     Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb338" type="place"><hi rend="latintype">I.
+                     Wollzeile 15</hi></rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1898_AS_RBH_1_00040.jpeg"/><salute>Lieber Richard, </salute>verſäumen Sie gewiſs nicht, an <rs ref="#pmb11485" type="person">Paul</rs> (<rs ref="#pmb994" type="place"><hi rend="latintype">Genua</hi></rs>, <hi rend="latintype">ferma in posta</hi>), natürlich
+               gleich, ein paar Worte des <anchor type="commentary" xml:id="KLM20191125-1"/>Abſchieds<note type="commentary" xml:id="KLM20191125-1h"><rs ref="#pmb11485" type="person">Goldmann</rs> bestieg am
+                     <date>5.&#160;4.&#160;1898</date> in <rs ref="#pmb994" type="place">Genua</rs> ein Schiff nach <rs ref="#pmb1108" type="place">China</rs>.</note> zu ſchreiben.&#160;– Laſſen Sie mich wegen So<c rendition="#gemination-n"/>tag was <pb facs="1898_AS_RBH_1_00041.jpeg"/>wiſſen,
+                  we<c rendition="#gemination-n"/> Sie frei ſind.&#160;–</p><p>Im Fall ſchlechten Wetters bin ich übrigens <date>Samſtg</date> Abds im <rs ref="#pmb819" type="place">Pucher</rs>.</p><closer>Herzlichſt Ihr <lb/><signed>Arthur</signed></closer></div></body>
    </text>
 </TEI>

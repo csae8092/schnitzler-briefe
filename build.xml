@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project default="xar" name="arthur-schnitzler-briefe">
+<project default="xar" name="schnitzler-briefe">
     <xmlproperty file="expath-pkg.xml"/>
     <property name="project.version" value="${package(version)}"/>
-    <property name="project.app" value="arthur-schnitzler-briefe"/>
+    <property name="project.app" value="schnitzler-briefe"/>
     <property name="build.dir" value="build"/>
     <target name="xar">
         <mkdir dir="${build.dir}"/>

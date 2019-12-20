@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1906-06-24_01_AS_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1906-06-24_01_AS_Bahr">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 24. –25. 6. 1906</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 24.&#160;–25.&#160;6.&#160;1906</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -52,7 +56,7 @@
                         <idno>HS AM 23379 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 2 Bl., 7 S.</p>
+                        <p>eh. Brief, 2&#160;Bl., 7&#160;S.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,7 +64,7 @@
             <listBibl>
                <biblStruct corresp="ASB1">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefe 1875–1912</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -73,11 +77,11 @@
                </biblStruct>
                <biblStruct corresp="DASB">
                   <analytic>
-                     <title level="a">24. 6. 1906</title>
+                     <title level="a">24.&#160;6.&#160;1906</title>
       
                   </analytic>
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint> 
@@ -94,8 +98,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -113,17 +117,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1906-06-24" n="01">24. –25. 6. 1906</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1906-06-24" n="01">24.&#160;–25.&#160;6.&#160;1906</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1906-06-21_01">Bahr an Schnitzler, 21. 6. 1906</ptr>
-               <ptr type="next" subtype="toAuthor" target="1906-07-04_01">Bahr an Schnitzler, 4. 7. 1906</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1906-06-21_01">Bahr an Schnitzler, 21.&#160;6.&#160;1906</ptr>
+               <ptr type="next" subtype="toAuthor" target="1906-07-04_01">Bahr an Schnitzler, 4.&#160;7.&#160;1906</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -141,55 +145,29 @@
      <graphic url="HS_AM23379Ba_2_R"/>     
   </facsimile>
   <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb50">Wien</placeName>, <date>24. 6. 90<unclear>6</unclear>
-                  </date>
-               </dateline>
-               <salute>lieber Hermann, </salute>
-            </opener>
-            <p>ich finde deinen neuen <rs type="work" key="pmb29913">Einakter</rs> sehr interessant; fesselnd vom e<damage agent="hole">
-                  <supplied>rst</supplied>
-               </damage>en
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb50" type="place">Wien</rs>, <date>24.&#160;6.&#160;90<unclear>6</unclear></date></dateline><salute>lieber Hermann, </salute></opener><p>ich finde deinen neuen <rs type="work" ref="#pmb29913" subtype="implied">Einakter</rs> sehr interessant; fesselnd vom e<damage agent="hole"><supplied>rst</supplied></damage>en
           bis zum letzten Wort, und halte (wenn es nicht zu einem Skandal kommt, was man
           bei Bahren und Faunen nie wissen kann) auch eine starke Bühnenwirkung für
-          wahrscheinlich. (Deine 3 Einakter müssten zusammen gegeben werden; <workName key="pmb29913">Faun</workName> zum Schluss, <workName key="pmb30001">Narr</workName> zu Anfang, das »du kannst ja mitkommen«, <pb facs="HS_AM23379Ba_1_R"/>der Helmine
-          am Schluss bekäme dann seine besondre Bedeutung.) </p>
-            <p>Man denkt natürlich so ein Stück weiter, wie man wirkliche Erlebnisse weiter
-          phantasirt, und so habe ich auch einen zwei<damage agent="hole">
-                  <supplied>ten</supplied>
-               </damage> u
+          wahrscheinlich. (Deine 3 Einakter müssten zusammen gegeben werden; <rs ref="#pmb29913" type="work">Faun</rs> zum Schluss, <rs ref="#pmb30001" type="work">Narr</rs> zu Anfang, das »du kannst ja mitkommen«, <pb facs="HS_AM23379Ba_1_R"/>der Helmine
+          am Schluss bekäme dann seine besondre Bedeutung.) </p><p>Man denkt natürlich so ein Stück weiter, wie man wirkliche Erlebnisse weiter
+          phantasirt, und so habe ich auch einen zwei<damage agent="hole"><supplied>ten</supplied></damage> u
           dritten Akt gesehen, die man vorläufig nicht wird spielen können. Der zweite Akt
           auf der steilen Bergwiese. Falls du ihn schreiben solltest, rathe ich dir, ihn
-          nicht von <persName key="pmb12050">Lessing</persName> inszenieren zu lassen, der
-          Orgien nur ein mäßiges Verständnis entgegenbringt, was <pb facs="HS_AM23379Ba_2"/>sich im 4. Akt der
-            <workName key="pmb29857">
-                  <hi rend="latintype">Beatrice</hi>
-               </workName>
-               <space unit="chars" quantity="1"/>
-               <anchor type="commentary" xml:id="KL092-3"/>jammervoll erwiesen<note type="commentary" xml:id="KL092-3h">Bezieht sich auf die Inszenierung am <placeName key="pmb3">Deutschen Theater in Berlin</placeName>, die am <date>7. 3. 1903</date> Premiere hatte.</note>. Dieser zweite Akt, der verschiedentlich geführt werden
+          nicht von <rs ref="#pmb12050" type="person">Lessing</rs> inszenieren zu lassen, der
+          Orgien nur ein mäßiges Verständnis entgegenbringt, was <pb facs="HS_AM23379Ba_2"/>sich im 4.&#160;Akt der
+            <rs ref="#pmb29857" type="work"><hi rend="latintype">Beatrice</hi></rs><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KL092-3"/>jammervoll erwiesen<note type="commentary" xml:id="KL092-3h">Bezieht sich auf die Inszenierung am <rs ref="#pmb3" type="place">Deutschen Theater in Berlin</rs>, die am <date>7.&#160;3.&#160;1903</date> Premiere hatte.</note>. Dieser zweite Akt, der verschiedentlich geführt werden
           könnte bekäme seinen ganzen Sinn natürlich nur durch die vollendeste
           Rücksichtslosigkeit. Also Bedingung: Unaufführbarkeit. Da für mich (wenigstens
-          wie ich das Stück weitergedacht habe) <hi rend="latintype">
-                  <rs type="work" key="pmb29913">Helmine</rs>
-               </hi> die
-               Heldin ist, brächte der 3. Akt den seelischen Untergang oder Sieg der <hi rend="latintype">
-                  <rs type="work" key="pmb29913">Helmine</rs>
-               </hi>.
+          wie ich das Stück weitergedacht habe) <hi rend="latintype"><rs type="work" ref="#pmb29913" subtype="implied">Helmine</rs></hi> die
+               Heldin ist, brächte der 3. Akt den seelischen Untergang oder Sieg der <hi rend="latintype"><rs type="work" ref="#pmb29913" subtype="implied">Helmine</rs></hi>.
           Man wird zu irgend etwas wahrscheinlich nur reif, wenn man eigentlich dazu
           geboren war. Man kann ein Faun sein; man kann <pb facs="HS_AM23379Ba_2_R"/>aber kein Faun werden. Man
           kann ein Hexchen und eine Nymphe sein, aber man kann es nicht werden. Ich bin
-          nicht klar darüber, ob <rs type="work" key="pmb29913">Helmine</rs> das Recht auf die Welt gebracht hat, auf die
-            stei<damage agent="hole">
-                  <supplied>le</supplied>
-               </damage> Bergwiese zu wandern. Jedenfalls sie eher
+          nicht klar darüber, ob <rs type="work" ref="#pmb29913" subtype="implied">Helmine</rs> das Recht auf die Welt gebracht hat, auf die
+            stei<damage agent="hole"><supplied>le</supplied></damage> Bergwiese zu wandern. Jedenfalls sie eher
           als Edgar, wie ja die Frauen überhaupt mit den Urelementen verwandter sind als
           die Männer. Es wäre auch zu bedenken, ob <hi rend="latintype">Helmine</hi> nicht
-          irgend was, das man nur aus <pb facs=""/>seiner Natur heraus thun darf, <anchor type="commentary" xml:id="KL092-1"/>
-               <hi rend="latintype">par dépit</hi>
-               <note type="commentary" xml:id="KL092-1h">(frz.) aus Neid.</note> thut – was vielleicht eine der häufigsten
+          irgend was, das man nur aus <pb facs=""/>seiner Natur heraus thun darf, <anchor type="commentary" xml:id="KL092-1"/><hi rend="latintype">par dépit</hi><note type="commentary" xml:id="KL092-1h">(frz.) aus Neid.</note> thut – was vielleicht eine der häufigsten
           tragischen Verschuldungen bedeutet. Eine andere, eher komoedische Verschuldung
           hinwiederum: jemand denkt auf dem Wege der <add place="above">Höher-</add>Entwicklung
           irgendwohin gelangt <del rend="strikethrough">sei</del> zu sein – und ist nur
@@ -197,30 +175,15 @@
             Generationen, die durch die Entwicklung unnötig geworden sind und für
             überwunden gelten.</note> hingerathen. Auch auf den steilen Bergwiesen tanzen zumeist Leute,
           die nicht hin gehören. Dahin ungefähr führte mich dein
-          faunisch-tiefsinnig-burleskes <rs type="work" key="pmb29913">Stückchen</rs>, und so möchte es wahrscheinlich
+          faunisch-tiefsinnig-burleskes <rs type="work" ref="#pmb29913" subtype="implied">Stückchen</rs>, und so möchte es wahrscheinlich
           damit <pb facs=""/>enden, dass irgend welche nicht bergwiesenwürdige Geschöpfe vom
-          wahren Faun zu Thale geprügelt würden. –</p>
-         </div>
-         <div type="writingSession" n="2">
-            <p>– Heute, <add place="above">den 25.</add> mein lieber Hermann, reisen wir ab.
-          Nach <placeName key="pmb168">Berlin</placeName>. (1, 2 Tage)
-            <placeName key="pmb36300">Kopenhagen</placeName> (3, 4 Tage.)
-            <placeName key="pmb959">Marienlyst</placeName>. Ein paar Wochen. Dann, August
+          wahren Faun zu Thale geprügelt würden.&#160;–</p></div><div type="writingSession" n="2"><p>– Heute, <add place="above">den 25.</add> mein lieber Hermann, reisen wir ab.
+          Nach <rs ref="#pmb168" type="place">Berlin</rs>. (1, 2 Tage)
+            <rs ref="#pmb36300" type="place">Kopenhagen</rs> (3, 4 Tage.)
+            <rs ref="#pmb959" type="place">Marienlyst</rs>. Ein paar Wochen. Dann, August
           vielleicht noch irgendwohin an die <geogName type="ocean">Nordsee</geogName>.
-          (<placeName key="pmb860">Nordeijk</placeName>?). Lass uns jedenfalls in
-          brieflich-ansichtskartlicher Verbindung bleiben. – </p>
-            <closer>Mit guten Sommerwünschen und <pb facs=""/>Grüßen von <persName key="pmb2173">Olga</persName> u mir<lb/>herzlichst der Deine<lb/>
-               <signed>Arthur
-               </signed>
-            </closer>
-         </div>
-         <div type="writingSession" n="3">
-            <p>Das <hi rend="latintype">
-                  <rs type="work" key="pmb29913">Mscrpt</rs>
-               </hi> ist an <hi rend="latintype">
-                  <persName key="pmb2167">Salten</persName>
-               </hi> abgesandt.</p>
-         </div>
-      </body>
+          (<rs ref="#pmb860" type="place">Nordeijk</rs>?). Lass uns jedenfalls in
+          brieflich-ansichtskartlicher Verbindung bleiben. – </p><closer>Mit guten Sommerwünschen und <pb facs=""/>Grüßen von <rs ref="#pmb2173" type="person">Olga</rs> u mir<lb/>herzlichst der Deine<lb/><signed>Arthur
+               </signed></closer></div><div type="writingSession" n="3"><p>Das <hi rend="latintype"><rs type="work" ref="#pmb29913" subtype="implied">Mscrpt</rs></hi> ist an <hi rend="latintype"><rs ref="#pmb2167" type="person">Salten</rs></hi> abgesandt.</p></div></body>
   </text>
 </TEI>

@@ -18,7 +18,7 @@
                   $obj.endDate = new Date($j,$m-1,$d);
                   $obj.startDate = new Date($j,$m-1,$d);
                   $obj.id = entry.id;
-                  $obj.color = "#A63437";
+                  $obj.color = "#254aa5";
                    if (years.indexOf($j) === -1)
                   {
                     years.push($j)   
@@ -42,7 +42,7 @@
                 
                 for (var i = 0; i <= yearsSorted.length; i++){
                     $('#years-table').append(createyearcell(yearsSorted[i]) +createyearcell(yearsSorted[i+1])+createyearcell(yearsSorted[i+2]));
-                    i += 2;
+                    i += 3;
                 }
     
                 $('#calendar').clickDay(function(e){

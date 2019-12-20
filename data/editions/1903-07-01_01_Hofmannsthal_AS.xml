@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1903-07-01_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1903-07-01_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 1. 7. 1903</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 1.&#160;7.&#160;1903</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb608">Gasthof Post, am Brenner</placeName>
-               <date when="1903-07-01" n="01">1. 7. 1903</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb608">Gasthof Post, am Brenner</placeName>
+               <date when="1903-07-01" n="01">1.&#160;7.&#160;1903</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1903-06-26_01">Schnitzler an Hofmannsthal, 26. 6. 1903</ptr>
-               <ptr type="next" subtype="toAuthor" target="1903-08-18_01">Schnitzler an Hofmannsthal, 18. 8. 1903</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1903-06-26_01">Schnitzler an Hofmannsthal, 26.&#160;6.&#160;1903</ptr>
+               <ptr type="next" subtype="toAuthor" target="1903-08-18_01">Schnitzler an Hofmannsthal, 18.&#160;8.&#160;1903</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,44 +105,22 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb36493">Gasthof Post, am Brenner</placeName>, <date>1ten
-                     july</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>lieber, </salute>hier, wo wir vor einem Jahr zusammen gesessen sind – es ist
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb36493" type="place">Gasthof Post, am Brenner</rs>, <date>1ten
+                     july</date></dateline></opener><p><salute>lieber, </salute>hier, wo wir vor einem Jahr zusammen gesessen sind – es ist
                ein Jahr fast auf den Tag genau – finde ich Ihren lieben Brief. Erinnern Sie sich? es
-               war an dem schönen Tag, wo wir im <placeName key="pmb607">Stubaital</placeName> waren
-               und ich Ihnen Complimente gemacht habe, wir dann in <placeName key="pmb364">Windischmatrei</placeName> Forellen gegessen haben und die <persName key="pmb2315">Lisl</persName> aus <placeName key="pmb168">Berlin</placeName>
-               geschrieben hat, daß der <persName key="pmb11485">Goldmann</persName> ihr kein Geld
-               leiht. </p>
-            <p>Wir haben ein paar sehr schöne Tage in <placeName key="pmb39589">Italien</placeName>
-               verbracht, das <placeName key="pmb34207">Ampezzotal</placeName> hinunter bis <placeName key="pmb929">Vicenza</placeName> und durchs <placeName key="pmb39934">Val sugana</placeName> zurück. </p>
-            <p>So schön ist dieses Land! Trotzdem werde ich nicht mit Ihnen um den <date>10ten
+               war an dem schönen Tag, wo wir im <rs ref="#pmb607" type="place">Stubaital</rs> waren
+               und ich Ihnen Complimente gemacht habe, wir dann in <rs ref="#pmb364" type="place">Windischmatrei</rs> Forellen gegessen haben und die <rs ref="#pmb2315" type="person">Lisl</rs> aus <rs ref="#pmb168" type="place">Berlin</rs>
+               geschrieben hat, daß der <rs ref="#pmb11485" type="person">Goldmann</rs> ihr kein Geld
+               leiht. </p><p>Wir haben ein paar sehr schöne Tage in <rs ref="#pmb39589" type="place">Italien</rs>
+               verbracht, das <rs ref="#pmb34207" type="place">Ampezzotal</rs> hinunter bis <rs ref="#pmb929" type="place">Vicenza</rs> und durchs <rs ref="#pmb39934" type="place">Val sugana</rs> zurück. </p><p>So schön ist dieses Land! Trotzdem werde ich nicht mit Ihnen um den <date>10ten
                   August</date> in diese Gegenden fahren. Ich werde um den <date>10ten August</date>
-               in <placeName key="pmb197">Weimar</placeName> sein. Die Einladung dazu geht direct
-               von der <rs type="person" key="pmb39917">Erbgroßherzogin</rs> aus, indirect von <persName key="pmb11916">Kessler</persName>, der an diesem kleinen Hof seit einiger Zeit
+               in <rs ref="#pmb197" type="place">Weimar</rs> sein. Die Einladung dazu geht direct
+               von der <rs type="person" ref="#pmb39917" subtype="implied">Erbgroßherzogin</rs> aus, indirect von <rs ref="#pmb11916" type="person">Kessler</rs>, der an diesem kleinen Hof seit einiger Zeit
                eine nicht recht definierbare Art von Intendantenstellung einnimmt. Sie wollen meinem
-               Hinkommen zu Ehren dort auf dem kleinen Naturtheater in <placeName key="pmb195">Belvedere</placeName> – auf welchem <persName key="pmb11461">Goethe</persName>
-               den <rs type="work" key="pmb32951">Orest</rs> spielte – den <workName key="pmb31639">Tod des
-                  Tizian</workName> von den hübschesten Hofdamen und Pagen – wirklichen Pagen –
-               spielen lassen. Es macht mir natürlich Spaß, auch kenne ich <placeName key="pmb197">Weimar</placeName> gar nicht. –</p>
-            <p>Das nähere darüber und über sonstige Pläne mündlich. </p>
-            <p>Wir gehen noch für 10–12 Tage an den <placeName key="pmb282">Grundlsee</placeName>. </p>
-            <p>Adresse H. H. bei Frau <persName key="pmb24048">Lili Geyger</persName>, <placeName key="pmb39908">Grundlsee, Archkogel 13</placeName>
-            </p>
-            <closer>Von Herzen<lb/>
-               <signed>Hugo.</signed>
-            </closer>
-            <postscript>
-               <p>Grüße für <persName key="pmb2173">Olga</persName> und <persName key="pmb12692">Heinrich</persName> das Kind. Es war absolut unleserlich, welches
-                  <rs type="work" key="pmb31517">(französische??) Buch</rs> Sie auf der Reise sehr genossen haben.</p>
-            </postscript>
-         </div>
-      </body>
+               Hinkommen zu Ehren dort auf dem kleinen Naturtheater in <rs ref="#pmb195" type="place">Belvedere</rs> – auf welchem <rs ref="#pmb11461" type="person">Goethe</rs>
+               den <rs type="work" ref="#pmb32951" subtype="implied">Orest</rs> spielte – den <rs ref="#pmb31639" type="work">Tod des
+                  Tizian</rs> von den hübschesten Hofdamen und Pagen – wirklichen Pagen –
+               spielen lassen. Es macht mir natürlich Spaß, auch kenne ich <rs ref="#pmb197" type="place">Weimar</rs> gar nicht.&#160;–</p><p>Das nähere darüber und über sonstige Pläne mündlich. </p><p>Wir gehen noch für 10–12 Tage an den <rs ref="#pmb282" type="place">Grundlsee</rs>. </p><p>Adresse H.&#160;H. bei Frau <rs ref="#pmb24048" type="person">Lili Geyger</rs>, <rs ref="#pmb39908" type="place">Grundlsee, Archkogel 13</rs></p><closer>Von Herzen<lb/><signed>Hugo.</signed></closer><postscript><p>Grüße für <rs ref="#pmb2173" type="person">Olga</rs> und <rs ref="#pmb12692" type="person">Heinrich</rs> das Kind. Es war absolut unleserlich, welches
+                  <rs type="work" ref="#pmb31517" subtype="implied">(französische??) Buch</rs> Sie auf der Reise sehr genossen haben.</p></postscript></div></body>
    </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-08-19_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-08-19_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 19. 8. 1892</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 19.&#160;8.&#160;1892</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,12 +52,12 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 2 Bl., 8 S., Bleistift; Lateinschrift. Von Schnitzler mit
+                        <p>eh. Brief, 2&#160;Bl., 8&#160;S., Bleistift; Lateinschrift. Von Schnitzler mit
                            Bleistift datiert: »<quote>
-                              <date>19/8 92</date>
+                              <date>19/8&#160;92</date>
                            </quote>« und nummeriert:
                               »<quote>9.</quote>«</p>
                      </physDesc>
@@ -63,8 +67,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -83,19 +87,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb213">Bad Ischl</placeName>
-               <date when="1892-08-19" n="01">19. 8. 1892</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb213">Bad Ischl</placeName>
+               <date when="1892-08-19" n="01">19.&#160;8.&#160;1892</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1892-08-22">22. 8. 1892</date>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1892-08-22">22.&#160;8.&#160;1892</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1892-08-17_01">Schnitzler an Beer-Hofmann, 17. 8. 1892</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-08-22_01">Schnitzler an Beer-Hofmann, 22. 8. 1892</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1892-08-17_01">Schnitzler an Beer-Hofmann, 17.&#160;8.&#160;1892</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-08-22_01">Schnitzler an Beer-Hofmann, 22.&#160;8.&#160;1892</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -113,59 +117,24 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00004.jpg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00001.jpg"/>
-               <salute>Lieber Arthur! </salute>Sie wissen ja, wie schreibfaul ich bin, und wie sehr
-               ich mir immer Zeit lasse.</p>
-            <p>Also vor Allem: Ich freue mich sehr, <hi n="1" rend="underline">sehr</hi> Sie auf ein
+      <body><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00001.jpg"/><salute>Lieber Arthur! </salute>Sie wissen ja, wie schreibfaul ich bin, und wie sehr
+               ich mir immer Zeit lasse.</p><p>Also vor Allem: Ich freue mich sehr, <hi n="1" rend="underline">sehr</hi> Sie auf ein
                paar Tage hier zu haben; mit Ihnen <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00002.jpg"/>werde ich freilich kaum gehen
                können; im Allgemeinen habe ich einen verdorbenen So<c rendition="#gemination-m"/>er,
                schlechte Laune in xter Potenz, die erst jetzt etwas, nachlässt; gearbeitet <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00001.jpg"/>hab ich circa <hi rend="underline" n="2">15</hi> (!) Druckzeilen – also – nichts. Ausser ein paar
-               Gedanken, deren Wert äußerst p<subst>
-                  <del rend="overwritten">o</del>
-                  <add place="inline">ro</add>
-               </subst>blematisch ist, also ein
+               Gedanken, deren Wert äußerst p<subst><del rend="overwritten">o</del><add place="inline">ro</add></subst>blematisch ist, also ein
                verlorener So<c rendition="#gemination-m"/>er. In den nächsten <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00001.jpg"/>Tagen werde ich voraussichtlich
-               meine <rs type="work" key="pmb41342">Pantomime</rs> an Sie senden, und Sie bitten <del rend="strikethrough">Sie</del>, dieselbe durch Ihren <rs type="person" key="pmb27711">Abschreiber</rs> copiren zu
-               lassen, da ich sie möglicherweise in der nächsten Zeit an irgend einen <anchor type="commentary" xml:id="G7"/>Verleger<note type="commentary" xml:id="G7h">
-                  <workName key="pmb41342">Pierrot hypnotiseur</workName>, Pantomine von <persName key="pmb10863">Richard Beer-Hofmann</persName>, blieb zu Lebzeiten
-                  ungedruckt.</note>
-               <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00003.jpg"/>
-               <del rend="strikethrough">u</del> schicken werde.</p>
-            <p>Ihr »<workName key="pmb29823">Märchen</workName>« und Ihre »<workName key="pmb31357">Episode</workName>« habe ich bereits mehrfach verborgt; könnten Sie mir noch vor
-               Ihrer Ankunft – denn die sich dafür Interessirenden reisen bald ab – </p>
-            <p>
-               <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00004.jpg"/>»<workName key="pmb30033">Anatols Hochzeitsmorgen</workName>«</p>
-            <p>»<workName key="pmb30005">Abschiedsouper</workName>«</p>
-            <p>»<workName key="pmb30749">Frage an das Schicksal</workName>«</p>
-            <p>senden?</p>
-            <p>Frau <persName key="pmb16312">Flegmann</persName>, die wie Sie wissen ein klein wenig
-               litterarischen Salon treibt interessirt sich dafür; <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00004.jpg"/>ich würde die Sachen fall<subst>
-                     <del rend="overwritten">ls</del>
-                     <add place="inline">s</add>
-                  </subst> es
+               meine <rs type="work" ref="#pmb41342" subtype="implied">Pantomime</rs> an Sie senden, und Sie bitten <del rend="strikethrough">Sie</del>, dieselbe durch Ihren <rs type="person" ref="#pmb27711" subtype="implied">Abschreiber</rs> copiren zu
+               lassen, da ich sie möglicherweise in der nächsten Zeit an irgend einen <anchor type="commentary" xml:id="G7"/>Verleger<note type="commentary" xml:id="G7h"><rs ref="#pmb41342" type="work">Pierrot hypnotiseur</rs>, Pantomine von <rs ref="#pmb10863" type="person">Richard Beer-Hofmann</rs>, blieb zu Lebzeiten
+                  ungedruckt.</note><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00003.jpg"/><del rend="strikethrough">u</del> schicken werde.</p><p>Ihr »<rs ref="#pmb29823" type="work">Märchen</rs>« und Ihre »<rs ref="#pmb31357" type="work">Episode</rs>« habe ich bereits mehrfach verborgt; könnten Sie mir noch vor
+               Ihrer Ankunft – denn die sich dafür Interessirenden reisen bald ab – </p><p><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00004.jpg"/>»<rs ref="#pmb30033" type="work">Anatols Hochzeitsmorgen</rs>«</p><p>»<rs ref="#pmb30005" type="work">Abschiedsouper</rs>«</p><p>»<rs ref="#pmb30749" type="work">Frage an das Schicksal</rs>«</p><p>senden?</p><p>Frau <rs ref="#pmb16312" type="person">Flegmann</rs>, die wie Sie wissen ein klein wenig
+               litterarischen Salon treibt interessirt sich dafür; <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00004.jpg"/>ich würde die Sachen fall<subst><del rend="overwritten">ls</del><add place="inline">s</add></subst> es
                nur <hi rend="underline" n="1">Abschriften</hi> sind nicht verborgen, sondern
-               vorlesen. »<rs type="work" key="pmb30181">
-                  <hi n="1" rend="underline">Das</hi> Gedicht</rs>« ist wie ich vom Kleinen
-                  <persName key="pmb11988">Kraus</persName> (vide <persName key="pmb2167">Salten</persName>) höre in der »<workName key="pmb41113">Deutschen
-                  Dichtung</workName>« erschienen. <persName key="pmb11740">Loris</persName>, der
+               vorlesen. »<rs type="work" ref="#pmb30181" subtype="implied"><hi n="1" rend="underline">Das</hi> Gedicht</rs>« ist wie ich vom Kleinen
+                  <rs ref="#pmb11988" type="person">Kraus</rs> (vide <rs ref="#pmb2167" type="person">Salten</rs>) höre in der »<rs ref="#pmb41113" type="work">Deutschen
+                  Dichtung</rs>« erschienen. <rs ref="#pmb11740" type="person">Loris</rs>, der
                   <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00003.jpg"/>wie es scheint
-               gesellschaftlich zerrissen wird ist öfters hier, bei mir.</p>
-            <p>Bitte schreiben Sie mir wieder ein paar Zeilen, – und vor allem annonciren Sie Ihr
-                  Ko<c rendition="#gemination-m"/>en. Bitte was macht <persName key="pmb12740">Schwarzkopf</persName>, ich hörte traurige Nachrichten? Herzlichst Ihr</p>
-            <closer>
-               <signed>Richard</signed>
-            </closer>
-            <postscript>
-               <p>
-                  <placeName key="pmb213">Ischl</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date>19 Aug. 92</date>
-               </p>
-            </postscript>
-         </div>
-      </body>
+               gesellschaftlich zerrissen wird ist öfters hier, bei mir.</p><p>Bitte schreiben Sie mir wieder ein paar Zeilen,&#160;– und vor allem annonciren Sie Ihr
+                  Ko<c rendition="#gemination-m"/>en. Bitte was macht <rs ref="#pmb12740" type="person">Schwarzkopf</rs>, ich hörte traurige Nachrichten? Herzlichst Ihr</p><closer><signed>Richard</signed></closer><postscript><p><rs ref="#pmb213" type="place">Ischl</rs><space unit="chars" quantity="1"/><date>19 Aug. 92</date></p></postscript></div></body>
    </text>
 </TEI>

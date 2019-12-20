@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1910-11-07_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1910-11-07_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 7. 11. 1910</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 7.&#160;11.&#160;1910</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>                
-               <!--<placeName key="pmb50">Wien</placeName>-->
-               <date when="1910-11-07" n="01">7. 11. 1910</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>                
+               <!--<placeName ref="#pmb50">Wien</placeName>-->
+               <date when="1910-11-07" n="01">7.&#160;11.&#160;1910</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1910-11-02_01">Schnitzler an Hofmannsthal, 2. 11. 1910</ptr>
-               <ptr type="next" subtype="toAuthor" target="1910-11-10_01">Schnitzler an Hofmannsthal, 10. 11. 1910</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1910-11-02_01">Schnitzler an Hofmannsthal, 2.&#160;11.&#160;1910</ptr>
+               <ptr type="next" subtype="toAuthor" target="1910-11-10_01">Schnitzler an Hofmannsthal, 10.&#160;11.&#160;1910</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,14 +105,7 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>Montag</date> früh.</dateline>
-               <salute>mein guter lieber Arthur </salute>
-            </opener>
-            <p>es tut mir so tief schmerzlich leid Ihnen weh getan und Sie geärgert zu haben – und wenn sich
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>Montag</date> früh.</dateline><salute>mein guter lieber Arthur </salute></opener><p>es tut mir so tief schmerzlich leid Ihnen weh getan und Sie geärgert zu haben – und wenn sich
    das Ganze auch (wie Sie sehen werden) gar nicht in der Wirklichkeit abgespielt hat – so haben Sie
    darum nicht minder eine unangenehme Stunde durch mich erfahren, haben sich, müde und enerviert
    nach einer langen Probe, hinsetzen und mir diesen begreiflichen und berechtigten Brief schreiben
@@ -117,37 +114,30 @@
    gräßlichen Gefühl – gestern nachmittag wollte ich zu Ihnen, hatte aber wirklich zu sehr Angst,
    daß wir uns, wenn auch nur für einen Augenblick, verdüstert gegenüberstehen
    sollten – so schreibe ich lieber und bitte Sie vor allem herzlich, mir diese unglückliche Sache
-   zu verzeihen und sie so weit als möglich aus Ihrem Gedächtnis zu verbannen. </p>
-            <p>Meine unglückliche Feder hat etwas sehr Ungeschicktes hingemalt aber die häßliche Härte und
+   zu verzeihen und sie so weit als möglich aus Ihrem Gedächtnis zu verbannen. </p><p>Meine unglückliche Feder hat etwas sehr Ungeschicktes hingemalt aber die häßliche Härte und
    Roheit, die Sie herausgelesen haben, war es nicht das hatte ich weder getan noch vermeinte ich,
    Ihnen auch extra noch nach Jahren mitzuteilen, daß ich es getan hätte. Nein! sondern: wenn ich
    schrieb »halb absichtlich, halb unabsichtlich«, so meinte ich einen jener Schwebezustände des
-   Willens, zwischen Bewußt und Unbewußt, aber doch ziemlich tief im Unbewußten, dem <persName key="pmb11370">Freud</persName> in der <workName key="pmb36415">Psychopathologie des
-    Alltagslebens</workName> ganze Nester und Ketten sehr geistreich nachgewiesen hat, jenes
+   Willens, zwischen Bewußt und Unbewußt, aber doch ziemlich tief im Unbewußten, dem <rs ref="#pmb11370" type="person">Freud</rs> in der <rs ref="#pmb36415" type="work">Psychopathologie des
+    Alltagslebens</rs> ganze Nester und Ketten sehr geistreich nachgewiesen hat, jenes
    scheinbar völlig imbewußte Fallenlassen eines Bildes, weil man gegen die Person, die das Bild
-   darstellt, etwas verborgenes Böses auf dem Herzen hat, – kurz eine Tat, die vor keinerlei Forum
+   darstellt, etwas verborgenes Böses auf dem Herzen hat,&#160;– kurz eine Tat, die vor keinerlei Forum
    gezogen werden kann, kaum vor das des allerzartesten eigenen Gewissens, so sehr verbirgt sie sich
    ins Dunkel des Unbewußten – und wenn ich das heute ausspreche, so nehme ich jenen intim erregten
    Zustand gegen das Buch eben heute historisch, fühle mich frei davon und darf darum gerade aus
    Ihrer Hand mit allem, auch dem zartesten Recht, ein neues Exemplar erbitten. Daß ich ein Exemplar
    mit einer Zueignung im bürgerlichen Sinn ebensowenig in der Eisenbahn hegen lassen wollte, als
-   meinen Regenschirm oder Spazierstock, das lieber Arthur, bitte ich Sie, zu glauben. </p>
-            <p>So. Ich habe dies ausgesprochen, weil ich finde, daß man in so zarten Dingen, wie Freundschaft
+   meinen Regenschirm oder Spazierstock, das lieber Arthur, bitte ich Sie, zu glauben. </p><p>So. Ich habe dies ausgesprochen, weil ich finde, daß man in so zarten Dingen, wie Freundschaft
    und Liebe, auch das auf sich nehmen muß, was man hätte begehen können. Und daß ich ein solches
    symbolisches Liegenlassen des Buches damals hätte vollbringen können, glaube ich darum, weil ich
    mir eben eingebildet hatte, ich hätte es wirklich in der Eisenbahn verloren. Nun weiß ich seit
-   gestern, daß gar nicht ich das Buch verloren habe, sondern <persName key="pmb2292">Gerty</persName>, die darüber natürlich sehr unglücklich war, eben der Widmung wegen,
+   gestern, daß gar nicht ich das Buch verloren habe, sondern <rs ref="#pmb2292" type="person">Gerty</rs>, die darüber natürlich sehr unglücklich war, eben der Widmung wegen,
    vergeblich bei Conducteuren und Stationschefs sich bemühte es wiederzubekommen und es aber nicht
    wiedererlangen konnte. Es war also eine Gedächtnistäuschung meinerseits, und die unglücklichen
-   Worte jener Nachschrift aus <placeName key="pmb860">Grätz</placeName> haben sich auf ein
-   Doppeltnichtgeschehenes bezogen, auf den Schatten eines Schattens oder noch weniger. </p>
-            <p>Also seien Sie mir wieder gut, mein lieber Arthur, und glauben Sie weiter, was Sie zu glauben,
+   Worte jener Nachschrift aus <rs ref="#pmb860" type="place">Grätz</rs> haben sich auf ein
+   Doppeltnichtgeschehenes bezogen, auf den Schatten eines Schattens oder noch weniger. </p><p>Also seien Sie mir wieder gut, mein lieber Arthur, und glauben Sie weiter, was Sie zu glauben,
    denke ich, nicht aufgehört haben, daß es sehr wenige Menschen auf der Welt geben wird, die das
    Ganze Ihres menschlichen und künstlerischen Daseins mit so großer Freude und Liebe, und so viel
-   Dankbarkeit für das unbegreifliche Phänomen der »Gleichzeitigkeit« erfassen, als </p>
-            <closer>Ihr <signed>Hugo</signed>
-            </closer>
-         </div>
-      </body>
+   Dankbarkeit für das unbegreifliche Phänomen der »Gleichzeitigkeit« erfassen, als </p><closer>Ihr <signed>Hugo</signed></closer></div></body>
    </text>
 </TEI>

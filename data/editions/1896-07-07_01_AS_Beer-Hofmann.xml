@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-07-07_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-07-07_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 7. 7. 1896</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 7.&#160;7.&#160;1896</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -53,16 +57,16 @@
                      <physDesc>
                         <p>eh. Postkarte, Bleistift.</p>
                         <stamp n="1">
-                           <placeName key="">Hotel zum Kronprinzen</placeName>
-                           <placeName key="">Hamburg.</placeName>
+                           <rs type="place" ref="">Hotel zum Kronprinzen</rs>
+                           <rs type="place" ref="">Hamburg.</rs>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb884">Lübeck</placeName>
-                           <date>7. 7. 96</date>
+                           <rs ref="#pmb884" type="place">Lübeck</rs>
+                           <date>7.&#160;7.&#160;96</date>
                            <time>6-7N</time>
                         </stamp>
                         <stamp n="3">
-                           <placeName key="pmb33">St. Gilgen</placeName>
+                           <rs ref="#pmb33" type="place">St. Gilgen</rs>
                            <date>9. 7. 96</date>
                         </stamp>
                      </physDesc>
@@ -72,8 +76,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -92,19 +96,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb884">Lübeck</placeName>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb884">Lübeck</placeName>
                <date when="1896-07-07" n="01">7. 7. 1896</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb33">St. Gilgen</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb33">St. Gilgen</placeName>
                <date when="1896-07-09">9. 7. 1896</date>
             </correspAction>
             <correspContext>
                <ptr type="previous" subtype="toAuthor" target="1896-07-02_01">Schnitzler an Beer-Hofmann, 2. 7. 1896</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-07-09_01">Schnitzler an Beer-Hofmann, 9. 7. 1896</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-07-09_01">Schnitzler an Beer-Hofmann, 9.&#160;7.&#160;1896</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -119,48 +123,15 @@
       <graphic url="1896_AS_RBH_1_00013.jpeg"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1896_AS_RBH_1_00012.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb40276">
-                     <hi rend="latintype">Fürberg am St.
-                     Wolfgangsee</hi>
-                  </placeName>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">in <placeName key="pmb519">Oberoesterreich</placeName>
-                  </hi>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="1896_AS_RBH_1_00013.jpeg"/>
-               <salute>Lieber Richard,</salute> leider muſs ich
-                  <placeName key="pmb468">Mitteleuropa</placeName> verlaſſen, ohne weitere Nachricht
-               von Ihnen gefunden zu haben. Ich war 3 Tage in <placeName key="pmb506">
-                  <hi rend="latintype">Hamburg</hi>
-               </placeName> und ſchreibe dieſe Karte in
-                  <placeName key="pmb884">
-                  <hi rend="latintype">Lübeck</hi>
-               </placeName>, wohin mich
+      <body><div type="address"><address><addrLine><pb facs="1896_AS_RBH_1_00012.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
+                     Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb40276" type="place"><hi rend="latintype">Fürberg am St.
+                     Wolfgangsee</hi></rs></addrLine><addrLine><hi rend="latintype">in <rs ref="#pmb519" type="place">Oberoesterreich</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1896_AS_RBH_1_00013.jpeg"/><salute>Lieber Richard,</salute> leider muſs ich
+                  <rs ref="#pmb468" type="place">Mitteleuropa</rs> verlaſſen, ohne weitere Nachricht
+               von Ihnen gefunden zu haben. Ich war 3 Tage in <rs ref="#pmb506" type="place"><hi rend="latintype">Hamburg</hi></rs> und ſchreibe dieſe Karte in
+                  <rs ref="#pmb884" type="place"><hi rend="latintype">Lübeck</hi></rs>, wohin mich
                ein Ausflug führte. Ich bin guter, aber nicht hoher Sti<c rendition="#gemination-m"/>ung. Heute Abend geh ich »an Bord« der <hi rend="latintype">Sverre Sigurdson</hi>.
                Iſt’s nicht ein trauriges Leben, darin man nicht einmal mehr »an Bord« ohne
-               Anführungszeichen ſchreiben kann? – Ich hoffe in <placeName key="pmb40290">
-                  <hi rend="latintype">Trondjhem</hi>
-               </placeName> Briefe von Ihnen zu finden. Grüße
-               Sie herzlich; grüßen Sie auch <persName key="pmb10860">Paula</persName>
-            </p>
-            <closer>
-               <anchor type="textConst" xml:id="TG15"/>Ihr<note type="textConst" xml:id="TG15h">am oberen Rand auf dem Kopf</note>
-               <signed>Arthur</signed>
-            </closer>
-         </div>
-      </body>
+               Anführungszeichen ſchreiben kann?&#160;– Ich hoffe in <rs ref="#pmb40290" type="place"><hi rend="latintype">Trondjhem</hi></rs> Briefe von Ihnen zu finden. Grüße
+               Sie herzlich; grüßen Sie auch <rs ref="#pmb10860" type="person">Paula</rs></p><closer><anchor type="textConst" xml:id="TG15"/>Ihr<note type="textConst" xml:id="TG15h">am oberen Rand auf dem Kopf</note><signed>Arthur</signed></closer></div></body>
    </text>
 </TEI>

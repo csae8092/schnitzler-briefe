@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-06-30_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+    xml:id="L1894-06-30_01_Beer-Hofmann_AS">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 30. 6. 1894</title>
-                <author key="pmb10863">Beer-Hofmann, Richard</author>
+                <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 30.&#160;6.&#160;1894</title>
+                <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -48,14 +51,12 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 8</idno>
+                                <idno>Schnitzler, B&#160;8</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 2 Bl., 7 S., blauer Buntstift; Lateinschrift. Von
+                                <p>eh. Brief, 2&#160;Bl., 7&#160;S., blauer Buntstift; Lateinschrift. Von
                                     Schnitzler mit Bleistift datiert:
-                                            »<quote>
-                                        <date>30/6 94</date>
-                                    </quote>« und
+                                            »<quote><date>30/6&#160;94</date></quote>« und
                                     nummeriert: »<quote>33</quote>«</p>
                             </physDesc>
                         </msDesc>
@@ -64,8 +65,8 @@
                 <listBibl>
                     <biblStruct corresp="ASBH">
                         <monogr>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
-                            <author key="pmb10863">Beer-Hofmann, Richard</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                             <title level="m">Briefwechsel 1891–1931</title>
                             <editor>Hg. Konstanze Fliedl</editor>
                             <imprint>
@@ -85,17 +86,17 @@
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-                    <date when="1894-06-30" n="01">30. 6. 1894</date>
-                    <placeName key="pmb213">Bad Ischl</placeName>
+                    <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+                    <date when="1894-06-30" n="01">30.&#160;6.&#160;1894</date>
+                    <placeName ref="#pmb213">Bad Ischl</placeName>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
                 <correspContext>
-                    <ptr type="previous" subtype="toAuthor" target="1894-06-26_01">Schnitzler an Beer-Hofmann, [zwischen 26.–30. 6. 1894?]</ptr>
-                    <ptr type="next" subtype="toAuthor" target="1894-07-02_01">Schnitzler an Beer-Hofmann, 2. 7. 1894</ptr>
+                    <ptr type="previous" subtype="toAuthor" target="1894-06-26_01">Schnitzler an Beer-Hofmann, [zwischen 26.–30.&#160;6.&#160;1894?]</ptr>
+                    <ptr type="next" subtype="toAuthor" target="1894-07-02_01">Schnitzler an Beer-Hofmann, 2.&#160;7.&#160;1894</ptr>
                 </correspContext>
             </correspDesc>
         </profileDesc>
@@ -113,57 +114,41 @@
         <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00076.jpg"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00073.jpg"/>Lieber
-                        Arthur!</salute>
-                </opener>
-                <p>An <persName key="pmb2450">F.</persName> hatte ich natürlich vergessen, ordnete
-                    aber die Sache sofort nach Erhalt Ihres Briefes. –</p>
-                <p>Unter welcher Adresse <anchor type="commentary" xml:id="KLM20191206-2"/>gratulirt<note type="commentary" xml:id="KLM20191206-2h">Dessen Hochzeit
-                        stand unmittelbar bevor: Am <date>8. 7. 1894</date> heirateten
-                            <persName key="pmb12698">Julius Schnitzler</persName> und <persName key="pmb24423">Helene Altmann</persName>.</note> man Ihrem <rs type="person" key="pmb12698">Bruder</rs>?</p>
-                <p>Bitte Sie um Folgendes: Ich brauche ein <anchor type="commentary" xml:id="KLMAM20191206-3"/>Cachenez<note type="commentary" xml:id="KLMAM20191206-3h">Ein Schal.</note> welches so groß ist, daß <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00074.jpg"/>man es falten und als
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00073.jpg"/>Lieber
+                        Arthur!</salute></opener><p>An <rs ref="#pmb2450" type="person">F.</rs> hatte ich natürlich vergessen, ordnete
+                    aber die Sache sofort nach Erhalt Ihres Briefes.&#160;–</p><p>Unter welcher Adresse <anchor type="commentary" xml:id="KLM20191206-2"
+                        />gratulirt<note type="commentary" xml:id="KLM20191206-2h">Dessen Hochzeit
+                        stand unmittelbar bevor: Am <date>8.&#160;7.&#160;1894</date> heirateten
+                            <rs ref="#pmb12698" type="person">Julius Schnitzler</rs> und <rs
+                            ref="#pmb24423" type="person">Helene Altmann</rs>.</note> man Ihrem <rs
+                        type="person" ref="#pmb12698" subtype="implied">Bruder</rs>?</p><p>Bitte Sie um Folgendes: Ich brauche ein <anchor type="commentary"
+                        xml:id="KLMAM20191206-3"/>Cachenez<note type="commentary"
+                        xml:id="KLMAM20191206-3h">Ein Schal.</note> welches so groß ist, daß <pb
+                        facs="MS-SCHNITZLER-B-0008-B-00001-000-00074.jpg"/>man es falten und als
                     Schärpe binden kann. Es soll ganz <hi rend="underline" n="1">schwarz</hi> sein
-                    und zwar <hi rend="underline" n="1">schwerer</hi>
-                    <space unit="chars" quantity="1"/>
-                    <hi rend="underline" n="1">weicher</hi>
-                    <space unit="chars" quantity="1"/>
-                    <hi rend="underline" n="1">matter</hi> Seidenstoff – nicht
+                    und zwar <hi rend="underline" n="1">schwerer</hi><space unit="chars"
+                        quantity="1"/><hi rend="underline" n="1">weicher</hi><space unit="chars"
+                        quantity="1"/><hi rend="underline" n="1">matter</hi> Seidenstoff – nicht
                     Atlas – womöglich schwarz in schwarz gemustert, vielleicht brokatartig. Wenn Sie
-                    es bei <orgName key="pmb39535">Stoll + Uhlig</orgName>
-                    <space unit="chars" quantity="1"/>
-                    <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00074.jpg"/>beko<c rendition="#gemination-m"/>en, dann lassen Sie es mir direkt zusenden ohne
+                    es bei <rs ref="#pmb39535" type="organisation">Stoll + Uhlig</rs><space unit="chars" quantity="1"/><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00074.jpg"/>beko<c
+                        rendition="#gemination-m"/>en, dann lassen Sie es mir direkt zusenden ohne
                     zu bezahlen, beko<c rendition="#gemination-m"/>en Sie es dort nicht, oder sehen
                     Sie irgendwo etwas Passendes, so lassen Sie es mir zusenden und bezahlen
-                    unterdessen. Es kann übrigens auch <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00073.jpg"/>
-                    <hi rend="underline" n="1">wenn es das giebt</hi> (?) schwarze glatte <hi rend="underline" n="1">Roh</hi>seide sein.</p>
-                <p>
-                    <persName key="pmb10815">Bahr</persName> war vorgestern zwei Stunden in
-                        <placeName key="pmb213">Ischl</placeName>.</p>
-                <p>
-                    <persName key="pmb19106 pmb19096">Kappers</persName> sind hier, ich predige <rs type="person" key="pmb19106">ihm</rs> Unmoral und beweise ihm wie
+                    unterdessen. Es kann übrigens auch <pb
+                        facs="MS-SCHNITZLER-B-0008-B-00001-000-00073.jpg"/><hi rend="underline" n="1">wenn es das giebt</hi> (?) schwarze glatte <hi
+                        rend="underline" n="1">Roh</hi>seide sein.</p><p><rs ref="#pmb10815" type="person">Bahr</rs> war vorgestern zwei Stunden in
+                        <rs ref="#pmb213" type="place">Ischl</rs>.</p><p><rs ref="#pmb19106 pmb19096" type="person"
+                    >Kappers</rs> sind hier, ich predige <rs type="person" ref="#pmb19106" subtype="implied">ihm</rs> Unmoral und beweise ihm wie
                     bescheiden <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00075.jpg"/>er sein
-                    müsste. <persName key="pmb24566">Paul Schulz</persName> sprach ich; was hat der
-                    wieder gegen Sie? Oder vielmehr gegen das »<workName key="pmb30005">Abschiedssouper</workName>«? Übrigens liebt er auch den Styl <persName key="pmb9152">J. Opp<c rendition="#dots" n="3"/>
-                    </persName> und mag den <persName key="pmb11673">Th. Herzl</persName> nicht.</p>
-                <p>
-                    <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00076.jpg"/>Ko<c rendition="#gemination-m"/>en Sie bald nach der Hochzeit Ihres <rs type="person" key="pmb12698">Bruders</rs>? <placeName key="pmb414">Leopold</placeName>?</p>
-                <p>Grüßen Sie <persName key="pmb11740">Hugo</persName>, zeigen Sie ihm aber nicht
-                    den Brief, er macht mir sonst Vorwürfe daß zuviel »Tatsächliches« <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00076.jpg"/>drinnen steht. <persName key="pmb2167">Salten</persName> auch.</p>
-                <closer>Herzlichst<lb/>Ihr <signed>Richard</signed>
-                </closer>
-                <postscript>
-                    <p>
-                        <placeName key="pmb213">Ischl</placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>30/VI 94</date>
-                    </p>
-                    <p>Ich freu mich aufs Siegeln</p>
-                </postscript>
-            </div>
-        </body>
+                    müsste. <rs ref="#pmb24566" type="person">Paul Schulz</rs> sprach ich; was hat der
+                    wieder gegen Sie? Oder vielmehr gegen das »<rs ref="#pmb30005" type="work"
+                        >Abschiedssouper</rs>«? Übrigens liebt er auch den Styl <rs
+                        ref="#pmb9152" type="person">J. Opp<c rendition="#dots" n="3"/></rs> und mag den <rs ref="#pmb11673" type="person">Th. Herzl</rs> nicht.</p><p><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00076.jpg"/>Ko<c
+                        rendition="#gemination-m"/>en Sie bald nach der Hochzeit Ihres <rs
+                        type="person" ref="#pmb12698" subtype="implied">Bruders</rs>? <rs ref="#pmb414" type="place"
+                        >Leopold</rs>?</p><p>Grüßen Sie <rs ref="#pmb11740" type="person">Hugo</rs>, zeigen Sie ihm aber nicht
+                    den Brief, er macht mir sonst Vorwürfe daß zuviel »Tatsächliches« <pb
+                        facs="MS-SCHNITZLER-B-0008-B-00001-000-00076.jpg"/>drinnen steht. <rs
+                        ref="#pmb2167" type="person">Salten</rs> auch.</p><closer>Herzlichst<lb/>Ihr <signed>Richard</signed></closer><postscript><p><rs ref="#pmb213" type="place">Ischl</rs><space unit="chars" quantity="1"/><date>30/VI 94</date></p><p>Ich freu mich aufs Siegeln</p></postscript></div></body>
     </text>
 </TEI>

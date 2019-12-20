@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1917-10-12_01_Adam_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1917-10-12_01_Adam_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 12. 10. 1917</title>
-                <author key="pmb12438">Adam, Robert</author>
+                <title level="a">Robert Adam an Arthur Schnitzler, 12.&#160;10.&#160;1917</title>
+                <author ref="#pmb12438">Adam, Robert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>A:Schnitzler, HS.NZ85.1.4230,20</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S. Von Schnitzler beschriftet: »<quote>
+                                <p>eh. Brief, 1&#160;Bl., 3&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Adam</hi>
                            </quote>«.</p>
                             </physDesc>
@@ -76,18 +80,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1917-10-12" n="01">12. 10. 1917</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1917-10-12" n="01">12.&#160;10.&#160;1917</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1917-08-27_01">Schnitzler an Adam, 27. 8. 1917</ptr>
-               <ptr type="next" subtype="toAuthor" target="1917-10-15_01">Schnitzler an Adam, 15. 10. 1917</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1917-08-27_01">Schnitzler an Adam, 27.&#160;8.&#160;1917</ptr>
+               <ptr type="next" subtype="toAuthor" target="1917-10-15_01">Schnitzler an Adam, 15.&#160;10.&#160;1917</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -98,16 +102,8 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="OGL Kopie"/>
-                  <placeName key="pmb50">Wien</placeName>, am <date>12. Oktober 1917</date>.</dateline>
-                    <salute rend="inline">Hochverehrter Herr Doktor!</salute>
-            </opener>
-                <p>Ich überſende Ihnen (da ich glaube, daß Sie es mir geſtatten) meine jüngste
-                    Tragikomödie, »<workName key="pmb33608">Juda</workName>«, die ſoeben fertiggewordene Arbeit des letzten Halbjahres,
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="OGL Kopie"/><rs ref="#pmb50" type="place">Wien</rs>, am <date>12.&#160;Oktober 1917</date>.</dateline><salute rend="inline">Hochverehrter Herr Doktor!</salute></opener><p>Ich überſende Ihnen (da ich glaube, daß Sie es mir geſtatten) meine jüngste
+                    Tragikomödie, »<rs ref="#pmb33608" type="work">Juda</rs>«, die ſoeben fertiggewordene Arbeit des letzten Halbjahres,
                     mit der Bitte, ſie zu leſen, und mit der Bitte um Rat, was ich damit anfangen
                     ſoll. Ich habe das Gefühl, daß es das erſte Theaterſtück iſt, das ich
                     geſchrieben habe; ob es, mit meinen anderen Arbeiten verglichen, einen
@@ -117,25 +113,17 @@
                     (denen allerdings eine dem Milieu des Stückes gemäße Gegenfrage zu antworten
                     weiß: welcher Theaterſtoff iſt nicht kindiſch?) Mit einem Worte: ich ſtehe
                     meiner Arbeit nun, da ſie vollendet iſt, mit ſehr ſchwankenden Gefühlen und
-                    urteilslos gegenüber.</p>
-                <p>So bin ich auf den erſten Eindruck, den ſie auf Sie, hochverehrter Herr Doktor,
+                    urteilslos gegenüber.</p><p>So bin ich auf den erſten Eindruck, den ſie auf Sie, hochverehrter Herr Doktor,
                     machen wird, ſehr geſpannt und ſehe Ihrem Urteil, das Sie mir ja wohl nicht
                     weigern werden, mit Angſt und Beben entgegen. Iſt das Ganze als Ganzes etwas
                     wert oder nicht? Daß mir gewiſſe Einzelheiten nicht mißlungen ſind, glaube ich
-                    allerdings. –</p>
-                <p>Und wenn das Stück etwas wert <pb facs="OGL Kopie"/>ſein ſollte: ſoll ich’s
-                    dem <placeName key="pmb14">Burgtheater</placeName> und dem 
-                    <placeName key="pmb9">Münchner Hoftheater</placeName> einreichen? oder soll ich mein Heil
-                    bei akatholiſchen Theatern ſuchen?</p>
-                <p>Wenn ich wenigſtens zur »jungen Generation« gehörte! Aber ach! ich darf mich
+                    allerdings.&#160;–</p><p>Und wenn das Stück etwas wert <pb facs="OGL Kopie"/>ſein ſollte: ſoll ich’s
+                    dem <rs ref="#pmb14" type="place">Burgtheater</rs> und dem 
+                    <rs ref="#pmb9" type="place">Münchner Hoftheater</rs> einreichen? oder soll ich mein Heil
+                    bei akatholiſchen Theatern ſuchen?</p><p>Wenn ich wenigſtens zur »jungen Generation« gehörte! Aber ach! ich darf mich
                     nicht mehr zu ihr zählen (und Gott möge mich vor solchem bewahren!) und zur
                     »alten Generation« habe ich auch nicht mehr gehört. Wo ſoll ich ein Plätzlein an
-                    der Sonne ſuchen? –</p>
-                <closer>Indem ich Sie bitte, mir die 180 Seiten lange Einſendung nicht zu verübeln,
-                    verbleibe ich mit den ergebensten Grüßen Ihr<lb/>
-               <signed>Robert Adam</signed>                                               
-                </closer>
-            </div>
-        </body>
+                    der Sonne ſuchen?&#160;–</p><closer>Indem ich Sie bitte, mir die 180 Seiten lange Einſendung nicht zu verübeln,
+                    verbleibe ich mit den ergebensten Grüßen Ihr<lb/><signed>Robert Adam</signed></closer></div></body>
     </text>
 </TEI>

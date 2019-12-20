@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1916-05-21_01_Adam_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1916-05-21_01_Adam_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 21. 5. 1916</title>
-                <author key="pmb12438">Adam, Robert</author>
+                <title level="a">Robert Adam an Arthur Schnitzler, 21.&#160;5.&#160;1916</title>
+                <author ref="#pmb12438">Adam, Robert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                                 <country>A</country>            
                                 <settlement>Wien</settlement>            
                                 <repository>Österreichische Nationalbibliothek</repository>            
-                                <idno>Cod. ser. 52.263</idno>
+                                <idno>Cod.&#160;ser. 52.263</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>ms. Abschrift, mit geringfügigen hs. Korrekturen. Von unbekannter Hand nummeriert: »<quote>176</quote>«.</p>
@@ -63,18 +67,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1916-05-21" n="01">21. 5. 1916</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1916-05-21" n="01">21.&#160;5.&#160;1916</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1916-05-18_01">Schnitzler an Adam, 18. 5. 1916</ptr>
-               <ptr type="next" subtype="toAuthor" target="1916-06-29_01">Schnitzler an Adam, 29. 6. 1916</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1916-05-18_01">Schnitzler an Adam, 18.&#160;5.&#160;1916</ptr>
+               <ptr type="next" subtype="toAuthor" target="1916-06-29_01">Schnitzler an Adam, 29.&#160;6.&#160;1916</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -84,24 +88,9 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                  
-                    <dateline rend="right">
-                  <pb facs=""/>
-                  <date>21. Mai 1916</date>
-               </dateline>
-                    <salute>Hochverehrter Herr Doktor!</salute>
-            </opener>                         
-                <p>Ich sende Ihnen, wie Sie wünschten, ein Exemplar des »<workName key="pmb33578">Ali ibn Bekkâr</workName>« 
-                    und eines von »<workName key="pmb33624">In aeternum</workName>«.</p>
-                <p>Dies mein Erstlingsprodukt hiess ursprünglich »<workName key="pmb33624">Götterdämmerung</workName>« und wurde 
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>21.&#160;Mai 1916</date></dateline><salute>Hochverehrter Herr Doktor!</salute></opener><p>Ich sende Ihnen, wie Sie wünschten, ein Exemplar des »<rs ref="#pmb33578" type="work">Ali ibn Bekkâr</rs>« 
+                    und eines von »<rs ref="#pmb33624" type="work">In aeternum</rs>«.</p><p>Dies mein Erstlingsprodukt hiess ursprünglich »<rs ref="#pmb33624" type="work">Götterdämmerung</rs>« und wurde 
                     um das Jahr <date>1900</date> geschrieben. 
-                    Soviel zur Entschuldigung. Der Schluss dürfte Ihnen übrigens bekannt vorkommen! –</p>
-                <closer>Mit ergebensten Grüssen Ihr <signed>RA</signed>                                            
-                </closer>
-            </div>
-        </body>
+                    Soviel zur Entschuldigung. Der Schluss dürfte Ihnen übrigens bekannt vorkommen!&#160;–</p><closer>Mit ergebensten Grüssen Ihr <signed>RA</signed></closer></div></body>
     </text>
 </TEI>

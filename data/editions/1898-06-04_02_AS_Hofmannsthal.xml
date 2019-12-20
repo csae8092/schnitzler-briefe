@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-06-04_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1898-06-04_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal,
-                    [4. 6. 1898]</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                    [4.&#160;6.&#160;1898]</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -52,7 +56,7 @@
                                 <idno>Hs-30885,XXXX</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -60,8 +64,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -80,18 +84,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1898-06-04" n="02">[4. 6. 1898]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1898-06-04" n="02">[4.&#160;6.&#160;1898]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb75">Hinterbrühl</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb75">Hinterbrühl</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1898-06-03_01">Hofmannsthal an Schnitzler, [3.? 6. 1898]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1898-06-10_01">Schnitzler, Beer-Hofmann an Hofmannsthal, 10. 6. 1898</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1898-06-03_01">Hofmannsthal an Schnitzler, [3.?&#160;6.&#160;1898]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1898-06-10_01">Schnitzler, Beer-Hofmann an Hofmannsthal, 10.&#160;6.&#160;1898</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -100,33 +104,19 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs=""/>
-                  <date>Samstag</date>.</dateline>
-                </opener>
-                <p>
-               <salute>Lieber Hugo, </salute>morgen <time>Früh</time> will ich auf den
-                        <placeName key="pmb189">Semmering</placeName> fahren, dann per Rad zum
-                        <persName key="pmb10863">Richard</persName>, wo ich wohl
-                        <date>Dienstag</date> sein werde. Wahrscheinlich fahr ich allein; <persName key="pmb11981">Kramer</persName> scheint unverläßlich. Daß Sie <persName key="pmb11910">Kerr</persName> nicht kennen gelernt haben, ist schade; im
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>Samstag</date>.</dateline></opener><p><salute>Lieber Hugo, </salute>morgen <time>Früh</time> will ich auf den
+                        <rs ref="#pmb189" type="place">Semmering</rs> fahren, dann per Rad zum
+                        <rs ref="#pmb10863" type="person">Richard</rs>, wo ich wohl
+                        <date>Dienstag</date> sein werde. Wahrscheinlich fahr ich allein; <rs ref="#pmb11981" type="person">Kramer</rs> scheint unverläßlich. Daß Sie <rs ref="#pmb11910" type="person">Kerr</rs> nicht kennen gelernt haben, ist schade; im
                     Anfang befangen und etwas unsicher findet er sich bald bei einigem
                     Entgegenkommen und wirkt durch seinen Verstand, seine Sympathie und mannigfache
-                    günstige Intentionen höchst erfreulich. – Es geht mir mit der Stimmung nun
+                    günstige Intentionen höchst erfreulich.&#160;– Es geht mir mit der Stimmung nun
                     etwas besser; es ist doch sehr sonderbar, wie auch ihrem Wesen nach
                     unveränderliche seelische Lasten an Schwere gewinnen und verlieren
-                    können. – Ich möchte auch in <placeName key="pmb651">Kärnten</placeName>
-                    ein bißchen arbeiten. Sie können mir jedenfalls nach <placeName key="pmb34860">Steindorf</placeName> zu <persName key="pmb10863">R.</persName> schreiben;
-                    obzwar ich nicht glaube, daß ich dort bleibe.</p>
-                <p>
-               <persName key="pmb10986">Brahm</persName> läßt Sie vielmals grüßen; er hofft Sie
-                    werden noch oft Gelegenheit haben sich am <orgName key="pmb35597">Dtsch.
-                        Theater</orgName> wohl zu fühlen. Herzlichste Grüße </p>
-                <closer>Ihr <signed>A.</signed>
-            </closer>
-            </div>
-        </body>
+                    können.&#160;– Ich möchte auch in <rs ref="#pmb651" type="place">Kärnten</rs>
+                    ein bißchen arbeiten. Sie können mir jedenfalls nach <rs ref="#pmb34860" type="place">Steindorf</rs> zu <rs ref="#pmb10863" type="person">R.</rs> schreiben;
+                    obzwar ich nicht glaube, daß ich dort bleibe.</p><p><rs ref="#pmb10986" type="person">Brahm</rs> läßt Sie vielmals grüßen; er hofft Sie
+                    werden noch oft Gelegenheit haben sich am <rs ref="#pmb35597" type="organisation">Dtsch.
+                        Theater</rs> wohl zu fühlen. Herzlichste Grüße </p><closer>Ihr <signed>A.</signed></closer></div></body>
     </text>
 </TEI>

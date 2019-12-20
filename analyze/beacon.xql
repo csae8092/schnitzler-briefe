@@ -10,11 +10,11 @@ declare namespace util = "http://exist-db.org/xquery/util";
 
 declare option exist:serialize "method=text media-type=text";
 
-let $root := "https://arthur-schnitzler-briefe.acdh.oeaw.ac.at/"
+let $root := "https://schnitzler-briefe.acdh.oeaw.ac.at/"
 
 let $prefix := 
 "#FORMAT: BEACON
-#MESSAGE: arthur-schnitzler-briefe &#10;"
+#MESSAGE: schnitzler-briefe &#10;"
 
 let $nl := "&#10;"
 let $items :=  

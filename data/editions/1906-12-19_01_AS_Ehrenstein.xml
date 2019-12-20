@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1906-12-19_01_AS_Ehrenstein">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1906-12-19_01_AS_Ehrenstein">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Albert Ehrenstein, 19. 12. 1906</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Albert Ehrenstein, 19.&#160;12.&#160;1906</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -49,20 +53,20 @@
                             <country>IL</country>           
                         <settlement>Jerusalem</settlement>
                             <repository>The National Library of Israel</repository>
-                            <idno>ARC. Ms. Var. 306 1 118</idno>
+                            <idno>ARC. Ms.&#160;Var. 306&#160;1&#160;118</idno>
                         </msIdentifier>
                         <physDesc>
                             <p>eh. Postkarte mit gedruckter Absenderadresse.</p>
                             <stamp n="1">
-                                <placeName key="pmb50">Wien 68</placeName>
-                                <date when="1906-12-19">1<unclear>9</unclear>. XII. 0<unclear>6</unclear>
+                                <rs ref="#pmb50" type="place">Wien 68</rs>
+                                <date when="1906-12-19">1<unclear>9</unclear>.&#160;XII.&#160;0<unclear>6</unclear>
                            </date>
                                 <time>12</time>
                                 <action/>
                             </stamp>
                             <stamp n="2">
-                                <placeName key="pmb66">16/<hi rend="subscript">1</hi> Wien</placeName>
-                                <date when="1906-12-20">20. XII. 0<supplied>6</supplied>
+                                <rs ref="#pmb66" type="place">16/<hi rend="subscript">1</hi> Wien</rs>
+                                <date when="1906-12-20">20.&#160;XII.&#160;0<supplied>6</supplied>
                            </date>
                                 <action>Best<unclear>ellt</unclear>
                            </action>
@@ -78,20 +82,20 @@
             <language ident="de-AT">German</language>
          </langUsage>
         <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1906-12-19" n="01">19. 12. 1906</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1906-12-19" n="01">19.&#160;12.&#160;1906</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb11230">Ehrenstein, Albert</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1906-12-20">20. XII. 0<supplied>6</supplied>
+            <correspAction  type="received">
+               <persName ref="#pmb11230">Ehrenstein, Albert</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1906-12-20">20.&#160;XII.&#160;0<supplied>6</supplied>
                </date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1906-11-30_02">Schnitzler an Ehrenstein, 30. 11. 1906</ptr>
-               <ptr type="next" subtype="toAuthor" target="1908-01-16_01">Ehrenstein an Schnitzler, 16. 1. 1908</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1906-11-30_02">Schnitzler an Ehrenstein, 30.&#160;11.&#160;1906</ptr>
+               <ptr type="next" subtype="toAuthor" target="1908-01-16_01">Ehrenstein an Schnitzler, 16.&#160;1.&#160;1908</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,44 +105,10 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <pb facs="NLJ0001r.tif"/>
-                  <hi rend="pre-print">Dr. Arthur Schnitzler</hi>                      
-                    </addrLine>
-                    <addrLine>
-                  <hi rend="pre-print">
-                     <placeName key="pmb133">Wien, XVIII. Spoettelgasse 7</placeName>.</hi>
-               </addrLine>
-                </address>
-                <address>
-                    <addrLine>Herrn <hi rend="latintype">Albert Ehrenstein</hi>
-               </addrLine>
-                    <addrLine>
+        <body><div type="address"><address><addrLine><pb facs="NLJ0001r.tif"/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></addrLine><addrLine><hi rend="pre-print"><rs ref="#pmb133" type="place">Wien, XVIII. Spoettelgasse 7</rs>.</hi></addrLine></address><address><addrLine>Herrn <hi rend="latintype">Albert Ehrenstein</hi></addrLine><addrLine>
                   Wien
-               </addrLine>
-                    <addrLine>
-                  <placeName key="pmb300">
-                     <hi rend="latintype">Ottakringerstr.</hi> 114</placeName>.</addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="NLJ0001v.tif"/>
-                  <date>19/12 906</date>.</dateline>
-                    <salute>lieber Herr Ehrenstein,</salute>
-            </opener>
-                <p>Wenn Sie ſich <date>Freitag</date> Na halb vier die <workName key="pmb33398">Helena</workName> von mir abholen wollen, wird es mir 
-                    angenehm ſein, Sie bei dieſer Gelegenheit zu ſprechen.</p>
-                
-                <closer>beſtens grüß<unclear>end</unclear>
-               <lb/>
-                   Ihr <unclear>e</unclear>rgeb <signed>A. S.</signed>
-                </closer>
-            </div>
-        </body>
+               </addrLine><addrLine><rs ref="#pmb300" type="place"><hi rend="latintype">Ottakringerstr.</hi> 114</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="NLJ0001v.tif"/><date>19/12 906</date>.</dateline><salute>lieber Herr Ehrenstein,</salute></opener><p>Wenn Sie ſich <date>Freitag</date> Na halb vier die <rs ref="#pmb33398" type="work">Helena</rs> von mir abholen wollen, wird es mir 
+                    angenehm ſein, Sie bei dieſer Gelegenheit zu ſprechen.</p><closer>beſtens grüß<unclear>end</unclear><lb/>
+                   Ihr <unclear>e</unclear>rgeb <signed>A. S.</signed></closer></div></body>
     </text>
 </TEI>

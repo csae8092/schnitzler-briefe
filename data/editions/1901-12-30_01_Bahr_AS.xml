@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1901-12-30_01_Bahr_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1901-12-30_01_Bahr_AS">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 30. 12. 1901</title>
-            <author key="pmb10815">Bahr, Hermann</author>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 30.&#160;12.&#160;1901</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,10 +53,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 5b</idno>
+                        <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 4 S., von Schnitzler mit Jahreszahl datiert:
+                        <p>eh. Brief, 1&#160;Bl., 4&#160;S., von Schnitzler mit Jahreszahl datiert:
                            »<quote>
                               <date>901</date>
                            </quote>«.</p>
@@ -63,8 +67,8 @@
             <listBibl>                
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -82,18 +86,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1901-12-30" n="01">30. 12. 1901</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1901-12-30" n="01">30.&#160;12.&#160;1901</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1901-12-11_02">Schnitzler an Bahr, 11. 12. 1901</ptr>
-               <ptr type="next" subtype="toAuthor" target="1902-01-03_01">Schnitzler an Bahr, 3. 1. 1902</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1901-12-11_02">Schnitzler an Bahr, 11.&#160;12.&#160;1901</ptr>
+               <ptr type="next" subtype="toAuthor" target="1902-01-03_01">Schnitzler an Bahr, 3.&#160;1.&#160;1902</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -111,86 +115,31 @@
       <graphic url="MS-B-00005-B-000-00141"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <p>
-                  <seg rend="left">
-                     <pb facs=""/>
-                     <hi rend="pre-print">
-                        <orgName key="pmb29414">Redaktion des Neuen Wiener Tagblatt</orgName>
-                     </hi>
-                  </seg>
-                  <seg rend="right">
-                     <date>30. 12.</date>
-                  </seg>
-               </p>
-               <p>
-                  <hi rend="pre-print">
-                     <hi rend="antiqua">
-                        <placeName key="pmb683">Wien, I., Rothenturmstrasse, Steyrerhof</placeName>.</hi>
-                  </hi>
-               </p>
-               <p>
-                  <hi rend="pre-print">Telegramm-Adresse: <orgName key="pmb29414">Tagblatt</orgName>, <placeName key="pmb683">Steyrerhof, Wien</placeName>. – Telephon Nr. 384. Staats-Telephon Nr. 36.</hi>
-               </p>
-               <salute rend="center">Lieber Arthur!</salute>
-            </opener>
-            <p>Danke sehr für Deine liebe Karte. Du könntest mir
-        allerdings in <placeName key="pmb168">Berlin</placeName> einen sehr, sehr großen Dienst
-        erweisen, wenn Du gelegentlich mit <persName key="pmb10986">Brahm</persName> über mich
+      <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print"><rs ref="#pmb29414" type="organisation">Redaktion des Neuen Wiener Tagblatt</rs></hi></seg><seg rend="right"><date>30.&#160;12.</date></seg></p><p><hi rend="pre-print"><hi rend="antiqua"><rs ref="#pmb683" type="place">Wien, I., Rothenturmstrasse, Steyrerhof</rs>.</hi></hi></p><p><hi rend="pre-print">Telegramm-Adresse: <rs ref="#pmb29414" type="organisation">Tagblatt</rs>, <rs ref="#pmb683" type="place">Steyrerhof, Wien</rs>. – Telephon Nr.&#160;384. Staats-Telephon Nr.&#160;36.</hi></p><salute rend="center">Lieber Arthur!</salute></opener><p>Danke sehr für Deine liebe Karte. Du könntest mir
+        allerdings in <rs ref="#pmb168" type="place">Berlin</rs> einen sehr, sehr großen Dienst
+        erweisen, wenn Du gelegentlich mit <rs ref="#pmb10986" type="person">Brahm</rs> über mich
         sprechen und ihm klar machen würdest, daß ich, bei allem, was man gegen mich sagen
         kann, doch schließlich auch Jemand bin und daß ich gern in ein, wenn auch kühles,
         doch anständiges Verhältnis gegenseitiger Duldung und beding<pb facs="MS-B-00005-B-000-00139"/>ter Anerkennung <add place="above">zu ihm</add>
         kommen möchte. Ich leide sehr unter meiner Erfolglosigkeit in
-         <placeName key="pmb151">Deutschland</placeName> und bin schon so bescheiden geworden, daß
+         <rs ref="#pmb151" type="place">Deutschland</rs> und bin schon so bescheiden geworden, daß
         ich es als einen großen Erfolg empfinden würde, wenn er sich nur entschließen
         könnte, ein Stück von mir anzunehmen und aufzuführen, meinetwegen in der
         schlechtesten Zeit, weil es mir dabei gar nicht auf die Tantièmen ankommt, sondern
-        auf den »literarischen Stempel«, <pb facs="MS-B-00005-B-000-00140"/>den nun das <placeName key="pmb3">Deutsche Theater</placeName> einmal seinen Autoren
+        auf den »literarischen Stempel«, <pb facs="MS-B-00005-B-000-00140"/>den nun das <rs ref="#pmb3" type="place">Deutsche Theater</rs> einmal seinen Autoren
         gibt und der mir noch immer fehlt, und darauf, von seiner »Clique« ernst genommen zu
-        werden. Er hat mir über den »<anchor type="commentary" xml:id="KL244-4"/>
-               <workName key="pmb29881">Krampus</workName>
-               <note type="commentary" xml:id="KL244-4h">
-                  <bibl>
-                     <persName key="pmb10815">Hermann
-                    Bahr</persName>: <workName key="pmb29881">Der Krampus. Lustspiel in drei
-                    Aufzügen</workName>. München: <orgName key="pmb29654">Albert
-                    Langen</orgName>
-                     <space unit="chars" quantity="1"/>
-                     <date>1902</date> (vordatiert
+        werden. Er hat mir über den »<anchor type="commentary" xml:id="KL244-4"/><rs ref="#pmb29881" type="work">Krampus</rs><note type="commentary" xml:id="KL244-4h"><bibl><rs ref="#pmb10815" type="person">Hermann
+                    Bahr</rs>: <rs ref="#pmb29881" type="work">Der Krampus. Lustspiel in drei
+                    Aufzügen</rs>. München: <rs ref="#pmb29654" type="organisation">Albert
+                    Langen</rs><space unit="chars" quantity="1"/><date>1902</date> (vordatiert
                 von <date>Dezember 1901</date>)</bibl>.</note>« sehr
         anerkennend gesprochen, ihn aber schließlich leider doch abgelehnt; ich werde ihn
-        nun einladen, der <placeName key="pmb506">Hamburger</placeName>
-               <space unit="chars" quantity="1"/>
-               <anchor type="commentary" xml:id="KL244-1"/>Première<note type="commentary" xml:id="KL244-1h">Letztlich erfolgte die Aufführung in <placeName key="pmb506">Hamburg</placeName> am <date>14. 1. 1902</date> unter dem Titel <workName key="pmb29881">Der Herr
-            Hofrat</workName>.</note> (am 12 oder 13 Januar) beizuwohnen; freilich ohne viel Hoffnung, <del rend="strikethrough">
-                  <unclear>ohne</unclear>
-               </del> ihn noch <pb facs="MS-B-00005-B-000-00141"/>umzustimmen. Aber
+        nun einladen, der <rs ref="#pmb506" type="place">Hamburger</rs><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KL244-1"/>Première<note type="commentary" xml:id="KL244-1h">Letztlich erfolgte die Aufführung in <rs ref="#pmb506" type="place">Hamburg</rs> am <date>14.&#160;1.&#160;1902</date> unter dem Titel <rs ref="#pmb29881" type="work">Der Herr
+            Hofrat</rs>.</note> (am 12 oder 13 Januar) beizuwohnen; freilich ohne viel Hoffnung, <del rend="strikethrough"><unclear>ohne</unclear></del> ihn noch <pb facs="MS-B-00005-B-000-00141"/>umzustimmen. Aber
         vielleicht bringst Du ihn doch so weit, daß er sich, wenn ich ihm wieder ein Stück
-        schicke, es wenigstens mit nicht im Vorhinein feindlichen Augen ansieht.</p>
-            <p>Aber bitte, thu das nur, wenn es sich leicht machen läßt, ohne Dir unbequem zu sein.</p>
-            <p>Ich bin riesig neugierig auf <anchor type="commentary" xml:id="KL244-2"/>Samstag<note type="commentary" xml:id="KL244-2h">Die Uraufführung von <workName key="pmb29863">Lebendige Stunden</workName> am <date when="1902-01-04">4. 1. 1902</date> am
-                <orgName key="pmb35053">Lessingtheater</orgName> in <placeName key="pmb168">Berlin</placeName>.</note>; mehr auszusprechen verbietet mir mein Aberglaube.</p>
-            <closer>Herzlichst<lb/>Dein alter<lb/>
-               <signed>HermannB</signed>
-            </closer>
-            <postscript>
-               <p>Prost Neujahr!</p>
-               <p>
-                  <anchor type="textConst" xml:id="TL244-1"/>
-                  <anchor type="commentary" xml:id="KL244-3"/>Den <persName key="pmb2189">Novelli</persName>, der über den »<workName key="pmb29843">Kakadu</workName>« noch immer nichts hören ließ, habe ich gestern <subst>
-                     <del rend="overwritten">d</del>
-                     <add place="inline">D</add>
-                  </subst>ringend gemahnt.<note type="commentary" xml:id="KL244-3h">
-                     <Lemma>Den Novelli {\dots} gemahnt.</Lemma>In den
-            Korrespondenzstücken, die von <persName key="pmb2189">Novelli</persName> im Nachlass <persName key="pmb10815">Bahrs</persName> überliefert sind, findet sich darüber kein näherer
-            Aufschluss.</note>
-                  <note type="textConst" xml:id="TL244-1h">
-                     <Lemma>Den Novelli {\dots} gemahnt.</Lemma>Vertikal am rechten Rand.</note>
-               </p>
-            </postscript>
-         </div>
-      </body>
+        schicke, es wenigstens mit nicht im Vorhinein feindlichen Augen ansieht.</p><p>Aber bitte, thu das nur, wenn es sich leicht machen läßt, ohne Dir unbequem zu sein.</p><p>Ich bin riesig neugierig auf <anchor type="commentary" xml:id="KL244-2"/>Samstag<note type="commentary" xml:id="KL244-2h">Die Uraufführung von <rs ref="#pmb29863" type="work">Lebendige Stunden</rs> am <date when="1902-01-04">4.&#160;1.&#160;1902</date> am
+                <rs ref="#pmb35053" type="organisation">Lessingtheater</rs> in <rs ref="#pmb168" type="place">Berlin</rs>.</note>; mehr auszusprechen verbietet mir mein Aberglaube.</p><closer>Herzlichst<lb/>Dein alter<lb/><signed>HermannB</signed></closer><postscript><p>Prost Neujahr!</p><p><anchor type="textConst" xml:id="TL244-1"/><anchor type="commentary" xml:id="KL244-3"/>Den <rs ref="#pmb2189" type="person">Novelli</rs>, der über den »<rs ref="#pmb29843" type="work">Kakadu</rs>« noch immer nichts hören ließ, habe ich gestern <subst><del rend="overwritten">d</del><add place="inline">D</add></subst>ringend gemahnt.<note type="commentary" xml:id="KL244-3h"><Lemma>Den Novelli {\dots} gemahnt.</Lemma>In den
+            Korrespondenzstücken, die von <rs ref="#pmb2189" type="person">Novelli</rs> im Nachlass <rs ref="#pmb10815" type="person">Bahrs</rs> überliefert sind, findet sich darüber kein näherer
+            Aufschluss.</note><note type="textConst" xml:id="TL244-1h"><Lemma>Den Novelli {\dots} gemahnt.</Lemma>Vertikal am rechten Rand.</note></p></postscript></div></body>
   </text>
 </TEI>

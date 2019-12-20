@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-05-23_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-05-23_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 23. 5. 1896</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 23.&#160;5.&#160;1896</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Hs-30885,XXXX</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>XXXXeh. Brief, 1 Bl., 1 S. XXXX</p>
+                                <p>XXXXeh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -59,8 +63,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -79,18 +83,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1896-05-23" n="01">23. 5. 1896</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1896-05-23" n="01">23.&#160;5.&#160;1896</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb636">Tlumatsch/Tłumacz</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb636">Tlumatsch/Tłumacz</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-05-17_01">Hofmannsthal an Schnitzler, 17. 5. [1896]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-06-02_01">Hofmannsthal an Schnitzler, 2. 6. 1896</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-05-17_01">Hofmannsthal an Schnitzler, 17.&#160;5.&#160;[1896]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-06-02_01">Hofmannsthal an Schnitzler, 2.&#160;6.&#160;1896</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -99,22 +103,13 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs=""/>
-                        <placeName key="pmb50">Wien</placeName>, <date>23. 5. 96</date>.</dateline>
-                </opener>
-                <p>
-                    <salute>Mein lieber Hugo, </salute>ich freue mich sehr, daß Sie sich meiner
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><rs ref="#pmb50" type="place">Wien</rs>, <date>23.&#160;5.&#160;96</date>.</dateline></opener><p><salute>Mein lieber Hugo, </salute>ich freue mich sehr, daß Sie sich meiner
                     erinnert haben u. noch mehr, daß Sie bald zurückkommen. Im <date>Juni</date>
                     wollen wir dann doch noch ein paar Mal zusammen sein. Und das eine Mal von den
-                    paar werde ich wohl das <rs type="work" key="pmb29899">Stück</rs> vorlesen
+                    paar werde ich wohl das <rs type="work" ref="#pmb29899" subtype="implied">Stück</rs> vorlesen
                     können. Ich habe jetzt mehr Zuversicht. Aber mit meinem ganzen Herzen bin ich
                     doch nicht dabei. Vielleicht ist das sogar gut: vielleicht ist es ein Fehler von
-                    vielen meiner Sachen, daß ich mit ihnen im Schreiben zu zärtlich geworden bin. </p>
-                <p>Ihren <rs type="work" key="pmb39977">Artikel über Poesie und Leben</rs> hab ich
+                    vielen meiner Sachen, daß ich mit ihnen im Schreiben zu zärtlich geworden bin. </p><p>Ihren <rs type="work" ref="#pmb39977" subtype="implied">Artikel über Poesie und Leben</rs> hab ich
                     als ein schönes Gedicht empfunden; aber es kam mir vor, als wenn Sie die Grenzen
                     der Poesie zu eng gezogen hätten, während es doch Ihre Absicht war, sie zu
                     erweitern. Woher eigentlich dieses sonderbare Bedürfnis kommt, über Kunst zu
@@ -122,24 +117,15 @@
                     etwas überflüssiges oder gar Unrechtes getan zu haben. Es kommt bestimmt nicht
                     allein daher, daß das Theoretisieren einfach meinem Wesen nicht entspricht. Und
                     meine Sehnsucht, ins klare zu kommen, ist gewiß auch nicht gering. Und was
-                        <persName key="pmb11461">Goethe</persName>, <persName key="pmb12053">Lessing</persName>, <persName key="pmb2404">Hebbel</persName>, was Sie und
+                        <rs ref="#pmb11461" type="person">Goethe</rs>, <rs ref="#pmb12053" type="person">Lessing</rs>, <rs ref="#pmb2404" type="person">Hebbel</rs>, was Sie und
                     andre über Kunst sagen, lese ich gern; manches beruhigt mich, indem es
                     abschließt, andres bewegt mich, indem es Tore aufschließt. Wir sprechen einmal
-                    darüber.</p>
-                <p>
-                    <persName key="pmb10986">Brahm</persName> ist jetzt da, den ich persönlich gern
-                    habe. Gestern Abend waren er, <persName key="pmb10863">Richard</persName>,
-                        <persName key="pmb2167">Salten</persName> u. <persName key="pmb12740">Schwarzkopf</persName> bei mir. Gelesen hab ich die <workName key="pmb41409">Frzs. Revol.</workName> von <persName key="pmb12913">Taine</persName>, die <workName key="pmb36728">Olla potrida des
-                        durchtriebenen Fuchsmundi</workName>, die <workName key="pmb33937">Noten zum
-                        Divan</workName> und einen englischen <anchor type="commentary" xml:id="KL2832-1"/>
-                    <rs type="work" key="pmb39981">Kriminalroman</rs>
-                    <note type="commentary" xml:id="KL2832-1h">Nicht identifiziert.</note>. – Mein
-                    Sommerplan ist jetzt <placeName key="pmb1030">Norwegen</placeName>, <placeName key="pmb244">Schweden</placeName>, <placeName key="pmb434">Dänemark</placeName>; und eine <rs key="pmb30075" type="work">Novelle</rs>. – Jetzt ist ein Gewitter mit Blitz und Donner und Abend geh ich
-                    zum »<workName key="pmb41412">Zerrissenen</workName>«. </p>
-                <closer>Herzlich der Ihre,<lb/>
-                    <signed>A. S.</signed>
-                </closer>
-            </div>
-        </body>
+                    darüber.</p><p><rs ref="#pmb10986" type="person">Brahm</rs> ist jetzt da, den ich persönlich gern
+                    habe. Gestern Abend waren er, <rs ref="#pmb10863" type="person">Richard</rs>,
+                        <rs ref="#pmb2167" type="person">Salten</rs> u. <rs ref="#pmb12740" type="person">Schwarzkopf</rs> bei mir. Gelesen hab ich die <rs ref="#pmb41409" type="work">Frzs. Revol.</rs> von <rs ref="#pmb12913" type="person">Taine</rs>, die <rs ref="#pmb36728" type="work">Olla potrida des
+                        durchtriebenen Fuchsmundi</rs>, die <rs ref="#pmb33937" type="work">Noten zum
+                        Divan</rs> und einen englischen <anchor type="commentary" xml:id="KL2832-1"/><rs type="work" ref="#pmb39981" subtype="implied">Kriminalroman</rs><note type="commentary" xml:id="KL2832-1h">Nicht identifiziert.</note>. – Mein
+                    Sommerplan ist jetzt <rs ref="#pmb1030" type="place">Norwegen</rs>, <rs ref="#pmb244" type="place">Schweden</rs>, <rs ref="#pmb434" type="place">Dänemark</rs>; und eine <rs ref="#pmb30075" type="work" subtype="implied">Novelle</rs>.&#160;– Jetzt ist ein Gewitter mit Blitz und Donner und Abend geh ich
+                    zum »<rs ref="#pmb41412" type="work">Zerrissenen</rs>«. </p><closer>Herzlich der Ihre,<lb/><signed>A.&#160;S.</signed></closer></div></body>
     </text>
 </TEI>

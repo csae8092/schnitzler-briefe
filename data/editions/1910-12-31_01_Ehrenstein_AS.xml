@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1910-12-31_01_Ehrenstein_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1910-12-31_01_Ehrenstein_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Albert Ehrenstein an Arthur Schnitzler, 31. 12. 1910</title>
-                <author key="pmb11230">Ehrenstein, Albert</author>
+                <title level="a">Albert Ehrenstein an Arthur Schnitzler, 31.&#160;12.&#160;1910</title>
+                <author ref="#pmb11230">Ehrenstein, Albert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>            
                                 <settlement>Cambridge</settlement>            
                                 <repository>University Library</repository>            
-                                <idno>Schnitzler, B 30</idno>
+                                <idno>Schnitzler, B&#160;30</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., Lateinschrift.</p>
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., Lateinschrift.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -59,7 +63,7 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb11230">Ehrenstein, Albert</author>
+                            <author ref="#pmb11230">Ehrenstein, Albert</author>
                             <title level="m">Briefe</title>
                             <editor>Hg. Hanni Mittelmann</editor>
                             <imprint>
@@ -82,19 +86,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11230">Ehrenstein, Albert</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1910-12-31" n="01">31. 12. 1910</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11230">Ehrenstein, Albert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1910-12-31" n="01">31.&#160;12.&#160;1910</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <!--<placeName key="pmb50">Wien</placeName>-->
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <!--<placeName ref="#pmb50">Wien</placeName>-->
                    <!--<date when=""></date>-->
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1910-12-25_01">Schnitzler an Ehrenstein, 25. 12. 1910</ptr>
-               <ptr type="next" subtype="toAuthor" target="1911-01-31_01">Schnitzler an Ehrenstein, 31. 1. 1911</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1910-12-25_01">Schnitzler an Ehrenstein, 25.&#160;12.&#160;1910</ptr>
+               <ptr type="next" subtype="toAuthor" target="1911-01-31_01">Schnitzler an Ehrenstein, 31.&#160;1.&#160;1911</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -105,31 +109,10 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <seg rend="left">
-                     <pb facs="gray00116.pdf"/>
-                     <placeName key="pmb300">XVI. Ottakringerstr. 114</placeName>.</seg>
-                  <seg rend="right">
-                     <date>31. Dez. 10</date>
-                  </seg>
-               </dateline>
-                    <salute>Hochverehrter Herr Doktor!</salute>
-            </opener>
-                <p>Für Ihre liebenswürdige Gratulation danke ich herzlichst.</p>
-                <p>Es wäre mir sehr erfreulich, zu wissen, ob ich, nun nachdem ich auch noch zum Ph. Doctor degradiert wurde, wieder
-                    einmal bei Ihnen vorsprechen darf?</p>
-                <p>Indem ich zum neuen Jahre wünsche: Zeit und Raum mögen sich Ihnen in der willkommenden Weise gestalten,
-                </p>
-                <closer>bin ich Hochachtungsvollst<lb/>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><seg rend="left"><pb facs="gray00116.pdf"/><rs ref="#pmb300" type="place">XVI. Ottakringerstr. 114</rs>.</seg><seg rend="right"><date>31.&#160;Dez.&#160;10</date></seg></dateline><salute>Hochverehrter Herr Doktor!</salute></opener><p>Für Ihre liebenswürdige Gratulation danke ich herzlichst.</p><p>Es wäre mir sehr erfreulich, zu wissen, ob ich, nun nachdem ich auch noch zum Ph.&#160;Doctor degradiert wurde, wieder
+                    einmal bei Ihnen vorsprechen darf?</p><p>Indem ich zum neuen Jahre wünsche: Zeit und Raum mögen sich Ihnen in der willkommenden Weise gestalten,
+                </p><closer>bin ich Hochachtungsvollst<lb/>
                     Euer Hochwohlgeboren<lb/>
-                    ergebenster<lb/>
-                    <signed>Albert Ehrenstein.</signed>
-                    
-                </closer>
-            </div>
-        </body>
+                    ergebenster<lb/><signed>Albert Ehrenstein.</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1912-11-07_01_Altenberg_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1912-11-07_01_Altenberg_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Peter Altenberg an Arthur Schnitzler, [7. 11. 1912]</title>
-            <author key="pmb2147">Altenberg, Peter</author>
+            <title level="a">Peter Altenberg an Arthur Schnitzler, [7.&#160;11.&#160;1912]</title>
+            <author ref="#pmb2147">Altenberg, Peter</author>
             <editor>
                <name full="yes" instant="false">Müller, Martin Anton</name>
             </editor>
@@ -47,10 +51,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 2</idno>
+                        <idno>Schnitzler, B&#160;2</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1  Bl., 2 S., schwarze Tinte. Von Schnitzler mit Bleistift
+                        <p>eh. Brief, 1 &#160;Bl., 2&#160;S., schwarze Tinte. Von Schnitzler mit Bleistift
                            datiert: »<quote>
                               <date>7/11 912</date>
                            </quote>«. Von unbekannter Hand mit Bleistift nummeriert:
@@ -67,7 +71,7 @@
                         <idno>A:Schnitzler, 85.1.2342</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>ms. Abschrift, S. 9–10, mit hs. Unterstreichungen und zwei hs.
+                        <p>ms. Abschrift, S.&#160;9–10, mit hs. Unterstreichungen und zwei hs.
                            Korrekturen; die Abschrift mit Schnitzlers Schreibmaschine mit weiter
                            Spationierung, womöglich kurz nach dem Tod Altenbergs entstanden.</p>
                      </physDesc>
@@ -77,7 +81,7 @@
             <listBibl>
                <biblStruct>
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Das Wort. Tragikomödie in fünf Akten. Fragment</title>
                      <editor>Aus dem Nachlaß hg. und eingel. von Kurt Bergel</editor>
                      <imprint>
@@ -90,8 +94,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">
                   <monogr>
-                     <author key="pmb10815">Bahr, Hermann</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
                      <imprint>
@@ -110,18 +114,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2147">Altenberg, Peter</persName>
-               <placeName key="pmb189">Semmering</placeName>
-               <date when="1912-11-07" n="01">[7. 11. 1912]</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2147">Altenberg, Peter</persName>
+               <placeName ref="#pmb189">Semmering</placeName>
+               <date when="1912-11-07" n="01">[7.&#160;11.&#160;1912]</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1912-05-10_01">Altenberg an Schnitzler, [10.? 5. 1912]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1912-11-09_01">Altenberg an Schnitzler, [zwischen 9. und 15. 11. 1912?]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1912-05-10_01">Altenberg an Schnitzler, [10.? 5.&#160;1912]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1912-11-09_01">Altenberg an Schnitzler, [zwischen 9. und 15.&#160;11.&#160;1912?]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -139,60 +143,19 @@
       <graphic url="MS-SCHNITZLER-B-00002-000-00022"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <p>
-                  <seg rend="left">
-                     <pb facs="MS-SCHNITZLER-B-00002-000-00021"/>
-                     <hi rend="pre-print">Peter Altenberg</hi>
-                  </seg>
-                  <seg rend="right">
-                     <hi rend="pre-print">
-                        <placeName key="pmb189">Semmering</placeName>
-                     </hi>
-                  </seg>
-               </p>
-               <p rend="right">
-                  <hi rend="pre-print">
-                     <placeName key="pmb204">Hotel Panhans</placeName>.</hi>
-               </p>
-               <salute>Lieber <hi rend="latintype">D<hi rend="superscript">r</hi>
-                  </hi> Arthur
-                  Schnitzler,</salute>
-            </opener>
-            <p>ich ſchreibe es Ihnen ganz klip und klar, denn alles Andere hätte gar keinen
-               Sinn:</p>
-            <p>Eine Reihe von Menſchen, die mich <hi rend="underline" n="1">bisher</hi> durch <hi rend="underline" n="1">fixe monatliche Beiträge</hi> unterſtützt haben, ſind
+      <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs="MS-SCHNITZLER-B-00002-000-00021"/><hi rend="pre-print">Peter Altenberg</hi></seg><seg rend="right"><hi rend="pre-print"><rs ref="#pmb189" type="place">Semmering</rs></hi></seg></p><p rend="right"><hi rend="pre-print"><rs ref="#pmb204" type="place">Hotel Panhans</rs>.</hi></p><salute>Lieber <hi rend="latintype">D<hi rend="superscript">r</hi></hi> Arthur
+                  Schnitzler,</salute></opener><p>ich ſchreibe es Ihnen ganz klip und klar, denn alles Andere hätte gar keinen
+               Sinn:</p><p>Eine Reihe von Menſchen, die mich <hi rend="underline" n="1">bisher</hi> durch <hi rend="underline" n="1">fixe monatliche Beiträge</hi> unterſtützt haben, ſind
                allmälig »<hi rend="underline" n="1">ausgeſprungen</hi>«. Ich frage daher bei Ihnen,
-               dem vom Schickſale Begünſtigten, an, ob Sie oder Andere (<persName key="pmb10863">Beer-Hoffmann</persName>, <persName key="pmb11740">Hugo Hofmannstal</persName>,
-                  <persName key="pmb10815">Hermann Bahr</persName>
-               <hi rend="latintype">etc. etc.</hi>) <lb/>mir die Sorge meines
+               dem vom Schickſale Begünſtigten, an, ob Sie oder Andere (<rs ref="#pmb10863" type="person">Beer-Hoffmann</rs>, <rs ref="#pmb11740" type="person">Hugo Hofmannstal</rs>,
+                  <rs ref="#pmb10815" type="person">Hermann Bahr</rs><hi rend="latintype">etc. etc.</hi>) <lb/>mir die Sorge meines
                Lebensabends<lb/>(»tiefſte Lebensnacht« ſollte es eigentlich lauten) erleichtern
-               wollen!?!? <add place="inline">Bis zum 53. Jahre habe ich mich ſo »<hi rend="underline" n="1">durchgefrettet</hi>«.</add>
-            </p>
-            <p>
-               <pb facs="MS-SCHNITZLER-B-00002-000-00021"/>Ich bin ſeit 8 Wochen von einer
+               wollen!?!? <add place="inline">Bis zum 53.&#160;Jahre habe ich mich ſo »<hi rend="underline" n="1">durchgefrettet</hi>«.</add></p><p><pb facs="MS-SCHNITZLER-B-00002-000-00021"/>Ich bin ſeit 8 Wochen von einer
                »allgemeinen Nervenentzündung« (<hi rend="latintype">polyneuritis</hi>) Tag und Nacht
-                  <hi rend="underline" n="3">gefoltert</hi>, dazu die ſeeliſche Depreſſion!</p>
-            <p>Ich bitte ſehr, dieſes Schreiben als <hi rend="underline" n="3">Geheimnis</hi> zu
-               betrachten. <add place="inline">Ich appellire an den Menſchen <hi rend="underline" n="1">und</hi> den Dichter.</add>
-            </p>
-            <p>Meine Tage ſind <hi rend="underline" n="1">gerichtet</hi> und gezählt, da gibt es
+                  <hi rend="underline" n="3">gefoltert</hi>, dazu die ſeeliſche Depreſſion!</p><p>Ich bitte ſehr, dieſes Schreiben als <hi rend="underline" n="3">Geheimnis</hi> zu
+               betrachten. <add place="inline">Ich appellire an den Menſchen <hi rend="underline" n="1">und</hi> den Dichter.</add></p><p>Meine Tage ſind <hi rend="underline" n="1">gerichtet</hi> und gezählt, da gibt es
                keine Demütigung mehr, man iſt ſchon halb wo anders, dort wo die Beurteilungen des
-               Menſchen und ſeiner Seele <hi rend="underline" n="3">anders</hi> gewertet werden!</p>
-            <closer>Ihr unglückſeliger<lb/>
-               <signed>Peter Altenberg</signed>
-            </closer>
-            <postscript>
-               <p>
-                  <placeName key="pmb204">Semmering, Hotel Panhans.</placeName>
-               </p>
-               <p>Es iſt ein <hi rend="underline" n="1">Notſchrei</hi> eines ſchwerst
-                  Bedrängten.</p>
-               <p rend="right">Geheimnis!!!</p>
-            </postscript>
-         </div>
-      </body>
+               Menſchen und ſeiner Seele <hi rend="underline" n="3">anders</hi> gewertet werden!</p><closer>Ihr unglückſeliger<lb/><signed>Peter Altenberg</signed></closer><postscript><p><rs ref="#pmb204" type="place">Semmering, Hotel Panhans.</rs></p><p>Es iſt ein <hi rend="underline" n="1">Notſchrei</hi> eines ſchwerst
+                  Bedrängten.</p><p rend="right">Geheimnis!!!</p></postscript></div></body>
    </text>
 </TEI>

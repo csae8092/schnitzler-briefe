@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1905-09-06_01_Beer-Hofmann_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1905-09-06_01_Beer-Hofmann_Bahr">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Beer-Hofmann an Bahr, [6.] 9. 1905</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Beer-Hofmann an Bahr, [6.] 9.&#160;1905</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -52,8 +56,8 @@
                         <idno>HS AM 15516 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>hs. Brief, 1 Bl., 3 S., Lateinschrift, gedruckter Kopf: »<quote>
-                              <placeName key="pmb258">Grand Hôtel des Bains / Lido-Venise</placeName>
+                        <p>hs. Brief, 1&#160;Bl., 3&#160;S., Lateinschrift, gedruckter Kopf: »<quote>
+                              <rs ref="#pmb258" type="place">Grand Hôtel des Bains / Lido-Venise</rs>
                            </quote>«</p>
                      </physDesc>
                   </msDesc>
@@ -62,8 +66,8 @@
             <listBibl>
                <biblStruct corresp="BHHB2">
                   <monogr>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
-                     <title level="m">Briefe. 1895–1945</title>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
+                     <title level="m">Briefe.&#160;1895–1945</title>
                      <editor>Hg. und kommentiert von Alexander Košenina</editor>
                      <imprint>
                         <pubPlace>Oldenburg</pubPlace>
@@ -91,8 +95,8 @@
                </biblStruct>
                <biblStruct>                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -110,18 +114,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb462">Venedig</placeName>
-               <date when="1905-09-06" n="01">[6.] 9. 1905</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb462">Venedig</placeName>
+               <date when="1905-09-06" n="01">[6.] 9.&#160;1905</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
                <ptr type="previous" subtype="toAuthor" target="1905-08-15_01">Beer-Hofmann an Schnitzler, Mitte August 1905</ptr>
-               <ptr type="next" subtype="toAuthor" target="1905-09-14_01">Schnitzler an Beer-Hofmann, 14. 9. 1905</ptr>
+               <ptr type="next" subtype="toAuthor" target="1905-09-14_01">Schnitzler an Beer-Hofmann, 14.&#160;9.&#160;1905</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -133,40 +137,19 @@
     
   </teiHeader>
   <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>
-                     <damage agent="hole">
-                        <supplied>6</supplied>
-                     </damage>/IX. 05</date>
-               </dateline>
-               <salute>Lieber Hermann!</salute>
-            </opener>
-            <p>
-               <persName key="pmb2121">Arthur</persName> hat mir <date>Ende Juli</date> die Übersendung des <rs type="work" key="pmb29999">Stückes</rs> angezeigt, so dass ich meinen musste, es läge in meiner
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date><damage agent="hole"><supplied>6</supplied></damage>/IX. 05</date></dateline><salute>Lieber Hermann!</salute></opener><p><rs ref="#pmb2121" type="person">Arthur</rs> hat mir <date>Ende Juli</date> die Übersendung des <rs type="work" ref="#pmb29999" subtype="implied">Stückes</rs> angezeigt, so dass ich meinen musste, es läge in meiner
           Wohnung (als Buchpaquet verkleidet) und Auftrag gab Alles danach zu durchsuchen. In
-          Wahrheit <pb/>aber wurde es erst am <anchor type="commentary" xml:id="KL509-1"/>
-               <date>23/Aug</date>
-               <note type="commentary" xml:id="KL509-1h">
-                  <persName key="pmb2121">Schnitzler</persName> hielt
-            sich zu dieser Zeit in <placeName key="pmb50">Wien</placeName> auf.</note> (von <placeName key="pmb483">Reichenau</placeName> glaub’ ich) an mich abgeschickt und
+          Wahrheit <pb/>aber wurde es erst am <anchor type="commentary" xml:id="KL509-1"/><date>23/Aug</date><note type="commentary" xml:id="KL509-1h"><rs ref="#pmb2121" type="person">Schnitzler</rs> hielt
+            sich zu dieser Zeit in <rs ref="#pmb50" type="place">Wien</rs> auf.</note> (von <rs ref="#pmb483" type="place">Reichenau</rs> glaub’ ich) an mich abgeschickt und
           ich habe es erst seit drei Tagen hier. Ich möchte es nun doch sehr gerne lesen – lassen
-          Sie es mir also – (wenn es geht) noch ein paar Tage.</p>
-            <p>Die <placeName key="pmb30">Salzburg</placeName>er Grüsse hat
-            <persName key="pmb26392">Vanjung</persName> über<pb/>bracht. Mein Sommer war nicht sehr schön, und
+          Sie es mir also – (wenn es geht) noch ein paar Tage.</p><p>Die <rs ref="#pmb30" type="place">Salzburg</rs>er Grüsse hat
+            <rs ref="#pmb26392" type="person">Vanjung</rs> über<pb/>bracht. Mein Sommer war nicht sehr schön, und
           bessert sich erst hier, wo Meer und
-            <placeName key="pmb462">Venedig</placeName> doch sehr nachhelfen. Ich möchte
+            <rs ref="#pmb462" type="place">Venedig</rs> doch sehr nachhelfen. Ich möchte
           bis Ende des Monates hierbleiben. Ist es ausgeschlossen, dass sich – so beim herumkramen –
           irgendwo ein paar vergessene Urlaubstage finden, die Sie für den
-               <placeName key="pmb259">Lido</placeName>, <hi rend="underline" n="1">und</hi> für <placeName key="pmb462">Venedig</placeName> – und für uns
-          benützen? <persName key="pmb10860">Paula</persName> und ich wären sehr froh. Wir Beide grüssen Sie von
-          Herzen.</p>
-            <closer>Ihr<lb/>
-               <signed>Richard</signed>
-            </closer>
-         </div>
-      </body>
+               <rs ref="#pmb259" type="place">Lido</rs>, <hi rend="underline" n="1">und</hi> für <rs ref="#pmb462" type="place">Venedig</rs> – und für uns
+          benützen? <rs ref="#pmb10860" type="person">Paula</rs> und ich wären sehr froh. Wir Beide grüssen Sie von
+          Herzen.</p><closer>Ihr<lb/><signed>Richard</signed></closer></div></body>
   </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-03-06_01_Blumenthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-03-06_01_Blumenthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Oscar Blumenthal an Arthur Schnitzler, [6. 3. 1892]</title>
-                <author key="pmb14328">Blumenthal, Oscar</author>
+                <title level="a">Oscar Blumenthal an Arthur Schnitzler, [6.&#160;3.&#160;1892]</title>
+                <author ref="#pmb14328">Blumenthal, Oscar</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 15</idno>
+                                <idno>Schnitzler, B&#160;15</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Visitenkarte, schwarze Tinte. Von Schnitzler datiert: »<quote>
@@ -67,18 +71,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb14328">Blumenthal, Oscar</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1892-03-06" n="01">[6. 3. 1892]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb14328">Blumenthal, Oscar</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1892-03-06" n="01">[6.&#160;3.&#160;1892]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1892-01-16_01">Blumenthal an Schnitzler, 16. 1. 1892</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-08-01_01">Blumenthal an Schnitzler, 1. 8. 1892</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1892-01-16_01">Blumenthal an Schnitzler, 16.&#160;1.&#160;1892</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-08-01_01">Blumenthal an Schnitzler, 1.&#160;8.&#160;1892</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -93,22 +97,8 @@
         <graphic url="MS-SCHNITZLER-B-00015-000-00007"/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="writingSession" n="1">
-                <p rend="center">
-                    <pb facs="MS-SCHNITZLER-B-00015-000-00007"/>
-                    <hi rend="pre-print">Dr. Oscar Blumenthal</hi>
-                    <lb/>
-                    <hi rend="pre-print">Direktor des <orgName key="pmb35053">Lessingtheaters</orgName>. </hi>
-                </p>
-                <p>bittet <anchor type="commentary" xml:id="KL2819-1"/>morgen, <date>Montag</date>
-                    <note type="commentary" xml:id="KL2819-1h">Das Treffen fand am
-                            <date>7. 3. 1892</date> statt, <persName key="pmb2121">Schnitzler</persName> schildert es im <workName key="pmb33243">Tagebuch</workName>.</note>, <time>4 Uhr</time> um Ihren freundlichen
-                    Beſuch <placeName key="pmb29">
-                        <hi rend="latintype">Hôtel</hi>
-                        <space unit="chars" quantity="1"/>Sacher</placeName>
-                </p>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><p rend="center"><pb facs="MS-SCHNITZLER-B-00015-000-00007"/><hi rend="pre-print">Dr. Oscar Blumenthal</hi><lb/><hi rend="pre-print">Direktor des <rs ref="#pmb35053" type="organisation">Lessingtheaters</rs>. </hi></p><p>bittet <anchor type="commentary" xml:id="KL2819-1"/>morgen, <date>Montag</date><note type="commentary" xml:id="KL2819-1h">Das Treffen fand am
+                            <date>7.&#160;3.&#160;1892</date> statt, <rs ref="#pmb2121" type="person">Schnitzler</rs> schildert es im <rs ref="#pmb33243" type="work">Tagebuch</rs>.</note>, <time>4 Uhr</time> um Ihren freundlichen
+                    Beſuch <rs ref="#pmb29" type="place"><hi rend="latintype">Hôtel</hi><space unit="chars" quantity="1"/>Sacher</rs></p></div></body>
     </text>
 </TEI>

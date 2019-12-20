@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-09-27_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1895-09-27_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, [27.? 9. 1895]</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, [27.? 9.&#160;1895]</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
                         <p><!-- Original offenbar nicht überliefert, muss nach einer Buchausgabe zitiert werden --></p>
@@ -64,15 +68,15 @@
                   <monogr> 
                      <title level="j">Neue Zürcher Zeitung</title> 
                      <imprint>
-                        <date when="1955-10-02">2. 10. 1955</date>
+                        <date when="1955-10-02">2.&#160;10.&#160;1955</date>
                      </imprint>
                      <biblScope unit="pp">4</biblScope> 
                   </monogr> 
                </biblStruct> 
                <biblStruct> 
                   <monogr> 
-                     <title level="m" key="pmb30067">Spiegelbild der Freundschaft</title> 
-                     <author key="pmb2173">Schnitzler, Olga</author> 
+                     <title level="m" ref="#pmb30067">Spiegelbild der Freundschaft</title> 
+                     <author ref="#pmb2173">Schnitzler, Olga</author> 
                      <imprint> 
                         <pubPlace>Salzburg</pubPlace> 
                         <publisher>Residenz-Verlag</publisher> 
@@ -83,8 +87,8 @@
                </biblStruct> 
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -103,18 +107,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb38897">Garda</placeName>
-               <date when="1895-09-27" n="01">27. 9. 1895</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb38897">Garda</placeName>
+               <date when="1895-09-27" n="01">27.&#160;9.&#160;1895</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-09-26_01">Schnitzler an Beer-Hofmann, 26. 9. 1895</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-10-01_01">Schnitzler an Beer-Hofmann, 1. 10. 1895</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-09-26_01">Schnitzler an Beer-Hofmann, 26.&#160;9.&#160;1895</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-10-01_01">Schnitzler an Beer-Hofmann, 1.&#160;10.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -124,98 +128,40 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p>
-               <salute>Lieber Arthur! </salute>Dies schreib ich Ihnen, im Boote liegend, während man
+      <body><div type="writingSession" n="1"><p><salute>Lieber Arthur! </salute>Dies schreib ich Ihnen, im Boote liegend, während man
                mich zu einer Insel rudert, auf der ein Jupitertempel stand, aus dem der heilige
-                  <persName key="pmb4504">Franciscus von Assisi</persName> – mein <persName key="pmb4504">Franciscus</persName> – ein Kloster gemacht hat. Zugleich lese ich
-               in einem <anchor type="commentary" xml:id="KL517-1"/>
-               <rs type="work" key="pmb30275">Buch</rs>
-               <note type="commentary" xml:id="KL517-1h">
-                  <bibl>
-                     <workName key="pmb30275">Anthologie lyrischer und epigrammatischer Dichtungen
-                        der alten Griechen</workName>. Hg. <persName key="pmb28679">Edmund
-                        Boesel</persName>. Stuttgart: <orgName key="pmb29666">Philipp Reclam
-                        jun.</orgName>
-                     <space unit="chars" quantity="1"/>
-                     <supplied>
-                        <date>1884</date>
-                     </supplied>
-                  </bibl>.</note> wunderschöne Sachen – wie das <rs type="work" key="pmb30275">Buch</rs> aber heisst schreibe ich hier
-               nicht, denn der Name könnte Ihnen entgleiten, und der <persName key="pmb10815">B</persName>
-               <c rendition="#dots" n="3"/> mittelst 3–4 Ausschrotartikeln es einem minieren und
+                  <rs ref="#pmb4504" type="person">Franciscus von Assisi</rs> – mein <rs ref="#pmb4504" type="person">Franciscus</rs> – ein Kloster gemacht hat. Zugleich lese ich
+               in einem <anchor type="commentary" xml:id="KL517-1"/><rs type="work" ref="#pmb30275" subtype="implied">Buch</rs><note type="commentary" xml:id="KL517-1h"><bibl><rs ref="#pmb30275" type="work">Anthologie lyrischer und epigrammatischer Dichtungen
+                        der alten Griechen</rs>. Hg. <rs ref="#pmb28679" type="person">Edmund
+                        Boesel</rs>. Stuttgart: <rs ref="#pmb29666" type="organisation">Philipp Reclam
+                        jun.</rs><space unit="chars" quantity="1"/><supplied><date>1884</date></supplied></bibl>.</note> wunderschöne Sachen – wie das <rs type="work" ref="#pmb30275" subtype="implied">Buch</rs> aber heisst schreibe ich hier
+               nicht, denn der Name könnte Ihnen entgleiten, und der <rs ref="#pmb10815" type="person">B</rs><c rendition="#dots" n="3"/> mittelst 3–4 Ausschrotartikeln es einem minieren und
                verekeln, aber es ist sehr schön. Im dritten Jahrhundert vor Christi Geburt schreibt
-               ein Herr <persName key="pmb4508">Posidippus</persName> – ohne »<workName key="pmb29823">Märchen</workName>«- und »<workName key="pmb31965">Elixire</workName>«-Schmerzen – heiter <anchor type="commentary" xml:id="M2"/>konstatirend<note type="commentary" xml:id="M2h">Das Gedicht findet sich in
-                     <persName key="pmb28679">Boesel</persName>s <workName key="pmb30275">Anthologie</workName> auf den <bibl>S. 298–299</bibl>.</note>:</p>
-            <lg type="poem">
-               <l>
-                  <rs type="work" key="pmb38920">»Wähne, Philanis<!-- Bösel hat Philänis! -->, nicht
-                     mich durch lockende Thränen zu täuschen!</rs>
-               </l>
-               <l>
-                  <rs type="work" key="pmb38920">Freilich, ich weiss ja, du liebst inniger keinen
-                     als mich,</rs>
-               </l>
-               <l>
-                  <rs type="work" key="pmb38920">Keinen, – so lange du neben mir liegst. Doch hat
-                     dich ein andrer,</rs>
-               </l>
-               <l>
-                  <rs type="work" key="pmb38920">Nun, so liebest du den inniger wieder als
-                     mich.</rs>«</l>
-            </lg>
-            <p>Sollten Ihnen <persName key="pmb18523">Paul Hörne</persName> die »<workName key="pmb31975">kleine Comödie</workName>«, verheirathete Frauen mit dem Schmerz
-               anständig zu sein, das »kleine Mädel« der »<workName key="pmb29917">Liebelei</workName>« (um Gotteswillen, wie ist die <persName key="pmb12618">Sandrock</persName> im ersten Akt?) und mir das Dienstmädchen im »<workName key="pmb30437">Kind</workName>« (mit Unrecht, denn die schildere ich selbst ja
+               ein Herr <rs ref="#pmb4508" type="person">Posidippus</rs> – ohne »<rs ref="#pmb29823" type="work">Märchen</rs>«- und »<rs ref="#pmb31965" type="work">Elixire</rs>«-Schmerzen – heiter <anchor type="commentary" xml:id="M2"/>konstatirend<note type="commentary" xml:id="M2h">Das Gedicht findet sich in
+                     <rs ref="#pmb28679" type="person">Boesel</rs>s <rs ref="#pmb30275" type="work">Anthologie</rs> auf den <bibl>S.&#160;298–299</bibl>.</note>:</p><lg type="poem"><l><rs type="work" ref="#pmb38920" subtype="implied">»Wähne, Philanis<!-- Bösel hat Philänis! -->, nicht
+                     mich durch lockende Thränen zu täuschen!</rs></l><l><rs type="work" ref="#pmb38920" subtype="implied">Freilich, ich weiss ja, du liebst inniger keinen
+                     als mich,</rs></l><l><rs type="work" ref="#pmb38920" subtype="implied">Keinen, – so lange du neben mir liegst. Doch hat
+                     dich ein andrer,</rs></l><l><rs type="work" ref="#pmb38920" subtype="implied">Nun, so liebest du den inniger wieder als
+                     mich.</rs>«</l></lg><p>Sollten Ihnen <rs ref="#pmb18523" type="person">Paul Hörne</rs> die »<rs ref="#pmb31975" type="work">kleine Comödie</rs>«, verheirathete Frauen mit dem Schmerz
+               anständig zu sein, das »kleine Mädel« der »<rs ref="#pmb29917" type="work">Liebelei</rs>« (um Gotteswillen, wie ist die <rs ref="#pmb12618" type="person">Sandrock</rs> im ersten Akt?) und mir das Dienstmädchen im »<rs ref="#pmb30437" type="work">Kind</rs>« (mit Unrecht, denn die schildere ich selbst ja
                nicht als hervorragend begehrenswert) vorwerfen, dann werden wir mit Ihnen sagen
-               »Lasst uns lächeln« und folgende schöne <anchor type="commentary" xml:id="M1"/>Verse<note type="commentary" xml:id="M1h">Das Gedicht findet sich in <persName key="pmb28679">Boesel</persName>s <workName key="pmb30275">Anthologie</workName> auf den <bibl>S. 299–300</bibl>.</note> zitieren:</p>
-            <lg type="poem">
-               <l>»<rs type="work" key="pmb38912">Statt hoffärtiger Frauen erwählen wir lieber die
-                     Magd uns,</rs>
-               </l>
-               <l>
-                  <rs type="work" key="pmb38912">Welche den täuschenden Schein üppigen Tandes
-                     verschmäht.</rs>
-               </l>
-               <l>
-                  <rs type="work" key="pmb38912">Jene, die Haut umduftet von Salböl, schreitet mit
-                     Hochmuth</rs>
-               </l>
-               <l>
-                  <rs type="work" key="pmb38912">Prunkend einher; und Gefahr bringt es, ihr liebend
-                     zu nahn.</rs>
-               </l>
-            </lg>
-            <p rend="right">(<workName key="pmb29917">Liebelei</workName>)</p>
-            <lg type="poem">
-               <l>
-                  <rs type="work" key="pmb38912">Diese, geschmückt mit natürlichem Reiz und Farbe,
-                     versagt dir</rs>
-               </l>
-               <l>
-                  <rs type="work" key="pmb38912">Nimmer das Lager und heischt nimmer ein köstlich
-                     Geschenk</rs>
-               </l>
-               <l>
-                  <rs type="work" key="pmb38912">Pyrrhus, ich ahme dir nach, du edler Sohn des
-                     Achilleus,</rs>
-               </l>
-               <l>
-                  <rs type="work" key="pmb38912">Der du Andromache nahmst an der Hermione
-                     Statt.</rs>«</l>
-            </lg>
-            <p>Das ist von <persName key="pmb38918">Rufinus</persName>. »<anchor type="commentary" xml:id="M201909236"/>
-               <rs type="work" key="pmb38920">Zur Bestimmung der Lebenszeit des <persName key="pmb38918">Rufinus</persName> fehlt uns jeder Anhalt. </rs>
-               <note type="commentary" xml:id="M201909236h">Zitat von S. 247.</note>« –</p>
-            <p>Ich war auf der Insel und wir fahren im Abendwind (man hat sechs geläutet) zurück.
-               Die Insel ist herrlich. Seitdem ich <placeName key="pmb40306">Italien</placeName> und
-               solche Inseln wie die <placeName key="pmb40283">Borromäischen</placeName> und die
-               kenne, bewundere ich <persName key="pmb4579">Boeklin</persName> weniger. Wie dumm
+               »Lasst uns lächeln« und folgende schöne <anchor type="commentary" xml:id="M1"/>Verse<note type="commentary" xml:id="M1h">Das Gedicht findet sich in <rs ref="#pmb28679" type="person">Boesel</rs>s <rs ref="#pmb30275" type="work">Anthologie</rs> auf den <bibl>S.&#160;299–300</bibl>.</note> zitieren:</p><lg type="poem"><l>»<rs type="work" ref="#pmb38912" subtype="implied">Statt hoffärtiger Frauen erwählen wir lieber die
+                     Magd uns,</rs></l><l><rs type="work" ref="#pmb38912" subtype="implied">Welche den täuschenden Schein üppigen Tandes
+                     verschmäht.</rs></l><l><rs type="work" ref="#pmb38912" subtype="implied">Jene, die Haut umduftet von Salböl, schreitet mit
+                     Hochmuth</rs></l><l><rs type="work" ref="#pmb38912" subtype="implied">Prunkend einher; und Gefahr bringt es, ihr liebend
+                     zu nahn.</rs></l></lg><p rend="right">(<rs ref="#pmb29917" type="work">Liebelei</rs>)</p><lg type="poem"><l><rs type="work" ref="#pmb38912" subtype="implied">Diese, geschmückt mit natürlichem Reiz und Farbe,
+                     versagt dir</rs></l><l><rs type="work" ref="#pmb38912" subtype="implied">Nimmer das Lager und heischt nimmer ein köstlich
+                     Geschenk</rs></l><l><rs type="work" ref="#pmb38912" subtype="implied">Pyrrhus, ich ahme dir nach, du edler Sohn des
+                     Achilleus,</rs></l><l><rs type="work" ref="#pmb38912" subtype="implied">Der du Andromache nahmst an der Hermione
+                     Statt.</rs>«</l></lg><p>Das ist von <rs ref="#pmb38918" type="person">Rufinus</rs>. »<anchor type="commentary" xml:id="M201909236"/><rs type="work" ref="#pmb38920" subtype="implied">Zur Bestimmung der Lebenszeit des <rs ref="#pmb38918" type="person">Rufinus</rs> fehlt uns jeder Anhalt. </rs><note type="commentary" xml:id="M201909236h">Zitat von S.&#160;247.</note>« –</p><p>Ich war auf der Insel und wir fahren im Abendwind (man hat sechs geläutet) zurück.
+               Die Insel ist herrlich. Seitdem ich <rs ref="#pmb40306" type="place">Italien</rs> und
+               solche Inseln wie die <rs ref="#pmb40283" type="place">Borromäischen</rs> und die
+               kenne, bewundere ich <rs ref="#pmb4579" type="person">Boeklin</rs> weniger. Wie dumm
                waren nur die Anderen, dass sie mit solchen Augen solche Schönheiten nicht sahen. Ich
                will recht oft hieher, und in den Süden, man wird ein besserer Mensch hier, alles
                liegt so weit weg, als wenn wir es von großer Höhe klein, und uns selbst fremd unter
                uns sehen würden. Wie widerlich ist das Gesindel, das mit unge-zieferhafter Unruhe
-               uns zu Hause, in <placeName key="pmb50">Wien</placeName> wieder umwimmeln wird. Aber
+               uns zu Hause, in <rs ref="#pmb50" type="place">Wien</rs> wieder umwimmeln wird. Aber
                dies Jahr sollen die Recht behalten, die mich »arrogant« nennen. Ich will ihnen eine
                Arroganz »hinlegen« (so sagen doch die Herren, die Ihnen die Ehre erweisen Ihr Stück
                zu spielen), dass sie starr sein werden. Und meine Arroganz wird nur die sein, allein
@@ -236,24 +182,16 @@
                hinunterreist in den Süden, wird an uns denken müssen, die wir, in einer Zeit, wo
                hässlich geschäftige Menschen lebten, die Reichtum und Anerkennung wollten und
                widerliche Literatur machten, die einzigen waren, die wussten, dass es Schönheit und
-               Sonne und Liebe gibt, die nur genossen, und erkannt sein will, – nicht mehr. – Jetzt
-               wird es aber ganz dunkel; gegen <placeName key="pmb465">Riva</placeName> zu hegt der
-               See im Nebel, gegen <placeName key="pmb39611">Salò</placeName> ist der Himmel noch
-               rötlich, und gegen <placeName key="pmb40286">Cap Manerba</placeName> steht im
+               Sonne und Liebe gibt, die nur genossen, und erkannt sein will,&#160;– nicht mehr.&#160;– Jetzt
+               wird es aber ganz dunkel; gegen <rs ref="#pmb465" type="place">Riva</rs> zu hegt der
+               See im Nebel, gegen <rs ref="#pmb39611" type="place">Salò</rs> ist der Himmel noch
+               rötlich, und gegen <rs ref="#pmb40286" type="place">Cap Manerba</rs> steht im
                grünbehen Abendhimmel eine zarte silberne Sichel. Der Ruderer setzt stark ein, weil
                die Nacht kommt und mit jedem Ruderschlag sprüht mirs feucht ins Gesicht. Unendlich
-               schön ists, und es wäre mir sehr leid, wenn ich jetzt ertrinken müsste. – Adieu
+               schön ists, und es wäre mir sehr leid, wenn ich jetzt ertrinken müsste.&#160;– Adieu
                lieber Arthur und grüssen Sie mir auch die, die Sie lieb haben, und die ich nicht
                kenne. Und sie hat Sie jetzt wohl noch mehr lieb als sonst, wo Sie vielleicht am Thor
                des Berühmtseins stehen, und sie wird sehr viel Herzklopfen haben, wenn das Orchester
-               die Schlußtakte spielen wird. Nicht wahr! – Herzlichst</p>
-            <closer>Ihr<lb/>
-               <signed>R.</signed>
-            </closer>
-            <postscript>
-               <p>Es ist finster.</p>
-            </postscript>
-         </div>
-      </body>
+               die Schlußtakte spielen wird. Nicht wahr! – Herzlichst</p><closer>Ihr<lb/><signed>R.</signed></closer><postscript><p>Es ist finster.</p></postscript></div></body>
    </text>
 </TEI>

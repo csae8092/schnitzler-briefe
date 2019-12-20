@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896_02_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896_02_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, [1896?]</title>
             <!-- Datierung allein wegen Einsortierung nach 1896 -->
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -64,14 +68,14 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
                <date when="1896" n="02">[1896?]</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
                <ptr type="previous" subtype="toAuthor" target="1896_01">Schnitzler an Beer-Hofmann, [1896?]</ptr>
@@ -91,34 +95,13 @@
       <graphic url="1896_AS_RBH_3_00025.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1893_AS_RBH_3_00023.jpeg"/>
-                  <hi rend="latintype">Herrn Dr. Richard
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb50">Wien</placeName>.</addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="1893_AS_RBH_3_00024.jpeg"/>
-               <salute>lieber Richard, </salute>zwiſchen
-                  <time>6</time> u <time>7</time> werd ich heute kaum ins <hi rend="latintype">
-                  <placeName key="pmb34">Gr.</placeName>
-               </hi> ko<c rendition="#gemination-m"/>en
+      <body><div type="address"><address><addrLine><pb facs="1893_AS_RBH_3_00023.jpeg"/><hi rend="latintype">Herrn Dr. Richard
+                     Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs>.</addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1893_AS_RBH_3_00024.jpeg"/><salute>lieber Richard, </salute>zwiſchen
+                  <time>6</time> u <time>7</time> werd ich heute kaum ins <hi rend="latintype"><rs ref="#pmb34" type="place">Gr.</rs></hi> ko<c rendition="#gemination-m"/>en
                können. Erkältet bin ich mehr als Sie, werde aber – halt, da fällt mir eben ein, daß
                ich nach <time>8</time> Zeit habe. Ich werde zwiſchen <time>8</time> u
-                  <time>½ 9</time> bei <pb facs="1893_AS_RBH_3_00025.jpeg"/>Ihnen anläuten,
+                  <time>½&#160;9</time> bei <pb facs="1893_AS_RBH_3_00025.jpeg"/>Ihnen anläuten,
                vielleicht ſoupiren wir zuſa<c rendition="#gemination-m"/>en, oder laſſen Sie mir
-               eine Poſt.</p>
-            <closer>Herzlich der Ihre<lb/>
-               <signed>Arth</signed>
-            </closer>
-         </div>
-      </body>
+               eine Poſt.</p><closer>Herzlich der Ihre<lb/><signed>Arth</signed></closer></div></body>
    </text>
 </TEI>

@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1921-08-08_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1921-08-08_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 
-                        8. 8. 1921</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+                        8.&#160;8.&#160;1921</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -52,7 +56,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -80,17 +84,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb34401 pmb106">Altaussee</placeName>
-               <date when="1921-08-08" n="01">8. 8. 1921</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb34401 pmb106">Altaussee</placeName>
+               <date when="1921-08-08" n="01">8.&#160;8.&#160;1921</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1921-01-29_01">Schnitzler an Beer-Hofmann, 29. 1. 1921</ptr>
-               <ptr type="next" subtype="toAuthor" target="1922-05-04_01">Schnitzler an Beer-Hofmann, 4. 5. 1922</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1921-01-29_01">Schnitzler an Beer-Hofmann, 29.&#160;1.&#160;1921</ptr>
+               <ptr type="next" subtype="toAuthor" target="1922-05-04_01">Schnitzler an Beer-Hofmann, 4.&#160;5.&#160;1922</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,27 +103,12 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         
-				        <div type="writingSession" n="1">
-					          <opener>
-						            <dateline rend="right">
-							              <date when="1921-08-08">8. 8. 21</date>. <placeName key="pmb34401">Altaussee</placeName>, <placeName key="pmb106">Seewirth</placeName>
-						            </dateline>
-					          </opener>
-					          <p>
-						            <salute>Lieber Richard, </salute>ich hoffe, diese Grüße erreichen Sie und
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date when="1921-08-08">8.&#160;8.&#160;21</date>. <rs ref="#pmb34401" type="place">Altaussee</rs>, <rs ref="#pmb106" type="place">Seewirth</rs></dateline></opener><p><salute>Lieber Richard, </salute>ich hoffe, diese Grüße erreichen Sie und
 						treffen Sie wie die Ihren in guter Gesundheit und Stimmung an. Ich behage
 						mich hier ganz leidlich, und manchmal mehr als das; man fuhrt heuer ein Bad-
 						und Strandleben, als war man an der Adria, aber auch das steht dem
-							<placeName key="pmb34401">Altaussee</placeName>rsce ganz gut Die <rs type="person" key="pmb12692 pmb2238">Kinder</rs> sind seit 10 Tagen in
-							<placeName key="pmb34896">Possenhofen</placeName> bei <persName key="pmb2173">O.</persName>, ich werde wohl zwischen 25. und 30. ev. mit Aufenthalt
-						in <placeName key="pmb30">Salzburg</placeName> hinfahren.</p>
-					          <p>Schreiben Sie mir bitte ein Wort.</p>
-					          <closer>Von Herzen Ihr <signed>A.</signed>
-					          </closer>
-				        </div>
-			      
-      </body>
+							<rs ref="#pmb34401" type="place">Altaussee</rs>rsce ganz gut Die <rs type="person" ref="#pmb12692 pmb2238" subtype="implied">Kinder</rs> sind seit 10 Tagen in
+							<rs ref="#pmb34896" type="place">Possenhofen</rs> bei <rs ref="#pmb2173" type="person">O.</rs>, ich werde wohl zwischen 25. und 30. ev. mit Aufenthalt
+						in <rs ref="#pmb30" type="place">Salzburg</rs> hinfahren.</p><p>Schreiben Sie mir bitte ein Wort.</p><closer>Von Herzen Ihr <signed>A.</signed></closer></div></body>
    </text>
 </TEI>

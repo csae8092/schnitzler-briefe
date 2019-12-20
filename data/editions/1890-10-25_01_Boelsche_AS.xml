@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1890-10-25_01_Boelsche_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1890-10-25_01_Boelsche_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Wilhelm Bölsche an Arthur Schnitzler, 25. 10. 1890</title>
-                <author key="pmb11061">Bölsche, Wilhelm</author>
+                <title level="a">Wilhelm Bölsche an Arthur Schnitzler, 25.&#160;10.&#160;1890</title>
+                <author ref="#pmb11061">Bölsche, Wilhelm</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>A:Schnitzler, HS.NZ85.1.2577,1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., schwarze Tinte. Von Schnitzler mit
                                     rotem Buntstift nummeriert: »<quote>3</quote>«.</p>
                             </physDesc>
                         </msDesc>
@@ -60,7 +64,7 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb11061">Bölsche, Wilhelm</author>
+                            <author ref="#pmb11061">Bölsche, Wilhelm</author>
                             <title level="m">Briefwechsel. Mit Autoren der Freien Bühne</title>
                             <editor>Hg. Gerd-Hermann Susen</editor>
                             <imprint>
@@ -83,18 +87,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11061">Bölsche, Wilhelm</persName>
-                    <placeName key="pmb168">Berlin</placeName>
-                    <date when="1890-10-25" n="01">25. 10. 1890</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
+                    <date when="1890-10-25" n="01">25.&#160;10.&#160;1890</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1890-10-14_01">Schnitzler an Bölsche, 14. 10. 1890</ptr>
-               <ptr type="next" subtype="toAuthor" target="1891-05-05_01">Schnitzler an Bölsche, [5. 5. 1891]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1890-10-14_01">Schnitzler an Bölsche, 14.&#160;10.&#160;1890</ptr>
+               <ptr type="next" subtype="toAuthor" target="1891-05-05_01">Schnitzler an Bölsche, [5.&#160;5.&#160;1891]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -110,21 +114,8 @@
         <!-- $$$$ Dateinamen müssen noch ergänzt werden! -->
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="HS.NZ85.1.2577,1"/>
-                        <date>25. X. 90</date>.</dateline>
-                    <salute rend="center">Verehrter Herr Doktor!</salute>
-                </opener>
-                <p>Leider haben wir »Gedichten« bei der »<workName key="pmb36149">Freien
-                        Bühne</workName>« jetzt ganz abgeſchworen und bringen <hi n="1" rend="underline">nur</hi> Proſa. So muß ich alſo Ihr <rs type="work" key="pmb30151">Gedicht</rs> auch ablehnen, das übrigens (bei etwas ſtarker
-                    Länge) ſeines Reizes nicht entbehrt.</p>
-                <closer>Mit vorzüglicher Hochachtung<lb/>
-                    <signed>Wilhelm Bölsche.</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="HS.NZ85.1.2577,1"/><date>25.&#160;X.&#160;90</date>.</dateline><salute rend="center">Verehrter Herr Doktor!</salute></opener><p>Leider haben wir »Gedichten« bei der »<rs ref="#pmb36149" type="work">Freien
+                        Bühne</rs>« jetzt ganz abgeſchworen und bringen <hi n="1" rend="underline">nur</hi> Proſa. So muß ich alſo Ihr <rs type="work" ref="#pmb30151" subtype="implied">Gedicht</rs> auch ablehnen, das übrigens (bei etwas ſtarker
+                    Länge) ſeines Reizes nicht entbehrt.</p><closer>Mit vorzüglicher Hochachtung<lb/><signed>Wilhelm Bölsche.</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1905-09-11_01_AS_Hofmannsthal" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1905-09-11_01_AS_Hofmannsthal"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 11. 9. 1905</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 11.&#160;9.&#160;1905</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Hs-30885,XXXX</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1905-09-11" n="01">11. 9. 1905</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1905-09-11" n="01">11.&#160;9.&#160;1905</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1905-09-10_01">Hofmannsthal an Schnitzler, 10. 9. 1905</ptr>
-               <ptr type="next" subtype="toAuthor" target="1905-09-30_01">Hofmannsthal an Schnitzler, 30. 9. 1905</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1905-09-10_01">Hofmannsthal an Schnitzler, 10.&#160;9.&#160;1905</ptr>
+               <ptr type="next" subtype="toAuthor" target="1905-09-30_01">Hofmannsthal an Schnitzler, 30.&#160;9.&#160;1905</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,50 +103,28 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb50">Wien</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date>11. 9. 905</date>
-               </dateline>
-               <salute>Lieber Hugo, </salute>
-            </opener>
-            <p>die Sache mit dem <orgName>Burgtheater</orgName> war ungeheuer einfach. <persName key="pmb10986">Brahm</persName> schrieb mir <date>Ende August</date>, <persName key="pmb12671">Schlenther</persName> habe ihn mit der Mission betraut, mich zur
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date>11.&#160;9.&#160;905</date></dateline><salute>Lieber Hugo, </salute></opener><p>die Sache mit dem <rs type="organisation">Burgtheater</rs> war ungeheuer einfach. <rs ref="#pmb10986" type="person">Brahm</rs> schrieb mir <date>Ende August</date>, <rs ref="#pmb12671" type="person">Schlenther</rs> habe ihn mit der Mission betraut, mich zur
                Einsendung meines neuesten zu veranlassen. Ich hierauf, nicht faul, schreibe
-                  <persName key="pmb12671">Schl.</persName>, daß ich eine fertige <rs type="work" key="">Komödie</rs>, u 2 <rs type="work" key="">Dramenakte</rs> auf Lager habe, er
+                  <rs ref="#pmb12671" type="person">Schl.</rs>, daß ich eine fertige <rs type="work" subtype="implied" ref="">Komödie</rs>, u 2 <rs type="work" subtype="implied" ref="">Dramenakte</rs> auf Lager habe, er
                telegraphiert, noch fleißiger, soll ihm alles schicken; ich tu es, er antwortet
-               5 Tage drauf, die Entscheidung über <rs type="work" key="">Drama</rs> bitte er bis
-               nach Vollendung aufschieben zu dürfen, <rs type="work" key="">Komödie</rs> nehme er
+               5 Tage drauf, die Entscheidung über <rs type="work" subtype="implied" ref="">Drama</rs> bitte er bis
+               nach Vollendung aufschieben zu dürfen, <rs type="work" subtype="implied" ref="">Komödie</rs> nehme er
                an <date>Mitte October</date> (ich hatte frühen Termin zur Bedingung gemacht), wolle
                meine Besetzungsvorschläge, er nimmt sie selben Tags ebenso telegraphisch an, und am
-               nächsten Morgen steht die Notiz in der Zeitung. Es kommt hier vor <placeName key="pmb168">Berlin</placeName>; mit <persName key="pmb10986">Brahm</persName> bin
+               nächsten Morgen steht die Notiz in der Zeitung. Es kommt hier vor <rs ref="#pmb168" type="place">Berlin</rs>; mit <rs ref="#pmb10986" type="person">Brahm</rs> bin
                ich erst heut (vor 5 Minuten kam das endgültige Telegramm) einig geworden;
-               Verzögerung, weil er durchaus beide <rs type="work" key="">Stücke</rs> wollte. – Mit
-               dem <rs type="organisation">Reinhardttheater</rs> wird sich wahrscheinlich nichts
+               Verzögerung, weil er durchaus beide <rs type="work" subtype="implied" ref="">Stücke</rs> wollte.&#160;– Mit
+               dem <rs type="organisation" subtype="implied">Reinhardttheater</rs> wird sich wahrscheinlich nichts
                machen lassen; was sie mir im Lauf der letzten 10 Tage an (mildester Ausdruck)
                Schlampereien angetan, ist unglaublich. Der letzte Scherz war, daß ich
                   <date>Mittwoch</date> ein Telegramm bekam daß ein ausführlicher Brief auf dem Wege
-               – und der bisher nicht da ist. Es stand beinah schon fest für mich, daß die <persName key="pmb2299">Sorma</persName> die <rs type="work" key="">Komödie</rs> spielen
-               müßte. Über alles dies mündlich näheres. – </p>
-            <p>Wir bleiben bis nach <date>15.</date> hier, wohl <date>20.</date>, denken dann auf
-               10 Tage fortzugehn, – <placeName key="pmb429">Salzkammergut</placeName> kaum;
-               vielleicht nur <placeName key="pmb189">Semmering</placeName>. – Mit dem <rs type="work" key="">3. Akt</rs> glaub ich zu einer Art Resultat zu kommen – das
+               – und der bisher nicht da ist. Es stand beinah schon fest für mich, daß die <rs ref="#pmb2299" type="person">Sorma</rs> die <rs type="work" subtype="implied" ref="">Komödie</rs> spielen
+               müßte. Über alles dies mündlich näheres.&#160;– </p><p>Wir bleiben bis nach <date>15.</date> hier, wohl <date>20.</date>, denken dann auf
+               10 Tage fortzugehn,&#160;– <rs ref="#pmb429" type="place">Salzkammergut</rs> kaum;
+               vielleicht nur <rs ref="#pmb189" type="place">Semmering</rs>.&#160;– Mit dem <rs type="work" subtype="implied" ref="">3.&#160;Akt</rs> glaub ich zu einer Art Resultat zu kommen – das
                3mal einaktige des Stoffes ist natürlich nicht ganz zu besiegen, es kommt im
                wesentlichen, was man auch tut, dramatisch auf einen Schwindel heraus. Nun, das ist
-               unser Metier. </p>
-            <p>Ich freue mich, daß Sie viel arbeiten, und sehe dem nächsten Vorlesungsabend mit
-               schönster Erwartung entgegen. Was hat Sie so rasch aus <placeName key="pmb41013">Misurina</placeName> vertrieben? </p>
-            <p>Wir grüßen Sie <rs type="person" key="pmb2173">Beide</rs>
-               <space unit="chars" quantity="1"/>
-               <rs type="person" key="pmb2292">Beide</rs>.</p>
-            <closer>Herzlichst<lb/>Ihr <signed>A.</signed>
-            </closer>
-            <postscript>
-               <p>Sehen Sie <persName key="pmb11036">Burckhard</persName>, grüßen Sie ihn sehr. </p>
-            </postscript>
-         </div>
-      </body>
+               unser Metier. </p><p>Ich freue mich, daß Sie viel arbeiten, und sehe dem nächsten Vorlesungsabend mit
+               schönster Erwartung entgegen. Was hat Sie so rasch aus <rs ref="#pmb41013" type="place">Misurina</rs> vertrieben? </p><p>Wir grüßen Sie <rs type="person" ref="#pmb2173" subtype="implied">Beide</rs><space unit="chars" quantity="1"/><rs type="person" ref="#pmb2292" subtype="implied">Beide</rs>.</p><closer>Herzlichst<lb/>Ihr <signed>A.</signed></closer><postscript><p>Sehen Sie <rs ref="#pmb11036" type="person">Burckhard</rs>, grüßen Sie ihn sehr. </p></postscript></div></body>
    </text>
 </TEI>

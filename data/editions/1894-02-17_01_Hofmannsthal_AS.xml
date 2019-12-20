@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-02-17_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-02-17_01_Hofmannsthal_AS">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [17. 2. 1894]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [17.&#160;2.&#160;1894]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -48,7 +51,7 @@
                                 <country>UK</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Briefkarte mit aufgeprägtem Wappen, schwarze Tinte. Von Schnitzler mit Bleistift datiert: »<quote>
@@ -62,8 +65,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -76,8 +79,8 @@
                     </biblStruct>
                     <biblStruct corresp="HBAS">
                         <monogr>
-                            <author key="pmb10815">Bahr, Hermann</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10815">Bahr, Hermann</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel, Aufzeichnungen, Dokumente
                                 (1891–1931)</title>
                             <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
@@ -97,18 +100,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">[Wien]</placeName>
-                    <date when="1894-02-17" n="01">[17. 2. 1894]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">[Wien]</placeName>
+                    <date when="1894-02-17" n="01">[17.&#160;2.&#160;1894]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">[Wien]</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">[Wien]</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-01-18_02">Hofmannsthal an Schnitzler, 18. 1. 1894</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-03-09_01">Hofmannsthal an Schnitzler, 9. 3. 1894</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-01-18_02">Hofmannsthal an Schnitzler, 18.&#160;1.&#160;1894</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-03-09_01">Hofmannsthal an Schnitzler, 9.&#160;3.&#160;1894</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -125,23 +128,10 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00128"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00127"/>
-                        <date>Samstag</date>.</dateline>
-                    <salute>lieber Arthur!</salute>
-                </opener>
-                <p>Ich dank Ihnen herzlich aber mir iſt die Geſellſchaft zu zuwider. Morgen
-                    Nachmittag komme ich zu Ihnen. Auch <persName key="pmb10815">Bahr</persName>.
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00127"/><date>Samstag</date>.</dateline><salute>lieber Arthur!</salute></opener><p>Ich dank Ihnen herzlich aber mir iſt die Geſellſchaft zu zuwider. Morgen
+                    Nachmittag komme ich zu Ihnen. Auch <rs ref="#pmb10815" type="person">Bahr</rs>.
                     Vielleicht ſchreiben Sie <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00128"/>dem
-                        <persName key="pmb11988">Kraus</persName> eine Zeile. Ich glaub daſs es dem
-                        <persName key="pmb10815">Bahr</persName> angenehm wäre, ihn zu ſehen.</p>
-                <closer>Von Herzen<space unit="chars" quantity="5"/>Ihr<lb/>
-                    <signed>Hugo.</signed>
-                </closer>
-            </div>
-        </body>
+                        <rs ref="#pmb11988" type="person">Kraus</rs> eine Zeile. Ich glaub daſs es dem
+                        <rs ref="#pmb10815" type="person">Bahr</rs> angenehm wäre, ihn zu ſehen.</p><closer>Von Herzen<space unit="chars" quantity="5"/>Ihr<lb/><signed>Hugo.</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-08-03_01_AS_Boelsche">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-08-03_01_AS_Boelsche">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Wilhelm Bölsche, 3. 8. 1891</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Wilhelm Bölsche, 3.&#160;8.&#160;1891</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Böl.Pis 1760</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Von Bölsche mit schwarzer
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte. Von Bölsche mit schwarzer
                                     Tinte mit dem Vermerk »<quote>Angen</quote>
                                     <supplied>ommen</supplied>« beschriftet.</p>
                             </physDesc>
@@ -61,7 +65,7 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb11061">Bölsche, Wilhelm</author>
+                            <author ref="#pmb11061">Bölsche, Wilhelm</author>
                             <title level="m">Briefwechsel. Mit Autoren der Freien Bühne</title>
                             <editor>Hg. Gerd-Hermann Susen</editor>
                             <imprint>
@@ -84,18 +88,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1891-08-03" n="01">3. 8. 1891</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1891-08-03" n="01">3.&#160;8.&#160;1891</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11061">Bölsche, Wilhelm</persName>
-                    <placeName key="pmb168">Berlin</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1891-05-05_01">Schnitzler an Bölsche, [5. 5. 1891]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1891-10-06_01">Bölsche an Schnitzler, 6. 10. 1891</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1891-05-05_01">Schnitzler an Bölsche, [5.&#160;5.&#160;1891]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1891-10-06_01">Bölsche an Schnitzler, 6.&#160;10.&#160;1891</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -110,31 +114,9 @@
         <!-- $$$$ Dateinamen müssen noch ergänzt werden! -->
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="Böl.Pis 1760-1"/>Sehr geehrter Herr Redacteur!</salute>
-                </opener>
-                <p>Vor einigen Monaten war ich ſo frei, Ihnen eine Skizze, »<workName key="pmb30257">Der Sohn</workName>« betitelt, einzuſenden, mit dem Erſuchen, mich davon zu
-                    verſtändigen, ob Sie dieſelbe in Ihrer geſchätzten <rs type="work" key="pmb36166">Zeitſchrift</rs> zur Veröffentlichung bringen wollen. Da mir
-                    bis heute keine Nachricht zugeko<c rendition="#gemination-m"/>en, <pb facs="Böl.Pis 1760-2"/>wiederhole ich hiermit meine Anfrage.</p>
-                <closer>Mit ausgezeichneter Hochachtung<lb/>
-                    <signed>
-                        <hi rend="latintype">Dr</hi> Arthur Schnitzler</signed>
-                </closer>
-                <postscript>
-                    <p>
-                        <placeName key="pmb542">
-                            <hi rend="latintype">Wien I Giselastraße 11</hi>
-                        </placeName>
-                        <lb/>
-                            <date>
-                                <hi rend="latintype">3. August 1891</hi>
-                            </date>.
-                    </p>
-                </postscript>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="Böl.Pis 1760-1"/>Sehr geehrter Herr Redacteur!</salute></opener><p>Vor einigen Monaten war ich ſo frei, Ihnen eine Skizze, »<rs ref="#pmb30257" type="work">Der Sohn</rs>« betitelt, einzuſenden, mit dem Erſuchen, mich davon zu
+                    verſtändigen, ob Sie dieſelbe in Ihrer geſchätzten <rs type="work" ref="#pmb36166" subtype="implied">Zeitſchrift</rs> zur Veröffentlichung bringen wollen. Da mir
+                    bis heute keine Nachricht zugeko<c rendition="#gemination-m"/>en, <pb facs="Böl.Pis 1760-2"/>wiederhole ich hiermit meine Anfrage.</p><closer>Mit ausgezeichneter Hochachtung<lb/><signed><hi rend="latintype">Dr</hi> Arthur Schnitzler</signed></closer><postscript><p><rs ref="#pmb542" type="place"><hi rend="latintype">Wien I Giselastraße 11</hi></rs><lb/><date><hi rend="latintype">3.&#160;August 1891</hi></date>.
+                    </p></postscript></div></body>
     </text>
 </TEI>

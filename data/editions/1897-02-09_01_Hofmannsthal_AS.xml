@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-02-09_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-02-09_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 9. 2. 1897</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 9.&#160;2.&#160;1897</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Kartenbrief (Rohrpost), schwarze Tinte. Von Schnitzler mit
@@ -57,14 +61,14 @@
                                     </quote>«. Von unbekannter Hand mit Bleistift nummeriert:
                                         »<quote>86</quote>«.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb53">Wien 3/3</placeName>
+                                    <rs ref="#pmb53" type="place">Wien 3/3</rs>
                                     <date when="1897-02-09">9 II 97</date>
                                     <time>12–N</time>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb59">Wien 9/2</placeName>
+                                    <rs ref="#pmb59" type="place">Wien 9/2</rs>
                                     <date when="1897-02-09">9 II 97</date>
-                                    <time>12 50N</time>
+                                    <time>12&#160;50N</time>
                                 </stamp>
                             </physDesc>
                         </msDesc>
@@ -73,8 +77,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -93,19 +97,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1897-02-09" n="01">9. 2. 1897</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1897-02-09" n="01">9.&#160;2.&#160;1897</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1897-02-09">9. 2. 1897</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1897-02-09">9.&#160;2.&#160;1897</date>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-01-16_02">Hofmannsthal an Schnitzler, [16. 1. 1897]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-02-09_02">Schnitzler an Hofmannsthal, [9. 2. 1897?]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-01-16_02">Hofmannsthal an Schnitzler, [16.&#160;1.&#160;1897]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-02-09_02">Schnitzler an Hofmannsthal, [9.&#160;2.&#160;1897?]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -121,53 +125,21 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00206"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00206"/>
-                        <hi rend="pre-print">An</hi>
-                    </addrLine>
-                    <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
-                    <addrLine>
-                        <hi rend="pre-print">in</hi>
-                        <space unit="chars" quantity="1"/>
-                        <placeName key="pmb50">Wien</placeName>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb397">IX Franckgasse 1</placeName>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00205"/>
-                        <date>Dienstag</date>.</dateline>
-                    <salute rend="inline">lieber Arthur</salute>
-                </opener>
-                <p>wollen Sie mir einen großen <anchor type="commentary" xml:id="KL2304-2"/>Gefallen<note type="commentary" xml:id="KL2304-2h">
-                        <persName key="pmb11740">Hofmannsthal</persName> glaubte zu diesem
-                        Zeitpunkt, <persName key="pmb24033">Hermine Benedict</persName> wäre in ihn
-                        verliebt. Die Klärung der Sache, die auch <persName key="pmb2121">Schnitzler</persName> als dritten, nicht amourös Interessierten
+        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00206"/><hi rend="pre-print">An</hi></addrLine><addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><hi rend="pre-print">in</hi><space unit="chars" quantity="1"/><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb397" type="place">IX Franckgasse 1</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00205"/><date>Dienstag</date>.</dateline><salute rend="inline">lieber Arthur</salute></opener><p>wollen Sie mir einen großen <anchor type="commentary" xml:id="KL2304-2"/>Gefallen<note type="commentary" xml:id="KL2304-2h"><rs ref="#pmb11740" type="person">Hofmannsthal</rs> glaubte zu diesem
+                        Zeitpunkt, <rs ref="#pmb24033" type="person">Hermine Benedict</rs> wäre in ihn
+                        verliebt. Die Klärung der Sache, die auch <rs ref="#pmb2121" type="person">Schnitzler</rs> als dritten, nicht amourös Interessierten
                         involviert, zieht sich bis in den <date>März</date>.</note> thuen?
-                    telephonieren Sie zwiſchen <time>2</time> und <time>4</time> der <persName key="pmb24033">Minnie</persName> 12140 und fragen Sie irgend etwas
-                    gleichgiltiges z. B. Sie hätten gehört, daſs <date>Sonntag</date> die <anchor type="commentary" xml:id="KL2304-1"/>2<hi rend="superscript">te</hi>
+                    telephonieren Sie zwiſchen <time>2</time> und <time>4</time> der <rs ref="#pmb24033" type="person">Minnie</rs> 12140 und fragen Sie irgend etwas
+                    gleichgiltiges z.&#160;B. Sie hätten gehört, daſs <date>Sonntag</date> die <anchor type="commentary" xml:id="KL2304-1"/>2<hi rend="superscript">te</hi>
                         Vorſtellung<note type="commentary" xml:id="KL2304-1h">Eine
-                        Privatinszenierung von <persName key="pmb11740">Hofmannsthal</persName>s
-                            <workName key="pmb34359">Was die Braut geträumt hat. Ein
-                            Gelegenheitsgedicht</workName>. Die zweite Vorstellung fand am
-                            <date>Donnerstag, den 18. 2. 1897</date> statt.</note> ſein ſoll, ob es
-                    wahr iſt?</p>
-                <p>und wenn Sie mit ihr ſelbſt ſprechen können und es unauffällig ſich anknüpfen
-                    läſst (an das Hereinfahren <date>Freitag</date>
-                    <space unit="chars" quantity="1"/>
-                    <time>abend</time>) fragen Sie ſie, wie es ihr geht und ſchreiben mir das <hi rend="underline" n="1">pneumatiſch</hi>, bitte! Wenn Sie aber nur für <hi n="1" rend="underline">möglich</hi> halten, daſs es auffallen oder daſs man
+                        Privatinszenierung von <rs ref="#pmb11740" type="person">Hofmannsthal</rs>s
+                            <rs ref="#pmb34359" type="work">Was die Braut geträumt hat. Ein
+                            Gelegenheitsgedicht</rs>. Die zweite Vorstellung fand am
+                            <date>Donnerstag, den 18.&#160;2.&#160;1897</date> statt.</note> ſein ſoll, ob es
+                    wahr iſt?</p><p>und wenn Sie mit ihr ſelbſt ſprechen können und es unauffällig ſich anknüpfen
+                    läſst (an das Hereinfahren <date>Freitag</date><space unit="chars" quantity="1"/><time>abend</time>) fragen Sie ſie, wie es ihr geht und ſchreiben mir das <hi rend="underline" n="1">pneumatiſch</hi>, bitte! Wenn Sie aber nur für <hi n="1" rend="underline">möglich</hi> halten, daſs es auffallen oder daſs man
                     den Zuſa<c rendition="#gemination-m"/>enhang errathen könnte, ſo iſt natürlich
                     beſſer Sie laſſen es und ich thue es ſelber. Aber bitte antworten Sie
-                        jedenfalls!<space unit="chars" quantity="7"/>Ihr<signed>Hugo.</signed>
-                </p>
-            </div>
-        </body>
+                        jedenfalls!<space unit="chars" quantity="7"/>Ihr<signed>Hugo.</signed></p></div></body>
     </text>
 </TEI>

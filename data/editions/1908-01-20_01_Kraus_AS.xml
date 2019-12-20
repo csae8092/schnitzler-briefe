@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1908-01-20_01_Kraus_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1908-01-20_01_Kraus_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Karl Kraus an Arthur Schnitzler, 20. 1. 1908</title>
-                <author key="pmb11988">Kraus, Karl</author>
+                <title level="a">Karl Kraus an Arthur Schnitzler, 20.&#160;1.&#160;1908</title>
+                <author ref="#pmb11988">Kraus, Karl</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -85,18 +89,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11988">Kraus, Karl</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1908-01-20" n="01">20. 1. 1908</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11988">Kraus, Karl</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1908-01-20" n="01">20.&#160;1.&#160;1908</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-04-25_01">Kraus an Schnitzler, 25. 4. 1895</ptr>
-               <ptr type="next" subtype="toAuthor" target="1908-01-22_01">Kraus an Schnitzler, 22. 1. 1908</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-04-25_01">Kraus an Schnitzler, 25.&#160;4.&#160;1895</ptr>
+               <ptr type="next" subtype="toAuthor" target="1908-01-22_01">Kraus an Schnitzler, 22.&#160;1.&#160;1908</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -107,42 +111,13 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <placeName key="pmb50">Wien</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date>20. 1. 08</date>
-                    </dateline>
-                </opener>
-                <p>Eine in <placeName key="pmb5199">New York</placeName> lebende Freundin, Mrs. <persName key="pmb5693">Fox</persName> – die
-                    als <persName key="pmb5693">Kete Parsenow</persName> vor einigen Jahren im
-                        <placeName key="pmb208">Berliner Kleinen Theater</placeName>
-               <space unit="chars" quantity="1"/>
-               <workName key="pmb33554">Salome</workName>, in
-                        »<workName key="pmb30597">Rausch</workName>«, »<workName key="pmb33556">Nachtasyl</workName>« etc. geſpielt hat –, erſucht mich Sie zu
-                    fragen, ob Sie geneigt wären, ihr das Recht der <placeName key="pmb254">
-                  <country>engliſchen</country>
-               </placeName> Überſetzung und Aufführung Ihres »<workName key="pmb29857">Schleiers der Beatrice</workName>« zu erteilen. Für einen freundlichen
-                    Beſcheid an meine oder die Adreſſe: <persName key="pmb5693">Mrs. <persName key="pmb29168">A. C. Fox</persName>
-                    </persName>, <placeName key="pmb1228">New-Yersey</placeName>
-               <space unit="chars" quantity="1"/>
-               <placeName key="pmb490">U.S.A.</placeName>
-                    <space unit="chars" quantity="1"/>
-               <placeName key="pmb1230">Addison Street</placeName>, wäre ich Ihnen sehr verbunden.</p>
-                <p>Ich geſtatte mir bei
-                    dieſer Gelegenheit, Sie zum <orgName key="pmb29677">Grillparzer-Preis</orgName> zu
-                    beglückwünſchen, und bin mit hochachtungsvollem Gruß</p>
-                <closer>Ihr ganz ergebener<lb/>
-                    <signed>Karl Kraus</signed>
-                </closer>
-                <postscript>
-                    <p rend="right">
-                        <placeName key="pmb1227">Wien IV. Schwindg. 3, Th. 3</placeName>
-                    </p>
-                </postscript>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date>20.&#160;1.&#160;08</date></dateline></opener><p>Eine in <rs ref="#pmb5199" type="place">New York</rs> lebende Freundin, Mrs. <rs ref="#pmb5693" type="person">Fox</rs> – die
+                    als <rs ref="#pmb5693" type="person">Kete Parsenow</rs> vor einigen Jahren im
+                        <rs ref="#pmb208" type="place">Berliner Kleinen Theater</rs><space unit="chars" quantity="1"/><rs ref="#pmb33554" type="work">Salome</rs>, in
+                        »<rs ref="#pmb30597" type="work">Rausch</rs>«, »<rs ref="#pmb33556" type="work">Nachtasyl</rs>« etc. geſpielt hat&#160;–, erſucht mich Sie zu
+                    fragen, ob Sie geneigt wären, ihr das Recht der <rs ref="#pmb254" type="place"><country>engliſchen</country></rs> Überſetzung und Aufführung Ihres »<rs ref="#pmb29857" type="work">Schleiers der Beatrice</rs>« zu erteilen. Für einen freundlichen
+                    Beſcheid an meine oder die Adreſſe: <rs ref="#pmb5693" type="person">Mrs. <rs ref="#pmb29168" type="person">A.&#160;C. Fox</rs></rs>, <rs ref="#pmb1228" type="place">New-Yersey</rs><space unit="chars" quantity="1"/><rs ref="#pmb490" type="place">U.S.A.</rs><space unit="chars" quantity="1"/><rs ref="#pmb1230" type="place">Addison Street</rs>, wäre ich Ihnen sehr verbunden.</p><p>Ich geſtatte mir bei
+                    dieſer Gelegenheit, Sie zum <rs ref="#pmb29677" type="organisation">Grillparzer-Preis</rs> zu
+                    beglückwünſchen, und bin mit hochachtungsvollem Gruß</p><closer>Ihr ganz ergebener<lb/><signed>Karl Kraus</signed></closer><postscript><p rend="right"><rs ref="#pmb1227" type="place">Wien IV. Schwindg. 3, Th. 3</rs></p></postscript></div></body>
     </text>
 </TEI>

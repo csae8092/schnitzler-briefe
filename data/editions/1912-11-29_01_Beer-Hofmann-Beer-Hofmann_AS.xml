@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1912-11-29_01_Beer-Hofmann-Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1912-11-29_01_Beer-Hofmann-Beer-Hofmann_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Richard und Paula Beer-Hofmann, 29. 11. 1912</title>
-                <author key="pmb10863">Beer-Hofmann, Richard</author>
-                <author key="pmb10860">Beer-Hofmann, Paula</author>
+                <title level="a">Richard und Paula Beer-Hofmann, 29.&#160;11.&#160;1912</title>
+                <author ref="#pmb10863">Beer-Hofmann, Richard</author>
+                <author ref="#pmb10860">Beer-Hofmann, Paula</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -49,10 +53,10 @@
                                         <country>GB</country>            
                                         <settlement>Cambridge</settlement>            
                                         <repository>University Library</repository>            
-                                        <idno>Schnitzler, B 8</idno>
+                                        <idno>Schnitzler, B&#160;8</idno>
                                     </msIdentifier>
                             <physDesc>
-                                    <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                                    <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                                 </physDesc>
                             
                         </msDesc>
@@ -61,8 +65,8 @@
                 <listBibl>
                     <biblStruct corresp="ASBH">
                         <monogr>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
-                            <author key="pmb10863">Beer-Hofmann, Richard</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                             <title level="m">Briefwechsel 1891–1931</title>
                             <editor>Hg. Konstanze Fliedl</editor>
                             <imprint>
@@ -82,15 +86,15 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-                    <persName key="pmb10860">Beer-Hofmann, Paula</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1912-11-29" n="01">29. 11. 1912</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+                    <persName ref="#pmb10860">Beer-Hofmann, Paula</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1912-11-29" n="01">29.&#160;11.&#160;1912</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <!-- <placeName key="pmb50"><settlement>Wien</settlement></placeName> -->
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <!-- <placeName ref="#pmb50"><settlement>Wien</settlement></placeName> -->
                     <!-- <date when="0000-00-00"></date> -->
                 </correspAction>
             
@@ -101,17 +105,9 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-                <div type="writingSession" n="1">
-                  
-                    <p>freuen uns herzlich mit ihnen des grossen erfolges hoffen dass
-                        <workName key="pmb30203">bernhardi</workName> mindestens drei monate haft im
-                        <placeName key="pmb208">kleinen theater</placeName> erhaelt – <signed>richard und
-                            paula</signed>
-                    </p>
-                </div>
-            
-            
-        </body>
+        <body><div type="writingSession" n="1"><p>freuen uns herzlich mit ihnen des grossen erfolges hoffen dass
+                        <rs ref="#pmb30203" type="work">bernhardi</rs> mindestens drei monate haft im
+                        <rs ref="#pmb208" type="place">kleinen theater</rs> erhaelt – <signed>richard und
+                            paula</signed></p></div></body>
     </text>
 </TEI>

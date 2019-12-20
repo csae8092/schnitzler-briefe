@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1905_01_Hauptmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1905_01_Hauptmann_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Gerhart Hauptmann an Arthur Schnitzler, [1905?]</title>
-                <author key="pmb11617">Hauptmann, Gerhart</author>
+                <author ref="#pmb11617">Hauptmann, Gerhart</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -49,11 +53,11 @@
                           <country>GB</country>            
                           <settlement>Cambridge</settlement>            
                           <repository>University Library</repository>            
-                          <idno>Schnitzler, B 36</idno>
+                          <idno>Schnitzler, B&#160;36</idno>
                       </msIdentifier>
                       <physDesc>
                           <p>ms. Telegramm, die Vorlage bis auf das Textfeld beschnitten. In der linken oberen Ecke Stempel: »<quote>
-                              <persName key="pmb11324">Fischer</persName>
+                              <rs ref="#pmb11324" type="person">Fischer</rs>
                            </quote>«</p>
                       </physDesc>
                   </msDesc>
@@ -67,13 +71,13 @@
          </langUsage>
         <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb11617">Hauptmann, Gerhart</persName>
-               <placeName key="pmb735">Agnetendorf</placeName>
+               <persName ref="#pmb11617">Hauptmann, Gerhart</persName>
+               <placeName ref="#pmb735">Agnetendorf</placeName>
                <date when="1905" n="01">[1905?]</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -83,24 +87,9 @@
         </revisionDesc>
     </teiHeader>
     <text type="telegram">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="Dsc_0717.jpg"/>fr <placeName key="pmb735">agnetendorf</placeName> 128 28 <date>29</date>
-                  <space unit="chars" quantity="1"/>
-                  <time>12.25 n</time>
-               </dateline>
-                    </opener>
-                <p>
-               <salute>lieber herr schnitzler</salute> ich werde gern den gewuenschten <anchor type="commentary" xml:id="KL720-1"/>
-               <rs type="work" key="pmb33271">prolog</rs>
-               <note type="commentary" xml:id="KL720-1h">Das undatierte Telegramm dürfte am 29. eines Monats versandt sein und könnte in 
-                    Zusammenhang mit dem von <persName key="pmb11617">Hauptmann</persName> verfassten <rs type="work" key="pmb33271">Prolog</rs> stehen, der am 
-                    <date>22. 3. 1905</date> bei der <persName key="pmb12654">Schiller</persName>feier des <orgName key="pmb29504">Wiener Konzertvereins</orgName> vorgetragen wurde.</note> so gut es geht
-                    verfaszen. herzliche gruesze von haus zu haus ihr <signed>gerhart hauptmann</signed>
-            </p>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Dsc_0717.jpg"/>fr <rs ref="#pmb735" type="place">agnetendorf</rs> 128 28 <date>29</date><space unit="chars" quantity="1"/><time>12.25&#160;n</time></dateline></opener><p><salute>lieber herr schnitzler</salute> ich werde gern den gewuenschten <anchor type="commentary" xml:id="KL720-1"/><rs type="work" ref="#pmb33271" subtype="implied">prolog</rs><note type="commentary" xml:id="KL720-1h">Das undatierte Telegramm dürfte am 29. eines Monats versandt sein und könnte in 
+                    Zusammenhang mit dem von <rs ref="#pmb11617" type="person">Hauptmann</rs> verfassten <rs type="work" ref="#pmb33271" subtype="implied">Prolog</rs> stehen, der am 
+                    <date>22.&#160;3.&#160;1905</date> bei der <rs ref="#pmb12654" type="person">Schiller</rs>feier des <rs ref="#pmb29504" type="organisation">Wiener Konzertvereins</rs> vorgetragen wurde.</note> so gut es geht
+                    verfaszen. herzliche gruesze von haus zu haus ihr <signed>gerhart hauptmann</signed></p></div></body>
     </text>
 </TEI>

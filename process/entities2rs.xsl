@@ -6,7 +6,7 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="tei:persName|tei:rs[@type='person']">
+    <xsl:template match="tei:persName">
         <rs>
             <xsl:attribute name="type">person</xsl:attribute>
             <xsl:attribute name="ref">
@@ -16,31 +16,13 @@
         </rs>
     </xsl:template>
     
-    <xsl:template match="tei:placeName|tei:rs[@type='place']">
+    <xsl:template match="tei:placeName">
         <rs>
             <xsl:attribute name="type">place</xsl:attribute>
             <xsl:attribute name="subtype">place</xsl:attribute>
             <xsl:apply-templates select="@*|node()"/>
         </rs>
     </xsl:template>
-    
-    <xsl:template match="tei:workName|tei:rs[@type='work']">
-        <rs>
-            <xsl:attribute name="type">work</xsl:attribute>
-            <xsl:attribute name="subtype">work</xsl:attribute>
-            <xsl:apply-templates select="@*|node()"/>
-        </rs>
-    </xsl:template>
-    
-    <xsl:template match="tei:orgName|tei:rs[@type='organisation']">
-        <rs>
-            <xsl:attribute name="type">organisation</xsl:attribute>
-            <xsl:attribute name="subtype">organisation</xsl:attribute>
-            <xsl:apply-templates select="@*|node()"/>
-        </rs>
-    </xsl:template>
-    
-    
     <xsl:template match="tei:country">
         <rs>
             <xsl:attribute name="type">place</xsl:attribute>

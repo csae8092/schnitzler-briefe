@@ -8,8 +8,8 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 13. 5. 1895</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 13.&#160;5.&#160;1895</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -57,14 +57,14 @@
                      <physDesc>
                         <p>eh. Postkarte (Rohrpost), Bleistift.</p>
                         <stamp n="1">
-                           <placeName key="pmb51">Wien 1/1</placeName>
+                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
                            <date>13 V 95</date>
                            <time>10–V</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb51">Wien 1/1</placeName>
+                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
                            <date>13 V 95</date>
-                           <time>10 10 V</time>
+                           <time>10&#160;10&#160;V</time>
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -78,18 +78,18 @@
          </langUsage>
          <correspDesc>
             <correspAction  type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1895-05-13" n="01">13. 5. 1895</date>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1895-05-13" n="01">13.&#160;5.&#160;1895</date>
             </correspAction>
             <correspAction  type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1895-05-13">13. 5. 1895</date>
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1895-05-13">13.&#160;5.&#160;1895</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-05-09_01">Beer-Hofmann an Schnitzler, [9. 5. 1895]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-05-17_01">Schnitzler an Beer-Hofmann, 17. 5. 1895</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-05-09_01">Beer-Hofmann an Schnitzler, [9.&#160;5.&#160;1895]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-05-17_01">Schnitzler an Beer-Hofmann, 17.&#160;5.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -104,38 +104,7 @@
       <graphic url="1895_AS_RBH_1_00022.jpeg"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1895_AS_RBH_1_00021.jpeg"/>Hrn <hi rend="latintype">Dr. Richard
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb50">Wien</placeName>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb338">I. Wollzeile 15</placeName>
-                  </hi>.</addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <salute>
-                  <pb facs="1895_AS_RBH_1_00022.jpeg"/>Lieber Richard, </salute>
-            </opener>
-            <p>Ich bin <subst>
-                  <del rend="overwritten">zu mittg</del>
-                  <add place="inline">nach</add>
-               </subst>
-               <space unit="chars" quantity="1"/>
-               <time>12’</time> mit <persName key="pmb9089">
-                  <hi rend="latintype">N</hi>
-               </persName> bei Ihnen.</p>
-            <p>Herzlich Ihr <signed>Arth</signed>
-            </p>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="1895_AS_RBH_1_00021.jpeg"/>Hrn <hi rend="latintype">Dr. Richard
+                     Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I. Wollzeile 15</rs></hi>.</addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs="1895_AS_RBH_1_00022.jpeg"/>Lieber Richard, </salute></opener><p>Ich bin <subst><del rend="overwritten">zu mittg</del><add place="inline">nach</add></subst><space unit="chars" quantity="1"/><time>12’</time> mit <rs ref="#pmb9089" type="person"><hi rend="latintype">N</hi></rs> bei Ihnen.</p><p>Herzlich Ihr <signed>Arth</signed></p></div></body>
    </text>
 </TEI>

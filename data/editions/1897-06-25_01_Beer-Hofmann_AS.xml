@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-06-25_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-06-25_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 25. 6. 1897</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 25.&#160;6.&#160;1897</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Briefkarte, Bleistift; Lateinschrift. Von unbekannter Hand mit
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -80,17 +84,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb213">Ischl</placeName>
-               <date when="1897-06-25" n="01">25. 6. 1897</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb213">Ischl</placeName>
+               <date when="1897-06-25" n="01">25.&#160;6.&#160;1897</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-06-23_01">Schnitzler an Beer-Hofmann, 23. 6. 1897</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-07-17_02">Schnitzler an Beer-Hofmann, [17. oder 18. 7. 1897?]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-06-23_01">Schnitzler an Beer-Hofmann, 23.&#160;6.&#160;1897</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-07-17_02">Schnitzler an Beer-Hofmann, [17. oder 18.&#160;7.&#160;1897?]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -104,29 +108,12 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00229"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00228"/>
-                  <placeName key="pmb213">Ischl</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date when="1897-06-25">25/VI 97</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Arthur</salute> ich habe kein Zimmer für Sie gewählt weil Herr
-                  <persName key="pmb22474">Petter</persName> mir sagt er hätte 30 zu Ihrer
-               Verfügung. Ich selbst mache <hi rend="underline" n="1">morgen</hi> – <date>
-                  <hi n="1" rend="underline">Samstag</hi>
-               </date> – mit <rs type="person" key="pmb13913">Papa</rs>, <rs type="person" key="pmb34853">Onkel</rs>, <rs type="person" key="pmb40072">Tante</rs> einen Ausflug nach <placeName key="pmb874">Gmunden</placeName>
-               <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00229"/>und bin um <time>6</time> oder
-                  <time>8 Abends</time> wieder in <placeName key="pmb213">Ischl</placeName>. Um
-                  <time>8</time> nachtmalen wir und um <time>½ 9</time> gehe ich weg – Wollen Sie
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00228"/><rs ref="#pmb213" type="place">Ischl</rs><space unit="chars" quantity="1"/><date when="1897-06-25">25/VI 97</date></dateline></opener><p><salute>Lieber Arthur</salute> ich habe kein Zimmer für Sie gewählt weil Herr
+                  <rs ref="#pmb22474" type="person">Petter</rs> mir sagt er hätte 30 zu Ihrer
+               Verfügung. Ich selbst mache <hi rend="underline" n="1">morgen</hi> – <date><hi n="1" rend="underline">Samstag</hi></date> – mit <rs type="person" ref="#pmb13913" subtype="implied">Papa</rs>, <rs type="person" ref="#pmb34853" subtype="implied">Onkel</rs>, <rs type="person" ref="#pmb40072" subtype="implied">Tante</rs> einen Ausflug nach <rs ref="#pmb874" type="place">Gmunden</rs><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00229"/>und bin um <time>6</time> oder
+                  <time>8 Abends</time> wieder in <rs ref="#pmb213" type="place">Ischl</rs>. Um
+                  <time>8</time> nachtmalen wir und um <time>½&#160;9</time> gehe ich weg – Wollen Sie
                mich also noch <date>Samstag</date> sehn, dann sind Sie zwischen <time>8</time> u
-                  <time>½ 9</time> bei mir. Von Herzen Ihr <signed>R</signed>
-            </p>
-         </div>
-      </body>
+                  <time>½&#160;9</time> bei mir. Von Herzen Ihr <signed>R</signed></p></div></body>
    </text>
 </TEI>

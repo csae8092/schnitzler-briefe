@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-12-03_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1898-12-03_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 3. 12. 1898</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 3.&#160;12.&#160;1898</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S., schwarze Tinte. Von unbekannter Hand mit
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S., schwarze Tinte. Von unbekannter Hand mit
                                     Bleistift nummeriert: »<del rend="strikethrough">131</del>
                                     128«.</p>
                             </physDesc>
@@ -61,8 +65,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -81,19 +85,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1898-12-03" n="01">3. 12. 1898</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1898-12-03" n="01">3.&#160;12.&#160;1898</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1898-11-30_02">Hofmannsthal an Schnitzler, [30. 11. 1898]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1898-11-30_02">Hofmannsthal an Schnitzler, [30.&#160;11.&#160;1898]</ptr>
                <ptr type="next" subtype="toAuthor" target="1899-01-04_01">Hofmannsthal an Schnitzler, [zwischen 4. und
-                        6. 1. 1899]</ptr>
+                        6.&#160;1.&#160;1899]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -109,43 +113,13 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00286"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00285"/>
-                        <date>3. XII. 98</date>.</dateline>
-                    <salute>mein lieber Arthur</salute>
-                </opener>
-                <p>ich bitte Sie vielmals um eine Gefälligkeit, nämlich daſs Sie Herrn <persName key="pmb4076">Otto Eiſenſchitz</persName>, den Sie ja perſönlich kennen,
-                    einen Brief ſchreiben, oder daſs Sie ihm dieſen Brief hier ſchicken.</p>
-                <p>Herr <persName key="pmb34148">
-                        <hi rend="latintype">Lauria</hi>
-                    </persName> in <placeName key="pmb445">
-                        <hi rend="latintype">Rom</hi>
-                    </placeName>, Redacteur der <orgName key="pmb34229">
-                        <hi rend="latintype">Fanfulla</hi>
-                    </orgName>, hat ſich an mich um <hi rend="latintype">Intervention</hi>
-                    <space unit="chars" quantity="1"/>
-                    <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00286"/>gewandt, weil Herr <persName key="pmb4076">Eiſenſchitz</persName> ein einactiges Manuſcript von ihm
-                        »<workName key="pmb34231">
-                        <hi rend="latintype">ein Epilog</hi>
-                    </workName>« zum Überſetzen und zum Vertrieb bei den Bühnen übernommen hat und
-                    Herr <persName key="pmb34148">
-                        <hi rend="latintype">Lauria</hi>
-                    </persName> nun trotz mehrfacher Briefe keine Auskunft über den Verlauf dieſer
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00285"/><date>3.&#160;XII.&#160;98</date>.</dateline><salute>mein lieber Arthur</salute></opener><p>ich bitte Sie vielmals um eine Gefälligkeit, nämlich daſs Sie Herrn <rs ref="#pmb4076" type="person">Otto Eiſenſchitz</rs>, den Sie ja perſönlich kennen,
+                    einen Brief ſchreiben, oder daſs Sie ihm dieſen Brief hier ſchicken.</p><p>Herr <rs ref="#pmb34148" type="person"><hi rend="latintype">Lauria</hi></rs> in <rs ref="#pmb445" type="place"><hi rend="latintype">Rom</hi></rs>, Redacteur der <rs ref="#pmb34229" type="organisation"><hi rend="latintype">Fanfulla</hi></rs>, hat ſich an mich um <hi rend="latintype">Intervention</hi><space unit="chars" quantity="1"/><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00286"/>gewandt, weil Herr <rs ref="#pmb4076" type="person">Eiſenſchitz</rs> ein einactiges Manuſcript von ihm
+                        »<rs ref="#pmb34231" type="work"><hi rend="latintype">ein Epilog</hi></rs>« zum Überſetzen und zum Vertrieb bei den Bühnen übernommen hat und
+                    Herr <rs ref="#pmb34148" type="person"><hi rend="latintype">Lauria</hi></rs> nun trotz mehrfacher Briefe keine Auskunft über den Verlauf dieſer
                     Sache bekommen kann, ja nicht einmal <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00286"/>weiß, ob das Stück bis jetzt
-                        <add place="above">von Herrn <persName key="pmb4076">Eiſenſchitz</persName>
-                    </add> ins Deutſche überſetzt wurde.</p>
-                <p>Wahrſcheinlich liegt hier ein Miſsverſtändnis vor und Herr <persName key="pmb4076">Eiſenſchitz</persName> wird wohl ſo freundlich ſein, an Sie
-                    eine aufklärende Zeile zu richten. Übrigens iſt Herr <persName key="pmb34148">
-                        <hi rend="latintype">Lauria</hi>
-                    </persName> ein <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00285"/>Autor, von
-                    dem ich viel Gutes gehört habe.</p>
-                <closer>Herzlich Ihr<lb/>
-                    <signed>Hofmannsthal</signed>
-                </closer>
-            </div>
-        </body>
+                        <add place="above">von Herrn <rs ref="#pmb4076" type="person">Eiſenſchitz</rs></add> ins Deutſche überſetzt wurde.</p><p>Wahrſcheinlich liegt hier ein Miſsverſtändnis vor und Herr <rs ref="#pmb4076" type="person">Eiſenſchitz</rs> wird wohl ſo freundlich ſein, an Sie
+                    eine aufklärende Zeile zu richten. Übrigens iſt Herr <rs ref="#pmb34148" type="person"><hi rend="latintype">Lauria</hi></rs> ein <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00285"/>Autor, von
+                    dem ich viel Gutes gehört habe.</p><closer>Herzlich Ihr<lb/><signed>Hofmannsthal</signed></closer></div></body>
     </text>
 </TEI>

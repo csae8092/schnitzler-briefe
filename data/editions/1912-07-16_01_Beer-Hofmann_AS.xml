@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1912-07-16_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1912-07-16_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 16. 7. 1912</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 16.&#160;7.&#160;1912</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,17 +83,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb1059">St. Moritz</placeName>
-               <date when="1912-07-16" n="01">16. 7. 1912</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb1059">St. Moritz</placeName>
+               <date when="1912-07-16" n="01">16.&#160;7.&#160;1912</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1912-02-14_02">Schnitzler an Beer-Hofmann, 14. 2. 1912</ptr>
-               <ptr type="next" subtype="toAuthor" target="1912-07-19_01">Schnitzler an Beer-Hofmann, 19. 7. 1912</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1912-02-14_02">Schnitzler an Beer-Hofmann, 14.&#160;2.&#160;1912</ptr>
+               <ptr type="next" subtype="toAuthor" target="1912-07-19_01">Schnitzler an Beer-Hofmann, 19.&#160;7.&#160;1912</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -98,22 +102,12 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date when="1912-07-16"> 16. VII. 12</date>.</dateline>
-            </opener>
-            <p>
-               <salute>Lieber Arthur! </salute>Wir haben hier – (siehe Rückseite) Wohnung gefunden
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date when="1912-07-16"> 16.&#160;VII.&#160;12</date>.</dateline></opener><p><salute>Lieber Arthur! </salute>Wir haben hier – (siehe Rückseite) Wohnung gefunden
                (seit <date>13/VII</date>) – ganz am Walde und abseits von allem Lärm. Können aber
-               nur bis <date>10. Aug.</date> hier bleiben, da unsere Zimmer von da an besetzt sind.
-               Wir wollen dann über den <placeName key="pmb668">Bodensee</placeName> (<placeName key="pmb1029">Bregenz</placeName>? <placeName key="pmb849">Konstanz</placeName>?
-               wo wir 2-3 Tage bleiben wollen) nach <placeName key="pmb423">Nordtirol</placeName>
-               oder <placeName key="pmb429">Salzkammergut</placeName>. Herzliche Grüsse von uns
-               Allen an Sie Alle! <signed>Richard.</signed>
-            </p>
-         </div>
-      </body>
+               nur bis <date>10.&#160;Aug.</date> hier bleiben, da unsere Zimmer von da an besetzt sind.
+               Wir wollen dann über den <rs ref="#pmb668" type="place">Bodensee</rs> (<rs ref="#pmb1029" type="place">Bregenz</rs>? <rs ref="#pmb849" type="place">Konstanz</rs>?
+               wo wir 2-3 Tage bleiben wollen) nach <rs ref="#pmb423" type="place">Nordtirol</rs>
+               oder <rs ref="#pmb429" type="place">Salzkammergut</rs>. Herzliche Grüsse von uns
+               Allen an Sie Alle! <signed>Richard.</signed></p></div></body>
    </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1900-07-13_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1900-07-13_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 13. 7. 1900</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 13.&#160;7.&#160;1900</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,17 +83,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb34401">Alt-Aussee</placeName>
-               <date when="1900-07-13" n="01">13. 7. 1900</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb34401">Alt-Aussee</placeName>
+               <date when="1900-07-13" n="01">13.&#160;7.&#160;1900</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1900-07-07_01">Schnitzler an Beer-Hofmann, 7. 7. 1900</ptr>
-               <ptr type="next" subtype="toAuthor" target="1900-07-14_01">Schnitzler an Beer-Hofmann, 14. 7. 1900</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1900-07-07_01">Schnitzler an Beer-Hofmann, 7.&#160;7.&#160;1900</ptr>
+               <ptr type="next" subtype="toAuthor" target="1900-07-14_01">Schnitzler an Beer-Hofmann, 14.&#160;7.&#160;1900</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -98,45 +102,31 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb34401">Alt-Aussee</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date when="1900-07-13">13/VII. 1900</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Arthur! </salute>Meiner <rs type="person" key="pmb10860">Frau</rs>
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb34401" type="place">Alt-Aussee</rs><space unit="chars" quantity="1"/><date when="1900-07-13">13/VII.&#160;1900</date></dateline></opener><p><salute>Lieber Arthur! </salute>Meiner <rs type="person" ref="#pmb10860" subtype="implied">Frau</rs>
                geht es augenblicklich etwas besser. Seit 8 Tagen kommt täglich der hiesige Doktor.
-               Ob ein causaler Zusammenhang zwischen beiden Sätzen besteht? Von <persName key="pmb11740">Hugo</persName> ein Brief aus <placeName key="pmb573">Bad-Fusch</placeName>; er will Ihre Adresse. Von <persName key="pmb11485">Goldmann</persName> ein Brief wegen Fußtour. Wir fixiren also endgiltig
-               (Schicksalsclauseln inbegriffen) den <date>10. August</date> in <placeName key="pmb867">Innsbruck</placeName>. Für den Zeitungsausschnitt Dank. Zur
-               Beruhigung meines <rs type="person" key="pmb13913">Papa</rs>’s ganz gut. <persName key="pmb21236">Meyer</persName> war zu Besuch von <placeName key="pmb213">Ischl</placeName> hier, er will die Tour mitmachen. Er hat eine Unvorsichtigkeit
-               begangen. »<workName key="pmb29857">Die Hochzeit der Beatrice</workName>« hab ich ihm
-               – wogegen Sie nichts hatten – geborgt. Nun setzt sich der Unglückliche in <placeName key="pmb772">Marienbad</placeName> auf eine Bank, liest in dem Buch. Es erscheint:
-                  <persName key="pmb24033">Minnie B.</persName>, spricht <persName key="pmb21236">M.</persName> an, erinnert ihn daß er sie eigentlich von einem Jour her kennen
-               sollte, borgt sich das Buch aus; <persName key="pmb21236">M.</persName> wird zweimal
-               zum Speisen geladen. Weiter: <persName key="pmb24033">Minnie</persName> hat aber –
-               (verdächtig) das Buch bei ihrer Abreise nach <placeName key="pmb40033">Levico</placeName> noch nicht zu Ende gelesen, und erhält von <persName key="pmb21236">M.</persName> den Auftrag es nach Lesung mir zu schicken was sie
-               noch nicht getan hat. <persName key="pmb21236">M.</persName> wird nun in meinem Namen
+               Ob ein causaler Zusammenhang zwischen beiden Sätzen besteht? Von <rs ref="#pmb11740" type="person">Hugo</rs> ein Brief aus <rs ref="#pmb573" type="place">Bad-Fusch</rs>; er will Ihre Adresse. Von <rs ref="#pmb11485" type="person">Goldmann</rs> ein Brief wegen Fußtour. Wir fixiren also endgiltig
+               (Schicksalsclauseln inbegriffen) den <date>10.&#160;August</date> in <rs ref="#pmb867" type="place">Innsbruck</rs>. Für den Zeitungsausschnitt Dank. Zur
+               Beruhigung meines <rs type="person" ref="#pmb13913" subtype="implied">Papa</rs>’s ganz gut. <rs ref="#pmb21236" type="person">Meyer</rs> war zu Besuch von <rs ref="#pmb213" type="place">Ischl</rs> hier, er will die Tour mitmachen. Er hat eine Unvorsichtigkeit
+               begangen. »<rs ref="#pmb29857" type="work">Die Hochzeit der Beatrice</rs>« hab ich ihm
+               – wogegen Sie nichts hatten – geborgt. Nun setzt sich der Unglückliche in <rs ref="#pmb772" type="place">Marienbad</rs> auf eine Bank, liest in dem Buch. Es erscheint:
+                  <rs ref="#pmb24033" type="person">Minnie B.</rs>, spricht <rs ref="#pmb21236" type="person">M.</rs> an, erinnert ihn daß er sie eigentlich von einem Jour her kennen
+               sollte, borgt sich das Buch aus; <rs ref="#pmb21236" type="person">M.</rs> wird zweimal
+               zum Speisen geladen. Weiter: <rs ref="#pmb24033" type="person">Minnie</rs> hat aber –
+               (verdächtig) das Buch bei ihrer Abreise nach <rs ref="#pmb40033" type="place">Levico</rs> noch nicht zu Ende gelesen, und erhält von <rs ref="#pmb21236" type="person">M.</rs> den Auftrag es nach Lesung mir zu schicken was sie
+               noch nicht getan hat. <rs ref="#pmb21236" type="person">M.</rs> wird nun in meinem Namen
                urgiren damit ich das Buch bekomme. Hoffentlich haben bis dahin noch nicht die
-               versammelten irgendwie nennenswerthen Curgäste in <placeName key="pmb40033">Levico</placeName> bemerkt daß Sie Ihre unveröffentlichten Stücke <persName key="pmb24033">Minnie</persName> anvertrauen. O Nachtkastel-Motive. Bei alledem
-               ärgert mich <persName key="pmb21236">M.</persName>’s Dummheit in dieser Sache. Er
-               argumentirt: Da Sie mit <persName key="pmb24033">Minnie</persName> gut bekannt sind
+               versammelten irgendwie nennenswerthen Curgäste in <rs ref="#pmb40033" type="place">Levico</rs> bemerkt daß Sie Ihre unveröffentlichten Stücke <rs ref="#pmb24033" type="person">Minnie</rs> anvertrauen. O Nachtkastel-Motive. Bei alledem
+               ärgert mich <rs ref="#pmb21236" type="person">M.</rs>’s Dummheit in dieser Sache. Er
+               argumentirt: Da Sie mit <rs ref="#pmb24033" type="person">Minnie</rs> gut bekannt sind
                macht es nichts. Richtig muß es heißen: Da Sie gut bekannt sind und es ihr nicht
-               geben, so wollen Sie eben nicht daß sie es hat. Außerdem ärgert mich: <persName key="pmb21236">M.</persName> auf dessen Verstand, Takt, und Geschicklichkeit ich
+               geben, so wollen Sie eben nicht daß sie es hat. Außerdem ärgert mich: <rs ref="#pmb21236" type="person">M.</rs> auf dessen Verstand, Takt, und Geschicklichkeit ich
                einige Hoffnung setzte enttäuscht mich. Ob es denn mir einfiele ein als Manuscript
-               gedrucktes Ding jungen <rs type="person" key="pmb24033">Mädchen</rs> in die Hand zu
+               gedrucktes Ding jungen <rs type="person" ref="#pmb24033" subtype="implied">Mädchen</rs> in die Hand zu
                geben die – nach meiner Taxirung – gar kein wirkliches – außer persönliches –
                Interesse daran haben, und nur eine Primeurprotzerei damit anstellen wollen. Im
-               Übrigen ist es wahrscheinlich nicht so wichtig.</p>
-            <p>Wenn Sie <persName key="pmb24033">Minnie</persName> einmal – damit die Leut Recht
+               Übrigen ist es wahrscheinlich nicht so wichtig.</p><p>Wenn Sie <rs ref="#pmb24033" type="person">Minnie</rs> einmal – damit die Leut Recht
                behalten – doch heirathen sollten wird dieser Brief mich nicht beliebt machen. Ich
                arbeite. Man überschätzt wie Sie sehen immer noch die Menschen. Herzlich Ihr
-                  <signed>R.</signed>
-            </p>
-         </div>
-      </body>
+                  <signed>R.</signed></p></div></body>
    </text>
 </TEI>

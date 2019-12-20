@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-04-07_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-04-07_01_Hofmannsthal_AS">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [7. 4. 1894]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [7.&#160;4.&#160;1894]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -48,10 +51,10 @@
                                 <country>UK</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43b/1</idno>
+                                <idno>Schnitzler, B&#160;43b/1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., schwarze Tinte. Von Schnitzler mit
                                     Bleistift datiert: »<quote>
                                         <date when="1894-04-07">7/4 94</date>
                                     </quote>«. Von unbekannter Hand mit Bleistift nummeriert:
@@ -63,8 +66,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -77,8 +80,8 @@
                     </biblStruct>
                     <biblStruct corresp="HBAS">
                         <monogr>
-                            <author key="pmb10815">Bahr, Hermann</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10815">Bahr, Hermann</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel, Aufzeichnungen, Dokumente
                                 (1891–1931)</title>
                             <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
@@ -98,18 +101,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">[Wien]</placeName>
-                    <date when="1894-04-07" n="01">[7. 4. 1894]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">[Wien]</placeName>
+                    <date when="1894-04-07" n="01">[7.&#160;4.&#160;1894]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">[Wien]</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">[Wien]</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-03-09_02">Schnitzler an Hofmannsthal, [9. 3. 1894]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-05-15_02">Schnitzler an Hofmannsthal, [15. 5. 1894?]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-03-09_02">Schnitzler an Hofmannsthal, [9.&#160;3.&#160;1894]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-05-15_02">Schnitzler an Hofmannsthal, [15.&#160;5.&#160;1894?]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -126,20 +129,6 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00131"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00131"/>lieber Arthur.</salute>
-                </opener>
-                <p>Auf Wunſch <persName key="pmb10815">Bahrs</persName> verbringen <hi rend="latintype">
-                        <persName key="pmb10863">Richard</persName>
-                    </hi> und ich morgen nachmittag mit ihm. Nach 10 faſt ſicher im Café.</p>
-                <p>Ich werde verſuchen für kommende Woche <placeName key="pmb567">Stephansthurmbeſteigung</placeName> zu organiſieren.</p>
-                <closer>Von Herzen Ihr<lb/>
-                    <signed>Hugo</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00131"/>lieber Arthur.</salute></opener><p>Auf Wunſch <rs ref="#pmb10815" type="person">Bahrs</rs> verbringen <hi rend="latintype"><rs ref="#pmb10863" type="person">Richard</rs></hi> und ich morgen nachmittag mit ihm. Nach 10 faſt ſicher im Café.</p><p>Ich werde verſuchen für kommende Woche <rs ref="#pmb567" type="place">Stephansthurmbeſteigung</rs> zu organiſieren.</p><closer>Von Herzen Ihr<lb/><signed>Hugo</signed></closer></div></body>
     </text>
 </TEI>

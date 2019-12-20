@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1913-04-20_02_Altenberg_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1913-04-20_02_Altenberg_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Peter Altenberg an Arthur Schnitzler, [20.?] 4. 1913</title>
-                <author key="pmb2147">Altenberg, Peter</author>
+                <title level="a">Peter Altenberg an Arthur Schnitzler, [20.?]&#160;4.&#160;1913</title>
+                <author ref="#pmb2147">Altenberg, Peter</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +54,7 @@
                                 <idno>A:Schnitzler, HS.NZ85.1.2342</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>ms. Abschrift, S. 14. Original nicht nachgewiesen.</p>
+                                <p>ms. Abschrift, S.&#160;14. Original nicht nachgewiesen.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -63,18 +66,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2147">Altenberg, Peter</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1913-04-20" notBefore="1913-04-20" n="02">[20.?] 4. 1913</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2147">Altenberg, Peter</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1913-04-20" notBefore="1913-04-20" n="02">[20.?]&#160;4.&#160;1913</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1913-04-20_01">Schnitzler an Engländer, 20. 4. 1913</ptr>
-               <ptr type="next" subtype="toAuthor" target="1913-04-20_03">Altenberg an Schnitzler, 20. 4. 1913</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1913-04-20_01">Schnitzler an Engländer, 20.&#160;4.&#160;1913</ptr>
+               <ptr type="next" subtype="toAuthor" target="1913-04-20_03">Altenberg an Schnitzler, 20.&#160;4.&#160;1913</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -85,20 +88,7 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs=""/>
-                        <date>?/4. 1913</date>
-                    </dateline>
-                </opener>
-                <p>
-                    <hi n="1" rend="underline">Tiefsten Dank</hi> für <anchor type="commentary" xml:id="KL878-1"/>Besuch<note type="commentary" xml:id="KL878-1h">Am
-                            <date>20. 4. 1913</date> in der Psychiatrie der <placeName key="pmb153">Landesheilanstalt Am Steinhof</placeName>.</note>! Ihr<space unit="chars" quantity="7"/>
-                    <signed>PA</signed>
-                </p>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>?/4.&#160;1913</date></dateline></opener><p><hi n="1" rend="underline">Tiefsten Dank</hi> für <anchor type="commentary" xml:id="KL878-1"/>Besuch<note type="commentary" xml:id="KL878-1h">Am
+                            <date>20.&#160;4.&#160;1913</date> in der Psychiatrie der <rs ref="#pmb153" type="place">Landesheilanstalt Am Steinhof</rs>.</note>! Ihr<space unit="chars" quantity="7"/><signed>PA</signed></p></div></body>
     </text>
 </TEI>

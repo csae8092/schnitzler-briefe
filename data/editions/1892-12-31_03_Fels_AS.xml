@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L042XXX">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L042XXX">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Friedrich M. Fels an Arthur Schnitzler, [vor dem
-                    1. 1. 1893?]</title>
-                <author key="pmb2450">Fels, Friedrich M.</author>
+                    1.&#160;1.&#160;1893?]</title>
+                <author ref="#pmb2450">Fels, Friedrich M.</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -16,8 +20,8 @@
                     <address>
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
-                        <placeName>
-                            <country>A</country> Wien </placeName>
+                        <rs type="place">
+                            <country>A</country> Wien </rs>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,7 +54,7 @@
                                 <idno>A:Schnitzler, HS.NZ85.1.2956</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., Lateinschrift, schwarze Tinte. Von
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., Lateinschrift, schwarze Tinte. Von
                                     Schnitzler mit Bleistift datiert:
                                         »<quote>
                               <date>93</date>
@@ -67,19 +71,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2450">Fels, Friedrich M.</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1892-12-31" n="03">[vor dem 1. 1. 1893?]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2450">Fels, Friedrich M.</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1892-12-31" n="03">[vor dem 1.&#160;1.&#160;1893?]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
                <ptr type="previous" subtype="toAuthor" target="1892-12-31_02">Fels an Schnitzler, [Ende
                         1892?]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-01-01_01">Fels an Schnitzler, [1. 1. 1893?]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-01-01_01">Fels an Schnitzler, [1.&#160;1.&#160;1893?]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -90,25 +94,13 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-               <pb facs=""/>
-               <salute>Lieber Dr </salute>
-               <space unit="chars" quantity="3"/>Wie man sich bisweilen irren ka<c rendition="#gemination-n"/>: Gestern kam ich gar nicht ins Café, sondern um
-                        <time>5 Uhr</time> lag ich im Bett. – Warum sah ich sie heute
+        <body><div type="writingSession" n="1"><p><pb facs=""/><salute>Lieber Dr </salute><space unit="chars" quantity="3"/>Wie man sich bisweilen irren ka<c rendition="#gemination-n"/>: Gestern kam ich gar nicht ins Café, sondern um
+                        <time>5 Uhr</time> lag ich im Bett.&#160;– Warum sah ich sie heute
                     Frühe nicht? Und es wäre grade so dringend gewesen! Ich muſs vielleicht heute
                     noch <anchor type="commentary" xml:id="KLMAM20191008-8"/>ausziehen<note type="commentary" xml:id="KLMAM20191008-8h">Da er am
-                            <date>1. 1. 1893</date> sich für eine neue Wohnung
-                        entscheidet, dürfte es sich bei dieser um die in der <placeName key="pmb52">Leopoldstadt</placeName> liegende vorhergehende Adresse handeln.</note>: das hätte mit Ihnen
-                    gesprochen.</p>
-                <p>– Bitte, <hi rend="underline" n="1">nach 5 Uhr</hi> auf <hi rend="underline" n="1">einen Augenblick ins <placeName key="pmb262">Central</placeName>
-               </hi>, nicht ins groſse Lokal, sondern ins erste der
-                    langen Reihe. Ich bitte Sie so dringend wie herzlich darum.</p>
-                <closer>
-               <signed>Fels</signed>
-                </closer>
-            </div>
-        </body>
+                            <date>1.&#160;1.&#160;1893</date> sich für eine neue Wohnung
+                        entscheidet, dürfte es sich bei dieser um die in der <rs ref="#pmb52" type="place">Leopoldstadt</rs> liegende vorhergehende Adresse handeln.</note>: das hätte mit Ihnen
+                    gesprochen.</p><p>– Bitte, <hi rend="underline" n="1">nach 5 Uhr</hi> auf <hi rend="underline" n="1">einen Augenblick ins <rs ref="#pmb262" type="place">Central</rs></hi>, nicht ins groſse Lokal, sondern ins erste der
+                    langen Reihe. Ich bitte Sie so dringend wie herzlich darum.</p><closer><signed>Fels</signed></closer></div></body>
     </text>
 </TEI>

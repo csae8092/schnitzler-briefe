@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1925-10-09_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1925-10-09_01_AS_Hofmannsthal">
   
    
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 9. 10. 1925</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 9.&#160;10.&#160;1925</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -53,7 +57,7 @@
                         <idno>Hs-30885,XXXX</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1925-10-09" n="01">9. 10. 1925</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1925-10-09" n="01">9.&#160;10.&#160;1925</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1925-10-08_01">Hofmannsthal an Schnitzler, 8. 10. 1925</ptr>
-               <ptr type="next" subtype="toAuthor" target="1925-11-14_01">Hofmannsthal an Schnitzler, 14. 11. 1925</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1925-10-08_01">Hofmannsthal an Schnitzler, 8.&#160;10.&#160;1925</ptr>
+               <ptr type="next" subtype="toAuthor" target="1925-11-14_01">Hofmannsthal an Schnitzler, 14.&#160;11.&#160;1925</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,32 +105,18 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb50">Wien</placeName>, <date>9. X. 1925</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>mein lieber Hugo, </salute>
-               <date>Sonntag</date> fahre ich nach <placeName key="pmb168">Berlin</placeName> (<placeName key="pmb245">Hotel Esplanade</placeName>) – schicken Sie den <workName key="pmb33722">Turm</workName> gleich ab, so findet er mich
-   dort, da ich wohl mindestens 8 Tage dort bleibe. Unter anderm werd ich dort <persName key="pmb12692">Heini</persName> als <rs type="work" key="pmb29917">Theodor</rs> in der <workName key="pmb29917">Liebelei</workName> sehen (die heute vor 30 Jahren in <placeName key="pmb50">Wien</placeName> zum »überhaupt« ersten Mal aufgeführt wurde.) Auch ein neues Stück ne hm ich
-               nach <placeName key="pmb168">Berlin</placeName> mit, in Versen, und heißt: »<workName key="pmb30775">Der Gang
-      zum Weiher</workName>«. Gegen die Aufführung von <workName key="pmb30205">Kom. d. Verf.</workName> bei
-    <persName key="pmb10833">Barnowsky</persName> setze ich mich zur Wehre – (die Hauptrollen
-               scheinen nämlich noch nicht besetzt zu sein.) Auch eine »<workName key="pmb30851">Traumnovelle</workName>« (so
-   heißt sie) erscheint nächstens. – Von <placeName key="pmb1169">Forte dei Marmi</placeName> bin ich nach
-    <placeName key="pmb263">Florenz</placeName>, nach <placeName key="pmb462">Venedig</placeName>; und vor
-   3 Wochen nach <placeName key="pmb50">Wien</placeName>. Hoffentlich sieht man sich einmal wieder
-   – und bald. (Es wird immer später.) <persName key="pmb3220">Christiane</persName> sah ich in
-    <placeName key="pmb462">Venedig</placeName>; ich glaube, <persName key="pmb2238">Lili</persName> und
-    <persName key="pmb2173">Olga</persName> haben sie nach meiner Abreise auch gesprochen. – Nichts
-   von alldem ahnten wir heute vor 30 Jahren. Und eigentlich war es gestern. </p>
-            <p>Leben Sie wohl. </p>
-            <closer>In Herzlichkeit<lb/>Ihr <signed>A.</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb50" type="place">Wien</rs>, <date>9. X.&#160;1925</date></dateline></opener><p><salute>mein lieber Hugo, </salute><date>Sonntag</date> fahre ich nach <rs ref="#pmb168" type="place">Berlin</rs> (<rs ref="#pmb245" type="place">Hotel Esplanade</rs>) – schicken Sie den <rs ref="#pmb33722" type="work">Turm</rs> gleich ab, so findet er mich
+   dort, da ich wohl mindestens 8 Tage dort bleibe. Unter anderm werd ich dort <rs ref="#pmb12692" type="person">Heini</rs> als <rs type="work" ref="#pmb29917" subtype="implied">Theodor</rs> in der <rs ref="#pmb29917" type="work">Liebelei</rs> sehen (die heute vor 30 Jahren in <rs ref="#pmb50" type="place">Wien</rs> zum »überhaupt« ersten Mal aufgeführt wurde.) Auch ein neues Stück ne hm ich
+               nach <rs ref="#pmb168" type="place">Berlin</rs> mit, in Versen, und heißt: »<rs ref="#pmb30775" type="work">Der Gang
+      zum Weiher</rs>«. Gegen die Aufführung von <rs ref="#pmb30205" type="work">Kom. d. Verf.</rs> bei
+    <rs ref="#pmb10833" type="person">Barnowsky</rs> setze ich mich zur Wehre – (die Hauptrollen
+               scheinen nämlich noch nicht besetzt zu sein.) Auch eine »<rs ref="#pmb30851" type="work">Traumnovelle</rs>« (so
+   heißt sie) erscheint nächstens.&#160;– Von <rs ref="#pmb1169" type="place">Forte dei Marmi</rs> bin ich nach
+    <rs ref="#pmb263" type="place">Florenz</rs>, nach <rs ref="#pmb462" type="place">Venedig</rs>; und vor
+   3 Wochen nach <rs ref="#pmb50" type="place">Wien</rs>. Hoffentlich sieht man sich einmal wieder
+   – und bald. (Es wird immer später.) <rs ref="#pmb3220" type="person">Christiane</rs> sah ich in
+    <rs ref="#pmb462" type="place">Venedig</rs>; ich glaube, <rs ref="#pmb2238" type="person">Lili</rs> und
+    <rs ref="#pmb2173" type="person">Olga</rs> haben sie nach meiner Abreise auch gesprochen.&#160;– Nichts
+   von alldem ahnten wir heute vor 30 Jahren. Und eigentlich war es gestern. </p><p>Leben Sie wohl. </p><closer>In Herzlichkeit<lb/>Ihr <signed>A.</signed></closer></div></body>
    </text>
 </TEI>

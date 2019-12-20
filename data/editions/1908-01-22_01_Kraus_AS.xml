@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1908-01-22_01_Kraus_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1908-01-22_01_Kraus_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Karl Kraus an Arthur Schnitzler, 22. 1. 1908</title>
-                <author key="pmb11988">Kraus, Karl</author>
+                <title level="a">Karl Kraus an Arthur Schnitzler, 22.&#160;1.&#160;1908</title>
+                <author ref="#pmb11988">Kraus, Karl</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 55</idno>
+                                <idno>Schnitzler, B&#160;55</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., schwarze Tinte. Von Schnitzler mit
                                     Bleistift beschriftet: »<quote>
                                         <hi rend="latintype">Carl Kraus</hi>
                                     </quote>«.</p>
@@ -83,17 +87,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11988">Kraus, Karl</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1908-01-22" n="01">22. 1. 1908</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11988">Kraus, Karl</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1908-01-22" n="01">22.&#160;1.&#160;1908</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1908-01-20_01">Kraus an Schnitzler, 20. 1. 1908</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1908-01-20_01">Kraus an Schnitzler, 20.&#160;1.&#160;1908</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -108,25 +112,9 @@
         <graphic url="MS-SCHNITZLER-B-00055-000-00025"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00055-000-00025"/>
-                        <date>22. 1. 08</date>
-                    </dateline>
-                    <salute>Hochverehrter Herr Doktor!</salute>
-                </opener>
-                <p>Mrs <persName key="pmb5693">Fox</persName> überſetzt nicht ſelbſt. Sie ſchreibt:
-                    »Jemand will das <rs type="work" key="pmb29857">Stück</rs> für mich ins
-                        <placeName key="pmb254">
-                  <country>Englische</country>
-               </placeName> überſetzen und ich will verſuchen, es hier aufzuführen«. Ich werde
-                    Ihre freundliche Antwort, für die ich herzlich danke, der Dame mittheilen.</p>
-                <closer>Mit <unclear>höchst</unclear>ergebenſter Empfehlung<lb/>
-                    <signed>Karl Kraus</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00055-000-00025"/><date>22.&#160;1.&#160;08</date></dateline><salute>Hochverehrter Herr Doktor!</salute></opener><p>Mrs <rs ref="#pmb5693" type="person">Fox</rs> überſetzt nicht ſelbſt. Sie ſchreibt:
+                    »Jemand will das <rs type="work" ref="#pmb29857" subtype="implied">Stück</rs> für mich ins
+                        <rs ref="#pmb254" type="place"><country>Englische</country></rs> überſetzen und ich will verſuchen, es hier aufzuführen«. Ich werde
+                    Ihre freundliche Antwort, für die ich herzlich danke, der Dame mittheilen.</p><closer>Mit <unclear>höchst</unclear>ergebenſter Empfehlung<lb/><signed>Karl Kraus</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1904-02-15_01_Bahr_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1904-02-15_01_Bahr_AS">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 15. 2. 1904</title>
-            <author key="pmb10815">Bahr, Hermann</author>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 15.&#160;2.&#160;1904</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,19 +53,19 @@
                         <country>GB</country>            
                         <settlement>Cambridge</settlement>            
                         <repository>University Library</repository>            
-                        <idno>Schnitzler, B 5b</idno>
+                        <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Briefkarte</p>
                         <stamp n="1">
-                           <placeName key="pmb38096">Abbazia</placeName>
-                           <date when="1904-02-15">15. 2. 04</date>
+                           <rs ref="#pmb38096" type="place">Abbazia</rs>
+                           <date when="1904-02-15">15.&#160;2.&#160;04</date>
              
                         </stamp>
                         <stamp n="2">
                            <action>Bestellt</action>
-                           <placeName key="pmb68">Wien 18/1</placeName>
-                           <date when="1904-02-17">17. 2. 04</date>
+                           <rs ref="#pmb68" type="place">Wien 18/1</rs>
+                           <date when="1904-02-17">17.&#160;2.&#160;04</date>
                            <time>8.V</time>
                         </stamp>
                      </physDesc>
@@ -71,8 +75,8 @@
             <listBibl>                
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -90,19 +94,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb38096">Abbazia/Opatja</placeName>
-               <date when="1904-02-15" n="01">15. 2. 1904</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb38096">Abbazia/Opatja</placeName>
+               <date when="1904-02-15" n="01">15.&#160;2.&#160;1904</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1904-02-17">17. 2. 04</date>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1904-02-17">17.&#160;2.&#160;04</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1904-02-12_01">Bahr an Schnitzler, 12. 2. 1904</ptr>
-               <ptr type="next" subtype="toAuthor" target="1904-02-22_02">Schnitzler an Bahr, 22. 2. 1904</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1904-02-12_01">Bahr an Schnitzler, 12.&#160;2.&#160;1904</ptr>
+               <ptr type="next" subtype="toAuthor" target="1904-02-22_02">Schnitzler an Bahr, 22.&#160;2.&#160;1904</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -119,44 +123,16 @@
       <graphic url="MS-B-00005-B-000-00198"/>
    </facsimile>
    <text type="card">
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>
-                  <pb facs="MS-B-00005-B-000-00197"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler
-      </addrLine>
-               <addrLine>
-                  <placeName key="pmb68">Wien XVIII</placeName>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb133">Spöttelgasse 7</placeName>
-               </addrLine>
-            </address> 
-         </div> 
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>15. 2. 04</date>
-                  <lb/>
-                  <placeName key="pmb38096">Abbazia</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <placeName key="pmb306">Hot. Guarnero</placeName>
-               </dateline>
-               <salute>Lieber Arthur!</salute>
-            </opener>
-            <p>Ich kam heut hier an und weil der <persName key="pmb12968">Trebitsch</persName>, 
+      <body><div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00197"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler
+      </addrLine><addrLine><rs ref="#pmb68" type="place">Wien XVIII</rs></addrLine><addrLine><rs ref="#pmb133" type="place">Spöttelgasse 7</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><date>15.&#160;2.&#160;04</date><lb/><rs ref="#pmb38096" type="place">Abbazia</rs><space unit="chars" quantity="1"/><rs ref="#pmb306" type="place">Hot. Guarnero</rs></dateline><salute>Lieber Arthur!</salute></opener><p>Ich kam heut hier an und weil der <rs ref="#pmb12968" type="person">Trebitsch</rs>, 
         der mir ein Telegramm versprochen, es verbummelt hat, ließ ich mich verleiten, in den 
-        <placeName key="pmb50">Wiener</placeName> Zeitungen nachzusehen, deren Ton aber so 
+        <rs ref="#pmb50" type="place">Wiener</rs> Zeitungen nachzusehen, deren Ton aber so 
         hundsgemein ist, daß ich ihn physisch nicht 
         mehr vertrage. Und nun nachdem ich mich unsinnig geärgert hab, weiß ich zudem 
-        natürlich gar nichts: wars ein Erfolg, wars keiner? Ich weiß aber, daß das <rs type="work" key="pmb29985">Stück</rs> 
+        natürlich gar nichts: wars ein Erfolg, wars keiner? Ich weiß aber, daß das <rs type="work" ref="#pmb29985" subtype="implied">Stück</rs> 
         zu Deinen schönsten und reinsten Arbeiten gehört, und ich mein, wir sollten uns überhaupt nicht mehr zu 
         Erfolgen, sondern zu den Werken, die uns etwas sind, gratulieren. 
-        Mir ist der »<workName key="pmb29985">einsame Weg</workName>« in seinen Hauptgestalten und ihrem Erleben sehr viel.</p>
-            <closer>Herzlichst <space quantity="5" unit="chars"/>Dein 
-               <signed>Hermann</signed>
-            </closer>
-         </div>
-      </body>
+        Mir ist der »<rs ref="#pmb29985" type="work">einsame Weg</rs>« in seinen Hauptgestalten und ihrem Erleben sehr viel.</p><closer>Herzlichst <space quantity="5" unit="chars"/>Dein 
+               <signed>Hermann</signed></closer></div></body>
   </text>
 </TEI>

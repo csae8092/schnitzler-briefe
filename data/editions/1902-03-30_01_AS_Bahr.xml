@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1902-03-30_01_AS_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1902-03-30_01_AS_Bahr">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 30. 3. 1902</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 30.&#160;3.&#160;1902</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -52,7 +56,7 @@
                         <idno>HS AM 23350 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl, 3 S.</p>
+                        <p>eh. Brief, 1 Bl, 3&#160;S.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,10 +64,10 @@
             <listBibl>
                <biblStruct corresp="DASB">
                   <analytic>
-                     <title level="a">[28. 3.] 1902</title>
+                     <title level="a">[28.&#160;3.] 1902</title>
                   </analytic>
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint> 
@@ -80,8 +84,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -99,18 +103,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">[Wien]</placeName>
-               <date when="1902-03-30" n="01">30. 3. 1902</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
+               <date when="1902-03-30" n="01">30.&#160;3.&#160;1902</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1902-03-08_01">Bahr an Schnitzler, 8. 3. [1902]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1902-04-01_01">Bahr an Schnitzler, 1. 4. 1902</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1902-03-08_01">Bahr an Schnitzler, 8.&#160;3. [1902]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1902-04-01_01">Bahr an Schnitzler, 1.&#160;4.&#160;1902</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -126,47 +130,18 @@
      <graphic url="HS_AM23350Ba_R"/>
    </facsimile>
   <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>Ostersonntag 1902</date>
-               </dateline>
-               <salute>lieber Hermann,</salute>
-            </opener>
-            <p>eine <anchor type="commentary" xml:id="KL046-2"/>
-               <rs type="person" key="pmb25289">Dame</rs>
-               <note type="commentary" xml:id="KL046-2h">In <persName key="pmb2121">Schnitzlers</persName>
-                  <space unit="chars" quantity="1"/>
-                  <bibl>
-                     <workName key="pmb33243">Tagebuch</workName>
-                  </bibl> als »<persName key="pmb25289">Aur. St.</persName>« identifiziert.</note> bringt mir beiliegende 2
-           Skizzen<supplied>,</supplied> der <rs type="person" key="pmb21514">Verfasser</rs> hat die Absicht Journalist zu
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>Ostersonntag 1902</date></dateline><salute>lieber Hermann,</salute></opener><p>eine <anchor type="commentary" xml:id="KL046-2"/><rs type="person" ref="#pmb25289" subtype="implied">Dame</rs><note type="commentary" xml:id="KL046-2h">In <rs ref="#pmb2121" type="person">Schnitzlers</rs><space unit="chars" quantity="1"/><bibl><rs ref="#pmb33243" type="work">Tagebuch</rs></bibl> als »<rs ref="#pmb25289" type="person">Aur. St.</rs>« identifiziert.</note> bringt mir beiliegende 2
+           Skizzen<supplied>,</supplied> der <rs type="person" ref="#pmb21514" subtype="implied">Verfasser</rs> hat die Absicht Journalist zu
           werden. Ich soll ihn protegiren. Was anders soll er noch nicht geschrieben
-          haben. Auf dich hab ich so viel Einfluss, ich soll’s dir doch einfach schicken.</p>
-            <p>Ich thue das, nicht ohne mich für diese Inanspruchnahme deiner Zeit gebührend zu
+          haben. Auf dich hab ich so viel Einfluss, ich soll’s dir doch einfach schicken.</p><p>Ich thue das, nicht ohne mich für diese Inanspruchnahme deiner Zeit gebührend zu
           entschuldigen. Aber ich denke, in 3 Minuten hast du die Werke des jungen Manns
           gelesen, und wir sind <add place="above">(bis auf weiteres)</add> von dem Verdacht
-          befreit, <pb facs="HS_AM23350Ba_R"/>die »Jungen« zu unterdrücken.</p>
-            <p>Wenn du mir überdies in 3 Worten dein Urtheil über die Leistungen dieses Herrn
-          kundgibst, in einem Brief, den ich der Dame gleich zeigen kann, u. mit <subst>
-                  <del rend="overwritten">g</del>
-                  <add place="inline">d</add>
-               </subst>einer
+          befreit, <pb facs="HS_AM23350Ba_R"/>die »Jungen« zu unterdrücken.</p><p>Wenn du mir überdies in 3 Worten dein Urtheil über die Leistungen dieses Herrn
+          kundgibst, in einem Brief, den ich der Dame gleich zeigen kann, u. mit <subst><del rend="overwritten">g</del><add place="inline">d</add></subst>einer
           <add place="above">ganzen</add> Aufrichtigkeit, die in diesem Fall besonders
-          nützlich, ja nothwendig wäre, so bin ich dir sehr verbunden. –</p>
-            <p>In <placeName key="pmb462">Venedig</placeName> sollen die Blattern sein. Man müßte sich für alle Fälle impfen lassen,
-          eh man hinunter<pb facs="HS_AM23350Ba_R"/>radelt.</p>
-            <p>Ich seh dich übrigens bei der <anchor type="commentary" xml:id="KL046-1"/>
-               <workName key="pmb29883">»Kraft«probe</workName>
-               <note type="commentary" xml:id="KL046-1h">
-                  <workName key="pmb29883">Über unsere Kraft</workName>
-            von <persName key="pmb2400">Bjørnson</persName> wurde im <placeName key="pmb20">Deutschen Volkstheater</placeName> in zwei Teilen gegeben, der erste am <date when="1902-04-04">4.</date>, der zweite am <date when="1902-04-04">5. 4. 1902</date>. Ob
-            auch die Generalprobe auf zwei Tage aufgeteilt war, ist offen.</note>.</p>
-            <closer>Herzlichst der Deine<lb/>
-               <signed>Arth Sch</signed>
-            </closer>
-         </div>
-      </body>
+          nützlich, ja nothwendig wäre, so bin ich dir sehr verbunden. –</p><p>In <rs ref="#pmb462" type="place">Venedig</rs> sollen die Blattern sein. Man müßte sich für alle Fälle impfen lassen,
+          eh man hinunter<pb facs="HS_AM23350Ba_R"/>radelt.</p><p>Ich seh dich übrigens bei der <anchor type="commentary" xml:id="KL046-1"/><rs ref="#pmb29883" type="work">»Kraft«probe</rs><note type="commentary" xml:id="KL046-1h"><rs ref="#pmb29883" type="work">Über unsere Kraft</rs>
+            von <rs ref="#pmb2400" type="person">Bjørnson</rs> wurde im <rs ref="#pmb20" type="place">Deutschen Volkstheater</rs> in zwei Teilen gegeben, der erste am <date when="1902-04-04">4.</date>, der zweite am <date when="1902-04-04">5.&#160;4.&#160;1902</date>. Ob
+            auch die Generalprobe auf zwei Tage aufgeteilt war, ist offen.</note>.</p><closer>Herzlichst der Deine<lb/><signed>Arth Sch</signed></closer></div></body>
   </text>
 </TEI>

@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-07-06_02_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+    xml:id="L1899-07-06_02_AS_Hofmannsthal">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 6. 7. 1899</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 6.&#160;7.&#160;1899</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -51,7 +53,7 @@
                                 <idno>Hs-30885,82</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl, 4 S., schwarze Tinte. Mit Bleistift am oberen
+                                <p>eh. Brief, 1 Bl, 4&#160;S., schwarze Tinte. Mit Bleistift am oberen
                                     Blattrand zusätzlich datiert: »<quote>
                                         <date>6/7 99</date>
                                     </quote>«.</p>
@@ -62,8 +64,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -76,8 +78,8 @@
                     </biblStruct>
                     <biblStruct corresp="HBAS">
                         <monogr>
-                            <author key="pmb10815">Bahr, Hermann</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10815">Bahr, Hermann</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel, Aufzeichnungen, Dokumente
                                 (1891–1931)</title>
                             <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
@@ -98,17 +100,17 @@
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1899-07-06" n="02">6. 7. 1899</date>
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1899-07-06" n="02">6.&#160;7.&#160;1899</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb772">Marienbad</placeName>
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb772">Marienbad</placeName>
                 </correspAction>
                 <correspContext>
-                    <ptr type="previous" subtype="toAuthor" target="1899-06-26_02">Hofmannsthal an Schnitzler, 26. 6. 1899</ptr>
-                    <ptr type="next" subtype="toAuthor" target="1899-07-06_03">Hofmannsthal an Schnitzler, 6. 7. 1899</ptr>
+                    <ptr type="previous" subtype="toAuthor" target="1899-06-26_02">Hofmannsthal an Schnitzler, 26.&#160;6.&#160;1899</ptr>
+                    <ptr type="next" subtype="toAuthor" target="1899-07-06_03">Hofmannsthal an Schnitzler, 6.&#160;7.&#160;1899</ptr>
                 </correspContext>
             </correspDesc>
         </profileDesc>
@@ -124,52 +126,26 @@
         <graphic url="Hs-30885,82_002.JPG"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="Hs-30885,82_001.JPG"/>lieber Hugo,</salute>
-                </opener>
-                <p>folgendes iſt mit <hi rend="underline" n="3">vollkommener Discretion</hi> zu
-                    behandeln: <persName key="pmb10815">
-                        <hi rend="underline" n="1">Bahr</hi>
-                    </persName>
-                    <hi rend="underline" n="1"> verläßt die </hi>
-                    <orgName key="pmb29209">
-                        <hi rend="underline" n="1">Zeit</hi>
-                    </orgName>. <persName key="pmb12790">Singer</persName> und <persName key="pmb11867">Kanner</persName> waren bei mir. Lange Unterredung ohne
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="Hs-30885,82_001.JPG"/>lieber Hugo,</salute></opener><p>folgendes iſt mit <hi rend="underline" n="3">vollkommener Discretion</hi> zu
+                    behandeln: <rs ref="#pmb10815" type="person"><hi rend="underline" n="1">Bahr</hi></rs><hi rend="underline" n="1"> verläßt die </hi><rs ref="#pmb29209" type="organisation"><hi rend="underline" n="1">Zeit</hi></rs>. <rs ref="#pmb12790" type="person">Singer</rs> und <rs
+                        ref="#pmb11867" type="person">Kanner</rs> waren bei mir. Lange Unterredung ohne
                     Intereſſe für Sie (nur mich.) Das weſentliche: ſie möchten auf das Blatt
                     ſtellen: unter Mitwirkung von – <hi rend="latintype">etc etc</hi> nur erſte
-                    Namen, ich möchte Sie fragen, ob Sie im Princip damit <pb facs="Hs-30885,82_002.JPG"/>einverſtanden wären, auch als
+                    Namen, ich möchte Sie fragen, ob Sie im Princip damit <pb
+                        facs="Hs-30885,82_002.JPG"/>einverſtanden wären, auch als
                         »Mitwirkender<supplied>«</supplied> oder »ſtändg Mitwirkender« aufs Blatt zu
-                        ko<c rendition="#gemination-m"/>en, neben <hi rend="latintype">
-                        <persName key="pmb11036">Burckhard</persName>
-                    </hi>, mich, – event. <persName key="pmb11617">
-                        <hi rend="latintype">Hauptmann</hi>
-                    </persName> (<anchor type="commentary" xml:id="KL438-1"/>an den ich mich über
-                        <persName key="pmb10986">Brahm</persName> wende<note type="commentary" xml:id="KL438-1h">Die Übermittlung nicht im <bibl>
-                            <workName>Bw</workName> Schnitzler/Brahm</bibl>.</note>.) Sie können
+                        ko<c rendition="#gemination-m"/>en, neben <hi rend="latintype"><rs ref="#pmb11036" type="person">Burckhard</rs></hi>, mich, – event. <rs ref="#pmb11617" type="person"><hi rend="latintype">Hauptmann</hi></rs> (<anchor type="commentary" xml:id="KL438-1"/>an den ich mich über
+                        <rs ref="#pmb10986" type="person">Brahm</rs> wende<note type="commentary"
+                        xml:id="KL438-1h">Die Übermittlung nicht im <bibl><rs type="work">Bw</rs> Schnitzler/Brahm</bibl>.</note>.) Sie können
                     natürlich ohne weiters zuſagen. Für die Herausgeber ſcheint mir die Sache
-                    allerdings überflüſſig: ſie brauchten Arbeitskräfte, nicht Namen. –</p>
-                <p>Ich bin noch hier; und will über meine <pb facs="Hs-30885,82_002.JPG"/>Sti<c rendition="#gemination-m"/>ung nichts ſagen, da nichts neues u nicht
+                    allerdings überflüſſig: ſie brauchten Arbeitskräfte, nicht Namen.&#160;–</p><p>Ich bin noch hier; und will über meine <pb facs="Hs-30885,82_002.JPG"/>Sti<c
+                        rendition="#gemination-m"/>ung nichts ſagen, da nichts neues u nicht
                     erfreuliches vorliegt. Gerade dſs ſich das Leben da und dort wieder zu melden
                     anfängt, iſt das traurige; es iſt ein Leben dritter Ordnung, das beſte iſt
-                    vorbei.</p>
-                <p>Das Wetter ist ſchändlich. <date>Mitte Juli</date> reiſe ich nach <placeName key="pmb651">Kärnthen</placeName>; zuerſt <placeName key="pmb909">
-                        <hi rend="latintype">Velden</hi>
-                    </placeName>, dann zu <persName key="pmb10863">Richard</persName>, von dem ich
-                    eine kurze Karte habe. – Hat ſich in den Chancen für Mitte Auguſt (<placeName key="pmb432">Thü<pb facs="Hs-30885,82_001.JPG"/>ringen</placeName>
-                    <space unit="chars" quantity="1"/>
-                    <hi rend="latintype">etc</hi>) was geändert? – Arbeiten Sie? Sehn Sie <persName key="pmb24033">Minnie</persName>? –</p>
-                <closer>Leben Sie wohl. Von Herzen Ihr <signed>Arthur Sch</signed>
-                </closer>
-                <postscript>
-                    <dateline>
-                        <placeName key="pmb50">Wien</placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>6. 7. 99</date>.</dateline>
-                </postscript>
-            </div>
-        </body>
+                    vorbei.</p><p>Das Wetter ist ſchändlich. <date>Mitte Juli</date> reiſe ich nach <rs
+                        ref="#pmb651" type="place">Kärnthen</rs>; zuerſt <rs ref="#pmb909" type="place"><hi rend="latintype">Velden</hi></rs>, dann zu <rs ref="#pmb10863" type="person">Richard</rs>, von dem ich
+                    eine kurze Karte habe.&#160;– Hat ſich in den Chancen für Mitte Auguſt (<rs
+                        ref="#pmb432" type="place">Thü<pb facs="Hs-30885,82_001.JPG"/>ringen</rs><space unit="chars" quantity="1"/><hi rend="latintype">etc</hi>) was geändert? – Arbeiten Sie? Sehn Sie <rs
+                        ref="#pmb24033" type="person">Minnie</rs>?&#160;–</p><closer>Leben Sie wohl. Von Herzen Ihr <signed>Arthur Sch</signed></closer><postscript><dateline><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date>6.&#160;7.&#160;99</date>.</dateline></postscript></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-09-15_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-09-15_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 15. 9. 1894</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 15.&#160;9.&#160;1894</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,19 +52,19 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Bildpostkarte, Bleistift, Lateinschrift. Motiv: »<quote>
-                              <placeName key="pmb41944">Gruss von Franzenshöhe, K. K. Post- u.
-                           Telegraphenstation</placeName>.</quote>« Von Schnitzler mit Bleistift nummeriert:
+                              <rs ref="#pmb41944" type="place">Gruss von Franzenshöhe, K.&#160;K. Post- u.
+                           Telegraphenstation</rs>.</quote>« Von Schnitzler mit Bleistift nummeriert:
                               »<quote>42</quote>«.</p>
                         <stamp n="1">
-                           <placeName key="pmb41945">Stilfser Joch</placeName>
+                           <rs ref="#pmb41945" type="place">Stilfser Joch</rs>
                            <date>15 9 94</date>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb59">Wien 9/3</placeName>
+                           <rs ref="#pmb59" type="place">Wien 9/3</rs>
                            <date>18 9 94</date>
                            <time>8.V</time>
                            <action>Bestellt</action>
@@ -72,8 +76,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -92,18 +96,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb40268">Franzenshöhe</placeName>
-               <date when="1894-09-15" n="01">15. 9. 1894</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb40268">Franzenshöhe</placeName>
+               <date when="1894-09-15" n="01">15.&#160;9.&#160;1894</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-09-09_01">Schnitzler an Beer-Hofmann, 9. 9. 1894</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-09-16_01">Beer-Hofmann an Schnitzler, 16. 9. 1894</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-09-09_01">Schnitzler an Beer-Hofmann, 9.&#160;9.&#160;1894</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-09-16_01">Beer-Hofmann an Schnitzler, 16.&#160;9.&#160;1894</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -119,26 +123,6 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00094.jpg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00093"/>Herrn</addrLine>
-               <addrLine>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
-               <addrLine>Wien</addrLine>
-               <addrLine>
-                  <placeName key="pmb397">IX Frankgasse 1</placeName>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00094"/>Anfang einer Bildergallerie</p>
-            <closer>Herzlichst Ihr<lb/>
-               <signed>R.</signed>
-            </closer>
-         </div>
-
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00093"/>Herrn</addrLine><addrLine>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine>Wien</addrLine><addrLine><rs ref="#pmb397" type="place">IX Frankgasse 1</rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00094"/>Anfang einer Bildergallerie</p><closer>Herzlichst Ihr<lb/><signed>R.</signed></closer></div></body>
    </text>
 </TEI>

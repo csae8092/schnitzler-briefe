@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1906-09-08_01_AS_Hofmannsthal" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1906-09-08_01_AS_Hofmannsthal"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 8. 9. 1906</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 8.&#160;9.&#160;1906</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Hs-30885,XXXX</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1906-09-08" n="01">8. 9. 1906</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1906-09-08" n="01">8.&#160;9.&#160;1906</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1906-09-04_01">Hofmannsthal an Schnitzler, 4. 9. 1906</ptr>
-               <ptr type="next" subtype="toAuthor" target="1906-09-10_01">Hofmannsthal an Schnitzler, 10. 9. 1906</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1906-09-04_01">Hofmannsthal an Schnitzler, 4.&#160;9.&#160;1906</ptr>
+               <ptr type="next" subtype="toAuthor" target="1906-09-10_01">Hofmannsthal an Schnitzler, 10.&#160;9.&#160;1906</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,51 +103,40 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline>
-                  <placeName key="pmb50">Wien</placeName>, <date>8. 9. 906</date>. </dateline>
-               <salute>mein lieber Hugo, </salute>
-            </opener>
-            <p>auch unser Sommer war gut. In <placeName key="pmb959">Marienlyst</placeName> waren
+      <body><div type="writingSession" n="1"><opener><dateline><rs ref="#pmb50" type="place">Wien</rs>, <date>8.&#160;9. 906</date>. </dateline><salute>mein lieber Hugo, </salute></opener><p>auch unser Sommer war gut. In <rs ref="#pmb959" type="place">Marienlyst</rs> waren
                wir volle sechs Wochen. Schöne Seebäder, höchst anmutige Waldspaziergänge, ein
-               angenehmes Hotel. Schrieb ein fünfaktiges <rs type="work">Stück</rs>, das natürlich
+               angenehmes Hotel. Schrieb ein fünfaktiges <rs type="work" subtype="implied">Stück</rs>, das natürlich
                vorläufig nicht zu brauchen ist und von dem ich noch nicht weiß, wann ich es
-               vollende. Auch einen <rs type="work">Einakter</rs> hab ich ausführlich skizziert.
-                  <persName key="pmb2167">Salten</persName> und <rs type="person" key="pmb23918">Frau</rs> waren einen Nachmittag bei uns, mit Verwandten. Schon nach Erledigung
+               vollende. Auch einen <rs type="work" subtype="implied">Einakter</rs> hab ich ausführlich skizziert.
+                  <rs ref="#pmb2167" type="person">Salten</rs> und <rs type="person" ref="#pmb23918" subtype="implied">Frau</rs> waren einen Nachmittag bei uns, mit Verwandten. Schon nach Erledigung
                der Umzugsfrage und daher in guter Stimmung. Ich freu mich sehr, daß er wieder zu uns
-               kommt. Frau <persName key="pmb2537">Fulda</persName> war ein paar Wochen in
-                  <placeName key="pmb959">Marienlyst</placeName> und blieb noch nach unsrer Abreise.
-               Meine <rs type="person" key="pmb2315">Schwägerin</rs> war in <placeName key="pmb1153">Gilleleye</placeName>, nördlich von <placeName key="pmb959">Marienlyst</placeName>, am offnen Meer, kam dann auf ein paar Tage mit <persName key="pmb12837">Steinrück</persName> zu uns, wir fuhren gemeinschaftlich nach
-               Kopenhagen. Sie ist jetzt in <placeName key="pmb15164">Görbersdorf</placeName>, es
-               geht ihr recht gut. Von <placeName key="pmb36300">Kopenhagen</placeName> aus wurde
-                  <persName key="pmb12692">Heini</persName>, dem das Meer sehr imponiert hat und der
+               kommt. Frau <rs ref="#pmb2537" type="person">Fulda</rs> war ein paar Wochen in
+                  <rs ref="#pmb959" type="place">Marienlyst</rs> und blieb noch nach unsrer Abreise.
+               Meine <rs type="person" ref="#pmb2315" subtype="implied">Schwägerin</rs> war in <rs ref="#pmb1153" type="place">Gilleleye</rs>, nördlich von <rs ref="#pmb959" type="place">Marienlyst</rs>, am offnen Meer, kam dann auf ein paar Tage mit <rs ref="#pmb12837" type="person">Steinrück</rs> zu uns, wir fuhren gemeinschaftlich nach
+               Kopenhagen. Sie ist jetzt in <rs ref="#pmb15164" type="place">Görbersdorf</rs>, es
+               geht ihr recht gut. Von <rs ref="#pmb36300" type="place">Kopenhagen</rs> aus wurde
+                  <rs ref="#pmb12692" type="person">Heini</rs>, dem das Meer sehr imponiert hat und der
                jetzt, wo er kann, mit seinen Reiseerlebnissen protzt, mit dem Fräulein nach
-                  <placeName key="pmb50">Wien</placeName> spediert. Wir zwei fuhren nach <placeName key="pmb197">Weimar</placeName>, das uns aufs tiefste ergriff. <persName key="pmb26735">Fred</persName>, äußerst sympathisch, aber recht leidend, war ein
-               paar Tage mit uns zusammen. Von <placeName key="pmb197">Weimar</placeName> nach
-                  <placeName key="pmb2351">Ilmenau</placeName>, auf den <placeName key="pmb40920">Kickelhahn</placeName>; von <placeName key="pmb2351">Ilmenau</placeName>, zu
-               Wagen, durch den reizvollen <placeName key="pmb40921">Thüringerwald</placeName> über
-               die <placeName key="pmb40923">Schmücke</placeName>, nach <placeName key="pmb40933">Oberhof</placeName>, das sich ganz alpenhaft gebärdet, gleich weiter nach
-                  <placeName key="pmb1028">Eisenach</placeName>, nach <placeName key="pmb1145">Nürnberg</placeName>, wo wir das hübsche Marionettentheater von <persName key="pmb10998">Brann</persName> sahen, und von da nach <placeName key="pmb50">Wien</placeName>. Hier sind wir seit beinah drei Wochen. <persName key="pmb2173">Olga</persName> ließ sich von <persName key="pmb12698">Julius</persName> eine
+                  <rs ref="#pmb50" type="place">Wien</rs> spediert. Wir zwei fuhren nach <rs ref="#pmb197" type="place">Weimar</rs>, das uns aufs tiefste ergriff. <rs ref="#pmb26735" type="person">Fred</rs>, äußerst sympathisch, aber recht leidend, war ein
+               paar Tage mit uns zusammen. Von <rs ref="#pmb197" type="place">Weimar</rs> nach
+                  <rs ref="#pmb2351" type="place">Ilmenau</rs>, auf den <rs ref="#pmb40920" type="place">Kickelhahn</rs>; von <rs ref="#pmb2351" type="place">Ilmenau</rs>, zu
+               Wagen, durch den reizvollen <rs ref="#pmb40921" type="place">Thüringerwald</rs> über
+               die <rs ref="#pmb40923" type="place">Schmücke</rs>, nach <rs ref="#pmb40933" type="place">Oberhof</rs>, das sich ganz alpenhaft gebärdet, gleich weiter nach
+                  <rs ref="#pmb1028" type="place">Eisenach</rs>, nach <rs ref="#pmb1145" type="place">Nürnberg</rs>, wo wir das hübsche Marionettentheater von <rs ref="#pmb10998" type="person">Brann</rs> sahen, und von da nach <rs ref="#pmb50" type="place">Wien</rs>. Hier sind wir seit beinah drei Wochen. <rs ref="#pmb2173" type="person">Olga</rs> ließ sich von <rs ref="#pmb12698" type="person">Julius</rs> eine
                Kleinigkeit an den Füßen operieren, so daß sie noch nicht Tennis spielen kann. Ich
-               hingegen sehr fleißig, beinah täglich. Mit <persName key="pmb13055">Wassermann</persName>, <persName key="pmb27942">Agnes Speyer</persName>,
-                  <persName key="pmb2646">Speidel</persName> u <rs type="person" key="pmb2642">Frau</rs>. Arbeit wenig. Beschäftigt mit einem <rs type="work">Stück</rs>, das
-               ich schon vor 3 Jahren begonnen habe (modern). – Morgen fahren wir alle auf den
-                  <placeName key="pmb189">Semmering</placeName>, für etwa acht Tage. Es wäre nicht
+               hingegen sehr fleißig, beinah täglich. Mit <rs ref="#pmb13055" type="person">Wassermann</rs>, <rs ref="#pmb27942" type="person">Agnes Speyer</rs>,
+                  <rs ref="#pmb2646" type="person">Speidel</rs> u <rs type="person" ref="#pmb2642" subtype="implied">Frau</rs>. Arbeit wenig. Beschäftigt mit einem <rs type="work" subtype="implied">Stück</rs>, das
+               ich schon vor 3 Jahren begonnen habe (modern).&#160;– Morgen fahren wir alle auf den
+                  <rs ref="#pmb189" type="place">Semmering</rs>, für etwa acht Tage. Es wäre nicht
                unmöglich, daß ich für meinen Teil von dort aus noch weiterwandere oder radle,
-               vielleicht mit <persName key="pmb13055">Wassermann</persName> ins <placeName key="pmb429">Salzkammergut</placeName>. Lassen Sie mich jedenfalls wissen
-                  (<placeName key="pmb413">Südbahnhotel</placeName>), wie lange Sie noch in
-                  <placeName key="pmb186">Lueg</placeName> bleiben. Hiemit wäre das äußerliche der
+               vielleicht mit <rs ref="#pmb13055" type="person">Wassermann</rs> ins <rs ref="#pmb429" type="place">Salzkammergut</rs>. Lassen Sie mich jedenfalls wissen
+                  (<rs ref="#pmb413" type="place">Südbahnhotel</rs>), wie lange Sie noch in
+                  <rs ref="#pmb186" type="place">Lueg</rs> bleiben. Hiemit wäre das äußerliche der
                letzten Monate und der nächsten Zukunft in Kürze mitgeteilt; es gab im übrigen recht
                viele gute Stunden aber mehr hypochondrische als mit Ruhe zu tragen wären.
                Künstlerische Intensität wurde häufiger auf Spaziergängen durchlebt als am
                Schreibtisch, und die neuesten Gestalten lassen sich wohl bis ins tiefste erkennen
                aber nicht bis ins letzte regieren. Ich freue mich auf unser nächstes Zusammensein
-               und erhoffe es bald. </p>
-            <closer>Herzlichst<lb/>Ihr <signed>A.</signed>
-            </closer>
-         </div>
-      </body>
+               und erhoffe es bald. </p><closer>Herzlichst<lb/>Ihr <signed>A.</signed></closer></div></body>
    </text>
 </TEI>

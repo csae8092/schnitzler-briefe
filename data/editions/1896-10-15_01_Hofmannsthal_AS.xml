@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-10-15_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-10-15_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [15.? 10. 1896]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [15.?&#160;10.&#160;1896]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., schwarze Tinte. Von Schnitzler mit
                                     Bleistift datiert: »<quote>
                                         <date when="1896-10-16">16/X 96</date>
                                     </quote>«. Von unbekannter Hand mit Bleistift nummeriert:
@@ -63,8 +67,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -83,18 +87,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1896-10-15" n="01">[15.? 10. 1896]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1896-10-15" n="01">[15.?&#160;10.&#160;1896]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-10-06_02">Hofmannsthal an Schnitzler, 6. 10. 1896</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-10-31_02">Schnitzler an Hofmannsthal, 31. 10. 1896</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-10-06_02">Hofmannsthal an Schnitzler, 6.&#160;10.&#160;1896</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-10-31_02">Schnitzler an Hofmannsthal, 31.&#160;10.&#160;1896</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -109,30 +113,13 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00227"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00227"/>lieber Arthur</salute>
-                </opener>
-                <p>Sehr gern will ich wenn mir nichts dazwiſchen kommt, <anchor type="commentary" xml:id="KL230-1"/>übermorgen<note type="commentary" xml:id="KL2320-1h">Die
-                        Datierung <persName key="pmb2121">Schnitzler</persName>s könnte sich auf den
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00227"/>lieber Arthur</salute></opener><p>Sehr gern will ich wenn mir nichts dazwiſchen kommt, <anchor type="commentary" xml:id="KL230-1"/>übermorgen<note type="commentary" xml:id="KL2320-1h">Die
+                        Datierung <rs ref="#pmb2121" type="person">Schnitzler</rs>s könnte sich auf den
                         Zeitpunkt des Posteingangs beziehen, da das angesprochene Ereignis am
-                            <date>17. 10. 1896</date> zu verorten sein dürfte: »<quote>Vorm. mit
-                                <persName key="pmb10986">Brahm</persName> und <persName key="pmb11740">Hugo</persName> und <persName key="pmb11701">Hirschfeld</persName> Kfh.―</quote>« (<bibl>
-                            <workName key="pmb33243">Tagebuch</workName>
-                        </bibl>). Am Folgetag macht <persName key="pmb2121">Schnitzler</persName> am
+                            <date>17.&#160;10.&#160;1896</date> zu verorten sein dürfte: »<quote>Vorm. mit
+                                <rs ref="#pmb10986" type="person">Brahm</rs> und <rs ref="#pmb11740" type="person">Hugo</rs> und <rs ref="#pmb11701" type="person">Hirschfeld</rs> Kfh.―</quote>« (<bibl><rs ref="#pmb33243" type="work">Tagebuch</rs></bibl>). Am Folgetag macht <rs ref="#pmb2121" type="person">Schnitzler</rs> am
                         Vormittag einen Ausflug.</note> um <time>11<hi rend="superscript">h</hi>
-                        v. m.</time> im <placeName key="pmb262">Central</placeName> sein.
-                    Herzlich</p>
-                <closer>
-                    <signed>Hugo.</signed>
-                </closer>
-                <postscript>
-                    <dateline>
-                        <date>Donnerstag</date>.</dateline>
-                </postscript>
-            </div>
-        </body>
+                        v.&#160;m.</time> im <rs ref="#pmb262" type="place">Central</rs> sein.
+                    Herzlich</p><closer><signed>Hugo.</signed></closer><postscript><dateline><date>Donnerstag</date>.</dateline></postscript></div></body>
     </text>
 </TEI>

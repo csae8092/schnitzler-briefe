@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-08-21_01_Hofmannsthal-Benedict_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-08-21_01_Hofmannsthal-Benedict_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Hugo von Hofmannsthal und Hermine Benedict an Arthur Schnitzler,
-                    21. [8. 1896]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
-                <author key="pmb24033">Benedict, Hermine</author>
+                    21.&#160;[8.&#160;1896]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
+                <author ref="#pmb24033">Benedict, Hermine</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -50,10 +54,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 2 Verf., 1 Bl., 4 S., schwarze Tinte. Von Schnitzler mit Bleistift
+                                <p>eh. Brief, 2 Verf., 1&#160;Bl., 4&#160;S., schwarze Tinte. Von Schnitzler mit Bleistift
                                     Monat und Jahr ergänzt: »<quote>
                                         <date>Aug. 96</date>
                                     </quote>«. Von unbekannter Hand mit Bleistift nummeriert:
@@ -65,8 +69,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -85,15 +89,15 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <persName key="pmb24033">Benedict, Hermine</persName>
-                    <placeName key="pmb34401">Altaussee</placeName>
-                    <date when="1896-08-21" n="01">21. [8. 1896]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <persName ref="#pmb24033">Benedict, Hermine</persName>
+                    <placeName ref="#pmb34401">Altaussee</placeName>
+                    <date when="1896-08-21" n="01">21.&#160;[8.&#160;1896]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb168">Berlin</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
                 </correspAction>
             
          </correspDesc>
@@ -110,126 +114,51 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00176"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00175"/>
-                        <placeName key="pmb34401">Alt.auſſee</placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>21<hi rend="superscript">ten</hi>
-                        </date>
-                    </dateline>
-                    <salute>lieber Arthur!</salute>
-                </opener>
-                <p>
-                    <handShift scribe="pmb24033"/>Ihre erſtaunten Augen<lb/> beim Eröffnen dieſes
-                        <anchor type="commentary" xml:id="KL2294-1"/>Briefes<note type="commentary" xml:id="KL2294-1h">Im <rs type="work" key="pmb33243">Tagebuch</rs> schreibt
-                            <persName key="pmb2121">Schnitzler</persName> am
-                            <date>26. 8. 1896</date>: »<quote>Nachzutragen ein gemeinsch. hübscher
-                            Brief von <persName key="pmb24033">Minnie</persName> und <persName key="pmb11740">Hugo</persName>. – Stelle bezeichnend ›von etwas
-                            Halbwahrem, das beunruhigend herumwimmelt zwischen uns‹. – Ja das geht
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00175"/><rs ref="#pmb34401" type="place">Alt.auſſee</rs><space unit="chars" quantity="1"/><date>21<hi rend="superscript">ten</hi></date></dateline><salute>lieber Arthur!</salute></opener><p><handShift scribe="pmb24033"/>Ihre erſtaunten Augen<lb/> beim Eröffnen dieſes
+                        <anchor type="commentary" xml:id="KL2294-1"/>Briefes<note type="commentary" xml:id="KL2294-1h">Im <rs type="work" ref="#pmb33243" subtype="implied">Tagebuch</rs> schreibt
+                            <rs ref="#pmb2121" type="person">Schnitzler</rs> am
+                            <date>26.&#160;8.&#160;1896</date>: »<quote>Nachzutragen ein gemeinsch. hübscher
+                            Brief von <rs ref="#pmb24033" type="person">Minnie</rs> und <rs ref="#pmb11740" type="person">Hugo</rs>.&#160;– Stelle bezeichnend ›von etwas
+                            Halbwahrem, das beunruhigend herumwimmelt zwischen uns‹.&#160;– Ja das geht
                             so weit, dass ich Briefe von ihm nicht mit reinem Vergnügen empfange;
                             sondern ein ganz leichtes Gefühl des Mißbehagens sich beimengt. Während
                             ich persönlich meist ziemlich rasch in gute und fast herzliche Gespräche
                             mit ihm komme, denk ich an ihn nicht ohne ein nervöses Auflehnen gegen
                             ganz äußerliche Sachen und mit der steten Empfindung, Unsicherheit
                             gegenüber ihm und nahezu Unmöglichkeit, reines Verhältnis zwischen uns
-                            herzustellen, wie ichs gern möchte.</quote>«.</note>
-                    <lb/>
-                    <handShift scribe="pmb11740"/>zu ſehen intereſſiert mich weniger<lb/> als zu
-                    erfahren, wie Ihr <rs type="person" key="pmb10863 pmb10860 pmb11485">vier</rs>
-                    Menſchen <lb/>
-                    <handShift scribe="pmb24033"/>beſonders <persName key="pmb10863">Richard</persName> und<lb/>
-                    <persName key="pmb10860">Paula</persName>, von der man nicht recht weiß, <lb/>
-                    <handShift scribe="pmb11740"/>ob ſie außer der Seekrankheit noch<lb/> etwas
-                    merkwürdiges in <placeName key="pmb434">
-                        <country>Dänemark</country>
-                    </placeName> erlebt hat <lb/>
-                    <handShift scribe="pmb24033"/> (und ob das Mädchen mit dem Loch<lb/> im Strumpf
-                    ſchon »die Epiſode« gena<c rendition="#gemination-n"/>t werden darf <lb/>
-                    <handShift scribe="pmb11740"/>weiß man ja auch nicht) Euch befindet.</p>
-                <p>Von <persName key="pmb11485">Paul</persName> hab ich immer die Empfindung, er <lb/>
-                    <handShift scribe="pmb24033"/>erinnert ſich auch ſo gut an die
-                    Heroinen-<lb/>zeit beim »<placeName key="pmb414">
-                        <hi rend="latintype">Leopold</hi>
-                    </placeName>« in <placeName key="pmb213">
-                        <hi rend="latintype">Ischl</hi>
-                    </placeName> vor 2 Jahren </p>
-                <p>
-                    <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00176"/>
-                    <handShift scribe="pmb11740"/>wie wir alle, aber gar nicht mehr<lb/> ordentlich
-                    an mich und ich hab ihn wirklich <lb/>
-                    <handShift scribe="pmb24033"/>nur einmal geſehen und ka<c rendition="#gemination-n"/> da-<lb/>her unmöglich ſo warm empfinden wie
-                    jener Dichter.</p>
-                <p>
-                    <handShift scribe="pmb11740"/>Ich verlange mir ſehr zu wiſſen, ob das<lb/> was
-                    wir einmal in der Nacht nach der <hi rend="latintype">Soirée</hi>
-                    <lb/>
-                    <handShift scribe="pmb24033"/>beſprochen, auf Wahrheit beruht –<lb/> mir will
-                    ſcheinen – nein – 3mal Nein!! <lb/>
-                    <handShift scribe="pmb11740"/>ich hoffe ja!: daſs Sie einmal<lb/> für ein paar
-                    Wochen von allen inneren Gewöhnungen losgeko<c rendition="#gemination-m"/>en, <lb/>
-                    <handShift scribe="pmb24033"/>iſt für Sie wahrſcheinlich ſehr gut,<lb/> aber
-                        <add place="above">für</add> das, was Sie früher beſchäftigt, recht traurig. <lb/>
-                    <handShift scribe="pmb11740"/>Umſo beſſer! – Daſs Sie in dem zweiten <rs type="work" key="pmb29899">Act</rs> dem <rs type="work" key="pmb29899">Mädel</rs> mehr Leben gegeben haben, wird ſicher <lb/>
-                    <handShift scribe="pmb24033"/>eine große Wirkung haben, denn wir<lb/> haben ja
-                    ſchon oft beſprochen, daß die <rs type="work" key="pmb29917">Christine</rs>
-                    davon nicht genug habe <lb/>
-                    <handShift scribe="pmb11740"/>und das <rs type="work" key="pmb29899">Stück</rs>
-                    braucht Rührung, ſonſt<lb/> wird es trocken und revoltierend. Meine <lb/>
-                    <handShift scribe="pmb24033"/>Neugierde, es zu leſen, kennt keine Grenzen,<lb/>
-                    denn wenn man Leute nicht oft ſieht, muſs man in ihren Zeilen leſen </p>
-                <p>
-                    <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00176"/>
-                    <handShift scribe="pmb11740"/>und das iſt ſchwer, denn leider drücken immer<lb/>
-                    nur einzelne kleine Sachen das Wirkliche aus, <lb/>
-                    <handShift scribe="pmb24033"/>während große Thaten und große Züge, die
+                            herzustellen, wie ichs gern möchte.</quote>«.</note><lb/><handShift scribe="pmb11740"/>zu ſehen intereſſiert mich weniger<lb/> als zu
+                    erfahren, wie Ihr <rs type="person" ref="#pmb10863 pmb10860 pmb11485" subtype="implied">vier</rs>
+                    Menſchen <lb/><handShift scribe="pmb24033"/>beſonders <rs ref="#pmb10863" type="person">Richard</rs> und<lb/><rs ref="#pmb10860" type="person">Paula</rs>, von der man nicht recht weiß, <lb/><handShift scribe="pmb11740"/>ob ſie außer der Seekrankheit noch<lb/> etwas
+                    merkwürdiges in <rs ref="#pmb434" type="place"><country>Dänemark</country></rs> erlebt hat <lb/><handShift scribe="pmb24033"/> (und ob das Mädchen mit dem Loch<lb/> im Strumpf
+                    ſchon »die Epiſode« gena<c rendition="#gemination-n"/>t werden darf <lb/><handShift scribe="pmb11740"/>weiß man ja auch nicht) Euch befindet.</p><p>Von <rs ref="#pmb11485" type="person">Paul</rs> hab ich immer die Empfindung, er <lb/><handShift scribe="pmb24033"/>erinnert ſich auch ſo gut an die
+                    Heroinen-<lb/>zeit beim »<rs ref="#pmb414" type="place"><hi rend="latintype">Leopold</hi></rs>« in <rs ref="#pmb213" type="place"><hi rend="latintype">Ischl</hi></rs> vor 2 Jahren </p><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00176"/><handShift scribe="pmb11740"/>wie wir alle, aber gar nicht mehr<lb/> ordentlich
+                    an mich und ich hab ihn wirklich <lb/><handShift scribe="pmb24033"/>nur einmal geſehen und ka<c rendition="#gemination-n"/> da-<lb/>her unmöglich ſo warm empfinden wie
+                    jener Dichter.</p><p><handShift scribe="pmb11740"/>Ich verlange mir ſehr zu wiſſen, ob das<lb/> was
+                    wir einmal in der Nacht nach der <hi rend="latintype">Soirée</hi><lb/><handShift scribe="pmb24033"/>beſprochen, auf Wahrheit beruht –<lb/> mir will
+                    ſcheinen – nein – 3mal Nein!! <lb/><handShift scribe="pmb11740"/>ich hoffe ja!: daſs Sie einmal<lb/> für ein paar
+                    Wochen von allen inneren Gewöhnungen losgeko<c rendition="#gemination-m"/>en, <lb/><handShift scribe="pmb24033"/>iſt für Sie wahrſcheinlich ſehr gut,<lb/> aber
+                        <add place="above">für</add> das, was Sie früher beſchäftigt, recht traurig. <lb/><handShift scribe="pmb11740"/>Umſo beſſer!&#160;– Daſs Sie in dem zweiten <rs type="work" ref="#pmb29899" subtype="implied">Act</rs> dem <rs type="work" ref="#pmb29899" subtype="implied">Mädel</rs> mehr Leben gegeben haben, wird ſicher <lb/><handShift scribe="pmb24033"/>eine große Wirkung haben, denn wir<lb/> haben ja
+                    ſchon oft beſprochen, daß die <rs type="work" ref="#pmb29917" subtype="implied">Christine</rs>
+                    davon nicht genug habe <lb/><handShift scribe="pmb11740"/>und das <rs type="work" ref="#pmb29899" subtype="implied">Stück</rs>
+                    braucht Rührung, ſonſt<lb/> wird es trocken und revoltierend. Meine <lb/><handShift scribe="pmb24033"/>Neugierde, es zu leſen, kennt keine Grenzen,<lb/>
+                    denn wenn man Leute nicht oft ſieht, muſs man in ihren Zeilen leſen </p><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00176"/><handShift scribe="pmb11740"/>und das iſt ſchwer, denn leider drücken immer<lb/>
+                    nur einzelne kleine Sachen das Wirkliche aus, <lb/><handShift scribe="pmb24033"/>während große Thaten und große Züge, die
                     darauf<lb/> angelegt ſind, charakteriſtiſch zu wirken, eine ganze Welt von
-                    Mißverſtändniſſen hervorrufen.</p>
-                <p>
-                    <handShift scribe="pmb11740"/>Werden wir heuer endlich theaterſpielen?<lb/> Sind
-                    wir zu jung oder zu alt dazu? Oder zu ernſt, oder <lb/>
-                    <handShift scribe="pmb24033"/>»zu alt, um nur zu ſpielen«? Jedenfalls
-                    müſste<lb/> die weibliche Hauptrolle diesmal nicht von Ihnen geſchrieben ſein, <lb/>
-                    <handShift scribe="pmb11740"/>(warum?). Meine <workName key="pmb34220">Novelle</workName> werden Sie<lb/> nie ſehen. Nie heißt nie. Weil ſie ſo
-                    ſchlecht iſt. <lb/>
-                    <handShift scribe="pmb24033"/>Er zeigt nicht einmal die guten Sachen<lb/> herzu.
-                    Doch <hi rend="underline" n="1">müſste</hi> man ihn manchmal leſen, we<c rendition="#gemination-n"/> die Perſon undeutlich wird. <lb/>
-                    <handShift scribe="pmb11740"/>Freilich haben meine Sachen wieder das
-                    Häßliche,<lb/> daſs alles allzudeutlich geſagt iſt. Ob der <persName key="pmb10863">Richard</persName>
-                    <lb/>
-                    <handShift scribe="pmb24033"/>wieder etwas ſchreibt, iſt, wie ich reumüthig<lb/>
-                    bekenne, für uns <placeName key="pmb34401">
-                        <hi rend="latintype">Altausseer</hi>
-                    </placeName> ganz intereſſant, <lb/>
-                    <handShift scribe="pmb11740"/>ich verſuche mir manchmal vor<add place="above">zu</add>ſtellen<lb/> wie es wäre, wenn Sie hier wären <lb/>
-                    <handShift scribe="pmb24033"/>und ob wir alle Drei dabei nicht <hi n="1" rend="underline">viel</hi> netter herauskämen,<lb/> was ich ganz beſtimmt
-                    glaube; ſeien Sie </p>
-                <p>
-                    <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00175"/>
-                    <handShift scribe="pmb11740"/>nicht bös, aber ich bin ſicher wir würden uns<lb/>
-                    ſchrecklich nervös machen und beinahe ſtreiten, denn <lb/>
-                    <handShift scribe="pmb24033"/>zwei noch ſo gute, gleichgeartete, männliche<lb/>
-                    Naturen haben nicht die Größe nett neben einander einherzugehen <lb/>
-                    <handShift scribe="pmb11740"/>wenn zwiſchen ihnen etwas Halbwahres<lb/>
-                    beunruhigend herumwimmelt. Deswegen <lb/>
-                    <handShift scribe="pmb24033"/>werden Sie doch herkommen, ſchon allein um <del rend="overwritten">J</del>dieſe jugendliche Behauptung von »<hi rend="underline" n="2">Halb</hi>
-                    <hi n="1" rend="underline">wahr</hi>« zu widerlegen, <lb/>
-                    <handShift scribe="pmb11740"/>wozu Sie ja durch Ihre oft beſprochene
-                    Überſchätzung<lb/> der weiblichen »Individualitäten« ſo geeignet ſind. <lb/>
-                    <handShift scribe="pmb24033"/>Glücklich der, welcher imſtande iſt,
-                    Geſtalten<lb/> zu ſchaffen, an die er glaubt, drum laſſen Sie ſich nicht hetzen, <lb/>
-                    <handShift scribe="pmb11740"/>ſondern glauben Sie ruhig weiter, auf das<lb/>
-                    Wirkliche kommt’s nicht an, denn vielleicht exiſtiert es gar nicht. <lb/>
-                    <handShift scribe="pmb24033"/>Ich glaube, wir brauchen Sie darüber<lb/> nicht
-                    aufzuklären, Sie haben ein ſo ſtarkes Wahrheitsgefühl, <lb/>
-                    <handShift scribe="pmb11740"/>daſs Sie auch den dreifachen Sinn dieſes Briefes
-                    erkannt haben werden, worüber Sie nächſtens in <placeName key="pmb50">Wien</placeName> mir (nur hier) Auskunft geben können.</p>
-                <closer>Herzlich Ihr<lb/>
-                    <signed>Hugo.</signed>
-                </closer>
-            </div>
-        </body>
+                    Mißverſtändniſſen hervorrufen.</p><p><handShift scribe="pmb11740"/>Werden wir heuer endlich theaterſpielen?<lb/> Sind
+                    wir zu jung oder zu alt dazu? Oder zu ernſt, oder <lb/><handShift scribe="pmb24033"/>»zu alt, um nur zu ſpielen«? Jedenfalls
+                    müſste<lb/> die weibliche Hauptrolle diesmal nicht von Ihnen geſchrieben ſein, <lb/><handShift scribe="pmb11740"/>(warum?). Meine <rs ref="#pmb34220" type="work">Novelle</rs> werden Sie<lb/> nie ſehen. Nie heißt nie. Weil ſie ſo
+                    ſchlecht iſt. <lb/><handShift scribe="pmb24033"/>Er zeigt nicht einmal die guten Sachen<lb/> herzu.
+                    Doch <hi rend="underline" n="1">müſste</hi> man ihn manchmal leſen, we<c rendition="#gemination-n"/> die Perſon undeutlich wird. <lb/><handShift scribe="pmb11740"/>Freilich haben meine Sachen wieder das
+                    Häßliche,<lb/> daſs alles allzudeutlich geſagt iſt. Ob der <rs ref="#pmb10863" type="person">Richard</rs><lb/><handShift scribe="pmb24033"/>wieder etwas ſchreibt, iſt, wie ich reumüthig<lb/>
+                    bekenne, für uns <rs ref="#pmb34401" type="place"><hi rend="latintype">Altausseer</hi></rs> ganz intereſſant, <lb/><handShift scribe="pmb11740"/>ich verſuche mir manchmal vor<add place="above">zu</add>ſtellen<lb/> wie es wäre, wenn Sie hier wären <lb/><handShift scribe="pmb24033"/>und ob wir alle Drei dabei nicht <hi n="1" rend="underline">viel</hi> netter herauskämen,<lb/> was ich ganz beſtimmt
+                    glaube; ſeien Sie </p><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00175"/><handShift scribe="pmb11740"/>nicht bös, aber ich bin ſicher wir würden uns<lb/>
+                    ſchrecklich nervös machen und beinahe ſtreiten, denn <lb/><handShift scribe="pmb24033"/>zwei noch ſo gute, gleichgeartete, männliche<lb/>
+                    Naturen haben nicht die Größe nett neben einander einherzugehen <lb/><handShift scribe="pmb11740"/>wenn zwiſchen ihnen etwas Halbwahres<lb/>
+                    beunruhigend herumwimmelt. Deswegen <lb/><handShift scribe="pmb24033"/>werden Sie doch herkommen, ſchon allein um <del rend="overwritten">J</del>dieſe jugendliche Behauptung von »<hi rend="underline" n="2">Halb</hi><hi n="1" rend="underline">wahr</hi>« zu widerlegen, <lb/><handShift scribe="pmb11740"/>wozu Sie ja durch Ihre oft beſprochene
+                    Überſchätzung<lb/> der weiblichen »Individualitäten« ſo geeignet ſind. <lb/><handShift scribe="pmb24033"/>Glücklich der, welcher imſtande iſt,
+                    Geſtalten<lb/> zu ſchaffen, an die er glaubt, drum laſſen Sie ſich nicht hetzen, <lb/><handShift scribe="pmb11740"/>ſondern glauben Sie ruhig weiter, auf das<lb/>
+                    Wirkliche kommt’s nicht an, denn vielleicht exiſtiert es gar nicht. <lb/><handShift scribe="pmb24033"/>Ich glaube, wir brauchen Sie darüber<lb/> nicht
+                    aufzuklären, Sie haben ein ſo ſtarkes Wahrheitsgefühl, <lb/><handShift scribe="pmb11740"/>daſs Sie auch den dreifachen Sinn dieſes Briefes
+                    erkannt haben werden, worüber Sie nächſtens in <rs ref="#pmb50" type="place">Wien</rs> mir (nur hier) Auskunft geben können.</p><closer>Herzlich Ihr<lb/><signed>Hugo.</signed></closer></div></body>
     </text>
 </TEI>

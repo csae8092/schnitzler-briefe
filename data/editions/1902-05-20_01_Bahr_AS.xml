@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1902-05-20_01_Bahr_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1902-05-20_01_Bahr_AS">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 20. 5. 1902</title>
-            <author key="pmb10815">Bahr, Hermann</author>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 20.&#160;5.&#160;1902</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,12 +53,12 @@
                         <country>GB</country>            
                         <settlement>Cambridge</settlement>            
                         <repository>University Library</repository>            
-                        <idno>Schnitzler, B 5b</idno>
+                        <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Karte, auf der Vorderseite mit Trauerrand bedruckt: »<quote>Für die vielen Beweise herzlicher Teilnahme bei dem Hinscheiden und der Beerdigung unserer lieben,
-                           unvergesslichen Mutter, Schwiegermutter, Schwägerin u. Tante / Frau <persName key="pmb27667">Mina Bahr geb. von Weidlich</persName> / sprechen ihren innigsten 
-           Dank aus / <placeName key="pmb30">Salzburg</placeName>, <date when="1902-05-19">19. Mai 1902</date> / Die tieftrauernd Hinterbliebenen.</quote>«</p>
+                           unvergesslichen Mutter, Schwiegermutter, Schwägerin u. Tante / Frau <rs ref="#pmb27667" type="person">Mina Bahr geb. von Weidlich</rs> / sprechen ihren innigsten 
+           Dank aus / <rs ref="#pmb30" type="place">Salzburg</rs>, <date when="1902-05-19">19. Mai 1902</date> / Die tieftrauernd Hinterbliebenen.</quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -62,8 +66,8 @@
             <listBibl>                
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb30">Salzburg</placeName>
-               <date when="1902-05-20" n="01">20. 5. 1902</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb30">Salzburg</placeName>
+               <date when="1902-05-20" n="01">20.&#160;5.&#160;1902</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1902-05-16_01">Schnitzler an Bahr, 16. 5. 1902</ptr>
-               <ptr type="next" subtype="toAuthor" target="1902-07-03_01">Hofmannsthal, Schnitzler an Bahr, 3. 7. 1902</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1902-05-16_01">Schnitzler an Bahr, 16.&#160;5.&#160;1902</ptr>
+               <ptr type="next" subtype="toAuthor" target="1902-07-03_01">Hofmannsthal, Schnitzler an Bahr, 3.&#160;7.&#160;1902</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -108,24 +112,7 @@
       <graphic url="MS-B-00005-B-000-00152"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="writingSession" n="1">
-            <p>Wie eine fixe Idee verfolgt mich diese ganzen Tage der Satz: <anchor type="commentary" xml:id="KL249-1"/>
-                  <rs type="work" key="pmb29863">es gibt also Fälle, wo <placeName key="pmb30">Salzburg</placeName> nicht wirkt</rs>
-               <note type="commentary" xml:id="KL249-1h">
-                  <ptr target="KT020-1"/> und
-                <ptr target="KD070-1"/>.</note>.</p>
-            <closer>Es dankt Dir sehr<lb/>Dein<lb/>
-               <signed>Hermann</signed>
-            </closer>
-            <postscript>
-               <p>
-                  <placeName key="pmb30">Salzburg</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date>20. 5.</date>
-               </p>
-            </postscript>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><p>Wie eine fixe Idee verfolgt mich diese ganzen Tage der Satz: <anchor type="commentary" xml:id="KL249-1"/><rs type="work" ref="#pmb29863" subtype="implied">es gibt also Fälle, wo <rs ref="#pmb30" type="place">Salzburg</rs> nicht wirkt</rs><note type="commentary" xml:id="KL249-1h"><ptr target="KT020-1"/> und
+                <ptr target="KD070-1"/>.</note>.</p><closer>Es dankt Dir sehr<lb/>Dein<lb/><signed>Hermann</signed></closer><postscript><p><rs ref="#pmb30" type="place">Salzburg</rs><space unit="chars" quantity="1"/><date>20.&#160;5.</date></p></postscript></div></body>
   </text>
 </TEI>

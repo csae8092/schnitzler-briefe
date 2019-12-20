@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-12-31_01_Kraus_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-12-31_01_Kraus_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Karl Kraus an Arthur Schnitzler, 31. 12. 1892</title>
-                <author key="pmb11988">Kraus, Karl</author>
+                <title level="a">Karl Kraus an Arthur Schnitzler, 31.&#160;12.&#160;1892</title>
+                <author ref="#pmb11988">Kraus, Karl</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,14 +52,14 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 55</idno>
+                                <idno>Schnitzler, B&#160;55</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Postkarte., schwarze Tinte.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb51">Wien 1/1</placeName>
-                                    <date when="1892-12-31">31. 12. 92</date>
-                                    <time>7–8 N</time>
+                                    <rs ref="#pmb51" type="place">Wien 1/1</rs>
+                                    <date when="1892-12-31">31.&#160;12.&#160;92</date>
+                                    <time>7–8&#160;N</time>
                                 </stamp>
                             </physDesc>
                         </msDesc>
@@ -85,18 +89,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11988">Kraus, Karl</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1892-12-31" n="01">31. 12. 1892</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11988">Kraus, Karl</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1892-12-31" n="01">31.&#160;12.&#160;1892</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1892-11-22_01">Kraus an Schnitzler, 22. 11. 1892</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-01-11_01">Kraus an Schnitzler, 11. 1. 1893</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1892-11-22_01">Kraus an Schnitzler, 22.&#160;11.&#160;1892</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-01-11_01">Kraus an Schnitzler, 11.&#160;1.&#160;1893</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -112,48 +116,17 @@
         <graphic url="MS-SCHNITZLER-B-00055-000-00032"/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <pb facs="MS-SCHNITZLER-B-00055-000-00031"/>Herrn
-                        Schriftsteller</addrLine>
-                    <addrLine>D<hi rend="superscript">r.</hi> Arthur Schnitzler,</addrLine>
-                    <addrLine>
-                  <placeName key="pmb51">Wien I</placeName>
-               </addrLine>
-                    <addrLine>
-                  <placeName key="pmb412">Grillparzerstr. 7</placeName>.</addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                  <pb facs="MS-SCHNITZLER-B-00055-000-00032"/>Mein lieber Herr
-                        Doctor!</salute>
-                </opener>
-                <p>Die <anchor type="commentary" xml:id="KL2034-1"/>
-               <rs type="work" key="pmb33552">Kritik</rs>
-               <note type="commentary" xml:id="KL2034-1h">
-                  <bibl>
-                     <persName key="pmb11988">Karl Kraus</persName>: <workName key="pmb33552">Arthur
-                                    Schnitzler, Anatol</workName>. In: <workName key="pmb35919">Die
-                                Gesellschaft</workName>, Jg. 9, Nr. 1,
-                                <date>1. 1. 1893</date>, S. 109–110</bibl>.</note>
-                    über »<workName key="pmb29935">Anatol</workName>« (2 Spalten) iſt im Jännerheft
-                    der »<orgName key="pmb29440">Geſellſch.</orgName>« erſchienen. Beleg wird die
-                    Schriftleitung an den <rs type="organisation" key="pmb29716">Verlag</rs> nach
-                        <placeName key="pmb168">Berlin</placeName> ſchicken. Warum kommen Sie nicht
-                    mehr ins <placeName key="pmb34">Grienſteidl</placeName>? Wie geht’s?</p>
-                <closer>Herzlichſte Grüße!<lb/>Prost Neujahr!<lb/>Ihr sehr ergeb.<lb/>
-               <signed>Karl
-                        Kraus,</signed>
-                </closer>
-                <postscript>
-                    <p>
-                  <placeName key="pmb1178">I Maximilianstr. 13</placeName>.</p>
-                </postscript>
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00055-000-00031"/>Herrn
+                        Schriftsteller</addrLine><addrLine>D<hi rend="superscript">r.</hi> Arthur Schnitzler,</addrLine><addrLine><rs ref="#pmb51" type="place">Wien I</rs></addrLine><addrLine><rs ref="#pmb412" type="place">Grillparzerstr. 7</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00055-000-00032"/>Mein lieber Herr
+                        Doctor!</salute></opener><p>Die <anchor type="commentary" xml:id="KL2034-1"/><rs type="work" ref="#pmb33552" subtype="implied">Kritik</rs><note type="commentary" xml:id="KL2034-1h"><bibl><rs ref="#pmb11988" type="person">Karl Kraus</rs>: <rs ref="#pmb33552" type="work">Arthur
+                                    Schnitzler, Anatol</rs>. In: <rs ref="#pmb35919" type="work">Die
+                                Gesellschaft</rs>, Jg.&#160;9, Nr.&#160;1,
+                                <date>1.&#160;1.&#160;1893</date>, S.&#160;109–110</bibl>.</note>
+                    über »<rs ref="#pmb29935" type="work">Anatol</rs>« (2 Spalten) iſt im Jännerheft
+                    der »<rs ref="#pmb29440" type="organisation">Geſellſch.</rs>« erſchienen. Beleg wird die
+                    Schriftleitung an den <rs type="organisation" ref="#pmb29716" subtype="implied">Verlag</rs> nach
+                        <rs ref="#pmb168" type="place">Berlin</rs> ſchicken. Warum kommen Sie nicht
+                    mehr ins <rs ref="#pmb34" type="place">Grienſteidl</rs>? Wie geht’s?</p><closer>Herzlichſte Grüße!<lb/>Prost Neujahr!<lb/>Ihr sehr ergeb.<lb/><signed>Karl
+                        Kraus,</signed></closer><postscript><p><rs ref="#pmb1178" type="place">I Maximilianstr. 13</rs>.</p></postscript></div></body>
     </text>
 </TEI>

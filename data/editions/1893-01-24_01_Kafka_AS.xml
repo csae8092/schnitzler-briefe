@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-01-24_01_Kafka_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-01-24_01_Kafka_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Eduard Michael Kafka an Arthur Schnitzler, 24. 1. 1893</title>
-                <author key="pmb2563">Kafka, Eduard Michael</author>
+                <title level="a">Eduard Michael Kafka an Arthur Schnitzler, 24.&#160;1.&#160;1893</title>
+                <author ref="#pmb2563">Kafka, Eduard Michael</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>A:Schnitzler, HS.NZ85.1.3604</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S., schwarze Tinte. Eine
+                                <p>eh. Brief, 1 Bl., 4&#160;S., schwarze Tinte. Eine
                                     Unterstreichung mit rotem Buntstift.</p>
                             </physDesc>
                         </msDesc>
@@ -64,18 +68,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2563">Kafka, Eduard Michael</persName>
-                    <placeName key="pmb652">Prag</placeName>
-                    <date when="1893-01-24" n="01">24. 1. 1893</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2563">Kafka, Eduard Michael</persName>
+                    <placeName ref="#pmb652">Prag</placeName>
+                    <date when="1893-01-24" n="01">24.&#160;1.&#160;1893</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-01-12_01">Kafka an Schnitzler, 12. 1. 1893</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-02-12_01">Kafka an Schnitzler, 12. 2. 1893</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-01-12_01">Kafka an Schnitzler, 12.&#160;1.&#160;1893</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-02-12_01">Kafka an Schnitzler, 12.&#160;2.&#160;1893</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -89,62 +93,21 @@
         <graphic url="OGL Kafka, Eduard M. an AS.pdf"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="OGL Kafka, Eduard M. an AS.pdf"/>
-                  <placeName key="pmb652">Prag</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date>24/I 93</date>
-               </dateline>
-                    <salute>Lieber Schnitzler,</salute>
-                </opener>
-                <p>ich bin in <placeName key="pmb652">Prag</placeName>; wenn Sie mir was mitzuteilen
-                    haben: meine Adreſſe ist <placeName key="pmb42598">
-                  <hi rend="latintype">Grand
-                            Hotel</hi>
-               </placeName>. Ich bleibe noch mehrere Tage. –</p>
-                <p>
-               <persName key="pmb12491">Reicher</persName> bat mich, Ihnen zu ſchreiben, daß er
-                    von <persName key="pmb14328">Blumenthal</persName> die beſtimmte Zuſicherung
-                    erhalten, daß Ihr <rs type="work" key="pmb29823">Stück</rs> bis längſtens <pb facs="OGL Kafka, Eduard M. an AS.pdf"/>im <date>April</date> in <placeName key="pmb168">Berlin</placeName> zur Aufführung ko<c rendition="#gemination-m"/>t.</p>
-                <p>Ferner kann ich Ihnen mittheilen, daſs Ihre »<workName key="pmb30749">Frage an
-                        das Schickſal</workName>« nächsten Tage <add place="above">(2 Februar)</add>
-                    in <placeName key="pmb506">Hamburg</placeName> (in der <orgName key="pmb42601">Freien <hi rend="latintype">literarischen</hi> Geſellschaft</orgName>) u.
-                    Mitte <add place="inline">(<date>16.</date>)</add>
-               <space unit="chars" quantity="1"/>
-               <date>Februar</date> in <placeName key="pmb42605">Königsberg</placeName> zum Vortrag gelangt: beidemale durch <persName key="pmb12491">Reicher</persName>.</p>
-                <p>
-               <date>Sonntag</date> habe ich die »<anchor type="commentary" xml:id="KLM20191028-2"/>
-               <workName key="pmb42614">Gläubiger</workName>-<hi rend="latintype">Pre<pb facs="OGL Kafka, Eduard M. an AS.pdf"/>mière</hi>
-               <note type="commentary" xml:id="KLM20191028-2h">Zusammen mit
-                        zwei anderen <rs type="work" key="pmb42616 pmb42618">Einaktern</rs> von
-                            <persName key="pmb12877">Strindberg</persName> am
-                            <date>22. 1. 1893</date> im <placeName key="pmb42626">Residenztheater</placeName> in <placeName key="pmb168">Berlin</placeName>.</note> mitgemacht: ein gewaltiger Eindruck.</p>
-                <p>Auch die <anchor type="commentary" xml:id="KLM20191028-1"/>
-               <workName key="pmb31157">Baumeister <hi rend="latintype">Solneß</hi>
-               </workName>-<hi rend="latintype">Première</hi>
-               <note type="commentary" xml:id="KLM20191028-1h">Am <date>19. 1. 1893</date> am
-                            <placeName key="pmb3">Deutschen Theater</placeName> in <placeName key="pmb168"/>.</note> war ein bedeutſames Erlebnis.</p>
-                <p>Was ich in <placeName key="pmb168">Berlin</placeName>
-               <space unit="chars" quantity="1"/>
-               <add place="above">machte oder</add> mache? Ein gütiges
-                    Schickſal, in Geſtalt eines <hi rend="underline" n="1">lieben <rs type="person" key="pmb42629">Mannes</rs>
-               </hi>, hat mich dahin <del rend="strikethrough">ge</del> entführt. Nächſtens <pb facs="OGL Kafka, Eduard M. an AS.pdf"/>übrigens können Sie auch aus einer <hi rend="underline" n="1">anderen
-                        Welt</hi> auf ein Lebenszeichen von mir rechnen. Vorher <subst>
-                        <del rend="strikethrough">aber</del>
-                        <add place="above">allerdings</add>
-                    </subst> will ich Sie <add place="above">aber</add> noch vom <placeName key="pmb41072">
-                  <hi rend="latintype">Nordcap</hi>
-               </placeName> grüßen.
-                    Nächſtens!</p>
-                <closer>
-               <hi rend="latintype">Servus</hi>! Mit herzlichen Grüßen<lb/>Ihr Sie
-                        hochſchätzender<lb/>
-               <signed>Kafka</signed>
-            </closer>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="OGL Kafka, Eduard M. an AS.pdf"/><rs ref="#pmb652" type="place">Prag</rs><space unit="chars" quantity="1"/><date>24/I 93</date></dateline><salute>Lieber Schnitzler,</salute></opener><p>ich bin in <rs ref="#pmb652" type="place">Prag</rs>; wenn Sie mir was mitzuteilen
+                    haben: meine Adreſſe ist <rs ref="#pmb42598" type="place"><hi rend="latintype">Grand
+                            Hotel</hi></rs>. Ich bleibe noch mehrere Tage.&#160;–</p><p><rs ref="#pmb12491" type="person">Reicher</rs> bat mich, Ihnen zu ſchreiben, daß er
+                    von <rs ref="#pmb14328" type="person">Blumenthal</rs> die beſtimmte Zuſicherung
+                    erhalten, daß Ihr <rs type="work" ref="#pmb29823" subtype="implied">Stück</rs> bis längſtens <pb facs="OGL Kafka, Eduard M. an AS.pdf"/>im <date>April</date> in <rs ref="#pmb168" type="place">Berlin</rs> zur Aufführung ko<c rendition="#gemination-m"/>t.</p><p>Ferner kann ich Ihnen mittheilen, daſs Ihre »<rs ref="#pmb30749" type="work">Frage an
+                        das Schickſal</rs>« nächsten Tage <add place="above">(2 Februar)</add>
+                    in <rs ref="#pmb506" type="place">Hamburg</rs> (in der <rs ref="#pmb42601" type="organisation">Freien <hi rend="latintype">literarischen</hi> Geſellschaft</rs>) u.
+                    Mitte <add place="inline">(<date>16.</date>)</add><space unit="chars" quantity="1"/><date>Februar</date> in <rs ref="#pmb42605" type="place">Königsberg</rs> zum Vortrag gelangt: beidemale durch <rs ref="#pmb12491" type="person">Reicher</rs>.</p><p><date>Sonntag</date> habe ich die »<anchor type="commentary" xml:id="KLM20191028-2"/><rs ref="#pmb42614" type="work">Gläubiger</rs>-<hi rend="latintype">Pre<pb facs="OGL Kafka, Eduard M. an AS.pdf"/>mière</hi><note type="commentary" xml:id="KLM20191028-2h">Zusammen mit
+                        zwei anderen <rs type="work" ref="#pmb42616 pmb42618" subtype="implied">Einaktern</rs> von
+                            <rs ref="#pmb12877" type="person">Strindberg</rs> am
+                            <date>22.&#160;1.&#160;1893</date> im <rs ref="#pmb42626" type="place">Residenztheater</rs> in <rs ref="#pmb168" type="place">Berlin</rs>.</note> mitgemacht: ein gewaltiger Eindruck.</p><p>Auch die <anchor type="commentary" xml:id="KLM20191028-1"/><rs ref="#pmb31157" type="work">Baumeister <hi rend="latintype">Solneß</hi></rs>-<hi rend="latintype">Première</hi><note type="commentary" xml:id="KLM20191028-1h">Am <date>19.&#160;1.&#160;1893</date> am
+                            <rs ref="#pmb3" type="place">Deutschen Theater</rs> in <rs ref="#pmb168" type="place"/>.</note> war ein bedeutſames Erlebnis.</p><p>Was ich in <rs ref="#pmb168" type="place">Berlin</rs><space unit="chars" quantity="1"/><add place="above">machte oder</add> mache? Ein gütiges
+                    Schickſal, in Geſtalt eines <hi rend="underline" n="1">lieben <rs type="person" ref="#pmb42629" subtype="implied">Mannes</rs></hi>, hat mich dahin <del rend="strikethrough">ge</del> entführt. Nächſtens <pb facs="OGL Kafka, Eduard M. an AS.pdf"/>übrigens können Sie auch aus einer <hi rend="underline" n="1">anderen
+                        Welt</hi> auf ein Lebenszeichen von mir rechnen. Vorher <subst><del rend="strikethrough">aber</del><add place="above">allerdings</add></subst> will ich Sie <add place="above">aber</add> noch vom <rs ref="#pmb41072" type="place"><hi rend="latintype">Nordcap</hi></rs> grüßen.
+                    Nächſtens!</p><closer><hi rend="latintype">Servus</hi>! Mit herzlichen Grüßen<lb/>Ihr Sie
+                        hochſchätzender<lb/><signed>Kafka</signed></closer></div></body>
     </text>
 </TEI>

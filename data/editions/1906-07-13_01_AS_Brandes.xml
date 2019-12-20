@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1906-07-13_01_AS_Brandes">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1906-07-13_01_AS_Brandes">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Georg Brandes, 13. 7. 1906</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Georg Brandes, 13.&#160;7.&#160;1906</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -62,8 +66,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -82,18 +86,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb959">Marienlyst</placeName>
-                    <date when="1906-07-13" n="01">13. 7. 1906</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb959">Marienlyst</placeName>
+                    <date when="1906-07-13" n="01">13.&#160;7.&#160;1906</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb10992">Brandes, Georg</persName>
-                    <placeName key="pmb36300">Kopenhagen</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb10992">Brandes, Georg</persName>
+                    <placeName ref="#pmb36300">Kopenhagen</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1906-07-11_02">Brandes an Schnitzler, 11. 7. 1906</ptr>
-               <ptr type="next" subtype="toAuthor" target="1906-07-24_01">Brandes an Schnitzler, 24. 7.1906</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1906-07-11_02">Brandes an Schnitzler, 11.&#160;7.&#160;1906</ptr>
+               <ptr type="next" subtype="toAuthor" target="1906-07-24_01">Brandes an Schnitzler, 24.&#160;7.1906</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -109,45 +113,16 @@
         <graphic url="Georg_Brandes_arkiv_128"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p>
-                  <seg rend="left">
-                     <pb facs="Georg_Brandes_arkiv_127.jpg"/>
-                     <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
-                  </seg>
-                        <seg rend="right">
-                     <date>13. Juli 906</date>
-                  </seg>
-               </p>
-                    <p>
-                  <hi rend="pre-print">
-                            <placeName key="pmb133">Wien, XVIII. Spoettelgasse 7</placeName>.</hi>
-                    </p>
-                    <salute>verehrtester Herr Brandes,</salute>
-                </opener>
-                <p>entschuldigen Sie, dass ich neulich gar so miserabel schrieb. Der Sie grüßen
-                    liess, ist <persName key="pmb10986">Brahm</persName> (der übrigens möglicherweise
+        <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs="Georg_Brandes_arkiv_127.jpg"/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></seg><seg rend="right"><date>13.&#160;Juli 906</date></seg></p><p><hi rend="pre-print"><rs ref="#pmb133" type="place">Wien, XVIII. Spoettelgasse 7</rs>.</hi></p><salute>verehrtester Herr Brandes,</salute></opener><p>entschuldigen Sie, dass ich neulich gar so miserabel schrieb. Der Sie grüßen
+                    liess, ist <rs ref="#pmb10986" type="person">Brahm</rs> (der übrigens möglicherweise
                     in diese Gegend ko<c rendition="#gemination-m"/>t.) Dass Sie schon aus Bett und
                     Spital heraus sind, freut mich sehr. Aber glauben Sie um Gotteswillen nicht,
                     dass ich auf »Gegenbesuche« od. dergl. Anspruch mache. Freilich möchte ich Sie
-                    sehr gerne noch einmal sehen, ehe ich <placeName key="pmb434">
-                  <country>Daenemark</country>
-               </placeName> verlasse (was kaum vor 3–4 Wochen der Fall sein wird), aber wenn
-                    Ihnen <placeName key="pmb959">Marienlyst</placeName>
-                    <space unit="chars" quantity="1"/>
-                    <pb facs="Georg_Brandes_arkiv_128.jpg"/>die geringste Unbequemlichkeit macht, so
-                    erlauben Sie mir vielleicht wieder einmal, Sie in <placeName key="pmb36300">Kopenhagen</placeName> heimzusuchen. Jedenfalls werd ich mich melden, we<c rendition="#gemination-n"/> ich auf der Rückreise ein paar Tage Aufenthalt
+                    sehr gerne noch einmal sehen, ehe ich <rs ref="#pmb434" type="place"><country>Daenemark</country></rs> verlasse (was kaum vor 3–4 Wochen der Fall sein wird), aber wenn
+                    Ihnen <rs ref="#pmb959" type="place">Marienlyst</rs><space unit="chars" quantity="1"/><pb facs="Georg_Brandes_arkiv_128.jpg"/>die geringste Unbequemlichkeit macht, so
+                    erlauben Sie mir vielleicht wieder einmal, Sie in <rs ref="#pmb36300" type="place">Kopenhagen</rs> heimzusuchen. Jedenfalls werd ich mich melden, we<c rendition="#gemination-n"/> ich auf der Rückreise ein paar Tage Aufenthalt
                     mache. Aber wenn Sie hieher ko<c rendition="#gemination-m"/>en (es ist wirklich
                     wunderschön da), haben Sie die Güte, mich vorher wissen zu lassen. Ich möchte
-                    doch nicht gern in <placeName key="pmb244">
-                  <country>Schweden</country>
-               </placeName> drüben, in <placeName key="pmb958">Skodsborg</placeName> oder – in <placeName key="pmb36300">Kopenhagen</placeName> sein, wenn Sie in <placeName key="pmb959">Marienlyst</placeName> erscheinen.</p>
-                <closer>Herzlichen Gruß. Ihr sehr ergebener<lb/>
-                    <signed>Arthur Schnitzler</signed>
-                </closer>
-            </div>
-        </body>
+                    doch nicht gern in <rs ref="#pmb244" type="place"><country>Schweden</country></rs> drüben, in <rs ref="#pmb958" type="place">Skodsborg</rs> oder – in <rs ref="#pmb36300" type="place">Kopenhagen</rs> sein, wenn Sie in <rs ref="#pmb959" type="place">Marienlyst</rs> erscheinen.</p><closer>Herzlichen Gruß. Ihr sehr ergebener<lb/><signed>Arthur Schnitzler</signed></closer></div></body>
     </text>
 </TEI>

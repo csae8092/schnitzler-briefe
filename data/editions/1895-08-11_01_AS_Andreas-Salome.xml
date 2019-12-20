@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L041XXX">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L041XXX">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Arthur Schnitzler an Lou Andreas-Salomé,
-                    11. 8. 1895</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                    11.&#160;8.&#160;1895</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -16,8 +20,8 @@
                     <address>
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
-                        <placeName>
-                            <country>A</country> Wien </placeName>
+                        <rs type="place">
+                            <country>A</country> Wien </rs>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,7 +54,7 @@
                                 <idno>Schnitzler</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S., schwarze Tinte.</p>
+                                <p>eh. Brief, 1&#160;Bl., 3&#160;S., schwarze Tinte.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -62,17 +66,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <date when="1895-08-11" n="01">11. 8. 1895</date>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <date when="1895-08-11" n="01">11.&#160;8.&#160;1895</date>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb10762">Andreas-Salomé, Lou</persName>
+                <correspAction  type="received">
+                    <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-08-09_01">Andreas-Salomé an Schnitzler, 9. 8. 1895</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-08-17_01">Andreas-Salomé an Schnitzler, [vor dem 17. 8. 1895]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-08-09_01">Andreas-Salomé an Schnitzler, 9.&#160;8.&#160;1895</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-08-17_01">Andreas-Salomé an Schnitzler, [vor dem 17.&#160;8.&#160;1895]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -87,38 +91,17 @@
         <graphic url="Schnitzler Brief 2b"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="Schnitzler Brief 2a"/>Verehrte Frau Lou,</salute>
-                </opener>
-                <p>es trifft ſich alles aufs beſte. Heute früh ko<c rendition="#gemination-m"/>’ ich
-                    in <placeName key="pmb50">Wien</placeName> an, und <del rend="strikethrough">treffe</del> finde Ihre lieben Zeilen, für die ich herzlich danke.</p>
-                <p>Ich fahre in 2 oder 3 Tagen nach <placeName key="pmb213">Iſchl</placeName>
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="Schnitzler Brief 2a"/>Verehrte Frau Lou,</salute></opener><p>es trifft ſich alles aufs beſte. Heute früh ko<c rendition="#gemination-m"/>’ ich
+                    in <rs ref="#pmb50" type="place">Wien</rs> an, und <del rend="strikethrough">treffe</del> finde Ihre lieben Zeilen, für die ich herzlich danke.</p><p>Ich fahre in 2 oder 3 Tagen nach <rs ref="#pmb213" type="place">Iſchl</rs>
                     und ko<c rendition="#gemination-m"/>e etwa <date>20.</date> oder
-                        <date>21.</date> nach <placeName key="pmb30">Salzburg</placeName>. Dort
+                        <date>21.</date> nach <rs ref="#pmb30" type="place">Salzburg</rs>. Dort
                     einige Tage zugleich mit Ihnen und in Ihrer Geſellſchaft zu verbringen, freut
-                        <pb facs="Schnitzler Brief 2b"/>mich ganz beſonders. Von <placeName key="pmb30">S.</placeName> aus fahre ich, wahrſcheinlich per Rad u auf einem
-                    Umweg nach <placeName key="pmb38129">München</placeName>. Es geht aus Ihrer
-                    Karte nicht deutlich hervor, ob Sie <placeName key="pmb38129">München</placeName> vor oder nach <placeName key="pmb30">Salzburg</placeName> zu beſuchen denken. Sollte das letztere der Fall ſein,
-                    ſo wärs aber ganz beſonders ſchön.</p>
-                <p>In <placeName key="pmb213">Iſchl</placeName> wohne ich <placeName key="pmb214">
-                  <hi rend="latintype">Rudolfshöhe</hi>
-               </placeName>, <pb facs="Schnitzler Brief 2b"/>wo ich Nachricht von Ihnen vorzufinden hoffe. In
-                        <placeName key="pmb30">Salzb.</placeName> werde ich wahrſcheinlich im
-                        <placeName key="pmb230">oesterr. Hof</placeName> abſteigen. <persName key="pmb10863">Richard</persName> iſt wohl von den genauen <placeName key="pmb30">Salzb.</placeName> Daten gleichfalls in Ke<c rendition="#gemination-n"/>tnis geſetzt? – </p>
-                <closer>Viele Grüße und auf angenehmes Wiederſehen!<lb/>Ihr Sie
-                        hochſch<unclear>ätz</unclear>ender<lb/>
-               <signed>ArthSch</signed>
-            </closer>
-                <postscript>
-                    <dateline>
-                  <date>11. 8. 95</date>.<lb/>
-                  <placeName key="pmb50">Wien</placeName>
-               </dateline>
-                </postscript>
-            </div>
-        </body>
+                        <pb facs="Schnitzler Brief 2b"/>mich ganz beſonders. Von <rs ref="#pmb30" type="place">S.</rs> aus fahre ich, wahrſcheinlich per Rad u auf einem
+                    Umweg nach <rs ref="#pmb38129" type="place">München</rs>. Es geht aus Ihrer
+                    Karte nicht deutlich hervor, ob Sie <rs ref="#pmb38129" type="place">München</rs> vor oder nach <rs ref="#pmb30" type="place">Salzburg</rs> zu beſuchen denken. Sollte das letztere der Fall ſein,
+                    ſo wärs aber ganz beſonders ſchön.</p><p>In <rs ref="#pmb213" type="place">Iſchl</rs> wohne ich <rs ref="#pmb214" type="place"><hi rend="latintype">Rudolfshöhe</hi></rs>, <pb facs="Schnitzler Brief 2b"/>wo ich Nachricht von Ihnen vorzufinden hoffe. In
+                        <rs ref="#pmb30" type="place">Salzb.</rs> werde ich wahrſcheinlich im
+                        <rs ref="#pmb230" type="place">oesterr. Hof</rs> abſteigen. <rs ref="#pmb10863" type="person">Richard</rs> iſt wohl von den genauen <rs ref="#pmb30" type="place">Salzb.</rs> Daten gleichfalls in Ke<c rendition="#gemination-n"/>tnis geſetzt?&#160;– </p><closer>Viele Grüße und auf angenehmes Wiederſehen!<lb/>Ihr Sie
+                        hochſch<unclear>ätz</unclear>ender<lb/><signed>ArthSch</signed></closer><postscript><dateline><date>11.&#160;8.&#160;95</date>.<lb/><rs ref="#pmb50" type="place">Wien</rs></dateline></postscript></div></body>
     </text>
 </TEI>

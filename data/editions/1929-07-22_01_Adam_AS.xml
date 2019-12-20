@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1929-07-22_01_Adam_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1929-07-22_01_Adam_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 22. 7. 1929</title>
-                <author key="pmb12438">Adam, Robert</author>
+                <title level="a">Robert Adam an Arthur Schnitzler, 22.&#160;7.&#160;1929</title>
+                <author ref="#pmb12438">Adam, Robert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 1</idno>
+                                <idno>Schnitzler, B&#160;1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Vereinzelte
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte. Vereinzelte
                                     Unterstreichungen mit rotem Buntstift. Von Schnitzler mit rotem Buntstift
                                     beschriftet: »<quote>
                               <hi rend="latintype">Adam</hi>
@@ -83,18 +87,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1929-07-22" n="01">22. 7. 1929</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1929-07-22" n="01">22.&#160;7.&#160;1929</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1929-06-14_01">Schnitzler an Adam, 14. 6. 1929</ptr>
-               <ptr type="next" subtype="toAuthor" target="1929-08-14_01">Schnitzler an Adam, 14. 8. 1929</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1929-06-14_01">Schnitzler an Adam, 14.&#160;6.&#160;1929</ptr>
+               <ptr type="next" subtype="toAuthor" target="1929-08-14_01">Schnitzler an Adam, 14.&#160;8.&#160;1929</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -111,27 +115,16 @@
         <graphic url="MS-SCHNITZLER-B-00001-000-00008"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="MS-SCHNITZLER-B-00001-000-00007"/>
-                  <placeName key="pmb50">Wien</placeName>, den
-                            <date>22. Juli 1929</date>.</dateline>
-                    <salute>Hochverehrter Herr Doktor!</salute>
-                </opener>
-                <p>Fräulein <persName key="pmb22728">Frieda Pollak</persName> hat mich durch Übergabe
-                    Ihres »<workName key="pmb30203">Profeſſor Bernhardi</workName>« und Ihrer
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00001-000-00007"/><rs ref="#pmb50" type="place">Wien</rs>, den
+                            <date>22.&#160;Juli 1929</date>.</dateline><salute>Hochverehrter Herr Doktor!</salute></opener><p>Fräulein <rs ref="#pmb22728" type="person">Frieda Pollak</rs> hat mich durch Übergabe
+                    Ihres »<rs ref="#pmb30203" type="work">Profeſſor Bernhardi</rs>« und Ihrer
                     freundlichen Gedenkworte überraſcht. Nehmen Sie, bitte, hiefür meinen
-                    herzlichſten Dank!</p>
-                <p>Wenn ich mir erlaube, dieſen Zeilen den <anchor type="commentary" xml:id="KL2002-1"/>
-               <rs type="work" key="pmb33616">Abdruck eines
-                        Vortrags</rs>
-               <note type="commentary" xml:id="KL2002-1h">Überliefert in der
-                            <orgName key="pmb29349">Österreichischen Nationalbibliothek</orgName>,
-                            <bibl>Cod. Ser. n. 52263, Beilage</bibl>.</note>
-                    anzuſchließen, den ich im <orgName key="pmb29593">Verein der
-                        Laienrichter</orgName> hielt, ſo tue ich es mit einigem Zagen und <hi rend="latintype">faute de mieux</hi>. Während ſonſt bekanntermaßen niemand
+                    herzlichſten Dank!</p><p>Wenn ich mir erlaube, dieſen Zeilen den <anchor type="commentary" xml:id="KL2002-1"/><rs type="work" ref="#pmb33616" subtype="implied">Abdruck eines
+                        Vortrags</rs><note type="commentary" xml:id="KL2002-1h">Überliefert in der
+                            <rs ref="#pmb29349" type="organisation">Österreichischen Nationalbibliothek</rs>,
+                            <bibl>Cod.&#160;Ser.&#160;n. 52263, Beilage</bibl>.</note>
+                    anzuſchließen, den ich im <rs ref="#pmb29593" type="organisation">Verein der
+                        Laienrichter</rs> hielt, ſo tue ich es mit einigem Zagen und <hi rend="latintype">faute de mieux</hi>. Während ſonſt bekanntermaßen niemand
                     etwas drucken will, das von mir ſtammt und deſſen Drucklegung mir am Herzen
                     läge, ſo wurde mir diesmal das Manuſkript plötzlich für dieſen im konkreten Fall
                     verruchten Zweck abgefordert und ich wurde nicht ganz nach meinem Wunſch zu
@@ -139,18 +132,11 @@
                     Übersendung soll nur beſagen, daß ich den Wunſch hege, Ihnen einmal mit einem
                     ganzen Buche <pb facs="MS-SCHNITZLER-B-00001-000-00008"/>vor Augen treten zu
                     dürfen; ſie iſt als Surrogat dieſer Wunſcherfüllung gewiſſermaßen ſymboliſcher
-                    Natur.</p>
-                <p>Vielleicht gelingt es mir doch noch einmal, eine Arbeit zuſtande zu bringen, die
+                    Natur.</p><p>Vielleicht gelingt es mir doch noch einmal, eine Arbeit zuſtande zu bringen, die
                     ich Ihnen mit gutem Gewiſſen vorlegen kann. Sooft ich dem Urlaub nahe bin, hebt
                     ſich die Hoffnung auf Muße, Nervenruhe und Arbeitsluſt und -fähigkeit; ich weiß
                     nur leider aus Erfahrung, daß ſchon die erſte Urlaubswoche eine Enttäuſchung
-                    bringt.</p>
-                <p>Nehmen Sie, hochverehrter Herr Doktor, nochmals meinen beſten Dank und den
-                    Ausdruck meiner tiefen Ergebenheit!</p>
-                <closer>
-               <signed>D<hi rend="superscript">r</hi>RAdam</signed>
-                </closer>
-            </div>
-        </body>
+                    bringt.</p><p>Nehmen Sie, hochverehrter Herr Doktor, nochmals meinen beſten Dank und den
+                    Ausdruck meiner tiefen Ergebenheit!</p><closer><signed>D<hi rend="superscript">r</hi>RAdam</signed></closer></div></body>
     </text>
 </TEI>

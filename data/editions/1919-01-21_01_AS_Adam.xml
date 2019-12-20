@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1919-01-21_01_AS_Adam">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1919-01-21_01_AS_Adam">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Robert Adam, 21. 1. 1919</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Robert Adam, 21.&#160;1.&#160;1919</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -66,18 +70,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1919-01-21" n="01">21. 1. 1919</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1919-01-21" n="01">21.&#160;1.&#160;1919</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1919-01-17_01">Adam an Schnitzler, 17. 1. 1919</ptr>
-               <ptr type="next" subtype="toAuthor" target="1919-08-05_01">Schnitzler an Adam, 5. 8. 1919</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1919-01-17_01">Adam an Schnitzler, 17.&#160;1.&#160;1919</ptr>
+               <ptr type="next" subtype="toAuthor" target="1919-08-05_01">Schnitzler an Adam, 5.&#160;8.&#160;1919</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -87,40 +91,9 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <pb facs=""/>A. S. <placeName key="pmb150">Wien XVIII, Sternwartestrasse 71</placeName>
-               </addrLine>
-                </address>
-                <address>
-                    <addrLine>Herrn Landesgerichtsrath</addrLine>
-                    <addrLine>Dr. Robert Adam Pollak</addrLine>
-                    <addrLine>
-                  <placeName key="pmb62">Wien XII</placeName>.</addrLine>
-                    <addrLine>
-                  <placeName key="pmb1239">Meidlinger Hptstr. 58</placeName>
-               </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    
-                    <dateline rend="right">
-                  <pb facs=""/>
-                  <date>21. 1. 1919</date>
-               </dateline>
-                    <salute>verehrteſter Herr Doktor,</salute>
-                </opener>
-                <p>ſollten Sie eben am <date>Freitag</date> (<date>24.</date>) <time>Abends
+        <body><div type="address"><address><addrLine><pb facs=""/>A.&#160;S. <rs ref="#pmb150" type="place">Wien XVIII, Sternwartestrasse 71</rs></addrLine></address><address><addrLine>Herrn Landesgerichtsrath</addrLine><addrLine>Dr. Robert Adam Pollak</addrLine><addrLine><rs ref="#pmb62" type="place">Wien XII</rs>.</addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hptstr. 58</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>21.&#160;1.&#160;1919</date></dateline><salute>verehrteſter Herr Doktor,</salute></opener><p>ſollten Sie eben am <date>Freitag</date> (<date>24.</date>) <time>Abends
                 nach 6</time> Zeit haben, ſo ſind Sie mir willko<c rendition="#gemination-m"/>en. Gottes
                 Mühlen ſind Expressangelegenheiten gegen direktoriale Entſchlüſſe. Davon weiſs ich manches
-                Lied zu ſingen – ohne Lyriker zu ſein.</p>
-                <closer>Herzlich grüßt Sie Ihr ergebener<lb/>
-               <signed>Arthur Schnitzler</signed>
-            </closer>
-            </div>
-        </body>
+                Lied zu ſingen – ohne Lyriker zu ſein.</p><closer>Herzlich grüßt Sie Ihr ergebener<lb/><signed>Arthur&#160;Schnitzler</signed></closer></div></body>
     </text>
 </TEI>

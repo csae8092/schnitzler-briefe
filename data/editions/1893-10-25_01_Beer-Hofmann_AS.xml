@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-10-25_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-10-25_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, [24?. 10. 1893]</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, [24?.&#160;10.&#160;1893]</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Briefkarte, Bleistift; Lateinschrift. Von Schnitzler mit Bleistift
@@ -68,8 +72,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -88,19 +92,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <date when="1893-10-24" n="02">[24?. 10. 1893]</date>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <date when="1893-10-24" n="02">[24?.&#160;10.&#160;1893]</date>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1893-10-25" n="02">[25. 10. 1893?]</date>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1893-10-25" n="02">[25.&#160;10.&#160;1893?]</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-10-21_01">Schnitzler an Beer-Hofmann, 21. 10. 1893</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-11-15_01">Beer-Hofmann an Schnitzler, [15. 11. 1893]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-10-21_01">Schnitzler an Beer-Hofmann, 21.&#160;10.&#160;1893</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-11-15_01">Beer-Hofmann an Schnitzler, [15.&#160;11.&#160;1893]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -116,26 +120,11 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00056.jpg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00055"/>
-               <salute>Lieber! </salute>
-               <persName key="pmb4127">Meixner</persName> nahm mich heute beiseite, hat Bedenken ob er den
-                  <rs type="work" key="pmb29823">
-                  <hi n="1" rend="underline">Wandel</hi>
-               </rs> treffen
-               wird; habe ihn ihm erklärt; kennt das Stück nicht; bringen Sie bitte morgen <anchor type="commentary" xml:id="KLM191203-3"/>
-               <date>Mittwoch</date>
-               <note type="commentary" xml:id="KLM191203-3h">Es ist anzunehmen, dass <persName key="pmb2121">Schnitzler</persName>s Datierung
+      <body><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00055"/><salute>Lieber! </salute><rs ref="#pmb4127" type="person">Meixner</rs> nahm mich heute beiseite, hat Bedenken ob er den
+                  <rs type="work" ref="#pmb29823" subtype="implied"><hi n="1" rend="underline">Wandel</hi></rs> treffen
+               wird; habe ihn ihm erklärt; kennt das Stück nicht; bringen Sie bitte morgen <anchor type="commentary" xml:id="KLM191203-3"/><date>Mittwoch</date><note type="commentary" xml:id="KLM191203-3h">Es ist anzunehmen, dass <rs ref="#pmb2121" type="person">Schnitzler</rs>s Datierung
                   den Empfangstag bezeichnet, da der <date>25. 10. 1893</date> ein Mittwoch war. Das Korrespondenzstück
-                  stammt demgemäß vom Vortag.</note> ins Caffée ein <hi rend="underline" n="1">gekürztes</hi> Exemplar <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00056"/>des <workName key="pmb29823">Märchen</workName> mit. Aber vor 7 Uhr.</p>
-            <p>Das <workName key="pmb29823">Märchen</workName> ist <hi n="2" rend="underline">sehr</hi> gut; ich habe es wieder gelesen – ich glaube jetzt sogar an einen
-               Bühnenerfolg. Herzlichst</p>
-            <closer>
-               <signed>Richard</signed>
-            </closer>
-         </div>
-      </body>
+                  stammt demgemäß vom Vortag.</note> ins Caffée ein <hi rend="underline" n="1">gekürztes</hi> Exemplar <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00056"/>des <rs ref="#pmb29823" type="work">Märchen</rs> mit. Aber vor 7 Uhr.</p><p>Das <rs ref="#pmb29823" type="work">Märchen</rs> ist <hi n="2" rend="underline">sehr</hi> gut; ich habe es wieder gelesen – ich glaube jetzt sogar an einen
+               Bühnenerfolg. Herzlichst</p><closer><signed>Richard</signed></closer></div></body>
    </text>
 </TEI>

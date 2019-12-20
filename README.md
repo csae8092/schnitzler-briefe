@@ -1,6 +1,6 @@
-# arthur-schnitzler-briefe
+# schnitzler-briefe
 
-arthur-schnitzler-briefe stands for Digital (Scholarly) Editions Base Application. Its purpose is to bootstrap the development of (web) applications which support the process of
+schnitzler-briefe stands for Digital (Scholarly) Editions Base Application. Its purpose is to bootstrap the development of (web) applications which support the process of
 
 * creating
 * curating
@@ -10,7 +10,7 @@ arthur-schnitzler-briefe stands for Digital (Scholarly) Editions Base Applicatio
 
 texts encoded in XML and validating against a TEI (P5) schema.
 
-## arthur-schnitzler-briefe based projects
+## schnitzler-briefe based projects
 
 * [Thun-Korrespondenz](https://thun-korrespondenz.acdh.oeaw.ac.at/)
 * [Mächtekongresse 1818-1822](https://maechtekongresse.acdh.oeaw.ac.at/)
@@ -20,8 +20,8 @@ texts encoded in XML and validating against a TEI (P5) schema.
 
 ## History
 
-arthur-schnitzler-briefe is a successor of the generic-de-web-app project described by the blog post series [How to build a digital edition web app](https://howto.acdh.oeaw.ac.at/blog/books/how-to-build-a-digital-edition-web-app/). While these blog posts were focused on describing general principles and basic implementations of a digital edition web app, arthur-schnitzler-briefe should help you getting things done.
-generic-de-web-app as well as arthur-schnitzler-briefe are designed as (almost) self-containing eXist-db packages. Therefore you can
+schnitzler-briefe is a successor of the generic-de-web-app project described by the blog post series [How to build a digital edition web app](https://howto.acdh.oeaw.ac.at/blog/books/how-to-build-a-digital-edition-web-app/). While these blog posts were focused on describing general principles and basic implementations of a digital edition web app, schnitzler-briefe should help you getting things done.
+generic-de-web-app as well as schnitzler-briefe are designed as (almost) self-containing eXist-db packages. Therefore you can
 
 * install your dse-web application via eXist-db’s package manager,
 * download your dse-web app via eXist-db’s package manager,
@@ -62,9 +62,9 @@ Basically all features mentioned above are implemented with plain XSLT, XQuery a
 ## Getting started
 
 1. Clone the repo into a suitable directory. Be aware that the name of the applications root directory will show up in several places (e.g. the name of the application’s .xar package)
-`git clone https://github.com/KONDE-AT/arthur-schnitzler-briefe.git <folder-name>`
+`git clone https://github.com/KONDE-AT/schnitzler-briefe.git <folder-name>`
 
-2. Run a search and replace through the whole codebase, replacing `arthur-schnitzler-briefe` with e.g. the name of your application’s root directory. Since `arthur-schnitzler-briefe` is used in several namespaces, make sure the replacement string does not contain any tricky characters.
+2. Run a search and replace through the whole codebase, replacing `schnitzler-briefe` with e.g. the name of your application’s root directory. Since `schnitzler-briefe` is used in several namespaces, make sure the replacement string does not contain any tricky characters.
 
 3. Go through the `data` directory and replace the existing data with your own. But keep the directory structure (`data/editions/, data/indices/, data/meta/`) as it is.  
 Ideally, your data (structure, markup) is very similar to the application’s sample data – in this case most of the features mentioned above should work 'out of the box'.

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1903-01-14_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1903-01-14_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 14. 1. 1903</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 14.&#160;1.&#160;1903</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,17 +83,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb30">Salzburg</placeName>
-               <date when="1903-01-14" n="01">14. 1. 1903</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb30">Salzburg</placeName>
+               <date when="1903-01-14" n="01">14.&#160;1.&#160;1903</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1902-12-24_02">Schnitzler an Beer-Hofmann, 24. 12. 1902</ptr>
-               <ptr type="next" subtype="toAuthor" target="1903-01-16_01">Schnitzler, Gussmann an Beer-Hofmann, 16. 1. 1903</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1902-12-24_02">Schnitzler an Beer-Hofmann, 24.&#160;12.&#160;1902</ptr>
+               <ptr type="next" subtype="toAuthor" target="1903-01-16_01">Schnitzler, Gussmann an Beer-Hofmann, 16.&#160;1.&#160;1903</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -98,33 +102,19 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb30">Salzburg</placeName>, <date when="1903-01-14">14. 1. 903</date>. <placeName key="pmb230">Österr. Hof</placeName>. -</dateline>
-            </opener>
-            <p>
-               <salute>Lieber Richard, </salute>bei dem Badebesitzer <persName key="pmb40099">Schaller</persName>
-               in <placeName key="pmb173">Rodaun</placeName>, <placeName key="pmb40101">Liesingerstrasse</placeName>, wohnt seit einigen Tagen unser Hund, Bern genannt.
-               Sie wissen dass wir in <placeName key="pmb50">Wien</placeName> nichts mit ihm
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb30" type="place">Salzburg</rs>, <date when="1903-01-14">14.&#160;1.&#160;903</date>. <rs ref="#pmb230" type="place">Österr. Hof</rs>.&#160;-</dateline></opener><p><salute>Lieber Richard, </salute>bei dem Badebesitzer <rs ref="#pmb40099" type="person">Schaller</rs>
+               in <rs ref="#pmb173" type="place">Rodaun</rs>, <rs ref="#pmb40101" type="place">Liesingerstrasse</rs>, wohnt seit einigen Tagen unser Hund, Bern genannt.
+               Sie wissen dass wir in <rs ref="#pmb50" type="place">Wien</rs> nichts mit ihm
                anfangen können, und dass wir deshalb jedenfalls auf seinen fernem Besitz verzichten
                müssen. Wenn Sie ihn daher (statt des Flirt zu tragen) von mir annehmen wollen, so
                erweisen Sie mir damit nur einen Gefallen. Überlegen Sie sichs; denn Eile hat die
                Sache in keiner Weise. Das Thier wohnt in Ihrer Nähe, warten Sie, bis ihm wieder die
-               Haare gewachsen sind, und fragen Sie sich, ob Sie sich mit ihm befreunden können. –
+               Haare gewachsen sind, und fragen Sie sich, ob Sie sich mit ihm befreunden können.&#160;–
                Wär ich auf dem Land wie Sie, ich behielte ihn gern; unter den gegebenen Umständen
                aber wäre mir der Gedanke, dass Bern in Ihren Besitz übergeht, der
-               freundlichste. –</p>
-            <p>Ich bin mit <persName key="pmb2173">Olga</persName> seit vorgestern hier; – und freue
+               freundlichste.&#160;–</p><p>Ich bin mit <rs ref="#pmb2173" type="person">Olga</rs> seit vorgestern hier; – und freue
                mich, inmitten des beruhigenden Schneefalls und der winterlichen Stille, dass ich
                mich wenigstens zu diesem Entschlüsse aufraffen konnte. Bis Ende der Woche hoffen wir
-               zu bleiben.</p>
-            <p>Seien Sie herzlichst gegrüßt</p>
-            <closer>Ihr<lb/>
-               <signed>A.</signed>
-            </closer>
-         </div>
-      </body>
+               zu bleiben.</p><p>Seien Sie herzlichst gegrüßt</p><closer>Ihr<lb/><signed>A.</signed></closer></div></body>
    </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1929-12-22_01_Adam_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1929-12-22_01_Adam_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 22. 12. 1929</title>
-                <author key="pmb12438">Adam, Robert</author>
+                <title level="a">Robert Adam an Arthur Schnitzler, 22.&#160;12.&#160;1929</title>
+                <author ref="#pmb12438">Adam, Robert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,13 +52,13 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 1</idno>
+                                <idno>Schnitzler, B&#160;1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Von Schnitzler beschriftet: »<quote>
-                                        <workName key="pmb30945">
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte. Von Schnitzler beschriftet: »<quote>
+                                        <rs ref="#pmb30945" type="work">
                                             <hi rend="latintype">So<c rendition="#gemination-m"/>erlüfte</hi>
-                                        </workName>
+                                        </rs>
                                     </quote>«. Von unbekannter mit Bleistift Hand nummeriert:
                                         »<quote>23</quote>«. Vereinzelte Unterstreichungen mit rotem
                                     Buntstift.</p>
@@ -81,18 +85,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1929-12-22" n="01">22. 12. 1929</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1929-12-22" n="01">22.&#160;12.&#160;1929</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1929-08-14_01">Schnitzler an Adam, 14. 8. 1929</ptr>
-               <ptr type="next" subtype="toAuthor" target="1929-12-23_01">Schnitzler an Adam, 23. 12. 1929</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1929-08-14_01">Schnitzler an Adam, 14.&#160;8.&#160;1929</ptr>
+               <ptr type="next" subtype="toAuthor" target="1929-12-23_01">Schnitzler an Adam, 23.&#160;12.&#160;1929</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -109,38 +113,21 @@
         <graphic url="MS-SCHNITZLER-B-00001-000-00006"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00001-000-00005"/>
-                        <placeName key="pmb50">Wien</placeName>, am <date>22. Dezember 1929</date>
-                    </dateline>
-                    <salute>Hochverehrter Herr Doktor!</salute>
-                </opener>
-                <p>Nehmen Sie meinen herzlichſten Dank für die Übersendung Ihrer Komödie »<workName key="pmb30945">Im Spiel der Sommerlüfte</workName>« entgegen!</p>
-                <p>Wenn ich ſo meine eigenen Produkte, auch die letzten und auch die noch gar nicht
-                    geſchriebenen, ſondern erſt geplanten – es gibt leider ſolche noch immer –, im
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00001-000-00005"/><rs ref="#pmb50" type="place">Wien</rs>, am <date>22.&#160;Dezember 1929</date></dateline><salute>Hochverehrter Herr Doktor!</salute></opener><p>Nehmen Sie meinen herzlichſten Dank für die Übersendung Ihrer Komödie »<rs ref="#pmb30945" type="work">Im Spiel der Sommerlüfte</rs>« entgegen!</p><p>Wenn ich ſo meine eigenen Produkte, auch die letzten und auch die noch gar nicht
+                    geſchriebenen, ſondern erſt geplanten – es gibt leider ſolche noch immer&#160;–, im
                     Geiſt Revue paſſieren laſſe und Ihr Stück danebenhalte, dann erkenne ich ſo
                     recht, wie tief ich im Dilettantiſmus und in der Barbarei ſtecke: denn ich
                     verkenne gar nicht, daß allen meinen Hervorbringungen, und mögen ſie ſich noch
                     ſo kultiviert gehaben, etwas Barbariſches, das nun einmal mit meinem innerſten
                     Weſen verbunden ſein mag und vielleicht eine gewiſſe Eigenheit bewirkt, immerzu
-                    anhaftet.</p>
-                <p>Wie wundervoll rein und klar iſt wieder Ihr neues <rs type="work" key="pmb30945">Stück</rs> gefügt und auf <pb facs="MS-SCHNITZLER-B-00001-000-00006"/>welch
+                    anhaftet.</p><p>Wie wundervoll rein und klar iſt wieder Ihr neues <rs type="work" ref="#pmb30945" subtype="implied">Stück</rs> gefügt und auf <pb facs="MS-SCHNITZLER-B-00001-000-00006"/>welch
                     einheitlichem Niveau ſtehen und gebahren ſich Ihre Menſchen! Wie jugendfriſch
                     betaut iſt alles, vor und nach dem Gewitter, das die Luft von Leidenſchaften
                     reinigt! Und welch geiſtreiche Ergänzung der von Ihnen geſchaffenen Welt iſt
                     dieſes Eindringen der im Kaplan verkörperten religiöſen Idee in die Weltlichkeit
-                    des <workName key="pmb30207">Weiten Land</workName>s! Man möchte, wenn man den
-                    Kreis Ihrer Menſchen verlaſſen muß, noch einmal wiederholen: »<rs type="work" key="pmb30945">Ich werd’ oft zurückdenken an den Garten, an das liebe Haus,
-                        an die Landſchaft</rs>« und an die, die drin lebten.</p>
-                <p>Indem ich Ihnen freudige Weihnachtsfeiertage von Herzen wünſche, verbleibe ich
-                    mit vielem Dank und vielen Empfehlungen</p>
-                <closer>Ihr ergebener<lb/>
-                    <signed>D<hi rend="superscript">r</hi>Adam</signed>
-                </closer>
-            </div>
-        </body>
+                    des <rs ref="#pmb30207" type="work">Weiten Land</rs>s! Man möchte, wenn man den
+                    Kreis Ihrer Menſchen verlaſſen muß, noch einmal wiederholen: »<rs type="work" ref="#pmb30945" subtype="implied">Ich werd’ oft zurückdenken an den Garten, an das liebe Haus,
+                        an die Landſchaft</rs>« und an die, die drin lebten.</p><p>Indem ich Ihnen freudige Weihnachtsfeiertage von Herzen wünſche, verbleibe ich
+                    mit vielem Dank und vielen Empfehlungen</p><closer>Ihr ergebener<lb/><signed>D<hi rend="superscript">r</hi>Adam</signed></closer></div></body>
     </text>
 </TEI>

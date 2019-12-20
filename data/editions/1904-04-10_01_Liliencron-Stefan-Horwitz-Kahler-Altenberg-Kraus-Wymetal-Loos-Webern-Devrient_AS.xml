@@ -1,21 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1904-04-10_01_Liliencron-Stefan-Horwitz-Kahler-Altenberg-Kraus-Wymetal-Loos-Webern-Devrient_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1904-04-10_01_Liliencron-Stefan-Horwitz-Kahler-Altenberg-Kraus-Wymetal-Loos-Webern-Devrient_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Detlev von Liliencron u. a. an Arthur Schnitzler,
-                    1[0?]. 4. 1904</title>
-                <author key="pmb12071">Liliencron, Detlev von</author>
-                <author key="pmb12826">Stefan, Paul</author>
-                <author key="pmb29184">Horwitz, Charlotte</author>
-                <author key="pmb5830">Kahler, Erich</author>
-                <author key="pmb2147">Altenberg, Peter</author>
-                <author key="pmb11988">Kraus, Karl</author>
-                <author key="pmb2725">Wymetal, Wilhelm von</author>
-                <author key="pmb3004">Loos, Lina</author>
-                <author key="pmb13064">Webern, Anton von</author>
-                <author key="pmb2446">Devrient, Max</author>
+                <title level="a">Detlev von Liliencron u.&#160;a. an Arthur Schnitzler,
+                    1[0?].&#160;4.&#160;1904</title>
+                <author ref="#pmb12071">Liliencron, Detlev von</author>
+                <author ref="#pmb12826">Stefan, Paul</author>
+                <author ref="#pmb29184">Horwitz, Charlotte</author>
+                <author ref="#pmb5830">Kahler, Erich</author>
+                <author ref="#pmb2147">Altenberg, Peter</author>
+                <author ref="#pmb11988">Kraus, Karl</author>
+                <author ref="#pmb2725">Wymetal, Wilhelm von</author>
+                <author ref="#pmb3004">Loos, Lina</author>
+                <author ref="#pmb13064">Webern, Anton von</author>
+                <author ref="#pmb2446">Devrient, Max</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -73,23 +77,23 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12071">Liliencron, Detlev von</persName>
-                    <persName key="pmb12826">Stefan, Paul</persName>
-                    <persName key="pmb29184">Horwitz, Charlotte</persName>
-                    <persName key="pmb5830">Kahler, Erich</persName>
-                    <persName key="pmb2147">Altenberg, Peter</persName>
-                    <persName key="pmb11988">Kraus, Karl</persName>
-                    <persName key="pmb2725">Wymetal, Wilhelm von</persName>
-                    <persName key="pmb3004">Loos, Lina</persName>
-                    <persName key="pmb13064">Webern, Anton von</persName>
-                    <persName key="pmb2446">Devrient, Max</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1904-04-10" n="01">1[0?]. 4. 1904</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12071">Liliencron, Detlev von</persName>
+                    <persName ref="#pmb12826">Stefan, Paul</persName>
+                    <persName ref="#pmb29184">Horwitz, Charlotte</persName>
+                    <persName ref="#pmb5830">Kahler, Erich</persName>
+                    <persName ref="#pmb2147">Altenberg, Peter</persName>
+                    <persName ref="#pmb11988">Kraus, Karl</persName>
+                    <persName ref="#pmb2725">Wymetal, Wilhelm von</persName>
+                    <persName ref="#pmb3004">Loos, Lina</persName>
+                    <persName ref="#pmb13064">Webern, Anton von</persName>
+                    <persName ref="#pmb2446">Devrient, Max</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1904-04-10" n="01">1[0?].&#160;4.&#160;1904</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             
          </correspDesc>
@@ -100,47 +104,14 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="OGL Liliencron, Detlev von an AS Abschrift.pdf"/>
-                  <orgName key="pmb29596">Wiener Ansorge-Verein</orgName>, <anchor type="textConst" xml:id="TL2139-2"/>
-                  <date>14. 4. 1904</date>
-                  <note type="textConst" xml:id="TL2139-2h">Die Veranstaltung – ein
-                                    »<quote>
-                        <persName key="pmb12071">Liliencron</persName>-Abend</quote>« mit Lesung des Dichters und
-                                <persName key="pmb2446">Devrient</persName>s fand am
-                                <date>10. 4. 1904</date> statt, der Abschrift dürfte beim Datum ein
-                            Fehler unterlaufen sein.</note>.</dateline>
-                </opener>
-                <p>Wir bedauern, dass Sie nicht in unserer Mitte weilen:</p>
-                <closer> Ihr <signed>Liliencron.</signed>
-               <lb/>
-                    <signed>Paul <anchor type="textConst" xml:id="TL2139-1"/>Stefan<note type="textConst" xml:id="TL2139-1h">Korrigiert aus:
-                                »<quote>Atefan</quote>«.</note>
-               </signed>
-               <lb/>
-                    <signed>C. Horwitz</signed>
-               <lb/>
-               <signed>Erich Kahler</signed>
-               <lb/>
-               <signed>Peter
-                        Altenberg</signed>
-               <lb/>
-               <signed>Kraus,
-                            Karl</signed>
-               <lb/>
-                    <signed>Wymetal</signed>
-               <lb/>
-               <signed>L.
-                        Loos</signed>
-               <lb/>
-               <signed>Webern</signed>
-               <lb/>
-               <signed>Max Devrient.</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="OGL Liliencron, Detlev von an AS Abschrift.pdf"/><rs ref="#pmb29596" type="organisation">Wiener Ansorge-Verein</rs>, <anchor type="textConst" xml:id="TL2139-2"/><date>14.&#160;4.&#160;1904</date><note type="textConst" xml:id="TL2139-2h">Die Veranstaltung – ein
+                                    »<quote><rs ref="#pmb12071" type="person">Liliencron</rs>-Abend</quote>« mit Lesung des Dichters und
+                                <rs ref="#pmb2446" type="person">Devrient</rs>s fand am
+                                <date>10.&#160;4.&#160;1904</date> statt, der Abschrift dürfte beim Datum ein
+                            Fehler unterlaufen sein.</note>.</dateline></opener><p>Wir bedauern, dass Sie nicht in unserer Mitte weilen:</p><closer> Ihr <signed>Liliencron.</signed><lb/><signed>Paul <anchor type="textConst" xml:id="TL2139-1"/>Stefan<note type="textConst" xml:id="TL2139-1h">Korrigiert aus:
+                                »<quote>Atefan</quote>«.</note></signed><lb/><signed>C. Horwitz</signed><lb/><signed>Erich Kahler</signed><lb/><signed>Peter
+                        Altenberg</signed><lb/><signed>Kraus,
+                            Karl</signed><lb/><signed>Wymetal</signed><lb/><signed>L.
+                        Loos</signed><lb/><signed>Webern</signed><lb/><signed>Max Devrient.</signed></closer></div></body>
     </text>
 </TEI>

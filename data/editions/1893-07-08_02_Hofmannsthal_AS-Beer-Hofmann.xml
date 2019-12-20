@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1893-07-08_01_Hofmannsthal_AS-Beer-Hofmann" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1893-07-08_01_Hofmannsthal_AS-Beer-Hofmann"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Hugo von Hofmannsthal an Richard Beer-Hofmann und Arthur Schnitzler,
-               8. 7. 1893</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+               8.&#160;7.&#160;1893</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -52,7 +56,7 @@
                         <idno>Yale Collection of German Literature, MSS 32</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 3 S., Bleistift.</p>
+                        <p>eh. Brief, 1&#160;Bl., 3&#160;S., Bleistift.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Eugene Weber</editor>
                      <imprint>
@@ -80,19 +84,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb573">Bad Fusch</placeName>
-               <date when="1893-07-08" n="02">8. 7. 1893</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb573">Bad Fusch</placeName>
+               <date when="1893-07-08" n="02">8.&#160;7.&#160;1893</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb213">Bad Ischl</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb213">Bad Ischl</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-07-05_01">Schnitzler an Hofmannsthal, 5. 7. 1893</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-07-12_01">Schnitzler an Hofmannsthal, 12. 7. 1893</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-07-05_01">Schnitzler an Hofmannsthal, 5.&#160;7.&#160;1893</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-07-12_01">Schnitzler an Hofmannsthal, 12.&#160;7.&#160;1893</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -107,42 +111,19 @@
       <graphic url="1893-07-08 Beinecke - 5"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <pb facs="1893-07-08 Beinecke - 4"/>
-                  <placeName key="pmb573">Fuſch</placeName>, <date>8 Juli 93</date>.</dateline>
-               <salute>lieber Richard und Arthur!</salute>
-            </opener>
-            <p>Ich brauch Euch wohl nicht zu ſagen, wie ich mich freue, daſs endlich einmal ein paar
-               von den graciöſen Schatten aus dem <workName key="pmb29935">Anatolbuch</workName> bei
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1893-07-08 Beinecke - 4"/><rs ref="#pmb573" type="place">Fuſch</rs>, <date>8 Juli 93</date>.</dateline><salute>lieber Richard und Arthur!</salute></opener><p>Ich brauch Euch wohl nicht zu ſagen, wie ich mich freue, daſs endlich einmal ein paar
+               von den graciöſen Schatten aus dem <rs ref="#pmb29935" type="work">Anatolbuch</rs> bei
                Sommerſonne und Lampenlicht lebendig werden ſollen. Ich käme hin, wäre ich nicht
                gerade beim zaghaften Anfang einer Erholung meines etwas in Unordnung geratenen ſog.
-               Nervenſyſtems.</p>
-            <p>Es thut mir merkwürdig wohl, ohne Kaffeehaus, ohne Geſelligkeit, ohne etwas das
-               treibt oder bindet, ſo vor mich hin zu dämmern, <pb facs="1893-07-08 Beinecke - 5"/>in lauen Bädern beinahe einzuſchlafen und <hi rend="latintype">
-                  <persName key="pmb2412">Shakespeare</persName>’sche</hi> Comödien zu leſen, während
+               Nervenſyſtems.</p><p>Es thut mir merkwürdig wohl, ohne Kaffeehaus, ohne Geſelligkeit, ohne etwas das
+               treibt oder bindet, ſo vor mich hin zu dämmern, <pb facs="1893-07-08 Beinecke - 5"/>in lauen Bädern beinahe einzuſchlafen und <hi rend="latintype"><rs ref="#pmb2412" type="person">Shakespeare</rs>’sche</hi> Comödien zu leſen, während
                kleine Katzen in der Sonne mit einem Knäuel Wolle ſpielen. Am liebſten war mir, Ihr
                möchtet am <del rend="overwritten">m</del>Morgen drauf telegrafieren; jedenfalls
                ſchickt mir, was Ihr an <del rend="strikethrough">ſonſti</del> localen und ſonſtigen
                Recenſionen bekommt, wenigſtens zum Anſehen hierher; ich ſchicke Euch doch auch immer
-               alles von mir.</p>
-            <p>»<workName key="pmb30141">Geſtern</workName>« hab ich nicht mit; wenn Richard es
-               braucht, soll er an <orgName key="pmb29216">Manz</orgName> (<placeName key="pmb597">
-                  <hi rend="latintype">Kohlmarkt</hi>
-               </placeName>) <pb facs="1893-07-08 Beinecke - 5"/>telegrafieren.</p>
-            <p>Ich tröſte mich am <persName key="pmb11461">Goethe</persName>–<persName key="pmb12654">Schiller</persName>'ſchen <workName key="pmb32408">Briefwechſel</workName> über unſere <del rend="strikethrough">mannigfache</del>
-               mangelhafte Berühmtheit (<persName key="pmb11461">Goethe</persName> mit <hi rend="underline" n="1">46</hi> Jahren in <placeName key="pmb842">Karlsbad</placeName> wird mit <persName key="pmb19441">
-                  <hi rend="underline" n="1">
-                     <hi rend="latintype">Klinger</hi>
-                  </hi>
-               </persName> verwechſelt) und habe
-               Euch ſehr gern. </p>
-            <closer>
-               <signed>Hugo.</signed>
-            </closer>
-         </div>
-      </body>
+               alles von mir.</p><p>»<rs ref="#pmb30141" type="work">Geſtern</rs>« hab ich nicht mit; wenn Richard es
+               braucht, soll er an <rs ref="#pmb29216" type="organisation">Manz</rs> (<rs ref="#pmb597" type="place"><hi rend="latintype">Kohlmarkt</hi></rs>) <pb facs="1893-07-08 Beinecke - 5"/>telegrafieren.</p><p>Ich tröſte mich am <rs ref="#pmb11461" type="person">Goethe</rs>–<rs ref="#pmb12654" type="person">Schiller</rs>'ſchen <rs ref="#pmb32408" type="work">Briefwechſel</rs> über unſere <del rend="strikethrough">mannigfache</del>
+               mangelhafte Berühmtheit (<rs ref="#pmb11461" type="person">Goethe</rs> mit <hi rend="underline" n="1">46</hi> Jahren in <rs ref="#pmb842" type="place">Karlsbad</rs> wird mit <rs ref="#pmb19441" type="person"><hi rend="underline" n="1"><hi rend="latintype">Klinger</hi></hi></rs> verwechſelt) und habe
+               Euch ſehr gern. </p><closer><signed>Hugo.</signed></closer></div></body>
    </text>
 </TEI>

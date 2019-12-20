@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-05-02_01_Kraus_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-05-02_01_Kraus_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Karl Kraus an Arthur Schnitzler, 2. 5. 1893</title>
-                <author key="pmb11988">Kraus, Karl</author>
+                <title level="a">Karl Kraus an Arthur Schnitzler, 2.&#160;5.&#160;1893</title>
+                <author ref="#pmb11988">Kraus, Karl</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -80,17 +84,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11988">Kraus, Karl</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1893-05-02" n="01">2. 5. 1895</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11988">Kraus, Karl</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1893-05-02" n="01">2.&#160;5.&#160;1895</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-03-22_01">Kraus an Schnitzler, 22. 3. 1893</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-05-05_01">Kraus an Schnitzler, 5. 5. 1893</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-03-22_01">Kraus an Schnitzler, 22.&#160;3.&#160;1893</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-05-05_01">Kraus an Schnitzler, 5.&#160;5.&#160;1893</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -101,29 +105,15 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs=""/>
-                        <placeName key="pmb50">Wien</placeName>, <date>2. Mai 1893</date>
-                    </dateline>
-                </opener>
-                <p>
-               <anchor type="commentary" xml:id="G8"/>Eben lese ich<note type="commentary" xml:id="G8h">Die <orgName key="29310">Wiener Zeitung</orgName> brachte
-                        bereits wenige Stunden nach <persName key="pmb12695">Johann
-                            Schnitzler</persName>s Tod in ihrer Beilage <orgName key="29622">Wiener
-                            Abendpost</orgName>, Nr. 100 vom 2. 5. 1893, S. 3, einen nicht
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><rs ref="#pmb50" type="place">Wien</rs>, <date>2.&#160;Mai 1893</date></dateline></opener><p><anchor type="commentary" xml:id="G8"/>Eben lese ich<note type="commentary" xml:id="G8h">Die <rs type="organisation" ref="29310">Wiener Zeitung</rs> brachte
+                        bereits wenige Stunden nach <rs ref="#pmb12695" type="person">Johann
+                            Schnitzler</rs>s Tod in ihrer Beilage <rs type="organisation" ref="29622">Wiener
+                            Abendpost</rs>, Nr. 100 vom 2. 5. 1893, S. 3, einen nicht
                         gezeichneten Beitrag: »<hi rend="spaced_out">Regierungsrath Professor
-                            Schnitzler </hi>.«</note>, <salute>hochverehrter Herr Doctor,
-                    </salute>von dem schmerzlichen <rs type="person" key="pmb12695">Ereignisse</rs>
+                            Schnitzler &#x86;</hi>.«</note>, <salute>hochverehrter Herr Doctor,
+                    </salute>von dem schmerzlichen <rs type="person" ref="#pmb12695" subtype="implied">Ereignisse</rs>
                     in Ihrer werten Familie. Nehmen Sie, verehrter, liebster Herr Doctor, die
                     Versicherung meiner <hi rend="underline" n="1">herzlichsten, innigsten
-                        Anteilnahme</hi>! Ich bin mit hochachtungsvollem Gruße Ihr treuer</p>
-                <closer>
-                    <signed>Karl Kraus</signed>
-                </closer>
-            </div>
-        </body>
+                        Anteilnahme</hi>! Ich bin mit hochachtungsvollem Gruße Ihr treuer</p><closer><signed>Karl Kraus</signed></closer></div></body>
     </text>
 </TEI>

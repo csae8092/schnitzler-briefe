@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1915-03-31_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1915-03-31_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 31. 3. [1915]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 31.&#160;3. [1915]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S. Von Schnitzler mit Bleistift
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S. Von Schnitzler mit Bleistift
                                     beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>« und
@@ -72,8 +76,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -92,19 +96,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1915-03-31" n="01">31. 3. [1915]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1915-03-31" n="01">31.&#160;3.&#160;[1915]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
 
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1914-09-24_01">Hofmannsthal an Schnitzler, 24. 9. 1914</ptr>
-               <ptr type="next" subtype="toAuthor" target="1915-05-27_01">Hofmannsthal an Schnitzler, 27. 5. 1915</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1914-09-24_01">Hofmannsthal an Schnitzler, 24.&#160;9.&#160;1914</ptr>
+               <ptr type="next" subtype="toAuthor" target="1915-05-27_01">Hofmannsthal an Schnitzler, 27.&#160;5.&#160;1915</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -114,43 +118,20 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="MS-SCHNITZLER-B-00043-B-00003-000-00189"/>
-                  <date>31. III</date>
-               </dateline>
-                    <salute>mein lieber Arthur</salute>
-                </opener>
-                <p>ich bitte Sie, ſagen Sie mir den Namen eines Ihres Erachtens guten Nervenarztes
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00003-000-00189"/><date>31.&#160;III</date></dateline><salute>mein lieber Arthur</salute></opener><p>ich bitte Sie, ſagen Sie mir den Namen eines Ihres Erachtens guten Nervenarztes
                         (<hi rend="latintype">Psychiaters</hi>) mit dem ich vertrauensvoll über
-                    meine wirklich abſurden Nerven ſprechen könnte. – Zugleich müßte es aber
+                    meine wirklich abſurden Nerven ſprechen könnte.&#160;– Zugleich müßte es aber
                     jemand ſein, der auch für’s Militär eine <hi rend="underline" n="1">Autorität</hi> wäre, womöglich ſelbſt im Dienſte, ſo daſs ſein Gutachten
-                    eventuell <subst>
-                        <del rend="strikethrough">die</del>
-                        <add place="above">zur</add>
-                    </subst> Anbahnung eines längeren Krankheitsurlaubes bei einer (ſehr
-                    wohlwollenden) Militärſtelle dienen könnte.</p>
-                <p>Wenn es endlich jemand wäre mit dem Sie <del rend="strikethrough">und</del> oder
-                        <persName key="pmb12698">Julius</persName> in irgendwelcher Beziehung ſind
+                    eventuell <subst><del rend="strikethrough">die</del><add place="above">zur</add></subst> Anbahnung eines längeren Krankheitsurlaubes bei einer (ſehr
+                    wohlwollenden) Militärſtelle dienen könnte.</p><p>Wenn es endlich jemand wäre mit dem Sie <del rend="strikethrough">und</del> oder
+                        <rs ref="#pmb12698" type="person">Julius</rs> in irgendwelcher Beziehung ſind
                     wäre es umſo beſſer, doch iſt dies minder wichtig. Bitte ſprechen Sie allenfalls
-                    mit <persName key="pmb12698">Julius</persName> und ſchreiben mir den Namen
+                    mit <rs ref="#pmb12698" type="person">Julius</rs> und ſchreiben mir den Namen
                     möglichſt bald expreſs <pb facs="MS-SCHNITZLER-B-00043-B-00003-000-00190"/>nach
-                        <placeName key="pmb173">Rodaun</placeName>.</p>
-                <p>
-               <persName key="pmb11737">Papa</persName> hat ſich mit Ihrem <anchor type="commentary" xml:id="KL2235-1"/>Beſuch<note type="commentary" xml:id="KL2235-1h">Am <date>16. 3. 1915</date>. <persName key="pmb2121">Schnitzler</persName> wiederholte ihn am
-                            <date>1. 4. 1915</date>, was als impliziter Hinweis genommen
+                        <rs ref="#pmb173" type="place">Rodaun</rs>.</p><p><rs ref="#pmb11737" type="person">Papa</rs> hat ſich mit Ihrem <anchor type="commentary" xml:id="KL2235-1"/>Beſuch<note type="commentary" xml:id="KL2235-1h">Am <date>16.&#160;3.&#160;1915</date>. <rs ref="#pmb2121" type="person">Schnitzler</rs> wiederholte ihn am
+                            <date>1.&#160;4.&#160;1915</date>, was als impliziter Hinweis genommen
                         werden kann, dass er diesen Brief zu dem Zeitpunkt bereits erhalten
                         hatte.</note> ſo ſehr gefreut. Vielleicht wiederholen Sie ihn noch einmal!
-                    Es wäre ſehr lieb.</p>
-                <p>Erwähnen Sie in dem Brief doch bitte auch ob Ihr über <date>Oſtern</date>
-               <space unit="chars" quantity="1"/>
-               <hi rend="underline" n="1">hier</hi> ſeid.</p>
-                <closer>Ihr<lb/>
-               <signed>Hugo.</signed>
-                </closer>
-            </div>
-        </body>
+                    Es wäre ſehr lieb.</p><p>Erwähnen Sie in dem Brief doch bitte auch ob Ihr über <date>Oſtern</date><space unit="chars" quantity="1"/><hi rend="underline" n="1">hier</hi> ſeid.</p><closer>Ihr<lb/><signed>Hugo.</signed></closer></div></body>
     </text>
 </TEI>

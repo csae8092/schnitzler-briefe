@@ -1,14 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-12-31_04_AS-Kraus-Schik_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+    xml:id="L1893-12-31_04_AS-Kraus-Schik_Beer-Hofmann">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Arthur Schnitzler, Karl Kraus und Friedrich Schik an Richard
-                    Beer-Hofmann, [31. 12. 1893?]</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
-                <author key="pmb11988">Kraus, Karl</author>
-                <author key="pmb2420">Schik, Friedrich</author>
+                    Beer-Hofmann, [31.&#160;12.&#160;1893?]</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
+                <author ref="#pmb11988">Kraus, Karl</author>
+                <author ref="#pmb2420">Schik, Friedrich</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -62,8 +65,8 @@
                 <listBibl>
                     <biblStruct corresp="ASBH">
                         <monogr>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
-                            <author key="pmb10863">Beer-Hofmann, Richard</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                             <title level="m">Briefwechsel 1891–1931</title>
                             <editor>Hg. Konstanze Fliedl</editor>
                             <imprint>
@@ -83,18 +86,18 @@
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <persName key="pmb11988">Kraus, Karl</persName>
-                    <persName key="pmb2420">Schik, Friedrich</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1893-12-31" n="04">[31. 12. 1893?]</date>
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <persName ref="#pmb11988">Kraus, Karl</persName>
+                    <persName ref="#pmb2420">Schik, Friedrich</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1893-12-31" n="04">[31.&#160;12.&#160;1893?]</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+                    <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                 </correspAction>
                 <correspContext>
-                    <ptr type="previous" subtype="toAuthor" target="1893-11-15_01">Beer-Hofmann an Schnitzler, [15. 11. 1893]</ptr>
-                    <ptr type="next" subtype="toAuthor" target="1894-01-04_01">Schnitzler an Beer-Hofmann, 4. 1. 1894</ptr>
+                    <ptr type="previous" subtype="toAuthor" target="1893-11-15_01">Beer-Hofmann an Schnitzler, [15.&#160;11.&#160;1893]</ptr>
+                    <ptr type="next" subtype="toAuthor" target="1894-01-04_01">Schnitzler an Beer-Hofmann, 4.&#160;1.&#160;1894</ptr>
                 </correspContext>
             </correspDesc>
         </profileDesc>
@@ -110,40 +113,16 @@
         <graphic url="1893_AS_RBH_3_00009.jpeg"/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-                    <pb facs="1893_AS_RBH_3_00009.jpeg"/>An den Verfaſſer des »<workName key="pmb30437">Kinds</workName>«. –</p>
-                <p>Wir haben ½ Stunde ununterbrochen über Sie <anchor type="commentary" xml:id="KL2325-1"/>geſprochen<note type="commentary" xml:id="KL2325-1h">Die
-                        drei Unterzeichner sind laut <workName key="pmb33243">Tagebuch</workName> am
-                            <date>31. 12. 1893</date> gemeinsam im Kaffeehaus.</note>. Auch der <rs type="person" key="pmb2167">Autor</rs> des »<anchor type="commentary" xml:id="KL2325-2"/>
-                    <workName key="pmb34361">Begräbniſſes</workName>
-                    <note type="commentary" xml:id="KL2325-2h">
-                        <bibl>
-                            <persName key="pmb2167">Felix Salten</persName>: <workName key="pmb34361">Begräbnis</workName>. In: <workName key="pmb36352">Mährisches Tagblatt</workName>, Jg. 14, Nr. 160,
-                                <date>17. 7. 1893</date>, S. 1–2. </bibl>
-                    </note>« blieb nicht unerwähnt. – Es iſt bedauerlich, daß ſolche Männer ihre
-                    Nächte in Dominoorgien hinbringen. –</p>
-                <closer>
-                    <pb facs="1893_AS_RBH_3_00008.jpeg"/>In Hochachtung</closer>
-                <p rend="center">
-                    <hi rend="pre-print">D<hi rend="superscript">r</hi>Arthur Schnitzler</hi>
-                </p>
-            </div>
-            <div type="writingSession" n="2">
-                <p>
-                    <handShift scribe="pmb11988"/>in aufrichtiger Bewunderung u. Wertschätzung</p>
-                <closer>
-                    <signed>KarlKraus</signed>
-                </closer>
-            </div>
-            <div type="writingSession" n="4">
-                <p>
-                    <handShift scribe="pmb2420"/>ergebenſt</p>
-                <closer>
-                    <signed>FSchik</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><p><pb facs="1893_AS_RBH_3_00009.jpeg"/>An den Verfaſſer des »<rs
+                        ref="#pmb30437" type="work">Kinds</rs>«.&#160;–</p><p>Wir haben ½&#160;Stunde ununterbrochen über Sie <anchor type="commentary"
+                        xml:id="KL2325-1"/>geſprochen<note type="commentary" xml:id="KL2325-1h">Die
+                        drei Unterzeichner sind laut <rs ref="#pmb33243" type="work">Tagebuch</rs> am
+                            <date>31.&#160;12.&#160;1893</date> gemeinsam im Kaffeehaus.</note>. Auch der <rs
+                        type="person" ref="#pmb2167" subtype="implied">Autor</rs> des »<anchor type="commentary"
+                        xml:id="KL2325-2"/><rs ref="#pmb34361" type="work">Begräbniſſes</rs><note type="commentary" xml:id="KL2325-2h"><bibl><rs ref="#pmb2167" type="person">Felix Salten</rs>: <rs
+                                ref="#pmb34361" type="work">Begräbnis</rs>. In: <rs ref="#pmb36352" type="work"
+                                >Mährisches Tagblatt</rs>, Jg.&#160;14, Nr.&#160;160,
+                                <date>17.&#160;7.&#160;1893</date>, S.&#160;1–2. </bibl></note>« blieb nicht unerwähnt.&#160;– Es iſt bedauerlich, daß ſolche Männer ihre
+                    Nächte in Dominoorgien hinbringen.&#160;–</p><closer><pb facs="1893_AS_RBH_3_00008.jpeg"/>In Hochachtung</closer><p rend="center"><hi rend="pre-print">D<hi rend="superscript">r</hi>Arthur Schnitzler</hi></p></div><div type="writingSession" n="2"><p><handShift scribe="pmb11988"/>in aufrichtiger Bewunderung u. Wertschätzung</p><closer><signed>KarlKraus</signed></closer></div><div type="writingSession" n="4"><p><handShift scribe="pmb2420"/>ergebenſt</p><closer><signed>FSchik</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1924-12-31_01_Braun_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1924-12-31_01_Braun_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Felix Braun an Arthur Schnitzler, 31. 12. 1924</title>
-                <author key="pmb11002">Braun, Felix</author>
+                <title level="a">Felix Braun an Arthur Schnitzler, 31.&#160;12.&#160;1924</title>
+                <author ref="#pmb11002">Braun, Felix</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -54,9 +58,9 @@
                              <physDesc>
                                  <p>eh. Postkarte.</p>
                                  <stamp n="1">
-                                     <placeName key="pmb66">
-                              <unclear>16/1</unclear> Wien</placeName>
-                                     <date when="1924-12-31">31. XII. 2<unclear>4</unclear>
+                                     <rs ref="#pmb66" type="place">
+                              <unclear>16/1</unclear> Wien</rs>
+                                     <date when="1924-12-31">31.&#160;XII.&#160;2<unclear>4</unclear>
                            </date>
                                      <time>9</time>
                                  </stamp>
@@ -71,18 +75,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
         <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11002">Braun, Felix</persName>
-               <placeName key="pmb50">Wien</placeName>
-                <date when="1924-12-31" n="01">13. 12. 1924</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11002">Braun, Felix</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+                <date when="1924-12-31" n="01">13.&#160;12.&#160;1924</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1924-12-28_01">Schnitzler an Braun,  28. 12. 1924</ptr>
-               <ptr type="next" subtype="toAuthor" target="1925-12-14_01">Braun an Schnitzler, 14. 12. 1925</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1924-12-28_01">Schnitzler an Braun,  28.&#160;12.&#160;1924</ptr>
+               <ptr type="next" subtype="toAuthor" target="1925-12-14_01">Braun an Schnitzler, 14.&#160;12.&#160;1925</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -92,54 +96,9 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <pb facs=""/>
-                  <hi rend="latintype">Felix Braun</hi>
-               </addrLine>
-                    <addrLine>
-                  <placeName key="pmb288">
-                     <hi rend="latintype">Wien – Sievering</hi>
-                  </placeName>
-               </addrLine>
-                </address>
-                <address>
-                    <addrLine>
-                  <hi rend="latintype">Herrn Dr.</hi>
-               </addrLine>
-                    <addrLine>
-                  <hi rend="latintype">Arthur Schnitzler</hi>
-               </addrLine>
-                    <addrLine>
-                  <placeName key="pmb68">
-                     <hi rend="latintype">Wien XVIII.</hi>
-                  </placeName>
-               </addrLine>
-                    <addrLine>
-                  <placeName key="pmb150">
-                     <hi rend="latintype">Sternwartestraße 71</hi>
-                  </placeName>
-               </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-              <opener>
-                  <dateline rend="center">
-                  <pb facs=""/>
-                  <placeName key="pmb50">Wien</placeName> / <date>31. XII. 24</date>
-               </dateline>
-                  <salute>Verehrter Herr Doktor!</salute>
-              </opener>
-                <p>Vielen, herzlichen Dank für Ihre ſehr liebe Karte! Inzwiſchen iſt wohl auch
-                mein Brief mit dem Dank für das <rs type="work" key="pmb29941">Geſchenk</rs> gekommen, das Sie mir ſo freundlich
+        <body><div type="address"><address><addrLine><pb facs=""/><hi rend="latintype">Felix Braun</hi></addrLine><addrLine><rs ref="#pmb288" type="place"><hi rend="latintype">Wien – Sievering</hi></rs></addrLine></address><address><addrLine><hi rend="latintype">Herrn Dr.</hi></addrLine><addrLine><hi rend="latintype">Arthur Schnitzler</hi></addrLine><addrLine><rs ref="#pmb68" type="place"><hi rend="latintype">Wien XVIII.</hi></rs></addrLine><addrLine><rs ref="#pmb150" type="place"><hi rend="latintype">Sternwartestraße 71</hi></rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="center"><pb facs=""/><rs ref="#pmb50" type="place">Wien</rs> / <date>31.&#160;XII.&#160;24</date></dateline><salute>Verehrter Herr Doktor!</salute></opener><p>Vielen, herzlichen Dank für Ihre ſehr liebe Karte! Inzwiſchen iſt wohl auch
+                mein Brief mit dem Dank für das <rs type="work" ref="#pmb29941" subtype="implied">Geſchenk</rs> gekommen, das Sie mir ſo freundlich
                 gemacht haben. Möchte Ihnen, verehrter Herr Doktor, das neue Jahr viel Gutes
-                bringen!</p>
-                <closer>In herzlicher Ergebenheit Ihr<lb/>
-               <signed>Felix Braun.</signed>
-            </closer>
-            </div>
-        </body>
+                bringen!</p><closer>In herzlicher Ergebenheit Ihr<lb/><signed>Felix Braun.</signed></closer></div></body>
     </text>
 </TEI>

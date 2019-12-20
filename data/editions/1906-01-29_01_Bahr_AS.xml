@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1906-01-29_01_Bahr_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1906-01-29_01_Bahr_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 29. 1. 1906</title>
-            <author key="pmb10815">Bahr, Hermann</author>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 29.&#160;1.&#160;1906</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                <name full="yes" instant="false">Müller, Martin Anton</name>
             </editor>
@@ -51,7 +55,7 @@
                         <idno>HS Schn 1/29/1</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 S., 1 Bl. Da sich dieser Brief im Nachlass Heinrich
+                        <p>eh. Brief, 1&#160;S., 1&#160;Bl. Da sich dieser Brief im Nachlass Heinrich
                            Schnitzlers befindet, aber auch durch die Abschriften des Briefwechsels
                            gesichert ist, dürfte er nach dem Abschreiben nicht retourniert worden
                            sein.</p>
@@ -62,8 +66,8 @@
             <listBibl>
                <biblStruct corresp="HBAS">
                   <monogr>
-                     <author key="pmb10815">Bahr, Hermann</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1906-01-29" n="01">29. 1. 1906</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1906-01-29" n="01">29.&#160;1.&#160;1906</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1905-10-13_03">Schnitzler an Bahr, 13. 10. 1905</ptr>
-               <ptr type="next" subtype="toAuthor" target="1906-01-29_02">Schnitzler an Bahr, 29. 1. 1906</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1905-10-13_03">Schnitzler an Bahr, 13.&#160;10.&#160;1905</ptr>
+               <ptr type="next" subtype="toAuthor" target="1906-01-29_02">Schnitzler an Bahr, 29.&#160;1.&#160;1906</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -102,28 +106,11 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>29. 1. 06</date>
-                  <lb/>
-                  <placeName key="pmb165">Wien XIII<hi rend="subscript">/7</hi>
-                  </placeName>
-               </dateline>
-               <salute rend="center">Lieber Arthur!</salute>
-            </opener>
-            <p>Ich hatte den »<workName key="pmb29905">Ruf des Lebens</workName>« sogleich mit der
-               Bezeichnung »von mir angenommen« nach <placeName key="pmb38129">München</placeName>
-               geschickt und mir die Genehmigung des <rs type="person" key="pmb12813">Intendanten</rs> als mir besonders wichtig dringend erbeten. Eben kommt sein
-               Brief, der sie verweigert, angeblich aus Bedenken gegen den <rs type="work" key="pmb29905">zweiten Akt</rs>. Es ist das nur ein Glied in der Kette von kleinen
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>29.&#160;1.&#160;06</date><lb/><rs ref="#pmb165" type="place">Wien XIII<hi rend="subscript">/7</hi></rs></dateline><salute rend="center">Lieber Arthur!</salute></opener><p>Ich hatte den »<rs ref="#pmb29905" type="work">Ruf des Lebens</rs>« sogleich mit der
+               Bezeichnung »von mir angenommen« nach <rs ref="#pmb38129" type="place">München</rs>
+               geschickt und mir die Genehmigung des <rs type="person" ref="#pmb12813" subtype="implied">Intendanten</rs> als mir besonders wichtig dringend erbeten. Eben kommt sein
+               Brief, der sie verweigert, angeblich aus Bedenken gegen den <rs type="work" ref="#pmb29905" subtype="implied">zweiten Akt</rs>. Es ist das nur ein Glied in der Kette von kleinen
                Gemeinheiten, durch welche man mich jetzt aus meinem Contract herausekeln will, was
-               vermutlich gelingen wird.</p>
-            <closer>Mit vielen Grüßen an Frau <persName key="pmb2173">Olga</persName>
-               <lb/>herzlichst<lb/>Dein<lb/>
-               <signed>Hermann</signed>
-            </closer>
-         </div>
-      </body>
+               vermutlich gelingen wird.</p><closer>Mit vielen Grüßen an Frau <rs ref="#pmb2173" type="person">Olga</rs><lb/>herzlichst<lb/>Dein<lb/><signed>Hermann</signed></closer></div></body>
    </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-01-14_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1898-01-14_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 14. 1. 1898</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 14.&#160;1.&#160;1898</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Kartenbrief, schwarze Tinte. Von Schnitzler mit Bleistift
@@ -57,13 +61,13 @@
                                     </quote>«. Von unbekannter Hand nummeriert: »<quote>
                                         <del rend="strikethrough">106</del> 105</quote>«.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb50">Wien 3/3</placeName>
-                                    <date when="1898-01-14">14. 1. 98</date>
-                                    <time>12 1 N</time>
+                                    <rs ref="#pmb50" type="place">Wien 3/3</rs>
+                                    <date when="1898-01-14">14.&#160;1.&#160;98</date>
+                                    <time>12 1&#160;N</time>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb50">Wien 9/3</placeName>
-                                    <date when="1898-01-14">14. 1. 98</date>
+                                    <rs ref="#pmb50" type="place">Wien 9/3</rs>
+                                    <date when="1898-01-14">14.&#160;1.&#160;98</date>
                                     <time>5.N</time>
                                 </stamp>
                             </physDesc>
@@ -73,8 +77,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -93,19 +97,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1898-01-14" n="01">14. 1. 1898</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1898-01-14" n="01">14.&#160;1.&#160;1898</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1898-01-14">14. 1. 1898</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1898-01-14">14.&#160;1.&#160;1898</date>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1898-01-10_01">Hofmannsthal an Schnitzler, [10.? 1. 1898]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1898-01-25_04">Hofmannsthal an Schnitzler, 25. 1. 1898</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1898-01-10_01">Hofmannsthal an Schnitzler, [10.?&#160;1.&#160;1898]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1898-01-25_04">Hofmannsthal an Schnitzler, 25.&#160;1.&#160;1898</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -121,43 +125,11 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00188"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00188"/>
-                  <hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi>
-               </addrLine>
-                    <addrLine>
-                        <placeName key="pmb50">
-                     <hi rend="latintype">Wien</hi>
-                  </placeName>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb397">
-                     <hi rend="latintype">IX Franckgasse</hi> 1</placeName>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00187"/>mein lieber
-                        Arthur</salute>
-                </opener>
-                <p>wenn Sie zufällig ein oder gar 2 <hi rend="latintype">entrées</hi> für <anchor type="commentary" xml:id="KL2298-1"/>
-                    <date>Sonntag</date>
-                    <note type="commentary" xml:id="KL2298-1h">Am <date>16. 1. 1898</date> wurden
-                            <workName key="pmb30163">Weihnachts-Einkäufe</workName> und <workName key="pmb30005">Abschiedssouper</workName> neben anderen Stücken im
-                        Rahmen einer Wohltätigkeitsveranstaltung für den Verein <orgName key="pmb29576">Ferienheim</orgName> gegeben.</note> übrig hätten und dem
-                        <persName key="pmb10765">
-                        <hi rend="latintype">Poldy</hi>
-                    </persName> ſchicken wollten (d. h. nur wenn Sie ſie nicht anders verwenden
-                    wollen) würde es ihm ſehr viel Vergnügen machen.</p>
-                <closer>Ihr<lb/>
-                    <signed>Hugo.</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00188"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><rs ref="#pmb50" type="place"><hi rend="latintype">Wien</hi></rs></addrLine><addrLine><rs ref="#pmb397" type="place"><hi rend="latintype">IX Franckgasse</hi> 1</rs></addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00187"/>mein lieber
+                        Arthur</salute></opener><p>wenn Sie zufällig ein oder gar 2 <hi rend="latintype">entrées</hi> für <anchor type="commentary" xml:id="KL2298-1"/><date>Sonntag</date><note type="commentary" xml:id="KL2298-1h">Am <date>16.&#160;1.&#160;1898</date> wurden
+                            <rs ref="#pmb30163" type="work">Weihnachts-Einkäufe</rs> und <rs ref="#pmb30005" type="work">Abschiedssouper</rs> neben anderen Stücken im
+                        Rahmen einer Wohltätigkeitsveranstaltung für den Verein <rs ref="#pmb29576" type="organisation">Ferienheim</rs> gegeben.</note> übrig hätten und dem
+                        <rs ref="#pmb10765" type="person"><hi rend="latintype">Poldy</hi></rs> ſchicken wollten (d.&#160;h. nur wenn Sie ſie nicht anders verwenden
+                    wollen) würde es ihm ſehr viel Vergnügen machen.</p><closer>Ihr<lb/><signed>Hugo.</signed></closer></div></body>
     </text>
 </TEI>

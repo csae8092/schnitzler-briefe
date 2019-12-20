@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893_03_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893_03_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, [zwischen
-               5. 5. 1893 und 2. 5. 1894]</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+               5.&#160;5.&#160;1893 und 2.&#160;5.&#160;1894]</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -64,15 +68,15 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
                <date notBefore="1893-05-05" notAfter="1894-05-02" n="03">[zwischen
-                  5. 5. 1893 und 2. 5. 1894]</date>
+                  5.&#160;5.&#160;1893 und 2.&#160;5.&#160;1894]</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             
          </correspDesc>
@@ -88,25 +92,8 @@
       <graphic url="1893_AS_RBH_3_00011.jpeg"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="writingSession" n="1">
-            <p rend="center">
-               <pb facs="1893_AS_RBH_2_00010.jpeg"/>
-               <hi rend="pre-print">Dr. Arthur
-                  Schnitzler</hi>
-            </p>
-            
-            <p>herzlich grüßend</p>
-            <p>
-               <pb facs="1893_AS_RBH_2_00011.jpeg"/>
-               <hi rend="latintype">Herrn Dr. Rich. Beer
-                  Hofmann</hi>
-            </p>
-            <p>
-               <hi rend="latintype">
-                  <placeName key="pmb338">I. Wollzeile</placeName> 15.</hi>
-            </p>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><p rend="center"><pb facs="1893_AS_RBH_2_00010.jpeg"/><hi rend="pre-print">Dr. Arthur
+                  Schnitzler</hi></p><p>herzlich grüßend</p><p><pb facs="1893_AS_RBH_2_00011.jpeg"/><hi rend="latintype">Herrn Dr. Rich. Beer
+                  Hofmann</hi></p><p><hi rend="latintype"><rs ref="#pmb338" type="place">I. Wollzeile</rs> 15.</hi></p></div></body>
    </text>
 </TEI>

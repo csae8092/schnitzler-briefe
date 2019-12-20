@@ -73,7 +73,7 @@ let $return :=
         <list>{
         let $entities := doc($app:workIndex)//tei:bibl
         for $x in $entities
-            let $name := normalize-space(string-join($x/tei:title[@level='a']//text(), ' '))
+            let $name := normalize-space(string-join($x/tei:title//text(), ' '))
             let $description := normalize-space(string-join($x//text(), ' '))
             let $more := normalize-space($x//tei:idno[1 and @type="URL"]/text())
             where contains($name, $query)

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1925-05-24_01_Rung_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1925-05-24_01_Rung_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Gertrud Rung an Arthur Schnitzler, 24. 5. 1925</title>
-                <author key="pmb5558">Rung, Gertrud</author>
+                <title level="a">Gertrud Rung an Arthur Schnitzler, 24.&#160;5.&#160;1925</title>
+                <author ref="#pmb5558">Rung, Gertrud</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 17</idno>
+                                <idno>Schnitzler, B&#160;17</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., Lateinschrift, schwarze Tinte. Von
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., Lateinschrift, schwarze Tinte. Von
                                     Schnitzler mit Bleistift beschriftet: »<quote>
                               <p>
                                             <hi rend="latintype">Brandes</hi>
@@ -69,8 +73,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -89,14 +93,14 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb5558">Rung, Gertrud</persName>
-                    <placeName key="pmb30">Salzburg</placeName>
-                    <date when="1925-05-24" n="01">24. 5. 1925</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb5558">Rung, Gertrud</persName>
+                    <placeName ref="#pmb30">Salzburg</placeName>
+                    <date when="1925-05-24" n="01">24.&#160;5.&#160;1925</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             
          </correspDesc>
@@ -113,41 +117,22 @@
         <graphic url="MS-SCHNITZLER-B-00017-A-00001-000-00110"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00109"/>
-                        <placeName key="pmb230">Oesterreichischer Hof, Salzburg</placeName>
-                        <lb/>
-                        <date>24/5. 25</date>
-                    </dateline>
-                    <salute>Hochverehrter Herr Dr Schnitzler.</salute>
-                </opener>
-                <p>Dr <persName key="pmb10992">Brandes</persName> dankt Ihnen ergebenst für Ihren
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00109"/><rs ref="#pmb230" type="place">Oesterreichischer Hof, Salzburg</rs><lb/><date>24/5.&#160;25</date></dateline><salute>Hochverehrter Herr Dr Schnitzler.</salute></opener><p>Dr <rs ref="#pmb10992" type="person">Brandes</rs> dankt Ihnen ergebenst für Ihren
                     freundlichen Brief. Wie Sie wahrscheinlich aus den Zeitungen erfahren haben,
-                    erkrankte Dr <persName key="pmb10992">Brandes</persName> gleich nach seiner
+                    erkrankte Dr <rs ref="#pmb10992" type="person">Brandes</rs> gleich nach seiner
                     Ankunft hier an Bronchitis, und es sah für ein paar Tage recht ernst aus, aber
                     glücklicherweise ist es gut gegangen, die Krankheit ist beinahe vorüber und
                     Morgen <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00110"/>wird er, wenn das
-                    Wetter schön bleibt, spazieren fahren.</p>
-                <p>Mit Ausnahme der ersten Woche hat die Sonne jeden Tag von einem wolkenlosen
-                    Himmel niedergeschienen, und <placeName key="pmb30">Salzburg</placeName> hat sich in aller ihrer Schönheit dargeboten; die Stadt ist ja
-                    entzückend und ich hoffe, daß Dr <persName key="pmb10992">Brandes</persName> bald
+                    Wetter schön bleibt, spazieren fahren.</p><p>Mit Ausnahme der ersten Woche hat die Sonne jeden Tag von einem wolkenlosen
+                    Himmel niedergeschienen, und <rs ref="#pmb30" type="place">Salzburg</rs> hat sich in aller ihrer Schönheit dargeboten; die Stadt ist ja
+                    entzückend und ich hoffe, daß Dr <rs ref="#pmb10992" type="person">Brandes</rs> bald
                     im Stande sein wird kleinere Ausflüge zu machen und etwas von der Schönheit zu
-                    genießen.</p>
-                <p>Dr Brandes beauftragt mich Sie <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00110"/>zu sagen, daß auch für ihn war das Zusammensein mit Ihnen, hochverehrter Herr
+                    genießen.</p><p>Dr Brandes beauftragt mich Sie <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00110"/>zu sagen, daß auch für ihn war das Zusammensein mit Ihnen, hochverehrter Herr
                     Doktor, eine große Freude, und daß er sich bei Ihnen außerordentlich wohl
                     befunden habe. Er würde sich sehr freuen wenn Sie, wie Sie andeuteten, im Herbst
-                    nach <placeName key="pmb36300">Kopenhagen</placeName> kämen.</p>
-                <p>Ich möchte gern die Gelegenheit benützen und Ihnen, verehrter und lieber Herr
+                    nach <rs ref="#pmb36300" type="place">Kopenhagen</rs> kämen.</p><p>Ich möchte gern die Gelegenheit benützen und Ihnen, verehrter und lieber Herr
                     Doktor, vom Herzen danken für die schönen Stunden die ich bei Ihnen
-                    verbrachte.</p>
-                <closer>Mit besten Grüßen von Dr <persName key="pmb10992">Brandes</persName>
-                        und<space unit="chars" quantity="5"/>Ihrer<lb/>
-                    <signed>Gertrud Rung</signed>
-                </closer>
-            </div>
-        </body>
+                    verbrachte.</p><closer>Mit besten Grüßen von Dr <rs ref="#pmb10992" type="person">Brandes</rs>
+                        und<space unit="chars" quantity="5"/>Ihrer<lb/><signed>Gertrud Rung</signed></closer></div></body>
     </text>
 </TEI>

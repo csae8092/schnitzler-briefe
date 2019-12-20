@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-11-24_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1899-11-24_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 24. 11. 1899</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 24.&#160;11.&#160;1899</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -53,8 +56,8 @@
                      <physDesc>
                         <p>eh. Postkarte, schwarze Tinte.</p>
                         <stamp n="1">
-                           <placeName key="pmb51">Wien 1/1</placeName>
-                           <date>24 11 99</date>
+                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
+                           <date>24&#160;11&#160;99</date>
                            <time>12-1N</time>
                         </stamp>
                      </physDesc>
@@ -64,8 +67,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -85,17 +88,17 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1899-11-24" n="01">24. 11. 1899</date>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1899-11-24" n="01">24.&#160;11.&#160;1899</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-10-08_01">Schnitzler an Beer-Hofmann, 8. 10. 1899</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-11-24_02">Beer-Hofmann an Schnitzler, 24. 11. 1899</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-10-08_01">Schnitzler an Beer-Hofmann, 8.&#160;10.&#160;1899</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-11-24_02">Beer-Hofmann an Schnitzler, 24.&#160;11.&#160;1899</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -110,31 +113,10 @@
       <graphic url="1899_AS_RBH_3_00036.jpeg"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1899_AS_RBH_3_00035.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
-                     Beer-Hofmann</hi>
-                    </addrLine>
-               <addrLine>
-                  <placeName key="pmb50">Wien</placeName>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb338">I. Wollzeile 15</placeName>
-                  </hi>.</addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-                    <pb facs="1899_AS_RBH_3_00036.jpeg"/>Alſo es bleibt bei <date>Sonntag</date> um
-                  <time>5</time>. Sollten Sie etwa Luſt haben ſich den <persName key="pmb2249">Korff</persName> in der <workName key="pmb29917">Lbl.</workName> anzuſehn?
-               Herzlichſt Ihr</p>
-            <closer>
-               <signed>Arthur.</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="1899_AS_RBH_3_00035.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
+                     Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I. Wollzeile 15</rs></hi>.</addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1899_AS_RBH_3_00036.jpeg"/>Alſo es bleibt bei <date>Sonntag</date> um
+                  <time>5</time>. Sollten Sie etwa Luſt haben ſich den <rs ref="#pmb2249" type="person"
+                  >Korff</rs> in der <rs ref="#pmb29917" type="work">Lbl.</rs> anzuſehn?
+               Herzlichſt Ihr</p><closer><signed>Arthur.</signed></closer></div></body>
    </text>
 </TEI>

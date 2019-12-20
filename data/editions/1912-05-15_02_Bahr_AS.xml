@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1912-05-15_02_Bahr_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1912-05-15_02_Bahr_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 15. 5. 1912</title>
-            <author key="pmb10815">Bahr, Hermann</author>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 15.&#160;5.&#160;1912</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                <name full="yes" instant="false">Müller, Martin Anton</name>
             </editor>
@@ -51,7 +55,7 @@
                         <idno>A:Schnitzler, 85.1.148</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. von Schnitzler mit rotem Farbstift
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S.&#160;von Schnitzler mit rotem Farbstift
                               »<quote>Bild</quote>« beschrieben.</p>
                      </physDesc>
                   </msDesc>
@@ -73,8 +77,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">
                   <monogr>
-                     <author key="pmb10815">Bahr, Hermann</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
                      <imprint>
@@ -93,18 +97,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1912-05-15" n="02">15. 5. 1912</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1912-05-15" n="02">15.&#160;5.&#160;1912</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1911-11-18_01">Schnitzler an Bahr, 18. 11. 1911</ptr>
-               <ptr type="next" subtype="toAuthor" target="1912-05-25_01">Schnitzler an Bahr, 25. 5. 1912</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1911-11-18_01">Schnitzler an Bahr, 18.&#160;11.&#160;1911</ptr>
+               <ptr type="next" subtype="toAuthor" target="1912-05-25_01">Schnitzler an Bahr, 25.&#160;5.&#160;1912</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -117,18 +121,6 @@
       </revisionDesc>
    </teiHeader>
    <text type="card">
-      <body>
-         <div type="writingSession" n="1">
-            <p>Alles Schönste, alles Beste wünscht Dir von Herzen zum heutigen Tage</p>
-            <closer>Dein mitalternder<lb/>
-               <signed>Hermann</signed>
-            </closer>
-            <postscript>
-               <p>
-                  <date when="1912-05-15">15. 5. 12</date>
-               </p>
-            </postscript>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><p>Alles Schönste, alles Beste wünscht Dir von Herzen zum heutigen Tage</p><closer>Dein mitalternder<lb/><signed>Hermann</signed></closer><postscript><p><date when="1912-05-15">15.&#160;5.&#160;12</date></p></postscript></div></body>
    </text>
 </TEI>

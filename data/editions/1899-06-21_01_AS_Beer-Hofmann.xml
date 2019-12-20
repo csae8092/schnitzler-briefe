@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-06-21_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1899-06-21_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 21. 6. 1899</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 21.&#160;6.&#160;1899</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1899-06-21" n="01">21. 6. 1899</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1899-06-21" n="01">21.&#160;6.&#160;1899</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb34824">Seeboden</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb34824">Seeboden</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-06-16_01">Beer-Hofmann an Schnitzler, 16. 6. 1899</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-06-21_02">Schnitzler an Beer-Hofmann, 21. 6. 1899</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-06-16_01">Beer-Hofmann an Schnitzler, 16.&#160;6.&#160;1899</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-06-21_02">Schnitzler an Beer-Hofmann, 21.&#160;6.&#160;1899</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,18 +103,11 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb50">Wien</placeName>, <date when="1899-06-21">21. 6. 99</date>.</dateline>
-            </opener>
-            <p>
-               <salute>Lieber Richard, </salute>ich habe gestern Abend mit <persName key="pmb21236">Mayer</persName> gesprochen. Wir schlagen folgendes vor: dass wir etwa
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb50" type="place">Wien</rs>, <date when="1899-06-21">21.&#160;6.&#160;99</date>.</dateline></opener><p><salute>Lieber Richard, </salute>ich habe gestern Abend mit <rs ref="#pmb21236" type="person">Mayer</rs> gesprochen. Wir schlagen folgendes vor: dass wir etwa
                   <date>Mitte Juli</date> zu Ihnen kommen und Sie von dort mitnehmen (etwa 5 Tage
-               später). Wohin? Mir wäre ebenso wie <persName key="pmb21236">Mayer</persName> eine
-               Tour im <placeName key="pmb969">südtirol</placeName>ischen am sympathischesten (eine
-               Zusammenstellung hab ich); ich will nämlich dann, vielleicht mit <persName key="pmb21236">Mayer</persName>, an irgend einem hohen Punkt (<placeName key="pmb1060">San Martino</placeName>) 2-3 Wochen bleiben, auch länger und dort zu
+               später). Wohin? Mir wäre ebenso wie <rs ref="#pmb21236" type="person">Mayer</rs> eine
+               Tour im <rs ref="#pmb969" type="place">südtirol</rs>ischen am sympathischesten (eine
+               Zusammenstellung hab ich); ich will nämlich dann, vielleicht mit <rs ref="#pmb21236" type="person">Mayer</rs>, an irgend einem hohen Punkt (<rs ref="#pmb1060" type="place">San Martino</rs>) 2-3 Wochen bleiben, auch länger und dort zu
                arbeiten versuchen. Denn ich fühle, dass mein Organismus nach Höhenluft verlangt.
                Ihrer wahrscheinlich auch. Man hat ja offenbar nie recht, einem Menschen zu sagen, er
                habe keinen Grund verstimmt zu sein; – aber dass es mir heuer sehr nahe liegt, Ihnen
@@ -119,24 +116,14 @@
                schauem müsste, aber offenbar irr ich mich. Aber im Ernst, was haben Sie? – Mir
                scheint nun einmal, dass Sie selbst einfach durch Willen einiges dazu thun könnten,
                um wohl zu sein. Sie lassen sich gehn. Freilich, auch dagegen scheinen Sie keine
-               Gewalt zu haben.</p>
-            <p>Was mich anbelangt, so fühle ich jenes Unglück mit jedem Tag tiefer; der Sommer hat
-               so seine eigenen Qualen. – Zu arbeiten hab ich versucht. – Mit <persName key="pmb11740">Hugo</persName> hab ich gestern eine schöne Radpartie gemacht:
-                  <placeName key="pmb714">Edlacher Hof</placeName> – <placeName key="pmb40527">Singerin</placeName> – <placeName key="pmb1036">Gutenstein</placeName> –
-                  <placeName key="pmb40112">Pottenstein</placeName> – <placeName key="pmb40520">Vöslau</placeName>. Morgen Abend fahr ich nach <placeName key="pmb40529">Slavonien</placeName> und wünsche in den letzten <date>Junitagen</date> wieder
-               hier zu sein. Dann bleib ich etwa 10-12 Tage hier. <persName key="pmb11485">Paul
-                  Goldmann</persName>s Adresse einfach <orgName key="pmb29442">Frankfurter
-                  Zeitung</orgName>.</p>
-            <p>Die <placeName key="pmb423 pmb969">tirolische</placeName> Tour ist ungefähr; oder
-               wäre:</p>
-            <p>
-               <placeName key="pmb40556">Niederdorf</placeName> – <placeName key="pmb848">Schluderbach</placeName> – <placeName key="pmb40563">Tre Croci</placeName> –
-                  <placeName key="pmb34199">Cortina</placeName> – <placeName key="pmb40574">Caprile</placeName> – <placeName key="pmb40577">Fedaja</placeName> – <placeName key="pmb40371">Karersee</placeName> – <placeName key="pmb40578">Rollepass</placeName> – <placeName key="pmb1060">Martino</placeName> – <placeName key="pmb954">Trient</placeName>.</p>
-            <p>Einfacher: <placeName key="pmb40263">Bozen</placeName> – <placeName key="pmb40371">Karersee</placeName> u. s. w.</p>
-            <p>Leben Sie wohl, grüssen Sie <rs type="person" key="pmb10860">Weib</rs> und <rs type="person" key="pmb2668 pmb2534">Kind</rs>.</p>
-            <p>Herzlich der Ihre <signed>Arthur.</signed>
-            </p>
-         </div>
-      </body>
+               Gewalt zu haben.</p><p>Was mich anbelangt, so fühle ich jenes Unglück mit jedem Tag tiefer; der Sommer hat
+               so seine eigenen Qualen.&#160;– Zu arbeiten hab ich versucht.&#160;– Mit <rs ref="#pmb11740" type="person">Hugo</rs> hab ich gestern eine schöne Radpartie gemacht:
+                  <rs ref="#pmb714" type="place">Edlacher Hof</rs> – <rs ref="#pmb40527" type="place">Singerin</rs> – <rs ref="#pmb1036" type="place">Gutenstein</rs> –
+                  <rs ref="#pmb40112" type="place">Pottenstein</rs> – <rs ref="#pmb40520" type="place">Vöslau</rs>. Morgen Abend fahr ich nach <rs ref="#pmb40529" type="place">Slavonien</rs> und wünsche in den letzten <date>Junitagen</date> wieder
+               hier zu sein. Dann bleib ich etwa 10-12 Tage hier. <rs ref="#pmb11485" type="person">Paul
+                  Goldmann</rs>s Adresse einfach <rs ref="#pmb29442" type="organisation">Frankfurter
+                  Zeitung</rs>.</p><p>Die <rs ref="#pmb423 pmb969" type="place">tirolische</rs> Tour ist ungefähr; oder
+               wäre:</p><p><rs ref="#pmb40556" type="place">Niederdorf</rs> – <rs ref="#pmb848" type="place">Schluderbach</rs> – <rs ref="#pmb40563" type="place">Tre Croci</rs> –
+                  <rs ref="#pmb34199" type="place">Cortina</rs> – <rs ref="#pmb40574" type="place">Caprile</rs> – <rs ref="#pmb40577" type="place">Fedaja</rs> – <rs ref="#pmb40371" type="place">Karersee</rs> – <rs ref="#pmb40578" type="place">Rollepass</rs> – <rs ref="#pmb1060" type="place">Martino</rs> – <rs ref="#pmb954" type="place">Trient</rs>.</p><p>Einfacher: <rs ref="#pmb40263" type="place">Bozen</rs> – <rs ref="#pmb40371" type="place">Karersee</rs> u.&#160;s.&#160;w.</p><p>Leben Sie wohl, grüssen Sie <rs type="person" ref="#pmb10860" subtype="implied">Weib</rs> und <rs type="person" ref="#pmb2668 pmb2534" subtype="implied">Kind</rs>.</p><p>Herzlich der Ihre <signed>Arthur.</signed></p></div></body>
    </text>
 </TEI>

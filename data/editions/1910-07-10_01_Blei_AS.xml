@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1910-07-10_01_Blei_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1910-07-10_01_Blei_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Franz Blei an Arthur Schnitzler, 10. 7. 1910</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Franz Blei an Arthur Schnitzler, 10.&#160;7.&#160;1910</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                           <country>GB</country>            
                           <settlement>Cambridge</settlement>            
                           <repository>University Library</repository>            
-                          <idno>Schnitzler, B 14</idno>
+                          <idno>Schnitzler, B&#160;14</idno>
                       </msIdentifier>
                       <physDesc>
-                          <p>eh. Brief, 1 Bl., 1 S., Lateinschrift. Von Schnitzler beschriftet: »<quote>
+                          <p>eh. Brief, 1&#160;Bl., 1&#160;S., Lateinschrift. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Blei</hi>
                            </quote>«, von
                               unbekannter Hand
@@ -68,16 +72,16 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb10955">Blei, Franz</persName>
-                    <date when="1910-07-10" n="01">10. 7. 1910</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb10955">Blei, Franz</persName>
+                    <date when="1910-07-10" n="01">10.&#160;7.&#160;1910</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1909-12-17_01">Blei an Schnitzler, [17. 12. 1909]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1909-12-17_01">Blei an Schnitzler, [17.&#160;12.&#160;1909]</ptr>
                <ptr type="next" subtype="toAuthor" target="1911-01-01_01">Blei an Schnitzler, [Anfang? Januar 1911]</ptr>
             </correspContext>
          </correspDesc>
@@ -88,40 +92,14 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p>
-                  <pb facs="gray00766.pdf"/>
-                  <placeName key="pmb1169">Forte dei Marmi, Versilia, Ital.</placeName>
-                  <lb/>
-                  <placeName key="pmb1170">Casa Vignolo</placeName>.</p>
-                    <salute>Wertester Herr Schnitzler,</salute>
-            </opener>
-                <p>der Verleger <persName key="pmb5601">Georg Müller</persName>, <placeName key="pmb1168">München, Josefsplatz 7</placeName> möchte gerne in einem schönen Druck von 600 Exemplaren
-                    den »<anchor type="commentary" xml:id="KL898-1"/>
-               <workName key="pmb29855">Reigen</workName>« herausgeben<note type="commentary" xml:id="KL898-1h">Nicht verwirklicht.
-                        Keine Briefe <persName key="pmb5601">Georg Müller</persName>s finden sich in <persName key="pmb2121">Schnitzler</persName>s Nachlass. Das Vorhaben
-                    war Teil einer größeren Buchreihe, die auch, neben anderen, <persName key="pmb10815">Bahr</persName>s <workName key="pmb30963">Die Mutter</workName> und
-                    <workName key="pmb30435">Der Garten der Erkenntnis</workName> von <persName key="pmb10765">Leopold von Andrian-Werburg</persName> hätte enthalten sollen. (<bibl>Vgl. Hartmut Walravens, Angela Reinthal: <workName>Franz
-                    Blei als Berater des Verlages Georg Müller. Franz Bleis Briefe an Georg Müller</workName>. Wien: <orgName>Verlag der Österreichischen Akademie der Wissenschaften</orgName>
-                     <space unit="chars" quantity="1"/>
-                     <date>2015</date>, 
-                    S. 77–79, S. 118–120, S. 129</bibl>.)</note>, und ich möchte das
+        <body><div type="writingSession" n="1"><opener><p><pb facs="gray00766.pdf"/><rs ref="#pmb1169" type="place">Forte dei Marmi, Versilia, Ital.</rs><lb/><rs ref="#pmb1170" type="place">Casa Vignolo</rs>.</p><salute>Wertester Herr Schnitzler,</salute></opener><p>der Verleger <rs ref="#pmb5601" type="person">Georg Müller</rs>, <rs ref="#pmb1168" type="place">München, Josefsplatz 7</rs> möchte gerne in einem schönen Druck von 600 Exemplaren
+                    den »<anchor type="commentary" xml:id="KL898-1"/><rs ref="#pmb29855" type="work">Reigen</rs>« herausgeben<note type="commentary" xml:id="KL898-1h">Nicht verwirklicht.
+                        Keine Briefe <rs ref="#pmb5601" type="person">Georg Müller</rs>s finden sich in <rs ref="#pmb2121" type="person">Schnitzler</rs>s Nachlass. Das Vorhaben
+                    war Teil einer größeren Buchreihe, die auch, neben anderen, <rs ref="#pmb10815" type="person">Bahr</rs>s <rs ref="#pmb30963" type="work">Die Mutter</rs> und
+                    <rs ref="#pmb30435" type="work">Der Garten der Erkenntnis</rs> von <rs ref="#pmb10765" type="person">Leopold von Andrian-Werburg</rs> hätte enthalten sollen. (<bibl>Vgl. Hartmut Walravens, Angela Reinthal: <rs type="work">Franz
+                    Blei als Berater des Verlages Georg Müller. Franz Bleis Briefe an Georg Müller</rs>. Wien: <rs type="organisation">Verlag der Österreichischen Akademie der Wissenschaften</rs><space unit="chars" quantity="1"/><date>2015</date>, 
+                    S.&#160;77–79, S.&#160;118–120, S.&#160;129</bibl>.)</note>, und ich möchte das
                 empfehlend unterstützen. Wenn Sie prinzipiell damit einverstanden sind, 
-                bitte ich Sie, sich mit <persName key="pmb5601">G. Müller</persName> zu verständigen.</p>
-                
-                <closer>Mit bestem Grusse<lb/>
-               <unclear>Ihr</unclear>
-               <lb/>
-               <signed>Frz Blei</signed>
-                </closer>
-                <postscript>
-               <dateline>
-                  <date>10. Juli 1910</date>
-               </dateline>
-            </postscript>
-            </div>
-        </body>
+                bitte ich Sie, sich mit <rs ref="#pmb5601" type="person">G. Müller</rs> zu verständigen.</p><closer>Mit bestem Grusse<lb/><unclear>Ihr</unclear><lb/><signed>Frz Blei</signed></closer><postscript><dateline><date>10.&#160;Juli 1910</date></dateline></postscript></div></body>
     </text>
 </TEI>

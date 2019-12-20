@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1904-12-24_01_Burckhard_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1904-12-24_01_Burckhard_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Max Burckhard an Arthur Schnitzler, 24. [12. 1904]</title>
-                <author key="pmb11036">Burckhard, Max</author>
+                <title level="a">Max Burckhard an Arthur Schnitzler, 24. [12.&#160;1904]</title>
+                <author ref="#pmb11036">Burckhard, Max</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,11 +52,11 @@
                           <country>GB</country>            
                           <settlement>Cambridge</settlement>            
                           <repository>University Library</repository>            
-                          <idno>Schnitzler, B 20</idno>
+                          <idno>Schnitzler, B&#160;20</idno>
                       </msIdentifier>
                       <physDesc>
-                          <p>ms. Telegramm, aufgenommen durch <persName key="pmb29149">C. Neuberg</persName>. Von Schnitzler datiert mit Bleistift: »<quote>
-                              <date>24/12 904</date>
+                          <p>ms. Telegramm, aufgenommen durch <rs ref="#pmb29149" type="person">C. Neuberg</rs>. Von Schnitzler datiert mit Bleistift: »<quote>
+                              <date>24/12&#160;904</date>
                            </quote>«.</p>
                       </physDesc>
                   </msDesc>
@@ -65,18 +69,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11036">Burckhard, Max</persName>
-                    <placeName key="pmb33">St. Gilgen</placeName>
-                    <date when="1904-12-24" n="01">24. [12. 1904]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11036">Burckhard, Max</persName>
+                    <placeName ref="#pmb33">St.&#160;Gilgen</placeName>
+                    <date when="1904-12-24" n="01">24.&#160;[12.&#160;1904]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1904-01-02_01">Burckhard an Schnitzler, 2. 1. 1904</ptr>
-               <ptr type="next" subtype="toAuthor" target="1905-11-30_01">Burckhard an Schnitzler, 30. 11. 1905</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1904-01-02_01">Burckhard an Schnitzler, 2.&#160;1.&#160;1904</ptr>
+               <ptr type="next" subtype="toAuthor" target="1905-11-30_01">Burckhard an Schnitzler, 30.&#160;11.&#160;1905</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -86,21 +90,6 @@
         </revisionDesc>
     </teiHeader>
     <text type="telegram">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline>
-                  <pb facs="DSC_0655"/>fr <placeName key="pmb33">st gilgen</placeName> 35 13 <date>24</date>
-                  <space unit="chars" quantity="1"/>
-                  <time>2 35 n</time>
-               </dateline>
-                </opener>
-                <p>wetter herrlich. – was ists? herzliche weihnachtsgruesse</p>
-                <closer>
-               <signed>= burckhard. +</signed>
-            </closer>
-                
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><dateline><pb facs="DSC_0655"/>fr <rs ref="#pmb33" type="place">st&#160;gilgen</rs> 35 13 <date>24</date><space unit="chars" quantity="1"/><time>2&#160;35&#160;n</time></dateline></opener><p>wetter herrlich.&#160;– was ists? herzliche weihnachtsgruesse</p><closer><signed>= burckhard. +</signed></closer></div></body>
     </text>
 </TEI>

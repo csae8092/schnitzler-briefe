@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1900-12-21_01_Bahr_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1900-12-21_01_Bahr_AS">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 21. 12. [1900]</title>
-            <author key="pmb10815">Bahr, Hermann</author>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 21.&#160;12. [1900]</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,10 +53,10 @@
                         <country>GB</country>            
                         <settlement>Cambridge</settlement>            
                         <repository>University Library</repository>            
-                        <idno>Schnitzler, B 5b</idno>
+                        <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl, 3 S., von Schnitzler Jahreszahl »<quote>
+                        <p>eh. Brief, 1 Bl, 3&#160;S., von Schnitzler Jahreszahl »<quote>
                               <date>900</date>
                            </quote>« zum Datum ergänzt.</p>
                      </physDesc>
@@ -62,8 +66,8 @@
             <listBibl>                
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -82,13 +86,13 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">[Wien]</placeName>
-               <date when="1900-12-21" n="01">21. 12. [1900]</date>
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
+               <date when="1900-12-21" n="01">21.&#160;12.&#160;[1900]</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -107,40 +111,16 @@
       <graphic url="MS-B-00005-B-000-00116"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>2<subst>
-                        <del rend="overwritten">2</del>
-                        <add place="inline">1</add>
-                     </subst>
-                  </date>
-               </dateline>
-               <salute rend="center">Lieber Arthur!</salute>
-            </opener>
-            <p>
-               <persName key="pmb2161">Bukovics</persName> sagt mir, es sei über den <anchor type="commentary" xml:id="KL231-1"/>
-               <placeName key="pmb20">Volkstheater</placeName>abend<note type="commentary" xml:id="KL231-1h">Ein jährlich stattfindender Abend in einem
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>2<subst><del rend="overwritten">2</del><add place="inline">1</add></subst></date></dateline><salute rend="center">Lieber Arthur!</salute></opener><p><rs ref="#pmb2161" type="person">Bukovics</rs> sagt mir, es sei über den <anchor type="commentary" xml:id="KL231-1"/><rs ref="#pmb20" type="place">Volkstheater</rs>abend<note type="commentary" xml:id="KL231-1h">Ein jährlich stattfindender Abend in einem
             angemieteten Veranstaltungssaal mit speziellem Programm. <date>1901</date> fand er am
-                <date>9. 3.</date> in den <placeName key="pmb107">Sophiensälen</placeName> statt.
-            Vor der Eröffnung der Tanzfläche wurden Lieder gesungen und das Mimodrama <workName key="pmb32688">Die Hand</workName> von <persName key="pmb10879">Henri
-                Berény</persName> gegeben.</note> dieses Jahr noch nichts beschlossen.
+                <date>9.&#160;3.</date> in den <rs ref="#pmb107" type="place">Sophiensälen</rs> statt.
+            Vor der Eröffnung der Tanzfläche wurden Lieder gesungen und das Mimodrama <rs ref="#pmb32688" type="work">Die Hand</rs> von <rs ref="#pmb10879" type="person">Henri
+                Berény</rs> gegeben.</note> dieses Jahr noch nichts beschlossen.
                Ich mache Dich nur aufmerksam, daß bei dem späten Anfang (½ 11), der elenden Bühne
-               (meistens <placeName key="pmb19">Ronacher</placeName>) u. der kaum zu bändigenden
-               Tanzlust hier nur <pb facs="MS-B-00005-B-000-00115"/>ganz einfache u. rohe Sachen wirken.</p>
-            <p>Für die lieben Worte Deines Briefes danke ich Dir sehr und bin, Dir das
-          Beste wünschend,</p>
-            <closer>Dein alter<lb/>
-               <signed>Hermann</signed>
-            </closer>
-            <postscript>
-               <p>Hofrath <persName key="pmb11036">Burckhard</persName> möchte sehr
-          gern ein Exemplar der <pb facs="MS-B-00005-B-000-00116"/>
-                  <workName key="pmb29857">Beatrice</workName> haben;
-         kannst Du ihm nicht eins schicken?</p>
-            </postscript>
-         </div>
-      </body>
+               (meistens <rs ref="#pmb19" type="place">Ronacher</rs>) u. der kaum zu bändigenden
+               Tanzlust hier nur <pb facs="MS-B-00005-B-000-00115"/>ganz einfache u. rohe Sachen wirken.</p><p>Für die lieben Worte Deines Briefes danke ich Dir sehr und bin, Dir das
+          Beste wünschend,</p><closer>Dein alter<lb/><signed>Hermann</signed></closer><postscript><p>Hofrath <rs ref="#pmb11036" type="person">Burckhard</rs> möchte sehr
+          gern ein Exemplar der <pb facs="MS-B-00005-B-000-00116"/><rs ref="#pmb29857" type="work">Beatrice</rs> haben;
+         kannst Du ihm nicht eins schicken?</p></postscript></div></body>
   </text>
 </TEI>

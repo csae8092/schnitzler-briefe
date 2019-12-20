@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-06-01_01_AS_Boelsche">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-06-01_01_AS_Boelsche">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Wilhelm Bölsche, 1. 6. 1893</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Wilhelm Bölsche, 1.&#160;6.&#160;1893</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Böl.Pis 1767</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S. Briefpapier mit Trauerrand, schwarze
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S. Briefpapier mit Trauerrand, schwarze
                                     Tinte.</p>
                             </physDesc>
                         </msDesc>
@@ -60,7 +64,7 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb11061">Bölsche, Wilhelm</author>
+                            <author ref="#pmb11061">Bölsche, Wilhelm</author>
                             <title level="m">Briefwechsel. Mit Autoren der Freien Bühne</title>
                             <editor>Hg. Gerd-Hermann Susen</editor>
                             <imprint>
@@ -83,18 +87,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1893-06-01" n="01">1. 6. 1893</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1893-06-01" n="01">1.&#160;6.&#160;1893</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11061">Bölsche, Wilhelm</persName>
-                    <placeName key="pmb168">Berlin</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-04-10_01">Schnitzler an Bölsche, 10. 4. 1893</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-06-11_01">Schnitzler an Bölsche, 11. 6. 1893</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-04-10_01">Schnitzler an Bölsche, 10.&#160;4.&#160;1893</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-06-11_01">Schnitzler an Bölsche, 11.&#160;6.&#160;1893</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -110,46 +114,17 @@
         <!-- $$$$ Dateinamen müssen noch ergänzt werden! -->
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="BUWr Böl.Pis 1767-1"/>
-                        <date>1. Juni 93</date>
-                    </dateline>
-                    <salute>Sehr geehrter Herr<anchor type="commentary" xml:id="G9"/>Doktor<note type="commentary" xml:id="G9h">
-                     <persName key="pmb11061">Bölsche</persName> hatte zwar studiert, aber keinen
-                            Universitätsabschluss.</note>,</salute>
-                </opener>
-                <p>eine Frage: Wollen Sie mein dreiaktiges Schauſpiel <workName key="pmb29823">
-                        <hi n="1" rend="underline">Das Märchen</hi>
-                    </workName>, welches nächſte Saiſon am <orgName key="pmb35053">Leſſingtheater</orgName> zur Aufführung kommt, in der <workName key="pmb36166">
-                        <hi rend="underline" n="1">Freien Bühne</hi>
-                    </workName> bringen? Falls Sie im Princip einverſtanden ſind, ſo erlaube ich mir
-                    die weitere Frage, <hi n="1" rend="underline">unter welchen Bedingungen</hi>
-                    <space unit="chars" quantity="1"/>
-                    <pb facs="Böl.Pis 1767-2"/>und wann Sie mit der Veröffentlichung begi<c rendition="#gemination-n"/>en kö<c rendition="#gemination-n"/>ten. Mir läge
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="BUWr Böl.Pis 1767-1"/><date>1.&#160;Juni 93</date></dateline><salute>Sehr geehrter Herr<anchor type="commentary" xml:id="G9"/>Doktor<note type="commentary" xml:id="G9h"><rs ref="#pmb11061" type="person">Bölsche</rs> hatte zwar studiert, aber keinen
+                            Universitätsabschluss.</note>,</salute></opener><p>eine Frage: Wollen Sie mein dreiaktiges Schauſpiel <rs ref="#pmb29823" type="work"><hi n="1" rend="underline">Das Märchen</hi></rs>, welches nächſte Saiſon am <rs ref="#pmb35053" type="organisation">Leſſingtheater</rs> zur Aufführung kommt, in der <rs ref="#pmb36166" type="work"><hi rend="underline" n="1">Freien Bühne</hi></rs> bringen? Falls Sie im Princip einverſtanden ſind, ſo erlaube ich mir
+                    die weitere Frage, <hi n="1" rend="underline">unter welchen Bedingungen</hi><space unit="chars" quantity="1"/><pb facs="Böl.Pis 1767-2"/>und wann Sie mit der Veröffentlichung begi<c rendition="#gemination-n"/>en kö<c rendition="#gemination-n"/>ten. Mir läge
                     daran, daſs der erſte Akt ſchon im Juliheft erſchiene – das Stück ſelbſt hab ich
                         <del rend="overwritten">vor</del> Ihnen vor etwa 1 Jahre als Manuscript
                     gedruckt, eingeſchickt; ich ſende Ihnen natürlich ein andres Exemplar, ſobald
-                    Sie das Drama veröffentlichen wollen. –</p>
-                <p>Vor etwa 6 oder 7 Wochen hab <pb facs="Böl.Pis 1767-3"/>ich Ihnen eine kleine
-                    Skizze geſandt »<workName key="pmb30165">Die Braut</workName>« – was iſt’s mit
-                    der? –</p>
-                <p>– Jedenfalls will ich noch das höfliche Erſuchen hinzuſetzen, mich nicht zu lang
+                    Sie das Drama veröffentlichen wollen.&#160;–</p><p>Vor etwa 6 oder 7 Wochen hab <pb facs="Böl.Pis 1767-3"/>ich Ihnen eine kleine
+                    Skizze geſandt »<rs ref="#pmb30165" type="work">Die Braut</rs>« – was iſt’s mit
+                    der?&#160;–</p><p>– Jedenfalls will ich noch das höfliche Erſuchen hinzuſetzen, mich nicht zu lang
                     auf Antwort warten zu laſſen; es kommt mir auf eine raſche Erledigung meiner
                     Frage an, und ich appellire an Ihre Liebenswürdigkeit, mir Ihre Entſcheidung in
-                    möglichſt kurzer Zeit zu<pb facs="Böl.Pis 1767-4"/>ko<c rendition="#gemination-m"/>en zu laſſen.</p>
-                <closer>Mit beſondrer Hochachtung<lb/>
-                    <signed> Dr Arthur Schnitzler</signed>
-                </closer>
-                <postscript>
-                    <p>
-                        <placeName key="pmb412">
-                            <hi rend="latintype">Wien I. Grillparzerstraße 7</hi>
-                        </placeName>.</p>
-                </postscript>
-            </div>
-        </body>
+                    möglichſt kurzer Zeit zu<pb facs="Böl.Pis 1767-4"/>ko<c rendition="#gemination-m"/>en zu laſſen.</p><closer>Mit beſondrer Hochachtung<lb/><signed> Dr Arthur Schnitzler</signed></closer><postscript><p><rs ref="#pmb412" type="place"><hi rend="latintype">Wien I. Grillparzerstraße 7</hi></rs>.</p></postscript></div></body>
     </text>
 </TEI>

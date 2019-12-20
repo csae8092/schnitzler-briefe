@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1912-05-10_01_Altenberg_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1912-05-10_01_Altenberg_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Peter Altenberg an Arthur Schnitzler, [10.? 5. 1912]</title>
-                <author key="pmb2147">Altenberg, Peter</author>
+                <title level="a">Peter Altenberg an Arthur Schnitzler, [10.? 5.&#160;1912]</title>
+                <author ref="#pmb2147">Altenberg, Peter</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,11 +51,11 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 2</idno>
+                                <idno>Schnitzler, B&#160;2</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Briefpapier des
-                                        <placeName key="pmb204">Hotel Panhans</placeName>. Von
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte. Briefpapier des
+                                        <rs ref="#pmb204" type="place">Hotel Panhans</rs>. Von
                                     Schnitzler mit rotem Buntstift beschrieben: »<quote>(an Tisch <date>Mai
                                             1912</date>
                            </quote>«. Von unbekannter Hand ist neben den
@@ -69,18 +72,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2147">Altenberg, Peter</persName>
-                    <placeName key="pmb189">Semmering</placeName>
-                    <date when="1912-05-10" notBefore="1912-05-06" n="01">[10.? 5. 1912]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2147">Altenberg, Peter</persName>
+                    <placeName ref="#pmb189">Semmering</placeName>
+                    <date when="1912-05-10" notBefore="1912-05-06" n="01">[10.? 5.&#160;1912]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb189">Semmering</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb189">Semmering</placeName>
                 </correspAction>
             <correspContext>
                <ptr type="previous" subtype="toAuthor" target="1912-04-09_01">Altenberg an Schnitzler, [zwischen April und Oktober 1912]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1912-11-07_01">Altenberg an Schnitzler, [7. 11. 1912]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1912-11-07_01">Altenberg an Schnitzler, [7.&#160;11.&#160;1912]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -96,43 +99,16 @@
         <graphic url="MS-SCHNITZLER-B-00002-000-00020"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <p rend="right">
-               <pb facs="MS-SCHNITZLER-B-00002-000-00019"/>
-               <hi rend="pre-print">Semmering, am <c rendition="#dots" n="10"/>
-               </hi>
-            </p>
-                <p>Ich bitte ſehr, es dem Herrn <hi n="1" rend="underline">
-                  <hi rend="latintype">D<hi rend="superscript">r</hi>
-                  </hi> Arthur Schnitzler</hi> mitzuteilen,
-                    daſs ich noch nie eine ſo feine Novelle geleſen habe wie: »<workName key="pmb33758">
-                  <hi rend="latintype">Der Tod <pb facs="MS-SCHNITZLER-B-00002-000-00020"/>des
-                            Junggesellen</hi>
-               </workName>« in ſeinem <anchor type="commentary" xml:id="KL887-1"/>neuen Buche<note type="commentary" xml:id="KL887-1h">
-                  <persName key="pmb2121">Schnitzler</persName> hatte am
-                            <date>6. 5. 1912</date> sein erstes Exemplar in der Hand. Nachdem er im
-                            <date>Mai</date> keinen Aufenthalt am <placeName key="pmb189">Semmering</placeName> im <workName key="pmb33243">Tagebuch</workName>
+        <body><div type="writingSession" n="1"><p rend="right"><pb facs="MS-SCHNITZLER-B-00002-000-00019"/><hi rend="pre-print">Semmering, am <c rendition="#dots" n="10"/></hi></p><p>Ich bitte ſehr, es dem Herrn <hi n="1" rend="underline"><hi rend="latintype">D<hi rend="superscript">r</hi></hi> Arthur Schnitzler</hi> mitzuteilen,
+                    daſs ich noch nie eine ſo feine Novelle geleſen habe wie: »<rs ref="#pmb33758" type="work"><hi rend="latintype">Der Tod <pb facs="MS-SCHNITZLER-B-00002-000-00020"/>des
+                            Junggesellen</hi></rs>« in ſeinem <anchor type="commentary" xml:id="KL887-1"/>neuen Buche<note type="commentary" xml:id="KL887-1h"><rs ref="#pmb2121" type="person">Schnitzler</rs> hatte am
+                            <date>6.&#160;5.&#160;1912</date> sein erstes Exemplar in der Hand. Nachdem er im
+                            <date>Mai</date> keinen Aufenthalt am <rs ref="#pmb189" type="place">Semmering</rs> im <rs ref="#pmb33243" type="work">Tagebuch</rs>
                         erwähnt, bietet sich nur die Reise vom
-                            <date>10.</date>–<date>11. 5. 1912</date> nach <placeName key="pmb873">Triest</placeName> an, auf der er den
-                            <placeName key="pmb189">Semmering</placeName> passiert und
-                        möglicherweise Zwischenstation einlegte.</note>: »<workName key="pmb32816">
-                  <hi n="1" rend="underline">
-                     <hi rend="latintype">Masken und
-                            Wunder</hi>
-                  </hi>
-               </workName>«!</p>
-                <p>Auch bitte ich um ein Exemplar dieſes <rs type="work" key="pmb32816">Buches</rs>
-                    gratis.</p>
-                <closer>Ihr<lb/>
-                    <signed>Peter Altenberg</signed>
-                </closer>
-                <postscript>
-                    <p>
-                  <placeName key="pmb204">Semmering, Hotel Panhans</placeName>
-               </p>
-                </postscript>
-            </div>
-        </body>
+                            <date>10.</date>–<date>11.&#160;5.&#160;1912</date> nach <rs ref="#pmb873" type="place">Triest</rs> an, auf der er den
+                            <rs ref="#pmb189" type="place">Semmering</rs> passiert und
+                        möglicherweise Zwischenstation einlegte.</note>: »<rs ref="#pmb32816" type="work"><hi n="1" rend="underline"><hi rend="latintype">Masken und
+                            Wunder</hi></hi></rs>«!</p><p>Auch bitte ich um ein Exemplar dieſes <rs type="work" ref="#pmb32816" subtype="implied">Buches</rs>
+                    gratis.</p><closer>Ihr<lb/><signed>Peter Altenberg</signed></closer><postscript><p><rs ref="#pmb204" type="place">Semmering, Hotel Panhans</rs></p></postscript></div></body>
     </text>
 </TEI>

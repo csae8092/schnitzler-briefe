@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1910-07-13_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1910-07-13_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 13. 7. 1910</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 13.&#160;7.&#160;1910</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,19 +85,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb173">Rodaun</placeName>
-               <date when="1910-07-13" n="01">13. 7. 1910</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb173">Rodaun</placeName>
+               <date when="1910-07-13" n="01">13.&#160;7.&#160;1910</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
                <ptr type="previous" subtype="toAuthor" target="1910-06-18_01">Schnitzler an Hofmannsthal, [nach dem
-                  18. 6. 1910?]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1910-07-23_01">Hofmannsthal, Friedmann, Hofmannsthal, Friedmann an Schnitzler, 23. 7. 1910</ptr>
+                  18.&#160;6.&#160;1910?]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1910-07-23_01">Hofmannsthal, Friedmann, Hofmannsthal, Friedmann an Schnitzler, 23.&#160;7.&#160;1910</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -102,17 +106,7 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb173">Rodaun</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date>13 Juli.</date>
-               </dateline>
-               <salute>mein lieber Arthur, </salute>
-            </opener>
-            <p>neulich hatte ich einmal den Gedanken: man wohnt doch in der selben Stadt – so kann
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb173" type="place">Rodaun</rs><space unit="chars" quantity="1"/><date>13 Juli.</date></dateline><salute>mein lieber Arthur, </salute></opener><p>neulich hatte ich einmal den Gedanken: man wohnt doch in der selben Stadt – so kann
                man doch ein Mal, wenn man sich wünscht, den andern zu sehen, auch Glück haben, ohne
                erst einen Brief zu schreiben oder ein Telegramm zu schicken – und als ich dann bei
                Euch die Treppe heruntergehen mußte, war ich unverhältnismäßig traurig. Freilich das
@@ -121,33 +115,23 @@
                miteinander, man ist sich weder fremder, noch uninteressanter, noch weniger lieb
                geworden, sondern im Gegenteil vielleicht, man gehört demselben Berufe an, man wohnt
                in einer Stadt – und man verbringt keine 20 Stunden im Jahr miteinander! Mir geht es
-               furchtbar ab, – Euch, Ihnen und <persName key="pmb10863">Richard</persName> offenbar
-               viel weniger, das ist ja Temperamentssache. Am <placeName key="pmb259">Lido</placeName> hatte ich oft daran gedacht, hatte so sicher gehofft, in diesen
-               3 Wochen <date>Juli</date> würde man sich mehr als einmal sehen, – es sind Jahre
-               her, daß Sie nicht in meinem <rs type="place" key="pmb40297">Haus</rs> waren! – und
+               furchtbar ab,&#160;– Euch, Ihnen und <rs ref="#pmb10863" type="person">Richard</rs> offenbar
+               viel weniger, das ist ja Temperamentssache. Am <rs ref="#pmb259" type="place">Lido</rs> hatte ich oft daran gedacht, hatte so sicher gehofft, in diesen
+               3 Wochen <date>Juli</date> würde man sich mehr als einmal sehen,&#160;– es sind Jahre
+               her, daß Sie nicht in meinem <rs type="place" ref="#pmb40297" subtype="implied">Haus</rs> waren! – und
                nun kommt es so. In dieser Woche, wo wir noch hier sind, übersiedelt Ihr, zu Anfang
-               der nächsten Woche fahren wir mit den <persName key="pmb16670 pmb16658">Friedmanns</persName> fort, über <placeName key="pmb38129">München</placeName> an
-               den <placeName key="pmb668">Bodensee</placeName> (eine Landschaft, die ich nicht
-               kenne und mir lange wünsche) dann über den <placeName key="pmb40310">Arlberg</placeName> nach <placeName key="pmb423">Tirol</placeName> hinein und
-               sind ungefähr die ersten 10 Tage des <date>August</date> in <placeName key="pmb40307">Canazei</placeName>. Dann sind wir für viele Wochen in <placeName key="pmb415">Aussee</placeName>. Kommt doch im <date>September</date> ein bissl
-               dorthin, da ist gewöhnlich eine so schöne Zeit. </p>
-            <p>Wenn Ihr jemals wieder nach <placeName key="pmb423">Tirol</placeName> geht, will ich
+               der nächsten Woche fahren wir mit den <rs ref="#pmb16670 pmb16658" type="person">Friedmanns</rs> fort, über <rs ref="#pmb38129" type="place">München</rs> an
+               den <rs ref="#pmb668" type="place">Bodensee</rs> (eine Landschaft, die ich nicht
+               kenne und mir lange wünsche) dann über den <rs ref="#pmb40310" type="place">Arlberg</rs> nach <rs ref="#pmb423" type="place">Tirol</rs> hinein und
+               sind ungefähr die ersten 10 Tage des <date>August</date> in <rs ref="#pmb40307" type="place">Canazei</rs>. Dann sind wir für viele Wochen in <rs ref="#pmb415" type="place">Aussee</rs>. Kommt doch im <date>September</date> ein bissl
+               dorthin, da ist gewöhnlich eine so schöne Zeit. </p><p>Wenn Ihr jemals wieder nach <rs ref="#pmb423" type="place">Tirol</rs> geht, will ich
                alles tun, um für eine Zeit an den gleichen Ort zu kommen; ich habe eine so schöne
-               hebe Erinnerung an die Tage in <placeName key="pmb15446">Welsberg</placeName> – das
-               ist aber auch schon wieder 4 Jahre her. </p>
-            <p>Vielen Dank für Ihre so lieben Zeilen nach der <workName key="pmb41611">Cristina</workName>. Ein
+               hebe Erinnerung an die Tage in <rs ref="#pmb15446" type="place">Welsberg</rs> – das
+               ist aber auch schon wieder 4 Jahre her. </p><p>Vielen Dank für Ihre so lieben Zeilen nach der <rs ref="#pmb41611" type="work">Cristina</rs>. Ein
                Wort über eine Arbeit von Ihnen (auch die Einschränkungen, die ich mir ganz zu eigen
                machen kann) das ist so ganz dasselbe was es vor 18 Jahren war, und ganz etwas
-               anderes, als was von fremderem Mund kommt. </p>
-            <p>Wie gerne hätte ich wieder ein neues Buch von Ihnen in der Hand. Wie gerne möchte ich
-               Ihnen meine <rs type="work" key="">Spieloper</rs> vorlesen. Schicken Sie mir ein paar
-               Zeilen nach <placeName key="pmb40307">Canazei, Südtirol</placeName>, dann später. </p>
-            <closer>Von Herzen<lb/>Ihr<signed>Hugo.</signed>
-            </closer>
-            <postscript>
-               <p>Alles Gute <persName key="pmb2173">Olga</persName> und den <rs type="person" key="pmb12692 pmb3233">Kleinen</rs> von uns beiden. </p>
-            </postscript>
-         </div>
-      </body>
+               anderes, als was von fremderem Mund kommt. </p><p>Wie gerne hätte ich wieder ein neues Buch von Ihnen in der Hand. Wie gerne möchte ich
+               Ihnen meine <rs type="work" subtype="implied" ref="">Spieloper</rs> vorlesen. Schicken Sie mir ein paar
+               Zeilen nach <rs ref="#pmb40307" type="place">Canazei, Südtirol</rs>, dann später. </p><closer>Von Herzen<lb/>Ihr<signed>Hugo.</signed></closer><postscript><p>Alles Gute <rs ref="#pmb2173" type="person">Olga</rs> und den <rs type="person" ref="#pmb12692 pmb3233" subtype="implied">Kleinen</rs> von uns beiden. </p></postscript></div></body>
    </text>
 </TEI>

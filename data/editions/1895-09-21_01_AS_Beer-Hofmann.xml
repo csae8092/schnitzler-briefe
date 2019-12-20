@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-09-21_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1895-09-21_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 21. 9. 1895</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 21.&#160;9.&#160;1895</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,12 +55,12 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief mit Umschlag, 2 Bl., 78 S., Bleistift. Umschlag mit schwarzer
+                        <p>eh. Brief mit Umschlag, 2&#160;Bl., 78&#160;S., Bleistift. Umschlag mit schwarzer
                            Tinte.<lb/>Nachgesandt nach <hi rend="latintype">
-                              <placeName key="pmb374">Gardone</placeName> p. r.</hi>
+                              <rs ref="#pmb374" type="place">Gardone</rs> p. r.</hi>
                         </p>
                         <stamp n="1">
-                           <placeName key="pmb50">Wien</placeName>
+                           <rs ref="#pmb50" type="place">Wien</rs>
                            <!-- bei den Stempeln ist kaum etwas zu lesen -->
                            <date>21. 9. 95</date>
                         </stamp>
@@ -64,7 +68,7 @@
                            <date>22. 9. 95</date>
                         </stamp>
                         <stamp n="3">
-                           <placeName key="pmb374">Gardone Riviera</placeName>
+                           <rs ref="#pmb374" type="place">Gardone Riviera</rs>
                            <date>24 9. 95</date>
                         </stamp>
                      </physDesc>
@@ -74,8 +78,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -94,19 +98,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1895-09-21" n="01">21. 9. 1895</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1895-09-21" n="01">21.&#160;9.&#160;1895</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb374">Gardone</placeName>
-               <date when="1895-09-24">24. 9. 1895</date>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb374">Gardone</placeName>
+               <date when="1895-09-24">24.&#160;9.&#160;1895</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-09-19_01">Schnitzler an Beer-Hofmann, 19. 9. 1895</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-09-23_01">Beer-Hofmann an Schnitzler, 23. 9. 1895</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-09-19_01">Schnitzler an Beer-Hofmann, 19.&#160;9.&#160;1895</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-09-23_01">Beer-Hofmann an Schnitzler, 23.&#160;9.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -127,81 +131,28 @@
       <graphic url="1895_AS_RBH_3_00050.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1895_AS_RBH_3_00043.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>&gt;<placeName key="pmb465">Riva am Gardasee</placeName>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">post restante</hi>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <pb facs="1895_AS_RBH_3_00045.jpeg"/>
-                  <date when="1895-09-21">21. 9. 95</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Richard, </salute>meine Karte haben Sie wohl. In <placeName key="pmb465">
-                  <hi rend="latintype">Riva</hi>
-               </placeName> iſt es <hi rend="underline" n="1">mir</hi> nemlich vor 3 Jahren paſſirt, daſs der Poſtbeamte
+      <body><div type="address"><address><addrLine><pb facs="1895_AS_RBH_3_00043.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
+                     Beer-Hofmann</hi></addrLine><addrLine>&gt;<rs ref="#pmb465" type="place">Riva am Gardasee</rs></addrLine><addrLine><hi rend="latintype">post restante</hi></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1895_AS_RBH_3_00045.jpeg"/><date when="1895-09-21">21.&#160;9.&#160;95</date></dateline></opener><p><salute>Lieber Richard, </salute>meine Karte haben Sie wohl. In <rs ref="#pmb465" type="place"><hi rend="latintype">Riva</hi></rs> iſt es <hi rend="underline" n="1">mir</hi> nemlich vor 3 Jahren paſſirt, daſs der Poſtbeamte
                mir die Briefe an mich nicht gab – ich verlangte damals die Einläufe durchzuſehen, da
-               entdeckte ich meine Briefe. Und ich hatte nicht gepfiffen! –</p>
-            <p>
-               <pb facs="1895_AS_RBH_3_00046.jpeg"/>Die Leſeprobe fiel gut aus. Frl. <persName key="pmb12618">S.</persName> ignorirte mich, aber that ſehr ergriffen von dem <rs type="work" key="pmb29917">Stück</rs>, Nachmittag telephonirte sie <hi rend="latintype">en bon camerade</hi>. <persName key="pmb12809">So<c rendition="#gemination-n"/>enthal</persName> hat »gute Hoffnung«. Beim <rs type="work" key="pmb29917">1. Akt</rs> wurde viel gelacht. Vom <rs type="work" key="pmb29917">3.</rs> verſpricht man ſich ſichre Wirkung. Dem <rs type="work" key="pmb29917">2.</rs> ſcheint man am wenigſten zu vertrauen. <pb facs="1895_AS_RBH_3_00046.jpeg"/>
-               <persName key="pmb12265">
-                  <hi rend="latintype">Mitterwurzer</hi>
-               </persName> war nicht anweſend; er ſpielt aber ſicher, ließ
-               ſich officiell entſchuldigen. Die <persName key="pmb11860">
-                  <hi rend="latintype">Kallina</hi>
-               </persName> wird überraſchen. Dazu will <persName key="pmb11036">
-                  <hi rend="latintype">Burckhard</hi>
-               </persName> einen Einakter von <persName key="pmb11431">
-                  <hi rend="latintype">Giacosa</hi>
-               </persName>, <workName key="pmb31711">Rechte der Seele</workName> geben; während der Leſeprobe half er
-               den <persName key="pmb2702">
-                  <hi rend="latintype">Laube</hi>
-               </persName> in <placeName key="pmb1004">Sprottau</placeName> ent<pb facs="1895_AS_RBH_3_00047.jpeg"/>hüllen.
+               entdeckte ich meine Briefe. Und ich hatte nicht gepfiffen! –</p><p><pb facs="1895_AS_RBH_3_00046.jpeg"/>Die Leſeprobe fiel gut aus. Frl. <rs ref="#pmb12618" type="person">S.</rs> ignorirte mich, aber that ſehr ergriffen von dem <rs type="work" ref="#pmb29917" subtype="implied">Stück</rs>, Nachmittag telephonirte sie <hi rend="latintype">en bon camerade</hi>. <rs ref="#pmb12809" type="person">So<c rendition="#gemination-n"/>enthal</rs> hat »gute Hoffnung«. Beim <rs type="work" ref="#pmb29917" subtype="implied">1. Akt</rs> wurde viel gelacht. Vom <rs type="work" ref="#pmb29917" subtype="implied">3.</rs> verſpricht man ſich ſichre Wirkung. Dem <rs type="work" ref="#pmb29917" subtype="implied">2.</rs> ſcheint man am wenigſten zu vertrauen. <pb facs="1895_AS_RBH_3_00046.jpeg"/><rs ref="#pmb12265" type="person"><hi rend="latintype">Mitterwurzer</hi></rs> war nicht anweſend; er ſpielt aber ſicher, ließ
+               ſich officiell entſchuldigen. Die <rs ref="#pmb11860" type="person"><hi rend="latintype">Kallina</hi></rs> wird überraſchen. Dazu will <rs ref="#pmb11036" type="person"><hi rend="latintype">Burckhard</hi></rs> einen Einakter von <rs ref="#pmb11431" type="person"><hi rend="latintype">Giacosa</hi></rs>, <rs ref="#pmb31711" type="work">Rechte der Seele</rs> geben; während der Leſeprobe half er
+               den <rs ref="#pmb2702" type="person"><hi rend="latintype">Laube</hi></rs> in <rs ref="#pmb1004" type="place">Sprottau</rs> ent<pb facs="1895_AS_RBH_3_00047.jpeg"/>hüllen.
                Ich wünſchte ihm angenehme Enthüllung. Er ſagte, die Enthüllung des Fräulein
-                  <persName key="pmb4501">
-                  <hi rend="latintype">Dandler</hi>
-               </persName> zöge er
-               vor. –</p>
-            <p>
-               <persName key="pmb2450">
-                  <hi rend="latintype">Fels</hi>
-               </persName> ſchreibt mir heute.
+                  <rs ref="#pmb4501" type="person"><hi rend="latintype">Dandler</hi></rs> zöge er
+               vor.&#160;–</p><p><rs ref="#pmb2450" type="person"><hi rend="latintype">Fels</hi></rs> ſchreibt mir heute.
                Sie können ſich denken. Er appellirt an uns zusa<c rendition="#gemination-m"/>men,
-               die Summe iſt 25 fl. Ich hab ihm gleich 10 fl. <pb facs="1895_AS_RBH_3_00048.jpeg"/>geſchickt. Darf ich ihm auch für Sie was ſchicken? Auch an <persName key="pmb11740">Hugo</persName> wandt ich mich bereits. –</p>
-            <p>Geſtern war ich beim »<workName key="pmb41136">Pelikan</workName>«. Dieſes Blaßwerden
-               guter Stücke iſt ſeltſam. – <anchor type="commentary" xml:id="KLMAM20190923-8"/>Heute<note type="commentary" xml:id="KLMAM20190923-8h">Gegeben wurde zum ersten
-                  Mal <workName key="pmb41143">Die Doppelhochzeit</workName> von <persName key="pmb2337">Victor Léon</persName> und <persName key="pmb26602">Heinrich von
-                     Waldberg</persName>, Musik von <persName key="pmb18093">Josef
-                     Hellmesberger</persName>.</note> geh ich zur Eröffnung der <placeName key="pmb40">
-                  <hi rend="latintype">Josefstadt</hi>
-               </placeName>. – Gearbeitet hab ich
-               noch i<c rendition="#gemination-m"/>er gar nichts; heute <pb facs="1895_AS_RBH_3_00049.jpeg"/>Nacht will ich anfangen. Glauben Sie? –</p>
-            <p>Das Datum der <workName key="pmb29917">L.</workName> iſt noch nicht
-               feſtgeſtellt. –</p>
-            <p>Den <persName key="pmb11740">Hugo</persName> hab ich geſtern begegnet, vorgeſtern iſt
+               die Summe iſt 25&#160;fl. Ich hab ihm gleich 10&#160;fl. <pb facs="1895_AS_RBH_3_00048.jpeg"/>geſchickt. Darf ich ihm auch für Sie was ſchicken? Auch an <rs ref="#pmb11740" type="person">Hugo</rs> wandt ich mich bereits.&#160;–</p><p>Geſtern war ich beim »<rs ref="#pmb41136" type="work">Pelikan</rs>«. Dieſes Blaßwerden
+               guter Stücke iſt ſeltſam.&#160;– <anchor type="commentary" xml:id="KLMAM20190923-8"/>Heute<note type="commentary" xml:id="KLMAM20190923-8h">Gegeben wurde zum ersten
+                  Mal <rs ref="#pmb41143" type="work">Die Doppelhochzeit</rs> von <rs ref="#pmb2337" type="person">Victor Léon</rs> und <rs ref="#pmb26602" type="person">Heinrich von
+                     Waldberg</rs>, Musik von <rs ref="#pmb18093" type="person">Josef
+                     Hellmesberger</rs>.</note> geh ich zur Eröffnung der <rs ref="#pmb40" type="place"><hi rend="latintype">Josefstadt</hi></rs>.&#160;– Gearbeitet hab ich
+               noch i<c rendition="#gemination-m"/>er gar nichts; heute <pb facs="1895_AS_RBH_3_00049.jpeg"/>Nacht will ich anfangen. Glauben Sie?&#160;–</p><p>Das Datum der <rs ref="#pmb29917" type="work">L.</rs> iſt noch nicht
+               feſtgeſtellt.&#160;–</p><p>Den <rs ref="#pmb11740" type="person">Hugo</rs> hab ich geſtern begegnet, vorgeſtern iſt
                er zurückgeko<c rendition="#gemination-m"/>en. Er ſieht gut aus, »wettergebräunt«.
                Nach und nach wird man zu allen Worten Anführungszeichen <pb facs="1895_AS_RBH_3_00049.jpeg"/>machen müſſen – das wird dann das Ende der
-               Literatur sein.</p>
-            <p>Wie geht’s Ihnen? Nächſtens ſchreiben Sie mir einen Brief ſtatt einer Depeſche; da
+               Literatur sein.</p><p>Wie geht’s Ihnen? Nächſtens ſchreiben Sie mir einen Brief ſtatt einer Depeſche; da
                werde ich weniger erſchrecken und mich beſſer unterhalten. Ich wünſche Ihnen weiter
                gute Laune, <pb facs="1895_AS_RBH_3_00050.jpeg"/>gutes Wetter, gute Sti<c rendition="#gemination-m"/>ung und lebhafte Empfindung Ihrer Freiheit und Ihres
-               Lebens.</p>
-            <closer>Herzliche Grüße Ihr<lb/>
-               <signed>Arthur</signed>
-            </closer>
-         </div>
-      </body>
+               Lebens.</p><closer>Herzliche Grüße Ihr<lb/><signed>Arthur</signed></closer></div></body>
    </text>
 </TEI>

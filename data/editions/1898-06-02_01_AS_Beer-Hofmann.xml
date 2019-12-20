@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-06-02_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1898-06-02_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 2. 6. 1898</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 2.&#160;6.&#160;1898</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,14 +55,14 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief mit Umschlag, 1 Bl., 3 S., Bleistift.</p>
+                        <p>eh. Brief mit Umschlag, 1&#160;Bl., 3&#160;S., Bleistift.</p>
                         <stamp n="1">
-                           <placeName key="pmb59">Wien 9/3</placeName>
+                           <rs ref="#pmb59" type="place">Wien 9/3</rs>
                            <date>2. 6. 98</date>
                            <time>1-2 N</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb34860">Steindorf am Ossiacher See</placeName>
+                           <rs ref="#pmb34860" type="place">Steindorf am Ossiacher See</rs>
                            <date>3 6 98</date>
                         </stamp>
                      </physDesc>
@@ -68,8 +72,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -88,19 +92,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1898-06-02" n="01">2. 6. 1898</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1898-06-02" n="01">2.&#160;6.&#160;1898</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb34860">Steindorf</placeName>
-               <date when="1898-06-03">3. 6. 1898</date>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb34860">Steindorf</placeName>
+               <date when="1898-06-03">3.&#160;6.&#160;1898</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1898-05-16_01">Schnitzler an Beer-Hofmann, 16. 5. 1898</ptr>
-               <ptr type="next" subtype="toAuthor" target="1898-06-02_02">Beer-Hofmann an Schnitzler, 2. 6. 1898</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1898-05-16_01">Schnitzler an Beer-Hofmann, 16.&#160;5.&#160;1898</ptr>
+               <ptr type="next" subtype="toAuthor" target="1898-06-02_02">Beer-Hofmann an Schnitzler, 2.&#160;6.&#160;1898</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -116,53 +120,13 @@
       <graphic url="1898_AS_RBH_2_00009.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1898_AS_RBH_2_00007.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb34860">Steindorf</placeName>
-                  </hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">am <placeName key="pmb40374">Ossiacher
-                     See</placeName>
-                  </hi>
-               </addrLine>
-               <addrLine>in <placeName key="pmb651">Kärnthen</placeName>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <salute>
-                  <pb facs="1898_AS_RBH_2_00001.jpeg"/>Lieber Richard,</salute>
-            </opener>
-            <p>ich habe ganz den Eindruck, als ob ich <date>So<c rendition="#gemination-n"/>tag</date>
-               <space unit="chars" quantity="1"/>
-               <time>Früh</time> von hier wegfahren und vielleicht <date>Dinſtag</date> am
-                  <placeName key="pmb40374">
-                  <hi rend="latintype">Ossiacher</hi> See</placeName>
+      <body><div type="address"><address><addrLine><pb facs="1898_AS_RBH_2_00007.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
+                     Beer-Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb34860" type="place">Steindorf</rs></hi></addrLine><addrLine><hi rend="latintype">am <rs ref="#pmb40374" type="place">Ossiacher
+                     See</rs></hi></addrLine><addrLine>in <rs ref="#pmb651" type="place">Kärnthen</rs></addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs="1898_AS_RBH_2_00001.jpeg"/>Lieber Richard,</salute></opener><p>ich habe ganz den Eindruck, als ob ich <date>So<c rendition="#gemination-n"/>tag</date><space unit="chars" quantity="1"/><time>Früh</time> von hier wegfahren und vielleicht <date>Dinſtag</date> am
+                  <rs ref="#pmb40374" type="place"><hi rend="latintype">Ossiacher</hi> See</rs>
                eintreffen würde. <pb facs="1898_AS_RBH_2_00009.jpeg"/>Weiteres und näheres, was ganz
                dasſelbe iſt, merkwürdigerweiſe, weiſs ich noch nicht. Doch ſcheints mir, daſs ich
-               ein paar Tage im <placeName key="pmb40380">Annenheim</placeName> wohnen werde;
-               eventuell radle ich aber mit <persName key="pmb11981">
-                  <hi rend="latintype">Kramer</hi>
-               </persName> weiter ins <placeName key="pmb40383">
-                  <hi rend="latintype">Lavantthal</hi>
-               </placeName>. <pb facs="1898_AS_RBH_2_00009.jpeg"/>Vom <placeName key="pmb189">
-                  <hi rend="latintype">Semmering</hi>
-               </placeName> aus will ich die ganze Tour per Rad machen.</p>
-            <p>Ich freue mich Sie bald zu ſehen.</p>
-            <p>Grüßen Sie <persName key="pmb10860">Paula</persName>, <persName key="pmb2668">Mirjam</persName> und ſich ſelbſt.</p>
-            <closer>Herzlichſt der Ihre<lb/>
-               <signed>Arthur</signed>
-            </closer>
-         </div>
-      </body>
+               ein paar Tage im <rs ref="#pmb40380" type="place">Annenheim</rs> wohnen werde;
+               eventuell radle ich aber mit <rs ref="#pmb11981" type="person"><hi rend="latintype">Kramer</hi></rs> weiter ins <rs ref="#pmb40383" type="place"><hi rend="latintype">Lavantthal</hi></rs>. <pb facs="1898_AS_RBH_2_00009.jpeg"/>Vom <rs ref="#pmb189" type="place"><hi rend="latintype">Semmering</hi></rs> aus will ich die ganze Tour per Rad machen.</p><p>Ich freue mich Sie bald zu ſehen.</p><p>Grüßen Sie <rs ref="#pmb10860" type="person">Paula</rs>, <rs ref="#pmb2668" type="person">Mirjam</rs> und ſich ſelbſt.</p><closer>Herzlichſt der Ihre<lb/><signed>Arthur</signed></closer></div></body>
    </text>
 </TEI>

@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-03-26_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+    xml:id="L1899-03-26_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 26. 3. 1899</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 26.&#160;3.&#160;1899</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +51,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte. Von Schnitzler mit
                                     Bleistift datiert: »<quote>
                                         <date>2<del rend="strikethrough">9</del>6/3 99</date>
                                     </quote>«. Von unbekannter Hand mit Bleistift nummeriert: »<quote>
@@ -65,8 +68,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -86,17 +89,17 @@
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb168">Berlin</placeName>
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
                     <date when="1899-03-26" n="01">26. 3. 1899</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
                 <correspContext>
-                    <ptr type="previous" subtype="toAuthor" target="1899-03-24_01">Schnitzler an Hofmannsthal, [24. 3. 1899]</ptr>
-                    <ptr type="next" subtype="toAuthor" target="1899-04-05_01">Hofmannsthal an Schnitzler, [5. 4. 1899]</ptr>
+                    <ptr type="previous" subtype="toAuthor" target="1899-03-24_01">Schnitzler an Hofmannsthal, [24.&#160;3.&#160;1899]</ptr>
+                    <ptr type="next" subtype="toAuthor" target="1899-04-05_01">Hofmannsthal an Schnitzler, [5.&#160;4.&#160;1899]</ptr>
                 </correspContext>
             </correspDesc>
         </profileDesc>
@@ -112,44 +115,23 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00310"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00309"/>
-                        <placeName key="pmb168">Berlin</placeName> Sonntg</dateline>
-                </opener>
-                <p>
-                    <salute>lieber</salute>, eben bekomm ich dieſes <anchor type="commentary" xml:id="KL2390-1"/>Telegra<c rendition="#gemination-m"/>
-                    <note type="commentary" xml:id="KL2390-1h">Die Beilage von <persName key="pmb10765">Andrian</persName> ist gemeinsam mit diesem Brief erhalten: »<quote>
-                            <p>
-                                <placeName key="pmb867">insbruck</placeName> 3747 31
-                                    <date>26/3</date>
-                                <space unit="chars" quantity="1"/>
-                                <time>9-40m</time>
-                            </p>
-                            <p>
-                                <supplied>befu</supplied>erchtungen geisteszustand fast eingetroffen
-                                bin sofort <placeName key="pmb867">insbruck</placeName> gefahren
-                                professor <persName key="pmb34810">meyer</persName> consultiren
-                                dieser verreist. bitte wenn kannst sofort herkommen wo ist <persName key="pmb2121">schnitzler</persName>? <signed>poldi</signed>
-                                <space unit="chars" quantity="1"/>
-                                <placeName key="pmb34813">goldner adler</placeName>.</p>
-                        </quote>«.</note> von dem armen <persName key="pmb10765">Poldy</persName>.
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00309"/><rs ref="#pmb168" type="place">Berlin</rs> Sonntg</dateline></opener><p><salute>lieber</salute>, eben bekomm ich dieſes <anchor type="commentary"
+                        xml:id="KL2390-1"/>Telegra<c rendition="#gemination-m"/><note type="commentary" xml:id="KL2390-1h">Die Beilage von <rs
+                            ref="#pmb10765" type="person">Andrian</rs> ist gemeinsam mit diesem Brief erhalten: »<quote><p><rs ref="#pmb867" type="place">insbruck</rs> 3747 31
+                                    <date>26/3</date><space unit="chars" quantity="1"/><time>9-40m</time></p><p><supplied>befu</supplied>erchtungen geisteszustand fast eingetroffen
+                                bin sofort <rs ref="#pmb867" type="place">insbruck</rs> gefahren
+                                professor <rs ref="#pmb34810" type="person">meyer</rs> consultiren
+                                dieser verreist. bitte wenn kannst sofort herkommen wo ist <rs
+                                    ref="#pmb2121" type="person">schnitzler</rs>? <signed>poldi</signed><space unit="chars" quantity="1"/><rs ref="#pmb34813" type="place">goldner adler</rs>.</p></quote>«.</note> von dem armen <rs ref="#pmb10765" type="person">Poldy</rs>.
                     Er bildet ſich dieſmal ein, daſs er wahnſinnig wird. Vielleicht können Sie
-                    irgendwas machen.</p>
-                <p>Ich ko<c rendition="#gemination-m"/>e, da Sie nicht herko<c rendition="#gemination-m"/>en, ſchon ſpäteſtens <date>Samstag</date> nach
-                        <placeName key="pmb50">Wien</placeName>.</p>
-                <p>Ich ſehe viele Menſchen: <persName key="pmb11617">Hauptmann</persName>, <persName key="pmb3869">Ludwig von Hofmann</persName>, <persName key="pmb11916">
-                        <hi rend="latintype">Kessler</hi>
-                    </persName>, <persName key="pmb14349">Bodenhauſen</persName>, <persName key="pmb11851">Kainz</persName>, die <persName key="pmb11195">Dumont</persName>
-                    <space unit="chars" quantity="1"/>
-                    <hi rend="latintype">etc. etc.</hi> auch viele gute Vorſtellungen, wie <workName key="pmb33037">Fuhrmann Henſchel</workName>. <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00310"/>Bin aber nicht im Stand
-                    einen Brief zu ſchreiben.</p>
-                <closer>Von Herzen Ihr<lb/>
-                    <signed>Hugo.</signed>
-                </closer>
-            </div>
-        </body>
+                    irgendwas machen.</p><p>Ich ko<c rendition="#gemination-m"/>e, da Sie nicht herko<c
+                        rendition="#gemination-m"/>en, ſchon ſpäteſtens <date>Samstag</date> nach
+                        <rs ref="#pmb50" type="place">Wien</rs>.</p><p>Ich ſehe viele Menſchen: <rs ref="#pmb11617" type="person">Hauptmann</rs>, <rs
+                        ref="#pmb3869" type="person">Ludwig von Hofmann</rs>, <rs ref="#pmb11916" type="person"><hi rend="latintype">Kessler</hi></rs>, <rs ref="#pmb14349" type="person">Bodenhauſen</rs>, <rs
+                        ref="#pmb11851" type="person">Kainz</rs>, die <rs ref="#pmb11195" type="person"
+                        >Dumont</rs><space unit="chars" quantity="1"/><hi rend="latintype">etc. etc.</hi> auch viele gute Vorſtellungen, wie <rs
+                        ref="#pmb33037" type="work">Fuhrmann Henſchel</rs>. <pb
+                        facs="MS-SCHNITZLER-B-00043-B-00001-000-00310"/>Bin aber nicht im Stand
+                    einen Brief zu ſchreiben.</p><closer>Von Herzen Ihr<lb/><signed>Hugo.</signed></closer></div></body>
     </text>
 </TEI>

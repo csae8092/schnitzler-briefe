@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-01-04_01_AS_Brandes">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+    xml:id="L1899-01-04_01_AS_Brandes">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Georg Brandes, 4. 1. 1899</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Georg Brandes, 4.&#160;1.&#160;1899</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -60,8 +63,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -81,11 +84,11 @@
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <date when="1899-01-04" n="01">4. 1. 1899</date>
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <date when="1899-01-04" n="01">4.&#160;1.&#160;1899</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="pmb10992">Brandes, Georg</persName>
+                    <persName ref="#pmb10992">Brandes, Georg</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -101,25 +104,12 @@
         <graphic url="Georg_Brandes_arkiv_053.jpg"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-                    <pb facs="Georg_Brandes_arkiv_053.jpg"/>
-                    <salute>Verehrteſter Herr Brandes, </salute>aus der <anchor type="commentary" xml:id="KL745-1"/>Zeitung<note type="commentary" xml:id="KL745-1h">In der
-                            <orgName key="pmb29351">Neuen Freien Presse</orgName> findet sich die
-                        Meldung am <date>3. 1. 1899</date> (<bibl>[O. V.:] <workName key="pmb33277">Ein Nachruf für Frau <persName key="pmb29102">Brandes</persName>
-                            </workName>, Nr. 12344, S. 5–6</bibl>).</note> erfahre ich, dſs Ihre <rs type="person" key="pmb29102">Mutter</rs> geſtorben iſt. In herzlicher
-                    Theilnahme drücke ich Ihnen die Hand.</p>
-                <closer>Ihr Ihnen wahrhaft ergebener<lb/>
-                    <signed>Arthur Schnitzler</signed>
-                </closer>
-                <postscript>
-                    <dateline>
-                        <placeName key="pmb50">Wien</placeName>
-                        <lb/>
-                        <date>4. 1. 99</date>.</dateline>
-                </postscript>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><p><pb facs="Georg_Brandes_arkiv_053.jpg"/><salute>Verehrteſter Herr Brandes, </salute>aus der <anchor type="commentary"
+                        xml:id="KL745-1"/>Zeitung<note type="commentary" xml:id="KL745-1h">In der
+                            <rs ref="#pmb29351" type="organisation">Neuen Freien Presse</rs> findet sich die
+                        Meldung am <date>3.&#160;1.&#160;1899</date> (<bibl>[O.&#160;V.:] <rs ref="#pmb33277" type="work"
+                                >Ein Nachruf für Frau <rs ref="#pmb29102" type="person">Brandes</rs></rs>, Nr.&#160;12344, S.&#160;5–6</bibl>).</note> erfahre ich, dſs Ihre <rs
+                        type="person" ref="#pmb29102" subtype="implied">Mutter</rs> geſtorben iſt. In herzlicher
+                    Theilnahme drücke ich Ihnen die Hand.</p><closer>Ihr Ihnen wahrhaft ergebener<lb/><signed>Arthur Schnitzler</signed></closer><postscript><dateline><rs ref="#pmb50" type="place">Wien</rs><lb/><date>4.&#160;1.&#160;99</date>.</dateline></postscript></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1907-12-11_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1907-12-11_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 11. 12. 1907</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 11.&#160;12.&#160;1907</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,17 +83,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1907-12-11" n="01">11. 12. 1907</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1907-12-11" n="01">11.&#160;12.&#160;1907</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1907-12-07_02">Schnitzler an Beer-Hofmann, 7. 12. 1907</ptr>
-               <ptr type="next" subtype="toAuthor" target="1908-01-17_01">Beer-Hofmann an Schnitzler, 17. 1. 1908</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1907-12-07_02">Schnitzler an Beer-Hofmann, 7.&#160;12.&#160;1907</ptr>
+               <ptr type="next" subtype="toAuthor" target="1908-01-17_01">Beer-Hofmann an Schnitzler, 17.&#160;1.&#160;1908</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -98,37 +102,22 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>Mittwoch</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Arthur! </salute>
-               <persName key="pmb10860">Paula</persName> hat vorgestern bei Ihrer <rs type="person" key="pmb12701">Mama</rs> angefragt und – (allerdings nicht direkt durch Ihre <rs type="person" key="pmb12701">Mama</rs>) erfahren, dass es ein leichter
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>Mittwoch</date></dateline></opener><p><salute>Lieber Arthur! </salute><rs ref="#pmb10860" type="person">Paula</rs> hat vorgestern bei Ihrer <rs type="person" ref="#pmb12701" subtype="implied">Mama</rs> angefragt und – (allerdings nicht direkt durch Ihre <rs type="person" ref="#pmb12701" subtype="implied">Mama</rs>) erfahren, dass es ein leichter
                Scharlachfall ist, und daß das Fieber zurückgeht. Heute habe ich telephonisch mit
-               Ihrer <rs type="person" key="pmb12701">Mama</rs> selbst gesprochen, und erfahren daß
+               Ihrer <rs type="person" ref="#pmb12701" subtype="implied">Mama</rs> selbst gesprochen, und erfahren daß
                Sie selbst beunruhigt sind weil trotz des Zurückgehens des Fiebers noch immer
-               Deliriren vorhanden ist. Ihre <rs type="person" key="pmb12701">Mama</rs> versichert
-               mich, daß der behandelnde <rs type="person" key="pmb41997">Arzt</rs> erklärt hat, daß trotz dieser
+               Deliriren vorhanden ist. Ihre <rs type="person" ref="#pmb12701" subtype="implied">Mama</rs> versichert
+               mich, daß der behandelnde <rs type="person" ref="#pmb41997" subtype="implied">Arzt</rs> erklärt hat, daß trotz dieser
                unangenehmen Begleiterscheinung kein Anlass zu Besorgnis ist. Ich schreibe Ihnen
-               dies</p>
-            <p>Alles, weil ich nicht weiss ob Sie dem <rs type="person" key="pmb41997">Arzt</rs> glauben. Mir
+               dies</p><p>Alles, weil ich nicht weiss ob Sie dem <rs type="person" ref="#pmb41997" subtype="implied">Arzt</rs> glauben. Mir
                gegenüber ist kein Grund zum Schönfärben vorhanden. Ich wünsche vor Allem von ganzem
                Herzen daß es bald und rasch besser geht, dann daß Sie sich nicht in nutzlosem
                Schwarzsehen verzehren. Ich weiss ich weiss – ich habe leicht reden – aber vielleicht
                beruhigt es Sie doch ein ganz klein wenig, daß man mir den Krankheitsverlauf, als
-               unangenehm, – als überflüssig complicirt – aber nicht als gefährlich dargestellt
-               hat.</p>
-            <p>Nur darum schreib ich Ihnen, und weil ich denke, daß mitten unter Wichtigerem, dies
-               kleine unwichtige – dass ich und <persName key="pmb10860">Paula</persName> oft im
+               unangenehm,&#160;– als überflüssig complicirt – aber nicht als gefährlich dargestellt
+               hat.</p><p>Nur darum schreib ich Ihnen, und weil ich denke, daß mitten unter Wichtigerem, dies
+               kleine unwichtige – dass ich und <rs ref="#pmb10860" type="person">Paula</rs> oft im
                Tage an Sie Beide denken, und starke und gute Wünsche für Sie im Herzen haben – weil
-               es vielleicht doch für eine Sekunde Ihnen angenehm sein könnte.</p>
-            <closer>Von Herzen wie immer Ihr <signed>Richard</signed>
-            </closer>
-         </div>
-      </body>
+               es vielleicht doch für eine Sekunde Ihnen angenehm sein könnte.</p><closer>Von Herzen wie immer Ihr <signed>Richard</signed></closer></div></body>
    </text>
 </TEI>

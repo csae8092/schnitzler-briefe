@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1918-08-24_01_AS_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1918-08-24_01_AS_Bahr">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 24. 8. 1918</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 24.&#160;8.&#160;1918</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -60,11 +64,11 @@
             <listBibl>
                <biblStruct corresp="DASB">
                   <analytic>
-                     <title level="a">24. 8. 1918</title>
+                     <title level="a">24.&#160;8.&#160;1918</title>
      
                   </analytic>
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint> 
@@ -81,8 +85,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -100,18 +104,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1918-08-24" n="01">24. 8. 1918</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1918-08-24" n="01">24.&#160;8.&#160;1918</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb30">[Salzburg]</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb30">[Salzburg]</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1915-02-10_01">Bahr an Schnitzler, 10. 2. 1915</ptr>
-               <ptr type="next" subtype="toAuthor" target="1918-08-25_01">Bahr an Schnitzler, 25. 8. 1918</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1915-02-10_01">Bahr an Schnitzler, 10.&#160;2.&#160;1915</ptr>
+               <ptr type="next" subtype="toAuthor" target="1918-08-25_01">Bahr an Schnitzler, 25.&#160;8.&#160;1918</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -127,43 +131,17 @@
      <graphic url="HS_AM39902Ba_R"/>
    </facsimile>
   <text type="card">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <p>
-                  <seg rend="left">
-                     <pb facs=""/>
-                     <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
-                  </seg>
-                  <seg rend="right">
-                     <placeName key="pmb50">Wien</placeName>, <date>24. 8. 18</date>
-                  </seg>
-               </p>
-               <p>
-                  <hi rend="pre-print">
-                     <placeName key="pmb150">Wien XVIII. Sternwartestrasse 71</placeName>
-                  </hi>
-               </p>
-            </opener>
-            <p>
-               <salute>lieber Hermann, </salute>ein begabter junger Componist, Musikdirector, (mein <rs type="person" key="pmb12692">Sohn</rs> studirt Harmonielehre u. Clarinette bei ihm)
-               hat deine <workName key="pmb30155">
-                  <workName key="pmb30043">Pantomime vom braven Mann</workName>
-               </workName> in einer
+      <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></seg><seg rend="right"><rs ref="#pmb50" type="place">Wien</rs>, <date>24.&#160;8.&#160;18</date></seg></p><p><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></p></opener><p><salute>lieber Hermann, </salute>ein begabter junger Componist, Musikdirector, (mein <rs type="person" ref="#pmb12692" subtype="implied">Sohn</rs> studirt Harmonielehre u. Clarinette bei ihm)
+               hat deine <rs ref="#pmb30155" type="work"><rs ref="#pmb30043" type="work">Pantomime vom braven Mann</rs></rs> in einer
           mir sehr interessant erscheinenden Weise vertont und möchte nicht nur deine
           nachträgliche Autorisation erbitten sondern hegt den begreiflichen Wunsch, dir
           die Sache einmal vorzuspielen. Vielleicht bist du so gütig und gibst dem jungen
-          Künstler (sein Name ist <pb facs="HS_AM39902Ba_R"/>
-               <persName key="pmb2270">Arthur Johannes Scholz</persName> – Gelegenheit dazu,
-          wenn du dich, was ja (– wenn die <anchor type="commentary" xml:id="KL135-1"/>Zeitungsnachrichten<note type="commentary" xml:id="KL135-1h">Ab <date>18. 8. 1918</date> wurde mehrfach gemeldet,
-                <persName key="pmb10815">Bahr</persName> gehe nicht als Direktor, sondern als
-            künstlerischer Beirat für ein Jahr ans <placeName key="pmb14">Burgtheater</placeName>.
+          Künstler (sein Name ist <pb facs="HS_AM39902Ba_R"/><rs ref="#pmb2270" type="person">Arthur Johannes Scholz</rs> – Gelegenheit dazu,
+          wenn du dich, was ja (– wenn die <anchor type="commentary" xml:id="KL135-1"/>Zeitungsnachrichten<note type="commentary" xml:id="KL135-1h">Ab <date>18.&#160;8.&#160;1918</date> wurde mehrfach gemeldet,
+                <rs ref="#pmb10815" type="person">Bahr</rs> gehe nicht als Direktor, sondern als
+            künstlerischer Beirat für ein Jahr ans <rs ref="#pmb14" type="place">Burgtheater</rs>.
             Die offizielle Bestätigung erfolgte erst nach diesem Brief.</note> stimmen) nun öfters der
-          Fall sein dürfte, für ein paar Tage in <placeName key="pmb50">Wien</placeName> aufhältst?</p>
-            <p>Wie lang hab ich dich nun schon nicht gesehn und gesprochen. Nun wirds hoffentlich nicht mehr so
-               lange dauern wie seit dem letzten Mal! Sei herzlichst gegrüßt von Deinem alten <signed>Art</signed>
-            </p>
-         </div>
-      </body>
+          Fall sein dürfte, für ein paar Tage in <rs ref="#pmb50" type="place">Wien</rs> aufhältst?</p><p>Wie lang hab ich dich nun schon nicht gesehn und gesprochen. Nun wirds hoffentlich nicht mehr so
+               lange dauern wie seit dem letzten Mal! Sei herzlichst gegrüßt von Deinem alten <signed>Art</signed></p></div></body>
   </text>
 </TEI>

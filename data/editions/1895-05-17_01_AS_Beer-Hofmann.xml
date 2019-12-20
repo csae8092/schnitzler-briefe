@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-05-17_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1895-05-17_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 17. 5. 1895</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 17.&#160;5.&#160;1895</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -53,12 +57,12 @@
                      <physDesc>
                         <p>eh. Postkarte (Rohrpost), Bleistift.</p>
                         <stamp n="1">
-                           <placeName key="pmb51">Wien 1/1</placeName>
+                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
                            <date>17 V 95</date>
                            <time>1 20N</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb51">Wien 1/1</placeName>
+                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
                            <date>17 V 95</date>
                            <time>1 30N</time>
                         </stamp>
@@ -69,8 +73,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -89,17 +93,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1895-05-17" n="01">17. 5. 1895</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1895-05-17" n="01">17.&#160;5.&#160;1895</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-05-13_01">Schnitzler an Beer-Hofmann, 13. 5. 1895</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-05-18_01">Beer-Hofmann an Schnitzler, [18. 5. 1895]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-05-13_01">Schnitzler an Beer-Hofmann, 13.&#160;5.&#160;1895</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-05-18_01">Beer-Hofmann an Schnitzler, [18.&#160;5.&#160;1895]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -114,43 +118,11 @@
       <graphic url="1895_AS_RBH_1_00019.jpeg"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1895_AS_RBH_1_00018.jpeg"/>
-                  <hi rend="latintype">Dr. Richard
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb50">Wien</placeName>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb338">I Wollzeile 15</placeName>
-                  </hi>.</addrLine>
-               <addrLine>4. Stock.</addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="1895_AS_RBH_1_00019.jpeg"/>
-               <salute>Lieber Richard, </salute>das Waſſer fällt in die <geogName type="river">Donau</geogName> alſo fällt die <anchor type="commentary" xml:id="KLMAM20191016-3"/>
-               <geogName type="river">Donau</geogName> ins Waſſer<note type="commentary" xml:id="KLMAM20191016-3h">Mutmaßlich der dann am
-                     <date>20. 5. 1895</date> stattgefundene Ausflug zusammen mit
-                     <persName key="pmb10762">Lou Andreas Salomé</persName> in die <placeName key="pmb531">Wachau</placeName>.</note>. Sollte es daher <subst>
-                  <del rend="overwritten">nicht</del>
-                  <add place="inline">um</add>
-               </subst>
-               <space unit="chars" quantity="1"/>
-               <time>3</time> nicht herrlich ſchön ſein,
-               ſo ko<c rendition="#gemination-m"/> ich erſt gegen <time>½ 5</time> zu Ihnen. Sollten
-               Sie früher weggehen, bitte um zurückgelaſſene Post. –</p>
-            <p>Herzlich Ihr <signed>Arthur</signed>.</p>
-            <postscript>
-               <p>Aber Sie gehen ja nicht früher weg.</p>
-            </postscript>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="1895_AS_RBH_1_00018.jpeg"/><hi rend="latintype">Dr. Richard
+                     Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I Wollzeile 15</rs></hi>.</addrLine><addrLine>4. Stock.</addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1895_AS_RBH_1_00019.jpeg"/><salute>Lieber Richard, </salute>das Waſſer fällt in die <geogName type="river">Donau</geogName> alſo fällt die <anchor type="commentary" xml:id="KLMAM20191016-3"/><geogName type="river">Donau</geogName> ins Waſſer<note type="commentary" xml:id="KLMAM20191016-3h">Mutmaßlich der dann am
+                     <date>20.&#160;5.&#160;1895</date> stattgefundene Ausflug zusammen mit
+                     <rs ref="#pmb10762" type="person">Lou Andreas Salomé</rs> in die <rs ref="#pmb531" type="place">Wachau</rs>.</note>. Sollte es daher <subst><del rend="overwritten">nicht</del><add place="inline">um</add></subst><space unit="chars" quantity="1"/><time>3</time> nicht herrlich ſchön ſein,
+               ſo ko<c rendition="#gemination-m"/> ich erſt gegen <time>½&#160;5</time> zu Ihnen. Sollten
+               Sie früher weggehen, bitte um zurückgelaſſene Post.&#160;–</p><p>Herzlich Ihr <signed>Arthur</signed>.</p><postscript><p>Aber Sie gehen ja nicht früher weg.</p></postscript></div></body>
    </text>
 </TEI>

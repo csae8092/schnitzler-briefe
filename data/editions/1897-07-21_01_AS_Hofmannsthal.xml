@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-07-21_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-07-21_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 21. 7. 1897</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 21.&#160;7.&#160;1897</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Hs-30885,XXXX</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>XXXXeh. Brief, 1 Bl., 1 S. XXXX</p>
+                                <p>XXXXeh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -59,8 +63,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -79,18 +83,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb213">Bad Ischl</placeName>
-                    <date when="1897-07-21" n="01">21. 7. 1897</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb213">Bad Ischl</placeName>
+                    <date when="1897-07-21" n="01">21.&#160;7.&#160;1897</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb573">Bad Fusch</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb573">Bad Fusch</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-07-20_02">Hofmannsthal an Schnitzler, [20. 7. 1897]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-07-22_01">Schnitzler an Hofmannsthal, 22. 7. 1897</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-07-20_02">Hofmannsthal an Schnitzler, [20.&#160;7.&#160;1897]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-07-22_01">Schnitzler an Hofmannsthal, 22.&#160;7.&#160;1897</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -99,33 +103,16 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline>
-                        <pb facs=""/>
-                        <placeName key="pmb213">Ischl</placeName>, <date>21/7 97</date>.</dateline>
-                    <salute> Mein lieber Hugo, </salute>
-                </opener>
-                <p>daß wir uns erst im Herbst sehn werden, ist mir sehr leid. – Lassen Sie nur von
-                    sich hören; auch zeigen Sie mir an, wohin ich Ihnen die 2 letzten <rs type="work" key="pmb34255">
-                        <persName key="pmb12303">Mozart</persName>bände</rs> schicken soll. </p>
-                <p>
-                    <persName key="pmb10863">Richard</persName> ist nun zu einer wirklichen
+        <body><div type="writingSession" n="1"><opener><dateline><pb facs=""/><rs ref="#pmb213" type="place">Ischl</rs>, <date>21/7 97</date>.</dateline><salute> Mein lieber Hugo, </salute></opener><p>daß wir uns erst im Herbst sehn werden, ist mir sehr leid.&#160;– Lassen Sie nur von
+                    sich hören; auch zeigen Sie mir an, wohin ich Ihnen die 2 letzten <rs type="work" ref="#pmb34255" subtype="implied"><rs ref="#pmb12303" type="person">Mozart</rs>bände</rs> schicken soll. </p><p><rs ref="#pmb10863" type="person">Richard</rs> ist nun zu einer wirklichen
                     Radpartie nicht zu bewegen; ich aber fahre, wenn das Wetter gut ist,
-                        <date>Freitag</date> (mit einem kleinen <rs key="pmb23209 pmb23212" cert="low" type="person">Schwager</rs>) nach <placeName key="pmb30">Salzburg</placeName>. <date>Samstag</date>: <placeName key="pmb30">Salzb.</placeName> – <placeName key="pmb797">Berchtesgaden</placeName> –
-                        <placeName key="pmb34286">Ramsau</placeName> – <placeName key="pmb40336">Zell am See</placeName>. <date>Sonntag</date> – an der Bahn, so weit ich komme,
-                    um <time>Mittags</time> einzusteigen und am <time>Abend</time> in <placeName key="pmb50">Wien</placeName> einzutreffen. – Neulich war ich in <placeName key="pmb415">Aussee</placeName> bei den <persName key="pmb20548 pmb28299">Loebs</persName>; gestern waren sie in <placeName key="pmb213">Ischl</placeName>. <persName key="pmb12435">Clara</persName> fühlt sich
+                        <date>Freitag</date> (mit einem kleinen <rs ref="#pmb23209 pmb23212" cert="low" type="person" subtype="implied">Schwager</rs>) nach <rs ref="#pmb30" type="place">Salzburg</rs>. <date>Samstag</date>: <rs ref="#pmb30" type="place">Salzb.</rs> – <rs ref="#pmb797" type="place">Berchtesgaden</rs> –
+                        <rs ref="#pmb34286" type="place">Ramsau</rs> – <rs ref="#pmb40336" type="place">Zell am See</rs>. <date>Sonntag</date> – an der Bahn, so weit ich komme,
+                    um <time>Mittags</time> einzusteigen und am <time>Abend</time> in <rs ref="#pmb50" type="place">Wien</rs> einzutreffen.&#160;– Neulich war ich in <rs ref="#pmb415" type="place">Aussee</rs> bei den <rs ref="#pmb20548 pmb28299" type="person">Loebs</rs>; gestern waren sie in <rs ref="#pmb213" type="place">Ischl</rs>. <rs ref="#pmb12435" type="person">Clara</rs> fühlt sich
                     sehr verlassen von Ihnen. Sie hat es anders ausgedrückt; aber das ist der
-                    Sinn. – </p>
-                <p>Sie wissen wohl, daß <persName key="pmb11036">Burckhard</persName> die <workName key="pmb30474">Jordan</workName> nicht aufführt?– Ich ärgere mich sehr;
-                    umsomehr als ich zu ahnen glaube, wo die Gründe liegen und <rs type="person" key="pmb10815">wer</rs> eigentlich <c rendition="#dots" n="3"/> sagen wir
-                    »mit«-schuldig ist. – Sie schreiben mir bald nach <placeName key="pmb50">Wien</placeName>, nicht wahr? </p>
-                <closer>Ihr <signed>Arthur.</signed>
-                </closer>
-                <p>Grüßen Sie <persName key="pmb10992">P. A.</persName>, wenn er schon bei Ihnen
-                    ist.</p>
-            </div>
-        </body>
+                    Sinn.&#160;– </p><p>Sie wissen wohl, daß <rs ref="#pmb11036" type="person">Burckhard</rs> die <rs ref="#pmb30474" type="work">Jordan</rs> nicht aufführt?– Ich ärgere mich sehr;
+                    umsomehr als ich zu ahnen glaube, wo die Gründe liegen und <rs type="person" ref="#pmb10815" subtype="implied">wer</rs> eigentlich <c rendition="#dots" n="3"/> sagen wir
+                    »mit«-schuldig ist.&#160;– Sie schreiben mir bald nach <rs ref="#pmb50" type="place">Wien</rs>, nicht wahr? </p><closer>Ihr <signed>Arthur.</signed></closer><p>Grüßen Sie <rs ref="#pmb10992" type="person">P.&#160;A.</rs>, wenn er schon bei Ihnen
+                    ist.</p></div></body>
     </text>
 </TEI>

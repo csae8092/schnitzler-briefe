@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1906-11-30_01_Ehrenstein_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1906-11-30_01_Ehrenstein_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Albert Ehrenstein an Arthur Schnitzler, 30. 11. 1906</title>
-                <author key="pmb11230">Ehrenstein, Albert</author>
+                <title level="a">Albert Ehrenstein an Arthur Schnitzler, 30.&#160;11.&#160;1906</title>
+                <author ref="#pmb11230">Ehrenstein, Albert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -49,10 +53,10 @@
                                 <country>GB</country>            
                                 <settlement>Cambridge</settlement>            
                                 <repository>University Library</repository>            
-                                <idno>Schnitzler, B 30</idno>
+                                <idno>Schnitzler, B&#160;30</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S. Von Schnitzler beschriftet »<quote>Ehrenste<unclear>in</unclear>
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S. Von Schnitzler beschriftet »<quote>Ehrenste<unclear>in</unclear>
                            </quote>«.</p>
                             </physDesc>
                         </msDesc>
@@ -61,7 +65,7 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb11230">Ehrenstein, Albert</author>
+                            <author ref="#pmb11230">Ehrenstein, Albert</author>
                             <title level="m">Briefe</title>
                             <editor>Hg. Hanni Mittelmann</editor>
                             <imprint>
@@ -84,17 +88,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
         <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11230">Ehrenstein, Albert</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1906-11-30" n="01">30. 11. 1906</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11230">Ehrenstein, Albert</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1906-11-30" n="01">30.&#160;11.&#160;1906</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1906-05-20_01">Schnitzler an Ehrenstein, [vor dem 21. 5. 1906?]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1906-11-30_02">Schnitzler an Ehrenstein, 30. 11. 1906</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1906-05-20_01">Schnitzler an Ehrenstein, [vor dem 21.&#160;5.&#160;1906?]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1906-11-30_02">Schnitzler an Ehrenstein, 30.&#160;11.&#160;1906</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -105,35 +109,17 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="gray00072.pdf"/>
-                  <placeName key="pmb50">Wien</placeName>, den <date>30. Nov. 06</date>
-               </dateline>
-                    <salute>Sehr geehrter Herr Doktor.</salute>
-            </opener>
-                <p>Ihre außerordentliche Geduld, ſehr geehrter Herr Doktor, hoffe ich nicht auf eine allzuharte Probe geſtellt
-                    zu haben, wenn ich höflichſt bitte, meine etwas dilettantiſche Übertragung des <persName key="pmb4107">euripideiſchen</persName>
-               <space unit="chars" quantity="1"/>
-               <anchor type="commentary" xml:id="KL849-1"/>
-               <rs type="work" key="pmb33398">Librettos</rs>
-               <note type="commentary" xml:id="KL849-1h">Die Bearbeitung von
-                            <workName key="pmb33398">Helena</workName> ist nicht erhalten.</note>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="gray00072.pdf"/><rs ref="#pmb50" type="place">Wien</rs>, den <date>30.&#160;Nov. 06</date></dateline><salute>Sehr geehrter Herr Doktor.</salute></opener><p>Ihre außerordentliche Geduld, ſehr geehrter Herr Doktor, hoffe ich nicht auf eine allzuharte Probe geſtellt
+                    zu haben, wenn ich höflichſt bitte, meine etwas dilettantiſche Übertragung des <rs ref="#pmb4107" type="person">euripideiſchen</rs><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KL849-1"/><rs type="work" ref="#pmb33398" subtype="implied">Librettos</rs><note type="commentary" xml:id="KL849-1h">Die Bearbeitung von
+                            <rs ref="#pmb33398" type="work">Helena</rs> ist nicht erhalten.</note>
                     einiger Lektüre zu unterziehen. Sollte dies aber doch der Fall ſein, ſo möchte ich Euer Hochwohlgeboren
                     ergebenſt erſuchen, beachten zu wollen, daß ich nicht daran denke, die Arbeit etwa in dieſer Form
                     <pb facs="gray00073.pdf"/>irgendwie bekannt zu machen, ſondern falls ſich überhaupt das Sujet zu einer
-                    Veröffentlichung eignen ſollte, würde ich von den 2000 Verſen des <persName key="pmb4107">Euripides</persName> 
+                    Veröffentlichung eignen ſollte, würde ich von den 2000 Verſen des <rs ref="#pmb4107" type="person">Euripides</rs> 
                     und meiner Überſetzung etwa
                     1000 weglaſſen, die vier Akte in zwei oder einen zuſammenziehen, was mir bei der Fülle entbehrlicher
                     Chorlieder, bei dem Überfluſſe an Wiederholungen und unnützen Längen des Dialoges nicht ſchwer fiele.
                     Indem ich Sie, ſehr verehrter Herr Doktor, bitte, mir dieſe Arbeit nicht übelzunehmen, verbleibe ich
-                    hochachtungsvoll</p>
-                <closer>Ihr Sie verehrender<lb/>
-                    <signed>Albert Ehrenstein.</signed>
-                    </closer>
-            </div>
-        </body>
+                    hochachtungsvoll</p><closer>Ihr Sie verehrender<lb/><signed>Albert Ehrenstein.</signed></closer></div></body>
     </text>
 </TEI>

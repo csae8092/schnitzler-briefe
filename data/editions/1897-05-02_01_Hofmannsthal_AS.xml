@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-05-02_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-05-02_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 2. 5. [1897]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 2.&#160;5.&#160;[1897]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief mit aufgedrucktem Wappen; 1 Bl., 4 S., schwarze Tinte.
+                                <p>eh. Brief mit aufgedrucktem Wappen; 1&#160;Bl., 4&#160;S., schwarze Tinte.
                                     Von Schnitzler die Jahreszahl ergänzt: »<quote>
                                         <date>97</date>
                                     </quote>«. Von unbekannter Hand mit Bleistift nummeriert:
@@ -63,8 +67,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -83,18 +87,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1897-05-02" n="01">2. 5. [1897]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1897-05-02" n="01">2.&#160;5.&#160;[1897]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb182">Paris</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb182">Paris</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-04-28_01">Schnitzler an Hofmannsthal, 28. 4. 1897</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-05-06_01">Schnitzler an Hofmannsthal, 6. 5. 1897</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-04-28_01">Schnitzler an Hofmannsthal, 28.&#160;4.&#160;1897</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-05-06_01">Schnitzler an Hofmannsthal, 6.&#160;5.&#160;1897</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -110,20 +114,10 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00166"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00165"/>
-                        <date>Sonntag 2<hi rend="superscript">ten</hi> Mai</date>
-                    </dateline>
-                    <salute rend="inline">lieber Arthur,</salute>
-                </opener>
-                <p>wie komiſch man eigentlich iſt: es hat mich einen Moment ganz ſtark geärgert zu
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00165"/><date>Sonntag 2<hi rend="superscript">ten</hi> Mai</date></dateline><salute rend="inline">lieber Arthur,</salute></opener><p>wie komiſch man eigentlich iſt: es hat mich einen Moment ganz ſtark geärgert zu
                     hören, daſs Sie wieder gemiſchtes Hausbrot eſſen. Ich hätte ſo gern gehört, daſs
                     Sie auf einmal etwas ganz anderes eſſen! Aber das iſt natürlich eine
-                    Kinderei.</p>
-                <p>Hier iſt es jetzt ſehr ſchön. (Nur gerade heute regnet es zufällig.) Der Frühling
+                    Kinderei.</p><p>Hier iſt es jetzt ſehr ſchön. (Nur gerade heute regnet es zufällig.) Der Frühling
                     war <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00166"/>durch eine lange kühle
                     Zeit zurückgehalten und dann war er auf einmal da und ſo warm und ſo farbig,
                     daſs die Farben der Blumenbeete, der Baumwipfel und des Himmels mit ihren
@@ -131,26 +125,11 @@
                     macht mir eine große Freude: es iſt wunderſchön, ein biſſel ermüdet und erhitzt
                     ſich irgendwo ſtill hinzuſetzen <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00166"/>und über die Sträuche, die
                     Wieſen und die Hügel hinzuſchauen, und abends iſt es ſogar wunderſchön, in den
-                    Straßen der Vorſtädte zu fahren.</p>
-                <p>Schreiben Sie mir doch ein paar ſchöne kleine Ausflüge, an die <subst>
-                        <del rend="overwritten">s</del>
-                        <add place="inline">S</add>
-                    </subst>ie ſich erinnern. Ich war erſt in <placeName key="pmb473">Weidling am
-                        Bach</placeName>, und in <placeName key="pmb939">Heiligenkreuz</placeName>.</p>
-                <p>Ihre Bemerkungen über das <placeName key="pmb166">
-                        <country>franzöſiſche</country>
-                    </placeName> Theater verſtehe ich ſehr gut, weil jetzt gerade <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00165"/>eine <placeName key="pmb166">
-                        <country>franzöſiſche</country>
-                    </placeName> Truppe im <placeName key="pmb118">Carltheater</placeName> war und
-                    lauter ſolche <hi rend="latintype">Vie-<placeName key="pmb182">paris</placeName>ienne</hi> Stücke geſpielt hat. Vergeſſen Sie doch nicht,
-                    die <persName key="pmb15313">Delna</persName> als <rs type="work" key="pmb34253">Orpheus</rs> zu hören.</p>
-                <p>Ich arbeite noch immer nichts, lerne nur fleißig an meinen romaniſchen Texten.
+                    Straßen der Vorſtädte zu fahren.</p><p>Schreiben Sie mir doch ein paar ſchöne kleine Ausflüge, an die <subst><del rend="overwritten">s</del><add place="inline">S</add></subst>ie ſich erinnern. Ich war erſt in <rs ref="#pmb473" type="place">Weidling am
+                        Bach</rs>, und in <rs ref="#pmb939" type="place">Heiligenkreuz</rs>.</p><p>Ihre Bemerkungen über das <rs ref="#pmb166" type="place"><country>franzöſiſche</country></rs> Theater verſtehe ich ſehr gut, weil jetzt gerade <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00165"/>eine <rs ref="#pmb166" type="place"><country>franzöſiſche</country></rs> Truppe im <rs ref="#pmb118" type="place">Carltheater</rs> war und
+                    lauter ſolche <hi rend="latintype">Vie-<rs ref="#pmb182" type="place">paris</rs>ienne</hi> Stücke geſpielt hat. Vergeſſen Sie doch nicht,
+                    die <rs ref="#pmb15313" type="person">Delna</rs> als <rs type="work" ref="#pmb34253" subtype="implied">Orpheus</rs> zu hören.</p><p>Ich arbeite noch immer nichts, lerne nur fleißig an meinen romaniſchen Texten.
                     Aber ich fühle mich doch nun recht viel freier und weniger verworren und bin
-                    viel zufriedener.</p>
-                <p>Ich freue mich recht auf Ihre Rückkehr. »<workName key="pmb31535">Götterliebling</workName>« dürfte bald fertig ſein, auch das <rs type="work" key="pmb30474">Stück</rs> vom <persName key="pmb11701">Hirſchfeld</persName>.</p>
-                <closer>Ihr<signed>Hugo.</signed>
-                </closer>
-            </div>
-        </body>
+                    viel zufriedener.</p><p>Ich freue mich recht auf Ihre Rückkehr. »<rs ref="#pmb31535" type="work">Götterliebling</rs>« dürfte bald fertig ſein, auch das <rs type="work" ref="#pmb30474" subtype="implied">Stück</rs> vom <rs ref="#pmb11701" type="person">Hirſchfeld</rs>.</p><closer>Ihr<signed>Hugo.</signed></closer></div></body>
     </text>
 </TEI>

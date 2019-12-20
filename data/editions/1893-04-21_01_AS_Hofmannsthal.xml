@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-04-21_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-04-21_01_AS_Hofmannsthal">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, [21. 4. 1893?]</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, [21.&#160;4.&#160;1893?]</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -51,7 +54,7 @@
                                 <idno>Hs-30885,39</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Von unbekannter Hand mit
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte. Von unbekannter Hand mit
                                     Bleistift datiert: »<quote>
                                         <date>91?</date>
                                     </quote>«.</p>
@@ -62,8 +65,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -76,8 +79,8 @@
                     </biblStruct>
                     <biblStruct corresp="HBAS">
                         <monogr>
-                            <author key="pmb10815">Bahr, Hermann</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10815">Bahr, Hermann</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel, Aufzeichnungen, Dokumente
                                 (1891–1931)</title>
                             <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
@@ -96,18 +99,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">[Wien]</placeName>
-                    <date when="1893-04-21" n="01">[21. 4. 1893?]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">[Wien]</placeName>
+                    <date when="1893-04-21" n="01">[21.&#160;4.&#160;1893?]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">[Wien]</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">[Wien]</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-02-22_01">Hofmannsthal an Schnitzler, 22. 2. 1893</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-04-21_02">Hofmannsthal an Schnitzler, [21. 4. 1893]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-02-22_01">Hofmannsthal an Schnitzler, 22.&#160;2.&#160;1893</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-04-21_02">Hofmannsthal an Schnitzler, [21.&#160;4.&#160;1893]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -123,40 +126,20 @@
         <graphic url="Hs-30885,39_002.TIF"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="Hs-30885,39_001.TIF"/>Lieber Hugo,</salute>
-                </opener>
-                <p>beifolgende Briefe, erſter <anchor type="commentary" xml:id="KL429-1"/>von
-                        <persName key="pmb2450">
-                        <hi rend="latintype">Fels</hi>
-                    </persName>
-                    <note type="commentary" xml:id="KL429-1h">In einem Brief vom
-                            <date>20. 4. 1893</date> (<bibl>
-                            <orgName>DLA</orgName>, A:Schnitzler, 85.1.2956</bibl>) schreibt
-                            <persName key="pmb2450">Fels</persName>, dass er zum Monatsende nach
-                            <placeName key="pmb50">Wien</placeName> und mit <date>1. 5.</date> bei
-                        der <orgName key="pmb29424">Deutschen Zeitung</orgName> beginnen könne. Er
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="Hs-30885,39_001.TIF"/>Lieber Hugo,</salute></opener><p>beifolgende Briefe, erſter <anchor type="commentary" xml:id="KL429-1"/>von
+                        <rs ref="#pmb2450" type="person"><hi rend="latintype">Fels</hi></rs><note type="commentary" xml:id="KL429-1h">In einem Brief vom
+                            <date>20.&#160;4.&#160;1893</date> (<bibl><rs type="organisation">DLA</rs>, A:Schnitzler, 85.1.2956</bibl>) schreibt
+                            <rs ref="#pmb2450" type="person">Fels</rs>, dass er zum Monatsende nach
+                            <rs ref="#pmb50" type="place">Wien</rs> und mit <date>1.&#160;5.</date> bei
+                        der <rs ref="#pmb29424" type="organisation">Deutschen Zeitung</rs> beginnen könne. Er
                         würde dann ein Drittel oder Viertel des Einkommens dazu verwenden, seine
-                        Schulden in <placeName key="pmb887">Meran</placeName> zu begleichen.</note>
-                    zweiter <anchor type="commentary" xml:id="KL429-2"/>von Frau <persName key="pmb4329">
-                        <hi rend="latintype">Clara Schreiber</hi>
-                    </persName>
-                    <note type="commentary" xml:id="KL429-2h">Sie bittet um Hilfe, <persName key="pmb2450">Fels</persName> habe nun seit acht Wochen sein Logis nicht
-                        bezahlt und er würde behaupten, kein Geld zu haben (<bibl>
-                            <orgName>CUL</orgName>, Schnitzler, B 385</bibl>).</note>, an die ich
-                    unſern Freund empfohlen habe, die Gattin des Dr. <persName key="pmb24499">
-                        <hi rend="latintype">Schreiber</hi>
-                    </persName>, Curarzt in <placeName key="pmb887">Meran</placeName>, – ſind auch
-                    für Sie von Intereſſe. Ich bitte Sie, ſich vielleicht an <persName key="pmb10815">Bahr</persName> zu wenden, was Sie ja von uns dreien am
-                        <anchor type="commentary" xml:id="KL429-3"/>leichteſten<note type="commentary" xml:id="KL429-3h">Sie wohnten beide in der <placeName key="pmb76">Salesianergasse 12</placeName>.</note> u beſten können, <pb facs="Hs-30885,39_002.TIF"/>und mich ſo raſch als möglich von dem Ausfall
+                        Schulden in <rs ref="#pmb887" type="place">Meran</rs> zu begleichen.</note>
+                    zweiter <anchor type="commentary" xml:id="KL429-2"/>von Frau <rs ref="#pmb4329" type="person"><hi rend="latintype">Clara Schreiber</hi></rs><note type="commentary" xml:id="KL429-2h">Sie bittet um Hilfe, <rs ref="#pmb2450" type="person">Fels</rs> habe nun seit acht Wochen sein Logis nicht
+                        bezahlt und er würde behaupten, kein Geld zu haben (<bibl><rs type="organisation">CUL</rs>, Schnitzler, B 385</bibl>).</note>, an die ich
+                    unſern Freund empfohlen habe, die Gattin des Dr. <rs ref="#pmb24499" type="person"><hi rend="latintype">Schreiber</hi></rs>, Curarzt in <rs ref="#pmb887" type="place">Meran</rs>, – ſind auch
+                    für Sie von Intereſſe. Ich bitte Sie, ſich vielleicht an <rs ref="#pmb10815" type="person">Bahr</rs> zu wenden, was Sie ja von uns dreien am
+                        <anchor type="commentary" xml:id="KL429-3"/>leichteſten<note type="commentary" xml:id="KL429-3h">Sie wohnten beide in der <rs ref="#pmb76" type="place">Salesianergasse 12</rs>.</note> u beſten können, <pb facs="Hs-30885,39_002.TIF"/>und mich ſo raſch als möglich von dem Ausfall
                     Ihrer Bemühungen zu unterrichten, ſowie die beiden Briefe mir
-                    zurückzuſchicken.</p>
-                <closer>Ich bin mit herzlichen Grüßen<lb/>Ihr<signed>Arthur</signed>
-                </closer>
-            </div>
-        </body>
+                    zurückzuſchicken.</p><closer>Ich bin mit herzlichen Grüßen<lb/>Ihr<signed>Arthur</signed></closer></div></body>
     </text>
 </TEI>

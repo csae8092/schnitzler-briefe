@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1901-06-26_01_AS_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1901-06-26_01_AS_Bahr">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 26. 6. 1901</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 26.&#160;6.&#160;1901</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -52,7 +56,7 @@
                         <idno>HS AM 23344 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 4 S.</p>
+                        <p>eh. Brief, 1&#160;Bl., 4&#160;S.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,7 +64,7 @@
             <listBibl>
                <biblStruct corresp="ASB1">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefe 1875–1912</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -73,10 +77,10 @@
                </biblStruct>
                <biblStruct corresp="DASB">
                   <analytic>
-                     <title level="a">26. 6. 1901</title>
+                     <title level="a">26.&#160;6.&#160;1901</title>
                   </analytic>
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint> 
@@ -93,7 +97,7 @@
                </biblStruct>
                <biblStruct>
                   <analytic>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="a">Briefe</title>
                   </analytic>
                   <monogr>
@@ -108,8 +112,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -128,13 +132,13 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb867">Innsbruck</placeName>
-               <date when="1901-06-26" n="01">26. 6. 1901</date>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb867">Innsbruck</placeName>
+               <date when="1901-06-26" n="01">26.&#160;6.&#160;1901</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -150,55 +154,31 @@
      <graphic url="HS_AM23344Ba_R"/>
    </facsimile>
   <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p>
-               <salute>mein lieber Hermann, </salute>ich danke dir herzlich für den neuen Beweis von Sympathie,
+      <body><div type="writingSession" n="1"><p><salute>mein lieber Hermann, </salute>ich danke dir herzlich für den neuen Beweis von Sympathie,
           den du mir mit deinem lieben Brief vom <date>22.</date> gegeben hast. Über die Sache selbst
           ist ja kaum was zu sagen – selten lag ein Fall klarer zu Tage. Wahrhaftig – sie
-          haben meinen <workName key="pmb29853">Lieutenant Gustl</workName> nicht verdient! Ich seh es ein. Hast du vielleicht
-          neulich den  <anchor type="commentary" xml:id="KL036-2"/>
-               <rs type="work" key="pmb32031">Artikel</rs>
-               <note type="commentary" xml:id="KL036-2h">Obwohl ohne Verfasserangabe erschienen, ist
-                <workName key="pmb32031">»Lieutenant Gustl«</workName> (<bibl>
-                     <orgName key="pmb29304">Reichswehr</orgName>, Jg. 14, Nr. 2645, Morgenblatt, S. 1–2</bibl>) durch die
-            Position als Editorial dem Herausgeber <persName key="pmb2207">Davis</persName>
-            zuzuschreiben, was <persName key="pmb10815">Bahr</persName> auch in der Folge (<ptr target="LL238-1"/>) tut.</note> in der <orgName key="pmb29304">Reichswehr</orgName> gelesen? Ich glaube, in dem steht das
+          haben meinen <rs ref="#pmb29853" type="work">Lieutenant Gustl</rs> nicht verdient! Ich seh es ein. Hast du vielleicht
+          neulich den  <anchor type="commentary" xml:id="KL036-2"/><rs type="work" ref="#pmb32031" subtype="implied">Artikel</rs><note type="commentary" xml:id="KL036-2h">Obwohl ohne Verfasserangabe erschienen, ist
+                <rs ref="#pmb32031" type="work">»Lieutenant Gustl«</rs> (<bibl><rs ref="#pmb29304" type="organisation">Reichswehr</rs>, Jg.&#160;14, Nr.&#160;2645, Morgenblatt, S.&#160;1–2</bibl>) durch die
+            Position als Editorial dem Herausgeber <rs ref="#pmb2207" type="person">Davis</rs>
+            zuzuschreiben, was <rs ref="#pmb10815" type="person">Bahr</rs> auch in der Folge (<ptr target="LL238-1"/>) tut.</note> in der <rs ref="#pmb29304" type="organisation">Reichswehr</rs> gelesen? Ich glaube, in dem steht das
           großartigste an Dummheit, was in dieser Affaire geleistet wurde. Nemlich: ich
           hätte meine <pb facs="HS_AM23344Ba_R"/>Charge nur deshalb nicht vor 5 Jahren (wie es mein Recht
-          gewesen) nieder gelegt – <subst>
-                  <del rend="overwritten">,</del>
-                  <add place="inline">weil</add>
-               </subst> ich eben doch gern gelegentlich in Uniform <add place="below">u</add> mit dem <anchor type="commentary" xml:id="KL036-1"/>Stürmer<note type="commentary" xml:id="KL036-1h">Mütze, die durch unterschiedliche Ausprägungen über
-            die Zugehörigkeit zu einer bestimmten Burschenschaft Auskunft gab. <persName key="pmb2121">Schnitzler</persName> gibt den <rs type="work" key="pmb32031">Artikel</rs> jedoch in diesem Detail falsch wieder, darin wird von
-                »<quote>Federhut, Säbel und Porte-<hi rend="antiqua">épée</hi>
-                  </quote>«
+          gewesen) nieder gelegt – <subst><del rend="overwritten">,</del><add place="inline">weil</add></subst> ich eben doch gern gelegentlich in Uniform <add place="below">u</add> mit dem <anchor type="commentary" xml:id="KL036-1"/>Stürmer<note type="commentary" xml:id="KL036-1h">Mütze, die durch unterschiedliche Ausprägungen über
+            die Zugehörigkeit zu einer bestimmten Burschenschaft Auskunft gab. <rs ref="#pmb2121" type="person">Schnitzler</rs> gibt den <rs type="work" ref="#pmb32031" subtype="implied">Artikel</rs> jedoch in diesem Detail falsch wieder, darin wird von
+                »<quote>Federhut, Säbel und Porte-<hi rend="antiqua">épée</hi></quote>«
             gesprochen.</note>
             paradirt! – Ich wollte einen Preis von einer Million
           ausschreiben für den, der mich seit meinem letzten Hauptrapport in Uniform
           gesehen – aber wer weiss – unter diesen Leuten findet
-          sich am Ende auch einer, der es beschwören kann.</p>
-            <p>Laß mich bei dieser Gelegenheit auch einmal sagen, wie sehr es <pb facs="HS_AM23344Ba_R"/>mich freut,
+          sich am Ende auch einer, der es beschwören kann.</p><p>Laß mich bei dieser Gelegenheit auch einmal sagen, wie sehr es <pb facs="HS_AM23344Ba_R"/>mich freut,
           dass wir nun beide über die <anchor type="label" xml:id="LL036-1">zeitweiligen Entfremdungen</anchor> hinaus sind, die ja
           wahrscheinlich bei Naturen wie den unsern entwicklungsphysiologisch bedingt und
           daher nothwendg sind (du siehst ich bin immer »wissenschaftlich«.) Nun ist das
-          Alter der M<damage agent="hole">
-                  <supplied>iss</supplied>
-               </damage>verständnisse wohl endgiltig für uns
+          Alter der M<damage agent="hole"><supplied>iss</supplied></damage>verständnisse wohl endgiltig für uns
           vorbei und wir sind so weit, dass wir einander – vielleicht auch ein bischen um
-          unserer Fehler willen – Freunde sein und <pb facs="HS_AM23344Ba_R"/>bleiben dürfen.</p>
-            <closer>In dieser Voraussicht drücke ich dir von Herzen die Hand und grüße dich
+          unserer Fehler willen – Freunde sein und <pb facs="HS_AM23344Ba_R"/>bleiben dürfen.</p><closer>In dieser Voraussicht drücke ich dir von Herzen die Hand und grüße dich
             vielmals<lb/>
-               dein <signed>Arthur</signed>        
-            </closer>
-            <postscript>
-               <p>
-                  <hi rend="latintype">
-                     <placeName key="pmb867">Innsbruck</placeName>
-                  </hi>, <date>26. 6. 901</date>
-               </p>
-            </postscript>
-         </div>
-      </body>
+               dein <signed>Arthur</signed></closer><postscript><p><hi rend="latintype"><rs ref="#pmb867" type="place">Innsbruck</rs></hi>, <date>26.&#160;6.&#160;901</date></p></postscript></div></body>
   </text>
 </TEI>

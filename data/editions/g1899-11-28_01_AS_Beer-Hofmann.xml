@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-11-28_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1899-11-28_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 28. 11. 1899</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 28.&#160;11.&#160;1899</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,13 +51,13 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Postkarte, Bleistift.</p>
                         <stamp n="1">
-                           <placeName key="pmb51">Wien 1/1</placeName>
-                           <date>28. 11. 99</date>
+                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
+                           <date>28.&#160;11.&#160;99</date>
                            <time>10-11N</time>
                         </stamp>
                      </physDesc>
@@ -69,17 +72,17 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1899-11-28" n="01">28. 11. 1899</date>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1899-11-28" n="01">28.&#160;11.&#160;1899</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-09-12_01">Beer-Hofmann an Schnitzler, 12. 9. 1899</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-09-29_01">Schnitzler an Beer-Hofmann, 29. 9. 1899</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-09-12_01">Beer-Hofmann an Schnitzler, 12.&#160;9.&#160;1899</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-09-29_01">Schnitzler an Beer-Hofmann, 29.&#160;9.&#160;1899</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -92,39 +95,13 @@
       <graphic url="1899_AS_RBH_3_00042.jpeg"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1899_AS_RBH_3_00041.jpeg"/>Herrn <hi rend="latintype">Dr.
-                  Richard</hi>
-                    </addrLine>
-               <addrLine>
-                        <hi rend="latintype">Beer-Hofmann</hi>
-                    </addrLine>
-               <addrLine>
-                  <placeName key="pmb50">Wien</placeName>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb338">I. Wollzeile 15</placeName>
-                  </hi>.</addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-                    <pb facs="1899_AS_RBH_3_00042.jpeg"/>
-                    <salute>lieber, </salute>unmöglich für den
-                  <workName key="pmb30029">Homburger Prinzen</workName> was zu verſchaffen. Ich mir
-               ſelber durch <hi rend="latintype">
-                        <persName key="pmb12556">Rosenbaum</persName>
-                    </hi>,
+      <body><div type="address"><address><addrLine><pb facs="1899_AS_RBH_3_00041.jpeg"/>Herrn <hi rend="latintype">Dr.
+                  Richard</hi></addrLine><addrLine><hi rend="latintype">Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I. Wollzeile 15</rs></hi>.</addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1899_AS_RBH_3_00042.jpeg"/><salute>lieber, </salute>unmöglich für den
+                  <rs ref="#pmb30029" type="work">Homburger Prinzen</rs> was zu verſchaffen. Ich mir
+               ſelber durch <hi rend="latintype"><rs ref="#pmb12556" type="person">Rosenbaum</rs></hi>,
                der aber nur <hi rend="underline" n="1">einen</hi> versorgen kann. Intendanz Erlaſs,
                wegen der Angriffe in den Zeitungen, dſs man an der Kaſſe nie was kriegt. Alſo durch
                Dienſtmann an der Kaſſe noch am eheſten möglich. Herzlich Ihr
-               <signed>Arthur</signed>
-                </p>
-         </div>
-      </body>
+               <signed>Arthur</signed></p></div></body>
    </text>
 </TEI>

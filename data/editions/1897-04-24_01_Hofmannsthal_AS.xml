@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-04-24_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-04-24_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 24. 4. [1897]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 24.&#160;4. [1897]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 2 Bl., 5 S., schwarze Tinte, am Ende Bleistift. Von
+                                <p>eh. Brief, 2&#160;Bl., 5&#160;S., schwarze Tinte, am Ende Bleistift. Von
                                     Schnitzler die Jahreszahl ergänzt: »<quote>
                                         <date>97</date>
                                     </quote>«. Von unbekannter Hand mit Bleistift nummeriert: »<quote>8<subst>
@@ -67,8 +71,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -87,18 +91,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1897-04-24" n="01">24. 4. [1897]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1897-04-24" n="01">24.&#160;4.&#160;[1897]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb182">Paris</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb182">Paris</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-04-06_01">Hofmannsthal an Schnitzler, [6. 4. 1897]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-04-26_02">Schnitzler an Hofmannsthal, 26. 4. 1897</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-04-06_01">Hofmannsthal an Schnitzler, [6.&#160;4.&#160;1897]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-04-26_02">Schnitzler an Hofmannsthal, 26.&#160;4.&#160;1897</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -114,56 +118,26 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00163"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00161"/>
-                        <placeName key="pmb50">Wien</placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>24<hi rend="superscript">ten</hi> April</date>
-                    </dateline>
-                    <salute>mein lieber Arthur</salute>
-                </opener>
-                <p>zuerſt kommt eine dumme Geſchichte, dann anderes. Die »<workName key="pmb34096">Mimi</workName>« von der <persName key="pmb12435">Clara Loeb</persName>
-                    ſteht ſeit 10 Tagen in der »<workName key="pmb36166">Freien Bühne</workName>«,
-                    natürlich iſt es herausgekommen von wem es iſt.</p>
-                <p>Zum Theil hat die <persName key="pmb13970">Minnie B.</persName> einen recht
-                    überflüſſigen Tratſch angefangen (komiſch muſs ſich das alles in <placeName key="pmb182">Paris</placeName>
-                    <space unit="chars" quantity="1"/>
-                    <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00162"/>anhören) andersſeits hat
-                    jemand recht gemeiner den Eltern <persName key="pmb20548 pmb28299">Loeb</persName> einen anonymen Brief geſchrieben, kurz heute Früh läſst
-                    mich die <rs type="person" key="pmb28299">Mutter</rs> bitten hinzukommen. Die
-                        <persName key="pmb12435">Clara</persName> war nicht zu ſehen, die <persName key="pmb28285">Anna</persName> und die <rs type="person" key="pmb28299">Mutter</rs> verweint wie bei einem Leichenbegängnis, der <rs type="person" key="pmb20548">Vater</rs> ganz blaſs und mit zitternder Stimme. Das weitere
-                    iſt unintereſſant; ich glaube daſs ich ſie doch ein biſſel herumgekriegt <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00162"/>habe; <hi rend="underline" n="2">Ihre</hi> active Theilnahme hab ich verſchwiegen, weil die <rs type="person" key="pmb28299">Mutter</rs> ohnehin eine ſchlechte moraliſche
-                    Meinung von Ihnen hat, während ich doch ſo brav und anſtändig bin. (Hoch!)</p>
-                <p>Zum Schluſs waren ſie faſt gerührt über mich und vielleicht laſſen <del rend="overwritten">S</del>ſie mich noch die Männer für die Mädeln ausſuchen.
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00161"/><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date>24<hi rend="superscript">ten</hi> April</date></dateline><salute>mein lieber Arthur</salute></opener><p>zuerſt kommt eine dumme Geſchichte, dann anderes. Die »<rs ref="#pmb34096" type="work">Mimi</rs>« von der <rs ref="#pmb12435" type="person">Clara Loeb</rs>
+                    ſteht ſeit 10 Tagen in der »<rs ref="#pmb36166" type="work">Freien Bühne</rs>«,
+                    natürlich iſt es herausgekommen von wem es iſt.</p><p>Zum Theil hat die <rs ref="#pmb13970" type="person">Minnie B.</rs> einen recht
+                    überflüſſigen Tratſch angefangen (komiſch muſs ſich das alles in <rs ref="#pmb182" type="place">Paris</rs><space unit="chars" quantity="1"/><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00162"/>anhören) andersſeits hat
+                    jemand recht gemeiner den Eltern <rs ref="#pmb20548 pmb28299" type="person">Loeb</rs> einen anonymen Brief geſchrieben, kurz heute Früh läſst
+                    mich die <rs type="person" ref="#pmb28299" subtype="implied">Mutter</rs> bitten hinzukommen. Die
+                        <rs ref="#pmb12435" type="person">Clara</rs> war nicht zu ſehen, die <rs ref="#pmb28285" type="person">Anna</rs> und die <rs type="person" ref="#pmb28299" subtype="implied">Mutter</rs> verweint wie bei einem Leichenbegängnis, der <rs type="person" ref="#pmb20548" subtype="implied">Vater</rs> ganz blaſs und mit zitternder Stimme. Das weitere
+                    iſt unintereſſant; ich glaube daſs ich ſie doch ein biſſel herumgekriegt <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00162"/>habe; <hi rend="underline" n="2">Ihre</hi> active Theilnahme hab ich verſchwiegen, weil die <rs type="person" ref="#pmb28299" subtype="implied">Mutter</rs> ohnehin eine ſchlechte moraliſche
+                    Meinung von Ihnen hat, während ich doch ſo brav und anſtändig bin. (Hoch!)</p><p>Zum Schluſs waren ſie faſt gerührt über mich und vielleicht laſſen <del rend="overwritten">S</del>ſie mich noch die Männer für die Mädeln ausſuchen.
                     Von Ihnen aber will ich nur zweierlei: 1.) wenn irgend jemand bei Ihnen anfragt
-                    (bei der rätſelhaften Stellung, die <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00161"/>die <persName key="pmb13970">Minnie</persName> zu der Geſchichte hat, iſt alles möglich) ſo wiſſen Sie
-                    einfach nicht, wer die <rs key="pmb12435" type="person">Verfaſſerin</rs>
-                    iſt.</p>
-                <p>2.) Sie müſſen ſo gut ſein, ſofort an <persName key="pmb11324">Fiſcher</persName>
+                    (bei der rätſelhaften Stellung, die <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00161"/>die <rs ref="#pmb13970" type="person">Minnie</rs> zu der Geſchichte hat, iſt alles möglich) ſo wiſſen Sie
+                    einfach nicht, wer die <rs ref="#pmb12435" type="person" subtype="implied">Verfaſſerin</rs>
+                    iſt.</p><p>2.) Sie müſſen ſo gut ſein, ſofort an <rs ref="#pmb11324" type="person">Fiſcher</rs>
                     ſchreiben, daſs der Druck des Buches unterbleibt und er das Manuſcript umgehend
-                    an mich zurück ſchicken ſoll. Sie müſſen das von Ihrem <rs type="person" key="pmb11324">Verleger</rs> als perſönliche Gefälligkeit verlangen. Ich
-                    habe es den <rs type="person" key="pmb20548 pmb28299">Eltern</rs> beſtimmt
+                    an mich zurück ſchicken ſoll. Sie müſſen das von Ihrem <rs type="person" ref="#pmb11324" subtype="implied">Verleger</rs> als perſönliche Gefälligkeit verlangen. Ich
+                    habe es den <rs type="person" ref="#pmb20548 pmb28299" subtype="implied">Eltern</rs> beſtimmt
                     verſprochen, mir zu liebe tut er es aber vielleicht nicht, weil <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00163"/>es ihm etwa unbequem iſt.
-                    Alſo bitte, <hi rend="underline" n="1">ſofort</hi>.</p>
-                <p rend="center">Das Andere.</p>
-                <p>was eſſen Sie in <placeName key="pmb182">Paris</placeName> ſtatt des gemiſchten
-                    Hausbrotes?</p>
-            </div>
-            <div type="writingSession" n="2">
-                <p>
-                    <anchor type="textConst" xml:id="TL2287-1"/>Eben kommt <persName key="pmb11701">Hirschfeld</persName>.<note type="textConst" xml:id="TL2287-1h">ab hier
-                        Bleistift.</note>
-                </p>
-                <p>Muſs für heute ſchließen.</p>
-                <p>Grüße <persName key="pmb11485">Goldmann</persName>.
-                </p>
-                <closer>Ihr<lb/>
-                    <signed>Hugo</signed>
-                </closer>
-            </div>
-        </body>
+                    Alſo bitte, <hi rend="underline" n="1">ſofort</hi>.</p><p rend="center">Das Andere.</p><p>was eſſen Sie in <rs ref="#pmb182" type="place">Paris</rs> ſtatt des gemiſchten
+                    Hausbrotes?</p></div><div type="writingSession" n="2"><p><anchor type="textConst" xml:id="TL2287-1"/>Eben kommt <rs ref="#pmb11701" type="person">Hirschfeld</rs>.<note type="textConst" xml:id="TL2287-1h">ab hier
+                        Bleistift.</note></p><p>Muſs für heute ſchließen.</p><p>Grüße <rs ref="#pmb11485" type="person">Goldmann</rs>.
+                </p><closer>Ihr<lb/><signed>Hugo</signed></closer></div></body>
     </text>
 </TEI>

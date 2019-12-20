@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1913-05-15_01_Adam_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1913-05-15_01_Adam_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 15. 5. 1913</title>
-                <author key="pmb12438">Adam, Robert</author>
+                <title level="a">Robert Adam an Arthur Schnitzler, 15.&#160;5.&#160;1913</title>
+                <author ref="#pmb12438">Adam, Robert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -76,18 +80,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb1240">Zistersdorf</placeName>
-                    <date when="1913-05-15" n="01">15. 5. 1913</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb1240">Zistersdorf</placeName>
+                    <date when="1913-05-15" n="01">15.&#160;5.&#160;1913</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1913-05-13_01">Schnitzler an Adam, 13. 5. 1913</ptr>
-               <ptr type="next" subtype="toAuthor" target="1915-06-01_01">Adam an Schnitzler, 1. 6. 1915</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1913-05-13_01">Schnitzler an Adam, 13.&#160;5.&#160;1913</ptr>
+               <ptr type="next" subtype="toAuthor" target="1915-06-01_01">Adam an Schnitzler, 1.&#160;6.&#160;1915</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -98,27 +102,11 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="OGL Kopie"/>
-                  <placeName key="pmb1240">Ziſtersdorf</placeName>, am <date>15. Mai 1913</date>
-               </dateline>
-                    <salute>Hochverehrter Herr Doktor!</salute>
-            </opener>
-                <p>Nehmen Sie meinen herzlichſten Dank für Ihren liebenswürdigen Brief!</p>
-                <p>Sie haben mir damit allen bitteren Kleinmut, der mich befallen hatte, vom Herzen
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="OGL Kopie"/><rs ref="#pmb1240" type="place">Ziſtersdorf</rs>, am <date>15.&#160;Mai 1913</date></dateline><salute>Hochverehrter Herr Doktor!</salute></opener><p>Nehmen Sie meinen herzlichſten Dank für Ihren liebenswürdigen Brief!</p><p>Sie haben mir damit allen bitteren Kleinmut, der mich befallen hatte, vom Herzen
                     genommen und mich ermuntert, fröhlich weiterzuarbeiten, an meinen poetischen
                     Ver<pb facs="OGL Kopie"/>ſuchen und dadurch an mir ſelbſt, unbekümmert um
                     äußeren Erfolg, nur dem Drang meiner Eingebungen und Ideen folgend, um
                     ſchließlich einmal das große reine Kunſtwerk ſchaffen zu können, das mir
-                    vorſchwebt.</p>
-                <p>Ich danke Ihnen aus vollem Herzen!</p>
-                <closer>Ihr ſehr ergebener<lb/>
-                    <signed>Robert Adam</signed>
-                </closer>
-            </div>
-        </body>
+                    vorſchwebt.</p><p>Ich danke Ihnen aus vollem Herzen!</p><closer>Ihr ſehr ergebener<lb/><signed>Robert Adam</signed></closer></div></body>
     </text>
 </TEI>

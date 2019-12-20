@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-08-23_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1899-08-23_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 23. 8. 1899</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 23.&#160;8.&#160;1899</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,9 +54,10 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>hs. Telegramm, schwarze Tinte, von <placeName key="pmb43015">Kaltenbach</placeName>, aufgegeben am 23. 8. um 9.10 Uhr nach
-                              <placeName key="pmb34824">Seeboden</placeName>, angenommen am
-                           23. 8. um 9.45 Uhr.</p>
+                        <p>hs. Telegramm, schwarze Tinte, von <rs ref="#pmb43015" type="place"
+                              >Kaltenbach</rs>, aufgegeben am 23.&#160;8. um 9.10 Uhr nach
+                              <rs ref="#pmb34824" type="place">Seeboden</rs>, angenommen am
+                           23.&#160;8. um 9.45 Uhr.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -82,18 +86,18 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb43015">Kaltenbach</placeName>
-               <date when="1899-08-23" n="01">23. 8. 1899</date>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb43015">Kaltenbach</placeName>
+               <date when="1899-08-23" n="01">23.&#160;8.&#160;1899</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb34824">Seeboden</placeName>
-               <date when="1899-08-23">23. 8. 1899</date>
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb34824">Seeboden</placeName>
+               <date when="1899-08-23">23.&#160;8.&#160;1899</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-07-31_01">Beer-Hofmann an Schnitzler, 31. 7. 1899</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-08-28_01">Beer-Hofmann an Schnitzler, 28. 8. 1899</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-07-31_01">Beer-Hofmann an Schnitzler, 31.&#160;7.&#160;1899</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-08-28_01">Beer-Hofmann an Schnitzler, 28.&#160;8.&#160;1899</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -108,38 +112,9 @@
       <graphic url="1899_AS_RBH_2_00032.jpeg"/>
    </facsimile>
    <text type="telegram">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1899_AS_RBH_2_00031.jpeg"/>
-                        <hi rend="latintype">Richard Beer</hi>
-               </addrLine>
-               <addrLine>
-                        <hi rend="latintype">Hofmann Villa</hi>
-                    </addrLine>
-               <addrLine>
-                  <placeName key="pmb40788">
-                     <hi rend="latintype">Platzer</hi>
-                  </placeName>
-                        <space unit="chars" quantity="1"/>
-                        <placeName key="pmb34824">
-                     <hi rend="latintype">Seeboden</hi> Millſtätterſee</placeName>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>Sprach <persName key="pmb12790">
-                        <hi rend="latintype">Singer</hi>
-                    </persName>
-               einsendung ihrer <rs type="work" key="pmb43046">
-                        <hi rend="latintype">Novelle</hi>
-                    </rs> möglichſt beſchleunigen we<c rendition="#gemination-n"/>
-               Terminwünſche erfüllen werden ſollen herzlichſt</p>
-            <closer>
-               <signed>Arthur</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="1899_AS_RBH_2_00031.jpeg"/><hi rend="latintype">Richard Beer</hi></addrLine><addrLine><hi rend="latintype">Hofmann Villa</hi></addrLine><addrLine><rs ref="#pmb40788" type="place"><hi rend="latintype">Platzer</hi></rs><space unit="chars" quantity="1"/><rs ref="#pmb34824" type="place"><hi rend="latintype">Seeboden</hi> Millſtätterſee</rs></addrLine></address></div><div type="writingSession" n="1"><p>Sprach <rs ref="#pmb12790" type="person"><hi rend="latintype">Singer</hi></rs>
+               einsendung ihrer <rs type="work" ref="#pmb43046" subtype="implied"><hi rend="latintype"
+                  >Novelle</hi></rs> möglichſt beſchleunigen we<c rendition="#gemination-n"/>
+               Terminwünſche erfüllen werden ſollen herzlichſt</p><closer><signed>Arthur</signed></closer></div></body>
    </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-08-04_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-08-04_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 4. 8. 1897</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 4.&#160;8.&#160;1897</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,14 +55,14 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief mit Umschlag, 1 Bl., 3 S., Bleistift.</p>
+                        <p>eh. Brief mit Umschlag, 1&#160;Bl., 3&#160;S., Bleistift.</p>
                         <stamp n="1">
-                           <placeName key="pmb59">Wien 9/3</placeName>
+                           <rs ref="#pmb59" type="place">Wien 9/3</rs>
                            <date>4. 8. 97</date>
                            <time>5-6N</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb213">Ischl</placeName>
+                           <rs ref="#pmb213" type="place">Ischl</rs>
                            <date>6. 8. 97</date>
                            <time>1-2 N</time>
                         </stamp>
@@ -69,8 +73,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -89,19 +93,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1897-08-04" n="01">4. 8. 1897</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1897-08-04" n="01">4.&#160;8.&#160;1897</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb213">Ischl</placeName>
-               <date when="1897-08-06">6. 8. 1897</date>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb213">Ischl</placeName>
+               <date when="1897-08-06">6.&#160;8.&#160;1897</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-07-20_01">Schnitzler an Beer-Hofmann, 20. 7. 1897</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-08-05_01">Schnitzler an Beer-Hofmann, 5. 8. 1897</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-07-20_01">Schnitzler an Beer-Hofmann, 20.&#160;7.&#160;1897</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-08-05_01">Schnitzler an Beer-Hofmann, 5.&#160;8.&#160;1897</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -118,42 +122,11 @@
       <graphic url="1897_AS_RBH_2_00053.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1897_AS_RBH_2_00050.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
-                     Beer-Hofmann </hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb213">Ischl</placeName>
-                  </hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb766">
-                     <hi rend="latintype">Egelmoos 22</hi>
-                  </placeName>.</addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <salute>
-                  <pb facs="1897_AS_RBH_2_00052.jpeg"/>Lieber Richard.</salute>
-            </opener>
-            <p> Thun Sie mir einen großen Gefallen.</p>
-            <p>Frau <persName key="pmb16560">F.</persName> iſt wieder in <placeName key="pmb213">Iſchl</placeName>; heute erhielt ich einen Brief von ihr, ich möge ihr <hi n="1" rend="underline">durch Sie</hi> Briefe und Bilder zurückſchicken, in <placeName key="pmb50">Wien</placeName> erhalte ich die Erklärung. – Gehn Sie zu <pb facs="1897_AS_RBH_2_00053.jpeg"/>
-               <placeName key="pmb414">Petter</placeName>, ſie
+      <body><div type="address"><address><addrLine><pb facs="1897_AS_RBH_2_00050.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
+                     Beer-Hofmann </hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb213" type="place">Ischl</rs></hi></addrLine><addrLine><rs ref="#pmb766" type="place"><hi rend="latintype">Egelmoos 22</hi></rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs="1897_AS_RBH_2_00052.jpeg"/>Lieber Richard.</salute></opener><p> Thun Sie mir einen großen Gefallen.</p><p>Frau <rs ref="#pmb16560" type="person">F.</rs> iſt wieder in <rs ref="#pmb213" type="place">Iſchl</rs>; heute erhielt ich einen Brief von ihr, ich möge ihr <hi n="1" rend="underline">durch Sie</hi> Briefe und Bilder zurückſchicken, in <rs ref="#pmb50" type="place">Wien</rs> erhalte ich die Erklärung.&#160;– Gehn Sie zu <pb facs="1897_AS_RBH_2_00053.jpeg"/><rs ref="#pmb414" type="place">Petter</rs>, ſie
                ist <hi rend="latintype">en fam.</hi> dort, Sie werden ſie aber leicht allein
-               ſprechen können. Sagen Sie ihr, ich käme bald ſelbſt nach <placeName key="pmb213">Iſchl</placeName> und erfülle lieber perſönlich ihren Wunſch, ſie kö<c rendition="#gemination-n"/>e ſicher darauf rechnen.</p>
-            <p>
-               <pb facs="1897_AS_RBH_2_00053.jpeg"/>Bringen Sie aber heraus was dahinter ſteckt, ich
+               ſprechen können. Sagen Sie ihr, ich käme bald ſelbſt nach <rs ref="#pmb213" type="place">Iſchl</rs> und erfülle lieber perſönlich ihren Wunſch, ſie kö<c rendition="#gemination-n"/>e ſicher darauf rechnen.</p><p><pb facs="1897_AS_RBH_2_00053.jpeg"/>Bringen Sie aber heraus was dahinter ſteckt, ich
                ärgere mich mehr als die Geſchichte werth iſt. Antworten Sie mir gleich, am liebſten
-               telegrafiſch.</p>
-            <closer>Herzlich Ihr<lb/>
-               <signed>Arthur</signed>
-            </closer>
-         </div>
-      </body>
+               telegrafiſch.</p><closer>Herzlich Ihr<lb/><signed>Arthur</signed></closer></div></body>
    </text>
 </TEI>

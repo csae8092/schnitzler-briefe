@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-01-30_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1898-01-30_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [30. 1. 1898]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [30.&#160;1.&#160;1898]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43b/1</idno>
+                                <idno>Schnitzler, B&#160;43b/1</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Briefkarte, Bleistift. Von Schnitzler mit Bleistift datiert: »<quote>
@@ -63,8 +67,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -83,18 +87,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1898-01-30" n="01">[30. 1. 1898]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1898-01-30" n="01">[30.&#160;1.&#160;1898]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1898-01-25_04">Hofmannsthal an Schnitzler, 25. 1. 1898</ptr>
-               <ptr type="next" subtype="toAuthor" target="1898-03-07_01">Hofmannsthal an Schnitzler, 7. 3. 1898</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1898-01-25_04">Hofmannsthal an Schnitzler, 25.&#160;1.&#160;1898</ptr>
+               <ptr type="next" subtype="toAuthor" target="1898-03-07_01">Hofmannsthal an Schnitzler, 7.&#160;3.&#160;1898</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -111,27 +115,10 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00242"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-                    <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00241"/>
-                    <salute>lieber, </salute>ſeien <supplied>Sie</supplied> nicht bös. Sie müſſen
-                    miſsverſtanden haben, ich hab meinen Sitz zur <anchor type="commentary" xml:id="KL2195-1"/>
-                    <persName key="pmb20066">Landi</persName>
-                    <note type="commentary" xml:id="KL2195-1h">
-                        <persName key="pmb20066">Camilla Landi</persName> trat am
-                            <date>11. 2. 1898</date> im <placeName key="pmb4">Bösendorfersaal</placeName> auf. <persName key="pmb2121">Schnitzler</persName> war zu dem Zeitpunkt nicht in <placeName key="pmb50">Wien</placeName> und besuchte die Vorstellung
-                        nicht.</note> ſchon ſeit 10 Tagen. Ich glaube <persName key="pmb10863">Richard</persName> hat Sie gebeten, ich nur um 3 Sitze zur <anchor type="commentary" xml:id="KL2195-2"/>
-                    <rs type="work" key="pmb29899">
-                        <hi rend="latintype">première</hi>
-                    </rs>
-                    <note type="commentary" xml:id="KL2195-2h">Von <workName key="pmb29899">Freiwild</workName> am <date>4. 2. 1898</date> im <placeName key="pmb118">Carl-Theater</placeName>.</note>.</p>
-                <p>
-                    <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00242"/>Die <persName key="pmb10992">Brandes</persName>abende waren ſehr hübſch und haben mir ſehr viel Freude
-                    gemacht. Ich hoff, ich ſeh Sie bald wieder.</p>
-                <closer>Ihr <signed>Hugo</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00241"/><salute>lieber, </salute>ſeien <supplied>Sie</supplied> nicht bös. Sie müſſen
+                    miſsverſtanden haben, ich hab meinen Sitz zur <anchor type="commentary" xml:id="KL2195-1"/><rs ref="#pmb20066" type="person">Landi</rs><note type="commentary" xml:id="KL2195-1h"><rs ref="#pmb20066" type="person">Camilla Landi</rs> trat am
+                            <date>11.&#160;2.&#160;1898</date> im <rs ref="#pmb4" type="place">Bösendorfersaal</rs> auf. <rs ref="#pmb2121" type="person">Schnitzler</rs> war zu dem Zeitpunkt nicht in <rs ref="#pmb50" type="place">Wien</rs> und besuchte die Vorstellung
+                        nicht.</note> ſchon ſeit 10 Tagen. Ich glaube <rs ref="#pmb10863" type="person">Richard</rs> hat Sie gebeten, ich nur um 3 Sitze zur <anchor type="commentary" xml:id="KL2195-2"/><rs type="work" ref="#pmb29899" subtype="implied"><hi rend="latintype">première</hi></rs><note type="commentary" xml:id="KL2195-2h">Von <rs ref="#pmb29899" type="work">Freiwild</rs> am <date>4.&#160;2.&#160;1898</date> im <rs ref="#pmb118" type="place">Carl-Theater</rs>.</note>.</p><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00242"/>Die <rs ref="#pmb10992" type="person">Brandes</rs>abende waren ſehr hübſch und haben mir ſehr viel Freude
+                    gemacht. Ich hoff, ich ſeh Sie bald wieder.</p><closer>Ihr <signed>Hugo</signed></closer></div></body>
     </text>
 </TEI>

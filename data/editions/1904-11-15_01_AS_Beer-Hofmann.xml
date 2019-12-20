@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1904-11-15_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1904-11-15_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 15. 11. 1904</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 15.&#160;11.&#160;1904</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,17 +83,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb168">Berlin</placeName>
-               <date when="1904-11-15" n="01">15. 11. 1904</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb168">Berlin</placeName>
+               <date when="1904-11-15" n="01">15.&#160;11.&#160;1904</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1904-11-12_01">Beer-Hofmann an Schnitzler, 12. 11. 1904</ptr>
-               <ptr type="next" subtype="toAuthor" target="1904-11-28_01">Schnitzler an Beer-Hofmann, 28. 11. 1904</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1904-11-12_01">Beer-Hofmann an Schnitzler, 12.&#160;11.&#160;1904</ptr>
+               <ptr type="next" subtype="toAuthor" target="1904-11-28_01">Schnitzler an Beer-Hofmann, 28.&#160;11.&#160;1904</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -98,41 +102,23 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date when="1904-11-15">15/11 904</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Richard, </salute>Telegramm haben Sie wohl vom Theater aus bekommen:
-                  <date>Freitag</date>
-               <space unit="chars" quantity="1"/>
-               <date>Samstag</date>
-               Arrangirprobe. Meine <rs type="work" key="pmb30217">Premiere</rs>
-               <space unit="chars" quantity="1"/>
-               <date>Dinstag</date>; ich liess es Ihnen
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date when="1904-11-15">15/11 904</date></dateline></opener><p><salute>Lieber Richard, </salute>Telegramm haben Sie wohl vom Theater aus bekommen:
+                  <date>Freitag</date><space unit="chars" quantity="1"/><date>Samstag</date>
+               Arrangirprobe. Meine <rs type="work" ref="#pmb30217" subtype="implied">Premiere</rs><space unit="chars" quantity="1"/><date>Dinstag</date>; ich liess es Ihnen
                auch telegrafiren weil Sie am Ende, wenn es bei <date>Freitag</date> geblieben wäre,
-               um einen Tag früher gekommen wären. – <placeName key="pmb40580">Carlton Hotel</placeName>
-               soll, wie mir <persName key="pmb12504">Reinhardt</persName>, der dort wohnt, sagt,
-               nichts rechtes sein; räth es Ihnen nicht.</p>
-            <p>Ich wohne <placeName key="pmb231">Bristol</placeName>, es befriedigt mich von allen
-                  <placeName key="pmb168">Berlin</placeName>er Hotels doch am meisten. Hoffentlich
-               auf Wiedersehen.</p>
-            <p>
-               <persName key="pmb12274">Moissi</persName>, den ich gestern zum ersten Mal im
-               <workName key="pmb29843">Kakadu</workName> proben sah, eins der augenfälligsten Talente, das mir
-               in der letzten Zeit untergekommen ist. Als <rs type="work" key="pmb29843">Henri</rs> kann er
+               um einen Tag früher gekommen wären.&#160;– <rs ref="#pmb40580" type="place">Carlton Hotel</rs>
+               soll, wie mir <rs ref="#pmb12504" type="person">Reinhardt</rs>, der dort wohnt, sagt,
+               nichts rechtes sein; räth es Ihnen nicht.</p><p>Ich wohne <rs ref="#pmb231" type="place">Bristol</rs>, es befriedigt mich von allen
+                  <rs ref="#pmb168" type="place">Berlin</rs>er Hotels doch am meisten. Hoffentlich
+               auf Wiedersehen.</p><p><rs ref="#pmb12274" type="person">Moissi</rs>, den ich gestern zum ersten Mal im
+               <rs ref="#pmb29843" type="work">Kakadu</rs> proben sah, eins der augenfälligsten Talente, das mir
+               in der letzten Zeit untergekommen ist. Als <rs type="work" ref="#pmb29843" subtype="implied">Henri</rs> kann er
                übrigens seine Fehler zu Tugenden ausnützen (was übrigens auch ein Talent ist). Für
                den Filipp dürfte ihm wohl das wie soll ich sagen Höfische fehlen; aber er ist sehr
                lenksam, und das absolute seiner Begabung innerhalb des hier (und anderswo)
                grassirenden Mittelmaßes müßte jedem Vernünftigen wohlthun. Seine Aussprache ist ja
                sehr fremdartig – aber sobald man sie gewöhnt, wirkt sie (auf mich wenigstens) beinah
                als ein Reiz mehr. Natürlich ist es denkbar, dass ihn das Publikum anfangs auslacht.
-               Mit diesem Trost will ich schließen. Ihr <signed>A.</signed>
-            </p>
-         </div>
-      </body>
+               Mit diesem Trost will ich schließen. Ihr <signed>A.</signed></p></div></body>
    </text>
 </TEI>

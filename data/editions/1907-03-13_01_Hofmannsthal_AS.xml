@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1907-03-13_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1907-03-13_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 13. 3. 1907</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 13.&#160;3.&#160;1907</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <!--<placeName key="pmb50">Wien</placeName>-->
-               <date when="1907-03-13" n="01">13. 3. 1907</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <!--<placeName ref="#pmb50">Wien</placeName>-->
+               <date when="1907-03-13" n="01">13.&#160;3.&#160;1907</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
                <ptr type="previous" subtype="toAuthor" target="1907-01_01">Hofmannsthal an Schnitzler, 1907-01</ptr>
-               <ptr type="next" subtype="toAuthor" target="1907-04-13_01">Hofmannsthal an Schnitzler, 13. 4. 1907</ptr>
+               <ptr type="next" subtype="toAuthor" target="1907-04-13_01">Hofmannsthal an Schnitzler, 13.&#160;4.&#160;1907</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,16 +105,8 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <salute>mein lieber Arthur</salute>
-            </opener>
-            <p>bitte schreiben Sie mir gleich <hi rend="underline" n="1">pneumatisch</hi> nach
-                  <placeName key="pmb50">Wien</placeName>
-               <placeName key="pmb40827">I Himmelpfortgasse 17</placeName> ob das <orgName key="pmb36247">Burgtheater</orgName> auf das Stück »<workName key="pmb32163">Fuchs</workName>« von mir, das es seit 5 Jahren nicht gespielt hat, noch
-               Rechte haben kann. Dieses Recht kann doch nicht auf ewige Zeiten gelten. </p>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><opener><salute>mein lieber Arthur</salute></opener><p>bitte schreiben Sie mir gleich <hi rend="underline" n="1">pneumatisch</hi> nach
+                  <rs ref="#pmb50" type="place">Wien</rs><rs ref="#pmb40827" type="place">I Himmelpfortgasse 17</rs> ob das <rs ref="#pmb36247" type="organisation">Burgtheater</rs> auf das Stück »<rs ref="#pmb32163" type="work">Fuchs</rs>« von mir, das es seit 5 Jahren nicht gespielt hat, noch
+               Rechte haben kann. Dieses Recht kann doch nicht auf ewige Zeiten gelten. </p></div></body>
    </text>
 </TEI>

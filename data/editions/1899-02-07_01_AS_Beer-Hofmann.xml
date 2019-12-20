@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-02-07_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1899-02-07_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 7. 2. 1899</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 7.&#160;2.&#160;1899</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -53,7 +57,7 @@
                      <physDesc>
                         <p>eh. Briefkarte mit Umschlag, Bleistift.</p>
                         <stamp n="1">
-                           <placeName key="pmb51">Wien 1/1</placeName>
+                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
                            <date>
                               <supplied>7.</supplied> 2. 99</date>
                            <time>10-11 N</time>
@@ -65,8 +69,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -85,18 +89,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="50">Wien</placeName>
-               <date when="1899-02-07" n="01">7. 2. 1899</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="50">Wien</placeName>
+               <date when="1899-02-07" n="01">7.&#160;2.&#160;1899</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-01-05_01">Schnitzler an Beer-Hofmann, 5. 1. 1899</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-02-24_02">Beer-Hofmann an Schnitzler, 24. 2. 1899</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-01-05_01">Schnitzler an Beer-Hofmann, 5.&#160;1.&#160;1899</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-02-24_02">Beer-Hofmann an Schnitzler, 24.&#160;2.&#160;1899</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -111,36 +115,8 @@
       <graphic url="1899_AS_RBH_1_00010.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1899_AS_RBH_1_00009.jpeg"/>
-                  <hi rend="latintype">Herrn<hi rend="latintype">Dr. Rich Beer-Hofmann</hi>
-                  </hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb50">Wien</placeName>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb338">I. Wollzeile 15</placeName>
-                  </hi>.</addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="1899_AS_RBH_1_00010.jpeg"/>
-               <salute>Lieber Richard, </salute>für Freitag ſind keine ordentlichen Nebeneinander
+      <body><div type="address"><address><addrLine><pb facs="1899_AS_RBH_1_00009.jpeg"/><hi rend="latintype">Herrn<hi rend="latintype">Dr. Rich Beer-Hofmann</hi></hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I. Wollzeile 15</rs></hi>.</addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1899_AS_RBH_1_00010.jpeg"/><salute>Lieber Richard, </salute>für Freitag ſind keine ordentlichen Nebeneinander
                Sitze mehr zu haben. Sie kö<c rendition="#gemination-n"/>en alſo nix ä hin kommen
-               ſtuppen. Werden wir noch die Erfindung des Teleſtupp erleben?</p>
-            <closer>Herzlich Ihr <signed>Arthur</signed>
-            </closer>
-            <p>
-               <date when="1899-02-07">7/2 99</date>
-            </p>
-         </div>
-
-      </body>
+               ſtuppen. Werden wir noch die Erfindung des Teleſtupp erleben?</p><closer>Herzlich Ihr <signed>Arthur</signed></closer><p><date when="1899-02-07">7/2 99</date></p></div></body>
    </text>
 </TEI>

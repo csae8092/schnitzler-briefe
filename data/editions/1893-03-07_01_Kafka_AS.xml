@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-03-07_01_Kafka_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-03-07_01_Kafka_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Eduard Michael Kafka an Arthur Schnitzler, 7. 3. 1893</title>
-                <author key="pmb2563">Kafka, Eduard Michael</author>
+                <title level="a">Eduard Michael Kafka an Arthur Schnitzler, 7.&#160;3.&#160;1893</title>
+                <author ref="#pmb2563">Kafka, Eduard Michael</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>A:Schnitzler, HS.NZ85.1.3604</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., schwarze Tinte. Eine Unterstreichung mit
+                                <p>eh. Brief, 1 Bl., 1&#160;S., schwarze Tinte. Eine Unterstreichung mit
                                     rotem Buntstift.</p>
                             </physDesc>
                         </msDesc>
@@ -64,17 +68,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2563">Kafka, Eduard Michael</persName>
-                    <placeName key="pmb42561">Kreiensen</placeName>
-                    <date when="1893-03-07" n="01">7. 3. 1893</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2563">Kafka, Eduard Michael</persName>
+                    <placeName ref="#pmb42561">Kreiensen</placeName>
+                    <date when="1893-03-07" n="01">7.&#160;3.&#160;1893</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-02-24_01">Kafka an Schnitzler, 24. 2. 1893</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-02-24_01">Kafka an Schnitzler, 24.&#160;2.&#160;1893</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -88,44 +92,14 @@
         <graphic url="OGL Kafka, Eduard M. an AS.pdf"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p rend="center">
-                  <pb facs="OGL Kafka, Eduard M. an AS.pdf"/>
-                  <hi rend="pre-print">
-                     <persName key="pmb42566">Wilh. Sundermeyer</persName>
-                  </hi>
-               </p>
-                    <p rend="center">
-                  <hi rend="pre-print">
-                     <placeName key="pmb42564">Bahnhof
-                                Kreiensen</placeName>.</hi>
-               </p>
-                    <dateline rend="right">
-                  <hi rend="pre-print">
-                     <placeName key="pmb42561">Kreiensen</placeName>, den </hi>7/III <hi rend="pre-print">189</hi>3.</dateline>
-                </opener>
-                <p rend="inline">
-               <salute rend="inline">Lieber Schnitzler,</salute>
-            </p>
-                <p>bitte, wollen Sie die Güte haben, mir ein Ex. »<workName key="pmb29935">Anatol</workName>« möglichſt umgehend nach <placeName key="pmb38129">München</placeName>, oder beſſer nach <hi rend="underline" n="1">
-                  <placeName key="pmb881">Mannheim</placeName>
-               </hi> (<placeName key="pmb42568">Pfälzer Hof</placeName>) ſenden. –</p>
-                <p>Es that mir ſehr leid, Sie vor einigen Tagen, als ich über <placeName key="pmb833">Brünn</placeName> u. <placeName key="pmb652">Prag</placeName>,
-                    ein paar Stunden in <placeName key="pmb50">Wien</placeName> weilte, nicht
-                    getroffen zu haben.</p>
-                <p>Man erzählte mir Trauriges von <persName key="pmb2450">Fels</persName>; es war
+        <body><div type="writingSession" n="1"><opener><p rend="center"><pb facs="OGL Kafka, Eduard M. an AS.pdf"/><hi rend="pre-print"><rs ref="#pmb42566" type="person">Wilh. Sundermeyer</rs></hi></p><p rend="center"><hi rend="pre-print"><rs ref="#pmb42564" type="place">Bahnhof
+                                Kreiensen</rs>.</hi></p><dateline rend="right"><hi rend="pre-print"><rs ref="#pmb42561" type="place">Kreiensen</rs>, den </hi>7/III <hi rend="pre-print">189</hi>3.</dateline></opener><p rend="inline"><salute rend="inline">Lieber Schnitzler,</salute></p><p>bitte, wollen Sie die Güte haben, mir ein Ex. »<rs ref="#pmb29935" type="work">Anatol</rs>« möglichſt umgehend nach <rs ref="#pmb38129" type="place">München</rs>, oder beſſer nach <hi rend="underline" n="1"><rs ref="#pmb881" type="place">Mannheim</rs></hi> (<rs ref="#pmb42568" type="place">Pfälzer Hof</rs>) ſenden.&#160;–</p><p>Es that mir ſehr leid, Sie vor einigen Tagen, als ich über <rs ref="#pmb833" type="place">Brünn</rs> u. <rs ref="#pmb652" type="place">Prag</rs>,
+                    ein paar Stunden in <rs ref="#pmb50" type="place">Wien</rs> weilte, nicht
+                    getroffen zu haben.</p><p>Man erzählte mir Trauriges von <rs ref="#pmb2450" type="person">Fels</rs>; es war
                     mir eine warme Freude, zu hören, daſs Sie ſich ſeiner nach Kräften annehmen.
-                    Bitte, ſchreiben Sie mir doch gütigſt ein paar Zeilen, wie es ihm geht, –
+                    Bitte, ſchreiben Sie mir doch gütigſt ein paar Zeilen, wie es ihm geht,&#160;–
                     oder, lieber, ſenden Sie mir seine Adreſſe; ich will, da ich ihm nun doch wol
-                    kaum mehr werde beſuchen können – vor meiner <placeName key="pmb244">ſchwediſch</placeName>-<placeName key="pmb1030">norwegiſchen</placeName>
-                    Reiſe – gerne ein paar Zeilen an ihn richten.</p>
-                <p>Leben Sie recht wohl, lieber Freund, u. ſeien Sie herzlichſt gegrüßt</p>
-                <closer>von Ihrem getreuen<lb/>
-               <signed>EMKafka</signed>
-            </closer>
-            </div>
-        </body>
+                    kaum mehr werde beſuchen können – vor meiner <rs ref="#pmb244" type="place">ſchwediſch</rs>-<rs ref="#pmb1030" type="place">norwegiſchen</rs>
+                    Reiſe – gerne ein paar Zeilen an ihn richten.</p><p>Leben Sie recht wohl, lieber Freund, u. ſeien Sie herzlichſt gegrüßt</p><closer>von Ihrem getreuen<lb/><signed>EMKafka</signed></closer></div></body>
     </text>
 </TEI>

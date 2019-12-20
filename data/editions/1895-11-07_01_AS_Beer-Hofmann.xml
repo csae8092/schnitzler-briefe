@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-11-07_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1895-11-07_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 7. 11. 1895</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 7.&#160;11.&#160;1895</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -53,9 +57,9 @@
                      <physDesc>
                         <p>hs. Postkarte, Bleistift.</p>
                         <stamp n="1">
-                           <placeName key="pmb51">Wien 1/1</placeName>
-                           <date>7. 11. 95</date>
-                           <time>8–9 N</time>
+                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
+                           <date>7.&#160;11.&#160;95</date>
+                           <time>8–9&#160;N</time>
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -68,18 +72,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1895-11-07" n="01">7. 11. 1895</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1895-11-07" n="01">7.&#160;11.&#160;1895</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-10-19_01">Beer-Hofmann an Schnitzler, [19. 10.? 1895]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-11-16_01">Schnitzler an Beer-Hofmann, 16. 11. 1895</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-10-19_01">Beer-Hofmann an Schnitzler, [19.&#160;10.?&#160;1895]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-11-16_01">Schnitzler an Beer-Hofmann, 16.&#160;11.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -94,40 +98,11 @@
       <graphic url="1895_AS_RBH_3_00022.jpeg"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1895_AS_RBH_3_00021.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb50">Wien</placeName>. </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb338">I Wollzeile 15</placeName>
-                  </hi>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <salute>
-                  <pb facs="1895_AS_RBH_3_00022.jpeg"/>Lieber Richard,</salute> für den Fall,
-               daß ich Sie früher nicht ſehe: den Sitz zu <anchor type="commentary" xml:id="KLMAM20191021-4"/>
-               <workName key="pmb42444">Goldene Herzen</workName>
-               <note type="commentary" xml:id="KLMAM20191021-4h">Uraufführung am
-                     <date>9. 11. 1895</date>, auch <persName key="pmb2121">Schnitzler</persName> besuchte die Vorstellung.</note> erhalten Sie
-               <date>Samſtag</date> zugeſandt. Auch <persName key="pmb42452">
-                  <hi rend="latintype">Zelzer</hi>
-               </persName> hab ich ſchon wegen des <anchor type="commentary" xml:id="KLMAM20191021-3"/>
-               <workName key="pmb30455">Winkelglücks</workName>
-               <note type="commentary" xml:id="KLMAM20191021-3h">Karten für die Uraufführung am
-                     <date>9. 11. 1895</date> am <placeName key="pmb14">Burgtheater</placeName>.</note> geſprochen.</p>
-            <closer>Herzlich Ihr<lb/>
-               <signed>Arthur</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="1895_AS_RBH_3_00021.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
+                     Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs>. </addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I Wollzeile 15</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p><salute><pb facs="1895_AS_RBH_3_00022.jpeg"/>Lieber Richard,</salute> für den Fall,
+               daß ich Sie früher nicht ſehe: den Sitz zu <anchor type="commentary" xml:id="KLMAM20191021-4"/><rs ref="#pmb42444" type="work">Goldene Herzen</rs><note type="commentary" xml:id="KLMAM20191021-4h">Uraufführung am
+                     <date>9.&#160;11.&#160;1895</date>, auch <rs ref="#pmb2121" type="person">Schnitzler</rs> besuchte die Vorstellung.</note> erhalten Sie
+               <date>Samſtag</date> zugeſandt. Auch <rs ref="#pmb42452" type="person"><hi rend="latintype">Zelzer</hi></rs> hab ich ſchon wegen des <anchor type="commentary" xml:id="KLMAM20191021-3"/><rs ref="#pmb30455" type="work">Winkelglücks</rs><note type="commentary" xml:id="KLMAM20191021-3h">Karten für die Uraufführung am
+                     <date>9.&#160;11.&#160;1895</date> am <rs ref="#pmb14" type="place">Burgtheater</rs>.</note> geſprochen.</p><closer>Herzlich Ihr<lb/><signed>Arthur</signed></closer></div></body>
    </text>
 </TEI>

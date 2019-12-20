@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1916-12-12_01_AS_Adam">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1916-12-12_01_AS_Adam">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Robert Adam, 12. 12. 1916</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Robert Adam, 12.&#160;12.&#160;1916</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -63,18 +67,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1916-12-12" n="01">12. 12. 1916</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1916-12-12" n="01">12.&#160;12.&#160;1916</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1916-12-11_01">Schnitzler an Adam, 11. 12. 1916</ptr>
-               <ptr type="next" subtype="toAuthor" target="1916-12-21_01">Schnitzler an Adam, 21. 12. 1916</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1916-12-11_01">Schnitzler an Adam, 11.&#160;12.&#160;1916</ptr>
+               <ptr type="next" subtype="toAuthor" target="1916-12-21_01">Schnitzler an Adam, 21.&#160;12.&#160;1916</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -84,44 +88,9 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
-               </addrLine>
-                    <addrLine>
-                  <hi rend="pre-print">
-                     <placeName key="pmb150">Wien XVIII. Sternwartestrasse 71</placeName>
-                  </hi>
-               </addrLine>
-                </address>
-                <address>
-                    <addrLine>
-                  <pb facs=""/>Hrn Dr. Rob. Adam Pollak</addrLine>
-                    <addrLine>
-                  <placeName key="pmb62">Wien XII</placeName>.</addrLine>
-                    <addrLine>
-                  <placeName key="pmb1239">Meidlinger Hptstr 56</placeName>
-               </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs=""/>
-                  <date>12. 12. 916</date>
-               </dateline>
-                    <salute rend="inline">Verehrter Herr Doktor,</salute>
-                </opener>
-                <p>ich freue mich über die guten Nachrichten aus <placeName key="pmb38129">München</placeName>;
+        <body><div type="address"><address><addrLine><hi rend="pre-print">Dr. Arthur Schnitzler</hi></addrLine><addrLine><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></addrLine></address><address><addrLine><pb facs=""/>Hrn Dr. Rob. Adam Pollak</addrLine><addrLine><rs ref="#pmb62" type="place">Wien XII</rs>.</addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hptstr 56</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>12.&#160;12.&#160;916</date></dateline><salute rend="inline">Verehrter Herr Doktor,</salute></opener><p>ich freue mich über die guten Nachrichten aus <rs ref="#pmb38129" type="place">München</rs>;
                     hoffentlich haben ſie auch gute Folge. Für morgen <date>Mittwoch</date> muſs ich
                     Ihnen leider absagen. Die Abende der ganzen Woche hab ich beſetzt und ſchreibe Ihnen ſobald
-                    als möglich, wa<c rendition="#gemination-n"/> ich Sie bei mir ſehen kann.</p>
-                    
-                <closer>Herzlichſt grüßend<lb/>Ihr ergebner <signed>A. S.</signed>
-                </closer>
-            </div>
-        </body>
+                    als möglich, wa<c rendition="#gemination-n"/> ich Sie bei mir ſehen kann.</p><closer>Herzlichſt grüßend<lb/>Ihr ergebner <signed>A.&#160;S.</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1929-06-07_01_Adam_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1929-06-07_01_Adam_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 7. 6. 1929</title>
-                <author key="pmb12438">Adam, Robert</author>
+                <title level="a">Robert Adam an Arthur Schnitzler, 7.&#160;6.&#160;1929</title>
+                <author ref="#pmb12438">Adam, Robert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 1</idno>
+                                <idno>Schnitzler, B&#160;1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S., schwarze Tinte. Von Schnitzler mit rotem
+                                <p>eh. Brief, 1&#160;Bl., 3&#160;S., schwarze Tinte. Von Schnitzler mit rotem
                                     Buntstift beschriftet: »<quote>
                                         <hi rend="latintype">Adam</hi>
                                     </quote>«. Von unbekannter Hand ebenfalls mit rotem Buntstift
@@ -81,18 +85,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1929-06-07" n="01">7. 6. 1929</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1929-06-07" n="01">7.&#160;6.&#160;1929</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1928-05-11_01">Adam an Schnitzler, 11. 5. 1928</ptr>
-               <ptr type="next" subtype="toAuthor" target="1929-06-14_01">Schnitzler an Adam, 14. 6. 1929</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1928-05-11_01">Adam an Schnitzler, 11.&#160;5.&#160;1928</ptr>
+               <ptr type="next" subtype="toAuthor" target="1929-06-14_01">Schnitzler an Adam, 14.&#160;6.&#160;1929</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -109,39 +113,23 @@
         <graphic url="MS-SCHNITZLER-B-00001-000-00010"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00001-000-00009"/>
-                        <placeName key="pmb50">Wien</placeName>, am <date>7. Juni 1929</date>
-                    </dateline>
-                    <salute>Hochverehrter Herr Doktor!</salute>
-                </opener>
-                <p>Frl. <persName key="pmb22728">Frieda Pollak</persName> hat mir mitgeteilt, daß
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00001-000-00009"/><rs ref="#pmb50" type="place">Wien</rs>, am <date>7.&#160;Juni&#160;1929</date></dateline><salute>Hochverehrter Herr Doktor!</salute></opener><p>Frl. <rs ref="#pmb22728" type="person">Frieda Pollak</rs> hat mir mitgeteilt, daß
                     Sie die große Güte hatten, meine jüngſte Arbeit zu leſen und ſich für ihr
                     Schickſal zu intereſſieren. Ich danke Ihnen, wie ſchon ſo oft, auf’s
-                    herzlichſte. Mit »<workName key="pmb33618">Margot und das
-                        Jugendgericht</workName>« meine ich freilich nichts Schwerwiegendes und
+                    herzlichſte. Mit »<rs ref="#pmb33618" type="work">Margot und das
+                        Jugendgericht</rs>« meine ich freilich nichts Schwerwiegendes und
                     Hervorragendes geſchaffen zu haben, aber die frohe Befriedigung, die ich, trotz
                     Alltags-Sorgen und -ärger, beim Schreiben <pb facs="MS-SCHNITZLER-B-00001-000-00010"/>empfand, besonders das eigene
-                    Vergnügen an <rs type="work" key="pmb33618">Margots</rs> Erlebniſſen mit dem
+                    Vergnügen an <rs type="work" ref="#pmb33618" subtype="implied">Margots</rs> Erlebniſſen mit dem
                     Heilpädagogen und in der Kaffeehausecke, gaben mir doch das ſichere Gefühl, daß
                     die Geſchichte meiner Heldin auch andern etwas Sympathie, deren ſie ſie so
                     dringend bedarf, abgewinnen könne. Wenn es mir gelänge, mit dieſem leichten
                     Stück endlich einmal den ſo oft geſuchten Eingang zur Bühne zu finden, wäre es
                     natürlich für mich von allergrößter Bedeutung. Nur haben mir die ſtäten
-                    Enttäuſchungen früherer Jahre das Hoffen gründlichſt abgewöhnt.</p>
-                <p>
-                    <pb facs="MS-SCHNITZLER-B-00001-000-00010"/>Dürfte ich, hochverehrter Herr
+                    Enttäuſchungen früherer Jahre das Hoffen gründlichſt abgewöhnt.</p><p><pb facs="MS-SCHNITZLER-B-00001-000-00010"/>Dürfte ich, hochverehrter Herr
                     Doktor, nach langer Zeit wieder einmal perſönlich bei Ihnen vorſprechen? Jede
-                    Zeit wäre mir recht, und Frl. <persName key="pmb22728">Pollak</persName>, mit
-                    deren <rs type="person" key="pmb22740">Bruder</rs> ich in ſtetem Kontakt bin,
-                    würde es gewiß übernehmen, mir die Ihnen genehme Stunde mitzuteilen.</p>
-                <closer>Mit ergebenſtem Gruß Ihr<lb/>dankbarer<lb/>
-                    <signed>D<hi rend="superscript">r</hi>RAdam</signed>
-                </closer>
-            </div>
-        </body>
+                    Zeit wäre mir recht, und Frl. <rs ref="#pmb22728" type="person">Pollak</rs>, mit
+                    deren <rs type="person" ref="#pmb22740" subtype="implied">Bruder</rs> ich in ſtetem Kontakt bin,
+                    würde es gewiß übernehmen, mir die Ihnen genehme Stunde mitzuteilen.</p><closer>Mit ergebenſtem Gruß Ihr<lb/>dankbarer<lb/><signed>D<hi rend="superscript">r</hi>RAdam</signed></closer></div></body>
     </text>
 </TEI>

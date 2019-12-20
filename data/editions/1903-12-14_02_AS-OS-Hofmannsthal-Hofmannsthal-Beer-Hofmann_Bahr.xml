@@ -1,15 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1903-12-14_02_AS-OS-Hofmannsthal-Hofmannsthal-Beer-Hofmann_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1903-12-14_02_AS-OS-Hofmannsthal-Hofmannsthal-Beer-Hofmann_Bahr">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler u. a. an Hermann Bahr, 14. 12. 1903</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
-            <author key="pmb2173">Schnitzler, Olga</author>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
-            <author key="pmb2292">Hofmannsthal, Gerty von</author>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Arthur Schnitzler u. a. an Hermann Bahr, 14.&#160;12.&#160;1903</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
+            <author ref="#pmb2173">Schnitzler, Olga</author>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
+            <author ref="#pmb2292">Hofmannsthal, Gerty von</author>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -57,16 +61,16 @@
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Ansichtskarte, Bleistift, 6 Verf., Motiv: »<quote>
-                              <placeName key="pmb449">Hietzing, den <c rendition="#dots" n="3"/> 19<c rendition="#dots" n="3"/> / Auhofstrasse 1</placeName>. / Schöner Gruss vom reizenden Etablissement ›<placeName key="pmb304">Ottakringerbräu</placeName>‹ ›zum schwarzen Hahn‹, wo es so gemüthlich ist.</quote>«</p>
+                              <rs ref="#pmb449" type="place">Hietzing, den <c rendition="#dots" n="3"/> 19<c rendition="#dots" n="3"/> / Auhofstrasse 1</rs>. / Schöner Gruss vom reizenden Etablissement ›<rs ref="#pmb304" type="place">Ottakringerbräu</rs>‹ ›zum schwarzen Hahn‹, wo es so gemüthlich ist.</quote>«</p>
                         <stamp n="1">
-                           <placeName key="pmb68">Wien 18/1</placeName>
-                           <date when="1903-12-15">15. 12. 03</date>
+                           <rs ref="#pmb68" type="place">Wien 18/1</rs>
+                           <date when="1903-12-15">15.&#160;12.&#160;03</date>
                            <time>6–7 V</time>
                         </stamp>
                         <stamp n="2">
                            <action>Bestellt</action>
-                           <placeName key="pmb63">Wien 13/7</placeName>
-                           <date when="1903-12-15">15<supplied>.</supplied> 12. 03</date>
+                           <rs ref="#pmb63" type="place">Wien 13/7</rs>
+                           <date when="1903-12-15">15<supplied>.</supplied>&#160;12.&#160;03</date>
                            <time>11.</time>
                         </stamp>
                      </physDesc>
@@ -76,9 +80,9 @@
             <listBibl>
                <biblStruct corresp="HvHHB">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo von</author> 
-                     <author key="pmb2292">Hofmannsthal, Gerty von</author> 
-                     <author key="pmb10815">Bahr, Hermann</author> 
+                     <author ref="#pmb11740">Hofmannsthal, Hugo von</author> 
+                     <author ref="#pmb2292">Hofmannsthal, Gerty von</author> 
+                     <author ref="#pmb10815">Bahr, Hermann</author> 
                      <title level="m">Briefwechsel 1891–1934</title>
                      <editor>Hg. und kommentiert von Elsbeth Dangel-Pelloquin</editor>
                      <imprint>
@@ -91,8 +95,8 @@
                </biblStruct>
                <biblStruct>                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -110,23 +114,23 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <persName key="pmb2173">Schnitzler, Olga</persName>
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <persName key="pmb2292">Hofmannsthal, Gerty von</persName>
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1903-12-14" n="02">14. 12. 1903</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <persName ref="#pmb2173">Schnitzler, Olga</persName>
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1903-12-14" n="02">14.&#160;12.&#160;1903</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1903-12-15">15<supplied>.</supplied> 12. 03</date>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1903-12-15">15<supplied>.</supplied>&#160;12.&#160;03</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1903-12-13_01">Schnitzler an Bahr, 13. 12. 1903</ptr>
-               <ptr type="next" subtype="toAuthor" target="1903-12-16_01">Bahr an Schnitzler, 16. 12. [1903]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1903-12-13_01">Schnitzler an Bahr, 13.&#160;12.&#160;1903</ptr>
+               <ptr type="next" subtype="toAuthor" target="1903-12-16_01">Bahr an Schnitzler, 16.&#160;12.&#160;[1903]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -139,53 +143,10 @@
       <graphic url="missing_TMW"/>     
    </facsimile>
   <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>Herrn Hermann Bahr</addrLine>
-               <addrLine>
-                  <placeName key="pmb165">Wien Ob St Veit</placeName>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb220">Veitlissengasse</placeName>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <workName key="pmb29983">Dem Meister</workName>. – 10<c rendition="#prozent"/>!</p>
-            <p>
-               <date>14. 12. 03</date>
-            </p>
-            <p>
-               <anchor type="commentary" xml:id="KL202-1"/>
-               <workName key="pmb29909">Unter sich</workName>
-               <note type="commentary" xml:id="KL202-1h">Die <orgName key="pmb29779">11
-                Scharfrichter</orgName> hatten <persName key="pmb10815">Bahrs</persName> Schauspiel
-                <workName key="pmb29909">Unter sich</workName> am <date>9. 12. 1903</date> in
-                <placeName key="pmb50">Wien</placeName>
-            gegeben.</note>:</p>
-            <closer>
-               <signed>Arthur</signed>
-            </closer>
-            <postscript>
-               <p>
-                  <handShift scribe="pmb2173"/>
-                  <signed>Olga S.</signed>
-                  <lb/>
-                  <handShift scribe="pmb11740"/>
-                  <signed>Hugo (ich bin nicht der <rs type="work" key="pmb29909">
-                        <anchor type="commentary" xml:id="KL202-2"/>Onkel<note type="commentary" xml:id="KL202-2h">Figur aus <workName key="pmb29909">Unter sich</workName>.</note>
-                     </rs>)</signed>
-                  <lb/>
-                     <handShift scribe="pmb2292"/>
-                  <signed>Gerty</signed>
-                  <lb/>
-                        <handShift scribe="pmb10863"/>
-                  <signed>Richard</signed>
-               </p>
-            </postscript>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine>Herrn Hermann Bahr</addrLine><addrLine><rs ref="#pmb165" type="place">Wien Ob St Veit</rs></addrLine><addrLine><rs ref="#pmb220" type="place">Veitlissengasse</rs></addrLine></address></div><div type="writingSession" n="1"><p><rs ref="#pmb29983" type="work">Dem Meister</rs>.&#160;– 10<c rendition="#prozent"/>!</p><p><date>14.&#160;12.&#160;03</date></p><p><anchor type="commentary" xml:id="KL202-1"/><rs ref="#pmb29909" type="work">Unter sich</rs><note type="commentary" xml:id="KL202-1h">Die <rs ref="#pmb29779" type="organisation">11
+                Scharfrichter</rs> hatten <rs ref="#pmb10815" type="person">Bahrs</rs> Schauspiel
+                <rs ref="#pmb29909" type="work">Unter sich</rs> am <date>9.&#160;12.&#160;1903</date> in
+                <rs ref="#pmb50" type="place">Wien</rs>
+            gegeben.</note>:</p><closer><signed>Arthur</signed></closer><postscript><p><handShift scribe="pmb2173"/><signed>Olga S.</signed><lb/><handShift scribe="pmb11740"/><signed>Hugo (ich bin nicht der <rs type="work" ref="#pmb29909" subtype="implied"><anchor type="commentary" xml:id="KL202-2"/>Onkel<note type="commentary" xml:id="KL202-2h">Figur aus <rs ref="#pmb29909" type="work">Unter sich</rs>.</note></rs>)</signed><lb/><handShift scribe="pmb2292"/><signed>Gerty</signed><lb/><handShift scribe="pmb10863"/><signed>Richard</signed></p></postscript></div></body>
   </text>
 </TEI>

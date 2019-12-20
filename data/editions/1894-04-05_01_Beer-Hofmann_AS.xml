@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-04-05_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-04-05_01_Beer-Hofmann_AS">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, [5. 4. 1894?]</title>
-                <author key="pmb10863">Beer-Hofmann, Richard</author>
+                <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, [5.&#160;4.&#160;1894?]</title>
+                <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -48,7 +52,7 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 8</idno>
+                                <idno>Schnitzler, B&#160;8</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Briefkarte, Bleistift; Lateinschrift. Von Schnitzler mit
@@ -62,8 +66,8 @@
                 <listBibl>
                     <biblStruct corresp="ASBH">
                         <monogr>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
-                            <author key="pmb10863">Beer-Hofmann, Richard</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                             <title level="m">Briefwechsel 1891–1931</title>
                             <editor>Hg. Konstanze Fliedl</editor>
                             <imprint>
@@ -76,8 +80,8 @@
                     </biblStruct>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb10815">Bahr, Hermann</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10815">Bahr, Hermann</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel, Aufzeichnungen, Dokumente
                                 (1891–1931)</title>
                             <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
@@ -96,17 +100,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-                    <date when="1894-04-05" n="01">[5. 4. 1894?]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+                    <date when="1894-04-05" n="01">[5.&#160;4.&#160;1894?]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-04-02_01">Schnitzler an Beer-Hofmann, [2. 4. 1894?]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-04-28_02">Schnitzler an Beer-Hofmann, 28. 4. 1894</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-04-02_01">Schnitzler an Beer-Hofmann, [2.&#160;4.&#160;1894?]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-04-28_02">Schnitzler an Beer-Hofmann, 28.&#160;4.&#160;1894</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -120,16 +124,7 @@
         <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00061.jpg"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-                    <salute>
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00061.jpg"/>Lieber Arthur!
-                    </salute> Bitte holen Sie mich nicht zum Bicycle ab. Nicht nur <persName key="pmb10815">Bahr</persName> auch ich schaudere davor zurück.</p>
-                <p>Sind Sie nicht böse.</p>
-                <closer>Herzlichst<lb/>Ihr <signed>Richard</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><p><salute><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00061.jpg"/>Lieber Arthur!
+                    </salute> Bitte holen Sie mich nicht zum Bicycle ab. Nicht nur <rs ref="#pmb10815" type="person">Bahr</rs> auch ich schaudere davor zurück.</p><p>Sind Sie nicht böse.</p><closer>Herzlichst<lb/>Ihr <signed>Richard</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1903-01-07_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1903-01-07_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 7. 1. 1903</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 7.&#160;1.&#160;1903</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <!-- <placeName key="pmb50">Wien</placeName> -->
-               <date when="1903-01-07" n="01">7. 1. 1903</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <!-- <placeName ref="#pmb50">Wien</placeName> -->
+               <date when="1903-01-07" n="01">7.&#160;1.&#160;1903</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1902-12-27_01">Hofmannsthal an Schnitzler, 27. 12. 1902</ptr>
-               <ptr type="next" subtype="toAuthor" target="1903-01-07_02">Schnitzler an Hofmannsthal, 7. 1. 1903</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1902-12-27_01">Hofmannsthal an Schnitzler, 27.&#160;12.&#160;1902</ptr>
+               <ptr type="next" subtype="toAuthor" target="1903-01-07_02">Schnitzler an Hofmannsthal, 7.&#160;1.&#160;1903</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,27 +105,11 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>7. 1.</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>lieber, </salute>die gestrige Sache hat für mich sehr unter der gedrängten
-               Zeit gelitten. Hier einige Bitten. </p>
-            <p>1.) wie würden Sie mir raten das Verhältnis zu dem »<persName key="pmb22269">Otway</persName>’schen <rs type="work" key="pmb40069">Stück</rs>« auf dem Zettel
-               zu bezeichnen? </p>
-            <p>2.) welche Besetzung der 6 großen Rollen (2 Frauen 2 Männer 2 Senatoren) schlagen Sie
-               (mit dem vorhandenen Material) für das <orgName key="pmb36247">Burgtheater</orgName>
-               vor?</p>
-            <p>Wir wünschen Ihnen und <persName key="pmb2173">Olga</persName> viel Freude für den
-               kleinen Ausflug</p>
-            <closer>Von Herzen<lb/>
-               <signed>Hugo.</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>7.&#160;1.</date></dateline></opener><p><salute>lieber, </salute>die gestrige Sache hat für mich sehr unter der gedrängten
+               Zeit gelitten. Hier einige Bitten. </p><p>1.) wie würden Sie mir raten das Verhältnis zu dem »<rs ref="#pmb22269" type="person">Otway</rs>’schen <rs type="work" ref="#pmb40069" subtype="implied">Stück</rs>« auf dem Zettel
+               zu bezeichnen? </p><p>2.) welche Besetzung der 6 großen Rollen (2 Frauen 2 Männer 2 Senatoren) schlagen Sie
+               (mit dem vorhandenen Material) für das <rs ref="#pmb36247" type="organisation">Burgtheater</rs>
+               vor?</p><p>Wir wünschen Ihnen und <rs ref="#pmb2173" type="person">Olga</rs> viel Freude für den
+               kleinen Ausflug</p><closer>Von Herzen<lb/><signed>Hugo.</signed></closer></div></body>
    </text>
 </TEI>

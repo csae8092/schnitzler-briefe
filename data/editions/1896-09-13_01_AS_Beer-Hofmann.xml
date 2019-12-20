@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-09-13_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-09-13_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, [13. 9. 1896]</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, [13.&#160;9.&#160;1896]</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -63,8 +67,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -83,18 +87,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1896-09-13" n="01">[13. 9. 1896]</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1896-09-13" n="01">[13.&#160;9.&#160;1896]</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb662">Baden bei Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb662">Baden bei Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-09-10_01">Beer-Hofmann an Schnitzler, 10. 9. 1896</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-09-14_01">Beer-Hofmann an Schnitzler, 14. 9. 1896</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-09-10_01">Beer-Hofmann an Schnitzler, 10.&#160;9.&#160;1896</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-09-14_01">Beer-Hofmann an Schnitzler, 14.&#160;9.&#160;1896</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -112,42 +116,14 @@
       <graphic url="1896_AS_RBH_3_00035.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1893_AS_RBH_3_00032.jpeg"/>
-                  <hi rend="latintype">An Dr. Rich.
-                     Beer Hofmann</hi>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <pb facs="1893_AS_RBH_3_00034.jpeg"/>
-                  <anchor type="commentary" xml:id="KLM20191119-1"/>
-                  <date when="1896-09-13">So<c rendition="#gemination-n"/>tag</date>
-                  <note type="commentary" xml:id="KLM20191119-1h">Der <date>13. 9. 1896</date> war ein Sonntag,
-                  <persName key="pmb2121">Schnitzler</persName> irrt sich mit der Beschriftung »<quote>
-                        <date>12/IX 96</date>
-                     </quote>.</note>. – <time>½ 6.
-                        <hi rend="latintype">N. M.</hi>
-                  </time>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Richard, </salute>wie ka<c rendition="#gemination-n"/> man nicht
-               einmal eine Poſt zu Haus laſſen wo man zu finden wäre! Ich ko<c rendition="#gemination-m"/>e per Rad von <placeName key="pmb968">Mödling</placeName> – <pb facs="1893_AS_RBH_3_00035.jpeg"/>
-               <persName key="pmb24686">Tini</persName> – <placeName key="pmb17504">Alland</placeName> –
-                  <placeName key="pmb34343">Neuhaus</placeName> – <placeName key="pmb40112">Pottenſtein</placeName> – <placeName key="pmb40115">Antonsgaſſe 4</placeName> –
-                  <placeName key="pmb680">Franzensgaſſe 54</placeName> –</p>
-            <p>Der Doctor <persName key="pmb12740">Schwarzkopf</persName> iſt auch da, der grüßt
+      <body><div type="address"><address><addrLine><pb facs="1893_AS_RBH_3_00032.jpeg"/><hi rend="latintype">An Dr. Rich.
+                     Beer Hofmann</hi></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1893_AS_RBH_3_00034.jpeg"/><anchor type="commentary" xml:id="KLM20191119-1"/><date when="1896-09-13">So<c rendition="#gemination-n"/>tag</date><note type="commentary" xml:id="KLM20191119-1h">Der <date>13.&#160;9.&#160;1896</date> war ein Sonntag,
+                  <rs ref="#pmb2121" type="person">Schnitzler</rs> irrt sich mit der Beschriftung »<quote><date>12/IX 96</date></quote>.</note>.&#160;– <time>½&#160;6.
+                        <hi rend="latintype">N.&#160;M.</hi></time></dateline></opener><p><salute>Lieber Richard, </salute>wie ka<c rendition="#gemination-n"/> man nicht
+               einmal eine Poſt zu Haus laſſen wo man zu finden wäre! Ich ko<c rendition="#gemination-m"/>e per Rad von <rs ref="#pmb968" type="place">Mödling</rs> – <pb facs="1893_AS_RBH_3_00035.jpeg"/><rs ref="#pmb24686" type="person">Tini</rs> – <rs ref="#pmb17504" type="place">Alland</rs> –
+                  <rs ref="#pmb34343" type="place">Neuhaus</rs> – <rs ref="#pmb40112" type="place">Pottenſtein</rs> – <rs ref="#pmb40115" type="place">Antonsgaſſe 4</rs> –
+                  <rs ref="#pmb680" type="place">Franzensgaſſe 54</rs>&#160;–</p><p>Der Doctor <rs ref="#pmb12740" type="person">Schwarzkopf</rs> iſt auch da, der grüßt
                Sie, aber nicht ſo herzlich wie ich. 
-            </p>
-            <closer>Ihr <signed>ArthSch</signed>
-            </closer>
-         </div>
-      </body>
+            </p><closer>Ihr <signed>ArthSch</signed></closer></div></body>
    </text>
 </TEI>

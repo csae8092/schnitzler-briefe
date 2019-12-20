@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1908-01-29_01_AS_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1908-01-29_01_AS_Bahr">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 24. 1. 1908</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 24.&#160;1.&#160;1908</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -52,7 +56,7 @@
                         <idno>HS AM 23380 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S.</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,11 +64,11 @@
             <listBibl>
                <biblStruct corresp="DASB">
                   <analytic>
-                     <title level="a">24. 1. 1908</title>
+                     <title level="a">24.&#160;1.&#160;1908</title>
      
                   </analytic>
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint> 
@@ -81,8 +85,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -100,18 +104,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1908-01-29" n="01">24. 1. 1908</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1908-01-29" n="01">24.&#160;1.&#160;1908</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1908-01-13_01">Schnitzler an Bahr, 13. 1. 1908</ptr>
-               <ptr type="next" subtype="toAuthor" target="1908-04-17_01">Bahr an Schnitzler, 17. 4. 1908</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1908-01-13_01">Schnitzler an Bahr, 13.&#160;1.&#160;1908</ptr>
+               <ptr type="next" subtype="toAuthor" target="1908-04-17_01">Bahr an Schnitzler, 17.&#160;4.&#160;1908</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -126,31 +130,9 @@
       <graphic url="HS_AM23380Ba"/>     
    </facsimile>
   <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <p>
-                  <seg rend="left">
-                     <pb facs=""/>
-                     <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
-                  </seg>
-                  <seg rend="right">
-                     <date>24. 1. 908</date>.
-                  </seg>
-               </p>
-               <p>
-                  <hi rend="pre-print">
-                     <placeName key="pmb133">Wien XVIII. Spoettelgasse 7</placeName>.</hi>
-               </p>
-               <salute>lieber Hermann, </salute>
-            </opener>
-            <p>ich danke dir herzlichst für deinen freundlichen <anchor type="commentary" xml:id="KL104-1"/>Glückwunsch<note type="commentary" xml:id="KL104-1h">Nicht erhalten. Zur Zuerkennung des <orgName key="pmb29677">Grillparzer-Preis</orgName>es für <workName key="pmb29909">Das
-                Zwischenspiel</workName>. Die Jurysitzung fand am <date when="1908-01-15">15. 1. 1908</date> statt, am Folgetag berichteten die Zeitungen darüber.</note>! Wie lang bist du noch in
-                       <placeName key="pmb50">Wien</placeName>? </p>
-            <closer>Dein<lb/>
-               <signed>Arthur</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></seg><seg rend="right"><date>24.&#160;1.&#160;908</date>.
+                  </seg></p><p><hi rend="pre-print"><rs ref="#pmb133" type="place">Wien XVIII. Spoettelgasse 7</rs>.</hi></p><salute>lieber Hermann, </salute></opener><p>ich danke dir herzlichst für deinen freundlichen <anchor type="commentary" xml:id="KL104-1"/>Glückwunsch<note type="commentary" xml:id="KL104-1h">Nicht erhalten. Zur Zuerkennung des <rs ref="#pmb29677" type="organisation">Grillparzer-Preis</rs>es für <rs ref="#pmb29909" type="work">Das
+                Zwischenspiel</rs>. Die Jurysitzung fand am <date when="1908-01-15">15.&#160;1.&#160;1908</date> statt, am Folgetag berichteten die Zeitungen darüber.</note>! Wie lang bist du noch in
+                       <rs ref="#pmb50" type="place">Wien</rs>? </p><closer>Dein<lb/><signed>Arthur</signed></closer></div></body>
   </text>
 </TEI>

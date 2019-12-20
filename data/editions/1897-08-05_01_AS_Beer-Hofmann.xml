@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-08-05_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-08-05_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 5. 8. 1897</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 5.&#160;8.&#160;1897</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,19 +83,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1897-08-05" n="01">5. 8. 1897</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1897-08-05" n="01">5.&#160;8.&#160;1897</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb213">Ischl</placeName>
-               <date when="1897-08-05">5. 8. 1897</date>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb213">Ischl</placeName>
+               <date when="1897-08-05">5.&#160;8.&#160;1897</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-08-04_01">Schnitzler an Beer-Hofmann, 4. 8. 1897</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-08-07_01">Beer-Hofmann an Schnitzler, 7. 8. 1897</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-08-04_01">Schnitzler an Beer-Hofmann, 4.&#160;8.&#160;1897</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-08-07_01">Beer-Hofmann an Schnitzler, 7.&#160;8.&#160;1897</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -105,23 +109,8 @@
       <graphic url="1897_AS_RBH_2_00056.jpeg"/>
    </facsimile>
    <text type="telegram">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1897_AS_RBH_2_00055.jpeg"/>richard beer </addrLine>
-               <addrLine>hofman <placeName key="pmb213">ischl</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <placeName key="pmb766">eglmoos 22</placeName>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>bitte sagen sie lieber dass ein derartiger wunsch fuer den absolut kein grund
+      <body><div type="address"><address><addrLine><pb facs="1897_AS_RBH_2_00055.jpeg"/>richard beer </addrLine><addrLine>hofman <rs ref="#pmb213" type="place">ischl</rs><space unit="chars" quantity="1"/><rs ref="#pmb766" type="place">eglmoos 22</rs></addrLine></address></div><div type="writingSession" n="1"><p>bitte sagen sie lieber dass ein derartiger wunsch fuer den absolut kein grund
                ersichtlich widersinnig und zerstoerend scheint. brief bringt ihnen aufklaerung
-               herzlich <signed>arthur</signed>
-            </p>
-         </div>
-      </body>
+               herzlich <signed>arthur</signed></p></div></body>
    </text>
 </TEI>

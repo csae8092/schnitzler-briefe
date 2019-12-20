@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-06-04_01_Mamroth_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-06-04_01_Mamroth_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Fedor Mamroth an Arthur Schnitzler, 4. 6. 1893</title>
-                <author key="pmb4986">Mamroth, Fedor</author>
+                <title level="a">Fedor Mamroth an Arthur Schnitzler, 4.&#160;6.&#160;1893</title>
+                <author ref="#pmb4986">Mamroth, Fedor</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 68</idno>
+                                <idno>Schnitzler, B&#160;68</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., blaue Tinte. Von unbekannter Hand mit
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., blaue Tinte. Von unbekannter Hand mit
                                     Bleistift nummeriert: »<quote>5</quote>«. Eine Unterstreichung
                                     mit rotem Buntstift.</p>
                             </physDesc>
@@ -65,18 +69,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb4986">Mamroth, Fedor</persName>
-                    <placeName key="pmb146">Frankfurt</placeName>
-                    <date when="1893-06-04" n="01">4. 6. 1893</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb4986">Mamroth, Fedor</persName>
+                    <placeName ref="#pmb146">Frankfurt</placeName>
+                    <date when="1893-06-04" n="01">4.&#160;6.&#160;1893</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-03-05_02">Mamroth an Schnitzler, 5. 3. 1893</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-04-04_01">Mamroth an Schnitzler, 4. 4. 1894</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-03-05_02">Mamroth an Schnitzler, 5.&#160;3.&#160;1893</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-04-04_01">Mamroth an Schnitzler, 4.&#160;4.&#160;1894</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -91,72 +95,17 @@
         <graphic url="MS-SCHNITZLER-B-00068-000-00011"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p>
-                        <pb facs="MS-SCHNITZLER-B-00068-000-00011"/>
-                        <orgName key="pmb29442">
-                            <hi rend="pre-print">
-                                <hi rend="antiqua">Frankfurter Zeitung</hi>
-                            </hi>
-                            <lb/>
-                            <hi rend="antiqua">
-                                <hi rend="pre-print">und</hi>
-                            </hi>
-                            <lb/>
-                            <hi rend="pre-print">
-                                <hi rend="antiqua">Handelsblatt.</hi>
-                            </hi>
-                        </orgName>
-                    </p>
-                    <dateline>
-                        <seg rend="left">
-                            <hi rend="pre-print">
-                                <hi rend="antiqua">Redaktion.<footNote xml:id="FT2813-1">
-                                        <p>
-                                            <hi rend="pre-print">
-                                                <hi rend="antiqua">Für die Redaktion bestimmte
+        <body><div type="writingSession" n="1"><opener><p><pb facs="MS-SCHNITZLER-B-00068-000-00011"/><rs ref="#pmb29442" type="organisation"><hi rend="pre-print"><hi rend="antiqua">Frankfurter Zeitung</hi></hi><lb/><hi rend="antiqua"><hi rend="pre-print">und</hi></hi><lb/><hi rend="pre-print"><hi rend="antiqua">Handelsblatt.</hi></hi></rs></p><dateline><seg rend="left"><hi rend="pre-print"><hi rend="antiqua">Redaktion.<footNote xml:id="FT2813-1"><p><hi rend="pre-print"><hi rend="antiqua">Für die Redaktion bestimmte
                                                   Briefe und Sendungen wolle man <hi rend="spaced_out">nicht</hi> an die Person eines
                                                   Redakteurs, sondern stets <hi rend="bold">an die
                                                   Redaktion der Frankfurter Zeitung</hi>
-                                                  adressiren</hi>
-                                            </hi>.</p>
-                                    </footNote>
-                                </hi>
-                            </hi>
-                        </seg>
-                        <seg rend="right">
-                            <hi rend="pre-print">
-                                <hi rend="antiqua">
-                                    <placeName key="pmb146">Frankfurt a. M.</placeName>,</hi>
-                            </hi>
-                            <space unit="chars" quantity="1"/>
-                            <date>4. Juni <hi rend="antiqua">
-                                    <hi rend="pre-print">189</hi>
-                                </hi>3</date>
-                        </seg>
-                    </dateline>
-                    <p>
-                        <hi rend="pre-print">
-                            <hi rend="antiqua">Telegramm-Adresse:</hi>
-                        </hi>
-                    </p>
-                    <p>
-                        <hi rend="pre-print">
-                            <hi rend="antiqua">Zeitung Frankfurt Main.</hi>
-                        </hi>
-                    </p>
-                    <salute rend="inline">Sehr verehrter Herr Doctor!</salute>
-                </opener>
-                
-                <p>Ich habe Ihren Roman »<workName key="pmb30117">Der ſterbende Herr</workName>« mit
+                                                  adressiren</hi></hi>.</p></footNote></hi></hi></seg><seg rend="right"><hi rend="pre-print"><hi rend="antiqua"><rs ref="#pmb146" type="place">Frankfurt a. M.</rs>,</hi></hi><space unit="chars" quantity="1"/><date>4.&#160;Juni <hi rend="antiqua"><hi rend="pre-print">189</hi></hi>3</date></seg></dateline><p><hi rend="pre-print"><hi rend="antiqua">Telegramm-Adresse:</hi></hi></p><p><hi rend="pre-print"><hi rend="antiqua">Zeitung Frankfurt Main.</hi></hi></p><salute rend="inline">Sehr verehrter Herr Doctor!</salute></opener><p>Ich habe Ihren Roman »<rs ref="#pmb30117" type="work">Der ſterbende Herr</rs>« mit
                     einer Theilnahme geleſen, die mir noch ſelten eine eingereichte Arbeit
                     eingeflößt hat. Ich beglückwünſche Sie zu dieſer Dichtung, in der ſie
                     <!-- so! -->den feinen Geiſt eines Poeten und <add place="above">die</add>
                     ſcharfe Beobachtungsgabe des Arztes mit merkwürdiger Ergänzungskunſt
-                    verſchmolzen haben. Allein »<workName key="pmb30117">Der ſterbende
-                        Herr</workName>« iſt kein Zeitungs- ſondern ein Buchroman; erſtens nicht aus
+                    verſchmolzen haben. Allein »<rs ref="#pmb30117" type="work">Der ſterbende
+                        Herr</rs>« iſt kein Zeitungs- ſondern ein Buchroman; erſtens nicht aus
                     Gründen, die ich an dieſer Stelle nicht zu erörtern vermag. Darf ich mir
                     erlauben, Ihnen einen Rath zu ertheilen, ſo würde ich Ihnen dringend empfehlen,
                     für die Veröffentlichung Ihrer ſchönen Arbeit, die Ihnen einen verdienten Erfolg
@@ -169,13 +118,7 @@
                     Compoſition zu ſchätzen wiſſen! Eine Änderung des Titels würde ich Ihnen
                     ernſtlich <pb facs="MS-SCHNITZLER-B-00068-000-00011"/>in Vorſchlag bringen. Wie
                     denken Sie über »Das letzte Jahr« oder »Ende« oder »Ein Todesurtheil« oder »Der
-                    Wille zum Leben« u. ſ. w. All das heißt auch nicht viel, aber es ſcheint mir
-                    doch beſſer als der gewählte Titel.</p>
-                <p>Verſäumen Sie nicht, mir Nachricht zu geben, ſobald der <rs key="pmb30117" type="work">Roman</rs> unter Dach u. Fach gelangt.</p>
-                <closer>Hochachtungsvoll<lb/>Ihr<lb/>ergebener<lb/>
-                    <signed>D<hi rend="superscript">r</hi> FMamroth.</signed>
-                </closer>
-            </div>
-        </body>
+                    Wille zum Leben« u.&#160;ſ.&#160;w. All das heißt auch nicht viel, aber es ſcheint mir
+                    doch beſſer als der gewählte Titel.</p><p>Verſäumen Sie nicht, mir Nachricht zu geben, ſobald der <rs ref="#pmb30117" type="work" subtype="implied">Roman</rs> unter Dach u. Fach gelangt.</p><closer>Hochachtungsvoll<lb/>Ihr<lb/>ergebener<lb/><signed>D<hi rend="superscript">r</hi> FMamroth.</signed></closer></div></body>
     </text>
 </TEI>

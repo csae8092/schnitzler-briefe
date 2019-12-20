@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L042XXX">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L042XXX">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Friedrich M. Fels an Arthur Schnitzler, [Ende 1892?]</title>
-                <author key="pmb2450">Fels, Friedrich M.</author>
+                <author ref="#pmb2450">Fels, Friedrich M.</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -15,8 +19,8 @@
                     <address>
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
-                        <placeName>
-                            <country>A</country> Wien </placeName>
+                        <rs type="place">
+                            <country>A</country> Wien </rs>
                     </address>
                 </funder>
             </titleStmt>
@@ -61,19 +65,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2450">Fels, Friedrich M.</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2450">Fels, Friedrich M.</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                     <date when="1892-12-31" notBefore="1891" notAfter="1895" n="02">[Ende
                         1892?]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1891-06-18_01">Fels an Schnitzler, 18. 6. 1891</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-12-31_03">Fels an Schnitzler, [vor dem 1. 1. 1893?]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1891-06-18_01">Fels an Schnitzler, 18.&#160;6.&#160;1891</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-12-31_03">Fels an Schnitzler, [vor dem 1.&#160;1.&#160;1893?]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -84,34 +88,22 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-               <pb facs=""/>
-               <salute>Lieber Dr Schnitzler! </salute>Warum sind Sie heute nicht
-                        geko<c rendition="#gemination-m"/>en? Ich bin <anchor type="commentary" xml:id="KLMAM20191009-17"/>schwach<note type="commentary" xml:id="KLMAM20191009-17h">Am <date>20. 12. 1892</date> notiert
-                        sich <persName key="pmb2121">Schnitzler</persName> erstmals bei einem Besuch
-                        von <persName key="pmb2450">Fels</persName>, dessen desolaten Zustand:
-                            »<quote>der beinahe hungert. ― Schrecklich ist
-                            das. ―</quote>«. In den folgenden Wochen involvierte sich
-                            <persName key="pmb2121">Schnitzler</persName> stärker, mehrere
+        <body><div type="writingSession" n="1"><p><pb facs=""/><salute>Lieber Dr Schnitzler! </salute>Warum sind Sie heute nicht
+                        geko<c rendition="#gemination-m"/>en? Ich bin <anchor type="commentary" xml:id="KLMAM20191009-17"/>schwach<note type="commentary" xml:id="KLMAM20191009-17h">Am <date>20.&#160;12.&#160;1892</date> notiert
+                        sich <rs ref="#pmb2121" type="person">Schnitzler</rs> erstmals bei einem Besuch
+                        von <rs ref="#pmb2450" type="person">Fels</rs>, dessen desolaten Zustand:
+                            »<quote>der beinahe hungert.&#160;― Schrecklich ist
+                            das.&#160;―</quote>«. In den folgenden Wochen involvierte sich
+                            <rs ref="#pmb2121" type="person">Schnitzler</rs> stärker, mehrere
                         undatierte Korrespondenzstücke dürften in der Zeit bis der Kranke
-                            <date>Mitte Februar 1893</date> nach <placeName key="pmb887">Meran</placeName> abreist, zu verorten sein. Nur teilweise lassen sich
+                            <date>Mitte Februar 1893</date> nach <rs ref="#pmb887" type="place">Meran</rs> abreist, zu verorten sein. Nur teilweise lassen sich
                         implizite Reihungen vornehmen.</note>, weil ich gestern den ganzen
                     Nachmittag vom Durchfall geplagt war. Deshalb ka<c rendition="#gemination-n"/>
-                    ich nicht zu Ihnen ko<c rendition="#gemination-m"/>en. Bitte dem <rs type="person" key="pmb41906">Boten</rs> etwas Geld mitzugeben; ich brauche
-                    zum Leben, für Schneider, Schuster, Hutmacher; der <rs type="person" key="pmb41906">Bote</rs> ist <hi n="1" rend="underline">ganz sicher</hi>,
-                    der Sohn meines <rs type="person" key="pmb41903">Hauswirts</rs> – können ihm
+                    ich nicht zu Ihnen ko<c rendition="#gemination-m"/>en. Bitte dem <rs type="person" ref="#pmb41906" subtype="implied">Boten</rs> etwas Geld mitzugeben; ich brauche
+                    zum Leben, für Schneider, Schuster, Hutmacher; der <rs type="person" ref="#pmb41906" subtype="implied">Bote</rs> ist <hi n="1" rend="underline">ganz sicher</hi>,
+                    der Sohn meines <rs type="person" ref="#pmb41903" subtype="implied">Hauswirts</rs> – können ihm
                     also die gröſte Su<c rendition="#gemination-m"/>e mitgeben. Ich sitze <gap quantity="2" reason="illegible" unit="chars"/> ohne alles hier; nicht einmal
-                    die Cigarette <pb facs=""/>die ich rauche ist bezahlt. <unclear>
-                  <gap quantity="2" reason="illegible" unit="chars"/>
-               </unclear>. Bitte um Adreſse (genaue) von <persName key="pmb10863">Beer-Hofma<c rendition="#gemination-n"/>
-               </persName> u.
-                        <persName key="pmb11740">Loris</persName>.</p>
-                <closer>H. <lb/>
-               <signed>Fels</signed>
-                </closer>
-            </div>
-        </body>
+                    die Cigarette <pb facs=""/>die ich rauche ist bezahlt. <unclear><gap quantity="2" reason="illegible" unit="chars"/></unclear>. Bitte um Adreſse (genaue) von <rs ref="#pmb10863" type="person">Beer-Hofma<c rendition="#gemination-n"/></rs> u.
+                        <rs ref="#pmb11740" type="person">Loris</rs>.</p><closer>H. <lb/><signed>Fels</signed></closer></div></body>
     </text>
 </TEI>

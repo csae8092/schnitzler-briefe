@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1909-10-14_01_Burckhard_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1909-10-14_01_Burckhard_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Max Burckhard an Arthur Schnitzler, 14. 1. 1909</title>
-                <author key="pmb11036">Burckhard, Max</author>
+                <title level="a">Max Burckhard an Arthur Schnitzler, 14.&#160;1.&#160;1909</title>
+                <author ref="#pmb11036">Burckhard, Max</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,22 +52,22 @@
                           <country>GB</country>            
                           <settlement>Cambridge</settlement>            
                           <repository>University Library</repository>            
-                          <idno>Schnitzler, B 20</idno>
+                          <idno>Schnitzler, B&#160;20</idno>
                       </msIdentifier>
                       <physDesc>
                           <p>hs. Telegramm, Bleistift. Übermittlungszeile: »<quote>
-                              <gap quantity="1" reason="illegible" unit="chars"/>ien tel <hi rend="pre-print">Nr. </hi>7291 <hi rend="pre-print">Taxw. <c rendition="#dots" n="10"/> (W</hi> 40 <hi rend="pre-print">Ch <c rendition="#dots" n="10"/>) aufgegeben
+                              <gap quantity="1" reason="illegible" unit="chars"/>ien tel <hi rend="pre-print">Nr.&#160;</hi>7291 <hi rend="pre-print">Taxw. <c rendition="#dots" n="10"/> (W</hi> 40 <hi rend="pre-print">Ch <c rendition="#dots" n="10"/>) aufgegeben
                           am</hi>
                               <space unit="chars" quantity="1"/>
                               <date>14<hi rend="pre-print">/</hi>10 <hi rend="pre-print">19.</hi>9</date>
                               <space unit="chars" quantity="1"/>
                               <hi rend="pre-print">um</hi>
                               <space unit="chars" quantity="1"/>
-                              <time>11 <hi rend="pre-print">Uhr </hi> 40<hi rend="pre-print">M.</hi>
+                              <time>11&#160;<hi rend="pre-print">Uhr </hi>&#160;40<hi rend="pre-print">M.</hi>
                                  <space unit="chars" quantity="1"/>V<hi rend="pre-print">Mittag</hi>
                               </time>.</quote>« 
                               Von Schnitzler datiert mit Bleistift: »<quote>
-                              <date>14/X 09</date>
+                              <date>14/X&#160;09</date>
                            </quote>«.</p>
                       </physDesc>
                   </msDesc>
@@ -76,18 +80,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11036">Burckhard, Max</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1909-10-14" n="01">14. 10. 1909</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11036">Burckhard, Max</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1909-10-14" n="01">14.&#160;10.&#160;1909</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1909-09-15_02">Burckhard an Schnitzler, 15. 9. 1909</ptr>
-               <ptr type="next" subtype="toAuthor" target="1910-04-08_01">Burckhard an Schnitzler, 8. 4. 1910</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1909-09-15_02">Burckhard an Schnitzler, 15.&#160;9.&#160;1909</ptr>
+               <ptr type="next" subtype="toAuthor" target="1910-04-08_01">Burckhard an Schnitzler, 8.&#160;4.&#160;1910</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -97,19 +101,10 @@
         </revisionDesc>
     </teiHeader>
     <text type="telegram">
-        <body>
-           
-            <div type="writingSession" n="1">
-                <p>
-               <pb facs="DSC_0677.JPG"/>Ich hatte ſie ſchon ſelbst bitten wollen bin
+        <body><div type="writingSession" n="1"><p><pb facs="DSC_0677.JPG"/>Ich hatte ſie ſchon ſelbst bitten wollen bin
                 nur in der Hetzjagd noch nicht 
-                in die <placeName key="pmb133">Spöttelgaſſe</placeName> gekommen. ich
+                in die <rs ref="#pmb133" type="place">Spöttelgaſſe</rs> gekommen. ich
                 teile Ihnen die directoriale Zustimmung mit und meine herzlichste Freude
-                mit Gruß</p>
-                <closer>
-               <signed>= Doktor Burckhard +</signed>                                               
-                </closer>
-            </div>
-        </body>
+                mit Gruß</p><closer><signed>= Doktor Burckhard +</signed></closer></div></body>
     </text>
 </TEI>

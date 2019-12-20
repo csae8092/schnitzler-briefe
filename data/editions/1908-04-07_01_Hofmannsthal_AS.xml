@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1908-04-07_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1908-04-07_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 7. 4. 1908</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 7.&#160;4.&#160;1908</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>                
-               <!--<placeName key="pmb50">Wien</placeName>-->
-               <date when="1908-04-07" n="01">7. 4. 1908</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>                
+               <!--<placeName ref="#pmb50">Wien</placeName>-->
+               <date when="1908-04-07" n="01">7.&#160;4.&#160;1908</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1908-02-04_01">Hofmannsthal an Schnitzler, 4. 2. 1908</ptr>
-               <ptr type="next" subtype="toAuthor" target="1908-06-12_01">Hofmannsthal an Schnitzler, 12. 6. 1908</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1908-02-04_01">Hofmannsthal an Schnitzler, 4.&#160;2.&#160;1908</ptr>
+               <ptr type="next" subtype="toAuthor" target="1908-06-12_01">Hofmannsthal an Schnitzler, 12.&#160;6.&#160;1908</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,20 +105,9 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>Dienstg</date>
-               </dateline>
-            </opener>
-            <p>Ich bin nur mehr paar Tage hier, gehe Montag nach <placeName key="pmb299">Griechenland</placeName> deshalb
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>Dienstg</date></dateline></opener><p>Ich bin nur mehr paar Tage hier, gehe Montag nach <rs ref="#pmb299" type="place">Griechenland</rs> deshalb
    wir möchten morgigen (=<date>Mittwoch</date>) <time>Abend</time> bei Euch sein. Hoffentlich
    gehts. Wenn nicht, so ginge noch <date>Freitag</date> abends oder <date>Donnerstag</date> mittag.
-   Erbitten sofort Depesche <placeName key="pmb173">Rodaun</placeName>. </p>
-            <closer>Ihr <signed>Hugo</signed>
-            </closer>
-         </div>
-      </body>
+   Erbitten sofort Depesche <rs ref="#pmb173" type="place">Rodaun</rs>. </p><closer>Ihr <signed>Hugo</signed></closer></div></body>
    </text>
 </TEI>

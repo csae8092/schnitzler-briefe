@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1918-11-13_01_AS_Adam">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1918-11-13_01_AS_Adam">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Robert Adam, 13. 11. 1918</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Robert Adam, 13.&#160;11.&#160;1918</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -54,7 +58,7 @@
                                 <p>ms. Postkarte und Kuvert mit eh. Korrekturen, Grußformel und Unterschrift.</p>
                                <stamp n="1">
                                    <date when="1918-11-04">
-                              <supplied>4. 11. 19</supplied>18</date>
+                              <supplied>4.&#160;11.&#160;19</supplied>18</date>
                                    <time>4</time>
                                </stamp>
                             </physDesc>
@@ -68,18 +72,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1918-11-13" n="01">13. 11. 1918</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1918-11-13" n="01">13.&#160;11.&#160;1918</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1918-11-04_01">Schnitzler an Adam, 4. 11. 1918</ptr>
-               <ptr type="next" subtype="toAuthor" target="1918-11-15_01">Adam an Schnitzler, 15. 11. 1918</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1918-11-04_01">Schnitzler an Adam, 4.&#160;11.&#160;1918</ptr>
+               <ptr type="next" subtype="toAuthor" target="1918-11-15_01">Adam an Schnitzler, 15.&#160;11.&#160;1918</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -88,61 +92,9 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <pb facs=""/>
-                  <hi rend="pre-print">D<hi rend="superscript">R</hi> ARTHUR SCHNITZLER</hi>
-               </addrLine>
-                    <addrLine>
-                  <hi rend="pre-print">
-                     <placeName key="pmb150">WIEN, XVIII. STERNWARTESTRASSE 71</placeName>.</hi>
-               </addrLine>
-                </address>
-                <address>
-                    <addrLine>
-                  <pb facs=""/>Herrn</addrLine>
-                    <addrLine>Landesgerichtsrat Dr. Robert Adam-Pollak</addrLine>
-                    <addrLine>
-                  <placeName key="pmb62">Wien XII</placeName>.</addrLine>
-                    <addrLine>
-                  <placeName key="pmb1239">Meidlinger Hauptstrasse 56</placeName>.</addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <seg rend="left">
-                     <pb facs=""/>
-                     <hi rend="pre-print">D<hi rend="superscript">r</hi> ARTHUR SCHNITZLER</hi>
-                  </seg>
-                  <seg rend="right">
-                     <date>13. 11. 1918</date>
-                  </seg>
-               </dateline>
-                    <p>
-                  <hi rend="pre-print">
-                     <placeName key="pmb150">WIEN, XVIII. STERNWARTESTRASSE 71</placeName>.</hi>
-               </p>
-                    <salute>Lieber und verehrter Herr Doktor.</salute>
-                </opener>
-                <p>Man ist im <placeName key="pmb20">Deutschen Volkstheater</placeName> auf die
-                    Einsendung Ihrer <rs key="pmb33604 pmb33606" type="work">Stücke</rs> vorbereitet <subst>
-                        <del rend="strikethrough">. Man</del>
-                        <add place="inline">und</add>
-                    </subst> hat mir zugesagt sie sofort und mit aller Aufmerksamkeit zu lesen. Vielleicht
-                    senden Sie sowohl den »<workName key="pmb33606">Fremden</workName>« als auch »<workName key="pmb33604">
-                  <subst>
-                    <del rend="overwritten">Ue</del>
-                    <add place="inline">Y</add>
-                  </subst>ppel</workName>« ein und beziehen sich mit ein paar Worten auf meine Rücksprache in 
-                der Direktion. – Auf baldiges Wiedersehen und herzliche Grüsse.</p>
-                <closer>
-               <handShift/>Ihr<lb/>
-               <signed>Arthur Schnitzler</signed>
-            </closer>
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine><pb facs=""/><hi rend="pre-print">D<hi rend="superscript">R</hi> ARTHUR SCHNITZLER</hi></addrLine><addrLine><hi rend="pre-print"><rs ref="#pmb150" type="place">WIEN, XVIII. STERNWARTESTRASSE 71</rs>.</hi></addrLine></address><address><addrLine><pb facs=""/>Herrn</addrLine><addrLine>Landesgerichtsrat Dr. Robert Adam-Pollak</addrLine><addrLine><rs ref="#pmb62" type="place">Wien XII</rs>.</addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hauptstrasse 56</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><seg rend="left"><pb facs=""/><hi rend="pre-print">D<hi rend="superscript">r</hi> ARTHUR SCHNITZLER</hi></seg><seg rend="right"><date>13.&#160;11.&#160;1918</date></seg></dateline><p><hi rend="pre-print"><rs ref="#pmb150" type="place">WIEN, XVIII. STERNWARTESTRASSE 71</rs>.</hi></p><salute>Lieber und verehrter Herr Doktor.</salute></opener><p>Man ist im <rs ref="#pmb20" type="place">Deutschen Volkstheater</rs> auf die
+                    Einsendung Ihrer <rs ref="#pmb33604 pmb33606" type="work" subtype="implied">Stücke</rs> vorbereitet <subst><del rend="strikethrough">. Man</del><add place="inline">und</add></subst> hat mir zugesagt sie sofort und mit aller Aufmerksamkeit zu lesen. Vielleicht
+                    senden Sie sowohl den »<rs ref="#pmb33606" type="work">Fremden</rs>« als auch »<rs ref="#pmb33604" type="work"><subst><del rend="overwritten">Ue</del><add place="inline">Y</add></subst>ppel</rs>« ein und beziehen sich mit ein paar Worten auf meine Rücksprache in 
+                der Direktion. – Auf baldiges Wiedersehen und herzliche Grüsse.</p><closer><handShift/>Ihr<lb/><signed>Arthur&#160;Schnitzler</signed></closer></div></body>
     </text>
 </TEI>

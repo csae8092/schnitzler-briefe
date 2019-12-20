@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-08-24_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1895-08-24_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 24. 8. 1895</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 24.&#160;8.&#160;1895</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., Bleistift.</p>
+                        <p>eh. Brief, 1&#160;Bl., 2&#160;S., Bleistift.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,17 +83,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb40127">St. Johann in Tirol</placeName>
-               <date when="1895-08-24" n="01">24. 8. 1895</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb40127">St. Johann in Tirol</placeName>
+               <date when="1895-08-24" n="01">24.&#160;8.&#160;1895</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-08-19_01">Schnitzler an Beer-Hofmann, 19. 8. 1895</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-08-27_01">Schnitzler an Beer-Hofmann, 27. 8. 1895</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-08-19_01">Schnitzler an Beer-Hofmann, 19.&#160;8.&#160;1895</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-08-27_01">Schnitzler an Beer-Hofmann, 27.&#160;8.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -103,44 +107,13 @@
       <graphic url="1895_AS_RBH_2_00028.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <pb facs="1895_AS_RBH_2_00027.jpeg"/>
-                  <placeName key="pmb40127">
-                     <hi rend="latintype">St Johann in Tirol</hi>
-                  </placeName>.<lb/>
-                  <date when="1895-08-24">24. 8. 95</date>
-               </dateline>
-               <salute>Lieber Richard.</salute>
-            </opener>
-            <p>Genau auf der <hi rend="underline" n="1">Grenze</hi> von <placeName key="pmb314">
-                  <hi rend="latintype">Baiern</hi>
-               </placeName> u <placeName key="pmb423">
-                  <hi rend="latintype">Tirol</hi>
-               </placeName> ſauſte uns ein unheimlich gekleideter
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1895_AS_RBH_2_00027.jpeg"/><rs ref="#pmb40127" type="place"><hi rend="latintype">St Johann in Tirol</hi></rs>.<lb/><date when="1895-08-24">24.&#160;8.&#160;95</date></dateline><salute>Lieber Richard.</salute></opener><p>Genau auf der <hi rend="underline" n="1">Grenze</hi> von <rs ref="#pmb314" type="place"><hi rend="latintype">Baiern</hi></rs> u <rs ref="#pmb423" type="place"><hi rend="latintype">Tirol</hi></rs> ſauſte uns ein unheimlich gekleideter
                   <hi rend="latintype">Bicyclist</hi> mit einem Dolch, Lederhoſen, Zugſchuhen,
                nackten Knieen, weißem Flanellhemd, keiner Cravate, Lodenhut entgegen, und war der
-                  <persName key="pmb11036">Burckhard</persName>. –</p>
-            <p>Jetzt hat es angefangen zu gießen, zu blitzen, zu donnern. Vielleicht ſchlägt es ein;
-                  da<c rendition="#gemination-n"/> ſind wir extra von <placeName key="pmb30">Salzburg</placeName> nach <pb facs="1895_AS_RBH_2_00028.jpeg"/>
-               <placeName key="pmb40127">Johann in Tirol</placeName> gefahren u.ſ.w. (Siehe <workName key="pmb33962">Märchen</workName> von <persName key="pmb11740">
-                  <hi rend="latintype">Loris</hi>
-               </persName>.)</p>
-            <p> Wir warten auf einen Zug. Die Partie war wunderbar. <anchor type="commentary" xml:id="KL2809-1"/>
-               <hi rend="latintype">Le canif</hi> das Federmeſſer<note type="commentary" xml:id="KL2809-1h">Die frz. Vokabel »canif« richtig übersetzt. Unklare
-                  Anspielung.</note>.</p>
-            <closer>Herzliche Grüße<lb/>Ihr <signed>Arthur</signed>
-            </closer>
-            <postscript>
-               <p>Wenn Sie jenes kleine <rs type="person" key="pmb16069">Weſen</rs> ſehen, dem
+                  <rs ref="#pmb11036" type="person">Burckhard</rs>.&#160;–</p><p>Jetzt hat es angefangen zu gießen, zu blitzen, zu donnern. Vielleicht ſchlägt es ein;
+                  da<c rendition="#gemination-n"/> ſind wir extra von <rs ref="#pmb30" type="place">Salzburg</rs> nach <pb facs="1895_AS_RBH_2_00028.jpeg"/><rs ref="#pmb40127" type="place">Johann in Tirol</rs> gefahren u.ſ.w. (Siehe <rs ref="#pmb33962" type="work">Märchen</rs> von <rs ref="#pmb11740" type="person"><hi rend="latintype">Loris</hi></rs>.)</p><p> Wir warten auf einen Zug. Die Partie war wunderbar. <anchor type="commentary" xml:id="KL2809-1"/><hi rend="latintype">Le canif</hi> das Federmeſſer<note type="commentary" xml:id="KL2809-1h">Die frz. Vokabel »canif« richtig übersetzt. Unklare
+                  Anspielung.</note>.</p><closer>Herzliche Grüße<lb/>Ihr <signed>Arthur</signed></closer><postscript><p>Wenn Sie jenes kleine <rs type="person" ref="#pmb16069" subtype="implied">Weſen</rs> ſehen, dem
                      <anchor type="commentary" xml:id="KL2809-2"/>Wehmut und Verachtung
-                  bevorſteht<note type="commentary" xml:id="KL2809-2h">Vgl. <bibl>
-                        <workName key="pmb33243">Tagebuch</workName>, <date>9. 8. 1895</date>
-                     </bibl>.</note>, grüßen Sie ſie von mir.</p>
-            </postscript>
-         </div>
-      </body>
+                  bevorſteht<note type="commentary" xml:id="KL2809-2h">Vgl. <bibl><rs ref="#pmb33243" type="work">Tagebuch</rs>, <date>9.&#160;8.&#160;1895</date></bibl>.</note>, grüßen Sie ſie von mir.</p></postscript></div></body>
    </text>
 </TEI>

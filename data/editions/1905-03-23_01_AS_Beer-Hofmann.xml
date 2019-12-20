@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1905-03-23_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1905-03-23_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 
-                        23. 3. 1905</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+                        23.&#160;3.&#160;1905</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -52,7 +56,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -80,17 +84,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key=""/>
-               <date when="1905-03-23" n="01">23. 3. 1905</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref=""/>
+               <date when="1905-03-23" n="01">23.&#160;3.&#160;1905</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1905-02-10_01">Schnitzler an Beer-Hofmann, 10. 2. 1905</ptr>
-               <ptr type="next" subtype="toAuthor" target="1905-05-08_01">Schnitzler an Beer-Hofmann, 8. 5. 1905</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1905-02-10_01">Schnitzler an Beer-Hofmann, 10.&#160;2.&#160;1905</ptr>
+               <ptr type="next" subtype="toAuthor" target="1905-05-08_01">Schnitzler an Beer-Hofmann, 8.&#160;5.&#160;1905</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,27 +103,11 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         
-				        <div type="writingSession" n="1">
-					          <opener>
-						            <dateline rend="right">
-							              <date when="1905-03-23">23. 3 905</date>
-						            </dateline>
-					          </opener>
-					          <p>
-						            <salute>Lieber Richard, </salute>ich höre dass Sie krank waren, bitte um ein
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date when="1905-03-23">23.&#160;3 905</date></dateline></opener><p><salute>Lieber Richard, </salute>ich höre dass Sie krank waren, bitte um ein
 						Wort, wie’s Ihnen geht Ferner hör ich und weiss ich dass Sie täglich in
-							<placeName key="pmb50">Wien</placeName> sind und Wohnungen ansehen. Da
+							<rs ref="#pmb50" type="place">Wien</rs> sind und Wohnungen ansehen. Da
 						Sie ja in unsrer Gegend suchen dürften, könnten Sie wirklich einmal mit
-							<persName key="pmb10860">Paula</persName> bei uns speisen.</p>
-				           <p>Vielleicht nächste Woche. Oder mit uns bei meiner <rs type="person" key="pmb12701">Mama</rs>. Nicht das Speisen ist mir übrigens die Hauptsache.</p>
-					          <p>– Die Reise war sehr schön; die See beinah immer vollkommen still. Schreiben
-						Sie mir ein Wort.</p>
-					          <closer>Herzlichst Ihr <signed>A.</signed>
-					          </closer>
-				        </div>
-			      
-      </body>
+							<rs ref="#pmb10860" type="person">Paula</rs> bei uns speisen.</p><p>Vielleicht nächste Woche. Oder mit uns bei meiner <rs type="person" ref="#pmb12701" subtype="implied">Mama</rs>. Nicht das Speisen ist mir übrigens die Hauptsache.</p><p>– Die Reise war sehr schön; die See beinah immer vollkommen still. Schreiben
+						Sie mir ein Wort.</p><closer>Herzlichst Ihr <signed>A.</signed></closer></div></body>
    </text>
 </TEI>

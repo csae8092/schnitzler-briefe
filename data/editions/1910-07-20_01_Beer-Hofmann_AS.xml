@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1910-07-20_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1910-07-20_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 
-                                20. 7. 1910</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+                                20.&#160;7.&#160;1910</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -49,10 +53,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -80,17 +84,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb415">Bad Aussee</placeName>
-               <date when="1910-07-20" n="01">20. 7. 1910</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb415">Bad Aussee</placeName>
+               <date when="1910-07-20" n="01">20.&#160;7.&#160;1910</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1910-07-12_01">Schnitzler an Beer-Hofmann, 12. 7. 1910</ptr>
-               <ptr type="next" subtype="toAuthor" target="1910-07-23_01">Schnitzler an Beer-Hofmann, 23. 7. 1910</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1910-07-12_01">Schnitzler an Beer-Hofmann, 12.&#160;7.&#160;1910</ptr>
+               <ptr type="next" subtype="toAuthor" target="1910-07-23_01">Schnitzler an Beer-Hofmann, 23.&#160;7.&#160;1910</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -100,18 +104,8 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         
-				        <div type="writingSession" n="1">
-					          <p>
-						            <salute>Lieber Arthur, </salute>wir sind auf 2 Stunden – ohne irgendwelche
+      <body><div type="writingSession" n="1"><p><salute>Lieber Arthur, </salute>wir sind auf 2 Stunden – ohne irgendwelche
 						Besuchsabsichten hier. Das Erste was wir erblicken: Rothe Zettel »Das
-						Repertoirestück des <placeName key="pmb14">k.k. Hofburgtheaters</placeName> ›<workName key="pmb29917">Liebelei</workName>‹«. Herzliche Grüße, Sie Repertoirebeherrscher!</p>
-					          <closer>
-						            <signed>Richard</signed>
-					          </closer>
-				        </div>
-			      
-      </body>
+						Repertoirestück des <rs ref="#pmb14" type="place">k.k. Hofburgtheaters</rs> ›<rs ref="#pmb29917" type="work">Liebelei</rs>‹«. Herzliche Grüße, Sie Repertoirebeherrscher!</p><closer><signed>Richard</signed></closer></div></body>
    </text>
 </TEI>

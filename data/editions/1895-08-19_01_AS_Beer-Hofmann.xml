@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-08-19_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1895-08-19_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 19. 8. 1895</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 19.&#160;8.&#160;1895</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,8 +55,8 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>hs. Telegramm, aufgegeben in <placeName key="pmb30">Salzburg</placeName> (<time>3.20 N</time>), eingegangen in
-                           <placeName key="pmb213">Ischl</placeName> (<time>4.20</time>).</p>
+                        <p>hs. Telegramm, aufgegeben in <rs ref="#pmb30" type="place">Salzburg</rs> (<time>3.20&#160;N</time>), eingegangen in
+                           <rs ref="#pmb213" type="place">Ischl</rs> (<time>4.20</time>).</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -64,19 +68,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb30">Salzburg</placeName>
-               <date when="1895-08-19" n="01">19. 8. 1895</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb30">Salzburg</placeName>
+               <date when="1895-08-19" n="01">19.&#160;8.&#160;1895</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb213">Bad Ischl</placeName>
-               <date when="1895-08-19">19. 8. 1895</date>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb213">Bad Ischl</placeName>
+               <date when="1895-08-19">19.&#160;8.&#160;1895</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-08-05_01">Schnitzler an Beer-Hofmann, [5. 8. 1895?]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-08-24_01">Schnitzler an Beer-Hofmann, 24. 8. 1895</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-08-05_01">Schnitzler an Beer-Hofmann, [5.&#160;8.&#160;1895?]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-08-24_01">Schnitzler an Beer-Hofmann, 24.&#160;8.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -90,28 +94,7 @@
       <graphic url="1895_AS_RBH_2_00024.jpeg"/>
    </facsimile>
    <text type="telegram">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>Richard Beer-Hoffmann</addrLine>
-               <addrLine>
-                  <placeName key="pmb766">Eglmosgasse 22</placeName>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb213">
-                     <hi rend="stamp">Ischl</hi>
-                  </placeName>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="1895_AS_RBH_2_00022.jpeg"/>Kommen Sie doch morgen abend damit wir
-               wenigſtens ganzen <date>Mittwoch</date> Alle zuſa<c rendition="#gemination-m"/>en ſind.</p>
-            <closer>Herzlichſt<lb/>
-               <signed>Arthur</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine>Richard Beer-Hoffmann</addrLine><addrLine><rs ref="#pmb766" type="place">Eglmosgasse 22</rs></addrLine><addrLine><rs ref="#pmb213" type="place"><hi rend="stamp">Ischl</hi></rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1895_AS_RBH_2_00022.jpeg"/>Kommen Sie doch morgen abend damit wir
+               wenigſtens ganzen <date>Mittwoch</date> Alle zuſa<c rendition="#gemination-m"/>en ſind.</p><closer>Herzlichſt<lb/><signed>Arthur</signed></closer></div></body>
    </text>
 </TEI>

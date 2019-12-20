@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1909-05-06_01_Ehrenstein_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1909-05-06_01_Ehrenstein_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Albert Ehrenstein an Arthur Schnitzler, 6. 5. 1909</title>
-                <author key="pmb11230">Ehrenstein, Albert</author>
+                <title level="a">Albert Ehrenstein an Arthur Schnitzler, 6.&#160;5.&#160;1909</title>
+                <author ref="#pmb11230">Ehrenstein, Albert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>            
                                 <settlement>Cambridge</settlement>            
                                 <repository>University Library</repository>            
-                                <idno>Schnitzler, B 30</idno>
+                                <idno>Schnitzler, B&#160;30</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S. Von Schnitzler beschriftet: »<quote>
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Ehrenstein</hi>
                            </quote>«.</p>
                             </physDesc>
@@ -61,7 +65,7 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb11230">Ehrenstein, Albert</author>
+                            <author ref="#pmb11230">Ehrenstein, Albert</author>
                             <title level="m">Briefe</title>
                             <editor>Hg. Hanni Mittelmann</editor>
                             <imprint>
@@ -84,18 +88,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11230">Ehrenstein, Albert</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1909-05-06" n="01">6. 5. 1909</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11230">Ehrenstein, Albert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1909-05-06" n="01">6.&#160;5.&#160;1909</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1909-03-29_01">Schnitzler an Ehrenstein, 29. 3. 1909</ptr>
-               <ptr type="next" subtype="toAuthor" target="1909-05-07_01">Schnitzler an Ehrenstein, 7. 5. 1909</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1909-03-29_01">Schnitzler an Ehrenstein, 29.&#160;3.&#160;1909</ptr>
+               <ptr type="next" subtype="toAuthor" target="1909-05-07_01">Schnitzler an Ehrenstein, 7.&#160;5.&#160;1909</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -106,25 +110,7 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline>
-                  <seg rend="left">
-                     <pb facs="gray00089.pdf"/>
-                     <hi rend="latintype">
-                        <placeName key="pmb300">Wien, XVI. Ottakringerstr. 114</placeName>
-                     </hi>.</seg>
-                  <seg rend="right">
-                     <date>
-                        <hi rend="latintype">6. Mai. 09</hi>
-                     </date>.</seg>
-                    </dateline>
-                    <salute>
-                  <hi rend="latintype">Sehr geehrter Herr Doktor!</hi>
-               </salute>
-            </opener>
-                <p>Wenn ich keinen Zwicker trage (und aus Eitelkeit trage ich meiſtens keinen), so
+        <body><div type="writingSession" n="1"><opener><dateline><seg rend="left"><pb facs="gray00089.pdf"/><hi rend="latintype"><rs ref="#pmb300" type="place">Wien, XVI. Ottakringerstr. 114</rs></hi>.</seg><seg rend="right"><date><hi rend="latintype">6.&#160;Mai.&#160;09</hi></date>.</seg></dateline><salute><hi rend="latintype">Sehr geehrter Herr Doktor!</hi></salute></opener><p>Wenn ich keinen Zwicker trage (und aus Eitelkeit trage ich meiſtens keinen), so
                     bin ich recht kurzſichtig; überdies und auch dann ich mein Perſonengedächtnis
                     ein ziemlich mangelhaftes und geſtörtes, warum? Darüber möchte ich gerne etwas
                     näheres erfahren. Jedenfalls haben ſich meine Augen ſchon manchen Ulk mit mir
@@ -134,13 +120,12 @@
                     alle Wahrnehmung gewichen, daß es mir nur ſehr ſelten gelingt, einen Begegnenden
                     richtig zu identifizieren oder gar ſtets davon überzeigt zu ſein. Wie ich
                     glaube, iſt mir ein derartiges Malheur ſchon einmal Ihnen gegenüber, ſehr
-                    geehrter <add place="above">Herr</add> Doktor, paſſiert, in einer Tramway nach der <anchor type="commentary" xml:id="KL865-1"/>Premiere<note type="commentary" xml:id="KL865-1h">Am <date>29. 12. 1906</date> im <placeName key="pmb1209">Lustspieltheater</placeName> in <placeName key="pmb50">Wien</placeName>, <persName key="pmb2121">Schnitzler</persName>
+                    geehrter <add place="above">Herr</add> Doktor, paſſiert, in einer Tramway nach der <anchor type="commentary" xml:id="KL865-1"/>Premiere<note type="commentary" xml:id="KL865-1h">Am <date>29.&#160;12.&#160;1906</date> im <rs ref="#pmb1209" type="place">Lustspieltheater</rs> in <rs ref="#pmb50" type="place">Wien</rs>, <rs ref="#pmb2121" type="person">Schnitzler</rs>
                     war nicht auf der Premiere.</note> der
-                    <persName key="pmb11168">Donnay</persName>’schen <pb facs="gray00090.pdf"/>
-               <workName key="pmb33484">Lyſiſtrata</workName>. Ein anderesmal nach einer
-                    <anchor type="commentary" xml:id="KL865-2"/>Vorleſung im <placeName key="pmb56">Mariahilf</placeName>er Arbeiterheim<note type="commentary" xml:id="KL865-2h">Gemeint ist die
-                        Vorlesung am <date>16. 10. 1907</date> für die <orgName key="pmb29569">Wiener Freie Volksbühne</orgName> im sozialdemokratischen <placeName key="pmb1211">Verbandsheim</placeName>
-                    in der <placeName key="pmb1210">Königseggasse 10</placeName>.</note> verſchlug mir die Befangenheit jeden Gruß.
+                    <rs ref="#pmb11168" type="person">Donnay</rs>’schen <pb facs="gray00090.pdf"/><rs ref="#pmb33484" type="work">Lyſiſtrata</rs>. Ein anderesmal nach einer
+                    <anchor type="commentary" xml:id="KL865-2"/>Vorleſung im <rs ref="#pmb56" type="place">Mariahilf</rs>er Arbeiterheim<note type="commentary" xml:id="KL865-2h">Gemeint ist die
+                        Vorlesung am <date>16.&#160;10.&#160;1907</date> für die <rs ref="#pmb29569" type="organisation">Wiener Freie Volksbühne</rs> im sozialdemokratischen <rs ref="#pmb1211" type="place">Verbandsheim</rs>
+                    in der <rs ref="#pmb1210" type="place">Königseggasse 10</rs>.</note> verſchlug mir die Befangenheit jeden Gruß.
                     Ein gewiſſer kindlicher und doch dämonischer Trotz und Eigenſinn verbietet es,
                     wenn man ſich von der ersten Lähmung des Willens erholt hat, baldmöglichſt den
                     Fehler gutzumachen. Nach dem Gesetz der Trägheit geht man den einmal genommenen
@@ -155,17 +140,12 @@
                     und entrißen mir die wenigen Freunde. Es iſt eben ſelbſt der Teilnahmsvollſte
                     nicht immer in der Stimmung, kurzſichtigen Unverſtand von Hochmut,
                     Eigentümlichkeit und Schrullen von Überhebung zu ſondern. Sollte <date>Mittwoch, den
-                    5. Mai</date> um <time>9<hi rend="superscript">h</hi> früh</time> meinerſeits Ihnen gegenüber eine Kette neuerlicher Verſtöße
+                    5.&#160;Mai</date> um <time>9<hi rend="superscript">h</hi> früh</time> meinerſeits Ihnen gegenüber eine Kette neuerlicher Verſtöße
                     oder Sinnestäuſchungen vorgefallen ſein, so wäre es mir ſehr lieb, wenn ich von
                     allerhand quälenden Betrachtungen befreit würde. Faſt ſcheint es ſo, als ſtellte
                     ich die unmöglichſten Dinge bloß zu dem Zwecke an, auch nachträglich
                     entſchuldigen zu können. Nie tat ich das Plauſible, ſeit jeher ſchon war ich mir
-                    ziemlich wehrlos ausgeſetzt, und wenn es irgend anginge, zöge ich <pb facs="gray00091.pdf"/>wahrhaftig mit größtem Vergnügen aus mir aus.</p>
-                <closer>Hochachtungsvoll<lb/>
-                    Ihr ergebenſter<lb/>
-                    <signed>Albert Ehrenstein.</signed>
-                </closer>
-            </div>
-        </body>
+                    ziemlich wehrlos ausgeſetzt, und wenn es irgend anginge, zöge ich <pb facs="gray00091.pdf"/>wahrhaftig mit größtem Vergnügen aus mir aus.</p><closer>Hochachtungsvoll<lb/>
+                    Ihr ergebenſter<lb/><signed>Albert Ehrenstein.</signed></closer></div></body>
     </text>
 </TEI>

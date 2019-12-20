@@ -1,10 +1,10 @@
 version: '2'
 services:
-  arthur-schnitzler-briefe:
-    image: "acdh/arthur-schnitzler-briefe"
+  schnitzler-briefe:
+    image: "acdh/schnitzler-briefe"
     labels:
-      - traefik.backend=arthur-schnitzler-briefe
-      - traefik.frontend.rule=Host:arthur-schnitzler-briefe.sisyphos.arz.oeaw.ac.at
+      - traefik.backend=schnitzler-briefe
+      - traefik.frontend.rule=Host:schnitzler-briefe.sisyphos.arz.oeaw.ac.at
       - traefik.docker.network=web
       - traefik.port=8080
     networks:

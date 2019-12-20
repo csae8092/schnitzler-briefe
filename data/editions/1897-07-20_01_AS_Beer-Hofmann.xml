@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-07-20_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-07-20_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 20. 7. 1897</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 20.&#160;7.&#160;1897</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb213">Ischl</placeName>
-               <date when="1897-07-20" n="01">20. 7. 1897</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb213">Ischl</placeName>
+               <date when="1897-07-20" n="01">20.&#160;7.&#160;1897</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb213">Ischl</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb213">Ischl</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-07-17_02">Schnitzler an Beer-Hofmann, [17. oder 18. 7. 1897?]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-08-04_01">Schnitzler an Beer-Hofmann, 4. 8. 1897</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-07-17_02">Schnitzler an Beer-Hofmann, [17. oder 18.&#160;7.&#160;1897?]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-08-04_01">Schnitzler an Beer-Hofmann, 4.&#160;8.&#160;1897</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -104,49 +108,13 @@
       <graphic url="1897_AS_RBH_3_00033.jpeg"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <salute>
-                  <pb facs="1897_AS_RBH_4_00032.jpeg"/>
-                  <anchor type="textConst" xml:id="TG24"/>Lieber Richard.<note type="textConst" xml:id="TG24h">der gesamte Text quer zur
-                     Ausrichtung der Visitenkarte</note>
-               </salute>
-            </opener>
-            <p>1.) Ich fahr heut <time>4 Uhr</time>
-               <space unit="chars" quantity="1"/>
-               <placeName key="pmb39671">Hallſtatt</placeName>
-               <space unit="chars" quantity="1"/>
-               <persName key="pmb20548 pmb28299">Loebs</persName> (die mit der Bahn).</p>
-            <p>2.) <persName key="pmb11740">Hugo</persName> a) aergert ſich, dſs Sie ihm nicht
-               ſchreiben</p>
-            <p>b) ka<c rendition="#gemination-n"/> nicht aus der <placeName key="pmb34194">
-                  <hi rend="latintype">Fusch</hi>
-               </placeName> fort.</p>
-            <p>(Was unſere Partie hoffent. nicht hindert)</p>
-            <p>3.) In <placeName key="pmb874">Gmunden</placeName> ſoll <date>22.</date> (übermorgen)
-                  <workName key="pmb29899">
-                  <hi rend="underline" n="1">Freiwild</hi>
-               </workName> ſein
-                  (<rs type="work" key="pmb40006">
-                  <workName key="pmb40003">Fremdenblatt</workName>
-               </rs>) mit cenſurellen Aenderungen. Ich hab an <persName key="pmb14899">
-                  <hi rend="latintype">Cavar</hi>
-               </persName> telegrafirt, mir <pb facs="1897_AS_RBH_4_00033.jpeg"/>ſofort die Aenderung mitzutheilen. Geſindel, mich
-               nicht vorher zu verſtändigen. (Kämen Sie <date>Do<c rendition="#gemination-n"/>erſtag</date> mit mir hinüber?)</p>
-            <p>4.) Schaun Sie nach dem Nachtmahl zu mir herauf oder laſſen mir ſagen, wo Sie
-               ſind.</p>
-            <closer>Herzl. Gruss<lb/>Ihr <signed>A.</signed>
-            </closer>
-            
-            <p rend="center">
-               <hi rend="pre-print">D<hi rend="superscript">r</hi> Arthur
-                  Schnitzler</hi>
-            </p>
-            <p rend="right">
-               <hi rend="pre-print">Wien.</hi>
-            </p>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><opener><salute><pb facs="1897_AS_RBH_4_00032.jpeg"/><anchor type="textConst" xml:id="TG24"/>Lieber Richard.<note type="textConst" xml:id="TG24h">der gesamte Text quer zur
+                     Ausrichtung der Visitenkarte</note></salute></opener><p>1.) Ich fahr heut <time>4 Uhr</time><space unit="chars" quantity="1"/><rs ref="#pmb39671" type="place">Hallſtatt</rs><space unit="chars" quantity="1"/><rs ref="#pmb20548 pmb28299" type="person">Loebs</rs> (die mit der Bahn).</p><p>2.) <rs ref="#pmb11740" type="person">Hugo</rs> a) aergert ſich, dſs Sie ihm nicht
+               ſchreiben</p><p>b) ka<c rendition="#gemination-n"/> nicht aus der <rs ref="#pmb34194" type="place"><hi rend="latintype">Fusch</hi></rs> fort.</p><p>(Was unſere Partie hoffent. nicht hindert)</p><p>3.) In <rs ref="#pmb874" type="place">Gmunden</rs> ſoll <date>22.</date> (übermorgen)
+                  <rs ref="#pmb29899" type="work"><hi rend="underline" n="1">Freiwild</hi></rs> ſein
+                  (<rs type="work" ref="#pmb40006" subtype="implied"><rs ref="#pmb40003" type="work">Fremdenblatt</rs></rs>) mit cenſurellen Aenderungen. Ich hab an <rs ref="#pmb14899" type="person"><hi rend="latintype">Cavar</hi></rs> telegrafirt, mir <pb facs="1897_AS_RBH_4_00033.jpeg"/>ſofort die Aenderung mitzutheilen. Geſindel, mich
+               nicht vorher zu verſtändigen. (Kämen Sie <date>Do<c rendition="#gemination-n"/>erſtag</date> mit mir hinüber?)</p><p>4.) Schaun Sie nach dem Nachtmahl zu mir herauf oder laſſen mir ſagen, wo Sie
+               ſind.</p><closer>Herzl. Gruss<lb/>Ihr <signed>A.</signed></closer><p rend="center"><hi rend="pre-print">D<hi rend="superscript">r</hi> Arthur
+                  Schnitzler</hi></p><p rend="right"><hi rend="pre-print">Wien.</hi></p></div></body>
    </text>
 </TEI>

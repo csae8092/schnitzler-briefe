@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1912-06-12_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1912-06-12_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 12. 6. 1912</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 12.&#160;6.&#160;1912</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Hs-30885,145</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S., Trauerrand</p>
+                                <p>eh. Brief, 1&#160;Bl., 3&#160;S., Trauerrand</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -59,8 +63,8 @@
                 <listBibl>
                <biblStruct corresp="HvHAS"> 
                     <monogr> 
-                        <author key="pmb11740">Hofmannsthal, Hugo</author> 
-                        <author key="pmb2121">Schnitzler, Arthur</author> 
+                        <author ref="#pmb11740">Hofmannsthal, Hugo</author> 
+                        <author ref="#pmb2121">Schnitzler, Arthur</author> 
                         <title level="m">Briefwechsel</title>
                         <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                         <imprint>
@@ -80,13 +84,13 @@
          </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1912-06-12" n="01">12. 6. 1912</date>
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1912-06-12" n="01">12.&#160;6.&#160;1912</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                     
                 </correspAction>
             </correspDesc>
@@ -97,21 +101,7 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline>
-                  <seg rend="left">
-                     <pb facs="Hs-30885,145_001.TIF"/>
-                     <hi rend="pre-print">A. S.</hi>
-                  </seg>
-                        <seg rend="right">
-                     <placeName key="pmb50">Wien</placeName>, <date>12. 6. 912</date>
-                  </seg>
-               </dateline>
-                    </opener>
-                <p>
-               <salute>Mein lieber Hugo, </salute>für Ihren ſchönen Brief, der mir ans Herz gegriffen hat, muß
+        <body><div type="writingSession" n="1"><opener><dateline><seg rend="left"><pb facs="Hs-30885,145_001.TIF"/><hi rend="pre-print">A.&#160;S.</hi></seg><seg rend="right"><rs ref="#pmb50" type="place">Wien</rs>, <date>12.&#160;6.&#160;912</date></seg></dateline></opener><p><salute>Mein lieber Hugo, </salute>für Ihren ſchönen Brief, der mir ans Herz gegriffen hat, muß
                     ich Ihnen gleich danken. Zu erwidern hab ich nur mit dem Wunſch, daſs es
                     zwiſchen uns bleibe, wie es war und iſt, was die unzerſtörbare innere
                     Verknüpfung anbelangt – daſs aber die äußeren Verknüpfungen ſich etwas <pb facs="Hs-30885,145_002.TIF"/>häufiger
@@ -120,16 +110,8 @@
                     zu machen, wir möchten gerne nächſte Woche bei Euch angefahren kommen, in den
                     frühen Abendſtunden; gegen Ende, ich ſchreibe oder telegraphiere den Tag <add place="above">am</add>
                     Montag oder Dienſtag, <pb facs="Hs-30885,145_001.TIF"/>jetzt mach ich mich eben fertig, um nach
-                    <placeName key="pmb652">Prag</placeName> zu fahren,
-                    wo ich gezy<subst>
-                        <del rend="overwritten">c</del>
-                        <add place="inline">k</add>
-                    </subst>elt werde. Ich ſoll mir den <workName key="pmb29985">Eins. Weg</workName> vorſpielen laſſen.</p>
-                <closer>Wir grüßen Euch herzlichſt<lb/>
-                    Ihr<lb/>
-                    <signed>Arthur</signed>
-                </closer>
-            </div>
-        </body>
+                    <rs ref="#pmb652" type="place">Prag</rs> zu fahren,
+                    wo ich gezy<subst><del rend="overwritten">c</del><add place="inline">k</add></subst>elt werde. Ich ſoll mir den <rs ref="#pmb29985" type="work">Eins. Weg</rs> vorſpielen laſſen.</p><closer>Wir grüßen Euch herzlichſt<lb/>
+                    Ihr<lb/><signed>Arthur</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-06-07_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-06-07_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 7. 6. 1893</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 7.&#160;6.&#160;1893</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,19 +52,19 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Postkarte (Rohrpost), Bleistift. Von Schnitzler mit Bleistift nummeriert:
                                         »<quote>52</quote>«.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb53">Wien 3/1</placeName>
+                                    <rs ref="#pmb53" type="place">Wien 3/1</rs>
                                     <date when="1893-06-07">7 VI 93</date>
-                                    <time>8 30V</time>
+                                    <time>8&#160;30V</time>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb50">Wien</placeName>
-                                    <time>9 <supplied>10V</supplied>
+                                    <rs ref="#pmb50" type="place">Wien</rs>
+                                    <time>9&#160;<supplied>10V</supplied>
                                     </time>
                                 </stamp>
                             </physDesc>
@@ -70,8 +74,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -90,19 +94,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1893-06-07" n="01">7. 6. 1893</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1893-06-07" n="01">7.&#160;6.&#160;1893</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1893-07-06">7. 6. 1893</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1893-07-06">7.&#160;6.&#160;1893</date>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-06-06_01">Hofmannsthal an Schnitzler, [6. 6.? 1893]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-06-21_02">Hofmannsthal an Schnitzler, [21.? 6. 1893]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-06-06_01">Hofmannsthal an Schnitzler, [6.&#160;6.? 1893]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-06-21_02">Hofmannsthal an Schnitzler, [21.? 6.&#160;1893]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -114,37 +118,8 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00106"/>
-                        <hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
-                            Schnitzler</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="pmb412">I Grillparzerstrasse 7</placeName>
-                        </hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="pmb50">Wien</placeName>
-                        </hi>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00105"/>lieber Arthur!</salute>
-                </opener>
-                <p>Da ich <persName key="pmb12740">S.kopf</persName> ſchon einmal aviſiert habe,
-                    fahre ich trotz des regneriſchen Wetters doch hinaus.</p>
-                <closer>Servus<lb/>
-                    <signed>Loris.</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00106"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
+                            Schnitzler</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb412" type="place">I Grillparzerstrasse 7</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb50" type="place">Wien</rs></hi></addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00105"/>lieber Arthur!</salute></opener><p>Da ich <rs ref="#pmb12740" type="person">S.kopf</rs> ſchon einmal aviſiert habe,
+                    fahre ich trotz des regneriſchen Wetters doch hinaus.</p><closer>Servus<lb/><signed>Loris.</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1926-03-11_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1926-03-11_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 11. 3. 1926</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 11.&#160;3.&#160;1926</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Hs-30885,156</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., Lateinschrift, Bleistift.</p>
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., Lateinschrift, Bleistift.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -59,8 +63,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -79,18 +83,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1926-03-11" n="01">11. 3. 1926</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1926-03-11" n="01">11.&#160;3.&#160;1926</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1926-03-09_01">Hofmannsthal an Schnitzler, 9. 3. 1926</ptr>
-               <ptr type="next" subtype="toAuthor" target="1927-02-18_01">Hofmannsthal an Schnitzler, 18. 2. 1927</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1926-03-09_01">Hofmannsthal an Schnitzler, 9.&#160;3.&#160;1926</ptr>
+               <ptr type="next" subtype="toAuthor" target="1927-02-18_01">Hofmannsthal an Schnitzler, 18.&#160;2.&#160;1927</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -100,42 +104,21 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="Hs-30885,156_001.TIF "/>
-                        <placeName key="pmb50">Wien</placeName>, <date>11. März 1926</date>
-                    </dateline>
-                </opener>
-                <p>
-                    <salute>lieber Hugo, </salute>vom Verlag <orgName key="pmb29750">Reiss</orgName>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Hs-30885,156_001.TIF "/><rs ref="#pmb50" type="place">Wien</rs>, <date>11.&#160;März 1926</date></dateline></opener><p><salute>lieber Hugo, </salute>vom Verlag <rs ref="#pmb29750" type="organisation">Reiss</rs>
                     weiſs ich nur, daſs dort einige sehr gute und etliche bedeutende Bücher
                     herausgekommen sind, (was alle Leute wissen) – <add place="above">in Hinsicht
                         aufs</add> menschliche und geschäftliche bin ich absolut nicht informiert –
                     bin mir also gar nicht klar, wie ich solch eine Bescheinigung abzufassen hätte,
                     daß sie für den Verlag nur einigermaßen nutzbringend sich erweisen könnte. Worum
-                    handelt es sich denn eigentlich –? Um Sanierung? Um Verkauf? – Mir ist der Sinn
+                    handelt es sich denn eigentlich&#160;–? Um Sanierung? Um Verkauf? – Mir ist der Sinn
                     der Action nicht evident. Genügt meine Erklärung, daſs ich den Zusammenbruch
                     eines Verlags bedauern würde, in dem viel vortreffliches erschienen ist, so steh
                     ich gern zur Verfügung. Ich lege für alle Fälle gleich ein Blatt bei, vielleicht
-                    genügt es.</p>
-                <p>
-                    <pb facs="Hs-30885,156_002.TIF "/>Sonderbar, dſs ich gerade gestern, mit
+                    genügt es.</p><p><pb facs="Hs-30885,156_002.TIF "/>Sonderbar, dſs ich gerade gestern, mit
                     Andacht, fast könnt ich sagen, und jedenfalls mit <hi n="1" rend="underline">tiefster</hi> Bewegung eine ganze Anzahl Ihrer Gedichte <add place="above">wieder</add>gelesen u empfunden habe, wie unerhört neu die Melodie und der
-                    Rythmus ist, den Sie in die deutsche Dichtung gebracht haben, – und wie er durch
-                    die Zeiten weiterschwingt.</p>
-                <p>Auf Wiedersehen also, sobald freundlichere Tage ko<c rendition="#gemination-m"/>en.</p>
-                <closer>Von Herzen Ihr<lb/>
-                    <signed>Arth</signed>
-                </closer>
-                <postscript>
-                    <p>
-                        <persName key="pmb2238">Lili</persName> bestell ich alles, sie wird sehr
+                    Rythmus ist, den Sie in die deutsche Dichtung gebracht haben,&#160;– und wie er durch
+                    die Zeiten weiterschwingt.</p><p>Auf Wiedersehen also, sobald freundlichere Tage ko<c rendition="#gemination-m"/>en.</p><closer>Von Herzen Ihr<lb/><signed>Arth</signed></closer><postscript><p><rs ref="#pmb2238" type="person">Lili</rs> bestell ich alles, sie wird sehr
                         stolz sein, daſs sie Ihnen »freundlichst verzeihen soll« – (und daſs sie zu
-                        so interessanten allgemeinen Bemerkungen Anlaſs gab).</p>
-                </postscript>
-            </div>
-        </body>
+                        so interessanten allgemeinen Bemerkungen Anlaſs gab).</p></postscript></div></body>
     </text>
 </TEI>

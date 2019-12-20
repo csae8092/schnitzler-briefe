@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1906-08-03_01_AS-Salten_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1906-08-03_01_AS-Salten_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Felix Salten und Arthur Schnitzler an Hugo von Hofmannsthal, 3. 8. 1906</title>
-                <author key="pmb2167">Salten, Felix</author>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Felix Salten und Arthur Schnitzler an Hugo von Hofmannsthal, 3.&#160;8.&#160;1906</title>
+                <author ref="#pmb2167">Salten, Felix</author>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -55,10 +59,10 @@
                                 <p>eh. Bildpostkarte, 2 Verfasser, Tinte. Salten schreibt in Lateinschrift.
                                         Motiv:»<quote>
                               <pb facs="Hs-25714_001.tif"/>
-                                    <placeName key="pmb1284">Krenborg Slot</placeName>.</quote>«</p>
+                                    <rs ref="#pmb1284" type="place">Krenborg Slot</rs>.</quote>«</p>
                                 <stamp n="1">
-                                    <placeName key="pmb726">Helsingør</placeName>
-                                    <date when="1906-08-03">3. 8. <supplied>1906</supplied>
+                                    <rs ref="#pmb726" type="place">Helsingør</rs>
+                                    <date when="1906-08-03">3.&#160;8.&#160;<supplied>1906</supplied>
                                     </date>
                                 </stamp>
                             </physDesc>
@@ -72,19 +76,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <persName key="pmb2167">Salten, Felix</persName>
-                    <placeName key="pmb726">Helsingør</placeName>
-                    <date when="1906-08-03" n="01">3. 8. 1906</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <persName ref="#pmb2167">Salten, Felix</persName>
+                    <placeName ref="#pmb726">Helsingør</placeName>
+                    <date when="1906-08-03" n="01">3.&#160;8.&#160;1906</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb186">Lueg am Wolfgangsee</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb186">Lueg am Wolfgangsee</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1906-07-29_01">Hofmannsthal, Hofmannsthal, Schlesinger an Schnitzler, 29. 7. 1906</ptr>
-               <ptr type="next" subtype="toAuthor" target="1906-09-04_01">Hofmannsthal an Schnitzler, 4. 9. 1906</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1906-07-29_01">Hofmannsthal, Hofmannsthal, Schlesinger an Schnitzler, 29.&#160;7.&#160;1906</ptr>
+               <ptr type="next" subtype="toAuthor" target="1906-09-04_01">Hofmannsthal an Schnitzler, 4.&#160;9.&#160;1906</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -97,30 +101,7 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <pb facs="Hs-25714_002.tif"/>
-                  <placeName key="pmb41240">
-                     <country>Österreich</country>
-                  </placeName>
-                    </addrLine>
-                    <addrLine>Herrn D<hi rend="superscript">r</hi> Hugo v. Hofmannsthal</addrLine>
-                    <addrLine>
-                        <placeName key="pmb186">Lueg <hi rend="superscript">bei</hi>/St Gilgen am
-    Wolfgangsee</placeName>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <p>
-               <pb facs="Hs-25714_002.tif"/>Kommender Tage froh gedenkend herzlichst <signed>Salten</signed>
-                </p>
-                <p>
-               <handShift scribe="pmb2121"/>Herzliche Grüße. Ihr <signed>Arthur</signed>
-                </p>
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine><pb facs="Hs-25714_002.tif"/><rs ref="#pmb41240" type="place"><country>Österreich</country></rs></addrLine><addrLine>Herrn D<hi rend="superscript">r</hi> Hugo v. Hofmannsthal</addrLine><addrLine><rs ref="#pmb186" type="place">Lueg <hi rend="superscript">bei</hi>/St Gilgen am
+    Wolfgangsee</rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="Hs-25714_002.tif"/>Kommender Tage froh gedenkend herzlichst <signed>Salten</signed></p><p><handShift scribe="pmb2121"/>Herzliche Grüße. Ihr <signed>Arthur</signed></p></div></body>
     </text>
 </TEI>

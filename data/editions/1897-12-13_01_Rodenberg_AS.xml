@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-12-13_01_Rodenberg_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-12-13_01_Rodenberg_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Julius Rodenberg an Arthur Schnitzler, 13. 12. 1897</title>
-                <author key="pmb9550">Rodenberg, Julius</author>
+                <title level="a">Julius Rodenberg an Arthur Schnitzler, 13.&#160;12.&#160;1897</title>
+                <author ref="#pmb9550">Rodenberg, Julius</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 85</idno>
+                                <idno>Schnitzler, B&#160;85</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Vereinzelte
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte. Vereinzelte
                                     Unterstreichungen mit rotem Buntstift. Von Schnitzler mit Bleistift
                                     beschriftet: »<quote>
                                         <hi rend="latintype">Rodenberg</hi>
@@ -67,17 +71,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb9550">Rodenberg, Julius</persName>
-                    <placeName key="pmb168">Berlin</placeName>
-                    <date when="1897-12-13" n="01">13. 12. 1897</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb9550">Rodenberg, Julius</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
+                    <date when="1897-12-13" n="01">13.&#160;12.&#160;1897</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="next" subtype="toAuthor" target="1899-03-07_02">Schnitzler an Rodenberg, 7. 3. 1899</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-03-07_02">Schnitzler an Rodenberg, 7.&#160;3.&#160;1899</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -92,60 +96,9 @@
         <graphic url="MS-SCHNITZLER-B-00085-000-00004"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p rend="center">
-                        <pb facs="MS-SCHNITZLER-B-00085-000-00003"/>
-                        <hi rend="pre-print">
-                            <orgName key="pmb34931">Deutsche Rundschau</orgName>
-                        </hi>
-                    </p>
-                    <p>
-                        <seg rend="left">
-                            <hi rend="pre-print">Expedition u. Redaction:</hi>
-                        </seg>
-                        <seg rend="right">
-                            <hi rend="pre-print">Herausgeber:</hi>
-                        </seg>
-                    </p>
-                    <p>
-                        <seg rend="left">
-                            <hi rend="pre-print">
-                                <orgName key="pmb29660">Gebrüder Paetel</orgName> in <placeName key="pmb168">Berlin</placeName>
-                            </hi>
-                        </seg>
-                        <seg rend="right">
-                            <hi rend="pre-print">Julius Rodenberg in <placeName key="pmb168">Berlin</placeName>
-                            </hi>
-                        </seg>
-                    </p>
-                    <p>
-                        <seg rend="left">
-                            <hi rend="pre-print">(<persName key="pmb34939">Elwin
-                                Paetel</persName>)</hi>
-                        </seg>
-                        <seg rend="right">
-                            <hi rend="pre-print">
-                                <placeName key="pmb34933">W., Margarethenstr. 1</placeName>.</hi>
-                        </seg>
-                    </p>
-                    <p>
-                        <hi rend="pre-print">
-                            <placeName key="pmb34943">W., Lützowstr. 7</placeName>.</hi>
-                    </p>
-                    <dateline rend="right">
-                        <hi rend="bold">
-                            <hi rend="pre-print">
-                                <placeName key="pmb168">Berlin W.</placeName>,</hi> den</hi>
-                        <space unit="chars" quantity="1"/>
-                        <date>13. Dec. <hi rend="pre-print">189</hi>7</date>.</dateline>
-                    <salute rend="inline">Hochgeehrter Herr Doctor!</salute>
-                </opener>
-                <p>Durch meinen Schwager Dr. <persName key="pmb3449">Ed. Schiff</persName> iſt mir
-                    die höchſt erfreuliche Kunde geworden, daß die »<orgName key="pmb34931">
-                        <hi rend="latintype">Rundschau</hi>
-                    </orgName>« ſich Hoffnung machen darf, in nicht allzuferner Zeit einen
+        <body><div type="writingSession" n="1"><opener><p rend="center"><pb facs="MS-SCHNITZLER-B-00085-000-00003"/><hi rend="pre-print"><rs ref="#pmb34931" type="organisation">Deutsche Rundschau</rs></hi></p><p><seg rend="left"><hi rend="pre-print">Expedition u. Redaction:</hi></seg><seg rend="right"><hi rend="pre-print">Herausgeber:</hi></seg></p><p><seg rend="left"><hi rend="pre-print"><rs ref="#pmb29660" type="organisation">Gebrüder Paetel</rs> in <rs ref="#pmb168" type="place">Berlin</rs></hi></seg><seg rend="right"><hi rend="pre-print">Julius Rodenberg in <rs ref="#pmb168" type="place">Berlin</rs></hi></seg></p><p><seg rend="left"><hi rend="pre-print">(<rs ref="#pmb34939" type="person">Elwin
+                                Paetel</rs>)</hi></seg><seg rend="right"><hi rend="pre-print"><rs ref="#pmb34933" type="place">W., Margarethenstr. 1</rs>.</hi></seg></p><p><hi rend="pre-print"><rs ref="#pmb34943" type="place">W., Lützowstr. 7</rs>.</hi></p><dateline rend="right"><hi rend="bold"><hi rend="pre-print"><rs ref="#pmb168" type="place">Berlin W.</rs>,</hi> den</hi><space unit="chars" quantity="1"/><date>13.&#160;Dec. <hi rend="pre-print">189</hi>7</date>.</dateline><salute rend="inline">Hochgeehrter Herr Doctor!</salute></opener><p>Durch meinen Schwager Dr. <rs ref="#pmb3449" type="person">Ed. Schiff</rs> iſt mir
+                    die höchſt erfreuliche Kunde geworden, daß die »<rs ref="#pmb34931" type="organisation"><hi rend="latintype">Rundschau</hi></rs>« ſich Hoffnung machen darf, in nicht allzuferner Zeit einen
                     novelliſtiſchen Beitrag von Ihnen zu erhalten. Längſt ſchon iſt dieß mein Wunſch
                     geweſen u. wenn ich ihn nicht eher ausſprach, ſo werden Sie ſich das daraus
                     erklären können, daß ich mich nicht gern einem Refus ausgeſetzt haben würde. Nun
@@ -156,11 +109,6 @@
                     an; es genügt mir, zu wißen, daß Sie bei nächſter Gelegenheit unſerer
                     Zeitſchrift gedenken wollen, u. <pb facs=" MS-SCHNITZLER-B-00085-000-00004"/>ich
                     bitte nur, mich eintretenden Falls zu benachrichtigen, um Sie nicht unnöthig
-                    lang mit dem Abdruck warten laßen zu müßen.</p>
-                <closer>Mit dem Ausdruck beſonderer Hochachtung<lb/>Ihr ergebener<lb/>
-                    <signed>Dr Julius Rodenberg.</signed>
-                </closer>
-            </div>
-        </body>
+                    lang mit dem Abdruck warten laßen zu müßen.</p><closer>Mit dem Ausdruck beſonderer Hochachtung<lb/>Ihr ergebener<lb/><signed>Dr Julius Rodenberg.</signed></closer></div></body>
     </text>
 </TEI>

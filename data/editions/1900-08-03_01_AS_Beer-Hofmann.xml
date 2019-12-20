@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1900-08-03_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1900-08-03_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 3. 8. 1900</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 3.&#160;8.&#160;1900</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,17 +83,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb213">Bad Ischl</placeName>
-               <date when="1900-08-03" n="01">3. 8. 1900</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb213">Bad Ischl</placeName>
+               <date when="1900-08-03" n="01">3.&#160;8.&#160;1900</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1900-08-02_01">Beer-Hofmann an Schnitzler, 2. 8. 1900</ptr>
-               <ptr type="next" subtype="toAuthor" target="1900-09-14_01">Beer-Hofmann an Schnitzler, 14. 9. 1900</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1900-08-02_01">Beer-Hofmann an Schnitzler, 2.&#160;8.&#160;1900</ptr>
+               <ptr type="next" subtype="toAuthor" target="1900-09-14_01">Beer-Hofmann an Schnitzler, 14.&#160;9.&#160;1900</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,62 +103,24 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date when="1900-08-03">3. 8. 900</date>.</dateline>
-            </opener>
-            <p>
-               <salute>Lieber Richard, </salute>ich kann den Vortheil Ihres neuen Vorschlags nicht
-               einsehn. Das missliche daran ist: doch per Bahn nach <placeName key="pmb40329">Jenbach</placeName> fahren müssen, dann wieder von <placeName key="pmb40302">Sterzing</placeName> nach <placeName key="pmb867">Innsbruck</placeName> zurück
-               müssen. Vergessen Sie nicht, unsre Absicht ist: von <placeName key="pmb40336">Zell
-                  a/See</placeName> nach <placeName key="pmb867">Innsbruck</placeName>, auf einem
-               neuen Weg, zu kommen. Überdies kostet Ihre Tour 1 Tag mehr, und <persName key="pmb11910">Kerr</persName> möchte uns in <placeName key="pmb867">Innsbruck</placeName> treffen. Nach meinem Reisebuch bietet das <geogName type="mountain">Pfitscher Joch</geogName> kaum mehr als <placeName key="pmb40432">Krimml</placeName> und <placeName key="pmb40280">Gerlos</placeName>, und die
-               Sache ist weit bequemer. Ich schlage also vor:</p>
-            <p>
-               <placeName key="pmb30">Salzburg</placeName> ab <date>Montag</date> (spätestens
-                  <date>Dinstag</date>) <time>Nachmittag 3.12</time>.</p>
-            <p>Ankunft <date>Zell am See</date>
-               <space unit="chars" quantity="1"/>
-               <time>5.43</time>. <placeName key="pmb40435">Post Kesselfall</placeName>
-            </p>
-            <p>Übernachten.</p>
-            <p>
-               <date>Dinstag</date> (resp. <date>Mittwoch</date>)</p>
-            <p>Spazierg <placeName key="pmb40339">Moserboden</placeName>, zurück <placeName key="pmb40435">Kesselfall</placeName>, bis <placeName key="pmb40336">Zell am
-                  See</placeName>, Bahn (<time>4.50</time> nach <placeName key="pmb40432">Krimml</placeName>)</p>
-            <p>Übernachten</p>
-            <p>
-               <date>Mittwoch</date> (resp <date>Donn</date>) <placeName key="pmb40432">Krimml</placeName>
-               <space unit="chars" quantity="1"/>
-               <placeName key="pmb40280">Gerlos</placeName> (Fußpartie – 4 Stunden)</p>
-            <p>
-               <placeName key="pmb40280">Gerlos</placeName> – <placeName key="pmb134">Zell
-                  (Zillerthal)</placeName> 4 Stunden</p>
-            <p>
-               <placeName key="pmb134">Zell</placeName> – <placeName key="pmb40329">Jenbach</placeName> (Wagen, <time>abds</time>
-               <space unit="chars" quantity="1"/>
-               <placeName key="pmb867">Innsbruck</placeName>, 4 Stunden)</p>
-            <p>Das <geogName type="mountain">Pfitscher Joch</geogName> ist einfach »lohnend«, hat
-               nicht einmal einen Stern! – und ist viel schwerer als <placeName key="pmb40280">Gerlos</placeName>. –</p>
-            <p>Was nun die <placeName key="pmb34006">Schweiz</placeName> anbelangt: Übergang direct
-               nach <placeName key="pmb38518">Klosters</placeName> dem Überg. nach <placeName key="pmb40646">Küblis</placeName> vorzuziehn, da wir jedenfalls nach <placeName key="pmb38518">Klosters</placeName> und von da nach <placeName key="pmb892">Davos</placeName> müssen; von da <placeName key="pmb40649">Flüelapass</placeName>
-               nach <placeName key="pmb5969">Samaden</placeName> und <placeName key="pmb34946">Pontresina</placeName>. (Fahrstrasse)</p>
-            <p>– Im übrigen werden wir keinen Richter brauchen, dagegen Träger. – <persName key="pmb11701">Georg H.</persName> wird fast sicher nicht mitkommen, obwohl ich
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date when="1900-08-03">3.&#160;8.&#160;900</date>.</dateline></opener><p><salute>Lieber Richard, </salute>ich kann den Vortheil Ihres neuen Vorschlags nicht
+               einsehn. Das missliche daran ist: doch per Bahn nach <rs ref="#pmb40329" type="place">Jenbach</rs> fahren müssen, dann wieder von <rs ref="#pmb40302" type="place">Sterzing</rs> nach <rs ref="#pmb867" type="place">Innsbruck</rs> zurück
+               müssen. Vergessen Sie nicht, unsre Absicht ist: von <rs ref="#pmb40336" type="place">Zell
+                  a/See</rs> nach <rs ref="#pmb867" type="place">Innsbruck</rs>, auf einem
+               neuen Weg, zu kommen. Überdies kostet Ihre Tour 1 Tag mehr, und <rs ref="#pmb11910" type="person">Kerr</rs> möchte uns in <rs ref="#pmb867" type="place">Innsbruck</rs> treffen. Nach meinem Reisebuch bietet das <geogName type="mountain">Pfitscher Joch</geogName> kaum mehr als <rs ref="#pmb40432" type="place">Krimml</rs> und <rs ref="#pmb40280" type="place">Gerlos</rs>, und die
+               Sache ist weit bequemer. Ich schlage also vor:</p><p><rs ref="#pmb30" type="place">Salzburg</rs> ab <date>Montag</date> (spätestens
+                  <date>Dinstag</date>) <time>Nachmittag 3.12</time>.</p><p>Ankunft <date>Zell am See</date><space unit="chars" quantity="1"/><time>5.43</time>. <rs ref="#pmb40435" type="place">Post Kesselfall</rs></p><p>Übernachten.</p><p><date>Dinstag</date> (resp. <date>Mittwoch</date>)</p><p>Spazierg <rs ref="#pmb40339" type="place">Moserboden</rs>, zurück <rs ref="#pmb40435" type="place">Kesselfall</rs>, bis <rs ref="#pmb40336" type="place">Zell am
+                  See</rs>, Bahn (<time>4.50</time> nach <rs ref="#pmb40432" type="place">Krimml</rs>)</p><p>Übernachten</p><p><date>Mittwoch</date> (resp <date>Donn</date>) <rs ref="#pmb40432" type="place">Krimml</rs><space unit="chars" quantity="1"/><rs ref="#pmb40280" type="place">Gerlos</rs> (Fußpartie – 4 Stunden)</p><p><rs ref="#pmb40280" type="place">Gerlos</rs> – <rs ref="#pmb134" type="place">Zell
+                  (Zillerthal)</rs> 4 Stunden</p><p><rs ref="#pmb134" type="place">Zell</rs> – <rs ref="#pmb40329" type="place">Jenbach</rs> (Wagen, <time>abds</time><space unit="chars" quantity="1"/><rs ref="#pmb867" type="place">Innsbruck</rs>, 4 Stunden)</p><p>Das <geogName type="mountain">Pfitscher Joch</geogName> ist einfach »lohnend«, hat
+               nicht einmal einen Stern! – und ist viel schwerer als <rs ref="#pmb40280" type="place">Gerlos</rs>.&#160;–</p><p>Was nun die <rs ref="#pmb34006" type="place">Schweiz</rs> anbelangt: Übergang direct
+               nach <rs ref="#pmb38518" type="place">Klosters</rs> dem Überg. nach <rs ref="#pmb40646" type="place">Küblis</rs> vorzuziehn, da wir jedenfalls nach <rs ref="#pmb38518" type="place">Klosters</rs> und von da nach <rs ref="#pmb892" type="place">Davos</rs> müssen; von da <rs ref="#pmb40649" type="place">Flüelapass</rs>
+               nach <rs ref="#pmb5969" type="place">Samaden</rs> und <rs ref="#pmb34946" type="place">Pontresina</rs>. (Fahrstrasse)</p><p>– Im übrigen werden wir keinen Richter brauchen, dagegen Träger.&#160;– <rs ref="#pmb11701" type="person">Georg H.</rs> wird fast sicher nicht mitkommen, obwohl ich
                ihn auf den Knieen beschworen habe. Menschlicher Voraussicht nach (fassen Sie dieses
-               »Mensch« nicht falsch auf) werd’ ich <date>Sonntag den 12.</date> in <placeName key="pmb30">Salzburg</placeName> sein. Ich bin sehr dafür, schon
-                  <date>Montag</date> abzufahren. Von <persName key="pmb12740">Schwarzk.</persName>
-               und <persName key="pmb2167">Salten</persName> noch keine Nachricht. Auch von
-                  <persName key="pmb11485">Paul G.</persName> nichts neues. –</p>
-            <p>Leben Sie wohl. –</p>
-            <closer>Herzlichst Ihr <signed>Arthur</signed>
-            </closer>
-            <p>
-               <persName key="pmb11740">Hugo</persName> hat mir geschrieben ist wohl schon in
-                  <placeName key="pmb30">Salzburg</placeName> bleibt bis <date>15.</date> Er schrieb
-               mir auch von seiner Verlobung.</p>
-         </div>
-      </body>
+               »Mensch« nicht falsch auf) werd’ ich <date>Sonntag den 12.</date> in <rs ref="#pmb30" type="place">Salzburg</rs> sein. Ich bin sehr dafür, schon
+                  <date>Montag</date> abzufahren. Von <rs ref="#pmb12740" type="person">Schwarzk.</rs>
+               und <rs ref="#pmb2167" type="person">Salten</rs> noch keine Nachricht. Auch von
+                  <rs ref="#pmb11485" type="person">Paul G.</rs> nichts neues.&#160;–</p><p>Leben Sie wohl.&#160;–</p><closer>Herzlichst Ihr <signed>Arthur</signed></closer><p><rs ref="#pmb11740" type="person">Hugo</rs> hat mir geschrieben ist wohl schon in
+                  <rs ref="#pmb30" type="place">Salzburg</rs> bleibt bis <date>15.</date> Er schrieb
+               mir auch von seiner Verlobung.</p></div></body>
    </text>
 </TEI>

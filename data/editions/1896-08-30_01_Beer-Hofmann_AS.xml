@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-08-30_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-08-30_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 30. 8. 1896</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 30.&#160;8.&#160;1896</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,26 +52,26 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Bildpostkarte, Bleistift; Lateinschrift. Motiv: »<quote>
                               <p>Gruss aus
-                                 dem <placeName key="pmb42678">Zoolog. Garten</placeName> in
-                                    <placeName key="pmb864">Leipzig</placeName>
+                                 dem <rs ref="#pmb42678" type="place">Zoolog. Garten</rs> in
+                                    <rs ref="#pmb864" type="place">Leipzig</rs>
                               </p>
                               <p>Besitzer
-                                    <persName key="pmb42680">E. Pinkert</persName>
+                                    <rs ref="#pmb42680" type="person">E. Pinkert</rs>
                               </p>
                            </quote>«. Von
                            unbekannter Hand mit Bleistift nummeriert: »<quote>81</quote>«.</p>
                         <stamp n="1">
-                           <placeName key="pmb864">Leipzig</placeName>
-                           <date>30. 8. 96</date>
-                           <time>10–11 N</time>
+                           <rs ref="#pmb864" type="place">Leipzig</rs>
+                           <date>30.&#160;8.&#160;96</date>
+                           <time>10–11&#160;N</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb59">Wien 9/3</placeName>
+                           <rs ref="#pmb59" type="place">Wien 9/3</rs>
                            <date>31. 8. 96</date>
                            <time>7.N</time>
                            <action>Bestellt</action>
@@ -83,19 +87,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb864">Leipzig</placeName>
-               <date when="1896-08-30" n="01">30. 8. 1896</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb864">Leipzig</placeName>
+               <date when="1896-08-30" n="01">30.&#160;8.&#160;1896</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1896-07-30">31. 8. 1896</date>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1896-07-30">31.&#160;8.&#160;1896</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-07-31_01">Schnitzler an Beer-Hofmann, 31. 7. 1896</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-08_01">Schnitzler an Beer-Hofmann, Lissy, . 8. 1896</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-07-31_01">Schnitzler an Beer-Hofmann, 31.&#160;7.&#160;1896</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-08_01">Schnitzler an Beer-Hofmann, Lissy, .&#160;8.&#160;1896</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -110,37 +114,10 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00176"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00175"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
-               <addrLine>
-                  <placeName key="pmb50">Wien</placeName>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb397">IX. Frankgasse 1</placeName>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00176"/>
-                  <hi rend="pre-print">Gruss aus dem <placeName key="pmb42678">Zoolog.
-                        Garten</placeName> in <placeName key="pmb864">Leipzig</placeName>,
-                     d.</hi>
-                  <space unit="chars" quantity="1"/>
-                  <date>30/VIII 96</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber! </salute>Da man den »<workName key="pmb42691">Doppeladler</workName>« spielt
-                  <hi rend="underline" n="1">muß</hi> ich doch Ihnen schreiben. – Ich bin
-                  <time>Donnerstag</time> in <placeName key="pmb662">Baden</placeName>.</p>
-            <closer>Herzlichst<lb/>Ihr <signed>Richard</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00175"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb397" type="place">IX. Frankgasse 1</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00176"/><hi rend="pre-print">Gruss aus dem <rs ref="#pmb42678" type="place">Zoolog.
+                        Garten</rs> in <rs ref="#pmb864" type="place">Leipzig</rs>,
+                     d.</hi><space unit="chars" quantity="1"/><date>30/VIII 96</date></dateline></opener><p><salute>Lieber! </salute>Da man den »<rs ref="#pmb42691" type="work">Doppeladler</rs>« spielt
+                  <hi rend="underline" n="1">muß</hi> ich doch Ihnen schreiben.&#160;– Ich bin
+                  <time>Donnerstag</time> in <rs ref="#pmb662" type="place">Baden</rs>.</p><closer>Herzlichst<lb/>Ihr <signed>Richard</signed></closer></div></body>
    </text>
 </TEI>

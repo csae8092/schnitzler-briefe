@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-07-29_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-07-29_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 29. 7. 1893</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 29.&#160;7.&#160;1893</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -53,12 +57,12 @@
                      <physDesc>
                         <p>eh. Briefkarte mit Umschlag, Bleistift. Briefumschlag mit Trauerrand.</p>
                         <stamp n="1">
-                           <placeName key="pmb50">Wien 1/1</placeName>
-                           <date>29. 7. 93</date>
-                           <time>2–3 N</time>
+                           <rs ref="#pmb50" type="place">Wien 1/1</rs>
+                           <date>29.&#160;7.&#160;93</date>
+                           <time>2–3&#160;N</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb213">Ischl</placeName>
+                           <rs ref="#pmb213" type="place">Ischl</rs>
                            <date>30 7 93</date>
                            <time>7–F</time>
                         </stamp>
@@ -69,8 +73,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -89,19 +93,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1893-07-29" n="01">29. 7. 1893</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1893-07-29" n="01">29.&#160;7.&#160;1893</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb213">Bad Ischl</placeName>
-               <date when="1893-07-30">30. 7. 1893</date>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb213">Bad Ischl</placeName>
+               <date when="1893-07-30">30.&#160;7.&#160;1893</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-07-28_01">Beer-Hofmann an Schnitzler, 28. 7. 1893</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-07-30_01">Schnitzler an Beer-Hofmann, [30. 7.?] 1893</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-07-28_01">Beer-Hofmann an Schnitzler, 28.&#160;7.&#160;1893</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-07-30_01">Schnitzler an Beer-Hofmann, [30.&#160;7.?]&#160;1893</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -119,74 +123,24 @@
       <graphic url="1893_AS_RBH_2_00028.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1893_AS_RBH_2_00027.jpeg"/>
-                  <hi rend="latintype">Herrn
-                  Doctor</hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">Richard Beer-Hof<damage agent="paperloss">
-                        <supplied>mann</supplied>
-                     </damage>
-                  </hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb213">Isch</placeName>
-                     <damage agent="paperloss">
-                        <supplied>l</supplied>
-                     </damage>
-                  </hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb41463">
-                     <hi rend="latintype">Schulgasse </hi>
-                  </placeName>
-                  <damage agent="paperloss">
-                     <supplied>8</supplied>
-                  </damage>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <salute>
-                  <pb facs="1893_AS_RBH_2_00025.jpeg"/>Lieber Richard! –</salute> Der <rs type="person" key="pmb27711">Abſchreiber</rs> bringt die <rs type="work" key="pmb30437">Novelle</rs>
-               <space unit="chars" quantity="1"/>
-               <date>Montag</date>; – <date>Dinſtag</date> haben Sie ſie. – Neulich <rs type="work" key="pmb42156">ſtand</rs> im <workName key="pmb40968">Magazin</workName> (<persName key="pmb11988">Kraus</persName> ſchickt es mir) dſs
-               noch dieſen <date>So<c rendition="#gemination-m"/>er</date> im <placeName key="pmb18">Leſſ.th.</placeName> das <workName key="pmb29823">Märchen</workName> dranko<c rendition="#gemination-m"/>t. – Die »lustige« <rs type="work" key="pmb31975">Novelle</rs> beendet. – Aerztlich beſchäftigt, eine <rs type="person" key="pmb25739">Cousine</rs>, 14j. Mädel, ſchwerer Typhus. – Habe noch keine
-                  <pb facs="1893_AS_RBH_2_00026.jpeg"/>Einberufung. – <rs type="work" key="pmb33470">Notiz</rs> im <orgName key="pmb41289">B. B.</orgName>
-               geleſen; ſehr gut – aber natürlich »<rs type="work" key="pmb41289">naturaliſtiſcher
-                  Dichter</rs>«. – Geſtern war ich angeblich im <persName key="pmb25798">
-                  <rs type="work" key="pmb42146">
-                     <hi rend="latintype">Szeps</hi>
-                  </rs>
-               </persName>
-               <space unit="chars" quantity="1"/>
-               <anchor type="commentary" xml:id="KLMAM20191015-1"/>
-               <rs type="work" key="pmb42207">verschimpfirt</rs>
-               <note type="commentary" xml:id="KLMAM20191015-1h">In dem
+      <body><div type="address"><address><addrLine><pb facs="1893_AS_RBH_2_00027.jpeg"/><hi rend="latintype">Herrn
+                  Doctor</hi></addrLine><addrLine><hi rend="latintype">Richard Beer-Hof<damage agent="paperloss"><supplied>mann</supplied></damage></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb213" type="place">Isch</rs><damage agent="paperloss"><supplied>l</supplied></damage></hi></addrLine><addrLine><rs ref="#pmb41463" type="place"><hi rend="latintype">Schulgasse </hi></rs><damage agent="paperloss"><supplied>8</supplied></damage></addrLine></address></div><div type="writingSession" n="1"><p><salute><pb facs="1893_AS_RBH_2_00025.jpeg"/>Lieber Richard!&#160;–</salute> Der <rs type="person" ref="#pmb27711" subtype="implied">Abſchreiber</rs> bringt die <rs type="work" ref="#pmb30437" subtype="implied">Novelle</rs><space unit="chars" quantity="1"/><date>Montag</date>;&#160;– <date>Dinſtag</date> haben Sie ſie.&#160;– Neulich <rs type="work" ref="#pmb42156" subtype="implied">ſtand</rs> im <rs ref="#pmb40968" type="work">Magazin</rs> (<rs ref="#pmb11988" type="person">Kraus</rs> ſchickt es mir) dſs
+               noch dieſen <date>So<c rendition="#gemination-m"/>er</date> im <rs ref="#pmb18" type="place">Leſſ.th.</rs> das <rs ref="#pmb29823" type="work">Märchen</rs> dranko<c rendition="#gemination-m"/>t.&#160;– Die »lustige« <rs type="work" ref="#pmb31975" subtype="implied">Novelle</rs> beendet.&#160;– Aerztlich beſchäftigt, eine <rs type="person" ref="#pmb25739" subtype="implied">Cousine</rs>, 14j. Mädel, ſchwerer Typhus.&#160;– Habe noch keine
+                  <pb facs="1893_AS_RBH_2_00026.jpeg"/>Einberufung.&#160;– <rs type="work" ref="#pmb33470" subtype="implied">Notiz</rs> im <rs ref="#pmb41289" type="organisation">B.&#160;B.</rs>
+               geleſen; ſehr gut – aber natürlich »<rs type="work" ref="#pmb41289" subtype="implied">naturaliſtiſcher
+                  Dichter</rs>«.&#160;– Geſtern war ich angeblich im <rs ref="#pmb25798" type="person"><rs type="work" ref="#pmb42146" subtype="implied"><hi rend="latintype">Szeps</hi></rs></rs><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KLMAM20191015-1"/><rs type="work" ref="#pmb42207" subtype="implied">verschimpfirt</rs><note type="commentary" xml:id="KLMAM20191015-1h">In dem
                   Bericht ohne Autornennung heißt es: »<quote>Das Theaterleben ist ein sehr
                      bewegtes, Tag für Tag Vorstellung, berühmte und unberühmte Gäste, ja sogar
                      Novitäten, sogenannte Sommer-Einakter, die freilich oft nur aus Courtoisie
-                     aufgeführt werden. Ein realistisches Stückchen ›<workName key="pmb30005">Das
-                        Abschieds-Souper</workName>‹, aus der Feder eines jungen <placeName key="pmb50">Wien</placeName>er <rs type="person" key="pmb2121">Realisten</rs> hat wenig Erfolg gehabt, um nicht zu sagen, gar
-                     keinen;</quote>«. (<bibl>
-                     <workName key="pmb42207">Die Saison in
-                        Ischl</workName>. In: <workName key="pmb42146">Wiener Tagblatt</workName>,
-                     Jg. 43, Nr. 206, <date>28. 7. 1893</date>,
-                     S. 4.</bibl>)</note> (las es nicht) – nachdem ich vor 3 Tagen
-                  <anchor type="commentary" xml:id="KLMAM20191015-2"/>gelobt<note type="commentary" xml:id="KLMAM20191015-2h">nicht nachweisbar.</note> war. Gute Redaction! –
-               Was macht der <workName key="pmb31535">Götterliebling</workName>? – Ist
-                  <persName key="pmb20723">Löbl</persName> noch in <placeName key="pmb213">Iſchl</placeName>? Wohin ſchreibt man ihm? Las übrigens die Nu<c rendition="#gemination-m"/>er noch gar nicht. – Schreibt <persName key="pmb11740">Loris</persName>? – Grüßen Sie alles! <anchor type="textConst" xml:id="TG7"/>Ich würde mehr ſchreiben, we<c rendition="#gemination-n"/> ich nicht auf<note type="textConst" xml:id="TG7h">quer
-                  am rechten Rand weiter.</note>
-               <space unit="chars" quantity="1"/>
-               <anchor type="textConst" xml:id="TG8"/>dieſem blöden Karterl angefangen hätte.<note type="textConst" xml:id="TG8h">am linken Rand der Vorderseite</note>
-            </p>
-         </div>
-      </body>
+                     aufgeführt werden. Ein realistisches Stückchen ›<rs ref="#pmb30005" type="work">Das
+                        Abschieds-Souper</rs>‹, aus der Feder eines jungen <rs ref="#pmb50" type="place">Wien</rs>er <rs type="person" ref="#pmb2121" subtype="implied">Realisten</rs> hat wenig Erfolg gehabt, um nicht zu sagen, gar
+                     keinen;</quote>«. (<bibl><rs ref="#pmb42207" type="work">Die Saison in
+                        Ischl</rs>. In: <rs ref="#pmb42146" type="work">Wiener Tagblatt</rs>,
+                     Jg.&#160;43, Nr.&#160;206, <date>28.&#160;7.&#160;1893</date>,
+                     S.&#160;4.</bibl>)</note> (las es nicht) – nachdem ich vor 3 Tagen
+                  <anchor type="commentary" xml:id="KLMAM20191015-2"/>gelobt<note type="commentary" xml:id="KLMAM20191015-2h">nicht nachweisbar.</note> war. Gute Redaction!&#160;–
+               Was macht der <rs ref="#pmb31535" type="work">Götterliebling</rs>?&#160;– Ist
+                  <rs ref="#pmb20723" type="person">Löbl</rs> noch in <rs ref="#pmb213" type="place">Iſchl</rs>? Wohin ſchreibt man ihm? Las übrigens die Nu<c rendition="#gemination-m"/>er noch gar nicht.&#160;– Schreibt <rs ref="#pmb11740" type="person">Loris</rs>?&#160;– Grüßen Sie alles! <anchor type="textConst" xml:id="TG7"/>Ich würde mehr ſchreiben, we<c rendition="#gemination-n"/> ich nicht auf<note type="textConst" xml:id="TG7h">quer
+                  am rechten Rand weiter.</note><space unit="chars" quantity="1"/><anchor type="textConst" xml:id="TG8"/>dieſem blöden Karterl angefangen hätte.<note type="textConst" xml:id="TG8h">am linken Rand der Vorderseite</note></p></div></body>
    </text>
 </TEI>

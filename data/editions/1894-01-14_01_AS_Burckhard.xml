@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-01-14_01_AS_Burckhard">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-01-14_01_AS_Burckhard">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Max Burckhard, 14. 1. 1894</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Max Burckhard, 14.&#160;1.&#160;1894</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -44,28 +48,28 @@
                 <listBibl>
                     <biblStruct>
                         <analytic>
-                            <author key="pmb11447">Glossy, Karl</author>
-                            <title level="a" key="pmb33434">Schnitzlers Einzug ins Burgtheater.
+                            <author ref="#pmb11447">Glossy, Karl</author>
+                            <title level="a" ref="#pmb33434">Schnitzlers Einzug ins Burgtheater.
                                 Unbekannte Briefe des Dichters</title>
                         </analytic>
                         <monogr>
-                            <title level="j" key="pmb29351">Neue Freie Presse</title>
+                            <title level="j" ref="#pmb29351">Neue Freie Presse</title>
                             <biblScope unit="nr">24162</biblScope>
                             <biblScope unit="pp">14</biblScope>
                             <imprint>
-                                <date when="1931-12-19">19. 12. 1931</date>
+                                <date when="1931-12-19">19.&#160;12.&#160;1931</date>
                             </imprint>
                         </monogr>
                     </biblStruct>
                     <biblStruct>
                         <analytic>
-                            <author key="pmb11447">Glossy, Karl</author>
-                            <title level="a" key="pmb33434">Schnitzlers Einzug ins Burgtheater.
+                            <author ref="#pmb11447">Glossy, Karl</author>
+                            <title level="a" ref="#pmb33434">Schnitzlers Einzug ins Burgtheater.
                                 Unbekannte Briefe des Dichters</title>
                         </analytic>
                         <monogr>
                             <title level="m">Wiener Studien und Dokumente.</title>
-                            <editor>Zum 85. Geburtstag des Verfassers herausgegeben von seinen
+                            <editor>Zum 85.&#160;Geburtstag des Verfassers herausgegeben von seinen
                                 Freunden</editor>
                             <imprint>
                                 <date when="1933">1933</date>
@@ -103,18 +107,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1894-01-14" n="01">14. 1. 1894</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1894-01-14" n="01">14.&#160;1.&#160;1894</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11036">Burckhard, Max</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11036">Burckhard, Max</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1891-07-14_01">Burckhard an Schnitzler, 14. 7. 1891</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-02-12_01">Burckhard an Schnitzler, 12. 2. 1894</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1891-07-14_01">Burckhard an Schnitzler, 14.&#160;7.&#160;1891</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-02-12_01">Burckhard an Schnitzler, 12.&#160;2.&#160;1894</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -125,30 +129,21 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-                    <pb facs=""/>
-                    <!-- http://anno.onb.ac.at/cgi-content/anno?aid=nfp&datum=19311219&seite=14&zoom=33 -->
-                    <hi rend="spaced_out">Schnitzler an Burckhard</hi>, <date>14. Januar
+        <body><div type="writingSession" n="1"><p><pb facs=""/><!-- http://anno.onb.ac.at/cgi-content/anno?aid=nfp&datum=19311219&seite=14&zoom=33 --><hi rend="spaced_out">Schnitzler an Burckhard</hi>, <date>14.&#160;Januar
                     1894</date>: »Sehr verehrter Herr Direktor! Vor etwa drei Vierteljahren habe ich
-                    Ihnen durch den Verlag <anchor type="commentary" xml:id="KL904-1"/>
-                    <orgName key="pmb29557">Entſch</orgName>
-                    <note type="commentary" xml:id="KL904-1h">Der Verlag <orgName key="pmb29557">A. Entsch</orgName> dürfte den Bühnenvertrieb von <workName key="pmb29935">Anatol</workName> verwaltet haben. Dieser erschien
+                    Ihnen durch den Verlag <anchor type="commentary" xml:id="KL904-1"/><rs ref="#pmb29557" type="organisation">Entſch</rs><note type="commentary" xml:id="KL904-1h">Der Verlag <rs ref="#pmb29557" type="organisation">A.&#160;Entsch</rs> dürfte den Bühnenvertrieb von <rs ref="#pmb29935" type="work">Anatol</rs> verwaltet haben. Dieser erschien
                         bereits Ende <date>1892</date>, vordatiert auf <date>1893</date>, im
-                            <orgName key="pmb29716">Bibliographischen Bureau</orgName>.</note> in
-                        <placeName key="pmb168">Berlin</placeName>« ein <rs type="work" key="pmb29935">Buch</rs> einſenden laſſen, welches unter anderm drei
+                            <rs ref="#pmb29716" type="organisation">Bibliographischen Bureau</rs>.</note> in
+                        <rs ref="#pmb168" type="place">Berlin</rs>« ein <rs type="work" ref="#pmb29935" subtype="implied">Buch</rs> einſenden laſſen, welches unter anderm drei
                     Luſtspiele enthält, die ſich vielleicht zur Aufführung eignen. Erlauben Sie mir,
                     ſehr geehrter Herr Direktor, Sie jetzt auf dieſelben aufmerkſam zu machen, zu
                     einer Zeit, wo ſowohl die Stimmung des Publikums als auch die Geſtaltung des
                     Repertoires Einaktern günſtiger geworden ſcheint. Die drei ſehr kurzen Stücke
-                    ſind: ›<workName key="pmb30749">Frage an das Schickſal</workName>‹, ›<workName key="pmb31357">Episode</workName>‹ und ›<workName key="pmb30005">Abſchiedsſouper</workName>‹, von welchen vielleicht das dritte in
-                    Anbetracht des etwas frivolen Tones auf der <rs type="place" key="pmb14">Hofbühne</rs> nicht möglich erſcheinen ſollte, ſo dürften ſich die zwei
+                    ſind: ›<rs ref="#pmb30749" type="work">Frage an das Schickſal</rs>‹, ›<rs ref="#pmb31357" type="work">Episode</rs>‹ und ›<rs ref="#pmb30005" type="work">Abſchiedsſouper</rs>‹, von welchen vielleicht das dritte in
+                    Anbetracht des etwas frivolen Tones auf der <rs type="place" ref="#pmb14" subtype="implied">Hofbühne</rs> nicht möglich erſcheinen ſollte, ſo dürften ſich die zwei
                     erſten um ſo eher für eine ſolche eignen. Ich will über die kleinen Stückchen
                     weiter nichts ſagen, möchte Sie, verehrter Herr Direktor, nur bitten, ſie
                     gütigſt einmal Ihrer Aufmerkſamkeit zu würdigen. Ich bin mit vorzüglicher
-                    Hochachtung Ihr ſehr ergebener Dr. Arthur Schnitzler.«</p>
-            </div>
-        </body>
+                    Hochachtung Ihr ſehr ergebener Dr. Arthur Schnitzler.«</p></div></body>
     </text>
 </TEI>

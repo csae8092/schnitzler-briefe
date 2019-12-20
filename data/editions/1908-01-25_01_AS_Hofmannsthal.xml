@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1908-01-25_01_AS_Hofmannsthal" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1908-01-25_01_AS_Hofmannsthal"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 25. 1. 1908</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 25.&#160;1.&#160;1908</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Hs-30885,XXXX</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <!-- <placeName key="pmb50">Wien</placeName> -->
-               <date when="1908-01-25" n="01">25. 1. 1908</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <!-- <placeName ref="#pmb50">Wien</placeName> -->
+               <date when="1908-01-25" n="01">25.&#160;1.&#160;1908</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1908-01-17_01">Hofmannsthal an Schnitzler, 17. 1. 1908</ptr>
-               <ptr type="next" subtype="toAuthor" target="1908-02-04_01">Hofmannsthal an Schnitzler, 4. 2. 1908</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1908-01-17_01">Hofmannsthal an Schnitzler, 17.&#160;1.&#160;1908</ptr>
+               <ptr type="next" subtype="toAuthor" target="1908-02-04_01">Hofmannsthal an Schnitzler, 4.&#160;2.&#160;1908</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,36 +103,23 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>25. 1. 908</date>
-               </dateline>
-               <salute>mein lieber Hugo,</salute>
-            </opener>
-            <p>die Verhältnisse nähern sich sehr allmählich dem soit disant Normalen. Die Wohnung ist
-   desinfiziert, <persName key="pmb2173">Olga</persName> schon viel außer Bett, <persName key="pmb12692">Heini</persName> noch nicht zu Haus; aber ich treffe ihn zuweilen. – In etwa
-   10 Tagen wollen wir auf den <placeName key="pmb189">Semmering</placeName> (jetzt, heißt es, ist
-   Influenza oben) und etwa 8 Tage oder länger, mit <persName key="pmb12692">Heini</persName> oben
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>25.&#160;1.&#160;908</date></dateline><salute>mein lieber Hugo,</salute></opener><p>die Verhältnisse nähern sich sehr allmählich dem soit disant Normalen. Die Wohnung ist
+   desinfiziert, <rs ref="#pmb2173" type="person">Olga</rs> schon viel außer Bett, <rs ref="#pmb12692" type="person">Heini</rs> noch nicht zu Haus; aber ich treffe ihn zuweilen.&#160;– In etwa
+   10 Tagen wollen wir auf den <rs ref="#pmb189" type="place">Semmering</rs> (jetzt, heißt es, ist
+   Influenza oben) und etwa 8 Tage oder länger, mit <rs ref="#pmb12692" type="person">Heini</rs> oben
    bleiben – dann erst öffnen sich wieder unseres Hauses Pforten. Vielleicht sieht man sich vorher
    schon in neutralem Gebiet–? Ich möchte gern näheres über Sie, von Ihnen wissen, von andern,
-   selbst wenn die Andern <persName key="pmb10863">Richard</persName>s sind, erfährt man doch nicht
-   genug. Mit edler Geste schuppsen Sie mir den <orgName>Grillparzer-Preis</orgName> wieder zurück –
+   selbst wenn die Andern <rs ref="#pmb10863" type="person">Richard</rs>s sind, erfährt man doch nicht
+   genug. Mit edler Geste schuppsen Sie mir den <rs type="organisation">Grillparzer-Preis</rs> wieder zurück –
    immerhin bin ich froh, daß ich ihn direct bekommen hab’ es vereinfacht die Einkassierung. Mit
    »Interviewern« soll man natürlich nie sprechen (wenn man ihnen nicht dictiert, wie es andere tun)
    ja man soll sie nicht empfangen, was aber schwer ist, wenn sie hinter einem Stubenmädl die
-   öffnet, direct ins Zimmerstürzen, ohne Meldung abzuwarten, – oder man soll sie hinauswerfen – was
+   öffnet, direct ins Zimmerstürzen, ohne Meldung abzuwarten,&#160;– oder man soll sie hinauswerfen – was
    auch wieder schwer ist, wenn man nicht weiß, wer sie sind und sie plötzlich aus heiterm oder
    vielmehr bewölktem Himmel einem Glückwünsche zu unvermutet erschienenen fünftausend Kronen (nebst
    Ehre, Auszeichnung u Lorbeer) zu Füßen legen. Übrigens werd ich Ihnen nächstens noch etwas
-   komisches vom Vormittag des <date>15. Januar</date> erzählen. </p>
-            <p>Zur Arbeit fühl ich mich schon sehr bereit; an Tagen, da man innerlich u äußerlich allerlei
-   ordnen konnte, und selbst an Einfällen hat es nicht gefehlt. Wie gehts Ihnen allen? <persName key="pmb2173">Olga</persName> ist über die prachtvolle Schale sehr froh. Ich hab sie ihr erst im
-   desinfizierten Raum übergeben. </p>
-            <closer>Wir grüßen Euch! Laßt was hören! <signed>Arthur </signed>
-            </closer>
-         </div>
-      </body>
+   komisches vom Vormittag des <date>15. Januar</date> erzählen. </p><p>Zur Arbeit fühl ich mich schon sehr bereit; an Tagen, da man innerlich u äußerlich allerlei
+   ordnen konnte, und selbst an Einfällen hat es nicht gefehlt. Wie gehts Ihnen allen? <rs ref="#pmb2173" type="person">Olga</rs> ist über die prachtvolle Schale sehr froh. Ich hab sie ihr erst im
+   desinfizierten Raum übergeben. </p><closer>Wir grüßen Euch! Laßt was hören! <signed>Arthur </signed></closer></div></body>
    </text>
 </TEI>

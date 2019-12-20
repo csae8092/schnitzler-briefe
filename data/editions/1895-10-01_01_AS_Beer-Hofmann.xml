@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-10-01_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1895-10-01_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 1. 10. 1895</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 1.&#160;10.&#160;1895</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>hs. Brief, 1 Bl., 3 S., Bleistift.</p>
+                        <p>hs. Brief, 1 Bl., 3&#160;S., Bleistift.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -63,18 +67,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1895-10-01" n="01">1. 10. 1895</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1895-10-01" n="01">1.&#160;10.&#160;1895</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-09-27_01">Beer-Hofmann an Schnitzler, 27. 9. 1895</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-10-10_01">Schnitzler an Beer-Hofmann, 10. 10. 1895</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-09-27_01">Beer-Hofmann an Schnitzler, 27.&#160;9.&#160;1895</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-10-10_01">Schnitzler an Beer-Hofmann, 10.&#160;10.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -89,25 +93,9 @@
       <graphic url="1895_AS_RBH_3_00028.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <pb facs="1895_AS_RBH_3_00027.jpeg"/>
-                  <date>1. 10. 95</date>
-               </dateline>
-               <salute>Lieber Richard,</salute>
-            </opener>
-            <p>das iſt eine halbe Loge von <placeName key="pmb19">Ronacher</placeName> für heute. Bitte
-                  ko<c rendition="#gemination-m"/>en Sie, event. <pb facs="1895_AS_RBH_3_00028.jpeg"/>mit <persName key="pmb11740">Hugo</persName>.</p>
-            <p>Die 2 andern Plätze in der Loge occupiren <persName key="pmb2167">Salten</persName>
-               und ich.</p>
-            <closer>
-               <pb facs="1895_AS_RBH_3_00028.jpeg"/>Herzliche
-                  Grüße<lb/>Ihr<lb/>
-               <signed>Arthur</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1895_AS_RBH_3_00027.jpeg"/><date>1.&#160;10.&#160;95</date></dateline><salute>Lieber Richard,</salute></opener><p>das iſt eine halbe Loge von <rs ref="#pmb19" type="place">Ronacher</rs> für heute. Bitte
+                  ko<c rendition="#gemination-m"/>en Sie, event. <pb facs="1895_AS_RBH_3_00028.jpeg"/>mit <rs ref="#pmb11740" type="person">Hugo</rs>.</p><p>Die 2 andern Plätze in der Loge occupiren <rs ref="#pmb2167" type="person">Salten</rs>
+               und ich.</p><closer><pb facs="1895_AS_RBH_3_00028.jpeg"/>Herzliche
+                  Grüße<lb/>Ihr<lb/><signed>Arthur</signed></closer></div></body>
    </text>
 </TEI>

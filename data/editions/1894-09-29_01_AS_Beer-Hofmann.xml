@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-09-29_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-09-29_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 29. 9. 1894</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 29.&#160;9.&#160;1894</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,17 +83,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1894-09-29" n="01">29. 9. 1894</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1894-09-29" n="01">29.&#160;9.&#160;1894</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-09-16_01">Beer-Hofmann an Schnitzler, 16. 9. 1894</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-09_01">Beer-Hofmann an Schnitzler, [Anfang September 1894]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-09-16_01">Beer-Hofmann an Schnitzler, 16.&#160;9.&#160;1894</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-09_01">Beer-Hofmann an Schnitzler, [Anfang September&#160;1894]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,46 +103,17 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb50">Wien</placeName>, <date when="1894-09-29">29. 9. 94</date>.</dateline>
-            </opener>
-            <p>
-               <salute>Lieber Richard, </salute>zwei (due) Karten hab ich Ihnen nach
-                  <placeName key="pmb975">Pallanza</placeName> geschrieben – das ist doch mehr als Mau? – Sie
-               sind offenbar verloren gegangen.</p>
-            <p>(Wer, – ich? (<persName key="pmb2337">Léon</persName> und
-               <persName key="pmb26602">Waldberg</persName>, <persName key="pmb14328">Blumenthal</persName> und
-                  <persName key="pmb11845">Kadelburg</persName>, <persName key="pmb3442">Brociner</persName> und <persName key="pmb16949">Gerhard</persName>)). –</p>
-            <p>Gestern Eröffnung <placeName key="pmb15566">Josefstadt</placeName>; mit Dank des Herrn <persName key="pmb2337">Léon</persName> im Frack, mit gekränkter Miene. Sehr amüsant,
-               abgesehn vom <rs type="work" key="pmb38879">1. Akt</rs>. – Mein <rs type="work" key="pmb29917">Stück</rs> – zwei
-               Akte bis auf letzte Feile (exclus.) vollendet. Wohl in acht Tagen fertig, –
-               bühnenfertig in etwa 4 Wochen, bühnenwirksam – wann? –</p>
-            <p>Wie fühlen Sie sich? »Fliesst die Arbeit munter fort?« – »<orgName key="pmb29209">Zeit</orgName>« soll besorgt werden. – Bitte schreiben Sie häufiger – die
-               Gemäldegalerie, die so hoffnungsvoll begonnen, hat rasch geendet. –</p>
-            <closer>Herzlich der Ihre <del rend="strikethrough">Richard</del> entschuldigen –
-                  <signed>Arthur.</signed>
-            </closer>
-            <postscript>
-               <p>»Ah, Kamerad, und was machen Weiber?« (<orgName key="pmb42162">Carricaturen</orgName>,
-                  <orgName key="pmb42158">Floh</orgName>, <orgName key="pmb42160">Bombe</orgName>, <orgName key="pmb42166">Wiener
-                     Witzblatt</orgName>).</p>
-               <lg type="poem">
-                  <l>Und jene schöne, die vor Zeiten Euch</l>
-                  <l>Das Wasser auf den Nachttisch Abends stellte –</l>
-                  <l>Mit der Madonna holdem Lächeln – </l>
-                  <l>denkt Ihr dieses guten Mädchens manchmal noch, –</l>
-                  <l>Das sicher manches gegen die Empfängnis,</l>
-                  <l>Doch gegen das Beflecktsein gar nichts hatte – ? </l>
-               </lg>
-               <p>Der Obige, was ich leider nicht auf jenes Mädchen beziehn kann.</p>
-               <p>
-                  <signed>A.</signed>
-               </p>
-            </postscript>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb50" type="place">Wien</rs>, <date when="1894-09-29">29.&#160;9.&#160;94</date>.</dateline></opener><p><salute>Lieber Richard, </salute>zwei (due) Karten hab ich Ihnen nach
+                  <rs ref="#pmb975" type="place">Pallanza</rs> geschrieben – das ist doch mehr als Mau? – Sie
+               sind offenbar verloren gegangen.</p><p>(Wer,&#160;– ich? (<rs ref="#pmb2337" type="person">Léon</rs> und
+               <rs ref="#pmb26602" type="person">Waldberg</rs>, <rs ref="#pmb14328" type="person">Blumenthal</rs> und
+                  <rs ref="#pmb11845" type="person">Kadelburg</rs>, <rs ref="#pmb3442" type="person">Brociner</rs> und <rs ref="#pmb16949" type="person">Gerhard</rs>)).&#160;–</p><p>Gestern Eröffnung <rs ref="#pmb15566" type="place">Josefstadt</rs>; mit Dank des Herrn <rs ref="#pmb2337" type="person">Léon</rs> im Frack, mit gekränkter Miene. Sehr amüsant,
+               abgesehn vom <rs type="work" ref="#pmb38879" subtype="implied">1. Akt</rs>.&#160;– Mein <rs type="work" ref="#pmb29917" subtype="implied">Stück</rs> – zwei
+               Akte bis auf letzte Feile (exclus.) vollendet. Wohl in acht Tagen fertig,&#160;–
+               bühnenfertig in etwa 4 Wochen, bühnenwirksam – wann?&#160;–</p><p>Wie fühlen Sie sich? »Fliesst die Arbeit munter fort?« – »<rs ref="#pmb29209" type="organisation">Zeit</rs>« soll besorgt werden.&#160;– Bitte schreiben Sie häufiger – die
+               Gemäldegalerie, die so hoffnungsvoll begonnen, hat rasch geendet.&#160;–</p><closer>Herzlich der Ihre <del rend="strikethrough">Richard</del> entschuldigen –
+                  <signed>Arthur.</signed></closer><postscript><p>»Ah, Kamerad, und was machen Weiber?« (<rs ref="#pmb42162" type="organisation">Carricaturen</rs>,
+                  <rs ref="#pmb42158" type="organisation">Floh</rs>, <rs ref="#pmb42160" type="organisation">Bombe</rs>, <rs ref="#pmb42166" type="organisation">Wiener
+                     Witzblatt</rs>).</p><lg type="poem"><l>Und jene schöne, die vor Zeiten Euch</l><l>Das Wasser auf den Nachttisch Abends stellte&#160;–</l><l>Mit der Madonna holdem Lächeln&#160;– </l><l>denkt Ihr dieses guten Mädchens manchmal noch,&#160;–</l><l>Das sicher manches gegen die Empfängnis,</l><l>Doch gegen das Beflecktsein gar nichts hatte&#160;–&#160;? </l></lg><p>Der Obige, was ich leider nicht auf jenes Mädchen beziehn kann.</p><p><signed>A.</signed></p></postscript></div></body>
    </text>
 </TEI>

@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-06-26_02_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+    xml:id="L1899-06-26_02_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 26. 6. 1899</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 26.&#160;6.&#160;1899</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +51,7 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Postkarte, schwarze Tinte. Von Schnitzler mit Bleistift die
@@ -59,14 +62,14 @@
                                     </quote>«. Von weiterer Hand mit Bleistift nummeriert:
                                         »<quote>148</quote>«.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb772">Marienbad</placeName>
-                                    <date>26. 6. 99</date>
+                                    <rs ref="#pmb772" type="place">Marienbad</rs>
+                                    <date>26.&#160;6.&#160;99</date>
                                     <time>6</time>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb50">Wi<supplied>en</supplied>
-                                    </placeName>
-                                    <date>27. 7. <supplied>1899</supplied>
+                                    <rs ref="#pmb50" type="place">Wi<supplied>en</supplied>
+                                    </rs>
+                                    <date>27.&#160;7.&#160;<supplied>1899</supplied>
                                     </date>
                                     <time>9.<unclear>V</unclear>
                                     </time>
@@ -78,8 +81,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -99,18 +102,18 @@
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb772">Marienbad</placeName>
-                    <date when="1899-06-26" n="02">26. 6. 1899</date>
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb772">Marienbad</placeName>
+                    <date when="1899-06-26" n="02">26.&#160;6.&#160;1899</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1899-06-27">26. 6. 1899</date>
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1899-06-27">26.&#160;6.&#160;1899</date>
                 </correspAction>
                 <correspContext>
-                    <ptr type="previous" subtype="toAuthor" target="1899-06-16_02">Hofmannsthal an Schnitzler, 16. 6. 1899</ptr>
-                    <ptr type="next" subtype="toAuthor" target="1899-07-06_02">Schnitzler an Hofmannsthal, 6. 7. 1899</ptr>
+                    <ptr type="previous" subtype="toAuthor" target="1899-06-16_02">Hofmannsthal an Schnitzler, 16.&#160;6.&#160;1899</ptr>
+                    <ptr type="next" subtype="toAuthor" target="1899-07-06_02">Schnitzler an Hofmannsthal, 6.&#160;7.&#160;1899</ptr>
                 </correspContext>
             </correspDesc>
         </profileDesc>
@@ -125,43 +128,10 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00330"/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00329"/>
-                        <hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
-                            Schnitzler</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">Wien</hi>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb397">
-                            <hi rend="latintype">IX. Franckgasse 1</hi>
-                        </placeName>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00330"/>
-                        <hi rend="latintype">
-                            <placeName key="pmb772">Marienbad</placeName>, <placeName key="pmb35066">Hôtel Klinger</placeName>
-                        </hi>.</dateline>
-                </opener>
-                <p>Ruhiger, freundlicher Ort, hoffe bald zu arbeiten. Würde gern wiſſen, wie es
-                    Ihnen geht. Denke oft mit Sorge an <persName key="pmb10863">Richard</persName>.</p>
-                <closer>Herzlich Ihr<lb/>
-                    <signed>Hugo.</signed>
-                </closer>
-                <postscript>
-                    <p>
-                        <date>26. VI.</date>
-                    </p>
-                </postscript>
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00329"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
+                            Schnitzler</hi></addrLine><addrLine><hi rend="latintype">Wien</hi></addrLine><addrLine><rs ref="#pmb397" type="place"><hi rend="latintype">IX. Franckgasse 1</hi></rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00330"/><hi rend="latintype"><rs ref="#pmb772" type="place">Marienbad</rs>, <rs ref="#pmb35066" type="place"
+                                >Hôtel Klinger</rs></hi>.</dateline></opener><p>Ruhiger, freundlicher Ort, hoffe bald zu arbeiten. Würde gern wiſſen, wie es
+                    Ihnen geht. Denke oft mit Sorge an <rs ref="#pmb10863" type="person"
+                    >Richard</rs>.</p><closer>Herzlich Ihr<lb/><signed>Hugo.</signed></closer><postscript><p><date>26.&#160;VI.</date></p></postscript></div></body>
     </text>
 </TEI>

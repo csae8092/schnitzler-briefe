@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1902-12-17_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1902-12-17_01_Hofmannsthal_AS">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [17. 12. 1902]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [17.&#160;12.&#160;1902]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                
                     <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,7 +52,7 @@
                                 <country>UK</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43b/1</idno>
+                                <idno>Schnitzler, B&#160;43b/1</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>hs. Telegramm; beschnitten, von Schnitzler datiert »<quote>
@@ -62,8 +65,8 @@
                 <listBibl>
                <biblStruct corresp="HvHAS"> 
                   <monogr> 
-                     <author key="pmb11740">Hofmannsthal, Hugo</author> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author> 
+                     <author ref="#pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -76,8 +79,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -95,17 +98,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <date when="1902-12-17" n="01">[17. 12. 1902]</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <date when="1902-12-17" n="01">[17.&#160;12.&#160;1902]</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1902-12-08_01">Hofmannsthal an Schnitzler, 8. 12. 1902</ptr>
-               <ptr type="next" subtype="toAuthor" target="1902-12-19_01">Hofmannsthal an Schnitzler, 19. 12. 1902</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1902-12-08_01">Hofmannsthal an Schnitzler, 8.&#160;12.&#160;1902</ptr>
+               <ptr type="next" subtype="toAuthor" target="1902-12-19_01">Hofmannsthal an Schnitzler, 19.&#160;12.&#160;1902</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -116,17 +119,6 @@
         </revisionDesc>
     </teiHeader>
     <text type="telegram">
-        <body>
-           
-            <div type="writingSession" n="1">
-                <p>
-               <hi rend="latintype">
-                  <persName key="pmb10815">Bahr</persName>
-               </hi> hat Blinddarmentzündung bin in großer Unruhe ob nichts versäumt wird</p>
-                <closer>
-               <signed>Hugo.</signed>
-            </closer>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><p><hi rend="latintype"><rs ref="#pmb10815" type="person">Bahr</rs></hi> hat Blinddarmentzündung bin in großer Unruhe ob nichts versäumt wird</p><closer><signed>Hugo.</signed></closer></div></body>
     </text>
 </TEI>

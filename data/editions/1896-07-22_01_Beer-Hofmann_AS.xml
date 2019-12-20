@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-07-22_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-07-22_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 22. 7. 1896</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 22.&#160;7.&#160;1896</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,11 +52,11 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>hs. Telegramm von <placeName key="pmb30">Salzburg</placeName>, aufgegeben
-                           um <time>14.10 Uhr</time>, nach <placeName key="pmb40290">Trondheim</placeName>, angekommen um <time>4.45 Uhr</time>. Von
+                        <p>hs. Telegramm von <rs ref="#pmb30" type="place">Salzburg</rs>, aufgegeben
+                           um <time>14.10 Uhr</time>, nach <rs ref="#pmb40290" type="place">Trondheim</rs>, angekommen um <time>4.45 Uhr</time>. Von
                            unbekannter Hand mit Bleistift nummeriert: »<quote>76</quote>«.</p>
                      </physDesc>
                   </msDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -81,19 +85,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb30">Salzburg</placeName>
-               <date when="1896-07-22" n="01">22. 7. 1896</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb30">Salzburg</placeName>
+               <date when="1896-07-22" n="01">22.&#160;7.&#160;1896</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb40290">Trondheim</placeName>
-               <date when="1896-07-22">22. 7. 1896</date>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb40290">Trondheim</placeName>
+               <date when="1896-07-22">22.&#160;7.&#160;1896</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-07-18_01">Schnitzler an Beer-Hofmann, 18. 7. 1896</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-07-24_01">Schnitzler an Beer-Hofmann, 24. 7. 1896</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-07-18_01">Schnitzler an Beer-Hofmann, 18.&#160;7.&#160;1896</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-07-24_01">Schnitzler an Beer-Hofmann, 24.&#160;7.&#160;1896</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -104,32 +108,6 @@
       </revisionDesc>
    </teiHeader>
    <text type="telegram">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00165"/>
-                  <hi rend="latintype">Doktor Arthur</hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">Schnitzler</hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">poste restante <placeName key="pmb40290">Thiem</placeName>
-                  </hi>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>Reise heute <placeName key="pmb30">Salzburg</placeName> ab, über <placeName key="pmb38129">München</placeName>
-               <space unit="chars" quantity="1"/>
-               <placeName key="pmb168">Berlin</placeName> bin <date>25</date>
-               <space unit="chars" quantity="1"/>
-               <placeName key="pmb36300">Kopenhagen</placeName> erwarte Nachricht herzlichst</p>
-            <closer>
-               <signed>Richard</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00165"/><hi rend="latintype">Doktor Arthur</hi></addrLine><addrLine><hi rend="latintype">Schnitzler</hi></addrLine><addrLine><hi rend="latintype">poste restante <rs ref="#pmb40290" type="place">Thiem</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p>Reise heute <rs ref="#pmb30" type="place">Salzburg</rs> ab, über <rs ref="#pmb38129" type="place">München</rs><space unit="chars" quantity="1"/><rs ref="#pmb168" type="place">Berlin</rs> bin <date>25</date><space unit="chars" quantity="1"/><rs ref="#pmb36300" type="place">Kopenhagen</rs> erwarte Nachricht herzlichst</p><closer><signed>Richard</signed></closer></div></body>
    </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1917-05-15_01_Adam_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1917-05-15_01_Adam_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 15. 5. 1917</title>
-                <author key="pmb12438">Adam, Robert</author>
+                <title level="a">Robert Adam an Arthur Schnitzler, 15.&#160;5.&#160;1917</title>
+                <author ref="#pmb12438">Adam, Robert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                <idno>A:Schnitzler, HS.NZ85.1.4230, XXXX</idno>
                            </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S. Von Schnitzler beschriftet: »<quote>
+                                <p>eh. Brief, 1&#160;Bl., 3&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Adam</hi>
                            </quote>«. XXXX Nochmals 2. Seite genau</p>
                             </physDesc>
@@ -76,18 +80,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1917-05-15" n="01">15. 5. 1917</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1917-05-15" n="01">15.&#160;5.&#160;1917</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1917-01-22_01">Schnitzler an Adam, 22. 1. 1917</ptr>
-               <ptr type="next" subtype="toAuthor" target="1917-05-28_01">Schnitzler an Adam, 28. 5. 1917</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1917-01-22_01">Schnitzler an Adam, 22.&#160;1.&#160;1917</ptr>
+               <ptr type="next" subtype="toAuthor" target="1917-05-28_01">Schnitzler an Adam, 28.&#160;5.&#160;1917</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -97,57 +101,34 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="OGL Kopie"/>
-                  <placeName key="pmb50">Wien</placeName>, am <date>16. Mai 1917</date>
-               </dateline>
-                    <salute rend="center">Hochverehrter Herr Doktor!</salute>
-            </opener>                         
-                <p>Ich empfinde nachgerade ein gewiſſes Schamgefühl, da jede Mitteilung, die ich
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="OGL Kopie"/><rs ref="#pmb50" type="place">Wien</rs>, am <date>16.&#160;Mai 1917</date></dateline><salute rend="center">Hochverehrter Herr Doktor!</salute></opener><p>Ich empfinde nachgerade ein gewiſſes Schamgefühl, da jede Mitteilung, die ich
                     Ihnen über meine literariſchen Geſchicke zu machen habe, die von einem Mißerfolg
-                    iſt. Alſo ſeit Jahren und nun alſo auch heute.</p>
-                <p>Das <placeName key="pmb9">Münchner Hoftheater</placeName> hat den
-                    »<workName key="pmb33580">Neidhard</workName>« abgelehnt »wegen verſchiedener Mängel im
+                    iſt. Alſo ſeit Jahren und nun alſo auch heute.</p><p>Das <rs ref="#pmb9" type="place">Münchner Hoftheater</rs> hat den
+                    »<rs ref="#pmb33580" type="work">Neidhard</rs>« abgelehnt »wegen verſchiedener Mängel im
                     dramatiſschen Aufbau« – <del rend="strikethrough">gegen</del> für die ich ſelbſt, bei Gott,
                     nicht blind bin – »und wegen allzugroßer Längen« – deren Beteiligung im Wege von
-                    Strichen ich allerdings vorgeſchlagen hatte. Den <pb facs="OGL Kopie"/>
-               <rs type="person" key="pmb5812">Dramaturgen</rs>
-                    hat indeß »die an vielen Stellen aufleuchtenden Poeſie und Lyrik (ein <anchor type="commentary" xml:id="KL2130-1"/>
-               <foreign xml:lang="el">ἓν διὰ δυοῖν</foreign>
-               <note type="commentary" xml:id="KL2130-1h">(altgriech.) eins mit zwei. Ausdruck der
+                    Strichen ich allerdings vorgeſchlagen hatte. Den <pb facs="OGL Kopie"/><rs type="person" ref="#pmb5812" subtype="implied">Dramaturgen</rs>
+                    hat indeß »die an vielen Stellen aufleuchtenden Poeſie und Lyrik (ein <anchor type="commentary" xml:id="KL2130-1"/><foreign xml:lang="el">ἓν διὰ δυοῖν</foreign><note type="commentary" xml:id="KL2130-1h">(altgriech.) eins mit zwei. Ausdruck der
                     Rhetorik, bei dem ein neuer Begriff aus zwei Wörten gebildet wird, wie hier »Poesie und Lyrik«.</note>) 
                     »ebenſo wie der witzige, fein pointierte Dialog in den Zwiſchenſpielen« »ſtark gefeſſelt«. Schade,
-                    daß die Zwiſchenſpiele nicht abendfüllend sind!</p>
-                <p>
-               <rs type="work" key="pmb30247">Da ſteh ich nun, ich armer Tor</rs>, und bin entſchloſſen, das Ende des Krieges
+                    daß die Zwiſchenſpiele nicht abendfüllend sind!</p><p><rs type="work" ref="#pmb30247" subtype="implied">Da ſteh ich nun, ich armer Tor</rs>, und bin entſchloſſen, das Ende des Krieges
                     abzwarten und damit das Herankommen einer Zeit, die der ſcheußlichen
-                    deutſchfeindlichen Geſinnung, deren meiner Anſicht nich der »<workName key="pmb33580">Neidhard</workName>«
-                    voll iſt, verſtändnisvoller gegenüberſtehen dürfte als die <persName key="pmb11697">Hindenburg</persName>iſche.
-                    Oder ſoll ich das kühne Experiment wagen, den »<workName key="pmb33580">Neidhard</workName>«,
-                    sobald er wieder in meinen Händen iſt, neuerlich zuſammenzupacken und dem <placeName key="pmb14">Burgtheater</placeName>
+                    deutſchfeindlichen Geſinnung, deren meiner Anſicht nich der »<rs ref="#pmb33580" type="work">Neidhard</rs>«
+                    voll iſt, verſtändnisvoller gegenüberſtehen dürfte als die <rs ref="#pmb11697" type="person">Hindenburg</rs>iſche.
+                    Oder ſoll ich das kühne Experiment wagen, den »<rs ref="#pmb33580" type="work">Neidhard</rs>«,
+                    sobald er wieder in meinen Händen iſt, neuerlich zuſammenzupacken und dem <rs ref="#pmb14" type="place">Burgtheater</rs>
                     mit der Verſicherung einzureichen, daß er dem chriſtlich-germaniſchen Schönheitsideal
                     entſpricht? Da dieſes angefeindet <pb facs="OGL Kopie"/>durch Nichtverwendung
-                    <placeName key="pmb1261">babylon</placeName>ischer Motive
+                    <rs ref="#pmb1261" type="place">babylon</rs>ischer Motive
                     negativ determiniert iſt, iſt’s ſehr wohl möglich, daß der antichriſtlich-antigermaniſche
-                    »<workName key="pmb33580">Neidhard</workName>« ſeine volle Erfüllung bedeutet. Der Spaß wäre nicht 
+                    »<rs ref="#pmb33580" type="work">Neidhard</rs>« ſeine volle Erfüllung bedeutet. Der Spaß wäre nicht 
                     ſo übel, und hätte ich nicht zu befürchten, daß in Folge des zu erwartenden 
                     Anſturms aller germaniſchen Chriſten und der dadurch bewirkten Ueberlaſtung
-                    des Lektors der arme »<workName key="pmb33580">Neidhard</workName>« <del rend="strikethrough">nie</del> weit
-                    über die bevorſtehende Wiedergeburt <placeName key="pmb41240">
-                  <country>Öſterreichs</country>
-               </placeName>
-                    hinaus im Archive lagern bliebe, ich wagte wirklich gerne den Verſuch. –
-                </p>
-                <p>Nehmen Sie, hochverehrter Herr Doktor, neuerlich meinen Dank für Ihre liebenswürdige Bemühung entgegen
+                    des Lektors der arme »<rs ref="#pmb33580" type="work">Neidhard</rs>« <del rend="strikethrough">nie</del> weit
+                    über die bevorſtehende Wiedergeburt <rs ref="#pmb41240" type="place"><country>Öſterreichs</country></rs>
+                    hinaus im Archive lagern bliebe, ich wagte wirklich gerne den Verſuch.&#160;–
+                </p><p>Nehmen Sie, hochverehrter Herr Doktor, neuerlich meinen Dank für Ihre liebenswürdige Bemühung entgegen
                 (wie geſagt, ich ſchäme mich meines unumbringbaren Pechs) und empfangen Sie die ergebenſten
-                Grüße von Ihrem</p>
-                <closer>
-               <signed>Robert Adam</signed>                                               
-                </closer>
-            </div>
-        </body>
+                Grüße von Ihrem</p><closer><signed>Robert Adam</signed></closer></div></body>
     </text>
 </TEI>

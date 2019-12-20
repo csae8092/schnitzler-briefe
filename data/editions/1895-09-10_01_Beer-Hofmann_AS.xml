@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-09-10_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1895-09-10_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 10. 9. 1895</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 10.&#160;9.&#160;1895</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 3 S., Bleistift; Lateinschrift. Von Schnitzler mit
+                        <p>eh. Brief, 1&#160;Bl., 3&#160;S., Bleistift; Lateinschrift. Von Schnitzler mit
                            Bleistift nummeriert: »<quote>68</quote>«.</p>
                      </physDesc>
                   </msDesc>
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -80,18 +84,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb759">Schönberg im Stubaital</placeName>
-               <date when="1895-09-10" n="01">10. 9. 1895</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb759">Schönberg im Stubaital</placeName>
+               <date when="1895-09-10" n="01">10.&#160;9.&#160;1895</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-08-27_01">Schnitzler an Beer-Hofmann, 27. 8. 1895</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-09-12_01">Schnitzler an Beer-Hofmann, 12. 9. 1895</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-08-27_01">Schnitzler an Beer-Hofmann, 27.&#160;8.&#160;1895</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-09-12_01">Schnitzler an Beer-Hofmann, 12.&#160;9.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -106,37 +110,18 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00148"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00147"/>
-                  <placeName key="pmb759">Schönberg im Stubaithal</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date when="1895-09-10">10 Sept 1895</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Arthur, </salute>ich bin nicht in <placeName key="pmb36300">Kopenhagen</placeName>; am Abend vor der Abreise entdeckte ich, daß ich gar nicht
-               nach <placeName key="pmb36300">Kopenhagen</placeName> wollte und sagte einfach ab.
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00147"/><rs ref="#pmb759" type="place">Schönberg im Stubaithal</rs><space unit="chars" quantity="1"/><date when="1895-09-10">10 Sept 1895</date></dateline></opener><p><salute>Lieber Arthur, </salute>ich bin nicht in <rs ref="#pmb36300" type="place">Kopenhagen</rs>; am Abend vor der Abreise entdeckte ich, daß ich gar nicht
+               nach <rs ref="#pmb36300" type="place">Kopenhagen</rs> wollte und sagte einfach ab.
                Ich hatte Sehnsucht, wirkliche Sehnsucht, allein zu sein. So einfach ging es nicht.
                Ich mußte, oder, besser ließ mich bereden, in ein Compromiß zu willigen, nach welchem
-               ich nicht sofort, aber doch in 3-4 Tagen allein sein werde. Vorläufig ist <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00148"/>Frau <persName key="pmb10762">Lou</persName> mit mir gereist; sie reist aber Ende der Woche ab. <hi n="1" rend="underline">Offiziell ist sie verhindert nach <placeName key="pmb36300">Kopenhagen</placeName> jetzt zu reisen und kann es erst im Oktober.</hi> Ich
-               bitte das festzuhalten.</p>
-            <p>– Auch ihr gegenüber. –</p>
-            <p>Für alle Falle habe ich <add place="above">an</add> Gusti telegrafirt, ob sie nicht
+               ich nicht sofort, aber doch in 3-4 Tagen allein sein werde. Vorläufig ist <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00148"/>Frau <rs ref="#pmb10762" type="person">Lou</rs> mit mir gereist; sie reist aber Ende der Woche ab. <hi n="1" rend="underline">Offiziell ist sie verhindert nach <rs ref="#pmb36300" type="place">Kopenhagen</rs> jetzt zu reisen und kann es erst im Oktober.</hi> Ich
+               bitte das festzuhalten.</p><p>– Auch ihr gegenüber.&#160;–</p><p>Für alle Falle habe ich <add place="above">an</add> Gusti telegrafirt, ob sie nicht
                Ende der Woche ko<c rendition="#gemination-m"/>en kann und warte auf Antwort. So will
                ich allein sein. Aber – übrigens das lässt sich besser besprechen, als beschreiben.
-               Hier ist <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00148"/>
-               <supplied>es</supplied>
+               Hier ist <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00148"/><supplied>es</supplied>
                einfach herrlich. Das Dorf liegt über der Brennerstrasse <del rend="strikethrough">zirc</del> über 1000 Meter hoch zwei einviertel Stunden mit Wagen von Innsbruck.
                Absolute Ruhe, ein kleines Gasthaus – »Jagerhof« für Fremde eingerichtet, aber
                absolut nicht Hôtel. Heute übernachtete ich in einem Bauernhof, weil mein Zimmer erst
-               heute frei wird. Aber Frau <persName key="pmb10762">Lou</persName> ko<c rendition="#gemination-m"/>t soeben an den Tisch. Adieu.</p>
-            <closer>Herzlichst <signed>Richard</signed>
-            </closer>
-         </div>
-
-      </body>
+               heute frei wird. Aber Frau <rs ref="#pmb10762" type="person">Lou</rs> ko<c rendition="#gemination-m"/>t soeben an den Tisch. Adieu.</p><closer>Herzlichst <signed>Richard</signed></closer></div></body>
    </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-02-09_02_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-02-09_02_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, [9. 2. 1897?]</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, [9.&#160;2.&#160;1897?]</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Hs-30885,XXXX</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>XXXXeh. Brief, 1 Bl., 1 S. XXXX</p>
+                                <p>XXXXeh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -59,8 +63,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -79,18 +83,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1897-02-09" n="02">[9. 2. 1897?]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1897-02-09" n="02">[9.&#160;2.&#160;1897?]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-02-09_01">Hofmannsthal an Schnitzler, 9. 2. 1897</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-03-12_01">Schnitzler an Hofmannsthal, 12. 3. 1897</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-02-09_01">Hofmannsthal an Schnitzler, 9.&#160;2.&#160;1897</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-03-12_01">Schnitzler an Hofmannsthal, 12.&#160;3.&#160;1897</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -99,24 +103,16 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-                    <salute>Lieber Hugo, </salute>ich habe der <persName key="pmb24033">Minnie</persName> telephoniert, wann morgen Probe sei, sie antwortete: noch
-                    nicht bestimmt, wahrscheinlich <time>½ 6</time>; dann fragte ich, ob sie heute
-                    zu <persName key="pmb27380 pmb27377">W.</persName>’s komme, worauf sie sagte,
+        <body><div type="writingSession" n="1"><p><salute>Lieber Hugo, </salute>ich habe der <rs ref="#pmb24033" type="person">Minnie</rs> telephoniert, wann morgen Probe sei, sie antwortete: noch
+                    nicht bestimmt, wahrscheinlich <time>½&#160;6</time>; dann fragte ich, ob sie heute
+                    zu <rs ref="#pmb27380 pmb27377" type="person">W.</rs>’s komme, worauf sie sagte,
                     sie glaube nicht. Damit war das Gespräch (»Also auf Wiedersehen« (ich)) beendet.
-                    Ich gehe also nicht zu <persName key="pmb27380 pmb27377">W</persName>’s. Die
+                    Ich gehe also nicht zu <rs ref="#pmb27380 pmb27377" type="person">W</rs>’s. Die
                     Möglichkeit ist zu bedenken, daß sie nur nicht will, daß ich heut hinaus komme.
                     Vielleicht haben Sie irgend eine Nachricht. Wollen Sie noch was wissen, so
-                    können Sie mir wohl zu <persName key="pmb20548 pmb28299">Loebs</persName>
-                    teleph. Ich bleibe dort wohl bis <time>½ 5</time> oder <time>5</time>, dann geh
-                    ich zu mir nach Haus. Spät Abends (<time>½ 11</time> denk ich) bin ich im
-                        <placeName key="pmb819">Pucher</placeName>. –</p>
-                <closer>Herzlich der Ihre<lb/>
-                    <signed>Arthur</signed>
-                </closer>
-            </div>
-        </body>
+                    können Sie mir wohl zu <rs ref="#pmb20548 pmb28299" type="person">Loebs</rs>
+                    teleph. Ich bleibe dort wohl bis <time>½&#160;5</time> oder <time>5</time>, dann geh
+                    ich zu mir nach Haus. Spät Abends (<time>½&#160;11</time> denk ich) bin ich im
+                        <rs ref="#pmb819" type="place">Pucher</rs>.&#160;–</p><closer>Herzlich der Ihre<lb/><signed>Arthur</signed></closer></div></body>
     </text>
 </TEI>

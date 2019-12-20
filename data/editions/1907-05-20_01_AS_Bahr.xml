@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1907-05-20_01_AS_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1907-05-20_01_AS_Bahr">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 20. 5. 1907</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 20.&#160;5.&#160;1907</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -54,14 +58,14 @@
                      <physDesc>
                         <p>eh. Kartenbrief</p>
                         <stamp n="1">
-                           <placeName key="pmb50">Wien</placeName>
+                           <rs ref="#pmb50" type="place">Wien</rs>
                            <date when="1907-05-20">20.V<supplied>.07</supplied>
                            </date>
                            <time>7–8</time>
                         </stamp>
            <stamp n="2">
-                           <placeName key="pmb50">Wien</placeName>
-                           <date when="1907-05-21">21. V. 07</date>
+                           <rs ref="#pmb50" type="place">Wien</rs>
+                           <date when="1907-05-21">21.&#160;V.&#160;07</date>
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -70,11 +74,11 @@
             <listBibl>
                <biblStruct corresp="DASB">
                   <analytic>
-                     <title level="a">20. 5. 1907</title>
+                     <title level="a">20.&#160;5.&#160;1907</title>
      
                   </analytic>
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint> 
@@ -91,8 +95,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -110,19 +114,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1907-05-20" n="01">20. 5. 1907</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1907-05-20" n="01">20.&#160;5.&#160;1907</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1907-05-21">21. V. 07</date>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1907-05-21">21.&#160;V.&#160;07</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1907-05-19_01">Bahr an Schnitzler, 19. 5. [1907]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1907-09-29_01">Bahr an Schnitzler, 29. 9. 1907</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1907-05-19_01">Bahr an Schnitzler, 19.&#160;5. [1907]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1907-09-29_01">Bahr an Schnitzler, 29.&#160;9.&#160;1907</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -138,44 +142,10 @@
      <graphic url="HS_AM23385Ba_R"/>
    </facsimile>
   <text type="card">
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>
-                  <pb facs="HS_AM23385Ba"/>Herrn <hi rend="latintype">Hermann Bahr,</hi>
-               </addrLine> 
-               <addrLine>
-                  <hi rend="latintype">
-                     
-                        <placeName key="pmb165">Wien Ob St Veit</placeName>
-                     
-                  </hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb220">Veitlissengasse</placeName>.</hi>
-               </addrLine>
-            </address> 
-         </div> 
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>20/5 907</date>
-               </dateline>
-               <salute>lieber Hermann, </salute>
-            </opener>
-            <p>gar nichts wichtiges. Wollte dich nur wieder einmal sehen. Schreib mir, wann du wieder aus deiner
-          Welt emportauchst. Vielleicht fahren wir Ende <subst>
-                  <del rend="strikethrough">nächster</del>
-                  <add place="above">der</add>
-               </subst> Woche auf ein paar Tage in die <placeName key="pmb34045">Brühl</placeName>. Du hast
-          hoffentlich deine <anchor type="commentary" xml:id="KL093-1"/>Meeresvilla<note type="commentary" xml:id="KL093-1h">Den Sommer verbrachten <persName key="pmb10815">Bahr</persName> und <persName key="pmb10818">Mildenburg</persName> jedoch in einem
-            Hotel am <placeName key="pmb259">Lido</placeName>.</note> gefunden. <workName key="pmb30011">Brehm</workName> behalte natürlich so lang du
-          willst.</p>
-            <closer>Von Herzen dein<lb/>
-               <signed>Arthur.</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="HS_AM23385Ba"/>Herrn <hi rend="latintype">Hermann Bahr,</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb165" type="place">Wien Ob St Veit</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb220" type="place">Veitlissengasse</rs>.</hi></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><date>20/5 907</date></dateline><salute>lieber Hermann, </salute></opener><p>gar nichts wichtiges. Wollte dich nur wieder einmal sehen. Schreib mir, wann du wieder aus deiner
+          Welt emportauchst. Vielleicht fahren wir Ende <subst><del rend="strikethrough">nächster</del><add place="above">der</add></subst> Woche auf ein paar Tage in die <rs ref="#pmb34045" type="place">Brühl</rs>. Du hast
+          hoffentlich deine <anchor type="commentary" xml:id="KL093-1"/>Meeresvilla<note type="commentary" xml:id="KL093-1h">Den Sommer verbrachten <rs ref="#pmb10815" type="person">Bahr</rs> und <rs ref="#pmb10818" type="person">Mildenburg</rs> jedoch in einem
+            Hotel am <rs ref="#pmb259" type="place">Lido</rs>.</note> gefunden. <rs ref="#pmb30011" type="work">Brehm</rs> behalte natürlich so lang du
+          willst.</p><closer>Von Herzen dein<lb/><signed>Arthur.</signed></closer></div></body>
   </text>
 </TEI>

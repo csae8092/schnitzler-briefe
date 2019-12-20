@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-07-14_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1899-07-14_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal,
-                    14. 7. 1899</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                    14.&#160;7.&#160;1899</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -52,7 +56,7 @@
                                 <idno>Hs-30885,XXXX</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -60,8 +64,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -80,18 +84,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1899-07-14" n="01">14. 7. 1899</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1899-07-14" n="01">14.&#160;7.&#160;1899</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb772">Marienbad</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb772">Marienbad</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-07-07_01">Hofmannsthal an Schnitzler, 7. 7. [1899]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-07-15_02">Hofmannsthal an Schnitzler, 15. 7. [1899]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-07-07_01">Hofmannsthal an Schnitzler, 7.&#160;7.&#160;[1899]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-07-15_02">Hofmannsthal an Schnitzler, 15.&#160;7.&#160;[1899]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -101,35 +105,16 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs=""/>
-                  <date>14/7 99</date>
-                    </dateline>
-                </opener>
-                <p>
-               <salute>mein lieber Hugo. </salute>
-               <date>Montag</date> reis ich wahrscheinlich
-                    ab. Adresse: <placeName key="pmb909">Velden</placeName>, <placeName key="pmb36282">Pension Pundschu</placeName>. Bin dort mit <rs key="pmb12701" type="person">Mama</rs> u. <rs key="pmb2461" type="person">Schwester</rs>.
-                        <persName key="pmb13055">Wassermann</persName> geht vielleicht mit. Von
-                        <persName key="pmb10863">Richard</persName> hör ich wenig; eben eine Karte;
-                    ich hab nicht den Eindruck, daß er in guter Stimmung ist. – Wie lang ich
-                    in <placeName key="pmb909">V.</placeName> bleibe? – 8–14 Tage. Möchte gern
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>14/7 99</date></dateline></opener><p><salute>mein lieber Hugo. </salute><date>Montag</date> reis ich wahrscheinlich
+                    ab. Adresse: <rs ref="#pmb909" type="place">Velden</rs>, <rs ref="#pmb36282" type="place">Pension Pundschu</rs>. Bin dort mit <rs ref="#pmb12701" type="person" subtype="implied">Mama</rs> u. <rs ref="#pmb2461" type="person" subtype="implied">Schwester</rs>.
+                        <rs ref="#pmb13055" type="person">Wassermann</rs> geht vielleicht mit. Von
+                        <rs ref="#pmb10863" type="person">Richard</rs> hör ich wenig; eben eine Karte;
+                    ich hab nicht den Eindruck, daß er in guter Stimmung ist.&#160;– Wie lang ich
+                    in <rs ref="#pmb909" type="place">V.</rs> bleibe? – 8–14 Tage. Möchte gern
                     dann höher. Es bleibt hoffentlich bei <date>Mitte August</date> für uns 2; bitte
-                    schieben Sie’s nicht viel weiter hinaus, wenn es geht. – Was für eine Art
-                    5aktiges <rs type="work" key="pmb32432">Stück</rs> ist das, was Sie schreiben? </p>
-                <p>– Über alles, was ich innerlich durchmache, ist schwer zu schreiben. Es ist,
+                    schieben Sie’s nicht viel weiter hinaus, wenn es geht.&#160;– Was für eine Art
+                    5aktiges <rs type="work" ref="#pmb32432" subtype="implied">Stück</rs> ist das, was Sie schreiben? </p><p>– Über alles, was ich innerlich durchmache, ist schwer zu schreiben. Es ist,
                     wie wenn die Wolken immer tiefer und schwerer herabsänken, je aufrechter man
-                    geht. </p>
-                <closer>Herzlich der Ihre<lb/>
-               <signed>Arth</signed>
-            </closer>
-                <postscript>
-                    <p>Grüßen Sie <persName key="pmb24033">Minnie</persName>. </p>
-                </postscript>
-            </div>
-        </body>
+                    geht. </p><closer>Herzlich der Ihre<lb/><signed>Arth</signed></closer><postscript><p>Grüßen Sie <rs ref="#pmb24033" type="person">Minnie</rs>. </p></postscript></div></body>
     </text>
 </TEI>

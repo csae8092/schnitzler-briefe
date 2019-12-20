@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1923-09-03_01_AS_Hofmannsthal" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1923-09-03_01_AS_Hofmannsthal"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 3. 9. 1923</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 3.&#160;9.&#160;1923</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Hs-30885,XXXX</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <!-- <placeName key="pmb50">Wien</placeName> -->
-               <date when="1923-09-03" n="01">3. 9. 1923</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <!-- <placeName ref="#pmb50">Wien</placeName> -->
+               <date when="1923-09-03" n="01">3.&#160;9.&#160;1923</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1923-05-15_01">Hofmannsthal an Schnitzler, 15. 5. 1923</ptr>
-               <ptr type="next" subtype="toAuthor" target="1924-01-18_01">Hofmannsthal an Schnitzler, 18. 1. 1924</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1923-05-15_01">Hofmannsthal an Schnitzler, 15.&#160;5.&#160;1923</ptr>
+               <ptr type="next" subtype="toAuthor" target="1924-01-18_01">Hofmannsthal an Schnitzler, 18.&#160;1.&#160;1924</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,22 +103,12 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">[Celerina] <date>3/9. 23</date>. </dateline>
-            </opener>
-            <p>
-               <salute>mein lieber Hugo</salute>. Ihr letztes Lebenszeichen hab ich vor Monaten aus der
-    <placeName key="pmb34006">Schweiz</placeName> erhalten – und heut erst, auch aus der
-    <placeName key="pmb34006">Schweiz</placeName>, aus <placeName key="pmb12589">Celerina</placeName>, wo mich vor 9 Jahren der
+      <body><div type="writingSession" n="1"><opener><dateline rend="right">[Celerina] <date>3/9.&#160;23</date>. </dateline></opener><p><salute>mein lieber Hugo</salute>. Ihr letztes Lebenszeichen hab ich vor Monaten aus der
+    <rs ref="#pmb34006" type="place">Schweiz</rs> erhalten – und heut erst, auch aus der
+    <rs ref="#pmb34006" type="place">Schweiz</rs>, aus <rs ref="#pmb12589" type="place">Celerina</rs>, wo mich vor 9 Jahren der
    Krieg überrascht hat und ich heuer ein paar gute Wochen allein verlebt habe, erwidere ich Ihren
-   lieben Gruß. Heute reis ich ab, seh mir noch im <placeName key="pmb1061">Engadin</placeName> einiges an, und
-   geh dann an den <placeName key="pmb668">Bodensee</placeName> (<placeName key="pmb1029">Bregenz</placeName>), von wo ich
-    <persName key="pmb2238">Lili</persName> abhole. Auf Wiedersehen hoffentlich! </p>
-            <closer>Ihr <signed>Arthur.</signed>
-            </closer>
-         </div>
-      </body>
+   lieben Gruß. Heute reis ich ab, seh mir noch im <rs ref="#pmb1061" type="place">Engadin</rs> einiges an, und
+   geh dann an den <rs ref="#pmb668" type="place">Bodensee</rs> (<rs ref="#pmb1029" type="place">Bregenz</rs>), von wo ich
+    <rs ref="#pmb2238" type="person">Lili</rs> abhole. Auf Wiedersehen hoffentlich! </p><closer>Ihr <signed>Arthur.</signed></closer></div></body>
    </text>
 </TEI>

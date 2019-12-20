@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1915-08-06_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1915-08-06_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [6. 8. 1915]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [6.&#160;8.&#160;1915]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., Bleistift. Von Schnitzler mit Bleistift beschriftet: »<quote>
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., Bleistift. Von Schnitzler mit Bleistift beschriftet: »<quote>
                               <hi rend="latintype">Hofmannsthal</hi>
                            </quote>« und falsch datiert: 
                                     »<quote>
@@ -67,8 +71,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -87,18 +91,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb213">Bad Ischl</placeName>
-                    <date when="1915-08-06" n="01">[6. 8. 1915]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb213">Bad Ischl</placeName>
+                    <date when="1915-08-06" n="01">[6.&#160;8.&#160;1915]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1915-05-27_01">Hofmannsthal an Schnitzler, 27. 5. 1915</ptr>
-               <ptr type="next" subtype="toAuthor" target="1916-02-22_01">Schnitzler an Hofmannsthal, 22. 8. 1916</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1915-05-27_01">Hofmannsthal an Schnitzler, 27.&#160;5.&#160;1915</ptr>
+               <ptr type="next" subtype="toAuthor" target="1916-02-22_01">Schnitzler an Hofmannsthal, 22.&#160;8.&#160;1916</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -112,48 +116,9 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00154"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p rend="center">
-                  <seg rend="left">
-                     <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00153"/>
-                     <hi rend="pre-print">
-                        <placeName key="pmb655">HOTEL KAISERKRONE</placeName>
-                     </hi>
-                  </seg>
-                  <seg rend="right">
-                     <placeName key="pmb213">Bad Ischl</placeName>, am <c rendition="#dots" n="10"/>
-                  </seg>
-               </p>
-                    <p rend="right">
-                  <hi rend="pre-print">
-                     <placeName key="pmb213">BAD ISCHL</placeName>
-                  </hi>
-               </p>
-                    <p rend="right">
-                  <hi rend="pre-print">ZENTRALE LAGE</hi>
-               </p>
-                    <p rend="right">
-                  <hi rend="pre-print">RESTAURATIONSGARTEN, BÄDER</hi>
-               </p>
-                    <p rend="right">
-                  <hi rend="pre-print">LIFT, MODERNER KOMFORT</hi>
-               </p>
-                    <salute>Viele Grüsse, lieber Arthur,</salute>
-                </opener>
-                <p>Ihnen und <persName key="pmb2173">Olga</persName>. Ich ko<c rendition="#gemination-m"/>e alle 3–4 Tage für 24 Stunden herüber. 
-                    Vielleicht besuchen Sie <rs type="person" key="pmb11737">Papa</rs>
-                    einmal, es ist ganz nahe, <placeName key="pmb33909">Tänzlgasse 10</placeName>, <time>vormittag</time>
-                    sitzt er i<c rendition="#gemination-m"/>er in seinem Garten.</p>
-                <closer>Von Herzen Ihr<lb/>
-                    <signed>Hugo</signed>
-                </closer>
-                <postscript>
-                    <p>
-                  <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00153"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</p>
-                </postscript>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><p rend="center"><seg rend="left"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00153"/><hi rend="pre-print"><rs ref="#pmb655" type="place">HOTEL KAISERKRONE</rs></hi></seg><seg rend="right"><rs ref="#pmb213" type="place">Bad Ischl</rs>, am <c rendition="#dots" n="10"/></seg></p><p rend="right"><hi rend="pre-print"><rs ref="#pmb213" type="place">BAD ISCHL</rs></hi></p><p rend="right"><hi rend="pre-print">ZENTRALE LAGE</hi></p><p rend="right"><hi rend="pre-print">RESTAURATIONSGARTEN, BÄDER</hi></p><p rend="right"><hi rend="pre-print">LIFT, MODERNER KOMFORT</hi></p><salute>Viele Grüsse, lieber Arthur,</salute></opener><p>Ihnen und <rs ref="#pmb2173" type="person">Olga</rs>. Ich ko<c rendition="#gemination-m"/>e alle 3–4 Tage für 24 Stunden herüber. 
+                    Vielleicht besuchen Sie <rs type="person" ref="#pmb11737" subtype="implied">Papa</rs>
+                    einmal, es ist ganz nahe, <rs ref="#pmb33909" type="place">Tänzlgasse 10</rs>, <time>vormittag</time>
+                    sitzt er i<c rendition="#gemination-m"/>er in seinem Garten.</p><closer>Von Herzen Ihr<lb/><signed>Hugo</signed></closer><postscript><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00153"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</p></postscript></div></body>
     </text>
 </TEI>

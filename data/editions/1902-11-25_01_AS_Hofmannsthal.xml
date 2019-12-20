@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1902-11-25_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1902-11-25_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, [25.? 11. 1902]</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, [25.?&#160;11.&#160;1902]</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Hs-30885,100</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S., Bleistift. Von unbekannter
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S., Bleistift. Von unbekannter
                                     Hand mit Bleistift datiert: »<quote>
                               <date>1906</date>??</quote>«.</p>
                             </physDesc>
@@ -61,8 +65,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -81,18 +85,21 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date notBefore="1902-11-24" when="1902-11-25" notAfter="1902-11-29" n="01">[25.? 11. 1902]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date notBefore="1902-11-24"
+                     when="1902-11-25"
+                     notAfter="1902-11-29"
+                     n="01">[25.?&#160;11.&#160;1902]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1902-11-24_01">Hofmannsthal an Schnitzler, 24. 11. 1902</ptr>
-               <ptr type="next" subtype="toAuthor" target="1902-12-08_01">Hofmannsthal an Schnitzler, 8. 12. 1902</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1902-11-24_01">Hofmannsthal an Schnitzler, 24.&#160;11.&#160;1902</ptr>
+               <ptr type="next" subtype="toAuthor" target="1902-12-08_01">Hofmannsthal an Schnitzler, 8.&#160;12.&#160;1902</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -106,34 +113,16 @@
         <graphic url="Hs-30885,100_002"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-               <pb facs="Hs-30885,100_001"/>
-               <salute>lieber Hugo, </salute>ich habe, da auch ich keine andre
-                    Adreſſe weiß, den Brief in die Direktion des <placeName key="pmb14">Burg. Th.</placeName> geſchickt.</p>
-                <p>– Es iſt jetzt mit dem Landfahren, beſonders abends <del rend="strikethrough">übrigens</del> keine ſehr begeiſternde Sache; es wäre mir ſchon lieber,
-                    wenn ich Sie, gelegentlich einer <placeName key="pmb50">Wien</placeName>fahrt,
-                    vorerſt einmal hier zu ſehen u zu ſprechen bekäme. – Natürlich fahr ich, we<c rendition="#gemination-n"/>
-                    <subst>
-                        <del rend="strikethrough">ich</del>
-                        <add place="inline">die</add>
-                    </subst>
-               <space unit="chars" quantity="1"/>
-               <persName key="pmb11617">Hauptmann</persName>geſchichte zu Stande ko<c rendition="#gemination-m"/>t,
-                    mit ihm zu Ihnen <pb facs="Hs-30885,100_002"/>hinaus. –</p>
-                <p>Ich freue mich auf Ihr <rs type="work" key="pmb31091">Stück</rs>. Ich habe geſtern
-                    die <rs key="pmb29985" type="work">Skizze des meinen</rs> – denn ich kann es in
+        <body><div type="writingSession" n="1"><p><pb facs="Hs-30885,100_001"/><salute>lieber Hugo, </salute>ich habe, da auch ich keine andre
+                    Adreſſe weiß, den Brief in die Direktion des <rs ref="#pmb14" type="place">Burg. Th.</rs> geſchickt.</p><p>– Es iſt jetzt mit dem Landfahren, beſonders abends <del rend="strikethrough">übrigens</del> keine ſehr begeiſternde Sache; es wäre mir ſchon lieber,
+                    wenn ich Sie, gelegentlich einer <rs ref="#pmb50" type="place">Wien</rs>fahrt,
+                    vorerſt einmal hier zu ſehen u zu ſprechen bekäme. – Natürlich fahr ich, we<c rendition="#gemination-n"/><subst><del rend="strikethrough">ich</del><add place="inline">die</add></subst><space unit="chars" quantity="1"/><rs ref="#pmb11617" type="person">Hauptmann</rs>geſchichte zu Stande ko<c rendition="#gemination-m"/>t,
+                    mit ihm zu Ihnen <pb facs="Hs-30885,100_002"/>hinaus.&#160;–</p><p>Ich freue mich auf Ihr <rs type="work" ref="#pmb31091" subtype="implied">Stück</rs>. Ich habe geſtern
+                    die <rs ref="#pmb29985" type="work" subtype="implied">Skizze des meinen</rs> – denn ich kann es in
                     keiner Weiſe ausgeführt nennen, - zu Ende dictirt, und ein ſchwerer Grundfehler
                     des ganzen, der nun mit Evidenz zu Tage trat, hat mich auffallend tief
-                    verſtimmt; – mich in die Nacht und in meine Träume wie ein wirkliches Unglück
+                    verſtimmt;&#160;– mich in die Nacht und in meine Träume wie ein wirkliches Unglück
                         ver<pb facs="Hs-30885,100_002"/>folgt. Solche Dinge haben natürlich i<c rendition="#gemination-m"/>er ihren Sinn: Mängel eines Werks, die man <hi rend="underline" n="1">ſo</hi> ſchmerzlich empfindet, ſind immer Mängel des
-                    eigenen Weſens, auf die man in dieſer geheimnisvollen Weiſe geleitet wird.</p>
-                <p>– Leben Sie wohl. Auf bald.</p>
-                <closer>Herzlichſt Ihr<lb/>
-                    <signed>A.</signed>
-                </closer>
-            </div>
-        </body>
+                    eigenen Weſens, auf die man in dieſer geheimnisvollen Weiſe geleitet wird.</p><p>– Leben Sie wohl. Auf bald.</p><closer>Herzlichſt Ihr<lb/><signed>A.</signed></closer></div></body>
     </text>
 </TEI>

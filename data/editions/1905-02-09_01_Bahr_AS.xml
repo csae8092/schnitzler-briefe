@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1905-02-09_01_Bahr_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1905-02-09_01_Bahr_AS">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 9. 2. 1905</title>
-            <author key="pmb10815">Bahr, Hermann</author>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 9.&#160;2.&#160;1905</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,10 +53,10 @@
                         <country>GB</country>            
                         <settlement>Cambridge</settlement>            
                         <repository>University Library</repository>            
-                        <idno>Schnitzler, B 5b</idno>
+                        <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S.</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,8 +64,8 @@
             <listBibl>                
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">[Wien]</placeName>
-               <date when="1905-02-09" n="01">9. 2. 1905</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
+               <date when="1905-02-09" n="01">9.&#160;2.&#160;1905</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1905-01-23_01">Schnitzler an Bahr, 23. 1. 1905</ptr>
-               <ptr type="next" subtype="toAuthor" target="1905-03-07_01">Schnitzler an Bahr, 7. 3. 1905</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1905-01-23_01">Schnitzler an Bahr, 23.&#160;1.&#160;1905</ptr>
+               <ptr type="next" subtype="toAuthor" target="1905-03-07_01">Schnitzler an Bahr, 7.&#160;3.&#160;1905</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -105,31 +109,14 @@
       <graphic url="MS-B-00005-B-000-00225"/>
    </facsimile>
    <text type="letter">
-      <body>
-     
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>9. 2.</date>
-               </dateline>
-               <salute rend="center">Lieber Arthur!</salute>
-            </opener>
-            <p>Von den Leuten, bei welchen ich herumgefragt habe, weiß Niemand ein <unclear>deuts</unclear>ches Wort 
-        für <unclear>
-                  <anchor type="commentary" xml:id="KL289-1"/>massier<note type="commentary" xml:id="KL289-1h">Unsichere Lesart. Ein ›massier‹ war eine Art
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>9.&#160;2.</date></dateline><salute rend="center">Lieber Arthur!</salute></opener><p>Von den Leuten, bei welchen ich herumgefragt habe, weiß Niemand ein <unclear>deuts</unclear>ches Wort 
+        für <unclear><anchor type="commentary" xml:id="KL289-1"/>massier<note type="commentary" xml:id="KL289-1h">Unsichere Lesart. Ein ›massier‹ war eine Art
             Waffenträger, teilweise auch als Leibwächter dienend, der bei Zeremonien bis in die
             Gegenwart existiert. In einer weiteren Bedeutung handelt es sich in einem
             Künstleratelier um einen Schüler, der für Assistenzzwecke eingesetzt wurde und der dafür
-            zuständig war, das Lehrgeld einzuheben.</note>
-               </unclear>, schon deshalb 
-               nicht, weil wir die Institution gar nicht haben.</p>
-            <p>Ich habe mehrere anonyme Briefe bekommen, in welchen ich beschimpft wurde, weil ich 
-        »<workName key="pmb29899">Freiwild</workName>«, Dein »bestes Stück«, nicht genug gelobt hätte, denk Dir!</p>
-            <closer>Deine liebe <rs type="person" key="pmb2173">Frau</rs> und Dich herzlichst
-        grüßend bin ich<lb/>Dein alter<lb/>
-               <signed>H.</signed>
-            </closer>
-         </div>
-      </body>
+            zuständig war, das Lehrgeld einzuheben.</note></unclear>, schon deshalb 
+               nicht, weil wir die Institution gar nicht haben.</p><p>Ich habe mehrere anonyme Briefe bekommen, in welchen ich beschimpft wurde, weil ich 
+        »<rs ref="#pmb29899" type="work">Freiwild</rs>«, Dein »bestes Stück«, nicht genug gelobt hätte, denk Dir!</p><closer>Deine liebe <rs type="person" ref="#pmb2173" subtype="implied">Frau</rs> und Dich herzlichst
+        grüßend bin ich<lb/>Dein alter<lb/><signed>H.</signed></closer></div></body>
   </text>
 </TEI>

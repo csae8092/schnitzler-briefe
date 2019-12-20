@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-09-14_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-09-14_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 14. 9. 1896</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 14.&#160;9.&#160;1896</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,18 +52,18 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Postkarte, Bleistift; Lateinschrift. Von unbekannter Hand mit
                            Bleistift nummeriert: »<quote>84</quote>«.</p>
                         <stamp n="1">
-                           <placeName key="pmb662">Baden</placeName>
-                           <date>14. 9. 96</date>
-                           <time>2–3 N</time>
+                           <rs ref="#pmb662" type="place">Baden</rs>
+                           <date>14.&#160;9.&#160;96</date>
+                           <time>2–3&#160;N</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb59">Wien 9/3</placeName>
+                           <rs ref="#pmb59" type="place">Wien 9/3</rs>
                            <date>14. 9. 96</date>
                            <time>7.N</time>
                            <action>Bestellt</action>
@@ -75,19 +79,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb662">Baden bei Wien</placeName>
-               <date when="1896-09-14" n="01">14. 9. 1896</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb662">Baden bei Wien</placeName>
+               <date when="1896-09-14" n="01">14.&#160;9.&#160;1896</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1896-09-14">14. 9. 1896</date>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1896-09-14">14.&#160;9.&#160;1896</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-09-13_01">Schnitzler an Beer-Hofmann, [13. 9. 1896]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-09-14_02">Schnitzler an Beer-Hofmann, 14. 9. 1896</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-09-13_01">Schnitzler an Beer-Hofmann, [13.&#160;9.&#160;1896]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-09-14_02">Schnitzler an Beer-Hofmann, 14.&#160;9.&#160;1896</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -102,40 +106,11 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00182"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00182"/>Herrn</addrLine>
-               <addrLine>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
-               <addrLine>
-                  <placeName key="pmb50">Wien</placeName>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb397">IX Frankgasse 1</placeName>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00181"/>
-               <salute>Lieber Arthur!
-               </salute>Ich war gestern den ganzen <time>Nachmittag</time> bis <time>½ 10
-                  Nachts</time>
-               <space unit="chars" quantity="1"/>
-               <placeName key="pmb680">Franzensstraße 54</placeName> – allerdings hinter einer versperrten
+      <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00182"/>Herrn</addrLine><addrLine>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb397" type="place">IX Frankgasse 1</rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00181"/><salute>Lieber Arthur!
+               </salute>Ich war gestern den ganzen <time>Nachmittag</time> bis <time>½&#160;10
+                  Nachts</time><space unit="chars" quantity="1"/><rs ref="#pmb680" type="place">Franzensstraße 54</rs> – allerdings hinter einer versperrten
                Doppelthüre. Daß wir Sie nicht Klopfen gehört haben ist räthselhaft. Ich dürfte am
-                  <date>24.</date> in <placeName key="pmb50">Wien</placeName> sein. Sehe ich Sie
-               noch vorher?</p>
-            <closer>Herzlichst<lb/>Ihr<lb/>
-               <signed>Richard</signed>
-            </closer>
-            <postscript>
-               <dateline>
-                  <date>14/IX 96</date>
-               </dateline>
-            </postscript>
-         </div>
-      </body>
+                  <date>24.</date> in <rs ref="#pmb50" type="place">Wien</rs> sein. Sehe ich Sie
+               noch vorher?</p><closer>Herzlichst<lb/>Ihr<lb/><signed>Richard</signed></closer><postscript><dateline><date>14/IX 96</date></dateline></postscript></div></body>
    </text>
 </TEI>

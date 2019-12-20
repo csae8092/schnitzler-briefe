@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-10-26_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1894-10-26_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 26. 10. 1894</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 26.&#160;10.&#160;1894</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,16 +54,16 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief mit Umschlag, 2 Bl., 6 S., schwarze Tinte.</p>
+                        <p>eh. Brief mit Umschlag, 2&#160;Bl., 6&#160;S., schwarze Tinte.</p>
                         <stamp n="1">
-                           <placeName key="pmb51">Wien 1/1</placeName>
+                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
                            <date>
-                              <supplied>26.</supplied> 10. 94</date>
+                              <supplied>26.</supplied>&#160;10.&#160;94</date>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb462">Venezia</placeName>
-                           <date>28 10-94</date>
-                           <time>7 N</time>
+                           <rs ref="#pmb462" type="place">Venezia</rs>
+                           <date>28&#160;10-94</date>
+                           <time>7&#160;N</time>
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -69,8 +72,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -90,18 +93,18 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1894-10-26" n="01">26. 10. 1894</date>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1894-10-26" n="01">26.&#160;10.&#160;1894</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb462">Venedig</placeName>
-               <date when="1894-10-26">28. 10. 1894</date>
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb462">Venedig</placeName>
+               <date when="1894-10-26">28.&#160;10.&#160;1894</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-10-23_01">Beer-Hofmann an Schnitzler, 23. 10. 1894</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-10-28_01">Beer-Hofmann an Schnitzler, 28. 10. 1894</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-10-23_01">Beer-Hofmann an Schnitzler, 23.&#160;10.&#160;1894</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-10-28_01">Beer-Hofmann an Schnitzler, 28.&#160;10.&#160;1894</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -122,100 +125,50 @@
       <graphic url="1894_AS_RBH_4_00046.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1894_AS_RBH_4_00001"/>
-                  <hi rend="latintype">Dr. Arthur Schnitzler</hi>, <placeName key="pmb397">Wien, IX.
-                     Frankgaſſe 1</placeName>.</addrLine>
-            </address>
-            <address>
-               <addrLine>Herrn Dr. <hi rend="latintype">Richard Beer Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb462">Venedig</placeName>
-                  </hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb310">
-                     <hi rend="latintype">Hotel Bauer u. Grünwald</hi>
-                  </placeName>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                            <placeName key="pmb40306">Italien</placeName>
-                        </hi>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <pb facs="1894_AS_RBH_4_00041"/>
-                  <hi rend="underline" n="1">
-                            <date when="1894-10-26">26. 10. 94</date>
-                        </hi>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Richard, </salute>ich denke, der Brief da trifft noch vor Ihnen in
-                  <placeName key="pmb462">Venedig</placeName> ein – ſo bin ich alſo aller peinvollen
+      <body><div type="address"><address><addrLine><pb facs="1894_AS_RBH_4_00001"/><hi rend="latintype">Dr. Arthur Schnitzler</hi>, <rs ref="#pmb397" type="place">Wien, IX.
+                     Frankgaſſe&#160;1</rs>.</addrLine></address><address><addrLine>Herrn Dr. <hi rend="latintype">Richard Beer Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb462" type="place">Venedig</rs></hi></addrLine><addrLine><rs ref="#pmb310" type="place"><hi rend="latintype">Hotel Bauer u. Grünwald</hi></rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb40306" type="place">Italien</rs></hi></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1894_AS_RBH_4_00041"/><hi rend="underline" n="1"><date when="1894-10-26">26.&#160;10.&#160;94</date></hi></dateline></opener><p><salute>Lieber Richard, </salute>ich denke, der Brief da trifft noch vor Ihnen in
+                  <rs ref="#pmb462" type="place">Venedig</rs> ein – ſo bin ich alſo aller peinvollen
                Gedanken ledig, die Sie mir für den Fall dſs <hi rend="latintype">etc</hi>
-               profezeihen. – Heut hab ich Ihren Brief über <placeName key="pmb1283">Pompeji</placeName> bekommen. »Ueber <placeName key="pmb1283">Pompeji</placeName>« – d. h. wo Sie ſagen, daſs Sie ſich nach wirklichen <rs type="place" key="pmb445">römiſchen</rs> Bädern ſehnen. –</p>
-            <p>Von mir iſt nichts neues zu ſagen; nicht viel. – Sie wiſſen, dſs »<workName key="pmb30117">Sterben</workName>« jetzt allmälig erſcheint, wiſſen auch, dſs ich
+               profezeihen.&#160;– Heut hab ich Ihren Brief über <rs ref="#pmb1283" type="place"
+                  >Pompeji</rs> bekommen. »Ueber <rs ref="#pmb1283" type="place"
+               >Pompeji</rs>« – d.&#160;h. wo Sie ſagen, daſs Sie ſich nach wirklichen <rs
+                  type="place" ref="#pmb445" subtype="implied">römiſchen</rs> Bädern ſehnen.&#160;–</p><p>Von mir iſt nichts neues zu ſagen; nicht viel.&#160;– Sie wiſſen, dſs »<rs
+                  ref="#pmb30117" type="work">Sterben</rs>« jetzt allmälig erſcheint, wiſſen auch, dſs ich
                große Angſt vor den Correctur<pb facs="1894_AS_RBH_4_00042"/>bogen hatte. Ich bin
-               aber angenehm enttäuſcht; es ist einiges wirklich ſchön<subst>
-                  <del rend="overwritten">s</del>
-                  <add place="inline">e</add>
-               </subst> drin. – Geben Sie nur Acht, was die Kritik ſagen wird. Ich bin feſt
-               überzeugt, daſs man mich viel ſchlechter, d. h. frecher behandeln wird als zu
-                  <workName key="pmb29935">Anatol</workName>s Zeiten.</p>
-            <p>– Die »<workName key="pmb29917">
-                  <hi rend="latintype">Liebelei</hi>
-               </workName>« werd ich Anfang nächſter Woche einreichen (d. i. alſo vor
-                  <date>1. November</date>.) –</p>
-            <p>Meine Sti<c rendition="#gemination-m"/>ung iſt nicht ſehr gut. Ich ſpüre die Enge
+               aber angenehm enttäuſcht; es ist einiges wirklich ſchön<subst><del rend="overwritten">s</del><add place="inline">e</add></subst> drin.&#160;– Geben Sie nur Acht, was die Kritik ſagen wird. Ich bin feſt
+               überzeugt, daſs man mich viel ſchlechter, d.&#160;h. frecher behandeln wird als zu
+                  <rs ref="#pmb29935" type="work">Anatol</rs>s Zeiten.</p><p>– Die »<rs ref="#pmb29917" type="work"><hi rend="latintype">Liebelei</hi></rs>« werd ich Anfang nächſter Woche einreichen (d.&#160;i. alſo vor
+                  <date>1.&#160;November</date>.)&#160;–</p><p>Meine Sti<c rendition="#gemination-m"/>ung iſt nicht ſehr gut. Ich ſpüre die Enge
                meiner Exiſtenz zuweilen ſchmerzlich. Und we<c rendition="#gemination-n"/> man ſich
                über die Enge ſchon hinwegtäuſcht durch ehrliche Verſuche, wenigſtens mit des Geiſtes
-               Flügeln (zu denen – ach ſo leicht kein körperlicher u. ſ. w.) allem davon-zu<pb facs="1894_AS_RBH_4_00042"/>flattern; da kommt plötzlich das gewiſſe
+               Flügeln (zu denen – ach ſo leicht kein körperlicher u.&#160;ſ.&#160;w.) allem davon-zu<pb
+                  facs="1894_AS_RBH_4_00042"/>flattern; da kommt plötzlich das gewiſſe
                Damoklesgefühl über einen. Sie wiſſen: die vielen, vielen Schwerter – aber ſie tödten
-               nicht einmal alle gleich. –</p>
-            <p>Es wird gut ſein, we<c rendition="#gemination-n"/> ich möglichſt bald wieder was
+               nicht einmal alle gleich.&#160;–</p><p>Es wird gut ſein, we<c rendition="#gemination-n"/> ich möglichſt bald wieder was
                großes zu ſchreiben anfange, was vielleicht weder gut noch groß ſein wird, was ein
-               Wortſpiel iſt oder auch kein Wortſpiel oder doch ein Wortſpiel wie <hi rend="latintype">R. B.-H.</hi> ſchreiben würde, daſs A. S. ſchreiben würde –</p>
-            <p>Ich war bei der <anchor type="commentary" xml:id="KLMAM20191014-2"/>
-               <hi rend="latintype">Première</hi>
-               <note type="commentary" xml:id="KLMAM20191014-2h">Am <date>20. 10. 1894</date> am
-                     <placeName key="pmb20">Deutschen Volkstheater</placeName>.</note> der <workName key="pmb31527">Comödianten</workName>. Es iſt ein ſchlechtes Stück mit einigen gut
+               Wortſpiel iſt oder auch kein Wortſpiel oder doch ein Wortſpiel wie <hi
+                  rend="latintype">R. B.-H.</hi> ſchreiben würde, daſs A.&#160;S. ſchreiben würde –</p><p>Ich war bei der <anchor type="commentary" xml:id="KLMAM20191014-2"/><hi rend="latintype">Première</hi><note type="commentary" xml:id="KLMAM20191014-2h">Am <date>20.&#160;10.&#160;1894</date> am
+                     <rs ref="#pmb20" type="place">Deutschen Volkstheater</rs>.</note> der <rs
+                  ref="#pmb31527" type="work">Comödianten</rs>. Es iſt ein ſchlechtes Stück mit einigen gut
                angelegten Figuren, einer dramatiſch <pb facs="1894_AS_RBH_4_00043"/>vortrefflichen
                Scene, (– die <add place="above">ſich</add> wie ein lebendiges Auge, das leuchtet,
                   <del rend="strikethrough">ausnimmt</del> in einer Wachspuppe ausnimmt;) mit ein
-               paar vortrefflichen Wendungen – <subst>
-                  <del rend="overwritten">aber</del>
-                  <add place="inline">ſogar</add>
-               </subst> mit etwas Elan im Beginn; im ganzen aber doch nur ſpringende Epiſoden und
+               paar vortrefflichen Wendungen – <subst><del rend="overwritten">aber</del><add place="inline">ſogar</add></subst> mit etwas Elan im Beginn; im ganzen aber doch nur ſpringende Epiſoden und
                keine ſchreitende Handlung. Was ſich als letztere ausgibt, ſtört geradezu. Es iſt der
                Holzſtab, der durch die verzuckerten Mandeln geſteckt wird – freilich fallen die
-               Mandeln ohne das Holz auseinander; – aber gegeſſen werden doch nur die Mandeln – und
-               das Holz – nun?? man leckt es ab, woran dieser Vergleich, ſcheint mir, <pb facs="1894_AS_RBH_4_00044"/>ſchmählich zu Grunde geht. –</p>
-            <p>Geſtern hab ich wieder einmal <workName key="pmb31599">Kabale u Liebe</workName>
+               Mandeln ohne das Holz auseinander;&#160;– aber gegeſſen werden doch nur die Mandeln – und
+               das Holz – nun?? man leckt es ab, woran dieser Vergleich, ſcheint mir, <pb
+                  facs="1894_AS_RBH_4_00044"/>ſchmählich zu Grunde geht.&#160;–</p><p>Geſtern hab ich wieder einmal <rs ref="#pmb31599" type="work">Kabale u Liebe</rs>
                geſehn. Es iſt unbegreiflich, daſs man einen ſo raffinirt guten und auch innerlich
                großartigen erſten und zweiten Akt – und einen ſo unſäglich du<c rendition="#gemination-m"/>en fünften Akt
-               ſchreiben kann. – Und dann – die Liebe bei <persName key="pmb12654">Schiller</persName> geht mir auf die Nerven. Ihre Bemerkung über »Lebt wohl, ihr
-               Berge« – (ſind Sie geſchmeichelt?) läßt ſich auch da hundertmal machen. –</p>
-            <p>Kennen Sie den <workName key="pmb42184">Komödiantenroman</workName> von <persName key="pmb42181">
-                  <hi rend="latintype">Scarron</hi>
-               </persName>? Eben leſe ich ihn mit viel Vergnügen. – Ich werde zum Nachtmahl <pb facs="1894_AS_RBH_4_00045"/>gerufen. Leben Sie wohl, ko<c rendition="#gemination-m"/>en Sie bald zurück, und ſchämen Sie ſich nicht, daſs
-               Sie ſich sogar – nach den <placeName key="pmb50">Wien</placeName>er Kaffeehausecken
-               ſehnen. –</p>
-            <closer>Herzlich der Ihre <signed>Arthur.</signed>
-            </closer>
-            <postscript>
-               <p>Sie ſchreiben mir natürlich auch noch eine Zeile aus <placeName key="pmb462">Venedig</placeName>? –</p>
-            </postscript>
-         </div>
-      </body>
+               ſchreiben kann.&#160;– Und dann – die Liebe bei <rs ref="#pmb12654" type="person"
+                  >Schiller</rs> geht mir auf die Nerven. Ihre Bemerkung über »Lebt wohl, ihr
+               Berge« – (ſind Sie geſchmeichelt?) läßt ſich auch da hundertmal machen.&#160;–</p><p>Kennen Sie den <rs ref="#pmb42184" type="work">Komödiantenroman</rs> von <rs
+                  ref="#pmb42181" type="person"><hi rend="latintype">Scarron</hi></rs>? Eben leſe ich ihn mit viel Vergnügen.&#160;– Ich werde zum Nachtmahl <pb
+                  facs="1894_AS_RBH_4_00045"/>gerufen. Leben Sie wohl, ko<c
+                  rendition="#gemination-m"/>en Sie bald zurück, und ſchämen Sie ſich nicht, daſs
+               Sie ſich sogar – nach den <rs ref="#pmb50" type="place">Wien</rs>er Kaffeehausecken
+               ſehnen.&#160;–</p><closer>Herzlich der Ihre <signed>Arthur.</signed></closer><postscript><p>Sie ſchreiben mir natürlich auch noch eine Zeile aus <rs ref="#pmb462" type="place"
+                     >Venedig</rs>?&#160;–</p></postscript></div></body>
    </text>
 </TEI>

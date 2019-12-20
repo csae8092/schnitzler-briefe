@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1924-11-06_01_AS_Hofmannsthal" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1924-11-06_01_AS_Hofmannsthal"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 6. 11. 1924</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 6.&#160;11.&#160;1924</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Hs-30885,XXXX</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1924-11-06" n="01">6. 11. 1924</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1924-11-06" n="01">6.&#160;11.&#160;1924</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1924-10-31_01">Hofmannsthal an Schnitzler, 31. 10. 1924</ptr>
-               <ptr type="next" subtype="toAuthor" target="1924-12-23_01">Schnitzler an Hofmannsthal, 23. 12. 1924</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1924-10-31_01">Hofmannsthal an Schnitzler, 31.&#160;10.&#160;1924</ptr>
+               <ptr type="next" subtype="toAuthor" target="1924-12-23_01">Schnitzler an Hofmannsthal, 23.&#160;12.&#160;1924</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,30 +103,18 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb50">Wien</placeName>, <date>6. 11. 24</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>mein lieber Hugo</salute> – schönen Dank für Ihren Gruß aus <placeName key="pmb415">Aussee</placeName>. Über das <workName key="pmb29941">Frl.
-                  Else</workName> hör ich und les ich von allen Seiten so viel Gutes, daß ich sie im
-               ganzen beinah überschätzt finden muß - ebenso wie die <workName key="pmb30205">K. d.
-                  V.</workName> - wenn auch vielfach gewürdigt, – doch noch in höherm Maß (und nicht
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb50" type="place">Wien</rs>, <date>6.&#160;11.&#160;24</date></dateline></opener><p><salute>mein lieber Hugo</salute> – schönen Dank für Ihren Gruß aus <rs ref="#pmb415" type="place">Aussee</rs>. Über das <rs ref="#pmb29941" type="work">Frl.
+                  Else</rs> hör ich und les ich von allen Seiten so viel Gutes, daß ich sie im
+               ganzen beinah überschätzt finden muß - ebenso wie die <rs ref="#pmb30205" type="work">K. d.
+                  V.</rs>&#160;- wenn auch vielfach gewürdigt,&#160;– doch noch in höherm Maß (und nicht
                immer reinen Herzens) mißverstanden. Nun es ist das alte Lied – wir wissen es alle zu
-               singen. Ich freue mich, daß Ihr Stück vollendet ist. Wohl »<workName key="pmb33722">Der Turm</workName>«? Und die neue Arbeit –? Wann werden Sie vorlesen? Wann
-               kommen Sie nach <placeName key="pmb50">Wien</placeName>? Was haben Sie für
+               singen. Ich freue mich, daß Ihr Stück vollendet ist. Wohl »<rs ref="#pmb33722" type="work">Der Turm</rs>«? Und die neue Arbeit&#160;–? Wann werden Sie vorlesen? Wann
+               kommen Sie nach <rs ref="#pmb50" type="place">Wien</rs>? Was haben Sie für
                Winterpläne? – Ich bleibe wohl vorläufig hier; im <date>Jänner</date> soll ich in der
-                  <placeName key="pmb34006">Schweiz</placeName> lesen – was ich hauptsächlich tun
-               will, um mir eine <placeName key="pmb1061">Engadin</placeName>er Schnee- und
-               Sonnenwoche »mit gutem Gewissen« vergönnen zu dürfen. – Ich dictiere novellistisch
+                  <rs ref="#pmb34006" type="place">Schweiz</rs> lesen – was ich hauptsächlich tun
+               will, um mir eine <rs ref="#pmb1061" type="place">Engadin</rs>er Schnee- und
+               Sonnenwoche »mit gutem Gewissen« vergönnen zu dürfen.&#160;– Ich dictiere novellistisch
                und arbeite vorwiegend aphoristisch-fragmentistisch. Schreiben Sie bald wieder und
-               wärs nur ein Wort! Es ist so schön von Ihnen was direct zu wissen! </p>
-            <p>Alles Herzliche.<lb/>Ihr <signed>A.</signed>
-            </p>
-         </div>
-      </body>
+               wärs nur ein Wort! Es ist so schön von Ihnen was direct zu wissen! </p><p>Alles Herzliche.<lb/>Ihr <signed>A.</signed></p></div></body>
    </text>
 </TEI>

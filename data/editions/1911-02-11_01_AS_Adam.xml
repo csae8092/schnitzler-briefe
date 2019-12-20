@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1911-02-11_01_AS_Adam">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1911-02-11_01_AS_Adam">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Robert Adam, 11. 2. 1911</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Robert Adam, 11.&#160;2.&#160;1911</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,10 +55,10 @@
                                 <idno>96.34.1/5</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>ms. Umschlag und Brief, 1 Bl., 1 S. mit eh.
+                                <p>ms. Umschlag und Brief, 1&#160;Bl., 1&#160;S. mit eh.
                                     Unterschrift</p>
                                 <stamp n="1">
-                                    <placeName key="pmb50">Wien</placeName>
+                                    <rs ref="#pmb50" type="place">Wien</rs>
                                 </stamp>
                             </physDesc>
                         </msDesc>
@@ -68,7 +72,7 @@
                                 <idno>A:Schnitzler, 85.1.1621</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>ms. Durchschlag, 1 Bl., 1 S. Von Schnitzler beschriftet:
+                                <p>ms. Durchschlag, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet:
                                             »<quote>
                               <hi rend="latintype">Adam</hi>
                            </quote>«.</p>
@@ -83,18 +87,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1911-02-11" n="01">11. 2. 1911</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1911-02-11" n="01">11.&#160;2.&#160;1911</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1911-02-09_02">Adam an Schnitzler, 9. 2. 1911</ptr>
-               <ptr type="next" subtype="toAuthor" target="1911-09-11_01">Schnitzler, Schnitzler an Adam, [nach dem 10. 9. 1911?]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1911-02-09_02">Adam an Schnitzler, 9.&#160;2.&#160;1911</ptr>
+               <ptr type="next" subtype="toAuthor" target="1911-09-11_01">Schnitzler, Schnitzler an Adam, [nach dem 10.&#160;9.&#160;1911?]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -105,67 +109,15 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <pb facs=""/>
-                  <hi rend="pre-print">Dr. Arthur
-                        Schnitzler</hi>
-               </addrLine>
-                    <addrLine>
-                  <placeName key="pmb150">
-                     <hi rend="pre-print">Wien, XVIII.
-    Sternwartestrasse 71</hi>
-                  </placeName>
-               </addrLine>
-                </address>
-
-                <address>
-                    <addrLine>
-                  <pb facs=""/>Herrn Robert Adam</addrLine>
-                    <addrLine>
-                  <placeName key="pmb62">
-                     <hi rend="spaced_out">Wien
-    XII</hi>
-                  </placeName>.</addrLine>
-                    <addrLine>
-                  <placeName key="pmb1239">Meidlinger Hauptstraße 56</placeName>.</addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline>
-                  <seg rend="left">
-                     <pb facs=""/>
-                     <hi rend="pre-print">Dr. Arthur
-                                Schnitzler</hi>
-                  </seg>
-                  <seg rend="right">
-                     <date>11. 2. 1911</date>.</seg>
-               </dateline>
-                    <p>
-                  <hi rend="pre-print">
-                     <placeName key="pmb150">Wien XVIII. Sternwartestrasse 71</placeName>
-                  </hi>
-               </p>
-                    <salute rend="center">Sehr geehrter Herr Adam.</salute>
-                </opener>
-                <p>Es tut mir leid, dass Ihnen bei <orgName key="pmb29639">S. Fischer</orgName> kein
-                    Erfolg beschieden war. Ob ein weiteres Herumschicken des <rs key="pmb33580" type="work">Manuscriptes</rs> an Verleger Ihre Sache fördern könnte, ist
+        <body><div type="address"><address><addrLine><pb facs=""/><hi rend="pre-print">Dr. Arthur
+                        Schnitzler</hi></addrLine><addrLine><rs ref="#pmb150" type="place"><hi rend="pre-print">Wien, XVIII.
+    Sternwartestrasse 71</hi></rs></addrLine></address><address><addrLine><pb facs=""/>Herrn Robert Adam</addrLine><addrLine><rs ref="#pmb62" type="place"><hi rend="spaced_out">Wien
+    XII</hi></rs>.</addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hauptstraße 56</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline><seg rend="left"><pb facs=""/><hi rend="pre-print">Dr. Arthur
+                                Schnitzler</hi></seg><seg rend="right"><date>11.&#160;2.&#160;1911</date>.</seg></dateline><p><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></p><salute rend="center">Sehr geehrter Herr Adam.</salute></opener><p>Es tut mir leid, dass Ihnen bei <rs ref="#pmb29639" type="organisation">S.&#160;Fischer</rs> kein
+                    Erfolg beschieden war. Ob ein weiteres Herumschicken des <rs ref="#pmb33580" type="work" subtype="implied">Manuscriptes</rs> an Verleger Ihre Sache fördern könnte, ist
                     schwer zu entscheiden. Von der Wertlosigkeit meiner Empfehlung haben Sie sich
                     wohl überzeugt. Versuche einzelne Szenen bei Zeitschriften unterzubringen,
-                    sollten Sie keineswegs unterlassen. Hier kämen meines Erachtens »<orgName key="pmb29560">Merker</orgName>« und »<orgName key="pmb29348">Schaubühne</orgName>« vor allem in Betracht.</p>
-                <closer>Mit verbindlichen Grüssen<lb/>Ihr
-                        ergebener<lb/>
-               <signed>
-                  <handShift/>ArthSchnitzler</signed>
-                </closer>
-                <postscript>
-                    <p>
-                  <handShift medium="typewriter"/>Herrn Robert Adam, <placeName key="pmb50">Wien</placeName>.</p>
-                </postscript>
-            </div>
-        </body>
+                    sollten Sie keineswegs unterlassen. Hier kämen meines Erachtens »<rs ref="#pmb29560" type="organisation">Merker</rs>« und »<rs ref="#pmb29348" type="organisation">Schaubühne</rs>« vor allem in Betracht.</p><closer>Mit verbindlichen Grüssen<lb/>Ihr
+                        ergebener<lb/><signed><handShift/>ArthSchnitzler</signed></closer><postscript><p><handShift medium="typewriter"/>Herrn Robert Adam, <rs ref="#pmb50" type="place">Wien</rs>.</p></postscript></div></body>
     </text>
 </TEI>

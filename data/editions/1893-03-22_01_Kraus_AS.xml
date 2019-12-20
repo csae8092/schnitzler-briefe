@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-03-22_01_Kraus_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-03-22_01_Kraus_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Karl Kraus an Arthur Schnitzler, 22. 3. 1893</title>
-                <author key="pmb11988">Kraus, Karl</author>
+                <title level="a">Karl Kraus an Arthur Schnitzler, 22.&#160;3.&#160;1893</title>
+                <author ref="#pmb11988">Kraus, Karl</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,14 +52,14 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 55</idno>
+                                <idno>Schnitzler, B&#160;55</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Postkarte. Bleistift.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb51">Wien 1/1</placeName>
-                                    <date when="1893-03-22">22. 3. 93</date>
-                                    <time>12–1 N</time>
+                                    <rs ref="#pmb51" type="place">Wien 1/1</rs>
+                                    <date when="1893-03-22">22.&#160;3.&#160;93</date>
+                                    <time>12–1&#160;N</time>
                                 </stamp>
                             </physDesc>
                         </msDesc>
@@ -85,18 +89,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11988">Kraus, Karl</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1893-03-22" n="01">22. 3. 1893</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11988">Kraus, Karl</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1893-03-22" n="01">22.&#160;3.&#160;1893</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-03-19_01">Kraus an Schnitzler, 19. 3. 1893</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-05-02_01">Kraus an Schnitzler, 2. 5. 1895</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-03-19_01">Kraus an Schnitzler, 19.&#160;3.&#160;1893</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-05-02_01">Kraus an Schnitzler, 2.&#160;5.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -112,35 +116,10 @@
         <graphic url="MS-SCHNITZLER-B-00055-000-00016"/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <pb facs="MS-SCHNITZLER-B-00055-000-00015"/>Herrn
-                        Schriftſteller</addrLine>
-                    <addrLine>med. D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
-                    <addrLine>
-                  <placeName key="pmb51">Wien I</placeName>
-               </addrLine>
-                    <addrLine>
-                  <placeName key="pmb412">Grillparzerstraße 7</placeName>.</addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                  <pb facs="MS-SCHNITZLER-B-00055-000-00016"/>Lieber Herr Doctor!</salute>
-                </opener>
-                <p>Beſten Dank für Ihre freundliche Antwort. Daſs Sie mit ſich ſprechen laſſen
+        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00055-000-00015"/>Herrn
+                        Schriftſteller</addrLine><addrLine>med. D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb51" type="place">Wien I</rs></addrLine><addrLine><rs ref="#pmb412" type="place">Grillparzerstraße 7</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00055-000-00016"/>Lieber Herr Doctor!</salute></opener><p>Beſten Dank für Ihre freundliche Antwort. Daſs Sie mit ſich ſprechen laſſen
                     werden, wuſste ich ja längst. Ich komme heute, <date>Mittwoch</date>, nach der
-                    Vorſtellung der »<hi rend="underline" n="1">
-                  <workName key="pmb33528">Kriemhilde</workName>
-               </hi>« i. e. nach <time>10 Uhr</time> ins
-                        <placeName key="pmb34">Grienſteidl</placeName>.</p>
-                <closer>Ergebenſten Gruß<lb/>Ihr<space unit="chars" quantity="7"/>
-               <signed>KarlKraus</signed>
-                </closer>
-            </div>
-        </body>
+                    Vorſtellung der »<hi rend="underline" n="1"><rs ref="#pmb33528" type="work">Kriemhilde</rs></hi>« i.&#160;e. nach <time>10 Uhr</time> ins
+                        <rs ref="#pmb34" type="place">Grienſteidl</rs>.</p><closer>Ergebenſten Gruß<lb/>Ihr<space unit="chars" quantity="7"/><signed>KarlKraus</signed></closer></div></body>
     </text>
 </TEI>

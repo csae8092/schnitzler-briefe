@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-05-08_01_Torresani_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-05-08_01_Torresani_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Carl Torresani an Arthur Schnitzler, 8. 5. 1893</title>
-            <author key="pmb26121">Torresani, Carl</author>
+            <title level="a">Carl Torresani an Arthur Schnitzler, 8.&#160;5.&#160;1893</title>
+            <author ref="#pmb26121">Torresani, Carl</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>HS Schn 4/86/1</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Von Schnitzler mit Bleistift
+                        <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte. Von Schnitzler mit Bleistift
                            nummeriert: »<quote>5</quote>«.</p>
                      </physDesc>
                   </msDesc>
@@ -64,14 +68,14 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb26121">Torresani, Carl</persName>
-               <placeName key="pmb462">Venedig</placeName>
-               <date when="1893-05-08" n="01">8. 5. 1893</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb26121">Torresani, Carl</persName>
+               <placeName ref="#pmb462">Venedig</placeName>
+               <date when="1893-05-08" n="01">8.&#160;5.&#160;1893</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             
          </correspDesc>
@@ -87,39 +91,14 @@
       <graphic url="TMW HS_Schn4_86_1_2.jpg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline>
-                  <pb facs="TMW HS_Schn4_86_1_1.jpg"/>
-                  <placeName key="pmb462">Venedig</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date>8/5 93</date>
-               </dateline>
-               <salute>Hochgeſchätzter Herr Doktor!</salute>
-            </opener>
-            <p>Zu meinem tiefen Bedauern las ich in den Zeitungen die Nachricht von dem
-               unerſetzlichen <rs type="person" key="pmb12695">Verluſte</rs>  der Sie betroffen hat;
-               geſtatten Sie mir, <subst>
-                  <del rend="strikethrough">Ihnen</del>
-                  <add place="above">Sie</add>
-               </subst> in aufrichtiger und herzlicher Weiſe meines Mitgefühles zu verſichern. Es
+      <body><div type="writingSession" n="1"><opener><dateline><pb facs="TMW HS_Schn4_86_1_1.jpg"/><rs ref="#pmb462" type="place">Venedig</rs><space unit="chars" quantity="1"/><date>8/5 93</date></dateline><salute>Hochgeſchätzter Herr Doktor!</salute></opener><p>Zu meinem tiefen Bedauern las ich in den Zeitungen die Nachricht von dem
+               unerſetzlichen <rs type="person" ref="#pmb12695" subtype="implied">Verluſte</rs>  der Sie betroffen hat;
+               geſtatten Sie mir, <subst><del rend="strikethrough">Ihnen</del><add place="above">Sie</add></subst> in aufrichtiger und herzlicher Weiſe meines Mitgefühles zu verſichern. Es
                ſind nun ſchon einige Tage vergangen, Sie werden das Bitterſte bereits verwunden
-               haben u. ſich in philoſophiſcher Weiſe zu tröſten ſuchen. Aber in ſolchen <pb facs="TMW HS_Schn4_86_1_2"/>Fällen muß man mit <rs type="work" key="pmb31213">Romeo</rs> ſagen: »<rs type="work" key="pmb31213">Hängt die Philoſophie.</rs>« –
+               haben u. ſich in philoſophiſcher Weiſe zu tröſten ſuchen. Aber in ſolchen <pb facs="TMW HS_Schn4_86_1_2"/>Fällen muß man mit <rs type="work" ref="#pmb31213" subtype="implied">Romeo</rs> ſagen: »<rs type="work" ref="#pmb31213" subtype="implied">Hängt die Philoſophie.</rs>« –
                ſie tröſtet immer nur die die ſie nicht brauchen, und ein wahrer Schmerz muß ſich in
-               ſich ſelbſt erſchöpfen. Möge die Dauer bei Ihnen eine mäßige ſein.</p>
-            <closer>In herzlicher Freundſchaft u. Hochſchätzung<lb/>Ihr ergebenſter<lb/>
-               <signed>Torresani</signed>
-            </closer>
-            <postscript>
-               <p>Für alle Fälle theile ich Ihnen
+               ſich ſelbſt erſchöpfen. Möge die Dauer bei Ihnen eine mäßige ſein.</p><closer>In herzlicher Freundſchaft u. Hochſchätzung<lb/>Ihr ergebenſter<lb/><signed>Torresani</signed></closer><postscript><p>Für alle Fälle theile ich Ihnen
                   meine Adreſſe mit, mittels welcher Karten mich zu allen Zeiten treffen: »H. u.
-                  G. Adv. Dr. <persName key="pmb41810">
-                     <hi rend="latintype">Klemperer</hi>
-                  </persName>, <placeName key="pmb790">I Tuchlauben 7 Wien</placeName>.<supplied>«</supplied>
-               </p>
-            </postscript>
-         </div>
-      </body>
+                  G. Adv. Dr. <rs ref="#pmb41810" type="person"><hi rend="latintype">Klemperer</hi></rs>, <rs ref="#pmb790" type="place">I Tuchlauben 7 Wien</rs>.<supplied>«</supplied></p></postscript></div></body>
    </text>
 </TEI>

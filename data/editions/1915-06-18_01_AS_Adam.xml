@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1915-06-18_01_AS_Adam">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1915-06-18_01_AS_Adam">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Robert Adam, 18. 6. 1915</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Robert Adam, 18.&#160;6.&#160;1915</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -53,7 +57,7 @@
                             <physDesc>
                                 <p>eh. Karte und Umschlag, Lateinschrift.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb50">Wien</placeName>
+                                    <rs ref="#pmb50" type="place">Wien</rs>
                                 </stamp>
                             </physDesc>
                         </msDesc>
@@ -66,18 +70,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1915-06-18" n="01">18. 6. 1915</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1915-06-18" n="01">18.&#160;6.&#160;1915</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb1240">Zistersdorf</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb1240">Zistersdorf</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1915-06-01_01">Adam an Schnitzler, 1. 6. 1915</ptr>
-               <ptr type="next" subtype="toAuthor" target="1915-06-22_01">Adam an Schnitzler, 22. 6. 1915</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1915-06-01_01">Adam an Schnitzler, 1.&#160;6.&#160;1915</ptr>
+               <ptr type="next" subtype="toAuthor" target="1915-06-22_01">Adam an Schnitzler, 22.&#160;6.&#160;1915</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -87,44 +91,7 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="address">
-            <address>
-                <addrLine>
-                  <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
-               </addrLine>
-                <addrLine>
-                  <hi rend="pre-print">
-                     <placeName key="pmb150">Wien XVIII. Sternwartestrasse 71</placeName>
-                  </hi>
-               </addrLine>
-            </address>
-                <address>
-                    <addrLine>
-                  <pb facs=""/>Herrn Dr. Rob. Ad. Pollak</addrLine>
-                    <addrLine>k.k. Bezirksrichter</addrLine>
-                    <addrLine>
-                  <placeName key="pmb1240">Zistersdorf</placeName>.</addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                   <p>
-                  <seg rend="left">
-                     <pb facs=""/>
-                     <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
-                  </seg>
-                  <seg rend="right">
-                     <date>18. 6. 15</date>.</seg>
-               </p>
-                    <p>
-                  <hi rend="pre-print">
-                     <placeName key="pmb150">Wien XVIII. Sternwartestrasse 71</placeName>
-                  </hi>
-               </p>
-                    <salute rend="inline">Verehrter Herr Adam,</salute>
-            </opener>                         
-                <p>mit besonderm Vergnügen habe ich Ihre freundliche <rs type="work" key="pmb33606">Manuscriptsendung</rs> empfangen,
+        <body><div type="address"><address><addrLine><hi rend="pre-print">Dr. Arthur Schnitzler</hi></addrLine><addrLine><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></addrLine></address><address><addrLine><pb facs=""/>Herrn Dr. Rob. Ad. Pollak</addrLine><addrLine>k.k. Bezirksrichter</addrLine><addrLine><rs ref="#pmb1240" type="place">Zistersdorf</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></seg><seg rend="right"><date>18.&#160;6.&#160;15</date>.</seg></p><p><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></p><salute rend="inline">Verehrter Herr Adam,</salute></opener><p>mit besonderm Vergnügen habe ich Ihre freundliche <rs type="work" ref="#pmb33606" subtype="implied">Manuscriptsendung</rs> empfangen,
                     mit wirklichem, innersten Interesse die sechs Scenen gelesen, und wüßte nicht,
                     was Sie davon abhalten sollte, diese vornehme we<c rendition="#gemination-n"/>
                     auch nicht in allen Theilen gleich starke, in in manchen rhythmischen
@@ -133,13 +100,9 @@
                     Scenen auf sich wirken lassen – in denen manchen nun auch eine Theaterwirkung
                     zu stecken scheint. Freilich werden nicht viele Bühnen für diese eigenartige
                     Sache in Betracht kommen. We<c rendition="#gemination-n"/> Sie im Laufe der
-                    nächsten Zeit nach <placeName key="pmb50">Wien</placeName> kämen, lassen Sie michs
+                    nächsten Zeit nach <rs ref="#pmb50" type="place">Wien</rs> kämen, lassen Sie michs
                     vielleicht wissen; es wäre mir ein Vergnügen Sie wieder zu sprechen – eventuell
                     auch zu dem problematischen Capitel der praktischen Möglichkeiten Ihrer
-                    <rs type="work" key="pmb33606">Arbeit</rs>.</p>
-                <closer>Verbindlich grüßend u dankend<lb/>Ihr sehr ergebner<signed>Arthur Schnitzler</signed>                                               
-                </closer>
-            </div>
-        </body>
+                    <rs type="work" ref="#pmb33606" subtype="implied">Arbeit</rs>.</p><closer>Verbindlich grüßend u dankend<lb/>Ihr sehr ergebner<signed>Arthur Schnitzler</signed></closer></div></body>
     </text>
 </TEI>

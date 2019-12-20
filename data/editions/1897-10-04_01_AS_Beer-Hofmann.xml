@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-10-04_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-10-04_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 4. 10. 1897</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 4.&#160;10.&#160;1897</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,17 +83,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1897-10-04" n="01">4. 10. 1897</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1897-10-04" n="01">4.&#160;10.&#160;1897</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-10-02_01">Schnitzler an Beer-Hofmann, 2. 10. 1897</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-10-20_01">Beer-Hofmann an Schnitzler, 20. 10. 1897</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-10-02_01">Schnitzler an Beer-Hofmann, 2.&#160;10.&#160;1897</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-10-20_01">Beer-Hofmann an Schnitzler, 20.&#160;10.&#160;1897</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -98,23 +102,11 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb50">Wien</placeName>, <date when="1897-10-04">4. 10. 97</date>.</dateline>
-            </opener>
-            <p>
-               <salute>Lieber Richard, </salute>Sie teleph. mich immer an, wenn ich nicht zu Haus
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb50" type="place">Wien</rs>, <date when="1897-10-04">4.&#160;10.&#160;97</date>.</dateline></opener><p><salute>Lieber Richard, </salute>Sie teleph. mich immer an, wenn ich nicht zu Haus
                bin. Vormittag bin ich nämlich auf dem Land. Schaun Sie doch einmal Nachmittag, bevor
-               Sie nach <placeName key="pmb159">Heiligenst.</placeName> fahren, zu mir herauf. Ich möchte auch gern einmal mit Ihnen
-               hinaus. <persName key="pmb11740">Hugo</persName> schreibt mir, er kommt nächste Woche
-               nach <placeName key="pmb50">Wien</placeName> und möchte Ihnen und mir viel
-               vorlesen.</p>
-            <p>Herzlich Ihr <signed>Arthur.</signed>
-            </p>
-            <p>Ich arbeite sozusagen.</p>
-         </div>
-      </body>
+               Sie nach <rs ref="#pmb159" type="place">Heiligenst.</rs> fahren, zu mir herauf. Ich möchte auch gern einmal mit Ihnen
+               hinaus. <rs ref="#pmb11740" type="person">Hugo</rs> schreibt mir, er kommt nächste Woche
+               nach <rs ref="#pmb50" type="place">Wien</rs> und möchte Ihnen und mir viel
+               vorlesen.</p><p>Herzlich Ihr <signed>Arthur.</signed></p><p>Ich arbeite sozusagen.</p></div></body>
    </text>
 </TEI>

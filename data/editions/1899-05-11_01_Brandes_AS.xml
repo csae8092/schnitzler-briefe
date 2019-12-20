@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-05-11_01_Brandes_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+    xml:id="L1899-05-11_01_Brandes_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Georg Brandes an Arthur Schnitzler, 11. 5. 1899</title>
-                <author key="pmb10992">Brandes, Georg</author>
+                <title level="a">Georg Brandes an Arthur Schnitzler, 11.&#160;5.&#160;1899</title>
+                <author ref="#pmb10992">Brandes, Georg</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +51,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 17</idno>
+                                <idno>Schnitzler, B&#160;17</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S., blaue Tinte; Lateinschrift. Von
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S., blaue Tinte; Lateinschrift. Von
                                     unbekannter Hand mit Bleistift nummeriert:
                                     »<quote>15</quote>«.</p>
                             </physDesc>
@@ -61,8 +64,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -82,15 +85,15 @@
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName key="pmb10992">Brandes, Georg</persName>
-                    <date when="1899-05-11" n="01">11. 5. 1899</date>
+                    <persName ref="#pmb10992">Brandes, Georg</persName>
+                    <date when="1899-05-11" n="01">11.&#160;5.&#160;1899</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                 </correspAction>
                 <correspContext>
-                    <ptr type="previous" subtype="toAuthor" target="1899-05-08_01">Schnitzler an Brandes, 8. 5. 1899</ptr>
-                    <ptr type="next" subtype="toAuthor" target="1899-05-19_01">Schnitzler an Brandes, 19. 5. 1899</ptr>
+                    <ptr type="previous" subtype="toAuthor" target="1899-05-08_01">Schnitzler an Brandes, 8.&#160;5.&#160;1899</ptr>
+                    <ptr type="next" subtype="toAuthor" target="1899-05-19_01">Schnitzler an Brandes, 19.&#160;5.&#160;1899</ptr>
                 </correspContext>
             </correspDesc>
         </profileDesc>
@@ -107,92 +110,48 @@
         <graphic url="MS-SCHNITZLER-B-00017-A-00001-000-00026"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00025"/>
-                        <placeName key="pmb36300">Kopenhagen</placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>11 Mai 99</date>
-                    </dateline>
-                </opener>
-                <p>
-                    <salute>Liebster</salute>
-                    <space unit="chars" quantity="7"/>Sie haben mich sehr geehrt, indem Sie mir
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00025"/><rs ref="#pmb36300" type="place">Kopenhagen</rs><space unit="chars" quantity="1"/><date>11 Mai 99</date></dateline></opener><p><salute>Liebster</salute><space unit="chars" quantity="7"/>Sie haben mich sehr geehrt, indem Sie mir
                     Ihren Schmerz gesagt haben. Sie wünschen, dass ich darüber nichts sage, ich
                     antworte <del rend="strikethrough">denn</del> nur: ich habe selbst viel
                     erfahren, Verluste gelitten, bisweilen recht Hartes ausgestanden; Sie sind jung,
                     ich <add place="above">bin</add> alt, <del rend="overwritten">de</del>ich wage
-                    deshalb sonst keinen Vergleich, ich glaube aber, wir haben <del rend="overwritten">e</del>Eins gemeinsam, den inneren Born, den
-                    unversiegbaren Lebenstrieb, dem das Leben immer wieder werth wird.</p>
-                <p>Ich kann dies sagen, denn meine Lage scheint meine Worte zu verspotten. Seit
+                    deshalb sonst keinen Vergleich, ich glaube aber, wir haben <del
+                        rend="overwritten">e</del>Eins gemeinsam, den inneren Born, den
+                    unversiegbaren Lebenstrieb, dem das Leben immer wieder werth wird.</p><p>Ich kann dies sagen, denn meine Lage scheint meine Worte zu verspotten. Seit
                     5 Monaten liege ich zu Bett. Ich heile nicht. Eine Entzündung der Venen folgt
                     bei mir immer der anderen, bisweilen bricht die Entzündung auf ein Mal an drei
                     Stellen aus. 5 Monate im Gefängnis machen eine lange öde Zeit. Ich erhalte mir
                     das Leben <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00026"/>durch Lesen und
-                    Schreiben, erhalte auch bisweilen Besuche. Man hat hier eine <rs type="work" key="pmb33295">Volksausgabe</rs> meiner Schriften angefangen (<persName key="pmb2357">Peter Nansen</persName> Ihr guter Bekannter ist der Urheber)
+                    Schreiben, erhalte auch bisweilen Besuche. Man hat hier eine <rs type="work"
+                        ref="#pmb33295" subtype="implied">Volksausgabe</rs> meiner Schriften angefangen (<rs
+                        ref="#pmb2357" type="person">Peter Nansen</rs> Ihr guter Bekannter ist der Urheber)
                     und sie scheint Erfolg zu haben. Man hat circa 5000 Subscribenten und druckt
                     6000 Exemplare. Es erscheinen alle 14 Tage 10 Bogen, und es wird etwas über
                     3 Jahre dauern. Dennoch gehören einige meiner grösseren Schriften nicht diesem
-                    Verlag. So viel Papier habe ich armer geschwärzt.</p>
-                <p>Madame <persName key="pmb5459">Marni</persName>, die ich übrigens nie gesehen
-                    habe, schrieb mir, dass <persName key="pmb11485">Goldmann</persName> bei ihr
+                    Verlag. So viel Papier habe ich armer geschwärzt.</p><p>Madame <rs ref="#pmb5459" type="person">Marni</rs>, die ich übrigens nie gesehen
+                    habe, schrieb mir, dass <rs ref="#pmb11485" type="person">Goldmann</rs> bei ihr
                     gewesen war und sich mit Freundschaft meiner erinnert hatte, was mich erfreute.
-                        <persName key="pmb10863">Richard Beer Hofmann</persName> gibt mir nie <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00026"/>ein Lebenszeichen.</p>
-                <p>Wie gut dass Sie nicht von jenem Schriftsteller heimgesucht wurden! Lasen Sie den
-                    kl. <rs type="work" key="pmb33333">Aufsatz</rs> pro patria den ich in der
-                        <orgName key="pmb29631">
-                        <hi n="1" rend="underline">Zukunft</hi>
-                    </orgName> vom <date>7 April</date> hatte? <orgName key="pmb29351">
-                        <hi n="1" rend="underline">Neue fr. Presse</hi>
-                    </orgName> und <orgName key="pmb29209">
-                        <hi n="1" rend="underline">Die Zeit</hi>
-                    </orgName> verweigerten, ihn zu drucken. Die <placeName key="pmb41240">
-                        <country>Oesterreicher</country>
-                    </placeName> sind <placeName key="pmb206">
-                        <country>preussischer</country>
-                    </placeName> als die <placeName key="pmb206">
-                        <country>Preussen</country>
-                    </placeName>. Das arme <placeName key="pmb745">Skandinavien</placeName>, man
-                    peinigt im Süden die <placeName key="pmb1114">Schleswiger</placeName>, im Norden
-                    die <placeName key="pmb284">
-                        <country>Finnländer</country>
-                    </placeName>.</p>
-                <p>Ich erhalte Gottlob täglich von den meisten Gegenden <placeName key="pmb468">Europas</placeName> Briefe und Bücher, sonst wäre ich in meinem Elend zu
-                    Grunde gegangen. Ich lese stetig <orgName key="pmb29514">
-                        <hi n="1" rend="underline">L’Aurore</hi>
-                    </orgName> und <orgName key="pmb29515">
-                        <hi n="1" rend="underline">Le Siècle</hi>
-                    </orgName>, folge so von Tag zu Tag dem Verlauf der Begebenheiten in <placeName key="pmb166">
-                        <country>Frankreich</country>
-                    </placeName>. Welches Stück Seelenlehre! Ich habe in meinem <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00025"/>Leben wenig so Lehrreiches
-                    gelesen.</p>
-                <p>Ihr <rs type="work" key="pmb32562">Buch</rs> habe ich noch nicht erhalten; ich
+                        <rs ref="#pmb10863" type="person">Richard Beer Hofmann</rs> gibt mir nie <pb
+                        facs="MS-SCHNITZLER-B-00017-A-00001-000-00026"/>ein Lebenszeichen.</p><p>Wie gut dass Sie nicht von jenem Schriftsteller heimgesucht wurden! Lasen Sie den
+                    kl. <rs type="work" ref="#pmb33333" subtype="implied">Aufsatz</rs> pro patria den ich in der
+                        <rs ref="#pmb29631" type="organisation"><hi n="1" rend="underline">Zukunft</hi></rs> vom <date>7 April</date> hatte? <rs ref="#pmb29351" type="organisation"><hi n="1" rend="underline">Neue fr. Presse</hi></rs> und <rs ref="#pmb29209" type="organisation"><hi n="1" rend="underline">Die Zeit</hi></rs> verweigerten, ihn zu drucken. Die <rs ref="#pmb41240" type="place"><country>Oesterreicher</country></rs> sind <rs ref="#pmb206" type="place"><country>preussischer</country></rs> als die <rs ref="#pmb206" type="place"><country>Preussen</country></rs>. Das arme <rs ref="#pmb745" type="place">Skandinavien</rs>, man
+                    peinigt im Süden die <rs ref="#pmb1114" type="place">Schleswiger</rs>, im Norden
+                    die <rs ref="#pmb284" type="place"><country>Finnländer</country></rs>.</p><p>Ich erhalte Gottlob täglich von den meisten Gegenden <rs ref="#pmb468" type="place"
+                        >Europas</rs> Briefe und Bücher, sonst wäre ich in meinem Elend zu
+                    Grunde gegangen. Ich lese stetig <rs ref="#pmb29514" type="organisation"><hi n="1" rend="underline">L’Aurore</hi></rs> und <rs ref="#pmb29515" type="organisation"><hi n="1" rend="underline">Le Siècle</hi></rs>, folge so von Tag zu Tag dem Verlauf der Begebenheiten in <rs
+                        ref="#pmb166" type="place"><country>Frankreich</country></rs>. Welches Stück Seelenlehre! Ich habe in meinem <pb
+                        facs="MS-SCHNITZLER-B-00017-A-00001-000-00025"/>Leben wenig so Lehrreiches
+                    gelesen.</p><p>Ihr <rs type="work" ref="#pmb32562" subtype="implied">Buch</rs> habe ich noch nicht erhalten; ich
                     werde es mit derselben ernsten Aufmerksamkeit lesen, womit ich Ihnen immer
-                    folge. Ich las kürzlich das <workName key="pmb30219">
-                        <hi n="1" rend="underline">Vermächtnis</hi>
-                    </workName> wieder; es verdient, dass man dazu zurückkehrt. Ein kleiner dummer
-                        <placeName key="pmb244">
-                        <country>schwedischer</country>
-                    </placeName>
-                    <space unit="chars" quantity="1"/>
-                    <rs type="person" key="pmb5464">Journalist</rs> hatte Sie vor einigen Tagen in
-                    einem <rs type="organisation" key="pmb29517">
-                        <placeName key="pmb1119">Stockholm</placeName>erblatt</rs>, das mir
-                    zugeschickt wird, <anchor type="commentary" xml:id="KL775-1"/>
-                    <rs type="work" key="pmb33341">angegriffen</rs>
-                    <note type="commentary" xml:id="KL775-1h">
-                        <bibl>
-                            <persName key="pmb5464">Adolf Paul</persName>: <workName key="pmb33341">Från Berlins teatrar</workName>. In: <workName key="pmb29517">Svensk Dagbladet</workName>, Nr. 142, <date>8. 5. 1899</date>,
-                            S. 2</bibl>.</note>; es brannte mir die Finger, dagegen zu schreiben,
+                    folge. Ich las kürzlich das <rs ref="#pmb30219" type="work"><hi n="1" rend="underline">Vermächtnis</hi></rs> wieder; es verdient, dass man dazu zurückkehrt. Ein kleiner dummer
+                        <rs ref="#pmb244" type="place"><country>schwedischer</country></rs><space unit="chars" quantity="1"/><rs type="person" ref="#pmb5464" subtype="implied">Journalist</rs> hatte Sie vor einigen Tagen in
+                    einem <rs type="organisation" ref="#pmb29517" subtype="implied"><rs ref="#pmb1119" type="place">Stockholm</rs>erblatt</rs>, das mir
+                    zugeschickt wird, <anchor type="commentary" xml:id="KL775-1"/><rs type="work" ref="#pmb33341" subtype="implied">angegriffen</rs><note type="commentary" xml:id="KL775-1h"><bibl><rs ref="#pmb5464" type="person">Adolf Paul</rs>: <rs ref="#pmb33341" type="work"
+                                >Från Berlins teatrar</rs>. In: <rs ref="#pmb29517" type="work"
+                                >Svensk Dagbladet</rs>, Nr.&#160;142, <date>8.&#160;5.&#160;1899</date>,
+                            S.&#160;2</bibl>.</note>; es brannte mir die Finger, dagegen zu schreiben,
                     habe es nicht gethan, weil ich ein wenig müde bin und soviele Correcturen
                     täglich zu besorgen habe, thue es vielleicht noch. Doch ich kann Ihnen
-                    vielleicht einmal auf bessere Weise nützlich sein.</p>
-                <p>Ich drücke Ihnen die Hand.</p>
-                <closer>Ihr <signed>Georg Brandes</signed>
-                </closer>
-            </div>
-        </body>
+                    vielleicht einmal auf bessere Weise nützlich sein.</p><p>Ich drücke Ihnen die Hand.</p><closer>Ihr <signed>Georg Brandes</signed></closer></div></body>
     </text>
 </TEI>

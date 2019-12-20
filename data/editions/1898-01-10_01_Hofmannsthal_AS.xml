@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-01-10_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1898-01-10_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [10.? 1. 1898]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [10.?&#160;1.&#160;1898]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Briefkarte, schwarze Tinte. Von Schnitzler mit Bleistift
@@ -62,8 +66,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -82,18 +86,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1898-01-10" n="01">[10.? 1. 1898]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1898-01-10" n="01">[10.?&#160;1.&#160;1898]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-12-07_01">Hofmannsthal an Schnitzler, 7. 12. 1897</ptr>
-               <ptr type="next" subtype="toAuthor" target="1898-01-14_01">Hofmannsthal an Schnitzler, 14. 1. 1898</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-12-07_01">Hofmannsthal an Schnitzler, 7.&#160;12.&#160;1897</ptr>
+               <ptr type="next" subtype="toAuthor" target="1898-01-14_01">Hofmannsthal an Schnitzler, 14.&#160;1.&#160;1898</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -109,38 +113,16 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00194"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00194"/>
-                        <date>
-                            <anchor type="commentary" xml:id="KL2299-1"/>Montag<note type="commentary" xml:id="KL2299-1h">Am <date>5. 1. 1898</date>
-                                wiederholt <persName key="pmb10986">Brahm</persName> in einem Brief
-                                an <persName key="pmb2121">Schnitzler</persName>, dass er <workName key="pmb32240">Der Kaiser und Hexe</workName> für misslungen
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00194"/><date><anchor type="commentary" xml:id="KL2299-1"/>Montag<note type="commentary" xml:id="KL2299-1h">Am <date>5.&#160;1.&#160;1898</date>
+                                wiederholt <rs ref="#pmb10986" type="person">Brahm</rs> in einem Brief
+                                an <rs ref="#pmb2121" type="person">Schnitzler</rs>, dass er <rs ref="#pmb32240" type="work">Der Kaiser und Hexe</rs> für misslungen
                                 halte, er hatte sich also seine Meinung gebildet, wenngleich es sich
                                 liest, als wenn er sie noch nicht kommuniziert hätte. Entsprechend
-                                könnte der Brief am darauffolgenden Montag geschrieben sein.</note>
-                        </date>
-                    </dateline>
-                    <salute>mein lieber Arthur,</salute>
-                </opener>
-                <p>»<workName key="pmb32240">Kaiſer und Hexe</workName>« gefällt <persName key="pmb10986">Brahm</persName> nicht ſehr (offenbar) und er wird es <hi n="1" rend="underline">nicht</hi> ſpielen.</p>
-                <p>Die künftigen Beziehungen der <persName key="pmb2299">
-                        <hi rend="latintype">Sorma</hi>
-                    </persName> zum »<placeName key="pmb3">Deutſchen Theater</placeName>« ſind ſehr
+                                könnte der Brief am darauffolgenden Montag geschrieben sein.</note></date></dateline><salute>mein lieber Arthur,</salute></opener><p>»<rs ref="#pmb32240" type="work">Kaiſer und Hexe</rs>« gefällt <rs ref="#pmb10986" type="person">Brahm</rs> nicht ſehr (offenbar) und er wird es <hi n="1" rend="underline">nicht</hi> ſpielen.</p><p>Die künftigen Beziehungen der <rs ref="#pmb2299" type="person"><hi rend="latintype">Sorma</hi></rs> zum »<rs ref="#pmb3" type="place">Deutſchen Theater</rs>« ſind ſehr
                     unſicher; er denkt <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00193"/>alſo
-                    daran, die beiden anderen <rs type="work" key="pmb32067 pmb29849">Stücke</rs>
-                    oder nur die »<workName key="pmb32067">junge Frau</workName>« mit einem
-                    (fremden) Einacter heuer, ohne die <persName key="pmb2299">
-                        <hi rend="latintype">Sorma</hi>
-                    </persName>, zu ſpielen etc<c rendition="#dots" n="3"/> lauter unangenehme
-                    Sachen, worüber weiter nichts zu reden. <date>Morgen</date>
-                    <space unit="chars" quantity="1"/>
-                    <time>abend</time> bin <hi rend="underline" n="1">leider</hi> nicht frei.</p>
-                <closer>Ihr<signed>Hugo.</signed>
-                </closer>
-            </div>
-        </body>
+                    daran, die beiden anderen <rs type="work" ref="#pmb32067 pmb29849" subtype="implied">Stücke</rs>
+                    oder nur die »<rs ref="#pmb32067" type="work">junge Frau</rs>« mit einem
+                    (fremden) Einacter heuer, ohne die <rs ref="#pmb2299" type="person"><hi rend="latintype">Sorma</hi></rs>, zu ſpielen etc<c rendition="#dots" n="3"/> lauter unangenehme
+                    Sachen, worüber weiter nichts zu reden. <date>Morgen</date><space unit="chars" quantity="1"/><time>abend</time> bin <hi rend="underline" n="1">leider</hi> nicht frei.</p><closer>Ihr<signed>Hugo.</signed></closer></div></body>
     </text>
 </TEI>

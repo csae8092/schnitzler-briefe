@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-01-30_02_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-01-30_02_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [30.? 1. 1893]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [30.? 1.&#160;1893]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Briefkarte mit aufgeprägtem Wappen, schwarze Tinte. Von
@@ -61,8 +65,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -81,18 +85,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1893-01-30" n="02">[30.? 1. 1893]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1893-01-30" n="02">[30.?&#160;1.&#160;1893]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-01-25_01">Hofmannsthal an Schnitzler, 25. 1. [1893]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-02-01_02">Schnitzler an Hofmannsthal, [1. 2. 1893]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-01-25_01">Hofmannsthal an Schnitzler, 25.&#160;1.&#160;[1893]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-02-01_02">Schnitzler an Hofmannsthal, [1.&#160;2.&#160;1893]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -108,55 +112,19 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00076"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00075"/>
-                        <date>
-                            <anchor type="commentary" xml:id="KL2144-1"/>Montag<note type="commentary" xml:id="KL2144-1h">Der <date>30. 1. 1893</date>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00075"/><date><anchor type="commentary" xml:id="KL2144-1"/>Montag<note type="commentary" xml:id="KL2144-1h">Der <date>30.&#160;1.&#160;1893</date>
                                 war ein Montag. Die Einordnung erfolgt durch das Antwortschreiben
-                                    <persName key="pmb2121">Schnitzler</persName>s.</note>
-                        </date>.</dateline>
-                    <salute>lieber Arthur.</salute>
-                </opener>
-                <p>Die Empfehlung <persName key="pmb2147">Engländer</persName>s ſehr gern beim
-                    nächſten Zuſammentreffen mit <persName key="pmb10883">Berger</persName>, was für
-                    eine Arbeit iſt es denn?</p>
-                <p>Über <persName key="pmb2450">Fels</persName> höre ich unbeſtimmt erſchreckendes;
+                                    <rs ref="#pmb2121" type="person">Schnitzler</rs>s.</note></date>.</dateline><salute>lieber Arthur.</salute></opener><p>Die Empfehlung <rs ref="#pmb2147" type="person">Engländer</rs>s ſehr gern beim
+                    nächſten Zuſammentreffen mit <rs ref="#pmb10883" type="person">Berger</rs>, was für
+                    eine Arbeit iſt es denn?</p><p>Über <rs ref="#pmb2450" type="person">Fels</rs> höre ich unbeſtimmt erſchreckendes;
                     ich werde Ihnen in den nächſten Tagen etwas ſchicken, eventuell ein paar Freunde
                     ohne Namennennung um Mithilfe bitten; ſagen Sie mir doch, was wahr iſt.
-                        »<workName key="pmb30195">
-                        <hi rend="underline" n="1">Familie</hi>
-                    </workName>«?!!</p>
-                <p>Ein herausgegriffenes Kapitel aus dem »<workName key="pmb32272">Kind</workName>«
+                        »<rs ref="#pmb30195" type="work"><hi rend="underline" n="1">Familie</hi></rs>«?!!</p><p>Ein herausgegriffenes Kapitel aus dem »<rs ref="#pmb32272" type="work">Kind</rs>«
                     hat mir einen ſtarken Eindruck gemacht; ich freue mich ſehr auf die
-                    Vollendung.</p>
-                <p>Das <rs type="work" key="pmb29935">Exemplar</rs> für die <orgName key="pmb29614">akademiſche Vereinigung</orgName> ſchicken Sie am tactvollſten in das
-                        <placeName key="pmb1282">Hôtel Wandel</placeName>
-                    <space unit="chars" quantity="1"/>
-                    <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00076"/>mit der Weiſung, es am
-                        <date>Samstagabend</date> dem <persName key="pmb27760">Präſidenten</persName> zu übergeben.</p>
-                <p>Der kleine <persName key="pmb4937">
-                        <hi rend="latintype">Teltſch</hi>
-                    </persName> möchte auch gern eins haben. Vor einer Woche hat mir eine <anchor type="commentary" xml:id="KL2144-2"/>
-                    <rs type="person" key="pmb27761">
-                        <placeName key="pmb34438">
-                     <country>Ruſſin</country>
-                  </placeName>
-                    </rs>
-                    <note type="commentary" xml:id="KL2144-2h">Vgl.: »<quote>
-                            <p>
-                                <date>Sonntag 22.</date>
-                            </p>
-                            <p>Die beiden Russinnen</p>.</quote>« (<bibl>HOFMANNSTHAL AUFZEICHNUNGEN
-                            XXXX S. 204</bibl>). </note>, meine <hi rend="latintype">Souper</hi>nachbarin, ſehr von den »<hi rend="latintype">proverbes de ce
-                        monsieur, qui est en même temps médecin</hi>«, <del rend="strikethrough">gerſch</del> geſchwärmt.</p>
-                <p>Wann ſoll denn <persName key="pmb2167">Salten</persName> fortkommen?</p>
-                <closer>Herzlichſt<lb/>
-                    <signed>Loris.</signed>
-                </closer>
-            </div>
-        </body>
+                    Vollendung.</p><p>Das <rs type="work" ref="#pmb29935" subtype="implied">Exemplar</rs> für die <rs ref="#pmb29614" type="organisation">akademiſche Vereinigung</rs> ſchicken Sie am tactvollſten in das
+                        <rs ref="#pmb1282" type="place">Hôtel Wandel</rs><space unit="chars" quantity="1"/><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00076"/>mit der Weiſung, es am
+                        <date>Samstagabend</date> dem <rs ref="#pmb27760" type="person">Präſidenten</rs> zu übergeben.</p><p>Der kleine <rs ref="#pmb4937" type="person"><hi rend="latintype">Teltſch</hi></rs> möchte auch gern eins haben. Vor einer Woche hat mir eine <anchor type="commentary" xml:id="KL2144-2"/><rs type="person" ref="#pmb27761" subtype="implied"><rs ref="#pmb34438" type="place"><country>Ruſſin</country></rs></rs><note type="commentary" xml:id="KL2144-2h">Vgl.: »<quote><p><date>Sonntag 22.</date></p><p>Die beiden Russinnen</p>.</quote>« (<bibl>HOFMANNSTHAL AUFZEICHNUNGEN
+                            XXXX S.&#160;204</bibl>). </note>, meine <hi rend="latintype">Souper</hi>nachbarin, ſehr von den »<hi rend="latintype">proverbes de ce
+                        monsieur, qui est en même temps médecin</hi>«, <del rend="strikethrough">gerſch</del> geſchwärmt.</p><p>Wann ſoll denn <rs ref="#pmb2167" type="person">Salten</rs> fortkommen?</p><closer>Herzlichſt<lb/><signed>Loris.</signed></closer></div></body>
     </text>
 </TEI>

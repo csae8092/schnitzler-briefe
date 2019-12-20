@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-10-25_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-10-25_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, [25. 10. 1896]</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, [25.&#160;10.&#160;1896]</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -63,18 +67,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1896-10-25" n="01">[25. 10. 1896]</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1896-10-25" n="01">[25.&#160;10.&#160;1896]</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-10-23_01">Schnitzler an Beer-Hofmann, 23. 10. 1896</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-10-30_02">Beer-Hofmann an Schnitzler, 30. [10. 1896]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-10-23_01">Schnitzler an Beer-Hofmann, 23.&#160;10.&#160;1896</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-10-30_02">Beer-Hofmann an Schnitzler, 30.&#160;[10.&#160;1896]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -89,21 +93,6 @@
       <graphic url="1896_AS_RBH_3_00004.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p rend="center">
-               <pb facs="1896_AS_RBH_3_00003.jpeg"/>
-               <hi rend="pre-print">D<hi rend="superscript">r.</hi> Arthur Schnitzler</hi>
-            </p>
-            <p rend="right">
-               <hi rend="pre-print">
-                  <placeName key="pmb50">Wien</placeName>.</hi>
-            </p>
-            <p>
-               <pb facs="1896_AS_RBH_3_00004.jpeg"/>Ich fahre morgen früh <placeName key="pmb168">Berlin</placeName>. Werde um <time>10</time> (bis höchſtens <time>11</time>) im <placeName key="pmb819">Pucher</placeName> ſein.</p>
-            <closer>Herzlich<lb/>Ihr <signed>A</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><p rend="center"><pb facs="1896_AS_RBH_3_00003.jpeg"/><hi rend="pre-print">D<hi rend="superscript">r.</hi> Arthur Schnitzler</hi></p><p rend="right"><hi rend="pre-print"><rs ref="#pmb50" type="place">Wien</rs>.</hi></p><p><pb facs="1896_AS_RBH_3_00004.jpeg"/>Ich fahre morgen früh <rs ref="#pmb168" type="place">Berlin</rs>. Werde um <time>10</time> (bis höchſtens <time>11</time>) im <rs ref="#pmb819" type="place">Pucher</rs> ſein.</p><closer>Herzlich<lb/>Ihr <signed>A</signed></closer></div></body>
    </text>
 </TEI>

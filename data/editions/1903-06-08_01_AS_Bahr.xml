@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1903-06-08_01_AS_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1903-06-08_01_AS_Bahr">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 8. 6. 1903</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 8.&#160;6.&#160;1903</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -53,11 +57,11 @@
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Ansichtskarte, Motiv: »<quote>
-                              <placeName key="pmb661">Lugano. Monte Bré</placeName>
+                              <rs ref="#pmb661" type="place">Lugano. Monte Bré</rs>
                            </quote>«, Bleistift</p>
            <stamp n="1">
-                           <placeName key="pmb844">Lugano Stazione</placeName>
-                           <date when="1903-06-08">8. VI. 03</date>
+                           <rs ref="#pmb844" type="place">Lugano Stazione</rs>
+                           <date when="1903-06-08">8.&#160;VI.&#160;03</date>
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -66,8 +70,8 @@
             <listBibl>                
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -85,18 +89,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb885">Lugano</placeName>
-               <date when="1903-06-08" n="01">8. 6. 1903</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb885">Lugano</placeName>
+               <date when="1903-06-08" n="01">8.&#160;6.&#160;1903</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1903-05-21_01">Bahr an Schnitzler, 21. 5. 1903</ptr>
-               <ptr type="next" subtype="toAuthor" target="1903-06-24_01">Schnitzler an Bahr, 24. 6. 1903</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1903-05-21_01">Bahr an Schnitzler, 21.&#160;5.&#160;1903</ptr>
+               <ptr type="next" subtype="toAuthor" target="1903-06-24_01">Schnitzler an Bahr, 24.&#160;6.&#160;1903</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -112,39 +116,6 @@
      <graphic url="HS_AM60014Ba_R"/>
   </facsimile>
   <text type="postcard">
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>
-                  <pb facs="HS_AM60014Ba"/>
-                  <hi rend="latintype">
-                     <placeName key="pmb41240">Austria</placeName>
-                  </hi>
-               </addrLine> 
-               <addrLine>
-                  <hi rend="latintype">Herrn Hermann Bahr</hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb165">Wien-Ob-St. Veit</placeName>
-                  </hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb220">Veitlissengasse 3</placeName>
-                  </hi>
-               </addrLine>
-            </address> 
-         </div> 
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline>
-                  <date>8. 6. 903</date>
-               </dateline>
-            </opener>
-            <p>Herzlichste Grüße! Dein <signed>Arth Schn</signed>
-            </p>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="HS_AM60014Ba"/><hi rend="latintype"><rs ref="#pmb41240" type="place">Austria</rs></hi></addrLine><addrLine><hi rend="latintype">Herrn Hermann Bahr</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb165" type="place">Wien-Ob-St. Veit</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb220" type="place">Veitlissengasse 3</rs></hi></addrLine></address></div><div type="writingSession" n="1"><opener><dateline><date>8.&#160;6.&#160;903</date></dateline></opener><p>Herzlichste Grüße! Dein <signed>Arth Schn</signed></p></div></body>
   </text>
 </TEI>

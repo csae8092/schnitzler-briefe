@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-08-20_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-08-20_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 20. 8. [1893]</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 20.&#160;8.&#160;[1893]</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -87,18 +91,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1893-08-20" n="01">20. 8. [1893]</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1893-08-20" n="01">20.&#160;8.&#160;[1893]</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb213">Bad Ischl</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb213">Bad Ischl</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-08-19_01">Beer-Hofmann an Schnitzler, [19. 8. 1893]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-08-27_01">Schnitzler, Salten an Beer-Hofmann, 27. 8. 1893</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-08-19_01">Beer-Hofmann an Schnitzler, [19.&#160;8.&#160;1893]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-08-27_01">Schnitzler, Salten an Beer-Hofmann, 27.&#160;8.&#160;1893</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -113,32 +117,8 @@
       <graphic url="1893_AS_RBH_2_00011.jpeg"/>
    </facsimile>
    <text type="telegram">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                        <pb facs="1893_AS_RBH_2_00010.jpeg"/>richard beer hofmann <placeName key="pmb213">ischl</placeName>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb41463">schulgasze 8</placeName>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="1893_AS_RBH_2_00010.jpeg"/>
-               <placeName key="pmb213">ischl</placeName>
-                  fr<space unit="chars" quantity="1"/>
-               <placeName key="pmb50">wien</placeName>
-               <space unit="chars" quantity="1"/>10-611. –17.–11.—50–</p>
-            <p>ich erwarte sie <date>montag</date>
-               <space unit="chars" quantity="1"/>
-               <time>abend
-                  acht</time> im <placeName key="pmb34310">cafe europe</placeName>
-            </p>
-            <closer>herzlichst<signed>artur.+</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="1893_AS_RBH_2_00010.jpeg"/>richard beer hofmann <rs ref="#pmb213" type="place">ischl</rs></addrLine><addrLine><rs ref="#pmb41463" type="place">schulgasze 8</rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1893_AS_RBH_2_00010.jpeg"/><rs ref="#pmb213" type="place">ischl</rs>
+                  fr<space unit="chars" quantity="1"/><rs ref="#pmb50" type="place">wien</rs><space unit="chars" quantity="1"/>10-611.&#160;–17.–11.—50–</p><p>ich erwarte sie <date>montag</date><space unit="chars" quantity="1"/><time>abend
+                  acht</time> im <rs ref="#pmb34310" type="place">cafe europe</rs></p><closer>herzlichst<signed>artur.+</signed></closer></div></body>
    </text>
 </TEI>

@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1900-11-22_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1900-11-22_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 
-                        22. 11. 1900</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+                        22.&#160;11.&#160;1900</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -49,10 +53,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -80,18 +84,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
+            <correspAction  type="sent">
                
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb10041">Sanremo</placeName>
-               <date when="1900-11-22" n="01">22. 11. 1900</date>
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb10041">Sanremo</placeName>
+               <date when="1900-11-22" n="01">22.&#160;11.&#160;1900</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1900-11-15_01">Beer-Hofmann an Schnitzler, 15. 11. 1900</ptr>
-               <ptr type="next" subtype="toAuthor" target="1901-06-27_01">Schnitzler an Beer-Hofmann, 27. 6. 1901</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1900-11-15_01">Beer-Hofmann an Schnitzler, 15.&#160;11.&#160;1900</ptr>
+               <ptr type="next" subtype="toAuthor" target="1901-06-27_01">Schnitzler an Beer-Hofmann, 27.&#160;6.&#160;1901</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -100,17 +104,7 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         
-				        <div type="writingSession" n="1">
-					          <opener>
-						            <dateline rend="right">
-							              <placeName key="pmb10041">Sanremo</placeName>
-							              <space unit="chars" quantity="1"/>
-							              <date when="1900-11-22">22/11 1900</date>
-						            </dateline>
-					          </opener>
-					          <p>Mein lieber Arthur! »Beneiden«! Mein Gott! Wissen Sie was »beneiden« heißt?
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb10041" type="place">Sanremo</rs><space unit="chars" quantity="1"/><date when="1900-11-22">22/11 1900</date></dateline></opener><p>Mein lieber Arthur! »Beneiden«! Mein Gott! Wissen Sie was »beneiden« heißt?
 						»Das Andere nicht wissen.« Im übrigen, dieser demonstrative »Süden« mit
 						»Nachtkastel=Palmen«, der um 5 Uhr Abends die Maske abwirft, ist recht
 						traurig. Überhaupt versagt Italien zum erstenmal bei mir; vielleicht wirds
@@ -125,7 +119,7 @@
 						tief zu graben bis man auf der anderen Seite wieder herauskommt; das ist
 						dann unsere »Oberflächlichkeit«. Der nächste Weg ist das nicht! »Pollak wo
 						hast Du Dein linkes Ohr?« Meine Frau hat sich bisher nicht erholt, ich habe
-						hier einen Husten bekommen, die Einzige die sich wol fühlt ist <persName key="pmb2668">Mirjam</persName>; bis sie größer sein wird, wirds schon
+						hier einen Husten bekommen, die Einzige die sich wol fühlt ist <rs ref="#pmb2668" type="person">Mirjam</rs>; bis sie größer sein wird, wirds schon
 						besser werden. Frau Professor Doppler habe ich hier getroffen und mir von
 						ihr vortratschen lassen, was sie amüsant und eifrig tat; Ideenassociation:
 						Elly H. hat sich richtig, wie ich herzloser Weise schon vorher zu Meyer
@@ -140,7 +134,7 @@
 						auch für den Tag? Wenn Sie mir durchaus das Buch des »dampfenden Jünglings«
 						schicken wollen, schicken Sie es nach Florenz, poste restante. Nicht
 						vielleicht deshalb weil ich hier bin, sondern weil ich am 27. dort sein
-						will. Ich arbeite natürlich nichts. Von <persName key="pmb11740">Hugo</persName> habe ich keinerlei Nachricht An <persName key="pmb10992">Brandes</persName> habe ich heute mein Buch geschickt Ich glaube nicht,
+						will. Ich arbeite natürlich nichts. Von <rs ref="#pmb11740" type="person">Hugo</rs> habe ich keinerlei Nachricht An <rs ref="#pmb10992" type="person">Brandes</rs> habe ich heute mein Buch geschickt Ich glaube nicht,
 						daß er was damit anfangen kann. Auch Robert Hirschfeld der mich vor meiner
 						Abreise becomplimen-tirte scheint keine Ahnung zu haben was der Inhalt des
 						Buches ist Was macht Gustav; während ich seinen Vornamen niederschreibe
@@ -149,11 +143,6 @@
 						Distanzen. Wie ich meinen Brief überlese, finde ich daß er »witzig« ist.
 						»Gott sei Dank er wird witzig!« Aber der Hofmarschall Kalb, der das sagt
 						weiß nicht daß das für den Ferdinand ein schlechtes Symptom ist. Für mich
-						auch.</p>
-					          <closer>Von Herzen Ihr <signed>Richard</signed>
-					          </closer>
-				        </div>
-			      
-      </body>
+						auch.</p><closer>Von Herzen Ihr <signed>Richard</signed></closer></div></body>
    </text>
 </TEI>

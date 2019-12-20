@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1903-08-18_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1903-08-18_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 18. 8. 1903</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 18.&#160;8.&#160;1903</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -52,16 +56,16 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Bildpostkarte, Bleistift. Motiv: »<pb facs="Hs-30885,6_001.TIF "/>
-                                    <placeName key="pmb427">Madonna di Campiglio</placeName>«.</p>
+                                    <rs ref="#pmb427" type="place">Madonna di Campiglio</rs>«.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb427">Madonna di Campiglio</placeName>
+                                    <rs ref="#pmb427" type="place">Madonna di Campiglio</rs>
                                     <date when="1903-08-18">
                               <unclear>1</unclear>
-                              <supplied>8. 8. 03</supplied>
+                              <supplied>8.&#160;8.&#160;03</supplied>
                            </date>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb1006">Rodaun</placeName>
+                                    <rs ref="#pmb1006" type="place">Rodaun</rs>
                                     <date when="1903-08-20">20 8 03</date>
                                 </stamp>
                             </physDesc>
@@ -71,8 +75,8 @@
                 <listBibl>
                <biblStruct corresp="HvHAS"> 
                     <monogr> 
-                        <author key="pmb11740">Hofmannsthal, Hugo</author> 
-                        <author key="pmb2121">Schnitzler, Arthur</author> 
+                        <author ref="#pmb11740">Hofmannsthal, Hugo</author> 
+                        <author ref="#pmb2121">Schnitzler, Arthur</author> 
                         <title level="m">Briefwechsel</title>
                         <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                         <imprint>
@@ -91,19 +95,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb427">Madonna di Campiglio</placeName>
-                    <date when="1903-08-18" n="01">18. 8. 1903</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb427">Madonna di Campiglio</placeName>
+                    <date when="1903-08-18" n="01">18.&#160;8.&#160;1903</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb1006">Wien</placeName>
-                    <date when="1903-08-20">20. 8. 1903</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb1006">Wien</placeName>
+                    <date when="1903-08-20">20.&#160;8.&#160;1903</date>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1903-07-01_01">Hofmannsthal an Schnitzler, 1. 7. 1903</ptr>
-               <ptr type="next" subtype="toAuthor" target="1903-08-28_01">Hofmannsthal an Schnitzler, 28. 8. 1903</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1903-07-01_01">Hofmannsthal an Schnitzler, 1.&#160;7.&#160;1903</ptr>
+               <ptr type="next" subtype="toAuthor" target="1903-08-28_01">Hofmannsthal an Schnitzler, 28.&#160;8.&#160;1903</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -113,22 +117,6 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>Herr Hugo v Hoffmansthal</addrLine>
-                    <addrLine>Rodaun <hi rend="latintype">bei Wien</hi>
-               </addrLine>
-                    <addrLine>
-                  <hi rend="latintype">Badgasse 5</hi>.</addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <p>
-               <pb facs="Hs-30885,6_002.TIF "/>Herzlichen Gruß</p>
-                <closer>Ihr <signed>A.</signed>                                               
-                </closer>
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine>Herr Hugo v Hoffmansthal</addrLine><addrLine>Rodaun <hi rend="latintype">bei Wien</hi></addrLine><addrLine><hi rend="latintype">Badgasse 5</hi>.</addrLine></address></div><div type="writingSession" n="1"><p><pb facs="Hs-30885,6_002.TIF "/>Herzlichen Gruß</p><closer>Ihr <signed>A.</signed></closer></div></body>
     </text>
 </TEI>

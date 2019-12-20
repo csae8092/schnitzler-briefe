@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1909-12-11_01_Bahr_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1909-12-11_01_Bahr_AS">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 11. 12. 1909</title>
-            <author key="pmb10815">Bahr, Hermann</author>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 11.&#160;12.&#160;1909</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,10 +53,10 @@
                         <country>GB</country>            
                         <settlement>Cambridge</settlement>            
                         <repository>University Library</repository>            
-                        <idno>Schnitzler, B 5b</idno>
+                        <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>hs. Brief von <persName key="pmb27910">Lisa Clarus</persName> mit eh. Unterschrift, 1 Bl., 2 S., Lateinschrift, von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
+                        <p>hs. Brief von <rs ref="#pmb27910" type="person">Lisa Clarus</rs> mit eh. Unterschrift, 1&#160;Bl., 2&#160;S., Lateinschrift, von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,8 +64,8 @@
             <listBibl>                
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1909-12-11" n="01">11. 12. 1909</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1909-12-11" n="01">11.&#160;12.&#160;1909</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1909-12-02_01">Bahr an Schnitzler, 2. 12. 1909</ptr>
-               <ptr type="next" subtype="toAuthor" target="1909-12-14_01">Schnitzler an Bahr, 14. 12. 1909</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1909-12-02_01">Bahr an Schnitzler, 2.&#160;12.&#160;1909</ptr>
+               <ptr type="next" subtype="toAuthor" target="1909-12-14_01">Schnitzler an Bahr, 14.&#160;12.&#160;1909</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -106,45 +110,22 @@
       <graphic url="MS-B-00005-B-000-00289"/>
    </facsimile>
    <text type="letter">
-      <body>
-     
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>11. 12.
-         09</date>
-               </dateline>
-               <p rend="center">
-                  <placeName key="pmb165">Wien XIII/<hi rend="subscript">7</hi>
-                  </placeName>
-               </p>
-               <salute rend="center">Lieber Arthur!</salute>
-            </opener>
-            <p>In <placeName key="pmb140">
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>11.&#160;12.
+         09</date></dateline><p rend="center"><rs ref="#pmb165" type="place">Wien XIII/<hi rend="subscript">7</hi></rs></p><salute rend="center">Lieber Arthur!</salute></opener><p>In <rs ref="#pmb140" type="place">
    Halle <hi rend="superscript">a</hi>/Saale
-  </placeName>, wo ich auch wieder einmal <workName key="pmb29833">die Toten schweigen</workName> liess, hat man mich angefleht Dir doch
-          zuzureden, dass Du selbst einmal hinkommen sollst. Ein Oberingenieur <persName key="pmb2241">Bacher</persName>, der schon einmal mit Dir correspondiert haben will,
-          beschwört Dich, wenn Du zum <anchor type="textConst" xml:id="TL324-1"/>
-               <workName key="pmb29935">Anathol</workName>
-               <note type="textConst" xml:id="TL324-1h">»h« von unbek. Hand mit rotem Buntstift gestrichen.</note>
+  </rs>, wo ich auch wieder einmal <rs ref="#pmb29833" type="work">die Toten schweigen</rs> liess, hat man mich angefleht Dir doch
+          zuzureden, dass Du selbst einmal hinkommen sollst. Ein Oberingenieur <rs ref="#pmb2241" type="person">Bacher</rs>, der schon einmal mit Dir correspondiert haben will,
+          beschwört Dich, wenn Du zum <anchor type="textConst" xml:id="TL324-1"/><rs ref="#pmb29935" type="work">Anathol</rs><note type="textConst" xml:id="TL324-1h">»h« von unbek. Hand mit rotem Buntstift gestrichen.</note>
                 nach
-              <placeName key="pmb168">Berlin</placeName> fährst, doch den Weg über
-            <placeName key="pmb140">Halle</placeName> zu nehmen. Ich bitte
-          Dich, schreib ihm (<placeName key="pmb141">Halle, Waidenplan 13</placeName>) ein Wort,
+              <rs ref="#pmb168" type="place">Berlin</rs> fährst, doch den Weg über
+            <rs ref="#pmb140" type="place">Halle</rs> zu nehmen. Ich bitte
+          Dich, schreib ihm (<rs ref="#pmb141" type="place">Halle, Waidenplan 13</rs>) ein Wort,
           und zwar baldigst. Denn der gute Mann <pb facs="MS-B-00005-B-000-00289"/>hat mir ein unfehlbares Mittel gegen die Gicht
           versprochen, das ich dringend brauche und er mir sicher nicht schickt, so lang ich mich
           nicht besonders um ihn verdient gemacht habe. Und: hast Du vielleicht eine neue kurze,
-          womöglich lustige Novelle? Ich soll hier <anchor type="commentary" xml:id="KL324-1"/>für die <placeName key="pmb142">freie Schule</placeName>
-               <note type="commentary" xml:id="KL324-1h">Am <date when="1910-01-09">9. 1. 1910</date>. Er las
-            nichts von <persName key="pmb2121">Schnitzler</persName>.</note> vorlesen und möchte was von Dir. Entschuldige, dass ich diktiere: ich
+          womöglich lustige Novelle? Ich soll hier <anchor type="commentary" xml:id="KL324-1"/>für die <rs ref="#pmb142" type="place">freie Schule</rs><note type="commentary" xml:id="KL324-1h">Am <date when="1910-01-09">9.&#160;1.&#160;1910</date>. Er las
+            nichts von <rs ref="#pmb2121" type="person">Schnitzler</rs>.</note> vorlesen und möchte was von Dir. Entschuldige, dass ich diktiere: ich
           bin totmüd, in grosser Hast und eben auf den
-             <placeName key="pmb189">Semmering</placeName> abreisend.</p>
-            <closer>Herzlichst mit den schönsten Grüssen an <rs type="person" key="pmb2173">Frau</rs> und <rs type="person" key="pmb12692 pmb2238">Kinder</rs>
-               <lb/>Dein alter<lb/>
-               <signed>
-                  <handShift scribe="pmb10815"/>HermannBahr</signed>
-            </closer>
-         </div>
-      </body>
+             <rs ref="#pmb189" type="place">Semmering</rs> abreisend.</p><closer>Herzlichst mit den schönsten Grüssen an <rs type="person" ref="#pmb2173" subtype="implied">Frau</rs> und <rs type="person" ref="#pmb12692 pmb2238" subtype="implied">Kinder</rs><lb/>Dein alter<lb/><signed><handShift scribe="pmb10815"/>HermannBahr</signed></closer></div></body>
   </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-03-23_01_AS_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-03-23_01_AS_Bahr">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 23. 3. 1897</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 23.&#160;3.&#160;1897</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name full="yes" instant="false">Müller, Martin Anton</name>
             </editor>
@@ -50,7 +54,7 @@
                         <idno>HS AM 23329 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 4 S., Bleistift</p>
+                        <p>eh. Brief, 1&#160;Bl., 4&#160;S., Bleistift</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -58,10 +62,10 @@
             <listBibl>
                <biblStruct corresp="DASB">
                   <analytic>
-                     <title level="a">23. 3. 1897</title>
+                     <title level="a">23.&#160;3.&#160;1897</title>
                   </analytic>
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G.
                         Daviau</editor>
@@ -80,8 +84,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">
                   <monogr>
-                     <author key="pmb10815">Bahr, Hermann</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
                      <imprint>
@@ -99,18 +103,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">[Wien]</placeName>
-               <date when="1897-03-23" n="01">23. 3. 1897</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
+               <date when="1897-03-23" n="01">23.&#160;3.&#160;1897</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-03-22_01">Bahr an Schnitzler, 22. 3. 1897</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-03-23_02">Bahr an Schnitzler, 23. 3. 1897</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-03-22_01">Bahr an Schnitzler, 22.&#160;3.&#160;1897</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-03-23_02">Bahr an Schnitzler, 23.&#160;3.&#160;1897</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -125,77 +129,36 @@
       <graphic url="HS_AM23329Ba_2"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p>
-               <salute>Lieber Hermann, </salute>wie kann ich dir den Titel sagen, wenn ich noch
+      <body><div type="writingSession" n="1"><p><salute>Lieber Hermann, </salute>wie kann ich dir den Titel sagen, wenn ich noch
                nicht weiss was ich lese? Das zu entscheiden kommen wir ja morgen zusammen.
-               Wahrscheinlich eine <anchor type="commentary" xml:id="KL012-5"/>
-               <rs type="work" key="pmb29831">Novellette</rs>
-               <note type="commentary" xml:id="KL012-5h">
-                  <workName key="pmb29831">Der Ehrentag</workName> (Erstdruck <bibl>
-                     <orgName key="pmb29376">Die Romanwelt</orgName>, Jg. 5
-                     (<date>1897/1898</date>), H. 16, <date>[15.] 1. 1898</date>,
-                  S. 507–516</bibl>).</note>, die ich vorgestern zu Ende geschrieben, <pb facs="HS_AM23329Ba_2"/>vielleicht <anchor type="commentary" xml:id="KL012-6"/>
-               <rs type="work" key="pmb29833">eine, die morgen fertig wird</rs>
-               <note type="commentary" xml:id="KL012-6h">
-                  <workName key="pmb29833">Die Toten schweigen</workName> (<bibl>Erstdruck in:
-                     <workName key="pmb41521">Cosmopolis</workName>, Jg. 2, Bd. 8, Nr. 22,
-                        <date>1. 10. 1897</date>, S. 193–211</bibl>).</note> – am Ende was ganz
-               anderes. Es ist nemlich zu bedenken dss du, <persName key="pmb11701">Hirschfeld</persName> und ich Novelletten lesen, (<persName key="pmb11740">Hugo</persName> wirkt nicht mit) – dass also das Programm von einer beispiellosen
+               Wahrscheinlich eine <anchor type="commentary" xml:id="KL012-5"/><rs type="work" ref="#pmb29831" subtype="implied">Novellette</rs><note type="commentary" xml:id="KL012-5h"><rs ref="#pmb29831" type="work">Der Ehrentag</rs> (Erstdruck <bibl><rs ref="#pmb29376" type="organisation">Die Romanwelt</rs>, Jg.&#160;5
+                     (<date>1897/1898</date>), H. 16, <date>[15.] 1.&#160;1898</date>,
+                  S.&#160;507–516</bibl>).</note>, die ich vorgestern zu Ende geschrieben, <pb facs="HS_AM23329Ba_2"/>vielleicht <anchor type="commentary" xml:id="KL012-6"/><rs type="work" ref="#pmb29833" subtype="implied">eine, die morgen fertig wird</rs><note type="commentary" xml:id="KL012-6h"><rs ref="#pmb29833" type="work">Die Toten schweigen</rs> (<bibl>Erstdruck in:
+                     <rs ref="#pmb41521" type="work">Cosmopolis</rs>, Jg.&#160;2, Bd.&#160;8, Nr.&#160;22,
+                        <date>1.&#160;10.&#160;1897</date>, S.&#160;193–211</bibl>).</note> – am Ende was ganz
+               anderes. Es ist nemlich zu bedenken dss du, <rs ref="#pmb11701" type="person">Hirschfeld</rs> und ich Novelletten lesen, (<rs ref="#pmb11740" type="person">Hugo</rs> wirkt nicht mit) – dass also das Programm von einer beispiellosen
                   Langwei<pb facs="HS_AM23329Ba_2"/>ligkeit sein wird. Meine Hoffnung ist, dss uns
-               morgen Abend doch noch was gescheidtes einfällt. – <persName key="pmb11701">Hirschfelds</persName> Geschichte heißt, »<anchor type="commentary" xml:id="KL012-4"/>
-               <workName key="pmb29835">Bei beiden</workName>
-               <note type="commentary" xml:id="KL012-4h">
-                  <bibl>Erstdruck in: <workName key="pmb36152">Neue deutsche Rundschau</workName>,
-                     Jg. 5, H. 10, <date>1. 10. 1894</date>, S. 919–927</bibl>, <bibl>Erstausgabe in
-                        <workName key="pmb30061">Dämon Kleist. Novellen</workName>. Berlin: <orgName key="pmb29639">S. Fischer</orgName>
-                     <space unit="chars" quantity="1"/>
-                     <date>1895</date>, S. 152–179</bibl>.</note>.« Von mir kannst du sagen, dass
+               morgen Abend doch noch was gescheidtes einfällt. – <rs ref="#pmb11701" type="person">Hirschfelds</rs> Geschichte heißt, »<anchor type="commentary" xml:id="KL012-4"/><rs ref="#pmb29835" type="work">Bei beiden</rs><note type="commentary" xml:id="KL012-4h"><bibl>Erstdruck in: <rs ref="#pmb36152" type="work">Neue deutsche Rundschau</rs>,
+                     Jg.&#160;5, H. 10, <date>1.&#160;10.&#160;1894</date>, S.&#160;919–927</bibl>, <bibl>Erstausgabe in
+                        <rs ref="#pmb30061" type="work">Dämon Kleist. Novellen</rs>. Berlin: <rs ref="#pmb29639" type="organisation">S. Fischer</rs><space unit="chars" quantity="1"/><date>1895</date>, S.&#160;152–179</bibl>.</note>.« Von mir kannst du sagen, dass
                ich eine ungedruckte Novellette vorlesen werde. Wenn das Programm Freitag gedruckt
                wird, ist Zeit genug, meiner Ansicht nach. Sterben <pb facs="HS_AM23329Ba_2"/>sterb’
-                  <damage agent="hole">
-                  <supplied>ich</supplied>
-               </damage>, aber hetzen l<damage agent="hole">
-                  <supplied>a</supplied>
-               </damage>ss ich mich nicht.</p>
-            <closer>Herzlich dein <signed>Arthur</signed>
-            </closer>
-            <postscript>
-               <dateline>
-                  <date>23. 3. 97.</date>
-               </dateline>
-               <p>Der <anchor type="commentary" xml:id="KL012-1"/>Donnerstag Notiz<note type="commentary" xml:id="KL012-1h">Nicht nachgewiesen.</note> wäre jedenfalls
-                  mehr Geschmack zu wünschen als <anchor type="commentary" xml:id="KL012-2"/>
-                  <rs type="work" key="pmb31385">die von Sonntag</rs>
-                  <note type="commentary" xml:id="KL012-2h">
-                     <bibl>
-                        <workName key="pmb31385"/>Etwa in: <orgName key="pmb29351">Neue Freie
-                           Presse</orgName>, <date>21. 3. 1897</date>, S. 9</bibl>: »<quote>– Am
-                        Sonntag den <date>28. d.</date>, Abends, findet im <placeName key="pmb4">Bösendorfer-Saale</placeName> eine Vorlesung statt, die von vier der
+                  <damage agent="hole"><supplied>ich</supplied></damage>, aber hetzen l<damage agent="hole"><supplied>a</supplied></damage>ss ich mich nicht.</p><closer>Herzlich dein <signed>Arthur</signed></closer><postscript><dateline><date>23.&#160;3.&#160;97.</date></dateline><p>Der <anchor type="commentary" xml:id="KL012-1"/>Donnerstag Notiz<note type="commentary" xml:id="KL012-1h">Nicht nachgewiesen.</note> wäre jedenfalls
+                  mehr Geschmack zu wünschen als <anchor type="commentary" xml:id="KL012-2"/><rs type="work" ref="#pmb31385" subtype="implied">die von Sonntag</rs><note type="commentary" xml:id="KL012-2h"><bibl><rs ref="#pmb31385" type="work"/>Etwa in: <rs ref="#pmb29351" type="organisation">Neue Freie
+                           Presse</rs>, <date>21.&#160;3.&#160;1897</date>, S.&#160;9</bibl>: »<quote>– Am
+                        Sonntag den <date>28. d.</date>, Abends, findet im <rs ref="#pmb4" type="place">Bösendorfer-Saale</rs> eine Vorlesung statt, die von vier der
                         bekanntesten Vertreter jungdeutscher Literatur zu wohlthätigem Zwecke
                         veranstaltet wird. Am Vorlesertische werden erscheinen als Interpreten ihrer
-                        eigenen Werke: <persName key="pmb10815">Hermann <hi rend="spaced_out">Bahr</hi>
-                        </persName>, der erst jüngst anläßlich der Aufführung seines ›<workName key="pmb29829">Tschaperl</workName>‹ so vielbesprochene Führer
-                           Jung-<placeName key="pmb50">Wien</placeName>s; <persName key="pmb2121">Arthur <hi rend="spaced_out">Schnitzler</hi>
-                        </persName>, der Verfasser der ›<workName key="pmb29917">Liebelei</workName>‹; <persName key="pmb11740">Hugo <hi rend="spaced_out">v. Hoffmannsthal</hi>
-                        </persName> (<persName key="pmb11740">Loris</persName>), ein interessantes
-                        Talent des modernen <placeName key="pmb41240">
-                           <country>Oesterreich</country>
-                        </placeName>, und <persName key="pmb11701">Georg <hi rend="spaced_out">Hirschfeld</hi>
-                        </persName>, dessen ›<workName key="pmb31737">Mütter</workName>‹ vor Kurzem
-                        am <placeName key="pmb20">Deutschen Volkstheater</placeName> einen
+                        eigenen Werke: <rs ref="#pmb10815" type="person">Hermann <hi rend="spaced_out">Bahr</hi></rs>, der erst jüngst anläßlich der Aufführung seines ›<rs ref="#pmb29829" type="work">Tschaperl</rs>‹ so vielbesprochene Führer
+                           Jung-<rs ref="#pmb50" type="place">Wien</rs>s; <rs ref="#pmb2121" type="person">Arthur <hi rend="spaced_out">Schnitzler</hi></rs>, der Verfasser der ›<rs ref="#pmb29917" type="work">Liebelei</rs>‹; <rs ref="#pmb11740" type="person">Hugo <hi rend="spaced_out">v. Hoffmannsthal</hi></rs> (<rs ref="#pmb11740" type="person">Loris</rs>), ein interessantes
+                        Talent des modernen <rs ref="#pmb41240" type="place"><country>Oesterreich</country></rs>, und <rs ref="#pmb11701" type="person">Georg <hi rend="spaced_out">Hirschfeld</hi></rs>, dessen ›<rs ref="#pmb31737" type="work">Mütter</rs>‹ vor Kurzem
+                        am <rs ref="#pmb20" type="place">Deutschen Volkstheater</rs> einen
                         Sensations-Erfolg errangen. Bürgen schon die Namen der Vorleser für den
                         interessanten Verlauf des Abends, so noch mehr der Umstand, daß die vier
-                        Herren fast durchwegs neue oder mindestens für <placeName key="pmb50">Wien</placeName> neue Dichtungen zum Vortrage bringen werden. Der Kartenverkauf
-                        für diesen originellen literarischen Abend findet bei <placeName key="pmb4">Bösendorfer</placeName> statt.</quote>«</note> verrieth. Wir sind ja
-                  nicht Mitglieder des Vereins »<orgName key="pmb29213">Gemütliche
-                     Harmonie</orgName>«, dass man uns durch <anchor type="commentary" xml:id="KL012-3"/>
-                  <hi rend="latintype">Epitheta</hi>
-                  <note type="commentary" xml:id="KL012-3h">Schmückende Beiworte.</note> erklären
-                  muss.</p>
-            </postscript>
-         </div>
-      </body>
+                        Herren fast durchwegs neue oder mindestens für <rs ref="#pmb50" type="place">Wien</rs> neue Dichtungen zum Vortrage bringen werden. Der Kartenverkauf
+                        für diesen originellen literarischen Abend findet bei <rs ref="#pmb4" type="place">Bösendorfer</rs> statt.</quote>«</note> verrieth. Wir sind ja
+                  nicht Mitglieder des Vereins »<rs ref="#pmb29213" type="organisation">Gemütliche
+                     Harmonie</rs>«, dass man uns durch <anchor type="commentary" xml:id="KL012-3"/><hi rend="latintype">Epitheta</hi><note type="commentary" xml:id="KL012-3h">Schmückende Beiworte.</note> erklären
+                  muss.</p></postscript></div></body>
    </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1900-04-03_02_Brandes_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1900-04-03_02_Brandes_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Georg Brandes an Arthur Schnitzler, 3. 4. [1900]</title>
-                <author key="pmb10992">Brandes, Georg</author>
+                <title level="a">Georg Brandes an Arthur Schnitzler, 3.&#160;4. [1900]</title>
+                <author ref="#pmb10992">Brandes, Georg</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 17</idno>
+                                <idno>Schnitzler, B&#160;17</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., schwarze Tinte; Lateinschrift. Von
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., schwarze Tinte; Lateinschrift. Von
                                     Schnitzler mit Bleistift die Jahreszahl hinzugefügt: »<quote>
                                         <date>900</date>
                                     </quote>, von unbekannter Hand mit Bleistift nummeriert:
@@ -63,8 +67,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -83,17 +87,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb10992">Brandes, Georg</persName>
-                    <placeName key="pmb464">Budapest</placeName>
-                    <date when="1900-04-03" n="02">3. 4. [1900]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb10992">Brandes, Georg</persName>
+                    <placeName ref="#pmb464">Budapest</placeName>
+                    <date when="1900-04-03" n="02">3.&#160;4. [1900]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1900-03-18_01">Brandes an Schnitzler, [18. 3. 1900]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1900-04-03_03">Brandes an Schnitzler, [3. 4. 1900?]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1900-03-18_01">Brandes an Schnitzler, [18.&#160;3.&#160;1900]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1900-04-03_03">Brandes an Schnitzler, [3.&#160;4.&#160;1900?]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -109,31 +113,12 @@
         <graphic url="MS-SCHNITZLER-B-00017-A-00001-000-00033"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00033"/>
-                        <placeName key="pmb1121">Budapest Hotel Royal</placeName>
-                        <lb/>
-                        <date>3 April</date>
-                    </dateline>
-                </opener>
-                <p>
-                    <salute>Liebster Freund Schnitzler</salute>
-                    <space unit="chars" quantity="5"/>So gern ich Sie auf der Reise treffen möchte,
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00033"/><rs ref="#pmb1121" type="place">Budapest Hotel Royal</rs><lb/><date>3 April</date></dateline></opener><p><salute>Liebster Freund Schnitzler</salute><space unit="chars" quantity="5"/>So gern ich Sie auf der Reise treffen möchte,
                     es wird mir nicht möglich. Ich habe nach längerem Sträuben die Einladung der
-                    hiesigen Minister (<rs type="person" key="pmb5471">Handels-</rs> und <rs type="person" key="pmb5468">Ackerbau-Minister</rs>) angenommen, Donnerstag
-                    bis Sonntag auf Staatskosten <placeName key="pmb167">
-                        <country>Ungarn</country>
-                    </placeName> zu bereisen und mir die Provinzen zeigen zu lassen. Ob das amusant
+                    hiesigen Minister (<rs type="person" ref="#pmb5471" subtype="implied">Handels-</rs> und <rs type="person" ref="#pmb5468" subtype="implied">Ackerbau-Minister</rs>) angenommen, Donnerstag
+                    bis Sonntag auf Staatskosten <rs ref="#pmb167" type="place"><country>Ungarn</country></rs> zu bereisen und mir die Provinzen zeigen zu lassen. Ob das amusant
                     wird, weiss ich nicht, zweifle, aber ich kann mir die Gelegenheit nicht entgehen
                         <del rend="strikethrough">z</del> lassen, etwas zu lernen, das sich mir
-                    sonst nicht darbietet.</p>
-                <p>Wir sehen uns vielleicht noch auf meiner Rückreise durch <placeName key="pmb50">Wien</placeName>.</p>
-                <closer>Ihr ergebener Freund <signed>Georg B</signed>
-                </closer>
-            </div>
-        </body>
+                    sonst nicht darbietet.</p><p>Wir sehen uns vielleicht noch auf meiner Rückreise durch <rs ref="#pmb50" type="place">Wien</rs>.</p><closer>Ihr ergebener Freund <signed>Georg B</signed></closer></div></body>
     </text>
 </TEI>

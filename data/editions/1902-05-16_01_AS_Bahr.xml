@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1902-05-16_01_AS_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1902-05-16_01_AS_Bahr">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 16. 5. 1902</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 16.&#160;5.&#160;1902</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -52,7 +56,7 @@
                         <idno>HS AM 23351 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 3 S.</p>
+                        <p>eh. Brief, 1&#160;Bl., 3&#160;S.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,10 +64,10 @@
             <listBibl>
                <biblStruct corresp="DASB">
                   <analytic>
-                     <title level="a">16. 5. 1902, Abschrift</title>
+                     <title level="a">16.&#160;5.&#160;1902, Abschrift</title>
                   </analytic>
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint> 
@@ -80,8 +84,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -99,18 +103,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1902-05-16" n="01">16. 5. 1902</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1902-05-16" n="01">16.&#160;5.&#160;1902</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1902-05-15_01">Bahr an Schnitzler, 15. 5. 1902</ptr>
-               <ptr type="next" subtype="toAuthor" target="1902-05-20_01">Bahr an Schnitzler, 20. 5. 1902</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1902-05-15_01">Bahr an Schnitzler, 15.&#160;5.&#160;1902</ptr>
+               <ptr type="next" subtype="toAuthor" target="1902-05-20_01">Bahr an Schnitzler, 20.&#160;5.&#160;1902</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -126,38 +130,16 @@
      <graphic url="HS_AM23351Ba_R"/>
   </facsimile>
   <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <salute>mein lieber Hermann,</salute>
-            </opener>
-            <p>bevor ich zu dir hinauskomme, dir für deinen guten schönen Brief zu danken, wollte ich dir heute
-          schon sagen, wie herzlich er mich gefreut hat – und dass die Blumen, d<damage agent="hole">
-                  <supplied>ie</supplied>
-               </damage> du mir <add place="inline">ge</add>schickt hast, mindestens
+      <body><div type="writingSession" n="1"><opener><salute>mein lieber Hermann,</salute></opener><p>bevor ich zu dir hinauskomme, dir für deinen guten schönen Brief zu danken, wollte ich dir heute
+          schon sagen, wie herzlich er mich gefreut hat – und dass die Blumen, d<damage agent="hole"><supplied>ie</supplied></damage> du mir <add place="inline">ge</add>schickt hast, mindestens
           ebenso wohl u herrlich duften als wenn sie von einem weiblichen Wesen kämen –
           und je<pb facs="HS_AM23351Ba_R"/>denfalls zu den freundlichsten Enttäuschungen gehören, die mir
           geworden sind – Noch mehreres wollte ich dir schreiben, was aber zu lesen dir
-          heute die Stimmung fehlen wird, denn eben lese ich dass deine <anchor type="commentary" xml:id="KL049-1"/>
-                  <rs type="person" key="pmb27667">Mutter</rs> gestorben<note type="commentary" xml:id="KL049-1h">
-                  <persName key="pmb27667">Mina Bahr</persName> starb am <date>15. 5. 1902</date> in
-                <placeName key="pmb30">Salzburg</placeName>. Eine Meldung brachte etwa die <bibl>
-                     <orgName key="pmb29351">Neue Freie Presse</orgName>, Nr. 13551, <date>16. 5. 1902</date>, Abendblatt, S. 2</bibl>.</note>
+          heute die Stimmung fehlen wird, denn eben lese ich dass deine <anchor type="commentary" xml:id="KL049-1"/><rs type="person" ref="#pmb27667" subtype="implied">Mutter</rs> gestorben<note type="commentary" xml:id="KL049-1h"><rs ref="#pmb27667" type="person">Mina Bahr</rs> starb am <date>15.&#160;5.&#160;1902</date> in
+                <rs ref="#pmb30" type="place">Salzburg</rs>. Eine Meldung brachte etwa die <bibl><rs ref="#pmb29351" type="organisation">Neue Freie Presse</rs>, Nr.&#160;13551, <date>16.&#160;5.&#160;1902</date>, Abendblatt, S.&#160;2</bibl>.</note>
           ist, und so kann ich für heute nichts anderes mehr sagen, als dass ich dich
           bitte, an die innigste <pb facs="HS_AM23351Ba_R"/>Theilnahme eines Menschen zu glauben, der dein
           Freund <hi rend="underline" n="1">geworden</hi> ist. Und was man so allmälig wurde, bleibt man –
-          besonders in unseren Jahren. Nicht mehr für heute. Ich hoffe dich bald zu sehen.</p>
-            <closer>In Treue dein<lb/>
-               <signed>Arthur</signed>
-            </closer>
-            <postscript>
-               <p>
-                  <placeName key="pmb50">Wien</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date>16. 5. 902</date>
-               </p>
-            </postscript>
-         </div>
-      </body>
+          besonders in unseren Jahren. Nicht mehr für heute. Ich hoffe dich bald zu sehen.</p><closer>In Treue dein<lb/><signed>Arthur</signed></closer><postscript><p><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date>16.&#160;5.&#160;902</date></p></postscript></div></body>
   </text>
 </TEI>

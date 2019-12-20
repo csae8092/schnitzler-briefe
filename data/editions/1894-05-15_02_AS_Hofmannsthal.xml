@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-05-16_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-05-16_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, [15. 5. 1894?]</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, [15.&#160;5.&#160;1894?]</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -59,8 +63,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -79,18 +83,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date notBefore="1893-01-31" notAfter="1896" when="1894-05-15" n="02">[15. 5. 1894?]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date notBefore="1893-01-31" notAfter="1896" when="1894-05-15" n="02">[15.&#160;5.&#160;1894?]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-04-07_01">Hofmannsthal an Schnitzler, [7. 4. 1894]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-06-05_01">Beer-Hofmann, Schnitzler an Hofmannsthal, [5. 6. 1894]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-04-07_01">Hofmannsthal an Schnitzler, [7.&#160;4.&#160;1894]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-06-05_01">Beer-Hofmann, Schnitzler an Hofmannsthal, [5.&#160;6.&#160;1894]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -105,32 +109,21 @@
         <graphic url="Hs-30885,31_002.TIF"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-                    <pb facs="Hs-30885,31_001.TIF"/>
-                    <salute>Lieber Hugo! </salute>
-               <persName key="pmb2450">Fels</persName> hat ſich
+        <body><div type="writingSession" n="1"><p><pb facs="Hs-30885,31_001.TIF"/><salute>Lieber Hugo! </salute><rs ref="#pmb2450" type="person">Fels</rs> hat ſich
                     wieder gemeldet. Können Sie im Lauf <anchor type="commentary" xml:id="KL2262-1"/>dieſes Monats<note type="commentary" xml:id="KL2262-1h">Die Einordnung des
                         undatierten Stückes ist schwierig. Der <date>Februar 1893</date>, in dem die
-                        Hilfe für <persName key="pmb2450">Fels</persName> zentral in der
+                        Hilfe für <rs ref="#pmb2450" type="person">Fels</rs> zentral in der
                         Korrespondenz ist, scheint sich durch die Mitteilung der Wohnadresse in der
-                            <placeName key="pmb33993">XVIII. Exnerstraße</placeName> auszuschließen,
-                        da <persName key="pmb11740">Hofmannsthal</persName> am
-                            <date>9. 2. 1893</date> explizit nach der Adresse fragt, dieses
+                            <rs ref="#pmb33993" type="place">XVIII. Exnerstraße</rs> auszuschließen,
+                        da <rs ref="#pmb11740" type="person">Hofmannsthal</rs> am
+                            <date>9.&#160;2.&#160;1893</date> explizit nach der Adresse fragt, dieses
                         Korrespondenzstück aber nicht die Antwort darauf ist. Hingegen können der
-                        Brief <persName key="pmb2121">Schnitzler</persName>s an
-                            <persName key="pmb10863">Beer-Hofmann</persName> vom <date>15. 5. 1894</date> – in dem er um Hilfe für
-                            <persName key="pmb2450">Fels</persName> bittet und dessen Adresse
+                        Brief <rs ref="#pmb2121" type="person">Schnitzler</rs>s an
+                            <rs ref="#pmb10863" type="person">Beer-Hofmann</rs> vom <date>15.&#160;5.&#160;1894</date> – in dem er um Hilfe für
+                            <rs ref="#pmb2450" type="person">Fels</rs> bittet und dessen Adresse
                         mitteilt, als Hinweis genommen werden, dass auch dieses Korrespondenzstück
                         an diesem Tag verfasst ist.</note> noch was thun, ſo wäre es ihm,
                     ja auch mir recht angenehm. Er wohnt, für alle Fälle ſei es Ihnen mitgetheilt,
-                        <hi rend="latintype">
-                        <placeName key="pmb33993">XVIII. Exnerstraße 3</placeName>
-                    </hi>. Es ſcheint wirklich, dß er vom nächſten Monat <pb facs="Hs-30885,31_002.TIF"/>an nicht auf uns mehr angewieſen ſein wird.</p>
-                <closer>Herzliche Grüße.<lb/>Ihr <signed>Arthur</signed>
-                </closer>
-            </div>
-        </body>
+                        <hi rend="latintype"><rs ref="#pmb33993" type="place">XVIII. Exnerstraße 3</rs></hi>. Es ſcheint wirklich, dß er vom nächſten Monat <pb facs="Hs-30885,31_002.TIF"/>an nicht auf uns mehr angewieſen ſein wird.</p><closer>Herzliche Grüße.<lb/>Ihr <signed>Arthur</signed></closer></div></body>
     </text>
 </TEI>

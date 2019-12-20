@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-05-08_01_AS_Brandes">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1899-05-08_01_AS_Brandes">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Georg Brandes, 8. 5. 1899</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Georg Brandes, 8.&#160;5.&#160;1899</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Georg Brandes Arkiv</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S., schwarze Tinte. Von unbekannter Hand mit
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S., schwarze Tinte. Von unbekannter Hand mit
                                     Bleistift nummeriert: »<quote>15</quote>« und datiert: »<quote>
                                         <date>8/5 99</date>
                                     </quote>« und nummeriert: »<quote>15.</quote>«</p>
@@ -62,8 +66,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -76,7 +80,7 @@
                     </biblStruct>
                     <biblStruct corresp="ASB1">
                         <monogr>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefe 1875–1912</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -95,16 +99,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <date when="1899-05-08" n="01">8. 5. 1899</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <date when="1899-05-08" n="01">8.&#160;5.&#160;1899</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb10992">Brandes, Georg</persName>
+                <correspAction  type="received">
+                    <persName ref="#pmb10992">Brandes, Georg</persName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-03-10_01">Brandes an Schnitzler, 10. 3. 1899</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-05-11_01">Brandes an Schnitzler, 11. 5. 1899</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-03-10_01">Brandes an Schnitzler, 10.&#160;3.&#160;1899</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-05-11_01">Brandes an Schnitzler, 11.&#160;5.&#160;1899</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -123,19 +127,12 @@
         <graphic url="Georg_Brandes_arkiv_070"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="Georg_Brandes_arkiv_067.jpg"/>Lieber und verehrter Herr
-                        Brandes,</salute>
-                </opener>
-                <p>zugleich mit dieſem Brief geht ein neues <rs type="work" key="pmb32562">Buch</rs>
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="Georg_Brandes_arkiv_067.jpg"/>Lieber und verehrter Herr
+                        Brandes,</salute></opener><p>zugleich mit dieſem Brief geht ein neues <rs type="work" ref="#pmb32562" subtype="implied">Buch</rs>
                     an Sie ab, das 3 Einakter von mir enthält. Sie werden ſchon ziemlich viel
-                    gegeben und insbeſondere der »<workName key="pmb29843">Kakadu</workName>«
-                    amüſirt die Leute ſehr. –</p>
-                <p>– Weiter ka<c rendition="#gemination-n"/> ich Ihnen heute kaum was ſagen. Vor
-                    ſieben Wochen iſt das <rs type="person" key="pmb2378">Geſchöpf</rs> begraben
+                    gegeben und insbeſondere der »<rs ref="#pmb29843" type="work">Kakadu</rs>«
+                    amüſirt die Leute ſehr.&#160;–</p><p>– Weiter ka<c rendition="#gemination-n"/> ich Ihnen heute kaum was ſagen. Vor
+                    ſieben Wochen iſt das <rs type="person" ref="#pmb2378" subtype="implied">Geſchöpf</rs> begraben
                     worden, das ich von allen <pb facs="Georg_Brandes_arkiv_068.jpg"/>Menſchen der
                     Erde am liebſten gehabt habe, meine Geliebte, Freundin und Braut – die durch
                     mehr als vier Jahre meinem Leben ſeinen ganzen Sinn und ſeine ganze Freude
@@ -143,33 +140,11 @@
                     Fülle der Geſundheit und Jugend hat ſie eine blödſinnige und tückiſche Krankheit
                     innerhalb zweier Tage ins Grab geriſſen, und ich habe ſie ſterben geſehen, bei
                     vollem Bewußt<pb facs="Georg_Brandes_arkiv_069.jpg"/>ſein ſterben geſehn. Bitte
-                    ſagen Sie mir kein Wort darüber. Ich mußte es Ihnen aber ſagen. –</p>
-                <p>Jener <placeName key="pmb434">
-                        <country>däniſche</country>
-                    </placeName>
-                    <space unit="chars" quantity="1"/>
-                    <rs type="person" key="pmb5431">Schriftſteller</rs> hat ſich bei mir nicht
-                    blicken laſſen. Allerdings war ich einige Male von <placeName key="pmb50">Wien</placeName> abweſend. Laſſen Sie mich recht bald hören wie es Ihnen
+                    ſagen Sie mir kein Wort darüber. Ich mußte es Ihnen aber ſagen.&#160;–</p><p>Jener <rs ref="#pmb434" type="place"><country>däniſche</country></rs><space unit="chars" quantity="1"/><rs type="person" ref="#pmb5431" subtype="implied">Schriftſteller</rs> hat ſich bei mir nicht
+                    blicken laſſen. Allerdings war ich einige Male von <rs ref="#pmb50" type="place">Wien</rs> abweſend. Laſſen Sie mich recht bald hören wie es Ihnen
                     geht, ob Sie endgiltig geſund ſind und wie Sie mit Ihren Plänen für den Sommer
-                    ſtehn. –</p>
-                <p>
-                    <persName key="pmb11485">Paul Goldmann</persName> iſt wieder in <placeName key="pmb146">Frankfurt</placeName> und reiſt viel für ſein <rs type="organisation" key="pmb29442">Blatt</rs>.</p>
-                <p>
-                    <pb facs="Georg_Brandes_arkiv_070.jpg"/>
-                    <persName key="pmb10863">Richard Beer Hofmann</persName> hat zwei Kinder,
-                        <persName key="pmb2668">Mirjam</persName> und <persName key="pmb2534">Naemi</persName>
-                    <del rend="strikethrough">e</del>, und befindet ſich wohl.</p>
-                <closer>Ich grüße Sie von Herzen als Ihr<lb/>treuergebener
-                        <signed>ArthSchnitzler</signed>
-                </closer>
-                <postscript>
-                    <dateline>
-                        <placeName key="pmb50">Wien</placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>8. 5. 99</date>.</dateline>
-                </postscript>
-
-            </div>
-        </body>
+                    ſtehn.&#160;–</p><p><rs ref="#pmb11485" type="person">Paul Goldmann</rs> iſt wieder in <rs ref="#pmb146" type="place">Frankfurt</rs> und reiſt viel für ſein <rs type="organisation" ref="#pmb29442" subtype="implied">Blatt</rs>.</p><p><pb facs="Georg_Brandes_arkiv_070.jpg"/><rs ref="#pmb10863" type="person">Richard Beer Hofmann</rs> hat zwei Kinder,
+                        <rs ref="#pmb2668" type="person">Mirjam</rs> und <rs ref="#pmb2534" type="person">Naemi</rs><del rend="strikethrough">e</del>, und befindet ſich wohl.</p><closer>Ich grüße Sie von Herzen als Ihr<lb/>treuergebener
+                        <signed>ArthSchnitzler</signed></closer><postscript><dateline><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date>8.&#160;5.&#160;99</date>.</dateline></postscript></div></body>
     </text>
 </TEI>

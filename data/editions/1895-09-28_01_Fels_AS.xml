@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L042XXX">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L042XXX">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Friedrich M. Fels an Arthur Schnitzler,
-                    28. 9. 1895</title>
-                <author key="pmb2450">Fels, Friedrich M.</author>
+                    28.&#160;9.&#160;1895</title>
+                <author ref="#pmb2450">Fels, Friedrich M.</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -16,8 +20,8 @@
                     <address>
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
-                        <placeName>
-                            <country>A</country> Wien </placeName>
+                        <rs type="place">
+                            <country>A</country> Wien </rs>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,7 +54,7 @@
                                 <idno>A:Schnitzler, HS.NZ85.1.2956</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., schwarze Tinte, Lateinschrift. Von
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., schwarze Tinte, Lateinschrift. Von
                                     Schnitzler nummeriert: »<quote>25</quote>«.</p>
                             </physDesc>
                         </msDesc>
@@ -63,18 +67,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2450">Fels, Friedrich M.</persName>
-                    <placeName key="pmb484">Zürich</placeName>
-                    <date when="1895-09-28" n="01">28. 9. 1895</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2450">Fels, Friedrich M.</persName>
+                    <placeName ref="#pmb484">Zürich</placeName>
+                    <date when="1895-09-28" n="01">28.&#160;9.&#160;1895</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-09-19_02">Fels an Schnitzler, 19. 9. 1895</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-10-04_01">Fels an Schnitzler, 4. 10. 1895</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-09-19_02">Fels an Schnitzler, 19.&#160;9.&#160;1895</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-10-04_01">Fels an Schnitzler, 4.&#160;10.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -84,31 +88,14 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs=""/>
-                  <placeName key="pmb484">Zürich</placeName>, am
-                            <date>28. Sept. 1895</date>
-               </dateline>
-                    <salute rend="center">Lieber Doktor Schnitzler!</salute>
-                </opener>
-                <p>Brief und Karte habe ich erhalten; meinen besten Dank für die Einlage, ich ko<c rendition="#gemination-n"/>te das Geld wirklich nötig brauchen. Aber nicht
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><rs ref="#pmb484" type="place">Zürich</rs>, am
+                            <date>28.&#160;Sept. 1895</date></dateline><salute rend="center">Lieber Doktor Schnitzler!</salute></opener><p>Brief und Karte habe ich erhalten; meinen besten Dank für die Einlage, ich ko<c rendition="#gemination-n"/>te das Geld wirklich nötig brauchen. Aber nicht
                     wahr? Sie sind so freundlich, sich in der Angelegenheit noch einmal an die
                     anderen zu wenden; de<c rendition="#gemination-n"/> we<c rendition="#gemination-n"/> ich nicht <add place="above">schleunigst</add>
                     noch etwas beko<c rendition="#gemination-m"/>e, ka<c rendition="#gemination-n"/>
-                    ich die Kiste nicht ordnen. <rs type="place" key="pmb42383">Adreſse</rs> i<c rendition="#gemination-m"/>er noch: <persName key="pmb6294">Bettauer</persName>.</p>
-                <p>Verzeihen Sie, lieber Doktor, daſs ich Ihnen so viele Mühe mache; ich rechne in
+                    ich die Kiste nicht ordnen. <rs type="place" ref="#pmb42383" subtype="implied">Adreſse</rs> i<c rendition="#gemination-m"/>er noch: <rs ref="#pmb6294" type="person">Bettauer</rs>.</p><p>Verzeihen Sie, lieber Doktor, daſs ich Ihnen so viele Mühe mache; ich rechne in
                     wirklich unverantwortlicher Weise mit Ihrer Gutmütigkeit und Freundlichkeit.
-                    Aber Sie wiſsen, we<c rendition="#gemination-n"/> man keinen andern Ausweg hat<c rendition="#dots" n="3"/>
-            </p>
-                <p>Bei mit steht noch alles beim Alten. Ihnen gehts hoffentlich gut. Sie werden ja
-                    an der <orgName key="pmb36247">Burg</orgName> bald <rs type="work" key="pmb29917">dranko<c rendition="#gemination-m"/>en</rs>.</p>
-                <closer>Herzlichst<lb/>Ihr<lb/>dankbar ergebener<lb/>
-               <signed>Fels</signed>
-            </closer>
-            </div>
-        </body>
+                    Aber Sie wiſsen, we<c rendition="#gemination-n"/> man keinen andern Ausweg hat<c rendition="#dots" n="3"/></p><p>Bei mit steht noch alles beim Alten. Ihnen gehts hoffentlich gut. Sie werden ja
+                    an der <rs ref="#pmb36247" type="organisation">Burg</rs> bald <rs type="work" ref="#pmb29917" subtype="implied">dranko<c rendition="#gemination-m"/>en</rs>.</p><closer>Herzlichst<lb/>Ihr<lb/>dankbar ergebener<lb/><signed>Fels</signed></closer></div></body>
     </text>
 </TEI>

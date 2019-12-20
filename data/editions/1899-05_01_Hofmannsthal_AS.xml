@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-05_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1899-05_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [Mai 1899]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>XXXX eh. Brief, 1 Bl., 1 S. Von Schnitzler
+                                <p>XXXX eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler
                                     beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«.
@@ -63,8 +67,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -83,18 +87,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                     <date when="1899-05" n="01">[Mai 1899]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-05-30_01">Hofmannsthal an Schnitzler, 30. 5. 1899</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-06-04_01">Hofmannsthal an Schnitzler, [4. 6. 1899]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-05-30_01">Hofmannsthal an Schnitzler, 30.&#160;5.&#160;1899</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-06-04_01">Hofmannsthal an Schnitzler, [4.&#160;6.&#160;1899]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -104,36 +108,17 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-               <pb facs=""/>
-               <anchor type="commentary" xml:id="KL2855-1"/>
-               <rs type="work" key="pmb29843">traduction</rs> médiocre, sans vigeur sans subtilité, exempte
+        <body><div type="writingSession" n="1"><p><pb facs=""/><anchor type="commentary" xml:id="KL2855-1"/><rs type="work" ref="#pmb29843" subtype="implied">traduction</rs> médiocre, sans vigeur sans subtilité, exempte
                     de qualités littéraires; elle trahit un ésprit pédant et d’une sotte
                         vanité.<note type="commentary" xml:id="KL255-1h">frz.: »<quote>mittelmäßige
                             Übersetzung, ohne Kraft, Subtilität, bar jeder literarischen Qualitäten;
                             sie verrät einen kleinkrämerischen, dummen und eitlen
-                        Geist</quote>«.</note>
-                </p>
-                <closer>
-               <signed>H. H.</signed>
-            </closer>
-                <postscript>
-                    <p>
-                  <anchor type="commentary" xml:id="KL2855-2"/>j’ai ajouté quelques
+                        Geist</quote>«.</note></p><closer><signed>H.&#160;H.</signed></closer><postscript><p><anchor type="commentary" xml:id="KL2855-2"/>j’ai ajouté quelques
                             eclaircissements<note type="commentary" xml:id="KL2855-2h">frz:
-                                »<quote>ich habe ein paar Klärungen ergänzt</quote>«</note>. </p>
-                    <p>Das <anchor type="commentary" xml:id="KL2855-3"/>Wortspiel mit dem
+                                »<quote>ich habe ein paar Klärungen ergänzt</quote>«</note>. </p><p>Das <anchor type="commentary" xml:id="KL2855-3"/>Wortspiel mit dem
                             Sitzen<note type="commentary" xml:id="KL2855-3h">Es ist im Stück in der doppelten 
                             Bedeutung von »herumsitzen« und im »Gefängnis sitzen« verwendet.</note> ist
-                        unverstanden geblieben, ist auch schwer zu übersetzen. </p>
-                    <p>Die replique des <rs type="work" key="pmb29843">Prosper</rs> müßte lauten: <anchor type="commentary" xml:id="KL2855-4"/>si
-                        au moins tu ne faisais que leur tenir compagnie!<note type="commentary" xml:id="KL2855-4h">Im Stück heißt es: »<quote>– wenn du nur immer mit ihnen gesessen wärst.</quote>«.</note> 
-               </p>
-                    <p>(das ist aber auch ohne Schärfe) </p>
-                </postscript>
-            </div>
-        </body>
+                        unverstanden geblieben, ist auch schwer zu übersetzen. </p><p>Die replique des <rs type="work" ref="#pmb29843" subtype="implied">Prosper</rs> müßte lauten: <anchor type="commentary" xml:id="KL2855-4"/>si
+                        au moins tu ne faisais que leur tenir compagnie!<note type="commentary" xml:id="KL2855-4h">Im Stück heißt es: »<quote>– wenn du nur immer mit ihnen gesessen wärst.</quote>«.</note></p><p>(das ist aber auch ohne Schärfe) </p></postscript></div></body>
     </text>
 </TEI>

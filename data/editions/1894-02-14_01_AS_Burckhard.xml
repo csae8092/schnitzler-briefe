@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-06_01_AS_Burckhard">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-06_01_AS_Burckhard">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Max Burckhard, [Mitte Februar 1894?]</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Max Burckhard, [Mitte Februar&#160;1894?]</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -44,28 +48,28 @@
                 <listBibl>
                     <biblStruct>
                         <analytic>
-                            <author key="pmb11447">Glossy, Karl</author>
-                            <title level="a" key="pmb33434">Schnitzlers Einzug ins Burgtheater.
+                            <author ref="#pmb11447">Glossy, Karl</author>
+                            <title level="a" ref="#pmb33434">Schnitzlers Einzug ins Burgtheater.
                                 Unbekannte Briefe des Dichters</title>
                         </analytic>
                         <monogr>
-                            <title level="j" key="pmb29351">Neue Freie Presse</title>
+                            <title level="j" ref="#pmb29351">Neue Freie Presse</title>
                             <biblScope unit="nr">24162</biblScope>
                             <biblScope unit="pp">14</biblScope>
                             <imprint>
-                                <date when="1931-12-19">19. 12. 1931</date>
+                                <date when="1931-12-19">19.&#160;12.&#160;1931</date>
                             </imprint>
                         </monogr>
                     </biblStruct>
                     <biblStruct>
                         <analytic>
-                            <author key="pmb11447">Glossy, Karl</author>
-                            <title level="a" key="pmb33434">Schnitzlers Einzug ins Burgtheater.
+                            <author ref="#pmb11447">Glossy, Karl</author>
+                            <title level="a" ref="#pmb33434">Schnitzlers Einzug ins Burgtheater.
                                 Unbekannte Briefe des Dichters</title>
                         </analytic>
                         <monogr>
                             <title level="m">Wiener Studien und Dokumente.</title>
-                            <editor>Zum 85. Geburtstag des Verfassers herausgegeben von seinen
+                            <editor>Zum 85.&#160;Geburtstag des Verfassers herausgegeben von seinen
                                 Freunden</editor>
                             <imprint>
                                 <date when="1933">1933</date>
@@ -103,19 +107,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                     <date notBefore="1894" notAfter="1894" when="1894-02-14" n="01">[Mitte
-                        Februar 1894?]</date>
+                        Februar&#160;1894?]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11036">Burckhard, Max</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11036">Burckhard, Max</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-02-12_01">Burckhard an Schnitzler, 12. 2. 1894</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-07-02_02">Burckhard an Schnitzler, 2. 7. 1894</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-02-12_01">Burckhard an Schnitzler, 12.&#160;2.&#160;1894</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-07-02_02">Burckhard an Schnitzler, 2.&#160;7.&#160;1894</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -130,25 +134,16 @@
         <!--<graphic url="http://anno.onb.ac.at/cgi-content/anno?aid=nfp&datum=19311219&seite=14&zoom=33"/>-->
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-                    <hi rend="spaced_out">Schnitzler an Burckhard</hi>, <anchor type="commentary" xml:id="KLM20191007-5"/>
-               <date>1894</date>
-               <note type="commentary" xml:id="KLM20191007-5h">Die Datierung folgt der Annahme, das <persName key="pmb2121">Schnitzler</persName>
-                  <space unit="chars" quantity="1"/>
-                  <workName key="pmb29935">Anatol</workName> unmittelbar nachdem ihm
-                            <persName key="pmb11036">Burckhard</persName> mitgeteilt hatte, es nicht
+        <body><div type="writingSession" n="1"><p><hi rend="spaced_out">Schnitzler an Burckhard</hi>, <anchor type="commentary" xml:id="KLM20191007-5"/><date>1894</date><note type="commentary" xml:id="KLM20191007-5h">Die Datierung folgt der Annahme, das <rs ref="#pmb2121" type="person">Schnitzler</rs><space unit="chars" quantity="1"/><rs ref="#pmb29935" type="work">Anatol</rs> unmittelbar nachdem ihm
+                            <rs ref="#pmb11036" type="person">Burckhard</rs> mitgeteilt hatte, es nicht
                         erhalten zu haben, neuerlich mit diesem Begleitschreiben zukommen
-                        ließ.</note>: »Sehr verehrter Herr Direktor! Die drei <rs type="work" key="pmb30749 pmb30005 pmb31357">Stücke</rs>, welche ich für aufführbar
-                    halte, habe ich bezeichnet. Das letzte, ›<workName key="pmb30005">Abſchiedsſouper</workName>‹, mag allerdings für eine Hofbühne nicht
+                        ließ.</note>: »Sehr verehrter Herr Direktor! Die drei <rs type="work" ref="#pmb30749 pmb30005 pmb31357" subtype="implied">Stücke</rs>, welche ich für aufführbar
+                    halte, habe ich bezeichnet. Das letzte, ›<rs ref="#pmb30005" type="work">Abſchiedsſouper</rs>‹, mag allerdings für eine Hofbühne nicht
                     geeignet ſein; die beiden anderen werden Sie möglicherweiſe eines Verſuchs wert
                     finden. Beſonders geeignet erſchienen ſie mir anläßlich einer Matinée im
                     Repertoire zu erſcheinen. Für den Fall aber, daß Sie die anſpruchsloſen Szenen
                     nicht für aufführbar halten, will ich wenigſtens hoffen, daß Sie die Lektüre
                     derſelben nicht allzuſehr langweilt. Mit ausgezeichneter Hochachtung Ihr ſehr
-                    ergebener Dr. Arthur Schnitzler.«</p>
-            </div>
-        </body>
+                    ergebener Dr. Arthur Schnitzler.«</p></div></body>
     </text>
 </TEI>

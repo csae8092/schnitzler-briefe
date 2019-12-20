@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1912-12-08_01_Mann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1912-12-08_01_Mann_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Thomas Mann an Arthur Schnitzler, 8. 12. 1912</title>
-                <author key="pmb12176">Mann, Thomas</author>
+                <title level="a">Thomas Mann an Arthur Schnitzler, 8.&#160;12.&#160;1912</title>
+                <author ref="#pmb12176">Mann, Thomas</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                          <idno>A:Schnitzler, HS.NZ85.1.3986</idno>
                      </msIdentifier>
                       <physDesc>
-                          <p>7. Seite der ms. Briefabschrift. Diese noch zu Lebzeiten
+                          <p>7.&#160;Seite der ms. Briefabschrift. Diese noch zu Lebzeiten
                               Schnitzlers hergestellt.</p>
                       </physDesc>
                   </msDesc>
@@ -64,18 +68,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12176">Mann, Thomas</persName>
-                    <placeName key="pmb38129">München</placeName>
-                    <date when="1912-12-08" n="01">8. 12. 1912</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12176">Mann, Thomas</persName>
+                    <placeName ref="#pmb38129">München</placeName>
+                    <date when="1912-12-08" n="01">8.&#160;12.&#160;1912</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1911-10-16_02">Mann an Schnitzler, 16. 10. 1911</ptr>
-               <ptr type="next" subtype="toAuthor" target="1913-05-22_01">Mann an Schnitzler, 22. 5. 1913</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1911-10-16_02">Mann an Schnitzler, 16.&#160;10.&#160;1911</ptr>
+               <ptr type="next" subtype="toAuthor" target="1913-05-22_01">Mann an Schnitzler, 22.&#160;5.&#160;1913</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -86,25 +90,12 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-           <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="OGL, S. 7"/>
-                  <placeName key="pmb38129">München</placeName>, <date>8. 12. 1912</date>
-               </dateline>
-                    </opener>
-               <p>Verehrter Herr Doctor: Ihre gütigen Worte haben mir sehr wohlgetan. Ich danke
-                    Ihnen herzlich, – zugleich auch für den »<workName key="pmb30203">Professor Bernhardi</workName>«, der mir in Ihrem
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="OGL, S. 7"/><rs ref="#pmb38129" type="place">München</rs>, <date>8.&#160;12.&#160;1912</date></dateline></opener><p>Verehrter Herr Doctor: Ihre gütigen Worte haben mir sehr wohlgetan. Ich danke
+                    Ihnen herzlich,&#160;– zugleich auch für den »<rs ref="#pmb30203" type="work">Professor Bernhardi</rs>«, der mir in Ihrem
                     Auftrage übersandt wurde und mir die packendste unter Ihren dramatischen Gaben
                     zu sein scheint. Ich wünsche nichts eifriger, als dass er auch auf dem hiesigen
                     Theater recht bald erscheinen möge. Wenn Sie erlauben, teile ich Ihnen dann
-                    wieder meine Eindrücke mit.</p>
-               <p>Mit den besten Empfehlungen an Ihre <rs type="person" key="pmb2173">Gattin</rs>, verehrter Herr Doctor, stets
-                   Ihr<space unit="chars" quantity="7"/>
-               <signed>Thomas Mann.</signed>
-            </p>
-            </div>
-        </body>
+                    wieder meine Eindrücke mit.</p><p>Mit den besten Empfehlungen an Ihre <rs type="person" ref="#pmb2173" subtype="implied">Gattin</rs>, verehrter Herr Doctor, stets
+                   Ihr<space unit="chars" quantity="7"/><signed>Thomas Mann.</signed></p></div></body>
     </text>
 </TEI>

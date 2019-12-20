@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1907-07-09_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1907-07-09_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 9. 7. 1907</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 9.&#160;7.&#160;1907</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb36480">Cortina Hotel Bellevue</placeName>
-               <date when="1907-07-09" n="01">9. 7. 1907</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb36480">Cortina Hotel Bellevue</placeName>
+               <date when="1907-07-09" n="01">9.&#160;7.&#160;1907</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1907-06-25_01">Schnitzler an Hofmannsthal, 25. 6. 1907</ptr>
-               <ptr type="next" subtype="toAuthor" target="1907-07-11_01">Hofmannsthal an Schnitzler, 11. 7. 1907</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1907-06-25_01">Schnitzler an Hofmannsthal, 25.&#160;6.&#160;1907</ptr>
+               <ptr type="next" subtype="toAuthor" target="1907-07-11_01">Hofmannsthal an Schnitzler, 11.&#160;7.&#160;1907</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,21 +105,8 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb36480">Cortina Hotel Bellevue</placeName>
-               </dateline>
-            </opener>
-            <p>Sind Sie wirklich dort? Das wäre nett. </p>
-            <p>Würde es Ihnen dann passen, daß wir Anfang oder Mitte nächster Woche auf 2 Tage hinkämen?
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb36480" type="place">Cortina Hotel Bellevue</rs></dateline></opener><p>Sind Sie wirklich dort? Das wäre nett. </p><p>Würde es Ihnen dann passen, daß wir Anfang oder Mitte nächster Woche auf 2 Tage hinkämen?
    (natürlich ohne Störung Ihrer Arbeitsstunden, ich arbeite auch.) Würden wir dort für 2 Nächte
-   Unterkunft finden? Bitte um Antwort. </p>
-            <closer>
-               <signed>Hugo</signed>
-            </closer>
-         </div>
-      </body>
+   Unterkunft finden? Bitte um Antwort. </p><closer><signed>Hugo</signed></closer></div></body>
    </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1909-12-24_02_Wedekind_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1909-12-24_02_Wedekind_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Frank Wedekind an Arthur Schnitzler, 24. 12. 1909</title>
-                <author key="pmb13068">Wedekind, Frank</author>
+                <title level="a">Frank Wedekind an Arthur Schnitzler, 24.&#160;12.&#160;1909</title>
+                <author ref="#pmb13068">Wedekind, Frank</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 111</idno>
+                                <idno>Schnitzler, B&#160;111</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S., schwarze Tinte. Von Schnitzler mit
                                     Bleistift beschriftet: »<quote>
                                         <hi rend="latintype">Wedekind</hi>
                                     </quote>«.</p>
@@ -66,17 +70,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb13068">Wedekind, Frank</persName>
-                    <date when="1909-12-24" n="02">24. 12. 1909</date>
-                    <placeName key="pmb38129">München</placeName>
+                <correspAction  type="sent">
+                    <persName ref="#pmb13068">Wedekind, Frank</persName>
+                    <date when="1909-12-24" n="02">24.&#160;12.&#160;1909</date>
+                    <placeName ref="#pmb38129">München</placeName>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="next" subtype="toAuthor" target="1910-06-19_02">Wedekind an Schnitzler, 19. 6. 1910</ptr>
+               <ptr type="next" subtype="toAuthor" target="1910-06-19_02">Wedekind an Schnitzler, 19.&#160;6.&#160;1910</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -90,22 +94,14 @@
         <graphic url="MS-SCHNITZLER-B-00111-000-00002"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="MS-SCHNITZLER-B-00111-000-00001"/>Sehr verehrter Herr
-                        Doctor!</salute>
-                </opener>
-                <p>Darf ich Sie aufrichtig und herzlich bitten, es nur nicht als Theilnahmsloſigkeit
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00111-000-00001"/>Sehr verehrter Herr
+                        Doctor!</salute></opener><p>Darf ich Sie aufrichtig und herzlich bitten, es nur nicht als Theilnahmsloſigkeit
                     auszulegen, daß wir nicht zu Ihnen kamen. Am Tage als wir zu ſpielen aufhörten,
-                    bekam meine <rs type="person" key="pmb5405">Frau</rs> die Nachricht, daß unſere
-                        <rs type="person" key="pmb4404">Kleine</rs>, die in <placeName key="pmb860">Graz</placeName> war, arg erkältet ſei. <pb facs="MS-SCHNITZLER-B-00111-000-00002"/>Meine <rs type="person" key="pmb5405">Frau</rs> reiſte Hals über Kopf ohne ſich einen Augenblick
-                    Ruhe zu gönnen hin, um <anchor type="textConst" xml:id="TL2384-1"/>
-                    <rs type="person" key="pmb4404">sie</rs>
-                    <note type="textConst" xml:id="TL2384-1h">er schreibt:
-                        »<quote>Sie</quote>«.</note> zu holen und als sie mit ihr nach <placeName key="pmb50">Wien</placeName> kam fand ich es für dringend geboten, ohne
-                    Aufenthalt <rs type="place" key="pmb38129">nach Hauſe</rs> zurückzukehren. Am
+                    bekam meine <rs type="person" ref="#pmb5405" subtype="implied">Frau</rs> die Nachricht, daß unſere
+                        <rs type="person" ref="#pmb4404" subtype="implied">Kleine</rs>, die in <rs ref="#pmb860" type="place">Graz</rs> war, arg erkältet ſei. <pb facs="MS-SCHNITZLER-B-00111-000-00002"/>Meine <rs type="person" ref="#pmb5405" subtype="implied">Frau</rs> reiſte Hals über Kopf ohne ſich einen Augenblick
+                    Ruhe zu gönnen hin, um <anchor type="textConst" xml:id="TL2384-1"/><rs type="person" ref="#pmb4404" subtype="implied">sie</rs><note type="textConst" xml:id="TL2384-1h">er schreibt:
+                        »<quote>Sie</quote>«.</note> zu holen und als sie mit ihr nach <rs ref="#pmb50" type="place">Wien</rs> kam fand ich es für dringend geboten, ohne
+                    Aufenthalt <rs type="place" ref="#pmb38129" subtype="implied">nach Hauſe</rs> zurückzukehren. Am
                         <date>Dienſtag</date> hoffte ich Sie wenigſtens allein noch aufſuchen zu
                     können, aber auch dazu fehlte mir buchſtäblich die Zeit. So muß ich Ihnen meinen
                     herzlichen Dank für die liebenswürdige Aufmerkſamkeit <pb facs="MS-SCHNITZLER-B-00111-000-00002"/>die Sie für meine Arbeit übrig
@@ -116,24 +112,13 @@
                     Verehrung fühle, die ich ſonſt nur für Vergangenes aufbringen kann. So weit ich
                     weiß kennen wir uns ſeit <anchor type="commentary" xml:id="KL2384-1"/>bald zehn
                         Jahren<note type="commentary" xml:id="KL2384-1h">Das erste Treffen, das
-                            <persName key="pmb2121">Schnitzler</persName>s <workName key="pmb33243">Tagebuch</workName> erwähnt, fand am <date>16. 11. 1901</date>
-                        statt.</note> und haben uns in dieſen zehn Jahren <pb facs="MS-SCHNITZLER-B-00111-000-00001"/>
-                    <anchor type="commentary" xml:id="KL2384-2"/>zwei mal geſehen<note type="commentary" xml:id="KL2384-2h">Nach <persName key="pmb2121">Schnitzler</persName>s <workName key="pmb33243">Tagebuch</workName>
-                        fanden die Begegnungen am <date>1. 5. 1907</date> und am
-                            <date>15. 9. 1909</date> statt.</note>. Sie werden es mir daher nicht
+                            <rs ref="#pmb2121" type="person">Schnitzler</rs>s <rs ref="#pmb33243" type="work">Tagebuch</rs> erwähnt, fand am <date>16.&#160;11.&#160;1901</date>
+                        statt.</note> und haben uns in dieſen zehn Jahren <pb facs="MS-SCHNITZLER-B-00111-000-00001"/><anchor type="commentary" xml:id="KL2384-2"/>zwei mal geſehen<note type="commentary" xml:id="KL2384-2h">Nach <rs ref="#pmb2121" type="person">Schnitzler</rs>s <rs ref="#pmb33243" type="work">Tagebuch</rs>
+                        fanden die Begegnungen am <date>1.&#160;5.&#160;1907</date> und am
+                            <date>15.&#160;9.&#160;1909</date> statt.</note>. Sie werden es mir daher nicht
                     verdenken, daß ich die Gelegenheit wahrneme, Ihnen mein Herz auszuſchütten. An
-                    mir ſoll es doch gewiß nicht liegen, daß wir uns nicht öfter begegnen.</p>
-                <p>Wollen Sie bitte Ihrer verehrten <rs type="person" key="pmb2173">Frau
-                        Gemahlin</rs> meiner <rs type="person" key="pmb5405">Frau</rs> und meine
-                    ergebenſten Empfehlungen ausſprechen.</p>
-                <closer>Ihr ergebener<lb/>
-                    <signed>FrankWedekind.</signed>
-                </closer>
-                <postscript>
-                    <dateline>
-                        <date>Heiliger Abend 1909</date>.</dateline>
-                </postscript>
-            </div>
-        </body>
+                    mir ſoll es doch gewiß nicht liegen, daß wir uns nicht öfter begegnen.</p><p>Wollen Sie bitte Ihrer verehrten <rs type="person" ref="#pmb2173" subtype="implied">Frau
+                        Gemahlin</rs> meiner <rs type="person" ref="#pmb5405" subtype="implied">Frau</rs> und meine
+                    ergebenſten Empfehlungen ausſprechen.</p><closer>Ihr ergebener<lb/><signed>FrankWedekind.</signed></closer><postscript><dateline><date>Heiliger Abend 1909</date>.</dateline></postscript></div></body>
     </text>
 </TEI>

@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896_04_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896_04_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, [1896?]</title>
             <!-- Datierung allein wegen Einsortierung nach 1896 -->
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -64,17 +68,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
                <date when="1896" n="04">[1896?]</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
                <ptr type="previous" subtype="toAuthor" target="1896_03">Schnitzler an Beer-Hofmann, [1896?]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-01-11_01">Schnitzler an Beer-Hofmann, 11. 1. 1897</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-01-11_01">Schnitzler an Beer-Hofmann, 11.&#160;1.&#160;1897</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -86,14 +90,6 @@
       <graphic url="1896_AS_RBH_3_00030.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p rend="center">
-               <pb facs="1893_AS_RBH_3_00030.jpeg"/>
-               <hi rend="pre-print">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi>
-            </p>
-            <p rend="center">Ziemlich ſchlechte Lage!<lb/>Herzl Gruſs.</p>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><p rend="center"><pb facs="1893_AS_RBH_3_00030.jpeg"/><hi rend="pre-print">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></p><p rend="center">Ziemlich ſchlechte Lage!<lb/>Herzl Gruſs.</p></div></body>
    </text>
 </TEI>

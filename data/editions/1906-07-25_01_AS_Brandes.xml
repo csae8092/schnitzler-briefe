@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1906-07-25_01_AS_Brandes">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1906-07-25_01_AS_Brandes">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Georg Brandes, 25. 7. 1906</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Georg Brandes, 25.&#160;7.&#160;1906</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -54,7 +58,7 @@
                                 <p>eh. Kartenbrief, schwarze Tinte. Von unbekannter Hand mit
                                     Bleistift nummeriert: »<quote>27.</quote>«</p>
                                 <stamp n="1">
-                                    <placeName key="pmb36300">Kjøbenhavn</placeName>
+                                    <rs ref="#pmb36300" type="place">Kjøbenhavn</rs>
                                     <date when="1906-07-25">25 7 06</date>
                                     <time>70MB</time>
                                 </stamp>
@@ -65,8 +69,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -85,18 +89,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb959">Marienlyst</placeName>
-                    <date when="1906-07-25" n="01">25. 7. 1906</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb959">Marienlyst</placeName>
+                    <date when="1906-07-25" n="01">25.&#160;7.&#160;1906</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb10992">Brandes, Georg</persName>
-                    <placeName key="pmb36300">Kopenhagen</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb10992">Brandes, Georg</persName>
+                    <placeName ref="#pmb36300">Kopenhagen</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1906-07-24_01">Brandes an Schnitzler, 24. 7.1906</ptr>
-               <ptr type="next" subtype="toAuthor" target="1908-06-25_01">Brandes an Schnitzler, [25. 6. 1908]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1906-07-24_01">Brandes an Schnitzler, 24.&#160;7.1906</ptr>
+               <ptr type="next" subtype="toAuthor" target="1908-06-25_01">Brandes an Schnitzler, [25.&#160;6.&#160;1908]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -112,49 +116,7 @@
         <graphic url="Georg_Brandes_arkiv_124"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <hi rend="latintype">
-                     <pb facs="Georg_Brandes_arkiv_124.jpg"/>S</hi>
-                    </addrLine>
-                    <addrLine>Herrn <hi rend="latintype">Georg Brandes</hi>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb36300">
-    
-    
-                     <hi rend="latintype">Kopenhagen</hi>
-    
-    
-                  </placeName>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb1111">
-                     <hi rend="latintype">Havnegade</hi> 55</placeName>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="Georg_Brandes_arkiv_123.jpg"/>
-                        <placeName key="pmb959">
-    
-                     <hi rend="latintype">Marienlyst</hi>
-    
-                  </placeName>, <date>25. Juli 906</date>
-                    </dateline>
-                    <salute>Verehrter Herr Brandes,</salute>
-                </opener>
-                <p>ja ich bin noch hier und werde mich ſehr freuen, Sie am <date>Samſtag</date> zu
-                    ſehen. Um <time>6.15</time> ko<c rendition="#gemination-m"/>t Ihr Zug.</p>
-                <closer>Herzlichſt<lb/>Ihr<lb/>
-                    <signed>Arthur Schnitzler</signed>
-                </closer>
-
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine><hi rend="latintype"><pb facs="Georg_Brandes_arkiv_124.jpg"/>S</hi></addrLine><addrLine>Herrn <hi rend="latintype">Georg Brandes</hi></addrLine><addrLine><rs ref="#pmb36300" type="place"><hi rend="latintype">Kopenhagen</hi></rs></addrLine><addrLine><rs ref="#pmb1111" type="place"><hi rend="latintype">Havnegade</hi> 55</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Georg_Brandes_arkiv_123.jpg"/><rs ref="#pmb959" type="place"><hi rend="latintype">Marienlyst</hi></rs>, <date>25.&#160;Juli 906</date></dateline><salute>Verehrter Herr Brandes,</salute></opener><p>ja ich bin noch hier und werde mich ſehr freuen, Sie am <date>Samſtag</date> zu
+                    ſehen. Um <time>6.15</time> ko<c rendition="#gemination-m"/>t Ihr Zug.</p><closer>Herzlichſt<lb/>Ihr<lb/><signed>Arthur Schnitzler</signed></closer></div></body>
     </text>
 </TEI>

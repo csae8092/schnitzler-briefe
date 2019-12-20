@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-06-25_01_AS_Brandes">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-06-25_01_AS_Brandes">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Georg Brandes, 25. 6. 1896</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Georg Brandes, 25.&#160;6.&#160;1896</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -52,7 +56,7 @@
                                 <idno>Georg Brandes Arkiv</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., schwarze Tinte. Auf der ersten Seite hs.
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., schwarze Tinte. Auf der ersten Seite hs.
                                     mit Bleistift »<quote>Schnitzler</quote>« und Briefnummerierung
                                         »<quote>3</quote>«.</p>
                             </physDesc>
@@ -62,8 +66,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -82,17 +86,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1896-06-25" n="01">25. 6. 1896</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1896-06-25" n="01">25.&#160;6.&#160;1896</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb10992">Brandes, Georg</persName>
+                <correspAction  type="received">
+                    <persName ref="#pmb10992">Brandes, Georg</persName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-04-25_01">Schnitzler an Brandes, 25. 4. 1896</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-08-07_01">Schnitzler an Brandes, 7. 8. 1896</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-04-25_01">Schnitzler an Brandes, 25.&#160;4.&#160;1896</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-08-07_01">Schnitzler an Brandes, 7.&#160;8.&#160;1896</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -108,22 +112,8 @@
         <graphic url="Georg_Brandes_arkiv_011"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="Georg_Brandes_arkiv_011.jpg"/>
-                        <placeName key="pmb50">Wien</placeName>,
-                        <date>25. Juni 96</date>.</dateline>
-                    <salute rend="center">Hochverehrter Herr Profeſſor</salute>
-                </opener>
-                <p>erlauben Sie mir, Ihnen meinen Freund Doctor <persName key="pmb10863">
-                        <hi rend="latintype">Richard Beer-Hofmann</hi>
-                    </persName> vorzuſtellen.</p>
-                <closer>Mit verbindlichſten Grüßen<lb/>Ihr ergebener<signed>Arthur
-                        Schnitzler</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Georg_Brandes_arkiv_011.jpg"/><rs ref="#pmb50" type="place">Wien</rs>,
+                        <date>25.&#160;Juni 96</date>.</dateline><salute rend="center">Hochverehrter Herr Profeſſor</salute></opener><p>erlauben Sie mir, Ihnen meinen Freund Doctor <rs ref="#pmb10863" type="person"><hi rend="latintype">Richard Beer-Hofmann</hi></rs> vorzuſtellen.</p><closer>Mit verbindlichſten Grüßen<lb/>Ihr ergebener<signed>Arthur
+                        Schnitzler</signed></closer></div></body>
     </text>
 </TEI>

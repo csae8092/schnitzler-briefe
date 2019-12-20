@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-07-02_01_Kraus_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-07-02_01_Kraus_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Karl Kraus an Arthur Schnitzler, 2. 7. 1894</title>
-                <author key="pmb11988">Kraus, Karl</author>
+                <title level="a">Karl Kraus an Arthur Schnitzler, 2.&#160;7.&#160;1894</title>
+                <author ref="#pmb11988">Kraus, Karl</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -80,18 +84,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11988">Kraus, Karl</persName>
-                    <placeName key="pmb936">Schliersee</placeName>
-                    <date when="1894-07-02" n="03">2. 7. 1894</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11988">Kraus, Karl</persName>
+                    <placeName ref="#pmb936">Schliersee</placeName>
+                    <date when="1894-07-02" n="03">2.&#160;7.&#160;1894</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-03-22_01">Kraus an Schnitzler, 22. 3. 1894</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-07-08_01">Kraus an Schnitzler, 9. 7. 1894</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-03-22_01">Kraus an Schnitzler, 22.&#160;3.&#160;1894</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-07-08_01">Kraus an Schnitzler, 9.&#160;7.&#160;1894</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -101,12 +105,7 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="writingSession" n="1">
-                <p>Herzliche Grüße aus <placeName key="pmb936">Schliersee</placeName> von Ihrem
-                        <signed>K. K.</signed>
-                </p>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><p>Herzliche Grüße aus <rs ref="#pmb936" type="place">Schliersee</rs> von Ihrem
+                        <signed>K.&#160;K.</signed></p></div></body>
     </text>
 </TEI>

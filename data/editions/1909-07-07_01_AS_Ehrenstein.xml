@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1909-07-07_01_AS_Ehrenstein">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1909-07-07_01_AS_Ehrenstein">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Albert Ehrenstein, 7. 7. 1909</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Albert Ehrenstein, 7.&#160;7.&#160;1909</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                             <country>IL</country>           
                         <settlement>Jerusalem</settlement>
                             <repository>The National Library of Israel</repository>
-                            <idno>ARC. Ms. Var. 306 1 118</idno>
+                            <idno>ARC. Ms.&#160;Var. 306&#160;1&#160;118</idno>
                         </msIdentifier>
                         <physDesc>
-                            <p>eh. Brief, 1 Bl., 4 S., Lateinschrift Von unbekannter Hand nummeriert: »<quote>15</quote>«.</p>
+                            <p>eh. Brief, 1&#160;Bl., 4&#160;S., Lateinschrift Von unbekannter Hand nummeriert: »<quote>15</quote>«.</p>
                         </physDesc>
                     </msDesc>
                     </witness>
@@ -63,17 +67,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb470">Edlach</placeName>
-                    <date when="1909-07-07" n="01">7. 7. 1909</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb470">Edlach</placeName>
+                    <date when="1909-07-07" n="01">7.&#160;7.&#160;1909</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11230">Ehrenstein, Albert</persName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11230">Ehrenstein, Albert</persName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1909-07-01_01">Ehrenstein an Schnitzler, 1. 7. 1909</ptr>
-               <ptr type="next" subtype="toAuthor" target="1909-07-13_01">Ehrenstein an Schnitzler, 13. 7. 1909</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1909-07-01_01">Ehrenstein an Schnitzler, 1.&#160;7.&#160;1909</ptr>
+               <ptr type="next" subtype="toAuthor" target="1909-07-13_01">Ehrenstein an Schnitzler, 13.&#160;7.&#160;1909</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -84,44 +88,16 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p>
-                  <seg rend="left">
-                     <pb facs="NLJ0015r.tif"/>
-                     <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
-                  </seg>
-                  <seg rend="right">
-                     <placeName key="pmb470">Edlach</placeName>
-                     <space unit="chars" quantity="1"/>
-                     <date>7/7 09</date>
-                     <lb/>
-                        <placeName key="pmb714">Edlacher Hof</placeName>
-                    </seg>
-               </p>
-                    <p>
-                  <hi rend="pre-print">
-                     <placeName key="pmb133">Wien XVIII. Spoettelgasse 7</placeName>.</hi>
-               </p>
-                    
-                    <salute>Lieber Herr Ehrenstein,</salute>
-            </opener>
-                <p>die Manuscripte liegen in meiner Wohnung zum Abholen für Sie (unter Ihrem Namen) bereit. Im Herbst
+        <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs="NLJ0015r.tif"/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></seg><seg rend="right"><rs ref="#pmb470" type="place">Edlach</rs><space unit="chars" quantity="1"/><date>7/7 09</date><lb/><rs ref="#pmb714" type="place">Edlacher Hof</rs></seg></p><p><hi rend="pre-print"><rs ref="#pmb133" type="place">Wien XVIII. Spoettelgasse 7</rs>.</hi></p><salute>Lieber Herr Ehrenstein,</salute></opener><p>die Manuscripte liegen in meiner Wohnung zum Abholen für Sie (unter Ihrem Namen) bereit. Im Herbst
                     sprechen wir über die Sachen, we<c rendition="#gemination-n"/>s Ihnen recht ist. Für heute nur so
-                    viel, <pb facs="NLJ0015v.tif"/>dass ich einen äußern Erfolg gerade dieser letzten Sachen, d. h. insbesondere
-                    eine Annahme bei <workName key="pmb35935">Zeit</workName> oder <orgName key="pmb29351">Presse</orgName> für nicht 
-                    wahrscheinlich halte. Mit <persName key="pmb10788">Auernh.</persName>, der 
+                    viel, <pb facs="NLJ0015v.tif"/>dass ich einen äußern Erfolg gerade dieser letzten Sachen, d.&#160;h. insbesondere
+                    eine Annahme bei <rs ref="#pmb35935" type="work">Zeit</rs> oder <rs ref="#pmb29351" type="organisation">Presse</rs> für nicht 
+                    wahrscheinlich halte. Mit <rs ref="#pmb10788" type="person">Auernh.</rs>, der 
                     jetzt hier ist, will ich
                     übrigens im allgemeinen über Sie reden, we<c rendition="#gemination-n"/> Sie nichts dagegen haben. Auf dieser
-                    Bahn scheint mir ja nun <pb facs="NLJ0015v.tif"/>allerdings Ihre Zukunft nicht zu liegen (ich meine die <workName key="pmb35935">Zeit</workName>
-                    und <orgName key="pmb29351">Presse</orgName>-Bahn) Ihre Auffassung, dass <add place="above">selbst</add>  die Veröffentlichung einer oder der
+                    Bahn scheint mir ja nun <pb facs="NLJ0015v.tif"/>allerdings Ihre Zukunft nicht zu liegen (ich meine die <rs ref="#pmb35935" type="work">Zeit</rs>
+                    und <rs ref="#pmb29351" type="organisation">Presse</rs>-Bahn) Ihre Auffassung, dass <add place="above">selbst</add>  die Veröffentlichung einer oder der
                     andern Arbeit in einer dieser Blätter Ihre Position bei den Professoren zu Gunsten der Prüfung beeinflussen
-                    könnte, theil ich nicht. Sie werden Ihre <pb facs="NLJ0015r.tif"/>Examen sicher bestehen, auch so.</p>
-                <closer>– Auf Wiedersehen und beste Grüße. Ihr ergebener<lb/>
-                    <signed>A. S.</signed>
-                </closer>
-            </div>
-        </body>
+                    könnte, theil ich nicht. Sie werden Ihre <pb facs="NLJ0015r.tif"/>Examen sicher bestehen, auch so.</p><closer>– Auf Wiedersehen und beste Grüße. Ihr ergebener<lb/><signed>A.&#160;S.</signed></closer></div></body>
     </text>
 </TEI>

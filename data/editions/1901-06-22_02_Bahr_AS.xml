@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1901-06-22_02_Bahr_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1901-06-22_02_Bahr_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 22. 6. 1901</title>
-            <author key="pmb10815">Bahr, Hermann</author>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 22.&#160;6.&#160;1901</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                <name full="yes" instant="false">Müller, Martin Anton</name>
             </editor>
@@ -47,10 +51,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 5b</idno>
+                        <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., von Schnitzler Jahreszahl »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 2&#160;S., von Schnitzler Jahreszahl »<quote>
                               <date>901</date>
                            </quote>« ergänzt.</p>
                      </physDesc>
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="HBAS">
                   <monogr>
-                     <author key="pmb10815">Bahr, Hermann</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
                      <imprint>
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">[Wien]</placeName>
-               <date when="1901-06-22" n="02">22. 6. 1901</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
+               <date when="1901-06-22" n="02">22.&#160;6.&#160;1901</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1901-04-25_02">Bahr an Schnitzler, 25. 4. 1901</ptr>
-               <ptr type="next" subtype="toAuthor" target="1901-06-26_01">Schnitzler an Bahr, 26. 6. 1901</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1901-04-25_02">Bahr an Schnitzler, 25.&#160;4.&#160;1901</ptr>
+               <ptr type="next" subtype="toAuthor" target="1901-06-26_01">Schnitzler an Bahr, 26.&#160;6.&#160;1901</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -105,29 +109,12 @@
       <graphic url="MS-B-00005-B-000-00124"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>22/6</date>
-               </dateline>
-               <salute rend="center">Lieber Arthur!</salute>
-            </opener>
-            <p>Ich denke mir zwar, daß Du die <anchor type="commentary" xml:id="KL1237-1"/>lächerliche Entscheidung<note type="commentary" xml:id="KL1237-1h">Die Aberkennung
-                  des Offizierspatents am <date>14. 6. 1901</date>. </note> Deiner
-               »Affäre« <damage agent="ink">
-                  <supplied>m</supplied>
-               </damage>it der ruhigen Verachtung hing<damage agent="ink">
-                  <supplied>e</supplied>
-               </damage>nommen haben wirst, die sie verdient, möchte Dir aber doch aussprechen, wie
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>22/6</date></dateline><salute rend="center">Lieber Arthur!</salute></opener><p>Ich denke mir zwar, daß Du die <anchor type="commentary" xml:id="KL1237-1"/>lächerliche Entscheidung<note type="commentary" xml:id="KL1237-1h">Die Aberkennung
+                  des Offizierspatents am <date>14.&#160;6.&#160;1901</date>. </note> Deiner
+               »Affäre« <damage agent="ink"><supplied>m</supplied></damage>it der ruhigen Verachtung hing<damage agent="ink"><supplied>e</supplied></damage>nommen haben wirst, die sie verdient, möchte Dir aber doch aussprechen, wie
                stark ich gerade bei diesem Anlasse meine Sympathie für <pb facs="MS-B-00005-B-000-00124"/>Dich gespürt und wie ich mich geschämt habe, in
                einem so grenzenlos albernen Lande zu leben, wo die Feigheit der Menschen beinahe
                noch größer ist als ihr Neid. Pfui Teufel! Und alles Gerede von »Cultur« usw kommt
-               mir unsagbar dumm vor.</p>
-            <closer>Herzlich grüßt Dich<lb/>Dein alter<lb/>
-               <signed>HermannBahr</signed>
-            </closer>
-         </div>
-      </body>
+               mir unsagbar dumm vor.</p><closer>Herzlich grüßt Dich<lb/>Dein alter<lb/><signed>HermannBahr</signed></closer></div></body>
    </text>
 </TEI>

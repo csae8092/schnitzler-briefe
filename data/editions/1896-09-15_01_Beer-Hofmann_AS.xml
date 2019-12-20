@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-09-15_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-09-15_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 15. 9. 1896</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 15.&#160;9.&#160;1896</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Brief, 1 Bl., 4 S., blauer Buntstift; Lateinschrift. Von Schnitzler
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -80,18 +84,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb662">Baden</placeName>
-               <date when="1896-09-15" n="01">15. 9. 1896</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb662">Baden</placeName>
+               <date when="1896-09-15" n="01">15.&#160;9.&#160;1896</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-09-14_02">Schnitzler an Beer-Hofmann, 14. 9. 1896</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-09-16_01">Schnitzler an Beer-Hofmann, 16. 9. 1896</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-09-14_02">Schnitzler an Beer-Hofmann, 14.&#160;9.&#160;1896</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-09-16_01">Schnitzler an Beer-Hofmann, 16.&#160;9.&#160;1896</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -105,34 +109,14 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00184"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline>
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00183"/>
-                  <placeName key="pmb662">Baden</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date>15/IX
-                  96</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Arthur, </salute>das schreib ich Ihnen im Park der jetzt um <date>10
-                  Uhr Vorm.</date>, sehr leer und sehr schön ist.</p>
-            <p>Ich bin wahrscheinlich <date>Donnerstag</date> auf einige Stunden in <placeName key="pmb50">Wien</placeName>. Wie ist denn jetzt Ihre normale Stundeneinteilung?
+      <body><div type="writingSession" n="1"><opener><dateline><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00183"/><rs ref="#pmb662" type="place">Baden</rs><space unit="chars" quantity="1"/><date>15/IX
+                  96</date></dateline></opener><p><salute>Lieber Arthur, </salute>das schreib ich Ihnen im Park der jetzt um <date>10
+                  Uhr Vorm.</date>, sehr leer und sehr schön ist.</p><p>Ich bin wahrscheinlich <date>Donnerstag</date> auf einige Stunden in <rs ref="#pmb50" type="place">Wien</rs>. Wie ist denn jetzt Ihre normale Stundeneinteilung?
                ohne <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00183"/>Bindung - Wissen Sie wieviel
-               Exempl. vom »<workName key="pmb30437">Kind</workName>« <hi n="1" rend="underline">verkauft</hi> wurden - (Freiex an mich, Recensionsex. etc. <hi rend="underline" n="1">nicht</hi> eingerechnet)?</p>
-            <p>
-               <hi n="1" rend="underline">944</hi> - (neunhundertvierundvierzig!) Räthselhaft wie
-               viel Menschen sich das kaufen -? Nicht? Trotzdem <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00184"/>fehlen dem p. t. Zuchthäusler
-               - wie <persName key="pmb10992">Brandes</persName> diese Herren nennt, noch
-               14 Mark und einige Pfennige zur Deckung der Kosten. Verstehen Sie das?</p>
-            <p>Natürlich haben <persName key="pmb10860">Paula</persName> und ich uns wieder lieber als <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00184"/>je, - das ist doch natürlich - oder
-                  <del rend="strikethrough">an</del> einmal mehr gedreht unnatürlich?</p>
-            <closer>Herzlichst<lb/>Ihr<lb/>
-               <signed>Richard</signed>
-            </closer>
-         </div>
-      </body>
+               Exempl. vom »<rs ref="#pmb30437" type="work">Kind</rs>« <hi n="1" rend="underline">verkauft</hi> wurden - (Freiex an mich, Recensionsex. etc. <hi rend="underline" n="1">nicht</hi> eingerechnet)?</p><p><hi n="1" rend="underline">944</hi> - (neunhundertvierundvierzig!) Räthselhaft wie
+               viel Menschen sich das kaufen -? Nicht? Trotzdem <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00184"/>fehlen dem p.&#160;t. Zuchthäusler
+               - wie <rs ref="#pmb10992" type="person">Brandes</rs> diese Herren nennt, noch
+               14 Mark und einige Pfennige zur Deckung der Kosten. Verstehen Sie das?</p><p>Natürlich haben <rs ref="#pmb10860" type="person">Paula</rs> und ich uns wieder lieber als <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00184"/>je, - das ist doch natürlich - oder
+                  <del rend="strikethrough">an</del> einmal mehr gedreht unnatürlich?</p><closer>Herzlichst<lb/>Ihr<lb/><signed>Richard</signed></closer></div></body>
    </text>
 </TEI>

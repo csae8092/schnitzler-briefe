@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-09-07_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-09-07_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 7. 9. 1896</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 7.&#160;9.&#160;1896</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -53,16 +57,16 @@
                      <physDesc>
                         <p>eh. Kartenbrief, Bleistift.</p>
                         <stamp n="1">
-                           <placeName key="pmb51">Wien 1/<supplied>1</supplied>
-                           </placeName>
-                           <date>8. 9. <supplied>96</supplied>
+                           <rs ref="#pmb51" type="place">Wien 1/<supplied>1</supplied>
+                           </rs>
+                           <date>8.&#160;9.&#160;<supplied>96</supplied>
                            </date>
-                           <time>8–9 <supplied>V</supplied>
+                           <time>8–9&#160;<supplied>V</supplied>
                            </time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb662">Baden 1</placeName>
-                           <date>8. 9. 96</date>
+                           <rs ref="#pmb662" type="place">Baden 1</rs>
+                           <date>8.&#160;9.&#160;96</date>
                            <time>11-2N</time>
                            <action>Bestellt</action>
                         </stamp>
@@ -73,8 +77,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -93,19 +97,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="50">Wien</placeName>
-               <date when="1896-09-07" n="01">7. 9. 1896</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="50">Wien</placeName>
+               <date when="1896-09-07" n="01">7.&#160;9.&#160;1896</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="662">Baden</placeName>
-               <date when="1896-09-08">8. 9. 1896</date>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="662">Baden</placeName>
+               <date when="1896-09-08">8.&#160;9.&#160;1896</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-09-05_01">Beer-Hofmann an Schnitzler, 5. 9. 1896</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-09-10_01">Beer-Hofmann an Schnitzler, 10. 9. 1896</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-09-05_01">Beer-Hofmann an Schnitzler, 5.&#160;9.&#160;1896</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-09-10_01">Beer-Hofmann an Schnitzler, 10.&#160;9.&#160;1896</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -120,49 +124,16 @@
       <graphic url="1896_AS_RBH_2_00030.jpg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1896_AS_RBH_2_00029.jpeg"/>Herrn <hi rend="latintype">Dr. Rich.
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb662">Baden bei Wien</placeName>
-                  </hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb680">Franzensgassse 54</placeName>
-                  </hi>,
-                  Thür 8</addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <pb facs="1896_AS_RBH_2_00030.jpeg"/>
-                  <date>Montag</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Richard, </salute>Ihre Karte hab ich bekommen. Morgen wollte ich zu
-               Ihnen; aber plötzlich iſt <persName key="pmb2299">
-                  <hi rend="latintype">Sorma</hi>
-               </persName> u <rs type="person" key="pmb21496">Gemahl</rs> in
-                  <placeName key="pmb50">Wien</placeName> und ich ſpeiſe morgen mit ihnen. Ich kann
-               Ihnen alſo noch nicht genau ſagen, wann ich nach <placeName key="pmb662">Baden</placeName> fahre.</p>
-            <p>Wie lang bleiben Sie noch draußen? Arbeiten Sie? Haben Sie mit <persName key="pmb11324">Fiſcher</persName>, mit <persName key="pmb10986">Brahm</persName>
-               geſprochen? – Von <persName key="pmb11740">Hugo</persName> weiſs ich auch nichts, vor
-               8 Tagen hab ich ihm nach <placeName key="pmb34401">Alt-Auſſee</placeName>
-               geſchrieben. – <persName key="pmb11036">Burckhard</persName> hat <workName key="pmb29899">Freiwild</workName> geleſen u gratulirt <persName key="pmb10986">Brahm</persName>, ders aufführen darf, hälts für den »pupillarſichern
-               Senſationserfolg<supplied>«</supplied>, fährt nach <placeName key="pmb168">Berlin</placeName> zur
-               <hi rend="latintype">Premiére</hi>. – Herzlich Ihr</p>
-            <closer>
-               <signed>Arthur</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="1896_AS_RBH_2_00029.jpeg"/>Herrn <hi rend="latintype">Dr. Rich.
+                     Beer-Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb662" type="place">Baden bei Wien</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb680" type="place">Franzensgassse 54</rs></hi>,
+                  Thür 8</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1896_AS_RBH_2_00030.jpeg"/><date>Montag</date></dateline></opener><p><salute>Lieber Richard, </salute>Ihre Karte hab ich bekommen. Morgen wollte ich zu
+               Ihnen; aber plötzlich iſt <rs ref="#pmb2299" type="person"><hi rend="latintype">Sorma</hi></rs> u <rs type="person" ref="#pmb21496" subtype="implied">Gemahl</rs> in
+                  <rs ref="#pmb50" type="place">Wien</rs> und ich ſpeiſe morgen mit ihnen. Ich kann
+               Ihnen alſo noch nicht genau ſagen, wann ich nach <rs ref="#pmb662" type="place">Baden</rs> fahre.</p><p>Wie lang bleiben Sie noch draußen? Arbeiten Sie? Haben Sie mit <rs ref="#pmb11324" type="person">Fiſcher</rs>, mit <rs ref="#pmb10986" type="person">Brahm</rs>
+               geſprochen? – Von <rs ref="#pmb11740" type="person">Hugo</rs> weiſs ich auch nichts, vor
+               8 Tagen hab ich ihm nach <rs ref="#pmb34401" type="place">Alt-Auſſee</rs>
+               geſchrieben.&#160;– <rs ref="#pmb11036" type="person">Burckhard</rs> hat <rs ref="#pmb29899" type="work">Freiwild</rs> geleſen u gratulirt <rs ref="#pmb10986" type="person">Brahm</rs>, ders aufführen darf, hälts für den »pupillarſichern
+               Senſationserfolg<supplied>«</supplied>, fährt nach <rs ref="#pmb168" type="place">Berlin</rs> zur
+               <hi rend="latintype">Premiére</hi>.&#160;– Herzlich Ihr</p><closer><signed>Arthur</signed></closer></div></body>
    </text>
 </TEI>

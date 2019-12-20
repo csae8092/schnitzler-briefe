@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1929-08-14_01_AS_Adam">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1929-08-14_01_AS_Adam">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Robert Adam, 14. 8. 1929</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Robert Adam, 14.&#160;8.&#160;1929</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -54,35 +58,35 @@
                                 <p>eh. Postkarte, Lateinschrift, ovaler Absenderkleber: »<quote>
                                         <p>A. S.</p>
                                         <p>
-                                            <placeName key="pmb68">Wien, XVIII.</placeName>
+                                            <rs ref="#pmb68" type="place">Wien, XVIII.</rs>
                                         </p>
                                         <p>
-                                            <placeName key="pmb150">Sternwartestr.71</placeName>
+                                            <rs ref="#pmb150" type="place">Sternwartestr.71</rs>
                                         </p>
                                     </quote>«. Die Empfängeradresse von unbekannter Hand geändert
                                     zu: »<quote>
                               <p>
-                                 <placeName key="pmb415">
+                                 <rs ref="#pmb415" type="place">
                                     <hi rend="latintype">Bad-Aussee</hi>
-                                 </placeName>
+                                 </rs>
                               </p>
                               <p>
-                                 <placeName key="pmb34435">
+                                 <rs ref="#pmb34435" type="place">
                                     <hi rend="latintype">Meraner
        Haus</hi>
-                                 </placeName>
+                                 </rs>
                               </p>
                            </quote>«.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb59">9/<hi rend="subscript">1</hi>
-     Wien</placeName>
-                                    <date when="1929-08-15">15. VIII. 29</date>
+                                    <rs ref="#pmb59" type="place">9/<hi rend="subscript">1</hi>
+     Wien</rs>
+                                    <date when="1929-08-15">15.&#160;VIII.&#160;29</date>
                                     <time>18</time>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb62">12/<hi rend="subscript">1</hi>
-     Wien</placeName>
-                                    <date when="1929-08-16">16. VIII. 29</date>
+                                    <rs ref="#pmb62" type="place">12/<hi rend="subscript">1</hi>
+     Wien</rs>
+                                    <date when="1929-08-16">16.&#160;VIII.&#160;29</date>
                                     <time>19</time>
                                 </stamp>
                             </physDesc>
@@ -96,26 +100,26 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1929-08-14" n="01">14. 8. 1929</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1929-08-14" n="01">14.&#160;8.&#160;1929</date>
                 </correspAction>
-                <correspAction type="transmitted">
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1929-08-15">15. 8. 1929</date>
+                <correspAction  type="transmitted">
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1929-08-15">15.&#160;8.&#160;1929</date>
                 </correspAction>
-                <correspAction type="forwarded">
-                    <placeName key="pmb62">Wien</placeName>
-                    <date when="1929-08-16">16. 8. 1929</date>
+                <correspAction  type="forwarded">
+                    <placeName ref="#pmb62">Wien</placeName>
+                    <date when="1929-08-16">16.&#160;8.&#160;1929</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb415">Bad Aussee</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb415">Bad Aussee</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1929-07-22_01">Adam an Schnitzler, 22. 7. 1929</ptr>
-               <ptr type="next" subtype="toAuthor" target="1929-12-22_01">Adam an Schnitzler, 22. 12. 1929</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1929-07-22_01">Adam an Schnitzler, 22.&#160;7.&#160;1929</ptr>
+               <ptr type="next" subtype="toAuthor" target="1929-12-22_01">Adam an Schnitzler, 22.&#160;12.&#160;1929</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -124,36 +128,9 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <pb facs=""/>Hrn Ober L.<unclear>g</unclear>r. Rath</addrLine>
-                    <addrLine>Dr. Robert Adam Pollak</addrLine>
-                    <addrLine>
-                  <placeName key="pmb63">XIII</placeName>
-               </addrLine>
-                    <addrLine>
-                  <placeName key="pmb1239">Meidlinger Hptstr 58</placeName>.</addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs=""/>
-                  <placeName key="pmb50">Wien</placeName>,
-                            <date>14/8 929</date>
-               </dateline>
-                    <salute>verehrter Herr Doctor, </salute>
-                </opener>
-                <p>Ihren <rs type="work" key="pmb33616">Aufsatz</rs>, so präcise und so klar hab ich
+        <body><div type="address"><address><addrLine><pb facs=""/>Hrn Ober L.<unclear>g</unclear>r. Rath</addrLine><addrLine>Dr. Robert Adam Pollak</addrLine><addrLine><rs ref="#pmb63" type="place">XIII</rs></addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hptstr 58</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><rs ref="#pmb50" type="place">Wien</rs>,
+                            <date>14/8 929</date></dateline><salute>verehrter Herr Doctor, </salute></opener><p>Ihren <rs type="work" ref="#pmb33616" subtype="implied">Aufsatz</rs>, so präcise und so klar hab ich
                     mit aufrichtigem Vergnügen gelesen. Ich danke Ihnen sehr, auch für den lieben
-                    Brief und grüße Sie herzlichst.</p>
-                <closer>
-               <pb/>Ihr sehr ergebner<lb/>
-               <signed>ArthSchnitzler</signed>
-            </closer>
-            </div>
-        </body>
+                    Brief und grüße Sie herzlichst.</p><closer><pb/>Ihr sehr ergebner<lb/><signed>ArthSchnitzler</signed></closer></div></body>
     </text>
 </TEI>

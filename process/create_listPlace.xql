@@ -25,8 +25,8 @@ let $listPlace :=
     let $type := name($place)
     let $string := string-join($place//text(), ' ')
     let $key := if (exists($place/@key)) then data($place/@key) else $string
-    let $xmlID := util:hash($key, 'md5')
-    let $ref := $xmlID
+    let $xmlID := 'place_'||util:hash($key, 'md5')
+    let $ref := '#'||$xmlID
 (:    let $addedRef := update insert attribute ref {$ref} into $place:)
     group by $xmlID
     where $string != ''

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1904-03-05_01_Bahr_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1904-03-05_01_Bahr_AS">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hermann Bahr an Arthur Schnitzler, [5.] 3. 1904</title>
-            <author key="pmb10815">Bahr, Hermann</author>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, [5.] 3.&#160;1904</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,20 +53,20 @@
                         <country>GB</country>            
                         <settlement>Cambridge</settlement>            
                         <repository>University Library</repository>            
-                        <idno>Schnitzler, B 5b</idno>
+                        <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Bildpostkarte, Motiv: »<quote>Salutem Pluriman E <placeName key="pmb453">Ruinis Salonae / Basilica Martyrum Salonitanorum in Manastirine</placeName>
+                        <p>eh. Bildpostkarte, Motiv: »<quote>Salutem Pluriman E <rs ref="#pmb453" type="place">Ruinis Salonae / Basilica Martyrum Salonitanorum in Manastirine</rs>
                            </quote>«, von Schnitzler datiert: »<quote>
-                              <date>8. 3</date>
+                              <date>8.&#160;3</date>
                            </quote>«.</p>
                         <stamp n="1">
-                           <placeName key="pmb453">Solin Salona</placeName>
+                           <rs ref="#pmb453" type="place">Solin Salona</rs>
                         </stamp>
                         <stamp n="2">
                            <action>Bestellt</action>
-                           <placeName key="pmb68">Wien 18/1</placeName>
-                           <date when="1904-03-08">8. 3. 04</date>
+                           <rs ref="#pmb68" type="place">Wien 18/1</rs>
+                           <date when="1904-03-08">8.&#160;3.&#160;04</date>
                            <time>12. V</time>
                         </stamp>
                      </physDesc>
@@ -72,8 +76,8 @@
             <listBibl>                
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -91,19 +95,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb453">Solin/Salona</placeName>
-               <date when="1904-03-05" n="01">[5.] 3. 1904</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb453">Solin/Salona</placeName>
+               <date when="1904-03-05" n="01">[5.] 3.&#160;1904</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1904-03-08">8. 3. 04</date>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1904-03-08">8.&#160;3.&#160;04</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1904-02-22_02">Schnitzler an Bahr, 22. 2. 1904</ptr>
-               <ptr type="next" subtype="toAuthor" target="1904-03-08_01">Bahr an Schnitzler, 8. 3. 1904</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1904-02-22_02">Schnitzler an Bahr, 22.&#160;2.&#160;1904</ptr>
+               <ptr type="next" subtype="toAuthor" target="1904-03-08_01">Bahr an Schnitzler, 8.&#160;3.&#160;1904</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -118,26 +122,9 @@
       <graphic url="MS-B-00005-B-000-00200"/>
    </facsimile>
    <text type="card">
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>
-                  <pb facs="MS-B-00005-B-000-00199"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler
-      </addrLine>
-               <addrLine>
-                  <placeName key="pmb68">Wien XVIII</placeName>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb133">Spöttelgasse 7</placeName>
-               </addrLine>
-            </address> 
-         </div> 
-         <div type="writingSession" n="1">
-            <p>hier mußt Du einmal her! Das ist mehr als alles <placeName key="pmb40306">Italien</placeName>.</p>
-            <closer>Herzlichst<space unit="chars" quantity="5"/>Dein
-               <signed>H.</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00199"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler
+      </addrLine><addrLine><rs ref="#pmb68" type="place">Wien XVIII</rs></addrLine><addrLine><rs ref="#pmb133" type="place">Spöttelgasse 7</rs></addrLine></address></div><div type="writingSession" n="1"><p>hier mußt Du einmal her! Das ist mehr als alles <rs ref="#pmb40306" type="place">Italien</rs>.</p><closer>Herzlichst<space unit="chars" quantity="5"/>Dein
+               <signed>H.</signed></closer></div></body>
   </text>
-</TEI><!-- Datiert nach seinem Aufenthalt in Solin, laut TB IV,38–40 am 5. März-->
+</TEI>
+<!-- Datiert nach seinem Aufenthalt in Solin, laut TB IV,38–40 am 5. März-->

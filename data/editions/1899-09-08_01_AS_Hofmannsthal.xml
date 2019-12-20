@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1899-09-08_01_AS_Hofmannsthal" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1899-09-08_01_AS_Hofmannsthal"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 8. 9. 1899</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 8.&#160;9.&#160;1899</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Hs-30885,XXXX</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb213">Bad Ischl</placeName>
-               <date when="1899-09-08" n="01">8. 9. 1899</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb213">Bad Ischl</placeName>
+               <date when="1899-09-08" n="01">8.&#160;9.&#160;1899</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-09-07_01">Hofmannsthal an Schnitzler, 7. 9. 1899</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-09-29_01">Schnitzler an Hofmannsthal, 29. 9. 1899</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-09-07_01">Hofmannsthal an Schnitzler, 7.&#160;9.&#160;1899</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-09-29_01">Schnitzler an Hofmannsthal, 29.&#160;9.&#160;1899</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,16 +103,7 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p>
-               <salute>Lieber, </salute>bin eben auf der Bahn, habe <rs type="person" key="pmb40689">Stationschef</rs> gesprochen, der sofort Träger 1 rufen ließ, welch letzterer
-               sich absolut nicht an Ihr Futteral erinnern will. Auch gefunden wurde es nicht. –</p>
-            <p>Wohl in ein fremdes Coupé geraten? –</p>
-            <p>Ich werde wahrscheinlich <date>Sonntag</date> Mittag bei <placeName key="pmb40256">Brunnthaler</placeName> sein. </p>
-            <closer>Herzlich<lb/>Ihr <signed>A. S.</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><p><salute>Lieber, </salute>bin eben auf der Bahn, habe <rs type="person" ref="#pmb40689" subtype="implied">Stationschef</rs> gesprochen, der sofort Träger 1 rufen ließ, welch letzterer
+               sich absolut nicht an Ihr Futteral erinnern will. Auch gefunden wurde es nicht.&#160;–</p><p>Wohl in ein fremdes Coupé geraten?&#160;–</p><p>Ich werde wahrscheinlich <date>Sonntag</date> Mittag bei <rs ref="#pmb40256" type="place">Brunnthaler</rs> sein. </p><closer>Herzlich<lb/>Ihr <signed>A.&#160;S.</signed></closer></div></body>
    </text>
 </TEI>

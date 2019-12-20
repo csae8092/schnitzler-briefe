@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-02-27_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-02-27_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 27. 2. 1894</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 27.&#160;2.&#160;1894</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,19 +52,19 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Postkarte, Bleistift; Lateinschrift. Von Schnitzler mit Bleistift
                            nummeriert: »<quote>26</quote>«.</p>
                         <stamp n="1">
-                           <placeName key="pmb168">Berlin W 64</placeName>
+                           <rs ref="#pmb168" type="place">Berlin W 64</rs>
                            <date>27/2 94</date>
                            <time>4–5N</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb59">Wien 9/3</placeName>
-                           <date>28. 2. 93</date>
+                           <rs ref="#pmb59" type="place">Wien 9/3</rs>
+                           <date>28.&#160;2.&#160;93</date>
                            <time>6.N</time>
                            <action>Bestellt</action>
                         </stamp>
@@ -75,19 +79,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb168">Berlin</placeName>
-               <date when="1894-02-27" n="01">27. 2. 1894</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb168">Berlin</placeName>
+               <date when="1894-02-27" n="01">27.&#160;2.&#160;1894</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1894-02-28">28. 2. 1894</date>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1894-02-28">28.&#160;2.&#160;1894</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-01-04_01">Schnitzler an Beer-Hofmann, 4. 1. 1894</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-03-02_02">Schnitzler an Beer-Hofmann, 2. 3. 1894</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-01-04_01">Schnitzler an Beer-Hofmann, 4.&#160;1.&#160;1894</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-03-02_02">Schnitzler an Beer-Hofmann, 2.&#160;3.&#160;1894</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -102,29 +106,8 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00060.jpg"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00059"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
-               <addrLine>
-                  <placeName key="pmb50">Wien</placeName>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb397">IX. Frankgasse 1</placeName>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00060"/>
-               <salute>Lieber Arthur!
-               </salute>Wohne »<placeName key="pmb41234">Hôtel Westminster</placeName>«.
-               Herzlichst</p>
-            <closer>
-               <signed>Richard</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00059"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb397" type="place">IX. Frankgasse 1</rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00060"/><salute>Lieber Arthur!
+               </salute>Wohne »<rs ref="#pmb41234" type="place">Hôtel Westminster</rs>«.
+               Herzlichst</p><closer><signed>Richard</signed></closer></div></body>
    </text>
 </TEI>

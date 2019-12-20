@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1890-05-22_01_Konstantin_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1890-05-22_01_Konstantin_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Michael Konstantin an Arthur Schnitzler,
-                    22. 5. 1890</title>
-                <author key="pmb41355">Konstantin, Michael</author>
+                    22.&#160;5.&#160;1890</title>
+                <author ref="#pmb41355">Konstantin, Michael</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -55,14 +59,14 @@
                                 <p>eh. Postkarte, schwarze Tinte. Zwei Unterstreichungen von
                                     unbekannter Hand</p>
                                 <stamp n="1">
-                                    <placeName key="pmb833">Brünn Bahnhof Brno nádraží</placeName>
+                                    <rs ref="#pmb833" type="place">Brünn Bahnhof Brno nádraží</rs>
                                     <date when="1890-05-22">22 5 90</date>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb50">
-                              <supplied>Wi</supplied>en</placeName>
+                                    <rs ref="#pmb50" type="place">
+                              <supplied>Wi</supplied>en</rs>
                                     <date when="1890-05-23">23 5 90</date>
-                                    <time>8. F</time>
+                                    <time>8.&#160;F</time>
                                 </stamp>
                             </physDesc>
                         </msDesc>
@@ -75,15 +79,15 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb41355">Konstantin, Michael</persName>
-                    <placeName key="pmb833">Brünn</placeName>
-                    <date when="1890-05-22" n="01">22. 5. 1890</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb41355">Konstantin, Michael</persName>
+                    <placeName ref="#pmb833">Brünn</placeName>
+                    <date when="1890-05-22" n="01">22.&#160;5.&#160;1890</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1890-05-23">23. 5. 1890</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1890-05-23">23.&#160;5.&#160;1890</date>
                 </correspAction>
             
          </correspDesc>
@@ -99,106 +103,27 @@
         <graphic url="OGL Joachim, Jaques (und 1 Kafka) an AS.pdf"/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <pb facs="OGL Joachim, Jaques (und 1 Kafka) an AS.pdf"/>Herrn <hi rend="latintype">Arthur Schnitzler</hi>
-               </addrLine>
-                    <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb50">Wien</placeName>
-                  </hi>
-               </addrLine>
-                    <addrLine>
-                  <placeName key="pmb542">I Giselastraße 11</placeName>
-               </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p>
-                  <seg rend="left">
-                     <pb facs="OGL Joachim, Jaques (und 1 Kafka) an AS.pdf"/>
-                     <hi rend="pre-print">
-                        <workName key="pmb35950">Moderne
-                                    Dichtung</workName>.</hi>
-                  </seg>
-                        <seg rend="right">
-                     <placeName key="pmb833">Brünn</placeName>
-                     <space unit="chars" quantity="1"/>
-                     <date>22/5 1890</date>
-                  </seg>
-               </p>
-                    <p>
-                  <seg rend="left">
-                     <hi rend="pre-print">Monatsſchrift für Literatur und
-                                Kritik.</hi>
-                  </seg>
-                  <seg rend="right">Herrn <hi rend="latintype">Arthur Schnitzler</hi>
-                  </seg>
-               </p>
-                    <p>
-                  <seg rend="left">
-                     <hi rend="pre-print">
-                        <rs type="organisation" key="pmb29417">Redaction</rs>.</hi>
-                  </seg>
-                  <seg rend="right">
-                     <hi rend="latintype">
-                        <hi rend="underline" n="1">
-                           <placeName key="pmb50">Wien</placeName>
-                        </hi>
-                     </hi>
-                  </seg>
-               </p>
-                    <p>
-                  <seg rend="left">
-                     <hi rend="pre-print">
-                        <placeName key="pmb41352">Brünn,
-                                    Schreibwaldſtraße 35</placeName>.</hi>
-                  </seg>
-                  <seg rend="right">
-                     <placeName key="pmb542">I
-                        Giſelaſtraße 11</placeName>
-                  </seg>
-               </p>
-                    <salute rend="inline">Geehrter Herr!</salute>
-                </opener>
-
-                <p>Die Handlungsweiſe des <orgName key="pmb41718">
-                  <hi rend="latintype">B.
-                            Tgbtt.</hi>
-               </orgName> iſt einfach eine <anchor type="commentary" xml:id="KLMAM20190926-1"/>Gemeinheit<note type="commentary" xml:id="KLMAM20190926-1h">Es dürfte sich um den unerlaubten und
-                        korrumpierten Nachdruck von <workName key="pmb30749">Die Frage an das
-                            Schicksal</workName> im <workName key="pmb41715">Budapester
-                            Tageblatt</workName> vom <date>13. 5. 1890</date> handeln.
-                        Er basiert auf dem Erstdruck in der <workName key="pmb35950">Modernen
-                            Dichtung</workName> vom <date>1. 5. 1890</date>.</note>. Ich
-                    werde Gelegenheit nehmen der Redaction derſelben meine Meinung zu ſagen.</p>
-                <p>Die Plauderei »<hi rend="latintype">
-                  <workName key="pmb30033">Anatols
-                            Hochzeitsmorgen</workName>
-               </hi>« ſenden Sie gefl. baldigſt ein; wenn
-                    verwendbar, würde ich dieſelbe gerne im <anchor type="commentary" xml:id="KLMAM20190926-2"/>
-               <rs type="work" key="pmb35950">Juliheft</rs>
-               <note type="commentary" xml:id="KLMAM20190926-2h">Am 7. 4. 1890 hatte
-                            <persName key="pmb41355">Michael Konstantin</persName> an <persName key="pmb11617">Gerhart Hauptmann</persName> geschrieben, »daß wir es uns
+        <body><div type="address"><address><addrLine><pb facs="OGL Joachim, Jaques (und 1 Kafka) an AS.pdf"/>Herrn <hi rend="latintype">Arthur Schnitzler</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb50" type="place">Wien</rs></hi></addrLine><addrLine><rs ref="#pmb542" type="place">I Giselastraße 11</rs></addrLine></address></div><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs="OGL Joachim, Jaques (und 1 Kafka) an AS.pdf"/><hi rend="pre-print"><rs ref="#pmb35950" type="work">Moderne
+                                    Dichtung</rs>.</hi></seg><seg rend="right"><rs ref="#pmb833" type="place">Brünn</rs><space unit="chars" quantity="1"/><date>22/5 1890</date></seg></p><p><seg rend="left"><hi rend="pre-print">Monatsſchrift für Literatur und
+                                Kritik.</hi></seg><seg rend="right">Herrn <hi rend="latintype">Arthur Schnitzler</hi></seg></p><p><seg rend="left"><hi rend="pre-print"><rs type="organisation" ref="#pmb29417" subtype="implied">Redaction</rs>.</hi></seg><seg rend="right"><hi rend="latintype"><hi rend="underline" n="1"><rs ref="#pmb50" type="place">Wien</rs></hi></hi></seg></p><p><seg rend="left"><hi rend="pre-print"><rs ref="#pmb41352" type="place">Brünn,
+                                    Schreibwaldſtraße 35</rs>.</hi></seg><seg rend="right"><rs ref="#pmb542" type="place">I
+                        Giſelaſtraße 11</rs></seg></p><salute rend="inline">Geehrter Herr!</salute></opener><p>Die Handlungsweiſe des <rs ref="#pmb41718" type="organisation"><hi rend="latintype">B.
+                            Tgbtt.</hi></rs> iſt einfach eine <anchor type="commentary" xml:id="KLMAM20190926-1"/>Gemeinheit<note type="commentary" xml:id="KLMAM20190926-1h">Es dürfte sich um den unerlaubten und
+                        korrumpierten Nachdruck von <rs ref="#pmb30749" type="work">Die Frage an das
+                            Schicksal</rs> im <rs ref="#pmb41715" type="work">Budapester
+                            Tageblatt</rs> vom <date>13.&#160;5.&#160;1890</date> handeln.
+                        Er basiert auf dem Erstdruck in der <rs ref="#pmb35950" type="work">Modernen
+                            Dichtung</rs> vom <date>1.&#160;5.&#160;1890</date>.</note>. Ich
+                    werde Gelegenheit nehmen der Redaction derſelben meine Meinung zu ſagen.</p><p>Die Plauderei »<hi rend="latintype"><rs ref="#pmb30033" type="work">Anatols
+                            Hochzeitsmorgen</rs></hi>« ſenden Sie gefl. baldigſt ein; wenn
+                    verwendbar, würde ich dieſelbe gerne im <anchor type="commentary" xml:id="KLMAM20190926-2"/><rs type="work" ref="#pmb35950" subtype="implied">Juliheft</rs><note type="commentary" xml:id="KLMAM20190926-2h">Am 7. 4. 1890 hatte
+                            <rs ref="#pmb41355" type="person">Michael Konstantin</rs> an <rs ref="#pmb11617" type="person">Gerhart Hauptmann</rs> geschrieben, »daß wir es uns
                         zur Ehre rechnen würden, Ihnen unser Heft 7 widmen zu dürfen.« Konstantin
                         bat um die Einsendung eines Photos und einer Novelle; Hauptmann schickte
-                        beides, und mit <workName key="31877 ">Der Apostel</workName> begann dann
-                        auch das Heft (<bibl>
-                     <persName key="pmb11617">Gerhart Hauptmann</persName>:
+                        beides, und mit <rs type="work" ref="31877 ">Der Apostel</rs> begann dann
+                        auch das Heft (<bibl><rs ref="#pmb11617" type="person">Gerhart Hauptmann</rs>:
                             Notiz-Kalender. 1889–1891. Hrsg. von Martin Machatzke. Frankfurt am Main
-                            1982</bibl>, S. 237).</note> bringen, in welchem vornehmlich <placeName key="pmb41240">Oesterreich</placeName>er das Wort führen werden. Ich ſende
-                    vom <rs type="work" key="pmb35950">Maiheft</rs> 5 Exempl. als Belegnu<c rendition="#gemination-m"/>ern an Ihre Adresse.</p>
-                <closer>Hochachtungsvoll<lb/>
-                    <signed>
-                  <hi rend="stamp">»Moderne Dichtung«</hi>
-               </signed>
-               <lb/>
-                    <signed>Michael Konstantin.</signed>
-                </closer>
-            </div>
-        </body>
+                            1982</bibl>, S. 237).</note> bringen, in welchem vornehmlich <rs ref="#pmb41240" type="place">Oesterreich</rs>er das Wort führen werden. Ich ſende
+                    vom <rs type="work" ref="#pmb35950" subtype="implied">Maiheft</rs> 5 Exempl. als Belegnu<c rendition="#gemination-m"/>ern an Ihre Adresse.</p><closer>Hochachtungsvoll<lb/><signed><hi rend="stamp">»Moderne Dichtung«</hi></signed><lb/><signed>Michael Konstantin.</signed></closer></div></body>
     </text>
 </TEI>

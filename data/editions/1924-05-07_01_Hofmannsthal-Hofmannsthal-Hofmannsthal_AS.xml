@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1924-05-07_01_Hofmannsthal-Hofmannsthal-Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1924-05-07_01_Hofmannsthal-Hofmannsthal-Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Hugo, Gerty und Christiane von Hofmannsthal an Arthur Schnitzler,
-               7. 5. 1924</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
-            <author key="pmb2292">Hofmannsthal, Gerty von</author>
-            <author key="pmb3220">Hofmannsthal, Christiane von</author>
+               7.&#160;5.&#160;1924</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
+            <author ref="#pmb2292">Hofmannsthal, Gerty von</author>
+            <author ref="#pmb3220">Hofmannsthal, Christiane von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,10 +55,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -64,8 +68,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -84,16 +88,16 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <persName key="pmb2292">Hofmannsthal, Gerty von</persName>
-               <persName key="pmb3220">Hofmannsthal, Christiane von</persName>
-               <placeName key="pmb901">XXXX</placeName>
-               <date when="1924-05-07" n="01">7. 5. 1924</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
+               <persName ref="#pmb3220">Hofmannsthal, Christiane von</persName>
+               <placeName ref="#pmb901">XXXX</placeName>
+               <date when="1924-05-07" n="01">7.&#160;5.&#160;1924</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             
          </correspDesc>
@@ -103,22 +107,6 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>8 V</date>
-               </dateline>
-            </opener>
-            <p>Einen Gruß zur Erinnerung an Ihre <placeName key="pmb41016">Mittelmeer</placeName>fahrt, auf der Sie mich in <placeName key="pmb682">Ragusa</placeName> besuchten! </p>
-            <closer>Ihr <signed>Hugo</signed>
-               <lb/>
-               <signed>
-                  <handShift scribe="pmb3220"/>Christiane</signed>
-               <lb/>
-               <handShift scribe="pmb2292"/>Herzlichst <signed>Gerty</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>8 V</date></dateline></opener><p>Einen Gruß zur Erinnerung an Ihre <rs ref="#pmb41016" type="place">Mittelmeer</rs>fahrt, auf der Sie mich in <rs ref="#pmb682" type="place">Ragusa</rs> besuchten! </p><closer>Ihr <signed>Hugo</signed><lb/><signed><handShift scribe="pmb3220"/>Christiane</signed><lb/><handShift scribe="pmb2292"/>Herzlichst <signed>Gerty</signed></closer></div></body>
    </text>
 </TEI>

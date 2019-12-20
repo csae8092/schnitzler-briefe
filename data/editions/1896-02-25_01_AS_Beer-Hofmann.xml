@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-02-26_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1895-02-26_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler an Richard Beer-Hofmann,
-               25. 2. 1896</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+               25.&#160;2.&#160;1896</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -52,11 +56,11 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief mit Umschlag, 1 Bl., 1 S., schwarze Tinte.</p>
+                        <p>eh. Brief mit Umschlag, 1&#160;Bl., 1&#160;S., schwarze Tinte.</p>
                         <stamp n="1">
-                           <placeName key="pmb51">Wien 1/1</placeName>
-                           <date>26. 2. 96</date>
-                           <time>12–1 V</time>
+                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
+                           <date>26.&#160;2.&#160;96</date>
+                           <time>12–1&#160;V</time>
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -69,18 +73,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1896-02-25" n="01">25. 2. 1896</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1896-02-25" n="01">25.&#160;2.&#160;1896</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-01-31_01">Schnitzler an Beer-Hofmann, 31. 1. 1896</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-05-14_01">Beer-Hofmann an Schnitzler, 14. 5. 1896</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-01-31_01">Schnitzler an Beer-Hofmann, 31.&#160;1.&#160;1896</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-05-14_01">Beer-Hofmann an Schnitzler, 14.&#160;5.&#160;1896</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -95,43 +99,11 @@
       <graphic url="1895_AS_RBH_3_00028.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1893_AS_RBH_3_00027.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb50">Wien</placeName>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb338">I. Wollzeile 15</placeName>
-                  </hi>.</addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline>
-                  <pb facs="1893_AS_RBH_3_00028.jpeg"/>
-                  <time>Abend</time>,
-                     <date>Dinstag</date>,<lb/>
-                  <date>25. 2. 96</date>.</dateline>
-               <salute>Lieber Richard.</salute>
-            </opener>
-            <p>Heute erhielt ich dieſen <anchor type="commentary" xml:id="KLMAM20191024-1"/>Brief<note type="commentary" xml:id="KLMAM20191024-1h">
-                  <persName key="pmb6294">Hugo Bettauer</persName> hatte geschrieben, dass es <persName key="pmb2450">Fels</persName> in <placeName key="pmb484">Zürich</placeName> wieder schlecht
-                  gehe. (<bibl>
-                     <orgName>DLA</orgName>, HS.NZ85.1.2518</bibl>)</note>. Ich habe
-               ſofort telegrafiſch 25 fl. angewieſen. Wenn Sie können, thun Sie dasſelbe;
-               nicht wahr?</p>
-            <closer>Herzlich der Ihre, <signed>Arthur</signed>
-            </closer>
-            <postscript>
-               <p>Könnte man auch an <persName key="pmb11740">Hugo</persName> herantreten?</p>
-            </postscript>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="1893_AS_RBH_3_00027.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
+                     Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I. Wollzeile 15</rs></hi>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline><pb facs="1893_AS_RBH_3_00028.jpeg"/><time>Abend</time>,
+                     <date>Dinstag</date>,<lb/><date>25.&#160;2.&#160;96</date>.</dateline><salute>Lieber Richard.</salute></opener><p>Heute erhielt ich dieſen <anchor type="commentary" xml:id="KLMAM20191024-1"/>Brief<note type="commentary" xml:id="KLMAM20191024-1h"><rs ref="#pmb6294" type="person">Hugo Bettauer</rs> hatte geschrieben, dass es <rs ref="#pmb2450" type="person">Fels</rs> in <rs ref="#pmb484" type="place">Zürich</rs> wieder schlecht
+                  gehe. (<bibl><rs type="organisation">DLA</rs>, HS.NZ85.1.2518</bibl>)</note>. Ich habe
+               ſofort telegrafiſch 25&#160;fl. angewieſen. Wenn Sie können, thun Sie dasſelbe;
+               nicht wahr?</p><closer>Herzlich der Ihre, <signed>Arthur</signed></closer><postscript><p>Könnte man auch an <rs ref="#pmb11740" type="person">Hugo</rs> herantreten?</p></postscript></div></body>
    </text>
 </TEI>

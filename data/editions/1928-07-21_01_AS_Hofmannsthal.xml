@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1928-07-21_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1928-07-21_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 21. 7. 1928</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 21.&#160;7.&#160;1928</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,8 +55,8 @@
                                 <idno>Hs-30885,158</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 2 Bl., 3 S. Von unbekannter Hand in Lateinschrift mit
-                                    Bleistift beschriftet: »<quote>5 Tage vor <persName key="pmb2238">Lili</persName>’s Tod</quote>«.</p>
+                                <p>eh. Brief, 2&#160;Bl., 3&#160;S. Von unbekannter Hand in Lateinschrift mit
+                                    Bleistift beschriftet: »<quote>5 Tage vor <rs ref="#pmb2238" type="person">Lili</rs>’s Tod</quote>«.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -60,8 +64,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -80,18 +84,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1928-07-21" n="01">21. 7. 1928</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1928-07-21" n="01">21.&#160;7.&#160;1928</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1928-07-10_01">Hofmannsthal an Schnitzler, 10. 7. 1928</ptr>
-               <ptr type="next" subtype="toAuthor" target="1928-07-31_01">Hofmannsthal an Schnitzler, 31. 7. 1928</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1928-07-10_01">Hofmannsthal an Schnitzler, 10.&#160;7.&#160;1928</ptr>
+               <ptr type="next" subtype="toAuthor" target="1928-07-31_01">Hofmannsthal an Schnitzler, 31.&#160;7.&#160;1928</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -101,50 +105,32 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="Hs-30885,158a_001.TIF"/>
-                        <placeName key="pmb50">Wien</placeName>, <date>21. 7. 928</date>
-                    </dateline>
-                </opener>
-                <p>
-                    <salute>mein lieber Hugo, </salute>Sie werden schon von unserer <rs type="person" key="pmb2312">Freundin-Hofrätin</rs> gehört haben, wie sehr
-                    Ihr Brief über die <workName key="pmb30817">Therese</workName> mich gefreut
-                    hat; – das Buch hat, sowohl beim Publikum, als bei den paar Menschen, auf die es
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Hs-30885,158a_001.TIF"/><rs ref="#pmb50" type="place">Wien</rs>, <date>21.&#160;7.&#160;928</date></dateline></opener><p><salute>mein lieber Hugo, </salute>Sie werden schon von unserer <rs type="person" ref="#pmb2312" subtype="implied">Freundin-Hofrätin</rs> gehört haben, wie sehr
+                    Ihr Brief über die <rs ref="#pmb30817" type="work">Therese</rs> mich gefreut
+                    hat;&#160;– das Buch hat, sowohl beim Publikum, als bei den paar Menschen, auf die es
                         <add place="above">mir</add> besonders anko<c rendition="#gemination-m"/>t,
                     mehr Erfolg als ich je hätte vermuthen dürfen. Die Entstehungsgeschichte ist
-                    einigermaßen merkwürdig, ich erzähle Ihnen einmal mehr davon.</p>
-                <p>– <persName key="pmb3220">Christiane</persName> war mir immer außerordentlich
+                    einigermaßen merkwürdig, ich erzähle Ihnen einmal mehr davon.</p><p>– <rs ref="#pmb3220" type="person">Christiane</rs> war mir immer außerordentlich
                     sympathisch – ich glaube das klare, gerade, kluge wahrhaft verläßliche ihres
-                    Wesens seit jeher gespürt zu haben u bin froh, daſs der rechte <rs type="person" key="pmb13183">Mann</rs> die rechte Wahl getroffen hat. Mögen Sie ihr bald
-                    das <placeName key="pmb882">Heidelberg</placeName>er Häuschen bauen können.
-                    Meine <rs type="person" key="pmb2238 pmb14850">Kinder</rs> in <placeName key="pmb462">Venedig</placeName> haben jetzt etliche Wohnungsschwierigkeiten
-                    durch einen kläglichen wahrhaft <persName key="pmb5892">Goldoni</persName>schen
-                        <rs type="person" key="pmb28947">Hausherrn</rs> – (»nur halt daſs er leider
-                    lebt«.) – Im übrigen sind sie glücklich, und ich hab <rs type="person" key="pmb14850">ihn</rs> (von <persName key="pmb2238">Lili</persName> gar
+                    Wesens seit jeher gespürt zu haben u bin froh, daſs der rechte <rs type="person" ref="#pmb13183" subtype="implied">Mann</rs> die rechte Wahl getroffen hat. Mögen Sie ihr bald
+                    das <rs ref="#pmb882" type="place">Heidelberg</rs>er Häuschen bauen können.
+                    Meine <rs type="person" ref="#pmb2238 pmb14850" subtype="implied">Kinder</rs> in <rs ref="#pmb462" type="place">Venedig</rs> haben jetzt etliche Wohnungsschwierigkeiten
+                    durch einen kläglichen wahrhaft <rs ref="#pmb5892" type="person">Goldoni</rs>schen
+                        <rs type="person" ref="#pmb28947" subtype="implied">Hausherrn</rs> – (»nur halt daſs er leider
+                    lebt«.) – Im übrigen sind sie glücklich, und ich hab <rs type="person" ref="#pmb14850" subtype="implied">ihn</rs> (von <rs ref="#pmb2238" type="person">Lili</rs> gar
                     nicht zu reden) sehr gern. Sie wissen, daſs wir drei im Frühjahr eine schöne
-                    Reise gemacht haben. <placeName key="pmb455">Corfu</placeName>, <placeName key="pmb505">Athen</placeName>, <placeName key="pmb966">Kon<pb facs="Hs-30885,158a_002.TIF"/>stantinopel </placeName>, <placeName key="pmb1075">Rhodus</placeName>. Jetzt war <persName key="pmb12692">Heini</persName> 10 Tage bei mir, und ich habe viel Freude von ihm
-                    gehabt.</p>
-                <p>Die Sommermonate werd ich wohl hier verbringen; ich sehe recht viel Menschen,
-                    insbesondere <placeName key="pmb175">Amerika</placeName> findet sich in
+                    Reise gemacht haben. <rs ref="#pmb455" type="place">Corfu</rs>, <rs ref="#pmb505" type="place">Athen</rs>, <rs ref="#pmb966" type="place">Kon<pb facs="Hs-30885,158a_002.TIF"/>stantinopel </rs>, <rs ref="#pmb1075" type="place">Rhodus</rs>. Jetzt war <rs ref="#pmb12692" type="person">Heini</rs> 10 Tage bei mir, und ich habe viel Freude von ihm
+                    gehabt.</p><p>Die Sommermonate werd ich wohl hier verbringen; ich sehe recht viel Menschen,
+                    insbesondere <rs ref="#pmb175" type="place">Amerika</rs> findet sich in
                     zahlreichen, oft verständnisvollen Exemplaren ein. Mit dem Arbeiten geht es ganz
                     leidlich, aber Dilettant, der ich bin und bleibe, spiel ich mich mit Figuren und
-                    Stoffen mehr herum, – und eigentlich lieber, als daſs ich die Dictatur meines
+                    Stoffen mehr herum,&#160;– und eigentlich lieber, als daſs ich die Dictatur meines
                     sogenannten Talentes oder wie wir es nennen wollen über sie ausübe. Immerhin
                     wird gelegentlich schon wieder was herausko<c rendition="#gemination-m"/>en, und
                     ans Geldverdienen muſs man ja leider immer ernstlicher und continuirlicher
-                    denken.</p>
-                <p>Die <rs type="work" key="pmb33704 pmb33706">
-                        <placeName key="pmb211">
-                            <country>aegyptische</country>
-                        </placeName>
-                    </rs> hab ich natürlich schon gekannt; in der <anchor type="commentary" xml:id="KL2077-1"/>
-                    <placeName key="pmb15">Oper</placeName>
-                    <note type="commentary" xml:id="KL2077-1h">Die <placeName key="pmb50">Wien</placeName>er Erstaufführung fand am <date>11. 6. 1928</date>
-                        statt, <persName key="pmb2121">Schnitzler</persName> war aber erst am
-                            <date>23. 6. 1928</date> in der Vorstellung.</note> hab ich einen
+                    denken.</p><p>Die <rs type="work" ref="#pmb33704 pmb33706" subtype="implied"><rs ref="#pmb211" type="place"><country>aegyptische</country></rs></rs> hab ich natürlich schon gekannt; in der <anchor type="commentary" xml:id="KL2077-1"/><rs ref="#pmb15" type="place">Oper</rs><note type="commentary" xml:id="KL2077-1h">Die <rs ref="#pmb50" type="place">Wien</rs>er Erstaufführung fand am <date>11.&#160;6.&#160;1928</date>
+                        statt, <rs ref="#pmb2121" type="person">Schnitzler</rs> war aber erst am
+                            <date>23.&#160;6.&#160;1928</date> in der Vorstellung.</note> hab ich einen
                     schönen Eindruck gehabt, und es war mir über alle Maßen interessant, Ihre
                     Dichtung so für mich hin zu lesen – und daſs Musik mir immer mitklang, spricht
                     für Dichter wie für Musiker. Es ist unglaublich, wie Ihre Sprache Möglichkeiten
@@ -152,29 +138,14 @@
                     für Musik und aus Musik zugleich. Die beiden Akte sind mir <pb facs="Hs-30885,158b_001.TIF"/>jeder für sich, einleuchtender, als in ihrem
                     innern Zusa<c rendition="#gemination-m"/>enhang; das ganze Problem hat mich sehr
                     bewegt, und ich denke. Sie hätten es noch tiefer erschöpft, wenn Sie sich – ohne
-                    jeden Gedanken <subst>
-                        <del rend="strikethrough">an die</del>
-                        <add place="above">an</add>
-                    </subst> un<unclear>d</unclear> ohne jede Rücksicht auf Melodisirung <add place="above">un<unclear>d</unclear>
-                    </add> auf Operisirung Ihrem dramatischen Ingenium hätten hingeben dürfen (wie
-                    ich derartiges in Ihren einleitenden <anchor type="commentary" xml:id="KL2077-2"/>
-                    <rs type="work" key="pmb33708">Worten</rs>
-                    <note type="commentary" xml:id="KL2077-2h">
-                        <bibl>
-                            <persName key="pmb11740">Hugo von Hofmannsthal</persName>: <workName key="pmb33708">»Die ägyptische Helena«</workName>. In: <workName key="pmb36374">Neue Freie Presse</workName>, Nr. 22832,
-                                <date>8. 4. 1928</date>, S. 31–33</bibl>
-                    </note>, schon in d <orgName key="pmb29351">N. Fr. Pr</orgName>, wunderbar
+                    jeden Gedanken <subst><del rend="strikethrough">an die</del><add place="above">an</add></subst> un<unclear>d</unclear> ohne jede Rücksicht auf Melodisirung <add place="above">un<unclear>d</unclear></add> auf Operisirung Ihrem dramatischen Ingenium hätten hingeben dürfen (wie
+                    ich derartiges in Ihren einleitenden <anchor type="commentary" xml:id="KL2077-2"/><rs type="work" ref="#pmb33708" subtype="implied">Worten</rs><note type="commentary" xml:id="KL2077-2h"><bibl><rs ref="#pmb11740" type="person">Hugo von Hofmannsthal</rs>: <rs ref="#pmb33708" type="work">»Die ägyptische Helena«</rs>. In: <rs ref="#pmb36374" type="work">Neue Freie Presse</rs>, Nr.&#160;22832,
+                                <date>8.&#160;4.&#160;1928</date>, S.&#160;31–33</bibl></note>, schon in d <rs ref="#pmb29351" type="organisation">N.&#160;Fr.&#160;Pr</rs>, wunderbar
                     angedeutet fand.). Nur mit den Liebestränken, besonders den
                     Dosirungsmöglichkeiten könnt ich mich nicht befreunden; irgendwo in mir steckt
                     doch ein Pedant und Rationalist und der Teufel soll mich holen, am Ende gar ein
-                    Recensent.</p>
-                <p>Nun mein lieber Hugo lassen Sie sich nochmals danken – und nach allen Richtungen
+                    Recensent.</p><p>Nun mein lieber Hugo lassen Sie sich nochmals danken – und nach allen Richtungen
                     bestes und gutes wünschen. Und wer weiſs, vielleicht sieht man sich sogar wieder
-                    einmal.</p>
-                <closer>Ihr getreuer<lb/>
-                    <signed>Arth</signed>
-                </closer>
-            </div>
-        </body>
+                    einmal.</p><closer>Ihr getreuer<lb/><signed>Arth</signed></closer></div></body>
     </text>
 </TEI>

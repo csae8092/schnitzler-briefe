@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-11-21_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-11-21_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 21. 11. 1891</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 21.&#160;11.&#160;1891</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -53,14 +57,14 @@
                      <physDesc>
                         <p>eh. Postkarte, schwarze Tinte.</p>
                         <stamp n="1">
-                           <placeName key="pmb1178">Maximilianstrasse Wien</placeName>
-                           <date when="1891-11-21">21. 11. 91</date>
-                           <time>6 A</time>
+                           <rs ref="#pmb1178" type="place">Maximilianstrasse Wien</rs>
+                           <date when="1891-11-21">21.&#160;11.&#160;91</date>
+                           <time>6&#160;A</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb53">Wien 3/2</placeName>
+                           <rs ref="#pmb53" type="place">Wien 3/2</rs>
                            <date when="1891-11-22">22-11 91</date>
-                           <time>8.10. V</time>
+                           <time>8.10.&#160;V</time>
                            <action>Bestellt</action>
                         </stamp>
                      </physDesc>
@@ -74,19 +78,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1891-11-21" n="01">21. 11. 1891</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1891-11-21" n="01">21.&#160;11.&#160;1891</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb53">Wien 3/2</placeName>
-               <date when="1891-11-22">22. 11. 1891</date>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb53">Wien 3/2</placeName>
+               <date when="1891-11-22">22.&#160;11.&#160;1891</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1891-09-22_01">Schnitzler an Beer-Hofmann, 22. 9. 1891</ptr>
-               <ptr type="next" subtype="toAuthor" target="1891-12-05_01">Schnitzler an Beer-Hofmann, 5. 12. 1891</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1891-09-22_01">Schnitzler an Beer-Hofmann, 22.&#160;9.&#160;1891</ptr>
+               <ptr type="next" subtype="toAuthor" target="1891-12-05_01">Schnitzler an Beer-Hofmann, 5.&#160;12.&#160;1891</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -102,41 +106,8 @@
       <graphic url="1891_AS_RBH_00008"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1891_AS_RBH_00007"/>Hrn <hi rend="latintype" n="1">Dr. Rich.
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb50">Wien</placeName>
-                  </hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb730">III. Seidlgasse 30</placeName>
-                  </hi>. </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="1891_AS_RBH_00008"/>
-               <salute>Lieber Richard! </salute>
-               <anchor type="commentary" xml:id="G16"/>
-               <date>So<c rendition="#gemination-n"/>tag</date>
-               <note type="commentary" xml:id="G16h">Am Sonntag, den 22. 11. 1891,
-                  trafen sich <persName key="pmb11740">Hofmannsthal</persName>, <persName key="pmb10863">Beer-Hofmann</persName> und <persName key="pmb2167">Salten</persName> bei Schnitzler.</note>
-               <space unit="chars" quantity="1"/>
-               <time>Nachmittag 4 Uhr</time> bin ich zu Hauſe. <hi rend="latintype">
-                  <persName key="pmb11740">Loris</persName>
-               </hi> ko<c rendition="#gemination-m"/>t auch. An <hi rend="latintype">
-                  <persName key="pmb2167">Salten</persName>
-               </hi> ſchreibe ich.</p>
-            <closer>Herzlichſt Ihr<signed>Arth Schn</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="1891_AS_RBH_00007"/>Hrn <hi rend="latintype" n="1">Dr. Rich.
+                     Beer-Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb50" type="place">Wien</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb730" type="place">III. Seidlgasse 30</rs></hi>. </addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1891_AS_RBH_00008"/><salute>Lieber Richard! </salute><anchor type="commentary" xml:id="G16"/><date>So<c rendition="#gemination-n"/>tag</date><note type="commentary" xml:id="G16h">Am Sonntag, den 22. 11. 1891,
+                  trafen sich <rs ref="#pmb11740" type="person">Hofmannsthal</rs>, <rs ref="#pmb10863" type="person">Beer-Hofmann</rs> und <rs ref="#pmb2167" type="person">Salten</rs> bei Schnitzler.</note><space unit="chars" quantity="1"/><time>Nachmittag 4 Uhr</time> bin ich zu Hauſe. <hi rend="latintype"><rs ref="#pmb11740" type="person">Loris</rs></hi> ko<c rendition="#gemination-m"/>t auch. An <hi rend="latintype"><rs ref="#pmb2167" type="person">Salten</rs></hi> ſchreibe ich.</p><closer>Herzlichſt Ihr<signed>Arth Schn</signed></closer></div></body>
    </text>
 </TEI>

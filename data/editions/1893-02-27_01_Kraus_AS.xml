@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-02-27_01_Kraus_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-02-27_01_Kraus_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Karl Kraus an Arthur Schnitzler, 27. 2. 1893</title>
-                <author key="pmb11988">Kraus, Karl</author>
+                <title level="a">Karl Kraus an Arthur Schnitzler, 27.&#160;2.&#160;1893</title>
+                <author ref="#pmb11988">Kraus, Karl</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,19 +52,19 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 55</idno>
+                                <idno>Schnitzler, B&#160;55</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Postkarte. Bleistift.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb168">Berlin. N.W. 66</placeName>
+                                    <rs ref="#pmb168" type="place">Berlin. N.W. 66</rs>
                                     <date when="1893-02-27">27/02 93</date>
-                                    <time>3–4 N</time>
+                                    <time>3–4&#160;N</time>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb50">Wien 1/1</placeName>
-                                    <date when="1893-02-28">28. 2. 93</date>
-                                    <time>5–6½ N</time>
+                                    <rs ref="#pmb50" type="place">Wien 1/1</rs>
+                                    <date when="1893-02-28">28.&#160;2. 93</date>
+                                    <time>5–6½&#160;N</time>
                                 </stamp>
                             </physDesc>
                         </msDesc>
@@ -90,18 +94,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11988">Kraus, Karl</persName>
-                    <placeName key="pmb168">Berlin</placeName>
-                    <date when="1893-02-27" n="01">27. 2. 1893</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11988">Kraus, Karl</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
+                    <date when="1893-02-27" n="01">27.&#160;2.&#160;1893</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-01-26_01">Kraus an Schnitzler, 26. 1. 1893</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-03-04_01">Kraus an Schnitzler, 4. 3. 1893</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-01-26_01">Kraus an Schnitzler, 26.&#160;1.&#160;1893</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-03-04_01">Kraus an Schnitzler, 4.&#160;3.&#160;1893</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -117,64 +121,17 @@
         <graphic url="MS-SCHNITZLER-B-00055-000-00006"/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="MS-SCHNITZLER-B-00055-000-00005"/>Herrn Schriftſteller</addrLine>
-                    <addrLine>D<hi rend="superscript">r</hi> Arthur Schnitzler,</addrLine>
-                    <addrLine>
-                        <placeName key="pmb51">Wien I</placeName>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb412">Grillparzerſtr 7</placeName>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline>
-                        <pb facs="MS-SCHNITZLER-B-00055-000-00006"/>
-                        <placeName key="pmb168">Berlin</placeName>, <date>Montag, <unclear>2</unclear>7/2 93</date>, <placeName key="pmb1176">Restaurant Schultheiß</placeName>.</dateline>
-                </opener>
-                <p>
-                    <salute>Liebſter Doctor! </salute>Mir geht’s hier famos! Geſtern war Matinée im
-                        »<placeName key="pmb720">Neuen Theater</placeName>«: »<orgName key="pmb29561">Freie Bühne</orgName>« – <workName key="pmb29827">
-                        <hi rend="underline" n="2">Weber</hi>
-                    </workName>! <hi rend="underline" n="2">Colossaler</hi> Erfolg. <persName key="pmb11617">Hauptmann</persName> war ganz glückſeelig. Im »<orgName key="pmb29625">Magazin</orgName>« (<date>25. Feber</date>) iſt von mir ein
-                        <anchor type="commentary" xml:id="KL924-1"/>
-                    <rs type="work" key="pmb33436">Artikel</rs>
-                    <note type="commentary" xml:id="KL924-1h">
-                        <bibl>
-                            <persName key="pmb11988">Karl Kraus</persName>: <workName key="pmb33436">Wiener Lyriker. »Sensationen« von Felix Dörmann (Wien: <orgName key="pmb29220">L. Weiß</orgName>) und »Gedichte« von Richard
+        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00055-000-00005"/>Herrn Schriftſteller</addrLine><addrLine>D<hi rend="superscript">r</hi> Arthur Schnitzler,</addrLine><addrLine><rs ref="#pmb51" type="place">Wien I</rs></addrLine><addrLine><rs ref="#pmb412" type="place">Grillparzerſtr 7</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline><pb facs="MS-SCHNITZLER-B-00055-000-00006"/><rs ref="#pmb168" type="place">Berlin</rs>, <date>Montag, <unclear>2</unclear>7/2 93</date>, <rs ref="#pmb1176" type="place">Restaurant Schultheiß</rs>.</dateline></opener><p><salute>Liebſter Doctor! </salute>Mir geht’s hier famos! Geſtern war Matinée im
+                        »<rs ref="#pmb720" type="place">Neuen Theater</rs>«: »<rs ref="#pmb29561" type="organisation">Freie Bühne</rs>« – <rs ref="#pmb29827" type="work"><hi rend="underline" n="2">Weber</hi></rs>! <hi rend="underline" n="2">Colossaler</hi> Erfolg. <rs ref="#pmb11617" type="person">Hauptmann</rs> war ganz glückſeelig. Im »<rs ref="#pmb29625" type="organisation">Magazin</rs>« (<date>25.&#160;Feber</date>) iſt von mir ein
+                        <anchor type="commentary" xml:id="KL924-1"/><rs type="work" ref="#pmb33436" subtype="implied">Artikel</rs><note type="commentary" xml:id="KL924-1h"><bibl><rs ref="#pmb11988" type="person">Karl Kraus</rs>: <rs ref="#pmb33436" type="work">Wiener Lyriker. »Sensationen« von Felix Dörmann (Wien: <rs ref="#pmb29220" type="organisation">L. Weiß</rs>) und »Gedichte« von Richard
                                 Specht (München: Seitz <c rendition="#kaufmannsund"/>
-                                Schauer)</workName>. In: <workName key="pmb40968">Das Magazin für
-                                Litteratur</workName>, Jg. 62, Nr. 8, <date>25. 1. 1893</date>,
-                            S. 128.</bibl>
-                    </note> über <persName key="pmb2425">Dörmann</persName> und <persName key="pmb2456">Specht</persName>. Jetzt geh ich mir das Honorar
-                    eincaſſieren.</p>
-                <p>Ach, in <placeName key="pmb168">Berlin</placeName> ist’s herrlich!! Grüßen Sie mir den <persName key="pmb2167">
-                        <hi rend="underline" n="1">Salten</hi>
-                    </persName> u D<hi rend="superscript">r</hi>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="pmb10863">
-                        <hi rend="underline" n="1">Beer-Hofmann</hi>
-                    </persName>; <persName key="pmb2425">Dörmann</persName>, <persName key="pmb26392 pmb26388">Fannjungs</persName>, <persName key="pmb16265 pmb16288" cert="medium">Fiſcher</persName> etc. ganz
-                        <placeName key="pmb34">Grienſteidl</placeName>. Ja, wenn ich hier Ihr
-                        »<workName key="pmb29823">
-                        <hi rend="underline" n="1">Märchen</hi>
-                    </workName>« im <orgName key="pmb35053">Leſſingtheater</orgName> ſehen könnte!
-                    Viele Grüße</p>
-                <closer>Ihr <signed>Karl Kraus</signed>
-                </closer>
-                <postscript>
-                    <p>
-                        <del rend="strikethrough">p. A.</del>
-                        <space unit="chars" quantity="1"/>
-                        <placeName key="pmb1177">Berlin S. O. Waldemarstr 3</placeName>/<hi rend="superscript">II</hi> p. A. <persName key="pmb4494">Carl
-                            Buſſe</persName>. Schreiben Sie bald!</p>
-                </postscript>
-            </div>
-        </body>
+                                Schauer)</rs>. In: <rs ref="#pmb40968" type="work">Das Magazin für
+                                Litteratur</rs>, Jg.&#160;62, Nr.&#160;8, <date>25.&#160;1.&#160;1893</date>,
+                            S.&#160;128.</bibl></note> über <rs ref="#pmb2425" type="person">Dörmann</rs> und <rs ref="#pmb2456" type="person">Specht</rs>. Jetzt geh ich mir das Honorar
+                    eincaſſieren.</p><p>Ach, in <rs ref="#pmb168" type="place">Berlin</rs> ist’s herrlich!! Grüßen Sie mir den <rs ref="#pmb2167" type="person"><hi rend="underline" n="1">Salten</hi></rs> u D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><rs ref="#pmb10863" type="person"><hi rend="underline" n="1">Beer-Hofmann</hi></rs>; <rs ref="#pmb2425" type="person">Dörmann</rs>, <rs ref="#pmb26392 pmb26388" type="person">Fannjungs</rs>, <rs ref="#pmb16265 pmb16288" cert="medium" type="person">Fiſcher</rs> etc. ganz
+                        <rs ref="#pmb34" type="place">Grienſteidl</rs>. Ja, wenn ich hier Ihr
+                        »<rs ref="#pmb29823" type="work"><hi rend="underline" n="1">Märchen</hi></rs>« im <rs ref="#pmb35053" type="organisation">Leſſingtheater</rs> ſehen könnte!
+                    Viele Grüße</p><closer>Ihr <signed>Karl Kraus</signed></closer><postscript><p><del rend="strikethrough">p. A.</del><space unit="chars" quantity="1"/><rs ref="#pmb1177" type="place">Berlin S. O. Waldemarstr 3</rs>/<hi rend="superscript">II</hi> p. A. <rs ref="#pmb4494" type="person">Carl
+                            Buſſe</rs>. Schreiben Sie bald!</p></postscript></div></body>
     </text>
 </TEI>

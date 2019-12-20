@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1922-01-28_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1922-01-28_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 28. 1. 1922</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 28.&#160;1.&#160;1922</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S., Lateinschrift. Von Schnitzler
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S., Lateinschrift. Von Schnitzler
                                     mit Bleistift beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>« und die hintere Ziffer der
@@ -70,8 +74,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -90,18 +94,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1922-01-28" n="01">28. 1. 1922</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1922-01-28" n="01">28.&#160;1.&#160;1922</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1921-03-19_01">Hofmannsthal an Schnitzler, 19. 3. 1921</ptr>
-               <ptr type="next" subtype="toAuthor" target="1923-01-15_01">Schnitzler an Hofmannsthal, 15. 1. 1923</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1921-03-19_01">Hofmannsthal an Schnitzler, 19.&#160;3.&#160;1921</ptr>
+               <ptr type="next" subtype="toAuthor" target="1923-01-15_01">Schnitzler an Hofmannsthal, 15.&#160;1.&#160;1923</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -111,44 +115,26 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="MS-SCHNITZLER-B-00043-B-00003-000-00143"/>
-                  <placeName key="pmb173">Rodaun</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date>28 I 21</date>
-               </dateline>
-                    <salute>mein lieber Arthur</salute>
-                </opener>
-                <p>es freut mich riesig von <persName key="pmb2312">B. Z.</persName> zu hören
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00003-000-00143"/><rs ref="#pmb173" type="place">Rodaun</rs><space unit="chars" quantity="1"/><date>28 I 21</date></dateline><salute>mein lieber Arthur</salute></opener><p>es freut mich riesig von <rs ref="#pmb2312" type="person">B.&#160;Z.</rs> zu hören
                     dass Sie zu dem <anchor type="commentary" xml:id="KL2241-1"/>Vorlesen<note type="commentary" xml:id="KL2241-1h">Die Vorlesung fand am kommenden Freitag, dem
-                            <date>3. 2. 1922</date>, im Salon von <persName key="pmb2312">Berta Zuckerkandl</persName> statt.</note> des <workName key="pmb30841">Welttheaters</workName> ko<c rendition="#gemination-m"/>en wollen – es ist
+                            <date>3.&#160;2.&#160;1922</date>, im Salon von <rs ref="#pmb2312" type="person">Berta Zuckerkandl</rs> statt.</note> des <rs ref="#pmb30841" type="work">Welttheaters</rs> ko<c rendition="#gemination-m"/>en wollen – es ist
                     ja keine Vorles<hi rend="underline" n="1">ung</hi>, sondern wirklich ein
                     bescheidenes <hi n="1" rend="underline">Vorlesen</hi> an ein paar alte und ein
                     paar neuere Bekannte u. Fremde an diesem zwanglosen neutralen Ort (in der
-                    <placeName key="pmb34024">Stallburggasse</placeName> sind nur 8 Sessel und das
+                    <rs ref="#pmb34024" type="place">Stallburggasse</rs> sind nur 8 Sessel und das
                         <pb facs="MS-SCHNITZLER-B-00043-B-00003-000-00144"/>grosse Zi<c rendition="#gemination-m"/>er heizt sich elend) und es ist mir natürlich ein
-                    liebes Geschenk, dass Sie da sein wollen.</p>
-                <p>Es ist mir immer ein bissl trüb in Erinnerung dass ich Sie, einen so nahen
+                    liebes Geschenk, dass Sie da sein wollen.</p><p>Es ist mir immer ein bissl trüb in Erinnerung dass ich Sie, einen so nahen
                     Menschen, mit dem ich mir nie im Leben <hi rend="underline" n="1">halb</hi>
-                    begegnet bin, in diesem Sommer nur in diesen <placeName key="pmb30">Salzburg</placeName>er Tagen gesehen habe, in
+                    begegnet bin, in diesem Sommer nur in diesen <rs ref="#pmb30" type="place">Salzburg</rs>er Tagen gesehen habe, in
                     einem noch <pb facs="MS-SCHNITZLER-B-00043-B-00003-000-00144"/>währenden
                     Übelbefinden u. einer Beschäftigtheit wie sie dort entsteht (sie bezog sich ja
-                    auf das noch unentstandene Welttheater) – nur wie durch einen Schleier. –</p>
-                <p>Ich bitte Sie um einen Rat, Arthur, den Sie mir am <date>Freitag</date>
-               <space unit="chars" quantity="1"/>
-               <hi n="1" rend="underline">mündlich</hi> geben
+                    auf das noch unentstandene Welttheater) – nur wie durch einen Schleier. –</p><p>Ich bitte Sie um einen Rat, Arthur, den Sie mir am <date>Freitag</date><space unit="chars" quantity="1"/><hi n="1" rend="underline">mündlich</hi> geben
                     können. Während ich um Broterwerbes willen <pb facs="MS-SCHNITZLER-B-00043-B-00003-000-00143"/>fast über meine Kräfte
                     Arbeit auf mich nehme (Schriftstellerische, nicht Dichterische, die muss ich
                     fast zurückdrängen), bin ich andererseits unvertraut mit dem was man in
                     Anpassung an den veränderten Zustand verlangen u. beko<c rendition="#gemination-m"/>en müsste, so dies: welche Forderung hätte man
                     (Sie oder ich, wir kommen beide in Frage) für Überlassung eines Werkes für eine
-                    Luxusausgabe an den <orgName key="pmb29758">Rikolaverlag</orgName>
-                    vernünftigerweise einmalig zu verlangen?</p>
-                <closer>Also hoffentlich auf Wiedersehen <date>Freitag</date>!<space unit="chars" quantity="7"/>Ihr Hugo. </closer>
-            </div>
-        </body>
+                    Luxusausgabe an den <rs ref="#pmb29758" type="organisation">Rikolaverlag</rs>
+                    vernünftigerweise einmalig zu verlangen?</p><closer>Also hoffentlich auf Wiedersehen <date>Freitag</date>!<space unit="chars" quantity="7"/>Ihr Hugo. </closer></div></body>
     </text>
 </TEI>

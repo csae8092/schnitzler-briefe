@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-07-18_03_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1894-07-18_03_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, [18. 7. 1894?]</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, [18.&#160;7.&#160;1894?]</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +54,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief mit Umschlag, 1 Bl., 3 S., Bleistift. Der Brief ist nicht
+                        <p>eh. Brief mit Umschlag, 1&#160;Bl., 3&#160;S., Bleistift. Der Brief ist nicht
                            gelaufen.</p>
                      </physDesc>
                   </msDesc>
@@ -65,17 +68,17 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb213">Bad Ischl</placeName>
-               <date when="1894-07-18" n="03">[18. 7. 1894?]</date>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb213">Bad Ischl</placeName>
+               <date when="1894-07-18" n="03">[18.&#160;7.&#160;1894?]</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb213">Bad Ischl</placeName>
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb213">Bad Ischl</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-07-18_02">Beer-Hofmann an Schnitzler, [18. 7. 1894]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-07-30_01">Schnitzler an Beer-Hofmann, [30. 7. 1894]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-07-18_02">Beer-Hofmann an Schnitzler, [18.&#160;7.&#160;1894]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-07-30_01">Schnitzler an Beer-Hofmann, [30.&#160;7.&#160;1894]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -92,41 +95,17 @@
       <graphic url="1894_AS_RBH_4_00007.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1894_AS_RBH_4_00005"/>Herrn <hi rend="latintype">Dr. Richard Beer
-                     Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb213">Ischl</placeName>
-                  </hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb766">
-                     <hi rend="latintype">Egelmoos 22</hi>
-                  </placeName>.</addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="1894_AS_RBH_4_00006"/>
-               <salute>Lieber Richard! –</salute>Ich wüßt nicht, warum <placeName key="pmb30">Salzburg</placeName> ganz ins Waſſer fallen ſoll, weil <persName key="pmb10815">Bahr</persName> keine Zeit hat. Auch hat <persName key="pmb11740">Hugo</persName>
-               ziemlich ſicher zugeſagt. – Ich fahr jedenfalls über <placeName key="pmb30">Salzburg</placeName> zurück. – Ich antworte dem <pb facs="1894_AS_RBH_4_00007"/>
-               <persName key="pmb10815">Bahr</persName> natürlich, daſs ich <date>Samſtag</date>
-               noch hier bin. Ich werd wohl <date>Sonntag</date> wegfahren. –</p>
-            <p>Heut geh ich zwiſchen <time>5</time> u <time>6</time> zu <placeName key="pmb22203 pmb42107">Ornſtein</placeName> <add place="below">(<persName key="pmb27449">Gina Z.</persName>)</add>. Ich glaube, dſs ich dann zwiſchen <time>7</time> u <time>½ 8</time> auf die
-                  <placeName key="pmb42117">
-                  <hi rend="latintype">Esplan.</hi>
-               </placeName> wi<c rendition="#gemination-m"/>eln werde. Nett <pb facs="1894_AS_RBH_4_00007"/>wärs we<c rendition="#gemination-n"/> Sie mit mir bei
-                  <placeName key="pmb414">Leopold</placeName>
-               <space unit="chars" quantity="1"/>
-               <add place="above">zu Nacht,</add> ſpeiſten.</p>
-            <closer>Herzlich Ihr <signed>Arthur</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="1894_AS_RBH_4_00005"/>Herrn <hi rend="latintype">Dr. Richard Beer
+                     Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb213" type="place">Ischl</rs></hi></addrLine><addrLine><rs ref="#pmb766" type="place"><hi rend="latintype">Egelmoos&#160;22</hi></rs>.</addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1894_AS_RBH_4_00006"/><salute>Lieber Richard!&#160;–</salute>Ich wüßt nicht, warum <rs ref="#pmb30" type="place"
+                  >Salzburg</rs> ganz ins Waſſer fallen ſoll, weil <rs ref="#pmb10815" type="person"
+                  >Bahr</rs> keine Zeit hat. Auch hat <rs ref="#pmb11740" type="person">Hugo</rs>
+               ziemlich ſicher zugeſagt.&#160;– Ich fahr jedenfalls über <rs ref="#pmb30" type="place"
+                  >Salzburg</rs> zurück.&#160;– Ich antworte dem <pb facs="1894_AS_RBH_4_00007"/><rs ref="#pmb10815" type="person">Bahr</rs> natürlich, daſs ich <date>Samſtag</date>
+               noch hier bin. Ich werd wohl <date>Sonntag</date> wegfahren.&#160;–</p><p>Heut geh ich zwiſchen <time>5</time> u <time>6</time> zu <rs
+                  ref="#pmb22203 pmb42107" type="place">Ornſtein</rs><add place="below">(<rs
+                     ref="#pmb27449" type="person">Gina Z.</rs>)</add>. Ich glaube, dſs ich dann zwiſchen <time>7</time> u <time>½&#160;8</time> auf die
+                  <rs ref="#pmb42117" type="place"><hi rend="latintype">Esplan.</hi></rs> wi<c rendition="#gemination-m"/>eln werde. Nett <pb
+                  facs="1894_AS_RBH_4_00007"/>wärs we<c rendition="#gemination-n"/> Sie mit mir bei
+                  <rs ref="#pmb414" type="place">Leopold</rs><space unit="chars" quantity="1"/><add place="above">zu Nacht,</add> ſpeiſten.</p><closer>Herzlich Ihr <signed>Arthur</signed></closer></div></body>
    </text>
 </TEI>

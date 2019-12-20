@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1916-09-24_01_Adam_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1916-09-24_01_Adam_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 24. 9. 1916</title>
-                <author key="pmb12438">Adam, Robert</author>
+                <title level="a">Robert Adam an Arthur Schnitzler, 24.&#160;9.&#160;1916</title>
+                <author ref="#pmb12438">Adam, Robert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>A:Schnitzler, HS.NZ85.1.4230,16</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S. Von Schnitzler beschriftet: »<quote>
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Adam</hi>
                            </quote>«.</p>
                             </physDesc>
@@ -76,18 +80,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1916-09-24" n="01">24. 9. 1916</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1916-09-24" n="01">24.&#160;9.&#160;1916</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1916-07-19_01">Schnitzler an Adam, 19. 7. 1916</ptr>
-               <ptr type="next" subtype="toAuthor" target="1916-10-09_01">Schnitzler an Adam, 9. 10. 1916</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1916-07-19_01">Schnitzler an Adam, 19.&#160;7.&#160;1916</ptr>
+               <ptr type="next" subtype="toAuthor" target="1916-10-09_01">Schnitzler an Adam, 9.&#160;10.&#160;1916</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -98,81 +102,44 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="OGL Kopie"/>
-                  <placeName key="pmb50">Wien</placeName>, am <date>24. September 1916</date>
-               </dateline>
-                    <salute>Hochverehrter Herr Doktor!</salute>
-            </opener>
-                <p>Ich vermute Sie, nach einem ſchönen und erholungsreichen Sommer, ſchon wieder
-                    nach <placeName key="pmb50">Wien</placeName> zurückgekehrt und bin, Ihrer liebenswürdigen Erlaubnis eingedenk, auch
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="OGL Kopie"/><rs ref="#pmb50" type="place">Wien</rs>, am <date>24.&#160;September 1916</date></dateline><salute>Hochverehrter Herr Doktor!</salute></opener><p>Ich vermute Sie, nach einem ſchönen und erholungsreichen Sommer, ſchon wieder
+                    nach <rs ref="#pmb50" type="place">Wien</rs> zurückgekehrt und bin, Ihrer liebenswürdigen Erlaubnis eingedenk, auch
                     schon unbeſcheiden genug, anzufragen, ob ich Sie einmal durch einen Beſuch
-                    ſtören darf?</p>
-                <p>Mir iſt die Zeit ſeit Ende meines Urlaubs unter unausgeſetzter und ſehr
+                    ſtören darf?</p><p>Mir iſt die Zeit ſeit Ende meines Urlaubs unter unausgeſetzter und ſehr
                     anſtrengender Amtsarbeit vergangen, und wenn Sie mich fragen ſollten, was ich in
                     dieſen Monaten Dichteriſches geleiſtet, ſo müßte ich ſehr kleinlaut werden. Ich
-                    habe allerdings an einer <pb facs="OGL Kopie"/>ſonderbaren <rs type="work" key="pmb33666">Märchenkomödie</rs> zu
+                    habe allerdings an einer <pb facs="OGL Kopie"/>ſonderbaren <rs type="work" ref="#pmb33666" subtype="implied">Märchenkomödie</rs> zu
                     ſchreiben begonnen, aber kraft- und zuglos, gewiſſermaßen 
                     <del rend="strikethrough">unter de</del> im drückenden
                     Bewußtſein der Unterernährtheit, nur an freien Sonntagnachmittagen: und daß
-                    dabei nichts Erſprießliches herausſchauen konnte, iſt gewiß klar.</p>
-                <p>(Dafür habe ich in den letzten Tagen ein leibliches <rs type="person" key="pmb29179">Kind</rs> gekriegt, einen Buben,
-                    der anſcheinend gut gedeiht, und damit darf ich mich tröſten).</p>
-                <p>Ich bin Ihnen für viele Bücher, die Sie mir anrieten, großen Dank ſchuldig: vor
-                    allem für den <persName key="pmb11110">
-                  <hi rend="latintype">Coster</hi>
-               </persName>’ſchen
-                    <workName key="pmb33636">
-                  <hi rend="latintype">Uhlenspiegel</hi>
-               </workName>
-                    und den <workName key="pmb33640">
-                  <hi rend="latintype">Jean-Christophe</hi>
-               </workName> (ich halte ſchon
-                    beim ersten Bande). Auch den »<workName key="pmb33638">Deutschen Krieg</workName>« der 
-                    <persName key="pmb11780">
-                  <hi rend="latintype">Ricarda Huch</hi>
-               </persName> habe ich zu zwei
+                    dabei nichts Erſprießliches herausſchauen konnte, iſt gewiß klar.</p><p>(Dafür habe ich in den letzten Tagen ein leibliches <rs type="person" ref="#pmb29179" subtype="implied">Kind</rs> gekriegt, einen Buben,
+                    der anſcheinend gut gedeiht, und damit darf ich mich tröſten).</p><p>Ich bin Ihnen für viele Bücher, die Sie mir anrieten, großen Dank ſchuldig: vor
+                    allem für den <rs ref="#pmb11110" type="person"><hi rend="latintype">Coster</hi></rs>’ſchen
+                    <rs ref="#pmb33636" type="work"><hi rend="latintype">Uhlenspiegel</hi></rs>
+                    und den <rs ref="#pmb33640" type="work"><hi rend="latintype">Jean-Christophe</hi></rs> (ich halte ſchon
+                    beim ersten Bande). Auch den »<rs ref="#pmb33638" type="work">Deutschen Krieg</rs>« der 
+                    <rs ref="#pmb11780" type="person"><hi rend="latintype">Ricarda Huch</hi></rs> habe ich zu zwei
                     Dritteln gelesen, mit großer Hochachtung für den phantaſievollen Geiſt, der den
                     Canvas der pragmatischen Geſchichtsſchreibung mit <pb facs="OGL Kopie"/>farbigen Bildern gediegenſter Ausführung beſtickt hat; aber ich kann mir halt
                     nicht helfen, ich komme über den Eindruck einer – gewiß vorzüglichen und nie
                     geſchmacklosen – Handarbeit nicht <del rend="strikethrough">hinaus</del> hinweg, allerdings der umfangreichsten
                     und mühevollſten Handarbeit, die ich noch je gelesen habe; ich muß hinzufügen:
-                    auch der originellſten.</p>
-                <p>Eines der Bücher von <persName key="pmb3176">
-                  <hi rend="latintype">Lenotre</hi>
-               </persName> (deſſen Bekanntſchaft ich auch Ihnen verdanke) lese
-                    ich gerade: <workName key="pmb33642">
-                  <hi rend="latintype">Bleus, Blancs + Rouges</hi>
-               </workName> und werde gewiß auch die andern leſen; in dem
-                    Zitierten iſt ein wunderſchöner Komödienſtoff zu finden (<workName key="pmb33644">
-                  <hi rend="latintype">Le mariage de Monsieur
-                    de Bréchard</hi>
-               </workName>). Unangenehm berührt mich nur die prononzierte Parteinahme des
+                    auch der originellſten.</p><p>Eines der Bücher von <rs ref="#pmb3176" type="person"><hi rend="latintype">Lenotre</hi></rs> (deſſen Bekanntſchaft ich auch Ihnen verdanke) lese
+                    ich gerade: <rs ref="#pmb33642" type="work"><hi rend="latintype">Bleus, Blancs + Rouges</hi></rs> und werde gewiß auch die andern leſen; in dem
+                    Zitierten iſt ein wunderſchöner Komödienſtoff zu finden (<rs ref="#pmb33644" type="work"><hi rend="latintype">Le mariage de Monsieur
+                    de Bréchard</hi></rs>). Unangenehm berührt mich nur die prononzierte Parteinahme des
                     Autors, der ein erzkatholiſcher Royaliſt ſein muß, für jeden Antirevolutionär
                     und gegen jeden Terroriſten: die zur Folge hat, daß ſeine hiſtoriſchen Novellen
-                    nur Engel und Teu<pb facs="OGL Kopie"/>fel zu Helden haben.</p>
-                <p>Wegen der <rs type="work" key="pmb33652">Memoiren</rs> von <persName key="pmb11190">
-                  <hi rend="latintype">Alexandre Dumas Père</hi>
-               </persName> 
-                    habe ich vergeblich die <placeName key="pmb50">Wien</placeName>er
+                    nur Engel und Teu<pb facs="OGL Kopie"/>fel zu Helden haben.</p><p>Wegen der <rs type="work" ref="#pmb33652" subtype="implied">Memoiren</rs> von <rs ref="#pmb11190" type="person"><hi rend="latintype">Alexandre Dumas Père</hi></rs> 
+                    habe ich vergeblich die <rs ref="#pmb50" type="place">Wien</rs>er
                     Buchhandlungen beſucht; ich weiß ſicher, daß ich ein Exemplar bei Sommerbeginn
                     in einer Auslage ſah; es muß ſeither verkauft worden ſein. Selbſtverſtändlich
                     ſteht Ihnen, Hochverehrter Herr Doktor, mein Exemplar jederzeit zur Verfügung.
-                    Darf ich es Ihnen ſchicken?</p>
-                <p>Ich freue mich ſchon ungemein darauf, Sie wiederzuſehen: ohne Ihre Teilnahme, das
+                    Darf ich es Ihnen ſchicken?</p><p>Ich freue mich ſchon ungemein darauf, Sie wiederzuſehen: ohne Ihre Teilnahme, das
                     fühle ich, wäre ich ſchon längſt entmutigt von allen Dichterplänen abgekommen
-                    und zum einfachen <placeName key="pmb50">Wien</placeName>er Bezirksrichter 
+                    und zum einfachen <rs ref="#pmb50" type="place">Wien</rs>er Bezirksrichter 
                     mit einigem Gelehrſamkeitsaſpirationen
                     geworden. Und vielleicht bringe ich, wenn nur erſt dieſer Krieg vorüber iſt,
-                    doch noch etwas Anſtändiges zuwege.</p>
-                <p>Mit den freundlichſten Grüßen Ihr ergebener</p>
-                <closer>
-               <signed>Robert Adam</signed>                                               
-                </closer>
-            </div>
-        </body>
+                    doch noch etwas Anſtändiges zuwege.</p><p>Mit den freundlichſten Grüßen Ihr ergebener</p><closer><signed>Robert Adam</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-06-21_01_Conrad_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-06-21_01_Conrad_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Michael Georg Conrad an Arthur Schnitzler, 21. 6. 1893</title>
-                <author key="pmb11098">Conrad, Michael Georg</author>
+                <title level="a">Michael Georg Conrad an Arthur Schnitzler, 21.&#160;6.&#160;1893</title>
+                <author ref="#pmb11098">Conrad, Michael Georg</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -55,14 +59,14 @@
                                     nummeriert: »<quote>2</quote>«, von weiterer Hand mit rotem
                                     Buntstift nummeriert: »3«.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb38129">Muenchen L.</placeName>
-                                    <date when="1893-06-21" n="01">21. <unclear>JU</unclear>N<supplied>I 1893</supplied>
+                                    <rs ref="#pmb38129" type="place">Muenchen L.</rs>
+                                    <date when="1893-06-21" n="01">21.&#160;<unclear>JU</unclear>N<supplied>I 1893</supplied>
                                     </date>
-                                    <time>4–<unclear>5 N</unclear>
+                                    <time>4–<unclear>5&#160;N</unclear>
                                     </time>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb50">Wien</placeName>
+                                    <rs ref="#pmb50" type="place">Wien</rs>
                                     <date when="1893-06-22" n="01">22 6 93</date>
                                     <time>9-10½V</time>
                                 </stamp>
@@ -77,19 +81,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11098">Conrad, Michael Georg</persName>
-                    <placeName key="pmb38129">München</placeName>
-                    <date when="1893-06-21" n="01">21. 6. 1893</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11098">Conrad, Michael Georg</persName>
+                    <placeName ref="#pmb38129">München</placeName>
+                    <date when="1893-06-21" n="01">21.&#160;6.&#160;1893</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1893-06-22">22. 6. 1893</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1893-06-22">22.&#160;6.&#160;1893</date>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-03-28_01">Conrad an Schnitzler, 28. 3. 1893</ptr>
-               <ptr type="next" subtype="toAuthor" target="1904-01-22_01">Conrad an Schnitzler, 22. 1. 1904</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-03-28_01">Conrad an Schnitzler, 28.&#160;3.&#160;1893</ptr>
+               <ptr type="next" subtype="toAuthor" target="1904-01-22_01">Conrad an Schnitzler, 22.&#160;1.&#160;1904</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -101,39 +105,12 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="TMW HS_Schn1_83_1_1.jpg"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi>
-                        </hi> Arthur Schnitzler</addrLine>
-                    <addrLine>
-                        <placeName key="pmb51">Wien I.</placeName>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb412">Grillparzerſtr. 7</placeName>.</addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline>
-                        <pb facs="TMW HS_Schn1_83_1_2.jpg"/>
-                        <placeName key="pmb38129">München</placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>21. 6. 93.</date>
-                    </dateline>
-                </opener>
-                <p>
-                    <salute>Lieber Herr Doktor, </salute>eben von einer Wahlreiſe heimgekehrt, finde
-                    ich Ihren werten Brief. Hier in Eile die Antwort: Ihre wunderſchönen <rs type="work" key="pmb33558 pmb33560">Gedichte</rs> habe ich mit beſten
-                    Empfehlungen an <persName key="pmb5754">Hans Merian</persName> zur Aufnahme in
-                    die »<workName key="pmb35919">Geſellſch.</workName>« übergeben. Ich bin
+        <body><div type="address"><address><addrLine><pb facs="TMW HS_Schn1_83_1_1.jpg"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi></hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb51" type="place">Wien I.</rs></addrLine><addrLine><rs ref="#pmb412" type="place">Grillparzerſtr. 7</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline><pb facs="TMW HS_Schn1_83_1_2.jpg"/><rs ref="#pmb38129" type="place">München</rs><space unit="chars" quantity="1"/><date>21.&#160;6.&#160;93.</date></dateline></opener><p><salute>Lieber Herr Doktor, </salute>eben von einer Wahlreiſe heimgekehrt, finde
+                    ich Ihren werten Brief. Hier in Eile die Antwort: Ihre wunderſchönen <rs type="work" ref="#pmb33558 pmb33560" subtype="implied">Gedichte</rs> habe ich mit beſten
+                    Empfehlungen an <rs ref="#pmb5754" type="person">Hans Merian</rs> zur Aufnahme in
+                    die »<rs ref="#pmb35919" type="work">Geſellſch.</rs>« übergeben. Ich bin
                     überzeugt, daß <hi rend="underline" n="1">nur</hi> redaktionell-techniſche
                     Gründe imſtande ſein können, den Abdruck ſo vortrefflicher Beiträge zu
-                    verzögern. Mit Dank und Gruß</p>
-                <closer>Ihr ergebener <signed>Conrad.</signed>
-                </closer>
-            </div>
-        </body>
+                    verzögern. Mit Dank und Gruß</p><closer>Ihr ergebener <signed>Conrad.</signed></closer></div></body>
     </text>
 </TEI>

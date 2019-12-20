@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1903-04-04_01_Bahr_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1903-04-04_01_Bahr_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 4. 4. 1903</title>
-            <author key="pmb10815">Bahr, Hermann</author>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 4.&#160;4.&#160;1903</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                <name full="yes" instant="false">Müller, Martin Anton</name>
             </editor>
@@ -47,10 +51,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 5b</idno>
+                        <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 3 S.</p>
+                        <p>eh. Brief, 1&#160;Bl., 3&#160;S.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -58,8 +62,8 @@
             <listBibl>
                <biblStruct corresp="HBAS">
                   <monogr>
-                     <author key="pmb10815">Bahr, Hermann</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
                      <imprint>
@@ -77,18 +81,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">[Wien]</placeName>
-               <date when="1903-04-04" n="01">4. 4. 1903</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
+               <date when="1903-04-04" n="01">4.&#160;4.&#160;1903</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1903-03-30_02">Bahr an Schnitzler, [30. 3. 1903]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1903-04-06_01">Schnitzler an Bahr, 6. 4. 1903</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1903-03-30_02">Bahr an Schnitzler, [30.&#160;3.&#160;1903]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1903-04-06_01">Schnitzler an Bahr, 6.&#160;4.&#160;1903</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -104,55 +108,26 @@
       <graphic url="MS-B-00005-B-000-00174"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>4. 4.</date>
-               </dateline>
-               <salute rend="center">Lieber Arthur!</salute>
-            </opener>
-            <p>Nächstens erscheint von mir bei <persName key="pmb11324">Fischer</persName> ein Band
-                  »<workName key="pmb29891">Rezensionen</workName>«, Kritiken von 1901–1903. Mir
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>4.&#160;4.</date></dateline><salute rend="center">Lieber Arthur!</salute></opener><p>Nächstens erscheint von mir bei <rs ref="#pmb11324" type="person">Fischer</rs> ein Band
+                  »<rs ref="#pmb29891" type="work">Rezensionen</rs>«, Kritiken von 1901–1903. Mir
                wäre lieb, ihn Dir widmen zu dürfen. Macht Dir das aber keinen Spaß oder ist es Dir
                aus irgend einem Grunde, den Du mir gar nicht zu nennen brauchst, (vielleicht, weil
                man wieder Clique sagen wird), zuwider oder auch nur unbequem, kurz wenn Du irgend
                das Gefühl hast: Lieber nicht, so werde ich weder beleidigt noch gekränkt noch
                verschnupft noch irgend unangenehm berührt oder gegen Dich verändert sein, so weit
-               kennst Du mich doch!<pb facs="MS-B-00005-B-000-00173"/>
-            </p>
-            <p>Im <orgName key="pmb36376">Neuen Wiener Journal</orgName> steht, daß Du <anchor type="commentary" xml:id="KL258-1"/>geheiratet hast<note type="commentary" xml:id="KL258-1h">
-                  <bibl>
-                     <workName key="pmb36376">Neues Wiener Journal</workName>, Jg. 11, Nr. 3389,
-                        <date>3. 4. 1903</date>, S. 6</bibl>: »<quote>Wie uns
-                        mitgethei<supplied>l</supplied>t wird, hat sich Dr. Arthur <hi rend="spaced_out">Schnitzler</hi> dieser Tage in aller Stille <hi rend="spaced_out">vermählt</hi>. Seine <rs type="person" key="pmb2173">Gattin</rs> ist eine junge Dame, die noch vor Kurzem das <placeName key="pmb2">Conservatorium</placeName> besucht hat.</quote>« Am Folgetag
-                  stand auf <bibl>S. 8</bibl>: »<quote>Herr Dr. Arthur <hi rend="spaced_out">Schnitzler</hi> theilt uns mit, daß er noch immer unvermählt
+               kennst Du mich doch!<pb facs="MS-B-00005-B-000-00173"/></p><p>Im <rs ref="#pmb36376" type="organisation">Neuen Wiener Journal</rs> steht, daß Du <anchor type="commentary" xml:id="KL258-1"/>geheiratet hast<note type="commentary" xml:id="KL258-1h"><bibl><rs ref="#pmb36376" type="work">Neues Wiener Journal</rs>, Jg.&#160;11, Nr.&#160;3389,
+                        <date>3.&#160;4.&#160;1903</date>, S.&#160;6</bibl>: »<quote>Wie uns
+                        mitgethei<supplied>l</supplied>t wird, hat sich Dr. Arthur <hi rend="spaced_out">Schnitzler</hi> dieser Tage in aller Stille <hi rend="spaced_out">vermählt</hi>. Seine <rs type="person" ref="#pmb2173" subtype="implied">Gattin</rs> ist eine junge Dame, die noch vor Kurzem das <rs ref="#pmb2" type="place">Conservatorium</rs> besucht hat.</quote>« Am Folgetag
+                  stand auf <bibl>S.&#160;8</bibl>: »<quote>Herr Dr. Arthur <hi rend="spaced_out">Schnitzler</hi> theilt uns mit, daß er noch immer unvermählt
                   ist.</quote>«</note>. Vielleicht ist es aber nicht wahr. Nach meinen Erfahrungen
                einer Ehe von acht Jahren kann man Dir in beiden Fällen herzlich gratulieren, was
                hiemit geschieht. Damit Du aber siehst, wie man in dieser Institution herabkommt,
-               wisse, daß ich Deinem <anchor type="commentary" xml:id="KL258-2"/>Bernhardiner<note type="commentary" xml:id="KL258-2h">
-                  <persName key="pmb2121">Schnitzler</persName> besaß für kurze Zeit, vermutlich ab
-                  dem <date>23. 3. 1902</date>, einen Bernhardiner namens »Bern«. Im
-                     <date>Oktober</date> wurde er in dem im gleichen Monat eröffneten <placeName key="pmb690">Tierschutzhaus</placeName> des <orgName key="pmb29302">Wiener
-                     Tierschutz-Vereins</orgName> behandelt; <date>Mitte Dezember</date> erneut. Im
-                  Jahr <date>1903</date> finden sich zwar noch drei Erwähnungen im Tagebuch (<bibl>
-                     <date>23. 5.</date>, <date>18. 6.</date> und <date>6. 8</date>
-                  </bibl>), doch er dürfte nicht mehr bei der Familie gelebt haben (<bibl>Vgl. A. S.
-                        <workName key="pmb33243">Tagebuch</workName>
-                     <space unit="chars" quantity="1"/>
-                     <date>1902</date>, <workName>B</workName> II,118</bibl>).</note> leider
-               entsagen muß, vorläufig wenigstens, da meine <rs type="person" key="pmb13682">Frau</rs> gerade wieder die Laune hat, alle Hunde zu haßen.</p>
-            <closer>Herzlichst<lb/>Dein<lb/>
-               <signed>Hermann<pb facs="MS-B-00005-B-000-00174"/>
-               </signed>
-            </closer>
-            <postscript>
-               <p>Die Widmung soll lauten:</p>
-               <frame>
-                  <p rend="center">Meinem lieben Arthur Schnitzler<lb/>nach zwölf Jahren.</p>
-               </frame>
-            </postscript>
-         </div>
-      </body>
+               wisse, daß ich Deinem <anchor type="commentary" xml:id="KL258-2"/>Bernhardiner<note type="commentary" xml:id="KL258-2h"><rs ref="#pmb2121" type="person">Schnitzler</rs> besaß für kurze Zeit, vermutlich ab
+                  dem <date>23.&#160;3.&#160;1902</date>, einen Bernhardiner namens »Bern«. Im
+                     <date>Oktober</date> wurde er in dem im gleichen Monat eröffneten <rs ref="#pmb690" type="place">Tierschutzhaus</rs> des <rs ref="#pmb29302" type="organisation">Wiener
+                     Tierschutz-Vereins</rs> behandelt; <date>Mitte Dezember</date> erneut. Im
+                  Jahr <date>1903</date> finden sich zwar noch drei Erwähnungen im Tagebuch (<bibl><date>23.&#160;5.</date>, <date>18.&#160;6.</date> und <date>6.&#160;8</date></bibl>), doch er dürfte nicht mehr bei der Familie gelebt haben (<bibl>Vgl. A. S.
+                        <rs ref="#pmb33243" type="work">Tagebuch</rs><space unit="chars" quantity="1"/><date>1902</date>, <rs type="work">B</rs> II,118</bibl>).</note> leider
+               entsagen muß, vorläufig wenigstens, da meine <rs type="person" ref="#pmb13682" subtype="implied">Frau</rs> gerade wieder die Laune hat, alle Hunde zu haßen.</p><closer>Herzlichst<lb/>Dein<lb/><signed>Hermann<pb facs="MS-B-00005-B-000-00174"/></signed></closer><postscript><p>Die Widmung soll lauten:</p><frame><p rend="center">Meinem lieben Arthur Schnitzler<lb/>nach zwölf Jahren.</p></frame></postscript></div></body>
    </text>
 </TEI>

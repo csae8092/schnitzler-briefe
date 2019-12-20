@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-01-16_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1899-01-16_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [16. 1. 1899]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [16.&#160;1.&#160;1899]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., schwarze Tinte. Von Schnitzler mit
                                     Bleistift datiert: »<quote>
                                         <date>Jän 99</date>?</quote>«. Von unbekannter Hand mit
                                     Bleistift nummeriert: »<quote>
@@ -65,8 +69,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -85,18 +89,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1899-01-16" n="01">[16. 1. 1899]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1899-01-16" n="01">[16.&#160;1.&#160;1899]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-01-11_01">Hofmannsthal an Schnitzler, [nach dem 11.? 1. 1899]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-02-02_01">Hofmannsthal an Schnitzler, 2. 2. 1899</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-01-11_01">Hofmannsthal an Schnitzler, [nach dem 11.?&#160;1.&#160;1899]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-02-02_01">Hofmannsthal an Schnitzler, 2.&#160;2.&#160;1899</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -112,37 +116,17 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00287"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00287"/>
-                        <date>Montag</date>
-                        <space unit="chars" quantity="1"/>
-                        <date>abend</date>
-                    </dateline>
-                    <salute>lieber Arthur,</salute>
-                </opener>
-                <p>es möchte mir <hi n="1" rend="underline">ſehr</hi> viel dranliegen ſchon morgen
-                        <anchor type="commentary" xml:id="KL2250-1"/>
-                    <date>Dienstag</date>
-                    <note type="commentary" xml:id="KL2250-1h">Die Datierung <persName key="pmb2121">Schnitzler</persName>s auf <date>Januar</date> dürfte stimmen, am
-                            <date>Dienstag, den 17. 1. 1899</date> las <persName key="pmb11740">Hofmannsthal</persName> bei ihm <workName key="pmb32512">Der Abenteurer
-                            und die Sängerin</workName> vor. Neben anderen war auch der in der Folge
-                        angesprochene <persName key="pmb10863">Richard Beer-Hofmann</persName>
-                        anwesend.</note>
-                    <space unit="chars" quantity="1"/>
-                    <time>abend</time> bei Ihnen zu leſen. Wenn es Ihnen paſst ſchreiben Sie bitte
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00287"/><date>Montag</date><space unit="chars" quantity="1"/><date>abend</date></dateline><salute>lieber Arthur,</salute></opener><p>es möchte mir <hi n="1" rend="underline">ſehr</hi> viel dranliegen ſchon morgen
+                        <anchor type="commentary" xml:id="KL2250-1"/><date>Dienstag</date><note type="commentary" xml:id="KL2250-1h">Die Datierung <rs ref="#pmb2121" type="person">Schnitzler</rs>s auf <date>Januar</date> dürfte stimmen, am
+                            <date>Dienstag, den 17.&#160;1.&#160;1899</date> las <rs ref="#pmb11740" type="person">Hofmannsthal</rs> bei ihm <rs ref="#pmb32512" type="work">Der Abenteurer
+                            und die Sängerin</rs> vor. Neben anderen war auch der in der Folge
+                        angesprochene <rs ref="#pmb10863" type="person">Richard Beer-Hofmann</rs>
+                        anwesend.</note><space unit="chars" quantity="1"/><time>abend</time> bei Ihnen zu leſen. Wenn es Ihnen paſst ſchreiben Sie bitte
                     gar nicht, dann ko<c rendition="#gemination-m"/>e ich von ſelbſt um
-                        <time>½ 9</time>, und <persName key="pmb10863">Richard</persName> um
-                        <time>½ 10</time>. Kö<c rendition="#gemination-n"/>en Sie ſich aber nicht frei machen, dann ſchreiben
-                    Sie mir und <persName key="pmb10863">Richard</persName> umgehend, ob wir beide
+                        <time>½&#160;9</time>, und <rs ref="#pmb10863" type="person">Richard</rs> um
+                        <time>½&#160;10</time>. Kö<c rendition="#gemination-n"/>en Sie ſich aber nicht frei machen, dann ſchreiben
+                    Sie mir und <rs ref="#pmb10863" type="person">Richard</rs> umgehend, ob wir beide
                         <date>Mittwoch</date> ko<c rendition="#gemination-m"/>en ſollen. Mir wär
-                    aber halt morgen viel lieber.</p>
-                <closer>Von Herzen Ihr<lb/>
-                    <signed>Hugo.</signed>
-                </closer>
-            </div>
-        </body>
+                    aber halt morgen viel lieber.</p><closer>Von Herzen Ihr<lb/><signed>Hugo.</signed></closer></div></body>
     </text>
 </TEI>

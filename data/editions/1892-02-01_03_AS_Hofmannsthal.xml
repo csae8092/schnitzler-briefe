@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-02-01_03_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-02-01_03_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, [1. 2. 1892]</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, [1.&#160;2.&#160;1892]</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -68,8 +72,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -88,18 +92,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1892-02-01" n="03">[1. 2. 1892]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1892-02-01" n="03">[1.&#160;2.&#160;1892]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1892-02-01_02">Hofmannsthal an Schnitzler, [1. 2. 1892]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-02-17_01">Hofmannsthal an Schnitzler, [17. 2. 1892]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1892-02-01_02">Hofmannsthal an Schnitzler, [1.&#160;2. 1892]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-02-17_01">Hofmannsthal an Schnitzler, [17.&#160;2.&#160;1892]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -114,38 +118,16 @@
         <graphic url="Hs-30885,17_002.TIF"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-                    <pb facs="Hs-30885,17_001.TIF"/>
-                    <salute>Lieber Freund, </salute>hier ſind die <rs type="work" key="pmb31837 pmb31951 pmb31953">Bücher</rs>. <date>So<c rendition="#gemination-n"/>tag</date> ist <anchor type="commentary" xml:id="KL2057-2"/>
-                    <persName key="pmb11491">
-                        <hi rend="latintype">Goldschmidt</hi>
-                    </persName>
-                    <note type="commentary" xml:id="KL2057-2h">Am <date>7. 2. 1892</date> fand eine
-                        Matinée mit <persName key="pmb12491">Emanuel Reicher</persName> im Haus von
-                            <persName key="pmb11491">Adalbert von Goldschmidt</persName> statt, an
-                        der <persName key="pmb2121">Schnitzler</persName> teilnahm.</note> von
+        <body><div type="writingSession" n="1"><p><pb facs="Hs-30885,17_001.TIF"/><salute>Lieber Freund, </salute>hier ſind die <rs type="work" ref="#pmb31837 pmb31951 pmb31953" subtype="implied">Bücher</rs>. <date>So<c rendition="#gemination-n"/>tag</date> ist <anchor type="commentary" xml:id="KL2057-2"/><rs ref="#pmb11491" type="person"><hi rend="latintype">Goldschmidt</hi></rs><note type="commentary" xml:id="KL2057-2h">Am <date>7.&#160;2.&#160;1892</date> fand eine
+                        Matinée mit <rs ref="#pmb12491" type="person">Emanuel Reicher</rs> im Haus von
+                            <rs ref="#pmb11491" type="person">Adalbert von Goldschmidt</rs> statt, an
+                        der <rs ref="#pmb2121" type="person">Schnitzler</rs> teilnahm.</note> von
                         <time>3</time> an, alſo wohl bis <time>6</time>. Und am Abend bin ich
                     eingeladen. Ich fände es hübſch, we<c rendition="#gemination-n"/> wir an irgend
                     einem Wochentagsabend die Zuſa<c rendition="#gemination-m"/>enkunft arrangirten.
-                    Z. B. <date>Samſtag</date>
-                    <space unit="chars" quantity="1"/>
-                    <pb facs="Hs-30885,17_002.TIF"/>
-                    <time>Abend</time> um <time>7 Uhr</time> bei mir? Oder Anfangs nächſter Woche?
-                        <anchor type="commentary" xml:id="KL2057-1"/>
-                    <date>Montag</date> z. B. – Doch da ist <workName key="pmb31941">
-                  <hi rend="latintype">Crampton</hi>
-               </workName>
-                    <note type="commentary" xml:id="KL2057-1h">
-                        <persName key="pmb2121">Schnitzler</persName> besuchte die Premiere von
-                            <persName key="pmb11617">Gerhart Hauptmann</persName>s <workName key="pmb31941">College Crampton</workName> im <placeName key="pmb14">Burgtheater</placeName> am <date>8. 2. 1892</date> (<bibl>
-                            <orgName>CUL</orgName>, A 179a)</bibl>.</note>.
-                    <date>Mittwoch</date>? –</p>
-                <closer>Herzlichst<lb/>Ihr<lb/>
-                    <signed>Arthur</signed>
-                </closer>
-            </div>
-        </body>
+                    Z.&#160;B. <date>Samſtag</date><space unit="chars" quantity="1"/><pb facs="Hs-30885,17_002.TIF"/><time>Abend</time> um <time>7 Uhr</time> bei mir? Oder Anfangs nächſter Woche?
+                        <anchor type="commentary" xml:id="KL2057-1"/><date>Montag</date> z.&#160;B. – Doch da ist <rs ref="#pmb31941" type="work"><hi rend="latintype">Crampton</hi></rs><note type="commentary" xml:id="KL2057-1h"><rs ref="#pmb2121" type="person">Schnitzler</rs> besuchte die Premiere von
+                            <rs ref="#pmb11617" type="person">Gerhart Hauptmann</rs>s <rs ref="#pmb31941" type="work">College Crampton</rs> im <rs ref="#pmb14" type="place">Burgtheater</rs> am <date>8.&#160;2.&#160;1892</date> (<bibl><rs type="organisation">CUL</rs>, A&#160;179a)</bibl>.</note>.
+                    <date>Mittwoch</date>?&#160;–</p><closer>Herzlichst<lb/>Ihr<lb/><signed>Arthur</signed></closer></div></body>
     </text>
 </TEI>

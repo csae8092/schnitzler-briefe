@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1901-06_01_AS_Hofmannsthal" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1901-06_01_AS_Hofmannsthal"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 1901-06</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Hs-30885,XXXX</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <!-- <placeName key="pmb50">Wien</placeName> -->
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <!-- <placeName ref="#pmb50">Wien</placeName> -->
                <date when="1901-06" n="01">1901-06</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1901-06-30_01">Hofmannsthal an Schnitzler, 30. 6. 1901</ptr>
-               <ptr type="next" subtype="toAuthor" target="1901-07-18_01">Hofmannsthal an Schnitzler, 18. 7. [1901]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1901-06-30_01">Hofmannsthal an Schnitzler, 30.&#160;6.&#160;1901</ptr>
+               <ptr type="next" subtype="toAuthor" target="1901-07-18_01">Hofmannsthal an Schnitzler, 18.&#160;7. [1901]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,24 +103,17 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p>Jüdischer Millionärssohn, auf den Geldsäcken seiner Ahnen herumprotzender
-               Komödiendichter, Freimaurer und Erniedriger des <orgName>k. u. k.
-                  Hofburgtheaters</orgName>, das hat Ihnen noch gefehlt, daß Sie anonyme
+      <body><div type="writingSession" n="1"><p>Jüdischer Millionärssohn, auf den Geldsäcken seiner Ahnen herumprotzender
+               Komödiendichter, Freimaurer und Erniedriger des <rs type="organisation">k.&#160;u.&#160;k.
+                  Hofburgtheaters</rs>, das hat Ihnen noch gefehlt, daß Sie anonyme
                Schmähkarten an anständige, sich das Brot mühselig verdienende deutsche Dichter
                senden, die zeitlebens gegen die Macht des Kapitals, gegen die Überhebung der Großen,
                gegen den am Mark des Volks zehrenden Adel und Militarismus gekämpft haben! Aber ich
-               werde mich nicht abhalten lassen. Das nächste Jahr geht es nicht mehr gegen die <rs type="work" key="pmb29853">Infanterieleutenants</rs>, sondern gegen die
-               Cavallerieleutenants, insbesondre gegen die in der Reserve! –</p>
-            <p>Wie gehts Ihnen? Schade daß wir in <placeName key="pmb867">Innsbruck</placeName> nur
-               so aneinander vorübergesaust und gesäuselt sind. Ich bin jetzt in <placeName key="pmb212">St. Anton</placeName>, friere, und hoffe bald in den Süden zu radeln.
-               In <placeName key="pmb30">Salzburg</placeName> hab ich gearbeitet, jetzt weniger.
-               Lassen Sie recht bald von sich hören. aber mehr. (An meine <placeName key="pmb50">Wien</placeName>er Adresse.) Die <rs type="person" key="pmb2173 pmb2315">Schwestern</rs> grüßen
-               Sie. Ich grüße Sie herzlich und bitte Sie auch Ihre <rs type="person" key="pmb2292">Frau</rs> zu grüßen. </p>
-            <p>Ihr <signed>Arthur</signed>
-            </p>
-         </div>
-      </body>
+               werde mich nicht abhalten lassen. Das nächste Jahr geht es nicht mehr gegen die <rs type="work" ref="#pmb29853" subtype="implied">Infanterieleutenants</rs>, sondern gegen die
+               Cavallerieleutenants, insbesondre gegen die in der Reserve! –</p><p>Wie gehts Ihnen? Schade daß wir in <rs ref="#pmb867" type="place">Innsbruck</rs> nur
+               so aneinander vorübergesaust und gesäuselt sind. Ich bin jetzt in <rs ref="#pmb212" type="place">St. Anton</rs>, friere, und hoffe bald in den Süden zu radeln.
+               In <rs ref="#pmb30" type="place">Salzburg</rs> hab ich gearbeitet, jetzt weniger.
+               Lassen Sie recht bald von sich hören. aber mehr. (An meine <rs ref="#pmb50" type="place">Wien</rs>er Adresse.) Die <rs type="person" ref="#pmb2173 pmb2315" subtype="implied">Schwestern</rs> grüßen
+               Sie. Ich grüße Sie herzlich und bitte Sie auch Ihre <rs type="person" ref="#pmb2292" subtype="implied">Frau</rs> zu grüßen. </p><p>Ihr <signed>Arthur</signed></p></div></body>
    </text>
 </TEI>

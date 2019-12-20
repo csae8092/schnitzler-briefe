@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-10-01_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1899-10-01_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 1. 10. 1899</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 1.&#160;10.&#160;1899</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,20 +51,20 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Bildpostkarte, schwarze Tinte; Lateinschrift. Motiv: »<quote>Hotel und
-                              Pension <placeName key="pmb43052">Eppaner Hof</placeName> in
-                                 <placeName key="pmb36485">Eppan</placeName>.</quote>« Von
+                              Pension <rs ref="#pmb43052" type="place">Eppaner Hof</rs> in
+                                 <rs ref="#pmb36485" type="place">Eppan</rs>.</quote>« Von
                            unbekannter Hand mit Bleistift nummeriert: »<quote>142</quote>«.</p>
                         <stamp n="1">
-                           <placeName key="pmb40832">St. Michael in Eppan</placeName>
-                           <date>2 10 99</date>
+                           <rs ref="#pmb40832" type="place">St. Michael in Eppan</rs>
+                           <date>2&#160;10&#160;99</date>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb883">Wiesbaden</placeName>
-                           <date>3. 10. 99</date>
+                           <rs ref="#pmb883" type="place">Wiesbaden</rs>
+                           <date>3.&#160;10.&#160;99</date>
                            <time>9-10V</time>
                         </stamp>
                      </physDesc>
@@ -71,8 +74,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -92,18 +95,18 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb36485">Eppan</placeName>
-               <date when="1899-10-01" n="01">1. 10. 1899</date>
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb36485">Eppan</placeName>
+               <date when="1899-10-01" n="01">1.&#160;10.&#160;1899</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb883">Wiesbaden</placeName>
-               <date when="1899-10-03">3. 10. 1899</date>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb883">Wiesbaden</placeName>
+               <date when="1899-10-03">3.&#160;10.&#160;1899</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-09-09_01">Schnitzler an Beer-Hofmann, 9. 9. 1899</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-09-17_01">Beer-Hofmann an Schnitzler, 17. 9. 1899</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-09-09_01">Schnitzler an Beer-Hofmann, 9.&#160;9.&#160;1899</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-09-17_01">Beer-Hofmann an Schnitzler, 17.&#160;9.&#160;1899</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -118,34 +121,12 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00317.jpg"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                        <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00316"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
-               <addrLine>
-                        <placeName key="pmb883">Wiesbaden</placeName>
-                    </addrLine>
-               <addrLine>
-                        <placeName key="pmb43055">Park-Hôtel</placeName>
-                    </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00317"/>
-                  <date when="1899-10-01">1/<del rend="strikethrough">I</del>X 1899</date>
-               </dateline>
-            </opener>
-            <p>Die × Fenster bewohnen <rs key="pmb10860 pmb2668 pmb2534" type="person">wir</rs>. Die
-               zwei rechts, ich. (Historisch).</p>
-            <p>Ich bin leider schon beim <rs type="work" key="pmb30233">420<hi rend="superscript">ten</hi> Vers</rs> angelangt und noch i<c rendition="#gemination-m"/>er in der
-               ersten Verwandl. des <rs type="work" key="pmb30233">I Aktes</rs>. Das wird ein
-               den Abend überfüllendes <rs type="work" key="pmb30233">Stück</rs>! Ihr<signed>
-                  R.</signed>
-                </p>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00316"/>D<hi rend="superscript"
+                     >r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb883" type="place">Wiesbaden</rs></addrLine><addrLine><rs ref="#pmb43055" type="place">Park-Hôtel</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00317"/><date when="1899-10-01">1/<del rend="strikethrough">I</del>X&#160;1899</date></dateline></opener><p>Die × Fenster bewohnen <rs ref="#pmb10860 pmb2668 pmb2534" type="person" subtype="implied">wir</rs>. Die
+               zwei rechts, ich. (Historisch).</p><p>Ich bin leider schon beim <rs type="work" ref="#pmb30233" subtype="implied">420<hi rend="superscript"
+                     >ten</hi> Vers</rs> angelangt und noch i<c rendition="#gemination-m"/>er in der
+               ersten Verwandl. des <rs type="work" ref="#pmb30233" subtype="implied">I&#160;Aktes</rs>. Das wird ein
+               den Abend überfüllendes <rs type="work" ref="#pmb30233" subtype="implied">Stück</rs>! Ihr<signed>
+                  R.</signed></p></div></body>
    </text>
 </TEI>

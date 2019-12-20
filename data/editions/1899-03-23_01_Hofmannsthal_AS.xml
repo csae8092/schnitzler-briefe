@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-03-23_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+    xml:id="L1899-03-23_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [23. 3. 1899]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [23.&#160;3.&#160;1899]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +51,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief, 1&#160;Bl., 3&#160;S., schwarze Tinte. Von Schnitzler mit
                                     Bleistift datiert: »<quote>
                                         <date>23/3? 99</date>
                                     </quote>«. Von unbekannter Hand mit Bleistift nummeriert: »<quote>
@@ -64,8 +67,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -85,17 +88,17 @@
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb168">Berlin</placeName>
-                    <date when="1899-03-23" n="01">[23. 3. 1899]</date>
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
+                    <date when="1899-03-23" n="01">[23.&#160;3.&#160;1899]</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
                 <correspContext>
-                    <ptr type="previous" subtype="toAuthor" target="1899-03-22_01">Schnitzler an Hofmannsthal, 22. 3. 1899</ptr>
-                    <ptr type="next" subtype="toAuthor" target="1899-03-24_01">Schnitzler an Hofmannsthal, [24. 3. 1899]</ptr>
+                    <ptr type="previous" subtype="toAuthor" target="1899-03-22_01">Schnitzler an Hofmannsthal, 22.&#160;3.&#160;1899</ptr>
+                    <ptr type="next" subtype="toAuthor" target="1899-03-24_01">Schnitzler an Hofmannsthal, [24.&#160;3.&#160;1899]</ptr>
                 </correspContext>
             </correspDesc>
         </profileDesc>
@@ -111,30 +114,22 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00314"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00313"/>Berlin, <placeName key="pmb34806">Windsor Behrenſtraße</placeName>
-                    </dateline>
-                    <salute>Mein guter lieber Arthur</salute>
-                </opener>
-                <p>Könnten Sie nicht <rs key="pmb168" type="place">hierher</rs> ko<c rendition="#gemination-m"/>en? wir könnten ſehr viel beiſammen ſein und auch
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00313"/>Berlin, <rs
+                            ref="#pmb34806" type="place">Windsor Behrenſtraße</rs></dateline><salute>Mein guter lieber Arthur</salute></opener><p>Könnten Sie nicht <rs ref="#pmb168" type="place" subtype="implied">hierher</rs> ko<c
+                        rendition="#gemination-m"/>en? wir könnten ſehr viel beiſammen ſein und auch
                     ſonſt ſieht man viele ernſte und liebenswürdige Menſchen und es wäre Ihnen doch
-                    leichter, ſich ein biſſl in die Höh zu bringen, als in <placeName key="pmb50">Wien</placeName>, wo die <rs type="person" key="pmb2378">Erinnerung</rs>
-                    Ihnen bei jedem Schritt <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00314"/>friſch weh thut. Ich ſehne mich ſehr, mit Ihnen zu ſprechen, zu ſchreiben bin
-                    ich nicht im Stand. </p>
-                <p>Daſs dieſe Erinnerung immer mit meinen erſten <rs type="work" key="pmb29849 pmb32512">Stücken</rs> verknüpft bleiben muſs!</p>
-                <closer>Von Herzen Ihr<lb/>
-                    <signed>Hugo.</signed>
-                </closer>
-                <postscript>
-                    <p>P. S. <anchor type="commentary" xml:id="KL2391-1"/>Hier<note type="commentary" xml:id="KL2391-1h">Die zeitgleich mit der <placeName key="pmb50">Wien</placeName>er Uraufführung angesetzte Uraufführung
-                            im <placeName key="pmb3">Deutschen Theater</placeName> am
-                                <date>18. 3. 1899</date>.</note> ſind meine armen <rs type="work" key="pmb29849 pmb32512">Stücke</rs> von einer beiſpiellos böſen <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00314"/>Preſſe erſchlagen worden
-                        und muſsten nach dem dritten Mal abgeſetzt werden.</p>
-                </postscript>
-            </div>
-        </body>
+                    leichter, ſich ein biſſl in die Höh zu bringen, als in <rs ref="#pmb50" type="place"
+                        >Wien</rs>, wo die <rs type="person" ref="#pmb2378" subtype="implied">Erinnerung</rs>
+                    Ihnen bei jedem Schritt <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00314"
+                    />friſch weh thut. Ich ſehne mich ſehr, mit Ihnen zu ſprechen, zu ſchreiben bin
+                    ich nicht im Stand. </p><p>Daſs dieſe Erinnerung immer mit meinen erſten <rs type="work"
+                        ref="#pmb29849 pmb32512" subtype="implied">Stücken</rs> verknüpft bleiben muſs!</p><closer>Von Herzen Ihr<lb/><signed>Hugo.</signed></closer><postscript><p>P.&#160;S. <anchor type="commentary" xml:id="KL2391-1"/>Hier<note
+                            type="commentary" xml:id="KL2391-1h">Die zeitgleich mit der <rs
+                                ref="#pmb50" type="place">Wien</rs>er Uraufführung angesetzte Uraufführung
+                            im <rs ref="#pmb3" type="place">Deutschen Theater</rs> am
+                                <date>18.&#160;3.&#160;1899</date>.</note> ſind meine armen <rs type="work"
+                            ref="#pmb29849 pmb32512" subtype="implied">Stücke</rs> von einer beiſpiellos böſen <pb
+                            facs="MS-SCHNITZLER-B-00043-B-00001-000-00314"/>Preſſe erſchlagen worden
+                        und muſsten nach dem dritten Mal abgeſetzt werden.</p></postscript></div></body>
     </text>
 </TEI>

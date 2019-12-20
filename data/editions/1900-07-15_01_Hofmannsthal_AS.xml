@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1900-07-15_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1900-07-15_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 15. 7. 1900</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 15.&#160;7.&#160;1900</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -82,13 +86,13 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb573">Bad Fusch</placeName>
-               <date when="1900-07-15" n="01">15. 7. 1900</date>
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb573">Bad Fusch</placeName>
+               <date when="1900-07-15" n="01">15.&#160;7.&#160;1900</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -97,35 +101,21 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb573">Bad Fusch</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date>15ten 7.</date>
-               </dateline>
-               <salute>mein guter lieber Arthur </salute>
-            </opener>
-            <p>wie die Dinge einmal eigensinnig und unbegreiflich sind, finde ich hier, in
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb573" type="place">Bad Fusch</rs><space unit="chars" quantity="1"/><date>15ten 7.</date></dateline><salute>mein guter lieber Arthur </salute></opener><p>wie die Dinge einmal eigensinnig und unbegreiflich sind, finde ich hier, in
                vollkommener Ruhe, bei unverstörten äußeren Umständen seit 14 Tagen nicht nur nicht
                die leiseste Möglichkeit des Arbeitens, sondern ich versinke auch in eine solche
                Verdrossenheit, solche Gelähmtheit aller inneren Sinne, daß ich ein Buch nach dem
                andern aus der Hand lege und weder am Morgen noch am Abend die geringste Freude habe.
                Nun ist mir vor 2 Stunden eingefallen, es mit einem Ausflug zu versuchen. Wie schön,
                wenn man in solchen Momenten nicht so weit auseinander wäre! Auch mein Rad ist in der
-                  <placeName key="pmb34041">Brühl</placeName>, ich will nicht abwarten, bis es
-               herkäme, sondern fahre gleich nach <placeName key="pmb34293">Saalfelden</placeName>, von dort
-               mit der Post an den <placeName key="pmb40784">Hintersee</placeName>, wo es sehr schön sein
-               soll und von da entweder über <placeName key="pmb30">Salzburg</placeName> oder 
-               <placeName key="pmb40779">Golling</placeName> oder sonst zurück. Ich sehne mich unendlich nach Dörfern, die ich noch nicht
+                  <rs ref="#pmb34041" type="place">Brühl</rs>, ich will nicht abwarten, bis es
+               herkäme, sondern fahre gleich nach <rs ref="#pmb34293" type="place">Saalfelden</rs>, von dort
+               mit der Post an den <rs ref="#pmb40784" type="place">Hintersee</rs>, wo es sehr schön sein
+               soll und von da entweder über <rs ref="#pmb30" type="place">Salzburg</rs> oder 
+               <rs ref="#pmb40779" type="place">Golling</rs> oder sonst zurück. Ich sehne mich unendlich nach Dörfern, die ich noch nicht
                gesehen habe, nach kleinen Häusern am Waldrand, Mühlen in einem tiefen Grund,
-               Brücken, Alleen und andern solchen Dingen. Von <persName key="pmb10863">Richard</persName> bin ich ohne irgend eine Nachricht seit <placeName key="pmb50">Wien</placeName>. <rs type="person" key="pmb11737">Papa</rs> ist gottlob wohl,
-               meine <rs type="person" key="pmb18404 pmb11737">Eltern</rs> grüßen Sie vielmals;
-               bitte schreiben Sie mir bald, in 3 Tagen bin ich wieder hier. </p>
-            <closer>Von Herzen<lb/>Ihr<signed>Hugo.</signed>
-            </closer>
-         </div>
-      </body>
+               Brücken, Alleen und andern solchen Dingen. Von <rs ref="#pmb10863" type="person">Richard</rs> bin ich ohne irgend eine Nachricht seit <rs ref="#pmb50" type="place">Wien</rs>. <rs type="person" ref="#pmb11737" subtype="implied">Papa</rs> ist gottlob wohl,
+               meine <rs type="person" ref="#pmb18404 pmb11737" subtype="implied">Eltern</rs> grüßen Sie vielmals;
+               bitte schreiben Sie mir bald, in 3 Tagen bin ich wieder hier. </p><closer>Von Herzen<lb/>Ihr<signed>Hugo.</signed></closer></div></body>
    </text>
 </TEI>

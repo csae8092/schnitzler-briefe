@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-07-06_01_Joachim-Kafka_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-07-06_01_Joachim-Kafka_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Jaques Joachim und Eduard Michael Kafka an Arthur Schnitzler,
-                    6. 7. 1891</title>
-                <author key="pmb28812">Joachim, Jaques</author>
-                <author key="pmb2563">Kafka, Eduard Michael</author>
+                    6.&#160;7.&#160;1891</title>
+                <author ref="#pmb28812">Joachim, Jaques</author>
+                <author ref="#pmb2563">Kafka, Eduard Michael</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -55,14 +59,14 @@
                             <physDesc>
                                 <p>eh. Postkarte, schwarze Tinte.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb120">Wipplingerstrasse Wien</placeName>
+                                    <rs ref="#pmb120" type="place">Wipplingerstrasse Wien</rs>
                                     <date when="1891-07-06">6 7 91</date>
-                                    <time>5-6 A</time>
+                                    <time>5-6&#160;A</time>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb50">Wien 1/1</placeName>
-                                    <date when="1891-07-07">7./7. 91</date>
-                                    <time>8–9½ V.</time>
+                                    <rs ref="#pmb50" type="place">Wien 1/1</rs>
+                                    <date when="1891-07-07">7./7.&#160;91</date>
+                                    <time>8–9½&#160;V.</time>
                                     <action>Bestellt</action>
                                 </stamp>
                             </physDesc>
@@ -76,16 +80,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb28812">Joachim, Jaques</persName>
-                    <persName key="pmb2563">Kafka, Eduard Michael</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1891-07-06" n="01">6. 7. 1891</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb28812">Joachim, Jaques</persName>
+                    <persName ref="#pmb2563">Kafka, Eduard Michael</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1891-07-06" n="01">6.&#160;7.&#160;1891</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1891-07-07">7. 7. 1891</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1891-07-07">7.&#160;7.&#160;1891</date>
                 </correspAction>
             
          </correspDesc>
@@ -100,61 +104,13 @@
         <graphic url="OGL Joachim, Jaques (und 1 Kafka) an AS.pdf"/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs=""/>
-                        <hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
-                            Schnitzler</hi>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb542">I. Giselastr 11</placeName>.</addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="center">
-                        <pb facs="OGL Joachim, Jaques (und 1 Kafka) an AS.pdf"/>
-                        <hi rend="latintype">
-                            <placeName key="pmb50">Wien</placeName>
-                  </hi> am <date>6. Juli
+        <body><div type="address"><address><addrLine><pb facs=""/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
+                            Schnitzler</hi></addrLine><addrLine><rs ref="#pmb542" type="place">I. Giselastr 11</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="center"><pb facs="OGL Joachim, Jaques (und 1 Kafka) an AS.pdf"/><hi rend="latintype"><rs ref="#pmb50" type="place">Wien</rs></hi> am <date>6.&#160;Juli
                                     <unclear>1891</unclear>.
-                            </date>
-                    </dateline>
-                    <salute rend="center">Euer Wolgeboren</salute>
-                </opener>
-                <p>werden hiemit höflichſt eingeladen, – falls Sie dem</p>
-                <p rend="center">
-                    <orgName key="pmb29781">
-                        <hi rend="latintype">Verein für moderne Literatur (»Wiener Freie
-                            Bühne«)</hi>
-                    </orgName>
-                </p>
-                <p>als Mitglied beizutreten beabſichtigen –, an der <date>Dienſtag</date>, den
-                        <date>7. Juli d. J.</date> im <hi rend="latintype">Souterrainlocale</hi> des
-                        <placeName key="pmb337">
-                  <hi rend="latintype">Hotel de France</hi>
-               </placeName> (Eingang: <placeName key="pmb40992">Maria-Theresienſtraße</placeName>) ſtattfindenden</p>
-                <p rend="center">
-                    <hi rend="latintype">Constituirenden Versa<c rendition="#gemination-m"/>lung</hi>
-                </p>
-                <p>theilnehmen zu wollen.</p>
-                <p rend="center">
-                    <time>7 ½ Uhr Abends</time>
-                </p>
-                <closer>
-                    <signed>D<hi rend="superscript">r</hi> Joachim</signed>
-                    <lb/>
-                    <signed>E. M<unclear>.</unclear> Kafka</signed>
-                </closer>
-                <postscript>
-                    <p>
-                        <anchor type="textConst" xml:id="TG4"/>Dieſe Einladung gilt zugleich als
-                        <hi rend="latintype">Legitimation</hi>.<note type="textConst" xml:id="TG4h">am linken Rand</note>
-               </p>
-                </postscript>
-            </div>
-        </body>
+                            </date></dateline><salute rend="center">Euer Wolgeboren</salute></opener><p>werden hiemit höflichſt eingeladen,&#160;– falls Sie dem</p><p rend="center"><rs ref="#pmb29781" type="organisation"><hi rend="latintype">Verein für moderne Literatur (»Wiener Freie
+                            Bühne«)</hi></rs></p><p>als Mitglied beizutreten beabſichtigen&#160;–, an der <date>Dienſtag</date>, den
+                        <date>7.&#160;Juli d.&#160;J.</date> im <hi rend="latintype">Souterrainlocale</hi> des
+                        <rs ref="#pmb337" type="place"><hi rend="latintype">Hotel de France</hi></rs> (Eingang: <rs ref="#pmb40992" type="place">Maria-Theresienſtraße</rs>) ſtattfindenden</p><p rend="center"><hi rend="latintype">Constituirenden Versa<c rendition="#gemination-m"/>lung</hi></p><p>theilnehmen zu wollen.</p><p rend="center"><time>7&#160;½ Uhr Abends</time></p><closer><signed>D<hi rend="superscript">r</hi> Joachim</signed><lb/><signed>E.&#160;M<unclear>.</unclear> Kafka</signed></closer><postscript><p><anchor type="textConst" xml:id="TG4"/>Dieſe Einladung gilt zugleich als
+                        <hi rend="latintype">Legitimation</hi>.<note type="textConst" xml:id="TG4h">am linken Rand</note></p></postscript></div></body>
     </text>
 </TEI>

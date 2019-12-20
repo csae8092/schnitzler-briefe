@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-03-16_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-03-16_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 16. 3. 1892</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 16.&#160;3.&#160;1892</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Hs-30885,18</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S. Von Schnitzler mit Bleistift datiert: »<quote>16/<subst>
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S. Von Schnitzler mit Bleistift datiert: »<quote>16/<subst>
                                             <del rend="overwritten">5</del>
                                             <add place="inline">3</add>
                                         </subst> 92</quote>«. Eventuell die Korrektur des Monats von
@@ -63,8 +67,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -83,18 +87,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1892-03-16" n="01">16. 3. 1892</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1892-03-16" n="01">16.&#160;3.&#160;1892</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1892-03-12_01">Schnitzler an Hofmannsthal, [12. 3. 1892]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-03-17_01">Hofmannsthal an Schnitzler, [17. 3. 1892]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1892-03-12_01">Schnitzler an Hofmannsthal, [12.&#160;3.&#160;1892]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-03-17_01">Hofmannsthal an Schnitzler, [17.&#160;3.&#160;1892]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -110,45 +114,13 @@
         <graphic url="Hs-30885,18_002.TIF"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="Hs-30885,18_001.TIF"/>Lieber Freund,</salute>
-                </opener>
-                <p>die beiliegende Karte kam an mich. Geſtern ſtellte man von derſelben Seite die
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="Hs-30885,18_001.TIF"/>Lieber Freund,</salute></opener><p>die beiliegende Karte kam an mich. Geſtern ſtellte man von derſelben Seite die
                         <del rend="strikethrough">Bedin</del> Frage an mich, unter welchen
-                    Bedingungen ich ev. mein <rs type="work" key="pmb29823" cert="low">Stück</rs>
-                    zum Abdruck überlaſſen würde. –</p>
-                <p>
-               <persName key="pmb14756">Bèraton</persName> ſprach dieſer Tage mit mir über die
-                    materielle Seite des <anchor type="commentary" xml:id="KL2055-1"/>
-                    <persName key="pmb12156">
-                        <hi rend="latintype">Maeterlinck</hi>
-                    </persName>-Abends<note type="commentary" xml:id="KL2055-1h">Am
-                            <date>2. 5. 1892</date>.</note>. Vorläufig habe ich ihm zehn Gulden
+                    Bedingungen ich ev. mein <rs type="work" ref="#pmb29823" cert="low" subtype="implied">Stück</rs>
+                    zum Abdruck überlaſſen würde.&#160;–</p><p><rs ref="#pmb14756" type="person">Bèraton</rs> ſprach dieſer Tage mit mir über die
+                    materielle Seite des <anchor type="commentary" xml:id="KL2055-1"/><rs ref="#pmb12156" type="person"><hi rend="latintype">Maeterlinck</hi></rs>-Abends<note type="commentary" xml:id="KL2055-1h">Am
+                            <date>2.&#160;5.&#160;1892</date>.</note>. Vorläufig habe ich ihm zehn Gulden
                     geſchickt. Ueber dieſen Abend wäre manches <pb facs="Hs-30885,18_002.TIF"/>zu
-                    ſprechen.</p>
-                <p>Möchten Sie mir die Adreſſe von <persName key="pmb12740">
-                        <hi rend="latintype">Schwarzkopf</hi>
-                    </persName> mittheilen? Ich möchte ihn um eine Empfehlung an <orgName key="pmb29619">
-                        <hi rend="latintype">Bonz</hi>
-                    </orgName> wegen meines <workName key="pmb29935">
-                        <hi rend="latintype">Anatol-Cyclus</hi>
-                    </workName> erſuchen. Was glauben Sie? –</p>
-                <closer>Herzlichſt der Ihre<lb/>
-                    <signed>Arth Sch</signed>
-                </closer>
-                <postscript>
-                    <dateline>
-                        <seg rend="left">
-                            <date>16. März 92</date>
-                        </seg>
-                        <seg rend="right">
-                            <placeName key="pmb50">Wien</placeName>.</seg>
-                    </dateline>
-                </postscript>
-            </div>
-        </body>
+                    ſprechen.</p><p>Möchten Sie mir die Adreſſe von <rs ref="#pmb12740" type="person"><hi rend="latintype">Schwarzkopf</hi></rs> mittheilen? Ich möchte ihn um eine Empfehlung an <rs ref="#pmb29619" type="organisation"><hi rend="latintype">Bonz</hi></rs> wegen meines <rs ref="#pmb29935" type="work"><hi rend="latintype">Anatol-Cyclus</hi></rs> erſuchen. Was glauben Sie?&#160;–</p><closer>Herzlichſt der Ihre<lb/><signed>Arth Sch</signed></closer><postscript><dateline><seg rend="left"><date>16.&#160;März 92</date></seg><seg rend="right"><rs ref="#pmb50" type="place">Wien</rs>.</seg></dateline></postscript></div></body>
     </text>
 </TEI>

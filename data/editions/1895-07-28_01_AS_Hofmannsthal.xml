@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-07-28_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1895-07-28_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 28. 7. 1895</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 28.&#160;7.&#160;1895</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Hs-30885,44</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 2 Bl., 6 S., schwarze Tinte. Von unbekannter Hand mit
+                                <p>eh. Brief, 2&#160;Bl., 6&#160;S., schwarze Tinte. Von unbekannter Hand mit
                                     einem roten »<quote>X</quote>« beschriftet.</p>
                             </physDesc>
                         </msDesc>
@@ -60,8 +64,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -80,18 +84,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb213">Ischl</placeName>
-                    <date when="1895-07-28" n="01">28. 7. 1895</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb213">Ischl</placeName>
+                    <date when="1895-07-28" n="01">28.&#160;7.&#160;1895</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-07-17_02">Hofmannsthal an Schnitzler, 17. [7. 1895]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-08-09_02">Hofmannsthal an Schnitzler, 9. 8. [1895]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-07-17_02">Hofmannsthal an Schnitzler, 17.&#160;[7.&#160;1895]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-08-09_02">Hofmannsthal an Schnitzler, 9.&#160;8.&#160;[1895]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -109,80 +113,49 @@
         <graphic url="Hs-30885,44b_002"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="Hs-30885,44a_001"/>
-                        <placeName key="pmb213">Ischl</placeName>, <date>28/7 95</date>
-                    </dateline>
-                </opener>
-                <p>
-                    <salute>Mein lieber Hugo, </salute>ich habe mich ſehr gefreut, gleich nachdem
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Hs-30885,44a_001"/><rs ref="#pmb213" type="place">Ischl</rs>, <date>28/7 95</date></dateline></opener><p><salute>Mein lieber Hugo, </salute>ich habe mich ſehr gefreut, gleich nachdem
                     ich hier angekommen war, Nachricht von Ihnen zu bekommen, und will Sie heute vor
                     Allem herzlich grüßen u Sie bitten, mir recht bald wieder ſo einen Sti<c rendition="#gemination-m"/>ungsextract herzuſchicken, denn ſolch deutliche
                     Zeichen eines In Verbindungbleibens tragen zum allgemeinen Lebensgefühl, bei mir
                     wenigſtens, recht viel bei, und ſo ſollen <pb facs="Hs-30885,44a_002"/>Ihre
                     Briefe mit zum Sommer, zum »Erholen« und zu meiner guten Luft gehören. Treffen
-                    Sie dieſe Worte noch in <placeName key="pmb937">Göding</placeName>? Für alle
-                    Fälle ſchickt man Ihnen ja nach, denk’ ich. – Mir geht es hier, bis jetzt, ganz
-                    behaglich; ich fahre <hi rend="latintype">Bicycle</hi>, bade in <placeName key="pmb895">Strobl</placeName>, geh ins Theater, bin nicht wenig allein,
-                    leſe <workName key="pmb33935">
-                        <hi rend="latintype">Chartreuse de Parme</hi>
-                    </workName>, <workName key="pmb33937">weſtöſtl. Divan</workName>, <persName key="pmb5787">Schopenhauer</persName>ſche <workName key="pmb33954">Briefe</workName>, habe <rs type="work" key="pmb30075">was kleines</rs>
-                    geſchrieben und geh langſam an das neue <rs type="work" key="pmb29899">Stück</rs>, wovon etwa ein halber Akt da iſt und das mir im Schreiben noch
-                    ſehr lieb werden wird.</p>
-                <p>
-                    <pb facs="Hs-30885,44a_002"/>Vor den <persName key="pmb5787">
-                        <hi rend="latintype">Schopenh</hi>
-                    </persName>. <workName key="pmb33954">Briefen</workName> möcht ich beinahe
+                    Sie dieſe Worte noch in <rs ref="#pmb937" type="place">Göding</rs>? Für alle
+                    Fälle ſchickt man Ihnen ja nach, denk’ ich.&#160;– Mir geht es hier, bis jetzt, ganz
+                    behaglich; ich fahre <hi rend="latintype">Bicycle</hi>, bade in <rs ref="#pmb895" type="place">Strobl</rs>, geh ins Theater, bin nicht wenig allein,
+                    leſe <rs ref="#pmb33935" type="work"><hi rend="latintype">Chartreuse de Parme</hi></rs>, <rs ref="#pmb33937" type="work">weſtöſtl. Divan</rs>, <rs ref="#pmb5787" type="person">Schopenhauer</rs>ſche <rs ref="#pmb33954" type="work">Briefe</rs>, habe <rs type="work" ref="#pmb30075" subtype="implied">was kleines</rs>
+                    geſchrieben und geh langſam an das neue <rs type="work" ref="#pmb29899" subtype="implied">Stück</rs>, wovon etwa ein halber Akt da iſt und das mir im Schreiben noch
+                    ſehr lieb werden wird.</p><p><pb facs="Hs-30885,44a_002"/>Vor den <rs ref="#pmb5787" type="person"><hi rend="latintype">Schopenh</hi></rs>. <rs ref="#pmb33954" type="work">Briefen</rs> möcht ich beinahe
                     warnen; ſie machen traurig – ich bin auf Seite 350 oder weiter und finde nichts
                     als eine ſtete Beſchäftigung mit allem Kleinlichen, das um den »Ehrgeiz« herum
                     iſt. Jede kleinſte Recenſion, die da oder dort über ihn erſchienen, wird
-                    erwähnt; – und alle Menſchen un<supplied>d</supplied> Dinge nur in Betracht
+                    erwähnt;&#160;– und alle Menſchen un<supplied>d</supplied> Dinge nur in Betracht
                     gezogen, inſofern ſie ſich zu ſeiner Philoſophie, nein, vielmehr zu der Anerke<c rendition="#gemination-n"/>ung ſeiner Philoſophie in Beziehung bringen
                     laſſen. Es iſt nichts über das Leben, nichts über die Kunſt darin zu <pb facs="Hs-30885,44a_001"/>finden; etwas ſo papierenes hab ich nie geleſen.
                     Federkratzen, Knittern, Geruch von Büchern – es iſt als hätte die Welt, nachdem
                     er ſie einmal in eine Formel gebracht, aufgehört für ihn zu exiſtiren,
                         un<supplied>d</supplied> es handelte ſich nur mehr darum, dieſe Formel von
-                    der Menſchheit gekannt, bewundert u angebetet zu ſehn. – In dieſer ganzen
+                    der Menſchheit gekannt, bewundert u angebetet zu ſehn.&#160;– In dieſer ganzen
                     Unheimlichkeit war die Eitelkeit noch nicht da – und ſo iſt vielleicht auch das
-                    wieder groſs? – Eine Stelle lautet ungefähr: »<anchor type="commentary" xml:id="KL2274-1"/>Ich werde geradezu melancholiſch, <pb facs="Hs-30885,44b_001"/>wenn ich denke, daſs ich kaum ein Viertel von dem
+                    wieder groſs?&#160;– Eine Stelle lautet ungefähr: »<anchor type="commentary" xml:id="KL2274-1"/>Ich werde geradezu melancholiſch, <pb facs="Hs-30885,44b_001"/>wenn ich denke, daſs ich kaum ein Viertel von dem
                     zu leſen beko<c rendition="#gemination-m"/>e, was <del rend="strikethrough">ich</del> über mich gedruckt wird.<note type="commentary" xml:id="KL2274-1h">Mehrfach im Buch geäußerter Gedanke, obzwar für
-                        gewöhnlich »die Hälfte« entgeht. (<bibl>
-                            <workName key="pmb33954">Schopenhauer-Briefe. Sammlung meist
+                        gewöhnlich »die Hälfte« entgeht. (<bibl><rs ref="#pmb33954" type="work">Schopenhauer-Briefe. Sammlung meist
                                 ungedruckter oder schwer zugänglicher Briefer von, an und über
                                 Schopenhauer. Mit Anmerkungen und biographischen
-                                Analekten</workName>. Hg. <persName key="pmb33958">Ludwig
-                                Schemann</persName>. Leipzig: <orgName>Brockhaus</orgName>
-                            <space unit="chars" quantity="1"/>
-                            <date>1893</date>, S. 292, S. 324</bibl>) Denkbar wäre auch, dass er
-                        eine frühere Ausgabe von Briefen liest. An <persName key="pmb33945">Julius
-                            Frauenstädt</persName> schreibt <persName key="pmb5787">Schopenhauer</persName>: »<quote>Trotz Ihrer und meiner Vigilanz glaube
+                                Analekten</rs>. Hg. <rs ref="#pmb33958" type="person">Ludwig
+                                Schemann</rs>. Leipzig: <rs type="organisation">Brockhaus</rs><space unit="chars" quantity="1"/><date>1893</date>, S.&#160;292, S.&#160;324</bibl>) Denkbar wäre auch, dass er
+                        eine frühere Ausgabe von Briefen liest. An <rs ref="#pmb33945" type="person">Julius
+                            Frauenstädt</rs> schreibt <rs ref="#pmb5787" type="person">Schopenhauer</rs>: »<quote>Trotz Ihrer und meiner Vigilanz glaube
                             ich, daß von Dem, was über mich gedruckt wird, etwan ¼ uns ganz
-                            entgeht.</quote>« (<bibl>
-                            <workName key="pmb33939">Arthur Schopenhauer. Von ihm. Über ihn. Ein
-                                Wort der Vertheidigung</workName> von 
-                            <persName key="pmb33941">Ernst Otto Lindner</persName> und Memorabilien, Briefe und Nachlassstücke von 
-                            <persName key="pmb33945">Julius Frauenstädt</persName>. Berlin:
-                                <orgName>A. W. Hayn</orgName>
-                            <space unit="chars" quantity="1"/>
-                            <date>1863</date>, S. 584.</bibl>)</note>« Das iſt als Motto aufs Buch
-                    zu ſetzen. –</p>
-                <p>
-                    <persName key="pmb11485">Goldma<c rendition="#gemination-n"/>
-               </persName> werden
+                            entgeht.</quote>« (<bibl><rs ref="#pmb33939" type="work">Arthur Schopenhauer. Von ihm. Über ihn. Ein
+                                Wort der Vertheidigung</rs> von 
+                            <rs ref="#pmb33941" type="person">Ernst Otto Lindner</rs> und Memorabilien, Briefe und Nachlassstücke von 
+                            <rs ref="#pmb33945" type="person">Julius Frauenstädt</rs>. Berlin:
+                                <rs type="organisation">A.&#160;W. Hayn</rs><space unit="chars" quantity="1"/><date>1863</date>, S.&#160;584.</bibl>)</note>« Das iſt als Motto aufs Buch
+                    zu ſetzen.&#160;–</p><p><rs ref="#pmb11485" type="person">Goldma<c rendition="#gemination-n"/></rs> werden
                     wir heuer wohl wieder ſehn; es ſcheint, <date>Anfang September</date>, aber
-                    alles das, wie auch <placeName key="pmb36300">
-                  <hi rend="latintype">Kopenhagen</hi>
-               </placeName> iſt nicht ganz ſicher. Sehr wahrſcheinlich
-                    werde ich gegen <date>Mitte Auguſt</date> auf ein paar Tage nach <placeName key="pmb50">Wien</placeName>; und Sie? Ko<c rendition="#gemination-m"/>en
-                    Sie auch noch einmal vor den großen Manövern nach <placeName key="pmb50">Wien</placeName>? Das <pb facs="Hs-30885,44b_002"/>laſſen Sie mich für alle
-                    Fälle wiſſen. –</p>
-                <p>Leben Sie wohl und ſeien Sie vielmals gegrüßt.</p>
-                <closer>Ihr <signed>Arthur.</signed>
-                </closer>
-            </div>
-        </body>
+                    alles das, wie auch <rs ref="#pmb36300" type="place"><hi rend="latintype">Kopenhagen</hi></rs> iſt nicht ganz ſicher. Sehr wahrſcheinlich
+                    werde ich gegen <date>Mitte Auguſt</date> auf ein paar Tage nach <rs ref="#pmb50" type="place">Wien</rs>; und Sie? Ko<c rendition="#gemination-m"/>en
+                    Sie auch noch einmal vor den großen Manövern nach <rs ref="#pmb50" type="place">Wien</rs>? Das <pb facs="Hs-30885,44b_002"/>laſſen Sie mich für alle
+                    Fälle wiſſen.&#160;–</p><p>Leben Sie wohl und ſeien Sie vielmals gegrüßt.</p><closer>Ihr <signed>Arthur.</signed></closer></div></body>
     </text>
 </TEI>

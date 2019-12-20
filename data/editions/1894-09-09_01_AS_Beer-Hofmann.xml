@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-09-09_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-09-09_01_AS_Beer-Hofmann">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 9. 9. 1894</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 9.&#160;9.&#160;1894</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -51,14 +55,14 @@
                                 <idno>Yale Collection of German Literature, MSS 31</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief mit Umschlag, 1 Bl., 2 S., Bleistift.</p>
+                                <p>eh. Brief mit Umschlag, 1&#160;Bl., 2&#160;S., Bleistift.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb59">Wien 9/3</placeName>
-                                    <date when="1894-09-09">9. 9. 94</date>
+                                    <rs ref="#pmb59" type="place">Wien 9/3</rs>
+                                    <date when="1894-09-09">9.&#160;9.&#160;94</date>
                                     <time>3–4 N</time>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb213">Ischl</placeName>
+                                    <rs ref="#pmb213" type="place">Ischl</rs>
                                     <date when="1894-09-19">10/9 9<supplied>4</supplied>
                            </date>
                                     <time>7 F</time>
@@ -70,8 +74,8 @@
                 <listBibl>
                     <biblStruct corresp="ASBH">
                         <monogr>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
-                            <author key="pmb10863">Beer-Hofmann, Richard</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                             <title level="m">Briefwechsel 1891–1931</title>
                             <editor>Hg. Konstanze Fliedl</editor>
                             <imprint>
@@ -90,19 +94,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1894-09-09" n="01">9. 9. 1894</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1894-09-09" n="01">9.&#160;9.&#160;1894</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-                    <placeName key="pmb213">Bad Ischl</placeName>
-                    <date when="1894-09-10">10. 9. 1894</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+                    <placeName ref="#pmb213">Bad Ischl</placeName>
+                    <date when="1894-09-10">10.&#160;9.&#160;1894</date>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-09-07_01">Beer-Hofmann an Schnitzler, 7. 9. 1894</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-09-15_01">Beer-Hofmann an Schnitzler, 15. 9. 1894</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-09-07_01">Beer-Hofmann an Schnitzler, 7.&#160;9.&#160;1894</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-09-15_01">Beer-Hofmann an Schnitzler, 15.&#160;9.&#160;1894</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -124,51 +128,11 @@
         <graphic url="1894_AS_RBH_2_00006.jpeg"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <pb facs="1894_AS_RBH_2_00005.jpeg"/>Herrn Dr. <hi rend="latintype">Richard Beer-Hofmann</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="pmb213">Ischl</placeName>
-                        </hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="pmb766">Egelmoos 22</placeName>
-                        </hi>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                  <pb facs="1894_AS_RBH_2_00003.jpeg"/>Lieber Richard,</salute>
-                </opener>
-                <p>1) <persName key="pmb39539">
-                        <rs type="work" key="pmb39541">Bolgar</rs>
-                    </persName> geht eben unter Kreuzband ab.</p>
-                <p>2.) an <persName key="pmb18523">P. Horn</persName> ſchrieb ich, weil
-                    <orgName key="pmb40227">Schenker</orgName> immer beſetzt iſt und das telefoniren mich
-                    nervös macht. Ich bat ihn, Ihnen direct ſofort zu antworten.</p>
-                <p>3.) <persName key="pmb10815">Bahr</persName> werde ich morgen ſprechen.</p>
-                <p>4.) <persName key="pmb12618">Adele S.</persName> wohnt <placeName key="pmb717">Opernring 19</placeName>.</p>
-                <p>5.) Der <rs type="work" key="pmb40039">Artikel</rs> der <persName key="pmb12183">Marholm</persName> iſt ſehr ſchön, ſehr werthvoll beſonders. – Hieſs
-                        »<workName key="pmb40039">Ein Märchen</workName>« und beſchäftigt ſich nach
-                    1 ½ Seiten allg. Einleitung auf 2 ½ Seiten <pb facs="1894_AS_RBH_2_00004.jpeg"/>mit mir. – (Beſtellt; Sie kriegen ihn da<c rendition="#gemination-n"/>)</p>
-                <p>6.) Vergeſſen Sie nicht mir den Stock, welcher in Ihrer Hand ſo elegant wird,
-                    nach <placeName key="pmb50">Wien</placeName> zu ſchicken.</p>
-                <p>7.) Glücklicher! –</p>
-                <closer>Herzliche Grüße Ihr<lb/>
-                    <signed>Arthur</signed>
-                </closer>
-                <p>
-               <date>9. Sept. 94</date>
-               <space unit="chars" quantity="1"/>
-               <placeName key="pmb50">Wien</placeName>.</p>
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine><pb facs="1894_AS_RBH_2_00005.jpeg"/>Herrn Dr. <hi rend="latintype">Richard Beer-Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb213" type="place">Ischl</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb766" type="place">Egelmoos 22</rs></hi></addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs="1894_AS_RBH_2_00003.jpeg"/>Lieber Richard,</salute></opener><p>1) <rs ref="#pmb39539" type="person"><rs type="work" ref="#pmb39541" subtype="implied">Bolgar</rs></rs> geht eben unter Kreuzband ab.</p><p>2.) an <rs ref="#pmb18523" type="person">P. Horn</rs> ſchrieb ich, weil
+                    <rs ref="#pmb40227" type="organisation">Schenker</rs> immer beſetzt iſt und das telefoniren mich
+                    nervös macht. Ich bat ihn, Ihnen direct ſofort zu antworten.</p><p>3.) <rs ref="#pmb10815" type="person">Bahr</rs> werde ich morgen ſprechen.</p><p>4.) <rs ref="#pmb12618" type="person">Adele S.</rs> wohnt <rs ref="#pmb717" type="place">Opernring 19</rs>.</p><p>5.) Der <rs type="work" ref="#pmb40039" subtype="implied">Artikel</rs> der <rs ref="#pmb12183" type="person">Marholm</rs> iſt ſehr ſchön, ſehr werthvoll beſonders.&#160;– Hieſs
+                        »<rs ref="#pmb40039" type="work">Ein Märchen</rs>« und beſchäftigt ſich nach
+                    1&#160;½ Seiten allg. Einleitung auf 2&#160;½ Seiten <pb facs="1894_AS_RBH_2_00004.jpeg"/>mit mir.&#160;– (Beſtellt; Sie kriegen ihn da<c rendition="#gemination-n"/>)</p><p>6.) Vergeſſen Sie nicht mir den Stock, welcher in Ihrer Hand ſo elegant wird,
+                    nach <rs ref="#pmb50" type="place">Wien</rs> zu ſchicken.</p><p>7.) Glücklicher!&#160;–</p><closer>Herzliche Grüße Ihr<lb/><signed>Arthur</signed></closer><p><date>9. Sept. 94</date><space unit="chars" quantity="1"/><rs ref="#pmb50" type="place">Wien</rs>.</p></div></body>
     </text>
 </TEI>

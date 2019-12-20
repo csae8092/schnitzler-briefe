@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-07-16_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1899-07-16_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 16. 7. 1899</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 16.&#160;7.&#160;1899</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,15 +54,15 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief mit Umschlag, 1 Bl., 4 S., Bleistift.</p>
+                        <p>eh. Brief mit Umschlag, 1&#160;Bl., 4&#160;S., Bleistift.</p>
                         <stamp n="1">
-                           <placeName key="pmb50">Wien</placeName>
-                           <date when="1899-07-16">16. 7. 99</date>
-                           <time>5–6 N</time>
+                           <rs ref="#pmb50" type="place">Wien</rs>
+                           <date when="1899-07-16">16.&#160;7.&#160;99</date>
+                           <time>5–6&#160;N</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb34824">Seeboden</placeName>
-                           <date when="1899-07-17">17. 7. 99</date>
+                           <rs ref="#pmb34824" type="place">Seeboden</rs>
+                           <date when="1899-07-17">17. 7.&#160;99</date>
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -68,8 +71,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -89,18 +92,18 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1899-07-16" n="01">16. 7. 1899</date>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1899-07-16" n="01">16.&#160;7.&#160;1899</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb34824">Seeboden</placeName>
-               <date when="1899-07-17">17. 7. 99</date>
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb34824">Seeboden</placeName>
+               <date when="1899-07-17">17. 7.&#160;99</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-07-14_02">Beer-Hofmann an Schnitzler, 14. 7. 1899</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-07-18_01">Beer-Hofmann an Schnitzler, 18. 7. 1899</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-07-14_02">Beer-Hofmann an Schnitzler, 14.&#160;7.&#160;1899</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-07-18_01">Beer-Hofmann an Schnitzler, 18.&#160;7.&#160;1899</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -118,62 +121,18 @@
       <graphic url="1899_AS_RBH_2_00011.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1899_AS_RBH_2_00007.jpeg"/>
-                  <hi rend="latintype">Herrn Dr Rich Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb34824">
-                     <hi rend="latintype">Seeboden am Millstätter</hi>ſee</placeName>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb40788">
-                     <hi rend="latintype">Villa Platzer</hi>
-                  </placeName>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb651">
-                     <hi rend="latintype">Kärnthen</hi>
-                  </placeName>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                        <pb facs="1899_AS_RBH_2_00009.jpeg"/>
-                  <date when="1899-07-16">16/7 99</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Richard, </salute>ich will <date>Dinſtag</date>
-               <space unit="chars" quantity="1"/>
-               <time>Früh</time> in <placeName key="pmb909">
-                        <hi rend="latintype">Velden</hi>
-                    </placeName>, <placeName key="pmb36282">
-                        <hi rend="latintype">Pension
-                     Pundschu</hi>
-                    </placeName> eintreffen. Schreiben Sie mir dann, wann Sie zu mir
-               oder ich zu Ihnen ko<c rendition="#gemination-m"/>en soll. <pb facs="1899_AS_RBH_2_00010.jpeg"/>Wollen Sie früher mit Ihrer Arbeit fertig ſein,
-               ſo ſchreiben Sie mir eben, wann Sie fertig sind.</p>
-            <p>
-               <placeName key="pmb734">
-                        <hi rend="latintype">Bayreuth</hi>
-                    </placeName> wird kaum <pb facs="1899_AS_RBH_2_00010.jpeg"/>was zu bekommen ſein.</p>
-            <p>Bin ich <date>Ende Juli</date> ſchon in jener Gegend, ſo ko<c rendition="#gemination-m"/> ich kaum mehr nach <placeName key="pmb651">Kärnthen</placeName>, <hi rend="latintype">resp</hi>. <placeName key="pmb423">Tirol</placeName> zurück. Im übrigen all das läßt sich mündlich <pb facs="1899_AS_RBH_2_00011.jpeg"/>beſſer beſprechen.</p>
-            <closer>Herzlich Ihr <signed>Arth</signed>
-            </closer>
-            <postscript>
-               <p>
-                  <persName key="pmb13055">
-                            <hi rend="latintype">Wasserma<c rendition="#gemination-n"/>
-                            </hi>
-                        </persName> kommt <date>Mittwoch</date> nach <placeName key="pmb909">Velden</placeName>.</p>
-            </postscript>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="1899_AS_RBH_2_00007.jpeg"/><hi rend="latintype">Herrn Dr Rich Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb34824" type="place"><hi rend="latintype">Seeboden am Millstätter</hi>ſee</rs></addrLine><addrLine><rs ref="#pmb40788" type="place"><hi rend="latintype">Villa Platzer</hi></rs></addrLine><addrLine><rs ref="#pmb651" type="place"><hi rend="latintype">Kärnthen</hi></rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1899_AS_RBH_2_00009.jpeg"/><date when="1899-07-16">16/7 99</date></dateline></opener><p><salute>Lieber Richard, </salute>ich will <date>Dinſtag</date><space unit="chars" quantity="1"/><time>Früh</time> in <rs ref="#pmb909" type="place"><hi rend="latintype"
+                  >Velden</hi></rs>, <rs ref="#pmb36282" type="place"><hi rend="latintype">Pension
+                     Pundschu</hi></rs> eintreffen. Schreiben Sie mir dann, wann Sie zu mir
+               oder ich zu Ihnen ko<c rendition="#gemination-m"/>en soll. <pb
+                  facs="1899_AS_RBH_2_00010.jpeg"/>Wollen Sie früher mit Ihrer Arbeit fertig ſein,
+               ſo ſchreiben Sie mir eben, wann Sie fertig sind.</p><p><rs ref="#pmb734" type="place"><hi rend="latintype">Bayreuth</hi></rs> wird kaum <pb
+                  facs="1899_AS_RBH_2_00010.jpeg"/>was zu bekommen ſein.</p><p>Bin ich <date>Ende Juli</date> ſchon in jener Gegend, ſo ko<c
+                  rendition="#gemination-m"/> ich kaum mehr nach <rs ref="#pmb651" type="place"
+                  >Kärnthen</rs>, <hi rend="latintype">resp</hi>. <rs ref="#pmb423" type="place"
+                  >Tirol</rs> zurück. Im übrigen all das läßt sich mündlich <pb
+                  facs="1899_AS_RBH_2_00011.jpeg"/>beſſer beſprechen.</p><closer>Herzlich Ihr <signed>Arth</signed></closer><postscript><p><rs ref="#pmb13055" type="person"><hi rend="latintype">Wasserma<c rendition="#gemination-n"
+                        /></hi></rs> kommt <date>Mittwoch</date> nach <rs ref="#pmb909" type="place"
+                     >Velden</rs>.</p></postscript></div></body>
    </text>
 </TEI>

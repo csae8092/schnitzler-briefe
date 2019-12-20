@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-09-19_01_Bahr_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-09-19_01_Bahr_AS">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hermann Bahr an Arthur Schnitzler, [19.? 9. 1896]</title>
-            <author key="pmb10815">Bahr, Hermann</author>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, [19.? 9.&#160;1896]</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,11 +53,11 @@
                         <country>GB</country>            
                         <settlement>Cambridge</settlement>            
                         <repository>University Library</repository>            
-                        <idno>Schnitzler, B 5b</idno>
+                        <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., von Schnitzler datiert: »<quote>
-                              <date>20? Sept. 96</date>
+                        <p>eh. Brief, 1&#160;Bl., 2&#160;S., von Schnitzler datiert: »<quote>
+                              <date>20? Sept.&#160;96</date>
                            </quote>«. 
                            Zur Datierung siehe die Antwort Schnitzlers.</p>
                      </physDesc>
@@ -63,8 +67,8 @@
             <listBibl>                
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -82,18 +86,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1896-09-19" n="01">[19.? 9. 1896]</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1896-09-19" n="01">[19.? 9.&#160;1896]</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-09-04_01">Bahr an Schnitzler, 4. 9. 1896</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-09-20_02">Schnitzler an Bahr, [20. 9. 1896?]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-09-04_01">Bahr an Schnitzler, 4.&#160;9.&#160;1896</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-09-20_02">Schnitzler an Bahr, [20.&#160;9.&#160;1896?]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -110,51 +114,13 @@
       <graphic url="MS-B-00005-B-000-00062"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-               <opener>
-               <p>
-                  <seg rend="left">
-                     <pb facs=""/>
-                     <hi rend="pre-print">»<orgName key="pmb29209">Die Zeit</orgName>«</hi>
-                  </seg>
-                  <seg rend="right">
-                     <hi rend="pre-print">
-                        <hi rend="bold">
-                           <placeName key="pmb50">Wien</placeName>
-                        </hi>, <placeName key="pmb296">IX/3, Günthergasse 1</placeName>., 
-                  den <c rendition="#dots" n="10 "/> 189<c rendition="#dots" n="2"/>
-                     </hi>
-                  </seg>
-               </p>
-                  <p>
-                  <hi rend="pre-print">Wiener Wochenſchrift</hi>
-               </p>
-                  <p>
-                  <hi rend="pre-print">
-                     <hi rend="bold">Herausgeber</hi>:</hi>
-                  <lb/>
-                  <hi rend="pre-print">Profeſſor Dr. <persName key="pmb12790">I. Singer</persName>, <persName key="pmb10815">Hermann Bahr</persName>, Dr. <persName key="pmb11867">Heinrich Kanner</persName>.</hi>
-               </p>
-                  <p>
-                  <hi rend="pre-print">Telephon Nr. 6415.</hi>
-               </p>
-            </opener>
-            
-            <p>
-               <salute>Lieber Arthur, </salute>anbei das <anchor type="commentary" xml:id="KL361-1"/>gewünschte Heft<note type="commentary" xml:id="KL361-1h">Möglicherweise <workName key="pmb41521">Cosmopolis</workName>. <persName key="pmb2121">Schnitzler</persName>
-            erwähnt im <bibl>
-                     <workName key="pmb33243">Tagebuch</workName>
-                  </bibl> am <date>20.</date> – dem mutmaßlichen
-            Empfangstag – kritische Aussagen aus dem August-Heft über <workName key="pmb29917">Liebelei</workName>.</note>, 
+      <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print">»<rs ref="#pmb29209" type="organisation">Die Zeit</rs>«</hi></seg><seg rend="right"><hi rend="pre-print"><hi rend="bold"><rs ref="#pmb50" type="place">Wien</rs></hi>, <rs ref="#pmb296" type="place">IX/3, Günthergasse 1</rs>., 
+                  den <c rendition="#dots" n="10 "/> 189<c rendition="#dots" n="2"/></hi></seg></p><p><hi rend="pre-print">Wiener Wochenſchrift</hi></p><p><hi rend="pre-print"><hi rend="bold">Herausgeber</hi>:</hi><lb/><hi rend="pre-print">Profeſſor Dr.&#160;<rs ref="#pmb12790" type="person">I.&#160;Singer</rs>, <rs ref="#pmb10815" type="person">Hermann Bahr</rs>, Dr.&#160;<rs ref="#pmb11867" type="person">Heinrich Kanner</rs>.</hi></p><p><hi rend="pre-print">Telephon Nr.&#160;6415.</hi></p></opener><p><salute>Lieber Arthur, </salute>anbei das <anchor type="commentary" xml:id="KL361-1"/>gewünschte Heft<note type="commentary" xml:id="KL361-1h">Möglicherweise <rs ref="#pmb41521" type="work">Cosmopolis</rs>. <rs ref="#pmb2121" type="person">Schnitzler</rs>
+            erwähnt im <bibl><rs ref="#pmb33243" type="work">Tagebuch</rs></bibl> am <date>20.</date> – dem mutmaßlichen
+            Empfangstag – kritische Aussagen aus dem August-Heft über <rs ref="#pmb29917" type="work">Liebelei</rs>.</note>, 
           das ich mir jedoch bei Gelegenheit zu retournieren bitte, es gehört der Redaction. 
           Bitte, schreib mir die Adresse von 
-                  <persName key="pmb10863">Richard</persName>. Vergiß
-        nicht, daß Du mir eine Novelle versprochen hast, groß oder klein, <pb facs="MS-B-00005-B-000-00062"/>aber gewiß!</p>
-            <closer>Herzlichst<lb/>Dein<lb/>
-               <signed>Hermann</signed>
-            </closer>
-         </div>
-      </body>
+                  <rs ref="#pmb10863" type="person">Richard</rs>. Vergiß
+        nicht, daß Du mir eine Novelle versprochen hast, groß oder klein, <pb facs="MS-B-00005-B-000-00062"/>aber gewiß!</p><closer>Herzlichst<lb/>Dein<lb/><signed>Hermann</signed></closer></div></body>
   </text>
 </TEI>

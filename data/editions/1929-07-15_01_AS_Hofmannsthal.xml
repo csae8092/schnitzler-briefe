@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1929-07-15_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1929-07-15_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 15. 7. 1929</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 15.&#160;7.&#160;1929</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Hs-30885,5</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., Lateinschrift.</p>
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., Lateinschrift.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -60,7 +64,7 @@
                     <biblStruct>
                         <!-- Hier falsch als 25. Juli datiert -->
                         <analytic>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="a">Letzter Brief an Hugo von Hofmannsthal</title>
                         </analytic>
                         <monogr>
@@ -68,9 +72,9 @@
                             <imprint>
                                 <date when="1966">1966</date>
                                 <pubPlace>Frankfurt am Main</pubPlace>
-                                <publisher>S. Fischer</publisher>
+                                <publisher>S.&#160;Fischer</publisher>
                             </imprint>
-                            <biblScope unit="pp">[o. P.]</biblScope>
+                            <biblScope unit="pp">[o.&#160;P.]</biblScope>
                         </monogr>
                     </biblStruct>
                     <biblStruct>
@@ -100,19 +104,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1929-07-15" n="01">15. 7. 1929</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1929-07-15" n="01">15.&#160;7.&#160;1929</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                <!-- Grenzfall, weil postum erhalten -->
-                    <placeName key="pmb50">Wien</placeName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1929-06-03_01">Hofmannsthal an Schnitzler, 3. 6. 1929</ptr>
-               <ptr type="next" subtype="toAuthor" target="1931-03-05_01">Hofmannsthal an Schnitzler, [5. 1. 1931]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1929-06-03_01">Hofmannsthal an Schnitzler, 3.&#160;6.&#160;1929</ptr>
+               <ptr type="next" subtype="toAuthor" target="1931-03-05_01">Hofmannsthal an Schnitzler, [5.&#160;1.&#160;1931]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -123,24 +127,9 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="Hs-30885,5_001.TIF"/>
-                  <placeName key="pmb50">Wien</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date>15. 7. 929</date>.</dateline>
-                    </opener>                         
-                <p>
-               <salute>mein lieber Hugo, </salute>in tiefster <rs type="person" key="pmb3244">Antheilnahme</rs>, im Gefühl alter und immer neuer Freundschaft umarme
-                    ich Sie. Ich bin für Sie da wann Sie wollen. Und auch <persName key="pmb2292">Gerty</persName> wie
-                    die <persName key="pmb3220 pmb3241">Kinder</persName> werden wissen wie ich ihr Leid mitempfinde.</p>
-                <closer>mein lieber lieber Hugo auf Wiedersehen!<lb/>
-                    Immer der Ihre<lb/>
-                    <signed>Arthur</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Hs-30885,5_001.TIF"/><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date>15.&#160;7.&#160;929</date>.</dateline></opener><p><salute>mein lieber Hugo, </salute>in tiefster <rs type="person" ref="#pmb3244" subtype="implied">Antheilnahme</rs>, im Gefühl alter und immer neuer Freundschaft umarme
+                    ich Sie. Ich bin für Sie da wann Sie wollen. Und auch <rs ref="#pmb2292" type="person">Gerty</rs> wie
+                    die <rs ref="#pmb3220 pmb3241" type="person">Kinder</rs> werden wissen wie ich ihr Leid mitempfinde.</p><closer>mein lieber lieber Hugo auf Wiedersehen!<lb/>
+                    Immer der Ihre<lb/><signed>Arthur</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1912-11-16_01_AS_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1912-11-16_01_AS_Bahr">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 16. 11. 1912</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 16.&#160;11.&#160;1912</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -60,10 +64,10 @@
             <listBibl>
                <biblStruct corresp="DASB">
                   <analytic>
-                     <title level="a">16. 11. 1912, Abschrift</title>
+                     <title level="a">16.&#160;11.&#160;1912, Abschrift</title>
                   </analytic>
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint> 
@@ -80,8 +84,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -99,16 +103,16 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <date when="1912-11-16" n="01">16. 11. 1912</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <date when="1912-11-16" n="01">16.&#160;11.&#160;1912</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1912-09-28_01">Bahr an Schnitzler, 28. 9. 1912</ptr>
-               <ptr type="next" subtype="toAuthor" target="1912-12-07_01">Bahr an Schnitzler, 7. 12. 1912</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1912-09-28_01">Bahr an Schnitzler, 28.&#160;9.&#160;1912</ptr>
+               <ptr type="next" subtype="toAuthor" target="1912-12-07_01">Bahr an Schnitzler, 7.&#160;12.&#160;1912</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -124,52 +128,16 @@
      <graphic url="HS_AM60161Ba_R"/>
   </facsimile>
   <text type="card">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <p>
-                  <seg rend="left">
-                     <pb facs=""/>
-                     <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
-                  </seg>
-                  <seg rend="right">
-                     <date>16. 11. 1912</date>.
-                  </seg>
-               </p>
-               <p>
-                  <hi rend="pre-print">
-                     <placeName key="pmb150">Wien XVIII. Sternwartestrasse 71</placeName>
-                  </hi>
-               </p>
-               <salute>Lieber Hermann.</salute>
-            </opener>
-            <p>Neulich schrieb mir <persName key="pmb2147">Peter Altenberg</persName>, dass eine Anzahl derjenigen Leute, die ihn im Laufe der
+      <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></seg><seg rend="right"><date>16.&#160;11.&#160;1912</date>.
+                  </seg></p><p><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></p><salute>Lieber Hermann.</salute></opener><p>Neulich schrieb mir <rs ref="#pmb2147" type="person">Peter Altenberg</rs>, dass eine Anzahl derjenigen Leute, die ihn im Laufe der
           letzten Jahre regelmässig unterstützten, allmählich ausgesprungen seien und
           frägt mich zugleich, ob ich bereit wäre an Stelle dieser Leute einzutreten und
           andere in gleichem Sinn zu gewinnen. Unter diesen nennt er Dich und so frage ich
           an, ob Du bereit wärst ihm monatlich bis auf Weiteres einen von Dir zu
-          bestimmenden Betrag anzuweisen, wie es vorläufig <persName key="pmb11740">Hugo</persName> und ich zu tun gedenken.
+          bestimmenden Betrag anzuweisen, wie es vorläufig <rs ref="#pmb11740" type="person">Hugo</rs> und ich zu tun gedenken.
           Bist Du einverstanden, so teile es mir freundlichst mit und schreibe zugleich an
-          <persName key="pmb11324">S. Fischer</persName>, mit welchem Betrag Du Dich zu beteiligen ge<pb facs="HS_AM60161Ba_R"/>denkst. <subst>
-                  <del rend="strikethrough">Dieser</del>
-                  <add place="above">
-                     <persName key="pmb11324">
-                        <hi rend="latintype">
-                           <damage agent="hole">
-                              <supplied>Fis</supplied>
-                           </damage>cher</hi>
-                     </persName>
-                  </add>
-               </subst> will es nämlich übernehmen das Geld allmonatlich an <persName key="pmb2147">P. A.</persName> zu
-          expedieren.</p>
-            <p>Ich schreibe Dir noch an Deine <placeName key="pmb665">St. Veiter</placeName>-Adresse, obwohl ich ja annehmen muss,
-          dass Du schon in der Uebersiedelung nach <placeName key="pmb30">Salzburg</placeName> begriffen bist.</p>
-            <p>Auf baldiges Wiedersehen und herzliche Grüsse</p>
-            <closer>
-               <handShift/>Dein<lb/>
-               <signed>Arthur</signed>
-            </closer>
-         </div>
-      </body>
+          <rs ref="#pmb11324" type="person">S.&#160;Fischer</rs>, mit welchem Betrag Du Dich zu beteiligen ge<pb facs="HS_AM60161Ba_R"/>denkst. <subst><del rend="strikethrough">Dieser</del><add place="above"><rs ref="#pmb11324" type="person"><hi rend="latintype"><damage agent="hole"><supplied>Fis</supplied></damage>cher</hi></rs></add></subst> will es nämlich übernehmen das Geld allmonatlich an <rs ref="#pmb2147" type="person">P.&#160;A.</rs> zu
+          expedieren.</p><p>Ich schreibe Dir noch an Deine <rs ref="#pmb665" type="place">St. Veiter</rs>-Adresse, obwohl ich ja annehmen muss,
+          dass Du schon in der Uebersiedelung nach <rs ref="#pmb30" type="place">Salzburg</rs> begriffen bist.</p><p>Auf baldiges Wiedersehen und herzliche Grüsse</p><closer><handShift/>Dein<lb/><signed>Arthur</signed></closer></div></body>
   </text>
 </TEI>

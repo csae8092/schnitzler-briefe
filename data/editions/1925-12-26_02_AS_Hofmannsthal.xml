@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1925-12-26_02_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1925-12-26_02_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 26. 12. 1925</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 26.&#160;12.&#160;1925</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Hs-30885,155</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S.</p>
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -59,8 +63,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -79,18 +83,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1925-12-26" n="02">26. 12. 1925</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1925-12-26" n="02">26.&#160;12.&#160;1925</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1925-12-10_01">Hofmannsthal an Schnitzler, 10. 12. 1925</ptr>
-               <ptr type="next" subtype="toAuthor" target="1926-03-09_01">Hofmannsthal an Schnitzler, 9. 3. 1926</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1925-12-10_01">Hofmannsthal an Schnitzler, 10.&#160;12.&#160;1925</ptr>
+               <ptr type="next" subtype="toAuthor" target="1926-03-09_01">Hofmannsthal an Schnitzler, 9.&#160;3.&#160;1926</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -100,38 +104,14 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="Hs-30885,155_001.TIF"/>
-                        <placeName key="pmb50">Wien</placeName>, <date>26/12 925</date>
-                    </dateline>
-                </opener>
-                <p>
-                    <salute>mein lieber Hugo, </salute>viel Dank für den <anchor type="commentary" xml:id="KL2153-1"/>
-                    <rs type="work" key="pmb31253">Briefwechsel</rs>
-                    <note type="commentary" xml:id="KL2153-1h">
-                        <bibl>
-                            <persName key="pmb12870">Richard Strauss</persName>: <workName key="pmb31253">Briefwechsel mit Hugo von Hofmannsthal</workName>.
-                            Berlin, Wien, Leipzig: <orgName key="pmb36907">Paul Zsolnay</orgName>
-                            <space unit="chars" quantity="1"/>
-                            <date>1926</date>
-                        </bibl>.</note>. Ich finde ihn ganz besonders interessant, aufschließend,
-                    anregend und – nebstbei, unglaublich amüsant. Ein wahres Feiertagsvergnügen<c rendition="#dots" n="3"/>
-                </p>
-                <p>Ihr <rs type="work" key="pmb33718">
-                        <persName key="pmb12654">Schiller</persName>-Artikel</rs> in der <orgName key="pmb29351">N. Fr. Pr.</orgName> war ganz außerordentlich. Ich glaube
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Hs-30885,155_001.TIF"/><rs ref="#pmb50" type="place">Wien</rs>, <date>26/12 925</date></dateline></opener><p><salute>mein lieber Hugo, </salute>viel Dank für den <anchor type="commentary" xml:id="KL2153-1"/><rs type="work" ref="#pmb31253" subtype="implied">Briefwechsel</rs><note type="commentary" xml:id="KL2153-1h"><bibl><rs ref="#pmb12870" type="person">Richard Strauss</rs>: <rs ref="#pmb31253" type="work">Briefwechsel mit Hugo von Hofmannsthal</rs>.
+                            Berlin, Wien, Leipzig: <rs ref="#pmb36907" type="organisation">Paul Zsolnay</rs><space unit="chars" quantity="1"/><date>1926</date></bibl>.</note>. Ich finde ihn ganz besonders interessant, aufschließend,
+                    anregend und – nebstbei, unglaublich amüsant. Ein wahres Feiertagsvergnügen<c rendition="#dots" n="3"/></p><p>Ihr <rs type="work" ref="#pmb33718" subtype="implied"><rs ref="#pmb12654" type="person">Schiller</rs>-Artikel</rs> in der <rs ref="#pmb29351" type="organisation">N.&#160;Fr.&#160;Pr.</rs> war ganz außerordentlich. Ich glaube
                     nicht, daſs es heute in Deutschland neben Ihnen einen Schriftsteller gibt, der
                     im »Essayistischen« (im höchsten Sinn) an dieses Niveau heranreicht. In jedem
-                    Absatz, jedem Satz – spürt man den Dichter, – oder vielmehr beide, <persName key="pmb12654">Schiller</persName> und Sie, – (ohne daſs Sie je »poetisch«
-                    werden, was übrigens den Feuilletonisten eher passiert); – es <pb facs="Hs-30885,155_002.TIF "/>ist mir ein rechtes Bedürfnis, Ihnen bei
-                    dieser Gelegenheit wieder einmal – ach man unterläßt es so oft –! meine liebende
-                    Bewunderung auszudrücken.</p>
-                <closer>Alles beste zum Neuen Jahr.<lb/> Von Herzen Ihr<lb/>
-                    <signed>Arthur.</signed>
-                </closer>
-            </div>
-        </body>
+                    Absatz, jedem Satz – spürt man den Dichter,&#160;– oder vielmehr beide, <rs ref="#pmb12654" type="person">Schiller</rs> und Sie,&#160;– (ohne daſs Sie je »poetisch«
+                    werden, was übrigens den Feuilletonisten eher passiert);&#160;– es <pb facs="Hs-30885,155_002.TIF "/>ist mir ein rechtes Bedürfnis, Ihnen bei
+                    dieser Gelegenheit wieder einmal – ach man unterläßt es so oft&#160;–! meine liebende
+                    Bewunderung auszudrücken.</p><closer>Alles beste zum Neuen Jahr.<lb/> Von Herzen Ihr<lb/><signed>Arthur.</signed></closer></div></body>
     </text>
 </TEI>

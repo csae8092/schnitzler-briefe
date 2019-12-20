@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-10-04_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-10-04_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 4. 10. 1897</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 4.&#160;10.&#160;1897</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Hs-30885,64</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief, 1&#160;Bl., 3&#160;S., schwarze Tinte. Von Schnitzler mit
                                     Bleistift datiert: »<quote>
                                         <date>4/10 97</date>
                                     </quote>«.</p>
@@ -62,8 +66,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -82,18 +86,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1897-10-04" n="02">4. 10. 1897</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1897-10-04" n="02">4.&#160;10.&#160;1897</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-10-03_01">Hofmannsthal an Schnitzler, 3. 10. [1897]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-10-12_01">Hofmannsthal an Schnitzler, 12. 10. 1897</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-10-03_01">Hofmannsthal an Schnitzler, 3.&#160;10.&#160;[1897]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-10-12_01">Hofmannsthal an Schnitzler, 12.&#160;10.&#160;1897</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -109,35 +113,15 @@
         <graphic url="Hs-30885,64_002.TIF"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-                    <pb facs="Hs-30885,64_001.TIF"/>
-                    <salute>Mein lieber Hugo, </salute>ich danke Ihnen ſehr; Sie wiſſen ja, dſs es
+        <body><div type="writingSession" n="1"><p><pb facs="Hs-30885,64_001.TIF"/><salute>Mein lieber Hugo, </salute>ich danke Ihnen ſehr; Sie wiſſen ja, dſs es
                         i<c rendition="#gemination-m"/>er ſehr wohlthuend auf mich wirkt, we<c rendition="#gemination-n"/> mich irgendwas die Herzlichkeit unſres
-                    Verhältniſſes lebhaft empfinden läßt. – Es iſt ſehr ſchrecklich geweſen; im
+                    Verhältniſſes lebhaft empfinden läßt.&#160;– Es iſt ſehr ſchrecklich geweſen; im
                     Anfang ſo ſchrecklich, <pb facs="Hs-30885,64_002.TIF"/>dſs ich es garnicht
                     begriffen habe. In den letzten Tagen hat es ſich raſch gemildert; beſonders ſeit
                     dem Augenblick wo ich erfahren, dſs auch Sie<!-- sic! --> zwiſchen Tod und Leben
-                    war. –</p>
-                <p>Ich habe auch zu arbeiten angefangen; d. h. ich leſe mein neues <rs type="work" key="pmb30219">Stück</rs> durch und bin noch nicht drauf gekommen, wo der
-                    Hauptfehler ſteckt. –</p>
-                <p>
-                    <pb facs="Hs-30885,64_002.TIF"/>Das <rs key="pmb32067 pmb29849" type="work">neue</rs> was Sie geſchrieben haben möcht ich natürlich ſehr bald hören.
-                    Nicht wahr, ich weiſs es gleich, wenn Sie in <placeName key="pmb50">Wien</placeName> angeko<c rendition="#gemination-m"/>en ſind? Wie lange hab
-                    ich ſchon nicht mit Ihnen geſprochen!</p>
-                <p>Das was Sie über die <workName key="pmb34244">Rede von <hi rend="latintype">D’Annunzio</hi>
-                    </workName> geſagt haben, iſt ſehr ſchön. –</p>
-                <p>Leben Sie wohl.</p>
-                <closer>Von Herzen Ihr <signed>Arthur</signed>
-                </closer>
-                <postscript>
-                    <p>
-                        <placeName key="pmb50">Wien</placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>4. 10. 97</date>.</p>
-                </postscript>
-            </div>
-        </body>
+                    war.&#160;–</p><p>Ich habe auch zu arbeiten angefangen; d.&#160;h. ich leſe mein neues <rs type="work" ref="#pmb30219" subtype="implied">Stück</rs> durch und bin noch nicht drauf gekommen, wo der
+                    Hauptfehler ſteckt.&#160;–</p><p><pb facs="Hs-30885,64_002.TIF"/>Das <rs ref="#pmb32067 pmb29849" type="work" subtype="implied">neue</rs> was Sie geſchrieben haben möcht ich natürlich ſehr bald hören.
+                    Nicht wahr, ich weiſs es gleich, wenn Sie in <rs ref="#pmb50" type="place">Wien</rs> angeko<c rendition="#gemination-m"/>en ſind? Wie lange hab
+                    ich ſchon nicht mit Ihnen geſprochen!</p><p>Das was Sie über die <rs ref="#pmb34244" type="work">Rede von <hi rend="latintype">D’Annunzio</hi></rs> geſagt haben, iſt ſehr ſchön.&#160;–</p><p>Leben Sie wohl.</p><closer>Von Herzen Ihr <signed>Arthur</signed></closer><postscript><p><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date>4.&#160;10.&#160;97</date>.</p></postscript></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-06-21_01_Mamroth_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-06-21_01_Mamroth_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Fedor Mamroth an Arthur Schnitzler, 21. 6. 1891</title>
-                <author key="pmb4986">Mamroth, Fedor</author>
+                <title level="a">Fedor Mamroth an Arthur Schnitzler, 21.&#160;6.&#160;1891</title>
+                <author ref="#pmb4986">Mamroth, Fedor</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 68</idno>
+                                <idno>Schnitzler, B&#160;68</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., blaue Tinte. Von Schnitzler mit Bleistift
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., blaue Tinte. Von Schnitzler mit Bleistift
                                     nummeriert: »<quote>2.</quote>«. Eine Unterstreichung mit
                                     rotem Buntstift.</p>
                             </physDesc>
@@ -65,18 +69,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb4986">Mamroth, Fedor</persName>
-                    <placeName key="pmb146">Frankfurt</placeName>
-                    <date when="1891-06-21" n="01">21. 6. 1891</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb4986">Mamroth, Fedor</persName>
+                    <placeName ref="#pmb146">Frankfurt</placeName>
+                    <date when="1891-06-21" n="01">21.&#160;6.&#160;1891</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1889-08-02_01">Mamroth an Schnitzler, 2. 8. 1889</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-11-17_01">Mamroth an Schnitzler, 17. 11. 1892</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1889-08-02_01">Mamroth an Schnitzler, 2.&#160;8.&#160;1889</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-11-17_01">Mamroth an Schnitzler, 17.&#160;11.&#160;1892</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -91,89 +95,26 @@
         <graphic url="MS-SCHNITZLER-B-00068-000-00005"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p>
-                        <pb facs="MS-SCHNITZLER-B-00068-000-00005"/>
-                        <orgName key="pmb29442">
-                            <hi rend="pre-print">
-                                <hi rend="antiqua">Frankfurter Zeitung</hi>
-                            </hi>
-                            <lb/>
-                            <hi rend="pre-print">
-                                <hi rend="antiqua">und</hi>
-                            </hi>
-                            <lb/>
-                            <hi rend="pre-print">
-                                <hi rend="antiqua">Handelsblatt.</hi>
-                            </hi>
-                        </orgName>
-                    </p>
-                    <dateline>
-                        <seg rend="left">
-                            <hi rend="pre-print">
-                                <hi rend="antiqua">Redaction.</hi>
-                            </hi>
-                        </seg>
-                        <seg rend="right">
-                            <hi rend="pre-print">
-                                <hi rend="antiqua">
-                                    <placeName key="pmb146">Frankfurt a. M.</placeName>,</hi>
-                            </hi>
-                            <space unit="chars" quantity="1"/>
-                            <date>21. Juni. <hi rend="pre-print">
-                                    <hi rend="antiqua">189</hi>
-                                </hi>1</date>
-                        </seg>
-                    </dateline>
-                    <p>
-                        <hi rend="pre-print">
-                            <hi rend="antiqua">Telegramm-Adresse:</hi>
-                        </hi>
-                    </p>
-                    <p>
-                        <hi rend="pre-print">
-                            <hi rend="antiqua">Zeitung Frankfurt Main.</hi>
-                        </hi>
-                    </p>
-                    
-                    <salute>Hochgeehrter Herr Doctor!</salute>
-                </opener>
-                
-                
-                
-                <p>Mit aufrichtigem Vergnügen las ich Ihre »<workName key="pmb31965">Drei
-                        Elixire</workName>« und ich verſage es mir ungern, Ihnen eine Menge ſchöner
+        <body><div type="writingSession" n="1"><opener><p><pb facs="MS-SCHNITZLER-B-00068-000-00005"/><rs ref="#pmb29442" type="organisation"><hi rend="pre-print"><hi rend="antiqua">Frankfurter Zeitung</hi></hi><lb/><hi rend="pre-print"><hi rend="antiqua">und</hi></hi><lb/><hi rend="pre-print"><hi rend="antiqua">Handelsblatt.</hi></hi></rs></p><dateline><seg rend="left"><hi rend="pre-print"><hi rend="antiqua">Redaction.</hi></hi></seg><seg rend="right"><hi rend="pre-print"><hi rend="antiqua"><rs ref="#pmb146" type="place">Frankfurt a. M.</rs>,</hi></hi><space unit="chars" quantity="1"/><date>21.&#160;Juni. <hi rend="pre-print"><hi rend="antiqua">189</hi></hi>1</date></seg></dateline><p><hi rend="pre-print"><hi rend="antiqua">Telegramm-Adresse:</hi></hi></p><p><hi rend="pre-print"><hi rend="antiqua">Zeitung Frankfurt Main.</hi></hi></p><salute>Hochgeehrter Herr Doctor!</salute></opener><p>Mit aufrichtigem Vergnügen las ich Ihre »<rs ref="#pmb31965" type="work">Drei
+                        Elixire</rs>« und ich verſage es mir ungern, Ihnen eine Menge ſchöner
                     Dinge darüber zu ſagen, weil ich in der Hauptſache weder Ihren noch meinen
-                    Wünſchen zu entſprechen vermag. Vermutlich wird die <workName key="pmb36344">Frankf. Ztg.</workName> im Jahre <date>1920</date> eine Arbeit dieſer Art
+                    Wünſchen zu entſprechen vermag. Vermutlich wird die <rs ref="#pmb36344" type="work">Frankf. Ztg.</rs> im Jahre <date>1920</date> eine Arbeit dieſer Art
                     veröffentlichen dürfen, ohne Straßenkämpfe hervorzurufen. Namens unſeres
                     Publikums danke ich Ihnen für die Überſchätzung, die Sie ſeinem Niveau zu teil
-                    werden laſſen. Außer <persName key="pmb10986">Brahm</persName>’s »<workName key="pmb36149">Freier Bühne</workName>« wüßte ich auch kein deutſches Blatt,
+                    werden laſſen. Außer <rs ref="#pmb10986" type="person">Brahm</rs>’s »<rs ref="#pmb36149" type="work">Freier Bühne</rs>« wüßte ich auch kein deutſches Blatt,
                     das dieſe reizende Dichtung veröffentlichen könnte. Es ſei denn, Sie überſetzten
-                    ſie ins Franzöſiſche u ſchickten ſie dem »<orgName key="pmb34980">Echo de
-                        Paris</orgName>« oder dem »<orgName key="pmb34982">Gil Blas</orgName>«, –
+                    ſie ins Franzöſiſche u ſchickten ſie dem »<rs ref="#pmb34980" type="organisation">Echo de
+                        Paris</rs>« oder dem »<rs ref="#pmb34982" type="organisation">Gil Blas</rs>«, –
                     dann könnte ſie vielleicht <anchor type="commentary" xml:id="G14"/>von dort aus
-                    den Weg<note type="commentary" xml:id="G14h">Anspielung auf den in <placeName key="pmb151">Deutschland</placeName> kaum rezipierten Roman von
-                        <bibl>
-                     <persName key="pmb14281">Karl Bleibtreu</persName>: <workName key="pmb42702">Dies
+                    den Weg<note type="commentary" xml:id="G14h">Anspielung auf den in <rs ref="#pmb151" type="place">Deutschland</rs> kaum rezipierten Roman von
+                        <bibl><rs ref="#pmb14281" type="person">Karl Bleibtreu</rs>: <rs ref="#pmb42702" type="work">Dies
                             Irae. Erinnerungen eines französischen Offiziers an die Tage von
-                            Sedan</workName>. Stuttgart: <orgName key="pmb29465">Krabbe</orgName>
-                     <space unit="chars" quantity="1"/>
-                     <date>1882</date>
-                  </bibl>, dessen vielbeachtete
+                            Sedan</rs>. Stuttgart: <rs ref="#pmb29465" type="organisation">Krabbe</rs><space unit="chars" quantity="1"/><date>1882</date></bibl>, dessen vielbeachtete
                         französische Übersetzung für das Original gehalten und zurück ins Deutsche
-                        übersetzt wurde.</note>
-               <space unit="chars" quantity="1"/>
-               <pb facs="MS-SCHNITZLER-B-00068-000-00005"/>nach <placeName key="pmb151">Deutſchland</placeName> finden. ——— <persName key="pmb11485">Paul</persName> ſcheint es gut zu gehen; ſeine Privatberichte ſind zumeiſt
+                        übersetzt wurde.</note><space unit="chars" quantity="1"/><pb facs="MS-SCHNITZLER-B-00068-000-00005"/>nach <rs ref="#pmb151" type="place">Deutſchland</rs> finden. ——— <rs ref="#pmb11485" type="person">Paul</rs> ſcheint es gut zu gehen; ſeine Privatberichte ſind zumeiſt
                     ſo mißgeſti<c rendition="#gemination-m"/>t, daß ich überzeugt bin, es gefalle
-                    ihm in <placeName key="pmb862">Brüſſel</placeName> ganz ausgezeichnet. Laſſen
+                    ihm in <rs ref="#pmb862" type="place">Brüſſel</rs> ganz ausgezeichnet. Laſſen
                     Sie mich hoffen, daß es Ihnen mindeſtens ebenſo gut gehe u empfangen Sie meine
-                    herzlichſten Grüße.</p>
-                <closer>Ihr ergebener<lb/>
-                    <signed>FMamroth</signed>
-                </closer>
-            </div>
-        </body>
+                    herzlichſten Grüße.</p><closer>Ihr ergebener<lb/><signed>FMamroth</signed></closer></div></body>
     </text>
 </TEI>

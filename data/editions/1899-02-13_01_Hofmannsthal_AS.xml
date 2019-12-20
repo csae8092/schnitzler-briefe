@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-02-13_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1899-02-13_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 13. 2. 1899</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 13.&#160;2.&#160;1899</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Kartenbrief, Bleistift. Von Schnitzler mit Bleistift datiert: »<quote>
@@ -58,7 +62,7 @@
                                     </quote>«. Von weiterer Hand nummeriert:
                                     »<quote>136</quote>«.</p>
                                 <stamp n="1">
-                                    <date when="1899-02-13">13. 2. 99</date>
+                                    <date when="1899-02-13">13.&#160;2.&#160;99</date>
                                     <time>11-12N</time>
                                 </stamp>
                             </physDesc>
@@ -68,8 +72,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -88,19 +92,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1899-02-13" n="01">13. 2. 1899</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1899-02-13" n="01">13.&#160;2.&#160;1899</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1899-02-14">14. 2. 1899</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1899-02-14">14.&#160;2.&#160;1899</date>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-02-08_01">Hofmannsthal an Schnitzler, 8. 2. 1899</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-02-17_01">Hofmannsthal an Schnitzler, [17. 2. 1899]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-02-08_01">Hofmannsthal an Schnitzler, 8.&#160;2.&#160;1899</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-02-17_01">Hofmannsthal an Schnitzler, [17.&#160;2.&#160;1899]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -116,44 +120,13 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00302"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00302"/>
-                        <hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
-                            Schnitzler</hi>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb50">
-                            <hi rend="latintype">Wien</hi>
-                        </placeName>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb397">
-                            <hi rend="latintype">IX Franckgasse 1</hi>
-                        </placeName>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00301"/>mein lieber
-                        Arthur</salute>
-                </opener>
-                <p>leider bin ich <date>morgen</date> gerade von <time>6–10</time> gar nicht frei.
-                    Ich hab das natürlich <anchor type="commentary" xml:id="KL2386-1"/>
-                    <date>Samstag</date>
-                    <note type="commentary" xml:id="KL2386-1h">Der <date>11. 2. 1899</date>; an
+        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00302"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
+                            Schnitzler</hi></addrLine><addrLine><rs ref="#pmb50" type="place"><hi rend="latintype">Wien</hi></rs></addrLine><addrLine><rs ref="#pmb397" type="place"><hi rend="latintype">IX Franckgasse 1</hi></rs></addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00301"/>mein lieber
+                        Arthur</salute></opener><p>leider bin ich <date>morgen</date> gerade von <time>6–10</time> gar nicht frei.
+                    Ich hab das natürlich <anchor type="commentary" xml:id="KL2386-1"/><date>Samstag</date><note type="commentary" xml:id="KL2386-1h">Der <date>11.&#160;2.&#160;1899</date>; an
                         diesem Tag kein nachweisbares Treffen der beiden.</note> noch nicht geahnt.
                     Bitte ſeien Sie nicht bös. Ich kann aber wahrſcheinlich mühelos um
-                        <time>½ 11</time> ins <placeName key="pmb34210">Kaiſerhof</placeName>
-                    ſchauen und werde das thun.</p>
-                <closer>Herzlich Ihr<lb/>
-                    <signed>Hugo</signed>
-                </closer>
-            </div>
-        </body>
+                        <time>½&#160;11</time> ins <rs ref="#pmb34210" type="place">Kaiſerhof</rs>
+                    ſchauen und werde das thun.</p><closer>Herzlich Ihr<lb/><signed>Hugo</signed></closer></div></body>
     </text>
 </TEI>

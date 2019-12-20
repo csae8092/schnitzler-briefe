@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-07-18_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-07-18_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 18. 7. 1893</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 18.&#160;7.&#160;1893</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., Bleistift; Lateinschrift. Von unbekannter Hand
+                        <p>eh. Brief, 1&#160;Bl., 2&#160;S., Bleistift; Lateinschrift. Von unbekannter Hand
                            mit Bleistift nummeriert: »<quote>20</quote>«.</p>
                      </physDesc>
                   </msDesc>
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -80,19 +84,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb213">Ischl</placeName>
-               <date when="1893-07-18" n="01">18. 7. 1893</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb213">Ischl</placeName>
+               <date when="1893-07-18" n="01">18.&#160;7.&#160;1893</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
                <ptr type="previous" subtype="toAuthor" target="1893-07-03_02">Schnitzler an Beer-Hofmann, [zwischen 3. und
-                  15. 7. 1893?]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-07-22_01">Schnitzler an Beer-Hofmann, 22. 7. 1893</ptr>
+                  15.&#160;7.&#160;1893?]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-07-22_01">Schnitzler an Beer-Hofmann, 22.&#160;7.&#160;1893</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -108,33 +112,14 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00044.jpg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p>
-               <salute>
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00043"/>Lieber Arthur!
-               </salute>Hier die <rs type="work" key="pmb30437">Novelle</rs> – bis auf das letzte
+      <body><div type="writingSession" n="1"><p><salute><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00043"/>Lieber Arthur!
+               </salute>Hier die <rs type="work" ref="#pmb30437" subtype="implied">Novelle</rs> – bis auf das letzte
                Capitel das ich noch ändere. Bitte tun Sie was Sie können um die Abschrift zu
                beschleunigen, <hi rend="underline" n="1">und schreiben Sie mir <add place="above">für</add> wann er es
-                  verspricht</hi>; geben Sie ihm eventuell eine Prämie für Beschleunigung. Vielleicht schicke ich auch das letzte <rs type="work" key="pmb30437">Capitel</rs>
-               ein, aber warten Sie keinesfalls darauf.</p>
-            <p>
-               <persName key="pmb2446">Devrient</persName>
-               wollte gestern <rs type="work" key="pmb36095">Gedichte</rs> von Ihnen als Zugabe
-               lesen, man schickte zu mir, – ich hatte begreiflicherweise keine. Schade! <persName key="pmb10848">Bauer</persName>s <rs type="work" key="pmb33440">Notiz</rs> – er
-               sagte mir gestern den Wortlaut <supplied>–</supplied> ist gut. Mit <persName key="pmb18523">Paul Horn</persName> habe ich wegen »<rs type="work" key="pmb33470">
-                  <orgName key="pmb29406">Börsencourir</orgName>
-               </rs>« gesprochen. <persName key="pmb2598">Lautenburg</persName> ist <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00044"/>
-               <del rend="strikethrough">heut</del> gestern geko<c rendition="#gemination-m"/>en.</p>
-            <p>Bitte also nochmals tun Sie was Sie können.</p>
-            <closer>Herzlichst<lb/>
-               <signed>Richard</signed>
-            </closer>
-            <p>
-               <persName key="pmb12740">Schwarzkopf</persName>, <persName key="pmb2167">Salten</persName>, herzlichst gegrüßt.</p>
-            <p>
-               <date>Dienstag 18 Juli 93</date>.</p>
-         </div>
-      </body>
+                  verspricht</hi>; geben Sie ihm eventuell eine Prämie für Beschleunigung. Vielleicht schicke ich auch das letzte <rs type="work" ref="#pmb30437" subtype="implied">Capitel</rs>
+               ein, aber warten Sie keinesfalls darauf.</p><p><rs ref="#pmb2446" type="person">Devrient</rs>
+               wollte gestern <rs type="work" ref="#pmb36095" subtype="implied">Gedichte</rs> von Ihnen als Zugabe
+               lesen, man schickte zu mir,&#160;– ich hatte begreiflicherweise keine. Schade! <rs ref="#pmb10848" type="person">Bauer</rs>s <rs type="work" ref="#pmb33440" subtype="implied">Notiz</rs> – er
+               sagte mir gestern den Wortlaut <supplied>–</supplied> ist gut. Mit <rs ref="#pmb18523" type="person">Paul Horn</rs> habe ich wegen »<rs type="work" ref="#pmb33470" subtype="implied"><rs ref="#pmb29406" type="organisation">Börsencourir</rs></rs>« gesprochen. <rs ref="#pmb2598" type="person">Lautenburg</rs> ist <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00044"/><del rend="strikethrough">heut</del> gestern geko<c rendition="#gemination-m"/>en.</p><p>Bitte also nochmals tun Sie was Sie können.</p><closer>Herzlichst<lb/><signed>Richard</signed></closer><p><rs ref="#pmb12740" type="person">Schwarzkopf</rs>, <rs ref="#pmb2167" type="person">Salten</rs>, herzlichst gegrüßt.</p><p><date>Dienstag 18 Juli 93</date>.</p></div></body>
    </text>
 </TEI>

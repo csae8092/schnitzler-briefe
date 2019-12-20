@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1917-10-15_01_AS_Adam">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1917-10-15_01_AS_Adam">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Robert Adam, 15. 10. 1917</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Robert Adam, 15.&#160;10.&#160;1917</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,12 +55,12 @@
                                 <idno>96.34.2/5</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>ms. Postkarte mit eh. Unterschrift. Absender in Bleistift von fremder Hand (wohl <persName key="pmb22728">Frieda Pollak</persName>) in Lateinschrift: »<quote>
-                              <placeName key="pmb150">XVIII. Sternwartestrasse 71</placeName>
+                                <p>ms. Postkarte mit eh. Unterschrift. Absender in Bleistift von fremder Hand (wohl <rs ref="#pmb22728" type="person">Frieda Pollak</rs>) in Lateinschrift: »<quote>
+                              <rs ref="#pmb150" type="place">XVIII. Sternwartestrasse 71</rs>
                            </quote>«.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb50">
-                              <supplied>Wi</supplied>en</placeName>
+                                    <rs ref="#pmb50" type="place">
+                              <supplied>Wi</supplied>en</rs>
                                 </stamp>
                             </physDesc>
                         </msDesc>
@@ -69,18 +73,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1917-10-15" n="01">15. 10. 1917</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1917-10-15" n="01">15.&#160;10.&#160;1917</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1917-10-12_01">Adam an Schnitzler, 12. 10. 1917</ptr>
-               <ptr type="next" subtype="toAuthor" target="1917-10-22_01">Schnitzler an Adam, 22. 10. 1917</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1917-10-12_01">Adam an Schnitzler, 12.&#160;10.&#160;1917</ptr>
+               <ptr type="next" subtype="toAuthor" target="1917-10-22_01">Schnitzler an Adam, 22.&#160;10.&#160;1917</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -90,30 +94,6 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <pb facs=""/>Herrn</addrLine>
-                    <addrLine>Dr. Robert Adam-Pollak,</addrLine>
-                    <addrLine>
-                  <placeName key="pmb62">Wien XII</placeName>.</addrLine>
-                    <addrLine>
-                  <placeName key="pmb1239">Meidlinger Hauptstr. 56</placeName>.</addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <date>15. 10. 1917</date>.</dateline>
-                    <salute>Sehr verehrter Herr Doktor.</salute>
-                </opener>
-                <p>Lassen Sie mich Ihnen vor allem den Empfang des <rs type="work" key="pmb33608">Manuscriptes</rs> mit herzlichem Dank bestätigen; ich will es, wenn irgend möglich, noch in dieser Woche lesen und hoffe Sie in der nächsten bei mir zu sehen.</p>
-                <closer>Mit vielen Grüssen<lb/>Ihr sehr ergebener<lb/>
-               <signed>
-                  <handShift/>Arthur Schnitzler</signed>
-            </closer>
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine><pb facs=""/>Herrn</addrLine><addrLine>Dr. Robert Adam-Pollak,</addrLine><addrLine><rs ref="#pmb62" type="place">Wien XII</rs>.</addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hauptstr. 56</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><date>15.&#160;10.&#160;1917</date>.</dateline><salute>Sehr verehrter Herr Doktor.</salute></opener><p>Lassen Sie mich Ihnen vor allem den Empfang des <rs type="work" ref="#pmb33608" subtype="implied">Manuscriptes</rs> mit herzlichem Dank bestätigen; ich will es, wenn irgend möglich, noch in dieser Woche lesen und hoffe Sie in der nächsten bei mir zu sehen.</p><closer>Mit vielen Grüssen<lb/>Ihr sehr ergebener<lb/><signed><handShift/>Arthur Schnitzler</signed></closer></div></body>
     </text>
 </TEI>

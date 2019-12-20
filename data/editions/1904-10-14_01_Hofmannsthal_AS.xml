@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1904-10-14_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1904-10-14_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 14. 10. 1904</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 14.&#160;10.&#160;1904</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb173">Rodaun</placeName>
-               <date when="1904-10-14" n="01">14. 10. 1904</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb173">Rodaun</placeName>
+               <date when="1904-10-14" n="01">14.&#160;10.&#160;1904</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1904-10-08_01">Hofmannsthal an Schnitzler, 8. 10. 1904</ptr>
-               <ptr type="next" subtype="toAuthor" target="1904-10-15_01">Schnitzler an Hofmannsthal, 15. 10. 1904</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1904-10-08_01">Hofmannsthal an Schnitzler, 8.&#160;10.&#160;1904</ptr>
+               <ptr type="next" subtype="toAuthor" target="1904-10-15_01">Schnitzler an Hofmannsthal, 15.&#160;10.&#160;1904</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,31 +105,20 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb173">Rodaun</placeName>, d.
-    <date>14. X.1490<!-- sic, so im Buch! --></date>.</dateline>
-            </opener>
-            <p>
-               <salute>Mein lieber Arthur, </salute>ich muß Sie bitten den inliegenden leider sehr unleserlichen
-   Brief der <persName key="pmb11195">Dumont</persName> zu lesen und mir über diese Sache umgehend
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb173" type="place">Rodaun</rs>, d.
+    <date>14.&#160;X.1490<!-- sic, so im Buch! --></date>.</dateline></opener><p><salute>Mein lieber Arthur, </salute>ich muß Sie bitten den inliegenden leider sehr unleserlichen
+   Brief der <rs ref="#pmb11195" type="person">Dumont</rs> zu lesen und mir über diese Sache umgehend
    Ihren Rat zu geben. Es ist gewissermaßen eine gemeinsame Angelegenheit. Die Unternehmung
-    <persName key="pmb11195">Dumont</persName>-<persName key="pmb20466">Lindemann</persName> bewirbt
+    <rs ref="#pmb11195" type="person">Dumont</rs>-<rs ref="#pmb20466" type="person">Lindemann</rs> bewirbt
    sich um fast sämtliche meiner dram. Arbeiten, was für mich immerhin nicht unwichtig. Nun war ich
-   durch <persName key="pmb11324">S. Fischer</persName> davon unterrichtet, daß sich die gleiche Unternehmung gegen
-   Sie (<workName key="pmb29985">Einsamer Weg</workName>) uncorrect oder direct unanständig benommen
-   habe. Ich tat daher das Selbstverständliche d. h. ich verweigerte meine sämtlichen Stücke »bis
+   durch <rs ref="#pmb11324" type="person">S. Fischer</rs> davon unterrichtet, daß sich die gleiche Unternehmung gegen
+   Sie (<rs ref="#pmb29985" type="work">Einsamer Weg</rs>) uncorrect oder direct unanständig benommen
+   habe. Ich tat daher das Selbstverständliche d.&#160;h. ich verweigerte meine sämtlichen Stücke »bis
    ich erfahren hätte, daß diese Angelegenheit zu Ihrer Befriedigung beigelegt sei«. Nun stellt der
-   inliegende Brief der <persName key="pmb11195">Dumont</persName> die Sache ganz anders dar und ich
+   inliegende Brief der <rs ref="#pmb11195" type="person">Dumont</rs> die Sache ganz anders dar und ich
    bitte daher Sie mir mit zwei Worten zu sagen, wo die Wahrheit liegt und ob vielleicht wirklich
-   eine Ungeschicklichkeit <persName key="pmb11324">Fischers</persName> die Sache auf diesen bösen
+   eine Ungeschicklichkeit <rs ref="#pmb11324" type="person">Fischers</rs> die Sache auf diesen bösen
    Punkt getrieben hat, in welchem Falle ich mich natürlich nicht verpflichtet hielte die Stücke zu
-   verweigern. </p>
-            <closer>Herzlich<lb/>Ihr <signed>Hugo.</signed>
-            </closer>
-         </div>
-      </body>
+   verweigern. </p><closer>Herzlich<lb/>Ihr <signed>Hugo.</signed></closer></div></body>
    </text>
 </TEI>

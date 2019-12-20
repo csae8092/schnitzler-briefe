@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-01-18_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-01-18_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, [18. 1. 1894]</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, [18.&#160;1.&#160;1894]</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,9 +55,9 @@
                                 <idno>Hs-30885,41</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief mit Trauerrand, 1 Bl., 3 S., Bleistift. Von Schnitzler
+                                <p>eh. Brief mit Trauerrand, 1&#160;Bl., 3&#160;S., Bleistift. Von Schnitzler
                                     mit Bleistift datiert: »<quote>
-                                        <date>18/1 94</date>
+                                        <date>18/1&#160;94</date>
                                     </quote>«.</p>
                             </physDesc>
                         </msDesc>
@@ -62,8 +66,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -82,18 +86,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1894-01-18" n="01">[18. 1. 1894]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1894-01-18" n="01">[18.&#160;1.&#160;1894]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-01-16_02">Hofmannsthal an Schnitzler, [16. 1. 1894]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-01-18_02">Hofmannsthal an Schnitzler, 18. 1. 1894</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-01-16_02">Hofmannsthal an Schnitzler, [16.&#160;1.&#160;1894]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-01-18_02">Hofmannsthal an Schnitzler, 18.&#160;1.&#160;1894</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -109,34 +113,15 @@
         <graphic url="Hs-30885,41_002.TIF"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="Hs-30885,41_001.TIF"/>
-                        <hi n="1" rend="underline">Donnerſtag.</hi>
-                    </dateline>
-                    <salute>Lieber Hugo,</salute>
-                </opener>
-                <p>vielleicht ko<c rendition="#gemination-m"/>en die beiliegenden 3 Ka<c rendition="#gemination-m"/>ermuſikabende Ihrem Muſikbedürfnis entgegen.
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Hs-30885,41_001.TIF"/><hi n="1" rend="underline">Donnerſtag.</hi></dateline><salute>Lieber Hugo,</salute></opener><p>vielleicht ko<c rendition="#gemination-m"/>en die beiliegenden 3 Ka<c rendition="#gemination-m"/>ermuſikabende Ihrem Muſikbedürfnis entgegen.
                     Iſt’s Ihnen alſo recht, ſo möchte ich Ihnen einen Sitz neben mir, womöglich
-                    Gallerie nehmen. – Hier iſt der Sitz für <pb facs="Hs-30885,41_002.TIF"/>
-                    <persName key="pmb34151">
-                        <hi rend="latintype">Mounet Sully</hi>
-                    </persName>; 4 fl. 20; was freilich für einen armen Dichter viel iſt. –</p>
-                <p>
-                    <date>So<c rendition="#gemination-n"/>tag</date> werd ich vor dem Theater kaum
-                    zu <persName key="pmb10863">Richard</persName> kö<c rendition="#gemination-n"/>en; (höchſtens Sie <add place="above">von dort</add> abholen), weil ich vorher
-                    irgendwo (bei <persName key="pmb27042">Wetzler</persName>’s) einen Thee trinken
-                    muſs. –</p>
-                <p>Herentgegen müßte es mit dem Teufel zugehen <pb facs="Hs-30885,41_002.TIF"/>we<c rendition="#gemination-n"/> ich nicht heute Abends um <time>10</time> ins
-                        <placeName key="pmb262">Café Central</placeName> käme, wo wir dann immer ein
+                    Gallerie nehmen. – Hier iſt der Sitz für <pb facs="Hs-30885,41_002.TIF"/><rs ref="#pmb34151" type="person"><hi rend="latintype">Mounet Sully</hi></rs>; 4&#160;fl.&#160;20; was freilich für einen armen Dichter viel iſt.&#160;–</p><p><date>So<c rendition="#gemination-n"/>tag</date> werd ich vor dem Theater kaum
+                    zu <rs ref="#pmb10863" type="person">Richard</rs> kö<c rendition="#gemination-n"/>en; (höchſtens Sie <add place="above">von dort</add> abholen), weil ich vorher
+                    irgendwo (bei <rs ref="#pmb27042" type="person">Wetzler</rs>’s) einen Thee trinken
+                    muſs.&#160;–</p><p>Herentgegen müßte es mit dem Teufel zugehen <pb facs="Hs-30885,41_002.TIF"/>we<c rendition="#gemination-n"/> ich nicht heute Abends um <time>10</time> ins
+                        <rs ref="#pmb262" type="place">Café Central</rs> käme, wo wir dann immer ein
                     Stündchen plaudern könnten – freilich nur wenn Sie dort ſind. Für alle Fälle
                     pneumatiſiren Sie mir wegen der Ka<c rendition="#gemination-m"/>ermuſik und
-                    behalten mich in freundlicher Erinnerung.</p>
-                <closer>Ihr <signed>Arthur</signed>
-                </closer>
-            </div>
-        </body>
+                    behalten mich in freundlicher Erinnerung.</p><closer>Ihr <signed>Arthur</signed></closer></div></body>
     </text>
 </TEI>

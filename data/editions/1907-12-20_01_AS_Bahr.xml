@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1907-12-20_01_AS_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1907-12-20_01_AS_Bahr">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 20. 12. 1907</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 20.&#160;12.&#160;1907</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -52,7 +56,7 @@
                         <idno>HS AM 23389 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 3 S.</p>
+                        <p>eh. Brief, 1&#160;Bl., 3&#160;S.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,11 +64,11 @@
             <listBibl>
                <biblStruct corresp="DASB">
                   <analytic>
-                     <title level="a">20. 12. 1907</title>
+                     <title level="a">20.&#160;12.&#160;1907</title>
      
                   </analytic>
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint> 
@@ -81,8 +85,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -100,18 +104,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">[Wien]</placeName>
-               <date when="1907-12-20" n="01">20. 12. 1907</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
+               <date when="1907-12-20" n="01">20.&#160;12.&#160;1907</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1907-12-18_01">Bahr an Schnitzler, 18. 12. 1907</ptr>
-               <ptr type="next" subtype="toAuthor" target="1907-12-23_01">Bahr an Schnitzler, 23. 12. 1907</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1907-12-18_01">Bahr an Schnitzler, 18.&#160;12.&#160;1907</ptr>
+               <ptr type="next" subtype="toAuthor" target="1907-12-23_01">Bahr an Schnitzler, 23.&#160;12.&#160;1907</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -127,71 +131,27 @@
      <graphic url="HS_AM23389Ba_R"/>
    </facsimile>
   <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <p>
-                  <seg rend="left">
-                     <pb facs=""/>
-                     <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
-                  </seg>
-                  <seg rend="right">
-                     <date>20. 12. 907</date>
-                  </seg>
-               </p>
-               <p>
-                  <hi rend="pre-print">
-                     <placeName key="pmb133">Wien XVIII. Spoettelgasse 7</placeName>.</hi>
-               </p>
-               <salute>lieber Hermann,</salute>
-            </opener>
-            <p>ich danke dir herzlich. So ungefähr hab ich mir 
-               <persName key="pmb12504">
-                  <hi rend="latintype">Reinh</hi>
-               </persName>.s Verhältnis zur <hi rend="latintype">
-                  <workName key="pmb29857">Beatrice</workName>
-               </hi> (u Verfasser) vorgestellt. Ich
-        werde also mit <anchor type="label" xml:id="LL102-1">
-                  <subst>
-                     <del rend="overwritten">V</del>
-                     <add place="inline">H</add>
-                  </subst>
-                  <placeName key="pmb13">ebbel</placeName> abschließen</anchor> – und darf wohl
+      <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></seg><seg rend="right"><date>20.&#160;12.&#160;907</date></seg></p><p><hi rend="pre-print"><rs ref="#pmb133" type="place">Wien XVIII. Spoettelgasse 7</rs>.</hi></p><salute>lieber Hermann,</salute></opener><p>ich danke dir herzlich. So ungefähr hab ich mir 
+               <rs ref="#pmb12504" type="person"><hi rend="latintype">Reinh</hi></rs>.s Verhältnis zur <hi rend="latintype"><rs ref="#pmb29857" type="work">Beatrice</rs></hi> (u Verfasser) vorgestellt. Ich
+        werde also mit <anchor type="label" xml:id="LL102-1"><subst><del rend="overwritten">V</del><add place="inline">H</add></subst><rs ref="#pmb13" type="place">ebbel</rs> abschließen</anchor> – und darf wohl
           aussprechen, dass der Gedanke du und die 
-             <persName key="pmb10818">
-                  <hi rend="latintype">Mildenburg</hi>
-               </persName>
+             <rs ref="#pmb10818" type="person"><hi rend="latintype">Mildenburg</hi></rs>
                 wollten sich der 
-                   <persName key="pmb2303">
-                  <hi rend="latintype">Ritscher</hi>
-               </persName>
+                   <rs ref="#pmb2303" type="person"><hi rend="latintype">Ritscher</hi></rs>
                 und der
-               <workName key="pmb29857">
-                  <hi rend="latintype">Beatrice</hi>
-               </workName>
-               annehmen, mich höchst wohlthuend berührt. In den Delirien meiner <pb facs="HS_AM23389Ba_R"/>
-               <rs type="person" key="pmb2173">Frau</rs> kam es übrigens öfters vor, dass du und
+               <rs ref="#pmb29857" type="work"><hi rend="latintype">Beatrice</hi></rs>
+               annehmen, mich höchst wohlthuend berührt. In den Delirien meiner <pb facs="HS_AM23389Ba_R"/><rs type="person" ref="#pmb2173" subtype="implied">Frau</rs> kam es übrigens öfters vor, dass du und
           die 
-             <persName key="pmb10818">
-                  <hi rend="latintype">Mildenburg</hi>
-               </persName>
+             <rs ref="#pmb10818" type="person"><hi rend="latintype">Mildenburg</hi></rs>
                 oben
-          auf dem Kasten saßen. Dieser Pl<damage agent="hole">
-                  <supplied>atz</supplied>
-               </damage> war Euch reservirt; die übrigen Gestalten trieben sich in tieferen
-          Regionen herum. Jetzt scherzt man darüber! So gut es <persName key="pmb2173">Olga</persName> im ganzen schon geht – wir müssen noch längere Zeit
-               <anchor type="commentary" xml:id="KL102-1"/>contumazirt<note type="commentary" xml:id="KL102-1h">in Quarantäne.</note> bleiben. (Unser <rs type="person" key="pmb12692">Bub</rs> wohnt seit
-          14 Tagen bei seiner <rs type="person" key="pmb12701">Großmama</rs>). Also ob ich
+          auf dem Kasten saßen. Dieser Pl<damage agent="hole"><supplied>atz</supplied></damage> war Euch reservirt; die übrigen Gestalten trieben sich in tieferen
+          Regionen herum. Jetzt scherzt man darüber! So gut es <rs ref="#pmb2173" type="person">Olga</rs> im ganzen schon geht – wir müssen noch längere Zeit
+               <anchor type="commentary" xml:id="KL102-1"/>contumazirt<note type="commentary" xml:id="KL102-1h">in Quarantäne.</note> bleiben. (Unser <rs type="person" ref="#pmb12692" subtype="implied">Bub</rs> wohnt seit
+          14 Tagen bei seiner <rs type="person" ref="#pmb12701" subtype="implied">Großmama</rs>). Also ob ich
           dich noch vor Deiner Abreise sehen werde? Mir wärs natürlich sehr lieb. (für
           alle Fälle sei’s gesagt: ich bin sorg<pb facs="HS_AM23389Ba_R"/>fältig desinfizirt eh ich Briefe
-          schreibe)</p>
-            <p>Vielleicht hast du Zeit mir, wenigstens in ein paar Zeilen etwas über dich zu
-          sagen; ich weiss so gut wie nichts von dir. – </p>
-            <closer>Herzlichst grüßt dich (u meine <rs type="person" key="pmb2173">Frau</rs> thut desgleichen)<lb/>dein<lb/>
-              <signed>Arthur
-               </signed>
-            </closer>
-         </div>
-      </body>
+          schreibe)</p><p>Vielleicht hast du Zeit mir, wenigstens in ein paar Zeilen etwas über dich zu
+          sagen; ich weiss so gut wie nichts von dir. – </p><closer>Herzlichst grüßt dich (u meine <rs type="person" ref="#pmb2173" subtype="implied">Frau</rs> thut desgleichen)<lb/>dein<lb/><signed>Arthur
+               </signed></closer></div></body>
   </text>
 </TEI>

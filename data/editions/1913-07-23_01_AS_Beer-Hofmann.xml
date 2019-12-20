@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1913-07-23_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1913-07-23_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 
-                        23. 7. 1913</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+                        23.&#160;7.&#160;1913</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -52,7 +56,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -80,17 +84,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key=""/>
-               <date when="1913-07-23" n="01">23. 7. 1913</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref=""/>
+               <date when="1913-07-23" n="01">23.&#160;7.&#160;1913</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1912-11-29_01">Beer-Hofmann, Beer-Hofmann an Schnitzler, 29. 11. 1912</ptr>
-               <ptr type="next" subtype="toAuthor" target="1913-08-10_01">Beer-Hofmann an Schnitzler, 10. 8. 1913</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1912-11-29_01">Beer-Hofmann, Beer-Hofmann an Schnitzler, 29.&#160;11.&#160;1912</ptr>
+               <ptr type="next" subtype="toAuthor" target="1913-08-10_01">Beer-Hofmann an Schnitzler, 10.&#160;8.&#160;1913</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,25 +103,9 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         
-				        <div type="writingSession" n="1">
-					          <opener>
-						            <dateline rend="right">
-							              <date when="1913-07-23">23. 7. 913</date>
-						            </dateline>
-						            <salute>Lieber Richard,</salute>
-					          </opener>
-					          <p>heute fahren wir nach <placeName key="pmb19862">Brioni</placeName>, <persName key="pmb2238">Lili</persName> ist schon seit ein paar Tagen dort – schreiben Sie mir
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date when="1913-07-23">23.&#160;7.&#160;913</date></dateline><salute>Lieber Richard,</salute></opener><p>heute fahren wir nach <rs ref="#pmb19862" type="place">Brioni</rs>, <rs ref="#pmb2238" type="person">Lili</rs> ist schon seit ein paar Tagen dort – schreiben Sie mir
 						doch ein Wort dahin. Es war eine etwas unruhig-ruhige Zeit. Sie haben wohl
-						kein schönes Wetter gehabt bis heut – nun wirds hoffentlich besser, –
-						überall.</p>
-					          <p>Wir grüßen Sie alle herzlichst</p>
-					          <closer>Ihr<lb/>
-						            <signed>A.</signed>
-					          </closer>
-				        </div>
-			      
-      </body>
+						kein schönes Wetter gehabt bis heut – nun wirds hoffentlich besser,&#160;–
+						überall.</p><p>Wir grüßen Sie alle herzlichst</p><closer>Ihr<lb/><signed>A.</signed></closer></div></body>
    </text>
 </TEI>

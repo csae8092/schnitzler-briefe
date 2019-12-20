@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1901-02-11_01_Bahr_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1901-02-11_01_Bahr_AS">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 11. 2. [1901]</title>
-            <author key="pmb10815">Bahr, Hermann</author>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 11.&#160;2. [1901]</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,10 +53,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 5b</idno>
+                        <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., von Schnitzler Jahreszahl »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S., von Schnitzler Jahreszahl »<quote>
                               <date>901.</date>
                            </quote>«
                            ergänzt.</p>
@@ -63,8 +67,8 @@
             <listBibl>                
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -82,18 +86,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1901-02-11" n="01">11. 2. [1901]</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1901-02-11" n="01">11.&#160;2.&#160;[1901]</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1901-01-25_01">Schnitzler an Bahr, 25. 1. 1901</ptr>
-               <ptr type="next" subtype="toAuthor" target="1901-02-20_01">Bahr an Schnitzler, 20. 2. 1901</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1901-01-25_01">Schnitzler an Bahr, 25.&#160;1.&#160;1901</ptr>
+               <ptr type="next" subtype="toAuthor" target="1901-02-20_01">Bahr an Schnitzler, 20.&#160;2.&#160;1901</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -108,39 +112,7 @@
       <graphic url="MS-B-00005-B-000-00118"/>
    </facsimile>
    <text type="letter">
-      <body>
-     
-         <div type="writingSession" n="1">
-            
-            <opener>
-               <p>
-                  <seg rend="left">
-                     <pb facs=""/>
-                     <hi rend="pre-print">
-                        <orgName key="pmb29414">Redaktion des Neuen Wiener Tagblatt</orgName>
-                     </hi>
-                  </seg>
-                  <seg rend="right">
-                     <date>11. Febr.</date>
-                  </seg>
-               </p>
-               <p>
-                  <hi rend="pre-print">
-                     <hi rend="antiqua">
-                        <placeName key="pmb683">Wien, I., Rothenturmstrasse, Steyrerhof</placeName>.</hi>
-                  </hi>
-               </p>
-               <p>
-                  <hi rend="pre-print">Telegramm-Adresse: <orgName key="pmb29414">Tagblatt</orgName>, <placeName key="pmb683">Steyrerhof, Wien</placeName>. – Telephon Nr. 384. Staats-Telephon Nr. 36.</hi>
-               </p>
-               <salute rend="center">Lieber Arthur!</salute>
-            </opener>
-            <p>Du thust mir einen großen Gefallen, wenn es Dir
-        möglich ist, den Wunsch der <rs type="person" key="pmb27724">Überbringerin</rs> dieser Zeilen zu erfüllen.</p>
-            <closer>Herzlichst<lb/>Dein<lb/>
-               <signed>Hermann</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print"><rs ref="#pmb29414" type="organisation">Redaktion des Neuen Wiener Tagblatt</rs></hi></seg><seg rend="right"><date>11. Febr.</date></seg></p><p><hi rend="pre-print"><hi rend="antiqua"><rs ref="#pmb683" type="place">Wien, I., Rothenturmstrasse, Steyrerhof</rs>.</hi></hi></p><p><hi rend="pre-print">Telegramm-Adresse: <rs ref="#pmb29414" type="organisation">Tagblatt</rs>, <rs ref="#pmb683" type="place">Steyrerhof, Wien</rs>. – Telephon Nr.&#160;384. Staats-Telephon Nr.&#160;36.</hi></p><salute rend="center">Lieber Arthur!</salute></opener><p>Du thust mir einen großen Gefallen, wenn es Dir
+        möglich ist, den Wunsch der <rs type="person" ref="#pmb27724" subtype="implied">Überbringerin</rs> dieser Zeilen zu erfüllen.</p><closer>Herzlichst<lb/>Dein<lb/><signed>Hermann</signed></closer></div></body>
   </text>
 </TEI>

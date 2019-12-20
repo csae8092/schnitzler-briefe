@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-07-19_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-07-19_01_Hofmannsthal_AS">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 19. 7. 1893</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 19.&#160;7.&#160;1893</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -49,10 +52,10 @@
                                 <country>UK</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S., schwarze Tinte. Von unbekannter Hand mit
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S., schwarze Tinte. Von unbekannter Hand mit
                                     Bleistift nummeriert: »<quote>54</quote>«.</p>
                             </physDesc>
                         </msDesc>
@@ -61,8 +64,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -75,8 +78,8 @@
                     </biblStruct>
                     <biblStruct corresp="HBAS">
                         <monogr>
-                            <author key="pmb10815">Bahr, Hermann</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10815">Bahr, Hermann</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel, Aufzeichnungen, Dokumente
                                 (1891–1931)</title>
                             <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
@@ -96,18 +99,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb573">Bad Fusch</placeName>
-                    <date when="1893-07-19" n="01">19. 7. 1893</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb573">Bad Fusch</placeName>
+                    <date when="1893-07-19" n="01">19.&#160;7.&#160;1893</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">[Wien]</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">[Wien]</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-07-12_01">Schnitzler an Hofmannsthal, 12. 7. 1893</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-08-02_01">Schnitzler an Hofmannsthal, 2. 8. 1893</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-07-12_01">Schnitzler an Hofmannsthal, 12.&#160;7.&#160;1893</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-08-02_01">Schnitzler an Hofmannsthal, 2.&#160;8.&#160;1893</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -124,56 +127,30 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00108"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline>
-                  <seg rend="left">
-                     <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00107"/>
-                     <placeName key="pmb573">Salzburg Bad-Fuſch</placeName>,</seg>
-                  <seg rend="right">19. VII. 93</seg>
-               </dateline>
-                    <salute>lieber Arthur!</salute>
-                </opener>
-                <p>
-               <persName key="pmb10863">Richard</persName>s Bericht von dem »<workName key="pmb30005">Abschiedsſouper</workName>« war recht unerfreulich; er
+        <body><div type="writingSession" n="1"><opener><dateline><seg rend="left"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00107"/><rs ref="#pmb573" type="place">Salzburg Bad-Fuſch</rs>,</seg><seg rend="right">19.&#160;VII.&#160;93</seg></dateline><salute>lieber Arthur!</salute></opener><p><rs ref="#pmb10863" type="person">Richard</rs>s Bericht von dem »<rs ref="#pmb30005" type="work">Abschiedsſouper</rs>« war recht unerfreulich; er
                     ſcheint mit der gewiſſen Hellſichtigkeit der Autoren jede Mücke als Elefanten
                     empfunden zu haben; wie es wirklich war, weiß ich natürlich nicht, jedenfalls
-                    iſt die überaus freundliche, gewiſſermaßen reſpectvolle <rs type="work" key="pmb32027">Notiz in der »<orgName key="pmb29351">Neuen Freien
-                            Preſſe</orgName>«</rs> ſehr erfreulich und nützt 10mal mehr als die
+                    iſt die überaus freundliche, gewiſſermaßen reſpectvolle <rs type="work" ref="#pmb32027" subtype="implied">Notiz in der »<rs ref="#pmb29351" type="organisation">Neuen Freien
+                            Preſſe</rs>«</rs> ſehr erfreulich und nützt 10mal mehr als die
                     Aufführung ſelbſt. So wird im ganzen dieſer Einbruch von äußerem Leben in Ihr
-                    inneres keine ſchlechte Laune zurückgelaſſen haben.</p>
-                <p>
-               <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00108"/>Ich freue mich ſchon recht
-                    ſehr auf die <rs type="work" key="pmb31975">Parallel-novelle</rs>.</p>
-                <p>Mein Leben verſtreicht ziemlich nichtsſagend, mit <add place="above">langſam</add> ſteigendem inneren Wohlbefinden. Von <placeName key="pmb895">Strobl</placeName> hoffe ich manches Schöne: Sonne und Mond am Waſſer,
-                    Segeln, kindlich-lärmende Vergnügungen, <persName key="pmb10863">Richard</persName>, auch <persName key="pmb12740">Schwarzkopf</persName>;
-                    nur Sie gar nicht?</p>
-                <p>Ich leſe mit lebhafteſtem Intereſſe die »<workName key="pmb31977">Hauptſtrömungen</workName>« von <persName key="pmb10992">Brandes</persName>, unendlich vieles aus der 1<hi rend="superscript">ten</hi>
+                    inneres keine ſchlechte Laune zurückgelaſſen haben.</p><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00108"/>Ich freue mich ſchon recht
+                    ſehr auf die <rs type="work" ref="#pmb31975" subtype="implied">Parallel-novelle</rs>.</p><p>Mein Leben verſtreicht ziemlich nichtsſagend, mit <add place="above">langſam</add> ſteigendem inneren Wohlbefinden. Von <rs ref="#pmb895" type="place">Strobl</rs> hoffe ich manches Schöne: Sonne und Mond am Waſſer,
+                    Segeln, kindlich-lärmende Vergnügungen, <rs ref="#pmb10863" type="person">Richard</rs>, auch <rs ref="#pmb12740" type="person">Schwarzkopf</rs>;
+                    nur Sie gar nicht?</p><p>Ich leſe mit lebhafteſtem Intereſſe die »<rs ref="#pmb31977" type="work">Hauptſtrömungen</rs>« von <rs ref="#pmb10992" type="person">Brandes</rs>, unendlich vieles aus der 1<hi rend="superscript">ten</hi>
                     Hälfte des Säculums besitzt im zweiten ein Gegenbild, manches eine Carricatur;
                     namentlich ſehe ich mit halb ſchauerndem Staunen, <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00108"/>wie völlig ſich die <add place="above">Producte der</add> jüngſten Strömungen, in denen ich ja auch
                     mit einer Fußſpitze ſtehe, der Romantik als Kugelſpiegelbild, halb verſchrumpft,
-                    halb aufgedunſen, gegenüberſtellen.</p>
-                <p>Ich habe mir ſehr viel abzugewöhnen, aber es ſind wenigſtens lauter echte
-                    Dichterkrankheiten.</p>
-                <p>Mir ſcheint, der Satz klingt maßlos arrogant; leſen Sie ihn nicht ſo.</p>
-                <p>Sie müſſen mir einen handgreiflichen Gefallen thuen: ich bin mit <persName key="pmb10815">Bahr</persName> verabredet, <date>Ende Juli</date> nach
-                        <placeName key="pmb38129">München</placeName> zu gehen; mir paſst
-                        <date>24.</date> (eventuell <date>25.</date>) bis <date>1. Auguſt</date>;
-                    ſeit 14 Tagen beantwortet <persName key="pmb10815">Bahr</persName> keinen Brief.
+                    halb aufgedunſen, gegenüberſtellen.</p><p>Ich habe mir ſehr viel abzugewöhnen, aber es ſind wenigſtens lauter echte
+                    Dichterkrankheiten.</p><p>Mir ſcheint, der Satz klingt maßlos arrogant; leſen Sie ihn nicht ſo.</p><p>Sie müſſen mir einen handgreiflichen Gefallen thuen: ich bin mit <rs ref="#pmb10815" type="person">Bahr</rs> verabredet, <date>Ende Juli</date> nach
+                        <rs ref="#pmb38129" type="place">München</rs> zu gehen; mir paſst
+                        <date>24.</date> (eventuell <date>25.</date>) bis <date>1.&#160;Auguſt</date>;
+                    ſeit 14 Tagen beantwortet <rs ref="#pmb10815" type="person">Bahr</rs> keinen Brief.
                     Ich muſs aber doch endlich wiſſen, <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00107"/>woran ich bin. Alſo bitte,
-                    telefonieren Sie in meinem Namen an die <placeName key="pmb572">Redaction der
-                        »Deutſchen Zeitung«</placeName>, man möge entweder <persName key="pmb10815">Bahr</persName> meine dringende Aufforderung endlich zukommen laſſen, oder
+                    telefonieren Sie in meinem Namen an die <rs ref="#pmb572" type="place">Redaction der
+                        »Deutſchen Zeitung«</rs>, man möge entweder <rs ref="#pmb10815" type="person">Bahr</rs> meine dringende Aufforderung endlich zukommen laſſen, oder
                     ſeine Adreſſe angeben, oder wenn man das nicht darf, wenigſtens ſagen, wie lang
                     er beiläufig <hi rend="latintype">incognito</hi> oder verſchollen bleiben
                     dürfte. Und bitte, ſchreiben Sie mir <hi rend="underline" n="2">ſofort</hi> den
-                    Beſcheid.</p>
-                <closer>Herzlichst<lb/>Ihr <signed>Loris.</signed>
-                </closer>
-                <postscript>
-                    <p>Warum antwortet <persName key="pmb2167">Salten</persName> nicht?</p>
-                </postscript>
-            </div>
-        </body>
+                    Beſcheid.</p><closer>Herzlichst<lb/>Ihr <signed>Loris.</signed></closer><postscript><p>Warum antwortet <rs ref="#pmb2167" type="person">Salten</rs> nicht?</p></postscript></div></body>
     </text>
 </TEI>

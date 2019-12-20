@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1901-08-12_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1901-08-12_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 12. 8. 1901</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 12.&#160;8.&#160;1901</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb173">Rodaun</placeName>
-               <date when="1901-08-12" n="01">12. 8. 1901</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb173">Rodaun</placeName>
+               <date when="1901-08-12" n="01">12.&#160;8.&#160;1901</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1901-08-10_02">Schnitzler an Hofmannsthal, 10. 8. 1901</ptr>
-               <ptr type="next" subtype="toAuthor" target="1901-08-19_01">Hofmannsthal an Schnitzler, 19. 8. 1901</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1901-08-10_02">Schnitzler an Hofmannsthal, 10.&#160;8.&#160;1901</ptr>
+               <ptr type="next" subtype="toAuthor" target="1901-08-19_01">Hofmannsthal an Schnitzler, 19.&#160;8.&#160;1901</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,42 +105,25 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb173">Rodaun</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date>12 VIII</date>
-               </dateline>
-               <salute>mein lieber Arthur </salute>
-            </opener>
-            <p>ich freue mich so herzlich darüber, daß Sie diesen Sommer zufrieden hinbringen. Daran
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb173" type="place">Rodaun</rs><space unit="chars" quantity="1"/><date>12 VIII</date></dateline><salute>mein lieber Arthur </salute></opener><p>ich freue mich so herzlich darüber, daß Sie diesen Sommer zufrieden hinbringen. Daran
                kann man glaub ich, am deutlichsten selbst sehen, wie gern man jemanden hat: ob es
                einen sehr freut, zu hören, daß er sich wohlfühlt. Könnte ich das gleiche nur auch
-               von <persName key="pmb10863">Richard</persName> einmal hören. Was für ein sonderbares
+               von <rs ref="#pmb10863" type="person">Richard</rs> einmal hören. Was für ein sonderbares
                Verhängnis ist über diesem Menschen bei fast lauter glücklichen Anlagen und
                Umständen. Das ist eine besonders schöne Überraschung, daß ich Sie so bald
-               Wiedersehen werde. Das hatte ich mir nicht gehofft. </p>
-            <p>Da werden wir zusammen radfahren. Es ist wirklich so was schönes das Radfahren. Ich
-               fahre immer gegen Abend, mit meiner <rs type="person" key="pmb2292">Frau</rs> oder
-               allein. Wie schön sind diese <placeName key="pmb1003">niederösterreichischen</placeName> Dörfer, die dunklen Laubmassen auf den Hügeln,
+               Wiedersehen werde. Das hatte ich mir nicht gehofft. </p><p>Da werden wir zusammen radfahren. Es ist wirklich so was schönes das Radfahren. Ich
+               fahre immer gegen Abend, mit meiner <rs type="person" ref="#pmb2292" subtype="implied">Frau</rs> oder
+               allein. Wie schön sind diese <rs ref="#pmb1003" type="place">niederösterreichischen</rs> Dörfer, die dunklen Laubmassen auf den Hügeln,
                der starke grüne kühle Geruch eines schattigen Abhanges, die weißen Straßen hügelan
                und -ab, die bäurischen kleinen Gärten. Alles riecht so eigen, atmet einem sein Wesen
                entgegen, jede Stunde hat ihren besonderen Geruch; wie schön ist es das alles zu
-               fühlen. </p>
-            <p>Ich habe von hier immer ein Stück bergauf, aber dann so schöne Wege; gegen die
-               <orgName key="pmb41229">Westbahn</orgName> hin, <placeName key="pmb2558">Tullnerbach</placeName>,
-                  <placeName key="pmb15777">Pressbaum</placeName>, oder über die <placeName key="pmb19055">Sulz</placeName> nach der <placeName key="pmb939">Heiligenkreuz</placeName>erseite. </p>
-            <p>Den Vormittag, ohne Ausnahme, arbeite ich an meinem großen <rs type="work">Stück</rs>, mit sehr viel Zurückhaltung und Überlegung, ganz anders als sonst. Es
+               fühlen. </p><p>Ich habe von hier immer ein Stück bergauf, aber dann so schöne Wege; gegen die
+               <rs ref="#pmb41229" type="organisation">Westbahn</rs> hin, <rs ref="#pmb2558" type="place">Tullnerbach</rs>,
+                  <rs ref="#pmb15777" type="place">Pressbaum</rs>, oder über die <rs ref="#pmb19055" type="place">Sulz</rs> nach der <rs ref="#pmb939" type="place">Heiligenkreuz</rs>erseite. </p><p>Den Vormittag, ohne Ausnahme, arbeite ich an meinem großen <rs type="work" subtype="implied">Stück</rs>, mit sehr viel Zurückhaltung und Überlegung, ganz anders als sonst. Es
                ist ja auch zum ersten Mal in meinem Leben eine wirklich dramatische Aufgabe. Schwer
                ist es, die Masse drängt so von allen Seiten auf einen ein. Ich schreibe den ersten
                Act in Prosa, vorläufig, um mich zur äußersten Deutlichkeit und Realität in der
                Exposition zu zwingen. Vom zweiten Act an geht die Handlung reißend vorwärts, einer
-               der inhärenten Vorzüge dieses Stoffes. Leben Sie wohl. Auf recht bald. </p>
-            <closer>Von Herzen<lb/>Ihr<signed>Hugo</signed>
-            </closer>
-         </div>
-      </body>
+               der inhärenten Vorzüge dieses Stoffes. Leben Sie wohl. Auf recht bald. </p><closer>Von Herzen<lb/>Ihr<signed>Hugo</signed></closer></div></body>
    </text>
 </TEI>

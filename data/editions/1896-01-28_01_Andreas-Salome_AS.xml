@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-01-28_01_Andreas-Salome_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-01-28_01_Andreas-Salome_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Lou Andreas-Salomé an Arthur Schnitzler, 28. 1. 1896</title>
-                <author key="pmb10762">Andreas-Salomé, Lou</author>
+                <title level="a">Lou Andreas-Salomé an Arthur Schnitzler, 28.&#160;1.&#160;1896</title>
+                <author ref="#pmb10762">Andreas-Salomé, Lou</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,19 +52,19 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 3</idno>
+                                <idno>Schnitzler, B&#160;3</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Kartenbrief, schwarze Tinte. Von unbekannter Hand mit
                                     Bleistift nummeriert: »<quote>17</quote>«.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb51">Wien 1/1</placeName>
+                                    <rs ref="#pmb51" type="place">Wien 1/1</rs>
                                     <date>28.1.96 </date>
                                     <time>9 10 N</time>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb59">Wien <supplied>9/3</supplied>
-                                    </placeName>
+                                    <rs ref="#pmb59" type="place">Wien <supplied>9/3</supplied>
+                                    </rs>
                                     <date>29.1<supplied>.96</supplied>
                                     </date>
                                     <time>8 <supplied>V</supplied>
@@ -77,19 +81,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb10762">Andreas-Salomé, Lou</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1896-01-28" n="01">28. 1. 1896</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1896-01-28" n="01">28.&#160;1.&#160;1896</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1896-01-28">29. 1. 1896</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1896-01-28">29.&#160;1.&#160;1896</date>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-01-18_01">Andreas-Salomé an Schnitzler, 18. 1. 1896</ptr>
-               <ptr type="next" subtype="toAuthor" target="1901-04-22_01">Andreas-Salomé an Schnitzler, [22. 4. 1901]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-01-18_01">Andreas-Salomé an Schnitzler, 18.&#160;1.&#160;1896</ptr>
+               <ptr type="next" subtype="toAuthor" target="1901-04-22_01">Andreas-Salomé an Schnitzler, [22.&#160;4.&#160;1901]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -105,39 +109,10 @@
         <graphic url="MS-SCHNITZLER-B-00003-000-00038"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="MS-SCHNITZLER-B-00003-000-00037"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi>
-                        </hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">Arthur Schnitzler</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">Wien IX</hi>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb397">Frankgasse 1.</placeName>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <p>
-                    <salute>
-                        <pb facs="MS-SCHNITZLER-B-00003-000-00038"/>Lieber Herr <hi rend="latintype">D<hi rend="superscript">r</hi>
-                        </hi>, </salute>danke für Ihren Beſuch. ich ſchlief ſo feſt, daß ich Sie
-                    nicht einmal klopfen gehört habe. Sie werden vor mir in <placeName key="pmb168">Berlin</placeName> ſein: wollen Sie ſo gut ſein, mir <hi n="1" rend="underline">hierher nach <placeName key="pmb50">Wien</placeName>
-                    </hi> eine Karte mit Angabe Ihrer Hôteladreſſe zu ſchicken? ich ſuche Sie gleich
+        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00003-000-00037"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi></hi></addrLine><addrLine><hi rend="latintype">Arthur Schnitzler</hi></addrLine><addrLine><hi rend="latintype">Wien IX</hi></addrLine><addrLine><rs ref="#pmb397" type="place">Frankgasse 1.</rs></addrLine></address></div><div type="writingSession" n="1"><p><salute><pb facs="MS-SCHNITZLER-B-00003-000-00038"/>Lieber Herr <hi rend="latintype">D<hi rend="superscript">r</hi></hi>, </salute>danke für Ihren Beſuch. ich ſchlief ſo feſt, daß ich Sie
+                    nicht einmal klopfen gehört habe. Sie werden vor mir in <rs ref="#pmb168" type="place">Berlin</rs> ſein: wollen Sie ſo gut ſein, mir <hi n="1" rend="underline">hierher nach <rs ref="#pmb50" type="place">Wien</rs></hi> eine Karte mit Angabe Ihrer Hôteladreſſe zu ſchicken? ich ſuche Sie gleich
                     auf, ſobald ich ankomme, – <hi n="1" rend="underline">wenn</hi> ich ankomme.
-                    Aber ich weiß es, von Stunde zu Stunde, nicht, wann das ſein wird.</p>
-                <p>Sie werden gewiß viel Freude in <placeName key="pmb168">Berlin</placeName>
-                    erleben; ich wünſche Ihnen eine gute <rs type="work" key="pmb29917">Beſetzung</rs> und viel, viel Glück.</p>
-                <closer>Herzlich Ihre<lb/>
-                    <signed>LouAS.</signed>
-                </closer>
-            </div>
-        </body>
+                    Aber ich weiß es, von Stunde zu Stunde, nicht, wann das ſein wird.</p><p>Sie werden gewiß viel Freude in <rs ref="#pmb168" type="place">Berlin</rs>
+                    erleben; ich wünſche Ihnen eine gute <rs type="work" ref="#pmb29917" subtype="implied">Beſetzung</rs> und viel, viel Glück.</p><closer>Herzlich Ihre<lb/><signed>LouAS.</signed></closer></div></body>
     </text>
 </TEI>

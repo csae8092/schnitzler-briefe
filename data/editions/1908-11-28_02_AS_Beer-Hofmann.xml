@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1908-11-28_02_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1908-11-28_02_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 
-                        28. 11. 1908</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+                        28.&#160;11.&#160;1908</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -52,7 +56,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -80,17 +84,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key=""/>
-               <date when="1908-11-28" n="02">28. 11. 1908</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref=""/>
+               <date when="1908-11-28" n="02">28.&#160;11.&#160;1908</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1908-11-28_01">Schnitzler an Beer-Hofmann, 28. 11. 1908</ptr>
-               <ptr type="next" subtype="toAuthor" target="1908-11-28_03">Schnitzler an Beer-Hofmann, 28. 11. 1908</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1908-11-28_01">Schnitzler an Beer-Hofmann, 28.&#160;11.&#160;1908</ptr>
+               <ptr type="next" subtype="toAuthor" target="1908-11-28_03">Schnitzler an Beer-Hofmann, 28.&#160;11.&#160;1908</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,27 +103,9 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         
-				        <div type="writingSession" n="1">
-					          <opener>
-						            <dateline rend="right">
-							              <date when="1908-11-28">Sonntag 28. 11 08</date>
-						            </dateline>
-						            <salute>Lieber Richard,</salute>
-					          </opener>
-					          <p>wir fahren nicht auf den <placeName key="pmb189">Semmering</placeName>,
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date when="1908-11-28">Sonntag 28.&#160;11 08</date></dateline><salute>Lieber Richard,</salute></opener><p>wir fahren nicht auf den <rs ref="#pmb189" type="place">Semmering</rs>,
 						hingegen erlaube ich mir folgenden Vorschlag. Wollen Sie nicht Kerr statt
-						Mittag morgen Abend laden, wir (oder ich allein, (denn <persName key="pmb2173">Olga</persName> ist nicht sehr wohl, (daher auch möchte
-						ich die morg. Einladung vereinen))) kämen nach dem Nachtmahl hinüber – </p>
-					          <closer>Herzlichst Ihr<lb/>
-						            <signed>A.</signed>
-					          </closer>
-					          <postscript>
-						            <p>Wie gehts Noëmi?</p>
-					          </postscript>
-				        </div>
-			      
-      </body>
+						Mittag morgen Abend laden, wir (oder ich allein, (denn <rs ref="#pmb2173" type="person">Olga</rs> ist nicht sehr wohl, (daher auch möchte
+						ich die morg. Einladung vereinen))) kämen nach dem Nachtmahl hinüber – </p><closer>Herzlichst Ihr<lb/><signed>A.</signed></closer><postscript><p>Wie gehts Noëmi?</p></postscript></div></body>
    </text>
 </TEI>

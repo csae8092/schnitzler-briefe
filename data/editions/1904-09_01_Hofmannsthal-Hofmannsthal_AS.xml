@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1904-09_01_Hofmannsthal-Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1904-09_01_Hofmannsthal-Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Hugo und Gerty von Hofmannsthal an Arthur Schnitzler, September 1904?</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
-            <author key="pmb2292">Hofmannsthal, Gerty von</author>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
+            <author ref="#pmb2292">Hofmannsthal, Gerty von</author>
             
             <editor>
                <name>Müller, Martin Anton</name>
@@ -50,10 +54,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -63,8 +67,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -83,16 +87,16 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <persName key="pmb2292">Hofmannsthal, Gerty von</persName>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
                
-               <!-- <placeName key="pmb50">Wien</placeName> -->
+               <!-- <placeName ref="#pmb50">Wien</placeName> -->
                <date when="1904-09" n="01">1904-09</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             
          </correspDesc>
@@ -102,16 +106,7 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p>Wir sind brav und haben uns die <workName key="pmb31983">Herzogin von Assy</workName> und einiges von
-               <persName key="pmb3603">Tschechow</persName> gekauft. </p>
-            <closer>Viele Grüße <signed>Hugo</signed>
-               <lb/>
-               <signed>
-                  <handShift scribe="pmb2292"/>Gerty</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><p>Wir sind brav und haben uns die <rs ref="#pmb31983" type="work">Herzogin von Assy</rs> und einiges von
+               <rs ref="#pmb3603" type="person">Tschechow</rs> gekauft. </p><closer>Viele Grüße <signed>Hugo</signed><lb/><signed><handShift scribe="pmb2292"/>Gerty</signed></closer></div></body>
    </text>
 </TEI>

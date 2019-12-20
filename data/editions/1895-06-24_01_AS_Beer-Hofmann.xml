@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-06-24_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1895-06-24_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 24. 6. 1895</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 24.&#160;6.&#160;1895</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,15 +54,15 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief mit Umschlag, 2 Bl., 8 S., Bleistift, Umschlag mit Tinte.</p>
+                        <p>eh. Brief mit Umschlag, 2&#160;Bl., 8&#160;S., Bleistift, Umschlag mit Tinte.</p>
                         <stamp n="1">
-                           <placeName key="pmb51">Wien 1/1</placeName>
-                           <date>24. 6. 95</date>
-                           <time>9–10 N</time>
+                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
+                           <date>24.&#160;6.&#160;95</date>
+                           <time>9–10&#160;N</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb767">Časlau</placeName>
-                           <date>25 6 95</date>
+                           <rs ref="#pmb767" type="place">Časlau</rs>
+                           <date>25&#160;6&#160;95</date>
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -68,8 +71,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -89,18 +92,18 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb30">Wien</placeName>
-               <date when="1895-06-24" n="01">24. 6. 1895</date>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb30">Wien</placeName>
+               <date when="1895-06-24" n="01">24.&#160;6.&#160;1895</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb767">Caslau</placeName>
-               <date when="1895-06-25">25. 6. 1895</date>
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb767">Caslau</placeName>
+               <date when="1895-06-25">25.&#160;6.&#160;1895</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-06-23_01">Beer-Hofmann an Schnitzler, 23. 6. 1895</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-07-09_01">Schnitzler an Beer-Hofmann, [9. 7. 1895?]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-06-23_01">Beer-Hofmann an Schnitzler, 23.&#160;6.&#160;1895</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-07-09_01">Schnitzler an Beer-Hofmann, [9.&#160;7.&#160;1895?]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -122,70 +125,37 @@
       <graphic url="1895_AS_RBH_2_00038.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1895_AS_RBH_2_00031.jpeg"/>Herrn n. a. Lieutenant</addrLine>
-               <addrLine>
-                  <hi rend="latintype">Dr. Richard Beer Hofmann</hi>
-               </addrLine>
-               <addrLine>im k.k. Landw Inf Regimt.</addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb767">Caslau</placeName> Nr 12</hi>
-                    </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="1895_AS_RBH_2_00033.jpeg"/>
-               <salute>Lieber Richard. </salute>Ich freue mich ſehr, daſs ich Sie noch in <placeName key="pmb50">Wien</placeName> ſehen werde. – <persName key="pmb9089">
-                  <hi rend="latintype">Nobl</hi>
-               </persName> ſprach ich vorgeſtern, er hat, »angeregt« durch Ihr<add place="inline">e</add> perſönlich<unclear>e</unclear>
-               <subst>
-                  <del rend="overwritten">
-                            <unclear>Epiſödchen</unclear>
-                        </del>
-                  <add place="inline">Beka<c rendition="#gemination-n"/>tſchaft</add>
-               </subst>, das <workName key="pmb30437">Kind</workName> geleſen. Sie werden
+      <body><div type="address"><address><addrLine><pb facs="1895_AS_RBH_2_00031.jpeg"/>Herrn n.&#160;a. Lieutenant</addrLine><addrLine><hi rend="latintype">Dr. Richard Beer Hofmann</hi></addrLine><addrLine>im k.k. Landw Inf Regimt.</addrLine><addrLine><hi rend="latintype"><rs ref="#pmb767" type="place">Caslau</rs> Nr&#160;12</hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1895_AS_RBH_2_00033.jpeg"/><salute>Lieber Richard. </salute>Ich freue mich ſehr, daſs ich Sie noch in <rs
+                  ref="#pmb50" type="place">Wien</rs> ſehen werde.&#160;– <rs ref="#pmb9089" type="person"><hi rend="latintype">Nobl</hi></rs> ſprach ich vorgeſtern, er hat, »angeregt« durch Ihr<add place="inline">e</add> perſönlich<unclear>e</unclear><subst><del rend="overwritten"><unclear>Epiſödchen</unclear></del><add place="inline">Beka<c rendition="#gemination-n"/>tſchaft</add></subst>, das <rs ref="#pmb30437" type="work">Kind</rs> geleſen. Sie werden
                erſucht, ſich nächſtens auf <pb facs="1895_AS_RBH_2_00034.jpeg"/>gefahrloſere Weiſe
-               Leſer zu verſchaffen. – Habe heute Kopfweh, nach einer »<hi rend="spaced_out">un</hi>gemeinen« Landpartie die
-               ich geſtern gemacht und die – entſchuldigen – in zwei miſerabeln Betten einer <rs type="place" key="pmb865">niederoeſterreichiſchen Stadt</rs> endete.</p>
-            <p>– Von der <persName key="pmb10762">
-                  <hi rend="latintype">Lou Salomé</hi>
-               </persName> ha<unclear>b</unclear> ich <pb facs="1895_AS_RBH_2_00034.jpeg"/>noch i<c rendition="#gemination-m"/>er gar nichts
-               gehört. Sie? – Wie wird es mit <placeName key="pmb36300">Kopenhagen</placeName> ſein? – Auch von <persName key="pmb11485">
-                        <hi rend="latintype">Paul</hi>
-                    </persName> iſt noch nichts Definitives
-                  herauszubeko<c rendition="#gemination-m"/>en. – Ke<c rendition="#gemination-n"/>en
-               Sie den <rs type="work" key="pmb39764">Briefwechſel <hi rend="latintype">
-                     <persName key="pmb12053">Lessing</persName> – <persName key="pmb39761">Eva
-                        König</persName>
-                  </hi>
-               </rs>. Er iſt nicht ſehr intereſſant. Merkwürdig nur, wie ſie ſich i<c rendition="#gemination-m"/>er über Lotterienu<c rendition="#gemination-m"/>ern <pb facs="1895_AS_RBH_2_00035.jpeg"/>berathen. – Leſen Sie den <workName key="pmb39768">
-                        <hi rend="latintype">Candide</hi>
-                    </workName>. – Hingegen weniger nothwendig das »<workName key="pmb36623">Gelächter</workName>« von <persName key="pmb2425">Dörmann</persName>. – Ich übe mich in erzählender Proſa: Schreibe »Hiſtorietten«
-               – we<c rendition="#gemination-n"/> Sie wollen. Ja, den <workName key="pmb30073">alten Dichter</workName> hab ich
-               erheblich geſtrichen; ich find ihn aber noch i<c rendition="#gemination-m"/>er <pb facs="1895_AS_RBH_2_00036.jpeg"/>etwas langweilig. Die ſtiliſtiſchen Schlampereien
-               (»ich bin erschrocken«) ſind wohl alle draußen. –</p>
-            <p>– Für <placeName key="pmb213">Iſchl</placeName> hab ich literariſch gute Hoffnungen –
-               möchte mein <rs type="work" key="pmb29917">Stück</rs> gern beenden. – Von <persName key="pmb2425">Dörmann</persName> ſoll dort ein Einakter gegeben werden, den er mir
-               auch zum leſen gegeben hat u über den ich <pb facs="1895_AS_RBH_2_00037.jpeg"/>eigentlich nicht ſprechen darf. (»Auch von Frl. <persName key="pmb43116">Albrecht</persName> müſſen wir einige
-               freundliche Worte sagen.«) – Er heißt »<workName key="pmb36619">Der
-                  Eisbrecher</workName>«. – Jo. –</p>
-            <p>– <persName key="pmb11740">Hugo</persName> war geſtern in <placeName key="pmb50">Wien</placeName>, ich hab ihn verſäumt. – Heut bin ich braver Sohn und hole <rs type="person" key="pmb12701">Mama</rs> von der Bahn ab. –</p>
-            <p>– In dieſem Augenblick <pb facs="1895_AS_RBH_2_00037.jpeg"/>ſitzt der <rs type="person" key="pmb27711">Schreiber</rs> im Nebenzi<c rendition="#gemination-m"/>er u paginirt den <workName key="pmb30073">alten Dichter</workName>.</p>
-            <p>Leben Sie wohl und nehmen Sie von Ihrer schönen Arbeitsſehnſucht recht viel ins Civil
-               herüber. So kö<c rendition="#gemination-n"/>ten Sie z. B. den <workName key="pmb31535">Götterliebling</workName> zu Ende ſchreiben. Finden Sie nicht? –
-               Viele <pb facs="1895_AS_RBH_2_00038.jpeg"/>herzliche Grüße</p>
-            <closer>Ihr <signed>Arthur</signed>
-            </closer>
-            <postscript>
-               <dateline>
-                        <date>24/6 95</date>.</dateline>
-                </postscript>
-         </div>
-      </body>
+               Leſer zu verſchaffen.&#160;– Habe heute Kopfweh, nach einer »<hi rend="spaced_out">un</hi>gemeinen« Landpartie die
+               ich geſtern gemacht und die – entſchuldigen – in zwei miſerabeln Betten einer <rs
+                  type="place" ref="#pmb865" subtype="implied">niederoeſterreichiſchen Stadt</rs> endete.</p><p>–&#160;Von der <rs ref="#pmb10762" type="person"><hi rend="latintype">Lou Salomé</hi></rs> ha<unclear>b</unclear> ich <pb facs="1895_AS_RBH_2_00034.jpeg"/>noch i<c rendition="#gemination-m"/>er gar nichts
+               gehört. Sie? – Wie wird es mit <rs ref="#pmb36300" type="place">Kopenhagen</rs> ſein?&#160;– Auch von <rs ref="#pmb11485" type="person"><hi rend="latintype">Paul</hi></rs> iſt noch nichts Definitives
+                  herauszubeko<c rendition="#gemination-m"/>en.&#160;– Ke<c rendition="#gemination-n"/>en
+               Sie den <rs type="work" ref="#pmb39764" subtype="implied">Briefwechſel <hi rend="latintype"><rs ref="#pmb12053" type="person">Lessing</rs> – <rs ref="#pmb39761" type="person">Eva
+                        König</rs></hi></rs>. Er iſt nicht ſehr intereſſant. Merkwürdig nur, wie ſie ſich i<c
+                  rendition="#gemination-m"/>er über Lotterienu<c rendition="#gemination-m"/>ern <pb
+                  facs="1895_AS_RBH_2_00035.jpeg"/>berathen.&#160;– Leſen Sie den <rs
+                  ref="#pmb39768" type="work"><hi rend="latintype">Candide</hi></rs>.&#160;– Hingegen weniger nothwendig das »<rs
+                  ref="#pmb36623" type="work">Gelächter</rs>« von <rs ref="#pmb2425" type="person"
+                  >Dörmann</rs>.&#160;– Ich übe mich in erzählender Proſa: Schreibe »Hiſtorietten«
+               – we<c rendition="#gemination-n"/> Sie wollen. Ja, den <rs ref="#pmb30073" type="work">alten Dichter</rs> hab ich
+               erheblich geſtrichen; ich find ihn aber noch i<c rendition="#gemination-m"/>er <pb
+                  facs="1895_AS_RBH_2_00036.jpeg"/>etwas langweilig. Die ſtiliſtiſchen Schlampereien
+               (»ich bin erschrocken«) ſind wohl alle draußen.&#160;–</p><p>– Für <rs ref="#pmb213" type="place">Iſchl</rs> hab ich literariſch gute Hoffnungen –
+               möchte mein <rs type="work" ref="#pmb29917" subtype="implied">Stück</rs> gern beenden.&#160;– Von <rs
+                  ref="#pmb2425" type="person">Dörmann</rs> ſoll dort ein Einakter gegeben werden, den er mir
+               auch zum leſen gegeben hat u über den ich <pb facs="1895_AS_RBH_2_00037.jpeg"
+               />eigentlich nicht ſprechen darf. (»Auch von Frl. <rs ref="#pmb43116" type="person">Albrecht</rs> müſſen wir einige
+               freundliche Worte sagen.«) – Er heißt »<rs ref="#pmb36619" type="work">Der
+                  Eisbrecher</rs>«.&#160;– Jo.&#160;–</p><p>–&#160;<rs ref="#pmb11740" type="person">Hugo</rs> war geſtern in <rs ref="#pmb50" type="place"
+                  >Wien</rs>, ich hab ihn verſäumt.&#160;– Heut bin ich braver Sohn und hole <rs
+                  type="person" ref="#pmb12701" subtype="implied">Mama</rs> von der Bahn ab.&#160;–</p><p>– In dieſem Augenblick <pb facs="1895_AS_RBH_2_00037.jpeg"/>ſitzt der <rs
+                  type="person" ref="#pmb27711" subtype="implied">Schreiber</rs> im Nebenzi<c rendition="#gemination-m"
+               />er u paginirt den <rs ref="#pmb30073" type="work">alten Dichter</rs>.</p><p>Leben Sie wohl und nehmen Sie von Ihrer schönen Arbeitsſehnſucht recht viel ins Civil
+               herüber. So kö<c rendition="#gemination-n"/>ten Sie z.&#160;B. den <rs
+                  ref="#pmb31535" type="work">Götterliebling</rs> zu Ende ſchreiben. Finden Sie nicht? –
+               Viele <pb facs="1895_AS_RBH_2_00038.jpeg"/>herzliche Grüße</p><closer>Ihr <signed>Arthur</signed></closer><postscript><dateline><date>24/6&#160;95</date>.</dateline></postscript></div></body>
    </text>
 </TEI>

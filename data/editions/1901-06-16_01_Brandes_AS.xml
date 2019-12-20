@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1901-06-16_01_Brandes_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1901-06-16_01_Brandes_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Georg Brandes an Arthur Schnitzler, 16. 6. 1901</title>
-                <author key="pmb10992">Brandes, Georg</author>
+                <title level="a">Georg Brandes an Arthur Schnitzler, 16.&#160;6.&#160;1901</title>
+                <author ref="#pmb10992">Brandes, Georg</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 17</idno>
+                                <idno>Schnitzler, B&#160;17</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S., Lateinschrift, blaue Tinte. Von
+                                <p>eh. Brief, 1&#160;Bl., 3&#160;S., Lateinschrift, blaue Tinte. Von
                                     unbekannter Hand mit Bleistift nummeriert:
                                     »<quote>25</quote>«.</p>
                             </physDesc>
@@ -61,8 +65,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -81,17 +85,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb10992">Brandes, Georg</persName>
-                    <placeName key="pmb36300">Kopenhagen</placeName>
-                    <date when="1901-06-16" n="01">16. 6. 1901</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb10992">Brandes, Georg</persName>
+                    <placeName ref="#pmb36300">Kopenhagen</placeName>
+                    <date when="1901-06-16" n="01">16.&#160;6.&#160;1901</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1901-06-11_01">Schnitzler an Brandes, 11. 6. 1901</ptr>
-               <ptr type="next" subtype="toAuthor" target="1901-06-26_01">Brandes an Schnitzler, 26. 6. 1901</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1901-06-11_01">Schnitzler an Brandes, 11.&#160;6.&#160;1901</ptr>
+               <ptr type="next" subtype="toAuthor" target="1901-06-26_01">Brandes an Schnitzler, 26.&#160;6.&#160;1901</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -107,49 +111,25 @@
         <graphic url="MS-SCHNITZLER-B-00017-A-00001-000-00046"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00045"/>
-                        <placeName key="pmb36300">Kopenhagen</placeName>
-                        <space unit="chars" quantity="5"/>
-                        <date>16 Juni 1901</date>
-                    </dateline>
-                    <salute rend="inline">Verehrter Freund</salute>
-                </opener>
-                <p>Zwar ist <workName key="pmb33317">Krotkaja</workName> ein Monolog – es gibt so
-                    viele Monologe, <persName key="pmb11330">Flaubert</persName>s <workName key="pmb33350">St. Antoine</workName> ist auch ein Monolog – aber das kleine
-                    Buch hat gar keine Form-Aehnlichkeit mit der Ihrigen. <workName key="pmb32676">Les lauriers sont coupés</workName> las ich vor – 16 Jahren glaub ich, als
-                    die <anchor type="commentary" xml:id="KL783-1"/>Erzählung in <orgName key="pmb29522">la Révue Indépendante</orgName>
-                    <note type="commentary" xml:id="KL783-1h">Von <date>Mai bis August 1887</date>
-                        in vier Teilen, <bibl>Bd. 3, H. 7, <date>Mai</date>, H. 8, S. 289–316; H. 9,
-                                <date>Juni</date>, S. 472–494; H. 10, <date>Juli</date>, S. 122–137;
-                            H. 11, <date>August</date>, S. 221–244</bibl>.</note> stand, und es
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00045"/><rs ref="#pmb36300" type="place">Kopenhagen</rs><space unit="chars" quantity="5"/><date>16 Juni 1901</date></dateline><salute rend="inline">Verehrter Freund</salute></opener><p>Zwar ist <rs ref="#pmb33317" type="work">Krotkaja</rs> ein Monolog – es gibt so
+                    viele Monologe, <rs ref="#pmb11330" type="person">Flaubert</rs>s <rs ref="#pmb33350" type="work">St. Antoine</rs> ist auch ein Monolog – aber das kleine
+                    Buch hat gar keine Form-Aehnlichkeit mit der Ihrigen. <rs ref="#pmb32676" type="work">Les lauriers sont coupés</rs> las ich vor – 16 Jahren glaub ich, als
+                    die <anchor type="commentary" xml:id="KL783-1"/>Erzählung in <rs ref="#pmb29522" type="organisation">la Révue Indépendante</rs><note type="commentary" xml:id="KL783-1h">Von <date>Mai bis August 1887</date>
+                        in vier Teilen, <bibl>Bd.&#160;3, H.&#160;7, <date>Mai</date>, H.&#160;8, S.&#160;289–316; H.&#160;9,
+                                <date>Juni</date>, S.&#160;472–494; H.&#160;10, <date>Juli</date>, S.&#160;122–137;
+                            H.&#160;11, <date>August</date>, S.&#160;221–244</bibl>.</note> stand, und es
                     machte mir einen starken und originellen Eindruck, aber das Einzelne hab ich
-                    vergessen.</p>
-                <p>Ich kam zwar durch <placeName key="pmb50">Wien</placeName>, blieb aber <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00046"/>dort nur zwei Stunden. Ich hatte eine Scheu, Sie wieder aufzusuchen. Ich finde
+                    vergessen.</p><p>Ich kam zwar durch <rs ref="#pmb50" type="place">Wien</rs>, blieb aber <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00046"/>dort nur zwei Stunden. Ich hatte eine Scheu, Sie wieder aufzusuchen. Ich finde
                     mich selbst sehr oft für Fremde ermüdend, fuhr deshalb nur durch; ich war
-                    bewegt, unaufgelegt zum Sprechen.</p>
-                <p>Durch Ihre Güte erhielt ich <workName key="pmb33348">Renate Fuchs</workName>; es
+                    bewegt, unaufgelegt zum Sprechen.</p><p>Durch Ihre Güte erhielt ich <rs ref="#pmb33348" type="work">Renate Fuchs</rs>; es
                     ist ein starkes Buch, aber die Grundidee so willkürlich, das Nachtwandern der
                     Heldin. Das Beste sind die Details, scheint mir, die vielen tiefen Reflexionen.
                     Im Ganzen jedoch <anchor type="commentary" xml:id="KL783-2"/>Kunst = Kunst,
                     nicht Kunst = Natur<note type="commentary" xml:id="KL783-2h">Anspielung auf
-                            <persName key="pmb11763">Arno Holz</persName>’ Formel: »Kunst =
-                        Natur – x« aus »<workName key="pmb36290">Die Kunst. Ihr Wesen und ihre
-                            Gesetze</workName>« (Berlin: <orgName key="pmb36287">Issleib</orgName>
-                  <space unit="chars" quantity="1"/>
-                  <date>1891</date>)</note>. Ist es nicht wahr? Aber der <rs type="person" key="pmb13055">Mann</rs> hat sehr viel Talent.</p>
-                <p>
-               <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00046"/>Hier haben wir scheussliches
-                    Wetter, fast Winter. <date>Mitte Juli</date> gehe ich nach <placeName key="pmb509">Karlsbad</placeName>, ich habe mit <persName key="pmb4719">Georges Clemenceau</persName>
-                    verabredet, ihn dort zu treffen.</p>
-                <p>Von ganzem Herzen</p>
-                <closer>Ihr<lb/>
-               <signed>Georg Brandes</signed>
-            </closer>
-            </div>
-        </body>
+                            <rs ref="#pmb11763" type="person">Arno Holz</rs>’ Formel: »Kunst&#160;=
+                        Natur – x« aus »<rs ref="#pmb36290" type="work">Die Kunst. Ihr Wesen und ihre
+                            Gesetze</rs>« (Berlin: <rs ref="#pmb36287" type="organisation">Issleib</rs><space unit="chars" quantity="1"/><date>1891</date>)</note>. Ist es nicht wahr? Aber der <rs type="person" ref="#pmb13055" subtype="implied">Mann</rs> hat sehr viel Talent.</p><p><pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00046"/>Hier haben wir scheussliches
+                    Wetter, fast Winter. <date>Mitte Juli</date> gehe ich nach <rs ref="#pmb509" type="place">Karlsbad</rs>, ich habe mit <rs ref="#pmb4719" type="person">Georges Clemenceau</rs>
+                    verabredet, ihn dort zu treffen.</p><p>Von ganzem Herzen</p><closer>Ihr<lb/><signed>Georg Brandes</signed></closer></div></body>
     </text>
 </TEI>

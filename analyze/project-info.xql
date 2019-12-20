@@ -10,10 +10,10 @@ let $purpose_de := "Das Projekt "|| $app:projectName|| " widmet sich "|| $app:pu
 let $purpose_en := "The project " || $app:projectName ||" is dedicated to " || $app:purpose_en
 let $map := map{
     "title": $app:projectName,
-    "subtitle": "1889–1931",
+    "subtitle": "Digital Scholarly Editions Base Application",
     "author": $app:authors,
     "description": $app:description,
-    "github": "https://github.com/ACDH-oeaw/arthur-schnitzler-briefe",
+    "github": "https://github.com/KONDE-AT/schnitzler-briefe",
     "purpose_de": $purpose_de,
     "purpose_en": $purpose_en,
     "app_type": "digital-edition",

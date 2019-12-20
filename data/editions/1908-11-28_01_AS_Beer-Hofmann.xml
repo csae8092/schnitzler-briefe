@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1908-11-28_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1908-11-28_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 
-                        28. 11. 1908</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+                        28.&#160;11.&#160;1908</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -52,7 +56,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -80,17 +84,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key=""/>
-               <date when="1908-11-28" n="01">28. 11. 1908</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref=""/>
+               <date when="1908-11-28" n="01">28.&#160;11.&#160;1908</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1908-11-19_01">Schnitzler an Beer-Hofmann, 19. 11. 1908</ptr>
-               <ptr type="next" subtype="toAuthor" target="1908-11-28_02">Schnitzler an Beer-Hofmann, 28. 11. 1908</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1908-11-19_01">Schnitzler an Beer-Hofmann, 19.&#160;11.&#160;1908</ptr>
+               <ptr type="next" subtype="toAuthor" target="1908-11-28_02">Schnitzler an Beer-Hofmann, 28.&#160;11.&#160;1908</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,31 +103,15 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         
-				        <div type="writingSession" n="1">
-					          <opener>
-						            <dateline rend="right">
-							              <date when="1908-11-28">28/11. 08</date>
-						            </dateline>
-						            <salute>Lieber Richard,</salute>
-					          </opener>
-					          <p>wenn <persName key="pmb11910">Kerr</persName> jetzt bei Ihnen ist (er war gegen
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date when="1908-11-28">28/11.&#160;08</date></dateline><salute>Lieber Richard,</salute></opener><p>wenn <rs ref="#pmb11910" type="person">Kerr</rs> jetzt bei Ihnen ist (er war gegen
 							<time>1</time> bei mir ohne mich zu treffen), so fragen Sie ihn bitte,
 						wie lang er hier bleibt und arrangiren Sie es womöglich, dass wir morgen
-						nach der <persName key="pmb11640">Heine</persName> Sache mit ihm allein (bei
-					             <placeName key="pmb96">Meissl</placeName>) nachtmahlen. Und wenn Sie ev. heute
+						nach der <rs ref="#pmb11640" type="person">Heine</rs> Sache mit ihm allein (bei
+					             <rs ref="#pmb96" type="place">Meissl</rs>) nachtmahlen. Und wenn Sie ev. heute
 						Abends mit ihm sind, schreiben Sie mir ein unverbindL Wort (wir sind im
-						Concert <persName key="pmb11165">Dohnanyi</persName>). Montag fahren wir aller
-						Wahrscheinlichkeit nach <placeName key="pmb189">Semmering</placeName> – auf
-						2-3 Tage, vielleicht kommt <persName key="pmb11910">Kerr</persName> hinauf!</p>
-					          <p>– All dies an Sie, verzeihen Sie, weil <persName key="pmb11910">Kerr</persName> behauptet
-						hat, noch keine Adresse zu haben.</p>
-					          <closer>Herzlichst Ihr <signed>A.</signed>
-					          </closer>
-					          <p>Auch heute nach S bin ich zu Hause.</p>
-				        </div>
-			      
-      </body>
+						Concert <rs ref="#pmb11165" type="person">Dohnanyi</rs>). Montag fahren wir aller
+						Wahrscheinlichkeit nach <rs ref="#pmb189" type="place">Semmering</rs> – auf
+						2-3 Tage, vielleicht kommt <rs ref="#pmb11910" type="person">Kerr</rs> hinauf!</p><p>– All dies an Sie, verzeihen Sie, weil <rs ref="#pmb11910" type="person">Kerr</rs> behauptet
+						hat, noch keine Adresse zu haben.</p><closer>Herzlichst Ihr <signed>A.</signed></closer><p>Auch heute nach S bin ich zu Hause.</p></div></body>
    </text>
 </TEI>

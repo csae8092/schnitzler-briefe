@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-03-17_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-03-17_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [17. 3. 1892]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [17.&#160;3.&#160;1892]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Briefkarte mit aufgeprägtem Wappen, schwarze Tinte. Von
@@ -63,8 +67,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -83,18 +87,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1892-03-17" n="01">[17. 3. 1892]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1892-03-17" n="01">[17.&#160;3.&#160;1892]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1892-03-16_01">Schnitzler an Hofmannsthal, 16. 3. 1892</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-03-19_01">Hofmannsthal an Schnitzler, 19. 3. 1892</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1892-03-16_01">Schnitzler an Hofmannsthal, 16.&#160;3.&#160;1892</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-03-19_01">Hofmannsthal an Schnitzler, 19.&#160;3.&#160;1892</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -108,31 +112,14 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00041"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00041"/>
-                        <date>Donnerstag</date>.</dateline>
-                </opener>
-                <p>Thatſachen: 1.) Frl. <persName key="pmb11666">Herzfeld</persName> ſagt mir, daſs
-                    die <rs type="organisation" key="pmb29620">
-                        <hi rend="latintype">Revue</hi>
-                    </rs> von <persName key="pmb11381">Fried</persName> in jeder Beziehung ernſt zu
-                    nehmen iſt. 2.) Wegen <persName key="pmb12740">Schwarzkopf</persName>s
-                    Empfehlung an <orgName key="pmb29619">Bonz</orgName> müſſen wir noch ſprechen.
-                    3.) Dem <persName key="pmb14756">Bératon</persName> werde ich ſo bald als
-                    möglich 10 fl ſchicken. 4.) Wäre es nicht möglich, daſs ich <date>Sonntag</date>
-                    um <time>4</time> zu Ihnen komme, daſs auch <persName key="pmb2167">Salten</persName> beſtimmt kommt und daſs ich Euch <rs key="pmb31639" type="work">etwas</rs> vorleſe, was ich zum Druck verſprochen habe, aber
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00041"/><date>Donnerstag</date>.</dateline></opener><p>Thatſachen: 1.) Frl. <rs ref="#pmb11666" type="person">Herzfeld</rs> ſagt mir, daſs
+                    die <rs type="organisation" ref="#pmb29620" subtype="implied"><hi rend="latintype">Revue</hi></rs> von <rs ref="#pmb11381" type="person">Fried</rs> in jeder Beziehung ernſt zu
+                    nehmen iſt.&#160;2.) Wegen <rs ref="#pmb12740" type="person">Schwarzkopf</rs>s
+                    Empfehlung an <rs ref="#pmb29619" type="organisation">Bonz</rs> müſſen wir noch ſprechen.
+                    3.) Dem <rs ref="#pmb14756" type="person">Bératon</rs> werde ich ſo bald als
+                    möglich 10&#160;fl ſchicken.&#160;4.) Wäre es nicht möglich, daſs ich <date>Sonntag</date>
+                    um <time>4</time> zu Ihnen komme, daſs auch <rs ref="#pmb2167" type="person">Salten</rs> beſtimmt kommt und daſs ich Euch <rs ref="#pmb31639" type="work" subtype="implied">etwas</rs> vorleſe, was ich zum Druck verſprochen habe, aber
                     nicht gerne ohne Euch fortſchicken möchte?, wenn nicht Sonntag, ſo machen Sie
-                    einen anderen Vorſchlag.</p>
-                <closer>Herzlichſt<lb/>
-                    <signed>Loris.</signed>
-                </closer>
-                <postscript>
-                    <p>Beiliegend, danke, <persName key="pmb12358">Nietzſche</persName>.</p>
-                </postscript>
-            </div>
-        </body>
+                    einen anderen Vorſchlag.</p><closer>Herzlichſt<lb/><signed>Loris.</signed></closer><postscript><p>Beiliegend, danke, <rs ref="#pmb12358" type="person">Nietzſche</rs>.</p></postscript></div></body>
     </text>
 </TEI>

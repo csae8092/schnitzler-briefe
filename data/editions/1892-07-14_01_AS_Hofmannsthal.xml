@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-07-14_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-07-14_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 14. 7. 1892</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 14.&#160;7.&#160;1892</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,9 +55,9 @@
                                 <idno>Hs-30885,21</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S., schwarze Tinte. Von Schnitzler auf der
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S., schwarze Tinte. Von Schnitzler auf der
                                     ersten Seite mit Bleistift datiert »<quote>
-                                        <date>14. 7. 92</date>
+                                        <date>14.&#160;7.&#160;92</date>
                                     </quote>«.</p>
                             </physDesc>
                         </msDesc>
@@ -62,8 +66,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -82,18 +86,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1892-07-14" n="01">14. 7. 1892</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1892-07-14" n="01">14.&#160;7.&#160;1892</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1892-07-02_01">Hofmannsthal an Schnitzler, [2. 7. 1892]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-07-19_01">Hofmannsthal an Schnitzler, 19. 7. [1892]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1892-07-02_01">Hofmannsthal an Schnitzler, [2.&#160;7.&#160;1892]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-07-19_01">Hofmannsthal an Schnitzler, 19.&#160;7. [1892]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -109,48 +113,22 @@
         <graphic url="Hs-30885,21_02.JPG"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="Hs-30885,21_001.TIF"/>Lieber Hugo,</salute>
-                </opener>
-                <p>von <persName key="pmb2167">
-                  <hi rend="latintype">Salten</hi>
-               </persName> erfahre
-                    ich, daſs Ihr <rs type="person" key="pmb11737">Vater</rs> krank war, aber
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="Hs-30885,21_001.TIF"/>Lieber Hugo,</salute></opener><p>von <rs ref="#pmb2167" type="person"><hi rend="latintype">Salten</hi></rs> erfahre
+                    ich, daſs Ihr <rs type="person" ref="#pmb11737" subtype="implied">Vater</rs> krank war, aber
                     bereits wiederhergeſtellt iſt. Hoffentlich erholen Sie ſich zugleich von Ihrer
                         Verſti<c rendition="#gemination-m"/>ung und Abſpa<c rendition="#gemination-n"/>ung und verbringen den ko<c rendition="#gemination-m"/>enden So<c rendition="#gemination-m"/>er und
                     Herbſt in ſo reicher Fülle des I<c rendition="#gemination-n"/>ern und Äußern,
-                    wie ichs Ihnen von Herzen wünſche. –</p>
-                <p>Geſtern ſtarb mein <rs type="person" key="pmb2473">Großvater</rs>; <pb facs="Hs-30885,21_002.TIF"/>in wenigen Tagen reiſen meine <rs type="person" key="pmb12695 pmb12701">Eltern</rs> ab, und ich übernehme die Praxis meines
-                        <rs type="person" key="pmb12695">Papa</rs>.</p>
-                <p>Seit einiger Zeit bring ich es zuwege, auch nachts literariſch zu arbeiten, und
+                    wie ichs Ihnen von Herzen wünſche.&#160;–</p><p>Geſtern ſtarb mein <rs type="person" ref="#pmb2473" subtype="implied">Großvater</rs>; <pb facs="Hs-30885,21_002.TIF"/>in wenigen Tagen reiſen meine <rs type="person" ref="#pmb12695 pmb12701" subtype="implied">Eltern</rs> ab, und ich übernehme die Praxis meines
+                        <rs type="person" ref="#pmb12695" subtype="implied">Papa</rs>.</p><p>Seit einiger Zeit bring ich es zuwege, auch nachts literariſch zu arbeiten, und
                     ich hoffe, meine angefangenen Sachen werden trotz anderweitiger Thätigkeit wohl
-                    fortſchreiten können.</p>
-                <p>– <persName key="pmb2404">Hebbel</persName>s <workName key="pmb30763">Briefe</workName> leſe ich jetzt, <persName key="pmb12053">Leſſing</persName>’s <rs type="work" key="pmb33576">Leben</rs> von ſeinem
-                        <rs type="person" key="pmb5772">Bruder</rs> geſchildert, <workName key="pmb33676">Annalen</workName> von <persName key="pmb11461">Goethe</persName>. <pb facs="Hs-30885,21_002.TIF"/>
-                    <persName key="pmb2404">Hebbel</persName> war wohl nach <persName key="pmb11461">Goethe</persName> der größte Geiſt, den die Deutſchen in dem Jahrhundert
+                    fortſchreiten können.</p><p>– <rs ref="#pmb2404" type="person">Hebbel</rs>s <rs ref="#pmb30763" type="work">Briefe</rs> leſe ich jetzt, <rs ref="#pmb12053" type="person">Leſſing</rs>’s <rs type="work" ref="#pmb33576" subtype="implied">Leben</rs> von ſeinem
+                        <rs type="person" ref="#pmb5772" subtype="implied">Bruder</rs> geſchildert, <rs ref="#pmb33676" type="work">Annalen</rs> von <rs ref="#pmb11461" type="person">Goethe</rs>. <pb facs="Hs-30885,21_002.TIF"/><rs ref="#pmb2404" type="person">Hebbel</rs> war wohl nach <rs ref="#pmb11461" type="person">Goethe</rs> der größte Geiſt, den die Deutſchen in dem Jahrhundert
                     gehabt haben; manchmal ko<c rendition="#gemination-m"/>t mir vor, daſs man ihn
-                    vor <persName key="pmb12358">
-                        <hi rend="latintype">Nietz</hi>ſche</persName> wird ne<c rendition="#gemination-n"/>en müſſen. Ich bin jetzt bei der Periode ſeines
-                    Lebens, wo er auf der Verlegerſuche iſt und auf <persName key="pmb11555">Gutzkow</persName>, <persName key="pmb2702">Laube</persName>, <persName key="pmb5769">Mundt</persName>, <persName key="pmb3460">Körner</persName>,
-                    zuweilen wohl auch auf <persName key="pmb12654">Schiller</persName> ſchimpft. Er
-                    hat aber auch noch manches andre zu ſagen. – Wiſſen Sie, daſs er eine <pb facs="Hs-30885,21_001.TIF"/>
-                    <rs type="person" key="pmb5424">Jungfrau von Orleans</rs> ſchreiben
-                    wollte? –</p>
-                <p>Von <rs type="person" key="pmb10863">Richard</rs> hör ich nichts. Sie? –</p>
-                <closer>Von Ihnen hoffe ich bald ſchönes und gutes zu erfahren; empfehlen Sie mich
-                    bitte den Ihren aufs wärmſte.<lb/>Ihr<space unit="chars" quantity="7"/>
-                    <signed>Arthur</signed>
-                </closer>
-                <postscript>
-                    <dateline>
-                        <date>14. 7. 92</date>.</dateline>
-                    <p>
-                        <placeName key="pmb50">Wien</placeName>.</p>
-                </postscript>
-            </div>
-        </body>
+                    vor <rs ref="#pmb12358" type="person"><hi rend="latintype">Nietz</hi>ſche</rs> wird ne<c rendition="#gemination-n"/>en müſſen. Ich bin jetzt bei der Periode ſeines
+                    Lebens, wo er auf der Verlegerſuche iſt und auf <rs ref="#pmb11555" type="person">Gutzkow</rs>, <rs ref="#pmb2702" type="person">Laube</rs>, <rs ref="#pmb5769" type="person">Mundt</rs>, <rs ref="#pmb3460" type="person">Körner</rs>,
+                    zuweilen wohl auch auf <rs ref="#pmb12654" type="person">Schiller</rs> ſchimpft. Er
+                    hat aber auch noch manches andre zu ſagen.&#160;– Wiſſen Sie, daſs er eine <pb facs="Hs-30885,21_001.TIF"/><rs type="person" ref="#pmb5424" subtype="implied">Jungfrau von Orleans</rs> ſchreiben
+                    wollte?&#160;–</p><p>Von <rs type="person" ref="#pmb10863" subtype="implied">Richard</rs> hör ich nichts. Sie?&#160;–</p><closer>Von Ihnen hoffe ich bald ſchönes und gutes zu erfahren; empfehlen Sie mich
+                    bitte den Ihren aufs wärmſte.<lb/>Ihr<space unit="chars" quantity="7"/><signed>Arthur</signed></closer><postscript><dateline><date>14.&#160;7.&#160;92</date>.</dateline><p><rs ref="#pmb50" type="place">Wien</rs>.</p></postscript></div></body>
     </text>
 </TEI>

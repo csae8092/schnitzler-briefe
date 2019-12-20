@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-08-04_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-08-04_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 4. 8. [1892]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 4.&#160;8.&#160;[1892]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief mit aufgeprägtem Wappen, 1 Bl., 4 S., schwarze Tinte.
+                                <p>eh. Brief mit aufgeprägtem Wappen, 1&#160;Bl., 4&#160;S., schwarze Tinte.
                                     Von Schnitzler mit Bleistift die Jahreszahl ergänzt: »<quote>
                                         <date>92</date>
                                     </quote>«. Von unbekannter Hand mit Bleistift nummeriert:
@@ -63,8 +67,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -83,18 +87,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb573">Bad Fusch</placeName>
-                    <date when="1892-08-04" n="01">4. 8. [1892]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb573">Bad Fusch</placeName>
+                    <date when="1892-08-04" n="01">4.&#160;8.&#160;[1892]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1892-07-29_01">Schnitzler an Hofmannsthal, 29. 7. 1892</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-08-06_01">Schnitzler an Hofmannsthal, 6. 8. 1892</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1892-07-29_01">Schnitzler an Hofmannsthal, 29.&#160;7.&#160;1892</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-08-06_01">Schnitzler an Hofmannsthal, 6.&#160;8.&#160;1892</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -110,25 +114,11 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00060"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00059"/>
-                        <placeName key="pmb573">Fuſch</placeName>
-                        <lb/>
-                        <date>4 VIII.</date>
-                    </dateline>
-                    <salute rend="center">Lieber Arthur.</salute>
-                </opener>
-                <p>Da haben Sie die <anchor type="commentary" xml:id="KL2133-1"/>
-                    <workName key="pmb29823">Märchen</workName>kritik<note type="commentary" xml:id="KL2133-1h">Nicht publizierte und nicht erhaltene Kritik.</note> der
-                        <persName key="pmb11666">Herzfeld</persName>. Ich habe ihr für die
-                    ſympathiſche Ausführlichkeit gedankt und ihr von dem Erſcheinen des <workName key="pmb29935">Anatol</workName>-Buches geſprochen; wie heißt denn der
-                        <orgName key="pmb29716">Verlag</orgName>? –</p>
-                <p>Ich habe den <rs type="work" key="pmb31967">erſten Act</rs> (654 Verſe)
-                    vollendet, den <rs type="work" key="pmb31967">zweiten</rs> beinahe.</p>
-                <p>Unſere Art zu arbeiten (im Drama) iſt nicht gar ſo verſchieden, wie Sie
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00059"/><rs ref="#pmb573" type="place">Fuſch</rs><lb/><date>4 VIII.</date></dateline><salute rend="center">Lieber Arthur.</salute></opener><p>Da haben Sie die <anchor type="commentary" xml:id="KL2133-1"/><rs ref="#pmb29823" type="work">Märchen</rs>kritik<note type="commentary" xml:id="KL2133-1h">Nicht publizierte und nicht erhaltene Kritik.</note> der
+                        <rs ref="#pmb11666" type="person">Herzfeld</rs>. Ich habe ihr für die
+                    ſympathiſche Ausführlichkeit gedankt und ihr von dem Erſcheinen des <rs ref="#pmb29935" type="work">Anatol</rs>-Buches geſprochen; wie heißt denn der
+                        <rs ref="#pmb29716" type="organisation">Verlag</rs>?&#160;–</p><p>Ich habe den <rs type="work" ref="#pmb31967" subtype="implied">erſten Act</rs> (654 Verſe)
+                    vollendet, den <rs type="work" ref="#pmb31967" subtype="implied">zweiten</rs> beinahe.</p><p>Unſere Art zu arbeiten (im Drama) iſt nicht gar ſo verſchieden, wie Sie
                     anzunehmen ſcheinen; was ich <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00060"/>aus ſpäteren Acten vorausarbeiten kann, ſind nicht geſchloſſene Scenen,
                     ſondern reine Farbenſkizzen: Worte und Dialogſtellen, die oft dann gar nicht
                     wirklich aufgenommen werden, mir aber als Parfümflaſchen, als
@@ -136,30 +126,16 @@
                     der Detailarbeit nicht verloren geht; das ganze hängt wahrſcheinlich mit meiner
                     Ihnen gegenüber mehr lyriſchen, mehr auf Farbe hinarbeitenden Technik zuſammen.
                     Wie lange <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00060"/>bleiben Sie in
-                        <placeName key="pmb50">Wien</placeName>? kann man Ihnen während der Waffenübung ſchreiben?</p>
-                <p>Ich freue mich ſehr auf die <workName key="pmb30117">Novelle</workName>; ich
-                    hoffe Sie werden nichts vor meiner Rückkehr vorleſen.</p>
-                <p>Ich bin vom <date>7<hi rend="superscript">ten</hi>
-                    </date> – <date>31<hi rend="superscript">ten</hi> Auguſt</date> in <placeName key="pmb895">Strobl bei Iſchl</placeName>.</p>
-                <closer>Herzlichſt grüßend<lb/>
-                    <signed>Loris.</signed>
-                </closer>
-                <postscript>
-                    <p>
-                        <hi rend="latintype">P. S.</hi> Was die <persName key="pmb11666">
-                            <hi rend="latintype">Herzfeld</hi>
-                        </persName> von nothwendiger Technik <del rend="strikethrough">und</del> für
+                        <rs ref="#pmb50" type="place">Wien</rs>? kann man Ihnen während der Waffenübung ſchreiben?</p><p>Ich freue mich ſehr auf die <rs ref="#pmb30117" type="work">Novelle</rs>; ich
+                    hoffe Sie werden nichts vor meiner Rückkehr vorleſen.</p><p>Ich bin vom <date>7<hi rend="superscript">ten</hi></date> – <date>31<hi rend="superscript">ten</hi> Auguſt</date> in <rs ref="#pmb895" type="place">Strobl bei Iſchl</rs>.</p><closer>Herzlichſt grüßend<lb/><signed>Loris.</signed></closer><postscript><p><hi rend="latintype">P.&#160;S.</hi> Was die <rs ref="#pmb11666" type="person"><hi rend="latintype">Herzfeld</hi></rs> von nothwendiger Technik <del rend="strikethrough">und</del> für
                         Bühnenfernwirkung und von »concentrierter« Natürlichkeit des Dialog’s ſagt,
                         ſcheint mir ſehr vernünftig; <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00059"/>es iſt dies thatſächlich
                         die Erfahrung des allerletzten Theaterjahres für jeden Objectiven und für
                         künftige Arbeiten nicht unwichtig: ganz die gleichen Rathſchläge, mit
                         zahlloſen anderen höchſt wertvollen, finde ich in den kritiſchen Studien von
-                            <persName key="pmb12129">Otto Ludwig</persName>, aus denen ich hier mit
+                            <rs ref="#pmb12129" type="person">Otto Ludwig</rs>, aus denen ich hier mit
                         Genuſs und innerer Freude eine Menge lerne. Über Technik des dramatiſchen
                         Dramas zum Unterſchied vom herrſchenden Novellendrama muſs überhaupt
-                        nächſten Winter bei Ihnen ſehr viel geredet werden.</p>
-                </postscript>
-            </div>
-        </body>
+                        nächſten Winter bei Ihnen ſehr viel geredet werden.</p></postscript></div></body>
     </text>
 </TEI>

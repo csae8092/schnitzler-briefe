@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1890-09-17_01_Boelsche_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1890-09-17_01_Boelsche_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Wilhelm Bölsche an Arthur Schnitzler, 17. 9. 1890</title>
-                <author key="pmb11061">Bölsche, Wilhelm</author>
+                <title level="a">Wilhelm Bölsche an Arthur Schnitzler, 17.&#160;9.&#160;1890</title>
+                <author ref="#pmb11061">Bölsche, Wilhelm</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>HS Schn 1/63/1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte. Von Schnitzler mit
                                     rotem Buntstift nummeriert: »<quote>1</quote>«.</p>
                             </physDesc>
                         </msDesc>
@@ -64,14 +68,14 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11061">Bölsche, Wilhelm</persName>
-                    <placeName key="pmb168">Berlin</placeName>
-                    <date when="1890-09-17" n="01">17. 9. 1890</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
+                    <date when="1890-09-17" n="01">17.&#160;9.&#160;1890</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
                <ptr type="next" subtype="toAuthor" target="1890-09_01">Schnitzler an Bölsche, [Anfang September] 1890</ptr>
@@ -90,73 +94,16 @@
         <!-- $$$$ Dateinamen müssen noch ergänzt werden! -->
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p rend="center">
-                        <pb facs="18900917 as an bölsche.pdf"/>
-                        <hi rend="pre-print">
-                            <hi rend="small_caps">
-                                <workName key="pmb36149">Freie Bühne</workName>
-                            </hi>
-                        </hi>
-                    </p>
-                    <p rend="center">
-                        <hi rend="pre-print">
-                            <hi rend="small_caps">für modernes Leben.</hi>
-                        </hi>
-                    </p>
-                    <p rend="center">
-                        <hi rend="pre-print">
-                            <hi rend="small_caps">Herausgegeben von <persName key="pmb10986">
-                                    <hi rend="bold">Otto Brahm</hi>
-                                </persName>.</hi>
-                        </hi>
-                    </p>
-                    <p>
-                        <hi rend="pre-print">Verlag und Expedition: <orgName key="pmb29639">S. Fischer</orgName>.</hi>
-                    </p>
-                    <p>
-                        <hi rend="pre-print">Sprechstunden: Mittwoch und Freitag 12–2 Uhr.</hi>
-                    </p>
-                    <p>
-                        <hi rend="pre-print">Alle für die Redaction bestimmten Sendungen (Beiträge,
+        <body><div type="writingSession" n="1"><opener><p rend="center"><pb facs="18900917 as an bölsche.pdf"/><hi rend="pre-print"><hi rend="small_caps"><rs ref="#pmb36149" type="work">Freie Bühne</rs></hi></hi></p><p rend="center"><hi rend="pre-print"><hi rend="small_caps">für modernes Leben.</hi></hi></p><p rend="center"><hi rend="pre-print"><hi rend="small_caps">Herausgegeben von <rs ref="#pmb10986" type="person"><hi rend="bold">Otto Brahm</hi></rs>.</hi></hi></p><p><hi rend="pre-print">Verlag und Expedition: <rs ref="#pmb29639" type="organisation">S.&#160;Fischer</rs>.</hi></p><p><hi rend="pre-print">Sprechstunden: Mittwoch und Freitag 12–2 Uhr.</hi></p><p><hi rend="pre-print">Alle für die Redaction bestimmten Sendungen (Beiträge,
                             Recensions-Exempl.) bitten wir <hi rend="bold">ohne Angabe eines
-                                Personennamens</hi> an die Redaction der Wochenschrift »<workName key="pmb36149">
-                                <hi rend="spaced_out">Freie Bühne</hi>
-                            </workName>« <placeName key="pmb1272">Berlin W.
-                                Link-Strasse 25</placeName> zu addressiren.</hi>
-                    </p>
-                    <p>
-                        <hi rend="pre-print">Wir ersuchen unsere geehrten Mitarbeiter, jedes
+                                Personennamens</hi> an die Redaction der Wochenschrift »<rs ref="#pmb36149" type="work"><hi rend="spaced_out">Freie Bühne</hi></rs>« <rs ref="#pmb1272" type="place">Berlin W.
+                                Link-Strasse 25</rs> zu addressiren.</hi></p><p><hi rend="pre-print">Wir ersuchen unsere geehrten Mitarbeiter, jedes
                             Manuscript auf der ersten Seite mit ihrer genauen Adresse zu
-                            versehen.</hi>
-                    </p>
-                    <p rend="right">
-                        <hi rend="pre-print">
-                            <hi rend="small_caps">
-                                <placeName key="pmb168">Berlin</placeName>
-                            </hi>, den</hi>
-                        <space unit="chars" quantity="1"/>
-                        <date>17. IX. <hi rend="pre-print">189</hi>0</date>.</p>
-                    <p rend="right">
-                        <hi rend="pre-print">
-                            <placeName key="pmb1272">W. Link-Straße 25</placeName>.</hi>
-                    </p>
-                    <salute rend="center">Hochgeehrter Herr Doktor!</salute>
-                </opener>
-
-
-                <p>Ihre dramatiſche <rs type="work" key="pmb33688">Skizze</rs> habe ich mit
+                            versehen.</hi></p><p rend="right"><hi rend="pre-print"><hi rend="small_caps"><rs ref="#pmb168" type="place">Berlin</rs></hi>, den</hi><space unit="chars" quantity="1"/><date>17.&#160;IX.&#160;<hi rend="pre-print">189</hi>0</date>.</p><p rend="right"><hi rend="pre-print"><rs ref="#pmb1272" type="place">W. Link-Straße 25</rs>.</hi></p><salute rend="center">Hochgeehrter Herr Doktor!</salute></opener><p>Ihre dramatiſche <rs type="work" ref="#pmb33688" subtype="implied">Skizze</rs> habe ich mit
                     Intereſſe geleſen, kann mich aber doch nicht recht mit ihr befreunden. Der
                     Grundgedanke iſt originell, aber der Dialog ſagt mir nicht zu. Bei breiterer
-                    Ausmalung würde man an den Fall glauben, – ſo grell nicht! Es iſt eben eine
+                    Ausmalung würde man an den Fall glauben,&#160;– ſo grell nicht! Es iſt eben eine
                     verzweifelt ſchwere Sache um ſolche Skizzen. Doch bitte ich recht ſehr,
-                    gelegentlich etwas anderes einzuſenden.</p>
-                <closer>Mit vorzüglicher Hochachtung<lb/>
-                    <signed>Wilhelm Bölsche.</signed>
-                </closer>
-            </div>
-        </body>
+                    gelegentlich etwas anderes einzuſenden.</p><closer>Mit vorzüglicher Hochachtung<lb/><signed>Wilhelm Bölsche.</signed></closer></div></body>
     </text>
 </TEI>

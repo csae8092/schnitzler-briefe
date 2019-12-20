@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-12-14_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1899-12-14_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 14. 12. 1899</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 14.&#160;12.&#160;1899</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,19 +51,19 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Postkarte (Rohrpost), Bleistift; Lateinschrift. Von unbekannter Hand
                            mit Bleistift nummeriert: »<quote>147</quote>«.</p>
                         <stamp n="1">
-                           <placeName key="pmb51">Wien 1/1</placeName>
-                           <date>14 XII 99</date>
+                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
+                           <date>14&#160;XII&#160;99</date>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb59">Wien 9/1</placeName>
-                           <date>14 XII 99</date>
-                           <time>2 40N</time>
+                           <rs ref="#pmb59" type="place">Wien 9/1</rs>
+                           <date>14&#160;XII&#160;99</date>
+                           <time>2&#160;40N</time>
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -74,18 +77,18 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1899-12-14" n="01">14. 12. 1899</date>
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1899-12-14" n="01">14.&#160;12.&#160;1899</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1899-12-14">14. 12. 1899</date>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1899-12-14">14.&#160;12.&#160;1899</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-11-24_01">Schnitzler an Beer-Hofmann, 24. 11. 1899</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-11-25_01">Schnitzler an Beer-Hofmann, 25. 11. 1899</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-11-24_01">Schnitzler an Beer-Hofmann, 24.&#160;11.&#160;1899</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-11-25_01">Schnitzler an Beer-Hofmann, 25.&#160;11.&#160;1899</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -98,29 +101,10 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00327.jpg"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                        <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00326"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
-               <addrLine>
-                        <placeName key="pmb50">Wien</placeName>
-                    </addrLine>
-               <addrLine>
-                        <placeName key="pmb397">IX Frankgasse 1</placeName>
-                    </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-                    <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00327"/>
-                    <salute>Lieber Arthur!
-               </salute>Ich und <persName key="pmb11740">Hugo</persName> speisen heute nach dem
-               Conzert <persName key="pmb7438">Gmeiner</persName> im Club. Auch <persName key="pmb3130">Frankenstein</persName> ko<c rendition="#gemination-m"/>t.</p>
-            <closer>Herzlichst<lb/>
-                    <signed>Richard</signed>
-                </closer>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00326"/>D<hi rend="superscript"
+                     >r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb397" type="place">IX Frankgasse 1</rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00327"/><salute>Lieber Arthur!
+               </salute>Ich und <rs ref="#pmb11740" type="person">Hugo</rs> speisen heute nach dem
+               Conzert <rs ref="#pmb7438" type="person">Gmeiner</rs> im Club. Auch <rs
+                  ref="#pmb3130" type="person">Frankenstein</rs> ko<c rendition="#gemination-m"/>t.</p><closer>Herzlichst<lb/><signed>Richard</signed></closer></div></body>
    </text>
 </TEI>

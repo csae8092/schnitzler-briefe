@@ -10,8 +10,8 @@ declare namespace util = "http://exist-db.org/xquery/util";
 declare option exist:serialize "method=xml media-type=text/xml omit-xml-declaration=no indent=yes";
 <gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
     <meta lastmodifieddate="{current-date()}">
-        <creator>arthur-schnitzler-briefe-net.xql</creator>
-        <description>A network of persons mentioned in the arthur-schnitzler-briefe-Korpus</description>
+        <creator>schnitzler-briefe-net.xql</creator>
+        <description>A network of persons mentioned in the schnitzler-briefe-Korpus</description>
     </meta>
     <graph mode="static" defaultedgetype="directed">
         <nodes>

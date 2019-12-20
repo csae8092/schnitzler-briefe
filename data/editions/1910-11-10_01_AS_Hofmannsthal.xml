@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1910-11-10_01_AS_Hofmannsthal" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1910-11-10_01_AS_Hofmannsthal"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 10. 11. 1910</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 10.&#160;11.&#160;1910</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Hs-30885,XXXX</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <!-- <placeName key="pmb50">Wien</placeName> -->
-               <date when="1910-11-10" n="01">10. 11. 1910</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <!-- <placeName ref="#pmb50">Wien</placeName> -->
+               <date when="1910-11-10" n="01">10.&#160;11.&#160;1910</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1910-11-07_01">Hofmannsthal an Schnitzler, 7. 11. 1910</ptr>
-               <ptr type="next" subtype="toAuthor" target="1910-11-20_01">Hofmannsthal an Schnitzler, 20. 11. 1910</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1910-11-07_01">Hofmannsthal an Schnitzler, 7.&#160;11.&#160;1910</ptr>
+               <ptr type="next" subtype="toAuthor" target="1910-11-20_01">Hofmannsthal an Schnitzler, 20.&#160;11.&#160;1910</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,24 +103,12 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>10. 11. 1910</date>
-               </dateline>
-               <salute>mein lieber Hugo, </salute>
-            </opener>
-            <p>Ihre guten Worte hätten auch schlimmeres wieder gut machen können! Nun aber hätt ich ein
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>10.&#160;11.&#160;1910</date></dateline><salute>mein lieber Hugo, </salute></opener><p>Ihre guten Worte hätten auch schlimmeres wieder gut machen können! Nun aber hätt ich ein
    rechtes Bedürfnis Ihnen wieder die Hand zu drücken und mit Ihnen zu reden. Wollt Ihr nicht einmal
    ganz gemütlich – vorläufig ohne Vorlesung – nur wir Vier – noch vor dem
-               <workName key="pmb29937">Medardus</workName> bei uns nachtmahlen? Wählen Sie einen Abend (der um
-    <time>½ 7</time> anfangen kann) – anfangs nächster Woche von <date>Dienstag</date> ab; aber
-               schreiben Sie rechtzeitig. (Die <workName key="pmb29937">Med.</workName>-Première ist gewiß noch nicht am
-    <date>19.</date> Vielleicht <date>23.</date> oder <date>24. November</date>.) Herzlichst <lb/>Ihr<lb/>
-               <signed>Arthur.</signed>
-            </p>
-         </div>
-      </body>
+               <rs ref="#pmb29937" type="work">Medardus</rs> bei uns nachtmahlen? Wählen Sie einen Abend (der um
+    <time>½&#160;7</time> anfangen kann) – anfangs nächster Woche von <date>Dienstag</date> ab; aber
+               schreiben Sie rechtzeitig. (Die <rs ref="#pmb29937" type="work">Med.</rs>-Première ist gewiß noch nicht am
+    <date>19.</date> Vielleicht <date>23.</date> oder <date>24. November</date>.) Herzlichst <lb/>Ihr<lb/><signed>Arthur.</signed></p></div></body>
    </text>
 </TEI>

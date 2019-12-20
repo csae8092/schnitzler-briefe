@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1904-09-22_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1904-09-22_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 22. 9. 1904</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 22.&#160;9.&#160;1904</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb462">XXXX</placeName>
-               <date when="1904-09-22" n="01">22. 9. 1904</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb462">XXXX</placeName>
+               <date when="1904-09-22" n="01">22.&#160;9.&#160;1904</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1904-09-16_01">Schnitzler an Hofmannsthal, 16. 9. 1904</ptr>
-               <ptr type="next" subtype="toAuthor" target="1904-09-24_01">Schnitzler an Hofmannsthal, 24. 9. 1904</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1904-09-16_01">Schnitzler an Hofmannsthal, 16.&#160;9.&#160;1904</ptr>
+               <ptr type="next" subtype="toAuthor" target="1904-09-24_01">Schnitzler an Hofmannsthal, 24.&#160;9.&#160;1904</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,24 +105,11 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p>
-               <salute>lieber, </salute>bin wohl und rechtfleißig, bei hellem aber sehr kühlem Wetter. Bitte
+      <body><div type="writingSession" n="1"><p><salute>lieber, </salute>bin wohl und rechtfleißig, bei hellem aber sehr kühlem Wetter. Bitte
    vielmals schicken Sie mir recht bald hieher – ich habe in den Abendstunden gar nichts zu lesen –
-   womöglich: <persName key="pmb12170">H. Mann</persName>, <workName key="pmb31983">Herzogin</workName>, I u. II (Bd III
-               <workName key="pmb31983">Venus</workName> habe ich) und das Heft der <workName key="pmb40042">Zukunft</workName>, worin
-               <persName key="pmb12170">H.</persName> über <workName key="pmb30633">Elektra</workName>
-               <space unit="chars" quantity="1"/>
-               <rs type="work" key="">schrieb</rs>. Wenn das nicht möglich, so vielleicht »<workName key="pmb31981">Jagd nach
-    Liebe</workName>«. Voraus dankend, von Herzen </p>
-            <closer>
-               <signed>Hugo.</signed>
-            </closer>
-            <postscript>
-               <p>P. S. Eben kommt die »<workName key="pmb40042">Zukunft</workName>«, also die nicht.</p>
-            </postscript>
-         </div>
-      </body>
+   womöglich: <rs ref="#pmb12170" type="person">H. Mann</rs>, <rs ref="#pmb31983" type="work">Herzogin</rs>, I u. II (Bd III
+               <rs ref="#pmb31983" type="work">Venus</rs> habe ich) und das Heft der <rs ref="#pmb40042" type="work">Zukunft</rs>, worin
+               <rs ref="#pmb12170" type="person">H.</rs> über <rs ref="#pmb30633" type="work">Elektra</rs><space unit="chars" quantity="1"/><rs type="work" subtype="implied" ref="">schrieb</rs>. Wenn das nicht möglich, so vielleicht »<rs ref="#pmb31981" type="work">Jagd nach
+    Liebe</rs>«. Voraus dankend, von Herzen </p><closer><signed>Hugo.</signed></closer><postscript><p>P.&#160;S. Eben kommt die »<rs ref="#pmb40042" type="work">Zukunft</rs>«, also die nicht.</p></postscript></div></body>
    </text>
 </TEI>

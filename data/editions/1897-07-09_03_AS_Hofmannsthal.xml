@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-07-09_03_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-07-09_03_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 9. 7. 1897</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 9.&#160;7.&#160;1897</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Hs-30885,60</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S., schwarze Tinte.</p>
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S., schwarze Tinte.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -59,8 +63,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -79,18 +83,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb213">Ischl</placeName>
-                    <date when="1897-07-09" n="03">9. 7. 1897</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb213">Ischl</placeName>
+                    <date when="1897-07-09" n="03">9.&#160;7.&#160;1897</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-07-09_02">Hofmannsthal an Schnitzler, 9. [7. 1897]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-07-12_01">Hofmannsthal an Schnitzler, [12.? 7. 1897]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-07-09_02">Hofmannsthal an Schnitzler, 9.&#160;[7.&#160;1897]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-07-12_01">Hofmannsthal an Schnitzler, [12.?&#160;7.&#160;1897]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -106,47 +110,25 @@
         <graphic url="Hs-30885,60_002.TIF"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="Hs-30885,60_001.TIF"/>
-                        <placeName key="pmb213">
-                            <hi rend="latintype">Ischl</hi>
-                        </placeName>, <date>9. 7. 97.</date>
-                    </dateline>
-                </opener>
-                <p>
-                    <salute>Mein lieber Hugo, </salute>überallher ko<c rendition="#gemination-m"/>en
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Hs-30885,60_001.TIF"/><rs ref="#pmb213" type="place"><hi rend="latintype">Ischl</hi></rs>, <date>9.&#160;7.&#160;97.</date></dateline></opener><p><salute>Mein lieber Hugo, </salute>überallher ko<c rendition="#gemination-m"/>en
                     nur ärgerliche Nachrichten, insbeſonders dieſe Schwierigkeiten mit der
-                        <placeName key="pmb50">Wien</placeName>er Wohnung ſtören mich ſehr. Ich
-                    werde wohl früher nach <placeName key="pmb50">Wien</placeName> fahren u gleich
-                    definitiv in <placeName key="pmb50">Wien</placeName> bleiben.</p>
-                <p>Jetzt ka<c rendition="#gemination-n"/> ich nicht weg von hier, es wäre auch eine
+                        <rs ref="#pmb50" type="place">Wien</rs>er Wohnung ſtören mich ſehr. Ich
+                    werde wohl früher nach <rs ref="#pmb50" type="place">Wien</rs> fahren u gleich
+                    definitiv in <rs ref="#pmb50" type="place">Wien</rs> bleiben.</p><p>Jetzt ka<c rendition="#gemination-n"/> ich nicht weg von hier, es wäre auch eine
                     wahrſcheinlich nutzloſe Hin u Herhetzerei. <pb facs="Hs-30885,60_002.TIF"/>Bitte
-                    lieber Hugo, ginge das, daſs wir unſer <placeName key="pmb30">Salzburg</placeName>er Zuſa<c rendition="#gemination-m"/>enſein um ein paar Tage früher hätten? Daſs
+                    lieber Hugo, ginge das, daſs wir unſer <rs ref="#pmb30" type="place">Salzburg</rs>er Zuſa<c rendition="#gemination-m"/>enſein um ein paar Tage früher hätten? Daſs
                     Sie ſtatt am <date>23.</date> ſchon am <date>22.</date> oder noch lieber am
-                        <date>21.</date> in <placeName key="pmb30">S.</placeName> wären, <hi rend="latintype">resp.</hi> ich Sie in <placeName key="pmb34191">
-                        <hi rend="latintype">Bruck</hi>
-                    </placeName>-<placeName key="pmb34194">
-                        <hi rend="latintype">Fusch</hi>
-                    </placeName> abholte? –</p>
-                <p>Mit <persName key="pmb10765">Poldi Andrian</persName> wirds hoffentlich (dieſes
+                        <date>21.</date> in <rs ref="#pmb30" type="place">S.</rs> wären, <hi rend="latintype">resp.</hi> ich Sie in <rs ref="#pmb34191" type="place"><hi rend="latintype">Bruck</hi></rs>-<rs ref="#pmb34194" type="place"><hi rend="latintype">Fusch</hi></rs> abholte?&#160;–</p><p>Mit <rs ref="#pmb10765" type="person">Poldi Andrian</rs> wirds hoffentlich (dieſes
                     »hoffentlich« kommt nicht nur aus Bequemlichkeit ſondern auch aus »ärztlicher
                     Einſicht« her) bald <pb facs="Hs-30885,60_002.TIF"/>wieder beſſer ſein. Jetzt
-                    gleich nach <placeName key="pmb50">Wien</placeName> zu fahren wäre mir eine
+                    gleich nach <rs ref="#pmb50" type="place">Wien</rs> zu fahren wäre mir eine
                     rechte Unannehmlichkeit, und wirklich nöthig iſt’s ja gewiſs nicht. Schreiben
-                    Sie mir aber doch, wenn Sie können, näheres! –</p>
-                <p>– Könnten Einem doch nur alle äußeren Sachen abgenommen werden. Es gibt ja ſoviel
+                    Sie mir aber doch, wenn Sie können, näheres!&#160;–</p><p>– Könnten Einem doch nur alle äußeren Sachen abgenommen werden. Es gibt ja ſoviel
                     Leute, denen das ſo viel Freude macht und die <unclear>nur</unclear> dadurch,
                     daß ich es äußere, ich <pb facs="Hs-30885,60_001.TIF"/>meine<supplied>,</supplied> adminiſtrative Sachen gibt, die ſie zu
-                    beſorgen haben, zum Bewußtſein ihrer Exiſtenz kommen; – ließe ſich das nicht
+                    beſorgen haben, zum Bewußtſein ihrer Exiſtenz kommen;&#160;– ließe ſich das nicht
                     irgendwie vertheilen? Ich ſtelle mir ein Secretariat, eine Agentur im großen
                     Stile vor, wo man alles findet, we<c rendition="#gemination-n"/> man nur in zehn
-                    Worten mittheilt: dieſe oder jene Schwierigkeit habe ich.</p>
-                <closer>– Auf Wiederſehen. Herzliche Grüße! Ihr <signed>Arthur.</signed>
-                </closer>
-            </div>
-        </body>
+                    Worten mittheilt: dieſe oder jene Schwierigkeit habe ich.</p><closer>– Auf Wiederſehen. Herzliche Grüße! Ihr <signed>Arthur.</signed></closer></div></body>
     </text>
 </TEI>

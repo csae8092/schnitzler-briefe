@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1925-12-14_01_Braun_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1925-12-14_01_Braun_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Felix Braun an Arthur Schnitzler, 14. 12. 1925</title>
-                <author key="pmb11002">Braun, Felix</author>
+                <title level="a">Felix Braun an Arthur Schnitzler, 14.&#160;12.&#160;1925</title>
+                <author ref="#pmb11002">Braun, Felix</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -66,18 +70,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
         <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11002">Braun, Felix</persName>
-               <placeName key="pmb50">Wien</placeName>
-                <date when="1925-12-14" n="01">14. 12. 1925</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11002">Braun, Felix</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+                <date when="1925-12-14" n="01">14.&#160;12.&#160;1925</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1924-12-31_01">Braun an Schnitzler, 13. 12. 1924</ptr>
-               <ptr type="next" subtype="toAuthor" target="1925-12-26_01">Schnitzler an Braun, 26. 12. 1925</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1924-12-31_01">Braun an Schnitzler, 13.&#160;12.&#160;1924</ptr>
+               <ptr type="next" subtype="toAuthor" target="1925-12-26_01">Schnitzler an Braun, 26.&#160;12.&#160;1925</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -87,29 +91,14 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="writingSession" n="1">
-              <opener>
-                  <dateline rend="center">
-                  <pb facs=""/>
-                  <placeName key="pmb50">Wien</placeName>, den <date>14. XII. 25</date>
-               </dateline>
-                  <salute>Verehrter Herr Doktor!</salute>
-              </opener>
-               <p>Haben Sie den herzlichſten Dank für die Überſendung Ihres Buchs »<workName key="pmb30751">Die Frau des Richters</workName>« durch
-               den <orgName key="pmb29377">Propyläen-Verlag</orgName>. War ſchon der Empfang durch das Bewußtſein, daß Sie ſelbſt, verehrter
+        <body><div type="writingSession" n="1"><opener><dateline rend="center"><pb facs=""/><rs ref="#pmb50" type="place">Wien</rs>, den <date>14.&#160;XII.&#160;25</date></dateline><salute>Verehrter Herr Doktor!</salute></opener><p>Haben Sie den herzlichſten Dank für die Überſendung Ihres Buchs »<rs ref="#pmb30751" type="work">Die Frau des Richters</rs>« durch
+               den <rs ref="#pmb29377" type="organisation">Propyläen-Verlag</rs>. War ſchon der Empfang durch das Bewußtſein, daß Sie ſelbſt, verehrter
                Herr Doktor, der Auftraggeber geweſen ſind, eine große Freude, ſo auch die Lektüre. Denn ein meiſterliches Werk iſt 
                Ihnen da wieder und makellos geglückt. Sowohl die herrliche Prosa als auch die Geſtaltung der 
                Charaktere kann nur mit dem Prädikat der Meiſter<pb facs=""/>ſchaft gerühmt werden. Solange ſolche
-               Bewältigungen möglich ſind, kann von einem Abſtieg unſerer Zeit und Kunſt die Rede nicht ſein.</p>
-                <p>Immer war das Menſchliche – in einem weiteren als nur dem ethiſchen Sinn genommen – Ihnen zu
-                    dichten gegeben: auch hier, am ſchönſten in der Geſtalt der <rs type="work" key="pmb30751">Frau</rs>, und frei und leicht in der des
-                    <rs type="work" key="pmb30751">Rebellen</rs>, ist es Ihnen geglückt.<space unit="chars" quantity="7"/>In Verehrung grüße ich Sie,
-                werter Herr Doktor, und ſage nochmals wärmſten Dank.</p>
-                <closer>Ihr ergebener<lb/>
-               <signed>Felix Braun.</signed>
-            </closer>
-            </div>
-        </body>
+               Bewältigungen möglich ſind, kann von einem Abſtieg unſerer Zeit und Kunſt die Rede nicht ſein.</p><p>Immer war das Menſchliche – in einem weiteren als nur dem ethiſchen Sinn genommen – Ihnen zu
+                    dichten gegeben: auch hier, am ſchönſten in der Geſtalt der <rs type="work" ref="#pmb30751" subtype="implied">Frau</rs>, und frei und leicht in der des
+                    <rs type="work" ref="#pmb30751" subtype="implied">Rebellen</rs>, ist es Ihnen geglückt.<space unit="chars" quantity="7"/>In Verehrung grüße ich Sie,
+                werter Herr Doktor, und ſage nochmals wärmſten Dank.</p><closer>Ihr ergebener<lb/><signed>Felix Braun.</signed></closer></div></body>
     </text>
 </TEI>

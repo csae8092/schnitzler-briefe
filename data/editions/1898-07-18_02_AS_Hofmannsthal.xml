@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-07-18_02_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1898-07-18_02_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 18. 7. 1898</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 18.&#160;7.&#160;1898</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,13 +55,13 @@
                                 <idno>Hs-30885,71</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Bildpostkarte, Bleistift. Motiv: »<placeName key="pmb35499">Liechtensteinklamm</placeName>«. Von Schnitzler mit
+                                <p>eh. Bildpostkarte, Bleistift. Motiv: »<rs ref="#pmb35499" type="place">Liechtensteinklamm</rs>«. Von Schnitzler mit
                                     Bleistift mutmaßlich <date>1929</date> zweimal mit dem Datum des
                                     Stempels datiert: »<quote>
                                         <date>20/7 98</date>
                                     </quote>«.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb7219">Czortków</placeName>
+                                    <rs ref="#pmb7219" type="place">Czortków</rs>
                                     <date>20 7. 98</date>
                                     <time>X</time>
                                 </stamp>
@@ -68,8 +72,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -88,19 +92,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb996">St. Johann im Pongau</placeName>
-                    <date when="1898-07-18" n="02">18. 7. 1898</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb996">St. Johann im Pongau</placeName>
+                    <date when="1898-07-18" n="02">18.&#160;7.&#160;1898</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb7219">Czortków</placeName>
-                    <date when="1898-07-20">20. 7. 1898</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb7219">Czortków</placeName>
+                    <date when="1898-07-20">20.&#160;7.&#160;1898</date>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1898-07-15_02">Schnitzler an Hofmannsthal, 15. 7. 1898</ptr>
-               <ptr type="next" subtype="toAuthor" target="1898-07-19_01">Hofmannsthal an Schnitzler, 19. [7. 1898]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1898-07-15_02">Schnitzler an Hofmannsthal, 15.&#160;7.&#160;1898</ptr>
+               <ptr type="next" subtype="toAuthor" target="1898-07-19_01">Hofmannsthal an Schnitzler, 19.&#160;[7.&#160;1898]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -116,47 +120,8 @@
         <graphic url="Hs-30885,71_002"/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="Hs-30885,71_002"/>Herrn Hugo von Hofmannsthal</addrLine>
-                    <addrLine>
-                        <hi rend="latintype">kuk Ltnd i. d. R. des kuk VIII. Ulan-Rgmts</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="pmb7219">Czortków</placeName>
-                        </hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="pmb644">Galizien</placeName>
-                        </hi>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <p rend="center">
-                    <hi rend="pre-print">Gruss aus der <placeName key="pmb35499">Liechtensteinklamm</placeName>
-                    </hi>
-                </p>
-                <p>Schöne Radtour: gestern <add place="above">
-                        <time>Nachm</time>
-                    </add>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="pmb35493">Steinach</placeName> bis <placeName key="pmb35496">Schladming</placeName>; <anchor type="commentary" xml:id="KL2397-1"/>heute<note type="commentary" xml:id="KL2397-1h">Die beschriebenen Ausflüge
-                        und das Treffen mit den <rs type="person" key="pmb11737 pmb18404">Eltern</rs>
-                        <space unit="chars" quantity="1"/>
-                        <persName key="pmb10863">Hofmannsthal</persName>s erlauben die Datierung auf
-                        den <date>18. 7. 1898</date>.</note>
-                    <space unit="chars" quantity="1"/>
-                    <time>Vormitt</time>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="pmb35496">Schladming</placeName>, bis zur <placeName key="pmb35499">Liechtenſteinkla<c rendition="#gemination-m"/>
-                    </placeName>; heut abends werd ich wohl in der <placeName key="pmb573">Fuſch</placeName> Ihre <rs type="person" key="pmb11737 pmb18404">Eltern</rs> ſehn. Seien Sie herzlich gegrüßt. Ihr <signed>Arth.</signed>
-                </p>
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine><pb facs="Hs-30885,71_002"/>Herrn Hugo von Hofmannsthal</addrLine><addrLine><hi rend="latintype">kuk Ltnd i.&#160;d.&#160;R. des kuk VIII. Ulan-Rgmts</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb7219" type="place">Czortków</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb644" type="place">Galizien</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p rend="center"><hi rend="pre-print">Gruss aus der <rs ref="#pmb35499" type="place">Liechtensteinklamm</rs></hi></p><p>Schöne Radtour: gestern <add place="above"><time>Nachm</time></add><space unit="chars" quantity="1"/><rs ref="#pmb35493" type="place">Steinach</rs> bis <rs ref="#pmb35496" type="place">Schladming</rs>; <anchor type="commentary" xml:id="KL2397-1"/>heute<note type="commentary" xml:id="KL2397-1h">Die beschriebenen Ausflüge
+                        und das Treffen mit den <rs type="person" ref="#pmb11737 pmb18404" subtype="implied">Eltern</rs><space unit="chars" quantity="1"/><rs ref="#pmb10863" type="person">Hofmannsthal</rs>s erlauben die Datierung auf
+                        den <date>18.&#160;7.&#160;1898</date>.</note><space unit="chars" quantity="1"/><time>Vormitt</time><space unit="chars" quantity="1"/><rs ref="#pmb35496" type="place">Schladming</rs>, bis zur <rs ref="#pmb35499" type="place">Liechtenſteinkla<c rendition="#gemination-m"/></rs>; heut abends werd ich wohl in der <rs ref="#pmb573" type="place">Fuſch</rs> Ihre <rs type="person" ref="#pmb11737 pmb18404" subtype="implied">Eltern</rs> ſehn. Seien Sie herzlich gegrüßt. Ihr <signed>Arth.</signed></p></div></body>
     </text>
 </TEI>

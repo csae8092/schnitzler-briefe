@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1903-10-12_01_Blei_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1903-10-12_01_Blei_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Franz Blei an Arthur Schnitzler, 12. 10. 1903</title>
-                <author key="pmb10955">Blei, Franz</author>
+                <title level="a">Franz Blei an Arthur Schnitzler, 12.&#160;10.&#160;1903</title>
+                <author ref="#pmb10955">Blei, Franz</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 14</idno>
+                                <idno>Schnitzler, B&#160;14</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>XXXX 1. Seite aus Abschrift YYYY eh. Brief, 1 Bl., 2 S.,
+                                <p>XXXX 1. Seite aus Abschrift YYYY eh. Brief, 1&#160;Bl., 2&#160;S.,
                                     Lateinschrift. Von Schnitzler beschriftet: »<quote>
                                         <hi rend="latintype">Blei</hi>
                                     </quote>« und datiert »<quote>12/10 903</quote>«, von
@@ -69,54 +73,32 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb10955">Blei, Franz</persName>
-                    <date when="1903-10-12" n="01">12. 10. 1903</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb10955">Blei, Franz</persName>
+                    <date when="1903-10-12" n="01">12.&#160;10.&#160;1903</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="next" subtype="toAuthor" target="1903-10-17_01">Blei an Schnitzler, 17. 10. 1903</ptr>
+               <ptr type="next" subtype="toAuthor" target="1903-10-17_01">Blei an Schnitzler, 17.&#160;10.&#160;1903</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
         <revisionDesc status="proposed">
-            <change who="MAM" when="2018-10-15">Angelegt. 1. Seite aus Abschrift, da Faksimile des
+            <change who="MAM" when="2018-10-15">Angelegt.&#160;1. Seite aus Abschrift, da Faksimile des
                 Mikrofilms kaum zu entziffern</change>
             <change who="MAM" when="2018-10-17">Index check</change>
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="gray00760"/>
-                        <placeName key="pmb1166">München, Arcisstrasse 19</placeName>
-                    </dateline>
-                    <salute>Sehr geehrter Herr Arthur Schnitzler,</salute>
-                </opener>
-                <p>Miss <persName key="pmb29141">Johnson</persName> kam mit Empfehlungen von sehr
-                    guten <placeName key="pmb254">
-                        <country>Engländern</country>
-                    </placeName>, wie <persName key="pmb5613">Yeats</persName> und <persName key="pmb5608">A. Symons</persName> zu mir und auf die Frage, was sie
-                    übersetzen solle, rieth ich ihr zu dem <workName key="pmb29843">Grünen
-                        Kakadu</workName>. Die Dame wird sicher eine sehr gute Übertragung zu stand
-                    bringen und dass sie damit bei den <placeName key="pmb254">
-                        <country>englischen</country>
-                    </placeName> Bühnen mehr Glück haben wird wie mit ihren eigenhändigen Stücken
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="gray00760"/><rs ref="#pmb1166" type="place">München, Arcisstrasse 19</rs></dateline><salute>Sehr geehrter Herr Arthur Schnitzler,</salute></opener><p>Miss <rs ref="#pmb29141" type="person">Johnson</rs> kam mit Empfehlungen von sehr
+                    guten <rs ref="#pmb254" type="place"><country>Engländern</country></rs>, wie <rs ref="#pmb5613" type="person">Yeats</rs> und <rs ref="#pmb5608" type="person">A. Symons</rs> zu mir und auf die Frage, was sie
+                    übersetzen solle, rieth ich ihr zu dem <rs ref="#pmb29843" type="work">Grünen
+                        Kakadu</rs>. Die Dame wird sicher eine sehr gute Übertragung zu stand
+                    bringen und dass sie damit bei den <rs ref="#pmb254" type="place"><country>englischen</country></rs> Bühnen mehr Glück haben wird wie mit ihren eigenhändigen Stücken
                     ist keine Frage. Wenn Sie <pb facs="gray00761"/>daher nicht andere entscheidende
-                    Gründe dagegen haben, möchte ich mir erlauben, Ihnen Miss <persName key="pmb29141">Johnson</persName> für die Übertragung zu empfehlen.</p>
-                <closer>Ich bin Ihr ganz ergebener<lb/>
-                    <signed>Franz Blei</signed>
-                </closer>
-                <postscript>
-                    <dateline>
-                        <date>12. 10. 1903</date>. </dateline>
-                </postscript>
-            </div>
-        </body>
+                    Gründe dagegen haben, möchte ich mir erlauben, Ihnen Miss <rs ref="#pmb29141" type="person">Johnson</rs> für die Übertragung zu empfehlen.</p><closer>Ich bin Ihr ganz ergebener<lb/><signed>Franz Blei</signed></closer><postscript><dateline><date>12.&#160;10.&#160;1903</date>. </dateline></postscript></div></body>
     </text>
 </TEI>

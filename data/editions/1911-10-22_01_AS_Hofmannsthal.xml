@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1911-10-22_01_AS_Hofmannsthal" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1911-10-22_01_AS_Hofmannsthal"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 22. 10. 1911</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 22.&#160;10.&#160;1911</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Hs-30885,XXXX</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <!-- <placeName key="pmb50">Wien</placeName> -->
-               <date when="1911-10-22" n="01">22. 10. 1911</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <!-- <placeName ref="#pmb50">Wien</placeName> -->
+               <date when="1911-10-22" n="01">22.&#160;10.&#160;1911</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1911-10-16_01">Hofmannsthal an Schnitzler, 16. 10. [1911?]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1911-11-15_01">Hofmannsthal an Schnitzler, 15. 11. 1911</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1911-10-16_01">Hofmannsthal an Schnitzler, 16.&#160;10.&#160;[1911?]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1911-11-15_01">Hofmannsthal an Schnitzler, 15.&#160;11.&#160;1911</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,22 +103,11 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">22/X 911</dateline>
-            </opener>
-            <p>
-               <salute>mein lieber Hugo, </salute>ich danke für Ihr liebes Telegramm aus <placeName key="pmb33996">Neubeuern</placeName>, das ich für alle Fälle schon nach <placeName key="pmb173">Rodaun</placeName> beantworte. Ich reise Ende der Woche ab,
-                  <placeName key="pmb652">Prag</placeName>, <placeName key="pmb866">Dresden</placeName> (Vorlesungen), – dann <placeName key="pmb168">Berlin</placeName>–<placeName key="pmb506">Hamburg</placeName> (<workName key="pmb29857">Beatrice</workName>, <workName key="pmb30207">Weites Land</workName>, <workName key="pmb29935">Anatol</workName>) bin gegen <date>Mitte November</date> zurück.
+      <body><div type="writingSession" n="1"><opener><dateline rend="right">22/X 911</dateline></opener><p><salute>mein lieber Hugo, </salute>ich danke für Ihr liebes Telegramm aus <rs ref="#pmb33996" type="place">Neubeuern</rs>, das ich für alle Fälle schon nach <rs ref="#pmb173" type="place">Rodaun</rs> beantworte. Ich reise Ende der Woche ab,
+                  <rs ref="#pmb652" type="place">Prag</rs>, <rs ref="#pmb866" type="place">Dresden</rs> (Vorlesungen),&#160;– dann <rs ref="#pmb168" type="place">Berlin</rs>–<rs ref="#pmb506" type="place">Hamburg</rs> (<rs ref="#pmb29857" type="work">Beatrice</rs>, <rs ref="#pmb30207" type="work">Weites Land</rs>, <rs ref="#pmb29935" type="work">Anatol</rs>) bin gegen <date>Mitte November</date> zurück.
                Vorher werden wir einander wohl kaum sehen. Für <date>Herbst</date> und
                   <date>Winter</date> aber hoff ich ein häufigeres Zusammensein als es mir die
-               letzten Jahre beschieden war. Was ist’s mit »<workName key="pmb30129">Jedermann</workName>« und
-               allerlei? </p>
-            <closer>Wir grüßen Euch herzlichst!<lb/>Ihr<lb/>
-               <signed>Arthur.</signed>
-            </closer>
-         </div>
-      </body>
+               letzten Jahre beschieden war. Was ist’s mit »<rs ref="#pmb30129" type="work">Jedermann</rs>« und
+               allerlei? </p><closer>Wir grüßen Euch herzlichst!<lb/>Ihr<lb/><signed>Arthur.</signed></closer></div></body>
    </text>
 </TEI>

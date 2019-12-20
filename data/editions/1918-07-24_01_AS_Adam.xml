@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1918-07-24_01_AS_Adam">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1918-07-24_01_AS_Adam">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Robert Adam, 24. 7. 1918</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Robert Adam, 24.&#160;7.&#160;1918</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -64,18 +68,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1918-07-24" n="01">24. 7. 1918</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1918-07-24" n="01">24.&#160;7.&#160;1918</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb1248">Andorf</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb1248">Andorf</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1918-07-17_01">Adam an Schnitzler, 17. 7. 1918</ptr>
-               <ptr type="next" subtype="toAuthor" target="1918-07-29_01">Adam an Schnitzler, 29. 7. 1918</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1918-07-17_01">Adam an Schnitzler, 17.&#160;7.&#160;1918</ptr>
+               <ptr type="next" subtype="toAuthor" target="1918-07-29_01">Adam an Schnitzler, 29.&#160;7.&#160;1918</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -84,48 +88,13 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <pb facs=""/>
-                  <hi rend="pre-print">D<hi rend="superscript">r</hi> ARTHUR SCHNITZLER</hi>
-               </addrLine>
-                    <addrLine>
-                  <hi rend="pre-print">
-                     <placeName key="pmb150">WIEN, XVIII. STERNWARTESTRASSE 71</placeName>.</hi>
-               </addrLine>
-                </address>
-                <address>
-                    <addrLine>Herrn Dr.</addrLine>
-                    <addrLine>Robert Adam Pollak</addrLine>
-                    <addrLine>
-                  <placeName key="pmb1248">Andorf nahe Schärding</placeName>.</addrLine>
-                    <addrLine>
-                  <placeName key="pmb718">Innviertel</placeName>.</addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs=""/>
-                  <date>24. 7. 18</date>
-               </dateline>
-                </opener>
-                <p>
-               <salute>lieber Herr Doctor, </salute> vielen Dank für Ihre freundliche Nachricht;
+        <body><div type="address"><address><addrLine><pb facs=""/><hi rend="pre-print">D<hi rend="superscript">r</hi> ARTHUR SCHNITZLER</hi></addrLine><addrLine><hi rend="pre-print"><rs ref="#pmb150" type="place">WIEN, XVIII. STERNWARTESTRASSE 71</rs>.</hi></addrLine></address><address><addrLine>Herrn Dr.</addrLine><addrLine>Robert Adam Pollak</addrLine><addrLine><rs ref="#pmb1248" type="place">Andorf nahe Schärding</rs>.</addrLine><addrLine><rs ref="#pmb718" type="place">Innviertel</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>24.&#160;7.&#160;18</date></dateline></opener><p><salute>lieber Herr Doctor, </salute> vielen Dank für Ihre freundliche Nachricht;
                     ich freue mich, daß Sie’s so gut getroffen haben und hoffe Sie bringen we<c rendition="#gemination-n"/> schon nichts geschriebenes doch eine fruchtbare
                         Sti<c rendition="#gemination-m"/>ung mit nach Hause. Ich bleibe wohl bis
                         <date>Mitte August</date> hier, um da<c rendition="#gemination-n"/> nach
-                        <placeName key="pmb314">Bayern</placeName> abzureisen, u. zw. hätte ich nicht übel
-                    Lust, <geogName type="river">donau</geogName>aufwärts bis <placeName key="pmb5907">Passau</placeName> zu fahren, u von dort erst nach <placeName key="pmb38129">München</placeName>
-                    <pb facs=""/>u. in weiterem Verlauf <placeName key="pmb2318">Partenkirchen</placeName>
+                        <rs ref="#pmb314" type="place">Bayern</rs> abzureisen, u. zw. hätte ich nicht übel
+                    Lust, <geogName type="river">donau</geogName>aufwärts bis <rs ref="#pmb5907" type="place">Passau</rs> zu fahren, u von dort erst nach <rs ref="#pmb38129" type="place">München</rs><pb facs=""/>u. in weiterem Verlauf <rs ref="#pmb2318" type="place">Partenkirchen</rs>
                     abzubiegen. Wir sehen uns vielleicht noch vorher? Herzlich grüßt Sie Ihr
-                    ergebner</p>
-                <closer>
-               <signed>A. S.</signed>
-            </closer>
-            </div>
-        </body>
+                    ergebner</p><closer><signed>A.&#160;S.</signed></closer></div></body>
     </text>
 </TEI>

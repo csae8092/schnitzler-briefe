@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1903-11-13_01_Bahr_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1903-11-13_01_Bahr_AS">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 13. 11. 1903</title>
-            <author key="pmb10815">Bahr, Hermann</author>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 13.&#160;11.&#160;1903</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,19 +53,19 @@
                         <country>GB</country>            
                         <settlement>Cambridge</settlement>            
                         <repository>University Library</repository>            
-                        <idno>Schnitzler, B 5b</idno>
+                        <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Postkarte</p>
                         <stamp n="1">
-                           <placeName key="pmb63">Wien 13/7</placeName>
-                           <date when="1903-11-13">13. 11. 03</date>
+                           <rs ref="#pmb63" type="place">Wien 13/7</rs>
+                           <date when="1903-11-13">13.&#160;11.&#160;03</date>
                            <time>2–3N</time>
                         </stamp>
                         <stamp n="2">
                            <action>Bestellt</action>
-                           <placeName key="pmb68">Wien 18/1</placeName>
-                           <date when="1903-11-13">13. 11. 03</date>
+                           <rs ref="#pmb68" type="place">Wien 18/1</rs>
+                           <date when="1903-11-13">13.&#160;11.&#160;03</date>
                            <time>7.N</time>
                         </stamp>
                      </physDesc>
@@ -71,8 +75,8 @@
             <listBibl>                
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -90,18 +94,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1903-11-13" n="01">13. 11. 1903</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1903-11-13" n="01">13.&#160;11.&#160;1903</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1903-11-11_01">Schnitzler an Bahr, 11. 11. 1903</ptr>
-               <ptr type="next" subtype="toAuthor" target="1903-11-13_02">Schnitzler an Bahr, 13. 11. 1903</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1903-11-11_01">Schnitzler an Bahr, 11.&#160;11.&#160;1903</ptr>
+               <ptr type="next" subtype="toAuthor" target="1903-11-13_02">Schnitzler an Bahr, 13.&#160;11.&#160;1903</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -118,35 +122,10 @@
       
    </facsimile>
    <text type="card">
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>
-                  <pb facs="MS-B-00005-B-000-00182"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
-               <addrLine>
-                  <placeName key="pmb68">Wien XVIII</placeName>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb133">Spöttelgasse 7</placeName>
-               </addrLine>
-            </address> 
-         </div> 
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>13. 11. 03</date>
-               </dateline>
-               <salute>Lieber Arthur!</salute>
-            </opener>
-            <p>Danke sehr. Ich freue mich sehr, wenn Du wieder einmal heraus kommst – nur bitte diesen <date>Sonntag</date> und <date>Montag</date> nicht, 
-        weil ich <anchor type="commentary" xml:id="KL264-1"/>nicht hier<note type="commentary" xml:id="KL264-1h">Am <date>Sonntag, 15. 11.</date>, besuchte er in
-                <placeName key="pmb30">Salzburg</placeName> das Grab
-            seiner <rs type="person" key="pmb2132 pmb27667">Eltern</rs> (<bibl>H. B.
-                    <workName>TSN</workName> III,406</bibl>).</note> bin. Und bitte schick mir den <rs type="work" key="pmb29855">Rekurs</rs> gelegentlich zurück.</p>
-            <closer>Herzlichst<lb/>Dein<lb/>
-               <signed>Hermann</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00182"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb68" type="place">Wien XVIII</rs></addrLine><addrLine><rs ref="#pmb133" type="place">Spöttelgasse 7</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><date>13.&#160;11.&#160;03</date></dateline><salute>Lieber Arthur!</salute></opener><p>Danke sehr. Ich freue mich sehr, wenn Du wieder einmal heraus kommst – nur bitte diesen <date>Sonntag</date> und <date>Montag</date> nicht, 
+        weil ich <anchor type="commentary" xml:id="KL264-1"/>nicht hier<note type="commentary" xml:id="KL264-1h">Am <date>Sonntag, 15.&#160;11.</date>, besuchte er in
+                <rs ref="#pmb30" type="place">Salzburg</rs> das Grab
+            seiner <rs type="person" ref="#pmb2132 pmb27667" subtype="implied">Eltern</rs> (<bibl>H.&#160;B.
+                    <rs type="work">TSN</rs> III,406</bibl>).</note> bin. Und bitte schick mir den <rs type="work" ref="#pmb29855" subtype="implied">Rekurs</rs> gelegentlich zurück.</p><closer>Herzlichst<lb/>Dein<lb/><signed>Hermann</signed></closer></div></body>
   </text>
 </TEI>

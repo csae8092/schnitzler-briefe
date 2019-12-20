@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1903-11-12_01_Schnitzler_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1903-11-12_01_Schnitzler_Bahr">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Julius Schnitzler an Hermann Bahr, 12. 11. 1903</title>
-            <author key="pmb12698">Schnitzler, Julius</author>
+            <title level="a">Julius Schnitzler an Hermann Bahr, 12.&#160;11.&#160;1903</title>
+            <author ref="#pmb12698">Schnitzler, Julius</author>
             <editor>
                <name full="yes" instant="false">Müller, Martin Anton</name>
             </editor>
@@ -52,13 +56,13 @@
                      <physDesc>
                         <p>Kartenbrief; Lateinschrift</p>
                         <stamp n="1">
-                           <placeName key="pmb50">Wien</placeName>
-                           <date when="1903-11-12">12. 11. 03</date>
+                           <rs ref="#pmb50" type="place">Wien</rs>
+                           <date when="1903-11-12">12.&#160;11.&#160;03</date>
                            <time>5–6 N</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb63">Wien 13/7</placeName>
-                           <date when="1903-11-12">1<gap quantity="1" reason="illegible" unit="chars"/>. 11. 03</date>
+                           <rs ref="#pmb63" type="place">Wien 13/7</rs>
+                           <date when="1903-11-12">1<gap quantity="1" reason="illegible" unit="chars"/>.&#160;11.&#160;03</date>
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -67,8 +71,8 @@
             <listBibl>
                <biblStruct corresp="HBAS">
                   <monogr>
-                     <author key="pmb10815">Bahr, Hermann</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
                      <imprint>
@@ -86,18 +90,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb12698">Schnitzler, Julius</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1903-11-12" n="01">12. 11. 1903</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb12698">Schnitzler, Julius</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1903-11-12" n="01">12.&#160;11.&#160;1903</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1903-11-11_01">Schnitzler an Bahr, 11. 11. 1903</ptr>
-               <ptr type="next" subtype="toAuthor" target="1903-11-13_01">Bahr an Schnitzler, 13. 11. 1903</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1903-11-11_01">Schnitzler an Bahr, 11.&#160;11.&#160;1903</ptr>
+               <ptr type="next" subtype="toAuthor" target="1903-11-13_01">Bahr an Schnitzler, 13.&#160;11.&#160;1903</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -107,73 +111,12 @@
       </revisionDesc>
    </teiHeader>
    <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <hi rend="stamp">Dr. Julius Schnitzler</hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="stamp">k. k. Primararzt</hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="stamp">
-                     <placeName key="pmb341">I., Schellinggasse Nr. 6</placeName>
-                  </hi>
-               </addrLine>
-            </address>
-            <address>
-               <addrLine>
-                  <pb facs=""/>Herrn Hermann Bahr </addrLine>
-               <addrLine>
-                  
-                     <placeName key="pmb50">Wien</placeName>
-                  
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb220">XIII./7 Veitlissengasse 7.</placeName>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <p>
-                  <seg rend="left">
-                     <pb facs=""/>
-                     <hi rend="pre-print">Primararzt Dr. Julius
-                        Schnitzler</hi>
-                  </seg>
-                  <seg rend="right">
-                     <date>12. XI 1903</date>.</seg>
-               </p>
-               <p>
-                  <placeName key="pmb341">I., Schellinggasse 6.</placeName>
-               </p>
-               <salute rend="center">Sehr verehrter Herr Bahr!</salute>
-            </opener>
-            <p>Mein Bruder übermittelt mir Ihre Anfrage, die ich folgenderma<damage agent="hole">
-                  <supplied>ßen</supplied>
-               </damage> beantworten zu können glaube. Der Titel Primararzt ist fast nur in
-                  <placeName key="pmb41240">
-                  <country>Oesterreich</country>
-               </placeName> üblich. In <placeName key="pmb151">Deutschland</placeName> he<damage agent="hole">
-                  <supplied>ißen</supplied>
-               </damage> die Abtheilungsvorstände dirigirende Aerzte <damage agent="hole">
-                  <supplied>resp</supplied>
-               </damage>. Directoren. Sie werden entweder mit »Herr D<hi rend="superscript">r</hi>«
+      <body><div type="address"><address><addrLine><hi rend="stamp">Dr. Julius Schnitzler</hi></addrLine><addrLine><hi rend="stamp">k.&#160;k. Primararzt</hi></addrLine><addrLine><hi rend="stamp"><rs ref="#pmb341" type="place">I., Schellinggasse Nr.&#160;6</rs></hi></addrLine></address><address><addrLine><pb facs=""/>Herrn Hermann Bahr </addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb220" type="place">XIII./7 Veitlissengasse 7.</rs></addrLine></address></div><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print">Primararzt Dr. Julius
+                        Schnitzler</hi></seg><seg rend="right"><date>12.&#160;XI 1903</date>.</seg></p><p><rs ref="#pmb341" type="place">I., Schellinggasse 6.</rs></p><salute rend="center">Sehr verehrter Herr Bahr!</salute></opener><p>Mein Bruder übermittelt mir Ihre Anfrage, die ich folgenderma<damage agent="hole"><supplied>ßen</supplied></damage> beantworten zu können glaube. Der Titel Primararzt ist fast nur in
+                  <rs ref="#pmb41240" type="place"><country>Oesterreich</country></rs> üblich. In <rs ref="#pmb151" type="place">Deutschland</rs> he<damage agent="hole"><supplied>ißen</supplied></damage> die Abtheilungsvorstände dirigirende Aerzte <damage agent="hole"><supplied>resp</supplied></damage>. Directoren. Sie werden entweder mit »Herr D<hi rend="superscript">r</hi>«
                oder mit dem fast jedem von ihnen verliehenen Titel »Medizinalrath«
-               »Geh. M. R.« ev. »Professor« angesprochen.</p>
-            <p>Ich hoffe, Sie sehr wohl und ohne alle Reminiscenzen an die Zeiten vor, während und
-               unmittelbar nach Ihrem Aufenthalt bei »<anchor type="commentary" xml:id="KL143-1"/>
-               <placeName key="pmb89">Löw</placeName>
-               <note type="commentary" xml:id="KL143-1h">Name des Sanatoriums, in dem er am
-                     <date>26. 1. 1903</date>
-                  <space unit="chars" quantity="1"/>
-                  <persName key="pmb10815">Bahr</persName> den Blinddarm entfernt hatte, <ptr target="D041204"/>–<ptr target="L041253"/>.</note>«.</p>
-            <closer>Mit den besten Grüßen Ihr ergebner<lb/>
-               <signed>JSchnitzler</signed>
-            </closer>
-         </div>
-      </body>
+               »Geh.&#160;M.&#160;R.« ev. »Professor« angesprochen.</p><p>Ich hoffe, Sie sehr wohl und ohne alle Reminiscenzen an die Zeiten vor, während und
+               unmittelbar nach Ihrem Aufenthalt bei »<anchor type="commentary" xml:id="KL143-1"/><rs ref="#pmb89" type="place">Löw</rs><note type="commentary" xml:id="KL143-1h">Name des Sanatoriums, in dem er am
+                     <date>26.&#160;1.&#160;1903</date><space unit="chars" quantity="1"/><rs ref="#pmb10815" type="person">Bahr</rs> den Blinddarm entfernt hatte, <ptr target="D041204"/>–<ptr target="L041253"/>.</note>«.</p><closer>Mit den besten Grüßen Ihr ergebner<lb/><signed>JSchnitzler</signed></closer></div></body>
    </text>
 </TEI>

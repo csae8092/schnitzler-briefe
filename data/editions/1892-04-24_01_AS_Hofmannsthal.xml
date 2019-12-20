@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-04-24_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-04-24_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 24. 4. 1892</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 24.&#160;4.&#160;1892</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -60,8 +64,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -80,19 +84,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1892-04-24" n="02">24. 4. 1892</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1892-04-24" n="02">24.&#160;4.&#160;1892</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
 
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1892-04-13_01">Schnitzler an Hofmannsthal, [13.? 4. 1892]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-04-25_01">Hofmannsthal an Schnitzler, 25. 4. 1892</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1892-04-13_01">Schnitzler an Hofmannsthal, [13.? 4.&#160;1892]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-04-25_01">Hofmannsthal an Schnitzler, 25.&#160;4.&#160;1892</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -108,24 +112,8 @@
         <graphic url="Hs-30885,20_002.TIF"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-               <pb facs="Hs-30885,20_001.TIF"/>
-                    <salute>Lieber Freund, </salute>
-               <date>Dinſtag</date> vor <time>5 Uhr</time> wird Herr <persName key="pmb12564">Roſner</persName>
-               <!-- nicht Latintype! --> in meiner Wohnung eine Novelle <anchor type="commentary" xml:id="KL2083-1"/>vorleſen<note type="commentary" xml:id="KL2083-1h">Die
+        <body><div type="writingSession" n="1"><p><pb facs="Hs-30885,20_001.TIF"/><salute>Lieber Freund, </salute><date>Dinſtag</date> vor <time>5 Uhr</time> wird Herr <rs ref="#pmb12564" type="person">Roſner</rs><!-- nicht Latintype! --> in meiner Wohnung eine Novelle <anchor type="commentary" xml:id="KL2083-1"/>vorleſen<note type="commentary" xml:id="KL2083-1h">Die
                         Lesung dürfte nicht stattgefunden haben.</note>; wenn Sie Zeit haben, ſo
-                    kommen Sie gütigſt auch.</p>
-                <closer>Herzlich<lb/>Ihr<lb/>
-                    <signed>ArthurSch</signed>
-                </closer>
-                <postscript>
-                    <dateline>
-                        <date>24. 4. 92</date>
-                    </dateline>
-                </postscript>
-            </div>
-        </body>
+                    kommen Sie gütigſt auch.</p><closer>Herzlich<lb/>Ihr<lb/><signed>ArthurSch</signed></closer><postscript><dateline><date>24.&#160;4.&#160;92</date></dateline></postscript></div></body>
     </text>
 </TEI>

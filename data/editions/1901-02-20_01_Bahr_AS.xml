@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1901-02-20_01_Bahr_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1901-02-20_01_Bahr_AS">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 20. 2. 1901</title>
-            <author key="pmb10815">Bahr, Hermann</author>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 20.&#160;2.&#160;1901</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,10 +53,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 5b</idno>
+                        <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., von Schnitzler mit Jahreszahl datiert:
+                        <p>eh. Brief, 1&#160;Bl., 2&#160;S., von Schnitzler mit Jahreszahl datiert:
                            »<quote>
                               <date>901.</date>
                            </quote>«</p>
@@ -63,8 +67,8 @@
             <listBibl>                
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -82,18 +86,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1901-02-20" n="01">20. 2. 1901</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1901-02-20" n="01">20.&#160;2.&#160;1901</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1901-02-11_01">Bahr an Schnitzler, 11. 2. [1901]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1901-03-13_01">Bahr an Schnitzler, [13. 3.? 1901]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1901-02-11_01">Bahr an Schnitzler, 11.&#160;2.&#160;[1901]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1901-03-13_01">Bahr an Schnitzler, [13.&#160;3.? 1901]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -109,55 +113,16 @@
       <graphic url="MS-B-00005-B-000-00121"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <p>
-                  <seg rend="left">
-                     <pb facs=""/>
-                     <hi rend="pre-print">
-                        <orgName key="pmb29414">Redaktion des Neuen Wiener Tagblatt</orgName>
-                     </hi>
-                  </seg>
-                  <seg rend="right">
-                     <date>20. Febr.</date>
-                  </seg>
-               </p>
-               <p>
-                  <hi rend="pre-print">
-                     <hi rend="antiqua">
-                        <placeName key="pmb683">Wien, I., Rothenturmstrasse, Steyrerhof</placeName>.</hi>
-                  </hi>
-               </p>
-               <p>
-                  <hi rend="pre-print">Telegramm-Adresse: <orgName key="pmb29414">Tagblatt</orgName>, <placeName key="pmb683">Steyrerhof, Wien</placeName>. – Telephon Nr. 384. Staats-Telephon Nr. 36.</hi>
-               </p>
-               <salute rend="center">Lieber Arthur!</salute>
-            </opener>
-            <p>Ich habe, in einer zu meinem <persName key="pmb11988">Kraus</persName>-Proceß
+      <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print"><rs ref="#pmb29414" type="organisation">Redaktion des Neuen Wiener Tagblatt</rs></hi></seg><seg rend="right"><date>20. Febr.</date></seg></p><p><hi rend="pre-print"><hi rend="antiqua"><rs ref="#pmb683" type="place">Wien, I., Rothenturmstrasse, Steyrerhof</rs>.</hi></hi></p><p><hi rend="pre-print">Telegramm-Adresse: <rs ref="#pmb29414" type="organisation">Tagblatt</rs>, <rs ref="#pmb683" type="place">Steyrerhof, Wien</rs>. – Telephon Nr.&#160;384. Staats-Telephon Nr.&#160;36.</hi></p><salute rend="center">Lieber Arthur!</salute></opener><p>Ich habe, in einer zu meinem <rs ref="#pmb11988" type="person">Kraus</rs>-Proceß
                gehörenden Angelegenheit, <hi rend="underline" n="1">dringendst</hi> mit Dir, so bald
-               als irgend möglich, <subst>
-                  <del rend="overwritten">
-                     <unclear>mi</unclear>
-                  </del>
-                  <add place="inline">zu</add>
-               </subst> sprechen und bitte Dich deshalb, mich morgen, so bald Du aufgestanden bist,
-               telephonisch (an <persName key="pmb2161">Bukovics</persName>, <anchor type="commentary" xml:id="KL235-1"/>
-               <placeName key="pmb165">Ober St. Veiter</placeName> Wohnung<note type="commentary" xml:id="KL235-1h">Eigentlich ein Haus. Auf einem ursprünglich zu
-            diesem Haus gehörenden Grundstück hatte <persName key="pmb10815">Bahr</persName> das
+               als irgend möglich, <subst><del rend="overwritten"><unclear>mi</unclear></del><add place="inline">zu</add></subst> sprechen und bitte Dich deshalb, mich morgen, so bald Du aufgestanden bist,
+               telephonisch (an <rs ref="#pmb2161" type="person">Bukovics</rs>, <anchor type="commentary" xml:id="KL235-1"/><rs ref="#pmb165" type="place">Ober St. Veiter</rs> Wohnung<note type="commentary" xml:id="KL235-1h">Eigentlich ein Haus. Auf einem ursprünglich zu
+            diesem Haus gehörenden Grundstück hatte <rs ref="#pmb10815" type="person">Bahr</rs> das
             seine errichtet.</note>) wissen zu lassen, wann und wo ich Dich
-               treffen kann. Ich bin auf Dein Aviso parat, sofort <anchor type="commentary" xml:id="KL235-2"/>nach <placeName key="pmb50">Wien</placeName> zu fahren<note type="commentary" xml:id="KL235-2h">
-                  <placeName key="pmb165">Ober Sankt Veit</placeName>
-            war bis zur Eingliederung in <placeName key="pmb50">Wien</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date>1892</date> eine eigenständige Gemeinde, was sich in dieser Aussage
+               treffen kann. Ich bin auf Dein Aviso parat, sofort <anchor type="commentary" xml:id="KL235-2"/>nach <rs ref="#pmb50" type="place">Wien</rs> zu fahren<note type="commentary" xml:id="KL235-2h"><rs ref="#pmb165" type="place">Ober Sankt Veit</rs>
+            war bis zur Eingliederung in <rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date>1892</date> eine eigenständige Gemeinde, was sich in dieser Aussage
             offensichtlich tradiert.</note> u. eine Stunde später überall zu sein, wo es Dir paßt. Nur
                bitte, bestimmt vor vier <pb facs="MS-B-00005-B-000-00121"/>Uhr und, wenn es irgendwie früher angeht, je früher,
-               desto besser.</p>
-            <closer>Verzeih die Störung<lb/>Deinem<lb/>herzlich grüßenden<lb/>
-               <signed>HermannBahr</signed>
-            </closer>
-         </div>
-      </body>
+               desto besser.</p><closer>Verzeih die Störung<lb/>Deinem<lb/>herzlich grüßenden<lb/><signed>HermannBahr</signed></closer></div></body>
   </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-01-18_02_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-01-18_02_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 18. 1. 1894</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 18.&#160;1.&#160;1894</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Postkarte (Rohrpost), Bleistift. Von Schnitzler mit Bleistift
@@ -56,15 +60,15 @@
                                         <date when="1894-01-18">18/1 94</date>
                                     </quote>« und nummeriert: »<quote>61</quote>«.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb53">Wien 3/1</placeName>
+                                    <rs ref="#pmb53" type="place">Wien 3/1</rs>
                                     <date when="1894-01-18">18 I 94</date>
                                     <time>6-N</time>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb59">Wien <unclear>9</unclear>
-                                    </placeName>
+                                    <rs ref="#pmb59" type="place">Wien <unclear>9</unclear>
+                                    </rs>
                                     <date when="1894-01-18">18 I 94</date>
-                                    <time>6 30 N</time>
+                                    <time>6&#160;30 N</time>
                                 </stamp>
                             </physDesc>
                         </msDesc>
@@ -73,8 +77,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -93,19 +97,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1894-01-18" n="02">18. 1. 1894</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1894-01-18" n="02">18.&#160;1.&#160;1894</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1894-01-18">18. 1. 1894</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1894-01-18">18.&#160;1.&#160;1894</date>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-01-18_01">Schnitzler an Hofmannsthal, [18. 1. 1894]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-02-17_01">Hofmannsthal an Schnitzler, [17. 2. 1894]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-01-18_01">Schnitzler an Hofmannsthal, [18.&#160;1.&#160;1894]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-02-17_01">Hofmannsthal an Schnitzler, [17.&#160;2.&#160;1894]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -121,40 +125,9 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00126"/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00126"/>
-                        <hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
-                            Schnitzler</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="pmb397">IX. Frankgasse 1</placeName>
-                        </hi>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb50">Wien</placeName>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute rend="inline">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00125"/>lieber Arthur.</salute>
-                </opener>
-                <p>Schönen Dank für Mühe und Freundlichkeit. Bitte natürlich um Sitz neben Ihnen bei
-                    Kammermuſikabenden. Wir ſehen uns alſo <date>Sonntag</date> bei <persName key="pmb10863">Richard</persName> oder im Theater, bleiben dann wohl
-                    beiſammen.</p>
-                <closer>Herzlich<lb/>
-                    <signed>Hugo</signed>
-                </closer>
-                <postscript>
-                    <dateline>
-                        <date>Donnerstag</date>.</dateline>
-                </postscript>
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00126"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
+                            Schnitzler</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb397" type="place">IX. Frankgasse 1</rs></hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine></address></div><div type="writingSession" n="1"><opener><salute rend="inline"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00125"/>lieber Arthur.</salute></opener><p>Schönen Dank für Mühe und Freundlichkeit. Bitte natürlich um Sitz neben Ihnen bei
+                    Kammermuſikabenden. Wir ſehen uns alſo <date>Sonntag</date> bei <rs ref="#pmb10863" type="person">Richard</rs> oder im Theater, bleiben dann wohl
+                    beiſammen.</p><closer>Herzlich<lb/><signed>Hugo</signed></closer><postscript><dateline><date>Donnerstag</date>.</dateline></postscript></div></body>
     </text>
 </TEI>

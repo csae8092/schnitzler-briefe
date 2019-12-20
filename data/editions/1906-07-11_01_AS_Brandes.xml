@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1906-07-11_01_AS_Brandes">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1906-07-11_01_AS_Brandes">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Georg Brandes, 11. 7. 1906</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Georg Brandes, 11.&#160;7.&#160;1906</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -60,8 +64,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>  
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -80,18 +84,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
         <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb959">Marienlyst</placeName>
-               <date when="1906-07-11" n="01">11. 7. 1906</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb959">Marienlyst</placeName>
+               <date when="1906-07-11" n="01">11.&#160;7.&#160;1906</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10992">Brandes, Georg</persName>
-               <placeName key="pmb36300">Kopenhagen</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10992">Brandes, Georg</persName>
+               <placeName ref="#pmb36300">Kopenhagen</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1906-03-13_01">Schnitzler an Brandes, 13. 3. 1906</ptr>
-               <ptr type="next" subtype="toAuthor" target="1906-07-11_02">Brandes an Schnitzler, 11. 7. 1906</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1906-03-13_01">Schnitzler an Brandes, 13.&#160;3.&#160;1906</ptr>
+               <ptr type="next" subtype="toAuthor" target="1906-07-11_02">Brandes an Schnitzler, 11.&#160;7.&#160;1906</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -102,32 +106,11 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="XXXXGedruckterBW93"/>
-                  <date>11. 7. 906</date>. <placeName key="pmb959">Marienlyst</placeName>
-               </dateline>
-                    <salute>Verehrtester Herr Brandes,</salute>
-                </opener>
-                    <p>heute erhalte ich eine Karte von <persName key="pmb10986">Brahm</persName>, der mich bittet Sie herzlich zu
-                        grüßen und mir von Ihrem <anchor type="commentary" xml:id="KL825-1"/>
-               <rs type="work" key="pmb33396">
-                  <persName key="pmb11798">Ibsen</persName>büchlein</rs>
-               <note type="commentary" xml:id="KL825-1h">
-                  <bibl>
-                     <workName key="pmb33396">Henrik Ibsen</workName> von <persName key="pmb10992">Georg Brandes</persName>. Mit zwölf Briefen <persName key="pmb11798">Henrik Ibsens</persName>. Siebzehn
-                        Vollbilder und vier Faksimiles. Berlin: <orgName>Bard Marquardt</orgName>
-                     <space unit="chars" quantity="1"/>
-                     <date>
-                        <supplied>1906</supplied>
-                     </date> (Die Literatur, hg. <persName key="pmb10992">Georg Brandes</persName>, Bd. 32–33)</bibl>.</note> erzählt. Lassen Sie mich doch, wenn’s
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="XXXXGedruckterBW93"/><date>11.&#160;7.&#160;906</date>. <rs ref="#pmb959" type="place">Marienlyst</rs></dateline><salute>Verehrtester Herr Brandes,</salute></opener><p>heute erhalte ich eine Karte von <rs ref="#pmb10986" type="person">Brahm</rs>, der mich bittet Sie herzlich zu
+                        grüßen und mir von Ihrem <anchor type="commentary" xml:id="KL825-1"/><rs type="work" ref="#pmb33396" subtype="implied"><rs ref="#pmb11798" type="person">Ibsen</rs>büchlein</rs><note type="commentary" xml:id="KL825-1h"><bibl><rs ref="#pmb33396" type="work">Henrik Ibsen</rs> von <rs ref="#pmb10992" type="person">Georg Brandes</rs>. Mit zwölf Briefen <rs ref="#pmb11798" type="person">Henrik Ibsens</rs>. Siebzehn
+                        Vollbilder und vier Faksimiles. Berlin: <rs type="organisation">Bard Marquardt</rs><space unit="chars" quantity="1"/><date><supplied>1906</supplied></date> (Die Literatur, hg. <rs ref="#pmb10992" type="person">Georg Brandes</rs>, Bd.&#160;32–33)</bibl>.</note> erzählt. Lassen Sie mich doch, wenn’s
                         leicht geht, durch eine Zeile wissen, wie's Ihnen geht. Mir gefällt es hier
                         ausnehmend gut. Auf Wiedersehen und herzlichen Gruß. Ihr <signed>Arthur
-                        Schnitzler</signed>
-            </p>
-            </div>
-        </body>
+                        Schnitzler</signed></p></div></body>
     </text>
 </TEI>

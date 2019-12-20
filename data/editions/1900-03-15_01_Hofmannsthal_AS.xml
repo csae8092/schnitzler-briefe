@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1900-03-15_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1900-03-15_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 15. 3. 1900</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 15.&#160;3.&#160;1900</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,20 +85,20 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb182">Paris</placeName>
-               <date when="1900-03-15" n="01">15. 3. 1900</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb182">Paris</placeName>
+               <date when="1900-03-15" n="01">15.&#160;3.&#160;1900</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1900-03-18">18. 3. 1900</date>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1900-03-18">18.&#160;3.&#160;1900</date>
                <!-- Siehe Antwortbrief -->
             </correspAction>
             <correspContext>
                <ptr type="previous" subtype="toAuthor" target="1899_01">Schnitzler an Hofmannsthal, [1899?]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1900-03-23_01">Schnitzler an Hofmannsthal, 23. 3. 1900</ptr>
+               <ptr type="next" subtype="toAuthor" target="1900-03-23_01">Schnitzler an Hofmannsthal, 23.&#160;3.&#160;1900</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -103,65 +107,43 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p>
-               <placeName key="pmb34022">Paris 192B<hi rend="superscript">d</hi>
-   Haussmann</placeName>
-               <space unit="chars" quantity="1"/>
-               <date>15. März 1900</date>
-            </p>
-            <opener>
-               <salute>mein lieber Arthur</salute>
-            </opener>
-            <p>es geht einem hier merkwürdig: ohne einzelnen Menschen übermäßig nahe zu treten, ist
+      <body><div type="writingSession" n="1"><p><rs ref="#pmb34022" type="place">Paris 192B<hi rend="superscript">d</hi>
+   Haussmann</rs><space unit="chars" quantity="1"/><date>15.&#160;März 1900</date></p><opener><salute>mein lieber Arthur</salute></opener><p>es geht einem hier merkwürdig: ohne einzelnen Menschen übermäßig nahe zu treten, ist
                man doch von einem solchen Gewirr von Menschen und Bestrebungen umgeben, daß einem
-               zuhause und <placeName key="pmb151">Deutschland</placeName> ungeheuer weit weg
+               zuhause und <rs ref="#pmb151" type="place">Deutschland</rs> ungeheuer weit weg
                vorkommt. Für mich hat eine solche Suggestion etwas sehr gute s: schon lang hab ich
                mich nicht so frei gefühlt, mich nichtso zusammenfassen können. Es fällt mir manchmal
                mehr ein als ich aufschreiben kann: kleinere und größere Stücke, Erzählungen und
                anderes Phantastisches. Ich hoffe, daß ich wohl halbwegs Abgeschlossenes fertig
-               bringe. Die <rs type="place" key="pmb182">Stadt</rs> und das <placeName key="pmb611">bois</placeName> sind noch nicht sehr hübsch; man freut sich hier doppelt auf das
-               Frühjahr, das Licht und die Blätter. </p>
-            <p>
-               <persName key="pmb4279">Anatole France</persName> zu sehen, ist recht interessant; es
+               bringe. Die <rs type="place" ref="#pmb182" subtype="implied">Stadt</rs> und das <rs ref="#pmb611" type="place">bois</rs> sind noch nicht sehr hübsch; man freut sich hier doppelt auf das
+               Frühjahr, das Licht und die Blätter. </p><p><rs ref="#pmb4279" type="person">Anatole France</rs> zu sehen, ist recht interessant; es
                kommen viel junge Leute zu ihm, das Gespräch ist fast ausschließlich politisch, die
-               Färbung socialistisch. </p>
-            <p>(Die »Gesellschaft« ist fast vollständig nationalistisch, zum Teil in einer
-               widerwärtigen bornierten Weise ).</p>
-            <p>Eine große Freude ist es, <persName key="pmb9554">Rodin</persName> in seinem Atelier
+               Färbung socialistisch. </p><p>(Die »Gesellschaft« ist fast vollständig nationalistisch, zum Teil in einer
+               widerwärtigen bornierten Weise ).</p><p>Eine große Freude ist es, <rs ref="#pmb9554" type="person">Rodin</rs> in seinem Atelier
                zu besuchen. Da ist man in einer ganz andern, sehr großen Welt. Er selbst ist von
-               einer merkwürdigen Güte und Freundlichkeit. Ich werde nächstens auch nach <placeName key="pmb9556">Meudon</placeName> zu ihm hinausfahren. </p>
-            <p>Wie heißt der kleine <rs type="place" key="pmb123">Ort</rs> am Wasser, wo Sie einen
-               so schönen und traurigen <anchor type="commentary" xml:id="KL2871-1"/>Abend<note type="commentary" xml:id="KL2871-1h">Am <date>21. 5. 1897</date>
-                  gemeinsam mit <persName key="pmb2378">Maria Reinhard</persName>.</note> verbracht
+               einer merkwürdigen Güte und Freundlichkeit. Ich werde nächstens auch nach <rs ref="#pmb9556" type="place">Meudon</rs> zu ihm hinausfahren. </p><p>Wie heißt der kleine <rs type="place" ref="#pmb123" subtype="implied">Ort</rs> am Wasser, wo Sie einen
+               so schönen und traurigen <anchor type="commentary" xml:id="KL2871-1"/>Abend<note type="commentary" xml:id="KL2871-1h">Am <date>21.&#160;5.&#160;1897</date>
+                  gemeinsam mit <rs ref="#pmb2378" type="person">Maria Reinhard</rs>.</note> verbracht
                haben? Ich denke sehr oft daran. Ich beschäftige mich mit Ihnen in Gedanken in einer
                sehr lebhaften sonderbaren Weise. Mir ist unter andern ein ganz in commensurables
-               kleines groteskes <rs type="work" key="pmb40611">Stück</rs> eingefallen, in welchem
-               Sie und <persName key="pmb28145">Paracelsus</persName> (der wirkliche, von dem ich
+               kleines groteskes <rs type="work" ref="#pmb40611" subtype="implied">Stück</rs> eingefallen, in welchem
+               Sie und <rs ref="#pmb28145" type="person">Paracelsus</rs> (der wirkliche, von dem ich
                ganz außerordentliche Bücher hier, übersetzt, auszugsweise, mit habe) die
                Hauptfiguren sind. Es ist ein Stoff der mich merkwürdig aufregt. Wenn ich es fertig
-               bringe, müßten wir es beim <persName key="pmb10863">Richard</persName> spielen. Ich
+               bringe, müßten wir es beim <rs ref="#pmb10863" type="person">Richard</rs> spielen. Ich
                spüre dabei sehr stark, daß mir an dem Verkehr mit Ihnen garnichts unfruchtbar ist;
                auch nicht die kleinste Sache, mit der sich nicht in der Erinnerung etwas anfangen
-               ließe. </p>
-            <p>Was tuen Sie? von diesen Tagen jetzt gerade kann ich es mir ja denken, beinahe
-               fühlen, aber nachher? woran arbeiten Sie, lieber Arthur? Ist <persName key="pmb10863">Richard</persName> in <placeName key="pmb50">Wien</placeName>? Ich erwartete auf
+               ließe. </p><p>Was tuen Sie? von diesen Tagen jetzt gerade kann ich es mir ja denken, beinahe
+               fühlen, aber nachher? woran arbeiten Sie, lieber Arthur? Ist <rs ref="#pmb10863" type="person">Richard</rs> in <rs ref="#pmb50" type="place">Wien</rs>? Ich erwartete auf
                mehrere Karten lange eine Antwort, erhielt endlich eine sehr flüchtige, dürftige aus
-                  <placeName key="pmb263">Florenz</placeName>. </p>
-            <p>Mein <rs type="person" key="pmb11737">Papa</rs> wird Ihnen in den nächsten Tagen ein
-               typiertes Exemplar des kleinen <rs type="work" key="pmb40595">Vorspiels</rs>
-               schicken, das ich für eine <placeName key="pmb168">Berlin</placeName>er <workName key="pmb31593">Antigone</workName>vorstellung (<date>26<hi rend="superscript">ten</hi> März</date>) geschrieben habe. Bitte schicken Sie es mit meinen
-               herzlichen Grüßen an <persName key="pmb11485">Goldmann</persName>. Es wäre mir
+                  <rs ref="#pmb263" type="place">Florenz</rs>. </p><p>Mein <rs type="person" ref="#pmb11737" subtype="implied">Papa</rs> wird Ihnen in den nächsten Tagen ein
+               typiertes Exemplar des kleinen <rs type="work" ref="#pmb40595" subtype="implied">Vorspiels</rs>
+               schicken, das ich für eine <rs ref="#pmb168" type="place">Berlin</rs>er <rs ref="#pmb31593" type="work">Antigone</rs>vorstellung (<date>26<hi rend="superscript">ten</hi> März</date>) geschrieben habe. Bitte schicken Sie es mit meinen
+               herzlichen Grüßen an <rs ref="#pmb11485" type="person">Goldmann</rs>. Es wäre mir
                natürlich angenehm wenn er etwa in die Vorstellung gehen und darüber schreiben würde,
-               aber natürlich absolut nur, wenn er Lust hat. </p>
-            <p>Ich hoffe bald einen Brief von Ihnen, sehe <persName key="pmb12156">Maeterlinck</persName> sehr viel, einen überaus erfreulichen Menschen, auch
+               aber natürlich absolut nur, wenn er Lust hat. </p><p>Ich hoffe bald einen Brief von Ihnen, sehe <rs ref="#pmb12156" type="person">Maeterlinck</rs> sehr viel, einen überaus erfreulichen Menschen, auch
                andere Leute, Frauen, Cocotten, Schauspielerinnen, sehr viele schlechte Menschen,
                arbeite sehr viel, finde endlich, daß der Tag 24 Stunden hat und bin nie
-               schläfrig. </p>
-            <closer>Von Herzen<lb/>Ihr<signed>Hugo.</signed>
-            </closer>
-         </div>
-      </body>
+               schläfrig. </p><closer>Von Herzen<lb/>Ihr<signed>Hugo.</signed></closer></div></body>
    </text>
 </TEI>

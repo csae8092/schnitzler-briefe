@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-04-05_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+    xml:id="L1899-04-05_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [5. 4. 1899]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [5.&#160;4.&#160;1899]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +51,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., Bleistift. Von Schnitzler mit Bleistift
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., Bleistift. Von Schnitzler mit Bleistift
                                     datiert: »<quote>
                                         <date>5/4 99</date>
                                     </quote>«. Von unbekannter Hand mit Bleistift nummeriert: »<quote>
@@ -64,8 +67,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -85,17 +88,17 @@
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1899-04-05" n="01">[5. 4. 1899]</date>
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1899-04-05" n="01">[5.&#160;4.&#160;1899]</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
                 <correspContext>
                     <ptr type="previous" subtype="toAuthor" target="1899-03-26_01">Hofmannsthal an Schnitzler, 26. 3. 1899</ptr>
-                    <ptr type="next" subtype="toAuthor" target="1899-05-30_01">Hofmannsthal an Schnitzler, 30. 5. 1899</ptr>
+                    <ptr type="next" subtype="toAuthor" target="1899-05-30_01">Hofmannsthal an Schnitzler, 30.&#160;5.&#160;1899</ptr>
                 </correspContext>
             </correspDesc>
         </profileDesc>
@@ -110,24 +113,9 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00315"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00315"/>lieber</salute>
-                </opener>
-                <p>wenn es eine Stunde gibt, wo man Sie untertags trifft und nicht ſtört, ſo
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00315"/>lieber</salute></opener><p>wenn es eine Stunde gibt, wo man Sie untertags trifft und nicht ſtört, ſo
                     ſchreiben Sie mir ſie. Ich reiſe kaum vor <date>Montag</date> wegen der armen
-                        <anchor type="commentary" xml:id="KL2392-1"/>
-                    <persName key="pmb24233 pmb2292 pmb24230">Familie S.</persName>
-                    <note type="commentary" xml:id="KL2392-1h">
-                        <persName key="pmb2430">Emil Schlesinger</persName> wird am
-                            <date>31. 5. 1899</date> sterben.</note>
-                </p>
-                <closer>Von Herzen Ihr<lb/>
-                    <signed>Hugo.</signed>
-                </closer>
-            </div>
-        </body>
+                        <anchor type="commentary" xml:id="KL2392-1"/><rs ref="#pmb24233 pmb2292 pmb24230" type="person">Familie S.</rs><note type="commentary" xml:id="KL2392-1h"><rs ref="#pmb2430" type="person">Emil Schlesinger</rs> wird am
+                            <date>31.&#160;5.&#160;1899</date> sterben.</note></p><closer>Von Herzen Ihr<lb/><signed>Hugo.</signed></closer></div></body>
     </text>
 </TEI>

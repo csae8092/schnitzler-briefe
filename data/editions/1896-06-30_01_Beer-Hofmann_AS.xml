@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-06-30_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-06-30_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 30. 6. 1896</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 30.&#160;6.&#160;1896</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,17 +52,17 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Postkarte, Bleistift; Lateinschrift. Von Schnitzler mit Bleistift
                            nummeriert: »<quote>75</quote>«.</p>
                         <stamp n="1">
-                           <placeName key="pmb33">St. Gilgen</placeName>
+                           <rs ref="#pmb33" type="place">St. Gilgen</rs>
                            <date>30 <supplied>6</supplied> 96</date>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb59">Wien 9/3</placeName>
+                           <rs ref="#pmb59" type="place">Wien 9/3</rs>
                            <date>1. 7. 96</date>
                            <time>9.V</time>
                            <action>Bestellt</action>
@@ -70,8 +74,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -90,18 +94,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb40276">Fürberg</placeName>
-               <date when="1896-06-30" n="01">30. 6. 1896</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb40276">Fürberg</placeName>
+               <date when="1896-06-30" n="01">30.&#160;6.&#160;1896</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1896-07-01">1. 7. 1896</date>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1896-07-01">1.&#160;7.&#160;1896</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-06-27_01">Schnitzler an Beer-Hofmann, 27. 6. 1896</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-06-27_01">Schnitzler an Beer-Hofmann, 27.&#160;6.&#160;1896</ptr>
                <ptr type="next" subtype="toAuthor" target="1896-07-02_01">Schnitzler an Beer-Hofmann, 2. 7. 1896</ptr>
             </correspContext>
          </correspDesc>
@@ -117,39 +121,9 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00164"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00164"/>Herrn</addrLine>
-               <addrLine>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
-               <addrLine>
-                  <placeName key="pmb50">Wien</placeName>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb397">IX Frankgasse 1</placeName>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date when="1896-06-30">30/VI 96</date>
-               </dateline>
-            </opener>
-            <p>
-               <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00163"/>
-               <salute>Lieber! </salute>Karte erhalten. Bleibe voraussichtlich bis zumindest
-                  <date>10 Juli</date> hier, dann <placeName key="pmb36300">Kopenhagen</placeName>.
+      <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00164"/>Herrn</addrLine><addrLine>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb397" type="place">IX Frankgasse 1</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><date when="1896-06-30">30/VI 96</date></dateline></opener><p><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00163"/><salute>Lieber! </salute>Karte erhalten. Bleibe voraussichtlich bis zumindest
+                  <date>10 Juli</date> hier, dann <rs ref="#pmb36300" type="place">Kopenhagen</rs>.
                   Sti<c rendition="#gemination-m"/>ung, nicht zum Schreiben auf Correspondenzkarten
-               geeignet. Herzlichst Ihr</p>
-            <closer>
-               <signed>Richard</signed>
-            </closer>
-            <p>
-               <placeName key="pmb40276">Fürberg am Wolfgangsee</placeName>
-            </p>
-         </div>
-      </body>
+               geeignet. Herzlichst Ihr</p><closer><signed>Richard</signed></closer><p><rs ref="#pmb40276" type="place">Fürberg am Wolfgangsee</rs></p></div></body>
    </text>
 </TEI>

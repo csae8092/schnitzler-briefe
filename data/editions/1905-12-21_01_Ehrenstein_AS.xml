@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1905-12-21_01_Ehrenstein_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1905-12-21_01_Ehrenstein_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Albert Ehrenstein an Arthur Schnitzler, 21. 12. 1905</title>
-                <author key="pmb11230">Ehrenstein, Albert</author>
+                <title level="a">Albert Ehrenstein an Arthur Schnitzler, 21.&#160;12.&#160;1905</title>
+                <author ref="#pmb11230">Ehrenstein, Albert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -49,10 +53,10 @@
                                 <country>GB</country>            
                                 <settlement>Cambridge</settlement>            
                                 <repository>University Library</repository>            
-                                <idno>Schnitzler, B 30</idno>
+                                <idno>Schnitzler, B&#160;30</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S.</p>
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -60,7 +64,7 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb11230">Ehrenstein, Albert</author>
+                            <author ref="#pmb11230">Ehrenstein, Albert</author>
                             <title level="m">Briefe</title>
                             <editor>Hg. Hanni Mittelmann</editor>
                             <imprint>
@@ -83,16 +87,16 @@
             <language ident="de-AT">German</language>
          </langUsage>
         <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11230">Ehrenstein, Albert</persName>
-               <date when="1905-12-21" n="01">21. 12. 1905</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11230">Ehrenstein, Albert</persName>
+               <date when="1905-12-21" n="01">21.&#160;12.&#160;1905</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1905-12-03_01">Ehrenstein an Schnitzler, 3. 12. 1905</ptr>
-               <ptr type="next" subtype="toAuthor" target="1906-01-15_01">Treibl an Schnitzler, 15 1. 1906</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1905-12-03_01">Ehrenstein an Schnitzler, 3.&#160;12.&#160;1905</ptr>
+               <ptr type="next" subtype="toAuthor" target="1906-01-15_01">Treibl an Schnitzler, 15&#160;1.&#160;1906</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -103,33 +107,12 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="gray00071.pdf"/>
-                  <date>21. XII. 1905</date>
-               </dateline>
-                    <salute>
-                  <hi rend="latintype">Sehr geehrter Herr Doktor!</hi>
-               </salute>
-            </opener>
-                <p>Allzugroße Nachſicht ſcheint ſich zu rächen in Geſtalt von noch ſieben <anchor type="commentary" xml:id="KL841-2"/>Trauerſchwänkchen<note type="commentary" xml:id="KL841-2h">
-                  <workName key="pmb33448">Amok</workName> wird von <persName key="pmb2121">Schnitzler</persName> als »<quote>Trauerschwank</quote>« bezeichnet (<bibl>
-                     <workName key="pmb33243">Tb</workName>
-                     <space unit="chars" quantity="1"/>
-                     <date>6. 12. 1905</date>
-                  </bibl>). Die anderen nicht identifiziert.</note>, die ein armer
-                    Bakkalaureus, ſtark <anchor type="commentary" xml:id="KL841-1"/>gedäftet<note type="commentary" xml:id="KL841-1h">kleinlaut geworden. <persName key="pmb2121">Schnitzler</persName> hatte
-                        <persName key="pmb11230">Ehrenstein</persName> am <date>12.</date> und am <date>20. 12. 1905</date>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="gray00071.pdf"/><date>21.&#160;XII.&#160;1905</date></dateline><salute><hi rend="latintype">Sehr geehrter Herr Doktor!</hi></salute></opener><p>Allzugroße Nachſicht ſcheint ſich zu rächen in Geſtalt von noch ſieben <anchor type="commentary" xml:id="KL841-2"/>Trauerſchwänkchen<note type="commentary" xml:id="KL841-2h"><rs ref="#pmb33448" type="work">Amok</rs> wird von <rs ref="#pmb2121" type="person">Schnitzler</rs> als »<quote>Trauerschwank</quote>« bezeichnet (<bibl><rs ref="#pmb33243" type="work">Tb</rs><space unit="chars" quantity="1"/><date>6.&#160;12.&#160;1905</date></bibl>). Die anderen nicht identifiziert.</note>, die ein armer
+                    Bakkalaureus, ſtark <anchor type="commentary" xml:id="KL841-1"/>gedäftet<note type="commentary" xml:id="KL841-1h">kleinlaut geworden. <rs ref="#pmb2121" type="person">Schnitzler</rs> hatte
+                        <rs ref="#pmb11230" type="person">Ehrenstein</rs> am <date>12.</date> und am <date>20.&#160;12.&#160;1905</date>
                     mündlich sein Urteil mitgeteilt.</note> und 
                     dankbar auch dafür, Herrn Doktor vorzulegen wagt. In der Hoffnung
                     Herrn Doktors Geduld und Liebenswürdigkeit durch dieſen Skizzenkranz nicht gar zu arg mißbraucht zu haben,
-                    verbleibt</p>
-                <closer>Ergebenſt<lb/>
-                    <signed>Albert Ehrenstein.</signed>
-                </closer>
-            </div>
-        </body>
+                    verbleibt</p><closer>Ergebenſt<lb/><signed>Albert Ehrenstein.</signed></closer></div></body>
     </text>
 </TEI>

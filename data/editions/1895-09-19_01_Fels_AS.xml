@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L042XXX">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L042XXX">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Friedrich M. Fels an Arthur Schnitzler,
-                    19. 9. 1895</title>
-                <author key="pmb2450">Fels, Friedrich M.</author>
+                    19.&#160;9.&#160;1895</title>
+                <author ref="#pmb2450">Fels, Friedrich M.</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -16,8 +20,8 @@
                     <address>
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
-                        <placeName>
-                            <country>A</country> Wien </placeName>
+                        <rs type="place">
+                            <country>A</country> Wien </rs>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,7 +54,7 @@
                                 <idno>A:Schnitzler, HS.NZ85.1.2956</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S., schwarze Tinte, Lateinschrift. Von
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S., schwarze Tinte, Lateinschrift. Von
                                     Schnitzler nummeriert: »<quote>24</quote>«.</p>
                             </physDesc>
                         </msDesc>
@@ -63,19 +67,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2450">Fels, Friedrich M.</persName>
-                    <placeName key="pmb484">Zürich</placeName>
-                    <date when="1895-09-19" n="02">19. 9. 1895</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2450">Fels, Friedrich M.</persName>
+                    <placeName ref="#pmb484">Zürich</placeName>
+                    <date when="1895-09-19" n="02">19.&#160;9.&#160;1895</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-06-01_01">Fels an Schnitzler, [1. Hälfte Juni
+               <ptr type="previous" subtype="toAuthor" target="1895-06-01_01">Fels an Schnitzler, [1.&#160;Hälfte Juni
                         1895]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-09-28_01">Fels an Schnitzler, 28. 9. 1895</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-09-28_01">Fels an Schnitzler, 28.&#160;9.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -84,93 +88,51 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs=""/>
-                  <placeName key="pmb484">Zürich</placeName>, am
-                            <date>19. September 1895</date>
-               </dateline>
-                    <salute rend="center">Lieber Doktor Schnitzler!</salute>
-                </opener>
-                <p>Verzeihen Sie, daſs ich Ihnen auf Ihren <placeName key="pmb213">Ischl</placeName>er Brief erst heute antworte. Ich hätte Ihnen gern Gutes von
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><rs ref="#pmb484" type="place">Zürich</rs>, am
+                            <date>19.&#160;September 1895</date></dateline><salute rend="center">Lieber Doktor Schnitzler!</salute></opener><p>Verzeihen Sie, daſs ich Ihnen auf Ihren <rs ref="#pmb213" type="place">Ischl</rs>er Brief erst heute antworte. Ich hätte Ihnen gern Gutes von
                     mir berichtet, doch es ist mir unmöglich. Es will scheinen, als ob ich gar nie
                     zur Ruhe ko<c rendition="#gemination-m"/>en kö<c rendition="#gemination-n"/>e.
                     Die hiesigen Zeitungsverhältniſse sind traurig, sehr traurig, und es ist
                     unglaublich, wie viel Mühe es kostet, etwas unterzubringen. Fast so viel oder
-                    vielleicht mehr als in <subst>
-                        <del rend="strikethrough">
-                     <placeName key="pmb484">Zürich</placeName>
-                  </del>
-                        <add place="above">
-                     <placeName key="pmb50">Wien</placeName>
-                  </add>
-                    </subst>. Die <workName key="pmb42406">Neue Zürcher Zeitung</workName> hat ein <rs type="work" key="">Doppelfeuilleton</rs> von mir gedruckt und mir auf einen
-                    zweiten Artikel einen Vorschuſs von 50 francs gewährt; jetzt allerdings
+                    vielleicht mehr als in <subst><del rend="strikethrough"><rs ref="#pmb484" type="place">Zürich</rs></del><add place="above"><rs ref="#pmb50" type="place">Wien</rs></add></subst>. Die <rs ref="#pmb42406" type="work">Neue Zürcher Zeitung</rs> hat ein <rs type="work" subtype="implied" ref="">Doppelfeuilleton</rs> von mir gedruckt und mir auf einen
+                    zweiten Artikel einen Vorschuſs von 50&#160;francs gewährt; jetzt allerdings
                     hat sie eine größere Bestellung bei mir gemacht, eine Reihe von Aufsätzen, jeder
                     500–600 Druckzeilen, in denen ich die Entwickelung der modernen deutschen
                     Literatur darlegen soll. Das Honorar freilich ist schlecht genug: pro Druckzeile
                     8 cent 4 Kr. Andere Blätter zahlen bloß <gap quantity="1" reason="illegible" unit="chars"/> cent. So habe ich einen ganzen Monat
                     Theaterreferate geschrieben und am Ende 10 francs eingeheimst – hübsch,
-                    na?!</p>
-                <p>
-               <pb facs=""/>Gegenwärtig bin ich von einer neuen Kalamität heimgesucht worden.
-                    Ich bin nämlich zur Abwechslung von meiner <placeName key="pmb34006">Schweiz</placeName>er <rs type="person" key="pmb42387">Wirtin</rs> (– weil ich ihr
-                    die Miete 5 Tage, nachdem sie fällig war, noch nicht entrichten ko<c rendition="#gemination-n"/>te –) unter Zurückbehaltung meiner Sachen
+                    na?!</p><p><pb facs=""/>Gegenwärtig bin ich von einer neuen Kalamität heimgesucht worden.
+                    Ich bin nämlich zur Abwechslung von meiner <rs ref="#pmb34006" type="place">Schweiz</rs>er <rs type="person" ref="#pmb42387" subtype="implied">Wirtin</rs> (– weil ich ihr
+                    die Miete 5 Tage, nachdem sie fällig war, noch nicht entrichten ko<c rendition="#gemination-n"/>te&#160;–) unter Zurückbehaltung meiner Sachen
                     auf die Straſse gezeigt worden, und hause nun wieder so bei Beka<c rendition="#gemination-n"/>ten. Ich bin Ihnen, so dreckig mir’s auch ging,
                     in diesen letzten 3 Monaten gewiſs nicht mit Bitten zur Last gefallen; ich
                     habe gedacht, überhaupt nicht mehr in eine solche Lage ko<c rendition="#gemination-m"/>en zu kö<c rendition="#gemination-n"/>en. Nun ist
                     es doch eingetreten, und ich muſs wieder an Ihre Güte und Freundschaft
                     appellieren. Wären Sie imstande, zusa<c rendition="#gemination-m"/>en mit andern
-                    mir noch einmal 25 fl zu senden; seien Sie überzeugt, ich würde mich nicht
+                    mir noch einmal 25&#160;fl zu senden; seien Sie überzeugt, ich würde mich nicht
                     an Sie wenden, we<c rendition="#gemination-n"/> ich irgen einen Ausweg wüſste.
                     Die Beka<c rendition="#gemination-n"/>ten, die ich hier habe, sind alle entweder
                     selbst vollständig auf dem Hund, oder sie sind z.Zt. in Ferien. We<c rendition="#gemination-n"/> es in Ihrer Macht steht, meine Bitte zu
-                    erfüllen, wollen Sie freundlichst einen reko<c rendition="#gemination-m"/>andierten Brief senden an</p>
-                <p>
-               <hi rend="underline" n="1">Dr. Friedr. M. Fels</hi>
-            </p>
-                <p>
-               <hi rend="underline" n="1">per Adreſse Herrn <persName key="pmb6294">Hugo
-                            Bettauer</persName>
-               </hi>
-            </p>
-                <p>
-               <hi rend="underline" n="1">
-                  <placeName key="pmb42383">Zürich I,
-                            Rämistraſse 2</placeName>
-               </hi>
-            </p>
-                <p>Sie haben wohl <persName key="pmb12152">J. H. Mackay</persName> schon
-                    gesprochen. Er ist vor ein paar Tagen nach <placeName key="pmb50">Wien</placeName> abgereist, um dort eine Woche zu verweilen, und ich habe
-                    ihm viele, viele Grüſse an Sie aufgetragen. <persName key="pmb22759">Pollandt</persName> wird diesen Winter ans hiesige <placeName key="pmb777">Stadttheater</placeName> ko<c rendition="#gemination-m"/>en, dürfte wohl
-                    auch schon hier sein; doch hab ich ihn noch nicht gesehen. Am <placeName key="pmb42359">Volkstheater</placeName> sind auch <placeName key="pmb50">Wien</placeName>er: die <persName key="pmb42362">Je<c rendition="#gemination-n"/>y Neuhut</persName>, die Sie wohl noch aus
-                    dem <placeName key="pmb34">Griensteidl</placeName> ke<c rendition="#gemination-n"/>en (<persName key="pmb2167">Salten</persName>
-                        ke<c rendition="#gemination-n"/>t sie jedenfalls) und ein Frl. <persName key="pmb42356">Josephine Sorger</persName>, ein ganz allerliebster
-                    Käfer.</p>
-                <p>Haben Sie in <placeName key="pmb50">Wien</placeName> auch so abscheuliches Wetter
+                    erfüllen, wollen Sie freundlichst einen reko<c rendition="#gemination-m"/>andierten Brief senden an</p><p><hi rend="underline" n="1">Dr. Friedr. M. Fels</hi></p><p><hi rend="underline" n="1">per Adreſse Herrn <rs ref="#pmb6294" type="person">Hugo
+                            Bettauer</rs></hi></p><p><hi rend="underline" n="1"><rs ref="#pmb42383" type="place">Zürich I,
+                            Rämistraſse 2</rs></hi></p><p>Sie haben wohl <rs ref="#pmb12152" type="person">J.&#160;H. Mackay</rs> schon
+                    gesprochen. Er ist vor ein paar Tagen nach <rs ref="#pmb50" type="place">Wien</rs> abgereist, um dort eine Woche zu verweilen, und ich habe
+                    ihm viele, viele Grüſse an Sie aufgetragen. <rs ref="#pmb22759" type="person">Pollandt</rs> wird diesen Winter ans hiesige <rs ref="#pmb777" type="place">Stadttheater</rs> ko<c rendition="#gemination-m"/>en, dürfte wohl
+                    auch schon hier sein; doch hab ich ihn noch nicht gesehen. Am <rs ref="#pmb42359" type="place">Volkstheater</rs> sind auch <rs ref="#pmb50" type="place">Wien</rs>er: die <rs ref="#pmb42362" type="person">Je<c rendition="#gemination-n"/>y Neuhut</rs>, die Sie wohl noch aus
+                    dem <rs ref="#pmb34" type="place">Griensteidl</rs> ke<c rendition="#gemination-n"/>en (<rs ref="#pmb2167" type="person">Salten</rs>
+                        ke<c rendition="#gemination-n"/>t sie jedenfalls) und ein Frl. <rs ref="#pmb42356" type="person">Josephine Sorger</rs>, ein ganz allerliebster
+                    Käfer.</p><p>Haben Sie in <rs ref="#pmb50" type="place">Wien</rs> auch so abscheuliches Wetter
                     gehabt? Hier hatten wir 5 Wochen keinen Regen und im Schatten 37°, in der
                         So<c rendition="#gemination-n"/>e 47° Celsius. Es war zum aus der Haut
-                    fahren. Gottlob, es ists etwas kühler.</p>
-                <p>Was Sie vielleicht intereſsieren wird, ich werde jetzt anfangen, Stunden zu
+                    fahren. Gottlob, es ists etwas kühler.</p><p>Was Sie vielleicht intereſsieren wird, ich werde jetzt anfangen, Stunden zu
                     geben: Literaturgeschischte u. dgl. In ein paar Tagen werde ich meine erste
-                        Schüleri<c rendition="#gemination-n"/>en erhalten: 2 <rs type="person" key="pmb42390 pmb42393">Amerikaneri<c rendition="#gemination-n"/>en</rs>, denen ich Deutsch
-                    beibringen soll, damit sie den Vorlesungen beſser folgen kö<c rendition="#gemination-n"/>en.</p>
-                <p>
-               <pb facs=""/>Ihre <rs type="work" key="pmb31975">Novelle in Briefen</rs> in der
-                        <workName key="pmb36152">N. D. R.</workName> habe ich gelesen.
+                        Schüleri<c rendition="#gemination-n"/>en erhalten: 2 <rs type="person" ref="#pmb42390 pmb42393" subtype="implied">Amerikaneri<c rendition="#gemination-n"/>en</rs>, denen ich Deutsch
+                    beibringen soll, damit sie den Vorlesungen beſser folgen kö<c rendition="#gemination-n"/>en.</p><p><pb facs=""/>Ihre <rs type="work" ref="#pmb31975" subtype="implied">Novelle in Briefen</rs> in der
+                        <rs ref="#pmb36152" type="work">N.&#160;D.&#160;R.</rs> habe ich gelesen.
                     Sie ist sehr hübsch, aber – Sie verzeihen mir – meines Erachtens auch nicht
-                    mehr. Illustrationen kö<c rendition="#gemination-n"/>en ihr nicht schaden.</p>
-                <p>Als leben Sie wohl! verzeihen Sie meine Bitte und erfüllen Sie sie, falls Sie
+                    mehr. Illustrationen kö<c rendition="#gemination-n"/>en ihr nicht schaden.</p><p>Als leben Sie wohl! verzeihen Sie meine Bitte und erfüllen Sie sie, falls Sie
                         kö<c rendition="#gemination-n"/>en! und auf jedenfall laſsen Sie wieder
-                    einmal etwas von Sich hören! <persName key="pmb10863">Beer-Hofma<c rendition="#gemination-n"/>
-               </persName>, <persName key="pmb11740">Hofma<c rendition="#gemination-n"/>sthal</persName>, <persName key="pmb2167">Salten</persName> etc. bitte ich zu grüſsen; vor allen aber seien Sie
-                    gegrüſst </p>
-                <closer>von<lb/>Ihrem<lb/>
-               <signed>Fels</signed>
-            </closer>
-            </div>
-        </body>
+                    einmal etwas von Sich hören! <rs ref="#pmb10863" type="person">Beer-Hofma<c rendition="#gemination-n"/></rs>, <rs ref="#pmb11740" type="person">Hofma<c rendition="#gemination-n"/>sthal</rs>, <rs ref="#pmb2167" type="person">Salten</rs> etc. bitte ich zu grüſsen; vor allen aber seien Sie
+                    gegrüſst </p><closer>von<lb/>Ihrem<lb/><signed>Fels</signed></closer></div></body>
     </text>
 </TEI>

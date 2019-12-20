@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-05-29_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1895-05-29_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 29. 5. 1895</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 29.&#160;5.&#160;1895</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 3 S., Bleistift; Lateinschrift. Von Schnitzler mit
+                        <p>eh. Brief, 1&#160;Bl., 3&#160;S., Bleistift; Lateinschrift. Von Schnitzler mit
                            Bleistift nummeriert: »<quote>57</quote>«.</p>
                      </physDesc>
                   </msDesc>
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -80,17 +84,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key=""/>
-               <date when="1895-05-29" n="01">29. 5. 1895</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref=""/>
+               <date when="1895-05-29" n="01">29.&#160;5.&#160;1895</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-05-18_01">Beer-Hofmann an Schnitzler, [18. 5. 1895]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-06-07_01">Schnitzler an Beer-Hofmann, 7. 6. 1895</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-05-18_01">Beer-Hofmann an Schnitzler, [18.&#160;5.&#160;1895]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-06-07_01">Schnitzler an Beer-Hofmann, 7.&#160;6.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -104,26 +108,12 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00126"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00125"/>
-               <salute>Lieber Arthur! </salute>Dr. <persName key="pmb9089">G. N.</persName> hätte
+      <body><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00125"/><salute>Lieber Arthur! </salute>Dr. <rs ref="#pmb9089" type="person">G. N.</rs> hätte
                gestern zu mir kommen sollen; er war aber weder gestern noch heute bei mir. Haben Sie
-               die Güte ihm beiliegende 20 fl. zu übermitteln. Er gibt Ihnen wol auch Auskunft über
+               die Güte ihm beiliegende 20&#160;fl. zu übermitteln. Er gibt Ihnen wol auch Auskunft über
                den wirklichen Tatbestand, den er ja inzwischen erhoben <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00126"/>haben dürfte. Meine Adresse
-               ist:</p>
-            <p>
-               <hi rend="underline" n="1">n. a. Lieut. im k-k. Landw. Inf. Rgmt. <placeName key="pmb767">Caslau</placeName> No 12</hi>. Bitte schreiben Sie mir. Grüßen Sie
-               bitte <persName key="pmb2167">Salten</persName>, auch Dr. <persName key="pmb9089">G.
-                  N.</persName> Empfehlung und besten Dank.</p>
-            <p>
-               <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00126"/>Mir ist mies.</p>
-            <closer>Herzlichst Ihr<lb/>
-               <signed>Richard.</signed>
-            </closer>
-         </div>
-
-      </body>
+               ist:</p><p><hi rend="underline" n="1">n. a. Lieut. im k-k. Landw. Inf. Rgmt. <rs ref="#pmb767" type="place">Caslau</rs> No 12</hi>. Bitte schreiben Sie mir. Grüßen Sie
+               bitte <rs ref="#pmb2167" type="person">Salten</rs>, auch Dr. <rs ref="#pmb9089" type="person">G.
+                  N.</rs> Empfehlung und besten Dank.</p><p><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00126"/>Mir ist mies.</p><closer>Herzlichst Ihr<lb/><signed>Richard.</signed></closer></div></body>
    </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1903-05-18_01_AS_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1903-05-18_01_AS_Bahr">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 18. 5. 1903</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 18.&#160;5.&#160;1903</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -52,7 +56,7 @@
                         <idno>HS AM 23355 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S.</p>
+                        <p>eh. Brief, 1&#160;Bl., 2&#160;S.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,10 +64,10 @@
             <listBibl>
                <biblStruct corresp="DASB">
                   <analytic>
-                     <title level="a">18. 5. 1903</title>
+                     <title level="a">18.&#160;5.&#160;1903</title>
                   </analytic>
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G.
       Daviau</editor>
@@ -82,8 +86,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -101,17 +105,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">[Wien]</placeName>
-               <date when="1903-05-18" n="01">18. 5. 1903</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
+               <date when="1903-05-18" n="01">18.&#160;5.&#160;1903</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1903-04-06_01">Schnitzler an Bahr, 6. 4. 1903</ptr>
-               <ptr type="next" subtype="toAuthor" target="1903-05-21_01">Bahr an Schnitzler, 21. 5. 1903</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1903-04-06_01">Schnitzler an Bahr, 6.&#160;4.&#160;1903</ptr>
+               <ptr type="next" subtype="toAuthor" target="1903-05-21_01">Bahr an Schnitzler, 21.&#160;5.&#160;1903</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -126,22 +130,10 @@
       <graphic url="HS_AM23355Ba_R"/>
    </facsimile>
   <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>18. 5. 903</date>.</dateline>
-               <salute>lieber Hermann,</salute>
-            </opener>
-            <p>du hast jedenfalls auch den Aufruf der <orgName key="pmb29757">Pensionsanstalt deutscher Journalisten u Schriftsteller</orgName>
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>18.&#160;5.&#160;903</date>.</dateline><salute>lieber Hermann,</salute></opener><p>du hast jedenfalls auch den Aufruf der <rs ref="#pmb29757" type="organisation">Pensionsanstalt deutscher Journalisten u Schriftsteller</rs>
           erhalten sowie den Zeichnungsschein für jährlichen <hi rend="latintype">resp.</hi> für einmaligen Beitrag.
           Da wir nun beide unter <pb facs="HS_AM23355Ba_R"/>diesem Aufruf unterschrieben sind, möcht ich dich
                fragen, wieviel <hi rend="latintype">resp.</hi> ob du »einmalig« oder »jährlich« zeichnest. Ich habe keine
-               rechte Vorstellung, zu wie viel man da ungefähr verpflichtet ist.</p>
-            <closer>Entschuldg die Belästigung<lb/>Herzlichst dein<lb/>
-               <signed>Arthur Sch</signed>
-            </closer>
-         </div>
-      </body>
+               rechte Vorstellung, zu wie viel man da ungefähr verpflichtet ist.</p><closer>Entschuldg die Belästigung<lb/>Herzlichst dein<lb/><signed>Arthur Sch</signed></closer></div></body>
   </text>
 </TEI>

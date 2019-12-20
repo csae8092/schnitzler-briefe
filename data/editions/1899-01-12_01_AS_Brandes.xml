@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-01-12_01_AS_Brandes">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1899-01-12_01_AS_Brandes">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Georg Brandes, 12. 1. 1899</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Georg Brandes, 12.&#160;1.&#160;1899</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,13 +55,13 @@
                                 <idno>Georg Brandes Arkiv</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 3 Bl., 11 S., schwarze Tinte. Von unbekannter Hand mit
+                                <p>eh. Brief, 3&#160;Bl., 11&#160;S., schwarze Tinte. Von unbekannter Hand mit
                                     Bleistift beschriftet: »<quote>Schnitzler
-                                        <date>12. 1.99</date>.</quote>« und mit Bleistift nummeriert
+                                        <date>12.&#160;1.99</date>.</quote>« und mit Bleistift nummeriert
                                         »<quote>13.</quote>«, das zweite Blatt mit
                                     »<quote>2</quote>« versehen und auf dieses und das dritte erneut
                                     das Datum vermerkt: »<quote>
-                                        <date>12/1 99</date>
+                                        <date>12/1&#160;99</date>
                                     </quote>«.</p>
                             </physDesc>
                         </msDesc>
@@ -66,8 +70,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -80,7 +84,7 @@
                     </biblStruct>
                     <biblStruct corresp="ASB1">
                         <monogr>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefe 1875–1912</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -99,18 +103,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1899-01-12" n="01">12. 1. 1899</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1899-01-12" n="01">12.&#160;1.&#160;1899</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb10992">Brandes, Georg</persName>
-                    <placeName key="pmb36300">Kopenhagen</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb10992">Brandes, Georg</persName>
+                    <placeName ref="#pmb36300">Kopenhagen</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-01-07_01">Brandes an Schnitzler, 7. 1. 1899</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-01-22_01">Brandes an Schnitzler, 22. 1. 1899</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-01-07_01">Brandes an Schnitzler, 7.&#160;1.&#160;1899</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-01-22_01">Brandes an Schnitzler, 22.&#160;1.&#160;1899</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -136,104 +140,63 @@
         <graphic url="Georg_Brandes_arkiv_064"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="Georg_Brandes_arkiv_054.jpg"/>Verehrter Herr Brandes,</salute>
-                </opener>
-                <p>geſtern hab ich Ihren Brief bekommen und aus dem erfahren, dſs Sie wieder zu
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="Georg_Brandes_arkiv_054.jpg"/>Verehrter Herr Brandes,</salute></opener><p>geſtern hab ich Ihren Brief bekommen und aus dem erfahren, dſs Sie wieder zu
                     Bette liegen. Abends ſtand es <anchor type="commentary" xml:id="KL751-4"/>in
-                    einer <rs type="work" key="pmb41531">Berliner Zeitung</rs> zu leſen<note type="commentary" xml:id="KL751-4h">Vgl. <bibl>
-                            <persName key="pmb29110">V. A.</persName>: <workName key="pmb33337">Bei
-                                Georg Brandes</workName>. In: <workName key="pmb41531">Berliner
-                                Tageblatt</workName>, Jg. 28, Nr. 16, <date>9. 1. 1899</date>,
-                            Abend-Ausgabe, S. 3</bibl>: »<quote>
-                            <p>Aus <placeName key="pmb36300">
-                                    <hi rend="spaced_out">Kopenhagen</hi>
-                                </placeName> schreibt uns unser dortiger Korrespondent:
-                                    Dr. <persName key="pmb10992">Georg Brandes</persName> muß leider
+                    einer <rs type="work" ref="#pmb41531" subtype="implied">Berliner Zeitung</rs> zu leſen<note type="commentary" xml:id="KL751-4h">Vgl. <bibl><rs ref="#pmb29110" type="person">V.&#160;A.</rs>: <rs ref="#pmb33337" type="work">Bei
+                                Georg Brandes</rs>. In: <rs ref="#pmb41531" type="work">Berliner
+                                Tageblatt</rs>, Jg.&#160;28, Nr.&#160;16, <date>9.&#160;1.&#160;1899</date>,
+                            Abend-Ausgabe, S.&#160;3</bibl>: »<quote><p>Aus <rs ref="#pmb36300" type="place"><hi rend="spaced_out">Kopenhagen</hi></rs> schreibt uns unser dortiger Korrespondent:
+                                    Dr. <rs ref="#pmb10992" type="person">Georg Brandes</rs> muß leider
                                 wieder das Bett hüten und zwar wegen seines alten Leidens:
                                 Venenentzündung. Ich besuchte gestern den berühmten Autor.
-                                        <supplied>
-                           <c rendition="#dots" n="3"/>
-                        </supplied> ›Und jetzt
+                                        <supplied><c rendition="#dots" n="3"/></supplied> ›Und jetzt
                                 liege ich hier seit drei Wochen auf meinem Schmerzenslager,‹ sagte
-                                    <persName key="pmb10992">Brandes</persName> mit einem matten
+                                    <rs ref="#pmb10992" type="person">Brandes</rs> mit einem matten
                                 Lächeln; ›wann und wie die Aerzte mir wieder auf die Beine helfen
-                                können, wissen sie ja selber nicht.‹</p>
-                            <p>
-                        <supplied>
-                           <c rendition="#dots" n="3"/>
-                        </supplied> Eine Besserung ist
+                                können, wissen sie ja selber nicht.‹</p><p><supplied><c rendition="#dots" n="3"/></supplied> Eine Besserung ist
                                 jedoch augenscheinlich eingetreten, welche hoffentlich fortschreiten
-                                wird.</p>
-                        </quote>«.</note>, mit dem Beiſatz, dſs Sie ſich ſchon auf dem Weg der
+                                wird.</p></quote>«.</note>, mit dem Beiſatz, dſs Sie ſich ſchon auf dem Weg der
                     Beſſerung befinden. Ich hoffe, daſs es ſich ſo verhält und daſs Sie bald ganz
-                    geſund <subst>
-                        <del rend="strikethrough">iſt</del>
-                        <add place="above">ſind</add>
-                    </subst>. Meine innigſten Wünſche ſind bei Ihnen, <pb facs="Georg_Brandes_arkiv_055.jpg"/>das wiſſen Sie. Auch von Ihrem Streit
+                    geſund <subst><del rend="strikethrough">iſt</del><add place="above">ſind</add></subst>. Meine innigſten Wünſche ſind bei Ihnen, <pb facs="Georg_Brandes_arkiv_055.jpg"/>das wiſſen Sie. Auch von Ihrem Streit
                     mit den <anchor type="commentary" xml:id="KL751-2"/>Deutſchen hab ich durch die
-                        Zeitung<note type="commentary" xml:id="KL751-2h">Vgl. <bibl>[O. V.:]
-                                <workName key="pmb33335">Köllers Erfolge</workName>. In: <workName key="pmb41531">Berliner Tageblatt</workName>, Jg. 28, Nr. 9,
-                                <date>5. 1. 1899</date>, Abend-Ausgabe, S. 2</bibl>: »<quote>
-                            <persName key="pmb10992">
-                                <hi rend="spaced_out">Georg Brandes</hi>
-                            </persName>, der vom ›<orgName key="pmb29508">
-                                <hi rend="spaced_out">Verein Berliner Presse</hi>
-                            </orgName>‹ aufgefordert worden war, nach <placeName key="pmb168">Berlin</placeName> zu kommen, um einen Vortrag zum Besten der
+                        Zeitung<note type="commentary" xml:id="KL751-2h">Vgl. <bibl>[O.&#160;V.:]
+                                <rs ref="#pmb33335" type="work">Köllers Erfolge</rs>. In: <rs ref="#pmb41531" type="work">Berliner Tageblatt</rs>, Jg.&#160;28, Nr.&#160;9,
+                                <date>5.&#160;1.&#160;1899</date>, Abend-Ausgabe, S.&#160;2</bibl>: »<quote><rs ref="#pmb10992" type="person"><hi rend="spaced_out">Georg Brandes</hi></rs>, der vom ›<rs ref="#pmb29508" type="organisation"><hi rend="spaced_out">Verein Berliner Presse</hi></rs>‹ aufgefordert worden war, nach <rs ref="#pmb168" type="place">Berlin</rs> zu kommen, um einen Vortrag zum Besten der
                             Hilfskasse des genannten Vereins zu halten, hat geantwortet, daß ein
-                                <placeName key="pmb434">
-                                <country>
-                                    <hi rend="spaced_out">dänischer</hi>
-                                </country>
-                            </placeName>
-                            <hi rend="spaced_out"> Autor</hi> während der gegenwärtigen Verhältnisse
-                            in <placeName key="pmb1115">Nordschleswig</placeName> unmöglich Vorträge
-                            in <placeName key="pmb168">Berlin</placeName> halten
+                                <rs ref="#pmb434" type="place"><country><hi rend="spaced_out">dänischer</hi></country></rs><hi rend="spaced_out"> Autor</hi> während der gegenwärtigen Verhältnisse
+                            in <rs ref="#pmb1115" type="place">Nordschleswig</rs> unmöglich Vorträge
+                            in <rs ref="#pmb168" type="place">Berlin</rs> halten
                         könne.</quote>«</note> erfahren; Sie ſollen irgend einen Vortrag abgeſagt
-                    haben, im Verein »<orgName key="pmb29508">Berliner Preſſe</orgName>«, aus
-                    »polit. Gründen«. Fügen Sie Ihren Antipathien gegen <del rend="overwritten">De</del>
-                    <placeName key="pmb206">
-                        <country>Preußen</country>
-                    </placeName> und <placeName key="pmb166">
-                        <country>Frankreich</country>
-                    </placeName> nur getroſt <add place="above">die</add> gegen <placeName key="pmb41240">
-                        <country>Oeſterreich</country>
-                    </placeName> bei. Leſen Sie manchmal <placeName key="pmb50">Wien</placeName>er
+                    haben, im Verein »<rs ref="#pmb29508" type="organisation">Berliner Preſſe</rs>«, aus
+                    »polit. Gründen«. Fügen Sie Ihren Antipathien gegen <del rend="overwritten">De</del><rs ref="#pmb206" type="place"><country>Preußen</country></rs> und <rs ref="#pmb166" type="place"><country>Frankreich</country></rs> nur getroſt <add place="above">die</add> gegen <rs ref="#pmb41240" type="place"><country>Oeſterreich</country></rs> bei. Leſen Sie manchmal <rs ref="#pmb50" type="place">Wien</rs>er
                     Zeitungen, Parlaments- und Gemeinderathsberichte? Es iſt ſtaunenswerth, unter
-                    was für Schweinen wir hier leben; – und <pb facs="Georg_Brandes_arkiv_063.jpg"/>ich denke i<c rendition="#gemination-m"/>er, ſelbſt Antiſemiten müßte es doch
+                    was für Schweinen wir hier leben;&#160;– und <pb facs="Georg_Brandes_arkiv_063.jpg"/>ich denke i<c rendition="#gemination-m"/>er, ſelbſt Antiſemiten müßte es doch
                     auffallen, daſs der Antiſemitismus – von allem andern abgeſehen – jedenfalls die
                     ſonderbare Kraft hat, die verlogenſten Gemeinheiten der menſchlichen Natur zu
                     Tage zu fördern und ſie aufs höchſte auszubilden. Wie merkwürdig, daſs ſogar die
                     offenbaren Mängel, Fehler, meinetwegen Verbrechen der Judenpreſſe, die man als
                     ſo ſpezifiſch jüdiſch hinſtellen wollte, von der Antiſemiten<pb facs="Georg_Brandes_arkiv_064.jpg"/>preſſe ins ungeheuerliche ausgebildet
                     worden ſind. Aber wir wollen über dieſe widerlichen Dinge lieber gar nicht
-                    reden.</p>
-                <p>Ich freue mich, dſs das »<workName key="pmb30219">Vermächtnis</workName>« einigen
+                    reden.</p><p>Ich freue mich, dſs das »<rs ref="#pmb30219" type="work">Vermächtnis</rs>« einigen
                     Beifall bei Ihnen gefunden hat. Mir ſelbſt iſt nur der erſte Akt lieb; dann
                     gewiſſe Partien des letzten. Solange die Hauptperſon auf der Scene iſt, hab ich
                     das Stück nicht gern. Die iſt ganz unperſönlich geblieben find ich. Während der
                     Proben fiel mir mancherlei ein, wodurch ich das Stück hätte höher bringen
                     können; vor allem hätt ich das Kind <pb facs="Georg_Brandes_arkiv_056.jpg"/>müſſen am Leben laſſen; – aber es ſcheint ich bin nicht anſtändig genug, um
                     ein Stück noch auf der Probe zurückzuziehn, ſelbſt we<c rendition="#gemination-n"/> ich weiſs, wie es beſſer zu machen wäre. Es hat
-                    in <placeName key="pmb168">Berlin</placeName> un<unclear>d</unclear>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="pmb50">Wien</placeName> bei der Erſtaufführung viel Erfolg
-                    gehabt; in <placeName key="pmb168">Berlin</placeName> verſchwand es bald; hier
+                    in <rs ref="#pmb168" type="place">Berlin</rs> un<unclear>d</unclear><space unit="chars" quantity="1"/><rs ref="#pmb50" type="place">Wien</rs> bei der Erſtaufführung viel Erfolg
+                    gehabt; in <rs ref="#pmb168" type="place">Berlin</rs> verſchwand es bald; hier
                     ſcheint es ſich zu halten. Irgend eine Zukunft hat es gewiſs nicht – und
-                    wahrhaftig nicht nur wegen ſeiner Traurigkeit –! – Nun hab ich was geſchrieben,
-                    das mir lieber iſt; drei kleine <rs type="work" key="pmb29845 pmb30403 pmb29843">Stücke</rs>, von denen das <pb facs="Georg_Brandes_arkiv_057.jpg"/>eine
-                        »<workName key="pmb29843">Der grüne Kakadu</workName>«, das beſte, großen
-                    Schwierigkeiten begegnet. In <placeName key="pmb168">Berlin</placeName> haben
+                    wahrhaftig nicht nur wegen ſeiner Traurigkeit –!&#160;– Nun hab ich was geſchrieben,
+                    das mir lieber iſt; drei kleine <rs type="work" ref="#pmb29845 pmb30403 pmb29843" subtype="implied">Stücke</rs>, von denen das <pb facs="Georg_Brandes_arkiv_057.jpg"/>eine
+                        »<rs ref="#pmb29843" type="work">Der grüne Kakadu</rs>«, das beſte, großen
+                    Schwierigkeiten begegnet. In <rs ref="#pmb168" type="place">Berlin</rs> haben
                     ſie es verboten; – hier will die Hofcenſur die unmöglichſten Aenderungen. Es
-                    ſpielt am Abend der <placeName key="pmb518">Baſtille</placeName>nerſtürmung zu
-                        <placeName key="pmb182">Paris</placeName> – aber ich ſoll den »Blutgeruch«
+                    ſpielt am Abend der <rs ref="#pmb518" type="place">Baſtille</rs>nerſtürmung zu
+                        <rs ref="#pmb182" type="place">Paris</rs> – aber ich ſoll den »Blutgeruch«
                     herausſtreichen. Auch daſs ein Herzog umgebracht wird, will den Leuten nicht
                     gefallen. Ich freu mich Ihnen das Ding bald zu ſchicken; es wird Sie
-                    wahrſcheinlich amuſiren.</p>
-                <p>Und jetzt bin ich mit einer ganz phantaſtiſchen <pb facs="Georg_Brandes_arkiv_061.jpg"/>fünfactigen <rs type="work" key="pmb29857">Sache</rs> beſchäftigt; mir ſcheint überhaupt als käme ich
+                    wahrſcheinlich amuſiren.</p><p>Und jetzt bin ich mit einer ganz phantaſtiſchen <pb facs="Georg_Brandes_arkiv_061.jpg"/>fünfactigen <rs type="work" ref="#pmb29857" subtype="implied">Sache</rs> beſchäftigt; mir ſcheint überhaupt als käme ich
                     jetzt in andere Gegenden. Wer weiſs, ob alles bisherige nicht doch nur Tagebuch
                     war; wenigſtens von einer gewiſſen Zeit an. (Denn früher einmal, von meinem 9.
                     bis zu meinem 20. Jahr hab ich geſchrieben, »wie der Vogel ſingt« – ich muſs
@@ -241,42 +204,19 @@
                     habe. Ich habe noch manches; Trauerſpiele und Faſtnachtsſpiele und <pb facs="Georg_Brandes_arkiv_062.jpg"/>komiſche Romane; nahezu durchaus
                     blödſinnig; aber ich habe ſelbſt zu der Zeit, da ich dieſe Dinge ſchrieb, nie
                     das Bedürfnis gehabt, es irgend wem zu zeigen. So wird man zudringlicher,
-                    niedriger und unfröhlicher von Jahr zu Jahr. –)</p>
-                <p>Hoffentlich ſchwingt ſich <persName key="pmb10863">Beer-Hofma<c rendition="#gemination-n"/>
-                    </persName> auf, Ihnen ſelbſt zu ſchreiben; faul iſt er allerdings enorm. Sie
+                    niedriger und unfröhlicher von Jahr zu Jahr.&#160;–)</p><p>Hoffentlich ſchwingt ſich <rs ref="#pmb10863" type="person">Beer-Hofma<c rendition="#gemination-n"/></rs> auf, Ihnen ſelbſt zu ſchreiben; faul iſt er allerdings enorm. Sie
                     wiſſen wahrſcheinlich nicht einmal, dſs er <anchor type="commentary" xml:id="KL751-1"/>geheiratet<note type="commentary" xml:id="KL751-1h">Die
-                        Hochzeit hatte am <date>14. 5. 1898</date> in einer Synagoge in <placeName key="pmb50">Wien</placeName> stattgefunden.</note> hat, <persName key="pmb10860">Paula</persName>, die Sie kennen <pb facs="Georg_Brandes_arkiv_058.jpg"/>auch hat er ſchon zwei Töchter, die
-                        <persName key="pmb2668">Mirjam</persName> und <persName key="pmb2534">Naëmie</persName> heißen. Aber ſeine neue <rs type="work" key="pmb31535">Novelle</rs> (was ich davon kenne iſt wunderſchön) iſt noch nicht
-                    fertig.</p>
-                <p>Iſt Ihnen ein Roman bekannt, <workName key="pmb33291">die Juden von
-                        Zirndorf</workName>, von <persName key="pmb13055">Waſſermann</persName>? Ich
+                        Hochzeit hatte am <date>14.&#160;5.&#160;1898</date> in einer Synagoge in <rs ref="#pmb50" type="place">Wien</rs> stattgefunden.</note> hat, <rs ref="#pmb10860" type="person">Paula</rs>, die Sie kennen <pb facs="Georg_Brandes_arkiv_058.jpg"/>auch hat er ſchon zwei Töchter, die
+                        <rs ref="#pmb2668" type="person">Mirjam</rs> und <rs ref="#pmb2534" type="person">Naëmie</rs> heißen. Aber ſeine neue <rs type="work" ref="#pmb31535" subtype="implied">Novelle</rs> (was ich davon kenne iſt wunderſchön) iſt noch nicht
+                    fertig.</p><p>Iſt Ihnen ein Roman bekannt, <rs ref="#pmb33291" type="work">die Juden von
+                        Zirndorf</rs>, von <rs ref="#pmb13055" type="person">Waſſermann</rs>? Ich
                     glaube, das iſt derjenige Menſch, der den <add place="above">deutſchen</add>
                     Roman vom Anfang des nächſten Jahrhunderts ſchreiben wird. Sind Ihnen die
                     Novelletten zugeko<c rendition="#gemination-m"/>en, die ich Ihnen im Frühjahr
-                    ſchickte? <pb facs="Georg_Brandes_arkiv_059.jpg"/>(»<workName key="pmb32460">Frau des Weiſen</workName>«. –)</p>
-                <p>Von Ihrem Ausflug nach <placeName key="pmb313">
-                        <country>Polen</country>
-                    </placeName> und Ihrem Empfang haben wir hier <anchor type="commentary" xml:id="KL751-3"/>geleſen<note type="commentary" xml:id="KL751-3h">XXXX</note>; dagegen hab ich von Ihren <rs type="work" key="pmb33293">Gedichten</rs> abſolut nichts gewußt<subst>
-                        <del rend="strikethrough">?</del>
-                        <add place="inline">.</add>
-                    </subst> Werden Sie ſie <anchor type="commentary" xml:id="KL751-5"/>überſetzen<note type="commentary" xml:id="KL751-5h">Eine deutsche
+                    ſchickte? <pb facs="Georg_Brandes_arkiv_059.jpg"/>(»<rs ref="#pmb32460" type="work">Frau des Weiſen</rs>«.&#160;–)</p><p>Von Ihrem Ausflug nach <rs ref="#pmb313" type="place"><country>Polen</country></rs> und Ihrem Empfang haben wir hier <anchor type="commentary" xml:id="KL751-3"/>geleſen<note type="commentary" xml:id="KL751-3h">XXXX</note>; dagegen hab ich von Ihren <rs type="work" ref="#pmb33293" subtype="implied">Gedichten</rs> abſolut nichts gewußt<subst><del rend="strikethrough">?</del><add place="inline">.</add></subst> Werden Sie ſie <anchor type="commentary" xml:id="KL751-5"/>überſetzen<note type="commentary" xml:id="KL751-5h">Eine deutsche
                         Übersetzung der Jugendgedichte erschien nicht.</note> laſſen? Sind ſie
                     ſchön? Haben Sie ſie gern? Wie viele Stunden hat Ihr Tag! Zu allem haben Sie
-                    Zeit. Und alles bewahren Sie auf, das iſt das Bewunderungswürdige, und darum <pb facs="Georg_Brandes_arkiv_060.jpg"/>ſind Sie ſo reich.</p>
-                <p>Ich wünſchte, Sie würden gleich geſund, reiſten wieder nach <placeName key="pmb40306">
-                        <country>Italien</country>
-                    </placeName>, und blieben wieder ein paar Tage in Wien. Ein Wort von Ihnen,
-                    wie’s Ihnen geht, brächte mir jedenfalls viel Freude.</p>
-                <closer>Herzlich grüßt Sie Ihr Ihnen <lb/>treuergebener<lb/>
-                    <signed>ArthurSchnitzler</signed>
-                </closer>
-                <postscript>
-                    <dateline>
-                        <placeName key="pmb50">Wien</placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>12. 1. 99</date>.</dateline>
-                </postscript>
-            </div>
-        </body>
+                    Zeit. Und alles bewahren Sie auf, das iſt das Bewunderungswürdige, und darum <pb facs="Georg_Brandes_arkiv_060.jpg"/>ſind Sie ſo reich.</p><p>Ich wünſchte, Sie würden gleich geſund, reiſten wieder nach <rs ref="#pmb40306" type="place"><country>Italien</country></rs>, und blieben wieder ein paar Tage in Wien. Ein Wort von Ihnen,
+                    wie’s Ihnen geht, brächte mir jedenfalls viel Freude.</p><closer>Herzlich grüßt Sie Ihr Ihnen <lb/>treuergebener<lb/><signed>ArthurSchnitzler</signed></closer><postscript><dateline><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date>12.&#160;1.&#160;99</date>.</dateline></postscript></div></body>
     </text>
 </TEI>

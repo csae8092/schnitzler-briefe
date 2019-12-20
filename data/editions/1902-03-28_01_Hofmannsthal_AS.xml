@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1902-03-28_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1902-03-28_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 28. 3. 1902</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 28.&#160;3.&#160;1902</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <!-- <placeName key="pmb50">Wien</placeName> -->
-               <date when="1902-03-28" n="01">28. 3. 1902</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <!-- <placeName ref="#pmb50">Wien</placeName> -->
+               <date when="1902-03-28" n="01">28.&#160;3.&#160;1902</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1902-03-26_01">Hofmannsthal an Schnitzler, 26. 3. 1902</ptr>
-               <ptr type="next" subtype="toAuthor" target="1902-03-29_01">Schnitzler an Hofmannsthal, 29. 3. 1902</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1902-03-26_01">Hofmannsthal an Schnitzler, 26.&#160;3.&#160;1902</ptr>
+               <ptr type="next" subtype="toAuthor" target="1902-03-29_01">Schnitzler an Hofmannsthal, 29.&#160;3.&#160;1902</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,56 +105,40 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>28. 3. 1902</date>
-               </dateline>
-               <salute>mein lieber guter Arthur,</salute>
-            </opener>
-            <p>ich will Ihnen aufrichtig sagen, daß mich Ihr Telegramm sehr verletzt hat. Ich will
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>28.&#160;3.&#160;1902</date></dateline><salute>mein lieber guter Arthur,</salute></opener><p>ich will Ihnen aufrichtig sagen, daß mich Ihr Telegramm sehr verletzt hat. Ich will
                es deswegen lieber aussprechen als verschweigen, weil ich glaube, daß das, was an
                solchen Dingen für mich so verletzend ist, von Ihnen, als höchst unwichtig, kaum
                bemerkt wird und daß das Ganze in dem Moment vermieden wäre, wo Sie überhaupt zum
-               Bewußtsein davon kämen. </p>
-            <p>In den 10 Jahren, seit wir uns kennen, hab ich die unaufhörliche Freude eines
+               Bewußtsein davon kämen. </p><p>In den 10 Jahren, seit wir uns kennen, hab ich die unaufhörliche Freude eines
                intimen Verkehrs mit Ihnen immer unter solchen Formen genießen können, die Ihre
                Bequemlichkeit in Bezug auf Ort und Stunde des Zusammentreffens etc nie tangiert
                haben. Es war nicht nur für Sie, sondern auch für mich bequemer, es war durch alle
                Umstände gegeben, daß Sie fast nie zu mir gekommen sind und ich oft zu Ihnen etc etc.
                Und andererseits haben Sie in dieser langen Zeit wohl auch bemerken können, daß mir
                ziemlich fern liegt Sie irgend wie durch Bekanntmachen mit Leuten etc in Anspruch zu
-               nehmen. </p>
-            <p>Nun ereignet sich ein besonderer ganz vereinzelter Fall: eine <rs type="person" key="pmb26046">Frau</rs>, mit der ich ziemlich befreundet bin, und die wirklich
-               eine merkwürdige <rs type="person" key="pmb26046">Frau</rs> ist, durch eine seltene
+               nehmen. </p><p>Nun ereignet sich ein besonderer ganz vereinzelter Fall: eine <rs type="person" ref="#pmb26046" subtype="implied">Frau</rs>, mit der ich ziemlich befreundet bin, und die wirklich
+               eine merkwürdige <rs type="person" ref="#pmb26046" subtype="implied">Frau</rs> ist, durch eine seltene
                Übereinstimmung von Güte, Vornehmheit und wirklichem Geist, dabei von der äußersten
-               Zurückhaltung, isoHert und fast menschenscheu, diese <rs type="person" key="pmb26046">Frau</rs> erfreut mich (ich gebrauche das Wort in seiner wirklichen Bedeutung)
-               seit jeher durch ihre warme und kluge Auffassung aller Ihrer Arbeiten. Und diese <rs type="person" key="pmb26046">Frau</rs> spricht mir, ganz ausnahmsweise, ihrer Art
+               Zurückhaltung, isoHert und fast menschenscheu, diese <rs type="person" ref="#pmb26046" subtype="implied">Frau</rs> erfreut mich (ich gebrauche das Wort in seiner wirklichen Bedeutung)
+               seit jeher durch ihre warme und kluge Auffassung aller Ihrer Arbeiten. Und diese <rs type="person" ref="#pmb26046" subtype="implied">Frau</rs> spricht mir, ganz ausnahmsweise, ihrer Art
                gar nicht entsprechend, lebhaft und mehrmals den Wunsch aus, Sie einmal zu sehen. Ich
                antworte: ganz gern, ganz leicht, einmal bei mir draußen. Es vergeht der Herbst, der
                Winter, es kommt das unfreundliche Frühjahr und da sie furchtbar an Neuralgien
-               leidet, sagt sie: so werde ich wieder nicht nach <placeName key="pmb173">Rodaun</placeName> kommen, und ich füge hinzu: und das mit dem Schnitzler wird
+               leidet, sagt sie: so werde ich wieder nicht nach <rs ref="#pmb173" type="place">Rodaun</rs> kommen, und ich füge hinzu: und das mit dem Schnitzler wird
                nicht Zusammengehen. Im Augenblick fällt uns ein, daß sie in ihrer Wohnung ganz
-               allein ist, ihre <rs type="person" key="pmb41741 pmb4051 pmb41751">Söhne</rs> in
-                  <placeName key="pmb652">Prag</placeName>, ihr <rs type="person" key="pmb41735">Mann</rs> an der <placeName key="pmb41759">Riviera</placeName>, und es kommt uns,
+               allein ist, ihre <rs type="person" ref="#pmb41741 pmb4051 pmb41751" subtype="implied">Söhne</rs> in
+                  <rs ref="#pmb652" type="place">Prag</rs>, ihr <rs type="person" ref="#pmb41735" subtype="implied">Mann</rs> an der <rs ref="#pmb41759" type="place">Riviera</rs>, und es kommt uns,
                mit der halb kindischen Freude, etwas ungewöhnliches zu arrangieren, der Gedanke an
                dieses Frühstück. Aus Bescheidenheit fügt sie hinzu, man sollte, damit Sie sich nicht
                langweilen, noch jemand Gescheiten einladen der Ihnen neu und unterhaltend sein
-               könnte, ich schlage <persName key="pmb5096">Kassner</persName> vor, den ich Ihnen
+               könnte, ich schlage <rs ref="#pmb5096" type="person">Kassner</rs> vor, den ich Ihnen
                schon lange bekanntmachen wollte, man wählt die Stunde des Frühstücks, die Sie in
                nichts stören kann, weil ich weiß daß Sie nachmittags gern arbeiten und Ruhe haben,
-               es ist eine <rs type="place" key="pmb40389">Wohnung</rs> in der inneren Stadt, ich
+               es ist eine <rs type="place" ref="#pmb40389" subtype="implied">Wohnung</rs> in der inneren Stadt, ich
                überschreite eine seit 10 Jahren geübte Zurückhaltung und trage Ihnen diese
                Sache als herzlichen Wunsch oder Bitte von mir vor, und Sie antworten, daß Ihnen
-               Mittagseinladungen in der nächsten Zeit unbequem sind! </p>
-            <p>Ich kann wirklich nicht weiterschreiben, weil ich zu erregt bin, und die Tränen in
-               den Augen habe, natürlich nicht vor Rührung sondern vor Zorn. </p>
-            <p>Da Sie aus dieser Heftigkeit vielleicht gerade bemerken, wie herzlich gern ich Sie
-               habe, so hoffe ich, daß dieser Brief Sie in keiner häßlichen Art ärgern wird. </p>
-            <closer>Von Herzen<lb/>Ihr <signed>Hugo.</signed>
-            </closer>
-         </div>
-      </body>
+               Mittagseinladungen in der nächsten Zeit unbequem sind! </p><p>Ich kann wirklich nicht weiterschreiben, weil ich zu erregt bin, und die Tränen in
+               den Augen habe, natürlich nicht vor Rührung sondern vor Zorn. </p><p>Da Sie aus dieser Heftigkeit vielleicht gerade bemerken, wie herzlich gern ich Sie
+               habe, so hoffe ich, daß dieser Brief Sie in keiner häßlichen Art ärgern wird. </p><closer>Von Herzen<lb/>Ihr <signed>Hugo.</signed></closer></div></body>
    </text>
 </TEI>

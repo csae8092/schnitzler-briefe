@@ -1,7 +1,7 @@
 version: '2'
 services:
-  arthur-schnitzler-briefe:
-    image: "acdh/arthur-schnitzler-briefe"
+  schnitzler-briefe:
+    image: "acdh/schnitzler-briefe"
     build:
       context: .
       dockerfile: Dockerfile

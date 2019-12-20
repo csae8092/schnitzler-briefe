@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-06-22_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1895-06-22_01_AS_Beer-Hofmann">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 22. 6. 1895</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 22.&#160;6.&#160;1895</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -51,32 +55,32 @@
                                 <idno>Yale Collection of German Literature, MSS 31</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief mit Umschlag, 2 Bl., 7 S., Bleistift. Auf dem Kuvert
+                                <p>eh. Brief mit Umschlag, 2&#160;Bl., 7&#160;S., Bleistift. Auf dem Kuvert
                                     Adresse von unbek. Hand mit Tinte: »<quote>
                               <p>Herrn
-                                                k<supplied>.</supplied> u. k.
-                                            u. a. Lieutenant</p>
+                                                k<supplied>.</supplied>&#160;u.&#160;k.
+                                            u.&#160;a. Lieutenant</p>
                               <p>
                                  <hi rend="latintype">Dr.
                                                 Richard Beer-Hofmann</hi>
                               </p>
                                     </quote>«, eine weitere Hand ergänzt »<quote>
-                              <p>im k. k.
+                              <p>im k.&#160;k.
                                             Landw. Inf.-Regmt</p>
                               <p>
                                  <hi rend="latintype">
-                                                <placeName key="pmb767">Caslau</placeName> Nr
+                                                <rs ref="#pmb767" type="place">Caslau</rs> Nr
                                                 12.</hi>
                               </p>
                            </quote>« </p>
                                 <stamp n="1">
-                                    <placeName key="pmb51">Wien <supplied>1</supplied>/1</placeName>
-                                    <date when="1895-06-22">22. <supplied>6</supplied>. 95</date>
+                                    <rs ref="#pmb51" type="place">Wien <supplied>1</supplied>/1</rs>
+                                    <date when="1895-06-22">22. <supplied>6</supplied>.&#160;95</date>
                                     <time>8–9</time>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb767">Časlau Časlav</placeName>
-                                    <date when="1895-06-23">23 / 6 / 95</date>
+                                    <rs ref="#pmb767" type="place">Časlau Časlav</rs>
+                                    <date when="1895-06-23">23&#160;/&#160;6&#160;/&#160;95</date>
                                     <time>8–9</time>
                                 </stamp>
                             </physDesc>
@@ -86,8 +90,8 @@
                 <listBibl>
                     <biblStruct corresp="ASBH">
                         <monogr>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
-                            <author key="pmb10863">Beer-Hofmann, Richard</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                             <title level="m">Briefwechsel 1891–1931</title>
                             <editor>Hg. Konstanze Fliedl</editor>
                             <imprint>
@@ -106,19 +110,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1895-06-22" n="01">22. 6. 1895</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1895-06-22" n="01">22.&#160;6.&#160;1895</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-                    <placeName key="pmb767">Caslau/Čáslav</placeName>
-                    <date when="1895-06-23">23. 6. 1895</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+                    <placeName ref="#pmb767">Caslau/Čáslav</placeName>
+                    <date when="1895-06-23">23.&#160;6.&#160;1895</date>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-06-15_01">Schnitzler an Beer-Hofmann, 15. 6. 1895</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-06-23_01">Beer-Hofmann an Schnitzler, 23. 6. 1895</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-06-15_01">Schnitzler an Beer-Hofmann, 15.&#160;6.&#160;1895</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-06-23_01">Beer-Hofmann an Schnitzler, 23.&#160;6.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -141,41 +145,14 @@
         <graphic url="1895_AS_RBH_2_00046.jpeg"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                  <pb facs="1895_AS_RBH_2_00042.jpeg"/>Lieber Richard</salute>
-                </opener>
-                <p>wann ko<c rendition="#gemination-m"/>en Sie? Werden Sie mich noch hier antreffen?
-                    Ich verreiſe wahrscheinlich am <date>2. Juli</date>.</p>
-                <p>
-               <pb facs="1895_AS_RBH_2_00043.jpeg"/>
-               <persName key="pmb11740">
-                  <hi rend="latintype">Hugo</hi>
-               </persName> ſoll heute in <placeName key="pmb50">Wien</placeName> ſein, telephonirte mir ſein <rs type="person" key="pmb11737">Vater</rs>; vielleicht treff ich ihn heute Abend. – <persName key="pmb2167">
-                  <hi rend="latintype">Salten</hi>
-               </persName> ſeh ich ſelten,
-                        <persName key="pmb12740">
-                  <hi rend="latintype">Schwarzkopf</hi>
-               </persName>
-                    faſt gar nicht. <pb facs="1895_AS_RBH_2_00043.jpeg"/>Daſs ich ein <rs type="work" key="pmb29899">Stück</rs> ſchreibe, wiſſen Sie? Vielleicht
-                    beend’ ich den 1. Akt noch in <placeName key="pmb50">Wien</placeName>. –
-                        <persName key="pmb11036">Burckhard</persName> ſprach ich neulich; Nachts –
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="1895_AS_RBH_2_00042.jpeg"/>Lieber Richard</salute></opener><p>wann ko<c rendition="#gemination-m"/>en Sie? Werden Sie mich noch hier antreffen?
+                    Ich verreiſe wahrscheinlich am <date>2.&#160;Juli</date>.</p><p><pb facs="1895_AS_RBH_2_00043.jpeg"/><rs ref="#pmb11740" type="person"><hi rend="latintype">Hugo</hi></rs> ſoll heute in <rs ref="#pmb50" type="place">Wien</rs> ſein, telephonirte mir ſein <rs type="person" ref="#pmb11737" subtype="implied">Vater</rs>; vielleicht treff ich ihn heute Abend.&#160;– <rs ref="#pmb2167" type="person"><hi rend="latintype">Salten</hi></rs> ſeh ich ſelten,
+                        <rs ref="#pmb12740" type="person"><hi rend="latintype">Schwarzkopf</hi></rs>
+                    faſt gar nicht. <pb facs="1895_AS_RBH_2_00043.jpeg"/>Daſs ich ein <rs type="work" ref="#pmb29899" subtype="implied">Stück</rs> ſchreibe, wiſſen Sie? Vielleicht
+                    beend’ ich den 1.&#160;Akt noch in <rs ref="#pmb50" type="place">Wien</rs>.&#160;–
+                        <rs ref="#pmb11036" type="person">Burckhard</rs> ſprach ich neulich; Nachts –
                     im Dunkel unsrer <pb facs="1895_AS_RBH_2_00044.jpeg"/>gemeinſchaftlichen Stiege.
-                    Er iſt ein Wurſtl. – Ich war bei <persName key="pmb12809">
-                  <hi rend="latintype">Sonnenthal</hi>
-               </persName> – der wird nemlich den <rs type="work" key="pmb29917">Vater</rs> geben. Und, wie <persName key="pmb11036">B.</persName> verſichert, <persName key="pmb12265">Mitter<pb facs="1895_AS_RBH_2_00045.jpeg"/>wurzer</persName> den »<rs type="work" key="pmb29917">Herrn</rs>«. –</p>
-                <p>Ich habe geradezu eine Sehnſucht, wieder mit Ihnen zu plaudern. »Geradezu« – das
-                    ſoll der Sentimentalität den Kragen umdrehen.</p>
-                <p>
-               <pb facs="1895_AS_RBH_2_00046.jpeg"/>Wie geht’s Ihnen? Schreiben Sie bitte. –</p>
-                <p>Den »<workName key="pmb30073">alten Dichter</workName>« werd ich dem <persName key="pmb10815">
-                        <hi rend="latintype">Bahr</hi>
-                    </persName> für die <orgName key="pmb29209">Zeit</orgName> geben, we<c rendition="#gemination-n"/> er ihn bringen will. Im Prinzip iſt er ein<pb facs="1895_AS_RBH_2_00045.jpeg"/>verſtanden.</p>
-                <closer>Seien Sie herzlich gegrüßt.<lb/>Ihr <signed>Arthur</signed>
-                </closer>
-            </div>
-        </body>
+                    Er iſt ein Wurſtl.&#160;– Ich war bei <rs ref="#pmb12809" type="person"><hi rend="latintype">Sonnenthal</hi></rs> – der wird nemlich den <rs type="work" ref="#pmb29917" subtype="implied">Vater</rs> geben. Und, wie <rs ref="#pmb11036" type="person">B.</rs> verſichert, <rs ref="#pmb12265" type="person">Mitter<pb facs="1895_AS_RBH_2_00045.jpeg"/>wurzer</rs> den »<rs type="work" ref="#pmb29917" subtype="implied">Herrn</rs>«.&#160;–</p><p>Ich habe geradezu eine Sehnſucht, wieder mit Ihnen zu plaudern. »Geradezu« – das
+                    ſoll der Sentimentalität den Kragen umdrehen.</p><p><pb facs="1895_AS_RBH_2_00046.jpeg"/>Wie geht’s Ihnen? Schreiben Sie bitte.&#160;–</p><p>Den »<rs ref="#pmb30073" type="work">alten Dichter</rs>« werd ich dem <rs ref="#pmb10815" type="person"><hi rend="latintype">Bahr</hi></rs> für die <rs ref="#pmb29209" type="organisation">Zeit</rs> geben, we<c rendition="#gemination-n"/> er ihn bringen will. Im Prinzip iſt er ein<pb facs="1895_AS_RBH_2_00045.jpeg"/>verſtanden.</p><closer>Seien Sie herzlich gegrüßt.<lb/>Ihr <signed>Arthur</signed></closer></div></body>
     </text>
 </TEI>

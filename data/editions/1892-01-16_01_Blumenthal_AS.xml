@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-01-16_01_Blumenthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-01-16_01_Blumenthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Oscar Blumenthal an Arthur Schnitzler, 16. 1. 1892</title>
-                <author key="pmb14328">Blumenthal, Oscar</author>
+                <title level="a">Oscar Blumenthal an Arthur Schnitzler, 16.&#160;1.&#160;1892</title>
+                <author ref="#pmb14328">Blumenthal, Oscar</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 15</idno>
+                                <idno>Schnitzler, B&#160;15</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>Brief von fremder Hand mit eh. Unterschrift, 1 Bl., 1 S, schwarze
+                                <p>Brief von fremder Hand mit eh. Unterschrift, 1&#160;Bl., 1&#160;S, schwarze
                                     Tinte. Von unbekannter Hand mit rotem Buntstift und mit Bleistift
                                     jeweils nummeriert: »<quote>2</quote>«.</p>
                             </physDesc>
@@ -65,18 +69,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb14328">Blumenthal, Oscar</persName>
-                    <placeName key="pmb168">Berlin</placeName>
-                    <date when="1892-01-16" n="01">16. 1. 1892</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb14328">Blumenthal, Oscar</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
+                    <date when="1892-01-16" n="01">16.&#160;1.&#160;1892</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1891-12-15_01">Blumenthal an Schnitzler, 15. 12. 1891</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-03-06_01">Blumenthal an Schnitzler, [6. 3. 1892]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1891-12-15_01">Blumenthal an Schnitzler, 15.&#160;12.&#160;1891</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-03-06_01">Blumenthal an Schnitzler, [6.&#160;3.&#160;1892]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -91,45 +95,11 @@
         <graphic url="MS-SCHNITZLER-B-00015-000-00005"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p rend="center">
-                        <pb facs="MS-SCHNITZLER-B-00015-000-00005"/>
-                        <hi rend="pre-print">
-                            <orgName key="pmb35053">LESSING-THEATER</orgName>
-                        </hi>
-                    </p>
-                    <p rend="center">
-                        <hi rend="pre-print">Director:</hi>
-                        <lb/>
-                        <hi rend="pre-print">Dr. Oscar Blumenthal.</hi>
-                    </p>
-                    <p rend="right">
-                        <hi rend="pre-print">
-                            <placeName key="pmb168">Berlin N.W.</placeName>, den</hi>
-                        <space unit="chars" quantity="1"/>
-                        <date>16. Januar <hi rend="pre-print">189</hi>2</date>.<lb/>
-                        <hi rend="pre-print">
-                            <placeName key="pmb34999">Friedrich-Carl-Ufer</placeName>
-                        </hi>.</p>
-                    <salute rend="center">Sehr geehrter Herr Doktor!</salute>
-                </opener>
-                <p>Die von Ihnen gewünſchte kritiſche Gloſſirung Ihres intereſſanten <rs type="work" key="pmb29823">Schauſpiels</rs> muß ich mir für den <date>Sommer</date>
+        <body><div type="writingSession" n="1"><opener><p rend="center"><pb facs="MS-SCHNITZLER-B-00015-000-00005"/><hi rend="pre-print"><rs ref="#pmb35053" type="organisation">LESSING-THEATER</rs></hi></p><p rend="center"><hi rend="pre-print">Director:</hi><lb/><hi rend="pre-print">Dr. Oscar Blumenthal.</hi></p><p rend="right"><hi rend="pre-print"><rs ref="#pmb168" type="place">Berlin N.W.</rs>, den</hi><space unit="chars" quantity="1"/><date>16.&#160;Januar <hi rend="pre-print">189</hi>2</date>.<lb/><hi rend="pre-print"><rs ref="#pmb34999" type="place">Friedrich-Carl-Ufer</rs></hi>.</p><salute rend="center">Sehr geehrter Herr Doktor!</salute></opener><p>Die von Ihnen gewünſchte kritiſche Gloſſirung Ihres intereſſanten <rs type="work" ref="#pmb29823" subtype="implied">Schauſpiels</rs> muß ich mir für den <date>Sommer</date>
                     aufſparen, da ich gegenwärtig durch eine Fülle von anderen dringenden Arbeiten
                     zu ſehr in Anſpruch genommen bin. Jedenfalls rathe ich Ihnen nochmals, ſich
-                        <anchor type="commentary" xml:id="G22"/>mit Herrn <hi rend="latintype">
-                        <persName key="pmb12491">Emanuel Reicher</persName>
-                    </hi>
-               <note type="commentary" xml:id="G22h">Laut Tagebuch schrieb Schnitzler am
-                        24. 1. an <persName key="pmb12491">Reicher</persName>.</note> (<placeName key="pmb822">
-                  <hi rend="latintype">Berlin O.,</hi>
-                        Alexanderſtraße 30</placeName>) wegen der Aufnahme des <rs type="work" key="pmb29823">Werks</rs> in ſein <rs type="organisation" key="pmb29252">Ausſtellungsrepertoire</rs> in Verbindung zu ſetzen.</p>
-                <closer>Hochachtungsvoll<lb/>
-                    <signed>
-                        <handShift scribe="pmb14328"/>Dr. Osc. Blumenthal</signed>
-                </closer>
-            </div>
-        </body>
+                        <anchor type="commentary" xml:id="G22"/>mit Herrn <hi rend="latintype"><rs ref="#pmb12491" type="person">Emanuel Reicher</rs></hi><note type="commentary" xml:id="G22h">Laut Tagebuch schrieb Schnitzler am
+                        24. 1. an <rs ref="#pmb12491" type="person">Reicher</rs>.</note> (<rs ref="#pmb822" type="place"><hi rend="latintype">Berlin O.,</hi>
+                        Alexanderſtraße 30</rs>) wegen der Aufnahme des <rs type="work" ref="#pmb29823" subtype="implied">Werks</rs> in ſein <rs type="organisation" ref="#pmb29252" subtype="implied">Ausſtellungsrepertoire</rs> in Verbindung zu ſetzen.</p><closer>Hochachtungsvoll<lb/><signed><handShift scribe="pmb14328"/>Dr. Osc. Blumenthal</signed></closer></div></body>
     </text>
 </TEI>

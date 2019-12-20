@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1903-02-15_01_Hofmannsthal-Beer-Hofmann_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1903-02-15_01_Hofmannsthal-Beer-Hofmann_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Hugo von Hofmannsthal und Richard Beer-Hofmann an Arthur Schnitzler,
-               15. 2. 1903</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+               15.&#160;2.&#160;1903</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -50,10 +54,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -63,8 +67,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -84,14 +88,14 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <!-- <placeName key="pmb50">Wien</placeName> -->
-               <date when="1903-02-15" n="01">15. 2. 1903</date>
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <!-- <placeName ref="#pmb50">Wien</placeName> -->
+               <date when="1903-02-15" n="01">15.&#160;2.&#160;1903</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -100,50 +104,24 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <salute>lieber Pornograph </salute>
-            </opener>
-            <p>wir denken es käme darauf an was für ein Verlag Ihr Schmutzwerk herausgibt. Ist es
-               etwa <orgName>Grimm</orgName> in <placeName key="pmb464">Buda-Pest</placeName>? dazu würden
+      <body><div type="writingSession" n="1"><opener><salute>lieber Pornograph </salute></opener><p>wir denken es käme darauf an was für ein Verlag Ihr Schmutzwerk herausgibt. Ist es
+               etwa <rs type="organisation">Grimm</rs> in <rs ref="#pmb464" type="place">Buda-Pest</rs>? dazu würden
                wir nicht raten. Ist es aber ein ernster Verlag, die Ausstattung sehr ernsthaft und
-               anständig (Illustrationen à la <persName key="pmb28645">Coschell</persName> würden
-               diese Cochonnerie zum Gelächter <placeName key="pmb468">Europas</placeName> machen) dann
+               anständig (Illustrationen à la <rs ref="#pmb28645" type="person">Coschell</rs> würden
+               diese Cochonnerie zum Gelächter <rs ref="#pmb468" type="place">Europas</rs> machen) dann
                geht es immerhin. Denn schließlich ist es ja Ihr bestes Buch, Sie Schmutzfink. Weder
-               ist es so confus wie das <workName key="pmb30219">Vermächtnis</workName>, noch so glatt wie die
-                  <workName key="pmb29917">Liebelei</workName>, noch so snobish wie die
-               <workName key="pmb29857">Beatrice</workName>, noch so unsäglich langweilig wie Ihre läppischen
-               Novellen, kurz, natürlich sollen Sie es herausgeben, unter dem Pseudonym <persName key="pmb11406">Ludassy</persName> oder auch unter Ihrem eigenen Namen. Aber in
-               einer anständigen Form. Das ist unsere Ansicht. </p>
-            <p>
-               <handShift scribe="pmb10863"/>Sie müssen soviel Geld dafür bekommen (im Vorhinein,
+               ist es so confus wie das <rs ref="#pmb30219" type="work">Vermächtnis</rs>, noch so glatt wie die
+                  <rs ref="#pmb29917" type="work">Liebelei</rs>, noch so snobish wie die
+               <rs ref="#pmb29857" type="work">Beatrice</rs>, noch so unsäglich langweilig wie Ihre läppischen
+               Novellen, kurz, natürlich sollen Sie es herausgeben, unter dem Pseudonym <rs ref="#pmb11406" type="person">Ludassy</rs> oder auch unter Ihrem eigenen Namen. Aber in
+               einer anständigen Form. Das ist unsere Ansicht. </p><p><handShift scribe="pmb10863"/>Sie müssen soviel Geld dafür bekommen (im Vorhinein,
                denn im Nachhinein wird es confisciert) daß Sie sich jedenfalls darüber mehr freuen,
                als Sie sich später über das Schwätzen der Leute ärgern. Viele Leute werden es als
                Ihr erectiefstes Werk bezeichnen. Ob ich es an Ihrer Stelle herausgeben würde weiß
-               ich nicht; jedenfalls würde ich Sie um Rat gefragt habe n; geben Sie ihn mir also! </p>
-            <p>
-               <handShift scribe="pmb11740"/>Ob ich es an Ihrer Stelle herausgegeben hätt e?
+               ich nicht; jedenfalls würde ich Sie um Rat gefragt habe n; geben Sie ihn mir also! </p><p><handShift scribe="pmb11740"/>Ob ich es an Ihrer Stelle herausgegeben hätt e?
                Unbedingt, gegen einen beträchtlichen Vorschuß und unter Ihrem Namen. (Der Vorschuß
-               natürlich unter meinem Namen zahlbar.) </p>
-            <p>Verstehen Sie also, was wir Ihnen geraten haben? </p>
-            <p>
-               <handShift scribe="pmb10863"/>Ernstlich: 1.) Summe</p>
-            <p>2.) Verlag<space unit="chars" quantity="8"/>entscheiden </p>
-            <p>3.) Ausstattung</p>
-            <p>1.) Sehr groß. 2.) Sehr ernst (die wars nicht, ders geschah) 3.) Würdig, d. h. Papier
+               natürlich unter meinem Namen zahlbar.) </p><p>Verstehen Sie also, was wir Ihnen geraten haben? </p><p><handShift scribe="pmb10863"/>Ernstlich: 1.) Summe</p><p>2.) Verlag<space unit="chars" quantity="8"/>entscheiden </p><p>3.) Ausstattung</p><p>1.) Sehr groß.&#160;2.) Sehr ernst (die wars nicht, ders geschah) 3.) Würdig, d.&#160;h. Papier
                stark – wie Ihr Talent, Format einfach, und eher groß, ja nicht Taschenformat oder
-               zierlich. </p>
-            <p>
-               <handShift scribe="pmb11740"/>Genug. <signed>Hugo</signed>
-            </p>
-            <p>
-               <handShift scribe="pmb10863"/>Ja! <signed>Richard</signed>
-            </p>
-            <postscript>
-               <p>Dieser Brief kann als Vorrede abgedruckt werden! </p>
-            </postscript>
-         </div>
-      </body>
+               zierlich. </p><p><handShift scribe="pmb11740"/>Genug. <signed>Hugo</signed></p><p><handShift scribe="pmb10863"/>Ja! <signed>Richard</signed></p><postscript><p>Dieser Brief kann als Vorrede abgedruckt werden! </p></postscript></div></body>
    </text>
 </TEI>

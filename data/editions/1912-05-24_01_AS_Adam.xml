@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1912-05-24_01_AS_Adam">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1912-05-24_01_AS_Adam">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Robert Adam, [24.?] 5. 1912</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Robert Adam, [24.?]&#160;5.&#160;1912</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -55,9 +59,9 @@
                               <date>Mai 1912</date>
                            </quote>«.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb68">18/1 Wien</placeName>
+                                    <rs ref="#pmb68" type="place">18/1 Wien</rs>
                                     <date when="1912-05-24">
-                              <supplied>2</supplied>4. <unclear>5.</unclear> <supplied>1912</supplied>
+                              <supplied>2</supplied>4.&#160;<unclear>5.</unclear>&#160;<supplied>1912</supplied>
                            </date>
                                 </stamp>
                             </physDesc>
@@ -71,18 +75,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1912-05-24" n="01">[24.?] 5. 1912</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1912-05-24" n="01">[24.?]&#160;5.&#160;1912</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb1240">Zistersdorf</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb1240">Zistersdorf</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1911-09-11_01">Schnitzler, Schnitzler an Adam, [nach dem 10. 9. 1911?]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1913-04-02_01">Adam an Schnitzler, 2. 4. 1913</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1911-09-11_01">Schnitzler, Schnitzler an Adam, [nach dem 10.&#160;9.&#160;1911?]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1913-04-02_01">Adam an Schnitzler, 2.&#160;4.&#160;1913</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -93,33 +97,6 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <pb facs=""/>
-                  <handShift medium="typewriter"/>Herrn Dr. R. A. Pollak</addrLine>
-                    <addrLine>Bezirksrichter</addrLine>
-                    <addrLine>
-                  <placeName key="pmb1240">Zistersdorf</placeName>.</addrLine>
-                    <addrLine>
-                  <placeName key="pmb1003">N.Oe.</placeName>
-               </addrLine>
-                    
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                                   
-                <p>Herzlichſten Dank</p>
-                <closer>
-               <signed>Arthur Schnitzler</signed>                                               
-                </closer>
-                <postscript>
-               <p>
-                  <placeName key="pmb50">Wien</placeName>, im <date>Mai 1912</date>
-               </p>
-            </postscript>
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine><pb facs=""/><handShift medium="typewriter"/>Herrn Dr. R.&#160;A. Pollak</addrLine><addrLine>Bezirksrichter</addrLine><addrLine><rs ref="#pmb1240" type="place">Zistersdorf</rs>.</addrLine><addrLine><rs ref="#pmb1003" type="place">N.Oe.</rs></addrLine></address></div><div type="writingSession" n="1"><p>Herzlichſten Dank</p><closer><signed>Arthur Schnitzler</signed></closer><postscript><p><rs ref="#pmb50" type="place">Wien</rs>, im <date>Mai 1912</date></p></postscript></div></body>
     </text>
 </TEI>

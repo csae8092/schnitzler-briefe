@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1903-10-09_01_AS_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1903-10-09_01_AS_Bahr">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 9. 10. 1903</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 9.&#160;10.&#160;1903</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -54,13 +58,13 @@
                      <physDesc>
                         <p>eh. Kartenbrief</p>
                         <stamp n="1">
-                           <placeName key="pmb59">Wien 9</placeName>
-                           <date when="1903-10-09">9. 10. <supplied>1903</supplied>
+                           <rs ref="#pmb59" type="place">Wien 9</rs>
+                           <date when="1903-10-09">9.&#160;10. <supplied>1903</supplied>
                            </date>
                            <time>11–12 V</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb63">Wien 13</placeName>
+                           <rs ref="#pmb63" type="place">Wien 13</rs>
                            <date when="1903-10-09">9 10 03</date>
                         </stamp>
                      </physDesc>
@@ -70,11 +74,11 @@
             <listBibl>
                <biblStruct corresp="DASB">
                   <analytic>
-                     <title level="a">9. 10. 1903</title>
+                     <title level="a">9.&#160;10.&#160;1903</title>
      
                   </analytic>
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint> 
@@ -91,8 +95,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -110,18 +114,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1903-10-09" n="01">9. 10. 1903</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1903-10-09" n="01">9.&#160;10.&#160;1903</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1903-10-08_01">Bahr an Schnitzler, 8. 10. 1903</ptr>
-               <ptr type="next" subtype="toAuthor" target="1903-10-31_02">Bahr an Schnitzler, [31. 10. 1903]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1903-10-08_01">Bahr an Schnitzler, 8.&#160;10.&#160;1903</ptr>
+               <ptr type="next" subtype="toAuthor" target="1903-10-31_02">Bahr an Schnitzler, [31.&#160;10.&#160;1903]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -137,61 +141,14 @@
      <graphic url="HS_AM23358Ba_R"/>
   </facsimile>
   <text type="card">
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>
-                  <pb facs="HS_AM23358Ba"/>Herrn Hermann Bahr</addrLine> 
-               <addrLine>
-                  
-                     <placeName key="pmb165">Wien-Ob-St Veit</placeName>
-                  
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb220">Veitlissengasse.</placeName>
-               </addrLine>
-            </address> 
-         </div> 
-         <div type="writingSession" n="1">
-            <opener>
-               <p rend="right">
-                  <hi rend="latintype">
-                     <anchor type="textConst" xml:id="TL063-1"/>
-                     <hi rend="underline" n="1">
-                        <placeName key="pmb133">XVIII Spöttelgasse 7</placeName>
-                     </hi>
-                     <note type="textConst" xml:id="TL063-1h">Unterstrichen.</note>
-                  </hi>
-               </p>
-               <dateline>
-                  <placeName key="pmb50">Wien</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date>9. 10. 903</date>.</dateline>
-            </opener>
-            <p>
-               <salute>lieber Hermann, </salute>
-               <workName key="pmb29855">Reigen</workName> lass ich dir sofort schicken. Ich bin neugierig was die Censur sagt. Dann
+      <body><div type="address"><address><addrLine><pb facs="HS_AM23358Ba"/>Herrn Hermann Bahr</addrLine><addrLine><rs ref="#pmb165" type="place">Wien-Ob-St Veit</rs></addrLine><addrLine><rs ref="#pmb220" type="place">Veitlissengasse.</rs></addrLine></address></div><div type="writingSession" n="1"><opener><p rend="right"><hi rend="latintype"><anchor type="textConst" xml:id="TL063-1"/><hi rend="underline" n="1"><rs ref="#pmb133" type="place">XVIII Spöttelgasse 7</rs></hi><note type="textConst" xml:id="TL063-1h">Unterstrichen.</note></hi></p><dateline><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date>9.&#160;10.&#160;903</date>.</dateline></opener><p><salute>lieber Hermann, </salute><rs ref="#pmb29855" type="work">Reigen</rs> lass ich dir sofort schicken. Ich bin neugierig was die Censur sagt. Dann
           werden wir über die Anzahl der Sitze reden, die du so gütig bist mir in Aussicht
-          zu stellen. In <placeName key="pmb168">Berlin</placeName> grüße mir, wenn du sie siehst, <persName key="pmb10986">Brahm</persName>, <persName key="pmb10844">Bassermann</persName>, <persName key="pmb12530">Rittner</persName>,
-          <persName key="pmb2193">Sauer</persName>; – es handelt sich wohl um dein neues <anchor type="commentary" xml:id="KL063-1"/>
-               <rs type="work" key="pmb29983">Stück</rs>
-               <note type="commentary" xml:id="KL063-1h">
-                  <bibl>
-                     <persName key="pmb10815">Hermann
-                    Bahr</persName>: <workName key="pmb29983">Der Meister. Komödie in drei
-                    Akten</workName>. Berlin: <orgName key="pmb29639">S. Fischer</orgName>
-                     <space unit="chars" quantity="1"/>
-                     <date>1904</date>
-                  </bibl>.</note>? Hoffentlich seh ich dich
-            ab<damage agent="hole">
-                  <supplied>er</supplied>
-               </damage> noch vor deiner Abreise. Entweder komm ich
-          auf eine viertel Stunde zu dir nach <placeName key="pmb165">Ob Veit</placeName> – oder, man könnte sich, ev. mit
-          <persName key="pmb11740 pmb2292">Hugo’s</persName> in <placeName key="pmb63">Hietzing</placeName> zu Abend u Abendessen treffen?</p>
-            <closer>Herzlichst dein<lb/>
-               <signed>Arthur.</signed>
-            </closer>
-         </div>
-      </body>
+          zu stellen. In <rs ref="#pmb168" type="place">Berlin</rs> grüße mir, wenn du sie siehst, <rs ref="#pmb10986" type="person">Brahm</rs>, <rs ref="#pmb10844" type="person">Bassermann</rs>, <rs ref="#pmb12530" type="person">Rittner</rs>,
+          <rs ref="#pmb2193" type="person">Sauer</rs>; – es handelt sich wohl um dein neues <anchor type="commentary" xml:id="KL063-1"/><rs type="work" ref="#pmb29983" subtype="implied">Stück</rs><note type="commentary" xml:id="KL063-1h"><bibl><rs ref="#pmb10815" type="person">Hermann
+                    Bahr</rs>: <rs ref="#pmb29983" type="work">Der Meister. Komödie in drei
+                    Akten</rs>. Berlin: <rs ref="#pmb29639" type="organisation">S. Fischer</rs><space unit="chars" quantity="1"/><date>1904</date></bibl>.</note>? Hoffentlich seh ich dich
+            ab<damage agent="hole"><supplied>er</supplied></damage> noch vor deiner Abreise. Entweder komm ich
+          auf eine viertel Stunde zu dir nach <rs ref="#pmb165" type="place">Ob Veit</rs> – oder, man könnte sich, ev. mit
+          <rs ref="#pmb11740 pmb2292" type="person">Hugo’s</rs> in <rs ref="#pmb63" type="place">Hietzing</rs> zu Abend u Abendessen treffen?</p><closer>Herzlichst dein<lb/><signed>Arthur.</signed></closer></div></body>
   </text>
 </TEI>

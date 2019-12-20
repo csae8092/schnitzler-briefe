@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-04-02_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-04-02_01_AS_Beer-Hofmann">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, [2. 4. 1894?]</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, [2.&#160;4.&#160;1894?]</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -51,7 +55,7 @@
                                 <idno>Yale Collection of German Literature, MSS 31</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S., Bleistift.</p>
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S., Bleistift.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -59,8 +63,8 @@
                 <listBibl>
                     <biblStruct corresp="ASBH">
                         <monogr>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
-                            <author key="pmb10863">Beer-Hofmann, Richard</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                             <title level="m">Briefwechsel 1891–1931</title>
                             <editor>Hg. Konstanze Fliedl</editor>
                             <imprint>
@@ -73,8 +77,8 @@
                     </biblStruct>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb10815">Bahr, Hermann</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10815">Bahr, Hermann</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel, Aufzeichnungen, Dokumente
                                 (1891–1931)</title>
                             <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
@@ -93,18 +97,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1894-04-02" n="01">[2. 4. 1894?]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1894-04-02" n="01">[2.&#160;4.&#160;1894?]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-                    <placeName key="pmb50">[Wien]</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+                    <placeName ref="#pmb50">[Wien]</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-03-21_01">Schnitzler an Beer-Hofmann, 21. 3. 1894</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-04-05_01">Beer-Hofmann an Schnitzler, [5. 4. 1894?]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-03-21_01">Schnitzler an Beer-Hofmann, 21.&#160;3.&#160;1894</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-04-05_01">Beer-Hofmann an Schnitzler, [5.&#160;4.&#160;1894?]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -121,33 +125,14 @@
         <graphic url="1894_AS_RBH_2_00020.jpeg"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                  <pb facs="1894_AS_RBH_2_00018.jpeg"/>Lieber Richard,</salute>
-                </opener>
-                <p>Donnerſtag 11 Uhr hol ich Sie ab, wenn’s Ihnen recht iſt. Sie können das Fahren
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="1894_AS_RBH_2_00018.jpeg"/>Lieber Richard,</salute></opener><p>Donnerſtag 11 Uhr hol ich Sie ab, wenn’s Ihnen recht iſt. Sie können das Fahren
                     ein paar Mal probiren, ohne ſich im geringſten zu verpflichten, und schli<c rendition="#gemination-m"/>ſten Falls zahlen Sie einen Mit<pb facs="1894_AS_RBH_2_00019.jpeg"/>gliedsbeitrag auf ¼ Jahr, wodurch Sie zu
                         <del rend="strikethrough">zu</del> gar nichts genötigt werden, weder zum
-                    Kaufen eines Rades, noch zum Weiterverbleiben im <rs type="organisation" key="pmb29783">Club</rs>. –</p>
-                <p>Bitte ſehr, ſenden Sie dieſen Brief gleich <pb facs="1894_AS_RBH_2_00019.jpeg"/>an <persName key="pmb10815">Hermann Bahr</persName>, welcher hiedurch unter
+                    Kaufen eines Rades, noch zum Weiterverbleiben im <rs type="organisation" ref="#pmb29783" subtype="implied">Club</rs>. –</p><p>Bitte ſehr, ſenden Sie dieſen Brief gleich <pb facs="1894_AS_RBH_2_00019.jpeg"/>an <rs ref="#pmb10815" type="person">Hermann Bahr</rs>, welcher hiedurch unter
                     einem gebeten wird, ſich um 11 am Donnerstag bei Ihnen einzufinden, we<c rendition="#gemination-n"/> er es nicht vorzieht, um <time>11 Uhr 30</time>
-                    vor dem Hauſe <placeName key="pmb630">
-                        <anchor type="commentary" xml:id="KL502-1"/>
-                  <hi rend="latintype">Untere
+                    vor dem Hauſe <rs ref="#pmb630" type="place"><anchor type="commentary" xml:id="KL502-1"/><hi rend="latintype">Untere
                             Augartenstraße</hi> 28<note type="commentary" xml:id="KL502-1h">Sitz der
-                            Radfahrunion »<orgName key="pmb29783">Vorwärts</orgName>«.</note>
-                    </placeName> auf mich <hi rend="latintype">resp</hi>. uns zu warten.</p>
-                <p>
-               <pb facs="1894_AS_RBH_2_00018.jpeg"/>Beifolgend Statuten, von denen 1 Exemplar an
-                        <persName key="pmb10815">
-                        <hi rend="latintype">Bahr</hi>
-                        </persName>; in dieſem hab ich den § 15 unterſtrichen. Für Sie den § 5. –</p>
-                <closer>Herzliche Grüße.<lb/>
-                    <signed>ArthurSch</signed>
-                </closer>
-            </div>
-        </body>
+                            Radfahrunion »<rs ref="#pmb29783" type="organisation">Vorwärts</rs>«.</note></rs> auf mich <hi rend="latintype">resp</hi>. uns zu warten.</p><p><pb facs="1894_AS_RBH_2_00018.jpeg"/>Beifolgend Statuten, von denen 1 Exemplar an
+                        <rs ref="#pmb10815" type="person"><hi rend="latintype">Bahr</hi></rs>; in dieſem hab ich den § 15 unterſtrichen. Für Sie den § 5. –</p><closer>Herzliche Grüße.<lb/><signed>ArthurSch</signed></closer></div></body>
     </text>
 </TEI>

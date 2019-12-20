@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1905-08-07_02_AS_Hofmannsthal" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1905-08-07_02_AS_Hofmannsthal"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 7. 8. 1905</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 7.&#160;8.&#160;1905</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Hs-30885,XXXX</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -79,17 +83,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1905-08-07" n="02">7. 8. 1905</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1905-08-07" n="02">7.&#160;8.&#160;1905</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1905-08-07_01">Hofmannsthal an Schnitzler, [7. 8. 1905]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1905-08-07_01">Hofmannsthal an Schnitzler, [7.&#160;8.&#160;1905]</ptr>
                <ptr type="next" subtype="toAuthor" target="1905-08_01">Hofmannsthal an Schnitzler, 1905-08</ptr>
             </correspContext>
          </correspDesc>
@@ -99,35 +103,23 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>7. 8. 905</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>lieber Hugo, </salute>erstens hatte ich begreiflicherweise keine Ahnung, daß
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>7.&#160;8.&#160;905</date></dateline></opener><p><salute>lieber Hugo, </salute>erstens hatte ich begreiflicherweise keine Ahnung, daß
                Sie <date>Sonntag</date> schon wieder fortfahren. Wieso ich unser Wie dersehen bis
                Freitag hinausschob, werden Sie sofort hören. Heute <date>Montag</date> müssen wir,
-               wie schon ein paar Tage vorherbestimmt war, weil hier <persName key="pmb12837">Steinrück</persName> gastiert, nach <placeName key="pmb968">Mödling</placeName> –
-                  <date>Mittwoch</date> wollten wir, zu <persName key="pmb12692">Heini</persName>’s
-               3. Geburtstag in den <placeName key="pmb8">Prater</placeName>. Um aber nicht
+               wie schon ein paar Tage vorherbestimmt war, weil hier <rs ref="#pmb12837" type="person">Steinrück</rs> gastiert, nach <rs ref="#pmb968" type="place">Mödling</rs> –
+                  <date>Mittwoch</date> wollten wir, zu <rs ref="#pmb12692" type="person">Heini</rs>’s
+               3.&#160;Geburtstag in den <rs ref="#pmb8" type="place">Prater</rs>. Um aber nicht
                allzu sehr aus dem Arbeiten herauszukommen (wenn man eben daran ist was
                abzuschließen, enerviert einen das sehr wie Sie ja wissen) wollte ich zwischen den
                Reisetagen immer einen Heimtag, und so fiel naturgemäß der <date>Freitag</date> erst
                auf Sie. Nun haben Sie indeß wohl meine Karte erhalten, die Sie für
-                  <date>Mittwoch</date> nach <placeName key="pmb190">Schönbrunn</placeName> bittet
-               (da sich <persName key="pmb12692">Heini</persName> vor die Wahl zwischen Wurstl
-               Menagerie gestellt für letztere entschied – und kaum hatte <persName key="pmb12692">Heini</persName> das ausgesprochen, so war mein erster Gedanke »Hugo«) – und ich
+                  <date>Mittwoch</date> nach <rs ref="#pmb190" type="place">Schönbrunn</rs> bittet
+               (da sich <rs ref="#pmb12692" type="person">Heini</rs> vor die Wahl zwischen Wurstl
+               Menagerie gestellt für letztere entschied – und kaum hatte <rs ref="#pmb12692" type="person">Heini</rs> das ausgesprochen, so war mein erster Gedanke »Hugo«) – und ich
                hoffe auch ohne diese Karte wissen Sie, daß ich mich mindestens ebenso sehr freue Sie
                wiederzusehen als umgekehrt. Ich brauche Sie sogar, abgesehen von der Sehnsucht, Ende
-               der Woche dringend, insbesondere wegen des einen <rs type="work" key="">Stücks</rs>.
-               Ich habe Ihnen <rs type="work" key="">zwei</rs> vorzulesen. Nun, wir sprechen
-               hoffentlich schon <date>Mittwoch</date> über das Wie, Wo, Wann. </p>
-            <closer>Herzlichst<lb/>Ihr <signed>A.</signed>
-            </closer>
-         </div>
-      </body>
+               der Woche dringend, insbesondere wegen des einen <rs type="work" subtype="implied" ref="">Stücks</rs>.
+               Ich habe Ihnen <rs type="work" subtype="implied" ref="">zwei</rs> vorzulesen. Nun, wir sprechen
+               hoffentlich schon <date>Mittwoch</date> über das Wie, Wo, Wann. </p><closer>Herzlichst<lb/>Ihr <signed>A.</signed></closer></div></body>
    </text>
 </TEI>

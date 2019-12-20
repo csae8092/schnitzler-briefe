@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-10-31_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-10-31_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 30. [10. 1896]</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 30.&#160;[10.&#160;1896]</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>ms. Telegramm. Von unbekannter Hand mit Bleistift
@@ -64,18 +68,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1896-10-30" n="02">30. [10. 1896]</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1896-10-30" n="02">30.&#160;[10.&#160;1896]</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb168">Berlin</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb168">Berlin</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-10-25_01">Schnitzler an Beer-Hofmann, [25. 10. 1896]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-11-04_01">Beer-Hofmann an Schnitzler, [4. 11. 1896]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-10-25_01">Schnitzler an Beer-Hofmann, [25.&#160;10.&#160;1896]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-11-04_01">Beer-Hofmann an Schnitzler, [4.&#160;11.&#160;1896]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -88,18 +92,7 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00193"/>
    </facsimile>
    <text type="telegram">
-      <body>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00193"/>
-               <placeName key="pmb168">b</placeName>
-               <space unit="chars" quantity="1"/>de<space unit="chars" quantity="1"/>
-               <placeName key="pmb50">wien</placeName> 111.–529 <time>16 6</time>
-               <space unit="chars" quantity="1"/>
-               <date>30</date>–</p>
-            <p>den schoensten <rs type="work" key="pmb29899">erfolg</rs> und herzliche gruesse von
-               dem halbwahren aus <persName key="pmb34034">upsala</persName> +</p>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00193"/><rs ref="#pmb168" type="place">b</rs><space unit="chars" quantity="1"/>de<space unit="chars" quantity="1"/><rs ref="#pmb50" type="place">wien</rs> 111.–529 <time>16&#160;6</time><space unit="chars" quantity="1"/><date>30</date>–</p><p>den schoensten <rs type="work" ref="#pmb29899" subtype="implied">erfolg</rs> und herzliche gruesse von
+               dem halbwahren aus <rs ref="#pmb34034" type="person">upsala</rs> +</p></div></body>
    </text>
 </TEI>

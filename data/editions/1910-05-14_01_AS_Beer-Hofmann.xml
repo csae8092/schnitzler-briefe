@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1910-05-14_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1910-05-14_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 
-                        14. 5. 1910</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+                        14.&#160;5.&#160;1910</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -52,7 +56,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -80,17 +84,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key=""/>
-               <date when="1910-05-14" n="01">14. 5. 1910</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref=""/>
+               <date when="1910-05-14" n="01">14.&#160;5.&#160;1910</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1910-03-06_02">Schnitzler an Beer-Hofmann, 6. 3. 1910</ptr>
-               <ptr type="next" subtype="toAuthor" target="1910-05-17_01">Beer-Hofmann an Schnitzler, 17. 5. 1910</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1910-03-06_02">Schnitzler an Beer-Hofmann, 6.&#160;3.&#160;1910</ptr>
+               <ptr type="next" subtype="toAuthor" target="1910-05-17_01">Beer-Hofmann an Schnitzler, 17.&#160;5.&#160;1910</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,24 +103,7 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         
-				        <div type="writingSession" n="1">
-					          <opener>
-						            <dateline rend="right">
-							              <date when="1910-05-14">14/V 10</date>
-						            </dateline>
-					          </opener>
-					          <p>Und lest ihr: »H. Meister«,</p>
-					          <p>Und ruft ihr: »So heisst er Ja nicht, dem man’s schenkt!«</p>
-					          <p>So sag ich: »Voreilig erscheint das Gekrittel,</p>
-					          <p>Ist’s auch nicht sein Name, so ist’s doch ein Titel, Der wol ihm gebührt –
-						dies, Krittler, bedenkt!«</p>
-					          <closer>
-						            <signed>R.</signed>
-					          </closer>
-				        </div>
-			      
-      </body>
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date when="1910-05-14">14/V 10</date></dateline></opener><p>Und lest ihr: »H. Meister«,</p><p>Und ruft ihr: »So heisst er Ja nicht, dem man’s schenkt!«</p><p>So sag ich: »Voreilig erscheint das Gekrittel,</p><p>Ist’s auch nicht sein Name, so ist’s doch ein Titel, Der wol ihm gebührt –
+						dies, Krittler, bedenkt!«</p><closer><signed>R.</signed></closer></div></body>
    </text>
 </TEI>

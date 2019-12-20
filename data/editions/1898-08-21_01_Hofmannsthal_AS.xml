@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-08-21_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1898-08-21_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 21. 8. 1898</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 21.&#160;8.&#160;1898</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Postkarte., schwarze Tinte. Von Schnitzler mit Bleistift
@@ -60,13 +64,13 @@
                                         </subst>
                                     </quote>«.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb885">Lugano</placeName>
-                                    <date when="1898-08-21">21. VIII. 98</date>
+                                    <rs ref="#pmb885" type="place">Lugano</rs>
+                                    <date when="1898-08-21">21.&#160;VIII.&#160;98</date>
                                     <time>1</time>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb967">Luzern Brf. Dist.</placeName>
-                                    <date when="1898-08-21">21. VIII. 98</date>
+                                    <rs ref="#pmb967" type="place">Luzern Brf. Dist.</rs>
+                                    <date when="1898-08-21">21.&#160;VIII.&#160;98</date>
                                     <time>8</time>
                                 </stamp>
                             </physDesc>
@@ -76,8 +80,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -96,19 +100,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb885">Lugano</placeName>
-                    <date when="1898-08-21" n="01">21. 8. 1898</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb885">Lugano</placeName>
+                    <date when="1898-08-21" n="01">21.&#160;8.&#160;1898</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb967">Luzern</placeName>
-                    <date when="1898-08-21">21. 8. 1898</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb967">Luzern</placeName>
+                    <date when="1898-08-21">21.&#160;8.&#160;1898</date>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1898-08-07_01">Hofmannsthal an Schnitzler, 7. 8. 1898</ptr>
-               <ptr type="next" subtype="toAuthor" target="1898-08-22_01">Schnitzler an Hofmannsthal, [22. 8. 1898]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1898-08-07_01">Hofmannsthal an Schnitzler, 7.&#160;8.&#160;1898</ptr>
+               <ptr type="next" subtype="toAuthor" target="1898-08-22_01">Schnitzler an Hofmannsthal, [22.&#160;8.&#160;1898]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -125,53 +129,9 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00270"/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00269"/>
-                        <hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
-                            Schnitzler</hi>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb967">
-                            <hi rend="latintype">Lucerne</hi>
-                        </placeName>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <hi rend="latintype">poste rest.</hi>
-                        </hi>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb34006">
-                            <country>
-                                <hi rend="latintype">Suisse</hi>
-                            </country>
-                        </placeName>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline>
-                        <seg rend="left">
-                            <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00270"/>
-                            <placeName key="pmb513">Lugano, du Parc</placeName>, <date>Sonntag</date>
-                            <space unit="chars" quantity="1"/>
-                            <time>Früh</time>.</seg>
-                    </dateline>
-                </opener>
-                <p>Bin über <placeName key="pmb34007">
-                        <hi rend="latintype">Zermatt</hi>
-                    </placeName> und <placeName key="pmb34011">
-                        <hi rend="latintype">Simplon</hi>
-                    </placeName> gut angeko<c rendition="#gemination-m"/>en, <rs type="place" key="pmb513">wohne</rs> ſchön und angenehm. Hoffe ſehr auf Nachricht von
+        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00269"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
+                            Schnitzler</hi></addrLine><addrLine><rs ref="#pmb967" type="place"><hi rend="latintype">Lucerne</hi></rs></addrLine><addrLine><hi rend="latintype"><hi rend="latintype">poste rest.</hi></hi></addrLine><addrLine><rs ref="#pmb34006" type="place"><country><hi rend="latintype">Suisse</hi></country></rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline><seg rend="left"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00270"/><rs ref="#pmb513" type="place">Lugano, du Parc</rs>, <date>Sonntag</date><space unit="chars" quantity="1"/><time>Früh</time>.</seg></dateline></opener><p>Bin über <rs ref="#pmb34007" type="place"><hi rend="latintype">Zermatt</hi></rs> und <rs ref="#pmb34011" type="place"><hi rend="latintype">Simplon</hi></rs> gut angeko<c rendition="#gemination-m"/>en, <rs type="place" ref="#pmb513" subtype="implied">wohne</rs> ſchön und angenehm. Hoffe ſehr auf Nachricht von
                     Ihnen und bitte vielmals um Recepiſſe der Taſche, das bis jetzt nicht in meinen
-                    Händen.</p>
-                <closer>Ihr <signed>Hugo.</signed>
-                </closer>
-            </div>
-        </body>
+                    Händen.</p><closer>Ihr <signed>Hugo.</signed></closer></div></body>
     </text>
 </TEI>

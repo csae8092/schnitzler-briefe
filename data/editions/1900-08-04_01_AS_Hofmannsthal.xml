@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1900-08-04_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1900-08-04_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 4. 8. 1900</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 4.&#160;8.&#160;1900</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Hs-30885,1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S.</p>
+                                <p>eh. Brief, 1&#160;Bl., 3&#160;S.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -59,8 +63,8 @@
                 <listBibl>
                <biblStruct corresp="HvHAS"> 
                     <monogr> 
-                        <author key="pmb11740">Hofmannsthal, Hugo</author> 
-                        <author key="pmb2121">Schnitzler, Arthur</author> 
+                        <author ref="#pmb11740">Hofmannsthal, Hugo</author> 
+                        <author ref="#pmb2121">Schnitzler, Arthur</author> 
                         <title level="m">Briefwechsel</title>
                         <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                         <imprint>
@@ -79,19 +83,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb213">Ischl</placeName>
-                    <date when="1900-08-04" n="01">4. 8. 1900</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb213">Ischl</placeName>
+                    <date when="1900-08-04" n="01">4.&#160;8.&#160;1900</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                     
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1900-07-27_01">Hofmannsthal an Schnitzler, 27. 7. 1900</ptr>
-               <ptr type="next" subtype="toAuthor" target="1900-08-05_01">Schnitzler an Hofmannsthal, 5. 8. 1900</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1900-07-27_01">Hofmannsthal an Schnitzler, 27.&#160;7.&#160;1900</ptr>
+               <ptr type="next" subtype="toAuthor" target="1900-08-05_01">Schnitzler an Hofmannsthal, 5.&#160;8.&#160;1900</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -101,35 +105,17 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-            <opener>
-                <dateline rend="right">
-                  <pb facs="Hs-30885,1_001.TIF"/>
-                  <placeName key="pmb213">Iſchl</placeName>, 
-                        <date>4. 8. 900</date>.</dateline>
-                </opener>
-                <p>
-               <salute>Mein lieber Hugo, </salute>ich bin ein paar Tage in <placeName key="pmb415">Auſſee</placeName> geweſen, jetzt in
-                    <placeName key="pmb213">Iſchl</placeName>, <placeName key="pmb414">
-                  <hi rend="latintype">Pension Petter</hi>
-               </placeName>, 
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Hs-30885,1_001.TIF"/><rs ref="#pmb213" type="place">Iſchl</rs>, 
+                        <date>4.&#160;8.&#160;900</date>.</dateline></opener><p><salute>Mein lieber Hugo, </salute>ich bin ein paar Tage in <rs ref="#pmb415" type="place">Auſſee</rs> geweſen, jetzt in
+                    <rs ref="#pmb213" type="place">Iſchl</rs>, <rs ref="#pmb414" type="place"><hi rend="latintype">Pension Petter</hi></rs>, 
                     habe vor meinem Fenſter, auch jetzt, während ich
                     ſchreibe, den ſchmalen Weg, auf dem wir im vorigen Jahr nach dem Eſſen immer
-                    ſpazieren gegangen ſind und über <workName key="pmb29857">Schleier</workName> und <workName key="pmb32432">Bergwerk</workName> geſpro<pb facs="Hs-30885,1_002.TIF"/>chen haben. 
+                    ſpazieren gegangen ſind und über <rs ref="#pmb29857" type="work">Schleier</rs> und <rs ref="#pmb32432" type="work">Bergwerk</rs> geſpro<pb facs="Hs-30885,1_002.TIF"/>chen haben. 
                     Heuer geht es mir hier nicht ſo gut. Am
-                    <date>10.</date> wahrſcheinlich fahr ich weg, am <date>12.</date> dürft ich in <placeName key="pmb30">Salzburg</placeName> ſein und freue
+                    <date>10.</date> wahrſcheinlich fahr ich weg, am <date>12.</date> dürft ich in <rs ref="#pmb30" type="place">Salzburg</rs> ſein und freue
                     mich ſehr Sie dort noch anzutreffen u. Ihnen mündlich ſagen zu können, wie ſehr
-                    von Herzen ich Ihnen Glück wünſche. Aber bevor ich <placeName key="pmb213">Iſchl</placeName> verlaſſe, ſchreib ich
-                    Ihnen noch ein Wort un<unclear>d</unclear> höre vielleicht auch von Ihnen. Sie wiſſen ja, <pb facs="Hs-30885,1_002.TIF"/>daſs <persName key="pmb10863">Richard</persName> auch nach <placeName key="pmb30">S.</placeName> ko<c rendition="#gemination-m"/>t, vielleicht auch
-                    <persName key="pmb11485">Goldmann</persName>.</p>
-                <p>Am <date>13.</date>
-               <space unit="chars" quantity="1"/>
-               <time>Nachmittag</time> dürften wir aufbrechen; ſpäteſtens am <date>14.</date>
-            </p>
-                <closer>Auf Wiederſehen! Ihr <signed>Arthur.</signed>
-            </closer>
-                    </div>
-        </body>
+                    von Herzen ich Ihnen Glück wünſche. Aber bevor ich <rs ref="#pmb213" type="place">Iſchl</rs> verlaſſe, ſchreib ich
+                    Ihnen noch ein Wort un<unclear>d</unclear> höre vielleicht auch von Ihnen. Sie wiſſen ja, <pb facs="Hs-30885,1_002.TIF"/>daſs <rs ref="#pmb10863" type="person">Richard</rs> auch nach <rs ref="#pmb30" type="place">S.</rs> ko<c rendition="#gemination-m"/>t, vielleicht auch
+                    <rs ref="#pmb11485" type="person">Goldmann</rs>.</p><p>Am <date>13.</date><space unit="chars" quantity="1"/><time>Nachmittag</time> dürften wir aufbrechen; ſpäteſtens am <date>14.</date></p><closer>Auf Wiederſehen! Ihr <signed>Arthur.</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-12-15_01_Boelsche_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-12-15_01_Boelsche_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Wilhelm Bölsche an Arthur Schnitzler, 15. 12. 1891</title>
-                <author key="pmb11061">Bölsche, Wilhelm</author>
+                <title level="a">Wilhelm Bölsche an Arthur Schnitzler, 15.&#160;12.&#160;1891</title>
+                <author ref="#pmb11061">Bölsche, Wilhelm</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>A:Schnitzler, HS.NZ85.1.2577,3</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., schwarze Tinte. Von Schnitzler mit
                                     rotem Buntstift nummeriert: »<quote>4</quote>«.</p>
                             </physDesc>
                         </msDesc>
@@ -60,7 +64,7 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb11061">Bölsche, Wilhelm</author>
+                            <author ref="#pmb11061">Bölsche, Wilhelm</author>
                             <title level="m">Briefwechsel. Mit Autoren der Freien Bühne</title>
                             <editor>Hg. Gerd-Hermann Susen</editor>
                             <imprint>
@@ -83,18 +87,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11061">Bölsche, Wilhelm</persName>
-                    <placeName key="pmb168">Berlin</placeName>
-                    <date when="1891-12-15" n="02">15. 12. 1891</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
+                    <date when="1891-12-15" n="02">15.&#160;12.&#160;1891</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1891-10-06_01">Bölsche an Schnitzler, 6. 10. 1891</ptr>
-               <ptr type="next" subtype="toAuthor" target="1891-12-19_01">Schnitzler an Bölsche, 19. 12. 1891</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1891-10-06_01">Bölsche an Schnitzler, 6.&#160;10.&#160;1891</ptr>
+               <ptr type="next" subtype="toAuthor" target="1891-12-19_01">Schnitzler an Bölsche, 19.&#160;12.&#160;1891</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -110,81 +114,16 @@
         <!-- $$$$ Dateinamen müssen noch ergänzt werden! -->
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p rend="center">
-                        <pb facs="HS.NZ85.1.2577,3"/>
-                        <hi rend="pre-print">
-                            <hi rend="small_caps">
-                                <workName key="pmb36149">Freie Bühne</workName>
-                            </hi>
-                        </hi>
-                    </p>
-                    <p rend="center">
-                        <hi rend="pre-print">
-                            <hi rend="small_caps">für modernes Leben.</hi>
-                        </hi>
-                    </p>
-                    <p rend="center">
-                        <hi rend="pre-print">
-                            <hi rend="small_caps">Herausgegeben von <persName key="pmb10986">
-                                    <hi rend="bold">Otto Brahm</hi>
-                                </persName>.</hi>
-                        </hi>
-                    </p>
-                    <p>
-                        <hi rend="pre-print">Verlag und Expedition: <orgName key="pmb29639">S. Fischer</orgName>.</hi>
-                    </p>
-                    <p>
-                        <hi rend="pre-print">Sprechstunden: Mittwoch und Freitag 12–2 Uhr.</hi>
-                    </p>
-                    <p>
-                        <hi rend="pre-print">Alle für die Redaction bestimmten Sendungen (Beiträge,
+        <body><div type="writingSession" n="1"><opener><p rend="center"><pb facs="HS.NZ85.1.2577,3"/><hi rend="pre-print"><hi rend="small_caps"><rs ref="#pmb36149" type="work">Freie Bühne</rs></hi></hi></p><p rend="center"><hi rend="pre-print"><hi rend="small_caps">für modernes Leben.</hi></hi></p><p rend="center"><hi rend="pre-print"><hi rend="small_caps">Herausgegeben von <rs ref="#pmb10986" type="person"><hi rend="bold">Otto Brahm</hi></rs>.</hi></hi></p><p><hi rend="pre-print">Verlag und Expedition: <rs ref="#pmb29639" type="organisation">S.&#160;Fischer</rs>.</hi></p><p><hi rend="pre-print">Sprechstunden: Mittwoch und Freitag 12–2 Uhr.</hi></p><p><hi rend="pre-print">Alle für die Redaction bestimmten Sendungen (Beiträge,
                             Recensions-Exempl.) bitten wir <hi rend="bold">ohne Angabe eines
-                                Personennamens</hi> an die Redaction der Wochenschrift »<workName key="pmb36149">
-                                <hi rend="spaced_out">Freie Bühne</hi>
-                            </workName>« <placeName key="pmb1272">Berlin W.
-                                Link-Strasse 25</placeName> zu addressiren.</hi>
-                    </p>
-                    <p>
-                        <hi rend="pre-print">Wir ersuchen unsere geehrten Mitarbeiter, jedes
+                                Personennamens</hi> an die Redaction der Wochenschrift »<rs ref="#pmb36149" type="work"><hi rend="spaced_out">Freie Bühne</hi></rs>« <rs ref="#pmb1272" type="place">Berlin W.
+                                Link-Strasse 25</rs> zu addressiren.</hi></p><p><hi rend="pre-print">Wir ersuchen unsere geehrten Mitarbeiter, jedes
                             Manuscript auf der ersten Seite mit ihrer genauen Adresse zu
-                            versehen.</hi>
-                    </p>
-                    <p rend="right">
-                        <placeName key="pmb1275">Friedrichshagen</placeName>
-                    </p>
-                    <p rend="right">bei <hi rend="pre-print">
-                            <hi rend="small_caps">
-                                <placeName key="pmb168">Berlin</placeName>
-                            </hi>, den</hi>
-                        <space unit="chars" quantity="1"/>
-                        <date>15. XII. <hi rend="pre-print">189</hi>1</date>.</p>
-                    <p rend="right">
-                        <hi rend="pre-print">
-                            <placeName key="pmb1272">
-                                <del rend="strikethrough">W. Link-Straße 25</del>
-                            </placeName>.</hi>
-                    </p>
-                    <p rend="right">
-                        <placeName key="pmb1276">Wilhelmſtr. 72</placeName>.</p>
-                    <salute>Hochgeehrter Herr Doktor!</salute>
-                </opener>
-                    
-                
-                <p>Vom <date>1. Jan.</date> ab wird die <workName key="pmb36166">Freie
-                        Bühne</workName>
-               <space unit="chars" quantity="1"/>
-               <anchor type="commentary" xml:id="G19"/>Monatsſchrift<note type="commentary" xml:id="G19h">In den
-                        Jahren 1890 und 1891 erschien die <workName key="pmb36166">Freie
-                            Bühne</workName> wöchentlich.</note> unter <hi rend="underline" n="1">meiner ausſchließlichen</hi> Leitung. Ich freue mich, daß Ihre <rs type="work" key="pmb30257">Novelle</rs>, ſo lange zum Warten verurteilt, nun
+                            versehen.</hi></p><p rend="right"><rs ref="#pmb1275" type="place">Friedrichshagen</rs></p><p rend="right">bei <hi rend="pre-print"><hi rend="small_caps"><rs ref="#pmb168" type="place">Berlin</rs></hi>, den</hi><space unit="chars" quantity="1"/><date>15.&#160;XII.&#160;<hi rend="pre-print">189</hi>1</date>.</p><p rend="right"><hi rend="pre-print"><rs ref="#pmb1272" type="place"><del rend="strikethrough">W. Link-Straße&#160;25</del></rs>.</hi></p><p rend="right"><rs ref="#pmb1276" type="place">Wilhelmſtr.&#160;72</rs>.</p><salute>Hochgeehrter Herr Doktor!</salute></opener><p>Vom <date>1.&#160;Jan.</date> ab wird die <rs ref="#pmb36166" type="work">Freie
+                        Bühne</rs><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="G19"/>Monatsſchrift<note type="commentary" xml:id="G19h">In den
+                        Jahren 1890 und 1891 erschien die <rs ref="#pmb36166" type="work">Freie
+                            Bühne</rs> wöchentlich.</note> unter <hi rend="underline" n="1">meiner ausſchließlichen</hi> Leitung. Ich freue mich, daß Ihre <rs type="work" ref="#pmb30257" subtype="implied">Novelle</rs>, ſo lange zum Warten verurteilt, nun
                     an gewichtiger Stelle grade das neue Quartal im erſten Monatsheft eröffnen kann.
-                    Und ich füge die Bitte bei um freundliche weitere Teilnahme.</p>
-                <closer>Mit vorzüglicher Hochachtung<lb/>
-                    <signed>Wilhelm Bölsche.</signed>
-                </closer>
-            </div>
-        </body>
+                    Und ich füge die Bitte bei um freundliche weitere Teilnahme.</p><closer>Mit vorzüglicher Hochachtung<lb/><signed>Wilhelm Bölsche.</signed></closer></div></body>
     </text>
 </TEI>

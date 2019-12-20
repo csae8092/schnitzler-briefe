@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1901-07-22_02_AS_Brandes">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1901-07-22_02_AS_Brandes">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Georg Brandes, 22. 7. 1901</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Georg Brandes, 22.&#160;7.&#160;1901</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -44,8 +48,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -64,18 +68,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb946">[Vahrn]</placeName>
-                    <date when="1901-07-22" n="02">22. 7. 1901</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb946">[Vahrn]</placeName>
+                    <date when="1901-07-22" n="02">22.&#160;7.&#160;1901</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb10992">Brandes, Georg</persName>
-                    <placeName key="pmb36300">Kopenhagen</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb10992">Brandes, Georg</persName>
+                    <placeName ref="#pmb36300">Kopenhagen</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1901-07-15_01">Brandes an Schnitzler, 15. 7. 1901</ptr>
-               <ptr type="next" subtype="toAuthor" target="1901-07-31_01">Brandes an Schnitzler, 31. 7. 1901</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1901-07-15_01">Brandes an Schnitzler, 15.&#160;7.&#160;1901</ptr>
+               <ptr type="next" subtype="toAuthor" target="1901-07-31_01">Brandes an Schnitzler, 31.&#160;7.&#160;1901</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -86,21 +90,6 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <lg type="poem">
-                    <l>
-                        <pb facs=""/>In offner Flut auf leichtem Kahn</l>
-                    <l>An frischem Sommertage!</l>
-                    <l>Die Mücken, die dir wehgethan</l>
-                    <l>Sind nur des Ufers Plage.</l>
-                </lg>
-                <closer>
-                    <date>22. 7. 01</date>
-                    <space unit="chars" quantity="1"/>
-                    <signed>Arthur Schnitzler</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><lg type="poem"><l><pb facs=""/>In offner Flut auf leichtem Kahn</l><l>An frischem Sommertage!</l><l>Die Mücken, die dir wehgethan</l><l>Sind nur des Ufers Plage.</l></lg><closer><date>22.&#160;7.&#160;01</date><space unit="chars" quantity="1"/><signed>Arthur Schnitzler</signed></closer></div></body>
     </text>
 </TEI>

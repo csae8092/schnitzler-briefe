@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-05-14_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-05-14_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 14. 5. 1896</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 14.&#160;5.&#160;1896</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,19 +52,19 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Kartenbrief, blauer Buntstift; Lateinschrift. Von Schnitzler mit
                            Bleistift datiert: »<quote>14/5 96</quote>« und nummeriert:
                               »<quote>73</quote>«.</p>
                         <stamp n="1">
-                           <placeName key="pmb51">Wien 1/1</placeName>
+                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
                            <date>14. 5. 96</date>
                            <time>5-6N</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb59">Wien 9/3</placeName>
+                           <rs ref="#pmb59" type="place">Wien 9/3</rs>
                            <date>15. 5. 96</date>
                            <time>8.V</time>
                            <action>Bestellt</action>
@@ -72,8 +76,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -92,18 +96,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1896-05-14" n="01">14. 5. 1896</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1896-05-14" n="01">14.&#160;5.&#160;1896</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-02-25_01">Schnitzler an Beer-Hofmann, 25. 2. 1896</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-05-15_01">Schnitzler an Beer-Hofmann, 15. 5. 1896</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-02-25_01">Schnitzler an Beer-Hofmann, 25.&#160;2.&#160;1896</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-05-15_01">Schnitzler an Beer-Hofmann, 15.&#160;5.&#160;1896</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -118,32 +122,9 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00158"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00158"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
-               <addrLine>IX <hi rend="pre-print">in</hi>
-                  <placeName key="pmb397">Frankgasse</placeName> 1</addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <salute>
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00157"/>Lieber Arthur!</salute>
-            </opener>
-            <p>Das <persName key="pmb12071">Liliencron</persName>comité war bei mir – ich schicke
+      <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00158"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine>IX <hi rend="pre-print">in</hi><rs ref="#pmb397" type="place">Frankgasse</rs> 1</addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00157"/>Lieber Arthur!</salute></opener><p>Das <rs ref="#pmb12071" type="person">Liliencron</rs>comité war bei mir – ich schicke
                   <del rend="strikethrough">Ihnen</del> demselben erst morgen das Geld, weil ich
                heute gar keines hatte. Bitte schreiben Sie mir was Sie gegeben; ich möchte
-               ebensoviel senden.</p>
-            <closer>Herzlichst<lb/>
-               <signed>Richard</signed>
-            </closer>
-            <postscript>
-               <p>Antworten Sie bitte gleich</p>
-            </postscript>
-         </div>
-
-      </body>
+               ebensoviel senden.</p><closer>Herzlichst<lb/><signed>Richard</signed></closer><postscript><p>Antworten Sie bitte gleich</p></postscript></div></body>
    </text>
 </TEI>

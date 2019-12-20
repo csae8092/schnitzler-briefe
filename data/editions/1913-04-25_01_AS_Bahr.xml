@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1913-04-25_01_AS_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1913-04-25_01_AS_Bahr">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 2[5]. 4. 1913</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 2[5].&#160;4.&#160;1913</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name full="yes" instant="false">Müller, Martin Anton</name>
             </editor>
@@ -58,10 +62,10 @@
             <listBibl>
                <biblStruct corresp="DASB">
                   <analytic>
-                     <title level="a">25. 4. 1913, Abschrift</title>
+                     <title level="a">25.&#160;4.&#160;1913, Abschrift</title>
                   </analytic>
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G.
                         Daviau</editor>
@@ -80,8 +84,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">
                   <monogr>
-                     <author key="pmb10815">Bahr, Hermann</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
                      <imprint>
@@ -99,17 +103,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1913-04-25" n="01">2[5]. 4. 1913</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1913-04-25" n="01">2[5].&#160;4.&#160;1913</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1913-04-23_01">Bahr an Schnitzler, 23. 4. 1913</ptr>
-               <ptr type="next" subtype="toAuthor" target="1913-07-19_01">Schnitzler an Bahr, 19. 7. [1913]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1913-04-23_01">Bahr an Schnitzler, 23.&#160;4.&#160;1913</ptr>
+               <ptr type="next" subtype="toAuthor" target="1913-07-19_01">Schnitzler an Bahr, 19.&#160;7. [1913]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -124,49 +128,12 @@
       <graphic url="HS_AM60139Ba"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <p>
-                  <seg rend="left">
-                     <pb facs=""/>
-                     <hi rend="pre-print">Dr. Arthur
-                     Schnitzler</hi>
-                  </seg>
-                  <seg rend="right">
-                     <date>2<subst>
-                           <del rend="overwritten">
-                              <unclear>4</unclear>
-                           </del>
-                           <add place="inline">
-                              <unclear>5</unclear>
-                           </add>
-                        </subst>/4 913</date>. </seg>
-               </p>
-               <p>
-                  <hi rend="pre-print">
-                     <placeName key="pmb150">Wien XVIII. Sternwartestrasse 71</placeName>
-                  </hi>
-               </p>
-               <salute>lieber Hermann, </salute>
-            </opener>
-            <p>für heute nur die Mittheilg, dass <anchor type="commentary" xml:id="KL128-1"/>
-               <persName key="pmb2147">
-                  <hi rend="latintype">P. A.</hi>
-               </persName> Montag mit seinem <rs type="person" key="pmb2260">Bruder</rs> auf den
-                  <placeName key="pmb189">Semmering</placeName>, zuerst zu <hi rend="latintype">
-                  <persName key="pmb2320">Hansy</persName>
-               </hi>, hinauffährt<note type="commentary" xml:id="KL128-1h">Schnitzler hatte das <rs type="place" key="pmb442">Kurhaus</rs> von Dr. <persName key="pmb2320">Franz Hansy</persName> vorgeschlagen (<bibl>Brief an <persName key="pmb2147">Peter Altenberg</persName>, <date>22. 4. 1913</date>,
-                        <orgName>DLA</orgName> 85.1.237</bibl>), <persName key="pmb2260">Georg
-                     Engländer</persName> schrieb Schnitzler am <date>25. 4. 1913</date>, dass das
-                  umgesetzt werde (<bibl>
-                     <orgName>DLA</orgName>, 85.1.2889/1</bibl>).</note>.</p>
-            <p>Für deinen Brief herzlichen Dank. Wann <pb facs="HS_AM60139Ba"/>wir nach <placeName key="pmb30">Salzburg</placeName> kommen, weiss ich noch nicht, aber hoffentlich noch in diesem Jahr. Zu
-               welcher Zeit seid Ihr <unclear>dort</unclear>? </p>
-            <closer>Auf Wiedersehen, u alles gute von Haus zu Haus.<lb/>Dein<lb/>
-               <signed>Arthur </signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print">Dr. Arthur
+                     Schnitzler</hi></seg><seg rend="right"><date>2<subst><del rend="overwritten"><unclear>4</unclear></del><add place="inline"><unclear>5</unclear></add></subst>/4 913</date>. </seg></p><p><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></p><salute>lieber Hermann, </salute></opener><p>für heute nur die Mittheilg, dass <anchor type="commentary" xml:id="KL128-1"/><rs ref="#pmb2147" type="person"><hi rend="latintype">P.&#160;A.</hi></rs> Montag mit seinem <rs type="person" ref="#pmb2260" subtype="implied">Bruder</rs> auf den
+                  <rs ref="#pmb189" type="place">Semmering</rs>, zuerst zu <hi rend="latintype"><rs ref="#pmb2320" type="person">Hansy</rs></hi>, hinauffährt<note type="commentary" xml:id="KL128-1h">Schnitzler hatte das <rs type="place" ref="#pmb442" subtype="implied">Kurhaus</rs> von Dr. <rs ref="#pmb2320" type="person">Franz Hansy</rs> vorgeschlagen (<bibl>Brief an <rs ref="#pmb2147" type="person">Peter Altenberg</rs>, <date>22.&#160;4.&#160;1913</date>,
+                        <rs type="organisation">DLA</rs> 85.1.237</bibl>), <rs ref="#pmb2260" type="person">Georg
+                     Engländer</rs> schrieb Schnitzler am <date>25.&#160;4.&#160;1913</date>, dass das
+                  umgesetzt werde (<bibl><rs type="organisation">DLA</rs>, 85.1.2889/1</bibl>).</note>.</p><p>Für deinen Brief herzlichen Dank. Wann <pb facs="HS_AM60139Ba"/>wir nach <rs ref="#pmb30" type="place">Salzburg</rs> kommen, weiss ich noch nicht, aber hoffentlich noch in diesem Jahr. Zu
+               welcher Zeit seid Ihr <unclear>dort</unclear>? </p><closer>Auf Wiedersehen, u alles gute von Haus zu Haus.<lb/>Dein<lb/><signed>Arthur </signed></closer></div></body>
    </text>
 </TEI>

@@ -14,7 +14,7 @@ let $data := <data>{
     let $content := if ($receiver) 
         then $sender||' wrote to '||$receiver
         else $sender
-    let $date := data($x//correspDesc/correspAction[@type='sent']/@when[1])
+    let $date := data($x//@when[1])
     let $year := year-from-date(xs:date($date))
     let $month := month-from-date(xs:date($date))
     let $day := day-from-date(xs:date($date))

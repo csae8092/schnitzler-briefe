@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-07-25_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1895-07-25_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, [25. 7. 1895?]</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, [25.&#160;7.&#160;1895?]</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -63,18 +67,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb213">Bad Ischl</placeName>
-               <date when="1895-07-25" n="01">[27. 5. 1895?]</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb213">Bad Ischl</placeName>
+               <date when="1895-07-25" n="01">[27.&#160;5.&#160;1895?]</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb213">Bad Ischl</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb213">Bad Ischl</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-07-09_02">Beer-Hofmann an Schnitzler, 9. 7. 1895</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-08-05_01">Schnitzler an Beer-Hofmann, [5. 8. 1895?]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-07-09_02">Beer-Hofmann an Schnitzler, 9.&#160;7.&#160;1895</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-08-05_01">Schnitzler an Beer-Hofmann, [5.&#160;8.&#160;1895?]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -90,34 +94,12 @@
       <graphic url="1895_AS_RBH_3_00005.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1895_AS_RBH_3_00003.jpeg"/>Herrn <hi rend="latintype">Dr Rich.
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb766">Egelmoos 22</placeName>.</hi>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="1895_AS_RBH_3_00004.jpeg"/>
-               <salute>Lieber Richard, </salute>ich ſprach
-               Vormittg die <persName key="pmb15999 pmb27859">Ernst’s</persName>, die nach <anchor type="commentary" xml:id="KLMAM20191021-1"/>
-               <placeName key="pmb895">Strobl</placeName>
-               <note type="commentary" xml:id="KLMAM20191021-1h">Das erlaubt eine Datierung
-                  des Korrespondenzstücks mithilfe des <workName key="pmb33243">Tagebuchs</workName>.</note> fahren, – was natürlich zu nichts
-               verpflichtet. Sagen Sie mir, ob Sie ſchon um <time>½ 5</time> fortgehen müſſen, ob Sie was
-               beſondres vorhaben, on Sie (und ich) ins Theater gehen? We<c rendition="#gemination-n"/> nur ſpazieren gegangen <pb facs="1895_AS_RBH_3_00005.jpeg"/>werden ſoll, möcht ich Sie lieber erſt um <time>½ 6</time>
-               abholen.</p>
-            <p>Antwort ſehr erwünſcht.</p>
-            <closer>Herzlichen Gruß<lb/>Ihr <signed>Arthur.</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="1895_AS_RBH_3_00003.jpeg"/>Herrn <hi rend="latintype">Dr Rich.
+                     Beer-Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb766" type="place">Egelmoos 22</rs>.</hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1895_AS_RBH_3_00004.jpeg"/><salute>Lieber Richard, </salute>ich ſprach
+               Vormittg die <rs ref="#pmb15999 pmb27859" type="person">Ernst’s</rs>, die nach <anchor type="commentary" xml:id="KLMAM20191021-1"/><rs ref="#pmb895" type="place">Strobl</rs><note type="commentary" xml:id="KLMAM20191021-1h">Das erlaubt eine Datierung
+                  des Korrespondenzstücks mithilfe des <rs ref="#pmb33243" type="work">Tagebuchs</rs>.</note> fahren,&#160;– was natürlich zu nichts
+               verpflichtet. Sagen Sie mir, ob Sie ſchon um <time>½&#160;5</time> fortgehen müſſen, ob Sie was
+               beſondres vorhaben, on Sie (und ich) ins Theater gehen? We<c rendition="#gemination-n"/> nur ſpazieren gegangen <pb facs="1895_AS_RBH_3_00005.jpeg"/>werden ſoll, möcht ich Sie lieber erſt um <time>½&#160;6</time>
+               abholen.</p><p>Antwort ſehr erwünſcht.</p><closer>Herzlichen Gruß<lb/>Ihr <signed>Arthur.</signed></closer></div></body>
    </text>
 </TEI>

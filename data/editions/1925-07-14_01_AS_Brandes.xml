@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1925-07-14_01_AS_Brandes">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1925-07-14_01_AS_Brandes">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Georg Brandes, zwischen 14. und 28. 7. 1925</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Georg Brandes, zwischen 14. und 28.&#160;7.&#160;1925</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -55,22 +59,22 @@
                             <p>eh. Ansichtskarte, Motiv: Schnitzlers Wohnhaus, ovaler Absenderkleber: »<quote>
                               <p>A. S.</p>
                               <p>
-                                 <placeName key="pmb68">Wien, XVIII.</placeName>
+                                 <rs ref="#pmb68" type="place">Wien, XVIII.</rs>
                               </p>
                               <p>
-                                 <placeName key="pmb150">Sternwartestr. 71</placeName>
+                                 <rs ref="#pmb150" type="place">Sternwartestr.&#160;71</rs>
                               </p>
                            </quote>« über die Briefkante und teilweise
                                 über Text. Links von der Briefmarke Nummerierung mit Bleistift: »<quote>53</quote>«, unterhalb
                             der Adresse Datumsangabe mit Tinte von unbekannter Hand: »<quote>
                               <date>29–7–25</date> (?)</quote>«.</p>
                             <stamp n="1">
-                                <placeName key="pmb50">Wien</placeName>
+                                <rs ref="#pmb50" type="place">Wien</rs>
                             </stamp>
                             <stamp n="2">
-                                <placeName key="pmb36300">
-                              <unclear>Kjobenhav</unclear>n</placeName>
-                                <date when="1925-07-29">29. 7. <supplied>1925</supplied>
+                                <rs ref="#pmb36300" type="place">
+                              <unclear>Kjobenhav</unclear>n</rs>
+                                <date when="1925-07-29">29.&#160;7. <supplied>1925</supplied>
                            </date>
                                 <time>20M</time>
                             </stamp>
@@ -81,8 +85,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>  
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -95,7 +99,7 @@
                     </biblStruct>
                     <biblStruct corresp="ASB2"> 
                         <monogr> 
-                            <author key="pmb2121">Schnitzler, Arthur</author> 
+                            <author ref="#pmb2121">Schnitzler, Arthur</author> 
                             <title level="m">Briefe 1913–1931</title>
                             <editor>Hg. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler</editor>
                             <imprint>
@@ -114,20 +118,20 @@
             <language ident="de-AT">German</language>
          </langUsage>
         <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1925-07-14" n="01">zwischen 14. und 28. 7. 1925</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1925-07-14" n="01">zwischen 14. und 28.&#160;7.&#160;1925</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10992">Brandes, Georg</persName>
-               <placeName key="pmb36300">Kopenhagen</placeName>
-               <date when="1925-07-29">29. 7. <supplied>1925</supplied>
+            <correspAction  type="received">
+               <persName ref="#pmb10992">Brandes, Georg</persName>
+               <placeName ref="#pmb36300">Kopenhagen</placeName>
+               <date when="1925-07-29">29.&#160;7. <supplied>1925</supplied>
                </date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1925-07-12_01">Brandes an Schnitzler, 12. 7. 1925</ptr>
-               <ptr type="next" subtype="toAuthor" target="1925-12-30_01">Brandes an Schnitzler, 30. 12. 1925</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1925-07-12_01">Brandes an Schnitzler, 12.&#160;7.&#160;1925</ptr>
+               <ptr type="next" subtype="toAuthor" target="1925-12-30_01">Brandes an Schnitzler, 30.&#160;12.&#160;1925</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -137,37 +141,13 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <placeName key="pmb434">
-                     <country>Daenemark</country>
-                  </placeName>
-               </addrLine>
-                    <addrLine>Herrn</addrLine>
-                    <addrLine>Georg Brandes</addrLine>
-                    <addrLine>
-                  <placeName key="pmb36300">Kopenhagen</placeName>
-               </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <p>
-               <pb facs="Georg_Brandes_arkiv_231.jpg"/>Herzlichen <damage agent="other"><!-- sticker -->
-                  <supplied>Dank für</supplied>
-               </damage> Ihre liebe Karte. 
+        <body><div type="address"><address><addrLine><rs ref="#pmb434" type="place"><country>Daenemark</country></rs></addrLine><addrLine>Herrn</addrLine><addrLine>Georg Brandes</addrLine><addrLine><rs ref="#pmb36300" type="place">Kopenhagen</rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="Georg_Brandes_arkiv_231.jpg"/>Herzlichen <damage agent="other"><!-- sticker --><supplied>Dank für</supplied></damage> Ihre liebe Karte. 
                 Ihre Bitte es niemandem zu sagen, daß die Menschheit eine
                 abscheuliche Bande, ko<c rendition="#gemination-m"/>t leider
                 verspätet. Weiſs der Teufel durch
-                welche Indiscretion – die Sache hat sich herumgesprochen!</p>
-                <p>Ich bin noch in <placeName key="pmb50">Wien</placeName>, arbeite
+                welche Indiscretion – die Sache hat sich herumgesprochen!</p><p>Ich bin noch in <rs ref="#pmb50" type="place">Wien</rs>, arbeite
                     allerlei, denke Ihrer in alter inniger Freundschaft und bitte Sie, mich und
                     <pb facs="Georg_Brandes_arkiv_230.jpg"/>dieses Haus in gütiger
-                    Erinnerung zu behalten</p>
-                <closer>Mit tausend Grüſsen<lb/>Ihr getreuer <signed>Arthur Schnitzler</signed>
-            </closer>
-            </div>
-        </body>
+                    Erinnerung zu behalten</p><closer>Mit tausend Grüſsen<lb/>Ihr getreuer <signed>Arthur Schnitzler</signed></closer></div></body>
     </text>
 </TEI>

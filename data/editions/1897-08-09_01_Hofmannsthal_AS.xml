@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-08-09_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-08-09_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [9.? 8. 1897]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [9.?&#160;8.&#160;1897]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>ms. Telegramm. Von unbekannter Hand nummeriert:
@@ -60,8 +64,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -80,18 +84,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb30">Salzburg</placeName>
-                    <date when="1897-08-09" n="01">[9.? 8. 1897]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb30">Salzburg</placeName>
+                    <date when="1897-08-09" n="01">[9.?&#160;8.&#160;1897]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-07-27_01">Hofmannsthal an Schnitzler, 27. 7. 1897</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-08-26_01">Hofmannsthal an Schnitzler, 26. 8. 1897</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-07-27_01">Hofmannsthal an Schnitzler, 27.&#160;7.&#160;1897</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-08-26_01">Hofmannsthal an Schnitzler, 26.&#160;8.&#160;1897</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -107,28 +111,13 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00196"/>
     </facsimile>
     <text type="telegram">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-                    <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00195"/>
-                    <placeName key="pmb50">win</placeName> fr <placeName key="pmb30">salzburg</placeName> 1†1376<space unit="chars" quantity="1"/>28<space unit="chars" quantity="1"/>
-                    <time>11 30m</time> =</p>
-                <p>bitte instaendig <anchor type="textConst" xml:id="TL2300-1"/>
-               <persName key="pmb10765">andrian</persName>
-               <note type="textConst" xml:id="TL2300-1h">Korrigiert aus »<quote>andrien</quote>«.</note> unbedingt heute <time>9 uhr
-                        abend</time>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="pmb791">habsburgergasse 5</placeName> besuchen und ihm zu
+        <body><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00195"/><rs ref="#pmb50" type="place">win</rs> fr <rs ref="#pmb30" type="place">salzburg</rs> 1†1376<space unit="chars" quantity="1"/>28<space unit="chars" quantity="1"/><time>11&#160;30m</time> =</p><p>bitte instaendig <anchor type="textConst" xml:id="TL2300-1"/><rs ref="#pmb10765" type="person">andrian</rs><note type="textConst" xml:id="TL2300-1h">Korrigiert aus »<quote>andrien</quote>«.</note> unbedingt heute <time>9 uhr
+                        abend</time><space unit="chars" quantity="1"/><rs ref="#pmb791" type="place">habsburgergasse 5</rs> besuchen und ihm zu
                     helfen suchen sonst mueste ich <anchor type="commentary" xml:id="KL2300-1"/>nach
-                        <placeName key="pmb50">wien</placeName>
-                    <note type="commentary" xml:id="KL2300-1h">Das einzige in Frage kommende Treffen
-                        mit <persName key="pmb10765">Andrian</persName>, das <persName key="pmb2121">Schnitzler</persName>s <rs type="work" key="pmb33243">Tagebuch</rs> im
-                        Jahr <date>1897</date> vermerkt, fand am <date>10. 8.</date> statt. Zu
-                        diesem Zeitpunkt hielt sich <persName key="pmb11740">Hofmannsthal</persName>
-                        in <placeName key="pmb30">Salzburg</placeName> auf.</note>
-                    <signed>= hugo =</signed>
-                </p>
-            </div>
-        </body>
+                        <rs ref="#pmb50" type="place">wien</rs><note type="commentary" xml:id="KL2300-1h">Das einzige in Frage kommende Treffen
+                        mit <rs ref="#pmb10765" type="person">Andrian</rs>, das <rs ref="#pmb2121" type="person">Schnitzler</rs>s <rs type="work" ref="#pmb33243" subtype="implied">Tagebuch</rs> im
+                        Jahr <date>1897</date> vermerkt, fand am <date>10.&#160;8.</date> statt. Zu
+                        diesem Zeitpunkt hielt sich <rs ref="#pmb11740" type="person">Hofmannsthal</rs>
+                        in <rs ref="#pmb30" type="place">Salzburg</rs> auf.</note><signed>= hugo =</signed></p></div></body>
     </text>
 </TEI>

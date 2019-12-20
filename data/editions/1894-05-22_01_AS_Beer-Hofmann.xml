@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-05-22_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-05-22_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 22. 5. 1894</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 22.&#160;5.&#160;1894</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,10 +55,10 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief mit Umschlag, 1 Bl., 2 S., Bleistift.</p>
+                        <p>eh. Brief mit Umschlag, 1&#160;Bl., 2&#160;S., Bleistift.</p>
                         <stamp n="1">
-                           <placeName key="pmb51">Wien 1/1</placeName>
-                           <date>22. 5. 94</date>
+                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
+                           <date>22.&#160;5.&#160;94</date>
                            <time>5-6N</time>
                         </stamp>
                      </physDesc>
@@ -68,18 +72,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1894-05-22" n="01">22. 5. 1894</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1894-05-22" n="01">22.&#160;5.&#160;1894</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-05-17_02">Schnitzler an Beer-Hofmann, 17. 5. 1894</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-05-26_01">Beer-Hofmann an Schnitzler, [26. 5. 1894]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-05-17_02">Schnitzler an Beer-Hofmann, 17.&#160;5.&#160;1894</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-05-26_01">Beer-Hofmann an Schnitzler, [26.&#160;5.&#160;1894]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -96,35 +100,8 @@
       <graphic url="1894_AS_RBH_1_00016.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1894_AS_RBH_1_00013.jpeg"/>Herrn <hi rend="latintype">Dr. Rich.
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb50">Wien</placeName>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb338">
-                     <hi rend="latintype">I. Wollzeile 15</hi>
-                  </placeName>.</addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <salute>
-                  <pb facs="1894_AS_RBH_1_00015.jpeg"/>Lieber Richard,</salute>
-            </opener>
-            <p>ich erſuche Sie nochmals, ſchicken Sie an <persName key="pmb2450">
-                  <hi rend="latintype">Fels</hi>
-               </persName>. Nehmen Sie mir die wiederholte Mahnung
-               nicht <pb facs="1894_AS_RBH_1_00015.jpeg"/>übel, aber ich bin ſchon geradezu krank.</p>
-            <closer>Herzlich grüßt<lb/>Ihr<lb/>
-               <signed>Arthur</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="1894_AS_RBH_1_00013.jpeg"/>Herrn <hi rend="latintype">Dr. Rich.
+                     Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb338" type="place"><hi rend="latintype">I. Wollzeile&#160;15</hi></rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs="1894_AS_RBH_1_00015.jpeg"/>Lieber Richard,</salute></opener><p>ich erſuche Sie nochmals, ſchicken Sie an <rs ref="#pmb2450" type="person"><hi rend="latintype">Fels</hi></rs>. Nehmen Sie mir die wiederholte Mahnung
+               nicht <pb facs="1894_AS_RBH_1_00015.jpeg"/>übel, aber ich bin ſchon geradezu krank.</p><closer>Herzlich grüßt<lb/>Ihr<lb/><signed>Arthur</signed></closer></div></body>
    </text>
 </TEI>

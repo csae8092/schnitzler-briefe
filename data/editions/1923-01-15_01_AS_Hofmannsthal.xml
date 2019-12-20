@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1923-01-15_01_AS_Hofmannsthal" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1923-01-15_01_AS_Hofmannsthal"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 15. 1. 1923</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 15.&#160;1.&#160;1923</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Hs-30885,XXXX</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <!-- <placeName key="pmb50">Wien</placeName> -->
-               <date when="1923-01-15" n="01">15. 1. 1923</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <!-- <placeName ref="#pmb50">Wien</placeName> -->
+               <date when="1923-01-15" n="01">15.&#160;1.&#160;1923</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1922-01-28_01">Hofmannsthal an Schnitzler, 28. 1. 1922</ptr>
-               <ptr type="next" subtype="toAuthor" target="1923-01-16_01">Hofmannsthal an Schnitzler, 16. 1. 1923</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1922-01-28_01">Hofmannsthal an Schnitzler, 28.&#160;1.&#160;1922</ptr>
+               <ptr type="next" subtype="toAuthor" target="1923-01-16_01">Hofmannsthal an Schnitzler, 16.&#160;1.&#160;1923</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,50 +103,38 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>15. 1. 1923</date>
-               </dateline>
-               <salute>Mein lieber Hugo. </salute>
-            </opener>
-            <p>Sie wissen vielleicht, daß die »<workName key="pmb29857">Beatrice</workName>« von
-                  <persName key="pmb22001">Heinrich Noren</persName> komponiert worden ist. Auf mein
-               Ersuchen die Partitur anzusehen, resp. sich Teile aus der Oper von <persName key="pmb22001">Noren</persName> selbst (der einen höchst geachteten musikalischen
-               Namen besitzt) Vorspielen zu lassen, erwiderte mir <persName key="pmb12870">Richard
-                  Strauss</persName>, daß die Oper überhaupt nicht daran denken könne Uraufführungen
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>15.&#160;1.&#160;1923</date></dateline><salute>Mein lieber Hugo. </salute></opener><p>Sie wissen vielleicht, daß die »<rs ref="#pmb29857" type="work">Beatrice</rs>« von
+                  <rs ref="#pmb22001" type="person">Heinrich Noren</rs> komponiert worden ist. Auf mein
+               Ersuchen die Partitur anzusehen, resp. sich Teile aus der Oper von <rs ref="#pmb22001" type="person">Noren</rs> selbst (der einen höchst geachteten musikalischen
+               Namen besitzt) Vorspielen zu lassen, erwiderte mir <rs ref="#pmb12870" type="person">Richard
+                  Strauss</rs>, daß die Oper überhaupt nicht daran denken könne Uraufführungen
                zu bringen – aus hauptsächlich materiellen, aber gewiß plausiblen Gründen. Es gibt
                vielleicht Fälle, in denen man von diesem Prinzip abgehen könnte, es scheint ja auch,
                daß es manchmal geschieht. Ich selbst konnte natürlich in meinem Falle nicht
                insistieren, obwohl gerade er am ehesten Anlaß gäbe von jenem Prinzip wenigstens
-               insoweit abzuweichen, als die Direktion der <placeName key="pmb36687">Oper</placeName> immerhin den Versuch riskieren könnte, das Werk kennen zulernen.
-               Warum ich das Ihnen erzähle, lieber Hugo? Weil mir neulich <persName key="pmb22001">Noren</persName> schreibt, und weil <persName key="pmb13041">Bruno
-                  Walter</persName> gleichfalls behauptet, daß Sie der einzige Mensch wären, der auf
-                  <persName key="pmb12870">Strauss</persName> oder <persName key="pmb12630">Schalk</persName> oder auf sie Beide in dem Sinne einwirken könnte, daß diese zum
+               insoweit abzuweichen, als die Direktion der <rs ref="#pmb36687" type="place">Oper</rs> immerhin den Versuch riskieren könnte, das Werk kennen zulernen.
+               Warum ich das Ihnen erzähle, lieber Hugo? Weil mir neulich <rs ref="#pmb22001" type="person">Noren</rs> schreibt, und weil <rs ref="#pmb13041" type="person">Bruno
+                  Walter</rs> gleichfalls behauptet, daß Sie der einzige Mensch wären, der auf
+                  <rs ref="#pmb12870" type="person">Strauss</rs> oder <rs ref="#pmb12630" type="person">Schalk</rs> oder auf sie Beide in dem Sinne einwirken könnte, daß diese zum
                mindesten von der Existenz des in Frage stehenden Werkes Notiz nähmen, der vielleicht
-               sogar (dies sind <persName key="pmb13041">Bruno Walter</persName>s Worte) auf die
+               sogar (dies sind <rs ref="#pmb13041" type="person">Bruno Walter</rs>s Worte) auf die
                Absurdität hin weisen dürfte, die nicht nur dem Komponisten darin zu liegen scheint,
-               daß die <placeName key="pmb50">Wien</placeName>er Oper ein sozusagen von zwei
-               <placeName key="pmb41240">Österreichern</placeName> verfaßtes Werk, und von nicht ganz unbekannten überdies, nicht nur
+               daß die <rs ref="#pmb50" type="place">Wien</rs>er Oper ein sozusagen von zwei
+               <rs ref="#pmb41240" type="place">Österreichern</rs> verfaßtes Werk, und von nicht ganz unbekannten überdies, nicht nur
                nicht zu eventueller Uraufführung in Erwägung ziehen, sondern vorläufig sogar eine
                Prüfung Lieber vermeiden möchte. Auch ich fühle etwas von der Absurdität, die in
-               <persName key="pmb12870">Strauss</persName>ens Vorgehen steckt (mit <persName key="pmb12630">Schalk</persName>
+               <rs ref="#pmb12870" type="person">Strauss</rs>ens Vorgehen steckt (mit <rs ref="#pmb12630" type="person">Schalk</rs>
                habe ich nicht gesprochen, er weiß vielleicht von der Existenz der Oper bis heute gar
                nichts); trotzdem hätte ich Sie in der Sache nicht bemüht, wenn ich es nicht allzu
-               schwer fände <persName key="pmb22001">Heinrich Noren</persName> die Erfüllung eines
+               schwer fände <rs ref="#pmb22001" type="person">Heinrich Noren</rs> die Erfüllung eines
                Wunsches zu verweigern, die ihm die Erfüllung seines wesentlichen – die Aufführung
-               seiner Oper in <placeName key="pmb50">Wien</placeName> – in die Nähe zu rücken
+               seiner Oper in <rs ref="#pmb50" type="place">Wien</rs> – in die Nähe zu rücken
                scheint. Ich weiß weder, ob Sie, lieber Hugo, Gelegenheit, noch ob Sie Lust haben
                sich mit dieser Sache in irgend einer Form zu befassen. Vielleicht sprechen wir bald
-               einmal darüber, wenn Sie wieder nach <placeName key="pmb50">Wien</placeName>
+               einmal darüber, wenn Sie wieder nach <rs ref="#pmb50" type="place">Wien</rs>
                hereinkommen. Es wäre ja überhaupt schon Zeit, daß man sich wieder einmal sieht und
-               spricht. Ich habe Ihnen noch nicht einmal zum Erfolg des »<workName key="pmb30839">Großen Welttheaters</workName>« gratuliert und nicht gesagt, wie schön Ihre
-               beiden <rs type="work" key="pmb41299 pmb41302">Artikel</rs> im »<workName key="pmb41296">Dial</workName>« (nicht nur <rs type="work" key="pmb41299">der über
-                  mich</rs>) waren. </p>
-            <closer>Seien Sie herzlichst gegrüßt <signed>A. S.</signed>
-            </closer>
-         </div>
-      </body>
+               spricht. Ich habe Ihnen noch nicht einmal zum Erfolg des »<rs ref="#pmb30839" type="work">Großen Welttheaters</rs>« gratuliert und nicht gesagt, wie schön Ihre
+               beiden <rs type="work" ref="#pmb41299 pmb41302" subtype="implied">Artikel</rs> im »<rs ref="#pmb41296" type="work">Dial</rs>« (nicht nur <rs type="work" ref="#pmb41299" subtype="implied">der über
+                  mich</rs>) waren. </p><closer>Seien Sie herzlichst gegrüßt <signed>A.&#160;S.</signed></closer></div></body>
    </text>
 </TEI>

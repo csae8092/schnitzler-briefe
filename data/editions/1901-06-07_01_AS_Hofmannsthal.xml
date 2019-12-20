@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1901-06-07_01_AS_Hofmannsthal" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1901-06-07_01_AS_Hofmannsthal"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 7. 6. 1901</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 7.&#160;6.&#160;1901</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Hs-30885,XXXX</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1901-06-07" n="01">7. 6. 1901</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1901-06-07" n="01">7.&#160;6.&#160;1901</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
                <ptr type="previous" subtype="toAuthor" target="1901-01_01">Hofmannsthal an Schnitzler, 1901-01</ptr>
-               <ptr type="next" subtype="toAuthor" target="1901-06-07_02">Hofmannsthal an Schnitzler, 7. 6. 1901</ptr>
+               <ptr type="next" subtype="toAuthor" target="1901-06-07_02">Hofmannsthal an Schnitzler, 7.&#160;6.&#160;1901</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,24 +103,12 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb50">Wien</placeName>, <date>7. Juni 901</date>. </dateline>
-               <salute>Mein lieber Hugo, </salute>
-            </opener>
-            <p>Sie erinnern sich vielleicht dieser kleinen Kassette oder wie Sie’s nennen wollen,
-               aus <placeName key="pmb30">Salzburg</placeName>. Ich möchte gern, daß Sie irgendwo in
-               der <placeName key="pmb40297">Rodauner Villa</placeName> einen Platz fänden sie
-               hinzustellen und sich dabei manchmal jenes <placeName key="pmb30">Salzburg</placeName>er Tags beim <placeName key="pmb40036">Svatek</placeName>
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb50" type="place">Wien</rs>, <date>7.&#160;Juni 901</date>. </dateline><salute>Mein lieber Hugo, </salute></opener><p>Sie erinnern sich vielleicht dieser kleinen Kassette oder wie Sie’s nennen wollen,
+               aus <rs ref="#pmb30" type="place">Salzburg</rs>. Ich möchte gern, daß Sie irgendwo in
+               der <rs ref="#pmb40297" type="place">Rodauner Villa</rs> einen Platz fänden sie
+               hinzustellen und sich dabei manchmal jenes <rs ref="#pmb30" type="place">Salzburg</rs>er Tags beim <rs ref="#pmb40036" type="place">Svatek</rs>
                erinnern; und andrer Tage auch. Adieu und auf ein schönes Wiedersehn, spätestens zu
-               Anfang des Herbstes. Grüßen Sie <persName key="pmb2292">Gerty</persName>, ich brauche
-               Ihnen beiden nicht erst zu sagen, wie viel Glück ich Ihnen wünsche. </p>
-            <closer>Immer Ihr<lb/>
-               <signed>Arthur</signed>
-            </closer>
-         </div>
-      </body>
+               Anfang des Herbstes. Grüßen Sie <rs ref="#pmb2292" type="person">Gerty</rs>, ich brauche
+               Ihnen beiden nicht erst zu sagen, wie viel Glück ich Ihnen wünsche. </p><closer>Immer Ihr<lb/><signed>Arthur</signed></closer></div></body>
    </text>
 </TEI>

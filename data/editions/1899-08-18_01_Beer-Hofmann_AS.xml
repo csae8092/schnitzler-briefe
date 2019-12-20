@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-08-18_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1899-08-18_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 18. 8. 1899</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 18.&#160;8.&#160;1899</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,20 +51,19 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Bildpostkarte, Bleistift; Lateinschrift. Motiv: »<quote>Gruss aus
-                                 <placeName key="pmb43004">Selzthal.</placeName>
-                                    </quote>« Von
+                                 <rs ref="#pmb43004" type="place">Selzthal.</rs></quote>« Von
                            unbekannter Hand mit Bleistift nummeriert: »<quote>136</quote>«.</p>
                         <stamp n="1">
-                           <placeName key="pmb43004">Selzthal Bahnhof</placeName>
-                           <date>18 8 99</date>
+                           <rs ref="#pmb43004" type="place">Selzthal Bahnhof</rs>
+                           <date>18&#160;8&#160;99</date>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb213">Ischl</placeName>
-                           <date>18 8 99</date>
+                           <rs ref="#pmb213" type="place">Ischl</rs>
+                           <date>18&#160;8&#160;99</date>
                            <time>7-8<supplied>N</supplied>
                            </time>
                         </stamp>
@@ -77,14 +79,14 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb43004">Selzthal</placeName>
-               <date when="1899-08-18" n="01">18. 8. 1899</date>
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb43004">Selzthal</placeName>
+               <date when="1899-08-18" n="01">18.&#160;8.&#160;1899</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb213">Ischl</placeName>
-               <date when="1899-08-18">18. 8. 1899</date>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb213">Ischl</placeName>
+               <date when="1899-08-18">18.&#160;8.&#160;1899</date>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -99,43 +101,10 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00305.jpg"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00304"/>Herrn</addrLine>
-               <addrLine>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
-               <addrLine>
-                  <placeName key="pmb213">Ischl</placeName>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb414">Pension Petter</placeName>
-               </addrLine>
-               <addrLine>
-                        <placeName key="pmb43015">Kaltenbach</placeName>
-                    </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00305"/>
-                        <time>7 ½
-                     früh</time>
-                        <lb/>
-                        <date>18/VIII 99</date>
-                    </dateline>
-               <salute>Lieber Arthur,</salute>
-            </opener>
-            <p>Sie haben vergessen mir von <persName key="pmb11469">Golds</persName> Brief zu sagen.
-               Durch <persName key="pmb11740">Hugo</persName> habe ich davon erfahren. Bitte
-               schreiben Sie mir genau, oder noch besser schicken Sie mir zur Durchsicht <persName key="pmb11469">Golds</persName> Brief.</p>
-            <closer>Herzlich<lb/>Ihr <signed>R</signed>
-            </closer>
-            <postscript>
-               <p>Ich habe <rs type="place" key="pmb43004">hier</rs> 3 Stunden Aufenthalt.</p>
-            </postscript>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00304"/>Herrn</addrLine><addrLine>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb213" type="place">Ischl</rs></addrLine><addrLine><rs ref="#pmb414" type="place">Pension Petter</rs></addrLine><addrLine><rs ref="#pmb43015" type="place">Kaltenbach</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00305"/><time>7&#160;½
+                     früh</time><lb/><date>18/VIII&#160;99</date></dateline><salute>Lieber Arthur,</salute></opener><p>Sie haben vergessen mir von <rs ref="#pmb11469" type="person">Golds</rs> Brief zu sagen.
+               Durch <rs ref="#pmb11740" type="person">Hugo</rs> habe ich davon erfahren. Bitte
+               schreiben Sie mir genau, oder noch besser schicken Sie mir zur Durchsicht <rs
+                  ref="#pmb11469" type="person">Golds</rs> Brief.</p><closer>Herzlich<lb/>Ihr <signed>R</signed></closer><postscript><p>Ich habe <rs type="place" ref="#pmb43004" subtype="implied">hier</rs> 3&#160;Stunden Aufenthalt.</p></postscript></div></body>
    </text>
 </TEI>

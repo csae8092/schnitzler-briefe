@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-01-11_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1899-01-11_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [nach dem
-                    11.? 1. 1899]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                    11.?&#160;1.&#160;1899]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -49,10 +53,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., Bleistift; Anschrift in Lateinschrift. Von Schnitzler
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., Bleistift; Anschrift in Lateinschrift. Von Schnitzler
                                     mit Bleistift datiert: »<quote>
                                         <date>Jänner 99</date>
                                     </quote>«. Von unbekannter Hand mit Bleistift nummeriert: »<quote>
@@ -66,8 +70,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -86,18 +90,21 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date notBefore="1899-01-01" when="1899-01-11" notAfter="1899-01-31" n="01">[nach dem 11.? 1. 1899]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date notBefore="1899-01-01"
+                     when="1899-01-11"
+                     notAfter="1899-01-31"
+                     n="01">[nach dem 11.?&#160;1.&#160;1899]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-01-10_02">Schnitzler an Hofmannsthal, [10. 1. 1899]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-01-16_01">Hofmannsthal an Schnitzler, [16. 1. 1899]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-01-10_02">Schnitzler an Hofmannsthal, [10.&#160;1.&#160;1899]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-01-16_01">Hofmannsthal an Schnitzler, [16.&#160;1.&#160;1899]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -112,22 +119,10 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00293"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <p rend="center">
-                    <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00293"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</p>
-                <p rend="center">
-                    <placeName key="pmb397">Frankgasse 1</placeName>
-                </p>
-                <p rend="center">--------------</p>
-                <p rend="center">
-                    <anchor type="commentary" xml:id="KL2380-1"/>Kürzen!<note type="commentary" xml:id="KL2380-1h">Worauf sich dieser Zettel bezieht, ist unklar. Da die
-                        sonstige Kommunikation keinen Anhaltspunkt bietet und <persName key="pmb11740">Hofmannsthal</persName> die ersten zehn Tage des Monats
-                        nicht in <placeName key="pmb50">Wien</placeName> war, könnte es sich um eine
+        <body><div type="writingSession" n="1"><p rend="center"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00293"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</p><p rend="center"><rs ref="#pmb397" type="place">Frankgasse 1</rs></p><p rend="center">--------------</p><p rend="center"><anchor type="commentary" xml:id="KL2380-1"/>Kürzen!<note type="commentary" xml:id="KL2380-1h">Worauf sich dieser Zettel bezieht, ist unklar. Da die
+                        sonstige Kommunikation keinen Anhaltspunkt bietet und <rs ref="#pmb11740" type="person">Hofmannsthal</rs> die ersten zehn Tage des Monats
+                        nicht in <rs ref="#pmb50" type="place">Wien</rs> war, könnte es sich um eine
                         schriftlich nachgereichte Antwort nach einem persönlichen Treffen handeln.
-                        Diese fanden am <date>11.</date> und am <date>17.</date> statt.</note>
-                </p>
-            </div>
-        </body>
+                        Diese fanden am <date>11.</date> und am <date>17.</date> statt.</note></p></div></body>
     </text>
 </TEI>

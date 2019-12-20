@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-07-13_02_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1899-07-13_02_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 13. 7. 1899</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 13.&#160;7.&#160;1899</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Postkarte, Bleistift; Lateinschrift. Von Schnitzler mit Bleistift
@@ -57,13 +61,13 @@
                            </quote>«. Von
                            unbekannter Hand mit Bleistift nummeriert: »<quote>133</quote>«.</p>
                         <stamp n="1">
-                           <placeName key="pmb34824">See<unclear>boden</unclear>
-                           </placeName>
+                           <rs ref="#pmb34824" type="place">See<unclear>boden</unclear>
+                           </rs>
                            <date>13 7 99</date>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb59">Wien 9/3</placeName>
-                           <date>14. 7. 99</date>
+                           <rs ref="#pmb59" type="place">Wien 9/3</rs>
+                           <date>14.&#160;7.&#160;99</date>
                            <time>11.V</time>
                            <action>Bestellt</action>
                         </stamp>
@@ -78,19 +82,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb34824">Seeboden</placeName>
-               <date when="1899-07-13" n="02">13. 7. 1899</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb34824">Seeboden</placeName>
+               <date when="1899-07-13" n="02">13.&#160;7.&#160;1899</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1899-07-14">14. 7. 1899</date>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1899-07-14">14.&#160;7.&#160;1899</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-07-13_01">Schnitzler an Beer-Hofmann, 13. 7. 1899</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-07-14_02">Beer-Hofmann an Schnitzler, 14. 7. 1899</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-07-13_01">Schnitzler an Beer-Hofmann, 13.&#160;7.&#160;1899</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-07-14_02">Beer-Hofmann an Schnitzler, 14.&#160;7.&#160;1899</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -105,34 +109,9 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00299.jpg"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00299"/>Herrn</addrLine>
-               <addrLine>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
-               <addrLine>
-                  <placeName key="pmb50">Wien</placeName>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb397">IX Frankgasse 1</placeName>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <salute>Lieber Arthur, </salute>unsere Briefe haben sich gekreuzt. Schreiben Sie mir
+      <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00299"/>Herrn</addrLine><addrLine>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb397" type="place">IX Frankgasse 1</rs></addrLine></address></div><div type="writingSession" n="1"><p><salute>Lieber Arthur, </salute>unsere Briefe haben sich gekreuzt. Schreiben Sie mir
                genau od telegrafiren Sie mit welchem Zug Sie ko<c rendition="#gemination-m"/>en
-               (hieher) Damit ich in <placeName key="pmb41052">Spittal</placeName> Sie erwarten
-               kann.</p>
-            <closer>Von Herzen<lb/>
-               <signed>Richard</signed>
-            </closer>
-            <postscript>
-               <p>Ko<c rendition="#gemination-m"/>en Sie <hi rend="underline" n="1">Donnerstag</hi> nicht <hi n="1" rend="underline">Mittwoch</hi>
-               </p>
-            </postscript>
-         </div>
-      </body>
+               (hieher) Damit ich in <rs ref="#pmb41052" type="place">Spittal</rs> Sie erwarten
+               kann.</p><closer>Von Herzen<lb/><signed>Richard</signed></closer><postscript><p>Ko<c rendition="#gemination-m"/>en Sie <hi rend="underline" n="1">Donnerstag</hi> nicht <hi n="1" rend="underline">Mittwoch</hi></p></postscript></div></body>
    </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-07-12_01_Altenberg_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-07-12_01_Altenberg_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Peter Altenberg an Arthur Schnitzler, [12. 7. 1894?]</title>
-                <author key="pmb2147">Altenberg, Peter</author>
+                <title level="a">Peter Altenberg an Arthur Schnitzler, [12.&#160;7.&#160;1894?]</title>
+                <author ref="#pmb2147">Altenberg, Peter</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,14 +55,14 @@
                                 <idno>DE-611-HS-86373</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S., schwarze Tinte. Eine Unterstreichung mit
-                                    rotem Buntstift. Zum Brief vgl. Schnitzler an <persName key="pmb2771">Egon Friedell</persName>, <date>17. 5. 1920</date> (<bibl>
-                                        <persName key="pmb2771">Egon Friedell</persName>:
-                                            <workName>Briefe</workName>. Ausgewählt und hg. Walther
-                                        Schneider. Wien, Stuttgart: <orgName>Georg
-                                            Prachner</orgName>
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S., schwarze Tinte. Eine Unterstreichung mit
+                                    rotem Buntstift. Zum Brief vgl. Schnitzler an <rs ref="#pmb2771" type="person">Egon Friedell</rs>, <date>17.&#160;5.&#160;1920</date> (<bibl>
+                                        <rs ref="#pmb2771" type="person">Egon Friedell</rs>:
+                                            <rs type="work">Briefe</rs>. Ausgewählt und hg. Walther
+                                        Schneider. Wien, Stuttgart: <rs type="organisation">Georg
+                                            Prachner</rs>
                                         <space unit="chars" quantity="1"/>
-                                        <date>[1954]</date>, S. 39</bibl>).</p>
+                                        <date>[1954]</date>, S.&#160;39</bibl>).</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -71,7 +75,7 @@
                         <monogr>
                             <title level="j">Die Wage</title>
                             <biblScope unit="jg">N.F. 1</biblScope>
-                            <biblScope unit="pp">100–104, hier: S. XXXX</biblScope>
+                            <biblScope unit="pp">100–104, hier: S.&#160;XXXX</biblScope>
                             <imprint>
                                 <date when="1920">1920</date>
                             </imprint>
@@ -79,16 +83,16 @@
                     </biblStruct>
                     <biblStruct>
                         <analytic>
-                            <title level="a" key="pmb33428">Letzte Briefe von Peter
+                            <title level="a" ref="#pmb33428">Letzte Briefe von Peter
                                 Altenberg</title>
                         </analytic>
                         <monogr>
-                            <title level="j" key="pmb36376">Neues Wiener Journal</title>
+                            <title level="j" ref="#pmb36376">Neues Wiener Journal</title>
                             <biblScope unit="jg">28</biblScope>
                             <biblScope unit="nr">9714</biblScope>
                             <biblScope unit="pp">8</biblScope>
                             <imprint>
-                                <date when="1920-11-21">21. 11. 1920</date>
+                                <date when="1920-11-21">21.&#160;11.&#160;1920</date>
                             </imprint>
                         </monogr>
                     </biblStruct>
@@ -127,7 +131,7 @@
                     </biblStruct>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb2147">Altenberg, Peter</author>
+                            <author ref="#pmb2147">Altenberg, Peter</author>
                             <title level="m">Die Selbsterfindung eines Dichters. Briefe und
                                 Dokumente 1892–1896</title>
                             <editor>Hg. und mit einem Nachwort von Leo A. Lensing</editor>
@@ -147,16 +151,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2147">Altenberg, Peter</persName>
-                    <date when="1894-07-12" n="02">[12. 7. 1894]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2147">Altenberg, Peter</persName>
+                    <date when="1894-07-12" n="02">[12.&#160;7.&#160;1894]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-07-05_01">Altenberg an Schnitzler, [5.? 7. 1894]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-07-30_01">Altenberg an Schnitzler, [30. 7. 1895]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-07-05_01">Altenberg an Schnitzler, [5.? 7.&#160;1894]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-07-30_01">Altenberg an Schnitzler, [30.&#160;7.&#160;1895]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -176,65 +180,30 @@
         <graphic url="td42114_00003"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="td42114_00001.tif"/>Lieber <hi rend="latintype">D<hi rend="superscript">r.</hi>
-                        </hi> Arthur Schnitzler.</salute>
-                </opener>
-                <p>Ihr wunderſchöner <anchor type="commentary" xml:id="KL828-1"/>Brief<note type="commentary" xml:id="KL828-1h">
-                        <persName key="pmb2147">Altenberg</persName> erwähnt das Korrespondenzstück
-                        in einem Brief vom <date>12. 7. 1894</date> an <persName key="pmb4854">Annie
-                            Holitscher</persName> (<bibl>
-                            <workName>Die Selbsterfindung eines Dichters</workName>, S. 138</bibl>).
-                        An dieser Stelle erwähnt er auch, dass er <persName key="pmb2121">Schnitzler</persName> an eben diesem Tag geantwortet habe.</note> hat
-                    mich wirklich außerordentlich gefreut. Wie schreibe ich denn?!</p>
-                <p>Ganz frei, ganz ohne Bedenken. Nie weiß ich mein Thema vorher, nie denke ich
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="td42114_00001.tif"/>Lieber <hi rend="latintype">D<hi rend="superscript">r.</hi></hi> Arthur Schnitzler.</salute></opener><p>Ihr wunderſchöner <anchor type="commentary" xml:id="KL828-1"/>Brief<note type="commentary" xml:id="KL828-1h"><rs ref="#pmb2147" type="person">Altenberg</rs> erwähnt das Korrespondenzstück
+                        in einem Brief vom <date>12.&#160;7.&#160;1894</date> an <rs ref="#pmb4854" type="person">Annie
+                            Holitscher</rs> (<bibl><rs type="work">Die Selbsterfindung eines Dichters</rs>, S.&#160;138</bibl>).
+                        An dieser Stelle erwähnt er auch, dass er <rs ref="#pmb2121" type="person">Schnitzler</rs> an eben diesem Tag geantwortet habe.</note> hat
+                    mich wirklich außerordentlich gefreut. Wie schreibe ich denn?!</p><p>Ganz frei, ganz ohne Bedenken. Nie weiß ich mein Thema vorher, nie denke ich
                     nach. Ich nehme Papier und ſchreibe. Sogar den Titel ſchreibe ich ſo hin und
-                    hoffe, es wird ſich ſchon etwas machen, was mit dem Titel in Zuſa<c rendition="#gemination-m"/>enhang ſteht.</p>
-                <p>Man muß ſich auf ſich verlaſſen, ſich nicht Gewalt anthun, ſich entſetzlich frei
-                    ausleben laſſen, hinfliegen –. <pb facs="td42114_00002.tif"/>Was dabei
+                    hoffe, es wird ſich ſchon etwas machen, was mit dem Titel in Zuſa<c rendition="#gemination-m"/>enhang ſteht.</p><p>Man muß ſich auf ſich verlaſſen, ſich nicht Gewalt anthun, ſich entſetzlich frei
+                    ausleben laſſen, hinfliegen&#160;–. <pb facs="td42114_00002.tif"/>Was dabei
                         herausko<c rendition="#gemination-m"/>t, iſt ſicher das was wirklich u. tief
                     in mir war. Ko<c rendition="#gemination-m"/>t nichts heraus, ſo war eben nichts
-                    wirklich und tief darin und das macht dann auch nichts.</p>
-                <p>Ich betrachte ſchreiben als eine natürliche organiſche Entlaſtung eines vollen,
-                    eines übervollen Menſchen.</p>
-                <p>Daher alle <del rend="strikethrough">
-                        <unclear>meine</unclear>
-                    </del> Fehler, Bläſſen. Ich haſſe die <hi rend="latintype">Retouche</hi>.
-                    Schmeiſſ’ es hin und gut–! O<subst>
-                        <del rend="overwritten">
-                            <unclear>b</unclear>
-                            <gap quantity="1" reason="illegible" unit="chars"/>
-                        </del>
-                        <add place="inline">de</add>
-                    </subst>r ſchlecht! Was macht das?! Wenn nur du es biſt, Du und kein Anderer,
+                    wirklich und tief darin und das macht dann auch nichts.</p><p>Ich betrachte ſchreiben als eine natürliche organiſche Entlaſtung eines vollen,
+                    eines übervollen Menſchen.</p><p>Daher alle <del rend="strikethrough"><unclear>meine</unclear></del> Fehler, Bläſſen. Ich haſſe die <hi rend="latintype">Retouche</hi>.
+                    Schmeiſſ’ es hin und gut–! O<subst><del rend="overwritten"><unclear>b</unclear><gap quantity="1" reason="illegible" unit="chars"/></del><add place="inline">de</add></subst>r ſchlecht! Was macht das?! Wenn nur du es biſt, Du und kein Anderer,
                     dein heiliges Du! Ihr Wort »Selbſtſucher« iſt wirklich <pb facs="td42114_00002.tif"/>außerordentlich. Wann werden Sie aber ſchreiben
-                    »Selbſtfinder«?!</p>
-                <p>
-                    <del rend="strikethrough">Freiheit und</del> Meine Sachen haben das <hi rend="latintype">Malheur</hi>, daß ſie i<c rendition="#gemination-m"/>er für
+                    »Selbſtfinder«?!</p><p><del rend="strikethrough">Freiheit und</del> Meine Sachen haben das <hi rend="latintype">Malheur</hi>, daß ſie i<c rendition="#gemination-m"/>er für
                     kleine Proben betrachtet werden, während ſie leider bereits das ſind, was ich
                     überhaupt zu leiſten im Stand bin. Aber was macht es?! Ob ich ſchreibe oder
-                    nicht, iſt mir gleichgiltig.</p>
-                <p>Wichtiger iſt, daß ich in einem Kreiſe von feinen gebildeten jungen Leuten zeige,
-                    daß <del rend="strikethrough">f<gap reason="illegible" unit="chars" quantity="5"/>
-                    </del> in mir das Fünkchen glimmt. Sonſt kommt man sich ſo gedrückt vor, ſo
-                    zudringlich, ſo ſchief angeblinzelt. Ich bin ſo ſchon genug »<hi rend="latintype">Invalide</hi> des Lebens«.</p>
-                <p>Ihr Brief hat mich ſehr, ſehr gefreut! <pb facs="td42114_00003.tif"/>
-                    <del rend="strikethrough">Ich <unclear>zeigs ohne</unclear>
-                    </del> Sie ſind überhaupt Alle ſo liebenswürdig gegen mich. Jeder iſt
+                    nicht, iſt mir gleichgiltig.</p><p>Wichtiger iſt, daß ich in einem Kreiſe von feinen gebildeten jungen Leuten zeige,
+                    daß <del rend="strikethrough">f<gap reason="illegible" unit="chars" quantity="5"/></del> in mir das Fünkchen glimmt. Sonſt kommt man sich ſo gedrückt vor, ſo
+                    zudringlich, ſo ſchief angeblinzelt. Ich bin ſo ſchon genug »<hi rend="latintype">Invalide</hi> des Lebens«.</p><p>Ihr Brief hat mich ſehr, ſehr gefreut! <pb facs="td42114_00003.tif"/><del rend="strikethrough">Ich <unclear>zeigs ohne</unclear></del> Sie ſind überhaupt Alle ſo liebenswürdig gegen mich. Jeder iſt
                     wolwollend. <hi n="1" rend="underline">Sie</hi> haben mir aber wirklich
-                    wundervolle Sachen geſagt. Beſonders das Wort »Selbſtſucher« eben.</p>
-                <p>Ich bitte Sie, man hat keinen Beruf, kein Geld, keine <hi rend="latintype">Position</hi> u. ſchon ſehr wenig Haare, da iſt ſo eine feine Anerkennung
-                    von einem »Wiſſenden« ſehr, ſehr angenehm.</p>
-                <p>Deshalb bin u. bleibe ich doch nur ein Schreiber von »Muſtern ohne Werth« u. die
+                    wundervolle Sachen geſagt. Beſonders das Wort »Selbſtſucher« eben.</p><p>Ich bitte Sie, man hat keinen Beruf, kein Geld, keine <hi rend="latintype">Position</hi> u. ſchon ſehr wenig Haare, da iſt ſo eine feine Anerkennung
+                    von einem »Wiſſenden« ſehr, ſehr angenehm.</p><p>Deshalb bin u. bleibe ich doch nur ein Schreiber von »Muſtern ohne Werth« u. die
                     Waare ko<c rendition="#gemination-m"/>t alleweil nicht. Ich bin ſo ein kleiner
-                    Handſpiegel, <hi rend="latintype">Toilette</hi>ſpiegel, kein <del rend="strikethrough">Weltſpiegel</del> Welten-Spiegel.</p>
-                <closer>Ihr<lb/>
-                    <signed>Richard Engländer.</signed>
-                </closer>
-            </div>
-        </body>
+                    Handſpiegel, <hi rend="latintype">Toilette</hi>ſpiegel, kein <del rend="strikethrough">Weltſpiegel</del> Welten-Spiegel.</p><closer>Ihr<lb/><signed>Richard Engländer.</signed></closer></div></body>
     </text>
 </TEI>

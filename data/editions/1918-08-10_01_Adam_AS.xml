@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1918-08-10_01_Adam_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1918-08-10_01_Adam_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 10. 8. 1918</title>
-                <author key="pmb12438">Adam, Robert</author>
+                <title level="a">Robert Adam an Arthur Schnitzler, 10.&#160;8.&#160;1918</title>
+                <author ref="#pmb12438">Adam, Robert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>            
                                 <settlement>Cambridge</settlement>            
                                 <repository>University Library</repository>            
-                                <idno>Schnitzler, B 1</idno>
+                                <idno>Schnitzler, B&#160;1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S. Von Schnitzler beschriftet:
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S. Von Schnitzler beschriftet:
                                     »<quote>
                               <hi rend="latintype">Adam</hi>
                            </quote>«. Von unbekannter Hand nummeriert: »<quote>6</quote>«.</p>
@@ -77,18 +81,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1918-08-10" n="01">10. 8. 1918</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1918-08-10" n="01">10.&#160;8.&#160;1918</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1918-08-06_01">Schnitzler an Adam, 6. 8. 1918</ptr>
-               <ptr type="next" subtype="toAuthor" target="1918-08-19_01">Schnitzler an Adam, 19. 8. 1918</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1918-08-06_01">Schnitzler an Adam, 6.&#160;8.&#160;1918</ptr>
+               <ptr type="next" subtype="toAuthor" target="1918-08-19_01">Schnitzler an Adam, 19.&#160;8.&#160;1918</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -99,37 +103,18 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="gray00538.pdf"/>
-                  <placeName key="pmb50">Wien</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date>10/8 1918</date>
-               </dateline>
-                    <salute rend="center">Hochverehrter Herr Doktor!</salute>
-            </opener>
-                <p>Ich ſende Ihnen ein kleines Verzeichnis von Büchern über jugendliche Verbrecher,
-                    die ich dem Katalog der »<orgName key="pmb29587">Privatbibliothek der Juſtizbeamten</orgName>« entnehme. Dieſe
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="gray00538.pdf"/><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date>10/8 1918</date></dateline><salute rend="center">Hochverehrter Herr Doktor!</salute></opener><p>Ich ſende Ihnen ein kleines Verzeichnis von Büchern über jugendliche Verbrecher,
+                    die ich dem Katalog der »<rs ref="#pmb29587" type="organisation">Privatbibliothek der Juſtizbeamten</rs>« entnehme. Dieſe
                     Bücher – wenn auch nur nach und nach – könnte ich Ihnen beſchaffen. Die
-                    <rs type="organisation" key="pmb29587">Bibliothek</rs> enthält aber gewiß – da ſie an kriminaliſtiſchen Werken ſehr
+                    <rs type="organisation" ref="#pmb29587" subtype="implied">Bibliothek</rs> enthält aber gewiß – da ſie an kriminaliſtiſchen Werken ſehr
                     reichhaltig iſt – noch viele andere Bücher, die das Sie intereſſierende Thema
                     behandeln; der Katalog iſt aber äußerſt ſchlecht angelegt, die Titel ſind oft
                     unrichtig oder <pb facs="gray00539.pdf"/>unvollſtändig angegeben. Wenn ich
                     wieder einmal vormittags einige freie Zeit erübrige, durchſtöbere ich die
-                    <rs type="organisation" key="pmb29587">Bibliothek</rs> ſelbſt und ſchlage insbeſondere in den Inhaltsverzeichniſſen der
+                    <rs type="organisation" ref="#pmb29587" subtype="implied">Bibliothek</rs> ſelbſt und ſchlage insbeſondere in den Inhaltsverzeichniſſen der
                     kriminaliſtiſchen Zeitſchriften nach; es ſollte mich dann ſehr wundern, wenn
                     ſich nicht Arbeiten fänden – insbeſondere auch Wiedergabe konkreter Rechtsfälle –,
-                    die Ihnen von Nutzen ſein könnten.</p>
-                <p>Die weniger in Betracht kommenden Bücher habe ich eingeklammert.</p>
-                <p>Auch die Abteilung: »Pſychiatrie und Kriminalpſychologie« unſerer <rs type="organisation" key="pmb29587">Bibliothek</rs> iſt
-                    ziemlich reichhaltig.</p>
-                <p>Mit ergebenſten Grüßen</p>
-                <closer>Ihr<lb/>
-                    <signed>D<hi rend="superscript">r</hi>RAdam</signed>
-                </closer>
-            </div>
-        </body>
+                    die Ihnen von Nutzen ſein könnten.</p><p>Die weniger in Betracht kommenden Bücher habe ich eingeklammert.</p><p>Auch die Abteilung: »Pſychiatrie und Kriminalpſychologie« unſerer <rs type="organisation" ref="#pmb29587" subtype="implied">Bibliothek</rs> iſt
+                    ziemlich reichhaltig.</p><p>Mit ergebenſten Grüßen</p><closer>Ihr<lb/><signed>D<hi rend="superscript">r</hi>RAdam</signed></closer></div></body>
     </text>
 </TEI>

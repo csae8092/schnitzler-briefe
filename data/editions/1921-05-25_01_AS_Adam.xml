@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1921-05-25_01_AS_Adam">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1921-05-25_01_AS_Adam">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Robert Adam, 25. 5. 1921</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Robert Adam, 25.&#160;5.&#160;1921</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -52,23 +56,23 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Postkarte, Lateinschrift. Zusätzlicher Stempel: »<quote>
-                              <p>›HELFT <placeName key="pmb41240">
+                              <p>›HELFT <rs ref="#pmb41240" type="place">
                                     <country>ÖSTERREICHS</country>
-                                 </placeName> KINDERN!‹</p>
+                                 </rs> KINDERN!‹</p>
                               <p>
-                                 <orgName key="pmb34426">AMERIK. KINDERHILFSAKTION</orgName>
+                                 <rs ref="#pmb34426" type="organisation">AMERIK. KINDERHILFSAKTION</rs>
                               </p>
                               <p>
-                                 <placeName key="pmb51">WIEN I.</placeName>
+                                 <rs ref="#pmb51" type="place">WIEN I.</rs>
                               </p>
                               <p>
-                                 <placeName key="pmb795">ELISABETHSTR. 9</placeName>
+                                 <rs ref="#pmb795" type="place">ELISABETHSTR. 9</rs>
                               </p>
                            </quote>«, dieser
                                 auch in englischer Sprache gestempelt, aber nur fragmentarisch entzifferbar. Die Bezirksangabe in der Empfängeradresse wurde von unbekannter Hand durch Ergänzung von »<quote>/1</quote>« spezifiziert.</p>
                               <stamp n="1">
-                                  <placeName key="pmb51">1/1 Wien 8</placeName>
-                                  <date when="1921-05-25">25. V. 21</date>
+                                  <rs ref="#pmb51" type="place">1/1 Wien 8</rs>
+                                  <date when="1921-05-25">25.&#160;V.&#160;21</date>
                                   <time>5</time>
                               </stamp>
                             </physDesc>
@@ -82,18 +86,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1921-05-25" n="01">25. 5. 1921</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1921-05-25" n="01">25.&#160;5.&#160;1921</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1921-03-30_01">Schnitzler an Adam, 30. 3. 1921</ptr>
-               <ptr type="next" subtype="toAuthor" target="1921-05-29_01">Schnitzler an Adam, 29. 5. 1921</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1921-03-30_01">Schnitzler an Adam, 30.&#160;3.&#160;1921</ptr>
+               <ptr type="next" subtype="toAuthor" target="1921-05-29_01">Schnitzler an Adam, 29.&#160;5.&#160;1921</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -103,38 +107,8 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <pb facs=""/>A. S. <placeName key="pmb150">Wien XVIII. Sternwartestr 71</placeName>
-               </addrLine>
-                </address>
-                <address>
-                    <addrLine>Herrn Ob.Landesgerichtsrat</addrLine>
-                    <addrLine>Dr. Robert Adam Pollak</addrLine>
-                    <addrLine>
-                  <placeName key="pmb62">Wien XII</placeName>
-               </addrLine>
-                    <addrLine>
-                  <placeName key="pmb1239">58 Meidlinger Hauptstr 58</placeName>.</addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs=""/>
-                  <date>25. 5. 1921</date>
-               </dateline>
-                    <salute>Verehrtester Herr Doktor,</salute>
-                </opener>
-                <p>wenn Sie denn am <date>Dienstag (31. 5.)</date> gegen <time>Abend nach 6</time>
+        <body><div type="address"><address><addrLine><pb facs=""/>A.&#160;S. <rs ref="#pmb150" type="place">Wien XVIII. Sternwartestr 71</rs></addrLine></address><address><addrLine>Herrn Ob.Landesgerichtsrat</addrLine><addrLine>Dr. Robert Adam Pollak</addrLine><addrLine><rs ref="#pmb62" type="place">Wien XII</rs></addrLine><addrLine><rs ref="#pmb1239" type="place">58 Meidlinger Hauptstr 58</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>25.&#160;5.&#160;1921</date></dateline><salute>Verehrtester Herr Doktor,</salute></opener><p>wenn Sie denn am <date>Dienstag (31.&#160;5.)</date> gegen <time>Abend nach 6</time>
                 für mich Zeit hätten, wäre mir Ihr lieber Besuch ſehr willko<c rendition="#gemination-m"/>en. In der
-                Zwiſchenzeit war ich auch verreiſt, <placeName key="pmb38129">München</placeName> u. <placeName key="pmb30">Salzburg</placeName>.</p>
-                <closer>Herzlichſt grüßend Ihr<lb/>ſehr ergebener<lb/>
-               <signed>Arthur Schnitzler</signed>
-            </closer>
-            </div>
-        </body>
+                Zwiſchenzeit war ich auch verreiſt, <rs ref="#pmb38129" type="place">München</rs> u. <rs ref="#pmb30" type="place">Salzburg</rs>.</p><closer>Herzlichſt grüßend Ihr<lb/>ſehr ergebener<lb/><signed>Arthur Schnitzler</signed></closer></div></body>
     </text>
 </TEI>

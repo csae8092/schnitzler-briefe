@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-01-04_02_AS_Brahm">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1898-01-04_02_AS_Brahm">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Otto Brahm, 4. 1. 1898</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Otto Brahm, 4.&#160;1.&#160;1898</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -45,8 +49,8 @@
                 <listBibl>
                     <biblStruct corresp="ASOB">
                         <monogr>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
-                            <author key="pmb10986">Brahm, Otto</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10986">Brahm, Otto</author>
                             <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm.
                                 Vollständige Ausgabe</title>
                             <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor>
@@ -60,8 +64,8 @@
                     </biblStruct>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb10815">Bahr, Hermann</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10815">Bahr, Hermann</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel, Aufzeichnungen, Dokumente
                                 (1891–1931)</title>
                             <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
@@ -80,14 +84,14 @@
                 <language ident="de-DE">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1898-01-04" n="02">4. 1. 1898</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1898-01-04" n="02">4.&#160;1.&#160;1898</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb10986">Brahm, Otto</persName>
-                    <placeName key="pmb168">[Berlin]</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb10986">Brahm, Otto</persName>
+                    <placeName ref="#pmb168">[Berlin]</placeName>
                 </correspAction>
             
          </correspDesc>
@@ -98,69 +102,41 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <placeName key="pmb50">Wien</placeName>, <date>4. Jänner 98</date>
-                    </dateline>
-                    <salute>Lieber Herr Direktor,</salute>
-                </opener>
-                <p>in einigen Tagen werden Sie mein <rs type="work" key="pmb30219">Stück</rs>
-                    zugeschickt bekommen. Mit diesem verhält es sich so: <persName key="pmb11036">Burckhard</persName>, der nicht auf die letzte Abschrift warten wollte,
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb50" type="place">Wien</rs>, <date>4. Jänner 98</date></dateline><salute>Lieber Herr Direktor,</salute></opener><p>in einigen Tagen werden Sie mein <rs type="work" ref="#pmb30219" subtype="implied">Stück</rs>
+                    zugeschickt bekommen. Mit diesem verhält es sich so: <rs ref="#pmb11036" type="person">Burckhard</rs>, der nicht auf die letzte Abschrift warten wollte,
                     ließ es sich neulich von mir aus dem Manuskript vorlesen und erklärte mir sofort
                     nach dem Anhören, daß er es noch im Jänner aufführen wolle, und ersuchte mich,
-                    der größeren Raschheit halber, die Sache gleich dem <placeName key="pmb14">Burgtheater</placeName> zu übergeben. Ich bedang mir aus, daß ich zu
-                    gleicher Zeit zwei Abschriften erhalten müsse, da ich das Stück dem <placeName key="pmb3">Deutschen Theater</placeName> zugleich mit dem <placeName key="pmb14">Burgtheater</placeName> übergeben möchte. Dies wurde mir
+                    der größeren Raschheit halber, die Sache gleich dem <rs ref="#pmb14" type="place">Burgtheater</rs> zu übergeben. Ich bedang mir aus, daß ich zu
+                    gleicher Zeit zwei Abschriften erhalten müsse, da ich das Stück dem <rs ref="#pmb3" type="place">Deutschen Theater</rs> zugleich mit dem <rs ref="#pmb14" type="place">Burgtheater</rs> übergeben möchte. Dies wurde mir
                     zugesagt, und so werde ich Ihnen wohl in wenigen Tagen die Sache schicken
-                    können.</p>
-                <p>Am Tag nach <persName key="pmb11036">Burckhard</persName> hab ich das Stück
-                    strengeren Richtern vorgelesen: <persName key="pmb11740">Hofmannsthal</persName>
-                    (ich schwöre Ihnen, daß <hi rend="italic">
-                        <workName key="pmb32238">Kaiser und Hex</workName>
-                    </hi> das schönste von den <rs type="work" key="pmb32067 pmb32238 pmb32069">dreien</rs> ist), <persName key="pmb10863">Beer-Hofmann</persName>,
-                        <persName key="pmb2167">Salten</persName>, <persName key="pmb12740">Schwarzkopf</persName> – da hat sich mancherlei herausgestellt, was besser
+                    können.</p><p>Am Tag nach <rs ref="#pmb11036" type="person">Burckhard</rs> hab ich das Stück
+                    strengeren Richtern vorgelesen: <rs ref="#pmb11740" type="person">Hofmannsthal</rs>
+                    (ich schwöre Ihnen, daß <hi rend="italic"><rs ref="#pmb32238" type="work">Kaiser und Hex</rs></hi> das schönste von den <rs type="work" ref="#pmb32067 pmb32238 pmb32069" subtype="implied">dreien</rs> ist), <rs ref="#pmb10863" type="person">Beer-Hofmann</rs>,
+                        <rs ref="#pmb2167" type="person">Salten</rs>, <rs ref="#pmb12740" type="person">Schwarzkopf</rs> – da hat sich mancherlei herausgestellt, was besser
                     sein könnte, sogar wenn ich selber versuchte, es besser zu machen. Einiges habe
                     ich geändert, so, wie es sein soll, ist es nicht geworden und wird es wohl nie
                     werden, da gewisse Mängel doch gar zu tief in meiner Natur zu stecken scheinen.
                     Ich wollte, ich hätte etwas weniger Einsicht und etwas oder auch viel mehr
                     Talent; das wäre gut für meine Stücke und noch besser für meine Stimmung. Der
-                    Titel steht noch nicht fest. »Das Kind« ist zu nichtssagend, »<workName key="pmb30219">das Vermächtnis</workName>« zu banal, jetzt halt ich bei dem
-                    Titel »In der Familie«.</p>
-                <p>Sie werden sich vielleicht wundern, daß <persName key="pmb11036">Burckhard</persName> noch <rs type="work" key="pmb30219">Stücke</rs>
+                    Titel steht noch nicht fest. »Das Kind« ist zu nichtssagend, »<rs ref="#pmb30219" type="work">das Vermächtnis</rs>« zu banal, jetzt halt ich bei dem
+                    Titel »In der Familie«.</p><p>Sie werden sich vielleicht wundern, daß <rs ref="#pmb11036" type="person">Burckhard</rs> noch <rs type="work" ref="#pmb30219" subtype="implied">Stücke</rs>
                     annimmt. Vielleicht wissen Sie, wie es mit der <anchor type="commentary" xml:id="KL540-1"/>Direktionskrise<note type="commentary" xml:id="KL540-1h">Seit <date>Dezember 1897</date> diskutierten Zeitungen die Nachfolge
-                            <persName key="pmb11036">Burckhards</persName>, der schließlich
-                        resignierte.</note> am <placeName key="pmb14">Burgtheater</placeName> steht
-                    – hier weiß es niemand. <persName key="pmb12671">Schlenther</persName> wäre ja
-                    sehr schön, aber von den andern ist mir – trotz allem! – <persName key="pmb11036">Burckhard</persName> der weitaus liebste, vorausgesetzt, daß
-                    er sein Verhältnis zu <persName key="pmb10815">Bahr</persName> lösen könnte.
+                            <rs ref="#pmb11036" type="person">Burckhards</rs>, der schließlich
+                        resignierte.</note> am <rs ref="#pmb14" type="place">Burgtheater</rs> steht
+                    – hier weiß es niemand. <rs ref="#pmb12671" type="person">Schlenther</rs> wäre ja
+                    sehr schön, aber von den andern ist mir – trotz allem! – <rs ref="#pmb11036" type="person">Burckhard</rs> der weitaus liebste, vorausgesetzt, daß
+                    er sein Verhältnis zu <rs ref="#pmb10815" type="person">Bahr</rs> lösen könnte.
                     Wenn er einen anderen gefunden hätte als den, wäre viel aus ihm zu machen
                     gewesen. Sie werden mir allerdings erwidern: das ist ja sein Fehler, daß er
-                    gerade den gefunden hat. – Heute haben wir das <workName key="pmb29899">
-                        <hi rend="italic">Freiwild</hi>
-                    </workName> am <placeName key="pmb118">Carltheater</placeName> besetzt, das
-                    kommt Ende Jänner dran.</p>
-                <p>
-                    <persName key="pmb10992">Brandes</persName> kommt auf der Durchreise nach dem
-                    Süden nach <placeName key="pmb50">Wien</placeName>. Ich nehme an, er hält sich
-                    auch in <placeName key="pmb168">Berlin</placeName> auf; fahren Sie gleich mit
+                    gerade den gefunden hat. – Heute haben wir das <rs ref="#pmb29899" type="work"><hi rend="italic">Freiwild</hi></rs> am <rs ref="#pmb118" type="place">Carltheater</rs> besetzt, das
+                    kommt Ende Jänner dran.</p><p><rs ref="#pmb10992" type="person">Brandes</rs> kommt auf der Durchreise nach dem
+                    Süden nach <rs ref="#pmb50" type="place">Wien</rs>. Ich nehme an, er hält sich
+                    auch in <rs ref="#pmb168" type="place">Berlin</rs> auf; fahren Sie gleich mit
                     ihm zu uns. Sie waren sowieso schon viel zu lang nicht da. Sonst hätten Sie
-                    nicht den <workName key="pmb32238">
-                        <hi rend="italic">Kaiser und die Hex</hi>
-                    </workName> so schnöd abweisen können. Ist das die Art mit Hexen umzugehen? Nach
-                    dem <hi rend="italic">
-                        <workName key="pmb32296">Johannes</workName>
-                    </hi> werden Sie sich wohl ausruhen können.</p>
-                <p>Wie stehts denn mit der <persName key="pmb2299">Sorma</persName>? Ist das wahr,
-                    daß Sie sie ganz verlieren? Bitte grüßen Sie <persName key="pmb11701">Georg
-                        Hirschfeld</persName> vielmals. Wie geht’s seiner neuen Arbeit? Ist er in
-                        <placeName key="pmb168">Berlin</placeName> oder in <placeName key="pmb38129">München</placeName>?</p>
-
-                <closer>Viele herzliche Grüße! Ihr treuer<lb/>
-                    <signed>A. S.</signed>
-                </closer>
-            </div>
-        </body>
+                    nicht den <rs ref="#pmb32238" type="work"><hi rend="italic">Kaiser und die Hex</hi></rs> so schnöd abweisen können. Ist das die Art mit Hexen umzugehen? Nach
+                    dem <hi rend="italic"><rs ref="#pmb32296" type="work">Johannes</rs></hi> werden Sie sich wohl ausruhen können.</p><p>Wie stehts denn mit der <rs ref="#pmb2299" type="person">Sorma</rs>? Ist das wahr,
+                    daß Sie sie ganz verlieren? Bitte grüßen Sie <rs ref="#pmb11701" type="person">Georg
+                        Hirschfeld</rs> vielmals. Wie geht’s seiner neuen Arbeit? Ist er in
+                        <rs ref="#pmb168" type="place">Berlin</rs> oder in <rs ref="#pmb38129" type="place">München</rs>?</p><closer>Viele herzliche Grüße! Ihr treuer<lb/><signed>A. S.</signed></closer></div></body>
     </text>
 </TEI>

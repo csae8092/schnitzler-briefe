@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1908-01-16_01_Ehrenstein_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1908-01-16_01_Ehrenstein_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Albert Ehrenstein an Arthur Schnitzler, 16. 1. 1908</title>
-                <author key="pmb11230">Ehrenstein, Albert</author>
+                <title level="a">Albert Ehrenstein an Arthur Schnitzler, 16.&#160;1.&#160;1908</title>
+                <author ref="#pmb11230">Ehrenstein, Albert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -49,10 +53,10 @@
                                 <country>GB</country>            
                                 <settlement>Cambridge</settlement>            
                                 <repository>University Library</repository>            
-                                <idno>Schnitzler, B 30</idno>
+                                <idno>Schnitzler, B&#160;30</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S. Von Schnitzler beschriftet mit »<quote>
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S. Von Schnitzler beschriftet mit »<quote>
                               <hi rend="latintype">A. Ehrenstein</hi>
                            </quote>« und
                                 neben das Datum die richtige Jahreszahl »<quote>
@@ -65,7 +69,7 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb11230">Ehrenstein, Albert</author>
+                            <author ref="#pmb11230">Ehrenstein, Albert</author>
                             <title level="m">Briefe</title>
                             <editor>Hg. Hanni Mittelmann</editor>
                             <imprint>
@@ -88,18 +92,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
         <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11230">Ehrenstein, Albert</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1908-01-16" n="01">16. 1. 1908</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11230">Ehrenstein, Albert</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1908-01-16" n="01">16.&#160;1.&#160;1908</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-                <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1906-12-19_01">Schnitzler an Ehrenstein, 19. 12. 1906</ptr>
-               <ptr type="next" subtype="toAuthor" target="1908-01-24_01">Schnitzler an Ehrenstein, 24. 1. 1908</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1906-12-19_01">Schnitzler an Ehrenstein, 19.&#160;12.&#160;1906</ptr>
+               <ptr type="next" subtype="toAuthor" target="1908-01-24_01">Schnitzler an Ehrenstein, 24.&#160;1.&#160;1908</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -110,31 +114,10 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline>
-                        <pb facs="gray00074.pdf"/>
-                  <hi rend="latintype">
-                     <placeName key="pmb300">Wien, XVI. Ottakringerstr 114</placeName>
-                  </hi>
-                  <lb/>
-                  <hi rend="latintype">
-                     <date>16. Januar <anchor type="textConst" xml:id="TL850-1"/>1907<note type="textConst" xml:id="TL850-1h">Schreibirrtum.</note>
-                     </date>
-                  </hi>
-               </dateline>
-                    <salute rend="center">
-                  <hi rend="latintype">Sehr geehrter Herr Doktor!</hi>
-               </salute>
-            </opener>
-                <p>Zu den vielen <anchor type="commentary" xml:id="KL850-1"/>Glückwünſchen<note type="commentary" xml:id="KL850-1h">Zur Zuerkennung des
-                <orgName key="pmb29677">Grillparzer-Preises</orgName> am <date>15. 1. 1908</date>.</note>, die 
+        <body><div type="writingSession" n="1"><opener><dateline><pb facs="gray00074.pdf"/><hi rend="latintype"><rs ref="#pmb300" type="place">Wien, XVI. Ottakringerstr 114</rs></hi><lb/><hi rend="latintype"><date>16.&#160;Januar <anchor type="textConst" xml:id="TL850-1"/>1907<note type="textConst" xml:id="TL850-1h">Schreibirrtum.</note></date></hi></dateline><salute rend="center"><hi rend="latintype">Sehr geehrter Herr Doktor!</hi></salute></opener><p>Zu den vielen <anchor type="commentary" xml:id="KL850-1"/>Glückwünſchen<note type="commentary" xml:id="KL850-1h">Zur Zuerkennung des
+                <rs ref="#pmb29677" type="organisation">Grillparzer-Preises</rs> am <date>15.&#160;1.&#160;1908</date>.</note>, die 
                     Sie, ſehr verehrter Herr Doktor, in dieſen Tagen
-                    überfliegen werden, auch meine beſcheidene Gratulation.</p>
-                <p>Dürfte doch dieſe <placeName key="pmb41240">
-                  <country>öſterreichiſch</country>
-               </placeName> ſo 
+                    überfliegen werden, auch meine beſcheidene Gratulation.</p><p>Dürfte doch dieſe <rs ref="#pmb41240" type="place"><country>öſterreichiſch</country></rs> ſo 
                     unverzeihlich lang hinausgezögerte Ehrung,
                     die nun, ſchwer vermeidbar geworden, nicht einmal auf deren Urheber zurückfällt,
                     geſchweige denn ihren Zweck erreicht, manchen, und unter ihren auch mich,
@@ -144,26 +127,18 @@
                     auch ſo muß man einigermaßen froh ſein, daß ſich die Dinge etwas gebeſſert
                     haben, indem ſich auch bei uns ſogar akademiſche Preisrichter dem längſt
                     feſtſtehenden Urteil der Verſtändigen bequemtem. Denn gewiß: hätte es zu
-                    <persName key="pmb11518">Grillparzer</persName>s Zeiten etwa einen <persName key="pmb5633">Walther von der Vogelweide</persName>-Preis gegeben, alle
-                    möglichen <persName key="pmb5591">Halme</persName> und <persName key="pmb11555">Gutzkows</persName> hätten ihn erbuckelt, nur nicht den <placeName key="pmb50">Wien</placeName>er <rs type="person" key="pmb11518">Dichter</rs>
-                    hätte man durch ihn zu neuem Leben aufgerufen.</p>
-                <p>Jedenfalls, der Wunſch, ſolche und ähnliche Auszeichnung durch wiederholte <pb facs="gray00075.pdf"/>Verleihung an den ihrer Würdigſten ebenſo lächerlicher
+                    <rs ref="#pmb11518" type="person">Grillparzer</rs>s Zeiten etwa einen <rs ref="#pmb5633" type="person">Walther von der Vogelweide</rs>-Preis gegeben, alle
+                    möglichen <rs ref="#pmb5591" type="person">Halme</rs> und <rs ref="#pmb11555" type="person">Gutzkows</rs> hätten ihn erbuckelt, nur nicht den <rs ref="#pmb50" type="place">Wien</rs>er <rs type="person" ref="#pmb11518" subtype="implied">Dichter</rs>
+                    hätte man durch ihn zu neuem Leben aufgerufen.</p><p>Jedenfalls, der Wunſch, ſolche und ähnliche Auszeichnung durch wiederholte <pb facs="gray00075.pdf"/>Verleihung an den ihrer Würdigſten ebenſo lächerlicher
                     als trauriger Parteilichkeit entzogen zu ſehen, kommt mir aus dem Herzen. Habe
                     ich doch Ihnen, ſehr geehrter Herr Doktor, nichts Kleines zu danken: Troſt in
                     der Krankheit, Ermunterung im Trübſinn, Anregung aus Ihren Werken – namentlich
-                    dem prämierten <rs type="work" key="pmb29903">Stücke</rs>. Und wenn es mit gegönnt war, bloß 
-                    den <anchor type="commentary" xml:id="KL850-2"/>Anfang<note type="commentary" xml:id="KL850-2h">Der erste von sechs Teilen des Vorabdrucks von <workName key="pmb29923">Der Weg ins Freie</workName> wurde
-                    im Anfang des Monats ausgegeben <date>Januar</date>-Heft der <workName key="pmb36156">Neuen Rundschau</workName> (<bibl>S. 31–71</bibl>).</note> Ihres neuen
-                    <rs type="work" key="pmb29923">Romans</rs> mehrmals mit ſtets erneutem Entzücken zu leſen, haben Sie, ſehr geehrter
-                    Herr Doktor, daran keinen geringen Anteil.</p>
-                <p>
-               <pb facs="gray00076.pdf"/>Indem ich noch für dieſe Beläſtigung um
-                    Entſchuldigung bitte, verbleibe ich</p>
-                <closer>Hochachtungsvoll<lb/>
-                    Ihr Ergebenſter<lb/>
-                    <signed>Albert Ehrenstein</signed>
-                    </closer>
-            </div>
-        </body>
+                    dem prämierten <rs type="work" ref="#pmb29903" subtype="implied">Stücke</rs>. Und wenn es mit gegönnt war, bloß 
+                    den <anchor type="commentary" xml:id="KL850-2"/>Anfang<note type="commentary" xml:id="KL850-2h">Der erste von sechs Teilen des Vorabdrucks von <rs ref="#pmb29923" type="work">Der Weg ins Freie</rs> wurde
+                    im Anfang des Monats ausgegeben <date>Januar</date>-Heft der <rs ref="#pmb36156" type="work">Neuen Rundschau</rs> (<bibl>S.&#160;31–71</bibl>).</note> Ihres neuen
+                    <rs type="work" ref="#pmb29923" subtype="implied">Romans</rs> mehrmals mit ſtets erneutem Entzücken zu leſen, haben Sie, ſehr geehrter
+                    Herr Doktor, daran keinen geringen Anteil.</p><p><pb facs="gray00076.pdf"/>Indem ich noch für dieſe Beläſtigung um
+                    Entſchuldigung bitte, verbleibe ich</p><closer>Hochachtungsvoll<lb/>
+                    Ihr Ergebenſter<lb/><signed>Albert Ehrenstein</signed></closer></div></body>
     </text>
 </TEI>

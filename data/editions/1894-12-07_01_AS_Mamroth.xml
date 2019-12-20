@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-12-07_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-12-07_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Fedor Mamroth?, 7. 12. 1894</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Fedor Mamroth?, 7.&#160;12.&#160;1894</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,17 +55,17 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Der Brief wird unter jenen an
-                              <persName key="pmb10863">Richard Beer-Hofmann</persName> aufbewahrt.
+                        <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte. Der Brief wird unter jenen an
+                              <rs ref="#pmb10863" type="person">Richard Beer-Hofmann</rs> aufbewahrt.
                            Von zwei nicht zu identifizierenden Handschriften wurde die Unterschrift
                            ›entziffert‹: »<quote>Arthur</quote>« und »<quote>Schnitzler</quote>«,
                            weiters sind mit Bleistift archivalische Vermerke
                               angebracht: »<quote>1 K</quote>« und »<quote>421</quote>«. Als
                            Empfänger ist Fedor Mamroth anzunehmen, den Schnitzler bereits vor dessen
-                           Engagement für die <orgName key="pmb29442">Frankfurter Zeitung</orgName>
-                           kennengelernt hatte. Erklären ließe sich die Verwahrung bei <persName key="pmb10863">Beer-Hofmann</persName> etwa damit, dass es sich um
+                           Engagement für die <rs ref="#pmb29442" type="organisation">Frankfurter Zeitung</rs>
+                           kennengelernt hatte. Erklären ließe sich die Verwahrung bei <rs ref="#pmb10863" type="person">Beer-Hofmann</rs> etwa damit, dass es sich um
                            einen Briefentwurf und nicht den tatsächlich gesandten Brief handeln
-                           könnte. Oder, dass <persName key="pmb10863">Beer-Hofmann</persName> für
+                           könnte. Oder, dass <rs ref="#pmb10863" type="person">Beer-Hofmann</rs> für
                            die Übermittlung zuständig war und hier etwas schief lief.</p>
                      </physDesc>
                   </msDesc>
@@ -74,16 +78,16 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1894-12-07" n="01">7. 12. 1894</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1894-12-07" n="01">7.&#160;12.&#160;1894</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb4986">Mamroth, Fedor</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb4986">Mamroth, Fedor</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-04-04_01">Mamroth an Schnitzler, 4. 4. 1894</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-04-04_01">Mamroth an Schnitzler, 4.&#160;4.&#160;1894</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,26 +103,11 @@
    </facsimile>
    <text type="letter">
       <!-- ??? -->
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <salute>
-                  <pb facs="1894_AS_RBH_4_00006"/>Verehrteſter Herr Doktor,</salute>
-            </opener>
-            <p>es iſt mir ein Bedürfnis Ihnen für die liebenswürdige Raſchheit, mit welcher Sie die
-                  <rs type="work" key="pmb42201">Beſprechung</rs> meines letzten <rs type="work" key="pmb30117">Buches</rs> in der <workName key="pmb36344">Frkf. Ztg.</workName>
-               erſcheinen ließen, aufs wärmſte zu danken. Darf ich Sie auch bitten, dem <rs type="person" key="pmb42204">Autor</rs> des <rs type="work" key="pmb42201">Feuilletons</rs> gütigſt mitzutheilen, wie ſehr mich <pb facs="1894_AS_RBH_4_00027"/>die ſo erſtaunlich tiefen und warmen Worte gefreut
-               haben, die er dem <rs type="work" key="pmb30117">Buch</rs> gewidmet hat? –</p>
-            <p>Seien Sie, verehrteſster Herr Doktor, meiner herzlichen Ergebenheit jederzeit
-               verſichert!</p>
-            <closer>Ihr <signed>DrArthur Schnitzler</signed>
-            </closer>
-            <postscript>
-               <dateline>
-                  <placeName key="pmb50">Wien</placeName>,
-                  <date>7. 12. 94</date>.</dateline>
-            </postscript>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><opener><salute><pb facs="1894_AS_RBH_4_00006"/>Verehrteſter Herr Doktor,</salute></opener><p>es iſt mir ein Bedürfnis Ihnen für die liebenswürdige Raſchheit, mit welcher Sie die
+                  <rs type="work" ref="#pmb42201" subtype="implied">Beſprechung</rs> meines letzten <rs type="work" ref="#pmb30117" subtype="implied">Buches</rs> in der <rs ref="#pmb36344" type="work">Frkf. Ztg.</rs>
+               erſcheinen ließen, aufs wärmſte zu danken. Darf ich Sie auch bitten, dem <rs type="person" ref="#pmb42204" subtype="implied">Autor</rs> des <rs type="work" ref="#pmb42201" subtype="implied">Feuilletons</rs> gütigſt mitzutheilen, wie ſehr mich <pb facs="1894_AS_RBH_4_00027"/>die ſo erſtaunlich tiefen und warmen Worte gefreut
+               haben, die er dem <rs type="work" ref="#pmb30117" subtype="implied">Buch</rs> gewidmet hat?&#160;–</p><p>Seien Sie, verehrteſster Herr Doktor, meiner herzlichen Ergebenheit jederzeit
+               verſichert!</p><closer>Ihr <signed>DrArthur Schnitzler</signed></closer><postscript><dateline><rs ref="#pmb50" type="place">Wien</rs>,
+                  <date>7.&#160;12.&#160;94</date>.</dateline></postscript></div></body>
    </text>
 </TEI>

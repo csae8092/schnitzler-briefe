@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-03-24_01_Boelsche_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-03-24_01_Boelsche_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Wilhelm Bölsche an Arthur Schnitzler, 24. 3. 1892</title>
-                <author key="pmb11061">Bölsche, Wilhelm</author>
+                <title level="a">Wilhelm Bölsche an Arthur Schnitzler, 24.&#160;3.&#160;1892</title>
+                <author ref="#pmb11061">Bölsche, Wilhelm</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>A:Schnitzler, HS.NZ85.1.2577,4</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Von unbekannter Hand mit
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte. Von unbekannter Hand mit
                                     rotem Buntstift nummeriert: »<quote>5</quote>«.</p>
                             </physDesc>
                         </msDesc>
@@ -60,7 +64,7 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb11061">Bölsche, Wilhelm</author>
+                            <author ref="#pmb11061">Bölsche, Wilhelm</author>
                             <title level="m">Briefwechsel. Mit Autoren der Freien Bühne</title>
                             <editor>Hg. Gerd-Hermann Susen</editor>
                             <imprint>
@@ -83,18 +87,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11061">Bölsche, Wilhelm</persName>
-                    <placeName key="pmb168">Berlin</placeName>
-                    <date when="1892-03-24" n="01">24. 3. 1892</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
+                    <date when="1892-03-24" n="01">24.&#160;3.&#160;1892</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1892-02-24_01">Schnitzler an Bölsche, 24. 2. 1892</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-03-27_01">Schnitzler an Bölsche, 27. 3. 1892</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1892-02-24_01">Schnitzler an Bölsche, 24.&#160;2.&#160;1892</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-03-27_01">Schnitzler an Bölsche, 27.&#160;3.&#160;1892</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -109,35 +113,16 @@
         <!-- $$$$ Dateinamen müssen noch ergänzt werden! -->
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="HS.NZ85.1.2577,4-1"/>
-                        <placeName key="pmb1275">Friedrichshagen</placeName>
-                        <lb/>
-                        <date>24. III. 92</date>. </dateline>
-                    <salute rend="center">Hochgeehrter Herr Doktor!</salute>
-                </opener>
-                <p>Verzeihen Sie, daß ich noch nicht geantwortet. Aber die Arbeitslaſt iſt für mich
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="HS.NZ85.1.2577,4-1"/><rs ref="#pmb1275" type="place">Friedrichshagen</rs><lb/><date>24.&#160;III.&#160;92</date>. </dateline><salute rend="center">Hochgeehrter Herr Doktor!</salute></opener><p>Verzeihen Sie, daß ich noch nicht geantwortet. Aber die Arbeitslaſt iſt für mich
                     enorm in dieſen Momenten des <anchor type="commentary" xml:id="G4"/>Neubaus!
-                        <note type="commentary" xml:id="G4h">Seit 1892 erschien die <workName key="pmb36166">Freie Bühne</workName> nicht mehr als Wochen-, sondern
-                        als Monatsschrift.</note>
-            </p>
-                <p>Ihre »<workName key="pmb31965">Elixire</workName>« bringe ich, ſobald es ſich
-                    machen läßt. Offen geſtanden, ſind ſie mir nicht ſo lieb wie die erſte <rs type="work" key="pmb30077">Novelle</rs>, ſie ſind lange nicht ſo aktuell.
-                    Aber ſie kommen doch!</p>
-                <p>Mit den Gedichten iſt’s eine böſe Sache. Ich habe jetzt ein <rs type="work" key="pmb33692">
-                        <persName key="pmb12071">Lilienkron</persName>’ſches</rs> probeweiſe einmal
+                        <note type="commentary" xml:id="G4h">Seit 1892 erschien die <rs ref="#pmb36166" type="work">Freie Bühne</rs> nicht mehr als Wochen-, sondern
+                        als Monatsschrift.</note></p><p>Ihre »<rs ref="#pmb31965" type="work">Elixire</rs>« bringe ich, ſobald es ſich
+                    machen läßt. Offen geſtanden, ſind ſie mir nicht ſo lieb wie die erſte <rs type="work" ref="#pmb30077" subtype="implied">Novelle</rs>, ſie ſind lange nicht ſo aktuell.
+                    Aber ſie kommen doch!</p><p>Mit den Gedichten iſt’s eine böſe Sache. Ich habe jetzt ein <rs type="work" ref="#pmb33692" subtype="implied"><rs ref="#pmb12071" type="person">Lilienkron</rs>’ſches</rs> probeweiſe einmal
                     in’s nächſte Heft geſtreut <pb facs="HS.NZ85.1.2577,4-2"/>aber ich denke mir, es
-                    wird doch nur ſelten ſich auch nach dieſer Seite hin grade die »<workName key="pmb36166">Freie Bühne</workName>« ausbauen laſſen. Lyriſche
+                    wird doch nur ſelten ſich auch nach dieſer Seite hin grade die »<rs ref="#pmb36166" type="work">Freie Bühne</rs>« ausbauen laſſen. Lyriſche
                     Zeitſchriften gibt’s ja genug, unſer Schwerpunkt muß unbedingt anderswo liegen.
                     Wollen Sie’s indeſſen wagen, ſo ſenden Sie mir etwas, das Obige ſoll keine
-                    prinzipielle Ablehnung ſein!</p>
-                <closer>Mit beſtem Gruß<lb/>Ihr<lb/>
-                    <signed>Wilhelm Bölsche</signed>
-                </closer>
-            </div>
-        </body>
+                    prinzipielle Ablehnung ſein!</p><closer>Mit beſtem Gruß<lb/>Ihr<lb/><signed>Wilhelm Bölsche</signed></closer></div></body>
     </text>
 </TEI>

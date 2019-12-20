@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1912-12-01_01_Altenberg_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1912-12-01_01_Altenberg_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Peter Altenberg an Arthur Schnitzler, 1. 12. 191[2]</title>
-                <author key="pmb2147">Altenberg, Peter</author>
+                <title level="a">Peter Altenberg an Arthur Schnitzler, 1.&#160;12.&#160;191[2]</title>
+                <author ref="#pmb2147">Altenberg, Peter</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,17 +51,17 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 2</idno>
+                                <idno>Schnitzler, B&#160;2</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>hs. Telegramm, die Adresszeile teilweise beschnitten: »<quote>
-                                        <placeName key="pmb189">Semmering</placeName>
+                                        <rs ref="#pmb189" type="place">Semmering</rs>
                                         <space unit="chars" quantity="1"/>
-                                        <hi rend="pre-print">Nr.</hi> 9<space unit="chars" quantity="1"/>
-                                        <hi rend="pre-print">Taxw.</hi> 26<space unit="chars" quantity="1"/>
+                                        <hi rend="pre-print">Nr.</hi>&#160;9<space unit="chars" quantity="1"/>
+                                        <hi rend="pre-print">Taxw.</hi>&#160;26<space unit="chars" quantity="1"/>
                                         <hi rend="pre-print">(W<c rendition="#dots" n="8"/> Ch<c rendition="#dots" n="8"/>) aufgegeben am</hi>
                                         <space unit="chars" quantity="1"/>
-                                        <date>1/12</date> <hi rend="pre-print">191<c rendition="#dots" n="3"/> um</hi> 9 <hi rend="pre-print">Uhr</hi> 40 <hi rend="pre-print">Mittag.</hi>
+                                        <date>1/12</date> <hi rend="pre-print">191<c rendition="#dots" n="3"/> um</hi> 9&#160;<hi rend="pre-print">Uhr</hi>&#160;40 <hi rend="pre-print">Mittag.</hi>
                                     </quote>«. Von Schnitzler mit Bleistift datiert: »<quote>
                                         <date>1/12 912</date>
                                     </quote>«. Von unbekannter Hand mit Bleistift nummeriert:
@@ -74,17 +77,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2147">Altenberg, Peter</persName>
-                    <placeName key="pmb189">Semmering</placeName>
-                    <date when="1912-12-01" n="01">1. 12. 191[2]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2147">Altenberg, Peter</persName>
+                    <placeName ref="#pmb189">Semmering</placeName>
+                    <date when="1912-12-01" n="01">1.&#160;12.&#160;191[2]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1912-11-09_01">Altenberg an Schnitzler, [zwischen 9. und 15. 11. 1912?]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1912-11-09_01">Altenberg an Schnitzler, [zwischen 9. und 15.&#160;11.&#160;1912?]</ptr>
                <ptr type="next" subtype="toAuthor" target="1913-04-15_02">Altenberg, Engländer an Schnitzler, [Mitte April] 1913</ptr>
             </correspContext>
          </correspDesc>
@@ -100,15 +103,7 @@
         <graphic url="MS-SCHNITZLER-B-00002-000-00025"/>
     </facsimile>
     <text type="telegram">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-                    <pb facs="MS-SCHNITZLER-B-00002-000-00025"/>Unter heissen tränen meinen dank
-                    kann nicht schreiben es wird nicht mehr lang dauern ihr unglücklicher</p>
-                <closer>
-                    <signed>Altenberg</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00002-000-00025"/>Unter heissen tränen meinen dank
+                    kann nicht schreiben es wird nicht mehr lang dauern ihr unglücklicher</p><closer><signed>Altenberg</signed></closer></div></body>
     </text>
 </TEI>

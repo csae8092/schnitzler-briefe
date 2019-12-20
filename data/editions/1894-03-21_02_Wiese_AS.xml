@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-03-21_01_Wiese_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-03-21_01_Wiese_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Gerhard Wiese an Arthur Schnitzler, 21. 3. 1894</title>
-                <author key="pmb35015">Wiese, Gerhard</author>
+                <title level="a">Gerhard Wiese an Arthur Schnitzler, 21.&#160;3.&#160;1894</title>
+                <author ref="#pmb35015">Wiese, Gerhard</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,14 +52,14 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 15</idno>
+                                <idno>Schnitzler, B&#160;15</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>Brief von fremder Hand mit eh. Unterschrift, 1 Bl., 2 S, schwarze
+                                <p>Brief von fremder Hand mit eh. Unterschrift, 1&#160;Bl., 2&#160;S, schwarze
                                     Tinte. Von unbekannter Hand mit rotem Buntstift und mit Bleistift
                                     nummeriert: »<quote>6</quote>«. Auf der Rückseite von Schnitzler
                                     mit Bleistift notiert: »<quote>
-                                        <hi rend="latintype">(<persName key="pmb14328">Blumenthal</persName>)</hi>
+                                        <hi rend="latintype">(<rs ref="#pmb14328" type="person">Blumenthal</rs>)</hi>
                                     </quote>« .</p>
                             </physDesc>
                         </msDesc>
@@ -68,14 +72,14 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb35015">Wiese, Gerhard</persName>
-                    <placeName key="pmb168">Berlin</placeName>
-                    <date when="1894-03-21" n="02">21. 3. 1894</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb35015">Wiese, Gerhard</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
+                    <date when="1894-03-21" n="02">21.&#160;3.&#160;1894</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             
          </correspDesc>
@@ -92,51 +96,7 @@
         <graphic url="MS-SCHNITZLER-B-00015-000-00016"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p rend="center">
-                        <pb facs="MS-SCHNITZLER-B-00015-000-00015"/>
-                        <hi rend="pre-print">
-                            <orgName key="pmb35053">LESSING-THEATER</orgName>
-                        </hi>
-                    </p>
-                    <p rend="center">
-                        <hi rend="pre-print">Director:</hi>
-                        <lb/>
-                        <hi rend="pre-print">Dr. Oscar Blumenthal.</hi>
-                    </p>
-                    <p rend="right">
-                        <hi rend="pre-print">
-                            <placeName key="pmb168">Berlin N.W.</placeName>, den</hi>
-                        <space unit="chars" quantity="1"/>
-                        <date>21. März <hi rend="pre-print">189</hi>4</date>.<lb/>
-                        <hi rend="pre-print">
-                            <placeName key="pmb34999">Friedrich-Carl-Ufer</placeName>
-                        </hi>.</p>
-                    <salute rend="center">Sehr geehrter Herr!</salute>
-                </opener>
-                
-                
-                <p>Wie Sie aus beiliegendem Wochenſpielplan erſehen, iſt die Frage, welcher <rs type="work" key="pmb35020">Einakter</rs> nach »<workName key="pmb31155">Niobe</workName>« gegeben werden ſoll, bereits entſchieden. Herr <hi rend="latintype">Dr. <persName key="pmb14328">Oscar Blumenthal</persName>
-                    </hi> weilt zur Zeit in <hi rend="latintype">
-                        <placeName key="pmb869">Moscau</placeName>
-                    </hi> und kehrt vorausſichtlich erſt <date>Ende April</date> nach <placeName key="pmb168">Berlin</placeName> zurück. Wir ſtellen Ihnen ergebenſt anheim,
-                    alsdann auf den Inhalt Ihres jüngſten Schreibens zurückzukommen.</p>
-                <p>Hochachtungsvoll</p>
-                <p rend="right">
-                    <hi rend="stamp">Die Direction</hi>
-                    <lb/>
-                    <hi rend="stamp">des</hi>
-                    <lb/>
-                    <hi rend="stamp">
-                        <orgName key="pmb35053">Lessing-Theaters</orgName>.</hi>
-                </p>
-                <closer>
-                    <signed>
-                        <handShift scribe="pmb35015"/>Wieſe</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><p rend="center"><pb facs="MS-SCHNITZLER-B-00015-000-00015"/><hi rend="pre-print"><rs ref="#pmb35053" type="organisation">LESSING-THEATER</rs></hi></p><p rend="center"><hi rend="pre-print">Director:</hi><lb/><hi rend="pre-print">Dr. Oscar Blumenthal.</hi></p><p rend="right"><hi rend="pre-print"><rs ref="#pmb168" type="place">Berlin N.W.</rs>, den</hi><space unit="chars" quantity="1"/><date>21.&#160;März <hi rend="pre-print">189</hi>4</date>.<lb/><hi rend="pre-print"><rs ref="#pmb34999" type="place">Friedrich-Carl-Ufer</rs></hi>.</p><salute rend="center">Sehr geehrter Herr!</salute></opener><p>Wie Sie aus beiliegendem Wochenſpielplan erſehen, iſt die Frage, welcher <rs type="work" ref="#pmb35020" subtype="implied">Einakter</rs> nach »<rs ref="#pmb31155" type="work">Niobe</rs>« gegeben werden ſoll, bereits entſchieden. Herr <hi rend="latintype">Dr. <rs ref="#pmb14328" type="person">Oscar Blumenthal</rs></hi> weilt zur Zeit in <hi rend="latintype"><rs ref="#pmb869" type="place">Moscau</rs></hi> und kehrt vorausſichtlich erſt <date>Ende April</date> nach <rs ref="#pmb168" type="place">Berlin</rs> zurück. Wir ſtellen Ihnen ergebenſt anheim,
+                    alsdann auf den Inhalt Ihres jüngſten Schreibens zurückzukommen.</p><p>Hochachtungsvoll</p><p rend="right"><hi rend="stamp">Die Direction</hi><lb/><hi rend="stamp">des</hi><lb/><hi rend="stamp"><rs ref="#pmb35053" type="organisation">Lessing-Theaters</rs>.</hi></p><closer><signed><handShift scribe="pmb35015"/>Wieſe</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1917-11-23_01_Adam_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1917-11-23_01_Adam_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 23. 11. 1917</title>
-                <author key="pmb12438">Adam, Robert</author>
+                <title level="a">Robert Adam an Arthur Schnitzler, 23.&#160;11.&#160;1917</title>
+                <author ref="#pmb12438">Adam, Robert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>            
                                 <settlement>Cambridge</settlement>            
                                 <repository>University Library</repository>            
-                                <idno>Schnitzler, B 1</idno>
+                                <idno>Schnitzler, B&#160;1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S. Von Schnitzler beschriftet:
+                                <p>eh. Brief, 1&#160;Bl., 3&#160;S. Von Schnitzler beschriftet:
                                     »<quote>
                               <hi rend="latintype">Adam</hi>
                            </quote>«. Von unbekannter Hand nummeriert: »<quote>2</quote>«.</p>
@@ -77,18 +81,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1917-11-23" n="01">23. 11. 1917</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1917-11-23" n="01">23.&#160;11.&#160;1917</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1917-11-05_01">Adam an Schnitzler, 5. 11. 1917</ptr>
-               <ptr type="next" subtype="toAuthor" target="1918-06-11_01">Schnitzler an Adam, 11. 6. 1918</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1917-11-05_01">Adam an Schnitzler, 5.&#160;11.&#160;1917</ptr>
+               <ptr type="next" subtype="toAuthor" target="1918-06-11_01">Schnitzler an Adam, 11.&#160;6.&#160;1918</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -99,19 +103,9 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="gray00547.pdf"/>
-                  <placeName key="pmb50">Wien</placeName>, am <date>23. November 1917</date>
-               </dateline>
-                    <salute rend="center">Hochverehrter Herr Doktor!</salute>
-            </opener>
-                <p>Empfangen Sie meinen herzlichſten Dank für Ihre neue <rs type="work" key="pmb30881">Komödie</rs>, die mich, wie
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="gray00547.pdf"/><rs ref="#pmb50" type="place">Wien</rs>, am <date>23.&#160;November 1917</date></dateline><salute rend="center">Hochverehrter Herr Doktor!</salute></opener><p>Empfangen Sie meinen herzlichſten Dank für Ihre neue <rs type="work" ref="#pmb30881" subtype="implied">Komödie</rs>, die mich, wie
                     alles, was Ihrem Geiſte entſpringt, auf’s Höchſte gefeſſelt und befriedigt
-                    hat!</p>
-                <p>Nun, da ich ſie kenne, iſt mir das Geſchrei, das in den Theaterurteilen der
+                    hat!</p><p>Nun, da ich ſie kenne, iſt mir das Geſchrei, das in den Theaterurteilen der
                     Tagespreſſe erſcholl, vollkommen erklärlich. Die Herren zeichnen ſich vor allem
                     durch große Wehleidigkeit aus und ſchrecken vor nichts ſo ſehr zurück als vor
                     dem, was ihnen die Gefahr der Selbſterkenntnis droht. Sie wollen nur angreifen,
@@ -122,16 +116,11 @@
                     haben ein weiteres Verbrechen begangen: Sie haben hinter das Dogma ein
                     Fragezeichen geſetzt, auf dem der Weſensſtolz des Journaliſten ruht: daß
                     »Geſinnung« den Mann mache (<hi rend="latintype">my platform is my castle</hi>). Nimmt man hinzu, daß in
-                    einigen Sätzen Ihres <rs type="work" key="pmb30881">Leuchter</rs> Anſpielungen auf die Totſchweigepolitik des
+                    einigen Sätzen Ihres <rs type="work" ref="#pmb30881" subtype="implied">Leuchter</rs> Anſpielungen auf die Totſchweigepolitik des
                     »<anchor type="commentary" xml:id="KL2031-1"/>Trompeters von Jericho<note type="commentary" xml:id="KL2031-1h">Unklare Anspielung.</note>« erblickt werden konnten, ſo iſt der Zorn derer von der
-                    »<anchor type="commentary" xml:id="KL2031-2"/>Gegenwart<note type="commentary" xml:id="KL2031-2h">Das und das folgende fiktive Blätter aus <workName key="pmb30881">Fink und Fliederbusch</workName>.</note>« noch erklärlicher; und die »Elegante Welt«, die Ihnen vieles noch
+                    »<anchor type="commentary" xml:id="KL2031-2"/>Gegenwart<note type="commentary" xml:id="KL2031-2h">Das und das folgende fiktive Blätter aus <rs ref="#pmb30881" type="work">Fink und Fliederbusch</rs>.</note>« noch erklärlicher; und die »Elegante Welt«, die Ihnen vieles noch
                     nicht verziehen hat, geht eben mit. Sie haben ſich alle, alle doch ſolidariſch
-                    erklärt: ſie bleiben – im Grunde, was ſie ſind. –</p>
-                <closer>Mit den herzlichſten Grüßen <pb facs="gray00548.pdf"/>und Empfehlungen Ihr
-                    ergebener<lb/>
-               <signed>Robert Adam</signed>                                               
-                </closer>
-            </div>
-        </body>
+                    erklärt: ſie bleiben – im Grunde, was ſie ſind.&#160;–</p><closer>Mit den herzlichſten Grüßen <pb facs="gray00548.pdf"/>und Empfehlungen Ihr
+                    ergebener<lb/><signed>Robert Adam</signed></closer></div></body>
     </text>
 </TEI>

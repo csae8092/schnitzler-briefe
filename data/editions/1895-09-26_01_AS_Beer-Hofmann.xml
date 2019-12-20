@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-09-26_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1895-09-26_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 26. 9. 1895</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 26.&#160;9.&#160;1895</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,23 +54,23 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief mit Umschlag, 2 Bl., 7 S., Bleistift. Umschlag mit schwarzer
-                           Tinte. Von unbekannter Hand nachgesandt nach <placeName key="pmb338">I
-                              Wollzeile 15</placeName>. <placeName key="pmb50">Wien
-                              I.</placeName>.</p>
+                        <p>eh. Brief mit Umschlag, 2&#160;Bl., 7&#160;S., Bleistift. Umschlag mit schwarzer
+                           Tinte. Von unbekannter Hand nachgesandt nach <rs ref="#pmb338" type="place">I
+                              Wollzeile&#160;15</rs>. <rs ref="#pmb50" type="place">Wien
+                              I.</rs>.</p>
                         <stamp n="1">
-                           <placeName key="pmb50">Wien</placeName>
-                           <date>26. 9. 95</date>
+                           <rs ref="#pmb50" type="place">Wien</rs>
+                           <date>26.&#160;9.&#160;95</date>
                            <time>7–8</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb374">Gardone Riva</placeName>
-                           <date>28 9 95</date>
+                           <rs ref="#pmb374" type="place">Gardone Riva</rs>
+                           <date>28&#160;9&#160;95</date>
                         </stamp>
                         <stamp n="3">
-                           <placeName key="pmb51">Wien 1/1</placeName>
-                           <date>1/10 95</date>
-                           <time>8-9½ V.</time>
+                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
+                           <date>1/10&#160;95</date>
+                           <time>8-9½&#160;V.</time>
                            <action>Bestellt</action>
                         </stamp>
                      </physDesc>
@@ -77,8 +80,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -98,22 +101,22 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1895-09-26" n="01">26. 9. 1895</date>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1895-09-26" n="01">26.&#160;9.&#160;1895</date>
             </correspAction>
             <correspAction type="forwarded">
-               <placeName key="pmb374">Gardone</placeName>
-               <date when="1895-09-28">28. 9. 1895</date>
+               <placeName ref="#pmb374">Gardone</placeName>
+               <date when="1895-09-28">28.&#160;9.&#160;1895</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1895-10-01">1. 10. 1895</date>
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1895-10-01">1. 10.&#160;1895</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-09-24_01">Beer-Hofmann an Schnitzler, 24. 9. 1895</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-09-27_01">Beer-Hofmann an Schnitzler, 27. 9. 1895</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-09-24_01">Beer-Hofmann an Schnitzler, 24.&#160;9.&#160;1895</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-09-27_01">Beer-Hofmann an Schnitzler, 27.&#160;9.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -134,103 +137,40 @@
       <graphic url="1895_AS_RBH_3_00037.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1895_AS_RBH_3_00031.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb374">
-                     <hi rend="latintype">Gardone</hi>
-                  </placeName>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">am <placeName key="pmb39975">Gardasee</placeName>
-                  </hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb40306">
-                     <hi rend="latintype">Italien</hi>
-                  </placeName>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <pb facs="1895_AS_RBH_3_00033.jpeg"/>
-                  <placeName key="pmb50">Wien</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date when="1895-09-26">26. 9. 95</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Richard, </salute>heute kam zugleich Ihre Karte vom <date>23.</date>
+      <body><div type="address"><address><addrLine><pb facs="1895_AS_RBH_3_00031.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
+                     Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb374" type="place"><hi rend="latintype">Gardone</hi></rs></addrLine><addrLine><hi rend="latintype">am <rs ref="#pmb39975" type="place">Gardasee</rs></hi></addrLine><addrLine><rs ref="#pmb40306" type="place"><hi rend="latintype">Italien</hi></rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1895_AS_RBH_3_00033.jpeg"/><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date when="1895-09-26">26.&#160;9.&#160;95</date></dateline></opener><p><salute>Lieber Richard, </salute>heute kam zugleich Ihre Karte vom <date>23.</date>
                und Ihr Brief vom <date>24.</date> an. Ich ſende also dieſe Zeilen hier nach
-                  <placeName key="pmb374">Gardone</placeName>; warum ſchreiben Sie nicht, wohin Sie
-               von da aus gehen? Eben hat mir die <rs type="person" key="pmb12618">Tragödin</rs>
-               telephonirt, es war heut Probe von <workName key="pmb29917">Liebelei</workName>
-               (ſtatt <workName key="pmb33023">Don <hi rend="latintype">Carlos</hi>
-               </workName>) von der ich nichts wußte, und ſie überbot ſich ſelbſt an
-               Liebenswürdigkeiten für mich, mein <rs type="work" key="pmb29917">Stück</rs> und ihre
+                  <rs ref="#pmb374" type="place">Gardone</rs>; warum ſchreiben Sie nicht, wohin Sie
+               von da aus gehen? Eben hat mir die <rs type="person" ref="#pmb12618" subtype="implied">Tragödin</rs>
+               telephonirt, es war heut Probe von <rs ref="#pmb29917" type="work">Liebelei</rs>
+               (ſtatt <rs ref="#pmb33023" type="work">Don <hi rend="latintype">Carlos</hi></rs>) von der ich nichts wußte, und ſie überbot ſich ſelbſt an
+               Liebenswürdigkeiten für mich, mein <rs type="work" ref="#pmb29917" subtype="implied">Stück</rs> und ihre
                Rolle. <pb facs="1895_AS_RBH_3_00034.jpeg"/>Sie hat heute auf der Probe einen
-               »großartigen« Erfolg gehabt, und na, und ſo weiter. Ich denke, die <hi rend="latintype">
-                        <rs type="work" key="pmb29917">Premiere</rs>
-                    </hi> wird am
+               »großartigen« Erfolg gehabt, und na, und ſo weiter. Ich denke, die <hi
+                  rend="latintype"><rs type="work" ref="#pmb29917" subtype="implied">Premiere</rs></hi> wird am
                   <date>7.</date> oder <date>8.</date> oder <date>9.</date> ſein. Dazu gibt man
-                  <persName key="pmb11431">
-                  <hi rend="latintype">Giacosa</hi>
-               </persName>, <workName key="pmb31711">Rechte der Seele</workName>. Für einen guten
-               Sitz ſoll geſorgt sein. –</p>
-            <p>Allmälig hab ich zu arbeiten angefangen. Begonnen hab ich damit, daſs ich ein <rs type="work" key="pmb30285">Stück</rs> (Einakter) in Verſen, <pb facs="1895_AS_RBH_3_00034.jpeg"/>den ich vorigen Winter ſchrieb, in mein<add place="inline">em</add>
-                    <space unit="chars" quantity="1"/>
-                    <subst>
-                  <del rend="overwritten">
-                            <unclear>Kästchen</unclear>
-                        </del>
-                  <add place="mixed">Schreibtiſch</add>
-               </subst> vergrub, – wo e<subst>
-                  <del rend="overwritten">s</del>
-                  <add place="inline">r</add>
-               </subst> am tiefſten iſt. Ich hab manchmal die ſtarke Empfindung, daſs mir nie mehr
-               etwas gelingen wird – wie <persName key="pmb11798">
-                  <hi rend="latintype">Ibsen</hi>
-               </persName> und – <persName key="pmb12078">
-                  <hi rend="latintype">Paul Lindau</hi>
-               </persName>. –</p>
-            <p>Da die Läufigkeit der Frauen manchmal angenehm war, haben Sie wohl auch was »erlebt«
-                  <c rendition="#dots" n="3"/> wenigſtens <pb facs="1895_AS_RBH_3_00035.jpeg"/>Anfänge. Da drin ſtecken ja die ganzen Erlebniſſe, die Schlüſſe ſind ja dieſelben.
-                  (<rs type="work" key="pmb29935">Anatol</rs> reibt ſich die Augen. Er ſchlu<c rendition="#gemination-m"/>ert ſofort wieder ein. Bald ſchläfſt du <c rendition="#dots" n="3"/>
-                    <space unit="chars" quantity="1"/>
-                    <hi rend="latintype">etc</hi>. ſiehe <workName key="pmb30447">
-                  <hi rend="latintype">Hänsel u Grethel</hi>
-               </workName>) Ich beneide Sie ſo um die Natur. Es iſt ſo ſchön jetzt und ich möchte
+                  <rs ref="#pmb11431" type="person"><hi rend="latintype">Giacosa</hi></rs>, <rs ref="#pmb31711" type="work">Rechte der Seele</rs>. Für einen guten
+               Sitz ſoll geſorgt sein.&#160;–</p><p>Allmälig hab ich zu arbeiten angefangen. Begonnen hab ich damit, daſs ich ein <rs
+                  type="work" ref="#pmb30285" subtype="implied">Stück</rs> (Einakter) in Verſen, <pb
+                  facs="1895_AS_RBH_3_00034.jpeg"/>den ich vorigen Winter ſchrieb, in mein<add
+                  place="inline">em</add><space unit="chars" quantity="1"/><subst><del rend="overwritten"><unclear>Kästchen</unclear></del><add place="mixed">Schreibtiſch</add></subst> vergrub,&#160;– wo e<subst><del rend="overwritten">s</del><add place="inline">r</add></subst> am tiefſten iſt. Ich hab manchmal die ſtarke Empfindung, daſs mir nie mehr
+               etwas gelingen wird – wie <rs ref="#pmb11798" type="person"><hi rend="latintype">Ibsen</hi></rs> und – <rs ref="#pmb12078" type="person"><hi rend="latintype">Paul Lindau</hi></rs>.&#160;–</p><p>Da die Läufigkeit der Frauen manchmal angenehm war, haben Sie wohl auch was »erlebt«
+                  <c rendition="#dots" n="3"/> wenigſtens <pb facs="1895_AS_RBH_3_00035.jpeg"
+               />Anfänge. Da drin ſtecken ja die ganzen Erlebniſſe, die Schlüſſe ſind ja dieſelben.
+                  (<rs type="work" ref="#pmb29935" subtype="implied">Anatol</rs> reibt ſich die Augen. Er ſchlu<c
+                  rendition="#gemination-m"/>ert ſofort wieder ein. Bald ſchläfſt du <c
+                  rendition="#dots" n="3"/><space unit="chars" quantity="1"/><hi rend="latintype"
+                  >etc</hi>. ſiehe <rs ref="#pmb30447" type="work"><hi rend="latintype">Hänsel u Grethel</hi></rs>) Ich beneide Sie ſo um die Natur. Es iſt ſo ſchön jetzt und ich möchte
                ganz wo anders ſein. Neulich war ich <pb facs="1895_AS_RBH_3_00036.jpeg"/>in der
-                  <placeName key="pmb34041">Brühl</placeName>. <persName key="pmb24686">Tini</persName> iſt ſehr ſtolz geworden. Auch war ein Jägerlieutenant draußen.
-               Dem <persName key="pmb11740">Hugo</persName> hab ich Ihre Kränkung ausgerichtet, er
-               iſt auch gekränkt. –</p>
-            <p>Wie weit iſt der <workName key="pmb31535">Liebling der Götter</workName> und
-               hoffentlich vieler Menschen? – </p>
-            <p>
-               <pb facs="1895_AS_RBH_3_00037.jpeg"/>Leben Sie wohl und ſchreiben Sie mir.
-               <date>Samſtag</date> werde ich wohl das Datum der <rs type="work" key="pmb29917">
-                        <hi rend="latintype">Prém.</hi>
-                    </rs>
-                    <space unit="chars" quantity="1"/>
-                    <hi rend="latintype">def</hi>
-                    <subst>
-                  <del rend="overwritten">.</del>
-                  <add place="inline">initiv</add>
-               </subst> kennen.</p>
-            <p>Man erkundigt ſich i<c rendition="#gemination-m"/>erfort und allſeitig nach Ihnen,
-               was keine Broſamen, ſondern naive Wahrheiten <pb facs="1895_AS_RBH_3_00037.jpeg"/>ſind. Warum ſoll ichs Ihnen denn verſchweigen? Dazu bin ich nicht 999gradig
-               genug.</p>
-            <closer>Herzlichen Gruſs, ich freu mich ſchon ſehr auf Sie.<lb/>Ihr
-                  <signed>Arthur.</signed>
-            </closer>
-         </div>
-      </body>
+                  <rs ref="#pmb34041" type="place">Brühl</rs>. <rs ref="#pmb24686" type="person"
+                  >Tini</rs> iſt ſehr ſtolz geworden. Auch war ein Jägerlieutenant draußen.
+               Dem <rs ref="#pmb11740" type="person">Hugo</rs> hab ich Ihre Kränkung ausgerichtet, er
+               iſt auch gekränkt.&#160;–</p><p>Wie weit iſt der <rs ref="#pmb31535" type="work">Liebling der Götter</rs> und
+               hoffentlich vieler Menschen?&#160;– </p><p><pb facs="1895_AS_RBH_3_00037.jpeg"/>Leben Sie wohl und ſchreiben Sie mir.
+               <date>Samſtag</date> werde ich wohl das Datum der <rs type="work" ref="#pmb29917" subtype="implied"><hi rend="latintype">Prém.</hi></rs><space unit="chars" quantity="1"/><hi rend="latintype">def</hi><subst><del rend="overwritten">.</del><add place="inline">initiv</add></subst> kennen.</p><p>Man erkundigt ſich i<c rendition="#gemination-m"/>erfort und allſeitig nach Ihnen,
+               was keine Broſamen, ſondern naive Wahrheiten <pb facs="1895_AS_RBH_3_00037.jpeg"
+               />ſind. Warum ſoll ichs Ihnen denn verſchweigen? Dazu bin ich nicht 999gradig
+               genug.</p><closer>Herzlichen Gruſs, ich freu mich ſchon ſehr auf Sie.<lb/>Ihr
+                  <signed>Arthur.</signed></closer></div></body>
    </text>
 </TEI>

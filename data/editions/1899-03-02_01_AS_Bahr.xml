@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-03-02_01_AS_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1899-03-02_01_AS_Bahr">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, [2. –6.?] 3. 1899</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, [2.&#160;–6.?] 3.&#160;1899</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -60,10 +64,10 @@
             <listBibl>
                <biblStruct corresp="DASB">
                   <analytic>
-                     <title level="a">[5. 3. 1899?], Abschrift</title>
+                     <title level="a">[5.&#160;3.&#160;1899?], Abschrift</title>
                   </analytic>
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint> 
@@ -80,8 +84,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -99,18 +103,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">[Wien]</placeName>
-               <date when="1899-03-02" n="01">[2. –6.?] 3. 1899</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
+               <date when="1899-03-02" n="01">[2.&#160;–6.?] 3.&#160;1899</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-02-10_01">Bahr an Schnitzler, 10. 2. 1899</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-03-06_01">Bahr an Schnitzler, 6. 3. 1899</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-02-10_01">Bahr an Schnitzler, 10.&#160;2.&#160;1899</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-03-06_01">Bahr an Schnitzler, 6.&#160;3.&#160;1899</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -126,23 +130,10 @@
      <graphic url="HS_AM60155Ba_R"/> 
    </facsimile>
   <text type="card">
-      <body>
-         <div type="writingSession" n="1">       
-            <p>
-               <salute>Lieber Hermann, </salute>besten Dank für deine freundl <anchor type="commentary" xml:id="KL025-1"/>Gratulation<note type="commentary" xml:id="KL025-1h">Nicht erhalten. Am <date>1. 3. 1899</date> Premiere
-            der drei Einakter <workName key="pmb30403">Paracelsus</workName>, <workName key="pmb29845">Die Gefährtin</workName>, <workName key="pmb29843">Der grüne Kakadu</workName> am
-                <placeName key="pmb14">Burgtheater</placeName>.</note>. Bei dieser
-          Gelegenheit:</p>
-            <p>1) kannst du die »<hi rend="underline" n="1">
-                  <workName key="pmb29845">Gefährtin</workName>
-               </hi>«, da <persName key="pmb11740">Hofmannsthal</persName>’s
-          <workName key="pmb29849">Sobeïde</workName> wegfällt, gleich nach <persName key="pmb2167">Salten</persName> bringen?</p>
-            <p>2) bist du <hi rend="latintype">resp</hi> seid Ihr mit dem Honorar von 200 Gulden einverstanden?<pb facs="HS_AM60155Ba_R"/>
-            </p>
-            <closer>Herzlichen Gruss. Dein ergebner<lb/>
-               <signed>Arth Schnitzler</signed> 
-            </closer>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><p><salute>Lieber Hermann, </salute>besten Dank für deine freundl <anchor type="commentary" xml:id="KL025-1"/>Gratulation<note type="commentary" xml:id="KL025-1h">Nicht erhalten. Am <date>1.&#160;3.&#160;1899</date> Premiere
+            der drei Einakter <rs ref="#pmb30403" type="work">Paracelsus</rs>, <rs ref="#pmb29845" type="work">Die Gefährtin</rs>, <rs ref="#pmb29843" type="work">Der grüne Kakadu</rs> am
+                <rs ref="#pmb14" type="place">Burgtheater</rs>.</note>. Bei dieser
+          Gelegenheit:</p><p>1) kannst du die »<hi rend="underline" n="1"><rs ref="#pmb29845" type="work">Gefährtin</rs></hi>«, da <rs ref="#pmb11740" type="person">Hofmannsthal</rs>’s
+          <rs ref="#pmb29849" type="work">Sobeïde</rs> wegfällt, gleich nach <rs ref="#pmb2167" type="person">Salten</rs> bringen?</p><p>2) bist du <hi rend="latintype">resp</hi> seid Ihr mit dem Honorar von 200 Gulden einverstanden?<pb facs="HS_AM60155Ba_R"/></p><closer>Herzlichen Gruss. Dein ergebner<lb/><signed>Arth Schnitzler</signed></closer></div></body>
   </text>
 </TEI>

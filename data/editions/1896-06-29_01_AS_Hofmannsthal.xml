@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-06-29_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-06-29_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 29. 6. 1896</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 29.&#160;6.&#160;1896</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Hs-30885,XXXX</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>XXXXeh. Brief, 1 Bl., 1 S. XXXX</p>
+                                <p>XXXXeh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -59,8 +63,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -79,18 +83,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1896-06-29" n="01">29. 6. 1896</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1896-06-29" n="01">29.&#160;6.&#160;1896</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-06-27_02">Hofmannsthal an Schnitzler, 27. 6. [1896]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-07-16_01">Hofmannsthal an Schnitzler, 16. 7. [1896]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-06-27_02">Hofmannsthal an Schnitzler, 27.&#160;6.&#160;[1896]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-07-16_01">Hofmannsthal an Schnitzler, 16.&#160;7.&#160;[1896]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -99,19 +103,9 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs=""/>
-                        <placeName key="pmb50">Wien</placeName>, <date>29. Juni 96</date>
-                    </dateline>
-                </opener>
-                <p>
-                    <salute>Mein lieber Hugo, </salute>ich lege Ihnen einen Zettel bei, da steht
-                    drauf, wo ich für Briefe zu erreichen bin, u. bis wann. In <placeName key="pmb50">Wien</placeName> bin ich noch bis zum <date>Freitag</date>
-                    (spätestens) (<date>3. Juli</date>).</p>
-                <p>– Ich wollte eben niederschreiben, daß ich mich »freue« u habe gezögert, weil die
+        <body><div type="writingSession"><opener><dateline rend="right"><pb facs=""/><rs ref="#pmb50" type="place">Wien</rs>, <date>29.&#160;Juni 96</date></dateline></opener><p><salute>Mein lieber Hugo, </salute>ich lege Ihnen einen Zettel bei, da steht
+                    drauf, wo ich für Briefe zu erreichen bin, u. bis wann. In <rs ref="#pmb50" type="place">Wien</rs> bin ich noch bis zum <date>Freitag</date>
+                    (spätestens) (<date>3.&#160;Juli</date>).</p><p>– Ich wollte eben niederschreiben, daß ich mich »freue« u habe gezögert, weil die
                     Freude nicht ganz rein ist. Es ist, durch heftigeres Erklingen früherer
                     Lebensbeziehungen, in der letzten Zeit wieder manche Unruhe in mich gekommen,
                     die in manchen Stunden, besonders Abendstunden allein auf dem Land, schmerzlich
@@ -120,16 +114,10 @@
                     gewissen (sentimentalen!) Überempfindlichkeit für gewisse Begriffe, wie Ferne,
                     Einsamkeit, und Vergangen. Das hängt wohl mit meiner mangelnden Fähigkeit
                     abzuschließen zusammen. Abzuschließen, in jedem Sinn. Fehler meines Lebens und
-                    meiner Kunst sind daraus zu erklären. </p>
-                <p>– Das <rs type="work" key="pmb29899">Stück</rs> reist natürlich mit; ist Ihnen
-                    noch was dazu eingefallen?</p>
-                <p>– Ist das <rs type="work" key="">eine</rs> Ihrer <rs type="work" key="">Soldatengeschichten</rs>, die Sie schreiben? – Sie hören sehr bald von mir
+                    meiner Kunst sind daraus zu erklären. </p><p>– Das <rs type="work" ref="#pmb29899" subtype="implied">Stück</rs> reist natürlich mit; ist Ihnen
+                    noch was dazu eingefallen?</p><p>– Ist das <rs type="work" subtype="implied" ref="">eine</rs> Ihrer <rs type="work" subtype="implied" ref="">Soldatengeschichten</rs>, die Sie schreiben? – Sie hören sehr bald von mir
                     und lassen mich wohl auch nicht lang ohne Nachricht. Empfehlen Sie mich Ihren
-                        <rs key="pmb11737 pmb18404" type="person">Eltern</rs>. Seien Sie herzlich
-                    gegrüßt. </p>
-                <closer>Ihr <signed>Arthur</signed>
-                </closer>
-            </div>
-        </body>
+                        <rs ref="#pmb11737 pmb18404" type="person" subtype="implied">Eltern</rs>. Seien Sie herzlich
+                    gegrüßt. </p><closer>Ihr <signed>Arthur</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-01-18_01_Burckhard_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1898-01-18_01_Burckhard_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Max Burckhard an Arthur Schnitzler, nach dem 18. 1. 1898</title>
-                <author key="pmb11036">Burckhard, Max</author>
+                <title level="a">Max Burckhard an Arthur Schnitzler, nach dem 18.&#160;1.&#160;1898</title>
+                <author ref="#pmb11036">Burckhard, Max</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 20</idno>
+                                <idno>Schnitzler, B&#160;20</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Visitenkarte, Bleistift.</p>
@@ -63,14 +67,14 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11036">Burckhard, Max</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date notBefore="1898-01-18" notAfter="1898" n="01">nach dem 18. 1. 1898</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11036">Burckhard, Max</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date notBefore="1898-01-18" notAfter="1898" n="01">nach dem 18.&#160;1.&#160;1898</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             
          </correspDesc>
@@ -85,29 +89,10 @@
         <graphic url="MS-SCHNITZLER-B-00020-000-00005.jpg"/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-                    <pb facs="MS-SCHNITZLER-B-00020-000-00005.jpg"/>
-                    <hi rend="pre-print">
-                        <hi rend="small_caps">D<hi rend="superscript">r.</hi> Max Eugen
-                            Burckhard</hi>
-                    </hi>
-                </p>
-                <p>
-                    <hi rend="pre-print">
-                        <hi rend="small_caps">
-                            <del rend="strikethrough">K. u. K. <anchor type="commentary" xml:id="KL909-1"/>Director<note type="commentary" xml:id="KL909-1h">
-                                    <persName key="pmb11036">Burckhard</persName> legte am
-                                        <date>18. 1. 1898</date> die Leitung des <placeName key="pmb14">Burgtheaters</placeName> nieder. Die
+        <body><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00020-000-00005.jpg"/><hi rend="pre-print"><hi rend="small_caps">D<hi rend="superscript">r.</hi> Max Eugen
+                            Burckhard</hi></hi></p><p><hi rend="pre-print"><hi rend="small_caps"><del rend="strikethrough">K.&#160;u.&#160;K. <anchor type="commentary" xml:id="KL909-1"/>Director<note type="commentary" xml:id="KL909-1h"><rs ref="#pmb11036" type="person">Burckhard</rs> legte am
+                                        <date>18.&#160;1.&#160;1898</date> die Leitung des <rs ref="#pmb14" type="place">Burgtheaters</rs> nieder. Die
                                     handschriftliche Streichung dürfte diese Karte also unmittelbar
-                                    in zeitliche Nähe verorten.</note> des K. K. <placeName key="pmb14">Hofburgtheaters</placeName>
-                            </del>
-                        </hi>
-                    </hi>
-                </p>
-                <p>mit herzlichſten Grüßen und bestem Dank</p>
-            </div>
-        </body>
+                                    in zeitliche Nähe verorten.</note> des K.&#160;K. <rs ref="#pmb14" type="place">Hofburgtheaters</rs></del></hi></hi></p><p>mit herzlichſten Grüßen und bestem Dank</p></div></body>
     </text>
 </TEI>

@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L042XXX">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L042XXX">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Friedrich M. Fels an Arthur Schnitzler,
-                    25. 5. 1894</title>
-                <author key="pmb2450">Fels, Friedrich M.</author>
+                    25.&#160;5.&#160;1894</title>
+                <author ref="#pmb2450">Fels, Friedrich M.</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -16,8 +20,8 @@
                     <address>
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
-                        <placeName>
-                            <country>A</country> Wien </placeName>
+                        <rs type="place">
+                            <country>A</country> Wien </rs>
                     </address>
                 </funder>
             </titleStmt>
@@ -56,15 +60,15 @@
                            </quote>«
                                     und numeriert: »<quote>14</quote>«.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb50">W<supplied>ien</supplied> 110</placeName>
-                                    <date when="1894-05-25">25. 5. 94</date>
+                                    <rs ref="#pmb50" type="place">W<supplied>ien</supplied> 110</rs>
+                                    <date when="1894-05-25">25.&#160;5.&#160;94</date>
                                     <time>8<unclear>–9V</unclear>
                            </time>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb59">Wien 9/<unclear>3</unclear>
-                           </placeName>
-                                    <date when="1894-05-25">25. 5. 94</date>
+                                    <rs ref="#pmb59" type="place">Wien 9/<unclear>3</unclear>
+                           </rs>
+                                    <date when="1894-05-25">25.&#160;5.&#160;94</date>
                                     <time>10.V</time>
                                     <action>Bestellt</action>
                                 </stamp>
@@ -79,19 +83,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2450">Fels, Friedrich M.</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1894-05-25" n="01">25. 5. 1894</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2450">Fels, Friedrich M.</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1894-05-25" n="01">25.&#160;5.&#160;1894</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1894-05-25">25. 5. 1894</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1894-05-25">25.&#160;5.&#160;1894</date>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-05-17_01">Fels an Schnitzler, [17. 5. 1894]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-06-23_01">Fels an Schnitzler, 23. 6. 1894</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-05-17_01">Fels an Schnitzler, [17.&#160;5.&#160;1894]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-06-23_01">Fels an Schnitzler, 23.&#160;6.&#160;1894</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -101,47 +105,12 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>Herrn Dr. Arthur Schnitzler</addrLine>
-                    <addrLine>
-                  <placeName key="pmb50">Wien</placeName>
-               </addrLine>
-                    <addrLine>
-                  <placeName key="pmb397">IX, Frankgasse 1</placeName>
-               </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p rend="right">
-                        <pb facs=""/>
-                  <placeName key="pmb33993">Wien XVIII,
-                            Exnergasse 3</placeName>
-                  <hi rend="superscript">III. St.
-                            Th. 22</hi>
-               </p>
-                </opener>
-                <p>
-               <salute>Lieber Dr Schnitzler! </salute>Habe von Dr <persName key="pmb10863">Beer-Hofma<c rendition="#gemination-n"/>
-               </persName> noch nichts
+        <body><div type="address"><address><addrLine>Herrn Dr. Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb397" type="place">IX, Frankgasse 1</rs></addrLine></address></div><div type="writingSession" n="1"><opener><p rend="right"><pb facs=""/><rs ref="#pmb33993" type="place">Wien XVIII,
+                            Exnergasse 3</rs><hi rend="superscript">III. St.
+                            Th. 22</hi></p></opener><p><salute>Lieber Dr Schnitzler! </salute>Habe von Dr <rs ref="#pmb10863" type="person">Beer-Hofma<c rendition="#gemination-n"/></rs> noch nichts
                     empfangen und muss zum Überfluss noch wohl ein paar Tage zu Hause bleiben, da
                     ich schreckliche Zahnschmerzen habe und wieder ein Geschwür zu beko<c rendition="#gemination-m"/>en scheine. Wären Sie vielleicht so freundlich,
-                    mir eine Kleinigkeit zu senden, da es ganz unbesti<c rendition="#gemination-m"/>t ist, ob und wa<c rendition="#gemination-n"/>
-               <space unit="chars" quantity="1"/>
-               <persName key="pmb10863">Beer-Hofma<c rendition="#gemination-n"/>
-               </persName> es thun wird. Seien Sie mir nicht böse und bestens gegrüsst
-                    von Ihrem</p>
-                <closer>
-               <signed>Fels</signed>
-                </closer>
-                <postscript>
-                    <p>
-                  <anchor type="commentary" xml:id="KLMAM20191008-6"/>scripsit in tormentis<note type="commentary" xml:id="KLMAM20191008-6h">lat. geschrieben unter Qualen.</note>
-               </p>
-                </postscript>
-            </div>
-        </body>
+                    mir eine Kleinigkeit zu senden, da es ganz unbesti<c rendition="#gemination-m"/>t ist, ob und wa<c rendition="#gemination-n"/><space unit="chars" quantity="1"/><rs ref="#pmb10863" type="person">Beer-Hofma<c rendition="#gemination-n"/></rs> es thun wird. Seien Sie mir nicht böse und bestens gegrüsst
+                    von Ihrem</p><closer><signed>Fels</signed></closer><postscript><p><anchor type="commentary" xml:id="KLMAM20191008-6"/>scripsit in tormentis<note type="commentary" xml:id="KLMAM20191008-6h">lat. geschrieben unter Qualen.</note></p></postscript></div></body>
     </text>
 </TEI>

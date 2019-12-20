@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897_01_Burckhard_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897_01_Burckhard_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Max Burckhard an Arthur Schnitzler, [1897]</title>
-                <author key="pmb11036">Burckhard, Max</author>
+                <author ref="#pmb11036">Burckhard, Max</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                           <country>GB</country>            
                           <settlement>Cambridge</settlement>            
                           <repository>University Library</repository>            
-                          <idno>Schnitzler, B 20</idno>
+                          <idno>Schnitzler, B&#160;20</idno>
                       </msIdentifier>
                       <physDesc>
                           <p>Visitkarte mit eh. Beschriftung. Von unbekannter Hand nummeriert: »<quote>30</quote>«.</p>
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11036">Burckhard, Max</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11036">Burckhard, Max</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                     <date when="1897" n="04">[1897?]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-12-27_02">Burckhard an Schnitzler, [27.? 12. 1897]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1898-01-16_01">Burckhard an Schnitzler, [16. 1. 1898]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-12-27_02">Burckhard an Schnitzler, [27.? 12.&#160;1897]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1898-01-16_01">Burckhard an Schnitzler, [16.&#160;1.&#160;1898]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -100,37 +104,8 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p>
-                  <pb facs="DSC_0618.JPG"/>
-                  <hi rend="pre-print">
-                     <hi rend="small_caps">D<hi rend="superscript">r.</hi> Burckhard</hi>
-                  </hi>
-               </p>       
-                <p>
-                  <hi rend="pre-print">
-                     <hi rend="small_caps">
-                        <placeName key="pmb397">IX. Frankgasse 1</placeName>
-                     </hi>
-                  </hi>
-               </p>
-                    <salute>
-                  <pb facs="DSC_0619.JPG"/>Lieber verehrter Herr Doctor!</salute>
-                </opener>
-                <p>Ich war Ihrer <subst>
-                    <del rend="overwritten">
-                     <gap quantity="4" reason="illegible" unit="chars"/>
-                  </del>
-                    <add place="inline">freund</add>
-                </subst>ſchaftlichen Geſinnung vertrauend bereits heute Vormittag ſo frei
+        <body><div type="writingSession" n="1"><opener><p><pb facs="DSC_0618.JPG"/><hi rend="pre-print"><hi rend="small_caps">D<hi rend="superscript">r.</hi> Burckhard</hi></hi></p><p><hi rend="pre-print"><hi rend="small_caps"><rs ref="#pmb397" type="place">IX. Frankgasse 1</rs></hi></hi></p><salute><pb facs="DSC_0619.JPG"/>Lieber verehrter Herr Doctor!</salute></opener><p>Ich war Ihrer <subst><del rend="overwritten"><gap quantity="4" reason="illegible" unit="chars"/></del><add place="inline">freund</add></subst>ſchaftlichen Geſinnung vertrauend bereits heute Vormittag ſo frei
                 Ihnen eine Gaſtkarte für morgen zu ſenden, die jedenfalls im Lauf des Nachmittags in Ihren Händen ſein
-                wird. Ich danke Ihnen herzlich für Ihre liebenswürdigen Zeilen.</p>
-                <closer>Herzlichst<lb/>
-               <signed>DrBurc</signed>
-            </closer>
-            </div>
-        </body>
+                wird. Ich danke Ihnen herzlich für Ihre liebenswürdigen Zeilen.</p><closer>Herzlichst<lb/><signed>DrBurc</signed></closer></div></body>
     </text>
 </TEI>

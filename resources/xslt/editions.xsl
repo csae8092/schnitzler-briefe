@@ -208,6 +208,7 @@
                                             </xsl:when>
                                         </xsl:choose>
                                     </th>
+                                    <td> </td>
                                     <td>
                                         <xsl:if test="./tei:date">
                                         <xsl:value-of select="./tei:date"/>

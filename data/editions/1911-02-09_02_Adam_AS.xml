@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1911-02-09_02_Adam_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1911-02-09_02_Adam_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 9. 2. 1911</title>
-                <author key="pmb12438">Adam, Robert</author>
+                <title level="a">Robert Adam an Arthur Schnitzler, 9.&#160;2.&#160;1911</title>
+                <author ref="#pmb12438">Adam, Robert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>A:Schnitzler, HS.NZ85.1.4230,4</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S. Von Schnitzler beschriftet: »<quote>
+                                <p>eh. Brief, 1&#160;Bl., 3&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Adam</hi>
                            </quote>«.</p>
                             </physDesc>
@@ -76,18 +80,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1911-02-09" n="02">9. 2. 1911</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1911-02-09" n="02">9.&#160;2.&#160;1911</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1911-02-07_01">Schnitzler an Adam, 7. 2. 1911</ptr>
-               <ptr type="next" subtype="toAuthor" target="1911-02-11_01">Schnitzler an Adam, 11. 2. 1911</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1911-02-07_01">Schnitzler an Adam, 7.&#160;2.&#160;1911</ptr>
+               <ptr type="next" subtype="toAuthor" target="1911-02-11_01">Schnitzler an Adam, 11.&#160;2.&#160;1911</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -98,36 +102,19 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="OGL Kopie"/>
-                  <placeName key="pmb50">Wien</placeName>, am <date>9. Februar 1911</date>
-               </dateline>
-                    <salute>Hochverehrter Herr Doktor!</salute>
-            </opener>
-                <p>Um dieſen Brief zu entſchuldigen, möchte ich zwei Verſe aus »<workName key="pmb33580">Neidhard</workName>« an die
-                    Spitze ſetzen: »Kein gröberes Geſchäft auf Erden, – als einen Poeten
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="OGL Kopie"/><rs ref="#pmb50" type="place">Wien</rs>, am <date>9.&#160;Februar 1911</date></dateline><salute>Hochverehrter Herr Doktor!</salute></opener><p>Um dieſen Brief zu entſchuldigen, möchte ich zwei Verſe aus »<rs ref="#pmb33580" type="work">Neidhard</rs>« an die
+                    Spitze ſetzen: »Kein gröberes Geſchäft auf Erden,&#160;– als einen Poeten
                     loszuwerden.« Daß ich Ihnen wieder, und gar ſo raſch wieder ſchreibe, iſt
                     nämlich, ſcheint es mir, ſchon im Akt der Zudringlichkeit; und doch wollte ich
                     nur alles in der Welt nicht, daß Sie, hochverehrter Herr Doktor, mich für
                     zudringlich hielten. Ich weiß ſehr wohl, daß Sie Wichtigeres zu tun haben, als
-                    ſich bloß um das Schickſal meiner <rs type="work" key="pmb33580">Komödie</rs> zu beküm<pb facs="OGL Kopie"/>mern (bei mir ſelber iſt’s leider damit auch nicht viel anders beſtellt.)</p>
-                <p>Wenn ich Ihnen ſchreibe, geſchieht es nur, weil ich jetzt abſolut nicht weiß, was
-                    ich mit dieſem »<workName key="pmb33580">Neidhard</workName>« anfangen ſoll. Soll ich ihn einem andern Verlag
+                    ſich bloß um das Schickſal meiner <rs type="work" ref="#pmb33580" subtype="implied">Komödie</rs> zu beküm<pb facs="OGL Kopie"/>mern (bei mir ſelber iſt’s leider damit auch nicht viel anders beſtellt.)</p><p>Wenn ich Ihnen ſchreibe, geſchieht es nur, weil ich jetzt abſolut nicht weiß, was
+                    ich mit dieſem »<rs ref="#pmb33580" type="work">Neidhard</rs>« anfangen ſoll. Soll ich ihn einem andern Verlag
                     zuſenden? und welchem? oder ſoll ich nun den verzweifelten Verſuch unternehmen,
-                    einzelne Zeitſchriften mit meinem Helden bekanntzumachen?</p>
-                <p>Sie waren ſo gütig, hochverehrter Herr Doktor, mir nach Fehlſchlagen des
-                    <orgName key="pmb29639">Fiſcher</orgName>’ſchen Verſuchs die Erteilung weiterer Ratſchläge in Ausſicht zu ſtellen.
+                    einzelne Zeitſchriften mit meinem Helden bekanntzumachen?</p><p>Sie waren ſo gütig, hochverehrter Herr Doktor, mir nach Fehlſchlagen des
+                    <rs ref="#pmb29639" type="organisation">Fiſcher</rs>’ſchen Verſuchs die Erteilung weiterer Ratſchläge in Ausſicht zu ſtellen.
                     Verzeihen Sie mir nun, daß ich Sie neuerlich quäle: aber wahrhaftig, ich weiß
-                    mir nicht zu raten noch zu helfen.</p>
-                <p>Bitte, helfen Sie mir den Karren noch ein bischen weiter ſchleppen! und ſeien Sie
-                    meiner Dankbarkeit und <pb facs="OGL Kopie"/>Verehrung verſichert!</p>
-                <closer>Ihr ergebener<lb/>
-                    <signed>Robert Adam</signed>
-                </closer>
-            </div>
-        </body>
+                    mir nicht zu raten noch zu helfen.</p><p>Bitte, helfen Sie mir den Karren noch ein bischen weiter ſchleppen! und ſeien Sie
+                    meiner Dankbarkeit und <pb facs="OGL Kopie"/>Verehrung verſichert!</p><closer>Ihr ergebener<lb/><signed>Robert Adam</signed></closer></div></body>
     </text>
 </TEI>

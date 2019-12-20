@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1918-07-17_01_Adam_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1918-07-17_01_Adam_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 17. 7. 1918</title>
-                <author key="pmb12438">Adam, Robert</author>
+                <title level="a">Robert Adam an Arthur Schnitzler, 17.&#160;7.&#160;1918</title>
+                <author ref="#pmb12438">Adam, Robert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>            
                                 <settlement>Cambridge</settlement>            
                                 <repository>University Library</repository>            
-                                <idno>Schnitzler, B 1</idno>
+                                <idno>Schnitzler, B&#160;1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S. Von Schnitzler beschriftet:
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S. Von Schnitzler beschriftet:
                                     »<quote>
                               <hi rend="latintype">Adam</hi>
                            </quote>«. Von unbekannter Hand nummeriert: »<quote>4</quote>«.</p>
@@ -77,18 +81,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb1248">Andorf</placeName>
-                    <date when="1918-07-17" n="01">17. 7. 1918</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb1248">Andorf</placeName>
+                    <date when="1918-07-17" n="01">17.&#160;7.&#160;1918</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1918-06-15_01">Schnitzler an Adam, 15. 6. 1918</ptr>
-               <ptr type="next" subtype="toAuthor" target="1918-07-24_01">Schnitzler an Adam, 24. 7. 1918</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1918-06-15_01">Schnitzler an Adam, 15.&#160;6.&#160;1918</ptr>
+               <ptr type="next" subtype="toAuthor" target="1918-07-24_01">Schnitzler an Adam, 24.&#160;7.&#160;1918</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -99,26 +103,18 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="gray00542.pdf"/>
-                  <placeName key="pmb1248">Andorf</placeName>, <date>17. Juli 1918</date>.</dateline>
-                    <salute>Hochverehrter Herr Doktor!</salute>
-            </opener>
-                <p>Ich bin auf meiner Suche nach einem einſamen Erholungsorte – infolge einer
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="gray00542.pdf"/><rs ref="#pmb1248" type="place">Andorf</rs>, <date>17. Juli 1918</date>.</dateline><salute>Hochverehrter Herr Doktor!</salute></opener><p>Ich bin auf meiner Suche nach einem einſamen Erholungsorte – infolge einer
                     während der Eiſenbahnfahrt vernommenen Äußerung einer Mitreiſenden – in dieſen
-                    kleinen bäuerlichen Ort des <placeName key="pmb718">Innviertel</placeName>s,
-                    nicht weit von <placeName key="pmb1249">Schärding</placeName> entfernt, geraten
+                    kleinen bäuerlichen Ort des <rs ref="#pmb718" type="place">Innviertel</rs>s,
+                    nicht weit von <rs ref="#pmb1249" type="place">Schärding</rs> entfernt, geraten
                     und habe das gefunden, was ich geſucht hatte: ungeſtörte Einſamkeit – nur
-                    manchmal verſucht ſich die ältere <rs type="person" key="pmb27757">Wirtstochter</rs> oder ein ſtrebſamer Jüngling der Nachbarſchaft im
-                    Klavierüben; letzteres hat ſeinen Grund darin, daß mein <rs type="person" key="pmb27758">Wirt</rs> im Beſitze des Ortsklaviers iſt –, wundervolle
+                    manchmal verſucht ſich die ältere <rs type="person" ref="#pmb27757" subtype="implied">Wirtstochter</rs> oder ein ſtrebſamer Jüngling der Nachbarſchaft im
+                    Klavierüben; letzteres hat ſeinen Grund darin, daß mein <rs type="person" ref="#pmb27758" subtype="implied">Wirt</rs> im Beſitze des Ortsklaviers iſt&#160;–, wundervolle
                     fruchtbare Wieſen und Felder ringsum im Hügelland, weite Strec<pb facs="gray00543.pdf"/>ken abwechslungsreicher Nadelwälder, in denen es außer
                     vielem Wild, das jetzt für mich leider nicht in Betracht kommt, Beeren und
-                    Schwämme gibt und endlich eine ſehr gute, reichliche und nach <placeName key="pmb50">Wien</placeName>er Begriffen äußerſt
+                    Schwämme gibt und endlich eine ſehr gute, reichliche und nach <rs ref="#pmb50" type="place">Wien</rs>er Begriffen äußerſt
                     wohlfeile Friedenskoſt; denn man verfügt hier noch über Nahrungsmittel, deren
-                    Exiſtenz in <placeName key="pmb50">Wien</placeName>
+                    Exiſtenz in <rs ref="#pmb50" type="place">Wien</rs>
                     längſt zur Sage geworden iſt, vor allem reichlich über Mehl, Butter und Milch.
                     Dieſes Phänomen iſt zum Teil darauf zurückzuführen, daß man Sommergäſte mit
                     wenigen Ausnahmen rückſichtslos abweiſt und ſich Hamſterverſuchen gegenüber ſehr
@@ -128,32 +124,20 @@
                     unſparſamen <pb facs="gray00543.pdf"/>Verköſtigung nicht nur auf meinen
                     körperlichen, ſondern auch auf meinen geiſtigen Zuſtand wahrzunehmen, eine
                     gewiſſe Fähigkeit, freier und ungenierter Gedankengängen nachzugehen, ohne
-                    beſorgen zu müſſen, daß ſie plötzlich – wie es in <placeName key="pmb50">Wien</placeName> ſo oft geſchah – in die
+                    beſorgen zu müſſen, daß ſie plötzlich – wie es in <rs ref="#pmb50" type="place">Wien</rs> ſo oft geſchah – in die
                     Sackgaſſe der Nahrungsfrage einzulaufen: dies Kriegsthema des Eſſens ſchien mir
-                    in Geſpräch und Denken ſchon ſo unvermeidlich wie der Kopf <persName key="pmb5790">Karls I.</persName> in den <rs type="work" key="pmb33610">Promemorien des armen <hi rend="latintype">Dick</hi>
-               </rs> im <workName key="pmb33610">
-                  <hi rend="latintype">David Copperfield</hi>
-               </workName>.</p>
-                <p>Meine Lebensweiſe hier iſt von äußerſter Einfachheit: ich gehe nach dem Frühſtück
+                    in Geſpräch und Denken ſchon ſo unvermeidlich wie der Kopf <rs ref="#pmb5790" type="person">Karls I.</rs> in den <rs type="work" ref="#pmb33610" subtype="implied">Promemorien des armen <hi rend="latintype">Dick</hi></rs> im <rs ref="#pmb33610" type="work"><hi rend="latintype">David Copperfield</hi></rs>.</p><p>Meine Lebensweiſe hier iſt von äußerſter Einfachheit: ich gehe nach dem Frühſtück
                     in den Wald, laufe und liege drin bis zum Mittageſſen; bis zur Jauſe ſitze oder
                     liege ich in oder beim Hauſe; dann gehe ich wieder in den Wald und verlaſſe ihn
                     erſt, um zum Nachtmahl zu gehen; nach dem Nachtmahl ſpaziere ich ein wenig auf
                     den Feldern umher und ſitze dann mit Bauern und Schul<pb facs="gray00544.pdf"/>lehrer beim <anchor type="commentary" xml:id="KL2029-1"/>Moſt<note type="commentary" xml:id="KL2029-1h">Gegärter Fruchtsaft.</note>. 
-                    Ich habe in zwei Wochen – außer der Zeitung – keine 20 Seiten im »<workName key="pmb33612">Siebenkäs</workName>« geleſen und nur ſehr wenig geſchrieben. Trotzdem bin ich
-                    mit jener <rs type="work" key="pmb33656">Kriegstragödie</rs>, von der<del rend="strikethrough">n</del> ich Ihnen erzählte, (der
+                    Ich habe in zwei Wochen – außer der Zeitung – keine 20 Seiten im »<rs ref="#pmb33612" type="work">Siebenkäs</rs>« geleſen und nur ſehr wenig geſchrieben. Trotzdem bin ich
+                    mit jener <rs type="work" ref="#pmb33656" subtype="implied">Kriegstragödie</rs>, von der<del rend="strikethrough">n</del> ich Ihnen erzählte, (der
                     Kannibalengeſchichte) ziemlich weit gekommen; zum Niederſchreiben bin ich nur
-                    viel zu faul. Aber dieſes läßt ſich hoffentlich in <placeName key="pmb50">Wien</placeName> nachholen.</p>
-                <p>Die Kriegsſtimmung der hieſigen Bevölkerung, die durch die letzte Niederlage
-                    ſchreckliche Verluſte erlitten hat, iſt nicht viel beſſer als die der <placeName key="pmb50">Wien</placeName>er;
+                    viel zu faul. Aber dieſes läßt ſich hoffentlich in <rs ref="#pmb50" type="place">Wien</rs> nachholen.</p><p>Die Kriegsſtimmung der hieſigen Bevölkerung, die durch die letzte Niederlage
+                    ſchreckliche Verluſte erlitten hat, iſt nicht viel beſſer als die der <rs ref="#pmb50" type="place">Wien</rs>er;
                     vor Äußerungen der Erregung bewahrt ſie wohl nur ihre felſenhafte Zuverſicht,
-                    demnächſt zu <placeName key="pmb314">Baiern</placeName> zu gehören: – worauf dieſer Glaube beruht, iſt nicht zu
-                    eruieren.</p>
-                <p>Mein Urlaub endet leider ſchon in 10 Tagen.</p>
-                <p>Mit den herzlichſten Grüßen</p>
-                <closer>Ihr ergebener<lb/>
-                    <signed>Robert Adam</signed>
-                </closer>
-            </div>
-        </body>
+                    demnächſt zu <rs ref="#pmb314" type="place">Baiern</rs> zu gehören:&#160;– worauf dieſer Glaube beruht, iſt nicht zu
+                    eruieren.</p><p>Mein Urlaub endet leider ſchon in 10 Tagen.</p><p>Mit den herzlichſten Grüßen</p><closer>Ihr ergebener<lb/><signed>Robert Adam</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1916-05-18_01_AS_Adam">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1916-05-18_01_AS_Adam">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Robert Adam, 18. 5. 1916</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Robert Adam, 18.&#160;5.&#160;1916</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -53,8 +57,8 @@
                             <physDesc>
                                     <p>eh. Karte.</p>
                                     <stamp n="1">
-                                        <placeName key="pmb68">18/1 Wien</placeName>
-                                        <date when="1916-05-18">18. V. 16</date>
+                                        <rs ref="#pmb68" type="place">18/1 Wien</rs>
+                                        <date when="1916-05-18">18.&#160;V.&#160;16</date>
                                     </stamp>
                             </physDesc>
                         </msDesc>
@@ -67,18 +71,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1916-05-18" n="01">18. 5. 1916</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1916-05-18" n="01">18.&#160;5.&#160;1916</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1916-05-15_01">Schnitzler an Adam, 15. 5. 1916</ptr>
-               <ptr type="next" subtype="toAuthor" target="1916-05-21_01">Adam an Schnitzler, 21. 5. 1916</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1916-05-15_01">Schnitzler an Adam, 15.&#160;5.&#160;1916</ptr>
+               <ptr type="next" subtype="toAuthor" target="1916-05-21_01">Adam an Schnitzler, 21.&#160;5.&#160;1916</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -88,45 +92,6 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="address">
-            <address>
-                <addrLine>
-                  <pb facs=""/>
-                  <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
-               </addrLine>
-                <addrLine>
-                  <hi rend="pre-print">
-                     <placeName key="pmb150">Wien XVIII. Sternwartestrasse 71</placeName>
-                  </hi>
-               </addrLine>
-            </address>
-                <address>
-                    <addrLine>Hrn Dr. Robert Adam Pollak,</addrLine>
-                    <addrLine>
-                  <placeName key="pmb62">Wien <subst>
-                        <del rend="overwritten">II</del>
-                        <add place="inline">X</add>
-                     </subst>II</placeName>.</addrLine>
-                    <addrLine>
-                  <placeName key="pmb1239">Meidlinger Hptstr 56</placeName>.</addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                 <dateline rend="right">
-                  <pb facs=""/>
-                  <date>18. 5. 16</date>.</dateline>
-                    <salute>verehrter Herr Doktor</salute>
-                    </opener>                         
-                <p>darf ich Sie bitten morgen schon um <time>½ 7</time> statt 7 zu kommen?</p>
-                <closer>herzlichst grüßen<unclear>d</unclear>
-               <lb/>Ihr ergebn<unclear>er</unclear>
-               <lb/>
-               <signed>
-                  <handShift/>ArthSchnitzler</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine><pb facs=""/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></addrLine><addrLine><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></addrLine></address><address><addrLine>Hrn Dr. Robert Adam Pollak,</addrLine><addrLine><rs ref="#pmb62" type="place">Wien <subst><del rend="overwritten">II</del><add place="inline">X</add></subst>II</rs>.</addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hptstr 56</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>18.&#160;5.&#160;16</date>.</dateline><salute>verehrter Herr Doktor</salute></opener><p>darf ich Sie bitten morgen schon um <time>½&#160;7</time> statt 7 zu kommen?</p><closer>herzlichst grüßen<unclear>d</unclear><lb/>Ihr ergebn<unclear>er</unclear><lb/><signed><handShift/>ArthSchnitzler</signed></closer></div></body>
     </text>
 </TEI>

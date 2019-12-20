@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1903-12-10_01_AS_Hofmannsthal" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1903-12-10_01_AS_Hofmannsthal"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 10. 12. 1903</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 10.&#160;12.&#160;1903</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Hs-30885,XXXX</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1903-12-10" n="01">10. 12. 1903</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1903-12-10" n="01">10.&#160;12.&#160;1903</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1903-12-08_01">Hofmannsthal an Schnitzler, 8. 12. 1903</ptr>
-               <ptr type="next" subtype="toAuthor" target="1903-12-11_01">Hofmannsthal an Schnitzler, 11. 12. 1903</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1903-12-08_01">Hofmannsthal an Schnitzler, 8.&#160;12.&#160;1903</ptr>
+               <ptr type="next" subtype="toAuthor" target="1903-12-11_01">Hofmannsthal an Schnitzler, 11.&#160;12.&#160;1903</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,59 +103,40 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb50">Wien</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date>10. 12. 903</date>
-               </dateline>
-               <salute>mein lieber Hugo, </salute>
-            </opener>
-            <p>Sie haben offenbar einen Brief von mir nicht bekommen, den ich an Sie vor etwa
-               14 Tagen, ich glaube an dem Tag wo Ihre <workName key="pmb30633">Elektra</workName> bei mir
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date>10.&#160;12.&#160;903</date></dateline><salute>mein lieber Hugo, </salute></opener><p>Sie haben offenbar einen Brief von mir nicht bekommen, den ich an Sie vor etwa
+               14 Tagen, ich glaube an dem Tag wo Ihre <rs ref="#pmb30633" type="work">Elektra</rs> bei mir
                erschien, an Sie geschrieben habe. Das wesentlichste, was dieser Brief enthielt war
-               die Bitte Ihre <workName key="pmb30633">Elektra</workName> an <persName key="pmb2211">Antoine</persName>, resp. an Dr. <persName key="pmb2199">Stephan Epstein</persName>, <placeName key="pmb450">Paris, 78, rue de l’Assomption</placeName>, <persName key="pmb2211">Antoine</persName>s Dramaturgen fürs Ausland, zu senden, dem ich neulich über das
-               Stück kurz berichtet habe. Daß <workName key="pmb30486">B. Garlan</workName> beim zweiten Lesen so
+               die Bitte Ihre <rs ref="#pmb30633" type="work">Elektra</rs> an <rs ref="#pmb2211" type="person">Antoine</rs>, resp. an Dr. <rs ref="#pmb2199" type="person">Stephan Epstein</rs>, <rs ref="#pmb450" type="place">Paris, 78, rue de l’Assomption</rs>, <rs ref="#pmb2211" type="person">Antoine</rs>s Dramaturgen fürs Ausland, zu senden, dem ich neulich über das
+               Stück kurz berichtet habe. Daß <rs ref="#pmb30486" type="work">B. Garlan</rs> beim zweiten Lesen so
                angenehm auf Sie wirkte, freut mich sehr – ich hab es seit dem Erscheinen nicht
                wieder gelesen wie ich es (wenn mich nicht äußerliche Gründe zu einer wiederholten
                Lectüre nötigen) mit allen meinen gedruckten Sachen halte. Daher weiß ich auch seit
-               etwa 8 Jahren nichts mehr von »<workName key="pmb30117">Sterben</workName>«. Es stammt aus der Zeit,
+               etwa 8 Jahren nichts mehr von »<rs ref="#pmb30117" type="work">Sterben</rs>«. Es stammt aus der Zeit,
                wo mich der »Fall« mehr interessiert hat als die Menschen, und ich denke das meiste
                aus dieser Epoche muß wie luftlos wirken. Diese Sachen – ich hab es neulich wieder am
-               »<workName key="pmb29831">Jour de gloire</workName>« erfahren, wirken in anständiger
+               »<rs ref="#pmb29831" type="work">Jour de gloire</rs>« erfahren, wirken in anständiger
                französischer Übertragung besser als in meinem Deutsch. Die reine Tendenz des
                Erzählens ist dem romanischen Sprachgeist eingeboren, während er im deutschen
                gleichsam wie gegen die Natur wirkt, wenn die Mitteilung von Tatsachen der Seele und
                Menschlichkeit entbehrt. Die umgekehrte Probe kann man machen, wenn man irgend eine
-               kurze <persName key="pmb12201">Maupassant</persName>-Geschichte die französisch noch lange nicht
-               schwach wirkt, in deutscher Übersetzung liest. </p>
-            <p>Immerhin hab ich die Empfindung daß meine Technik der inneren Entwicklung meiner
+               kurze <rs ref="#pmb12201" type="person">Maupassant</rs>-Geschichte die französisch noch lange nicht
+               schwach wirkt, in deutscher Übersetzung liest. </p><p>Immerhin hab ich die Empfindung daß meine Technik der inneren Entwicklung meiner
                Production noch nicht nachgekommen ist – was mir übrigens nicht bange macht. Es ist
                jetzt in mir wieder so eine Neigung Sachen nur anzufangen und zu skizzieren wie in
-               der Zeit, die der <workName key="pmb29935">Anatol</workName>-Epoche vorherging. Am
-               meisten beschäftige ich mich jetzt mit einer Art von <rs type="work" key="pmb30881">Komödie</rs> und bin innerlich am meisten von dem <rs type="work" key="pmb29923">Roman</rs> erfüllt, den ich im Frühjahr begonnen, den aber fortzusetzen ich nicht
+               der Zeit, die der <rs ref="#pmb29935" type="work">Anatol</rs>-Epoche vorherging. Am
+               meisten beschäftige ich mich jetzt mit einer Art von <rs type="work" ref="#pmb30881" subtype="implied">Komödie</rs> und bin innerlich am meisten von dem <rs type="work" ref="#pmb29923" subtype="implied">Roman</rs> erfüllt, den ich im Frühjahr begonnen, den aber fortzusetzen ich nicht
                in genügend reiner Stimmung mich befinde. In Concerte gehen wir nicht selten, ins
-               Theater beinahe nie, aus persönlichen Gründen waren wir bei der <workName key="pmb29981">Novella
-                  d’Andrea</workName> – und ich habe es nicht ohne Bitterkeit empfunden, daß ich den
-               <persName key="pmb11851">Kainz</persName> nie werde den <rs type="work" key="pmb29985">Sala</rs> spielen sehen. Denn das <orgName key="pmb36247">Burgtheater</orgName>, wie Herr
-                  <persName key="pmb12671">Schlenther</persName> an <persName key="pmb11324">Fischer</persName> geschrieben, »reflectiert nicht« auf dieses <rs type="work" key="pmb29985">Stück</rs>. <persName key="pmb10986">Brahm</persName> gegenüber (was Sie ja wohl wissen dürften) hat
-               sich <persName key="pmb12671">Schl.</persName> über das <rs type="work" key="pmb29985">Stück</rs>
-               sehr mißfällig geäußert; scheint es aber, wie <persName key="pmb10986">Brahm</persName> sagt, ganz oberflächlich und wie ich überzeugt bin – mit bösem
+               Theater beinahe nie, aus persönlichen Gründen waren wir bei der <rs ref="#pmb29981" type="work">Novella
+                  d’Andrea</rs> – und ich habe es nicht ohne Bitterkeit empfunden, daß ich den
+               <rs ref="#pmb11851" type="person">Kainz</rs> nie werde den <rs type="work" ref="#pmb29985" subtype="implied">Sala</rs> spielen sehen. Denn das <rs ref="#pmb36247" type="organisation">Burgtheater</rs>, wie Herr
+                  <rs ref="#pmb12671" type="person">Schlenther</rs> an <rs ref="#pmb11324" type="person">Fischer</rs> geschrieben, »reflectiert nicht« auf dieses <rs type="work" ref="#pmb29985" subtype="implied">Stück</rs>. <rs ref="#pmb10986" type="person">Brahm</rs> gegenüber (was Sie ja wohl wissen dürften) hat
+               sich <rs ref="#pmb12671" type="person">Schl.</rs> über das <rs type="work" ref="#pmb29985" subtype="implied">Stück</rs>
+               sehr mißfällig geäußert; scheint es aber, wie <rs ref="#pmb10986" type="person">Brahm</rs> sagt, ganz oberflächlich und wie ich überzeugt bin – mit bösem
                Willen gelesen zu haben. Und nun, wann sieht man sich wieder? Wie wär es,
-                  <date>Montag</date> oder <date>Mittwoch</date>
-               <space unit="chars" quantity="1"/>
-               <time>Abend</time> in dem <rs type="place" key="pmb304">Hietzinger Restaurant</rs>?
-               Schreiben Sie mir, wann es Ihnen besser paßt und ob auch Ihre <rs type="person" key="pmb2292">Frau</rs> mitkommt. Und <persName key="pmb10863">Richard</persName>? Ich
-               höre und sehe nichts von ihm. – Sobald das Wetter ein bißchen angenehmer wird, kommen
-               wir gern nach <placeName key="pmb173">Rodaun</placeName>. </p>
-            <p>Das andere, das ich bald bekomme, ist wohl das <workName key="pmb31091">gerettete
-               Venedig</workName>? – </p>
-            <p>Leben Sie wohl.</p>
-            <closer>Herzlichst<lb/>Ihr <signed>A.</signed>
-            </closer>
-         </div>
-      </body>
+                  <date>Montag</date> oder <date>Mittwoch</date><space unit="chars" quantity="1"/><time>Abend</time> in dem <rs type="place" ref="#pmb304" subtype="implied">Hietzinger Restaurant</rs>?
+               Schreiben Sie mir, wann es Ihnen besser paßt und ob auch Ihre <rs type="person" ref="#pmb2292" subtype="implied">Frau</rs> mitkommt. Und <rs ref="#pmb10863" type="person">Richard</rs>? Ich
+               höre und sehe nichts von ihm.&#160;– Sobald das Wetter ein bißchen angenehmer wird, kommen
+               wir gern nach <rs ref="#pmb173" type="place">Rodaun</rs>. </p><p>Das andere, das ich bald bekomme, ist wohl das <rs ref="#pmb31091" type="work">gerettete
+               Venedig</rs>? – </p><p>Leben Sie wohl.</p><closer>Herzlichst<lb/>Ihr <signed>A.</signed></closer></div></body>
    </text>
 </TEI>

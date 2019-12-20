@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1925-12-07_01_AS_Bettelheim">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1925-12-07_01_AS_Bettelheim">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Anton Bettelheim, 7. 12. 1925</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Anton Bettelheim, 7.&#160;12.&#160;1925</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                
                     <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -45,7 +48,7 @@
                 <listBibl>
                <biblStruct corresp="ASB2"> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="#pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">Briefe 1913–1931</title>
                      <editor>Hg. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler</editor>
                      <imprint>
@@ -58,8 +61,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -77,13 +80,13 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-                <date when="1925-12-07" n="01">7. 12. 1925</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+                <date when="1925-12-07" n="01">7.&#160;12.&#160;1925</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10912">Bettelheim, Anton</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10912">Bettelheim, Anton</persName>
             </correspAction>
             
          </correspDesc>
@@ -94,36 +97,20 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <date>7. 12. 1925</date>.</dateline>
-                    <salute>Verehrtester Herr Professor.</salute>
-            </opener>
-                <p>Das Beste, was über <persName key="pmb11036">Max Burckhard</persName> bisher geschrieben wurde,
-                    scheint mir noch immer das kleine <rs type="work" key="pmb29945">Buch</rs> von <persName key="pmb10815">Hermann
-                        Bahr</persName> zu sein. Es ist zugleich meiner Empfindung nach eines der
-                    besten Bücher von <persName key="pmb10815">Bahr</persName>, vielfach ergreifend, wie ich
-                    überhaupt glaube, daß <persName key="pmb11036">Burckhard</persName> der einzige Mensch war, der
-                    <persName key="pmb10815">Bahr</persName> im Innersten nahe gestanden.</p>
-                <p>Über die Nachlaßverhältnisse <persName key="pmb11036">Burckhards</persName> bin ich leider nicht
-                    informiert. Meinem Hofrat <rs type="work" key="pmb30203">Winkler</rs> tun Sie zu viel Ehre an.
-                    Diese Figur kann höchstens als ein Relief von <persName key="pmb11036">Burckhard</persName>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>7.&#160;12.&#160;1925</date>.</dateline><salute>Verehrtester Herr Professor.</salute></opener><p>Das Beste, was über <rs ref="#pmb11036" type="person">Max Burckhard</rs> bisher geschrieben wurde,
+                    scheint mir noch immer das kleine <rs type="work" ref="#pmb29945" subtype="implied">Buch</rs> von <rs ref="#pmb10815" type="person">Hermann
+                        Bahr</rs> zu sein. Es ist zugleich meiner Empfindung nach eines der
+                    besten Bücher von <rs ref="#pmb10815" type="person">Bahr</rs>, vielfach ergreifend, wie ich
+                    überhaupt glaube, daß <rs ref="#pmb11036" type="person">Burckhard</rs> der einzige Mensch war, der
+                    <rs ref="#pmb10815" type="person">Bahr</rs> im Innersten nahe gestanden.</p><p>Über die Nachlaßverhältnisse <rs ref="#pmb11036" type="person">Burckhards</rs> bin ich leider nicht
+                    informiert. Meinem Hofrat <rs type="work" ref="#pmb30203" subtype="implied">Winkler</rs> tun Sie zu viel Ehre an.
+                    Diese Figur kann höchstens als ein Relief von <rs ref="#pmb11036" type="person">Burckhard</rs>
                     gelten. Um ihn plastisch herauszubringen (wenn ich mir das überhaupt zutrauen
                     dürfte), müßte man ihn wohl in den Mittelpunkt eines Stücks, besser noch eines
-                    Romans stellen.</p>
-                <p>Ich erlaube mir Ihnen heute meine letzten Bücher zu senden, die Sie, wenn ich
-                    recht verstehe, alle nicht besitzen. Und wenn <pb/>Sie die »<workName key="pmb30205">Komödie
-                        der Verführung</workName>« nur von der Generalprobe her kennen, so sind
+                    Romans stellen.</p><p>Ich erlaube mir Ihnen heute meine letzten Bücher zu senden, die Sie, wenn ich
+                    recht verstehe, alle nicht besitzen. Und wenn <pb/>Sie die »<rs ref="#pmb30205" type="work">Komödie
+                        der Verführung</rs>« nur von der Generalprobe her kennen, so sind
                     Ihnen wohl nur Zweidrittel bekannt Und auch diese Zweidrittel nicht durchaus so,
-                    wie ich es wohl wünschen möchte.</p>               
-                <closer>Mit herzlichen Grüßen, in aufrichtiger Verehrung<lb/>Ihr sehr ergebener<lb/>
-               <signed>
-                  <unclear>A.S</unclear>
-               </signed>
-                </closer>
-            </div>
-        </body>
+                    wie ich es wohl wünschen möchte.</p><closer>Mit herzlichen Grüßen, in aufrichtiger Verehrung<lb/>Ihr sehr ergebener<lb/><signed><unclear>A.S</unclear></signed></closer></div></body>
     </text>
 </TEI>

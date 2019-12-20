@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1901-06-28_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1901-06-28_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 28. 6. 1901</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 28.&#160;6.&#160;1901</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,17 +83,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb1200">Pörtschach</placeName>
-               <date when="1901-06-28" n="01">28. 6. 1901</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb1200">Pörtschach</placeName>
+               <date when="1901-06-28" n="01">28.&#160;6.&#160;1901</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1901-06-27_01">Schnitzler an Beer-Hofmann, 27. 6. 1901</ptr>
-               <ptr type="next" subtype="toAuthor" target="1901-07-04_01">Schnitzler an Beer-Hofmann, 4. 7. 1901</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1901-06-27_01">Schnitzler an Beer-Hofmann, 27.&#160;6.&#160;1901</ptr>
+               <ptr type="next" subtype="toAuthor" target="1901-07-04_01">Schnitzler an Beer-Hofmann, 4.&#160;7.&#160;1901</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -98,32 +102,15 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb1200">Pörtschach</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date when="1901-06-28">28/VI 1901</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Arthur! </salute>Es war Zeit daß Sie von sich hören ließen. Ich wußte
-               nur durch die <rs type="work" key="">
-                  <orgName key="pmb29351">N. Fr. Pr.</orgName>
-               </rs> daß Sie in <placeName key="pmb423">Tirol</placeName> sind. Ich war – um mir
-               Heiterkeit zu holen – 3 Tage in <placeName key="pmb462">Venedig</placeName>,
-               gleichzeitig mit <persName key="pmb11740">Hugo</persName>, doch wußten wir von
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb1200" type="place">Pörtschach</rs><space unit="chars" quantity="1"/><date when="1901-06-28">28/VI 1901</date></dateline></opener><p><salute>Lieber Arthur! </salute>Es war Zeit daß Sie von sich hören ließen. Ich wußte
+               nur durch die <rs type="work" subtype="implied" ref=""><rs ref="#pmb29351" type="organisation">N.&#160;Fr.&#160;Pr.</rs></rs> daß Sie in <rs ref="#pmb423" type="place">Tirol</rs> sind. Ich war – um mir
+               Heiterkeit zu holen – 3 Tage in <rs ref="#pmb462" type="place">Venedig</rs>,
+               gleichzeitig mit <rs ref="#pmb11740" type="person">Hugo</rs>, doch wußten wir von
                einander nichts, und erst als ich zurückkam erfuhr ich daß er auch dort war. Ich habe
-               mir aber keine Heiterkeit aus <placeName key="pmb462">Venedig</placeName> geholt.</p>
-            <p>Ich möchte wissen wann Sie herkommen, und ob und wann <persName key="pmb11485">Paul</persName> hieherkommt. <persName key="pmb11406">Ludassy</persName> und
-                  <persName key="pmb11253">Alexander Engel</persName> habe ich hier gesprochen. –
-                  <persName key="pmb11406">L.</persName> erklärte es unsicher daß Sie
-                  kämen. <persName key="pmb11707">Hirschfeld (Robert)</persName> hat uns besucht.
-               Was ist mit <persName key="pmb2167">Salten</persName> und seinem bodenständigen <rs type="place" key="">Brettl</rs>; aber wichtiger: Was ist mit Ihnen? Ist <placeName key="pmb30">Salzburg</placeName> noch immer gegen Verstimmung gut? Von Herzen</p>
-            <closer>Ihr <signed>Richard</signed>
-            </closer>
-         </div>
-      </body>
+               mir aber keine Heiterkeit aus <rs ref="#pmb462" type="place">Venedig</rs> geholt.</p><p>Ich möchte wissen wann Sie herkommen, und ob und wann <rs ref="#pmb11485" type="person">Paul</rs> hieherkommt. <rs ref="#pmb11406" type="person">Ludassy</rs> und
+                  <rs ref="#pmb11253" type="person">Alexander Engel</rs> habe ich hier gesprochen.&#160;–
+                  <rs ref="#pmb11406" type="person">L.</rs> erklärte es unsicher daß Sie
+                  kämen. <rs ref="#pmb11707" type="person">Hirschfeld (Robert)</rs> hat uns besucht.
+               Was ist mit <rs ref="#pmb2167" type="person">Salten</rs> und seinem bodenständigen <rs type="place" subtype="implied" ref="">Brettl</rs>; aber wichtiger: Was ist mit Ihnen? Ist <rs ref="#pmb30" type="place">Salzburg</rs> noch immer gegen Verstimmung gut? Von Herzen</p><closer>Ihr <signed>Richard</signed></closer></div></body>
    </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-04_01_Boelsche_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-04_01_Boelsche_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Wilhelm Bölsche an Arthur Schnitzler, [Anfang April 1892]</title>
-                <author key="pmb11061">Bölsche, Wilhelm</author>
+                <author ref="#pmb11061">Bölsche, Wilhelm</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>A:Schnitzler, HS.NZ85.1.2577,5</idno>
                     </msIdentifier>
                      <physDesc>
-                         <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Von Schnitzler mit Bleistift datiert: »<quote>
+                         <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte. Von Schnitzler mit Bleistift datiert: »<quote>
                               <date>April 92</date>
                            </quote>« und mit rotem Buntstift nummeriert: »<quote>6</quote>«.</p>
                      </physDesc>
@@ -61,7 +65,7 @@
                 <listBibl>
                     <biblStruct>
                             <monogr> 
-                                <author key="pmb11061">Bölsche, Wilhelm</author> 
+                                <author ref="#pmb11061">Bölsche, Wilhelm</author> 
                                 <title level="m">Briefwechsel. Mit Autoren der Freien Bühne</title>
                                 <editor>Hg. Gerd-Hermann Susen</editor>
                                 <imprint>
@@ -84,18 +88,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11061">Bölsche, Wilhelm</persName>
-                    <placeName key="pmb168">Berlin</placeName>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
                     <date when="1892-04" n="01">[Anfang April 1892]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1892-04-20_01">Schnitzler an Bölsche, 20. 4. 1892</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-05-27_01">Schnitzler an Bölsche, 27. 5. 1892</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1892-04-20_01">Schnitzler an Bölsche, 20.&#160;4.&#160;1892</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-05-27_01">Schnitzler an Bölsche, 27.&#160;5.&#160;1892</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -111,24 +115,10 @@
         <!-- $$$$ Dateinamen müssen noch ergänzt werden! -->
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="HS.NZ85.1.2577,5"/>
-                  <placeName key="pmb1275">Friedrichshagen</placeName>
-                  <lb/>
-                        Wilhelmſtr. 72.</dateline>
-                    <salute>Hochgeehrter Herr Doktor!</salute>
-            </opener>                         
-                <p>Bitte <rs type="work" key="pmb30169">ſenden Sie</rs> möglichſt bald, – doch weiß ich nicht, 
-                    ob ich noch etwas in’s <rs type="work" key="pmb36166">Maiheft</rs> ſtopfen kann,
-                    das ganz voll iſt.</p>
-                <closer>Mit beſtem Gruß<lb/>
-                    Ihr<lb/>
-                    <signed>W. Bölsche</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="HS.NZ85.1.2577,5"/><rs ref="#pmb1275" type="place">Friedrichshagen</rs><lb/>
+                        Wilhelmſtr. 72.</dateline><salute>Hochgeehrter Herr Doktor!</salute></opener><p>Bitte <rs type="work" ref="#pmb30169" subtype="implied">ſenden Sie</rs> möglichſt bald,&#160;– doch weiß ich nicht, 
+                    ob ich noch etwas in’s <rs type="work" ref="#pmb36166" subtype="implied">Maiheft</rs> ſtopfen kann,
+                    das ganz voll iſt.</p><closer>Mit beſtem Gruß<lb/>
+                    Ihr<lb/><signed>W. Bölsche</signed></closer></div></body>
     </text>
 </TEI>

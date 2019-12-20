@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-10-14_02_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1898-10-14_02_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 14. 10. 1898</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 14.&#160;10.&#160;1898</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Hs-30885,78</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S., schwarze Tinte. Von Schnitzler mit Bleistift datiert: »<quote>
+                                <p>eh. Brief, 1&#160;Bl., 3&#160;S., schwarze Tinte. Von Schnitzler mit Bleistift datiert: »<quote>
                                         <date>14/10 98</date>
                                     </quote>«.</p>
                             </physDesc>
@@ -61,8 +65,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -81,18 +85,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1898-10-14" n="02">14. 10. 1898</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1898-10-14" n="02">14.&#160;10.&#160;1898</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb75">Hinterbrühl</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb75">Hinterbrühl</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1898-10-12_01">Hofmannsthal an Schnitzler, 12. 10. [1898]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1898-11-19_01">Hofmannsthal an Schnitzler, 19.  11. 1898</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1898-10-12_01">Hofmannsthal an Schnitzler, 12.&#160;10.&#160;[1898]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1898-11-19_01">Hofmannsthal an Schnitzler, 19.&#160;&#160;11.&#160;1898</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -108,40 +112,23 @@
         <graphic url="Hs-30885,78_002.TIF"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-                    <pb facs="Hs-30885,78_001.TIF"/>
-                    <salute>mein lieber Hugo, </salute>es iſt jetzt ſo grau und kühl und feucht, und
+        <body><div type="writingSession" n="1"><p><pb facs="Hs-30885,78_001.TIF"/><salute>mein lieber Hugo, </salute>es iſt jetzt ſo grau und kühl und feucht, und
                     ich bin ſo verſchnupft und habe eine ganz geſchwollene Naſe, dſs wohl an eine
-                        <placeName key="pmb75">Hinterbrühl</placeName>erreiſe kaum zu denken iſt,
+                        <rs ref="#pmb75" type="place">Hinterbrühl</rs>erreiſe kaum zu denken iſt,
                     vielmehr vermute ich Sie ko<c rendition="#gemination-m"/>en früher nach
-                        <placeName key="pmb50">Wien</placeName>. Viele Grüße hab ich Ihnen von
-                        <persName key="pmb10986">Brahm</persName>, <persName key="pmb11581">Harden</persName> und der <persName key="pmb11195">Dumont</persName> zu
+                        <rs ref="#pmb50" type="place">Wien</rs>. Viele Grüße hab ich Ihnen von
+                        <rs ref="#pmb10986" type="person">Brahm</rs>, <rs ref="#pmb11581" type="person">Harden</rs> und der <rs ref="#pmb11195" type="person">Dumont</rs> zu
                     bringen. Die Leute ſpüren doch ungefähr, wer Sie ſind. Man freut ſich auf Ihr
-                        Wiederko<c rendition="#gemination-m"/>en, auf Ihr neues <rs type="work" key="pmb32512">Stück</rs>, <pb facs="Hs-30885,78_002.TIF"/>– mir ſcheint, im
+                        Wiederko<c rendition="#gemination-m"/>en, auf Ihr neues <rs type="work" ref="#pmb32512" subtype="implied">Stück</rs>, <pb facs="Hs-30885,78_002.TIF"/>– mir ſcheint, im
                         <date>Jänner</date> ſind einige Abende für Sie frei; (von den künftigen
-                    Monaten ganz zu geſchweigen.)</p>
-                <p>Über meinen <placeName key="pmb168">Berl</placeName>. Aufenthalt mündlich. Der
-                    Erfolg nach dem <rs type="work" key="pmb30219">3. Akt</rs> war überraſchend
-                    ſtark. Während des <rs type="work" key="pmb30219">Akts</rs> hatte ich die
-                    Empfindung, das <rs type="work" key="pmb30219">Stück</rs> iſt hin. Da kamen die
+                    Monaten ganz zu geſchweigen.)</p><p>Über meinen <rs ref="#pmb168" type="place">Berl</rs>. Aufenthalt mündlich. Der
+                    Erfolg nach dem <rs type="work" ref="#pmb30219" subtype="implied">3. Akt</rs> war überraſchend
+                    ſtark. Während des <rs type="work" ref="#pmb30219" subtype="implied">Akts</rs> hatte ich die
+                    Empfindung, das <rs type="work" ref="#pmb30219" subtype="implied">Stück</rs> iſt hin. Da kamen die
                     letzten paar Scenen, die wirkten unmittelbar und ſind ja wirklich aller Ehren
                     wert. Aber aus welchen <pb facs="Hs-30885,78_002.TIF"/>Tiefen ſteigen ſie
-                    empor! –</p>
-                <p>– Im übrigen wird ſich das <rs type="work" key="pmb30219">Stück</rs> nicht lang
-                    halten; ſchon die 3. Vorſtellung war ſchwach beſucht.</p>
-                <p>– Von meinen 3 <rs type="work" key="pmb32562">Einaktern</rs> hat dem <persName key="pmb10986">Br.</persName> der <rs type="work" key="pmb29843">gefärbte
-                        Vogel</rs> (wie es ſcheint weitaus) am beſten gefallen. <add place="inline">Aufführung wahrſcheinlich <date>Februar</date> mit <persName key="pmb11851">Kainz</persName>.</add>
-                </p>
-                <p>Seien Sie herzlich gegrüßt und laſſen Sie uns bald zuſa<c rendition="#gemination-m"/>en ſein.</p>
-                <closer>Ihr <signed>Arthur</signed>
-                </closer>
-                <postscript>
-                    <p>
-                        <placeName key="pmb50">Wien</placeName>, <date>14. X. 98</date>.</p>
-                </postscript>
-            </div>
-        </body>
+                    empor!&#160;–</p><p>– Im übrigen wird ſich das <rs type="work" ref="#pmb30219" subtype="implied">Stück</rs> nicht lang
+                    halten; ſchon die 3.&#160;Vorſtellung war ſchwach beſucht.</p><p>– Von meinen 3 <rs type="work" ref="#pmb32562" subtype="implied">Einaktern</rs> hat dem <rs ref="#pmb10986" type="person">Br.</rs> der <rs type="work" ref="#pmb29843" subtype="implied">gefärbte
+                        Vogel</rs> (wie es ſcheint weitaus) am beſten gefallen. <add place="inline">Aufführung wahrſcheinlich <date>Februar</date> mit <rs ref="#pmb11851" type="person">Kainz</rs>.</add></p><p>Seien Sie herzlich gegrüßt und laſſen Sie uns bald zuſa<c rendition="#gemination-m"/>en ſein.</p><closer>Ihr <signed>Arthur</signed></closer><postscript><p><rs ref="#pmb50" type="place">Wien</rs>, <date>14.&#160;X.&#160;98</date>.</p></postscript></div></body>
     </text>
 </TEI>

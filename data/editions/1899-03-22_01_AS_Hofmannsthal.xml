@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-03-22_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1899-03-22_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal,
-                    22. 3. 1899</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                    22.&#160;3.&#160;1899</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -52,7 +56,7 @@
                                 <idno>Hs-30885,XXXX</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>XXXXeh. Brief, 1 Bl., 1 S. XXXX</p>
+                                <p>XXXXeh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -60,8 +64,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -80,18 +84,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1899-03-22" n="01">22. 3. 1899</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1899-03-22" n="01">22.&#160;3.&#160;1899</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb168">Berlin</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-03-20_01">Hofmannsthal an Schnitzler, [20. 3. 1899]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-03-23_01">Hofmannsthal an Schnitzler, [23.? 3. 1899]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-03-20_01">Hofmannsthal an Schnitzler, [20.&#160;3.&#160;1899]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-03-23_01">Hofmannsthal an Schnitzler, [23.?&#160;3.&#160;1899]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -100,34 +104,20 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <date>22. 3. 99</date>.</dateline>
-                </opener>
-                <p>
-               <salute>Mein lieber Hugo! </salute>ich danke Ihnen sehr daß Sie noch einmal bei
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>22.&#160;3.&#160;99</date>.</dateline></opener><p><salute>Mein lieber Hugo! </salute>ich danke Ihnen sehr daß Sie noch einmal bei
                     mir waren. Was soll ich Ihnen heute weiter sagen. Ein Tag ist schrecklicher als
                     der andre; es ist viel grauenvoller und hoffnungsloser als irgend ein Wort
                     darüber. Ich habe das Gefühl, fertig zu sein; Zeichen genug werden mir gesandt!
-                    Vom Morgen aus der Ausblick ins leere, leere – die Erinnerungen an <rs type="person" key="pmb2378">ihr</rs> Leben voll Pein, an ihren Tod von einer
+                    Vom Morgen aus der Ausblick ins leere, leere – die Erinnerungen an <rs type="person" ref="#pmb2378" subtype="implied">ihr</rs> Leben voll Pein, an ihren Tod von einer
                     grenzenlosen Entsetzlichkeit<c rendition="#dots" n="2"/> die letzten Blicke, die
                     letzten Worte unvergeßlich – die letzte Angst auf immer alles zerstörend, was
                     noch kommen könnte. Eine ungeheure Gleichgiltigkeit gegen alles, was mir auch
                     Inhalt des Lebens schien – schauen ins leere, greifen ins leere, jammern ins
-                    leere.</p>
-                <p>Vielleicht fahre ich auf einen Tag nach <placeName key="pmb860">Graz</placeName>, wo ihre <rs type="person" key="pmb14707">Schwester</rs> und jetzt auch ihr <rs type="person" key="pmb23209">Vater</rs> u. von morgen an ihre <rs type="person" key="pmb23215">Mutter</rs> ist. Alle Menschen sind sehr gut zu mir; – ich möchte
+                    leere.</p><p>Vielleicht fahre ich auf einen Tag nach <rs ref="#pmb860" type="place">Graz</rs>, wo ihre <rs type="person" ref="#pmb14707" subtype="implied">Schwester</rs> und jetzt auch ihr <rs type="person" ref="#pmb23209" subtype="implied">Vater</rs> u. von morgen an ihre <rs type="person" ref="#pmb23215" subtype="implied">Mutter</rs> ist. Alle Menschen sind sehr gut zu mir;&#160;– ich möchte
                     danken können. Eine Einsamkeit ohnegleichen – ich muß dran denken, wie ich doch
                     immer die Menschen zu schildern versucht habe, die ihr geliebtestes verlieren –
                     es gibt eben etwas, das nicht auszudrücken ist – so gut wie die Ewigkeit, die
-                    Unendlichkeit: – die Einsamkeit, das Vereinsamtsein; <hi rend="underline" n="1">ver</hi>einsamt <hi rend="underline" n="1">werden</hi>. </p>
-                <p>Leben Sie wohl, liebster Hugo. Kommen Sie bald zurück!? Bitte schreiben Sie mir
-                    nur äußere Vorkommnisse, nichts <hi rend="underline" n="1">darüber</hi>. </p>
-                <p>– Sagen Sie es <persName key="pmb10986">Brahm</persName> u. <persName key="pmb11701">Hirschfeld</persName>, damit sie’s wissen, wenn ich komme. </p>
-                <closer>Von Herzen<lb/>Ihr <signed>Arthur</signed>
-            </closer>
-            </div>
-        </body>
+                    Unendlichkeit:&#160;– die Einsamkeit, das Vereinsamtsein; <hi rend="underline" n="1">ver</hi>einsamt <hi rend="underline" n="1">werden</hi>. </p><p>Leben Sie wohl, liebster Hugo. Kommen Sie bald zurück!? Bitte schreiben Sie mir
+                    nur äußere Vorkommnisse, nichts <hi rend="underline" n="1">darüber</hi>. </p><p>– Sagen Sie es <rs ref="#pmb10986" type="person">Brahm</rs> u. <rs ref="#pmb11701" type="person">Hirschfeld</rs>, damit sie’s wissen, wenn ich komme. </p><closer>Von Herzen<lb/>Ihr <signed>Arthur</signed></closer></div></body>
     </text>
 </TEI>

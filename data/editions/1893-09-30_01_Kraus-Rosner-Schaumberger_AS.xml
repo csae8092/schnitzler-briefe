@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-09-30_01_Kraus-Rosner-Schaumberger_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-09-30_01_Kraus-Rosner-Schaumberger_AS">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Karl Kraus u. a. an Arthur Schnitzler, 30. 9. 1893</title>
-                <author key="pmb11988">Kraus, Karl</author>
-                <author key="pmb12564">Rosner, Karl</author>
-                <author key="pmb4498">Schaumberger, Julius</author>
+                <title level="a">Karl Kraus u.&#160;a. an Arthur Schnitzler, 30.&#160;9.&#160;1893</title>
+                <author ref="#pmb11988">Kraus, Karl</author>
+                <author ref="#pmb12564">Rosner, Karl</author>
+                <author ref="#pmb4498">Schaumberger, Julius</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -50,14 +54,14 @@
                                 <country>UK</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 55</idno>
+                                <idno>Schnitzler, B&#160;55</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Postkarte, Bleistift, von Karl Kraus, Karl Rosner, Julius
                                     Schaumberger. Von unbekannter Hand mit Bleistift nummeriert:
                                         »<quote>4</quote>«.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb38129">München II</placeName>
+                                    <rs ref="#pmb38129" type="place">München II</rs>
                                     <time>8-9</time>
                                 </stamp>
                             </physDesc>
@@ -82,8 +86,8 @@
                     </biblStruct>
                     <biblStruct corresp="HBAS">
                         <monogr>
-                            <author key="pmb10815">Bahr, Hermann</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10815">Bahr, Hermann</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel, Aufzeichnungen, Dokumente
                                 (1891–1931)</title>
                             <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
@@ -103,16 +107,16 @@
                 <language ident="de-DE">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11988">Kraus, Karl</persName>
-                    <persName key="pmb12564">Rosner, Karl</persName>
-                    <persName key="pmb4498">Schaumberger, Julius</persName>
-                    <placeName key="pmb38129">München</placeName>
-                    <date when="1893-09-30" n="01">30. 9. 1893</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11988">Kraus, Karl</persName>
+                    <persName ref="#pmb12564">Rosner, Karl</persName>
+                    <persName ref="#pmb4498">Schaumberger, Julius</persName>
+                    <placeName ref="#pmb38129">München</placeName>
+                    <date when="1893-09-30" n="01">30.&#160;9.&#160;1893</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             
          </correspDesc>
@@ -129,72 +133,9 @@
         <graphic url="MS-SCHNITZLER-B-00055-000-00036"/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="MS-SCHNITZLER-B-00055-000-00035"/>
-                  <hi rend="latintype">Herrn D<hi rend="superscript">r.</hi> Arthur Schnitzler</hi>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb51">
-                     <hi rend="latintype">Wien I</hi>
-                  </placeName>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb412">
-                     <hi rend="latintype">Grillparzerstraße 7.
-                            I</hi>
-                  </placeName>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline>
-                        <pb facs="MS-SCHNITZLER-B-00055-000-00036"/>
-                        <placeName key="pmb100">München, Café Luitpold</placeName>,
-                            <date>30/9 93</date>.</dateline>
-                </opener>
-                <p>
-                    <salute>Liebster Doktor, </salute>herzlichſte Grüße.</p>
-                <p>Grüßen Sie beſtens auch <persName key="pmb10863">Beer-Hofmann</persName>
-                    <space unit="chars" quantity="1"/>
-                    <add place="above">
-                        <persName key="pmb11740">Loris</persName>
-                    </add>. Ich habe Ihnen <hi rend="underline" n="2">vieles</hi> Sie <subst>
-                        <del rend="overwritten">i</del>
-                        <add place="inline">I</add>
-                    </subst>ntereſſierende zu ſagen.</p>
-                <closer>Ihr <signed>Kraus</signed>
-                    <space unit="chars" quantity="3"/>poste restante</closer>
-            </div>
-            <div type="writingSession" n="2">
-                <p>
-                    <handShift scribe="pmb12564"/>
-                    <hi rend="latintype">Viele innige Grüße an Sie, <persName key="pmb10863">Hoffmann</persName>, <persName key="pmb11740">Loris</persName>,
-                            <persName key="pmb10815">Bahr</persName>
-                    </hi>
-                </p>
-                <closer>
-                    <hi rend="latintype">Ihr treuer</hi>
-                    <lb/>
-                    <signed>Karl Rosner.</signed>
-                </closer>
-            </div>
-            <div type="writingSession" n="3">
-                <p>
-                    <handShift scribe="pmb11988"/>Dieſer Mensch hat ſich <hi rend="underline" n="1">ſehr</hi> gebeſſert, alle Poſen ſich abgewöhnt. <signed>Kraus</signed>
-                </p>
-            </div>
-            <div type="writingSession" n="4">
-                <p rend="center">–------</p>
-                <p>
-                    <handShift scribe="pmb4498"/>
-                    <hi rend="latintype">Prosit</hi>
-                    <signed>JSchaumberger</signed>
-                </p>
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00055-000-00035"/><hi rend="latintype">Herrn D<hi rend="superscript">r.</hi> Arthur Schnitzler</hi></addrLine><addrLine><rs ref="#pmb51" type="place"><hi rend="latintype">Wien I</hi></rs></addrLine><addrLine><rs ref="#pmb412" type="place"><hi rend="latintype">Grillparzerstraße 7.
+                            I</hi></rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline><pb facs="MS-SCHNITZLER-B-00055-000-00036"/><rs ref="#pmb100" type="place">München, Café Luitpold</rs>,
+                            <date>30/9 93</date>.</dateline></opener><p><salute>Liebster Doktor, </salute>herzlichſte Grüße.</p><p>Grüßen Sie beſtens auch <rs ref="#pmb10863" type="person">Beer-Hofmann</rs><space unit="chars" quantity="1"/><add place="above"><rs ref="#pmb11740" type="person">Loris</rs></add>. Ich habe Ihnen <hi rend="underline" n="2">vieles</hi> Sie <subst><del rend="overwritten">i</del><add place="inline">I</add></subst>ntereſſierende zu ſagen.</p><closer>Ihr <signed>Kraus</signed><space unit="chars" quantity="3"/>poste restante</closer></div><div type="writingSession" n="2"><p><handShift scribe="pmb12564"/><hi rend="latintype">Viele innige Grüße an Sie, <rs ref="#pmb10863" type="person">Hoffmann</rs>, <rs ref="#pmb11740" type="person">Loris</rs>,
+                            <rs ref="#pmb10815" type="person">Bahr</rs></hi></p><closer><hi rend="latintype">Ihr treuer</hi><lb/><signed>Karl Rosner.</signed></closer></div><div type="writingSession" n="3"><p><handShift scribe="pmb11988"/>Dieſer Mensch hat ſich <hi rend="underline" n="1">ſehr</hi> gebeſſert, alle Poſen ſich abgewöhnt. <signed>Kraus</signed></p></div><div type="writingSession" n="4"><p rend="center">–------</p><p><handShift scribe="pmb4498"/><hi rend="latintype">Prosit</hi><signed>JSchaumberger</signed></p></div></body>
     </text>
 </TEI>

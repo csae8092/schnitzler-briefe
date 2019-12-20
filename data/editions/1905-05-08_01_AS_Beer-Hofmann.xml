@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1905-05-08_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1905-05-08_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 
-                        8. 5. 1905</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+                        8.&#160;5.&#160;1905</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -52,7 +56,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -80,17 +84,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1905-05-08" n="01">8. 5. 1905</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1905-05-08" n="01">8.&#160;5.&#160;1905</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1905-03-23_01">Schnitzler an Beer-Hofmann, 23. 3. 1905</ptr>
-               <ptr type="next" subtype="toAuthor" target="1905-05-09_01">Schnitzler an Beer-Hofmann, 9. 5. 1905</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1905-03-23_01">Schnitzler an Beer-Hofmann, 23.&#160;3.&#160;1905</ptr>
+               <ptr type="next" subtype="toAuthor" target="1905-05-09_01">Schnitzler an Beer-Hofmann, 9.&#160;5.&#160;1905</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -100,16 +104,8 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         
-				        <div type="writingSession" n="1">
-				           <p>Gratulire von Herzen zum <orgName key="pmb42042">Schillerpreis</orgName> freuten uns sehr möchte zur
-				              <workName key="pmb30233">Charolais</workName>première zwei Sitze möglichst erste Reihe bitte Nachricht wann wo
-						abholbar viele Grüsse von Haus zu Haus</p>
-					          <closer>Ihr <signed>Arthur</signed>
-					          </closer>
-				        </div>
-			      
-      </body>
+      <body><div type="writingSession" n="1"><p>Gratulire von Herzen zum <rs ref="#pmb42042" type="organisation">Schillerpreis</rs> freuten uns sehr möchte zur
+				              <rs ref="#pmb30233" type="work">Charolais</rs>première zwei Sitze möglichst erste Reihe bitte Nachricht wann wo
+						abholbar viele Grüsse von Haus zu Haus</p><closer>Ihr <signed>Arthur</signed></closer></div></body>
    </text>
 </TEI>

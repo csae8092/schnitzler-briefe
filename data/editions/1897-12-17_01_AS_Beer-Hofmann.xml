@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-12-17_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-12-17_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 17. 12. 1897</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 17.&#160;12.&#160;1897</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -53,12 +57,12 @@
                      <physDesc>
                         <p>eh. Briefkarte mit Umschlag, Bleistift.</p>
                         <stamp n="1">
-                           <placeName key="pmb59">Wien 9/3</placeName>
+                           <rs ref="#pmb59" type="place">Wien 9/3</rs>
                            <date when="1897-12-17">17. 12. 97</date>
                            <time>11-12V</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb51">Wien 1/1</placeName>
+                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
                            <date when="1897-12-17">17/12 97</date>
                            <time>1-2½N</time>
                            <action>Bestellt</action>
@@ -70,8 +74,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -90,19 +94,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1897-12-17" n="01">17. 12. 1897</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1897-12-17" n="01">17.&#160;12.&#160;1897</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1897-12-17">17. 12. 1897</date>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1897-12-17">17.&#160;12.&#160;1897</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-12-11_01">Schnitzler an Beer-Hofmann, 11. 12. 1897</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-12-25_01">Beer-Hofmann an Schnitzler, [25. 12. 1897]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-12-11_01">Schnitzler an Beer-Hofmann, 11.&#160;12.&#160;1897</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-12-25_01">Beer-Hofmann an Schnitzler, [25. 12.&#160;1897]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -119,33 +123,12 @@
       <graphic url="1897_AS_RBH_4_00017.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1897_AS_RBH_4_00014.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb50">Wien</placeName>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb338">
-                     <hi rend="latintype">I.
-                     Wollzeile 15</hi>
-                  </placeName>.</addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="1897_AS_RBH_4_00014.jpeg"/>
-               <salute>Lieber Richard, </salute>bitte ſenden Sie mir gelegentlich »<workName key="pmb29833">Die Todten ſchweigen</workName>«.</p>
-            <p>Herzlichſt Ihr Arthur – (wiſſen Sie, der in der <placeName key="pmb397">Frank<pb facs="1897_AS_RBH_4_00015.jpeg"/>gaſſe</placeName> wohnt – gelegentlich auch
+      <body><div type="address"><address><addrLine><pb facs="1897_AS_RBH_4_00014.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
+                     Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb338" type="place"><hi rend="latintype">I.
+                     Wollzeile 15</hi></rs>.</addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1897_AS_RBH_4_00014.jpeg"/><salute>Lieber Richard, </salute>bitte ſenden Sie mir gelegentlich »<rs ref="#pmb29833" type="work">Die Todten ſchweigen</rs>«.</p><p>Herzlichſt Ihr Arthur – (wiſſen Sie, der in der <rs ref="#pmb397" type="place">Frank<pb facs="1897_AS_RBH_4_00015.jpeg"/>gaſſe</rs> wohnt – gelegentlich auch
                bei Notaren <anchor type="commentary" xml:id="KLMAM20191011-5"/>Zeugenſchaft<note type="commentary" xml:id="KLMAM20191011-5h">Schnitzler war am
-                     <date>14. 5. 1898</date> Trauzeuge bei der Hochzeit von <persName key="pmb10863">Beer-Hofmann</persName> und <persName key="pmb10860">Paula Lissy
-                  </persName> gewesen.</note> ablegt – der bekannte Arzt des <rs type="person" key="pmb10765">Verfaſſer</rs>s des <rs type="work" key="pmb30435">Gartens der
-                  Erkenntnis</rs> – na, Sie werden ſich ſchon erinnern.)</p>
-         </div>
-      </body>
+                     <date>14.&#160;5.&#160;1898</date> Trauzeuge bei der Hochzeit von <rs ref="#pmb10863" type="person">Beer-Hofmann</rs> und <rs ref="#pmb10860" type="person">Paula Lissy
+                  </rs> gewesen.</note> ablegt – der bekannte Arzt des <rs type="person" ref="#pmb10765" subtype="implied">Verfaſſer</rs>s des <rs type="work" ref="#pmb30435" subtype="implied">Gartens der
+                  Erkenntnis</rs> – na, Sie werden ſich ſchon erinnern.)</p></div></body>
    </text>
 </TEI>

@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L042XXX">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L042XXX">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Friedrich M. Fels an Arthur Schnitzler,
-                    [26. 11. 1894]</title>
-                <author key="pmb2450">Fels, Friedrich M.</author>
+                    [26.&#160;11.&#160;1894]</title>
+                <author ref="#pmb2450">Fels, Friedrich M.</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -16,8 +20,8 @@
                     <address>
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
-                        <placeName>
-                            <country>A</country> Wien </placeName>
+                        <rs type="place">
+                            <country>A</country> Wien </rs>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,10 +54,10 @@
                                 <idno>A:Schnitzler, HS.NZ85.1.2956</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., Lateinschrift, schwarze Tinte. Von
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., Lateinschrift, schwarze Tinte. Von
                                     Schnitzler nummeriert mit: »<quote>20</quote>« und datiert:
                                             »<quote>
-                              <date>26. 11. 94</date>.</quote>«.
+                              <date>26.&#160;11.&#160;94</date>.</quote>«.
                                     Zwei Unterstreichungen mit Buntstift, womöglich ebenfalls von
                                     ihm.</p>
                             </physDesc>
@@ -67,18 +71,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2450">Fels, Friedrich M.</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1894-11-26" n="01">[26. 11. 1894]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2450">Fels, Friedrich M.</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1894-11-26" n="01">[26.&#160;11.&#160;1894]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-11-12_01">Fels an Schnitzler, [12. 11. 1894]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-04-23_01">Fels an Schnitzler, 23. 4. 1895</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-11-12_01">Fels an Schnitzler, [12.&#160;11.&#160;1894]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-04-23_01">Fels an Schnitzler, 23.&#160;4.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -88,29 +92,15 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                  <pb facs=""/>Lieber Dr. Schnitzler!</salute>
-                </opener>
-                <p>Vielleicht hätten Sie die Freundlichkeit, möglichst bald <hi rend="underline" n="1">
-                  <persName key="pmb2820">Hugo Gerlach</persName>
-               </hi> zu besuchen. Er
-                    hat vielleicht die Diphteritis. Wohnung: <placeName key="pmb418">XVIII (Währing),
-                            Sechsschi<c rendition="#gemination-m"/>elgaſse 4</placeName>
-                    II. Stock Thür 12. –</p>
-                <p>Vielleicht sind <add place="above">Sie</add> auch so gütig, mir <hi rend="underline" n="1">1 fl</hi> zu geben, den Sie bei <persName key="pmb2820">Gerlach</persName> zurücklassen. Herzl. Dank. – Vom alten 
-                    <persName key="pmb41923">Mayer</persName> hab ich keine Antwort. Die <orgName key="pmb29646">Kölnische
-                    Zeitung</orgName> hat meinen Artikel »<workName key="pmb41919">Skandinavien in
-                    Deutschland</workName>« acceptiert unter der Bedingung, daſs ich ihn um ⅓ kürze. Mein
+        <body><div type="writingSession" n="1"><opener><salute><pb facs=""/>Lieber Dr. Schnitzler!</salute></opener><p>Vielleicht hätten Sie die Freundlichkeit, möglichst bald <hi rend="underline" n="1"><rs ref="#pmb2820" type="person">Hugo Gerlach</rs></hi> zu besuchen. Er
+                    hat vielleicht die Diphteritis. Wohnung: <rs ref="#pmb418" type="place">XVIII (Währing),
+                            Sechsschi<c rendition="#gemination-m"/>elgaſse 4</rs>
+                    II. Stock Thür 12.&#160;–</p><p>Vielleicht sind <add place="above">Sie</add> auch so gütig, mir <hi rend="underline" n="1">1&#160;fl</hi> zu geben, den Sie bei <rs ref="#pmb2820" type="person">Gerlach</rs> zurücklassen. Herzl. Dank.&#160;– Vom alten 
+                    <rs ref="#pmb41923" type="person">Mayer</rs> hab ich keine Antwort. Die <rs ref="#pmb29646" type="organisation">Kölnische
+                    Zeitung</rs> hat meinen Artikel »<rs ref="#pmb41919" type="work">Skandinavien in
+                    Deutschland</rs>« acceptiert unter der Bedingung, daſs ich ihn um ⅓ kürze. Mein
                 Roman wächst, blüht und gedeiht – ich habe früher nur den Ton nicht getroffen; jetzt
                 nachdem ich der Kälte und Fronie den Abschied gegeben und
-                <add place="above">auf</add> harmlos humoristische Wirkung denke, gehts famos.</p>
-                <closer>Gruſs und Dank<lb/>
-               <signed>Fels</signed>
-            </closer>
-            </div>
-        </body>
+                <add place="above">auf</add> harmlos humoristische Wirkung denke, gehts famos.</p><closer>Gruſs und Dank<lb/><signed>Fels</signed></closer></div></body>
     </text>
 </TEI>

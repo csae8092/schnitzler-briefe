@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-10-12_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-10-12_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 12. 10. 1897</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 12.&#160;10.&#160;1897</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,25 +52,25 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Postkarte, schwarze Tinte. Von Schnitzler mit Bleistift
                                     datiert: »<quote>
-                                        <date>10. 97</date>
+                                        <date>10.&#160;97</date>
                                     </quote>«. Von unbekannter Hand mit Bleistift nummeriert: »<quote>
                                         <del rend="strikethrough">103</del>
                                     </quote>«. Von weiterer unbekannter Hand mit Bleistift
                                     nummeriert: »<quote>97</quote>«.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb75">Hinterbrühl</placeName>
-                                    <date when="1897-10-12">12. 10. 97</date>
-                                    <time>6-7 N</time>
+                                    <rs ref="#pmb75" type="place">Hinterbrühl</rs>
+                                    <date when="1897-10-12">12.&#160;10.&#160;97</date>
+                                    <time>6-7&#160;N</time>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb59">Wien 9/3 72</placeName>
-                                    <date when="1897-10-12">13. 10. 97</date>
-                                    <time>8 . V</time>
+                                    <rs ref="#pmb59" type="place">Wien 9/3 72</rs>
+                                    <date when="1897-10-12">13.&#160;10.&#160;97</date>
+                                    <time>8&#160;.&#160;V</time>
                                     <action>Bestellt</action>
                                 </stamp>
                             </physDesc>
@@ -76,8 +80,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -96,19 +100,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb75">Hinterbrühl</placeName>
-                    <date when="1897-10-12" n="01">12. 10. 1897</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb75">Hinterbrühl</placeName>
+                    <date when="1897-10-12" n="01">12.&#160;10.&#160;1897</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1897-10-13">13. 10. 1897</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1897-10-13">13.&#160;10.&#160;1897</date>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-10-04_02">Schnitzler an Hofmannsthal, 4. 10. 1897</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-11-15_01">Hofmannsthal an Schnitzler, [15. 11. 1897]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-10-04_02">Schnitzler an Hofmannsthal, 4.&#160;10.&#160;1897</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-11-15_01">Hofmannsthal an Schnitzler, [15.&#160;11.&#160;1897]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -124,48 +128,10 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00210"/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00210"/>
-                  <hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi>
-               </addrLine>
-                    <addrLine>
-                        <placeName key="pmb50">
-                     <hi rend="latintype">Wien</hi>
-                  </placeName>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb397">
-                     <hi rend="latintype">XI. Franckgasse 1.</hi>
-                  </placeName>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00209"/>
-                        <date>12<hi rend="superscript">ten</hi>
-                        </date>
-                    </dateline>
-                    <salute>Mein lieber Arthur</salute>
-                </opener>
-                <p>ich bin von morgen <date>Mittwoch</date>
-                    <space unit="chars" quantity="1"/>
-                    <time>abend</time> an in <placeName key="pmb50">Wien</placeName>. Falls Sie ſich
-                    zu einer <anchor type="commentary" xml:id="KL2306-1"/>
-                    <rs type="work" key="pmb34284">
-                        <persName key="pmb11851">Kainz</persName>vorſtellung</rs>
-                    <note type="commentary" xml:id="KL2306-1h">
-                        <workName key="pmb34284">Die Jüdin von Toledo</workName> von <persName key="pmb11518">Franz Grillparzer</persName> wurde im <placeName key="pmb14">Burgtheater</placeName> gegeben.</note>,
+        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00210"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><rs ref="#pmb50" type="place"><hi rend="latintype">Wien</hi></rs></addrLine><addrLine><rs ref="#pmb397" type="place"><hi rend="latintype">XI. Franckgasse 1.</hi></rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00209"/><date>12<hi rend="superscript">ten</hi></date></dateline><salute>Mein lieber Arthur</salute></opener><p>ich bin von morgen <date>Mittwoch</date><space unit="chars" quantity="1"/><time>abend</time> an in <rs ref="#pmb50" type="place">Wien</rs>. Falls Sie ſich
+                    zu einer <anchor type="commentary" xml:id="KL2306-1"/><rs type="work" ref="#pmb34284" subtype="implied"><rs ref="#pmb11851" type="person">Kainz</rs>vorſtellung</rs><note type="commentary" xml:id="KL2306-1h"><rs ref="#pmb34284" type="work">Die Jüdin von Toledo</rs> von <rs ref="#pmb11518" type="person">Franz Grillparzer</rs> wurde im <rs ref="#pmb14" type="place">Burgtheater</rs> gegeben.</note>,
                         <date>Donnerstag</date> oder <date>Freitag</date> einen Sitz nehmen und noch
                     Zeit haben, einen gleichen für mich zu nehmen bitte thuen Sie es und ſchreiben
-                    mir vielleicht eine Zeile wo ich Sie für’s Theater abholen kann.</p>
-                <closer>Ihr<signed>Hugo.</signed>
-                </closer>
-            </div>
-        </body>
+                    mir vielleicht eine Zeile wo ich Sie für’s Theater abholen kann.</p><closer>Ihr<signed>Hugo.</signed></closer></div></body>
     </text>
 </TEI>

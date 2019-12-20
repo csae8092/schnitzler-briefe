@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-03-12_02_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-03-12_02_Hofmannsthal_AS">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [12. 3. 1897]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [12.&#160;3.&#160;1897]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -48,10 +51,10 @@
                                 <country>UK</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43b/1</idno>
+                                <idno>Schnitzler, B&#160;43b/1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief mit aufgedrucktem Wappen, 1 Bl., 3 S., Bleistift. Von
+                                <p>eh. Brief mit aufgedrucktem Wappen, 1&#160;Bl., 3&#160;S., Bleistift. Von
                                     Schnitzler das Datum ergänzt: »<quote>
                                         <date when="1897-03-12">12/<unclear>3</unclear> 97</date>
                                     </quote>«. Von unbekannter Hand nummeriert: »<quote>8<del rend="overwritten">7</del>6</quote>«.</p>
@@ -62,8 +65,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -76,8 +79,8 @@
                     </biblStruct>
                     <biblStruct corresp="HBAS">
                         <monogr>
-                            <author key="pmb10815">Bahr, Hermann</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10815">Bahr, Hermann</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel, Aufzeichnungen, Dokumente
                                 (1891–1931)</title>
                             <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
@@ -97,18 +100,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">[Wien]</placeName>
-                    <date when="1897-03-12" n="02">[12. 3. 1897]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">[Wien]</placeName>
+                    <date when="1897-03-12" n="02">[12.&#160;3.&#160;1897]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">[Wien]</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">[Wien]</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-03-12_01">Schnitzler an Hofmannsthal, 12. 3. 1897</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-03-22_02">Hofmannsthal an Schnitzler, [22. 3. 1897]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-03-12_01">Schnitzler an Hofmannsthal, 12.&#160;3.&#160;1897</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-03-22_02">Hofmannsthal an Schnitzler, [22.&#160;3.&#160;1897]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -125,24 +128,9 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00158"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs=" MS-SCHNITZLER-B-00043-B-00001-000-00157"/>lieber Arthur</salute>
-                </opener>
-                <p>wenn die Geſchichte noch lang dauert werd ich ja vielleicht etwas haben was mir
-                    zum Vorleſen paſst, dann werd ichs ja gern thuen. Wenn ich aber keine paſſend<subst>
-                        <del rend="overwritten">en</del>
-                        <add place="inline">eren</add>
-                    </subst> Sachen habe als <pb facs=" MS-SCHNITZLER-B-00043-B-00001-000-00158"/>jetzt, ſo <hi rend="underline" n="2">nicht</hi>.</p>
-                <p>Daß man meinen Namen vorläufig aufs Programm ſetzt, wenn Ihrer etc. drauf ſteht,
-                    iſt mir natürlich ganz recht, aber Ihnen und <persName key="pmb10815">Bahr</persName> gegenüber verpflichte ich mich eben abſolut nur unter der
-                    obigen <pb facs=" MS-SCHNITZLER-B-00043-B-00001-000-00158"/>Bedingung.</p>
-                <closer>Ihr<lb/>
-                    <signed>Hugo.</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><salute><pb facs=" MS-SCHNITZLER-B-00043-B-00001-000-00157"/>lieber Arthur</salute></opener><p>wenn die Geſchichte noch lang dauert werd ich ja vielleicht etwas haben was mir
+                    zum Vorleſen paſst, dann werd ichs ja gern thuen. Wenn ich aber keine paſſend<subst><del rend="overwritten">en</del><add place="inline">eren</add></subst> Sachen habe als <pb facs=" MS-SCHNITZLER-B-00043-B-00001-000-00158"/>jetzt, ſo <hi rend="underline" n="2">nicht</hi>.</p><p>Daß man meinen Namen vorläufig aufs Programm ſetzt, wenn Ihrer etc. drauf ſteht,
+                    iſt mir natürlich ganz recht, aber Ihnen und <rs ref="#pmb10815" type="person">Bahr</rs> gegenüber verpflichte ich mich eben abſolut nur unter der
+                    obigen <pb facs=" MS-SCHNITZLER-B-00043-B-00001-000-00158"/>Bedingung.</p><closer>Ihr<lb/><signed>Hugo.</signed></closer></div></body>
     </text>
 </TEI>

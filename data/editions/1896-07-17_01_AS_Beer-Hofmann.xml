@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-07-17_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-07-17_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler an Richard Beer-Hofmann,
-               17. 7. 1896</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+               17.&#160;7.&#160;1896</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -54,12 +58,12 @@
                      <physDesc>
                         <p>eh. Postkarte, Bleistift.</p>
                         <stamp n="1">
-                           <placeName key="pmb42542">Tromsø</placeName>
-                           <date>18. VII. 96</date>
+                           <rs ref="#pmb42542" type="place">Tromsø</rs>
+                           <date>18.&#160;VII.&#160;96</date>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb36300">Kjobenhavn</placeName>
-                           <date>23. 7. 96</date>
+                           <rs ref="#pmb36300" type="place">Kjobenhavn</rs>
+                           <date>23.&#160;7.&#160;96</date>
                            <time>50M8</time>
                         </stamp>
                      </physDesc>
@@ -73,23 +77,23 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb42542">Tromsø</placeName>
-               <date when="1896-07-18" n="01">18. 7. 1896</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb42542">Tromsø</placeName>
+               <date when="1896-07-18" n="01">18.&#160;7.&#160;1896</date>
             </correspAction>
-            <correspAction type="transmitted">
-               <placeName key="pmb36300">Kopenhagen</placeName>
-               <date when="1896-07-23">23. 7. 1896</date>
+            <correspAction  type="transmitted">
+               <placeName ref="#pmb36300">Kopenhagen</placeName>
+               <date when="1896-07-23">23.&#160;7.&#160;1896</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb36300">Kopenhagen</placeName>
-               <date when="1896-07-26">26. 7. 1896</date>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb36300">Kopenhagen</placeName>
+               <date when="1896-07-26">26.&#160;7.&#160;1896</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-07-15_01">Schnitzler an Beer-Hofmann, 15. 7. 1896</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-07-22_01">Beer-Hofmann an Schnitzler, 22. 7. 1896</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-07-15_01">Schnitzler an Beer-Hofmann, 15.&#160;7.&#160;1896</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-07-22_01">Beer-Hofmann an Schnitzler, 22.&#160;7.&#160;1896</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -104,63 +108,13 @@
       <graphic url="1896_AS_RBH_1_00004.jpeg"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1896_AS_RBH_1_00003.jpeg"/>
-                  <hi rend="latintype">Dr. Richard
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb36300">
-                     <hi rend="latintype">Kopenhagen</hi>
-                  </placeName>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">post rest</hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb434">Dänemark</placeName>
-                  </hi>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <salute>
-                  <pb facs="1896_AS_RBH_1_00004.jpeg"/>Mein lieber Richard, </salute>ich
+      <body><div type="address"><address><addrLine><pb facs="1896_AS_RBH_1_00003.jpeg"/><hi rend="latintype">Dr. Richard
+                     Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb36300" type="place"><hi rend="latintype">Kopenhagen</hi></rs></addrLine><addrLine><hi rend="latintype">post rest</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb434" type="place">Dänemark</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p><salute><pb facs="1896_AS_RBH_1_00004.jpeg"/>Mein lieber Richard, </salute>ich
                nehme an Sie beko<c rendition="#gemination-m"/>en dieſe Karte am <date>24.</date> Da
-               ſchreiben Sie mir <hi rend="underline" n="1">gleich</hi> nach <placeName key="pmb1119">
-                  <hi rend="latintype">Stockholm</hi>
-               </placeName>. (<hi rend="latintype">post rest</hi> natürlich) Ich werde wahrſcheinlich
-                  <date>24.</date> <date>25.</date> <date>26.</date> in <placeName key="pmb36296">
-                  <hi rend="latintype">Krist.</hi>
-               </placeName> ſein, dann bis etwa
-                  <date>30</date> od <date>31</date>
-               <space unit="chars" quantity="1"/>
-               <placeName key="pmb1119">
-                  <hi rend="latintype">Stockholm</hi>
-               </placeName>. Es wäre
-               wunderſchön, wenn Sie doch wenigſtens nach <placeName key="pmb1119">
-                  <hi rend="latintype">Stockh</hi>
-               </placeName>. hinüberko<c rendition="#gemination-m"/>en <subst>
-                  <del rend="overwritten">w</del>
-                  <add place="inline">mö</add>
-               </subst>chten. Oder nach <placeName key="pmb40700">
-                  <hi rend="latintype">Goetheborg</hi>
-               </placeName> mir entgegen. Überlegen Sie ſichs. Bitte laſſen
-               Sie mich nicht ohne Nachricht. –</p>
-            <closer>Herzlich der Ihre<lb/>
-               <signed>ArthSch</signed>
-            </closer>
-            <postscript>
-               <p>an Bord der <hi rend="latintype">Sig Jarl</hi>
-                  <space unit="chars" quantity="1"/>
-                  <date>17/7 96</date>.</p>
-            </postscript>
-         </div>
-      </body>
+               ſchreiben Sie mir <hi rend="underline" n="1">gleich</hi> nach <rs ref="#pmb1119" type="place"><hi rend="latintype">Stockholm</hi></rs>. (<hi rend="latintype">post rest</hi> natürlich) Ich werde wahrſcheinlich
+                  <date>24.</date> <date>25.</date> <date>26.</date> in <rs ref="#pmb36296" type="place"><hi rend="latintype">Krist.</hi></rs> ſein, dann bis etwa
+                  <date>30</date> od <date>31</date><space unit="chars" quantity="1"/><rs ref="#pmb1119" type="place"><hi rend="latintype">Stockholm</hi></rs>. Es wäre
+               wunderſchön, wenn Sie doch wenigſtens nach <rs ref="#pmb1119" type="place"><hi rend="latintype">Stockh</hi></rs>. hinüberko<c rendition="#gemination-m"/>en <subst><del rend="overwritten">w</del><add place="inline">mö</add></subst>chten. Oder nach <rs ref="#pmb40700" type="place"><hi rend="latintype">Goetheborg</hi></rs> mir entgegen. Überlegen Sie ſichs. Bitte laſſen
+               Sie mich nicht ohne Nachricht.&#160;–</p><closer>Herzlich der Ihre<lb/><signed>ArthSch</signed></closer><postscript><p>an Bord der <hi rend="latintype">Sig Jarl</hi><space unit="chars" quantity="1"/><date>17/7 96</date>.</p></postscript></div></body>
    </text>
 </TEI>

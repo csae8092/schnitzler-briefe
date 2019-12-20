@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-03-20_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1899-03-20_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [20. 3. 1899]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [20.&#160;3.&#160;1899]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., Bleistift. Von Schnitzler mit Bleistift
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., Bleistift. Von Schnitzler mit Bleistift
                                     datiert: »<quote>am <date>20 März 99</date>.</quote>«. Von
                                     unbekannter Hand mit Bleistift nummeriert: »<quote>
                                         <del rend="strikethrough">142</del>
@@ -64,8 +68,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -84,18 +88,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1899-03-20" n="01">[20. 3. 1899]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1899-03-20" n="01">[20.&#160;3.&#160;1899]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-03-17_01">Hofmannsthal an Schnitzler, 17. 3. 1899</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-03-22_01">Schnitzler an Hofmannsthal, 22. 3. 1899</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-03-17_01">Hofmannsthal an Schnitzler, 17.&#160;3.&#160;1899</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-03-22_01">Schnitzler an Hofmannsthal, 22.&#160;3.&#160;1899</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -111,38 +115,14 @@
         <!-- leere Rückseite -->
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00307"/>mein guter lieber
-                        Arthur</salute>
-                </opener>
-                <p>es thut mir ſo unausſprechlich <anchor type="commentary" xml:id="KL2389-1"/>leid
-                    um Sie<note type="commentary" xml:id="KL2389-1h">
-                        <persName key="pmb2121">Schnitzler</persName> trauerte um seine langjährige
-                        Partnerin <persName key="pmb2378">Marie Reinhard</persName>, die am
-                            <date>18. 3. 1899</date> an Sepsis gestorben war.</note>, und ich kann
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00307"/>mein guter lieber
+                        Arthur</salute></opener><p>es thut mir ſo unausſprechlich <anchor type="commentary" xml:id="KL2389-1"/>leid
+                    um Sie<note type="commentary" xml:id="KL2389-1h"><rs ref="#pmb2121" type="person">Schnitzler</rs> trauerte um seine langjährige
+                        Partnerin <rs ref="#pmb2378" type="person">Marie Reinhard</rs>, die am
+                            <date>18.&#160;3.&#160;1899</date> an Sepsis gestorben war.</note>, und ich kann
                     nicht einmal ein biſſl um Sie ſein, ich denk faſt den ganzen Tag an Sie. Heut
-                    war meine <anchor type="commentary" xml:id="KL2389-2"/>
-                    <hi rend="latintype">Promotion</hi>
-                    <note type="commentary" xml:id="KL2389-2h">Die Arbeit war betitelt: <workName key="pmb34306">Über den Sprachgebrauch bei den Dichtern der
-                            Pléjade</workName>.</note>, von morgen bin ich in <hi rend="latintype">
-                        <placeName key="pmb168">Berlin</placeName>
-                    </hi>
-                </p>
-                <p rend="center">
-                    <hi rend="latintype">
-                        <placeName key="pmb34806">Hotel Windsor</placeName>
-                        <space unit="chars" quantity="2"/>
-                        <placeName key="pmb34807">Behrenstrasse</placeName>
-                    </hi>.</p>
-                <p>Bitte <hi rend="underline" n="2">bitte</hi> ſchreiben Sie mir und arbeiten Sie,
-                    zwingen Sie ſich.</p>
-                <closer>Ihr alter<lb/>
-                    <signed>Hugo</signed>
-                </closer>
-            </div>
-        </body>
+                    war meine <anchor type="commentary" xml:id="KL2389-2"/><hi rend="latintype">Promotion</hi><note type="commentary" xml:id="KL2389-2h">Die Arbeit war betitelt: <rs ref="#pmb34306" type="work">Über den Sprachgebrauch bei den Dichtern der
+                            Pléjade</rs>.</note>, von morgen bin ich in <hi rend="latintype"><rs ref="#pmb168" type="place">Berlin</rs></hi></p><p rend="center"><hi rend="latintype"><rs ref="#pmb34806" type="place">Hotel Windsor</rs><space unit="chars" quantity="2"/><rs ref="#pmb34807" type="place">Behrenstrasse</rs></hi>.</p><p>Bitte <hi rend="underline" n="2">bitte</hi> ſchreiben Sie mir und arbeiten Sie,
+                    zwingen Sie ſich.</p><closer>Ihr alter<lb/><signed>Hugo</signed></closer></div></body>
     </text>
 </TEI>

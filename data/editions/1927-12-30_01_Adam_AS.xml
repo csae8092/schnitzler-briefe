@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1927-12-30_01_Adam_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1927-12-30_01_Adam_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 30. 12. 1927</title>
-                <author key="pmb12438">Adam, Robert</author>
+                <title level="a">Robert Adam an Arthur Schnitzler, 30.&#160;12.&#160;1927</title>
+                <author ref="#pmb12438">Adam, Robert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 1</idno>
+                                <idno>Schnitzler, B&#160;1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S., schwarze Tinte. Vereinzelte
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S., schwarze Tinte. Vereinzelte
                                     Unterstreichungen mit rotem Buntstift. Von Schnitzler mit Bleistift
                                     beschriftet: »<quote>
                               <hi rend="latintype">Adam</hi>
@@ -86,18 +90,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1927-12-30" n="01">30. 12. 1927</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1927-12-30" n="01">30.&#160;12.&#160;1927</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1927-05-01_01">Adam an Schnitzler, 1. 5. 1927</ptr>
-               <ptr type="next" subtype="toAuthor" target="1928-04-10_01">Schnitzler an Adam, 10. 4. 1928</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1927-05-01_01">Adam an Schnitzler, 1.&#160;5.&#160;1927</ptr>
+               <ptr type="next" subtype="toAuthor" target="1928-04-10_01">Schnitzler an Adam, 10.&#160;4.&#160;1928</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -114,17 +118,8 @@
         <graphic url="MS-SCHNITZLER-B-00001-000-00014"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="MS-SCHNITZLER-B-00001-000-00013"/>
-                  <placeName key="pmb50">Wien</placeName>, am
-                            <date>30. Dezember 1927</date>
-               </dateline>
-                    <salute>Hochverehrter Herr Doktor!</salute>
-                </opener>
-                <p>Wenn ich es unternehme, Ihnen für die Ueberſendung Ihres <workName key="pmb30053">Buches der Sprüche und Bedenken</workName> meinen Dank zu ſagen, ſo
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00001-000-00013"/><rs ref="#pmb50" type="place">Wien</rs>, am
+                            <date>30.&#160;Dezember 1927</date></dateline><salute>Hochverehrter Herr Doktor!</salute></opener><p>Wenn ich es unternehme, Ihnen für die Ueberſendung Ihres <rs ref="#pmb30053" type="work">Buches der Sprüche und Bedenken</rs> meinen Dank zu ſagen, ſo
                     verführt mich die alteingefleiſchte Gewohnheit meines Berufes, dem nicht leicht
                     etwas ohne Begründung entſchlüpft, dazu, meinen Dank nicht etwa bloß zu äußern,
                     sondern auch zu begründen. Will ich aber Sätze einer Begründung formen, ſo iſt
@@ -148,16 +143,9 @@
                     wie lebt ſeine uns aus unſerer Jugend schon vertraute Erſcheinung in jedem
                     dieſer klaren Worte! Welche Erlebtheit, welche Liebe zur Wahrheit und zur Form,
                     welche Herrſchaft des Geiſtes und über alles Geiſtige ſpricht aus jedem
-                    Spruch!</p>
-                <p>Ich muß mich mit dieser Begründung bescheiden und mit einer Wiederholung meines
+                    Spruch!</p><p>Ich muß mich mit dieser Begründung bescheiden und mit einer Wiederholung meines
                     Dankes, der mir Gelegenheit gibt, Ihnen, hochverehrter Herr Doktor, zur
-                    Jahreswende alles Freudige zu wünſchen!</p>
-                <p>Mit den besten Empfehlungen und <pb facs="MS-SCHNITZLER-B-00001-000-00013"/>dem
-                    Ausdruck meiner tiefen Ergebenheit</p>
-                <closer>Ihr<lb/>
-                    <signed>D<hi rend="superscript">r</hi>RAdam</signed>
-                </closer>
-            </div>
-        </body>
+                    Jahreswende alles Freudige zu wünſchen!</p><p>Mit den besten Empfehlungen und <pb facs="MS-SCHNITZLER-B-00001-000-00013"/>dem
+                    Ausdruck meiner tiefen Ergebenheit</p><closer>Ihr<lb/><signed>D<hi rend="superscript">r</hi>RAdam</signed></closer></div></body>
     </text>
 </TEI>

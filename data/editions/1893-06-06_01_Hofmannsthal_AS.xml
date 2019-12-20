@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-06-06_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-06-06_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [6. 6.? 1893]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [6.&#160;6.? 1893]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Visitenkarte. Bleistift. Von Schnitzler datiert: »<quote>
@@ -62,8 +66,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -82,18 +86,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1893-06-06" n="01">[6. 6.? 1893]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1893-06-06" n="01">[6.&#160;6.? 1893]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-05-27_01">Hofmannsthal an Schnitzler, 27. 5. 1893</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-06-07_01">Hofmannsthal an Schnitzler, 7. 6. 1893</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-05-27_01">Hofmannsthal an Schnitzler, 27.&#160;5.&#160;1893</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-06-07_01">Hofmannsthal an Schnitzler, 7.&#160;6.&#160;1893</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -109,28 +113,8 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00110"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession">
-                <p rend="center">
-                    <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00109"/>
-                    <hi rend="pre-print">Hugo von Hofmannsthal</hi>
-                </p>
-                <p rend="right">
-                    <hi rend="pre-print">
-                        <placeName key="pmb76">III. Salesianergasse 12.</placeName>
-                    </hi>
-                </p>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00110"/>Lieber Arthur.</salute>
-                </opener>
-                <p>Ich habe <persName key="pmb12740">Schwarzkopf</persName> telegrafiert, daſs ich
+        <body><div type="writingSession"><p rend="center"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00109"/><hi rend="pre-print">Hugo von Hofmannsthal</hi></p><p rend="right"><hi rend="pre-print"><rs ref="#pmb76" type="place">III. Salesianergasse 12.</rs></hi></p></div><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00110"/>Lieber Arthur.</salute></opener><p>Ich habe <rs ref="#pmb12740" type="person">Schwarzkopf</rs> telegrafiert, daſs ich
                     morgen ganzen Tag <anchor type="commentary" xml:id="KL2257-1"/>hinausfahre<note type="commentary" xml:id="KL2257-1h">Dieser hielt sich in der Brühl
-                            (<placeName key="pmb957">Vorder-</placeName>, <placeName key="pmb75">Hinterbrühl</placeName>) auf.</note>. Kommen Sie womöglich abends.</p>
-                <closer>Servus!</closer>
-            </div>
-        </body>
+                            (<rs ref="#pmb957" type="place">Vorder-</rs>, <rs ref="#pmb75" type="place">Hinterbrühl</rs>) auf.</note>. Kommen Sie womöglich abends.</p><closer>Servus!</closer></div></body>
     </text>
 </TEI>

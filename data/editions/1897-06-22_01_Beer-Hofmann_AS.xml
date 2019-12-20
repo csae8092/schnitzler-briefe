@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-06-22_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-06-22_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 22. 6. 1897</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 22.&#160;6.&#160;1897</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 4 S., blauer Buntstift; Lateinschrift. Von unbekannter
+                        <p>eh. Brief, 1&#160;Bl., 4&#160;S., blauer Buntstift; Lateinschrift. Von unbekannter
                            Hand mit Bleistift nummeriert: »<quote>100</quote>«.</p>
                      </physDesc>
                   </msDesc>
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -80,17 +84,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb213">Ischl</placeName>
-               <date when="1897-06-22" n="01">22. 6. 1897</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb213">Ischl</placeName>
+               <date when="1897-06-22" n="01">22.&#160;6.&#160;1897</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-06-13_01">Beer-Hofmann an Schnitzler, 13. 6. 1897</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-06-23_01">Schnitzler an Beer-Hofmann, 23. 6. 1897</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-06-13_01">Beer-Hofmann an Schnitzler, 13.&#160;6.&#160;1897</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-06-23_01">Schnitzler an Beer-Hofmann, 23.&#160;6.&#160;1897</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -104,39 +108,11 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00227"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="center">
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00226"/>
-                  <placeName key="pmb213">Ischl</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date when="1897-06-22">22/VI 97</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Arthur, </salute>Sie haben meinen letzten Brief nicht beantwortet und
+      <body><div type="writingSession" n="1"><opener><dateline rend="center"><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00226"/><rs ref="#pmb213" type="place">Ischl</rs><space unit="chars" quantity="1"/><date when="1897-06-22">22/VI 97</date></dateline></opener><p><salute>Lieber Arthur, </salute>Sie haben meinen letzten Brief nicht beantwortet und
                   ko<c rendition="#gemination-m"/>en daher wol sehr bald. Bitte besorgen Sie mir –
-               ohne Nervosität Folgendes:</p>
-            <p>1. Eine Pincette – vernickelt oder <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00227"/>in Silber.</p>
-            <p>2.) Im Durchhaus in der <placeName key="pmb338">Wollzeile</placeName> das auf den
-               alten <placeName key="pmb39594">Universitätsplatz</placeName> führt ist ein
-               Tierhändler; dort kaufen Sie um circa 50 xr Vogelfutter für Wellenpapageie.</p>
-            <!-- xr = Kreuzer? Anmerkung? -->
-            <p>3.) Im Durchhaus <placeName key="pmb39599">Graben</placeName>
-               <space unit="chars" quantity="1"/>
-               <placeName key="pmb39602">Goldschmidt<pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00227"/>gasse</placeName> die Dinge die
-               Sie auch dort kaufen.</p>
-            <p>
-               <supplied>4.)<c rendition="#dots" n="3"/>
-                  <!-- Das Gestrichene in eine Anmerkung? -->
-               </supplied> überflüssig.</p>
-            <p>Ich bin da es viel regnet erst einmal auf der Strasse gefahren. Hoffe wenn Sie ko<c rendition="#gemination-m"/>en <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00226"/>öfters. <persName key="pmb12740">Schwarzkopf</persName> viele Grüße – ko<c rendition="#gemination-m"/>t er?</p>
-            <closer>Auf Wiedersehen<lb/>
-               <signed>Richard</signed>
-            </closer>
-         </div>
-
-      </body>
+               ohne Nervosität Folgendes:</p><p>1. Eine Pincette – vernickelt oder <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00227"/>in Silber.</p><p>2.) Im Durchhaus in der <rs ref="#pmb338" type="place">Wollzeile</rs> das auf den
+               alten <rs ref="#pmb39594" type="place">Universitätsplatz</rs> führt ist ein
+               Tierhändler; dort kaufen Sie um circa 50&#160;xr Vogelfutter für Wellenpapageie.</p><!-- xr = Kreuzer? Anmerkung? --><p>3.) Im Durchhaus <rs ref="#pmb39599" type="place">Graben</rs><space unit="chars" quantity="1"/><rs ref="#pmb39602" type="place">Goldschmidt<pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00227"/>gasse</rs> die Dinge die
+               Sie auch dort kaufen.</p><p><supplied>4.)<c rendition="#dots" n="3"/><!-- Das Gestrichene in eine Anmerkung? --></supplied> überflüssig.</p><p>Ich bin da es viel regnet erst einmal auf der Strasse gefahren. Hoffe wenn Sie ko<c rendition="#gemination-m"/>en <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00226"/>öfters. <rs ref="#pmb12740" type="person">Schwarzkopf</rs> viele Grüße – ko<c rendition="#gemination-m"/>t er?</p><closer>Auf Wiedersehen<lb/><signed>Richard</signed></closer></div></body>
    </text>
 </TEI>

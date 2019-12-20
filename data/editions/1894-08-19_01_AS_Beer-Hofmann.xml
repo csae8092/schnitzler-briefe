@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-08-19_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-08-19_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler an Richard Beer-Hofmann,
-               19. 8. 1894</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+               19.&#160;8.&#160;1894</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -54,14 +58,14 @@
                      <physDesc>
                         <p>eh. Postkarte, Bleistift.</p>
                         <stamp n="1">
-                           <placeName key="pmb30">Salzburg Stadt</placeName>
+                           <rs ref="#pmb30" type="place">Salzburg Stadt</rs>
                            <date>19/8 94</date>
-                           <time>1 M</time>
+                           <time>1&#160;M</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb213">Ischl</placeName>
+                           <rs ref="#pmb213" type="place">Ischl</rs>
                            <date>1<supplied>9</supplied>/8 94</date>
-                           <time>8 A</time>
+                           <time>8&#160;A</time>
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -74,19 +78,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb30">Salzburg</placeName>
-               <date when="1894-08-19" n="01">19. 8. 1894</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb30">Salzburg</placeName>
+               <date when="1894-08-19" n="01">19.&#160;8.&#160;1894</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb213">Ischl</placeName>
-               <date when="1894-08-19">19. 8. 1894</date>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb213">Ischl</placeName>
+               <date when="1894-08-19">19.&#160;8.&#160;1894</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-08-18_01">Beer-Hofmann an Schnitzler, [18. 8. 1894]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-08-29_01">Sandrock, Schnitzler an Beer-Hofmann, 29. 8. 1894</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-08-18_01">Beer-Hofmann an Schnitzler, [18.&#160;8.&#160;1894]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-08-29_01">Sandrock, Schnitzler an Beer-Hofmann, 29.&#160;8.&#160;1894</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,39 +105,9 @@
       <graphic url="1894_AS_RBH_2_00013.jpeg"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1894_AS_RBH_2_00012.jpeg"/>Herrn <hi rend="latintype">Dr. Rich.
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb213">
-                     <hi rend="latintype">Ischl</hi>
-                  </placeName>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb766">Egelmoos 22</placeName>
-                  </hi>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <salute>
-                  <pb facs="1894_AS_RBH_2_00013.jpeg"/>Lieber, </salute>
-               <persName key="pmb11485">Goldmann</persName> ko<c rendition="#gemination-m"/>t nach
-                  <placeName key="pmb213">Iſchl</placeName>; jetzt iſt ſeine Adreſſe <hi rend="latintype">
-                  <placeName key="pmb562">Genf</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <hi rend="latintype">post rest</hi>. Ich telegrafire ihm, daſs
-                  wir uns ſehr freuen.</hi>
-            </p>
-            <closer>Herzlich Ihr <signed>Arth</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="1894_AS_RBH_2_00012.jpeg"/>Herrn <hi rend="latintype">Dr. Rich.
+                     Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb213" type="place"><hi rend="latintype">Ischl</hi></rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb766" type="place">Egelmoos 22</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p><salute><pb facs="1894_AS_RBH_2_00013.jpeg"/>Lieber, </salute><rs ref="#pmb11485" type="person">Goldmann</rs> ko<c rendition="#gemination-m"/>t nach
+                  <rs ref="#pmb213" type="place">Iſchl</rs>; jetzt iſt ſeine Adreſſe <hi rend="latintype"><rs ref="#pmb562" type="place">Genf</rs><space unit="chars" quantity="1"/><hi rend="latintype">post rest</hi>. Ich telegrafire ihm, daſs
+                  wir uns ſehr freuen.</hi></p><closer>Herzlich Ihr <signed>Arth</signed></closer></div></body>
    </text>
 </TEI>

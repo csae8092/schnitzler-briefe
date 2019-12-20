@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1910-11-25_01_Burckhard_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1910-11-25_01_Burckhard_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Max Burckhard an Arthur Schnitzler, 25. 11. 1910</title>
-                <author key="pmb11036">Burckhard, Max</author>
+                <title level="a">Max Burckhard an Arthur Schnitzler, 25.&#160;11.&#160;1910</title>
+                <author ref="#pmb11036">Burckhard, Max</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,17 +52,17 @@
                           <country>GB</country>            
                           <settlement>Cambridge</settlement>            
                           <repository>University Library</repository>            
-                          <idno>Schnitzler, B 20</idno>
+                          <idno>Schnitzler, B&#160;20</idno>
                       </msIdentifier>
                       <physDesc>
-                          <p>hs. Telegramm. Übermittlungszeile: »<quote>146 <hi rend="pre-print">Nr. </hi>71 <hi rend="pre-print">Taxw. <c rendition="#dots" n="10"/> (W <c rendition="#dots" n="10"/>  Ch <c rendition="#dots" n="10"/>) aufgegeben
+                          <p>hs. Telegramm. Übermittlungszeile: »<quote>146 <hi rend="pre-print">Nr.&#160;</hi>71 <hi rend="pre-print">Taxw. <c rendition="#dots" n="10"/> (W <c rendition="#dots" n="10"/>  Ch <c rendition="#dots" n="10"/>) aufgegeben
                               am</hi>
                               <space unit="chars" quantity="1"/>
                               <date>25/XI <hi rend="pre-print">19</hi>10</date>
                               <space unit="chars" quantity="1"/>
                               <hi rend="pre-print">um</hi>
                               <space unit="chars" quantity="1"/>
-                              <time>X <hi rend="pre-print">Uhr </hi> <hi rend="superscript">15</hi>
+                              <time>X&#160;<hi rend="pre-print">Uhr </hi>&#160;<hi rend="superscript">15</hi>
                                  <hi rend="pre-print">M.</hi>
                                  <space unit="chars" quantity="1"/>V<hi rend="pre-print">Mittag</hi>
                               </time>.</quote>« 
@@ -76,19 +80,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11036">Burckhard, Max</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1910-11-25" n="01">25. 11. 1910</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11036">Burckhard, Max</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1910-11-25" n="01">25.&#160;11.&#160;1910</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1910-11-25">25. 11. 1910</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1910-11-25">25.&#160;11.&#160;1910</date>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1910-04-08_01">Burckhard an Schnitzler, 8. 4. 1910</ptr>
-               <ptr type="next" subtype="toAuthor" target="1911-08-23_01">Burckhard an Schnitzler, 23. 8. 1911</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1910-04-08_01">Burckhard an Schnitzler, 8.&#160;4.&#160;1910</ptr>
+               <ptr type="next" subtype="toAuthor" target="1911-08-23_01">Burckhard an Schnitzler, 23.&#160;8.&#160;1911</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -98,19 +102,11 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-               <pb facs="DSC_0678"/>
-               <anchor type="commentary" xml:id="KL921-1"/>Gestern<note type="commentary" xml:id="KL921-1h">Uraufführung von <workName key="pmb29937">Der junge Medardus</workName>.</note> konnte ich Sie leider nicht mehr ſprechen. So ſende ich
-                Ihnen wenigſtens gleich meine allerherzlichſten <rs type="work" key="pmb29937">Glückwünsche</rs>. Für
+        <body><div type="writingSession" n="1"><p><pb facs="DSC_0678"/><anchor type="commentary" xml:id="KL921-1"/>Gestern<note type="commentary" xml:id="KL921-1h">Uraufführung von <rs ref="#pmb29937" type="work">Der junge Medardus</rs>.</note> konnte ich Sie leider nicht mehr ſprechen. So ſende ich
+                Ihnen wenigſtens gleich meine allerherzlichſten <rs type="work" ref="#pmb29937" subtype="implied">Glückwünsche</rs>. Für
                 mein Gefühl und Urteil hätte der Beifall gar nie groß
                 genug ſein können. Wenn es ſich um eine Arbeit handelt, die ich
                 ſo hoch ſtelle, bin ich da einfach unerſättlich. Hoffentlich
-                kann ich Sie recht bald begrüßen.</p>
-               <closer>Ihr in treuer Verehrung ergebener <signed>D<hi rend="superscript">r</hi> Burckhard.</signed>
-            </closer>
-            </div>
-        </body>
+                kann ich Sie recht bald begrüßen.</p><closer>Ihr in treuer Verehrung ergebener <signed>D<hi rend="superscript">r</hi> Burckhard.</signed></closer></div></body>
     </text>
 </TEI>

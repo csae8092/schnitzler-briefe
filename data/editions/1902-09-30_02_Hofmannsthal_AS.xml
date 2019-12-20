@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1902-09-30_02_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1902-09-30_02_Hofmannsthal_AS">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [30. 9. 1902]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [30.&#160;9.&#160;1902]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                
                     <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,11 +52,11 @@
                                 <country>UK</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43b/1</idno>
+                                <idno>Schnitzler, B&#160;43b/1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S.; von Schnitzler hs. ergänzt: »<quote>
-                              <date>Ende Sept. 902</date>
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S.; von Schnitzler hs. ergänzt: »<quote>
+                              <date>Ende Sept.&#160;902</date>
                            </quote>«</p>
                             </physDesc>
                         </msDesc>
@@ -62,8 +65,8 @@
                 <listBibl>
                <biblStruct corresp="HvHAS"> 
                   <monogr> 
-                     <author key="pmb11740">Hofmannsthal, Hugo</author> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author> 
+                     <author ref="#pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -76,8 +79,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -95,18 +98,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1902-09-30" n="02">[30. 9. 1902]</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1902-09-30" n="02">[30.&#160;9.&#160;1902]</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1902-08-01_01">Hofmannsthal an Schnitzler, 1. 8. 1902</ptr>
-               <ptr type="next" subtype="toAuthor" target="1902-10-07_01">Schnitzler an Hofmannsthal, 7. 10. 1902</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1902-08-01_01">Hofmannsthal an Schnitzler, 1.&#160;8.&#160;1902</ptr>
+               <ptr type="next" subtype="toAuthor" target="1902-10-07_01">Schnitzler an Hofmannsthal, 7.&#160;10.&#160;1902</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -117,27 +120,10 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-           
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <date>Dienstag</date> abend</dateline>
-                </opener>
-                <p>
-               <salute>lieber, </salute>bitte schicken Sie den beiliegenden Brief mit meiner
-                    gleichfalls beiliegenden Erledigung sowie Ihrer Antwort an <persName key="pmb10815">Bahr</persName> zurück.</p>
-                <p>Ich
-                    fahre in 2 Stunden nach <placeName key="pmb445">Rom</placeName>.</p>
-                <p>Leben Sie und Ihrigen wohl. Hoffentlich arbeiten Sie viel und schön.<space unit="chars" quantity="5"/>Ihr <signed>Hugo</signed>.</p>
-                <postscript>
-               <p>
-                  <anchor type="textConst" xml:id="TL454-1"/>Adresse: <placeName key="pmb623">Hôtel Hassler Rom</placeName>
-                  <note type="textConst" xml:id="TL454-1h">Entlang des rechten Seitenrandes.</note>
-               </p>
-            </postscript>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>Dienstag</date> abend</dateline></opener><p><salute>lieber, </salute>bitte schicken Sie den beiliegenden Brief mit meiner
+                    gleichfalls beiliegenden Erledigung sowie Ihrer Antwort an <rs ref="#pmb10815" type="person">Bahr</rs> zurück.</p><p>Ich
+                    fahre in 2 Stunden nach <rs ref="#pmb445" type="place">Rom</rs>.</p><p>Leben Sie und Ihrigen wohl. Hoffentlich arbeiten Sie viel und schön.<space unit="chars" quantity="5"/>Ihr <signed>Hugo</signed>.</p><postscript><p><anchor type="textConst" xml:id="TL454-1"/>Adresse: <rs ref="#pmb623" type="place">Hôtel Hassler Rom</rs><note type="textConst" xml:id="TL454-1h">Entlang des rechten Seitenrandes.</note></p></postscript></div></body>
     </text>
 
-</TEI><!-- Datum ergibt sich daraus, dass Paula Dehmel am 23.&#8239;9. (=Dienstag) schreibt und es nur mehr einen Dienstag gibt bevor AS am 3. Oktober antwortet  -->
+</TEI>
+<!-- Datum ergibt sich daraus, dass Paula Dehmel am 23.&#160;9. (=Dienstag) schreibt und es nur mehr einen Dienstag gibt bevor AS am 3. Oktober antwortet  -->

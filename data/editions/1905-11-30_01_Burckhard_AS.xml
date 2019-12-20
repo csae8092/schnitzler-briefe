@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1905-11-30_01_Burckhard_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1905-11-30_01_Burckhard_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Max Burckhard an Arthur Schnitzler, 30. 11. 1905</title>
-                <author key="pmb11036">Burckhard, Max</author>
+                <title level="a">Max Burckhard an Arthur Schnitzler, 30.&#160;11.&#160;1905</title>
+                <author ref="#pmb11036">Burckhard, Max</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                           <country>GB</country>            
                           <settlement>Cambridge</settlement>            
                           <repository>University Library</repository>            
-                          <idno>Schnitzler, B 20</idno>
+                          <idno>Schnitzler, B&#160;20</idno>
                       </msIdentifier>
                       <physDesc>
-                          <p>eh. Brief, 1 Bl., 2 S. Von Schnitzler beschriftet: »<quote>B</quote>« und datiert: »<quote>
+                          <p>eh. Brief, 1&#160;Bl., 2&#160;S. Von Schnitzler beschriftet: »<quote>B</quote>« und datiert: »<quote>
                               <date>1905</date>?</quote>«. Von unbekannter Hand mit Bleistift nummeriert: »<quote>15</quote>«.</p>
                       </physDesc>
                   </msDesc>
@@ -64,16 +68,16 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11036">Burckhard, Max</persName>
-                    <placeName key="pmb33">St. Gilgen</placeName>
-                    <date when="1905-11-30" n="01">30. 11. 1905</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11036">Burckhard, Max</persName>
+                    <placeName ref="#pmb33">St.&#160;Gilgen</placeName>
+                    <date when="1905-11-30" n="01">30.&#160;11.&#160;1905</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1904-12-24_01">Burckhard an Schnitzler, 24. [12. 1904]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1904-12-24_01">Burckhard an Schnitzler, 24.&#160;[12.&#160;1904]</ptr>
                <ptr type="next" subtype="toAuthor" target="1905_01">Burckhard an Schnitzler, undatiert</ptr>
             </correspContext>
          </correspDesc>
@@ -85,36 +89,12 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <!-- <p><hi rend="pre-print"></hi></p> -->      
-                    <dateline rend="right">
-                  <pb facs="DSC_0656.JPG"/>
-                  <placeName key="pmb33">St. Gilgen</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date>30/11 05</date>
-               </dateline>
-                    <salute>Sehr verehrter lieber Herr Doctor!</salute>
-            </opener>                         
-                <p>Herzlichſten Dank für das »<workName key="pmb29903">Zwischenſpiel</workName>«, das ich noch nicht gekannt 
+        <body><div type="writingSession" n="1"><opener><!-- <p><hi rend="pre-print"></hi></p> --><dateline rend="right"><pb facs="DSC_0656.JPG"/><rs ref="#pmb33" type="place">St.&#160;Gilgen</rs><space unit="chars" quantity="1"/><date>30/11&#160;05</date></dateline><salute>Sehr verehrter lieber Herr Doctor!</salute></opener><p>Herzlichſten Dank für das »<rs ref="#pmb29903" type="work">Zwischenſpiel</rs>«, das ich noch nicht gekannt 
                     hatte und das einen außerordentlich
                     tiefen Eindruck auf mich gemacht hat – beſonders dadurch vielleicht, daſs die eigenthümliche
                     Sti<c rendition="#gemination-m"/>ung, <pb facs="DSC_0657.JPG"/>mit der es ſchon einſetzt, ſo außerordentlich
-                    feſtgehalten iſt bis zum letzten Augenblick.</p>
-                <p>Auf baldiges Wiederſehen, denn jetzt geht der Sommer zur Neige.</p>
-                <p>Mit Handkuſs an Ihre verehrte <rs type="person" key="pmb2173">Gattin</rs> u herzlichſte Grüße</p>
-                <closer>Ihr getreuer<lb/>
-                    <signed>D<hi rend="superscript">r</hi>Burckhard</signed>
-            </closer>
-                <postscript>
-               <p>Ich gratuliere noch zum <anchor type="commentary" xml:id="KL952-1"/>
-                  <placeName key="pmb168">Berlin</placeName>er Erfolg<note type="commentary" xml:id="KL952-1h">Am <date>25. 11. 1905</date> fand die Aufführung von
-                    <workName key="pmb29903">Zwischenspiel</workName> am <placeName key="pmb3">Deutschen Theater</placeName> statt, etwas über einen
-                Monat nach der <placeName key="pmb50">Wien</placeName>er Uraufführung.</note>
-               </p>
-            </postscript>
-            </div>
-        </body>
+                    feſtgehalten iſt bis zum letzten Augenblick.</p><p>Auf baldiges Wiederſehen, denn jetzt geht der Sommer zur Neige.</p><p>Mit Handkuſs an Ihre verehrte <rs type="person" ref="#pmb2173" subtype="implied">Gattin</rs> u herzlichſte Grüße</p><closer>Ihr getreuer<lb/><signed>D<hi rend="superscript">r</hi>Burckhard</signed></closer><postscript><p>Ich gratuliere noch zum <anchor type="commentary" xml:id="KL952-1"/><rs ref="#pmb168" type="place">Berlin</rs>er Erfolg<note type="commentary" xml:id="KL952-1h">Am <date>25.&#160;11.&#160;1905</date> fand die Aufführung von
+                    <rs ref="#pmb29903" type="work">Zwischenspiel</rs> am <rs ref="#pmb3" type="place">Deutschen Theater</rs> statt, etwas über einen
+                Monat nach der <rs ref="#pmb50" type="place">Wien</rs>er Uraufführung.</note></p></postscript></div></body>
     </text>
 </TEI>

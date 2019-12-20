@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1901-08-10_02_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1901-08-10_02_AS_Hofmannsthal">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 10. 8. 1901</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 10.&#160;8.&#160;1901</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -52,7 +55,7 @@
                                 <idno>Hs-30885,96</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S.</p>
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -60,8 +63,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -74,8 +77,8 @@
                     </biblStruct>
                     <biblStruct corresp="HBAS">
                         <monogr>
-                            <author key="pmb10815">Bahr, Hermann</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10815">Bahr, Hermann</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel, Aufzeichnungen, Dokumente
                                 (1891–1931)</title>
                             <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
@@ -94,17 +97,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb946">Vahrn</placeName>
-                    <date when="1901-08-10" n="02">10. 8. 1901</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb946">Vahrn</placeName>
+                    <date when="1901-08-10" n="02">10.&#160;8.&#160;1901</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1901-07-18_01">Hofmannsthal an Schnitzler, 18. 7. [1901]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1901-08-12_01">Hofmannsthal an Schnitzler, 12. 8. 1901</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1901-07-18_01">Hofmannsthal an Schnitzler, 18.&#160;7. [1901]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1901-08-12_01">Hofmannsthal an Schnitzler, 12.&#160;8.&#160;1901</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -116,59 +119,25 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <placeName key="pmb946">
-                            <hi rend="latintype">Vahrn</hi>
-                        </placeName>, <date>10. 8. 901</date>
-                    </dateline>
-                </opener>
-                <p>
-                    <salute>mein lieber Hugo, </salute>seit vier Wochen bin ich hier, und habe mich,
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb946" type="place"><hi rend="latintype">Vahrn</hi></rs>, <date>10.&#160;8.&#160;901</date></dateline></opener><p><salute>mein lieber Hugo, </salute>seit vier Wochen bin ich hier, und habe mich,
                     in angenehmer Gesellschaft, mit Neigung zu Arbeit u<unclear>.</unclear> einigem
                     Fleiss und gelegentlichem Talent, in einer wunderbaren Luft, mit Sonne und Wald,
-                    recht behaglich gefühlt. Montag reis<damage agent="ink">
-                        <supplied>en</supplied>
-                    </damage> wir nach <placeName key="pmb40263">Bozen</placeName>, wo man <persName key="pmb11485">Goldmann</persName> trifft, dann nach <placeName key="pmb954">Trient</placeName>, und endlich etwa <date>16. 8.</date> gehts nach
-                        <placeName key="pmb428">
-                        <hi rend="underline" n="1">
-                            <hi rend="latintype">Welsberg</hi>
-                        </hi> im Pusthertal </placeName>, <hi rend="underline" n="1">
-                        <placeName key="pmb723">
-                            <hi rend="latintype">Bad Waldbrunn</hi>
-                        </placeName>
-                    </hi>, das ich neulich entdeckt habe u von dem ich mich nur wundre<pb/> dass es
-                    kaum bekannt ist. <date>Ende August</date> möchte ich in <placeName key="pmb50">Wien</placeName> sein, vor allem <rs type="work" key="pmb29957 pmb29865">2
-                        neue Einakter</rs> dictiren, die der »<workName key="pmb29869">Literatur</workName>« vorangehen sollen. Die drei Stückchen sind nur durch
+                    recht behaglich gefühlt. Montag reis<damage agent="ink"><supplied>en</supplied></damage> wir nach <rs ref="#pmb40263" type="place">Bozen</rs>, wo man <rs ref="#pmb11485" type="person">Goldmann</rs> trifft, dann nach <rs ref="#pmb954" type="place">Trient</rs>, und endlich etwa <date>16.&#160;8.</date> gehts nach
+                        <rs ref="#pmb428" type="place"><hi rend="underline" n="1"><hi rend="latintype">Welsberg</hi></hi> im Pusthertal </rs>, <hi rend="underline" n="1"><rs ref="#pmb723" type="place"><hi rend="latintype">Bad Waldbrunn</hi></rs></hi>, das ich neulich entdeckt habe u von dem ich mich nur wundre<pb/> dass es
+                    kaum bekannt ist. <date>Ende August</date> möchte ich in <rs ref="#pmb50" type="place">Wien</rs> sein, vor allem <rs type="work" ref="#pmb29957 pmb29865" subtype="implied">2
+                        neue Einakter</rs> dictiren, die der »<rs ref="#pmb29869" type="work">Literatur</rs>« vorangehen sollen. Die drei Stückchen sind nur durch
                     einen Grundgedanken verbunden, und eines mag immer das andre beleuchten. Auch
-                    das dreiaktige <rs type="work" key="pmb29985">Stück</rs> kann bald beendet sein.
+                    das dreiaktige <rs type="work" ref="#pmb29985" subtype="implied">Stück</rs> kann bald beendet sein.
                     Ich freue mich auf einen schönen Septemberabend, wo wir einander allerlei
-                    erzählen und vorlesen<pb/> können. Um den verlornen <placeName key="pmb867">Innsbruck</placeName>er Abend thut es mir sehr leid. Anonymität wäre
+                    erzählen und vorlesen<pb/> können. Um den verlornen <rs ref="#pmb867" type="place">Innsbruck</rs>er Abend thut es mir sehr leid. Anonymität wäre
                     übrigens gar nicht vonnöthen gewesen, jeder Grund fehlt, besonders Ihnen und
-                    Ihrer <rs type="person" key="pmb2292">Frau</rs> gegenüber. <rs type="person" key="pmb2173">Wir</rs> waren damals an der Bahn, – der andre einzige Ort, wo
-                    man <del rend="strikethrough">
-                        <unclear>nie</unclear>
-                    </del> im Freien speisen kann, nachdem mir der dritte einzige Ort, in der Nähe
-                    der <placeName key="pmb657">
-                        <hi rend="latintype">Weierburg</hi>
-                    </placeName>, nicht zusagte. –</p>
-                <p>Viel Freude habe ich heuer wieder vom Radfahren gehabt und mich mehr<pb/> als
+                    Ihrer <rs type="person" ref="#pmb2292" subtype="implied">Frau</rs> gegenüber. <rs type="person" ref="#pmb2173" subtype="implied">Wir</rs> waren damals an der Bahn, – der andre einzige Ort, wo
+                    man <del rend="strikethrough"><unclear>nie</unclear></del> im Freien speisen kann, nachdem mir der dritte einzige Ort, in der Nähe
+                    der <rs ref="#pmb657" type="place"><hi rend="latintype">Weierburg</hi></rs>, nicht zusagte. –</p><p>Viel Freude habe ich heuer wieder vom Radfahren gehabt und mich mehr<pb/> als
                     einmal an unsre Fahrt am <geogName type="lake">Genfer See</geogName> erinnert,
-                    die nun drei Jahre hinter uns liegt.</p>
-                <p>Ich höre hoffentlich noch von Ihnen, ehe wir uns wiedersehn</p>
-                <closer>Herzliche Grüße<lb/>Ihr <signed>Arthur.</signed>
-                </closer>
-                <postscript>
-                    <p>Wenn <persName key="pmb10765">Poldi</persName> bei Ihnen ist, grüßen Sie ihn
-                        vielmals. <persName key="pmb12254">Michel</persName> hat mir einen so netten
-                        Brief geschrieben. Auch <persName key="pmb10815">Bahr</persName>, den Sie ja
-                        öfters sehn, grüßen Sie herzlich. Und empfehlen mich Ihrer <rs type="person" key="pmb2292">Frau</rs>.<lb/>Ihr <signed>A.</signed>
-                    </p>
-                </postscript>
-            </div>
-        </body>
+                    die nun drei Jahre hinter uns liegt.</p><p>Ich höre hoffentlich noch von Ihnen, ehe wir uns wiedersehn</p><closer>Herzliche Grüße<lb/>Ihr <signed>Arthur.</signed></closer><postscript><p>Wenn <rs ref="#pmb10765" type="person">Poldi</rs> bei Ihnen ist, grüßen Sie ihn
+                        vielmals. <rs ref="#pmb12254" type="person">Michel</rs> hat mir einen so netten
+                        Brief geschrieben. Auch <rs ref="#pmb10815" type="person">Bahr</rs>, den Sie ja
+                        öfters sehn, grüßen Sie herzlich. Und empfehlen mich Ihrer <rs type="person" ref="#pmb2292" subtype="implied">Frau</rs>.<lb/>Ihr <signed>A.</signed></p></postscript></div></body>
     </text>
 </TEI>

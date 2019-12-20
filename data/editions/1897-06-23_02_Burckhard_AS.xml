@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-06-23_02_Burckhard_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-06-23_02_Burckhard_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Max Burckhard an Arthur Schnitzler, [23. 6. 1897]</title>
-                <author key="pmb11036">Burckhard, Max</author>
+                <title level="a">Max Burckhard an Arthur Schnitzler, [23.&#160;6.&#160;1897]</title>
+                <author ref="#pmb11036">Burckhard, Max</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,12 +52,12 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 20</idno>
+                                <idno>Schnitzler, B&#160;20</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., schwarze Tinte. Von Schnitzler mit
                                     Bleistift datiert: »<quote>
-                                        <date>23/6 97</date>
+                                        <date>23/6&#160;97</date>
                                     </quote>«. Von unbekannter Hand mit Bleistift nummeriert:
                                         »<quote>9</quote>«.</p>
                             </physDesc>
@@ -67,16 +71,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11036">Burckhard, Max</persName>
-                    <date when="1897-06-23" n="02">[23. 6. 1897]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11036">Burckhard, Max</persName>
+                    <date when="1897-06-23" n="02">[23.&#160;6.&#160;1897]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-01-18_01">Burckhard an Schnitzler, [18. 1. 1897]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-12-27_02">Burckhard an Schnitzler, [27.? 12. 1897]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-01-18_01">Burckhard an Schnitzler, [18.&#160;1.&#160;1897]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-12-27_02">Burckhard an Schnitzler, [27.? 12.&#160;1897]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -91,23 +95,10 @@
         <graphic url="MS-SCHNITZLER-B-00020-000-00023.jpg"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="MS-SCHNITZLER-B-00020-000-00023.jpg"/>Sehr verehrter lieber Herr
-                        Doctor!</salute>
-                </opener>
-                <p>Ich bin ſo frei im Auftrage des Autors beiliegendes <anchor type="commentary" xml:id="KL966-1"/>
-                    <rs type="work" key="pmb30478 pmb33450" cert="low">Stück</rs>
-                    <note type="commentary" xml:id="KL96-1h">Es könnte sich um <workName key="pmb33450">Die Bürgermeisterwahl</workName> oder <workName key="pmb30478">s’Katherl</workName> von <persName key="pmb11036">Max
-                            Burckhard</persName> handeln, die am <date>20.</date> respektive
-                            <date>25. 11. 1897</date> in <placeName key="pmb50">Wien</placeName>
-                        ihre Uraufführung erlebten.</note> zu überſenden.</p>
-                <closer>In herzlicher Verehrung<lb/>
-                    <signed>D<hi rend="superscript">r</hi>Burckhard</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00020-000-00023.jpg"/>Sehr verehrter lieber Herr
+                        Doctor!</salute></opener><p>Ich bin ſo frei im Auftrage des Autors beiliegendes <anchor type="commentary" xml:id="KL966-1"/><rs type="work" ref="#pmb30478 pmb33450" cert="low" subtype="implied">Stück</rs><note type="commentary" xml:id="KL96-1h">Es könnte sich um <rs ref="#pmb33450" type="work">Die Bürgermeisterwahl</rs> oder <rs ref="#pmb30478" type="work">s’Katherl</rs> von <rs ref="#pmb11036" type="person">Max
+                            Burckhard</rs> handeln, die am <date>20.</date> respektive
+                            <date>25.&#160;11.&#160;1897</date> in <rs ref="#pmb50" type="place">Wien</rs>
+                        ihre Uraufführung erlebten.</note> zu überſenden.</p><closer>In herzlicher Verehrung<lb/><signed>D<hi rend="superscript">r</hi>Burckhard</signed></closer></div></body>
     </text>
 </TEI>

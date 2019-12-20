@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-10-19_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1894-10-19_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 19. 10. 1894</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 19.&#160;10.&#160;1894</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,18 +54,18 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Postkarte, Bleistift.<lb/>Nachgesandt nach <placeName key="pmb623">
+                        <p>eh. Postkarte, Bleistift.<lb/>Nachgesandt nach <rs ref="#pmb623" type="place">
                               <hi rend="latintype">Hotel Hassler</hi>
-                           </placeName>.</p>
+                           </rs>.</p>
                         <stamp n="1">
-                           <placeName key="pmb51">Wien 1/1</placeName>
-                           <date>19. 10. 94</date>
-                           <time>9-10 N</time>
+                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
+                           <date>19.&#160;10.&#160;94</date>
+                           <time>9-10&#160;N</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb595">Napoli</placeName>
-                           <date>21 10–94</date>
-                           <time>8 S</time>
+                           <rs ref="#pmb595" type="place">Napoli</rs>
+                           <date>21&#160;10–94</date>
+                           <time>8&#160;S</time>
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -71,8 +74,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -92,21 +95,21 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1894-10-19" n="01">19. 10. 1894</date>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1894-10-19" n="01">19.&#160;10.&#160;1894</date>
             </correspAction>
             <correspAction type="forwarded">
-               <placeName key="pmb595">Neapel</placeName>
-               <date when="1894-10-21">21. 10. 1894</date>
+               <placeName ref="#pmb595">Neapel</placeName>
+               <date when="1894-10-21">21.&#160;10.&#160;1894</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb445">Rom</placeName>
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb445">Rom</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-10-18_02">Beer-Hofmann an Schnitzler, 18. 10. 1894</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-10-20_01">Schnitzler an Beer-Hofmann, 20. 10. 1894</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-10-18_02">Beer-Hofmann an Schnitzler, 18.&#160;10.&#160;1894</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-10-20_01">Schnitzler an Beer-Hofmann, 20.&#160;10.&#160;1894</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -122,49 +125,18 @@
       <graphic url="1894_AS_RBH_3_00019.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1894_AS_RBH_3_00018"/>Herrn <hi rend="latintype">Dr. Richard Beer
-                     Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb595">Neapel</placeName>
-                  </hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">a posta ferma</hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <anchor type="textConst" xml:id="TG13"/>
-                     <placeName key="pmb40306">Italien</placeName>
-                     <note type="textConst" xml:id="TG13h">in jede Ecke der Karte
-                        geschrieben.</note>
-                  </hi>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <salute>
-                  <pb facs="1894_AS_RBH_3_00019"/>Lieber Richard, </salute>ich habe Ihren Brief aus
-                  <placeName key="pmb40272">
-                  <hi rend="latintype">Frascati</hi>
-               </placeName> beko<c rendition="#gemination-m"/>en und danke beſtens. Sie meinen
-               erſten nach <placeName key="pmb595">Neapel</placeName> und die <workName key="pmb36340">
-                  <hi rend="underline" n="1">Zeit</hi>
-               </workName> doch wohl auch? Ihre gute und hohe Sti<c rendition="#gemination-m"/>ung
+      <body><div type="address"><address><addrLine><pb facs="1894_AS_RBH_3_00018"/>Herrn <hi rend="latintype">Dr. Richard Beer
+                     Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb595" type="place">Neapel</rs></hi></addrLine><addrLine><hi rend="latintype">a posta ferma</hi></addrLine><addrLine><hi rend="latintype"><anchor type="textConst" xml:id="TG13"/><rs ref="#pmb40306" type="place">Italien</rs><note type="textConst" xml:id="TG13h">in jede Ecke der Karte
+                        geschrieben.</note></hi></addrLine></address></div><div type="writingSession" n="1"><p><salute><pb facs="1894_AS_RBH_3_00019"/>Lieber Richard, </salute>ich habe Ihren Brief aus
+                  <rs ref="#pmb40272" type="place"><hi rend="latintype">Frascati</hi></rs> beko<c rendition="#gemination-m"/>en und danke beſtens. Sie meinen
+               erſten nach <rs ref="#pmb595" type="place">Neapel</rs> und die <rs
+                  ref="#pmb36340" type="work"><hi rend="underline" n="1">Zeit</hi></rs> doch wohl auch? Ihre gute und hohe Sti<c rendition="#gemination-m"/>ung
                iſt ſehr erfreulich – man kann gewiſs beſſeres von Reiſen heimbringen als Novellen –
                ob aber auch beſſeres – als <hi n="1" rend="underline">Ihre</hi> Novellen??? – Mein
-                  <rs type="work" key="pmb29917">Stück</rs> beim <rs type="person" key="pmb27711">Abſchreiber</rs>; vielleicht ka<c rendition="#gemination-n"/> ich bei Ihrer
-               Heimkehr ſchon mit Reſultaten aufwarten. Mache die Correcturen am Buch (<workName key="pmb30117">Sterben</workName>.) – Heute arges Kopfweh. – Viele herzliche
-               Grüße, bitte ſchreiben Sie mir.</p>
-            <closer>Ihr <signed>Arth.</signed>
-            </closer>
-         </div>
-      </body>
+                  <rs type="work" ref="#pmb29917" subtype="implied">Stück</rs> beim <rs type="person" ref="#pmb27711" subtype="implied"
+                  >Abſchreiber</rs>; vielleicht ka<c rendition="#gemination-n"/> ich bei Ihrer
+               Heimkehr ſchon mit Reſultaten aufwarten. Mache die Correcturen am Buch (<rs
+                  ref="#pmb30117" type="work">Sterben</rs>.) – Heute arges Kopfweh.&#160;– Viele herzliche
+               Grüße, bitte ſchreiben Sie mir.</p><closer>Ihr <signed>Arth.</signed></closer></div></body>
    </text>
 </TEI>

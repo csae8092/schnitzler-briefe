@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-10-27_01_Hofmannsthal-Salten_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-10-27_01_Hofmannsthal-Salten_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Hugo von Hofmannsthal und Felix Salten an Arthur Schnitzler,
-                    [27. 10. 1893]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
-                <author key="pmb2167">Salten, Felix</author>
+                    [27.&#160;10.&#160;1893]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
+                <author ref="#pmb2167">Salten, Felix</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -50,10 +54,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., Bleistift. Von Schnitzler mit Bleistift datiert: »<quote>
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., Bleistift. Von Schnitzler mit Bleistift datiert: »<quote>
                                         <date>2<subst>
                                                 <del rend="overwritten">8</del>
                                                 <add place="inline">7</add>
@@ -66,8 +70,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -86,15 +90,15 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <persName key="pmb2167">Salten, Felix</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1893-10-27" n="01">[27. 10. 1893]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <persName ref="#pmb2167">Salten, Felix</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1893-10-27" n="01">[27.&#160;10.&#160;1893]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             
          </correspDesc>
@@ -110,28 +114,7 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00119"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00119"/>
-                        <time>½ 8 Uhr</time>.</dateline>
-                    <salute>Lieber Arthur!</salute>
-                </opener>
-                <p>Wir kommen heute ſchon um <time>
-                        <hi n="2" rend="underline">10</hi>
-                    </time> ins Cafe!</p>
-                <closer>
-                    <signed>
-                        <handShift scribe="pmb2167"/>Salten<space unit="chars" quantity="7"/>
-                        <handShift scribe="pmb11740"/>Loris</signed>
-                </closer>
-                <postscript>
-                    <p>
-                        <handShift scribe="pmb2167"/>Der Loris hat vergessen zu schreiben dass wir
-                        jetzt gehen zu <persName key="pmb10863">Richard</persName>.</p>
-                </postscript>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00119"/><time>½&#160;8 Uhr</time>.</dateline><salute>Lieber Arthur!</salute></opener><p>Wir kommen heute ſchon um <time><hi n="2" rend="underline">10</hi></time> ins Cafe!</p><closer><signed><handShift scribe="pmb2167"/>Salten<space unit="chars" quantity="7"/><handShift scribe="pmb11740"/>Loris</signed></closer><postscript><p><handShift scribe="pmb2167"/>Der Loris hat vergessen zu schreiben dass wir
+                        jetzt gehen zu <rs ref="#pmb10863" type="person">Richard</rs>.</p></postscript></div></body>
     </text>
 </TEI>

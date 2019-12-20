@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-09-02_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-09-02_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 2. 9. 1896</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 2.&#160;9.&#160;1896</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Hs-30885,52</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S., schwarze Tinte.</p>
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S., schwarze Tinte.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -59,8 +63,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -79,18 +83,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1896-09-02" n="01">2. 9. 1896</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1896-09-02" n="01">2.&#160;9.&#160;1896</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-08-07_02">Schnitzler an Hofmannsthal, 7. 8. 1896</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-10-06_02">Hofmannsthal an Schnitzler, 6. 10. 1896</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-08-07_02">Schnitzler an Hofmannsthal, 7.&#160;8.&#160;1896</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-10-06_02">Hofmannsthal an Schnitzler, 6.&#160;10.&#160;1896</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -102,56 +106,26 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="Hs-30885,52_001.TIF"/>
-                        <placeName key="pmb50">Wien</placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>2. 9. 96</date>.</dateline>
-                    <salute>Lieber Hugo,</salute>
-                </opener>
-                <p>Ihren ſo <rs type="person" key="pmb24033">gemeinſchaftlichen</rs> Brief hab ich
-                    in <placeName key="pmb168">Berlin</placeName> beko<c rendition="#gemination-m"/>en und hab mich ſehr darüber gefreut. Sind Sie noch in <placeName key="pmb34401">Altausſee</placeName>? Jedenfalls ſende ich Ihnen dahin meine
-                    herzlichſten Grüße und hoffe Sie bald in <placeName key="pmb50">Wien</placeName>
-                    zu ſehn. Ich war in <placeName key="pmb168">Berlin</placeName>
-                    <space unit="chars" quantity="1"/>
-                    <pb facs="Hs-30885,52_002.TIF"/>4 Tage; das bis zur Unkenntlichkeit
-                    umgearbeitete <rs type="work" key="pmb29899">Stück</rs> hab ich dem <persName key="pmb10986">Brahm</persName> vorgeleſen, der es, nicht ohne
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Hs-30885,52_001.TIF"/><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date>2.&#160;9.&#160;96</date>.</dateline><salute>Lieber Hugo,</salute></opener><p>Ihren ſo <rs type="person" ref="#pmb24033" subtype="implied">gemeinſchaftlichen</rs> Brief hab ich
+                    in <rs ref="#pmb168" type="place">Berlin</rs> beko<c rendition="#gemination-m"/>en und hab mich ſehr darüber gefreut. Sind Sie noch in <rs ref="#pmb34401" type="place">Altausſee</rs>? Jedenfalls ſende ich Ihnen dahin meine
+                    herzlichſten Grüße und hoffe Sie bald in <rs ref="#pmb50" type="place">Wien</rs>
+                    zu ſehn. Ich war in <rs ref="#pmb168" type="place">Berlin</rs><space unit="chars" quantity="1"/><pb facs="Hs-30885,52_002.TIF"/>4 Tage; das bis zur Unkenntlichkeit
+                    umgearbeitete <rs type="work" ref="#pmb29899" subtype="implied">Stück</rs> hab ich dem <rs ref="#pmb10986" type="person">Brahm</rs> vorgeleſen, der es, nicht ohne
                     ausgeſprochenes Vergnügen, gleich angeno<c rendition="#gemination-m"/>en hat. Er
                     wollte es ſchon im <date>September</date> aufführen, wogegen ich mich wehre;
-                    wohl mit Erfolg. –</p>
-                <p>Auch in <placeName key="pmb38129">München</placeName> war ich 2 Tage, und ſeit
-                        <anchor type="commentary" xml:id="KL2243-1"/>
-                    <date>Samstag</date> <time>Früh</time>
-                    <note type="commentary" xml:id="KL2243-1h">
-                        <date>29. 8. 1896</date>.</note> bin ich wieder zu Hauſe, wo ich eben einen
+                    wohl mit Erfolg.&#160;–</p><p>Auch in <rs ref="#pmb38129" type="place">München</rs> war ich 2 Tage, und ſeit
+                        <anchor type="commentary" xml:id="KL2243-1"/><date>Samstag</date>&#160;<time>Früh</time><note type="commentary" xml:id="KL2243-1h"><date>29.&#160;8.&#160;1896</date>.</note> bin ich wieder zu Hauſe, wo ich eben einen
                         <pb facs="Hs-30885,52_002.TIF"/>der wildeſten Schnupfen durchlebe. So kann
                     ich nicht mit der nötigen Geiſtesfriſche auf die Vierzeiler antworten, obwohl
-                    ich mehr als dreifachen Sinn darin erkannt zu haben glaube.</p>
-                <p>Daſs ich Ihre <rs type="work" key="pmb34220">Novelle</rs> nicht hören ſoll,
-                    beleidigt mich – nur <persName key="pmb10863">Richard</persName> ſoll das
-                        <anchor type="commentary" xml:id="KL2243-2"/>Vorrecht<note type="commentary" xml:id="KL2243-2h">
-                        <persName key="pmb11740">Hofmannsthal</persName> hatte <workName key="pmb34220">Geschichte der beiden Liebespaare</workName> nach harter
-                        Kritik von <persName key="pmb10863">Beer-Hofmann</persName>
+                    ich mehr als dreifachen Sinn darin erkannt zu haben glaube.</p><p>Daſs ich Ihre <rs type="work" ref="#pmb34220" subtype="implied">Novelle</rs> nicht hören ſoll,
+                    beleidigt mich – nur <rs ref="#pmb10863" type="person">Richard</rs> ſoll das
+                        <anchor type="commentary" xml:id="KL2243-2"/>Vorrecht<note type="commentary" xml:id="KL2243-2h"><rs ref="#pmb11740" type="person">Hofmannsthal</rs> hatte <rs ref="#pmb34220" type="work">Geschichte der beiden Liebespaare</rs> nach harter
+                        Kritik von <rs ref="#pmb10863" type="person">Beer-Hofmann</rs>
                         zurückgelegt.</note> haben, Sachen zu leſen, die Sie nicht für gelungen
-                    halten?</p>
-                <p>Ich wollte, es käme mir einmal <pb facs="Hs-30885,52_001.TIF"/>was von Ihnen vor
-                    Augen mit ſchönen jungen Fehlern!</p>
-                <p>Wie ko<c rendition="#gemination-m"/>en Sie plötzlich aufs Theaterſpielen? Ich war
-                    ganz erſchüttert!</p>
-                <p>– Aber Zuſa<c rendition="#gemination-m"/>enſein werden wir hoffentlich oft – und
+                    halten?</p><p>Ich wollte, es käme mir einmal <pb facs="Hs-30885,52_001.TIF"/>was von Ihnen vor
+                    Augen mit ſchönen jungen Fehlern!</p><p>Wie ko<c rendition="#gemination-m"/>en Sie plötzlich aufs Theaterſpielen? Ich war
+                    ganz erſchüttert!</p><p>– Aber Zuſa<c rendition="#gemination-m"/>enſein werden wir hoffentlich oft – und
                     ohne das, was Sie »Halbwahres« ne<c rendition="#gemination-n"/>en, was aber was
-                    ganz andres iſt.</p>
-                <p>Wüßt ich nur ganz genau was! In <placeName key="pmb34034">
-                        <hi rend="latintype">Upsala</hi>
-                    </placeName> hab ich drüber nachgedacht – <hi rend="underline" n="1">wirklich</hi> in <placeName key="pmb34034">
-                        <hi rend="latintype">Upsala</hi>
-                    </placeName>! –</p>
-                <closer>Herzliche Grüße! Ihr <signed>Arthur</signed>
-                </closer>
-            </div>
-        </body>
+                    ganz andres iſt.</p><p>Wüßt ich nur ganz genau was! In <rs ref="#pmb34034" type="place"><hi rend="latintype">Upsala</hi></rs> hab ich drüber nachgedacht – <hi rend="underline" n="1">wirklich</hi> in <rs ref="#pmb34034" type="place"><hi rend="latintype">Upsala</hi></rs>!&#160;–</p><closer>Herzliche Grüße! Ihr <signed>Arthur</signed></closer></div></body>
     </text>
 </TEI>

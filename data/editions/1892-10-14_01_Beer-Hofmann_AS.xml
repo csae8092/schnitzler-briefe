@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-10-14_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-10-14_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 14. 10. 1892</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 14.&#160;10.&#160;1892</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., blauer Buntstift; Lateinschrift. Von Schnitzler
+                        <p>eh. Brief, 1&#160;Bl., 2&#160;S., blauer Buntstift; Lateinschrift. Von Schnitzler
                            mit Bleistift datiert: »<quote>
                               <date>14/10 92</date>
                            </quote>«. Von
@@ -63,8 +67,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -83,18 +87,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1892-10-14" n="01">14. 10. 1892</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1892-10-14" n="01">14.&#160;10.&#160;1892</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1892-10-02_01">Schnitzler an Beer-Hofmann, 2. 10. 1892</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-11-03_01">Schnitzler an Beer-Hofmann, 3. 11. 1892</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1892-10-02_01">Schnitzler an Beer-Hofmann, 2.&#160;10.&#160;1892</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-11-03_01">Schnitzler an Beer-Hofmann, 3.&#160;11.&#160;1892</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -110,35 +114,11 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00024.jpg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <salute>
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00023.jpg"/>Lieber Arthur!</salute>
-            </opener>
-            <p>Ich bin seit gestern hier; Ich möchte heute zur »<anchor type="commentary" xml:id="KLMAM20191022-2"/>
-               <workName key="pmb30641">Cameliendame</workName>
-               <note type="commentary" xml:id="KLMAM20191022-2h">Dass <persName key="pmb2121">Schnitzler</persName> sich in das Gastspiel von <persName key="pmb10899">Sarah
-                     Bernhardt</persName> am <placeName key="pmb37">Theater an der Wien</placeName>
+      <body><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00023.jpg"/>Lieber Arthur!</salute></opener><p>Ich bin seit gestern hier; Ich möchte heute zur »<anchor type="commentary" xml:id="KLMAM20191022-2"/><rs ref="#pmb30641" type="work">Cameliendame</rs><note type="commentary" xml:id="KLMAM20191022-2h">Dass <rs ref="#pmb2121" type="person">Schnitzler</rs> sich in das Gastspiel von <rs ref="#pmb10899" type="person">Sarah
+                     Bernhardt</rs> am <rs ref="#pmb37" type="place">Theater an der Wien</rs>
                   begab, ist eher auszuschließen.</note>« gehen; wenn
-               es Ihnen möglich ist ko<c rendition="#gemination-m"/>en Sie so um <anchor type="commentary" xml:id="KLMAM20191022-1"/>
-               <time>¼ 6</time>
-               <note type="commentary" xml:id="KLMAM20191022-1h">17 Uhr 15.</note> zu mir und
-               bringen mir dabei auch mein Opernglas mit.</p>
-            <p>
-               <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00024.jpg"/>Sie waren doch noch nicht
-               dabei?</p>
-            <p>Ich warte also bis <time>¼ 6</time>.</p>
-            <closer>Herzlichst<lb/>
-               <signed>Richard</signed>
-            </closer>
-            <postscript>
-               <dateline>
-                  <date>14/X 92</date>
-               </dateline>
-               <p>Pardon für die zwei »dabei«.</p>
-            </postscript>
-         </div>
-      </body>
+               es Ihnen möglich ist ko<c rendition="#gemination-m"/>en Sie so um <anchor type="commentary" xml:id="KLMAM20191022-1"/><time>¼&#160;6</time><note type="commentary" xml:id="KLMAM20191022-1h">17 Uhr 15.</note> zu mir und
+               bringen mir dabei auch mein Opernglas mit.</p><p><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00024.jpg"/>Sie waren doch noch nicht
+               dabei?</p><p>Ich warte also bis <time>¼&#160;6</time>.</p><closer>Herzlichst<lb/><signed>Richard</signed></closer><postscript><dateline><date>14/X 92</date></dateline><p>Pardon für die zwei »dabei«.</p></postscript></div></body>
    </text>
 </TEI>

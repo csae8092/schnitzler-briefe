@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-05-15_01_Andreas-Salome_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-05-15_01_Andreas-Salome_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Lou Andreas-Salomé an Arthur Schnitzler, 15. 5. 1894</title>
-                <author key="pmb10762">Andreas-Salomé, Lou</author>
+                <title level="a">Lou Andreas-Salomé an Arthur Schnitzler, 15.&#160;5.&#160;1894</title>
+                <author ref="#pmb10762">Andreas-Salomé, Lou</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,14 +52,14 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 3</idno>
+                                <idno>Schnitzler, B&#160;3</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 2 Bl., 6 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief, 2&#160;Bl., 6&#160;S., schwarze Tinte. Von Schnitzler mit
                                     Bleistift beschriftet »<quote>
                                         <hi rend="latintype">Lou Andrea-Salomé</hi>
                                     </quote>« und datiert: »<quote>
-                                        <date>15/5 94</date>
+                                        <date>15/5&#160;94</date>
                                     </quote>«. Von unbekannter Hand mit rotem Buntstift nummeriert:
                                         »<quote>1.</quote>«.</p>
                             </physDesc>
@@ -69,18 +73,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb10762">Andreas-Salomé, Lou</persName>
-                    <placeName key="pmb182">Paris</placeName>
-                    <date when="1894-05-15" n="03">15. 5. 1894</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
+                    <placeName ref="#pmb182">Paris</placeName>
+                    <date when="1894-05-15" n="03">15.&#160;5.&#160;1894</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1894-05-31">31. 5. 1894</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1894-05-31">31.&#160;5.&#160;1894</date>
                 </correspAction>
             <correspContext>
-               <ptr type="next" subtype="toAuthor" target="1894-06-13_01">Schnitzler an Andreas-Salomé, 13. 6. 1894</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-06-13_01">Schnitzler an Andreas-Salomé, 13.&#160;6.&#160;1894</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -97,22 +101,7 @@
         <graphic url="MS-SCHNITZLER-B-00003-000-00005"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="MS-SCHNITZLER-B-00003-000-00003"/>Sehr geehrter Herr,</salute>
-                </opener>
-                <p>ich habe kürzlich erſt Ihren »<workName key="pmb29935">
-                        <hi rend="latintype">Anatol</hi>
-                    </workName>« kennen gelernt und, Dank der Freundlichkeit des Herrn <hi rend="latintype">D<hi rend="superscript">r</hi> </hi>
-                    <persName key="pmb11485">
-                        <hi rend="latintype">Goldmann</hi>
-                    </persName>, darauf auch die beiden Manuſkripte »<workName key="pmb30391">
-                        <hi rend="latintype">Eine überspannte Person</hi>
-                    </workName>« und »<workName key="pmb30389">
-                        <hi rend="latintype">Halb zwei</hi>
-                    </workName>« leſen dürfen. Das war ein großer Genuß, ſo groß, wie ihn nur die
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00003-000-00003"/>Sehr geehrter Herr,</salute></opener><p>ich habe kürzlich erſt Ihren »<rs ref="#pmb29935" type="work"><hi rend="latintype">Anatol</hi></rs>« kennen gelernt und, Dank der Freundlichkeit des Herrn <hi rend="latintype">D<hi rend="superscript">r</hi> </hi><rs ref="#pmb11485" type="person"><hi rend="latintype">Goldmann</hi></rs>, darauf auch die beiden Manuſkripte »<rs ref="#pmb30391" type="work"><hi rend="latintype">Eine überspannte Person</hi></rs>« und »<rs ref="#pmb30389" type="work"><hi rend="latintype">Halb zwei</hi></rs>« leſen dürfen. Das war ein großer Genuß, ſo groß, wie ihn nur die
                     echteſten Bücher geben. Wenn man ſich hinterher darüber klar zu werden verſucht,
                     was ihn in jedem einzelnen Fall bedingt hat, ſo ſteht man überraſcht vor der
                     Fülle von Talent, die zuſammmenſtrömen mußte, um dieſe feinen Sachen zu
@@ -125,25 +114,13 @@
                     Gehaltvollen, Inhaltvollen, nach beendeter Lektüre beſtehen, ja er verſtärkt
                     ſich noch, indem man die einzelnen Scenen unwillkürlich noch vorwärts und
                     rückwärts weiterſpinnt, als handle es ſich um ein geſchautes Stück wirklichen
-                    Lebens mit offenen Perſpektiven nach beiden Seiten. Im »<workName key="pmb29935">
-                        <hi rend="latintype">Anatol</hi>
-                    </workName>« gilt dies am meiſten von »<workName key="pmb30163">
-                        <hi rend="latintype">Weihnachtseinkäufe</hi>
-                    </workName>« und »<workName key="pmb30145">
-                        <hi rend="latintype">Denksteine</hi>
-                    </workName>«, und im höchſten Grade von den beiden Manuſkripten, die, meiner
-                    Empfindung nach, den »<workName key="pmb29935">
-                        <hi rend="latintype">Anatol</hi>
-                    </workName>« übertreffen. Das eine derſelben, »<workName key="pmb30391">
-                        <hi rend="latintype">Eine überspannte Person</hi>
-                    </workName>«, war mir auch noch beſonders merkwürdig wegen der Art, wie hier die
+                    Lebens mit offenen Perſpektiven nach beiden Seiten. Im »<rs ref="#pmb29935" type="work"><hi rend="latintype">Anatol</hi></rs>« gilt dies am meiſten von »<rs ref="#pmb30163" type="work"><hi rend="latintype">Weihnachtseinkäufe</hi></rs>« und »<rs ref="#pmb30145" type="work"><hi rend="latintype">Denksteine</hi></rs>«, und im höchſten Grade von den beiden Manuſkripten, die, meiner
+                    Empfindung nach, den »<rs ref="#pmb29935" type="work"><hi rend="latintype">Anatol</hi></rs>« übertreffen. Das eine derſelben, »<rs ref="#pmb30391" type="work"><hi rend="latintype">Eine überspannte Person</hi></rs>«, war mir auch noch beſonders merkwürdig wegen der Art, wie hier die
                     Frau von den Frauen <pb facs="MS-SCHNITZLER-B-00003-000-00004"/>in allen übrigen
                     Einaktern angehoben wird, und wegen der ironiſchen Beleuchtung die, ſchon vom
                     vortrefflichen Titel aus, hier auf den Mann fällt. Es wäre intereſſant, dieſes
                     kleine Drama nach einer beſtimmten Seite hin in Vergleich zu ziehen mit
-                        »<workName key="pmb29823">
-                        <hi rend="latintype">Ein Märchen</hi>
-                    </workName>«, welches ja wahrhaftig ebenſo gut heißen könnte: »<hi rend="latintype">Ein überspannter Mann</hi>,« – und zwar <hi n="1" rend="underline">ohne</hi> ironiſchen Nebenklang im Titel. Wird man nicht
+                        »<rs ref="#pmb29823" type="work"><hi rend="latintype">Ein Märchen</hi></rs>«, welches ja wahrhaftig ebenſo gut heißen könnte: »<hi rend="latintype">Ein überspannter Mann</hi>,« – und zwar <hi n="1" rend="underline">ohne</hi> ironiſchen Nebenklang im Titel. Wird man nicht
                     davon frappirt, wie einfach, ſelbſtverſtändlich und natürlich das Gefühl in der
                     »überſpannten« Frau, und wie gänzlich verdreht und verbildet es dagegen im
                     überſpannten Mann iſt? Mann und Frau, ſo einander gegenübergeſtellt, nehmen ſich
@@ -151,11 +128,7 @@
                     Liebesempfindung zu ſchildern, nur auf das Nächſte, Natürlichſte zurückzugreifen
                     braucht, während er im gleichen Fall beim Mann ſogleich in <pb facs="MS-SCHNITZLER-B-00003-000-00003"/>eine ganze Wirrniß von zwieſpältigen
                     verzwickten und widerſpruchsvollen Empfindungen hineingeräth? Auf mich hat das
-                        »<workName key="pmb29823">
-                        <hi rend="latintype">Märchen</hi>
-                    </workName>« weit ſchwächer gewirkt als der »<workName key="pmb29935">
-                        <hi rend="latintype">Anatol</hi>
-                    </workName>« und es kam mir vor, als ſei eine viel geringere poetiſche und
+                        »<rs ref="#pmb29823" type="work"><hi rend="latintype">Märchen</hi></rs>« weit ſchwächer gewirkt als der »<rs ref="#pmb29935" type="work"><hi rend="latintype">Anatol</hi></rs>« und es kam mir vor, als ſei eine viel geringere poetiſche und
                     plaſtiſche Kraft darin lebendig, aber der Grund kann auch ſein, daß ich Ihren
                     Märchenhelden abſolut nicht leiden mag und deshalb dem Autor Unrecht thue.
                     Auffallend iſt es, wie ſchlecht der Mann überhaupt in Ihren Dichtungen wegkommt,
@@ -169,29 +142,16 @@
                     räumt der Frau damit den Platz. Ich kann in den von Ihnen gewählten Fällen die
                     Richtigkeit Ihrer Darſtellung in dieſem Punkt nicht recht beurtheilen, aber
                     natürlich bin ich, als Frau, außerordentlich bereit, ihr ohne Weiteres jede nur
-                    denkbare Lebenswahrheit zuzugeſtehn. –</p>
-                <p>Sie werden gewiß etwas verwundert ſein, wenn dieſer gänzlich überflüſſige Brief
-                    Ihnen zukommt, doch das hat Ihr Freund, Herr <hi rend="latintype">D<hi rend="superscript">r</hi> </hi>
-                    <persName key="pmb11485">
-                        <hi rend="latintype">Goldmann</hi>
-                    </persName>, ganz und gar auf ſeinem Gewiſſen. Ich hätte ſonſt vielleicht
+                    denkbare Lebenswahrheit zuzugeſtehn. –</p><p>Sie werden gewiß etwas verwundert ſein, wenn dieſer gänzlich überflüſſige Brief
+                    Ihnen zukommt, doch das hat Ihr Freund, Herr <hi rend="latintype">D<hi rend="superscript">r</hi> </hi><rs ref="#pmb11485" type="person"><hi rend="latintype">Goldmann</hi></rs>, ganz und gar auf ſeinem Gewiſſen. Ich hätte ſonſt vielleicht
                     beſcheidentlich den Mund gehalten, da es nach meiner Erfahrung nur wenig oder
                     gar keine Freude macht, Stimmen aus dem Publikum über Arbeiten zu vernehmen, die
                     einem doch an's Herz gewachſen ſind, wenn ſie was taugen. Nur die paar ſeltenen
                     Menſchen, die man liebt oder die man fürchtet, ſollte man darüber hören. Denn
                     das, was man am liebſten hat, theilt man ja <pb facs="MS-SCHNITZLER-B-00003-000-00005"/>nicht leicht und nicht gern mit
                     vielen Andern, und noch weniger gern läßt man es von Andern analyſiren und
-                    begucken, ganz einerlei ob Lob oder Tadel dabei herauskommt.</p>
-                <closer>In jedem Fall aber wollte dieſe Schreiberei Ihnen herzlichen Dank ſagen für
-                    gute Stunden.<lb/>
-                    <signed>Lou Andreas-Salomé.</signed>
-                </closer>
-                <postscript>
-                    <dateline>
-                        <placeName key="pmb182">Paris</placeName>, <date>15. V. 94</date>.
-                    </dateline>
-                </postscript>
-            </div>
-        </body>
+                    begucken, ganz einerlei ob Lob oder Tadel dabei herauskommt.</p><closer>In jedem Fall aber wollte dieſe Schreiberei Ihnen herzlichen Dank ſagen für
+                    gute Stunden.<lb/><signed>Lou Andreas-Salomé.</signed></closer><postscript><dateline><rs ref="#pmb182" type="place">Paris</rs>, <date>15.&#160;V.&#160;94</date>.
+                    </dateline></postscript></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1909-04-01_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1909-04-01_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 1. 4. 1909</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 1.&#160;4.&#160;1909</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb173">Rodaun</placeName>
-               <date when="1909-04-01" n="01">1. 4. 1909</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb173">Rodaun</placeName>
+               <date when="1909-04-01" n="01">1.&#160;4.&#160;1909</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1909-03-25_01">Schnitzler an Hofmannsthal, 25. 3. 1909</ptr>
-               <ptr type="next" subtype="toAuthor" target="1909-06-11_01">Hofmannsthal an Schnitzler, 11. 6. 1909</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1909-03-25_01">Schnitzler an Hofmannsthal, 25.&#160;3.&#160;1909</ptr>
+               <ptr type="next" subtype="toAuthor" target="1909-06-11_01">Hofmannsthal an Schnitzler, 11.&#160;6.&#160;1909</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,50 +105,30 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>1 IV</date>
-                  <space unit="chars" quantity="1"/>
-                  <placeName key="pmb173">Rodaun</placeName>
-               </dateline>
-               <salute>mein lieber Arthur</salute>
-            </opener>
-            <p>ich danke Ihnen sehr für Ihre guten Worte über <workName key="pmb30633">Elektra</workName>. Dies ist
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>1 IV</date><space unit="chars" quantity="1"/><rs ref="#pmb173" type="place">Rodaun</rs></dateline><salute>mein lieber Arthur</salute></opener><p>ich danke Ihnen sehr für Ihre guten Worte über <rs ref="#pmb30633" type="work">Elektra</rs>. Dies ist
                die reinste Freude, von einem Menschen, den man so gern hat. Ich habe Ihre Arbeiten
                immer gern gehabt, aber erst in den letzten 4–5 Jahren ist mir eigentlich der Knopf
                für ihren ganzen Wert aufgegangen und seitdem habe ich mir angewöhnt, sie mit so
-               großer Freude wiederholt zu lesen. </p>
-            <p>Es ist mir sehr hart, Sie so gar selten zu sehen. Nie habe ich eine Stunde mit Ihnen
+               großer Freude wiederholt zu lesen. </p><p>Es ist mir sehr hart, Sie so gar selten zu sehen. Nie habe ich eine Stunde mit Ihnen
                verbracht, die nicht von einem ganz bestimmten positiven Wohlgefühl mehr noch des
                Gemütes als des Geistes begleitet gewesen wäre. Ich denke daran, wenn Sie <date>Ende
-                  Mai</date> nach <placeName key="pmb423">Tirol</placeName> fahren, um Wohnung zu
-               suchen, mitzufahren, auch ohne diesen Zweck. – Es ist nun bald zwanzig Jahre, daß wir
-               uns kennen. </p>
-            <p>Die <rs type="work" key="pmb41642">Gedichte</rs> von <persName key="pmb13136">Winterstein</persName>
+                  Mai</date> nach <rs ref="#pmb423" type="place">Tirol</rs> fahren, um Wohnung zu
+               suchen, mitzufahren, auch ohne diesen Zweck.&#160;– Es ist nun bald zwanzig Jahre, daß wir
+               uns kennen. </p><p>Die <rs type="work" ref="#pmb41642" subtype="implied">Gedichte</rs> von <rs ref="#pmb13136" type="person">Winterstein</rs>
                haben mir zum Teil sehr gut gefallen. Ohne allen Zweifel habe ich sie damals (vor
                Monaten) an Sie zurückgeschickt, denn ich bin in diesem Punkt sehr genau und an dem
                einzigen Platz, wo sie liegen könnten, liegen sie nicht mehr. Es schien mir eine
-               feine, aber schwache Persönlichkeit sich zu äußern. – </p>
-            <p>Betreffs <workName key="pmb30633">Elektra</workName>, so habe ich <persName key="pmb11324">Fischer</persName> nicht ohne Mühe veranlaßt, seine Verlagsrechte
-               an <persName key="pmb39789">Fürstner</persName> abzutreten. Hiefür bezahle ich an
-                  <persName key="pmb11324">Fischer</persName> die Hälfte der von <persName key="pmb39789">Fürstner</persName> mir zufließenden 25<c rendition="#prozent"/>.
-               D. h. von 10.000 Exemplaren bekomme ich 1250 Mark, <persName key="pmb11324">Fischer</persName> das gleiche. </p>
-            <closer>Ihr <signed>Hugo</signed>
-            </closer>
-            <postscript>
-               <p>P. S. In 14 Tagen spielt die <persName key="pmb3659">Desprès</persName> hier
-                  die <workName key="pmb29925">Elektra</workName>. Referent über solche Dinge ist <persName key="pmb10788">Auernheimer</persName>. Nun ist das ein anständiger und nicht
+               feine, aber schwache Persönlichkeit sich zu äußern.&#160;– </p><p>Betreffs <rs ref="#pmb30633" type="work">Elektra</rs>, so habe ich <rs ref="#pmb11324" type="person">Fischer</rs> nicht ohne Mühe veranlaßt, seine Verlagsrechte
+               an <rs ref="#pmb39789" type="person">Fürstner</rs> abzutreten. Hiefür bezahle ich an
+                  <rs ref="#pmb11324" type="person">Fischer</rs> die Hälfte der von <rs ref="#pmb39789" type="person">Fürstner</rs> mir zufließenden 25<c rendition="#prozent"/>.
+               D.&#160;h. von 10.000 Exemplaren bekomme ich 1250 Mark, <rs ref="#pmb11324" type="person">Fischer</rs> das gleiche. </p><closer>Ihr <signed>Hugo</signed></closer><postscript><p>P.&#160;S. In 14 Tagen spielt die <rs ref="#pmb3659" type="person">Desprès</rs> hier
+                  die <rs ref="#pmb29925" type="work">Elektra</rs>. Referent über solche Dinge ist <rs ref="#pmb10788" type="person">Auernheimer</rs>. Nun ist das ein anständiger und nicht
                   übelwollender Mensch und ich wäre wahrhaftig froh nicht durch eine unangenehme
                   Haltung seinerseits wiederum auch gegen diese Figur in die gewisse defensive
                   Haltung geraten zu müssen. Ich glaube daß ein Gespräch von 10 Minuten mit
-                  Ihnen hinreichen würde, ihm verstehen zu machen worin die Qualität des <rs type="work" key="pmb30633">Stückes</rs> liegt, – glaube aber auch daß er
+                  Ihnen hinreichen würde, ihm verstehen zu machen worin die Qualität des <rs type="work" ref="#pmb30633" subtype="implied">Stückes</rs> liegt,&#160;– glaube aber auch daß er
                   ohne dieses Gespräch nicht auf dem niveau ist, sich zu dem Stück in ein loyales
                   Verhältnis zu setzen, besonders in seine Atmosphäre. Vielleicht finden Sie die
-                  Gelegenheit. – </p>
-            </postscript>
-         </div>
-      </body>
+                  Gelegenheit.&#160;– </p></postscript></div></body>
    </text>
 </TEI>

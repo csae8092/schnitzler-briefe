@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-03-05_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-03-05_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 5. 3. 1893</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 5.&#160;3.&#160;1893</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,18 +55,18 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief mit Umschlag, 1 Bl., 4 S., blaue Tinte.</p>
+                        <p>eh. Brief mit Umschlag, 1&#160;Bl., 4&#160;S., blaue Tinte.</p>
                         <stamp n="1">
-                           <placeName key="pmb756">Pension »Quisisana« Abbazia</placeName>
+                           <rs ref="#pmb756" type="place">Pension »Quisisana« Abbazia</rs>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb38096">Abbazia</placeName>
+                           <rs ref="#pmb38096" type="place">Abbazia</rs>
                            <date>5/3 9<unclear>3</unclear>
                            </date>
                         </stamp>
                         <stamp n="4">
-                           <placeName key="pmb51">Wien 1/1</placeName>
-                           <date>6/3. 93</date>
+                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
+                           <date>6/3.&#160;93</date>
                            <time>11½V–1N</time>
                            <action>Bestellt</action>
                         </stamp>
@@ -74,8 +78,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -94,19 +98,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb38096">Abbazia</placeName>
-               <date when="1893-03-05" n="01">5. 3. 1893</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb38096">Abbazia</placeName>
+               <date when="1893-03-05" n="01">5.&#160;3.&#160;1893</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <date when="1893-03-06">6. 3. 1893</date>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <date when="1893-03-06">6.&#160;3.&#160;1893</date>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-02-02_01">Schnitzler an Beer-Hofmann, 2. 2. 1893</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-03-08_01">Schnitzler an Beer-Hofmann, 8. 3. 1893</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-02-02_01">Schnitzler an Beer-Hofmann, 2.&#160;2.&#160;1893</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-03-08_01">Schnitzler an Beer-Hofmann, 8.&#160;3.&#160;1893</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -125,82 +129,20 @@
       <graphic url="1893_AS_RBH_1_00034.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1893_AS_RBH_1_00033.jpeg"/>
-                  <hi rend="latintype">Herrn Doctor Richard Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb50">Wien</placeName>
-                  </hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb338">I Wollzeile 15</placeName>
-                  </hi>.</addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <salute rend="inline">
-                  <pb facs="1893_AS_RBH_1_00030.jpeg"/>Lieber Richard,</salute>
-            </opener>
-            <p>für die Anempfehlung von <placeName key="pmb756">
-                  <hi rend="latintype">Quisisana</hi>
-               </placeName> meinen beſten Dank! Ich fühle mich hier ſehr wohl, und habe überdies ein
+      <body><div type="address"><address><addrLine><pb facs="1893_AS_RBH_1_00033.jpeg"/><hi rend="latintype">Herrn Doctor Richard Beer-Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb50" type="place">Wien</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I Wollzeile 15</rs></hi>.</addrLine></address></div><div type="writingSession" n="1"><opener><salute rend="inline"><pb facs="1893_AS_RBH_1_00030.jpeg"/>Lieber Richard,</salute></opener><p>für die Anempfehlung von <rs ref="#pmb756" type="place"><hi rend="latintype">Quisisana</hi></rs> meinen beſten Dank! Ich fühle mich hier ſehr wohl, und habe überdies ein
                sehr hübſches Parterrezi<c rendition="#gemination-m"/>er mit Ausblick aufs weite
                Meer, das herrlichſte Wetter (ke<c rendition="#gemination-n"/>e keinen Ueberzieher
-               mehr) und ſehr ſympathiſche Geſellschaft (die malende <rs type="person" key="pmb23603">Schweſter</rs>
-               <space unit="chars" quantity="1"/>
-               <persName key="pmb23605">
-                  <hi rend="latintype">Rosenthal</hi>
-               </persName>’s und die <persName key="pmb20489">
-                  <hi rend="latintype">Sophie Link</hi>
-               </persName>, ſeit 6 Wochen in <placeName key="pmb168">Berlin</placeName>
-               <space unit="chars" quantity="1"/>
-               <rs type="person" key="pmb40081">verheiratet</rs>). – Ich bin meiſt im Freien, und
-               pendle zwiſchen <placeName key="pmb40087">
-                  <hi rend="latintype">Lovrana</hi>
-               </placeName> und <placeName key="pmb40091">
-                  <hi rend="latintype">Voloska</hi>
-               </placeName>
-               <space unit="chars" quantity="1"/>
-               <pb facs="1893_AS_RBH_1_00031.jpeg"/>hin u her. – Gearbeitet – wenig; i<c rendition="#gemination-m"/>erhin ein Stück
-               der <rs type="work" key="pmb31975">Novellette</rs>. – Die »<workName key="pmb30195">Familie</workName>« durchgeleſen, merke, daſs was fehlt, und bin nicht recht klar
+               mehr) und ſehr ſympathiſche Geſellschaft (die malende <rs type="person" ref="#pmb23603" subtype="implied">Schweſter</rs><space unit="chars" quantity="1"/><rs ref="#pmb23605" type="person"><hi rend="latintype">Rosenthal</hi></rs>’s und die <rs ref="#pmb20489" type="person"><hi rend="latintype">Sophie Link</hi></rs>, ſeit 6 Wochen in <rs ref="#pmb168" type="place">Berlin</rs><space unit="chars" quantity="1"/><rs type="person" ref="#pmb40081" subtype="implied">verheiratet</rs>).&#160;– Ich bin meiſt im Freien, und
+               pendle zwiſchen <rs ref="#pmb40087" type="place"><hi rend="latintype">Lovrana</hi></rs> und <rs ref="#pmb40091" type="place"><hi rend="latintype">Voloska</hi></rs><space unit="chars" quantity="1"/><pb facs="1893_AS_RBH_1_00031.jpeg"/>hin u her.&#160;– Gearbeitet – wenig; i<c rendition="#gemination-m"/>erhin ein Stück
+               der <rs type="work" ref="#pmb31975" subtype="implied">Novellette</rs>.&#160;– Die »<rs ref="#pmb30195" type="work">Familie</rs>« durchgeleſen, merke, daſs was fehlt, und bin nicht recht klar
                was. Ich werde es auch jedenfalls in 2–3 Wochen vorleſen, aber um Rathschläge
-               erſuchen müſſen. Keineswegs leſe ich, bevor wir Ihre <rs type="work" key="pmb30437">Novelle</rs> zu hören beko<c rendition="#gemination-m"/>en, was hoffentlich kurz
-               nach meiner Ankunft möglich ſein wird! –</p>
-            <p>– Ich denke nicht gern ans Fortreiſen; die Ruhe hier thut mir ganz unbeſchreiblich
-               wohl; wäre ich mein eigner Herr, ſo blieb’ ich zwei Monate da. We<c rendition="#gemination-n"/> man auch nicht <pb facs="1893_AS_RBH_1_00031.jpeg"/>arbeitet, – man hat die Empfindung, daſs man es jeden Augenblick könnte, was faſt
-               noch mehr werth ist. – Hübſch wär’s, we<c rendition="#gemination-n"/> wir das nächſte
-               Frühjahr die ganze <placeName key="pmb756">
-                  <hi rend="latintype">Quisisana</hi>
-               </placeName> miethen könnten! – Ah, diese Luft – einfach entzückend! – Es iſt doch
-               recht traurig zu den »Müſſenden« zu gehören! –</p>
-            <p>Grüßen Sie <persName key="pmb11740">
-                  <hi rend="latintype">Loris</hi>
-               </persName> und <persName key="pmb2167">
-                  <hi rend="latintype">Salten</hi>
-               </persName> aufs allerherzlichſte, desgleichen <persName key="pmb12740">
-                  <hi rend="latintype">Schwarzkopf</hi>
-               </persName>, der mir doch zwei Zeilen über das Befinden seines <rs type="person" key="pmb24651">Bruders</rs> ſchreiben möchte; und grüßen Sie nebſtbei jedermann,
-               der die Freundlichkeit hat nach mir zu fragen. – Schade, daſs <pb facs="1893_AS_RBH_1_00032.jpeg"/>Sie nicht auch da ſind! Hoffentlich find ich Sie
-               aber in geſegneterer Sti<c rendition="#gemination-m"/>ung als ich Sie verlaſſen!</p>
-            <closer>Stets der Ihre<lb/>
-               <signed>Arthur.</signed>
-            </closer>
-            <postscript>
-               <p>
-                  <placeName key="pmb38096">
-                     <hi rend="latintype">Abbazia</hi>
-                  </placeName> 
-                  <date>5. 3. 9<unclear>3</unclear>
-                  </date>. <date>So<c rendition="#gemination-n"/>tag</date>. –</p>
-            </postscript>
-         </div>
-      </body>
+               erſuchen müſſen. Keineswegs leſe ich, bevor wir Ihre <rs type="work" ref="#pmb30437" subtype="implied">Novelle</rs> zu hören beko<c rendition="#gemination-m"/>en, was hoffentlich kurz
+               nach meiner Ankunft möglich ſein wird!&#160;–</p><p>– Ich denke nicht gern ans Fortreiſen; die Ruhe hier thut mir ganz unbeſchreiblich
+               wohl; wäre ich mein eigner Herr, ſo blieb’ ich zwei Monate da. We<c rendition="#gemination-n"/> man auch nicht <pb facs="1893_AS_RBH_1_00031.jpeg"/>arbeitet,&#160;– man hat die Empfindung, daſs man es jeden Augenblick könnte, was faſt
+               noch mehr werth ist.&#160;– Hübſch wär’s, we<c rendition="#gemination-n"/> wir das nächſte
+               Frühjahr die ganze <rs ref="#pmb756" type="place"><hi rend="latintype">Quisisana</hi></rs> miethen könnten! – Ah, diese Luft – einfach entzückend! – Es iſt doch
+               recht traurig zu den »Müſſenden« zu gehören! –</p><p>Grüßen Sie <rs ref="#pmb11740" type="person"><hi rend="latintype">Loris</hi></rs> und <rs ref="#pmb2167" type="person"><hi rend="latintype">Salten</hi></rs> aufs allerherzlichſte, desgleichen <rs ref="#pmb12740" type="person"><hi rend="latintype">Schwarzkopf</hi></rs>, der mir doch zwei Zeilen über das Befinden seines <rs type="person" ref="#pmb24651" subtype="implied">Bruders</rs> ſchreiben möchte; und grüßen Sie nebſtbei jedermann,
+               der die Freundlichkeit hat nach mir zu fragen.&#160;– Schade, daſs <pb facs="1893_AS_RBH_1_00032.jpeg"/>Sie nicht auch da ſind! Hoffentlich find ich Sie
+               aber in geſegneterer Sti<c rendition="#gemination-m"/>ung als ich Sie verlaſſen!</p><closer>Stets der Ihre<lb/><signed>Arthur.</signed></closer><postscript><p><rs ref="#pmb38096" type="place"><hi rend="latintype">Abbazia</hi></rs><date>5. 3. 9<unclear>3</unclear></date>. <date>So<c rendition="#gemination-n"/>tag</date>.&#160;–</p></postscript></div></body>
    </text>
 </TEI>

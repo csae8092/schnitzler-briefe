@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-08-01_01_Blumenthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-08-01_01_Blumenthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Oscar Blumenthal an Arthur Schnitzler, 1. 8. 1892</title>
-                <author key="pmb14328">Blumenthal, Oscar</author>
+                <title level="a">Oscar Blumenthal an Arthur Schnitzler, 1.&#160;8.&#160;1892</title>
+                <author ref="#pmb14328">Blumenthal, Oscar</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 15</idno>
+                                <idno>Schnitzler, B&#160;15</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>Brief von fremder Hand mit eh. Unterschrift, 1 Bl., 1 S, schwarze
+                                <p>Brief von fremder Hand mit eh. Unterschrift, 1&#160;Bl., 1&#160;S, schwarze
                                     Tinte. Von unbekannter Hand mit rotem Buntstift nummeriert:
                                     »<quote>3</quote>«. Eine Unterstreichung mit rotem Buntstift.</p>
                             </physDesc>
@@ -65,18 +69,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb14328">Blumenthal, Oscar</persName>
-                    <placeName key="pmb168">Berlin</placeName>
-                    <date when="1892-08-01" n="01">1. 8. 1892</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb14328">Blumenthal, Oscar</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
+                    <date when="1892-08-01" n="01">1.&#160;8.&#160;1892</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1892-03-06_01">Blumenthal an Schnitzler, [6. 3. 1892]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-08-12_02">Blumenthal an Schnitzler, 12. 8. 1893</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1892-03-06_01">Blumenthal an Schnitzler, [6.&#160;3.&#160;1892]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-08-12_02">Blumenthal an Schnitzler, 12.&#160;8.&#160;1893</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -91,56 +95,12 @@
         <graphic url="MS-SCHNITZLER-B-00015-000-00009"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p rend="center">
-                        <pb facs="MS-SCHNITZLER-B-00015-000-00009"/>
-                        <hi rend="pre-print">
-                            <orgName key="pmb35053">LESSING-THEATER</orgName>
-                        </hi>
-                    </p>
-                    <p rend="center">
-                        <hi rend="pre-print">Director:</hi>
-                        <lb/>
-                        <hi rend="pre-print">Dr. Oscar Blumenthal.</hi>
-                    </p>
-                    <p rend="right">
-                        <hi rend="pre-print">
-                            <placeName key="pmb168">Berlin N.W.</placeName>, den</hi>
-                        <space unit="chars" quantity="1"/>
-                        <date>1. August <hi rend="pre-print">189</hi>2</date>.<lb/>
-                        <hi rend="pre-print">
-                            <placeName key="pmb34999">Friedrich-Carl-Ufer</placeName>
-                        </hi>.</p>
-                    <salute rend="center">Werther Herr Doktor!</salute>
-                </opener>
-               
-                <p>Ueber den Aufführungstermin von »<workName key="pmb29823">Das Märchen</workName>«
+        <body><div type="writingSession" n="1"><opener><p rend="center"><pb facs="MS-SCHNITZLER-B-00015-000-00009"/><hi rend="pre-print"><rs ref="#pmb35053" type="organisation">LESSING-THEATER</rs></hi></p><p rend="center"><hi rend="pre-print">Director:</hi><lb/><hi rend="pre-print">Dr. Oscar Blumenthal.</hi></p><p rend="right"><hi rend="pre-print"><rs ref="#pmb168" type="place">Berlin N.W.</rs>, den</hi><space unit="chars" quantity="1"/><date>1.&#160;August <hi rend="pre-print">189</hi>2</date>.<lb/><hi rend="pre-print"><rs ref="#pmb34999" type="place">Friedrich-Carl-Ufer</rs></hi>.</p><salute rend="center">Werther Herr Doktor!</salute></opener><p>Ueber den Aufführungstermin von »<rs ref="#pmb29823" type="work">Das Märchen</rs>«
                     kann ich Ihnen im Augenblick eine beſtimmte Zuſage nicht machen, da ſich die
                     Dispoſitionen für die neue Saiſon noch nicht klar genug überblicken laſſen. Doch
                     wird jedenfalls erſt im <date>zweiten Quartal</date> die Aufführung ſtattfinden
                     können, da ich für die Monate <date>Oktober</date>, <date>November</date>,
                         <date>Dezember</date> theils durch die abgeſchloſſenen Verträge, theils
-                    durch das Gaſtſpiel der <persName key="pmb11201">
-                        <hi rend="latintype">Duse</hi>
-                    </persName> ſehr eingeengt bin.</p>
-                <closer>Mit freundlichen Grüßen<space unit="chars" quantity="5"/>Ihr<lb/>
-                    <signed>
-                        <handShift scribe="pmb14328"/>Dr. Osc. Blumenthal</signed>
-                </closer>
-                <postscript>
-                    <p>
-                        <handShift scribe="pmb27660"/>Herrn<lb/>
-                        <hi rend="latintype">Dr Arthur Schnitzler</hi>
-                        <lb/>
-                        <hi rend="latintype">
-                            <placeName key="pmb51">Wien I.</placeName>
-                        </hi>
-                    </p>
-                    <p>cop.</p>
-                </postscript>
-            </div>
-        </body>
+                    durch das Gaſtſpiel der <rs ref="#pmb11201" type="person"><hi rend="latintype">Duse</hi></rs> ſehr eingeengt bin.</p><closer>Mit freundlichen Grüßen<space unit="chars" quantity="5"/>Ihr<lb/><signed><handShift scribe="pmb14328"/>Dr.&#160;Osc. Blumenthal</signed></closer><postscript><p><handShift scribe="pmb27660"/>Herrn<lb/><hi rend="latintype">Dr Arthur Schnitzler</hi><lb/><hi rend="latintype"><rs ref="#pmb51" type="place">Wien I.</rs></hi></p><p>cop.</p></postscript></div></body>
     </text>
 </TEI>

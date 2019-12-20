@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-06-17_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1898-06-17_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 17. 6. 1898</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 17.&#160;6.&#160;1898</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,10 +55,10 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX Das beigelegte Blatt mit den Korrekturen mit
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX Das beigelegte Blatt mit den Korrekturen mit
                            Bleistift, ist von unbekannter Hand beschriftet »<quote>Schnitzler:
                               Korrekturen zu Beer-Hofmanns ›Schlaflied für Mirjam‹</quote>«. Darauf
-                           von unbekannter Hand mit Tinte zur Zeile 6 der 2. Strophe:
+                           von unbekannter Hand mit Tinte zur Zeile 6 der 2.&#160;Strophe:
                               »<quote>doch</quote>«.</p>
                      </physDesc>
                   </msDesc>
@@ -63,8 +67,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -83,18 +87,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1898-06-17" n="01">17. 6. 1898</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1898-06-17" n="01">17.&#160;6.&#160;1898</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb34860">Steindorf</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb34860">Steindorf</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1898-06-15_01">Beer-Hofmann an Schnitzler, 15. 6. 1898</ptr>
-               <ptr type="next" subtype="toAuthor" target="1898-06-18_01">Beer-Hofmann an Schnitzler, 18. 6. 1898</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1898-06-15_01">Beer-Hofmann an Schnitzler, 15.&#160;6.&#160;1898</ptr>
+               <ptr type="next" subtype="toAuthor" target="1898-06-18_01">Beer-Hofmann an Schnitzler, 18.&#160;6.&#160;1898</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -109,134 +113,28 @@
       <graphic url="1898_AS_RBH_3_00036"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb50">Wien</placeName>, <date when="1898-06-17">17. 6. 98</date>.</dateline>
-            </opener>
-            <p>
-               <salute>Lieber Richard, </salute>beiliegend mein Interpunktionsgefühl. Im
-               wesentlichen liegt ja nicht viel dran. <persName key="pmb11740">Hugo</persName> ist
-               in der <placeName key="pmb34041">Brühl</placeName>, ich wollte gestern zu ihm; aber
-               es regnete. Am Tag meiner Abfahrt hatte ich Regen bis <placeName key="pmb587">Wr.
-                  Neustadt</placeName> – dann war es schön und blieb so bis gestern. Meine
-               Sommerpläne sind verpfuscht. Man lässt <rs type="person" key="pmb2378">sie</rs> nicht
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb50" type="place">Wien</rs>, <date when="1898-06-17">17.&#160;6.&#160;98</date>.</dateline></opener><p><salute>Lieber Richard, </salute>beiliegend mein Interpunktionsgefühl. Im
+               wesentlichen liegt ja nicht viel dran. <rs ref="#pmb11740" type="person">Hugo</rs> ist
+               in der <rs ref="#pmb34041" type="place">Brühl</rs>, ich wollte gestern zu ihm; aber
+               es regnete. Am Tag meiner Abfahrt hatte ich Regen bis <rs ref="#pmb587" type="place">Wr.
+                  Neustadt</rs> – dann war es schön und blieb so bis gestern. Meine
+               Sommerpläne sind verpfuscht. Man lässt <rs type="person" ref="#pmb2378" subtype="implied">sie</rs> nicht
                mit mir reisen, so wird ein enervirendes Hin und Her herauskommen. Ich bleibe vor
-               allem einmal bis <date>Mitte Juli</date> in <placeName key="pmb50">Wien</placeName>;
-               bin dann ein paar Tage mit <rs type="person" key="pmb2378">ihr</rs> und ihrer <rs type="person" key="pmb14707">Schwester</rs> sowie <rs type="person" key="pmb14711">Schwager</rs> in <placeName key="pmb860">Gr.</placeName> zusammen – wohin ich vom
-                  <date>20.</date>–<date>27. Juli</date> gehe, weiss ich nicht. (Wollen Sie
-               irgendwo mit mir zusammen sein? Aber nicht in <placeName key="pmb34860">Steindorf</placeName>.) Dann per Rad mit <rs type="person" key="pmb2378">ihr</rs>
-               und den <persName key="pmb14707 pmb23209 pmb23215">Ihren</persName> nach <placeName key="pmb39752">Tegernsee</placeName>. – Von dort verschwind ich sofort; –
-               wahrscheinlich in die Schweiz. Da werd ich eine Zeitlang mit der <rs type="person" key="pmb12701">Mama</rs> zusammen sein (<placeName key="pmb39755">Vierwaldstädtersee</placeName>). Die <date>letzte Augustwoche</date>
-               wahrscheinlich in <placeName key="pmb39752">Tegernsee</placeName> – dann in den
-               ersten <date>Septembertagen</date> wenns geht, durchs <placeName key="pmb39757">Ampezzo</placeName> per Rad nach <placeName key="pmb462">Venedig</placeName>. – Im übrigen arbeit ich und fühl mich aus den bekannten
-               Ursachen nicht wohl. – (Milder Ausdruck.)</p>
-            <p>Brief und Carton hab ich erhalten, danke sehr. Wie gehts Ihnen? Machen Sie was?
-                  <persName key="pmb11485">Paul G.</persName> hat recht, sag ich Ihnen! – <persName key="pmb12740">Gustav Schw.</persName> und <persName key="pmb26392">Leo
-                  V.</persName> werden sicher Ihre Grüsse erwidern, sobald ich sie ihnen
-               ausgerichtet habe. – Das gleiche nehm ich von <persName key="pmb10860">Paula</persName>, ja beinah von <persName key="pmb2668">Mirjam</persName> an. Sie
+               allem einmal bis <date>Mitte Juli</date> in <rs ref="#pmb50" type="place">Wien</rs>;
+               bin dann ein paar Tage mit <rs type="person" ref="#pmb2378" subtype="implied">ihr</rs> und ihrer <rs type="person" ref="#pmb14707" subtype="implied">Schwester</rs> sowie <rs type="person" ref="#pmb14711" subtype="implied">Schwager</rs> in <rs ref="#pmb860" type="place">Gr.</rs> zusammen – wohin ich vom
+                  <date>20.</date>–<date>27.&#160;Juli</date> gehe, weiss ich nicht. (Wollen Sie
+               irgendwo mit mir zusammen sein? Aber nicht in <rs ref="#pmb34860" type="place">Steindorf</rs>.) Dann per Rad mit <rs type="person" ref="#pmb2378" subtype="implied">ihr</rs>
+               und den <rs ref="#pmb14707 pmb23209 pmb23215" type="person">Ihren</rs> nach <rs ref="#pmb39752" type="place">Tegernsee</rs>.&#160;– Von dort verschwind ich sofort; –
+               wahrscheinlich in die Schweiz. Da werd ich eine Zeitlang mit der <rs type="person" ref="#pmb12701" subtype="implied">Mama</rs> zusammen sein (<rs ref="#pmb39755" type="place">Vierwaldstädtersee</rs>). Die <date>letzte Augustwoche</date>
+               wahrscheinlich in <rs ref="#pmb39752" type="place">Tegernsee</rs> – dann in den
+               ersten <date>Septembertagen</date> wenns geht, durchs <rs ref="#pmb39757" type="place">Ampezzo</rs> per Rad nach <rs ref="#pmb462" type="place">Venedig</rs>.&#160;– Im übrigen arbeit ich und fühl mich aus den bekannten
+               Ursachen nicht wohl.&#160;– (Milder Ausdruck.)</p><p>Brief und Carton hab ich erhalten, danke sehr. Wie gehts Ihnen? Machen Sie was?
+                  <rs ref="#pmb11485" type="person">Paul G.</rs> hat recht, sag ich Ihnen! – <rs ref="#pmb12740" type="person">Gustav Schw.</rs> und <rs ref="#pmb26392" type="person">Leo
+                  V.</rs> werden sicher Ihre Grüsse erwidern, sobald ich sie ihnen
+               ausgerichtet habe.&#160;– Das gleiche nehm ich von <rs ref="#pmb10860" type="person">Paula</rs>, ja beinah von <rs ref="#pmb2668" type="person">Mirjam</rs> an. Sie
                wird einmal sehr gerührt sein, wenn sie als alte Frau ihrer Enkelin das Gedicht vom
                Urgrosspapa vorlesen wird. Und auch Ihrer Urenkelin werden vielleicht Thränen ins
-               Auge kommen. Auf Wiedersehen, womöglich noch vorher.</p>
-            <closer>Herzlich Ihr <signed>Arthur.</signed>
-            </closer>
-            <postscript>
-               <p>
-                  <space dim="vertical" unit="line" quantity="1"/>
-               </p>
-               <p>
-                        <pb facs="1898_AS_RBH_3_00036"/>Strophe I</p>
-               
-                  <table>
-                     <row>
-                        <cell>Zeile</cell>
-                        <cell>2</cell>
-                        <cell>nach Sieh <hi rend="underline" n="2">,</hi>
-                        </cell>
-                     </row>
-                     <row>
-                        <cell>Zeile</cell>
-                        <cell>3</cell>
-                        <cell>– fort!</cell>
-                     </row>
-                     <row>
-                        <cell>Zeile</cell>
-                        <cell>5</cell>
-                        <cell>nach ; ein –</cell>
-                     </row>
-                  </table>
-               
-               <p>Strophe II</p>
-               
-                  <table>
-                     <row>
-                        <cell>Zeile</cell>
-                        <cell>2</cell>
-                        <cell>ſtatt – lieber ,</cell>
-                     </row>
-                     <row>
-                        <cell/>
-                        <cell>4</cell>
-                        <cell>das <hi rend="underline" n="1">auch</hi> ſtört nicht.</cell>
-                     </row>
-                     <row>
-                        <cell>Zeile</cell>
-                        <cell>6,</cell>
-                        <cell>lieber kein –</cell>
-                     </row>
-                  </table>
-               
-               <p>
-                  <hi rend="underline" n="1">Strophe III</hi>
-               </p>
-               
-                  <table>
-                     <row>
-                        <cell>Zeile</cell>
-                        <cell>1</cell>
-                        <cell>– fort!</cell>
-                     </row>
-                     <row>
-                        <cell>Zeile</cell>
-                        <cell>2</cell>
-                        <cell>ebenſo</cell>
-                     </row>
-                     <row>
-                        <cell>Zeile</cell>
-                        <cell>7</cell>
-                        <cell>iſt ein Beiſtrich; an den gleichen Stellen Str I u II fehlt
-                           er –</cell>
-                     </row>
-                     <row>
-                        <cell/>
-                        <cell/>
-                        <cell>eins von beiden! –</cell>
-                     </row>
-                  </table>
-               
-               <p>Strophe IV</p>
-               
-                  <table>
-                     <row>
-                        <cell>Zeile</cell>
-                        <cell>4</cell>
-                        <cell>lieber <hi rend="underline" n="1">,</hi> ſtatt –</cell>
-                     </row>
-                     <row>
-                        <cell>Zeile</cell>
-                        <cell>6,</cell>
-                        <cell>der erſte – fort</cell>
-                     </row>
-                     <row>
-                        <cell>Zeile</cell>
-                        <cell>7</cell>
-                        <cell>der letzte –</cell>
-                     </row>
-                  </table>
-               
-            </postscript>
-         </div>
-      </body>
+               Auge kommen. Auf Wiedersehen, womöglich noch vorher.</p><closer>Herzlich Ihr <signed>Arthur.</signed></closer><postscript><p><space dim="vertical" unit="line" quantity="1"/></p><p><pb facs="1898_AS_RBH_3_00036"/>Strophe I</p><table><row><cell>Zeile</cell><cell>2</cell><cell>nach Sieh <hi rend="underline" n="2">,</hi></cell></row><row><cell>Zeile</cell><cell>3</cell><cell>– fort!</cell></row><row><cell>Zeile</cell><cell>5</cell><cell>nach ; ein –</cell></row></table><p>Strophe II</p><table><row><cell>Zeile</cell><cell>2</cell><cell>ſtatt – lieber ,</cell></row><row><cell/><cell>4</cell><cell>das <hi rend="underline" n="1">auch</hi> ſtört nicht.</cell></row><row><cell>Zeile</cell><cell>6,</cell><cell>lieber kein –</cell></row></table><p><hi rend="underline" n="1">Strophe III</hi></p><table><row><cell>Zeile</cell><cell>1</cell><cell>– fort!</cell></row><row><cell>Zeile</cell><cell>2</cell><cell>ebenſo</cell></row><row><cell>Zeile</cell><cell>7</cell><cell>iſt ein Beiſtrich; an den gleichen Stellen Str I u II fehlt
+                           er –</cell></row><row><cell/><cell/><cell>eins von beiden!&#160;–</cell></row></table><p>Strophe IV</p><table><row><cell>Zeile</cell><cell>4</cell><cell>lieber <hi rend="underline" n="1">,</hi> ſtatt –</cell></row><row><cell>Zeile</cell><cell>6,</cell><cell>der erſte – fort</cell></row><row><cell>Zeile</cell><cell>7</cell><cell>der letzte –</cell></row></table></postscript></div></body>
    </text>
 </TEI>

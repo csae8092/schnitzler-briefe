@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-07-29_01_Bahr_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-07-29_01_Bahr_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 29. 7. 1894</title>
-            <author key="pmb10815">Bahr, Hermann</author>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 29.&#160;7.&#160;1894</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                <name full="yes" instant="false">Müller, Martin Anton</name>
             </editor>
@@ -47,13 +51,13 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 5b</idno>
+                        <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Postkarte, schwarze Tinte. Von unbekannter Hand jeweils mit Bleistift
                            und rotem Buntstift nummeriert: »<quote>25</quote>«.</p>
                         <stamp n="1">
-                           <placeName key="pmb58">Wien 8/1</placeName>
+                           <rs ref="#pmb58" type="place">Wien 8/1</rs>
                            <date when="1894-07-29">29 7 94</date>
                            <time>3–4 N</time>
                         </stamp>
@@ -64,8 +68,8 @@
             <listBibl>
                <biblStruct corresp="HBAS">
                   <monogr>
-                     <author key="pmb10815">Bahr, Hermann</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
                      <imprint>
@@ -83,18 +87,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1894-07-29" n="01">29. 7. 1894</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1894-07-29" n="01">29.&#160;7.&#160;1894</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-07-20_01">Bahr an Schnitzler, 20. 7. 1894</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-10-22_01">Bahr an Schnitzler, 22. 10. 1894</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-07-20_01">Bahr an Schnitzler, 20.&#160;7.&#160;1894</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-10-22_01">Bahr an Schnitzler, 22.&#160;10.&#160;1894</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -110,41 +114,9 @@
       <graphic url="MS-B-00005-B-000-00039"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="MS-B-00005-B-000-00038"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi> Arthur
-                  Schnitzler</hi> 
-               </addrLine>
-               <addrLine>Schriftsteller</addrLine>
-               <addrLine>
-                  <placeName key="pmb59">Wien IX</placeName>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb397">
-                     <hi rend="latintype">Franckgasse 1</hi>
-                  </placeName>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="MS-B-00005-B-000-00039"/>Mein Telephon iſt <anchor type="commentary" xml:id="KL171-1"/>6415<note type="commentary" xml:id="KL171-1h">Die Nummer der Redaktion der <orgName key="pmb29209">Zeit</orgName>. Privat war er am <date when="1894-05-08">8. 5. 1894</date> in die <placeName key="pmb770">Lammgasse 3</placeName>
-                  umgezogen. Hier weist ihn das Adressverzeichnis <workName key="pmb32580">Lehmann</workName>
-                  <space unit="chars" quantity="1"/>
-                  <date>1895</date> ebenfalls als »Telephonabonnent« aus, Nr. 4531.</note>.</p>
-            <closer>Herzlichſt<lb/>
-               <signed>Bahr</signed>
-            </closer>
-            <postscript>
-               <p>
-                  <anchor type="label" xml:id="LL171-1">
-                     <persName key="pmb12618">D.</persName> ſchreibt mir heute, daß ſie am 5. »auf
-                     zwei Minuten« nach <placeName key="pmb50">Wien</placeName> kommt.</anchor>
-               </p>
-            </postscript>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00038"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi> Arthur
+                  Schnitzler</hi></addrLine><addrLine>Schriftsteller</addrLine><addrLine><rs ref="#pmb59" type="place">Wien IX</rs></addrLine><addrLine><rs ref="#pmb397" type="place"><hi rend="latintype">Franckgasse 1</hi></rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="MS-B-00005-B-000-00039"/>Mein Telephon iſt <anchor type="commentary" xml:id="KL171-1"/>6415<note type="commentary" xml:id="KL171-1h">Die Nummer der Redaktion der <rs ref="#pmb29209" type="organisation">Zeit</rs>. Privat war er am <date when="1894-05-08">8.&#160;5.&#160;1894</date> in die <rs ref="#pmb770" type="place">Lammgasse 3</rs>
+                  umgezogen. Hier weist ihn das Adressverzeichnis <rs ref="#pmb32580" type="work">Lehmann</rs><space unit="chars" quantity="1"/><date>1895</date> ebenfalls als »Telephonabonnent« aus, Nr.&#160;4531.</note>.</p><closer>Herzlichſt<lb/><signed>Bahr</signed></closer><postscript><p><anchor type="label" xml:id="LL171-1"><rs ref="#pmb12618" type="person">D.</rs> ſchreibt mir heute, daß ſie am 5. »auf
+                     zwei Minuten« nach <rs ref="#pmb50" type="place">Wien</rs> kommt.</anchor></p></postscript></div></body>
    </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1911-10-06_01_Brandes_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1911-10-06_01_Brandes_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Georg Brandes an Arthur Schnitzler, 6. 10. 1911</title>
-                <author key="pmb10992">Brandes, Georg</author>
+                <title level="a">Georg Brandes an Arthur Schnitzler, 6.&#160;10.&#160;1911</title>
+                <author ref="#pmb10992">Brandes, Georg</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 17</idno>
+                                <idno>Schnitzler, B&#160;17</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S., Lateinschrift, schwarze Tinte. Von
+                                <p>eh. Brief, 1&#160;Bl., 3&#160;S., Lateinschrift, schwarze Tinte. Von
                                     Schnitzler mit Bleistift beschriftet: »<quote>
                                         <hi rend="latintype">Brandes</hi>
                                     </quote>«. Von unbekannter Hand nummeriert: »<quote>36</quote>«.
@@ -63,8 +67,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -83,17 +87,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb10992">Brandes, Georg</persName>
-                    <placeName key="pmb434">Kopenhagen</placeName>
-                    <date when="1911-10-06" n="01">6. 10. 1911</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb10992">Brandes, Georg</persName>
+                    <placeName ref="#pmb434">Kopenhagen</placeName>
+                    <date when="1911-10-06" n="01">6.&#160;10.&#160;1911</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1911-04-29_01">Schnitzler an Brandes, 29. 4. 1911</ptr>
-               <ptr type="next" subtype="toAuthor" target="1911-10-12_01">Schnitzler an Brandes, 12. 10. 1911</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1911-04-29_01">Schnitzler an Brandes, 29.&#160;4.&#160;1911</ptr>
+               <ptr type="next" subtype="toAuthor" target="1911-10-12_01">Schnitzler an Brandes, 12.&#160;10.&#160;1911</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -109,77 +113,27 @@
         <graphic url="MS-SCHNITZLER-B-00017-A-00001-000-00068"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00067"/>
-                        <placeName key="pmb36300">Kopenhagen</placeName> (genügend Adresse)<lb/>
-                        <date>6 October 11</date>
-                    </dateline>
-                    <salute rend="inline">Verehrter und lieber Freund</salute>
-                </opener>
-                <p>Graf <persName key="pmb5485">Prozor</persName>, russischer Diplomat, vieljähriger
-                    Uebersetzer <persName key="pmb11798">Ibsens</persName> ins <placeName key="pmb166">
-                  <country>Französische</country>
-               </placeName> – er <del rend="strikethrough">hatte</del> hat zur <rs type="person" key="pmb29113">Frau</rs> eine schwedische Gräfin und kennt
-                    unsere Sprachen – hat eine <rs type="person" key="pmb29117">Tochter</rs>, die
-                    durch die Wirksamkeit des Vaters <persName key="pmb11798">Ibsen</persName>-Enthusiastin und <persName key="pmb11798">
-                        <hi n="1" rend="underline">Ibsen</hi>
-                    </persName>
-                    <hi n="1" rend="underline">-Darstellerin</hi> geworden ist.</p>
-                <p>Fräulein <persName key="pmb29117">Prozor</persName>
-                    <anchor type="commentary" xml:id="KL797-3"/>soll am <date>
-                        <hi n="1" rend="underline">12<hi rend="superscript">ten</hi>
-                        </hi>
-                    </date> in <placeName key="pmb50">Wien</placeName>
-                    <space unit="chars" quantity="1"/>
-                    <rs type="work" key="pmb29915">Hedda</rs> spielen<note type="commentary" xml:id="KL797-3h">Obwohl <workName key="pmb29915">Hedda Gabler</workName>
-                        in der Presse als Matinée-Veranstaltung im <placeName key="pmb118">Carl-Theater</placeName> im Rahmen des Gastspiels von <persName key="pmb3659">Suzanne Desprès</persName> für den <date>12. Oktober</date> angekündigt wurde, ließen sich keine Kritiken zu dieser
-                        Inszenierung finden. Am gleichen Abend spielte <persName key="pmb29117">Greta
-                            Prozor</persName> in »<workName key="pmb36400">La Vie de Bohême</workName>« von
-                            <persName key="pmb13763">Théodor Barrière</persName> und <persName key="pmb8987">Henri Murger</persName> die Rolle der <rs type="work" key="pmb36400">Madame de Rouvres</rs>. In <persName key="pmb11798">Ibsen</persName>s <workName key="pmb31395">Nora</workName> hatte sie
-                        am <date>8. Oktober</date> die Rolle der <rs key="pmb31395" type="work">Frau
-                            Linden</rs> gespielt.</note>. Der <rs type="person" key="pmb5485">Vater</rs> hat mich wiederholt gebeten, ihr die Bahn zu ebnen durch einen
-                    Artikel in der <orgName key="pmb29351">N. fr. Presse</orgName>. Ich antworte ihm
-                    1) dass ich in keinerlei Verbindung mit der <orgName key="pmb29351">N. fr.
-                        Presse</orgName> stehe 2) dass ich seine <rs type="person" key="pmb29117">Tochter</rs> nie gesehen habe.</p>
-                <p>Er giebt nicht nach, fleht immer als alter Freund, ich möge jemand in <placeName key="pmb50">Wien</placeName> seinet<pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00068"/>halber
-                    plagen.</p>
-                <p>Ich kenne Niemand, der mit Theatersachen irgendwie in Berührung steht, als Sie
-                    allein.</p>
-                <p>Meine Bitte ist also: fordern Sie, lieber Freund und in <placeName key="pmb50">Wien</placeName> gewiss nicht ohnmächtiger Meister, irgend einen Journalisten auf,
-                    das Frl. <persName key="pmb29117">Prozor</persName> (in der Truppe von <persName key="pmb3659">
-                        <hi n="1" rend="underline">Suzanne Desprès</hi>
-                    </persName>) zu interviewen und für Sie ein wenig Stimmung zu machen.</p>
-                <p rend="inline">Dies <anchor type="commentary" xml:id="KL797-1"/>ma corvée<note type="commentary" xml:id="KL797-1h">frz. meine lästige Pflicht.</note>.</p>
-                <p>Aber ich mag nicht dies langweilige Zeug abschicken ohne Ihnen aufs Neue zu
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00067"/><rs ref="#pmb36300" type="place">Kopenhagen</rs> (genügend Adresse)<lb/><date>6 October 11</date></dateline><salute rend="inline">Verehrter und lieber Freund</salute></opener><p>Graf <rs ref="#pmb5485" type="person">Prozor</rs>, russischer Diplomat, vieljähriger
+                    Uebersetzer <rs ref="#pmb11798" type="person">Ibsens</rs> ins <rs ref="#pmb166" type="place"><country>Französische</country></rs> – er <del rend="strikethrough">hatte</del> hat zur <rs type="person" ref="#pmb29113" subtype="implied">Frau</rs> eine schwedische Gräfin und kennt
+                    unsere Sprachen – hat eine <rs type="person" ref="#pmb29117" subtype="implied">Tochter</rs>, die
+                    durch die Wirksamkeit des Vaters <rs ref="#pmb11798" type="person">Ibsen</rs>-Enthusiastin und <rs ref="#pmb11798" type="person"><hi n="1" rend="underline">Ibsen</hi></rs><hi n="1" rend="underline">-Darstellerin</hi> geworden ist.</p><p>Fräulein <rs ref="#pmb29117" type="person">Prozor</rs><anchor type="commentary" xml:id="KL797-3"/>soll am <date><hi n="1" rend="underline">12<hi rend="superscript">ten</hi></hi></date> in <rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><rs type="work" ref="#pmb29915" subtype="implied">Hedda</rs> spielen<note type="commentary" xml:id="KL797-3h">Obwohl <rs ref="#pmb29915" type="work">Hedda Gabler</rs>
+                        in der Presse als Matinée-Veranstaltung im <rs ref="#pmb118" type="place">Carl-Theater</rs> im Rahmen des Gastspiels von <rs ref="#pmb3659" type="person">Suzanne Desprès</rs> für den <date>12.&#160;Oktober</date> angekündigt wurde, ließen sich keine Kritiken zu dieser
+                        Inszenierung finden. Am gleichen Abend spielte <rs ref="#pmb29117" type="person">Greta
+                            Prozor</rs> in »<rs ref="#pmb36400" type="work">La Vie de Bohême</rs>« von
+                            <rs ref="#pmb13763" type="person">Théodor Barrière</rs> und <rs ref="#pmb8987" type="person">Henri Murger</rs> die Rolle der <rs type="work" ref="#pmb36400" subtype="implied">Madame de Rouvres</rs>. In <rs ref="#pmb11798" type="person">Ibsen</rs>s <rs ref="#pmb31395" type="work">Nora</rs> hatte sie
+                        am <date>8. Oktober</date> die Rolle der <rs ref="#pmb31395" type="work" subtype="implied">Frau
+                            Linden</rs> gespielt.</note>. Der <rs type="person" ref="#pmb5485" subtype="implied">Vater</rs> hat mich wiederholt gebeten, ihr die Bahn zu ebnen durch einen
+                    Artikel in der <rs ref="#pmb29351" type="organisation">N. fr. Presse</rs>. Ich antworte ihm
+                    1) dass ich in keinerlei Verbindung mit der <rs ref="#pmb29351" type="organisation">N. fr.
+                        Presse</rs> stehe 2) dass ich seine <rs type="person" ref="#pmb29117" subtype="implied">Tochter</rs> nie gesehen habe.</p><p>Er giebt nicht nach, fleht immer als alter Freund, ich möge jemand in <rs ref="#pmb50" type="place">Wien</rs> seinet<pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00068"/>halber
+                    plagen.</p><p>Ich kenne Niemand, der mit Theatersachen irgendwie in Berührung steht, als Sie
+                    allein.</p><p>Meine Bitte ist also: fordern Sie, lieber Freund und in <rs ref="#pmb50" type="place">Wien</rs> gewiss nicht ohnmächtiger Meister, irgend einen Journalisten auf,
+                    das Frl. <rs ref="#pmb29117" type="person">Prozor</rs> (in der Truppe von <rs ref="#pmb3659" type="person"><hi n="1" rend="underline">Suzanne Desprès</hi></rs>) zu interviewen und für Sie ein wenig Stimmung zu machen.</p><p rend="inline">Dies <anchor type="commentary" xml:id="KL797-1"/>ma corvée<note type="commentary" xml:id="KL797-1h">frz. meine lästige Pflicht.</note>.</p><p>Aber ich mag nicht dies langweilige Zeug abschicken ohne Ihnen aufs Neue zu
                     sagen, wie lieb ich Sie trotz der Entfernung und meines Alters habe, und wie
-                    gerne ich Sie wiedersähe.</p>
-                <p>Ich habe in <placeName key="pmb40306">
-                  <country>Italien</country>
-               </placeName>, <placeName key="pmb166">
-                  <country>Frankreich</country>
-               </placeName> und <placeName key="pmb434">
-                  <country>Dänemark</country>
-               </placeName> in diesem Frühjahr 3 Monate durch Venenentzündung verloren. Ich war
-                    jetzt in <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00068"/>
-                    <placeName key="pmb576">
-                  <country>Schottland</country>
-               </placeName>, weil die Universität <placeName key="pmb1130">St. Andrews</placeName> mich <anchor type="commentary" xml:id="KL797-2"/>à
+                    gerne ich Sie wiedersähe.</p><p>Ich habe in <rs ref="#pmb40306" type="place"><country>Italien</country></rs>, <rs ref="#pmb166" type="place"><country>Frankreich</country></rs> und <rs ref="#pmb434" type="place"><country>Dänemark</country></rs> in diesem Frühjahr 3 Monate durch Venenentzündung verloren. Ich war
+                    jetzt in <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00068"/><rs ref="#pmb576" type="place"><country>Schottland</country></rs>, weil die Universität <rs ref="#pmb1130" type="place">St.&#160;Andrews</rs> mich <anchor type="commentary" xml:id="KL797-2"/>à
                         l’occasion<note type="commentary" xml:id="KL797-2h">frz. bei
                         Gelegenheit.</note> seines 500 jährigen Bestehens zum Ehrendoktor ernannt
-                    hatte. So sah ich allerlei Malerisches in <placeName key="pmb576">
-                  <country>Schottland</country>
-               </placeName>.</p>
-                <p>Ich weiss jedoch, dass mehr Geist in <placeName key="pmb50">Wien</placeName> als in <placeName key="pmb1129">Edinburgh</placeName> ist, und Sie sind mir der eigentliche Vertreter dieses Geistes.</p>
-                <closer>Ihr in alter Freundschaft ergebener<lb/>
-                    <signed>Georg Brandes</signed>
-                </closer>
-                <postscript>
-                    <p>Ich habe leider Ihre Adresse vergessen, was den Brief verspäten wird</p>
-                </postscript>
-            </div>
-        </body>
+                    hatte. So sah ich allerlei Malerisches in <rs ref="#pmb576" type="place"><country>Schottland</country></rs>.</p><p>Ich weiss jedoch, dass mehr Geist in <rs ref="#pmb50" type="place">Wien</rs> als in <rs ref="#pmb1129" type="place">Edinburgh</rs> ist, und Sie sind mir der eigentliche Vertreter dieses Geistes.</p><closer>Ihr in alter Freundschaft ergebener<lb/><signed>Georg Brandes</signed></closer><postscript><p>Ich habe leider Ihre Adresse vergessen, was den Brief verspäten wird</p></postscript></div></body>
     </text>
 </TEI>

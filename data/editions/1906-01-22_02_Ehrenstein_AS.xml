@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1906-01-22_02_Ehrenstein_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1906-01-22_02_Ehrenstein_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Charlotte Ehrenstein an Arthur Schnitzler, [nach dem
-                    21.? 1. 1906]</title>
-                <author key="pmb15716">Ehrenstein, Charlotte</author>
+                    21.?&#160;1.&#160;1906]</title>
+                <author ref="#pmb15716">Ehrenstein, Charlotte</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -52,7 +56,7 @@
                                 <idno>A:Schnitzler, HS.NZ85.1.2837,3</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S.</p>
+                                <p>eh.&#160;Brief, 1&#160;Bl., 3 S.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -64,14 +68,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb15716">Ehrenstein, Charlotte</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date notBefore="1906-01-21" notAfter="1906-01-28" when="1906-01-22" n="02">[nach dem 21.? 1. 1906]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb15716">Ehrenstein, Charlotte</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date notBefore="1906-01-21"
+                     notAfter="1906-01-28"
+                     when="1906-01-22"
+                     n="02">[nach dem 21.?&#160;1.&#160;1906]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             
          </correspDesc>
@@ -81,38 +88,20 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p>
-                  <pb facs=""/>
-                  <hi rend="latintype">Sr. Hochwohlgeb. Herrn Dr. Arthur
-                            Schnitzler</hi>.</p>
-                    <salute rend="center">Sehr geehrter Herr Doctor!</salute>
-                </opener>
-                <p>Von Ihrer gütigen Erlaubnis Gebrauch machend, geſtatte ich mir über den Zuſtand
-                    meines l. <persName key="pmb11230">Albert</persName> zu berichten. Am <anchor type="commentary" xml:id="KL2376-1"/>
-               <date>Samstag</date>
-               <note type="commentary" xml:id="KL2376-1h">Obzwar undatiert, dürfte dieses
+        <body><div type="writingSession" n="1"><opener><p><pb facs=""/><hi rend="latintype">Sr. Hochwohlgeb. Herrn Dr. Arthur
+                            Schnitzler</hi>.</p><salute rend="center">Sehr geehrter Herr Doctor!</salute></opener><p>Von Ihrer gütigen Erlaubnis Gebrauch machend, geſtatte ich mir über den Zuſtand
+                    meines l. <rs ref="#pmb11230" type="person">Albert</rs> zu berichten. Am <anchor type="commentary" xml:id="KL2376-1"/><date>Samstag</date><note type="commentary" xml:id="KL2376-1h">Obzwar undatiert, dürfte dieses
                         Korrespondenzstück durch die inhaltliche Übereinstimmung mit dem Brief von
-                            <persName key="pmb29150">Adolf Treibl</persName> vom
-                            <date>29. 1. 1906</date> (<ptr target="L042377"/>) am
-                        gleichen Tag geschrieben sein.</note> war Dr. <persName key="pmb8305">Kornfeld</persName> nochmals hier und ſah, daſs <persName key="pmb11230">Albert</persName> ſich ziemlich beruhigte, daher entſchloſs er ſich ihn in
+                            <rs ref="#pmb29150" type="person">Adolf Treibl</rs> vom
+                            <date>29.&#160;1.&#160;1906</date> (<ptr target="L042377"/>) am
+                        gleichen Tag geschrieben sein.</note> war Dr. <rs ref="#pmb8305" type="person">Kornfeld</rs> nochmals hier und ſah, daſs <rs ref="#pmb11230" type="person">Albert</rs> ſich ziemlich beruhigte, daher entſchloſs er ſich ihn in
                     häuſlicher Pflege zu laſſen, womit auch mein l. Patient ganz einverſtanden iſt.
-                    Die Beſſerung macht nun, wie H. Dr. <persName key="pmb8305">Kornfeld</persName> ſagt, und auch ich bemerken kann, befriedigende
-                    Fortſchritte <pb/> und ſind nun mein l. <rs type="person" key="pmb15712">Mann</rs> und ich auch beruhigter.</p>
-                <p>Und nun geſtatten Sie ſehr geehrter Herr Doctor mir für die vielen Beweiſe von
-                    Hochherzigkeit, Güte u. Liebenswürdigkeit, welche Sie meinem l. <persName key="pmb11230">Albert</persName>, meinem l. <rs key="pmb15712" type="person">Mann</rs> u. mir erwieſen recht herzlichſt zu danken, u. mir zu verzeihen,
+                    Die Beſſerung macht nun, wie H. Dr. <rs ref="#pmb8305" type="person">Kornfeld</rs> ſagt, und auch ich bemerken kann, befriedigende
+                    Fortſchritte <pb/> und ſind nun mein l. <rs type="person" ref="#pmb15712" subtype="implied">Mann</rs> und ich auch beruhigter.</p><p>Und nun geſtatten Sie ſehr geehrter Herr Doctor mir für die vielen Beweiſe von
+                    Hochherzigkeit, Güte u. Liebenswürdigkeit, welche Sie meinem l. <rs ref="#pmb11230" type="person">Albert</rs>, meinem l. <rs ref="#pmb15712" type="person" subtype="implied">Mann</rs> u. mir erwieſen recht herzlichſt zu danken, u. mir zu verzeihen,
                     daſs ich durch dieſen traurigen Zwiſchenfall, dieſe ſo ſehr in Anſpruch
-                    nahm.</p>
-                <p>
-               <pb facs=""/>Nochmals Sie ſehr geehrter Herr Doctor unſerer ſteten Dankbarkeit
-                    verſichernd, Ihre verehrte Frau <rs key="pmb2173" type="person">Gemahlin</rs> um
-                    Verzeihung und Nachſicht bittend bin ich Ihre Sie verehrende</p>
-                <closer>
-               <signed>Charlotte Ehrenſtein</signed>
-            </closer>
-            </div>
-        </body>
+                    nahm.</p><p><pb facs=""/>Nochmals Sie ſehr geehrter Herr Doctor unſerer ſteten Dankbarkeit
+                    verſichernd, Ihre verehrte Frau <rs ref="#pmb2173" type="person" subtype="implied">Gemahlin</rs> um
+                    Verzeihung und Nachſicht bittend bin ich Ihre Sie verehrende</p><closer><signed>Charlotte Ehrenſtein</signed></closer></div></body>
     </text>
 </TEI>

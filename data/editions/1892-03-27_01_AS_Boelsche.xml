@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-03-27_01_AS_Boelsche">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-03-27_01_AS_Boelsche">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Wilhelm Bölsche, 27. 3. 1892</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Wilhelm Bölsche, 27.&#160;3.&#160;1892</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Böl.Pis 1763</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Von Bölsche als
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte. Von Bölsche als
                                             »<quote>Erl<supplied>edigt</supplied>
                                     </quote>« gezeichnet.</p>
                             </physDesc>
@@ -61,7 +65,7 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb11061">Bölsche, Wilhelm</author>
+                            <author ref="#pmb11061">Bölsche, Wilhelm</author>
                             <title level="m">Briefwechsel. Mit Autoren der Freien Bühne</title>
                             <editor>Hg. Gerd-Hermann Susen</editor>
                             <imprint>
@@ -84,18 +88,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1892-03-27" n="01">27. 3. 1892</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1892-03-27" n="01">27.&#160;3.&#160;1892</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11061">Bölsche, Wilhelm</persName>
-                    <placeName key="pmb168">Berlin</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1892-03-24_01">Bölsche an Schnitzler, 24. 3. 1892</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-04-20_01">Schnitzler an Bölsche, 20. 4. 1892</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1892-03-24_01">Bölsche an Schnitzler, 24.&#160;3.&#160;1892</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-04-20_01">Schnitzler an Bölsche, 20.&#160;4.&#160;1892</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -111,39 +115,16 @@
         <!-- $$$$ Dateinamen müssen noch ergänzt werden! -->
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline>
-                        <seg rend="left">
-                            <pb facs="Böl.Pis 1763-1"/>
-                            <placeName key="pmb542">
-                        <hi rend="latintype">Wien I Giselastraße 11</hi>
-                     </placeName>.</seg>
-                        <seg rend="right">
-                            <date>27. 3. 92</date>.</seg>
-                    </dateline>
-                    <salute>Sehr geehrter Herr,</salute>
-                </opener>
-                <p>beſten Dank für Ihre freundliche Antwort. Und nun wieder eine Frage, die aber
+        <body><div type="writingSession" n="1"><opener><dateline><seg rend="left"><pb facs="Böl.Pis 1763-1"/><rs ref="#pmb542" type="place"><hi rend="latintype">Wien I Giselastraße 11</hi></rs>.</seg><seg rend="right"><date>27.&#160;3.&#160;92</date>.</seg></dateline><salute>Sehr geehrter Herr,</salute></opener><p>beſten Dank für Ihre freundliche Antwort. Und nun wieder eine Frage, die aber
                     ohne jede Mühe in Kürze mit einem Ja oder Nein zu beantworten iſt. Ich möchte
-                    Ihnen gerne eine kleine <rs type="work" key="pmb30169">Geſchichte</rs> ſtatt der
-                        <workName key="pmb31965">Elixire</workName> ſchicken, die Ihnen nicht zu
-                    gefallen ſcheinen, <add place="inline">eine <rs type="work" key="pmb30169">Geſchichte</rs>
-               </add>, die wohl auch beſſer in den Rahmen Ihres <rs type="work" key="pmb36166">Blattes</rs> paſſen dürfte. Nur läge mir aber
+                    Ihnen gerne eine kleine <rs type="work" ref="#pmb30169" subtype="implied">Geſchichte</rs> ſtatt der
+                        <rs ref="#pmb31965" type="work">Elixire</rs> ſchicken, die Ihnen nicht zu
+                    gefallen ſcheinen, <add place="inline">eine <rs type="work" ref="#pmb30169" subtype="implied">Geſchichte</rs></add>, die wohl auch beſſer in den Rahmen Ihres <rs type="work" ref="#pmb36166" subtype="implied">Blattes</rs> paſſen dürfte. Nur läge mir aber
                     ſehr viel daran, daß ſie ſchon im <hi n="1" rend="underline">Maiheft</hi> der
-                        <workName key="pmb36149">Freien Bühne</workName>
-                    <space unit="chars" quantity="1"/>
-                    <pb facs="Böl.Pis 1763-2"/>erſchiene. (Sie faſſt im ganzen 3–4 Seiten.) Wäre
-                    dies – im Fall natürlich, daß Ihnen die kleine <rs type="work" key="pmb30169">Arbeit</rs> ſonſt convenirt – möglich, ſo theilen Sie mir das freundlichſt
+                        <rs ref="#pmb36149" type="work">Freien Bühne</rs><space unit="chars" quantity="1"/><pb facs="Böl.Pis 1763-2"/>erſchiene. (Sie faſſt im ganzen 3–4 Seiten.) Wäre
+                    dies – im Fall natürlich, daß Ihnen die kleine <rs type="work" ref="#pmb30169" subtype="implied">Arbeit</rs> ſonſt convenirt – möglich, ſo theilen Sie mir das freundlichſt
                     durch ein <hi rend="underline" n="1">Ja</hi> mit. 2 Tage drauf ſind Sie im
-                    Beſitz des <rs type="work" key="pmb30169">Manuscriptes</rs>, das ja in einer
-                    viertel Stunde geleſen iſt.</p>
-                <p>Für die Erfüllung meines Erſuchens wäre ich Ihnen herzlichſt verbunden.</p>
-                <closer>Mit aufrichtiger Hochachtung<lb/>Ihr ergebner<signed>
-                        <hi rend="latintype">Dr</hi>ArthurSchnitzler</signed>
-                </closer>
-            </div>
-        </body>
+                    Beſitz des <rs type="work" ref="#pmb30169" subtype="implied">Manuscriptes</rs>, das ja in einer
+                    viertel Stunde geleſen iſt.</p><p>Für die Erfüllung meines Erſuchens wäre ich Ihnen herzlichſt verbunden.</p><closer>Mit aufrichtiger Hochachtung<lb/>Ihr ergebner<signed><hi rend="latintype">Dr</hi>ArthurSchnitzler</signed></closer></div></body>
     </text>
 </TEI>

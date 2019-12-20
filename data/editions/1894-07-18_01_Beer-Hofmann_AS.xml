@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-07-18_02_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-07-18_02_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, [18. 7. 1894]</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, [18.&#160;7.&#160;1894]</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,12 +52,12 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Briefkarte, blauer Buntstift; Lateinschrift. Von Schnitzler mit
                            Bleistift datiert: »<quote>
-                              <placeName key="pmb213">Ischl</placeName>
+                              <rs ref="#pmb213" type="place">Ischl</rs>
                               <space unit="chars" quantity="1"/>
                               <date>18/7 94</date>
                            </quote>« und nummeriert:
@@ -70,18 +74,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <date when="1894-07-18" n="01">[18. 7. 1894]</date>
-               <placeName key="pmb213">Bad Ischl</placeName>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <date when="1894-07-18" n="01">[18.&#160;7.&#160;1894]</date>
+               <placeName ref="#pmb213">Bad Ischl</placeName>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb213">Bad Ischl</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb213">Bad Ischl</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-07-16_03">Schnitzler an Beer-Hofmann, [16. 7. 1894?]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-07-18_02">Beer-Hofmann an Schnitzler, [18. 7. 1894]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-07-16_03">Schnitzler an Beer-Hofmann, [16.&#160;7.&#160;1894?]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-07-18_02">Beer-Hofmann an Schnitzler, [18.&#160;7.&#160;1894]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -96,18 +100,9 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00082.jpg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p>
-               <salute>
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00081"/>Lieber! </salute>Bin
-               Abends im Theater, dann zu Hause. Wegen <placeName key="pmb30">Salzburg</placeName>
+      <body><div type="writingSession" n="1"><p><salute><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00081"/>Lieber! </salute>Bin
+               Abends im Theater, dann zu Hause. Wegen <rs ref="#pmb30" type="place">Salzburg</rs>
                kann ich nicht zusagen da ich <hi n="1" rend="underline">IHR</hi>etwegen <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00082"/>noch keine Nachricht habe.
-               Gesellschaftsmensch Sie!</p>
-            <closer>Herzlich<lb/>
-               <signed>Richard</signed>
-            </closer>
-         </div>
-      </body>
+               Gesellschaftsmensch Sie!</p><closer>Herzlich<lb/><signed>Richard</signed></closer></div></body>
    </text>
 </TEI>

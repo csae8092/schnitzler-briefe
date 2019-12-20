@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1906-02-19_01_Andreas-Salome_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1906-02-19_01_Andreas-Salome_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Lou Andreas-Salomé an Arthur Schnitzler, 19. 2. 1906</title>
-                <author key="pmb10762">Andreas-Salomé, Lou</author>
+                <title level="a">Lou Andreas-Salomé an Arthur Schnitzler, 19.&#160;2.&#160;1906</title>
+                <author ref="#pmb10762">Andreas-Salomé, Lou</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,16 +52,16 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 3</idno>
+                                <idno>Schnitzler, B&#160;3</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Postkarte, schwarze Tinte. Von Schnitzler mit Bleistift
                                     datiert: »<quote>
-                                        <date>19/2 06</date>
+                                        <date>19/2&#160;06</date>
                                     </quote>«. Von unbekannter Hand mit Bleistift nummeriert:
                                     »<quote>20</quote>«. Eine Unterstreichung mit rotem Buntstift.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb168">Berlin W 50</placeName>
+                                    <rs ref="#pmb168" type="place">Berlin W 50</rs>
                                     <date>19.2.06</date>
                                     <time>9 10 N</time>
                                 </stamp>
@@ -76,18 +80,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb10762">Andreas-Salomé, Lou</persName>
-                    <placeName key="pmb168">Berlin</placeName>
-                    <date when="1906-02-19" n="01">19. 2. 1906</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
+                    <date when="1906-02-19" n="01">19.&#160;2.&#160;1906</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb168">Berlin</placeName>
-                    <date when="1906-02-20">20. 2. 1906</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
+                    <date when="1906-02-20">20.&#160;2.&#160;1906</date>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1901-04-22_01">Andreas-Salomé an Schnitzler, [22. 4. 1901]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1901-04-22_01">Andreas-Salomé an Schnitzler, [22.&#160;4.&#160;1901]</ptr>
                <ptr type="next" subtype="toAuthor" target="1908-06_01">Andreas-Salomé an Schnitzler, Juni 1908</ptr>
             </correspContext>
          </correspDesc>
@@ -104,43 +108,14 @@
         <graphic url="MS-SCHNITZLER-B-00003-000-00044"/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="MS-SCHNITZLER-B-00003-000-00043"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">Berlin C.</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="pmb399">Hôtel Continental</placeName>.</hi>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <p>
-                    <pb facs="MS-SCHNITZLER-B-00003-000-00044"/>
-                    <salute>Lieber Doktor <hi rend="latintype">Schnitzler</hi>, </salute>darf ich
+        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00003-000-00043"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><hi rend="latintype">Berlin C.</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb399" type="place">Hôtel Continental</rs>.</hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00003-000-00044"/><salute>Lieber Doktor <hi rend="latintype">Schnitzler</hi>, </salute>darf ich
                     Sie um die Erlaubniß bitten, am <anchor type="commentary" xml:id="KL739-1"/>Freitag<note type="commentary" xml:id="KL739-1h">Die Generalprobe von
-                            <workName key="pmb29905">Der Ruf des Lebens</workName> am <placeName key="pmb3">Deutschen Theater in Berlin</placeName> fand am Freitag, den
-                            <date>23. 2. 1906</date>, statt, die Uraufführung am Folgetag, beide in
-                        Anwesenheit <persName key="pmb2121">Schnitzlers</persName>.</note> der <rs type="work" key="pmb29905">Generalprobe</rs> beiwohnen zu dürfen? Wenn Sie
-                    »Ja« dazu ſagen, machen Sie mir eine große Freude! Ich glaube, <persName key="pmb10986">
-                        <hi rend="latintype">Brahm</hi>
-                    </persName> würde nichts dagegen haben weil ich ja auch bei <persName key="pmb11617">Hauptmann</persName>’ſchen Generalproben öfters (auch letztes
-                        <anchor type="commentary" xml:id="KL739-2"/>
-                    <rs type="work" key="pmb33043">Mal</rs>
-                    <note type="commentary" xml:id="KL739-2h">
-                        <workName key="pmb33043">Und Pippa tanzt. Ein Glashüttenmärchen</workName>,
-                        hatte am <date>19. 1. 1906</date> Uraufführung am <placeName key="pmb3">Deutschen Theater</placeName>.</note>) zugegen war. Wollen Sie mir's
-                    ſchreiben in die <placeName key="pmb1103">
-                  <hi rend="latintype">Marburger</hi>ſtr. 4</placeName>, <placeName key="pmb1104">Hospiz des Weſtens</placeName>? </p>
-                <closer>In alter Verehrung Ihre<lb/>
-                    <signed>Frau Lou.</signed>
-                </closer>
-            </div>
-        </body>
+                            <rs ref="#pmb29905" type="work">Der Ruf des Lebens</rs> am <rs ref="#pmb3" type="place">Deutschen Theater in Berlin</rs> fand am Freitag, den
+                            <date>23.&#160;2.&#160;1906</date>, statt, die Uraufführung am Folgetag, beide in
+                        Anwesenheit <rs ref="#pmb2121" type="person">Schnitzlers</rs>.</note> der <rs type="work" ref="#pmb29905" subtype="implied">Generalprobe</rs> beiwohnen zu dürfen? Wenn Sie
+                    »Ja« dazu ſagen, machen Sie mir eine große Freude! Ich glaube, <rs ref="#pmb10986" type="person"><hi rend="latintype">Brahm</hi></rs> würde nichts dagegen haben weil ich ja auch bei <rs ref="#pmb11617" type="person">Hauptmann</rs>’ſchen Generalproben öfters (auch letztes
+                        <anchor type="commentary" xml:id="KL739-2"/><rs type="work" ref="#pmb33043" subtype="implied">Mal</rs><note type="commentary" xml:id="KL739-2h"><rs ref="#pmb33043" type="work">Und Pippa tanzt. Ein Glashüttenmärchen</rs>,
+                        hatte am <date>19.&#160;1.&#160;1906</date> Uraufführung am <rs ref="#pmb3" type="place">Deutschen Theater</rs>.</note>) zugegen war. Wollen Sie mir's
+                    ſchreiben in die <rs ref="#pmb1103" type="place"><hi rend="latintype">Marburger</hi>ſtr.&#160;4</rs>, <rs ref="#pmb1104" type="place">Hospiz des Weſtens</rs>? </p><closer>In alter Verehrung Ihre<lb/><signed>Frau Lou.</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1903-01-16_01_AS-OS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1903-01-16_01_AS-OS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler und Olga Gussmann an Richard Beer-Hofmann,
-               16. 1. 1903</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
-            <author key="pmb2173">Gussmann, Olga</author>
+               16.&#160;1.&#160;1903</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
+            <author ref="#pmb2173">Gussmann, Olga</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -53,7 +57,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <persName key="pmb2173">Gussmann, Olga</persName>
-               <placeName key="pmb19527">Hallein</placeName>
-               <date when="1903-01-16" n="01">16. 1. 1903</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <persName ref="#pmb2173">Gussmann, Olga</persName>
+               <placeName ref="#pmb19527">Hallein</placeName>
+               <date when="1903-01-16" n="01">16.&#160;1.&#160;1903</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1903-01-14_01">Schnitzler an Beer-Hofmann, 14. 1. 1903</ptr>
-               <ptr type="next" subtype="toAuthor" target="1903-01-18_01">Beer-Hofmann an Schnitzler, 18. 1. 1903</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1903-01-14_01">Schnitzler an Beer-Hofmann, 14.&#160;1.&#160;1903</ptr>
+               <ptr type="next" subtype="toAuthor" target="1903-01-18_01">Beer-Hofmann an Schnitzler, 18.&#160;1.&#160;1903</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,24 +105,7 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <supplied>
-                     <placeName key="pmb19527">Hallein</placeName>,</supplied>
-                  <date when="1903-01-16">16. 1. 903</date>.</dateline>
-            </opener>
-            <p>In Erinnerung an <persName key="pmb11324">Fischers</persName> List und Glück und jenen
-               schönen Wintertag vor fünf Jahren.</p>
-            <closer>Herzl. Grüße <signed>A.</signed>
-            </closer>
-         </div>
-         <div type="writingSession" n="2">
-            <p>
-               <handShift scribe="pmb2173"/>Freundlichen Gruss! <signed>OG.</signed>
-            </p>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><supplied><rs ref="#pmb19527" type="place">Hallein</rs>,</supplied><date when="1903-01-16">16.&#160;1.&#160;903</date>.</dateline></opener><p>In Erinnerung an <rs ref="#pmb11324" type="person">Fischers</rs> List und Glück und jenen
+               schönen Wintertag vor fünf Jahren.</p><closer>Herzl. Grüße <signed>A.</signed></closer></div><div type="writingSession" n="2"><p><handShift scribe="pmb2173"/>Freundlichen Gruss! <signed>OG.</signed></p></div></body>
    </text>
 </TEI>

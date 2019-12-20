@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1907-10-10_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1907-10-10_01_AS_Beer-Hofmann">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 10. 10. 1907</title> 
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 10.&#160;10.&#160;1907</title> 
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                
                     <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 8</idno>
+                                <idno>Schnitzler, B&#160;8</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., Lateinschrift. XXXX</p>
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., Lateinschrift. XXXX</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -59,8 +63,8 @@
                 <listBibl>
                <biblStruct corresp="ASBH"> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -73,8 +77,8 @@
                </biblStruct>
                <biblStruct>                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -92,17 +96,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1907-10-10" n="01">10. 10. 1907</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1907-10-10" n="01">10.&#160;10.&#160;1907</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1907-09-22_01">Beer-Hofmann an Schnitzler, [nach dem 22. 9. 1907]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1907-10-10_02">Schnitzler an Beer-Hofmann, 10. 10. 1907</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1907-09-22_01">Beer-Hofmann an Schnitzler, [nach dem 22.&#160;9.&#160;1907]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1907-10-10_02">Schnitzler an Beer-Hofmann, 10.&#160;10.&#160;1907</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -112,28 +116,8 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-           
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <date>10. X. 907</date>
-               </dateline>
-                    <salute>Lieber Richard,</salute>
-                </opener>
-                <p>
-               <persName key="pmb10815">Bahr</persName> bittet mich Ihnen sein <rs type="work" key="pmb30021">Stück</rs> zu schicken. Hier ist es. Herzlichst</p>
-                <closer>Ihr<lb/>
-               <signed>A.</signed>
-                    
-                </closer>
-                <postscript>
-               <p>
-                  <persName key="pmb11036">Burckhard</persName> liegt bei <placeName key="pmb89">Loew</placeName>,
-                        mit einer (durch <persName key="pmb2284">Hajek</persName> endlich
-                        gestillten) schweren Nasenblutung. Ich geh jetzt hin</p>
-            </postscript>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>10. X.&#160;907</date></dateline><salute>Lieber Richard,</salute></opener><p><rs ref="#pmb10815" type="person">Bahr</rs> bittet mich Ihnen sein <rs type="work" ref="#pmb30021" subtype="implied">Stück</rs> zu schicken. Hier ist es. Herzlichst</p><closer>Ihr<lb/><signed>A.</signed></closer><postscript><p><rs ref="#pmb11036" type="person">Burckhard</rs> liegt bei <rs ref="#pmb89" type="place">Loew</rs>,
+                        mit einer (durch <rs ref="#pmb2284" type="person">Hajek</rs> endlich
+                        gestillten) schweren Nasenblutung. Ich geh jetzt hin</p></postscript></div></body>
     </text>
 </TEI>

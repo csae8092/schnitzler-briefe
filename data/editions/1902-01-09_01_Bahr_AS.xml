@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1902-01-09_01_Bahr_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1902-01-09_01_Bahr_AS">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 9. 1. 1902</title>
-            <author key="pmb10815">Bahr, Hermann</author>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 9.&#160;1.&#160;1902</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,10 +53,10 @@
                         <country>GB</country>            
                         <settlement>Cambridge</settlement>            
                         <repository>University Library</repository>            
-                        <idno>Schnitzler, B 5b</idno>
+                        <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., von Schnitzler mit Jahreszahl datiert: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 2&#160;S., von Schnitzler mit Jahreszahl datiert: »<quote>
                               <date>902</date>
                            </quote>«.</p>
                      </physDesc>
@@ -62,8 +66,8 @@
             <listBibl>                
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1902-01-09" n="01">9. 1. 1902</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1902-01-09" n="01">9.&#160;1.&#160;1902</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1902-01-03_01">Schnitzler an Bahr, 3. 1. 1902</ptr>
-               <ptr type="next" subtype="toAuthor" target="1902-01-25_01">Schnitzler an Bahr, 25. 1. 1902</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1902-01-03_01">Schnitzler an Bahr, 3.&#160;1.&#160;1902</ptr>
+               <ptr type="next" subtype="toAuthor" target="1902-01-25_01">Schnitzler an Bahr, 25.&#160;1.&#160;1902</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -108,49 +112,14 @@
       <graphic url="MS-B-00005-B-000-00143"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <p>
-                  <seg rend="left">
-                     <pb facs=""/>
-                     <hi rend="pre-print">
-                        <orgName key="pmb29414">Redaktion des Neuen Wiener Tagblatt</orgName>
-                     </hi>
-                  </seg>
-                  <seg rend="right">
-                     <date>9/I</date>
-                  </seg>
-               </p>
-               <p>
-                  <hi rend="pre-print">
-                     <hi rend="antiqua">
-                        <placeName key="pmb683">Wien, I., Rothenturmstrasse, Steyrerhof</placeName>.</hi>
-                  </hi>
-               </p>
-               <p>
-                  <hi rend="pre-print">Telegramm-Adresse: <orgName key="pmb29414">Tagblatt</orgName>, <placeName key="pmb683">Steyrerhof, Wien</placeName>. – Telephon Nr. 384. Staats-Telephon Nr. 36.</hi>
-               </p>
-               <salute rend="center">Lieber Arthur!</salute>
-            </opener>
-            <p>Eben erfahre ich von meinem Sendboten, der bei
-         <persName key="pmb12671">Schlenther</persName> war</p>
-            <p>1) Schnitzler bekommt den
-        <orgName key="pmb29677">Grillparzerpreis</orgName>
-               <space unit="chars" quantity="1"/>
-               <hi rend="underline" n="1">nicht</hi>;</p>
-            <p>2) <persName key="pmb12671">Schlenther</persName> bezeichnet es als absolut falsch, wenn man meine,
-        Schnitzler sei durch die <workName key="pmb29853">Gustl</workName>-Affaire
-        <placeName key="pmb14">burgtheaterunfähig</placeName> geworden; diese Auffassung bestehe weder in der Intendanz noch bei
-        ihm selbst; die »<workName key="pmb29863">Lebendigen Stunden</workName>« kenne er
-        leider nicht.</p>
-            <p>Ich <anchor type="commentary" xml:id="KL245-1"/>fahre in einer Stunde ab<note type="commentary" xml:id="KL245-1h">Zur Premiere von <workName key="pmb29881">Der
-                Krampus</workName> in <placeName key="pmb506">Hamburg</placeName>.</note>. Überleg Dir, bis <pb facs="MS-B-00005-B-000-00143"/>ich wiederkomme, ob ich nicht 
-         doch mit den <rs type="work" key="pmb29865 pmb29869 pmb29957">Stücken</rs> resolut hingehen darf.</p>
-            <closer>Herzlichst<lb/>
-               <signed>Hermann</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print"><rs ref="#pmb29414" type="organisation">Redaktion des Neuen Wiener Tagblatt</rs></hi></seg><seg rend="right"><date>9/I</date></seg></p><p><hi rend="pre-print"><hi rend="antiqua"><rs ref="#pmb683" type="place">Wien, I., Rothenturmstrasse, Steyrerhof</rs>.</hi></hi></p><p><hi rend="pre-print">Telegramm-Adresse: <rs ref="#pmb29414" type="organisation">Tagblatt</rs>, <rs ref="#pmb683" type="place">Steyrerhof, Wien</rs>. – Telephon Nr.&#160;384. Staats-Telephon Nr.&#160;36.</hi></p><salute rend="center">Lieber Arthur!</salute></opener><p>Eben erfahre ich von meinem Sendboten, der bei
+         <rs ref="#pmb12671" type="person">Schlenther</rs> war</p><p>1) Schnitzler bekommt den
+        <rs ref="#pmb29677" type="organisation">Grillparzerpreis</rs><space unit="chars" quantity="1"/><hi rend="underline" n="1">nicht</hi>;</p><p>2) <rs ref="#pmb12671" type="person">Schlenther</rs> bezeichnet es als absolut falsch, wenn man meine,
+        Schnitzler sei durch die <rs ref="#pmb29853" type="work">Gustl</rs>-Affaire
+        <rs ref="#pmb14" type="place">burgtheaterunfähig</rs> geworden; diese Auffassung bestehe weder in der Intendanz noch bei
+        ihm selbst; die »<rs ref="#pmb29863" type="work">Lebendigen Stunden</rs>« kenne er
+        leider nicht.</p><p>Ich <anchor type="commentary" xml:id="KL245-1"/>fahre in einer Stunde ab<note type="commentary" xml:id="KL245-1h">Zur Premiere von <rs ref="#pmb29881" type="work">Der
+                Krampus</rs> in <rs ref="#pmb506" type="place">Hamburg</rs>.</note>. Überleg Dir, bis <pb facs="MS-B-00005-B-000-00143"/>ich wiederkomme, ob ich nicht 
+         doch mit den <rs type="work" ref="#pmb29865 pmb29869 pmb29957" subtype="implied">Stücken</rs> resolut hingehen darf.</p><closer>Herzlichst<lb/><signed>Hermann</signed></closer></div></body>
   </text>
 </TEI>

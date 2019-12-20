@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1903-09-27_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1903-09-27_01_Hofmannsthal_AS">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 27. 9. [1903]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 27.&#160;9. [1903]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                
                     <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,10 +52,10 @@
                                 <country>UK</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43b/1</idno>
+                                <idno>Schnitzler, B&#160;43b/1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S.; Jahreszahl »<quote>
+                                <p>eh. Brief, 1&#160;Bl., 3&#160;S.; Jahreszahl »<quote>
                               <date>903</date>
                            </quote>« von Schnitzler ergänzt.</p>
                             </physDesc>
@@ -62,8 +65,8 @@
                 <listBibl>
                <biblStruct corresp="HvHAS"> 
                   <monogr> 
-                     <author key="pmb11740">Hofmannsthal, Hugo</author> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author> 
+                     <author ref="#pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -76,8 +79,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -95,17 +98,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <date when="1903-09-27" n="01">27. 9. [1903]</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <date when="1903-09-27" n="01">27.&#160;9. [1903]</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1903-09-12_01">Hofmannsthal an Schnitzler, 12. 9. 1903</ptr>
-               <ptr type="next" subtype="toAuthor" target="1903-09-29_01">Schnitzler an Hofmannsthal, 29. 9. 1903</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1903-09-12_01">Hofmannsthal an Schnitzler, 12.&#160;9.&#160;1903</ptr>
+               <ptr type="next" subtype="toAuthor" target="1903-09-29_01">Schnitzler an Hofmannsthal, 29.&#160;9.&#160;1903</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -116,22 +119,9 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                <dateline rend="right">
-                  <date>27. IX.</date>
-               </dateline>
-                </opener>
-                <p>
-               <anchor xml:id="OL444-1">
-                  <salute>lieber, </salute>ich vergesse nun schon 6mal, <del rend="strikethrough">daß</del> Sie zu erinnern, daß Sie mir die
-                    <anchor type="commentary" xml:id="KL444-1"/>
-                  <rs type="work" key="pmb30637">Photographie</rs>
-                  <note type="commentary" xml:id="KL444-1h">
-                     <ptr target="L041060"/>.</note> (die gleiche wie der <persName key="pmb10815">Bahr</persName> hat) versprochen
-                    haben.</anchor>
-               <space unit="chars" quantity="15"/> Sehr schön war es gestern abend, in den lieben Zimmern, das Kind, das
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>27.&#160;IX.</date></dateline></opener><p><anchor xml:id="OL444-1"><salute>lieber, </salute>ich vergesse nun schon 6mal, <del rend="strikethrough">daß</del> Sie zu erinnern, daß Sie mir die
+                    <anchor type="commentary" xml:id="KL444-1"/><rs type="work" ref="#pmb30637" subtype="implied">Photographie</rs><note type="commentary" xml:id="KL444-1h"><ptr target="L041060"/>.</note> (die gleiche wie der <rs ref="#pmb10815" type="person">Bahr</rs> hat) versprochen
+                    haben.</anchor><space unit="chars" quantity="15"/> Sehr schön war es gestern abend, in den lieben Zimmern, das Kind, das
                     schöne Singen, und alles zusammen. Sie können sich vielleicht kaum vorstellen,
                     wie sehr einem ein paar Lieder von einer schönen jungen Stimme freuen, wenn <pb/>man
                     immerfort das Gefühl hat, zu wenig Musik zu hören, wie wir.<space unit="chars" quantity="15"/> Aber spielen darf
@@ -139,12 +129,6 @@
                     Augenblick selbst, und so wunderbar es ist, die Reflexe eines Liedes auf der
                     Stirn und in den Augen eines Singenden mehr noch zu fühlen als zu sehen, so sehr<pb/>
                     verletzt es wirklich die Bescheidenheit der Natur und der Kunst zugleich, wenn
-                    man beim Singen agiert.</p>
-                <p>Auf Wiedersehen Samstag.</p>
-                <closer>Von Herzen<lb/>
-               <signed>Hugo.</signed>
-                </closer>
-            </div>
-        </body>
+                    man beim Singen agiert.</p><p>Auf Wiedersehen Samstag.</p><closer>Von Herzen<lb/><signed>Hugo.</signed></closer></div></body>
     </text>
 </TEI>

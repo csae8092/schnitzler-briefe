@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1908-10-20_02_AS_Ehrenstein">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1908-10-20_02_AS_Ehrenstein">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Albert Ehrenstein, 20. 10. 1908</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Albert Ehrenstein, 20.&#160;10.&#160;1908</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                             <country>IL</country>           
                         <settlement>Jerusalem</settlement>
                             <repository>The National Library of Israel</repository>
-                            <idno>ARC. Ms. Var. 306 1 118</idno>
+                            <idno>ARC. Ms.&#160;Var. 306&#160;1&#160;118</idno>
                         </msIdentifier>
                         <physDesc>
                             <p>eh. Briefkarte.</p>
@@ -63,18 +67,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1908-10-20" n="02">20. 10. 1908</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1908-10-20" n="02">20.&#160;10.&#160;1908</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11230">Ehrenstein, Albert</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11230">Ehrenstein, Albert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1908-10-20_01">Ehrenstein an Schnitzler, 20. 10. 1908</ptr>
-               <ptr type="next" subtype="toAuthor" target="1908-11-09_01">Schnitzler an Ehrenstein, 9. 11. 1908</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1908-10-20_01">Ehrenstein an Schnitzler, 20.&#160;10.&#160;1908</ptr>
+               <ptr type="next" subtype="toAuthor" target="1908-11-09_01">Schnitzler an Ehrenstein, 9.&#160;11.&#160;1908</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -85,37 +89,10 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p>
-                  <seg rend="left">
-                     <pb facs="NLJ0006r.tif"/>
-                     <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
-                  </seg>
-                  <seg rend="right">
-                     <date>20. X. 908</date>
-                  </seg>
-               </p>
-                    <p>
-                  <hi rend="pre-print">
-                     <placeName key="pmb133">Wien XVIII. Spoettelgasse 7</placeName>.</hi>
-               </p>
-                    </opener>
-                <p>
-               <salute>Werther Herr Ehrenſtein, </salute>das <rs type="work" key="pmb33504" cert="low">
-                  <hi rend="latintype">Mcrpt</hi>
-               </rs> iſt wohlverwahrt bei mir. Aber ich war in der letzten Zeit 
+        <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs="NLJ0006r.tif"/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></seg><seg rend="right"><date>20.&#160;X.&#160;908</date></seg></p><p><hi rend="pre-print"><rs ref="#pmb133" type="place">Wien XVIII. Spoettelgasse 7</rs>.</hi></p></opener><p><salute>Werther Herr Ehrenſtein, </salute>das <rs type="work" ref="#pmb33504" cert="low" subtype="implied"><hi rend="latintype">Mcrpt</hi></rs> iſt wohlverwahrt bei mir. Aber ich war in der letzten Zeit 
                     ſo beschäftigt, daſs ich erſt vorgeſtern
                     nun die Skizzen geleſen hab. Ich hoffe <pb facs="NLJ0006v.tif"/>es eilt Ihnen nicht ſehr und Sie geſatten mir,
-                    Ihren freundlichen Besuch erſt in etwa 10–14 Tagen zu erhalten, – zu einer Stunde, die ich Ihnen 
-                    mittheilen werde.</p>
-                <closer>mit beſtem Gruſs Ihr ſehr ergeb<unclear>ener</unclear>
-               <lb/>
-                    <signed>A. S.</signed>
-                    
-                </closer>
-            </div>
-        </body>
+                    Ihren freundlichen Besuch erſt in etwa 10–14 Tagen zu erhalten,&#160;– zu einer Stunde, die ich Ihnen 
+                    mittheilen werde.</p><closer>mit beſtem Gruſs Ihr ſehr ergeb<unclear>ener</unclear><lb/><signed>A.&#160;S.</signed></closer></div></body>
     </text>
 </TEI>

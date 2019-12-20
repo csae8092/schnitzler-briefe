@@ -60,7 +60,7 @@ declare function nlp:custom-tokenizer($input as node(), $profile as xs:string) a
 :)
 
 declare function nlp:custom-tokenize-and-save($input as node(), $profile as xs:string) as xs:string{
-    let $collection-uri := '/db/apps/arthur-schnitzler-briefe/nlp/temp/'
+    let $collection-uri := '/db/apps/schnitzler-briefe/nlp/temp/'
     let $resource-name := util:document-name($input)
     let $tokenized := nlp:custom-tokenizer($input, $profile)
     where $tokenized//httpclient:body/*

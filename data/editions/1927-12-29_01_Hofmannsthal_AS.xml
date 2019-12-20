@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1927-12-29_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1927-12-29_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 29. 12. 1927</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 29.&#160;12.&#160;1927</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,14 +52,14 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief in Lateinschrift, 1 Bl., 2 S. Von Schnitzler
+                                <p>eh. Brief in Lateinschrift, 1&#160;Bl., 2&#160;S. Von Schnitzler
                                     beschriftet »<quote>
                                         <hi rend="latintype">Hugo</hi>
                                     </quote>« und »<quote>
-                                        <rs key="pmb30051" type="work">
+                                        <rs ref="#pmb30051" type="work" subtype="implied">
                                             <hi rend="latintype">Aph</hi>
                                         </rs>
                                     </quote>«. Von unbekannter Hand nummeriert:
@@ -67,8 +71,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -87,18 +91,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1927-12-29" n="01">29. 12. 1927</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1927-12-29" n="01">29.&#160;12.&#160;1927</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1927-02-26_01">Schnitzler an Hofmannsthal, 26. 2. 1927</ptr>
-               <ptr type="next" subtype="toAuthor" target="1928-07-10_01">Hofmannsthal an Schnitzler, 10. 7. 1928</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1927-02-26_01">Schnitzler an Hofmannsthal, 26.&#160;2.&#160;1927</ptr>
+               <ptr type="next" subtype="toAuthor" target="1928-07-10_01">Hofmannsthal an Schnitzler, 10.&#160;7.&#160;1928</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -108,16 +112,7 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline>
-                        <pb facs="gray00371.pdf"/>
-                        <placeName key="pmb173">Rodaun</placeName>. <date>29 XII. 27</date>
-                    </dateline>
-                    <salute rend="inline">mein lieber Arthur,</salute>
-                </opener>
-                <p>nicht leicht hätte mich etwas so bewegen können, wie dieses <workName key="pmb30053">Buch</workName> mit einer Auswahl Ihrer Betrachtungen und
+        <body><div type="writingSession" n="1"><opener><dateline><pb facs="gray00371.pdf"/><rs ref="#pmb173" type="place">Rodaun</rs>. <date>29 XII.&#160;27</date></dateline><salute rend="inline">mein lieber Arthur,</salute></opener><p>nicht leicht hätte mich etwas so bewegen können, wie dieses <rs ref="#pmb30053" type="work">Buch</rs> mit einer Auswahl Ihrer Betrachtungen und
                     Aphorismen. Wenn ich eines Ihrer Stücke oder eine Ihrer unvergleichlichen
                     Erzählungen aufschlage (beides immer mehrmals im Jahr) so bin ich freilich
                     vermöge der Gegenwart dessen, der hinter den Gestalten steht, auch in Ihrer
@@ -125,22 +120,16 @@
                     Es sind nicht die Resultate des Denkens, die bei mir vielfach andere wären, auch
                     nicht einmal die Gegenstände des Denkens (auch in denen tritt die individuelle
                     Verschiedenheit zu Tage, die zwischen uns fast so groß ist wie die
-                    wechselseitige Sympathie), – <pb facs="gray00371.pdf"/>es ist etwas viel
+                    wechselseitige Sympathie),&#160;– <pb facs="gray00371.pdf"/>es ist etwas viel
                     Intensiveres: der Rhythmus Ihres Denkens rührt mich unmittelbar an, und damit
-                    das wahre unauflösliche Geheimnis Ihrer Person – und bewegt mich tief. – Ich
-                    erinnere mich, daß wenige Tage nach dem <anchor type="commentary" xml:id="KL2239-1"/>Tod meiner <persName key="pmb18404">Mutter</persName>
-                    <note type="commentary" xml:id="KL2239-1h">Sie starb am
-                        <date>22. 3. 1904</date>.</note> mich der Anblick <del rend="overwritten">I</del>ihres Kastens tief erschütterte; da lagen in Fächern, nett in
+                    das wahre unauflösliche Geheimnis Ihrer Person – und bewegt mich tief.&#160;– Ich
+                    erinnere mich, daß wenige Tage nach dem <anchor type="commentary" xml:id="KL2239-1"/>Tod meiner <rs ref="#pmb18404" type="person">Mutter</rs><note type="commentary" xml:id="KL2239-1h">Sie starb am
+                        <date>22.&#160;3.&#160;1904</date>.</note> mich der Anblick <del rend="overwritten">I</del>ihres Kastens tief erschütterte; da lagen in Fächern, nett in
                     Seidenpapier gewickelt, Schlüssel, Notizbücher, hundert kleine unansehnliche
                     Gegenstände, alle verknüpft mit den kleinen Bemühungen und Lasten eines
                     weiblichen Lebens, und aus dem allen brach das Gefühl dieses nun abgerissenen
                     Lebens mit einer das Herz zusa<c rendition="#gemination-m"/>endrückenden Gewalt
-                    hervor, ganz anders als etwa aus hinterlassenen Briefen.</p>
-                <p>Ich weiß. Sie haben jetzt den Besuch Ihrer <rs type="person" key="pmb2238">Tochter</rs>. Wenn Sie mich später einmal sehen wollen, schreiben Sie mir
-                    ein Wort.</p>
-                <closer>In Freundschaft<space unit="chars" quantity="7"/>Ihr <signed>Hugo.</signed>
-                </closer>
-            </div>
-        </body>
+                    hervor, ganz anders als etwa aus hinterlassenen Briefen.</p><p>Ich weiß. Sie haben jetzt den Besuch Ihrer <rs type="person" ref="#pmb2238" subtype="implied">Tochter</rs>. Wenn Sie mich später einmal sehen wollen, schreiben Sie mir
+                    ein Wort.</p><closer>In Freundschaft<space unit="chars" quantity="7"/>Ihr <signed>Hugo.</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-11-17_01_Mamroth_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-11-17_01_Mamroth_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Fedor Mamroth an Arthur Schnitzler, 17. 11. 1892</title>
-                <author key="pmb4986">Mamroth, Fedor</author>
+                <title level="a">Fedor Mamroth an Arthur Schnitzler, 17.&#160;11.&#160;1892</title>
+                <author ref="#pmb4986">Mamroth, Fedor</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 68</idno>
+                                <idno>Schnitzler, B&#160;68</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., blaue Tinte. Von Schnitzler mit Bleistift
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., blaue Tinte. Von Schnitzler mit Bleistift
                                     nummeriert: »<quote>3.</quote>«. Eine Unterstreichung mit
                                     rotem Buntstift.</p>
                             </physDesc>
@@ -65,18 +69,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb4986">Mamroth, Fedor</persName>
-                    <placeName key="pmb146">Frankfurt</placeName>
-                    <date when="1892-11-17" n="01">17. 11. 1892</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb4986">Mamroth, Fedor</persName>
+                    <placeName ref="#pmb146">Frankfurt</placeName>
+                    <date when="1892-11-17" n="01">17.&#160;11.&#160;1892</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1891-06-21_01">Mamroth an Schnitzler, 21. 6. 1891</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-03-05_02">Mamroth an Schnitzler, 5. 3. 1893</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1891-06-21_01">Mamroth an Schnitzler, 21.&#160;6.&#160;1891</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-03-05_02">Mamroth an Schnitzler, 5.&#160;3.&#160;1893</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -91,92 +95,30 @@
         <graphic url="MS-SCHNITZLER-B-00068-000-00007"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p>
-                        <pb facs="MS-SCHNITZLER-B-00068-000-00007"/>
-                        <orgName key="pmb29442">
-                            <hi rend="pre-print">
-                                <hi rend="antiqua">Frankfurter Zeitung</hi>
-                            </hi>
-                            <lb/>
-                            <hi rend="antiqua">
-                                <hi rend="pre-print">und</hi>
-                            </hi>
-                            <lb/>
-                            <hi rend="pre-print">
-                                <hi rend="antiqua">Handelsblatt.</hi>
-                            </hi>
-                        </orgName>
-                    </p>
-                    <dateline>
-                        <seg rend="left">
-                            <hi rend="pre-print">
-                                <hi rend="antiqua">Redaction.<footNote xml:id="FT2813-1">
-                                        <p>
-                                            <hi rend="pre-print">
-                                                <hi rend="antiqua">Für die Redaktion bestimmte
+        <body><div type="writingSession" n="1"><opener><p><pb facs="MS-SCHNITZLER-B-00068-000-00007"/><rs ref="#pmb29442" type="organisation"><hi rend="pre-print"><hi rend="antiqua">Frankfurter Zeitung</hi></hi><lb/><hi rend="antiqua"><hi rend="pre-print">und</hi></hi><lb/><hi rend="pre-print"><hi rend="antiqua">Handelsblatt.</hi></hi></rs></p><dateline><seg rend="left"><hi rend="pre-print"><hi rend="antiqua">Redaction.<footNote xml:id="FT2813-1"><p><hi rend="pre-print"><hi rend="antiqua">Für die Redaktion bestimmte
                                                   Briefe und Sendungen wolle man <hi rend="spaced_out">nicht</hi> an die Person eines
                                                   Redakteurs, sondern stets <hi rend="bold">an die
                                                   Redaktion der Frankfurter Zeitung</hi>
-                                                  adressiren</hi>
-                                            </hi>.</p>
-                                    </footNote>
-                                </hi>
-                            </hi>
-                        </seg>
-                        <seg rend="right">
-                            <hi rend="pre-print">
-                                <hi rend="antiqua">
-                                    <placeName key="pmb146">Frankfurt a. M.</placeName>,</hi>
-                            </hi>
-                            <space unit="chars" quantity="1"/>
-                            <date>17. Novbr. <hi rend="antiqua">
-                                    <hi rend="pre-print">189</hi>
-                                </hi>2</date>
-                        </seg>
-                    </dateline>
-                    <p>
-                        <hi rend="pre-print">
-                            <hi rend="antiqua">Telegramm-Adresse:</hi>
-                        </hi>
-                    </p>
-                    <p>
-                        <hi rend="pre-print">
-                            <hi rend="antiqua">Zeitung Frankfurt Main.</hi>
-                        </hi>
-                    </p>
-                    <salute rend="inline">Sehr verehrter Herr Doctor!</salute>
-                </opener>
-                <p>Wollte ich mein langes u. ſcheinbar ſo unartiges Stillſchweigen zu erklären u. zu
+                                                  adressiren</hi></hi>.</p></footNote></hi></hi></seg><seg rend="right"><hi rend="pre-print"><hi rend="antiqua"><rs ref="#pmb146" type="place">Frankfurt a. M.</rs>,</hi></hi><space unit="chars" quantity="1"/><date>17.&#160;Novbr. <hi rend="antiqua"><hi rend="pre-print">189</hi></hi>2</date></seg></dateline><p><hi rend="pre-print"><hi rend="antiqua">Telegramm-Adresse:</hi></hi></p><p><hi rend="pre-print"><hi rend="antiqua">Zeitung Frankfurt Main.</hi></hi></p><salute rend="inline">Sehr verehrter Herr Doctor!</salute></opener><p>Wollte ich mein langes u. ſcheinbar ſo unartiges Stillſchweigen zu erklären u. zu
                     entſchuldigen ſuchen, ſo würde ich ſoviel Zeit u. Energie dazu brauchen, daß
                     gleich wieder die Exiſtenz <hi rend="underline" n="1">dieſes</hi> Briefes
                     bedroht wäre. Begnügen Sie Sich <!-- sic! -->deshalb mit der Verſicherung meiner warmen
                     Sympathie u. meiner herzlichen Ergebenheit. Es ging nicht anders u. wenn Sie
-                    mich umbringen: In Angelegenheit des »<workName key="pmb29823">Märchen</workName>« ſind mir die Hände gebunden; ich habe (außer
+                    mich umbringen: In Angelegenheit des »<rs ref="#pmb29823" type="work">Märchen</rs>« ſind mir die Hände gebunden; ich habe (außer
                     ſchlechten) keinerlei Beziehungen zur hieſigen Theaterleitung, und überdies bin
                     ich der ungeſchickteſte Menſch, wenn es darauf ankommt, mir und meinen Freunden
                     zu nützen. Dieſes Talent muß man mit auf die Welt bringen wie der impertinente
-                    Burſche Herr <persName key="pmb2570">Lothar</persName>, der ſich <anchor type="commentary" xml:id="KL2813-1"/>jüngſthin<note type="commentary" xml:id="KL2813-1h">Die Uraufführung von <workName key="pmb34984">Cäsar
-                            Borgia’s Ende</workName> fand am <date>12. 11. 1892</date> im örtlichen
-                            <placeName key="pmb34987">Schauspielhaus</placeName> statt.</note> von
-                    hier aus inſcenierte.</p>
-                <p>Die neuen <rs type="work" key="pmb29935">Dialoge</rs> ſandte ich dem <rs type="person" key="pmb34989">
-                        <placeName key="pmb168">Berlin</placeName>er Herrn</rs>, der in neueſter
+                    Burſche Herr <rs ref="#pmb2570" type="person">Lothar</rs>, der ſich <anchor type="commentary" xml:id="KL2813-1"/>jüngſthin<note type="commentary" xml:id="KL2813-1h">Die Uraufführung von <rs ref="#pmb34984" type="work">Cäsar
+                            Borgia’s Ende</rs> fand am <date>12.&#160;11.&#160;1892</date> im örtlichen
+                            <rs ref="#pmb34987" type="place">Schauspielhaus</rs> statt.</note> von
+                    hier aus inſcenierte.</p><p>Die neuen <rs type="work" ref="#pmb29935" subtype="implied">Dialoge</rs> ſandte ich dem <rs type="person" ref="#pmb34989" subtype="implied"><rs ref="#pmb168" type="place">Berlin</rs>er Herrn</rs>, der in neueſter
                     Zeit bei uns ſchöngeiſtige Literatur beſpricht, mit warmer Empfehlung. Jetzt
                     wollen wir ſehen, was <anchor type="commentary" xml:id="KL2813-2"/>geſchieht<note type="commentary" xml:id="KL2813-2h">Eine Rezension von
-                            <workName key="pmb29935">Anatol</workName> dürfte nicht erschienen
-                        sein.</note>. Die <rs type="work" key="pmb30117">Novelle</rs> ſchicken Sie
+                            <rs ref="#pmb29935" type="work">Anatol</rs> dürfte nicht erschienen
+                        sein.</note>. Die <rs type="work" ref="#pmb30117" subtype="implied">Novelle</rs> ſchicken Sie
                     mir gefälligſt, wenn Sie ſich jeder Alluſion <pb facs="MS-SCHNITZLER-B-00068-000-00007"/>auf das Gerücht, wonach es zweierlei
                     Menſchen auf der Welt gebe, enthalten haben. Nein, ſchicken Sie ſie mir in jedem
-                    Falle, ich bin neugierig darnach u. verſpreche Ihnen, die Arbeit <hi n="1" rend="underline">bald</hi> zu leſen.</p>
-                <p>Leben Sie wohl, ſehr verehrter Herr Doctor, ſeien Sie herzlichſt gegrüßt u.
-                    entſchuldigen Sie die innere u. äußere Müdigkeit dieſer Zeilen.</p>
-                <closer>Ihr<lb/>ergebener<lb/>
-                    <signed>FMamroth</signed>
-                </closer>
-            </div>
-        </body>
+                    Falle, ich bin neugierig darnach u. verſpreche Ihnen, die Arbeit <hi n="1" rend="underline">bald</hi> zu leſen.</p><p>Leben Sie wohl, ſehr verehrter Herr Doctor, ſeien Sie herzlichſt gegrüßt u.
+                    entſchuldigen Sie die innere u. äußere Müdigkeit dieſer Zeilen.</p><closer>Ihr<lb/>ergebener<lb/><signed>FMamroth</signed></closer></div></body>
     </text>
 </TEI>

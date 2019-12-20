@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-11-28_01_AS-Hofmannsthal_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-11-28_01_AS-Hofmannsthal_Beer-Hofmann">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 28. 11. 1894</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 28.&#160;11.&#160;1894</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -53,14 +57,14 @@
                             <physDesc>
                                 <p>eh. Postkarte (Rohrpost), Bleistift.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb54">Wien 4/1</placeName>
+                                    <rs ref="#pmb54" type="place">Wien 4/1</rs>
                                     <date when="1894-11-28">28 XI 94</date>
-                                    <time>11 50 V</time>
+                                    <time>11&#160;50&#160;V</time>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb51">Wien 1/1</placeName>
+                                    <rs ref="#pmb51" type="place">Wien 1/1</rs>
                                     <date when="1894-11-28">28 XI 94</date>
-                                    <time>12 10 M</time>
+                                    <time>12&#160;10&#160;M</time>
                                 </stamp>
                             </physDesc>
                         </msDesc>
@@ -73,19 +77,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1894-11-28" n="01">28. 11. 1894</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1894-11-28" n="01">28.&#160;11.&#160;1894</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1894-11-28">28. 11. 1894</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1894-11-28">28.&#160;11.&#160;1894</date>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-11-14_01">Beer-Hofmann an Schnitzler, 14. 11. 1894</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-12-31_01">Schnitzler an Beer-Hofmann, 31. 12. 1894</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-11-14_01">Beer-Hofmann an Schnitzler, 14.&#160;11.&#160;1894</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-12-31_01">Schnitzler an Beer-Hofmann, 31.&#160;12. 1894</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -100,36 +104,7 @@
         <graphic url="1894_AS_RBH_4_00031.jpeg"/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <pb facs="1894_AS_RBH_4_00030"/>Herrn <hi rend="latintype">Dr.</hi>
-               </addrLine>
-                    <addrLine>
-                  <hi rend="latintype">Richard Beer-Hofmann</hi>
-               </addrLine>
-                    <addrLine>
-                  <placeName key="pmb50">Wien</placeName>
-                        
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="pmb338">I Wollzeile 15</placeName>
-                        </hi>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <p>
-               <pb facs="1894_AS_RBH_4_00031"/>
-               <salute>lieber Richard, </salute>waren nur 10.
-                    Rei<unclear>he</unclear> da – die hab ich nicht geno<c rendition="#gemination-m"/>en. –</p>
-                <p>Sind Sie vielleicht heut nach dem Souper im Kfh?</p>
-                <closer>Herzl Gruſs<lb/>
-               <signed>Arth</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine><pb facs="1894_AS_RBH_4_00030"/>Herrn <hi rend="latintype">Dr.</hi></addrLine><addrLine><hi rend="latintype">Richard Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I Wollzeile 15</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1894_AS_RBH_4_00031"/><salute>lieber Richard, </salute>waren nur 10.
+                    Rei<unclear>he</unclear> da – die hab ich nicht geno<c rendition="#gemination-m"/>en.&#160;–</p><p>Sind Sie vielleicht heut nach dem Souper im Kfh?</p><closer>Herzl Gruſs<lb/><signed>Arth</signed></closer></div></body>
     </text>
 </TEI>

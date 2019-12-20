@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-02-11_01_Kafka_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-02-11_01_Kafka_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Eduard Michael Kafka an Arthur Schnitzler, 11. 2. 1893</title>
-                <author key="pmb2563">Kafka, Eduard Michael</author>
+                <title level="a">Eduard Michael Kafka an Arthur Schnitzler, 11.&#160;2.&#160;1893</title>
+                <author ref="#pmb2563">Kafka, Eduard Michael</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -52,11 +56,11 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Bildpostkarte, schwarze Tinte. Motiv: »<quote>Gruss aus
-                                            <placeName key="pmb42636">Auerbach’s Keller,
-                                            Leipzig</placeName>.</quote>«</p>
+                                            <rs ref="#pmb42636" type="place">Auerbach’s Keller,
+                                            Leipzig</rs>.</quote>«</p>
                                 <stamp n="1">
-                                    <placeName key="pmb864">Leipzig</placeName>
-                                    <date>12. 2. 93</date>
+                                    <rs ref="#pmb864" type="place">Leipzig</rs>
+                                    <date>12.&#160;2.&#160;93</date>
                                 </stamp>
                             </physDesc>
                         </msDesc>
@@ -69,18 +73,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2563">Kafka, Eduard Michael</persName>
-                    <placeName key="pmb864">Leipzig</placeName>
-                    <date when="1893-02-12" n="01">12. 2. 1893</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2563">Kafka, Eduard Michael</persName>
+                    <placeName ref="#pmb864">Leipzig</placeName>
+                    <date when="1893-02-12" n="01">12.&#160;2.&#160;1893</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-01-24_01">Kafka an Schnitzler, 24. 1. 1893</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-02-24_01">Kafka an Schnitzler, 24. 2. 1893</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-01-24_01">Kafka an Schnitzler, 24.&#160;1.&#160;1893</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-02-24_01">Kafka an Schnitzler, 24.&#160;2.&#160;1893</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -94,91 +98,12 @@
         <graphic url="OGL Kafka, Eduard M. an AS.pdf"/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="OGL Kafka, Eduard M. an AS.pdf"/>Herrn</addrLine>
-                    <addrLine>
-                  <hi rend="latintype">D<hi rend="superscript">r.</hi> Arthur
-                            Schnitzler</hi>
-               </addrLine>
-                    <addrLine>
-                        <placeName key="pmb50">
-                     <hi rend="latintype">Wien</hi>
-                  </placeName>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb412">I. Grillparzerſtraße 7</placeName>. </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="OGL Kafka, Eduard M. an AS.pdf"/>
-                  <date>11/II 93</date>.<lb/>Ständige Adreſse: <add place="above">bis gegen Ende des Monats</add>
-                  <space unit="chars" quantity="1"/>
-                  <placeName key="pmb42639">Berlin, Wienerhof</placeName>
-                  <lb/>
-                  <placeName key="pmb463">Marienstraße 20</placeName>.</dateline>
-                    <salute>Lieber Schnitzler,</salute>
-                </opener>
-                <p>Senden Sie, bitte unverzüglich 1 Ex. des »<workName key="pmb29935">
-                  <hi rend="latintype">Anatol</hi>
-               </workName>« an <persName key="pmb12781">
-                  <hi rend="latintype">
-                     <hi rend="underline" n="1">J.
-                        Simon</hi>
-                  </hi>
-               </persName> (<placeName key="pmb652">
-                  <hi rend="latintype">Prag</hi>
-               </placeName>) <hi rend="latintype">
-                  <del rend="strikethrough">
-                     <placeName key="pmb42644">Raffa</placeName>
-                  </del>
-               </hi>
-               <space unit="chars" quantity="1"/>
-               <placeName key="pmb42646">
-                  <hi rend="latintype">Park</hi>ſtraße 9</placeName> er will <persName key="pmb12341">
-                  <hi rend="underline" n="1">Neumann</hi>
-               </persName> dafür intereſſiren. Herr
-                        <persName key="pmb12781">
-                  <hi rend="latintype">
-                     <hi rend="underline" n="1">Simon</hi>
-                  </hi>
-               </persName> iſt der Schwager von <persName key="pmb12867">Joh. <hi rend="latintype">Strauß</hi>
-               </persName>. –
-                    Herr <persName key="pmb2601">
-                  <hi rend="latintype">
-                     <hi rend="underline" n="1">Jarno</hi>
-                  </hi>
-               </persName> vom <placeName key="pmb42626">
-                  <hi rend="latintype">Residenz</hi>theater</placeName> in <placeName key="pmb168">
-                  <hi rend="latintype">Berlin</hi>
-               </placeName> läßt Ihnen ſagen,
-                    er werde Ihre »<workName key="pmb30749">Frage an das Schickſal</workName>« u.
-                        »<workName key="pmb30005">Abſchieds<hi rend="latintype">souper</hi>
-               </workName>« heuer im <rs type="organisation" key="pmb42649">
-                  <hi rend="latintype">So<c rendition="#gemination-m"/>er</hi>
-               </rs> in <subst>
-                        <del rend="strikethrough">
-                     <placeName key="pmb213">
-                        <hi rend="latintype">Ishl</hi>
-                     </placeName>
-                  </del>
-                        <add place="inline">
-                     <placeName key="pmb213">
-                        <hi rend="latintype">Ishl</hi>
-                     </placeName>
-                  </add>
-                    </subst> ſpielen. Warum ſenden Sie Nichts an das »<orgName key="pmb29625">
-                  <hi rend="latintype">Magazin</hi>
-               </orgName>« in <placeName key="pmb168">Berlin</placeName>? <orgName key="pmb42660">
-                  <hi rend="latintype">Lehmann</hi>
-               </orgName> u. <persName key="pmb12348">Neumann-Hofer</persName> intereſſiren ſich ſehr für Sie.</p>
-                <closer>Gruß <signed>Kafka</signed>
-            </closer>
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine><pb facs="OGL Kafka, Eduard M. an AS.pdf"/>Herrn</addrLine><addrLine><hi rend="latintype">D<hi rend="superscript">r.</hi> Arthur
+                            Schnitzler</hi></addrLine><addrLine><rs ref="#pmb50" type="place"><hi rend="latintype">Wien</hi></rs></addrLine><addrLine><rs ref="#pmb412" type="place">I. Grillparzerſtraße 7</rs>. </addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="OGL Kafka, Eduard M. an AS.pdf"/><date>11/II 93</date>.<lb/>Ständige Adreſse: <add place="above">bis gegen Ende des Monats</add><space unit="chars" quantity="1"/><rs ref="#pmb42639" type="place">Berlin, Wienerhof</rs><lb/><rs ref="#pmb463" type="place">Marienstraße 20</rs>.</dateline><salute>Lieber Schnitzler,</salute></opener><p>Senden Sie, bitte unverzüglich 1 Ex. des »<rs ref="#pmb29935" type="work"><hi rend="latintype">Anatol</hi></rs>« an <rs ref="#pmb12781" type="person"><hi rend="latintype"><hi rend="underline" n="1">J.
+                        Simon</hi></hi></rs> (<rs ref="#pmb652" type="place"><hi rend="latintype">Prag</hi></rs>) <hi rend="latintype"><del rend="strikethrough"><rs ref="#pmb42644" type="place">Raffa</rs></del></hi><space unit="chars" quantity="1"/><rs ref="#pmb42646" type="place"><hi rend="latintype">Park</hi>ſtraße 9</rs> er will <rs ref="#pmb12341" type="person"><hi rend="underline" n="1">Neumann</hi></rs> dafür intereſſiren. Herr
+                        <rs ref="#pmb12781" type="person"><hi rend="latintype"><hi rend="underline" n="1">Simon</hi></hi></rs> iſt der Schwager von <rs ref="#pmb12867" type="person">Joh. <hi rend="latintype">Strauß</hi></rs>.&#160;–
+                    Herr <rs ref="#pmb2601" type="person"><hi rend="latintype"><hi rend="underline" n="1">Jarno</hi></hi></rs> vom <rs ref="#pmb42626" type="place"><hi rend="latintype">Residenz</hi>theater</rs> in <rs ref="#pmb168" type="place"><hi rend="latintype">Berlin</hi></rs> läßt Ihnen ſagen,
+                    er werde Ihre »<rs ref="#pmb30749" type="work">Frage an das Schickſal</rs>« u.
+                        »<rs ref="#pmb30005" type="work">Abſchieds<hi rend="latintype">souper</hi></rs>« heuer im <rs type="organisation" ref="#pmb42649" subtype="implied"><hi rend="latintype">So<c rendition="#gemination-m"/>er</hi></rs> in <subst><del rend="strikethrough"><rs ref="#pmb213" type="place"><hi rend="latintype">Ishl</hi></rs></del><add place="inline"><rs ref="#pmb213" type="place"><hi rend="latintype">Ishl</hi></rs></add></subst> ſpielen. Warum ſenden Sie Nichts an das »<rs ref="#pmb29625" type="organisation"><hi rend="latintype">Magazin</hi></rs>« in <rs ref="#pmb168" type="place">Berlin</rs>? <rs ref="#pmb42660" type="organisation"><hi rend="latintype">Lehmann</hi></rs> u. <rs ref="#pmb12348" type="person">Neumann-Hofer</rs> intereſſiren ſich ſehr für Sie.</p><closer>Gruß <signed>Kafka</signed></closer></div></body>
     </text>
 </TEI>

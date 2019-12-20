@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-07-15_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-07-15_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 15. 7. 1897</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 15.&#160;7.&#160;1897</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Hs-30885,XXXX</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>XXXXeh. Brief, 1 Bl., 1 S. XXXX</p>
+                                <p>XXXXeh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -59,8 +63,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -79,18 +83,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb213">Bad Ischl</placeName>
-                    <date when="1897-07-15" n="01">15. 7. 1897</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb213">Bad Ischl</placeName>
+                    <date when="1897-07-15" n="01">15.&#160;7.&#160;1897</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb573">Bad Fusch</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb573">Bad Fusch</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-07-12_01">Hofmannsthal an Schnitzler, [12.? 7. 1897]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-07-16_01">Hofmannsthal an Schnitzler, 16. [7. 1897]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-07-12_01">Hofmannsthal an Schnitzler, [12.?&#160;7.&#160;1897]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-07-16_01">Hofmannsthal an Schnitzler, 16.&#160;[7.&#160;1897]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -100,37 +104,18 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline>
-                        <pb facs=""/>
-                        <placeName key="pmb213">Ischl</placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>15. 7. 97</date>.</dateline>
-                </opener>
-                <p>
-                    <salute>Mein lieber Hugo, </salute>ich kann keineswegs <date>Anfang
+        <body><div type="writingSession" n="1"><opener><dateline><pb facs=""/><rs ref="#pmb213" type="place">Ischl</rs><space unit="chars" quantity="1"/><date>15.&#160;7.&#160;97</date>.</dateline></opener><p><salute>Mein lieber Hugo, </salute>ich kann keineswegs <date>Anfang
                         August</date> mit Ihnen Zusammentreffen – Sie wissen ja. Dagegen
-                    unterbreiten <persName key="pmb10863">Richard</persName> u. ich Ihnen einen
+                    unterbreiten <rs ref="#pmb10863" type="person">Richard</rs> u. ich Ihnen einen
                     andern Vorschlag. Wir wollen Ihnen weiter resp. nacher entgegen. Ich möchte
-                    z. B. <date>Freitag</date> den <date>23.</date> von hier fort, nach <placeName key="pmb30">Salzburg</placeName>, dann per Rad (wenn sich meines bis dahin
-                    erholt hat und <persName key="pmb10863">Richard</persName> nicht faul ist) über
-                        <placeName key="pmb1181">Reichenhall</placeName>, <placeName key="pmb33929">Lofer</placeName> nach <placeName key="pmb40336">Zell am See</placeName>.
-                    Ich resp. wir würden <date>Samstag</date>
-                    <space unit="chars" quantity="1"/>
-                    <time>Früh</time> in <placeName key="pmb40336">Zell am See</placeName> sein,
-                    dort verbringen wir den Tag miteinander. Und Abend führe ich nach <placeName key="pmb50">Wien</placeName>. – Es handelt sich also darum, ob Sie auf einen
-                    Tag von der <placeName key="pmb573">Fusch</placeName> wegkönnen. Wenn <persName key="pmb10765">Andrian</persName> mit Ihnen fahren wollte, so käme er mit.
-                    Grüßen Sie ihn herzlich von mir; es geht ihm hoffentlich wieder besser. <rs type="work" key="pmb34255">
-                        <persName key="pmb4203">Jahn</persName> 2. Band</rs> bekommen? – </p>
-                <p>– Auf einen schönen Sommertag mit Ihnen, wenn’s schon nicht mehr sein können,
+                    z.&#160;B. <date>Freitag</date> den <date>23.</date> von hier fort, nach <rs ref="#pmb30" type="place">Salzburg</rs>, dann per Rad (wenn sich meines bis dahin
+                    erholt hat und <rs ref="#pmb10863" type="person">Richard</rs> nicht faul ist) über
+                        <rs ref="#pmb1181" type="place">Reichenhall</rs>, <rs ref="#pmb33929" type="place">Lofer</rs> nach <rs ref="#pmb40336" type="place">Zell am See</rs>.
+                    Ich resp. wir würden <date>Samstag</date><space unit="chars" quantity="1"/><time>Früh</time> in <rs ref="#pmb40336" type="place">Zell am See</rs> sein,
+                    dort verbringen wir den Tag miteinander. Und Abend führe ich nach <rs ref="#pmb50" type="place">Wien</rs>.&#160;– Es handelt sich also darum, ob Sie auf einen
+                    Tag von der <rs ref="#pmb573" type="place">Fusch</rs> wegkönnen. Wenn <rs ref="#pmb10765" type="person">Andrian</rs> mit Ihnen fahren wollte, so käme er mit.
+                    Grüßen Sie ihn herzlich von mir; es geht ihm hoffentlich wieder besser. <rs type="work" ref="#pmb34255" subtype="implied"><rs ref="#pmb4203" type="person">Jahn</rs> 2.&#160;Band</rs> bekommen?&#160;– </p><p>– Auf einen schönen Sommertag mit Ihnen, wenn’s schon nicht mehr sein können,
                     möcht ich nicht gern verzichten. Aber Sie sollen sich auch nicht die geringste
-                    Ungelegenheit machen. </p>
-                <closer>Herzlich<lb/>Ihr<lb/>
-                    <signed>Arthur</signed>
-                </closer>
-            </div>
-        </body>
+                    Ungelegenheit machen. </p><closer>Herzlich<lb/>Ihr<lb/><signed>Arthur</signed></closer></div></body>
     </text>
 </TEI>

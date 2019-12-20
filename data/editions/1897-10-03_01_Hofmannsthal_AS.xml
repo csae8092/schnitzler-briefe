@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-10-03_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-10-03_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 3. 10. [1897]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 3.&#160;10.&#160;[1897]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief, 1&#160;Bl., 3&#160;S., schwarze Tinte. Von Schnitzler mit
                                     Bleistift die Jahreszahl ergänzt: »<quote>
                                         <date>97</date>
                                     </quote>«. Von unbekannter Hand mit Bleistift nummeriert: »<quote>
@@ -63,8 +67,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -83,18 +87,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb75">Hinterbrühl</placeName>
-                    <date when="1897-10-03" n="01">3. 10. [1897]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb75">Hinterbrühl</placeName>
+                    <date when="1897-10-03" n="01">3.&#160;10.&#160;[1897]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-08-26_01">Hofmannsthal an Schnitzler, 26. 8. 1897</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-10-04_02">Schnitzler an Hofmannsthal, 4. 10. 1897</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-08-26_01">Hofmannsthal an Schnitzler, 26.&#160;8.&#160;1897</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-10-04_02">Schnitzler an Hofmannsthal, 4.&#160;10.&#160;1897</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -109,33 +113,16 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00212"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00211"/>
-                        <placeName key="pmb75">Hinterbrühl</placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>3<hi rend="superscript">ten</hi> X<hi rend="superscript">ten</hi>
-                        </date>.</dateline>
-                    <salute>mein lieber Arthur</salute>
-                </opener>
-                <p>Ihr Geſicht iſt mir neulich ſchon von der Loge aus ſehr ernſt und traurig
-                    erſchienen, ich bin dann zu <persName key="pmb10863">Richard</persName>
-                    gegangen, er hat mir alles <anchor type="commentary" xml:id="KL2307-1"/>erzählt<note type="commentary" xml:id="KL2307-1h">
-                        <persName key="pmb2378">Marie Reinhard</persName> und er betrauerten gerade
-                        ein am <date>24. 9. 1897</date> totgeborenes Kind.</note> und deshalb habe
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00211"/><rs ref="#pmb75" type="place">Hinterbrühl</rs><space unit="chars" quantity="1"/><date>3<hi rend="superscript">ten</hi> X<hi rend="superscript">ten</hi></date>.</dateline><salute>mein lieber Arthur</salute></opener><p>Ihr Geſicht iſt mir neulich ſchon von der Loge aus ſehr ernſt und traurig
+                    erſchienen, ich bin dann zu <rs ref="#pmb10863" type="person">Richard</rs>
+                    gegangen, er hat mir alles <anchor type="commentary" xml:id="KL2307-1"/>erzählt<note type="commentary" xml:id="KL2307-1h"><rs ref="#pmb2378" type="person">Marie Reinhard</rs> und er betrauerten gerade
+                        ein am <date>24.&#160;9.&#160;1897</date> totgeborenes Kind.</note> und deshalb habe
                     ich Ihnen unter den vielen fremden Leuten nur die Hand gegeben und nichts
                     geſagt. Ich weiß Ihnen <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00212"/>nichts tröſtliches zu ſagen und ob Ihnen meine Zuneigung und Anhänglichkeit
                     irgend eine wirkliche Freude macht, weiß ich nicht, deshalb will ich auch nicht
                     davon ſprechen. Ich hoffe von Herzen, daſs Sie bald wieder oder ſchon wieder
-                    arbeiten können. Ich werde <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00212"/>wohl die nächſte Woche nach <placeName key="pmb50">Wien</placeName> kommen und
-                    hätte Ihnen und dem <persName key="pmb10863">Richard</persName>, wenn Sie beide
-                    aufgelegt ſind, recht viel vorzuleſen.</p>
-                <closer>Herzlich<lb/>Ihr<lb/>
-                    <signed>Hugo.</signed>
-                </closer>
-            </div>
-        </body>
+                    arbeiten können. Ich werde <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00212"/>wohl die nächſte Woche nach <rs ref="#pmb50" type="place">Wien</rs> kommen und
+                    hätte Ihnen und dem <rs ref="#pmb10863" type="person">Richard</rs>, wenn Sie beide
+                    aufgelegt ſind, recht viel vorzuleſen.</p><closer>Herzlich<lb/>Ihr<lb/><signed>Hugo.</signed></closer></div></body>
     </text>
 </TEI>

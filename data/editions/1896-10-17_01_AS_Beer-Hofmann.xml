@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-10-17_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-10-17_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 17. 10. 1896</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 17.&#160;10.&#160;1896</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -53,12 +57,12 @@
                      <physDesc>
                         <p>eh. Postkarte (Rohrpost), Bleistift.</p>
                         <stamp n="1">
-                           <placeName key="pmb59">Wien 9/1</placeName>
+                           <rs ref="#pmb59" type="place">Wien 9/1</rs>
                            <date>19 X 96</date>
                            <time>2 10N</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb51">Wien 1/1</placeName>
+                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
                            <date>17 X 96</date>
                            <time>2 40N</time>
                         </stamp>
@@ -69,8 +73,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -89,19 +93,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1896-10-17" n="01">17. 10. 1896</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1896-10-17" n="01">17.&#160;10.&#160;1896</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1896-10-17">17. 10. 1896</date>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1896-10-17">17.&#160;10.&#160;1896</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-09-29_01">Schnitzler an Beer-Hofmann, 29. 9. 1896</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-10-19_01">Schnitzler an Beer-Hofmann, 19. 10. 1896</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-09-29_01">Schnitzler an Beer-Hofmann, 29.&#160;9.&#160;1896</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-10-19_01">Schnitzler an Beer-Hofmann, 19.&#160;10.&#160;1896</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -115,42 +119,10 @@
       <graphic url="1896_AS_RBH_2_00010.jpeg"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1896_AS_RBH_2_00009.jpeg"/>
-                  <hi rend="latintype">Dr Rich
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb50">Wien</placeName>
-                  </hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb338">I <hi rend="latintype">Wollzeile 15</hi>
-                  </placeName>
-               </addrLine>
-               <addrLine>4. Stock.</addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="1896_AS_RBH_2_00010.jpeg"/>
-               <salute>Lieber Richard, </salute>morgen <date>So<c rendition="#gemination-n"/>tag</date> Abend <hi n="1" rend="underline">nicht</hi> bei
-               Ihnen, ſondern <placeName>
-                  <hi rend="latintype">Impérial</hi>
-               </placeName>. – Näheres <hi rend="underline" n="1">heut</hi> Abend <hi n="1" rend="underline">nach</hi> den <workName key="pmb31737">Müttern</workName>. Wir
-                  (<persName key="pmb11740">Hugo</persName>
-               <space unit="chars" quantity="1"/>
-               <hi rend="latintype">etc</hi>) im <placeName key="">Riedhof</placeName>. Ich ko<c rendition="#gemination-m"/>e mit
-                  <persName key="pmb10986">Brahm</persName>, <persName key="">Hirſchf</persName> nach.</p>
-            <p>Sehe Sie übrigens Zwischenakt.</p>
-            <closer>Herzlich Ihr <signed>A.</signed>
-            </closer>
-         </div>
-
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="1896_AS_RBH_2_00009.jpeg"/><hi rend="latintype">Dr Rich
+                     Beer-Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb50" type="place">Wien</rs></hi></addrLine><addrLine><rs ref="#pmb338" type="place">I <hi rend="latintype">Wollzeile 15</hi></rs></addrLine><addrLine>4. Stock.</addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1896_AS_RBH_2_00010.jpeg"/><salute>Lieber Richard, </salute>morgen <date>So<c rendition="#gemination-n"/>tag</date> Abend <hi n="1" rend="underline">nicht</hi> bei
+               Ihnen, ſondern <rs type="place"><hi rend="latintype">Impérial</hi></rs>.&#160;– Näheres <hi rend="underline" n="1">heut</hi> Abend <hi n="1" rend="underline">nach</hi> den <rs ref="#pmb31737" type="work">Müttern</rs>. Wir
+                  (<rs ref="#pmb11740" type="person">Hugo</rs><space unit="chars" quantity="1"/><hi rend="latintype">etc</hi>) im <rs type="place" ref="">Riedhof</rs>. Ich ko<c rendition="#gemination-m"/>e mit
+                  <rs ref="#pmb10986" type="person">Brahm</rs>, <rs type="person" ref="">Hirſchf</rs> nach.</p><p>Sehe Sie übrigens Zwischenakt.</p><closer>Herzlich Ihr <signed>A.</signed></closer></div></body>
    </text>
 </TEI>

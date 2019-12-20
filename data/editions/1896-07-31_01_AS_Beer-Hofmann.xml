@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-07-31_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-07-31_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 31. 7. 1896</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 31.&#160;7.&#160;1896</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -53,9 +57,9 @@
                      <physDesc>
                         <p>eh. Postkarte, Bleistift.</p>
                         <stamp n="1">
-                           <placeName>PKXPN <unclear>854A</unclear>
-                           </placeName>
-                           <date>31 7 1896</date>
+                           <rs type="place">PKXPN <unclear>854A</unclear>
+                           </rs>
+                           <date>31&#160;7&#160;1896</date>
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -68,17 +72,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <date when="1896-07-31" n="01">31. 7. 1896</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <date when="1896-07-31" n="01">31.&#160;7.&#160;1896</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb36300">Kopenhagen</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb36300">Kopenhagen</placeName>
             </correspAction>
             <correspContext>
                <ptr type="previous" subtype="toAuthor" target="1896-07-30_01">Schnitzler an Beer-Hofmann, 30. 07. 1896</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-08-30_01">Beer-Hofmann an Schnitzler, 30. 8. 1896</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-08-30_01">Beer-Hofmann an Schnitzler, 30.&#160;8.&#160;1896</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -93,39 +97,8 @@
       <graphic url="1896_AS_RBH_2_00036.jpeg"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1896_AS_RBH_2_00035.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb36300">
-                     <hi rend="latintype">Kopenhagen</hi>
-                  </placeName>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb40903">
-                     <hi rend="latintype">Hotel König v. Dänemark</hi>
-                  </placeName>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <salute>
-                  <pb facs="1896_AS_RBH_2_00036.jpeg"/>Lieber Richard, </salute>i<c rendition="#gemination-m"/>erhin iſt es möglich, daſs ich ſchon S<date>o<c rendition="#gemination-n"/>tag</date>
-               <space unit="chars" quantity="1"/>
-               <hi rend="underline" n="1">früh</hi> in <placeName key="pmb36300">K.</placeName> bin – ſoweit ich nach den <placeName key="pmb42675">
-                  <hi rend="latintype">Trollhetta</hi> Fällen</placeName> nicht zu müd bin, gleich
-               eine zweite Nacht weiterzufahren.</p>
-            <closer>Herzlich Ihr <signed>Arthur</signed>
-            </closer>
-            <postscript>
-               <p>Bitte beſtellen Sie mir ein Zimmer.</p>
-            </postscript>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="1896_AS_RBH_2_00035.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
+                     Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb36300" type="place"><hi rend="latintype">Kopenhagen</hi></rs></addrLine><addrLine><rs ref="#pmb40903" type="place"><hi rend="latintype">Hotel König v. Dänemark</hi></rs></addrLine></address></div><div type="writingSession" n="1"><p><salute><pb facs="1896_AS_RBH_2_00036.jpeg"/>Lieber Richard, </salute>i<c rendition="#gemination-m"/>erhin iſt es möglich, daſs ich ſchon S<date>o<c rendition="#gemination-n"/>tag</date><space unit="chars" quantity="1"/><hi rend="underline" n="1">früh</hi> in <rs ref="#pmb36300" type="place">K.</rs> bin – ſoweit ich nach den <rs ref="#pmb42675" type="place"><hi rend="latintype">Trollhetta</hi> Fällen</rs> nicht zu müd bin, gleich
+               eine zweite Nacht weiterzufahren.</p><closer>Herzlich Ihr <signed>Arthur</signed></closer><postscript><p>Bitte beſtellen Sie mir ein Zimmer.</p></postscript></div></body>
    </text>
 </TEI>

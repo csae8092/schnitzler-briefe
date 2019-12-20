@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, [zwischen 5. 10. und
-               14. 11. 1893]</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, [zwischen 5.&#160;10. und
+               14.&#160;11.&#160;1893]</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -52,7 +56,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief mit Trauerrand, 1 Bl., 2 S., Bleistift.</p>
+                        <p>eh. Brief mit Trauerrand, 1&#160;Bl., 2&#160;S., Bleistift.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -64,18 +68,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date notBefore="1893-10-05" notAfter="1893-11-14" n="01">[zwischen 5. 10. und
-                  14. 11. 1893]</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date notBefore="1893-10-05" notAfter="1893-11-14" n="01">[zwischen 5.&#160;10. und
+                  14.&#160;11.&#160;1893]</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-10-24_02">Beer-Hofmann an Schnitzler, [24?. 10. 1893]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-11-15_01">Beer-Hofmann an Schnitzler, [15. 11. 1893]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-10-24_02">Beer-Hofmann an Schnitzler, [24?.&#160;10.&#160;1893]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-11-15_01">Beer-Hofmann an Schnitzler, [15.&#160;11.&#160;1893]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -91,38 +95,16 @@
       <graphic url="1893_AS_RBH_3_00014.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <salute>
-                  <pb facs="1893_AS_RBH_3_00013.jpeg"/>Lieber Richard,</salute>
-            </opener>
-            <p>bitte ſehr, ſenden Sie durch Ueberbringer dieſes den <anchor type="commentary" xml:id="KLMAM20191022-11"/>
-               <persName key="pmb12570">
-                  <hi rend="latintype">Rosé</hi>
-               </persName>ſitz<note type="commentary" xml:id="KLMAM20191022-11h">
-                  <persName key="pmb12570">Arnold Rosé</persName> 
-               war ein beliebter Violinist, dessen Aufführungen <persName key="pmb2121">Schnitzler</persName> gerne besuchte. Ein offensichtliches
-                  Konzert bietet sich in dem Zeitraum aber nicht an, doch trat <persName key="pmb12570">Rosé</persName> mehrmals als Begleitmusiker
-                  auf. Möglicherweise handelt es sich aber auch um bei <orgName key="pmb42491">Alexander Rosé Concertbureau</orgName> besorgte
+      <body><div type="writingSession" n="1"><opener><salute><pb facs="1893_AS_RBH_3_00013.jpeg"/>Lieber Richard,</salute></opener><p>bitte ſehr, ſenden Sie durch Ueberbringer dieſes den <anchor type="commentary" xml:id="KLMAM20191022-11"/><rs ref="#pmb12570" type="person"><hi rend="latintype">Rosé</hi></rs>ſitz<note type="commentary" xml:id="KLMAM20191022-11h"><rs ref="#pmb12570" type="person">Arnold Rosé</rs> 
+               war ein beliebter Violinist, dessen Aufführungen <rs ref="#pmb2121" type="person">Schnitzler</rs> gerne besuchte. Ein offensichtliches
+                  Konzert bietet sich in dem Zeitraum aber nicht an, doch trat <rs ref="#pmb12570" type="person">Rosé</rs> mehrmals als Begleitmusiker
+                  auf. Möglicherweise handelt es sich aber auch um bei <rs ref="#pmb42491" type="organisation">Alexander Rosé Concertbureau</rs> besorgte
                Karten für eine musikalische Vorführung?</note>, den Sie wohl noch bei ſich haben,
-                  <pb facs="1893_AS_RBH_3_00014.jpeg"/>
-               <hi rend="latintype">
-                  <anchor type="commentary" xml:id="KL20191003-3"/>
-                  <placeName key="pmb274">Burgring 1</placeName>
-                  <note type="commentary" xml:id="KL20191003-3h">Das
+                  <pb facs="1893_AS_RBH_3_00014.jpeg"/><hi rend="latintype"><anchor type="commentary" xml:id="KL20191003-3"/><rs ref="#pmb274" type="place">Burgring 1</rs><note type="commentary" xml:id="KL20191003-3h">Das
                      undatierte Korrespondenzstück ist mit Trauerrand versehen und damit nach dem Tod des 
-                        <rs key="pmb12695" type="person">Vaters</rs> anzusetzen. Da <persName key="pmb2121">Schnitzler</persName> für
-                        fünf Monate nicht ins Theater ging und am <date>15. 11. 1893</date> übersiedelte,
-                        lässt sich das mögliche Zeitfenster weiter eingrenzen.</note>
-               </hi>. – (an meinen
-               Namen)</p>
-            <closer>Herzlich<lb/>Ihr <signed>Arthur.</signed>
-            </closer>
-            <postscript>
-               <p>Seh ich Sie heut Abend? hoffentlich</p>
-            </postscript>
-         </div>
-      </body>
+                        <rs ref="#pmb12695" type="person" subtype="implied">Vaters</rs> anzusetzen. Da <rs ref="#pmb2121" type="person">Schnitzler</rs> für
+                        fünf Monate nicht ins Theater ging und am <date>15.&#160;11.&#160;1893</date> übersiedelte,
+                        lässt sich das mögliche Zeitfenster weiter eingrenzen.</note></hi>.&#160;– (an meinen
+               Namen)</p><closer>Herzlich<lb/>Ihr <signed>Arthur.</signed></closer><postscript><p>Seh ich Sie heut Abend? hoffentlich</p></postscript></div></body>
    </text>
 </TEI>

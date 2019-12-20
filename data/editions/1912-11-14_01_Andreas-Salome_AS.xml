@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1912-11-14_01_Andreas-Salome_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1912-11-14_01_Andreas-Salome_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Lou Andreas-Salomé an Arthur Schnitzler, [vor dem
-                    15. 11. 1912?]</title>
-                <author key="pmb10762">Andreas-Salomé, Lou</author>
+                    15.&#160;11.&#160;1912?]</title>
+                <author ref="#pmb10762">Andreas-Salomé, Lou</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -49,7 +53,7 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 3</idno>
+                                <idno>Schnitzler, B&#160;3</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Briefkarte, schwarze Tinte. Von Schnitzler mit Bleistift
@@ -70,14 +74,14 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb10762">Andreas-Salomé, Lou</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1912-11-14" n="01">[vor dem 15. 11. 1912?]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1912-11-14" n="01">[vor dem 15.&#160;11.&#160;1912?]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
                <ptr type="previous" subtype="toAuthor" target="1908-06_01">Andreas-Salomé an Schnitzler, Juni 1908</ptr>
@@ -95,29 +99,12 @@
         <graphic url="MS-SCHNITZLER-B-00003-000-00041"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="MS-SCHNITZLER-B-00003-000-00041"/>Lieber Herr Doktor,</salute>
-                </opener>
-                <p>ich bin mit einem jungen <anchor type="commentary" xml:id="KL731-1"/>
-                    <rs type="person" key="pmb5416">Mädchen</rs>
-                    <note type="commentary" xml:id="KL731-1h">Die Datierung basiert auf der Annahme,
-                        dass es sich bei dem am <date>15. 11. 1912</date> im <bibl>
-                            <workName key="pmb33243">Tagebuch</workName>
-                        </bibl>
-                        <space unit="chars" quantity="1"/>
-                        <persName key="pmb2121">Schnitzler</persName>s erwähnten Mädchen um
-                            <persName key="pmb5416">Ellen Delp</persName> handelt: »<quote>Lou
-                            Salomé mit ihrer Freundin, jungem <rs type="person" key="pmb5416">Mädl</rs>, deren Namen sie erst auf Verlangen nennt, zum
-                            Thee.</quote>«.</note> hier in <placeName key="pmb50">Wien</placeName>, und würde mich freuen, wenn wir Ihnen einen Beſuch abſtatten
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00003-000-00041"/>Lieber Herr Doktor,</salute></opener><p>ich bin mit einem jungen <anchor type="commentary" xml:id="KL731-1"/><rs type="person" ref="#pmb5416" subtype="implied">Mädchen</rs><note type="commentary" xml:id="KL731-1h">Die Datierung basiert auf der Annahme,
+                        dass es sich bei dem am <date>15.&#160;11.&#160;1912</date> im <bibl><rs ref="#pmb33243" type="work">Tagebuch</rs></bibl><space unit="chars" quantity="1"/><rs ref="#pmb2121" type="person">Schnitzler</rs>s erwähnten Mädchen um
+                            <rs ref="#pmb5416" type="person">Ellen Delp</rs> handelt: »<quote>Lou
+                            Salomé mit ihrer Freundin, jungem <rs type="person" ref="#pmb5416" subtype="implied">Mädl</rs>, deren Namen sie erst auf Verlangen nennt, zum
+                            Thee.</quote>«.</note> hier in <rs ref="#pmb50" type="place">Wien</rs>, und würde mich freuen, wenn wir Ihnen einen Beſuch abſtatten
                     dürften, falls dies keine Störung für Sie bedeutet? Dienstag oder Donnerstag
-                    oder Freitag brauchten Sie nur die Stunde zu beſtimmen, wir halten uns frei.</p>
-                <closer>Mit herzlichem Gruß Ihre<lb/>
-                    <signed>Lou Andreas-Salomé</signed>
-                </closer>
-            </div>
-        </body>
+                    oder Freitag brauchten Sie nur die Stunde zu beſtimmen, wir halten uns frei.</p><closer>Mit herzlichem Gruß Ihre<lb/><signed>Lou Andreas-Salomé</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1900-03-18_01_Brandes_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1900-03-18_01_Brandes_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Georg Brandes an Arthur Schnitzler, [18. 3. 1900]</title>
-                <author key="pmb10992">Brandes, Georg</author>
+                <title level="a">Georg Brandes an Arthur Schnitzler, [18.&#160;3.&#160;1900]</title>
+                <author ref="#pmb10992">Brandes, Georg</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 17</idno>
+                                <idno>Schnitzler, B&#160;17</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., schwarze Tinte; Lateinschrift. Von
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., schwarze Tinte; Lateinschrift. Von
                                     Schnitzler mit Bleistift datiert: »<quote>
                                         <date>18/3 1900</date>
                                     </quote>, von unbekannter Hand mit Bleistift nummeriert:
@@ -63,8 +67,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -83,18 +87,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb10992">Brandes, Georg</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1900-03-18" n="01">[18. 3. 1900]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb10992">Brandes, Georg</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1900-03-18" n="01">[18.&#160;3.&#160;1900]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1900-02-11_01">Schnitzler an Brandes, 11. 2. 1900</ptr>
-               <ptr type="next" subtype="toAuthor" target="1900-04-03_02">Brandes an Schnitzler, 3. 4. [1900]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1900-02-11_01">Schnitzler an Brandes, 11.&#160;2.&#160;1900</ptr>
+               <ptr type="next" subtype="toAuthor" target="1900-04-03_02">Brandes an Schnitzler, 3.&#160;4. [1900]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -110,28 +114,8 @@
         <graphic url="MS-SCHNITZLER-B-00017-A-00001-000-00029"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00029"/>
-                        <placeName key="pmb1120">Hotel Krantz</placeName>
-                  <lb/>am Mehlmarkt
-                        <lb/>
-                        <date>Sonntag</date>
-                    </dateline>
-                    <salute>Lieber Dr. Schnitzler</salute>
-                </opener>
-                <p>Warum sehe ich Sie denn gar nicht dies Mal<space unit="chars" quantity="1"/>
-                    <c rendition="#dots" n="2"/> Ich habe mich jeden Tag nach Ihnen gesehnt und sehe
-                    nur gleichgültige Gesichter.</p>
-                <closer>Ihr<lb/>
-                    <signed>Georg Brandes</signed>
-                </closer>
-                <postscript>
-                    <p>Montag Abend?</p>
-                </postscript>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00029"/><rs ref="#pmb1120" type="place">Hotel Krantz</rs><lb/>am Mehlmarkt
+                        <lb/><date>Sonntag</date></dateline><salute>Lieber Dr. Schnitzler</salute></opener><p>Warum sehe ich Sie denn gar nicht dies Mal<space unit="chars" quantity="1"/><c rendition="#dots" n="2"/> Ich habe mich jeden Tag nach Ihnen gesehnt und sehe
+                    nur gleichgültige Gesichter.</p><closer>Ihr<lb/><signed>Georg Brandes</signed></closer><postscript><p>Montag Abend?</p></postscript></div></body>
     </text>
 </TEI>

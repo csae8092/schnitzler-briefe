@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-05-26_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-05-26_01_Beer-Hofmann_AS">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, [26. 5. 1894]</title>
-                <author key="pmb10863">Beer-Hofmann, Richard</author>
+                <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, [26.&#160;5.&#160;1894]</title>
+                <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 8</idno>
+                                <idno>Schnitzler, B&#160;8</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., blauer Buntstift; Lateinschrift. Von Schnitzler mit
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., blauer Buntstift; Lateinschrift. Von Schnitzler mit
                                     Bleistift datiert: »<quote>
                                         <date>26/5 94</date>
                                     </quote>« und nummeriert: »<quote>29.</quote>«.</p>
@@ -66,16 +70,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-                    <date when="1894-05-26" n="01">[26. 5. 1894]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+                    <date when="1894-05-26" n="01">[26.&#160;5.&#160;1894]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-05-22_01">Schnitzler an Beer-Hofmann, 22. 5. 1894</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-05-29_01">Beer-Hofmann an Schnitzler, [29. 5. 1894]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-05-22_01">Schnitzler an Beer-Hofmann, 22.&#160;5.&#160;1894</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-05-29_01">Beer-Hofmann an Schnitzler, [29.&#160;5.&#160;1894]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -89,21 +93,9 @@
         <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00065.jpg"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-               <salute>
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00065.jpg"/>Lieber!</salute>
-                    Bin <date>Samstag</date>
-               <space unit="chars" quantity="1"/>
-               <time>Abends</time> – nicht zu spät
-                    <placeName key="pmb262">
-                  <hi n="1" rend="underline">Caffée
-                        Central</hi>
-               </placeName>.</p>
-                <closer>Herzlichst<signed>Richard</signed>
-                </closer>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><p><salute><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00065.jpg"/>Lieber!</salute>
+                    Bin <date>Samstag</date><space unit="chars" quantity="1"/><time>Abends</time> – nicht zu spät
+                    <rs ref="#pmb262" type="place"><hi n="1" rend="underline">Caffée
+                        Central</hi></rs>.</p><closer>Herzlichst<signed>Richard</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-07-13_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-07-13_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 13. 7. [1891]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 13.&#160;7.&#160;[1891]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief mit aufgeprägtem Wappen, 1 Bl., 3 S., schwarze Tinte.
+                                <p>eh. Brief mit aufgeprägtem Wappen, 1&#160;Bl., 3&#160;S., schwarze Tinte.
                                     Von Schnitzler mit Bleistift die Jahreszahl hinzugefügt:
                                         »<quote>1891</quote>«. Von unbekannter Hand mit Bleistift
                                     nummeriert: »<quote>4</quote>«.</p>
@@ -62,8 +66,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -82,18 +86,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1891-07-13" n="01">13. 7. [1891]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1891-07-13" n="01">13.&#160;7.&#160;[1891]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1891-05-06_01">Hofmannsthal an Schnitzler, [6. 5. 1891?]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1891-07-27_01">Schnitzler an Hofmannsthal, 27. 7. 1891</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1891-05-06_01">Hofmannsthal an Schnitzler, [6.&#160;5.&#160;1891?]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1891-07-27_01">Schnitzler an Hofmannsthal, 27.&#160;7.&#160;1891</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -109,126 +113,61 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00006"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00005"/>
-                        <placeName key="pmb573">Bad Fuſch</placeName>,
-                        <date>13 Juli</date>.</dateline>
-                </opener>
-                <p>Mir fehlt hier irgend etwas; was, weiß ich ſelbſt nicht. Vielleicht Sonne.
-                    Vielleicht Lärm. Dann wird wohl <placeName key="pmb30">Salzburg</placeName>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00005"/><rs ref="#pmb573" type="place">Bad Fuſch</rs>,
+                        <date>13&#160;Juli</date>.</dateline></opener><p>Mir fehlt hier irgend etwas; was, weiß ich ſelbſt nicht. Vielleicht Sonne.
+                    Vielleicht Lärm. Dann wird wohl <rs ref="#pmb30" type="place">Salzburg</rs>
                     helfen. Ich habe einen dicken <anchor type="commentary" xml:id="KL2020-1"/>Paletot<note type="commentary" xml:id="KL2020-1h">Herrenmantel.</note> an,
                     auf dem Papier tanzen grelle kalte Lichter, der Brunnen plätſchert und es riecht
                     nach reinlichen kleinen Kindern. Wenn das eine Stimmung iſt, ſo iſts zumindeſten
-                    nicht die, die ich brauchen kann. <anchor type="commentary" xml:id="KL2020-2"/>
-                    <hi rend="latintype">En attendant</hi>
-                    <note type="commentary" xml:id="KL2020-2h">frz. in Erwartung.</note>
-               <space unit="chars" quantity="1"/>
-               <anchor type="commentary" xml:id="KL2020-3"/>les’ ich
-                        <persName key="pmb12358">Nietzſche</persName>
-               <note type="commentary" xml:id="KL2020-3h">
-                  <bibl>Friedrich Nietzsche: <workName key="pmb42824">Menschliches, Allzumenschliches.
-                            Ein Buch für freie Geister</workName>. Chemnitz:
-                                <orgName key="pmb42826">Schmeitzner</orgName>
-                     <space unit="chars" quantity="1"/>
-                     <date>1878</date>
-                  </bibl>.</note> und freue mich wie in ſeiner
+                    nicht die, die ich brauchen kann. <anchor type="commentary" xml:id="KL2020-2"/><hi rend="latintype">En attendant</hi><note type="commentary" xml:id="KL2020-2h">frz. in Erwartung.</note><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KL2020-3"/>les’ ich
+                        <rs ref="#pmb12358" type="person">Nietzſche</rs><note type="commentary" xml:id="KL2020-3h"><bibl>Friedrich Nietzsche: <rs ref="#pmb42824" type="work">Menschliches, Allzumenschliches.
+                            Ein Buch für freie Geister</rs>. Chemnitz:
+                                <rs ref="#pmb42826" type="organisation">Schmeitzner</rs><space unit="chars" quantity="1"/><date>1878</date></bibl>.</note> und freue mich wie in ſeiner
                     kalten Klarheit, der »<anchor type="commentary" xml:id="KL2020-4"/>hellen Luft
-                    der Cordilleren<note type="commentary" xml:id="KL2020-4h">
-                        <persName key="pmb11740">Hofmannsthal</persName> markiert die Stelle
+                    der Cordilleren<note type="commentary" xml:id="KL2020-4h"><rs ref="#pmb11740" type="person">Hofmannsthal</rs> markiert die Stelle
                         eindeutig als Zitat. Dabei variiert er zumindest seine eigenen
-                        Aufzeichnungen vom <date>21. 5. 1891</date>: »<quote>In <persName key="pmb12358">Nietzsche</persName> ist die freudige Klarheit der
+                        Aufzeichnungen vom <date>21.&#160;5.&#160;1891</date>: »<quote>In <rs ref="#pmb12358" type="person">Nietzsche</rs> ist die freudige Klarheit der
                             Zerstörung wie in einem einem hellen Sturm der Cordilleren oder in dem
-                            reinen Lodern grosser Flammen</quote>«. (<bibl>
-                            <persName key="pmb11740">Hugo von Hofmannsthal</persName>:
-                                <workName>Bibliothek</workName>. Hg. Ellen Ritter † in
+                            reinen Lodern grosser Flammen</quote>«. (<bibl><rs ref="#pmb11740" type="person">Hugo von Hofmannsthal</rs>:
+                                <rs type="work">Bibliothek</rs>. Hg. Ellen Ritter † in
                             Zusammenarbeit mit Dalia Bukauskaite und Konrad Heumann. Frankfurt am
-                            Main: <orgName key="pmb29639">S. Fischer</orgName>
-                            <space unit="chars" quantity="1"/>
-                            <date>2011</date>, S. 108 (<workName>Sämtliche Werke</workName>,
+                            Main: <rs ref="#pmb29639" type="organisation">S.&#160;Fischer</rs><space unit="chars" quantity="1"/><date>2011</date>, S.&#160;108 (<rs type="work">Sämtliche Werke</rs>,
                             XL)</bibl>.) Vgl. auch den Briefentwurf in der gedruckten Ausgabe,
-                        S. 323.</note>«, meine eigenen Gedanken ſchön cryſtalliſieren. Ich denke
+                        S.&#160;323.</note>«, meine eigenen Gedanken ſchön cryſtalliſieren. Ich denke
                     ſehr viel, wie immer wenn mir nichts einfällt, und ſchlecke künftige
                     Geburtstagstorten ab: das heißt, ich genieße in zahlloſen Plänen das Beſte von
                     künftigen Arbeiten: das Grauen vor der tragiſchen Situation und die Freude am
                     Combinieren. Wozu verdirbt man ſich das eigentlich alles, indem man die
                     ſchlechteſte Momentphotographie davon feſthält und aufhebt? Dumme Frage <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00006"/>übrigens, Kunſt kommt von
-                    Können und Können heißt ſchreibenkönnen. (<anchor type="commentary" xml:id="KL2020-5"/>
-                    <workName key="pmb35942">
-                        <hi rend="latintype">Mod. Rundschau</hi>
-                    </workName> 5 u. 6 Heft, Seite 17<c rendition="#dots" n="3"/>ff.<note type="commentary" xml:id="KL2020-5h">
-                        <bibl>
-                            <persName key="pmb10815">Hermann Bahr</persName>: <workName key="pmb33672">Vorsatz.</workName> In: <workName key="pmb35942">Moderne Rundschau</workName>, Bd. 3, H. 5/6,
-                                <date>15. 6. 1891</date>, S. 178–180</bibl>. Es handelt sich um die
-                            »<quote>Einleitung zu <persName key="pmb10815">Bahr</persName>’s
-                            demnächst (bei <orgName key="pmb29771">E. Pierson</orgName> in
-                                <placeName key="pmb866">Dresden</placeName>) erscheinendem neuesten
-                            Buche: ›<workName key="pmb30175">Russische Reise, ein lyrischer
-                                Zwischenakt</workName>‹.</quote>«</note>)</p>
-                <p>So dumme Fragen frage ich nur wenn ich Gedanken denke ſtatt mein Leben zu leben.
-                    Ich möchte mich alſo verlieben, oder täglich <hi rend="latintype">lawn-tennis</hi> ſpielen, oder meinetwegen <anchor type="commentary" xml:id="KL2020-6"/>
-                    <hi rend="latintype">Macao</hi>
-                    <note type="commentary" xml:id="KL2020-6h">Glücksspiel mit Karten.</note>, oder
-                    ſonſt eine Beſchäftigung erleben.</p>
-                <p>Sonſt werd ich noch ein »ganzer Politiker«, wie der <rs type="person" key="pmb27759">Sauhirt</rs> von ſeinem alten Vorſtehhund neulich ſagte, der
-                    aus Altersſchwäche dumm geworden iſt. Der <rs type="person" key="pmb27759">Sauhirt</rs> iſt keine <hi rend="latintype">Fiction</hi>, ſondern mein
-                    liebſter Umgang, ſeine <rs type="person" key="pmb29192">Tochter</rs> aber, das
-                    liebliche Saumenſch, heißt <rs type="work" key="pmb31951">
-                        <hi rend="latintype">Berenike</hi>
-                    </rs> (abgek. <persName key="pmb29192">
-                        <hi rend="latintype">Vroni</hi>
-                    </persName>) und war zu ihrer Blütezeit Kellnerin. Außerdem laſſe ich mir von
-                    einer alten <rs type="person" key="pmb5877">Engländerin</rs> auf naſskalten
-                    Spaziergängen viel erzählen: von der <geogName type="bay">
-                        <hi rend="latintype">Mozambiquebai</hi>
-                    </geogName>, wo die Leute meiſtens Würmer unter der Haut haben (ſie war dort als
+                    Können und Können heißt ſchreibenkönnen. (<anchor type="commentary" xml:id="KL2020-5"/><rs ref="#pmb35942" type="work"><hi rend="latintype">Mod. Rundschau</hi></rs> 5 u. 6 Heft, Seite 17<c rendition="#dots" n="3"/>ff.<note type="commentary" xml:id="KL2020-5h"><bibl><rs ref="#pmb10815" type="person">Hermann Bahr</rs>: <rs ref="#pmb33672" type="work">Vorsatz.</rs> In: <rs ref="#pmb35942" type="work">Moderne Rundschau</rs>, Bd.&#160;3, H.&#160;5/6,
+                                <date>15.&#160;6.&#160;1891</date>, S.&#160;178–180</bibl>. Es handelt sich um die
+                            »<quote>Einleitung zu <rs ref="#pmb10815" type="person">Bahr</rs>’s
+                            demnächst (bei <rs ref="#pmb29771" type="organisation">E. Pierson</rs> in
+                                <rs ref="#pmb866" type="place">Dresden</rs>) erscheinendem neuesten
+                            Buche: ›<rs ref="#pmb30175" type="work">Russische Reise, ein lyrischer
+                                Zwischenakt</rs>‹.</quote>«</note>)</p><p>So dumme Fragen frage ich nur wenn ich Gedanken denke ſtatt mein Leben zu leben.
+                    Ich möchte mich alſo verlieben, oder täglich <hi rend="latintype">lawn-tennis</hi> ſpielen, oder meinetwegen <anchor type="commentary" xml:id="KL2020-6"/><hi rend="latintype">Macao</hi><note type="commentary" xml:id="KL2020-6h">Glücksspiel mit Karten.</note>, oder
+                    ſonſt eine Beſchäftigung erleben.</p><p>Sonſt werd ich noch ein »ganzer Politiker«, wie der <rs type="person" ref="#pmb27759" subtype="implied">Sauhirt</rs> von ſeinem alten Vorſtehhund neulich ſagte, der
+                    aus Altersſchwäche dumm geworden iſt. Der <rs type="person" ref="#pmb27759" subtype="implied">Sauhirt</rs> iſt keine <hi rend="latintype">Fiction</hi>, ſondern mein
+                    liebſter Umgang, ſeine <rs type="person" ref="#pmb29192" subtype="implied">Tochter</rs> aber, das
+                    liebliche Saumenſch, heißt <rs type="work" ref="#pmb31951" subtype="implied"><hi rend="latintype">Berenike</hi></rs> (abgek. <rs ref="#pmb29192" type="person"><hi rend="latintype">Vroni</hi></rs>) und war zu ihrer Blütezeit Kellnerin. Außerdem laſſe ich mir von
+                    einer alten <rs type="person" ref="#pmb5877" subtype="implied">Engländerin</rs> auf naſskalten
+                    Spaziergängen viel erzählen: von der <geogName type="bay"><hi rend="latintype">Mozambiquebai</hi></geogName>, wo die Leute meiſtens Würmer unter der Haut haben (ſie war dort als
                     junge Frau) oder von dem häſslichen <hi rend="latintype">boycott</hi> in
-                        <placeName key="pmb577">
-                        <country>
-                            <hi rend="latintype">Irland</hi>
-                        </country>
-                    </placeName> und den ſchönen rothhaarigen <hi rend="latintype">Cocotten</hi> von
-                        <placeName key="pmb1267">Dublin</placeName> (von denen ſpricht ſie ſo giftig
+                        <rs ref="#pmb577" type="place"><country><hi rend="latintype">Irland</hi></country></rs> und den ſchönen rothhaarigen <hi rend="latintype">Cocotten</hi> von
+                        <rs ref="#pmb1267" type="place">Dublin</rs> (von denen ſpricht ſie ſo giftig
                     gut, wie aus einem <hi rend="latintype">ressentiment</hi> heraus, ſie muſs dort
-                    etwas unangenehmes erlebt haben) oder von <persName key="pmb5869">
-                        <hi rend="latintype">Henry Irving</hi>
-                    </persName> oder von <persName key="pmb5874">
-                        <hi rend="latintype">Sir Laurence Oliphant</hi>
-                    </persName>, dem großen Medium. </p>
-                <p>
-                    <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00006"/>Ihre <anchor type="commentary" xml:id="KL2020-7"/>Tochter<note type="commentary" xml:id="KL2020-7h">keine weiblichen Nachkommen nachweisbar</note> wäre mir
-                    natürlich lieber, aber die iſt in <placeName key="pmb1268">
-                        <country>Ceylon</country>
-                    </placeName>. Ich leſe <persName key="pmb2495">
-                        <hi rend="latintype">Homer</hi>
-                    </persName>, <persName key="pmb12201">
-                        <hi rend="latintype">Maupassant</hi>
-                    </persName>, das <orgName key="pmb29610">Linzer Volksblatt</orgName>, <persName key="pmb11233">Eichendorff</persName> und <rs type="work" key="pmb31951">
-                        <anchor type="commentary" xml:id="KL2020-8"/>
-                        <hi rend="latintype">cette touchante histoire de petite Secousse</hi>
-                        <note type="commentary" xml:id="KL2020-8h">frz. die rührende Geschichte von
-                            der kleinen Schüttlerin. (<persName key="pmb3892">Barrès</persName>
-                            bezeichnet so die Hauptfigur <rs type="work" key="pmb31951">Berénice</rs>).</note>
-                    </rs>, die manchmal ſo ſchön iſt, <anchor type="commentary" xml:id="KL2020-9"/>
-                    <hi rend="latintype">qu’elle donne presque envie de pleurer</hi>
-                    <note type="commentary" xml:id="KL2020-9h">frz. dass sie nahezu Lust zu weinen
-                        macht.</note>, trotz <rs type="person" key="pmb5864">
-                        <hi rend="latintype">Boulange</hi>
-                    </rs>, Mysti-, <del rend="strikethrough">Ch<gap quantity="3" reason="illegible" unit="chars"/>
-                    </del>-, Stoi- und Katholi-cismus. Ich habe gar keine eigenen Empfindungen,
+                    etwas unangenehmes erlebt haben) oder von <rs ref="#pmb5869" type="person"><hi rend="latintype">Henry Irving</hi></rs> oder von <rs ref="#pmb5874" type="person"><hi rend="latintype">Sir Laurence Oliphant</hi></rs>, dem großen Medium. </p><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00006"/>Ihre <anchor type="commentary" xml:id="KL2020-7"/>Tochter<note type="commentary" xml:id="KL2020-7h">keine weiblichen Nachkommen nachweisbar</note> wäre mir
+                    natürlich lieber, aber die iſt in <rs ref="#pmb1268" type="place"><country>Ceylon</country></rs>. Ich leſe <rs ref="#pmb2495" type="person"><hi rend="latintype">Homer</hi></rs>, <rs ref="#pmb12201" type="person"><hi rend="latintype">Maupassant</hi></rs>, das <rs ref="#pmb29610" type="organisation">Linzer Volksblatt</rs>, <rs ref="#pmb11233" type="person">Eichendorff</rs> und <rs type="work" ref="#pmb31951" subtype="implied"><anchor type="commentary" xml:id="KL2020-8"/><hi rend="latintype">cette touchante histoire de petite Secousse</hi><note type="commentary" xml:id="KL2020-8h">frz. die rührende Geschichte von
+                            der kleinen Schüttlerin. (<rs ref="#pmb3892" type="person">Barrès</rs>
+                            bezeichnet so die Hauptfigur <rs type="work" ref="#pmb31951" subtype="implied">Berénice</rs>).</note></rs>, die manchmal ſo ſchön iſt, <anchor type="commentary" xml:id="KL2020-9"/><hi rend="latintype">qu’elle donne presque envie de pleurer</hi><note type="commentary" xml:id="KL2020-9h">frz. dass sie nahezu Lust zu weinen
+                        macht.</note>, trotz <rs type="person" ref="#pmb5864" subtype="implied"><hi rend="latintype">Boulange</hi></rs>, Mysti-, <del rend="strikethrough">Ch<gap quantity="3" reason="illegible" unit="chars"/></del>-, Stoi- und Katholi-cismus. Ich habe gar keine eigenen Empfindungen,
                     citiere fortwährend in Gedanken mich ſelbſt oder andere, habe auch die dumme
-                    letzte Scene von »<workName key="pmb30141">Geſtern</workName>« noch immer nicht
-                    fertig gebracht, dafür aber von <persName key="pmb11485">Goldmann</persName>,
+                    letzte Scene von »<rs ref="#pmb30141" type="work">Geſtern</rs>« noch immer nicht
+                    fertig gebracht, dafür aber von <rs ref="#pmb11485" type="person">Goldmann</rs>,
                     der immer auf der Eiſenbahn zu ſein ſcheint eine, ſoweit man ſie leſen kann,
                     ſehr herzliche Karte bekommen. Jetzt muſs ich packen (ganz origineller Abgang!)
                     ſchreiben Sie mir, mein verehrter Freund, bitte, bald und geben Sie Ihr Project
-                    mich irgendwo zu beſuchen, nicht auf.</p>
-                <closer>Herzlichſt<lb/>
-                    <signed>Loris</signed>
-                </closer>
-            </div>
-        </body>
+                    mich irgendwo zu beſuchen, nicht auf.</p><closer>Herzlichſt<lb/><signed>Loris</signed></closer></div></body>
     </text>
 </TEI>

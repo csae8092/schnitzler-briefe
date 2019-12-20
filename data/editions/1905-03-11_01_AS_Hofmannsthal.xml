@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1905-03-11_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1905-03-11_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 11. 3. 1905</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 11.&#160;3.&#160;1905</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -52,15 +56,15 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Bildpostkarte, Bleistift. Motiv: »<pb facs="Hs-30885,2_002.TIF "/>
-                                    <placeName key="pmb1278">Messina<space unit="chars" quantity="3"/>Chiesa S. Gregorio</placeName>«.</p>
+                                    <rs ref="#pmb1278" type="place">Messina<space unit="chars" quantity="3"/>Chiesa S. Gregorio</rs>«.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb1277">Messi<supplied>na</supplied>
-                           </placeName>
+                                    <rs ref="#pmb1277" type="place">Messi<supplied>na</supplied>
+                           </rs>
                                     <date when="1905-03-11">11 3-05</date>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb1006">Rodaun</placeName>
-                                    <date when="1905-03-14">14. 3. 05</date>
+                                    <rs ref="#pmb1006" type="place">Rodaun</rs>
+                                    <date when="1905-03-14">14.&#160;3.&#160;05</date>
                                 </stamp>
                             </physDesc>
                         </msDesc>
@@ -69,8 +73,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -89,19 +93,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb1277">Messina</placeName>
-                    <date when="1905-03-11" n="01">11. 3. 1905</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb1277">Messina</placeName>
+                    <date when="1905-03-11" n="01">11.&#160;3.&#160;1905</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb1006">Wien</placeName>
-                    <date when="1905-03-14">14. 3. 1905</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb1006">Wien</placeName>
+                    <date when="1905-03-14">14.&#160;3.&#160;1905</date>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1905-02-16_01">Hofmannsthal an Schnitzler, 16. 2. 1905</ptr>
-               <ptr type="next" subtype="toAuthor" target="1905-03-14_01">Hofmannsthal an Schnitzler, 14. 3. 1905</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1905-02-16_01">Hofmannsthal an Schnitzler, 16.&#160;2.&#160;1905</ptr>
+               <ptr type="next" subtype="toAuthor" target="1905-03-14_01">Hofmannsthal an Schnitzler, 14.&#160;3.&#160;1905</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -111,44 +115,6 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <placeName key="pmb41240">
-                     <country>Austria</country>
-                  </placeName>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">Hugo v Hofmannsthal</hi>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb1006">Rodaun</placeName>
-                        <space unit="chars" quantity="1"/>
-                        <add place="margin">
-                            <hi rend="latintype">bei <placeName key="pmb50">Wien</placeName>
-                            </hi>
-                        </add>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb1006">
-                     <hi rend="latintype">Badgasse</hi>
-                  </placeName>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <p>
-                    <pb facs="Hs-30885,2_002.TIF "/>Herzliche Grüße!</p>
-                <closer>
-                    <signed>A.</signed>
-                </closer>
-                <postscript>
-                    <dateline>
-                        <date>11. 3. 905</date>
-                    </dateline>
-                </postscript>
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine><rs ref="#pmb41240" type="place"><country>Austria</country></rs></addrLine><addrLine><hi rend="latintype">Hugo v Hofmannsthal</hi></addrLine><addrLine><rs ref="#pmb1006" type="place">Rodaun</rs><space unit="chars" quantity="1"/><add place="margin"><hi rend="latintype">bei <rs ref="#pmb50" type="place">Wien</rs></hi></add></addrLine><addrLine><rs ref="#pmb1006" type="place"><hi rend="latintype">Badgasse</hi></rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="Hs-30885,2_002.TIF "/>Herzliche Grüße!</p><closer><signed>A.</signed></closer><postscript><dateline><date>11.&#160;3.&#160;905</date></dateline></postscript></div></body>
     </text>
 </TEI>

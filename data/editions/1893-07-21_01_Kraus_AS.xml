@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-07-21_01_Kraus_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-07-21_01_Kraus_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Karl Kraus an Arthur Schnitzler, 21. 7. 1893</title>
-                <author key="pmb11988">Kraus, Karl</author>
+                <title level="a">Karl Kraus an Arthur Schnitzler, 21.&#160;7.&#160;1893</title>
+                <author ref="#pmb11988">Kraus, Karl</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,12 +52,12 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 55</idno>
+                                <idno>Schnitzler, B&#160;55</idno>
                             </msIdentifier>
-                            <physDesc>eh. Brief mit Briefkopf, 1 Bl., 4 S., schwarze Tinte. Auf S. 4
+                            <physDesc>eh. Brief mit Briefkopf, 1&#160;Bl., 4&#160;S., schwarze Tinte. Auf S. 4
                                 in der Handschrift von Kraus mitten auf dem sonst leeren Blatt auf
                                 dem Kopf »Schnitzler«. Beigefügtes Manuskript ebenfalls eh. Brief
-                                mit Briefkopf, 1 Bl., 1 S. </physDesc>
+                                mit Briefkopf, 1&#160;Bl., 1&#160;S. </physDesc>
                         </msDesc>
                     </witness>
                 </listWit>
@@ -81,18 +85,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11988">Kraus, Karl</persName>
-                    <placeName key="pmb213">Bad Ischl</placeName>
-                    <date when="1893-07-21" n="01">21. 7. 1893</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11988">Kraus, Karl</persName>
+                    <placeName ref="#pmb213">Bad Ischl</placeName>
+                    <date when="1893-07-21" n="01">21.&#160;7.&#160;1893</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-05-05_01">Kraus an Schnitzler, 5. 5. 1893</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-07-27_01">Kraus an Schnitzler, 27. 7. 1893</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-05-05_01">Kraus an Schnitzler, 5.&#160;5.&#160;1893</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-07-27_01">Kraus an Schnitzler, 27.&#160;7.&#160;1893</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -109,160 +113,52 @@
         <graphic url="MS-SCHNITZLER-B-00055-000-00027"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p>
-                        <seg rend="left">
-                            <pb facs="MS-SCHNITZLER-B-00055-000-00007"/>
-                            <hi rend="pre-print">KARL KRAUS</hi>
-                        </seg>
-                        <seg rend="right">
-                            <subst>
-                                <del rend="strikethrough">
-                                    <hi rend="pre-print">
-                                        <placeName key="pmb1178">Wien I., Maximilianstrasse
-                                            13</placeName>.</hi>
-                                </del>
-                                <add place="above">
-                                    <placeName key="pmb213">Ischl</placeName>
-                                </add>
-                            </subst>
-                            <space unit="chars" quantity="1"/>
-                            <date>21. Juli, <hi rend="pre-print">189</hi>3</date>
-                        </seg>
-                    </p>
-                    <salute>Mein liebſter, verehrter Herr Doctor!</salute>
-                </opener>
-                <p>Daſs Sie ſo »ſpurlos« ſich auch dem Staube gemacht haben, thut mir ſehr leid.
-                    Seit Ihrer Vorſtellung haben wir uns ja gar nicht gesprochen.</p>
-                <p>»Sieh’ſt du, <hi rend="underline" n="1">das</hi>
-                    <space unit="chars" quantity="1"/>
-                    <hi rend="underline" n="7">hätt</hi>’ (!!!!) ich dir <add place="above">doch</add> nicht geſagt!« – ich werde dieſen genialen Zug in Frl. <persName key="pmb5621">Falkner</persName>’s Darſtellung nie vergeſſen. Und darauf noch
-                    dröhnender Abgangsapplaus, der <del rend="strikethrough">d</del> auch die <hi rend="underline" n="1">zweite</hi> Schluſspointe (»<rs type="work" key="pmb30005">Es iſt ja leicht gegangen etc</rs>«) unmöglich machte! Von
-                    dem »Bordellſtück« »<workName key="pmb30005">Abſchiedsouper</workName>« wird
-                    hier viel geſprochen.</p>
-                <p>Meine herzlichſte Gratulation zur <anchor type="commentary" xml:id="KL925-1"/>
-                    <rs type="work" key="pmb32027">Kritik</rs>
-                    <note type="commentary" xml:id="KL925-1h">
-                        <bibl>[O. V.:] <workName key="pmb32027">[Aus Ischl, 14. Juli, schreibt man
-                                uns]</workName>. In: <workName key="pmb36374">Neue Freie
-                                Presse</workName>, Nr. 10.381, <date>18. 7. 1893</date>,
-                            S. 6</bibl>.</note> in <workName key="pmb36374">N. Fr. Preſſe</workName> (und
-                        <anchor type="commentary" xml:id="KL925-2"/>
-                    <rs type="work" key="pmb33440">
-                        <persName key="pmb2150">Bauer</persName>
-                    </rs>
-                    <note type="commentary" xml:id="KL925-2h">
-                        <bibl>[O. V. = <persName key="pmb2150">Julius Bauer</persName>:] <workName key="pmb33440">[Abschiedssouper in Ischl]</workName>. In: <workName key="pmb41484">Illustrirtes Wiener Extrablatt</workName>, Jg. 22,
-                            Nr. 196, <date>18. 7. 1893</date>, S. 5</bibl>.</note> im <orgName key="pmb29720">Extrablatt</orgName>)! Sehr dämlich hat ſich Herr <anchor type="commentary" xml:id="KL925-3"/>
-                    <persName key="pmb12796">Skrein</persName>
-                    <note type="commentary" xml:id="KL925-3h">
-                        <bibl>
-                            <persName key="pmb12796">Stefan</persName>: <workName key="pmb33442">Ischler Brief</workName>. In: <workName key="pmb39950">Wiener
-                                Allgemeine Zeitung</workName>, Jg. 14, Nr. 4593, <date>18. 7. 1893,
-                            </date>S. 2</bibl>.</note> in der »<orgName key="pmb29670">Allgemeinen</orgName>« <rs type="work" key="pmb33442">geäußert</rs>.</p>
-                <p>Dies mal haben <orgName key="pmb29351">N. Fr. Pr.</orgName> u. <orgName key="pmb29670">Allgemeine</orgName> die Rollen getauſcht.</p>
-                <p>
-                    <pb facs="MS-SCHNITZLER-B-00055-000-00008"/>Ich habe eine <rs type="work" key="pmb33446">Notiz</rs> an das <orgName key="pmb29312">Wiener
-                        Tagblatt</orgName>
-                    <space unit="chars" quantity="1"/>
-                    <anchor type="commentary" xml:id="KL925-4"/>geſchickt<note type="commentary" xml:id="KL925-4h">
-                        <bibl>[O. V.:] <workName key="pmb33446">Ischler Sommertheater</workName>.
-                            In: <workName key="pmb41321">Wiener Abendblatt</workName>, Jg. 29,
-                            Nr. 199, <date>21. 7. 1893</date>, S. 4</bibl>.</note>; <hi rend="underline" n="1">hoffentlich</hi>
-                    <space unit="chars" quantity="1"/>
-                    <hi rend="underline" n="1">wird</hi> (oder, wenn Sie dieſen Brief erhalten) <hi rend="underline" n="1">wurde</hi> es gedruckt. Im <orgName key="pmb29625">
-                        <hi rend="underline" n="1">Magazin</hi>
-                    </orgName> wird nichts erſcheinen. Allerdings bin ich nicht ſchuld. Damit Sie
-                    meinen guten Willen ſehen, ſende ich Ihnen beiliegend meine <subst>
-                        <del rend="strikethrough">Kritik</del>
-                        <add place="above">Notiz</add>
-                    </subst>, die mir heute <persName key="pmb12348">Neumann-Hofer</persName>
-                    zurückſandte – mit der Bemerkung:</p>
-                <p>»Eine Vorſtellung in <placeName key="pmb213">Ischl</placeName> kann in einem
+        <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs="MS-SCHNITZLER-B-00055-000-00007"/><hi rend="pre-print">KARL KRAUS</hi></seg><seg rend="right"><subst><del rend="strikethrough"><hi rend="pre-print"><rs ref="#pmb1178" type="place">Wien I., Maximilianstrasse
+                                            13</rs>.</hi></del><add place="above"><rs ref="#pmb213" type="place">Ischl</rs></add></subst><space unit="chars" quantity="1"/><date>21.&#160;Juli, <hi rend="pre-print">189</hi>3</date></seg></p><salute>Mein liebſter, verehrter Herr Doctor!</salute></opener><p>Daſs Sie ſo »ſpurlos« ſich auch dem Staube gemacht haben, thut mir ſehr leid.
+                    Seit Ihrer Vorſtellung haben wir uns ja gar nicht gesprochen.</p><p>»Sieh’ſt du, <hi rend="underline" n="1">das</hi><space unit="chars" quantity="1"/><hi rend="underline" n="7">hätt</hi>’ (!!!!) ich dir <add place="above">doch</add> nicht geſagt!« – ich werde dieſen genialen Zug in Frl. <rs ref="#pmb5621" type="person">Falkner</rs>’s Darſtellung nie vergeſſen. Und darauf noch
+                    dröhnender Abgangsapplaus, der <del rend="strikethrough">d</del> auch die <hi rend="underline" n="1">zweite</hi> Schluſspointe (»<rs type="work" ref="#pmb30005" subtype="implied">Es iſt ja leicht gegangen etc</rs>«) unmöglich machte! Von
+                    dem »Bordellſtück« »<rs ref="#pmb30005" type="work">Abſchiedsouper</rs>« wird
+                    hier viel geſprochen.</p><p>Meine herzlichſte Gratulation zur <anchor type="commentary" xml:id="KL925-1"/><rs type="work" ref="#pmb32027" subtype="implied">Kritik</rs><note type="commentary" xml:id="KL925-1h"><bibl>[O.&#160;V.:] <rs ref="#pmb32027" type="work">[Aus Ischl, 14. Juli, schreibt man
+                                uns]</rs>. In: <rs ref="#pmb36374" type="work">Neue Freie
+                                Presse</rs>, Nr.&#160;10.381, <date>18.&#160;7.&#160;1893</date>,
+                            S.&#160;6</bibl>.</note> in <rs ref="#pmb36374" type="work">N.&#160;Fr. Preſſe</rs> (und
+                        <anchor type="commentary" xml:id="KL925-2"/><rs type="work" ref="#pmb33440" subtype="implied"><rs ref="#pmb2150" type="person">Bauer</rs></rs><note type="commentary" xml:id="KL925-2h"><bibl>[O.&#160;V. = <rs ref="#pmb2150" type="person">Julius Bauer</rs>:] <rs ref="#pmb33440" type="work">[Abschiedssouper in Ischl]</rs>. In: <rs ref="#pmb41484" type="work">Illustrirtes Wiener Extrablatt</rs>, Jg.&#160;22,
+                            Nr.&#160;196, <date>18.&#160;7.&#160;1893</date>, S.&#160;5</bibl>.</note> im <rs ref="#pmb29720" type="organisation">Extrablatt</rs>)! Sehr dämlich hat ſich Herr <anchor type="commentary" xml:id="KL925-3"/><rs ref="#pmb12796" type="person">Skrein</rs><note type="commentary" xml:id="KL925-3h"><bibl><rs ref="#pmb12796" type="person">Stefan</rs>: <rs ref="#pmb33442" type="work">Ischler Brief</rs>. In: <rs ref="#pmb39950" type="work">Wiener
+                                Allgemeine Zeitung</rs>, Jg.&#160;14, Nr.&#160;4593, <date>18.&#160;7.&#160;1893,
+                            </date>S.&#160;2</bibl>.</note> in der »<rs ref="#pmb29670" type="organisation">Allgemeinen</rs>« <rs type="work" ref="#pmb33442" subtype="implied">geäußert</rs>.</p><p>Dies mal haben <rs ref="#pmb29351" type="organisation">N.&#160;Fr.&#160;Pr.</rs> u. <rs ref="#pmb29670" type="organisation">Allgemeine</rs> die Rollen getauſcht.</p><p><pb facs="MS-SCHNITZLER-B-00055-000-00008"/>Ich habe eine <rs type="work" ref="#pmb33446" subtype="implied">Notiz</rs> an das <rs ref="#pmb29312" type="organisation">Wiener
+                        Tagblatt</rs><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KL925-4"/>geſchickt<note type="commentary" xml:id="KL925-4h"><bibl>[O.&#160;V.:] <rs ref="#pmb33446" type="work">Ischler Sommertheater</rs>.
+                            In: <rs ref="#pmb41321" type="work">Wiener Abendblatt</rs>, Jg.&#160;29,
+                            Nr.&#160;199, <date>21.&#160;7.&#160;1893</date>, S.&#160;4</bibl>.</note>; <hi rend="underline" n="1">hoffentlich</hi><space unit="chars" quantity="1"/><hi rend="underline" n="1">wird</hi> (oder, wenn Sie dieſen Brief erhalten) <hi rend="underline" n="1">wurde</hi> es gedruckt. Im <rs ref="#pmb29625" type="organisation"><hi rend="underline" n="1">Magazin</hi></rs> wird nichts erſcheinen. Allerdings bin ich nicht ſchuld. Damit Sie
+                    meinen guten Willen ſehen, ſende ich Ihnen beiliegend meine <subst><del rend="strikethrough">Kritik</del><add place="above">Notiz</add></subst>, die mir heute <rs ref="#pmb12348" type="person">Neumann-Hofer</rs>
+                    zurückſandte – mit der Bemerkung:</p><p>»Eine Vorſtellung in <rs ref="#pmb213" type="place">Ischl</rs> kann in einem
                     Wochenblatte nicht beſprochen werden. Solche gelegentlichen Ereigniſſe ſind auf
-                    die Notiznahme ſeitens der Tagesblätter beſchränkt.« Na, alſo! –</p>
-                <p>
-                    <persName key="pmb2446">Devrient</persName>’s Vorleſung war famos: namentlich
-                        <persName key="pmb11342">Fontane</persName>.</p>
-                <p> Ich habe ihm gleich nach unſerer ſeinerzeit. Unterredung nach <placeName key="pmb50">Wien</placeName> geſchrieben, er ſolle <pb facs="MS-SCHNITZLER-B-00055-000-00008"/>
-                    <persName key="pmb12071">Liliencron</persName> leſen. Nun hat er mich – ſelbſt
-                    aufgeſucht. Liebenswürdig, was? Wie gedruckt; <persName key="pmb12071">Liliencron</persName>, den er ſich gleich kaufte, hat ihn <hi rend="underline" n="1">entzückt</hi> u. er wird ihn beſtimmt in <placeName key="pmb50">
-                        <hi rend="underline" n="1">Wien</hi>
-                    </placeName> vorleſen. Er fragte mich auch, ob ich Gedichte von <hi rend="underline" n="2">Ihnen</hi> hätte; er wollte ſie nämlich in <placeName key="pmb772">Marienbad</placeName>, wohin er ſich noch am Tage des Beſuches
+                    die Notiznahme ſeitens der Tagesblätter beſchränkt.« Na, alſo!&#160;–</p><p><rs ref="#pmb2446" type="person">Devrient</rs>’s Vorleſung war famos: namentlich
+                        <rs ref="#pmb11342" type="person">Fontane</rs>.</p><p> Ich habe ihm gleich nach unſerer ſeinerzeit. Unterredung nach <rs ref="#pmb50" type="place">Wien</rs> geſchrieben, er ſolle <pb facs="MS-SCHNITZLER-B-00055-000-00008"/><rs ref="#pmb12071" type="person">Liliencron</rs> leſen. Nun hat er mich – ſelbſt
+                    aufgeſucht. Liebenswürdig, was? Wie gedruckt; <rs ref="#pmb12071" type="person">Liliencron</rs>, den er ſich gleich kaufte, hat ihn <hi rend="underline" n="1">entzückt</hi> u. er wird ihn beſtimmt in <rs ref="#pmb50" type="place"><hi rend="underline" n="1">Wien</hi></rs> vorleſen. Er fragte mich auch, ob ich Gedichte von <hi rend="underline" n="2">Ihnen</hi> hätte; er wollte ſie nämlich in <rs ref="#pmb772" type="place">Marienbad</rs>, wohin er ſich noch am Tage des Beſuches
                     begab, vorleſen. Da nun aber die Vorleſung gleich auf den nächſten Tag angeſetzt
                     war, lehnte er auch eine eventuelles Telegramm an Sie (zu dem ich mich bereit
-                    erklärte) ab. Aber im <date>Winter</date> will er’s nachholen.</p>
-                <p>Leben Sie wohl, bitte beſte Grüße an <persName key="pmb11740">Loris</persName> u
-                        <persName key="pmb2167">Salten</persName> auszurichten!</p>
-                <closer>Herzlichſst Ihr ſehr ergebener<lb/>
-                    <signed>KarlKraus</signed>
-                </closer>
-                <postscript>
-                    <p>N.B. Was ſagen Sie zur »<orgName key="pmb29781">Freien Bühne</orgName>« in
-                            <placeName key="pmb50">Wien</placeName>, die – <persName key="pmb11243">Elbogen</persName> aufführt. Ist das nicht zum Todtlachen? Die
-                        Veranstalter ſind Revolverjournalisten.</p>
-                </postscript>
-                
-            </div>
-            <div type="writingSession" n="2">
-                <p>
-                    <seg rend="left">
-                        <pb facs="MS-SCHNITZLER-B-00055-000-00027"/>
-                        <hi rend="pre-print">KARL KRAUS</hi>
-                    </seg>
-                    <seg rend="right">
-                        <subst>
-                            <del rend="strikethrough">
-                                <hi rend="pre-print">
-                                    <placeName key="pmb1178">Wien I., Maximilianstrasse
-                                        13</placeName>.</hi>
-                            </del>
-                            <add place="below">
-                                <placeName key="pmb213">Ischl</placeName>
-                            </add>
-                        </subst>
-                        <space unit="chars" quantity="1"/>
-                        <date>15. VII <hi rend="pre-print">189</hi>3</date>
-                    </seg>
-                </p>
-                <p>
-                    <hi rend="underline" n="1">Arthur Schnitzlers</hi> einaktige Komödie »<workName key="pmb30005">Abſchiedssouper</workName>« fand im <placeName key="pmb1179">Ischler Stadttheater</placeName> ihre Probeaufführung. Das kleine
-                        <placeName key="pmb519">oberöſterreichiſche</placeName> Curorttheater iſt
-                    die erſte Bühne, die ſich des prächtigen Stückleins angenommen hat.</p>
-                <p>Der überaus lebendige, geiſtreiche Einakter, der eine geradezu bravouröſe Technik
-                    aufweist, iſt die wirkſamſte der ſieben »<workName key="pmb29935">Anatol</workName>«studien (siehe <anchor type="commentary" xml:id="KL925-5"/>
-                    <rs type="work" key="pmb33444">Besprechung</rs>
-                    <note type="commentary" xml:id="KL925-5h">
-                        <bibl>[O. V.:] <workName key="pmb33444">Arthur Schnitzler</workName>. In:
-                                <workName key="pmb40968">Das Magazin für Litteratur</workName>,
-                            Jg. 62, Nr. 18, <date>6. 5. 1893</date>, S. 294</bibl>.</note> in N<hi rend="superscript">r.</hi> 18) und fand den lebhafteſten Beifall, den nur
+                    erklärte) ab. Aber im <date>Winter</date> will er’s nachholen.</p><p>Leben Sie wohl, bitte beſte Grüße an <rs ref="#pmb11740" type="person">Loris</rs> u
+                        <rs ref="#pmb2167" type="person">Salten</rs> auszurichten!</p><closer>Herzlichſst Ihr ſehr ergebener<lb/><signed>KarlKraus</signed></closer><postscript><p>N.B. Was ſagen Sie zur »<rs ref="#pmb29781" type="organisation">Freien Bühne</rs>« in
+                            <rs ref="#pmb50" type="place">Wien</rs>, die – <rs ref="#pmb11243" type="person">Elbogen</rs> aufführt. Ist das nicht zum Todtlachen? Die
+                        Veranstalter ſind Revolverjournalisten.</p></postscript></div><div type="writingSession" n="2"><p><seg rend="left"><pb facs="MS-SCHNITZLER-B-00055-000-00027"/><hi rend="pre-print">KARL KRAUS</hi></seg><seg rend="right"><subst><del rend="strikethrough"><hi rend="pre-print"><rs ref="#pmb1178" type="place">Wien I., Maximilianstrasse
+                                        13</rs>.</hi></del><add place="below"><rs ref="#pmb213" type="place">Ischl</rs></add></subst><space unit="chars" quantity="1"/><date>15.&#160;VII <hi rend="pre-print">189</hi>3</date></seg></p><p><hi rend="underline" n="1">Arthur Schnitzlers</hi> einaktige Komödie »<rs ref="#pmb30005" type="work">Abſchiedssouper</rs>« fand im <rs ref="#pmb1179" type="place">Ischler Stadttheater</rs> ihre Probeaufführung. Das kleine
+                        <rs ref="#pmb519" type="place">oberöſterreichiſche</rs> Curorttheater iſt
+                    die erſte Bühne, die ſich des prächtigen Stückleins angenommen hat.</p><p>Der überaus lebendige, geiſtreiche Einakter, der eine geradezu bravouröſe Technik
+                    aufweist, iſt die wirkſamſte der ſieben »<rs ref="#pmb29935" type="work">Anatol</rs>«studien (siehe <anchor type="commentary" xml:id="KL925-5"/><rs type="work" ref="#pmb33444" subtype="implied">Besprechung</rs><note type="commentary" xml:id="KL925-5h"><bibl>[O.&#160;V.:] <rs ref="#pmb33444" type="work">Arthur Schnitzler</rs>. In:
+                                <rs ref="#pmb40968" type="work">Das Magazin für Litteratur</rs>,
+                            Jg.&#160;62, Nr.&#160;18, <date>6.&#160;5.&#160;1893</date>, S.&#160;294</bibl>.</note> in N<hi rend="superscript">r.</hi>&#160;18) und fand den lebhafteſten Beifall, den nur
                     einige »verſchämte«, in ihren heiligſten Gefühlen verletzte Curgäſte im
-                    Intereſſe der <subst>
-                        <del rend="overwritten">publiken und privaten</del>
-                        <add place="inline">privaten und publiken</add>
-                    </subst> Sicherheit abwehren zu müſſen glaubten. Geſpielt wurde recht brav;
-                    namentlich zeichnete ſich der treffliche <persName key="pmb2601">
-                        <hi rend="underline" n="1">Jarno</hi>
-                    </persName> vom <placeName key="pmb1180">berliner Reſidenztheater</placeName>
-                    als <rs type="work" key="pmb29935">Max</rs> aus. Die famoſe Schluſspointe gieng
-                    leider wirkungslos, weil unverſtanden, vorüber. –</p>
-                <p>Arthur Schnitzler, neben <persName key="pmb10863">Loris</persName> der
-                    talentvollſte unter den wenigen talentierten <placeName key="pmb50">Wien</placeName>ern, <del rend="strikethrough">muſste</del> hat an dieſem
-                    Abend die Concurrenz – der Herren <persName key="pmb12296">Moſer</persName>
-                    <space unit="chars" quantity="1"/>
-                    <c rendition="#kaufmannsund"/>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="pmb12261">Miſch</persName> aushalten müſſen, deren <add place="above">dreiaktiger</add> Schwank »<workName key="pmb32702 pmb32704">Fräulein Frau</workName>« gegeben wurde. Nach dem grobkörnigen
+                    Intereſſe der <subst><del rend="overwritten">publiken und privaten</del><add place="inline">privaten und publiken</add></subst> Sicherheit abwehren zu müſſen glaubten. Geſpielt wurde recht brav;
+                    namentlich zeichnete ſich der treffliche <rs ref="#pmb2601" type="person"><hi rend="underline" n="1">Jarno</hi></rs> vom <rs ref="#pmb1180" type="place">berliner Reſidenztheater</rs>
+                    als <rs type="work" ref="#pmb29935" subtype="implied">Max</rs> aus. Die famoſe Schluſspointe gieng
+                    leider wirkungslos, weil unverſtanden, vorüber.&#160;–</p><p>Arthur Schnitzler, neben <rs ref="#pmb10863" type="person">Loris</rs> der
+                    talentvollſte unter den wenigen talentierten <rs ref="#pmb50" type="place">Wien</rs>ern, <del rend="strikethrough">muſste</del> hat an dieſem
+                    Abend die Concurrenz – der Herren <rs ref="#pmb12296" type="person">Moſer</rs><space unit="chars" quantity="1"/><c rendition="#kaufmannsund"/><space unit="chars" quantity="1"/><rs ref="#pmb12261" type="person">Miſch</rs> aushalten müſſen, deren <add place="above">dreiaktiger</add> Schwank »<rs ref="#pmb32702 pmb32704" type="work">Fräulein Frau</rs>« gegeben wurde. Nach dem grobkörnigen
                     Schablonenmachwerk das graziöſe Kunſtwerkchen! Das war denn nun ein beſchämend
-                    leichter Sieg für Arthur Schnitzler. Daſs ſich gleichwohl die beiden <rs type="person" key="pmb12296 pmb12261">Schwankherren</rs> mit ihrem
-                        »<workName key="pmb32702 pmb32704">Fräulein Frau</workName>« die Bühnen
-                    früher erobert haben als Schnitzler, der ja doch zu den böſen Modernen i. e.
+                    leichter Sieg für Arthur Schnitzler. Daſs ſich gleichwohl die beiden <rs type="person" ref="#pmb12296 pmb12261" subtype="implied">Schwankherren</rs> mit ihrem
+                        »<rs ref="#pmb32702 pmb32704" type="work">Fräulein Frau</rs>« die Bühnen
+                    früher erobert haben als Schnitzler, der ja doch zu den böſen Modernen i.&#160;e.
                     »Unſittlichen« gehört, mit irgend einem ſeiner Werke, iſt bei der
-                    Einſichtsloſigkeit unſerer Bühnenleiter begreiflich. <signed>(K.K.)</signed>
-                </p>
-            </div>
-        </body>
+                    Einſichtsloſigkeit unſerer Bühnenleiter begreiflich. <signed>(K.K.)</signed></p></div></body>
     </text>
 </TEI>

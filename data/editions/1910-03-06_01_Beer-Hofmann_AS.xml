@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1910-03-06_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1910-03-06_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 6. 3. 1910</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 6.&#160;3.&#160;1910</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1910-03-06" n="01">6. 3. 1910</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1910-03-06" n="01">6.&#160;3.&#160;1910</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1909-12-16_01">Schnitzler an Beer-Hofmann, 16. 12. 1909</ptr>
-               <ptr type="next" subtype="toAuthor" target="1910-03-06_02">Schnitzler an Beer-Hofmann, 6. 3. 1910</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1909-12-16_01">Schnitzler an Beer-Hofmann, 16.&#160;12.&#160;1909</ptr>
+               <ptr type="next" subtype="toAuthor" target="1910-03-06_02">Schnitzler an Beer-Hofmann, 6.&#160;3.&#160;1910</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -100,22 +104,8 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <salute>Lieber Arthur!</salute>
-            </opener>
-            <p>
-               <persName key="pmb24239">Hans Sch.</persName> bittet mich teleph. bei Ihnen
-               anzufragen, ob er heute um <time>7 ½</time> mit dem Cellisten <persName key="pmb13742">Barczanski</persName> zu Ihnen kommen kann. Herzlichen
-               Glückwunsch</p>
-            <closer>Ihr<lb/>
-               <signed>Richard</signed>
-            </closer>
-            <postscript>
-               <p>Sie sind doch Abends eingeladen bei <persName key="pmb12968">T.</persName>?</p>
-            </postscript>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><opener><salute>Lieber Arthur!</salute></opener><p><rs ref="#pmb24239" type="person">Hans Sch.</rs> bittet mich teleph. bei Ihnen
+               anzufragen, ob er heute um <time>7&#160;½</time>&#160;mit dem Cellisten <rs ref="#pmb13742" type="person">Barczanski</rs> zu Ihnen kommen kann. Herzlichen
+               Glückwunsch</p><closer>Ihr<lb/><signed>Richard</signed></closer><postscript><p>Sie sind doch Abends eingeladen bei <rs ref="#pmb12968" type="person">T.</rs>?</p></postscript></div></body>
    </text>
 </TEI>

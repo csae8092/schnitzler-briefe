@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1904-02-22_02_AS_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1904-02-22_02_AS_Bahr">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 22. 2. 1904</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 22.&#160;2.&#160;1904</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -52,7 +56,7 @@
                         <idno>HS AM 23367 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 2 Bl., 7 S.</p>
+                        <p>eh. Brief, 2&#160;Bl., 7&#160;S.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,11 +64,11 @@
             <listBibl>
                <biblStruct corresp="DASB">
                   <analytic>
-                     <title level="a">22. 2. 1904</title>
+                     <title level="a">22.&#160;2.&#160;1904</title>
      
                   </analytic>
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint> 
@@ -81,8 +85,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -100,17 +104,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1904-02-22" n="02">22. 2. 1904</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1904-02-22" n="02">22.&#160;2.&#160;1904</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1904-02-15_01">Bahr an Schnitzler, 15. 2. 1904</ptr>
-               <ptr type="next" subtype="toAuthor" target="1904-03-05_01">Bahr an Schnitzler, [5.] 3. 1904</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1904-02-15_01">Bahr an Schnitzler, 15.&#160;2.&#160;1904</ptr>
+               <ptr type="next" subtype="toAuthor" target="1904-03-05_01">Bahr an Schnitzler, [5.] 3.&#160;1904</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -128,78 +132,47 @@
      <graphic url="HS_AM23367Ba_2_R"/>
   </facsimile>
   <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                    <placeName key="pmb50">Wien</placeName>, <date>22. 2. 904</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>mein lieber Hermann, </salute>wir waren eben in <placeName key="pmb63">Hietzing</placeName>, mit <persName key="pmb2292 pmb11740">Hugo’s</persName> u <persName key="pmb10860 pmb10863">Richards</persName>
-        u <persName key="pmb2219">Karg</persName> zusammen, u da hab ich mit großer Freude
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb50" type="place">Wien</rs>, <date>22.&#160;2.&#160;904</date></dateline></opener><p><salute>mein lieber Hermann, </salute>wir waren eben in <rs ref="#pmb63" type="place">Hietzing</rs>, mit <rs ref="#pmb2292 pmb11740" type="person">Hugo’s</rs> u <rs ref="#pmb10860 pmb10863" type="person">Richards</rs>
+        u <rs ref="#pmb2219" type="person">Karg</rs> zusammen, u da hab ich mit großer Freude
           gehört, dass du dich viel wohler befindest. Nun möchte ich aber gern recht bald
           ein Wort von dir selbst vernehmen, und wissen, wie es mit deinen Plänen für die
-          nächste Zeit steht. Ich bin seit <anchor type="commentary" xml:id="KL071-3"/>Freitag Abend<note type="commentary" xml:id="KL071-3h">Eigentlich schon seit dem <date>19. 2.</date> abends (einem Donnerstag).</note> wieder in <placeName key="pmb50">Wien</placeName>; wir (<persName key="pmb2173">Olga</persName> u ich) waren <pb facs="HS_AM23367Ba_1_R"/>auf der Rückreise einen Tag
-          in <placeName key="pmb866">Dresden</placeName> und haben allzukurze Stunden in der
-        <placeName key="pmb5">Galerie</placeName> verbracht. Über den <workName key="pmb29985">Einsamen Weg</workName> hast du wohl, soweit es sich um den
+          nächste Zeit steht. Ich bin seit <anchor type="commentary" xml:id="KL071-3"/>Freitag Abend<note type="commentary" xml:id="KL071-3h">Eigentlich schon seit dem <date>19.&#160;2.</date> abends (einem Donnerstag).</note> wieder in <rs ref="#pmb50" type="place">Wien</rs>; wir (<rs ref="#pmb2173" type="person">Olga</rs> u ich) waren <pb facs="HS_AM23367Ba_1_R"/>auf der Rückreise einen Tag
+          in <rs ref="#pmb866" type="place">Dresden</rs> und haben allzukurze Stunden in der
+        <rs ref="#pmb5" type="place">Galerie</rs> verbracht. Über den <rs ref="#pmb29985" type="work">Einsamen Weg</rs> hast du wohl, soweit es sich um den
           äußerlichen Verlauf des ersten Abends handelt, das wesentliche gelesen. Es war
           ein leidlicher Abfall, Husten und Unruhe von Anbeginn, matter Beifall nach 2. u
           3. Akt mit Widerspruch; Gelächter und starker Beifall nach dem 4. Akt, viel
           Applaus und viel Zischen am <pb facs="HS_AM23367Ba_2"/>Schluss. Der 2. Abend, ausverkauft, ging
           beträchtlich besser – und nun scheint sich, wie ich aus
-            <placeName key="pmb168">Berlin</placeName> höre, das Stück, das bei einem Theil der
+            <rs ref="#pmb168" type="place">Berlin</rs> höre, das Stück, das bei einem Theil der
           Kritik sehr lebhafte Anerkennung fand, doch einige Zeit halten zu wollen. In
-        <placeName key="pmb50">Wien</placeName> war eigentlich nur das <persName key="pmb11485">Goldmann</persName>’sche 
-               <anchor type="commentary" xml:id="KL071-1"/>
-               <rs type="work" key="pmb31277">Telegramm</rs>
-               <note type="commentary" xml:id="KL071-1h">
-                  <bibl>[O. V.:] <workName key="pmb31277">Schnitzlers
-                    »Einsamer Weg« (Telegramm der »Neuen Freien Presse«)</workName>. In: <workName key="pmb36374">Neue Freie Presse</workName>, Nr. 14178, <date>14. 2. 1904</date>, S. 12</bibl>.</note> wirklich schlecht – was er mir
-               persönlich über das <rs type="work" key="pmb29985">Stück</rs> zu sagen wußte, waren nur die folgenden Worte, als ich
-          ihn ein paar Tage nach der Première zum Abschied <pb facs="HS_AM23367Ba_2_R"/>besuchte<subst>
-                  <del rend="overwritten">,</del>
-                  <add place="inline">:</add>
-               </subst> »Ich schreibe eben das <anchor type="commentary" xml:id="KL071-2"/>
-               <rs type="work" key="pmb31281">Feuillet</rs>
-               <note type="commentary" xml:id="KL071-2h">
-                  <bibl>
-                     <persName key="pmb11485">Paul
-                    Goldmann</persName>: <workName key="pmb31281">Berliner Theater. »Der einsame
-                    Weg«. Von Arthur Schnitzler</workName>. In: <workName key="pmb36374">Neue Freie
-                    Presse</workName>, Nr. 14187, <date>23. 2. 1904</date>, S. 1–3</bibl>.</note> über den <workName key="pmb29985">E.
-                  W.</workName> – Du wirst keine Freude daran haben.« – Die Fehler des <rs type="work" key="pmb29985">Stücks</rs>
-               spür ich jetzt wie mir vorkommt sehr genau: Das Verhältnis zwischen <rs type="work" key="pmb29985">Sala</rs> u
-          <hi rend="latintype">Johann<unclear>a</unclear>
-               </hi> müßte schon zu Beginn völlig declarirt sein – das ist ein technischer
-          Fehler, de<subst>
-                  <del rend="overwritten">r</del>
-                  <add place="inline">n</add>
-               </subst> gutzumachen in meinen Kräften stände. Andres aber dürfte in den Mängeln
+        <rs ref="#pmb50" type="place">Wien</rs> war eigentlich nur das <rs ref="#pmb11485" type="person">Goldmann</rs>’sche 
+               <anchor type="commentary" xml:id="KL071-1"/><rs type="work" ref="#pmb31277" subtype="implied">Telegramm</rs><note type="commentary" xml:id="KL071-1h"><bibl>[O. V.:] <rs ref="#pmb31277" type="work">Schnitzlers
+                    »Einsamer Weg« (Telegramm der »Neuen Freien Presse«)</rs>. In: <rs ref="#pmb36374" type="work">Neue Freie Presse</rs>, Nr.&#160;14178, <date>14.&#160;2.&#160;1904</date>, S.&#160;12</bibl>.</note> wirklich schlecht – was er mir
+               persönlich über das <rs type="work" ref="#pmb29985" subtype="implied">Stück</rs> zu sagen wußte, waren nur die folgenden Worte, als ich
+          ihn ein paar Tage nach der Première zum Abschied <pb facs="HS_AM23367Ba_2_R"/>besuchte<subst><del rend="overwritten">,</del><add place="inline">:</add></subst> »Ich schreibe eben das <anchor type="commentary" xml:id="KL071-2"/><rs type="work" ref="#pmb31281" subtype="implied">Feuillet</rs><note type="commentary" xml:id="KL071-2h"><bibl><rs ref="#pmb11485" type="person">Paul
+                    Goldmann</rs>: <rs ref="#pmb31281" type="work">Berliner Theater. »Der einsame
+                    Weg«. Von Arthur Schnitzler</rs>. In: <rs ref="#pmb36374" type="work">Neue Freie
+                    Presse</rs>, Nr.&#160;14187, <date>23.&#160;2.&#160;1904</date>, S.&#160;1–3</bibl>.</note> über den <rs ref="#pmb29985" type="work">E.
+                  W.</rs> – Du wirst keine Freude daran haben.« – Die Fehler des <rs type="work" ref="#pmb29985" subtype="implied">Stücks</rs>
+               spür ich jetzt wie mir vorkommt sehr genau: Das Verhältnis zwischen <rs type="work" ref="#pmb29985" subtype="implied">Sala</rs> u
+          <hi rend="latintype">Johann<unclear>a</unclear></hi> müßte schon zu Beginn völlig declarirt sein – das ist ein technischer
+          Fehler, de<subst><del rend="overwritten">r</del><add place="inline">n</add></subst> gutzumachen in meinen Kräften stände. Andres aber dürfte in den Mängeln
           meiner Begabung begründet sein – so insbesondre eine gewisse Steifigkeit im
           Wesen <pb facs="HS_AM23367Ba_2_R"/>Julians. Immerhin bleibt es eine schwierige Sache von einer Person
           die Meinung verbreiten zu wollen – sie sei einmal ein Genie gewesen. Ja wenn man
-          das Bild ins Foyer hängen könnte, das <rs type="work" key="pmb29985">Julian</rs> vor 25 Jahren gemalt und das ihn
+          das Bild ins Foyer hängen könnte, das <rs type="work" ref="#pmb29985" subtype="implied">Julian</rs> vor 25 Jahren gemalt und das ihn
           berühmt gemacht hat! Übrigens – vielleicht wäre es auch im Augenblick vergessen,
-          da man sich wieder ins Parket begibt.</p>
-            <p>Was ich selbst an dem <rs type="work" key="pmb29985">Stück</rs> wirklich liebe, ist der fünfte Akt und die <pb facs="HS_AM23367Ba_2_R"/>Gestalt des <rs type="work" key="pmb29985">Sala</rs>, der gegenüber ich mich, eigentlich das erste Mal in meinem
+          da man sich wieder ins Parket begibt.</p><p>Was ich selbst an dem <rs type="work" ref="#pmb29985" subtype="implied">Stück</rs> wirklich liebe, ist der fünfte Akt und die <pb facs="HS_AM23367Ba_2_R"/>Gestalt des <rs type="work" ref="#pmb29985" subtype="implied">Sala</rs>, der gegenüber ich mich, eigentlich das erste Mal in meinem
           Leben, als eine Art von Schöpfer fühle. Und der fünfte Akt bedeutet mir zuweilen
           etwas mehr als der Abschluss eines Dramas – ja nicht viel weniger als der
           Abschluss von 42 selbst gelebten Jahren. <add place="inline">–</add> Nun seh ich
           mancherlei vor mir, was mir, wenn ich etwas weniger faul, etwas weniger
-          zerstreut, und mit <del rend="strikethrough">
-                  <gap unit="chars" quantity="4" reason="illegible"/>-</del> wahrer Intensität begabt wäre, nach dem sonstigen Stande
-               meines Innern, eigentlich gelingen müßte. –</p> 
-            <p>
-               <pb facs="HS_AM23367Ba_2_R"/>– Wir haben in <placeName key="pmb168">Berlin</placeName> oft von dir gesprochen und alle Leute
-          die du kennst lassen dich grüßen. Meine <placeName key="pmb451">sicilianischen</placeName> und <placeName key="pmb455">korfiolischen</placeName> Pläne
+          zerstreut, und mit <del rend="strikethrough"><gap unit="chars" quantity="4" reason="illegible"/>-</del> wahrer Intensität begabt wäre, nach dem sonstigen Stande
+               meines Innern, eigentlich gelingen müßte. –</p><p><pb facs="HS_AM23367Ba_2_R"/>– Wir haben in <rs ref="#pmb168" type="place">Berlin</rs> oft von dir gesprochen und alle Leute
+          die du kennst lassen dich grüßen. Meine <rs ref="#pmb451" type="place">sicilianischen</rs> und <rs ref="#pmb455" type="place">korfiolischen</rs> Pläne
           weben weiter – wirst du auch südlicher wandern und werden wir uns sehen? Meine
-               <rs type="person" key="pmb2173">Frau</rs> grüßt dich herzlich, ich desgleichen und wir wären sehr froh, wenn wir bald
-          noch besseres, ganz gutes von dir hörten.</p>
-            <closer>Dein<lb/>
-               <signed>Arthur</signed>
-            </closer>
-         </div>
-      </body>
+               <rs type="person" ref="#pmb2173" subtype="implied">Frau</rs> grüßt dich herzlich, ich desgleichen und wir wären sehr froh, wenn wir bald
+          noch besseres, ganz gutes von dir hörten.</p><closer>Dein<lb/><signed>Arthur</signed></closer></div></body>
   </text>
 </TEI>

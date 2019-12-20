@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1928-07-31_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1928-07-31_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 31. 7. 1928</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 31.&#160;7.&#160;1928</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb173">Rodaun</placeName>
-               <date when="1928-07-31" n="01">31. 7. 1928</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb173">Rodaun</placeName>
+               <date when="1928-07-31" n="01">31.&#160;7.&#160;1928</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1928-07-21_01">Schnitzler an Hofmannsthal, 21. 7. 1928</ptr>
-               <ptr type="next" subtype="toAuthor" target="1929-06-03_01">Hofmannsthal an Schnitzler, 3. 6. 1929</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1928-07-21_01">Schnitzler an Hofmannsthal, 21.&#160;7.&#160;1928</ptr>
+               <ptr type="next" subtype="toAuthor" target="1929-06-03_01">Hofmannsthal an Schnitzler, 3.&#160;6.&#160;1929</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,24 +105,11 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb173">Rodaun</placeName>, <date>31. Juli 1928</date>
-               </dateline>
-               <salute>mein lieber guter Arthur, </salute>
-            </opener>
-            <p>was kann, und was darf ich Ihnen sagen! Wir sind auch Eltern, und wir <rs type="person" key="pmb2238">weinen</rs> mit Ihnen! </p>
-            <p>Diese ganzen Jahrzehnte, die wir als Freunde verlebt haben, stehen, mit Gewalt heraufgerufen,
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb173" type="place">Rodaun</rs>, <date>31.&#160;Juli 1928</date></dateline><salute>mein lieber guter Arthur, </salute></opener><p>was kann, und was darf ich Ihnen sagen! Wir sind auch Eltern, und wir <rs type="person" ref="#pmb2238" subtype="implied">weinen</rs> mit Ihnen! </p><p>Diese ganzen Jahrzehnte, die wir als Freunde verlebt haben, stehen, mit Gewalt heraufgerufen,
    wie eine einzige Landschaft vor meiner Seele, aber es ringt sich in mir nicht zu klaren Gedanken
    durch, was mich dabei furchtbar bewegt. In solchen Stunden steht alles als ein Ganzes da, das
    geht über die Kräfte – und alles drängt in eine letzte Ahnung hinein: ich nenne sie Gott – und
-   Sie vielleicht nennen sie anders. – Ich möchte Sie sehen, mein lieber Arthur – aber wenn Sie
-   alles abweisen, was an Sie heranwill, und auch mich – so verstehe ich es ja so gut. </p>
-            <closer>In alter liebevoller Freundschaft<lb/>Ihr<signed>Hugo.</signed>
-            </closer>
-         </div>
-      </body>
+   Sie vielleicht nennen sie anders.&#160;– Ich möchte Sie sehen, mein lieber Arthur – aber wenn Sie
+   alles abweisen, was an Sie heranwill, und auch mich – so verstehe ich es ja so gut. </p><closer>In alter liebevoller Freundschaft<lb/>Ihr<signed>Hugo.</signed></closer></div></body>
    </text>
 </TEI>

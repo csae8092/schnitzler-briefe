@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1920-06-12_01_AS_Adam">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1920-06-12_01_AS_Adam">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Robert Adam, 12. 6. 1920</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Robert Adam, 12.&#160;6.&#160;1920</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -53,8 +57,8 @@
                             <physDesc>
                                 <p>eh. Postkarte</p>
                                 <stamp n="1">
-                                    <placeName key="pmb50">Wien 66</placeName>
-                                    <date when="1920-06-15">15. VI. 20</date>
+                                    <rs ref="#pmb50" type="place">Wien 66</rs>
+                                    <date when="1920-06-15">15.&#160;VI.&#160;20</date>
                                 </stamp>
                             </physDesc>
                         </msDesc>
@@ -67,18 +71,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1920-06-12" n="01">15. 6. 1920</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1920-06-12" n="01">15.&#160;6.&#160;1920</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1920-02-13_01">Adam an Schnitzler, 13. 2. 1920</ptr>
-               <ptr type="next" subtype="toAuthor" target="1920-06-17_01">Adam an Schnitzler, 17. 6. 1920</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1920-02-13_01">Adam an Schnitzler, 13.&#160;2.&#160;1920</ptr>
+               <ptr type="next" subtype="toAuthor" target="1920-06-17_01">Adam an Schnitzler, 17.&#160;6.&#160;1920</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -87,57 +91,15 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <pb facs=""/>
-                  <hi rend="pre-print">D<hi rend="superscript">R</hi>
-                            ARTHUR SCHNITZLER</hi>
-               </addrLine>
-                    <addrLine>
-                  <hi rend="pre-print">
-                     <placeName key="pmb150">WIEN, XVIII. STERNWARTESTRASSE 71</placeName>.</hi>
-               </addrLine>
-                </address>
-                <address>
-                    <addrLine>Hrn Dr. Rob. Ad. Pollak</addrLine>
-                    <addrLine>Ob-Landesger-Rath</addrLine>
-                    <addrLine>
-                  <placeName key="pmb62">Wien XII</placeName>.</addrLine>
-                    <addrLine>
-                  <placeName key="pmb1239">Meidlinger Hptstr. 58</placeName>.</addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs=""/>
-                  <date>12. 6. 1920</date>
-               </dateline>
-                    <salute>Verehrter Herr Doctor</salute>
-                </opener>
-                <p>Vielen Dank für die liebenswürdige Übersendg Ihres <anchor type="commentary" xml:id="KL2361-1"/>
-               <rs type="work" key="pmb33662">Artikels über
-                        Rechtsprincipien</rs>
-               <note type="commentary" xml:id="KL2361-1h">
-                  <bibl>
-                     <persName key="pmb12438">Robert Adam Pollak</persName>:
-                                <workName key="pmb33662">Ueber Rechtsprinzipien. Eine Analytische
-                                Untersuchung</workName>. In: <workName key="pmb36355">Archiv für
-                                Rechts- und Wirtschaftsphilosophie</workName>, Jg. 13, H. 2,
-                                <date>1919</date>, S. 110–135. </bibl>
-               </note>, den ich mit starkem
-                    Interesse lese.</p>
-                <p>W<unclear>o</unclear>
-                    <unclear>l</unclear>eben Sie für den Sommer? Hab ich vielleicht wieder einmal
-                    das Vergnügen Sie zu sehen?</p>
-                <closer>Herzlichst grüsst Sie<lb/>Ihr sehr
-                        ergeben<unclear>er</unclear>
-               <lb/>
-               <signed>ArthurSchnitzler</signed>
-            </closer>
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine><pb facs=""/><hi rend="pre-print">D<hi rend="superscript">R</hi>
+                            ARTHUR SCHNITZLER</hi></addrLine><addrLine><hi rend="pre-print"><rs ref="#pmb150" type="place">WIEN, XVIII. STERNWARTESTRASSE 71</rs>.</hi></addrLine></address><address><addrLine>Hrn Dr. Rob. Ad. Pollak</addrLine><addrLine>Ob-Landesger-Rath</addrLine><addrLine><rs ref="#pmb62" type="place">Wien XII</rs>.</addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hptstr. 58</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>12.&#160;6.&#160;1920</date></dateline><salute>Verehrter Herr Doctor</salute></opener><p>Vielen Dank für die liebenswürdige Übersendg Ihres <anchor type="commentary" xml:id="KL2361-1"/><rs type="work" ref="#pmb33662" subtype="implied">Artikels über
+                        Rechtsprincipien</rs><note type="commentary" xml:id="KL2361-1h"><bibl><rs ref="#pmb12438" type="person">Robert Adam Pollak</rs>:
+                                <rs ref="#pmb33662" type="work">Ueber Rechtsprinzipien. Eine Analytische
+                                Untersuchung</rs>. In: <rs ref="#pmb36355" type="work">Archiv für
+                                Rechts- und Wirtschaftsphilosophie</rs>, Jg.&#160;13, H.&#160;2,
+                                <date>1919</date>, S.&#160;110–135. </bibl></note>, den ich mit starkem
+                    Interesse lese.</p><p>W<unclear>o</unclear><unclear>l</unclear>eben Sie für den Sommer? Hab ich vielleicht wieder einmal
+                    das Vergnügen Sie zu sehen?</p><closer>Herzlichst grüsst Sie<lb/>Ihr sehr
+                        ergeben<unclear>er</unclear><lb/><signed>ArthurSchnitzler</signed></closer></div></body>
     </text>
 </TEI>

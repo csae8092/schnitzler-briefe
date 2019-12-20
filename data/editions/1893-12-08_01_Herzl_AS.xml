@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-12-08_01_Herzl_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-12-08_01_Herzl_AS">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Theodor Herzl an Arthur Schnitzler, 8. 12. 1893</title>
-                <author key="pmb11673">Herzl, Theodor</author>
+                <title level="a">Theodor Herzl an Arthur Schnitzler, 8.&#160;12.&#160;1893</title>
+                <author ref="#pmb11673">Herzl, Theodor</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -44,8 +48,8 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb11673">Herzl, Theodor</author>
-                            <title level="m">Briefe und autobiographische Notizen. 1866–1895</title>
+                            <author ref="#pmb11673">Herzl, Theodor</author>
+                            <title level="m">Briefe und autobiographische Notizen.&#160;1866–1895</title>
                             <editor>Bearbeitet von Johannes Wachten</editor>
                             <imprint>
                                 <pubPlace>Berlin, Frankfurt am Main, Wien</pubPlace>
@@ -57,8 +61,8 @@
                     </biblStruct>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb10815">Bahr, Hermann</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10815">Bahr, Hermann</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel, Aufzeichnungen, Dokumente
                                 (1891–1931)</title>
                             <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
@@ -77,17 +81,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11673">Herzl, Theodor</persName>
-                    <placeName key="pmb182">Paris</placeName>
-                    <date when="1893-12-08" n="01">8. 12. 1893</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11673">Herzl, Theodor</persName>
+                    <placeName ref="#pmb182">Paris</placeName>
+                    <date when="1893-12-08" n="01">8.&#160;12.&#160;1893</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">[Wien]</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">[Wien]</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="next" subtype="toAuthor" target="1893-12-10_02">Schnitzler an Herzl, 10. 12. 1893</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-12-10_02">Schnitzler an Herzl, 10.&#160;12.&#160;1893</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -98,33 +102,12 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <placeName key="pmb182">Paris</placeName>, le <date>8 Dez 1893</date>
-                    </dateline>
-                    <salute>Lieber Freund!</salute>
-                </opener>
-                <p>Sieben Wochen war ich malariakrank – aus <placeName key="pmb462">Venedig</placeName> – <placeName key="pmb898">Toulon</placeName>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb182" type="place">Paris</rs>, le <date>8 Dez 1893</date></dateline><salute>Lieber Freund!</salute></opener><p>Sieben Wochen war ich malariakrank – aus <rs ref="#pmb462" type="place">Venedig</rs> – <rs ref="#pmb898" type="place">Toulon</rs>
                     mitgebracht –, schwere Fieberwochen. Heute ein zermatschgerter Reconvalescent.
-                    So fasse ich mich nothgedrungen kurz. Ich gratulire zur <workName key="pmb29823">Märchenaufführung</workName>. Die Bühne ist erobert. Sie werden sie nicht
-                    mehr verlassen. Nur sich treu bleiben! u. ringsherum reden lassen.</p>
-                <closer>Ich grüsse Sie herzlich<lb/>Ihr aufrichtig ergebener <signed>Herzl</signed>
-                </closer>
-                <postscript>
-                    <p>Könnten Sie mir <persName key="pmb10815">Bahrs</persName>
-                        <space unit="chars" quantity="1"/>
-                        <anchor type="commentary" xml:id="KL403-1"/>
-                        <rs type="work" key="pmb30271">Artikelserie über Jung-Oesterreich</rs>
-                        <note type="commentary" xml:id="KL403-1h">
-                            <bibl>
-                                <persName key="pmb10815">Hermann Bahr</persName>: <workName key="pmb30271">Das junge Oesterreich</workName>. In: <workName key="pmb41471">Deutsche Zeitung</workName>, Jg. 23, Teil 1:
-                                Nr. 7806, <date>20. 9. 1893</date>, Morgen-Ausgabe, S. 1–2; Teil 2:
-                                Nr. 7813, <date>27. 9. 1893</date>, Morgen-Ausgabe, S. 1–3, <ptr target="T030009"/>; Teil 3: Nr. 7823, <date>7. 10. 1893</date>,
-                                Morgen-Ausgabe, S. 1–3</bibl>.</note> (<workName key="pmb41471">Deutsche Zeitung</workName>) verschaffen? Bitte!</p>
-                </postscript>
-            </div>
-        </body>
+                    So fasse ich mich nothgedrungen kurz. Ich gratulire zur <rs ref="#pmb29823" type="work">Märchenaufführung</rs>. Die Bühne ist erobert. Sie werden sie nicht
+                    mehr verlassen. Nur sich treu bleiben! u. ringsherum reden lassen.</p><closer>Ich grüsse Sie herzlich<lb/>Ihr aufrichtig ergebener <signed>Herzl</signed></closer><postscript><p>Könnten Sie mir <rs ref="#pmb10815" type="person">Bahrs</rs><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KL403-1"/><rs type="work" ref="#pmb30271" subtype="implied">Artikelserie über Jung-Oesterreich</rs><note type="commentary" xml:id="KL403-1h"><bibl><rs ref="#pmb10815" type="person">Hermann Bahr</rs>: <rs ref="#pmb30271" type="work">Das junge Oesterreich</rs>. In: <rs ref="#pmb41471" type="work">Deutsche Zeitung</rs>, Jg.&#160;23, Teil 1:
+                                Nr.&#160;7806, <date>20.&#160;9.&#160;1893</date>, Morgen-Ausgabe, S.&#160;1–2; Teil 2:
+                                Nr.&#160;7813, <date>27.&#160;9.&#160;1893</date>, Morgen-Ausgabe, S.&#160;1–3, <ptr target="T030009"/>; Teil 3: Nr.&#160;7823, <date>7.&#160;10.&#160;1893</date>,
+                                Morgen-Ausgabe, S.&#160;1–3</bibl>.</note> (<rs ref="#pmb41471" type="work">Deutsche Zeitung</rs>) verschaffen? Bitte!</p></postscript></div></body>
     </text>
 </TEI>

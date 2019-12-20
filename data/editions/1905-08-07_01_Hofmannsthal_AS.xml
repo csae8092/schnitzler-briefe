@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1905-08-07_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1905-08-07_01_Hofmannsthal_AS">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [7. 8. 1905]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [7.&#160;8.&#160;1905]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -48,10 +51,10 @@
                                 <country>UK</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43b/1</idno>
+                                <idno>Schnitzler, B&#160;43b/1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S.; von Schnitzler Datum ergänzt: »<quote>
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S.; von Schnitzler Datum ergänzt: »<quote>
                                         <date>7/8 905</date>
                                     </quote>«.</p>
                             </physDesc>
@@ -61,8 +64,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -75,8 +78,8 @@
                     </biblStruct>
                     <biblStruct corresp="HBAS">
                         <monogr>
-                            <author key="pmb10815">Bahr, Hermann</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10815">Bahr, Hermann</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel, Aufzeichnungen, Dokumente
                                 (1891–1931)</title>
                             <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
@@ -95,17 +98,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">[Wien]</placeName>
-                    <date when="1905-08-07" n="01">[7. 8. 1905]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">[Wien]</placeName>
+                    <date when="1905-08-07" n="01">[7.&#160;8.&#160;1905]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1905-06-01_01">Hofmannsthal an Schnitzler, 1. 6. 1905</ptr>
-               <ptr type="next" subtype="toAuthor" target="1905-08-07_02">Schnitzler an Hofmannsthal, 7. 8. 1905</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1905-06-01_01">Hofmannsthal an Schnitzler, 1.&#160;6.&#160;1905</ptr>
+               <ptr type="next" subtype="toAuthor" target="1905-08-07_02">Schnitzler an Hofmannsthal, 7.&#160;8.&#160;1905</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -116,16 +119,7 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <date>Montag</date> früh</dateline>
-                    <salute>mein lieber Arthur,</salute>
-                </opener>
-                <p>wir freuen uns ja so sehr, <rs type="person" key="pmb2173">Euch</rs>
-               <space unit="chars" quantity="1"/>
-               <date>Freitag</date> hier zu sehen, aber ich will
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>Montag</date> früh</dateline><salute>mein lieber Arthur,</salute></opener><p>wir freuen uns ja so sehr, <rs type="person" ref="#pmb2173" subtype="implied">Euch</rs><space unit="chars" quantity="1"/><date>Freitag</date> hier zu sehen, aber ich will
                     Ihnen doch sagen – um es durch Aussprechen loszuwerden, daß mich dies
                     Hinausschieben um eine Woche heftig, vielleicht unverhältnismäßig heftig
                     verstimmt hat. <anchor xml:id="OL450-1" type="label"/>Sie können allerdings
@@ -133,11 +127,9 @@
                     schon wieder abreise und man sich daher knapp einmal sehen wird, in Monaten –
                     aber davon abgesehen, ganz an und für sich betrachtet: man sitzt auf der elenden
                     Waffenübung, freut sich so sehr auf die paar Menschen<pb/> die man dann
-                    Wiedersehen kann – <persName key="pmb10863">Richard</persName> kann ich nicht
-                    rechnen, bis er wieder normaler und gesünder wird, <persName key="pmb10815">Bahr</persName> ist <anchor type="commentary" xml:id="KL450-1"/>verschollen<note type="commentary" xml:id="KL450-1h">Er urlaubte mit
-                            <persName key="pmb10818">Anna von Mildenburg</persName> in <placeName key="pmb314">
-                     <country>Bayern</country>
-                  </placeName>.</note> – kommt dann zurück, sehnt sich sehr, in andere Dinge
+                    Wiedersehen kann – <rs ref="#pmb10863" type="person">Richard</rs> kann ich nicht
+                    rechnen, bis er wieder normaler und gesünder wird, <rs ref="#pmb10815" type="person">Bahr</rs> ist <anchor type="commentary" xml:id="KL450-1"/>verschollen<note type="commentary" xml:id="KL450-1h">Er urlaubte mit
+                            <rs ref="#pmb10818" type="person">Anna von Mildenburg</rs> in <rs ref="#pmb314" type="place"><country>Bayern</country></rs>.</note> – kommt dann zurück, sehnt sich sehr, in andere Dinge
                     wieder hineinzukommen (Sie ahnen nicht, wie einem solche vier Wochen den Kopf
                     verderben können), telegrafirt<pb/> in der ersten halben Stunde, hofft doch ein
                     bischen, daß der Andere auch irgend etwas von dieser Ungeduld hat, hofft in
@@ -146,11 +138,6 @@
                     und dann bekommt man eine Antwort, aus der man so sehr spürt, daß der andere
                     sich nicht will aus seiner »Einteilung« bringen lassen. Ich bin etwas <anchor type="textConst" xml:id="TL450-1"/>traurig darüber. Wahrscheinlich ist das
                     ganz dumm, aber es ist vielleicht das Resultat von 200 kleinen Dingen.<note type="textConst" xml:id="TL450-1h">Bis zum Schluss in zwei Zeilen entlang
-                        des Mittelfalzes auf der 4. und 1. Seite.</note>
-                </p>
-                <closer>Ihr <signed>Hugo</signed>
-                </closer>
-            </div>
-        </body>
+                        des Mittelfalzes auf der 4. und 1.&#160;Seite.</note></p><closer>Ihr <signed>Hugo</signed></closer></div></body>
     </text>
 </TEI>

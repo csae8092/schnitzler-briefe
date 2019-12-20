@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1922-05-04_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1922-05-04_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 4. 5. 1922</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 4.&#160;5.&#160;1922</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,17 +83,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb974">Den Haag</placeName>
-               <date when="1922-05-04" n="01">4. 5. 1922</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb974">Den Haag</placeName>
+               <date when="1922-05-04" n="01">4.&#160;5.&#160;1922</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1921-08-08_01">Schnitzler an Beer-Hofmann, 8. 8. 1921</ptr>
-               <ptr type="next" subtype="toAuthor" target="1924-08-18_01">Schnitzler an Beer-Hofmann, 18. 8. 1924</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1921-08-08_01">Schnitzler an Beer-Hofmann, 8.&#160;8.&#160;1921</ptr>
+               <ptr type="next" subtype="toAuthor" target="1924-08-18_01">Schnitzler an Beer-Hofmann, 18.&#160;8.&#160;1924</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -98,21 +102,12 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb974">Haag</placeName>, <date when="1922-05-04">4. 5. 1922</date>.</dateline>
-            </opener>
-            <p>Herzliche Grüsse! Ich habe hier angenehme bewegte Tage verbracht, in <placeName key="pmb1146">Rotterdam</placeName>, <placeName key="pmb974">Haag</placeName>,
-                  <placeName key="pmb1143">Amsterdam</placeName> mit Erfolg (in jeder Hinsicht)
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb974" type="place">Haag</rs>, <date when="1922-05-04">4.&#160;5.&#160;1922</date>.</dateline></opener><p>Herzliche Grüsse! Ich habe hier angenehme bewegte Tage verbracht, in <rs ref="#pmb1146" type="place">Rotterdam</rs>, <rs ref="#pmb974" type="place">Haag</rs>,
+                  <rs ref="#pmb1143" type="place">Amsterdam</rs> mit Erfolg (in jeder Hinsicht)
                gelesen, fahre <date>Samstag 6.</date> aufs Land nach
-               <placeName key="pmb40725">Osterbeck</placeName> zu <persName key="pmb14544 pmb14551">Brevées</persName>, circa am
-                  <date>8.</date> nach <placeName key="pmb168">Berlin</placeName> weiter; dürfte
-               zwischen <date>18.</date> und <date>20.</date> in <placeName key="pmb50">Wien</placeName> sein. Grüssen Sie <persName key="pmb10860">Paula</persName> und
-               die Kinder! Ihr <signed>A.</signed>
-            </p>
-         </div>
-      </body>
+               <rs ref="#pmb40725" type="place">Osterbeck</rs> zu <rs ref="#pmb14544 pmb14551" type="person">Brevées</rs>, circa am
+                  <date>8.</date> nach <rs ref="#pmb168" type="place">Berlin</rs> weiter; dürfte
+               zwischen <date>18.</date> und <date>20.</date> in <rs ref="#pmb50" type="place">Wien</rs> sein. Grüssen Sie <rs ref="#pmb10860" type="person">Paula</rs> und
+               die Kinder! Ihr <signed>A.</signed></p></div></body>
    </text>
 </TEI>

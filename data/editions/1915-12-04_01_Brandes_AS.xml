@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1915-12-04_01_Brandes_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1915-12-04_01_Brandes_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Georg Brandes an Arthur Schnitzler, 4. 12. 1915</title>
-                <author key="pmb10992">Brandes, Georg</author>
+                <title level="a">Georg Brandes an Arthur Schnitzler, 4.&#160;12.&#160;1915</title>
+                <author ref="#pmb10992">Brandes, Georg</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 17</idno>
+                                <idno>Schnitzler, B&#160;17</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S., Lateinschrift, schwarze Tinte. Von
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S., Lateinschrift, schwarze Tinte. Von
                                     unbekannter Hand mit Bleistift nummeriert: »<quote>45</quote>«.
                                     Zahlreiche Unterstreichungen mit rotem Buntstift.</p>
                             </physDesc>
@@ -61,8 +65,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -81,18 +85,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb10992">Brandes, Georg</persName>
-                    <placeName key="pmb36300">Kopenhagen</placeName>
-                    <date when="1915-12-04" n="01">4. 12. 1915</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb10992">Brandes, Georg</persName>
+                    <placeName ref="#pmb36300">Kopenhagen</placeName>
+                    <date when="1915-12-04" n="01">4.&#160;12.&#160;1915</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1915-01-08_01">Schnitzler an Brandes, 8. 1. 1915</ptr>
-               <ptr type="next" subtype="toAuthor" target="1915-12-09_01">Schnitzler an Brandes, 9. 12. 1915</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1915-01-08_01">Schnitzler an Brandes, 8.&#160;1.&#160;1915</ptr>
+               <ptr type="next" subtype="toAuthor" target="1915-12-09_01">Schnitzler an Brandes, 9.&#160;12.&#160;1915</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -108,70 +112,31 @@
         <graphic url="MS-SCHNITZLER-B-00017-A-00001-000-00084"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00083"/>
-                        <placeName key="pmb36300">Kopenhagen</placeName> (genügende Adresse)<lb/>
-                        <date>4 December 15</date>
-                    </dateline>
-                    <salute>Verehrter Freund</salute>
-                </opener>
-                <p>Drei Jahre sind vergangen, seit ich Ihr Gast war und die Freude hatte, in Ihrem
-                    Heim mit Ihnen, Ihrer Frau <rs type="person" key="pmb2173">Gemahlin</rs> und
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00083"/><rs ref="#pmb36300" type="place">Kopenhagen</rs> (genügende Adresse)<lb/><date>4 December 15</date></dateline><salute>Verehrter Freund</salute></opener><p>Drei Jahre sind vergangen, seit ich Ihr Gast war und die Freude hatte, in Ihrem
+                    Heim mit Ihnen, Ihrer Frau <rs type="person" ref="#pmb2173" subtype="implied">Gemahlin</rs> und
                     Ihren Freunden zu verkehren. Seit dem – wie viel unerhörtes ist geschehen! Alles
-                    ist anders geworden.</p>
-                <p>Ich wollte Ihnen schon vor einem Monat für Ihre dauerhafte Freundschaft danken,
-                    dass Sie mir die <workName key="pmb30717">
-                        <hi n="1" rend="underline">Komödie der Worte</hi>
-                    </workName> sandten. Sie haben wieder einmal das Labyrinthische dargestellt der
+                    ist anders geworden.</p><p>Ich wollte Ihnen schon vor einem Monat für Ihre dauerhafte Freundschaft danken,
+                    dass Sie mir die <rs ref="#pmb30717" type="work"><hi n="1" rend="underline">Komödie der Worte</hi></rs> sandten. Sie haben wieder einmal das Labyrinthische dargestellt der
                     erotischen Neigungen und wie die Ehen die Herzen hemmen und fesseln. Tragisches
-                    und Possierliches ist nach Ihrer Gewohnheit gemischt. Mir war Alles lieb.</p>
-                <p>Vor etwa drei Wochen sah ich in <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00084"/>einem grossen privaten
-                    Verein hier Ihren <workName key="pmb30203">
-                        <hi n="1" rend="underline">Dr. Bernhardi</hi>
-                    </workName> im Wesentlichen ganz vorzüglich aufgeführt. Das Stück ist mir
+                    und Possierliches ist nach Ihrer Gewohnheit gemischt. Mir war Alles lieb.</p><p>Vor etwa drei Wochen sah ich in <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00084"/>einem grossen privaten
+                    Verein hier Ihren <rs ref="#pmb30203" type="work"><hi n="1" rend="underline">Dr. Bernhardi</hi></rs> im Wesentlichen ganz vorzüglich aufgeführt. Das Stück ist mir
                     theuer; nur kann ich mich nicht mit der Logik recht befreunden, dass weil jemand
                     nicht zum Märtyrer geeignet ist, er überhaupt nicht für seine Ueberzeugung
                     eintreten solle. Wir lassen ja alle ohne Protest das meiste hingehen, weil das
                     Protestiren doch nichts nützt; aber Sie sollten nicht unsere Handlungskraft
                     durch Entmuthigung lähmen. Das ist die alte »Ironie« der Romantiker, die dem
-                    Pathos die Spitze abbricht.</p>
-                <p>Doch, was liegt heutzutage an all dem! Macduff sagt:</p>
-                <lg type="poem">
-                    <l>
-                        <rs key="pmb33366" type="work">O horror, horror, horror</rs>
-                    </l>
-                    <l>
-                        <rs key="pmb33366" type="work">Tongue nor heart</rs>
-                    </l>
-                    <l>
-                        <rs key="pmb33366" type="work">Cannot conceive nor name thee.</rs>
-                    </l>
-                </lg>
-
-                <p>
-                    <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00084"/>Ich habe leider im
+                    Pathos die Spitze abbricht.</p><p>Doch, was liegt heutzutage an all dem! Macduff sagt:</p><lg type="poem"><l><rs ref="#pmb33366" type="work" subtype="implied">O horror, horror, horror</rs></l><l><rs ref="#pmb33366" type="work" subtype="implied">Tongue nor heart</rs></l><l><rs ref="#pmb33366" type="work" subtype="implied">Cannot conceive nor name thee.</rs></l></lg><p><pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00084"/>Ich habe leider im
                     Augenblick wieder einen Anfall von meiner chronischen Krankheit, der
                     Venenentzündung. Sie kam zum ersten mal in <date>1871</date> nach einem Typhus,
-                    und seit <date>1897</date> wieder nur zu oft. Nach 2 ½ Jahren macht sie mir
-                    wieder ihren Besuch.</p>
-                <p>Die grosse <rs type="work" key="pmb32093">Maschine</rs>, die ich über <persName key="pmb11461">Goethe</persName> machte, wurde schnell (in diesem kleinen <rs type="place" key="pmb434">Land</rs>) in 3,500 Exemplaren verkauft. Eine
+                    und seit <date>1897</date> wieder nur zu oft. Nach 2&#160;½ Jahren macht sie mir
+                    wieder ihren Besuch.</p><p>Die grosse <rs type="work" ref="#pmb32093" subtype="implied">Maschine</rs>, die ich über <rs ref="#pmb11461" type="person">Goethe</rs> machte, wurde schnell (in diesem kleinen <rs type="place" ref="#pmb434" subtype="implied">Land</rs>) in 3,500 Exemplaren verkauft. Eine
                     neue Auflage ein wenig verbessert, ist erschienen. Es sind zwei recht dicke
                     Bände. Ausserdem habe ich viele grössere und kleinere Artikel über die Zustände
-                    – leider in unserer Geheimsprache – geschrieben.</p>
-                <p>
-               <persName key="pmb2357">Peter Nansen</persName>, den Sie kennen, hat seine
-                    Production wieder aufgenommen und u. a. eine nicht unbedeutende grössere <rs type="work" key="pmb32095">Novelle</rs> erscheinen lassen. Selbst liegt er
+                    – leider in unserer Geheimsprache – geschrieben.</p><p><rs ref="#pmb2357" type="person">Peter Nansen</rs>, den Sie kennen, hat seine
+                    Production wieder aufgenommen und u.&#160;a. eine nicht unbedeutende grössere <rs type="work" ref="#pmb32095" subtype="implied">Novelle</rs> erscheinen lassen. Selbst liegt er
                     leider krank. Er hat zuviele <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00083"/>Cigaretten geraucht, zuviel Whisky getrunken, sein Herz scheint gelitten zu
                     haben, er hat seit 3–4 Wochen ein<del rend="strikethrough">en</del> schwaches
-                    Fieber, das nicht weichen will. Ich liebe ihn sehr und bin um ihn bekümmert.</p>
-                <p>Liebster Freund<space unit="chars" quantity="4"/> Empfehlen Sie mich den Ihrigen
-                    und bleiben Sie mir gut.</p>
-                <closer>Ihr <signed>Georg Brandes</signed>
-                </closer>
-            </div>
-        </body>
+                    Fieber, das nicht weichen will. Ich liebe ihn sehr und bin um ihn bekümmert.</p><p>Liebster Freund<space unit="chars" quantity="4"/> Empfehlen Sie mich den Ihrigen
+                    und bleiben Sie mir gut.</p><closer>Ihr <signed>Georg Brandes</signed></closer></div></body>
     </text>
 </TEI>

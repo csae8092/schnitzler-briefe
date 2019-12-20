@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1903-11-04_01_AS_Hofmannsthal" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1903-11-04_01_AS_Hofmannsthal"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 4. 11. 1903</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 4.&#160;11.&#160;1903</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Hs-30885,XXXX</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -79,18 +83,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Spöttelgasse 7</placeName>
-               <date when="1903-11-04" n="01">4. 11. 1903</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Spöttelgasse 7</placeName>
+               <date when="1903-11-04" n="01">4.&#160;11.&#160;1903</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1903-11-03_01">Hofmannsthal an Schnitzler, 3. 11. 1903</ptr>
-               <ptr type="next" subtype="toAuthor" target="1903-11-06_01">Hofmannsthal an Schnitzler, 6. 11. 1903</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1903-11-03_01">Hofmannsthal an Schnitzler, 3.&#160;11.&#160;1903</ptr>
+               <ptr type="next" subtype="toAuthor" target="1903-11-06_01">Hofmannsthal an Schnitzler, 6.&#160;11.&#160;1903</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,33 +103,14 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb133">Spöttelgasse 7</placeName>. <date>4. 11. 903</date>
-               </dateline>
-               <salute>lieber Hugo, </salute>
-            </opener>
-            <p>über <workName key="pmb30633">Elektra</workName> hab ich mich sehr gefreut, und das <persName key="pmb11485">Goldmann</persName>sche <rs type="work">Telegramm</rs> gehört zu
-               dem Übrigen. Denken Sie, daß er, seit er <placeName key="pmb50">Wien</placeName>
-               verlassen, <date>Mitte September</date>, keine Zeile an mich geschrieben hat. </p>
-            <p>Das <rs type="work">Stück</rs> ist schon an <persName key="pmb10986">Bram</persName>
-               abgegangen. <date>Freitag</date> gehn wir auf ein paar Tage auf den <placeName key="pmb189">Semmering</placeName>. Mitte nächster Woche möchte ich vorlesen.
-               Sagen Sie mir bitte, ob Ihnen <date>Donnerstag</date>
-               <space unit="chars" quantity="1"/>
-               <time>Abend ½ 7</time> recht wäre. Fragen Sie auch gleich den <persName key="pmb10863">Richard</persName>. Dieser Tage ist die
-               <workName key="pmb29843">Kakadu</workName>-première in <placeName key="pmb182">Paris</placeName>;
-                  <persName key="pmb2211">Antoine</persName> scheint sich nach einem Brief von ihm
-               und von einigen andern, die Proben gesehen haben, viel zu versprechen. </p>
-            <p>Grüßen Sie von uns beiden herzlich <persName key="pmb2292">Gerty</persName> und <rs type="person" key="pmb3244">Hofmannsthal den Winzigen</rs>. Sich selber desgleichen. </p>
-            <p>Hat sich die <orgName key="pmb36247">Burg</orgName> um die ihrer <rs type="work">Hoheit entkleidete
-                  Griechin</rs> beworben?<c rendition="#dots" n="2"/> Aus dem alten <persName key="pmb2693">
-                  <rs type="work" key="">Sophokles</rs>
-               </persName> ein Zugstück zu machen! Echt jüdisch. </p>
-            <closer>Ihr <signed>A.</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb133" type="place">Spöttelgasse 7</rs>. <date>4.&#160;11.&#160;903</date></dateline><salute>lieber Hugo, </salute></opener><p>über <rs ref="#pmb30633" type="work">Elektra</rs> hab ich mich sehr gefreut, und das <rs ref="#pmb11485" type="person">Goldmann</rs>sche <rs type="work" subtype="implied">Telegramm</rs> gehört zu
+               dem Übrigen. Denken Sie, daß er, seit er <rs ref="#pmb50" type="place">Wien</rs>
+               verlassen, <date>Mitte September</date>, keine Zeile an mich geschrieben hat. </p><p>Das <rs type="work" subtype="implied">Stück</rs> ist schon an <rs ref="#pmb10986" type="person">Bram</rs>
+               abgegangen. <date>Freitag</date> gehn wir auf ein paar Tage auf den <rs ref="#pmb189" type="place">Semmering</rs>. Mitte nächster Woche möchte ich vorlesen.
+               Sagen Sie mir bitte, ob Ihnen <date>Donnerstag</date><space unit="chars" quantity="1"/><time>Abend ½&#160;7</time> recht wäre. Fragen Sie auch gleich den <rs ref="#pmb10863" type="person">Richard</rs>. Dieser Tage ist die
+               <rs ref="#pmb29843" type="work">Kakadu</rs>-première in <rs ref="#pmb182" type="place">Paris</rs>;
+                  <rs ref="#pmb2211" type="person">Antoine</rs> scheint sich nach einem Brief von ihm
+               und von einigen andern, die Proben gesehen haben, viel zu versprechen. </p><p>Grüßen Sie von uns beiden herzlich <rs ref="#pmb2292" type="person">Gerty</rs> und <rs type="person" ref="#pmb3244" subtype="implied">Hofmannsthal den Winzigen</rs>. Sich selber desgleichen. </p><p>Hat sich die <rs ref="#pmb36247" type="organisation">Burg</rs> um die ihrer <rs type="work" subtype="implied">Hoheit entkleidete
+                  Griechin</rs> beworben?<c rendition="#dots" n="2"/> Aus dem alten <rs ref="#pmb2693" type="person"><rs type="work" subtype="implied" ref="">Sophokles</rs></rs> ein Zugstück zu machen! Echt jüdisch. </p><closer>Ihr <signed>A.</signed></closer></div></body>
    </text>
 </TEI>

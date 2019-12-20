@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1900-08-05_01_AS_Hofmannsthal" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1900-08-05_01_AS_Hofmannsthal"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 5. 8. 1900</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 5.&#160;8.&#160;1900</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Hs-30885,XXXX</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -79,17 +83,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb213">Ischl</placeName>
-               <date when="1900-08-05" n="01">5. 8. 1900</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb213">Ischl</placeName>
+               <date when="1900-08-05" n="01">5.&#160;8.&#160;1900</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1900-08-04_01">Schnitzler an Hofmannsthal, 4. 8. 1900</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1900-08-04_01">Schnitzler an Hofmannsthal, 4.&#160;8.&#160;1900</ptr>
                <ptr type="next" subtype="toAuthor" target="1900-08_01">Hofmannsthal an Schnitzler, 1900-08</ptr>
             </correspContext>
          </correspDesc>
@@ -99,27 +103,16 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb213">Ischl</placeName>, <date>4. 8. 900</date>. </dateline>
-            </opener>
-            <p>
-               <salute>Mein lieber Hugo, </salute>ich bin ein paar Tage in <placeName key="pmb415">Aussee</placeName> gewesen, jetzt in <placeName key="pmb213">Ischl</placeName>,
-                  <placeName key="pmb414">Pension Petter</placeName>, habe vor meinem Fenster, auch
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb213" type="place">Ischl</rs>, <date>4.&#160;8.&#160;900</date>. </dateline></opener><p><salute>Mein lieber Hugo, </salute>ich bin ein paar Tage in <rs ref="#pmb415" type="place">Aussee</rs> gewesen, jetzt in <rs ref="#pmb213" type="place">Ischl</rs>,
+                  <rs ref="#pmb414" type="place">Pension Petter</rs>, habe vor meinem Fenster, auch
                jetzt, während ich schreibe, den schmalen Weg, auf dem wir im vorigen Jahr nach dem
                Essen immer spazieren gegangen sind und über Schleier und Bergwerk gesprochen haben.
                Heuer geht es mir hier nicht so gut. Am <date>10.</date> wahrscheinlich fahr ich weg,
-               am <date>12.</date> dürft ich in <placeName key="pmb30">Salzburg</placeName> sein und
+               am <date>12.</date> dürft ich in <rs ref="#pmb30" type="place">Salzburg</rs> sein und
                freue mich sehr Sie dort noch anzutreffen u. Ihnen mündlich sagen zu können, wie sehr
-               von Herzen ich Ihnen Glück wünsche. Aber bevor ich <placeName key="pmb213">Ischl</placeName> verlasse, schreib ich Ihnen noch ein Wort und höre vielleicht
-               auch von Ihnen. Sie wissen ja, daß <persName key="pmb10863">Richard</persName> auch
-               nach <placeName key="pmb30">S.</placeName> kommt, vielleicht auch <persName key="pmb11485">Goldmann</persName>. Am <date>13.</date> Nachmittag dürften wir auf
-               brechen; spätestens am <date>14.</date> Auf Wiedersehen! </p>
-            <closer>Ihr <signed>Arthur.</signed>
-            </closer>
-         </div>
-      </body>
+               von Herzen ich Ihnen Glück wünsche. Aber bevor ich <rs ref="#pmb213" type="place">Ischl</rs> verlasse, schreib ich Ihnen noch ein Wort und höre vielleicht
+               auch von Ihnen. Sie wissen ja, daß <rs ref="#pmb10863" type="person">Richard</rs> auch
+               nach <rs ref="#pmb30" type="place">S.</rs> kommt, vielleicht auch <rs ref="#pmb11485" type="person">Goldmann</rs>. Am <date>13.</date> Nachmittag dürften wir auf
+               brechen; spätestens am <date>14.</date> Auf Wiedersehen! </p><closer>Ihr <signed>Arthur.</signed></closer></div></body>
    </text>
 </TEI>

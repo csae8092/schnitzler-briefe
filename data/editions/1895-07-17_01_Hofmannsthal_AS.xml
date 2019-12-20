@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-07-17_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1895-07-17_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 17. [7. 1895]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 17.&#160;[7.&#160;1895]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S., schwarze Tinte. Von Schnitzler
+                                <p>eh. Brief, 1&#160;Bl., 3&#160;S., schwarze Tinte. Von Schnitzler
                                     das Datum mit Bleistift ergänzt: »<quote>
                                         <date>7 95</date>
                                     </quote>« und nummeriert: »<quote>73</quote>«.</p>
@@ -62,8 +66,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -82,18 +86,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb937">Göding</placeName>
-                    <date when="1895-07-17" n="02">17. [7. 1895]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb937">Göding</placeName>
+                    <date when="1895-07-17" n="02">17.&#160;[7.&#160;1895]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb213">Bad Ischl</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb213">Bad Ischl</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-07-10_01">Schnitzler an Hofmannsthal, 10. 7. 1895</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-07-28_01">Schnitzler an Hofmannsthal, 28. 7. 1895</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-07-10_01">Schnitzler an Hofmannsthal, 10.&#160;7.&#160;1895</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-07-28_01">Schnitzler an Hofmannsthal, 28.&#160;7.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -109,25 +113,8 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00150"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00149"/>
-                        <placeName key="pmb937">Göding</placeName>, <date>17<hi rend="superscript">ten</hi>
-                        </date>
-                        <space unit="chars" quantity="1"/>
-                        <time>11 Uhr</time>. </dateline>
-                    <p rend="right">
-                        <hi rend="pre-print">
-                            <del rend="strikethrough">
-                                <placeName key="pmb76">Salesianergasse 12</placeName>
-                            </del>
-                        </hi>
-                    </p>
-                </opener>
-                <p>es macht mir eine merkwürdige Freude, dieſem Brief in Gedanken nachzugehen. Ich
-                    habe voriges Jahr ſehr glücklich vor mich hingelebt, von den Tagen in <placeName key="pmb30">Salzburg</placeName> bis in den <date>September</date> fühle ich
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00149"/><rs ref="#pmb937" type="place">Göding</rs>, <date>17<hi rend="superscript">ten</hi></date><space unit="chars" quantity="1"/><time>11 Uhr</time>. </dateline><p rend="right"><hi rend="pre-print"><del rend="strikethrough"><rs ref="#pmb76" type="place">Salesianergasse 12</rs></del></hi></p></opener><p>es macht mir eine merkwürdige Freude, dieſem Brief in Gedanken nachzugehen. Ich
+                    habe voriges Jahr ſehr glücklich vor mich hingelebt, von den Tagen in <rs ref="#pmb30" type="place">Salzburg</rs> bis in den <date>September</date> fühle ich
                     im Zurückdenken das complexe Glück von Bewegung, Blick und Gedanken,
                     ſich-Hergeben und ſich-Behalten, Mitleid, Verliebtheit und Einſamkeit, dunklen
                     Gewittern am Abend und blaßgelben lautloſen Blitzen in der Nacht; am Anfang mehr
@@ -136,23 +123,15 @@
                     mit dem plötzlichen Dunkel- und Kaltwerden in dem kleinen Tunnel und gleich
                     darauf den harmloſen von nichts wiſſenden Bauernhäuſern und kleinen Gärten; am
                     Ende mehr die ſtundenlangen Geſpräche in der Nacht im Regen, im Wald und auf der
-                    weißen naſſen Landſtraße mit <persName key="pmb2219">Edgar</persName> und das ſo
-                    ſtarke aufgeregte Fühlen von ſein und meinem Leben wie in einem.</p>
-                <p>Als ein beſonders merkwürdiger <anchor type="commentary" xml:id="KL2276-1"/>Tag<note type="commentary" xml:id="KL2276-1h">der
-                        <date>3. 9. 1894</date>.</note> erſcheint mir der, wo wir mit <persName key="pmb11485">Goldmann</persName> vor ſeiner Abreiſe zuerſt beim <placeName key="pmb414">Leopold</placeName> waren und dann ein großes Gewitter gekommen
-                    iſt. Ich kann aber nicht finden, warum.</p>
-                <p>
-                    <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00150"/>Heute nachmittag gehe ich
+                    weißen naſſen Landſtraße mit <rs ref="#pmb2219" type="person">Edgar</rs> und das ſo
+                    ſtarke aufgeregte Fühlen von ſein und meinem Leben wie in einem.</p><p>Als ein beſonders merkwürdiger <anchor type="commentary" xml:id="KL2276-1"/>Tag<note type="commentary" xml:id="KL2276-1h">der
+                        <date>3.&#160;9.&#160;1894</date>.</note> erſcheint mir der, wo wir mit <rs ref="#pmb11485" type="person">Goldmann</rs> vor ſeiner Abreiſe zuerſt beim <rs ref="#pmb414" type="place">Leopold</rs> waren und dann ein großes Gewitter gekommen
+                    iſt. Ich kann aber nicht finden, warum.</p><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00150"/>Heute nachmittag gehe ich
                     auf Patrouille und bleib über Nacht aus. Morgen wenn ich zurückkomm und gebadet
-                    hab, wird der <workName key="pmb36133">Pan</workName> daliegen, den mir der
-                        <persName key="pmb2167">Salten</persName> geſchickt hat. An ſolchen kleinen
+                    hab, wird der <rs ref="#pmb36133" type="work">Pan</rs> daliegen, den mir der
+                        <rs ref="#pmb2167" type="person">Salten</rs> geſchickt hat. An ſolchen kleinen
                     Freuden bringe ich mich wie an Springſtöcken von Stein zu Stein über dieſe Öde
-                    hinüber.</p>
-                <closer>Adieu, ſchreiben Sie und <persName key="pmb10863">Richard</persName> mir
-                    doch bald.<lb/> Ihr<lb/>
-                    <signed>Hugo.</signed>
-                </closer>
-            </div>
-        </body>
+                    hinüber.</p><closer>Adieu, ſchreiben Sie und <rs ref="#pmb10863" type="person">Richard</rs> mir
+                    doch bald.<lb/> Ihr<lb/><signed>Hugo.</signed></closer></div></body>
     </text>
 </TEI>

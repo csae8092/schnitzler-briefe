@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1911-10-16_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1911-10-16_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 16. 10. [1911?]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 16.&#160;10. [1911?]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                                 <country>GB</country>            
                                 <settlement>Cambridge</settlement>            
                                 <repository>University Library</repository>            
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>ms. Telegramm; beschnitten.</p>
@@ -59,8 +63,8 @@
                 <listBibl>
                <biblStruct corresp="HvHAS"> 
                     <monogr> 
-                        <author key="pmb11740">Hofmannsthal, Hugo</author> 
-                        <author key="pmb2121">Schnitzler, Arthur</author> 
+                        <author ref="#pmb11740">Hofmannsthal, Hugo</author> 
+                        <author ref="#pmb2121">Schnitzler, Arthur</author> 
                         <title level="m">Briefwechsel</title>
                         <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                         <imprint>
@@ -79,19 +83,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb33996">Neubeuern</placeName>
-                    <date when="1911-10-16" n="01">16. 10. [1911?]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb33996">Neubeuern</placeName>
+                    <date when="1911-10-16" n="01">16.&#160;10.&#160;[1911?]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                     
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1911-09-11_01">Hofmannsthal an Schnitzler, 11. 9. 1911</ptr>
-               <ptr type="next" subtype="toAuthor" target="1911-10-22_01">Schnitzler an Hofmannsthal, 22. 10. 1911</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1911-09-11_01">Hofmannsthal an Schnitzler, 11.&#160;9.&#160;1911</ptr>
+               <ptr type="next" subtype="toAuthor" target="1911-10-22_01">Schnitzler an Hofmannsthal, 22.&#160;10.&#160;1911</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -101,18 +105,7 @@
         </revisionDesc>
     </teiHeader>
     <text type="telegram">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-               <pb facs="MS-SCHNITZLER-B-00043-B-00003-000-00197"/>
-               <placeName key="pmb33996">neubeuern</placeName> 25 18/17 <date>16/10</date>
-               <space unit="chars" quantity="1"/>
-               <time>4 15 n</time>
-            </p>
-                <p>freue mich unendlich <anchor type="commentary" xml:id="KL2231-1"/>doppelten Erfolg<note type="commentary" xml:id="KL2231-1h">Am <date>14. 10. 1911</date> hatte die Uraufführung von <workName key="pmb30207">Das weite Land</workName> am <placeName key="pmb14">Burgtheater</placeName> und am 
-                <orgName key="pmb35053">Berliner Lessingtheater</orgName>, aber auch in sieben weiteren Städten.</note> so schoenen lieben <rs type="work" key="pmb30207">Werkes</rs> auf wiedersehen baldigst</p>  
-                <p rend="right">hugo</p>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00043-B-00003-000-00197"/><rs ref="#pmb33996" type="place">neubeuern</rs> 25 18/17 <date>16/10</date><space unit="chars" quantity="1"/><time>4&#160;15&#160;n</time></p><p>freue mich unendlich <anchor type="commentary" xml:id="KL2231-1"/>doppelten Erfolg<note type="commentary" xml:id="KL2231-1h">Am <date>14.&#160;10.&#160;1911</date> hatte die Uraufführung von <rs ref="#pmb30207" type="work">Das weite Land</rs> am <rs ref="#pmb14" type="place">Burgtheater</rs> und am 
+                <rs ref="#pmb35053" type="organisation">Berliner Lessingtheater</rs>, aber auch in sieben weiteren Städten.</note> so schoenen lieben <rs type="work" ref="#pmb30207" subtype="implied">Werkes</rs> auf wiedersehen baldigst</p><p rend="right">hugo</p></div></body>
     </text>
  </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1909-01-24_01_Ehrenstein_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1909-01-24_01_Ehrenstein_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Albert Ehrenstein an Arthur Schnitzler, 24. 1. 1909</title>
-                <author key="pmb11230">Ehrenstein, Albert</author>
+                <title level="a">Albert Ehrenstein an Arthur Schnitzler, 24.&#160;1.&#160;1909</title>
+                <author ref="#pmb11230">Ehrenstein, Albert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -49,10 +53,10 @@
                                 <country>GB</country>            
                                 <settlement>Cambridge</settlement>            
                                 <repository>University Library</repository>            
-                                <idno>Schnitzler, B 30</idno>
+                                <idno>Schnitzler, B&#160;30</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S. Von Schnitzler beschriftet: »<quote>
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Ehrenst<unclear>e</unclear>in</hi>
                            </quote>«.</p>
                             </physDesc>
@@ -62,7 +66,7 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb11230">Ehrenstein, Albert</author>
+                            <author ref="#pmb11230">Ehrenstein, Albert</author>
                             <title level="m">Briefe</title>
                             <editor>Hg. Hanni Mittelmann</editor>
                             <imprint>
@@ -85,18 +89,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
         <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11230">Ehrenstein, Albert</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1909-01-24" n="01">24. 1. 1909</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11230">Ehrenstein, Albert</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1909-01-24" n="01">24.&#160;1.&#160;1909</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-                <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1909-01-20_01">Schnitzler an Ehrenstein, 20. 1. 1909</ptr>
-               <ptr type="next" subtype="toAuthor" target="1909-01-26_02">Schnitzler an Ehrenstein, 26. 1. 1909</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1909-01-20_01">Schnitzler an Ehrenstein, 20.&#160;1.&#160;1909</ptr>
+               <ptr type="next" subtype="toAuthor" target="1909-01-26_02">Schnitzler an Ehrenstein, 26.&#160;1.&#160;1909</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -107,36 +111,20 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    
-                    <dateline rend="right">
-                  <seg rend="left">
-                     <pb facs="gray00084.pdf"/>
-                     <placeName key="pmb300">XVI. <hi rend="latintype">Ottakringerstr</hi> 114</placeName>.</seg>
-                  <seg rend="right">
-                     <date>24. I. 09</date>
-                  </seg>
-               </dateline>
-                    <salute>
-                  <hi rend="latintype">Sehr geehrter Herr Doktor!</hi>
-               </salute>
-            </opener>
-                <p>Ihr geſchätztes Schreiben habe ich erhalten, und ſo angenehm es mir auch war, daß
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><seg rend="left"><pb facs="gray00084.pdf"/><rs ref="#pmb300" type="place">XVI. <hi rend="latintype">Ottakringerstr</hi> 114</rs>.</seg><seg rend="right"><date>24.&#160;I.&#160;09</date></seg></dateline><salute><hi rend="latintype">Sehr geehrter Herr Doktor!</hi></salute></opener><p>Ihr geſchätztes Schreiben habe ich erhalten, und ſo angenehm es mir auch war, daß
                     Sie, ſehr geehrter Herr Doktor, ſich ſo ſchnell der Mühe unterzogen, mein armes
-                    <rs type="work" key="pmb33456">Märchen</rs> zu leſen, die übrigen Empfindungen, 
+                    <rs type="work" ref="#pmb33456" subtype="implied">Märchen</rs> zu leſen, die übrigen Empfindungen, 
                     die mich nach der Lektüre Ihres
                     werten Briefes beſeelten, waren von Freude weit entfernt. Wenig geneigt, mich
-                    mit dem »<rs type="work" key="pmb33460">Manche freilich müſſen unten ſterben</rs>« zufrieden zu geben, wähnte ich
+                    mit dem »<rs type="work" ref="#pmb33460" subtype="implied">Manche freilich müſſen unten ſterben</rs>« zufrieden zu geben, wähnte ich
                     naiv, im äußerſten Falle würden Sie, ſehr geehrter Herr Doktor, mich nicht
-                    direkt empfehlen, sondern durch Herrn <persName key="pmb11740">v. Hofma<c rendition="#gemination-n"/>stal</persName>. 
+                    direkt empfehlen, sondern durch Herrn <rs ref="#pmb11740" type="person">v. Hofma<c rendition="#gemination-n"/>stal</rs>. 
                     Wenn dies nicht ſein mag,
                     ich nicht durch übermäßige Inanſpruchnahme beläſtige, auch nicht <pb facs="gray00085.pdf"/>ſonſtwie 
                     unwillentlich mir Ihre Ungnade zugezogen habe,
                     müßte ich, der Not gehorchend, nicht dem eignen Triebe, ein oder zwei in ihrer
                     Harmloſigkeit entwaffnende hiſtoriſche Novellen wieder aufnehmen, die vielleicht
-                    für die <orgName key="pmb29351">Neue Freie Preſſe</orgName> nicht ganz ungeeignet ſein dürften. 
+                    für die <rs ref="#pmb29351" type="organisation">Neue Freie Preſſe</rs> nicht ganz ungeeignet ſein dürften. 
                     Ich erkühne mich
                     keineswegs, Ihnen, ſehr geehrter Herr Doktor, neuerdings die angreifende Lektüre
                     irgend einer meiner Mittelmäßigkeiten zumuten zu wollen, von denen ich übrigens
@@ -150,26 +138,21 @@
                     Werke aus den Gehirnen zu extrahieren und Dichtmaſchinen zur Ausbrütung zu
                     übergeben. Bis dahin werden eben meinesgleichen immer an den guten Glauben
                     appellieren müſſen und dies tue ich denn auch, nicht ohne eine ſanfte Betrübnis
-                    über mein ſäumiges Wachstum. – Herr <persName key="pmb11727">Camill Hofmann</persName>, 
+                    über mein ſäumiges Wachstum.&#160;– Herr <rs ref="#pmb11727" type="person">Camill Hofmann</rs>, 
                     dem mich zu empfehlen Sie,
                     ſehr geehrter Herr Doktor, die Güte hatten, äußerte ſich ebenſo liebenswürdig
                     als unverdient anerkennend über meine Arbeiten, lehnte ſie gleichwohl ab, in
                     einer <pb facs="gray00086.pdf"/>mir unbegreiflichen Rückſicht auf das
-                    Publikum der »<workName key="pmb35935">Zeit</workName>«, die er eigentümlicherweiſe als Familienblatt bezeichnete.
-                    Der »<orgName key="pmb29633">Erdgeist</orgName>«, an den Herr <persName key="pmb11727">Hofmann</persName> meine 
+                    Publikum der »<rs ref="#pmb35935" type="work">Zeit</rs>«, die er eigentümlicherweiſe als Familienblatt bezeichnete.
+                    Der »<rs ref="#pmb29633" type="organisation">Erdgeist</rs>«, an den Herr <rs ref="#pmb11727" type="person">Hofmann</rs> meine 
                     Skizzen weiterzugeben die
                     Freundlichkeit hatte, ließ es an mich kalt lassenden Lobeserhebungen nicht
-                    fehlen, ſcheint aber ähnliche Bedenken zu tragen, Realeres für mich zu tun. –
+                    fehlen, ſcheint aber ähnliche Bedenken zu tragen, Realeres für mich zu tun.&#160;–
                     Indem ich mir bewußt bin, Ihnen, ſehr geehrter Herr Doktor, niemals für all das,
                     was Sie an mir getan, danken zu können, möchte ich erſuchen, es nicht übel
                     nehmen zu wollen, daß ich, ſo ſchwer es mir auch fiel, noch einmal u. gewiß
                     nicht ohne zwingende Gründe, mit der Bitte um eine Empfehlung an Sie
                     heranzutreten genötigt bin. Hochachtungsvoll ergebenſt Ihr Sie, ſehr geehrter
-                    Herr Doktor, verehrender</p>
-                <closer>
-               <signed>Albert Ehrenstein.</signed>
-                </closer>
-            </div>
-        </body>
+                    Herr Doktor, verehrender</p><closer><signed>Albert Ehrenstein.</signed></closer></div></body>
     </text>
 </TEI>

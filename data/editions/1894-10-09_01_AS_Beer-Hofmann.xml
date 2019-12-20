@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-10-09_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1894-10-09_01_AS_Beer-Hofmann">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 9. 10. 1894</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 9.&#160;10.&#160;1894</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -53,12 +57,12 @@
                             <physDesc>
                                 <p>eh. Postkarte, Bleistift.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb59">Wien 9/3</placeName>
-                                    <date when="1894-10-09">9. 10. 94</date>
+                                    <rs ref="#pmb59" type="place">Wien 9/3</rs>
+                                    <date when="1894-10-09">9.&#160;10.&#160;94</date>
                                     <time>5–6 N</time>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb445">Roma</placeName>
+                                    <rs ref="#pmb445" type="place">Roma</rs>
                                     <date when="1894-11-10">11 10 <supplied>94</supplied>
                                     </date>
                                     <time>8 M</time>
@@ -70,8 +74,8 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb10815">Bahr, Hermann</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10815">Bahr, Hermann</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel, Aufzeichnungen, Dokumente
                                 (1891–1931)</title>
                             <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
@@ -90,20 +94,20 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1894-10-09" n="01">9. 10. 1894</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1894-10-09" n="01">9.&#160;10.&#160;1894</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-                    <placeName key="pmb445">Rom</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+                    <placeName ref="#pmb445">Rom</placeName>
                     <date when="1894-11-10">11 10 <supplied>94</supplied>
                     </date>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-10-07_01">Beer-Hofmann an Schnitzler, 7. 10. 1894</ptr>
-               <ptr type="next" subtype="toAuthor" target="1894-10-12_01">Beer-Hofmann an Schnitzler, 12. 10. 1894</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-10-07_01">Beer-Hofmann an Schnitzler, 7.&#160;10.&#160;1894</ptr>
+               <ptr type="next" subtype="toAuthor" target="1894-10-12_01">Beer-Hofmann an Schnitzler, 12.&#160;10.&#160;1894</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -119,82 +123,15 @@
         <graphic url="1894_AS_RBH_3_00031.jpeg"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <pb facs="1894_AS_RBH_3_00030"/>
-                        <hi rend="latintype">
-                            <placeName key="pmb40306">
-                                <country>Italien</country>
-                            </placeName>
-                        </hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">Dr. Rich Beer-Hofmann</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="pmb445">Rom</placeName>
-                        </hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="pmb769">Hotel Quirinal</placeName>
-                        </hi>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p>
-                  <pb facs="1894_AS_RBH_3_00031"/>
-                  <placeName key="pmb50">
-                     <unclear>Wien</unclear>
-                  </placeName>
-               </p>
-                    <dateline rend="right">
-                        <date>Dienstag, 9. 10. 94</date>.</dateline>
-                </opener>
-                <p>
-                    <salute>Lieber Richard, </salute>bitte theilen Sie mir mit, ob Sie meinen Brief
-                        <placeName key="pmb445">Rom</placeName>
-                    <space unit="chars" quantity="1"/>
-                    <hi rend="latintype">a post. ferm</hi> der »Lieber Bekannter« anfing, nicht
-                    erhalten haben. Und die 2 Karten nach <placeName key="pmb975">Pallanza</placeName>? –</p>
-                <p>
-               <persName key="pmb10815">
-                        <hi rend="latintype">Bahr</hi>
-                    </persName>: <placeName key="pmb770">Wien, VIII <hi rend="latintype">Lammgasse</hi> 3</placeName>. Er hat ſich ſehr über Ihr Telegr.
-                    gefreut. Erſte <rs type="organisation" key="pmb29209">Nu<c rendition="#gemination-m"/>er</rs> wohlgelungen. <hi rend="latintype">
-                        <anchor type="commentary" xml:id="KL642-1"/>
-                        <rs type="work" key="pmb31363">
-                            <persName key="pmb2713">Helferich</persName>
-                        </rs>
-                        <note type="commentary" xml:id="KL642-1h">
-                            <bibl>
-                                <persName key="pmb2713">Hermann Helferich</persName>: <workName key="pmb31363">»Schöne Frauen«</workName>. In: <workName key="pmb36340">Die Zeit</workName>, Bd. 1, Nr. 1,
-                                    <date>6. 10. 1894</date>, S. 7–8</bibl>.</note>
-                    </hi> famos; <anchor type="commentary" xml:id="KL642-3"/>
-                    <persName key="pmb10815">
-                        <hi rend="latintype">Bahr</hi>
-                    </persName>’s Sachen<note type="commentary" xml:id="KL642-3h">
-                  <persName key="10815">Bahr</persName> hat, unter verschiedenen Namen und Kürzeln,
+        <body><div type="address"><address><addrLine><pb facs="1894_AS_RBH_3_00030"/><hi rend="latintype"><rs ref="#pmb40306" type="place"><country>Italien</country></rs></hi></addrLine><addrLine><hi rend="latintype">Dr. Rich Beer-Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb445" type="place">Rom</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb769" type="place">Hotel Quirinal</rs></hi></addrLine></address></div><div type="writingSession" n="1"><opener><p><pb facs="1894_AS_RBH_3_00031"/><rs ref="#pmb50" type="place"><unclear>Wien</unclear></rs></p><dateline rend="right"><date>Dienstag, 9.&#160;10.&#160;94</date>.</dateline></opener><p><salute>Lieber Richard, </salute>bitte theilen Sie mir mit, ob Sie meinen Brief
+                        <rs ref="#pmb445" type="place">Rom</rs><space unit="chars" quantity="1"/><hi rend="latintype">a post. ferm</hi> der »Lieber Bekannter« anfing, nicht
+                    erhalten haben. Und die 2 Karten nach <rs ref="#pmb975" type="place">Pallanza</rs>? –</p><p><rs ref="#pmb10815" type="person"><hi rend="latintype">Bahr</hi></rs>: <rs ref="#pmb770" type="place">Wien, VIII <hi rend="latintype">Lammgasse</hi> 3</rs>. Er hat ſich ſehr über Ihr Telegr.
+                    gefreut. Erſte <rs type="organisation" ref="#pmb29209" subtype="implied">Nu<c rendition="#gemination-m"/>er</rs> wohlgelungen. <hi rend="latintype"><anchor type="commentary" xml:id="KL642-1"/><rs type="work" ref="#pmb31363" subtype="implied"><rs ref="#pmb2713" type="person">Helferich</rs></rs><note type="commentary" xml:id="KL642-1h"><bibl><rs ref="#pmb2713" type="person">Hermann Helferich</rs>: <rs ref="#pmb31363" type="work">»Schöne Frauen«</rs>. In: <rs ref="#pmb36340" type="work">Die Zeit</rs>, Bd.&#160;1, Nr.&#160;1,
+                                    <date>6.&#160;10.&#160;1894</date>, S.&#160;7–8</bibl>.</note></hi> famos; <anchor type="commentary" xml:id="KL642-3"/><rs ref="#pmb10815" type="person"><hi rend="latintype">Bahr</hi></rs>’s Sachen<note type="commentary" xml:id="KL642-3h"><rs type="person" ref="10815">Bahr</rs> hat, unter verschiedenen Namen und Kürzeln,
                         zwei Aufsätze, zwei Buch- und drei Theaterbesprechungen im ersten
-                        Heft.</note>, beſonders <anchor type="commentary" xml:id="KL642-2"/>
-                    <workName key="pmb32209">Burgtheater</workName>
-                    <note type="commentary" xml:id="KL642-2h">
-                        <bibl>
-                            <persName key="pmb10815">Hermann Bahr</persName>: <workName key="pmb32209">Burgtheater</workName>. In: <workName key="pmb36340">Die Zeit</workName>, Bd. 1, Nr. 1, <date>6. 10. 1894</date>,
-                            S. 9–10</bibl>.</note> vorzüglich. –</p>
-                <p>
-               <workName key="pmb30397">Schmetterlingsſchlacht</workName> noch nicht geſehen,
-                    will Freitag gehen. – Schreiben Sie mehr, wann ko<c rendition="#gemination-m"/>en Sie?</p>
-                <closer>Herzlichen Gruſs<space unit="chars" quantity="3"/>Ihr
-                        <signed>Arthur</signed>
-                </closer>
-
-            </div>
-        </body>
+                        Heft.</note>, beſonders <anchor type="commentary" xml:id="KL642-2"/><rs ref="#pmb32209" type="work">Burgtheater</rs><note type="commentary" xml:id="KL642-2h"><bibl><rs ref="#pmb10815" type="person">Hermann Bahr</rs>: <rs ref="#pmb32209" type="work">Burgtheater</rs>. In: <rs ref="#pmb36340" type="work">Die Zeit</rs>, Bd.&#160;1, Nr.&#160;1, <date>6.&#160;10.&#160;1894</date>,
+                            S.&#160;9–10</bibl>.</note> vorzüglich. –</p><p><rs ref="#pmb30397" type="work">Schmetterlingsſchlacht</rs> noch nicht geſehen,
+                    will Freitag gehen. – Schreiben Sie mehr, wann ko<c rendition="#gemination-m"/>en Sie?</p><closer>Herzlichen Gruſs<space unit="chars" quantity="3"/>Ihr
+                        <signed>Arthur</signed></closer></div></body>
     </text>
 </TEI>

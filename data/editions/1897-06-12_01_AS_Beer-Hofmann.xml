@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-06-12_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-06-12_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 12. 6. 1897</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 12.&#160;6.&#160;1897</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,14 +55,14 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief mit Umschlag, 2 Bl., 8 S., Bleistift.</p>
+                        <p>eh. Brief mit Umschlag, 2&#160;Bl., 8&#160;S., Bleistift.</p>
                         <stamp n="1">
-                           <placeName key="pmb59">Wien 9/3</placeName>
+                           <rs ref="#pmb59" type="place">Wien 9/3</rs>
                            <date>12. 6. 97</date>
                            <time>5-6N</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName key="pmb213">Ischl</placeName>
+                           <rs ref="#pmb213" type="place">Ischl</rs>
                            <date>13. 6. 97</date>
                            <time>7-8V</time>
                         </stamp>
@@ -69,8 +73,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -89,19 +93,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1897-06-12" n="01">12. 6. 1897</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1897-06-12" n="01">12.&#160;6.&#160;1897</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb213">Ischl</placeName>
-               <date when="1897-06-13">13. 6. 1897</date>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb213">Ischl</placeName>
+               <date when="1897-06-13">13.&#160;6.&#160;1897</date>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-06-11_01">Beer-Hofmann an Schnitzler, 11. 6. 1897</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-06-13_01">Beer-Hofmann an Schnitzler, 13. 6. 1897</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-06-11_01">Beer-Hofmann an Schnitzler, 11.&#160;6.&#160;1897</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-06-13_01">Beer-Hofmann an Schnitzler, 13.&#160;6.&#160;1897</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -121,77 +125,29 @@
       <graphic url="1897_AS_RBH_2_00041.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1897_AS_RBH_2_00034.jpeg"/>
-                  <hi rend="latintype">Dr. Richard
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb213">Ischl</placeName>
-                  </hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb766">
-                     <hi rend="latintype">Egelmoos 22</hi>
-                  </placeName>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">Ober-Oesterreich</hi>
-               </addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <pb facs="1897_AS_RBH_2_00036.jpeg"/>
-                  <date when="1897-06-12">12. 6. 97</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Mein lieber Richard. </salute>Ich danke ſehr für Ihre Bemühung bei <placeName key="pmb414">
-                  <hi rend="latintype">Leopold</hi>
-               </placeName>. Wahrſcheinlich ko<c rendition="#gemination-m"/> ich früher, ſo gegen <date>27.</date>,
+      <body><div type="address"><address><addrLine><pb facs="1897_AS_RBH_2_00034.jpeg"/><hi rend="latintype">Dr. Richard
+                     Beer-Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb213" type="place">Ischl</rs></hi></addrLine><addrLine><rs ref="#pmb766" type="place"><hi rend="latintype">Egelmoos 22</hi></rs></addrLine><addrLine><hi rend="latintype">Ober-Oesterreich</hi></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1897_AS_RBH_2_00036.jpeg"/><date when="1897-06-12">12.&#160;6.&#160;97</date></dateline></opener><p><salute>Mein lieber Richard. </salute>Ich danke ſehr für Ihre Bemühung bei <rs ref="#pmb414" type="place"><hi rend="latintype">Leopold</hi></rs>. Wahrſcheinlich ko<c rendition="#gemination-m"/> ich früher, ſo gegen <date>27.</date>,
                   <date>28.</date> Bitte ſchaun Sie ſich doch im Vorüberradeln das Zi<c rendition="#gemination-m"/>er an, ob nicht alles wackelt, was in dieſem Wirtshaus
                   <pb facs="1897_AS_RBH_2_00037.jpeg"/>immer vorauszuſetzen iſt. Notwendig ein
-               großer Tiſch (zum Schreiben). Da meine <rs type="person" key="pmb12701">Mama</rs>
-               eine kleine Couſine, <persName key="pmb20861">Grethel</persName>, zur Begleitung hat,
-               brauch ich gar nicht nah von ihr zu ſein. –</p>
-            <p>Nun, wegen <placeName key="pmb734">
-                  <hi rend="latintype">Bayreuth</hi>
-               </placeName>, da
+               großer Tiſch (zum Schreiben). Da meine <rs type="person" ref="#pmb12701" subtype="implied">Mama</rs>
+               eine kleine Couſine, <rs ref="#pmb20861" type="person">Grethel</rs>, zur Begleitung hat,
+               brauch ich gar nicht nah von ihr zu ſein.&#160;–</p><p>Nun, wegen <rs ref="#pmb734" type="place"><hi rend="latintype">Bayreuth</hi></rs>, da
                müſſen Sie ſich ſasch <pb facs="1897_AS_RBH_2_00037.jpeg"/>entſchließen, aber nicht
-               gleich Nein ſagen, weil es raſch ſein muſs. <workName key="pmb33031">
-                  <hi rend="latintype">Parsifal</hi>
-               </workName> iſt am <date>27.</date>,
-                  <date>28.</date> und <date>30. <hi rend="underline" n="1">Juli</hi>
-               </date> ſoweit
+               gleich Nein ſagen, weil es raſch ſein muſs. <rs ref="#pmb33031" type="work"><hi rend="latintype">Parsifal</hi></rs> iſt am <date>27.</date>,
+                  <date>28.</date> und <date>30.&#160;<hi rend="underline" n="1">Juli</hi></date> ſoweit
                es für mich in Betracht kommt. <hi n="1" rend="underline">Ein</hi> Sitz 12 Gulden.
-               Ich habe auch an <persName key="pmb11485">Paul</persName> geſchrieben. Soll ich ei<pb facs="1897_AS_RBH_2_00038.jpeg"/>nen Sitz für Sie nehmen? Am liebſten
+               Ich habe auch an <rs ref="#pmb11485" type="person">Paul</rs> geſchrieben. Soll ich ei<pb facs="1897_AS_RBH_2_00038.jpeg"/>nen Sitz für Sie nehmen? Am liebſten
                   <date>28.</date> Man bringt ihn auch i<c rendition="#gemination-m"/>er wieder los,
                da ein großes Geriſs iſt; alſo riskirt iſt nicht viel. Überhaupt! 12 Gulden – Zwei
-               Gulden – und noch vier – – Und noch ſechs – Man <pb facs="1897_AS_RBH_2_00039.jpeg"/>hält es und hat vier achter gegen vier zehner, das iſt doch die <hi rend="latintype">
-                  <workName key="pmb33031">Parsifal</workName>-Chance</hi> eher
-               werth. –</p>
-            <p>– Ich ſpiele mich mit einem <rs type="work" key="pmb29923">Komödienplan</rs> herum<c rendition="#dots" n="4"/> aber ich fang nicht an, bevor die Sache von der 1. bis
+               Gulden – und noch vier –&#160;– Und noch ſechs – Man <pb facs="1897_AS_RBH_2_00039.jpeg"/>hält es und hat vier achter gegen vier zehner, das iſt doch die <hi rend="latintype"><rs ref="#pmb33031" type="work">Parsifal</rs>-Chance</hi> eher
+               werth.&#160;–</p><p>– Ich ſpiele mich mit einem <rs type="work" ref="#pmb29923" subtype="implied">Komödienplan</rs> herum<c rendition="#dots" n="4"/> aber ich fang nicht an, bevor die Sache von der 1. bis
                zur letzten Scene abſolut feſtſteht und alle <pb facs="1897_AS_RBH_2_00040.jpeg"/>Perſonen zu einander eine wirkliche ſowohl äußerliche als innerliche Beziehung
                haben. Ich habe keine Luſt, wieder ein Stück zu ſchreiben, wo man Perſonen nach
-               Belieben entfernen und dazuthun kann. – <workName key="pmb29899">Freiwild</workName>
-               in <placeName key="pmb652">Prag</placeName> frei<pb facs="1897_AS_RBH_2_00040.jpeg"/>gegeben – für den Fall, daſs <placeName key="pmb314">Bayern</placeName>. Man räth
-               mir ſehr, besonders <persName key="pmb12740">Gustav Schwk</persName>. Habe noch nicht
-               geantwortet. –</p>
-            <p>– Aengſtigt Sie’s »<rs type="work" key="pmb30247">mit ahnungsvoller Gegenwart</rs>«?
-               – Ich ſpüre noch gar nichts. –</p>
-            <p>Ich freu mich ſehr auf Sie. We<c rendition="#gemination-n"/>
-               <pb facs="1897_AS_RBH_2_00041.jpeg"/>Sie »<hi rend="latintype">fesch</hi>« ſind, ſo
-                  ko<c rendition="#gemination-m"/>en Sie mir nach <placeName key="pmb40965">Lambach</placeName>, oder, billiger, nach <placeName key="pmb874">Gmunden</placeName> entgegen auf dem Rad und wir fahren zuſa<c rendition="#gemination-m"/>en u. ſ. w. Antworten Sie mir gleich.</p>
-            <p>Herzlich Ihr<lb/>
-               <signed>Arthur.</signed>
-            </p>
-         </div>
-      </body>
+               Belieben entfernen und dazuthun kann.&#160;– <rs ref="#pmb29899" type="work">Freiwild</rs>
+               in <rs ref="#pmb652" type="place">Prag</rs> frei<pb facs="1897_AS_RBH_2_00040.jpeg"/>gegeben – für den Fall, daſs <rs ref="#pmb314" type="place">Bayern</rs>. Man räth
+               mir ſehr, besonders <rs ref="#pmb12740" type="person">Gustav Schwk</rs>. Habe noch nicht
+               geantwortet.&#160;–</p><p>– Aengſtigt Sie’s »<rs type="work" ref="#pmb30247" subtype="implied">mit ahnungsvoller Gegenwart</rs>«?
+               – Ich ſpüre noch gar nichts.&#160;–</p><p>Ich freu mich ſehr auf Sie. We<c rendition="#gemination-n"/><pb facs="1897_AS_RBH_2_00041.jpeg"/>Sie »<hi rend="latintype">fesch</hi>« ſind, ſo
+                  ko<c rendition="#gemination-m"/>en Sie mir nach <rs ref="#pmb40965" type="place">Lambach</rs>, oder, billiger, nach <rs ref="#pmb874" type="place">Gmunden</rs> entgegen auf dem Rad und wir fahren zuſa<c rendition="#gemination-m"/>en u. ſ. w. Antworten Sie mir gleich.</p><p>Herzlich Ihr<lb/><signed>Arthur.</signed></p></div></body>
    </text>
 </TEI>

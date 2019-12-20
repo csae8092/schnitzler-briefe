@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-12-10_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-12-10_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 10. 12. 1892</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 10.&#160;12.&#160;1892</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,12 +55,12 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief mit Umschlag, 1 Bl., 1 S., schwarze Tinte.</p>
+                        <p>eh. Brief mit Umschlag, 1&#160;Bl., 1&#160;S., schwarze Tinte.</p>
                         <stamp n="1">
-                           <placeName key="pmb50">Wien 1/1</placeName>
-                           <date when="1892-12-10">10 12 9<unclear>2</unclear>
+                           <rs ref="#pmb50" type="place">Wien 1/1</rs>
+                           <date when="1892-12-10">10&#160;12&#160;9<unclear>2</unclear>
                            </date>
-                           <time>3-4 N</time>
+                           <time>3-4&#160;N</time>
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -69,18 +73,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="50">Wien</placeName>
-               <date when="1892-12-10" n="02">10. 12. 1892</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="50">Wien</placeName>
+               <date when="1892-12-10" n="02">10.&#160;12.&#160;1892</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1892-12-01_01">Schnitzler an Beer-Hofmann, 1. 12. 1892</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-12-14_01">Schnitzler an Beer-Hofmann, 14. 12. 1892</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1892-12-01_01">Schnitzler an Beer-Hofmann, 1.&#160;12.&#160;1892</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-12-14_01">Schnitzler an Beer-Hofmann, 14.&#160;12.&#160;1892</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -96,39 +100,7 @@
       <graphic url="DSC_0139.JPG"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="DSC_0137.JPG"/>
-                  <hi rend="latintype">Herrn Dr Rich. Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb50">Wien</placeName>
-                  </hi>
-               </addrLine>
-               <addrLine>
-                  <hi rend="latintype">
-                     <placeName key="pmb338">I Wollzeile 15</placeName>
-                  </hi>.</addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <pb facs="DSC_0137.JPG"/>
-                  <date>10. 12. 92</date>
-               </dateline>
-               <salute>Lieber Richard, </salute>
-            </opener>
-            <p>ich habe alſo dem Herrn <persName key="pmb12740">
-                  <hi rend="latintype">Schwarzkopf</hi>
-               </persName> geſchrieben, daſs wir morgen um <time>5 Uhr
-                  Nachmittag</time> bei Ihnen ſein dürften.</p>
-            <closer>Herzlichſt<lb/>Ihr<signed>Arthur.</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="address"><address><addrLine><pb facs="DSC_0137.JPG"/><hi rend="latintype">Herrn Dr Rich. Beer-Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb50" type="place">Wien</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I Wollzeile 15</rs></hi>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="DSC_0137.JPG"/><date>10.&#160;12.&#160;92</date></dateline><salute>Lieber Richard, </salute></opener><p>ich habe alſo dem Herrn <rs ref="#pmb12740" type="person"><hi rend="latintype">Schwarzkopf</hi></rs> geſchrieben, daſs wir morgen um <time>5 Uhr
+                  Nachmittag</time> bei Ihnen ſein dürften.</p><closer>Herzlichſt<lb/>Ihr<signed>Arthur.</signed></closer></div></body>
    </text>
 </TEI>

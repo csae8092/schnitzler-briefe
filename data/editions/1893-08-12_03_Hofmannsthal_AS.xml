@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-08-12_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-08-12_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 12. 8. 1893</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 12.&#160;8.&#160;1893</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Von Schnitzler mit Bleistift nummeriert:
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte. Von Schnitzler mit Bleistift nummeriert:
                                         »<quote>56</quote>«.</p>
                             </physDesc>
                         </msDesc>
@@ -60,8 +64,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -80,18 +84,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb895">Strobl</placeName>
-                    <date when="1893-08-12" n="03">12. 8. 1893</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb895">Strobl</placeName>
+                    <date when="1893-08-12" n="03">12.&#160;8.&#160;1893</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-08-11_02">Schnitzler an Hofmannsthal, 11. 8. 1893</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-08-24_01">Schnitzler, Salten an Hofmannsthal, 24. 8. 1893</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-08-11_02">Schnitzler an Hofmannsthal, 11.&#160;8.&#160;1893</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-08-24_01">Schnitzler, Salten an Hofmannsthal, 24.&#160;8.&#160;1893</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -106,34 +110,8 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00113"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00113"/>
-                        <placeName key="pmb895">Strobl</placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>12 VIII 93</date>.</dateline>
-                    <salute>mein lieber Arthur.</salute>
-                </opener>
-                <p>Vielen Dank für Ihre 2 lieben Briefe. Ich arbeite <hi n="2" rend="underline">nichts</hi>; ich befinde mich ſehr wohl. Ich ſpiele <hi rend="latintype">Tennis</hi>, <anchor type="commentary" xml:id="KL2258-1"/>
-                    <hi rend="latintype">Macao</hi>
-                    <note type="commentary" xml:id="KL2258-1h">Kartenspiel.</note>, fahre, ſchwimme
-                    und habe keine zuſammenhängenden Gedanken. Ich bin <hi rend="underline" n="2">kein</hi> Poet (Dichter, Schriftſteller, merkwürdiger Menſch <hi rend="latintype">etc</hi>) ſondern höchſtens </p>
-                <closer>Ihr guter Freund<lb/>
-                    <signed>Hugo.</signed>
-                </closer>
-                <postscript>
-                    <p>
-                        <hi rend="underline" n="3">Wo</hi> iſt <hi rend="latintype">
-                            <persName key="pmb2167">Salten</persName>
-                        </hi>?! Sie ſchreiben er iſt »unten«.</p>
-                    <p rend="right">umdrehen!!</p>
-                    <p>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00113"/>Im
-                            <date>September</date> komme ich jedenfalls nach <placeName key="pmb30">Salzburg</placeName>. Übrigens kann ich jeden Tag in <hi rend="underline" n="1">2</hi> Stunden hinfahren. Ein <hi rend="latintype">rendez vous</hi> mit <persName key="pmb11485">Goldmann</persName> wäre mir natürlich eine große Freude.</p>
-                </postscript>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00113"/><rs ref="#pmb895" type="place">Strobl</rs><space unit="chars" quantity="1"/><date>12 VIII 93</date>.</dateline><salute>mein lieber Arthur.</salute></opener><p>Vielen Dank für Ihre 2 lieben Briefe. Ich arbeite <hi n="2" rend="underline">nichts</hi>; ich befinde mich ſehr wohl. Ich ſpiele <hi rend="latintype">Tennis</hi>, <anchor type="commentary" xml:id="KL2258-1"/><hi rend="latintype">Macao</hi><note type="commentary" xml:id="KL2258-1h">Kartenspiel.</note>, fahre, ſchwimme
+                    und habe keine zuſammenhängenden Gedanken. Ich bin <hi rend="underline" n="2">kein</hi> Poet (Dichter, Schriftſteller, merkwürdiger Menſch <hi rend="latintype">etc</hi>) ſondern höchſtens </p><closer>Ihr guter Freund<lb/><signed>Hugo.</signed></closer><postscript><p><hi rend="underline" n="3">Wo</hi> iſt <hi rend="latintype"><rs ref="#pmb2167" type="person">Salten</rs></hi>?! Sie ſchreiben er iſt »unten«.</p><p rend="right">umdrehen!!</p><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00113"/>Im
+                            <date>September</date> komme ich jedenfalls nach <rs ref="#pmb30" type="place">Salzburg</rs>. Übrigens kann ich jeden Tag in <hi rend="underline" n="1">2</hi> Stunden hinfahren. Ein <hi rend="latintype">rendez vous</hi> mit <rs ref="#pmb11485" type="person">Goldmann</rs> wäre mir natürlich eine große Freude.</p></postscript></div></body>
     </text>
 </TEI>

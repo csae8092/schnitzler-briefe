@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1915-09-26_01_Adam_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1915-09-26_01_Adam_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 26. 9. 1915</title>
-                <author key="pmb12438">Adam, Robert</author>
+                <title level="a">Robert Adam an Arthur Schnitzler, 26.&#160;9.&#160;1915</title>
+                <author ref="#pmb12438">Adam, Robert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>A:Schnitzler, HS.NZ85.1.4230,11</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S. Von Schnitzler beschriftet: »<quote>
+                                <p>eh. Brief, 1&#160;Bl., 3&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Adam</hi>
                            </quote>«.</p>
                             </physDesc>
@@ -76,19 +80,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1915-09-26" n="01">26. 9. 1915</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1915-09-26" n="01">26.&#160;9.&#160;1915</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                     
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1915-07-20_01">Schnitzler an Adam, 20. 7. 1915</ptr>
-               <ptr type="next" subtype="toAuthor" target="1915-10-21_01">Adam an Schnitzler, 21. 10. 1915</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1915-07-20_01">Schnitzler an Adam, 20.&#160;7.&#160;1915</ptr>
+               <ptr type="next" subtype="toAuthor" target="1915-10-21_01">Adam an Schnitzler, 21.&#160;10.&#160;1915</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -99,47 +103,24 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="OGL Kopie"/>
-                  <placeName key="pmb50">Wien</placeName>, am <date>26. September 1915</date>
-               </dateline>
-                    <salute>Hochverehrter Herr Doktor!</salute>
-            </opener>
-                <p>Es hat mir außerordentlich leid getan, Sie bei meinem Beſuche nicht anzutreffen.
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="OGL Kopie"/><rs ref="#pmb50" type="place">Wien</rs>, am <date>26.&#160;September 1915</date></dateline><salute>Hochverehrter Herr Doktor!</salute></opener><p>Es hat mir außerordentlich leid getan, Sie bei meinem Beſuche nicht anzutreffen.
                     Ich wollte Ihnen die für mich ſehr ſchmerzliche Mitteilung machen, daß der
-                    <orgName key="pmb29639">Fiſcher’ſche Verlag</orgName> »weder einen inneren noch einen äußeren Anlaß« gefunden hat,
-                    die »<workName key="pmb33606">Fremdenſzenen</workName>« zu übernehmen, und ich benütze jetzt den erſten Moment der
-                    Ruhe, den mir Amtsgeſchäft und die endloſen Mühen der Überſiedlung nach <placeName key="pmb50">Wien</placeName>
+                    <rs ref="#pmb29639" type="organisation">Fiſcher’ſche Verlag</rs> »weder einen inneren noch einen äußeren Anlaß« gefunden hat,
+                    die »<rs ref="#pmb33606" type="work">Fremdenſzenen</rs>« zu übernehmen, und ich benütze jetzt den erſten Moment der
+                    Ruhe, den mir Amtsgeſchäft und die endloſen Mühen der Überſiedlung nach <rs ref="#pmb50" type="place">Wien</rs>
                     freilaſſen, Ihnen dieſe Nachricht, die Ihnen wohl ſchon direkt zugekommen ſein
-                    mag, zu übermitteln.</p>
-                <p>Daß ich Ihnen für Ihre gütige Vermittlung außerordentlich dankbar bin und daß
+                    mag, zu übermitteln.</p><p>Daß ich Ihnen für Ihre gütige Vermittlung außerordentlich dankbar bin und daß
                     mich das <pb facs="OGL Kopie"/>Intereſſe, das Sie als Einziger meinen
                     Arbeiten entgegenbrachten, innerlich stärkt und tröstet, habe ich Ihnen ſchon
-                    geſagt und ich werde nicht müde, Ihnen meinen Dank zu wiederholen.</p>
-                <p>Ich bin seit einiger Zeit von <placeName key="pmb1240">Ziſtersdorf</placeName> nach 
-                    <placeName key="pmb50">Wien</placeName> verſetzt, hier provisoriſch
-                    dem <orgName key="pmb29602">Bezirksgericht Floridsdorf</orgName> zugeteilt und verbringe meine Tage auf der
-                    Elektriſchen (der Weg von <placeName key="pmb62">Meidling</placeName> nach <placeName key="pmb71">Floridsdorf</placeName> iſt ſchrecklich weit!) und
-                    mit der Aburteilung größtenteils recht unintereſſanter Straffälle.</p>
-                <p>Meine unglückſelige Arbeit verſchließe ich, indem ich dieſe Enttäuſchung, wie ſo
+                    geſagt und ich werde nicht müde, Ihnen meinen Dank zu wiederholen.</p><p>Ich bin seit einiger Zeit von <rs ref="#pmb1240" type="place">Ziſtersdorf</rs> nach 
+                    <rs ref="#pmb50" type="place">Wien</rs> verſetzt, hier provisoriſch
+                    dem <rs ref="#pmb29602" type="organisation">Bezirksgericht Floridsdorf</rs> zugeteilt und verbringe meine Tage auf der
+                    Elektriſchen (der Weg von <rs ref="#pmb62" type="place">Meidling</rs> nach <rs ref="#pmb71" type="place">Floridsdorf</rs> iſt ſchrecklich weit!) und
+                    mit der Aburteilung größtenteils recht unintereſſanter Straffälle.</p><p>Meine unglückſelige Arbeit verſchließe ich, indem ich dieſe Enttäuſchung, wie ſo
                     viele früher, geduldig trage, zu den andern nicht glücklicheren Arbeiten in die
                     Schreibtiſchlade und warte auf beſſere Zeiten, um mit einer neuen Arbeit den
                     Kampf um Geltung in einer Literatur wiederaufzunehmen, die von mir halt abſolut
                     nichts wiſſen will. Daß ich die <pb facs="OGL Kopie"/>den Kampf noch nicht
-                    aufgegeben habe, iſt mir einigermaßen ſelbſt rätſelhaft. –</p>
-                <p>Mit der Versicherung meiner Dankbarkeit und Hochachtung Ihr ſehr ergebener</p>
-                <closer>
-               <signed>D<hi rend="superscript">r</hi>RAdam</signed>                                               
-                </closer>
-                <postscript>
-               <p>
-                  <placeName key="pmb1239">Wien XII/<hi rend="subscript">1</hi> Meidlinger Hauptſtr. 58</placeName>
-               </p>
-            </postscript>
-            </div>
-        </body>
+                    aufgegeben habe, iſt mir einigermaßen ſelbſt rätſelhaft.&#160;–</p><p>Mit der Versicherung meiner Dankbarkeit und Hochachtung Ihr ſehr ergebener</p><closer><signed>D<hi rend="superscript">r</hi>RAdam</signed></closer><postscript><p><rs ref="#pmb1239" type="place">Wien XII/<hi rend="subscript">1</hi> Meidlinger Hauptſtr. 58</rs></p></postscript></div></body>
     </text>
 </TEI>

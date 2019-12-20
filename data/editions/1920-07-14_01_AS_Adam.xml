@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1920-07-14_01_AS_Adam">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1920-07-14_01_AS_Adam">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Robert Adam, 14. 7. 1920</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Robert Adam, 14.&#160;7.&#160;1920</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>96.34.2/22</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>ms. Brief mit eh. Unterschrift, 1 Bl., 1 S.</p>
+                                <p>ms. Brief mit eh. Unterschrift, 1&#160;Bl., 1&#160;S.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -63,18 +67,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1920-07-14" n="01">14. 7. 1920</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1920-07-14" n="01">14.&#160;7.&#160;1920</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1920-06-25_01">Schnitzler an Adam, 25. 6. 1920</ptr>
-               <ptr type="next" subtype="toAuthor" target="1920-07-20_01">Schnitzler an Adam, 20. 7. 1922</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1920-06-25_01">Schnitzler an Adam, 25.&#160;6.&#160;1920</ptr>
+               <ptr type="next" subtype="toAuthor" target="1920-07-20_01">Schnitzler an Adam, 20.&#160;7.&#160;1922</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -84,41 +88,14 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p>
-                  <seg rend="left">
-                     <pb facs=""/>
-                     <hi rend="pre-print">Dr. Arthur
-                                Schnitzler</hi>
-                  </seg>
-                  <seg rend="right">
-                     <date>14. 7. 1920</date>.</seg>
-               </p>
-                    <p>
-                  <hi rend="pre-print">
-                     <placeName key="pmb150">Wien XVIII. Sternwartestrasse 71</placeName>
-                  </hi>
-               </p>
-                    <salute>Sehr verehrter Herr Doktor.</salute>
-                </opener>
-                <p>So viel ich weiss sind Sie zu allem andern auch ein Kenner der arabischen
+        <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print">Dr. Arthur
+                                Schnitzler</hi></seg><seg rend="right"><date>14.&#160;7.&#160;1920</date>.</seg></p><p><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></p><salute>Sehr verehrter Herr Doktor.</salute></opener><p>So viel ich weiss sind Sie zu allem andern auch ein Kenner der arabischen
                     Sprache. Ich lege Ihnen hier <anchor type="commentary" xml:id="KL2363-1"/>zwei
                         Zettel<note type="commentary" xml:id="KL2363-1h">Beilage nicht
                         erhalten.</note> bei, die einen arabischen Spruch enthalten sollen, und
                     würde Sie recht sehr um Uebersetzun<supplied>g</supplied> resp. Aufklärung
-                    bitten. Ich sende dies für alle Fälle an Ihre <placeName key="pmb50">Wien</placeName>er Adresse, nehme aber an,
-                    dass Sie sich schon in <placeName key="pmb1036">Gutenstein</placeName> befinden, wo Sie sich
-                    völlig erholen werden.</p>
-                <closer>Entschuldigen Sie die Bemühung und seien Sie herzlichst gegrüsst von<lb/>Ihrem sehr ergebenen<lb/>
-               <signed>
-                  <handShift/>Arthur Schnitzler</signed>
-            </closer>
-                <postscript>
-                    <p>Herrn Oberlandesgerichtsrat Dr. Adam Pollak.</p>
-                </postscript>
-            </div>
-        </body>
+                    bitten. Ich sende dies für alle Fälle an Ihre <rs ref="#pmb50" type="place">Wien</rs>er Adresse, nehme aber an,
+                    dass Sie sich schon in <rs ref="#pmb1036" type="place">Gutenstein</rs> befinden, wo Sie sich
+                    völlig erholen werden.</p><closer>Entschuldigen Sie die Bemühung und seien Sie herzlichst gegrüsst von<lb/>Ihrem sehr ergebenen<lb/><signed><handShift/>Arthur Schnitzler</signed></closer><postscript><p>Herrn Oberlandesgerichtsrat Dr. Adam Pollak.</p></postscript></div></body>
     </text>
 </TEI>

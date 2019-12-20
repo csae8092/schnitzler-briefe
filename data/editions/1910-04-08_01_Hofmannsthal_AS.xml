@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1910-04-08_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1910-04-08_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 8. 4. 1910</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 8.&#160;4.&#160;1910</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -82,13 +86,13 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb50">Sanatorium Löw Pelikangasse 15</placeName>
-               <date when="1910-04-08" n="01">8. 4. 1910</date>
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb50">Sanatorium Löw Pelikangasse 15</placeName>
+               <date when="1910-04-08" n="01">8.&#160;4.&#160;1910</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -97,28 +101,13 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline>
-                  <placeName key="pmb89">Sanatorium Löw</placeName>, Frauenabteilung <placeName key="pmb198">Pelikangasse 15</placeName>.<lb/>
-                  <date>Freitag</date>
-                  <space unit="chars" quantity="1"/>
-                  <time>abends</time>.</dateline>
-            </opener>
-            <p>
-               <salute>mein lieber Arthur, </salute>
-               <persName key="pmb2292">Gerty</persName> ist schon so ziemlich schmerzfrei und wäre sehr erfreut,
-   wenn <persName key="pmb2173">Olga</persName> sie <date>Montag</date> oder <date>Dienstag</date>
+      <body><div type="writingSession" n="1"><opener><dateline><rs ref="#pmb89" type="place">Sanatorium Löw</rs>, Frauenabteilung <rs ref="#pmb198" type="place">Pelikangasse 15</rs>.<lb/><date>Freitag</date><space unit="chars" quantity="1"/><time>abends</time>.</dateline></opener><p><salute>mein lieber Arthur, </salute><rs ref="#pmb2292" type="person">Gerty</rs> ist schon so ziemlich schmerzfrei und wäre sehr erfreut,
+   wenn <rs ref="#pmb2173" type="person">Olga</rs> sie <date>Montag</date> oder <date>Dienstag</date>
    nachmittags durch ihren Besuch auszeichnen würde, bittet aber um vorherige gütige telephonische
    Ansage. Mir würde es große Freude machen wieder einmal – da ich jetzt
-   ausnahmsweise in <placeName key="pmb50">Wien</placeName> wohne – mit Ihnen vormittags spazieren
+   ausnahmsweise in <rs ref="#pmb50" type="place">Wien</rs> wohne – mit Ihnen vormittags spazieren
    zugehen. Dürfte ich Sie <date>Sonntag</date> oder <date>Montag</date> dazu abholen? Um
     <time>11 Uhr</time>? oder wann? jedenfalls wünsche mir, Sie zu sehen, doppelt in diesen etwas
-   abnormalen Tagen. Bitte um ein Wort. </p>
-            <closer>Ihr <signed>Hugo</signed>
-            </closer>
-         </div>
-      </body>
+   abnormalen Tagen. Bitte um ein Wort. </p><closer>Ihr <signed>Hugo</signed></closer></div></body>
    </text>
 </TEI>

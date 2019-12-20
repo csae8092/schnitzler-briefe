@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-07-30_01_Altenberg_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1895-07-30_01_Altenberg_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Peter Altenberg an Arthur Schnitzler, [30. 7. 1895]</title>
-                <author key="pmb2147">Altenberg, Peter</author>
+                <title level="a">Peter Altenberg an Arthur Schnitzler, [30.&#160;7.&#160;1895]</title>
+                <author ref="#pmb2147">Altenberg, Peter</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,12 +51,12 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 2</idno>
+                                <idno>Schnitzler, B&#160;2</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S., schwarze Tinte. Von Schnitzler mit
                                     Bleistift beschrieben: »<quote>
-                                        <placeName key="pmb874">Gmunden</placeName>
+                                        <rs ref="#pmb874" type="place">Gmunden</rs>
                                         <space unit="chars" quantity="1"/>
                                         <date>30/7 95</date>
                                     </quote>« und nummeriert: »<quote>4</quote>«. Von unbekannter
@@ -66,7 +69,7 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb2147">Altenberg, Peter</author>
+                            <author ref="#pmb2147">Altenberg, Peter</author>
                             <title level="m">Die Selbsterfindung eines Dichters. Briefe und
                                 Dokumente 1892–1896</title>
                             <editor>Hg. und mit einem Nachwort von Leo A. Lensing</editor>
@@ -86,18 +89,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2147">Altenberg, Peter</persName>
-                    <placeName key="pmb874">Gmunden</placeName>
-                    <date when="1895-07-30" n="01">[30. 7. 1895]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2147">Altenberg, Peter</persName>
+                    <placeName ref="#pmb874">Gmunden</placeName>
+                    <date when="1895-07-30" n="01">[30.&#160;7.&#160;1895]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb213">Bad Ischl</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb213">Bad Ischl</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-07-12_02">Altenberg an Schnitzler, [12. 7. 1894]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-10-10_02">Altenberg an Schnitzler, [10. 10. 1895]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-07-12_02">Altenberg an Schnitzler, [12.&#160;7.&#160;1894]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-10-10_02">Altenberg an Schnitzler, [10.&#160;10.&#160;1895]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -114,46 +117,27 @@
         <graphic url="MS-SCHNITZLER-B-00002-000-00008"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="MS-SCHNITZLER-B-00002-000-00007"/>Lieber <hi rend="latintype">D<hi rend="superscript">r.</hi>
-                        </hi> Arthur Schnitzler.</salute>
-                </opener>
-                <p>Ich habe nach <placeName key="pmb50">Wien</placeName> geſchrieben in ihrer
-                        <anchor type="commentary" xml:id="KL866-2"/>Angelegenheit<note type="commentary" xml:id="KL866-2h">
-                        <persName key="pmb2121">Schnitzler</persName> dürfte um die Lieferung von
-                        Zigaretten gebeten haben. <bibl>Vgl. Kommentar zum Brief in <workName>Die
-                                Selbsterfindung eines Dichters</workName>, S. 142.</bibl>
-                    </note>, glaube aber, daß es mit Schwierigkeiten verbunden ſein dürfte.
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00002-000-00007"/>Lieber <hi rend="latintype">D<hi rend="superscript">r.</hi></hi> Arthur Schnitzler.</salute></opener><p>Ich habe nach <rs ref="#pmb50" type="place">Wien</rs> geſchrieben in ihrer
+                        <anchor type="commentary" xml:id="KL866-2"/>Angelegenheit<note type="commentary" xml:id="KL866-2h"><rs ref="#pmb2121" type="person">Schnitzler</rs> dürfte um die Lieferung von
+                        Zigaretten gebeten haben. <bibl>Vgl. Kommentar zum Brief in <rs type="work">Die
+                                Selbsterfindung eines Dichters</rs>, S.&#160;142.</bibl></note>, glaube aber, daß es mit Schwierigkeiten verbunden ſein dürfte.
                     Jedenfalls benachrichtige ich Sie. Kommen Sie doch <anchor type="commentary" xml:id="KL866-1"/>herüber<note type="commentary" xml:id="KL866-1h">Bereits
-                        am Folgetag radelte <persName key="pmb2121">Schnitzler</persName> nach
-                            <placeName key="pmb874">Gmunden</placeName>.</note>. Sie ſind geſund u.
-                    mobil. Kommen Sie mit <persName key="pmb10863">Richard Beer-Hofmann</persName>.
-                    Ich bin wie ſtets von <placeName key="pmb874">Gmunden</placeName> tief entzückt.
+                        am Folgetag radelte <rs ref="#pmb2121" type="person">Schnitzler</rs> nach
+                            <rs ref="#pmb874" type="place">Gmunden</rs>.</note>. Sie ſind geſund u.
+                    mobil. Kommen Sie mit <rs ref="#pmb10863" type="person">Richard Beer-Hofmann</rs>.
+                    Ich bin wie ſtets von <rs ref="#pmb874" type="place">Gmunden</rs> tief entzückt.
                     Es iſt gleichſam für <pb facs="MS-SCHNITZLER-B-00002-000-00008"/>mich
                     geſchaffen. Und dann, es muß mir halt die Welten-Schönheit <del rend="strikethrough">rp</del> repräſentiren. Wenn die Leute am Strande hin
-                    u. hertrippeln, iſt es <placeName key="pmb911">Oſtende</placeName>, <placeName key="pmb1162"> Sch<add place="inline">e</add>weningen </placeName>, wenn die
+                    u. hertrippeln, iſt es <rs ref="#pmb911" type="place">Oſtende</rs>, <rs ref="#pmb1162" type="place"> Sch<add place="inline">e</add>weningen </rs>, wenn die
                     Muſik ſpielt u. Damen in <hi rend="latintype">Chiné</hi>-Seide erſcheinen, iſt
-                    es <placeName key="pmb842">Karlsbad</placeName>, <placeName key="pmb772">Marienbad</placeName>, wenn der <geogName>Traunſtein</geogName> ziegelroth
-                    wird, iſt es die <placeName key="pmb34006">
-                        <country>Schweiz</country>
-                    </placeName> u. wenn der Abendfriede ko<c rendition="#gemination-m"/>t, iſt <del rend="strikethrough">d</del> es die <del rend="strikethrough">?</del> Welt,
-                    die Zukunft, <add place="above">das Ende.</add> Glauben Sie mir, lieber <hi rend="latintype">D<hi rend="superscript">r</hi>
-                    </hi>. Arthur, wir Armen ſind wie gewiſſe <pb facs="MS-SCHNITZLER-B-00002-000-00008"/>Kranke. Gewiſſe Organe verfeinern
+                    es <rs ref="#pmb842" type="place">Karlsbad</rs>, <rs ref="#pmb772" type="place">Marienbad</rs>, wenn der <geogName>Traunſtein</geogName> ziegelroth
+                    wird, iſt es die <rs ref="#pmb34006" type="place"><country>Schweiz</country></rs> u. wenn der Abendfriede ko<c rendition="#gemination-m"/>t, iſt <del rend="strikethrough">d</del> es die <del rend="strikethrough">?</del> Welt,
+                    die Zukunft, <add place="above">das Ende.</add> Glauben Sie mir, lieber <hi rend="latintype">D<hi rend="superscript">r</hi></hi>. Arthur, wir Armen ſind wie gewiſſe <pb facs="MS-SCHNITZLER-B-00002-000-00008"/>Kranke. Gewiſſe Organe verfeinern
                     ſich, erhöhen ihre Leiſtungsfähigkeiten, um den Ausfall anderer zu decken. So
                     iſt es mit der Potenz in jeder Form. Ekonomiſche Kräfte, <hi rend="latintype">sexuelle</hi> Kräfte, werden durch erhöhte ſeeliſche ausgeglichen. Das
                     Gehirn überni<c rendition="#gemination-m"/>t gleichſam ihre Aufgabe u. macht
-                    ſich die Verkümmerung zu Nutze.</p>
-                <p>Sie werden ſagen: »Das iſt nicht Harmonie, mein Lieber – – –.« <pb facs="MS-SCHNITZLER-B-00002-000-00007"/>Wenn Sie das aber nicht antworten,
+                    ſich die Verkümmerung zu Nutze.</p><p>Sie werden ſagen: »Das iſt nicht Harmonie, mein Lieber –&#160;–&#160;–.« <pb facs="MS-SCHNITZLER-B-00002-000-00007"/>Wenn Sie das aber nicht antworten,
                     werde ich Sie noch höher ſchätzen, nach meinem berühmten<add place="inline">!?</add> Ausſpruch: »<hi n="1" rend="underline">Weiſe ſein heißt, <del rend="strikethrough">h</del> auch das noch verſtehen, was man nicht mehr
-                        verſteht!!</hi>«</p>
-                <p>Adieu, alſo ko<c rendition="#gemination-m"/>en Sie doch herüber.</p>
-                <closer>Ihr aufrichtig freundſchaftlicher<lb/>
-                    <signed>Richard Engländer.</signed>
-                </closer>
-            </div>
-        </body>
+                        verſteht!!</hi>«</p><p>Adieu, alſo ko<c rendition="#gemination-m"/>en Sie doch herüber.</p><closer>Ihr aufrichtig freundſchaftlicher<lb/><signed>Richard Engländer.</signed></closer></div></body>
     </text>
 </TEI>

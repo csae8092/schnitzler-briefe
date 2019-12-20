@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1907-08-23_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1907-08-23_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 23. 8. 1907</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 23.&#160;8.&#160;1907</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,17 +83,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb909">Velden</placeName>
-               <date when="1907-08-23" n="01">23. 8. 1907</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb909">Velden</placeName>
+               <date when="1907-08-23" n="01">23.&#160;8.&#160;1907</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1907-08-19_01">Beer-Hofmann an Schnitzler, 19. 8. 1907</ptr>
-               <ptr type="next" subtype="toAuthor" target="1907-08-25_01">Schnitzler an Beer-Hofmann, 25. 8. 1907</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1907-08-19_01">Beer-Hofmann an Schnitzler, 19.&#160;8.&#160;1907</ptr>
+               <ptr type="next" subtype="toAuthor" target="1907-08-25_01">Schnitzler an Beer-Hofmann, 25.&#160;8.&#160;1907</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -98,45 +102,28 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb909">Velden</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date when="1907-08-23">23/VIII 07</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Arthur! </salute>Ihre Karte vom <date>19.</date> erhalte ich heute
-               nachgeschickt – nach <placeName key="pmb5075">Villach</placeName>, wo ich bis heute
-               Früh war. Wir sind am <date>20.</date> von <placeName key="pmb50">Wien</placeName>
-               weg, haben <placeName key="pmb590">Veld<unclear>es</unclear>
-               </placeName> angesehen,
-               dann doch aber hier – bei <persName key="pmb40118">Wahliss</persName> – Wohnung
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb909" type="place">Velden</rs><space unit="chars" quantity="1"/><date when="1907-08-23">23/VIII 07</date></dateline></opener><p><salute>Lieber Arthur! </salute>Ihre Karte vom <date>19.</date> erhalte ich heute
+               nachgeschickt – nach <rs ref="#pmb5075" type="place">Villach</rs>, wo ich bis heute
+               Früh war. Wir sind am <date>20.</date> von <rs ref="#pmb50" type="place">Wien</rs>
+               weg, haben <rs ref="#pmb590" type="place">Veld<unclear>es</unclear></rs> angesehen,
+               dann doch aber hier – bei <rs ref="#pmb40118" type="person">Wahliss</rs> – Wohnung
                genommen. Wollen hier acht Tage ungefähr bleiben, wenn uns kühles Wetter nicht vorher
-               südlich treibt- Dann – bei schönem Wetter über ein Stück der <placeName key="pmb40120">Dolomitenstrasse</placeName> nach <placeName key="pmb40263">Bozen</placeName> – schliesslich <placeName key="pmb259">Lido</placeName> – bei
-               kühlem Wetter direkt an den <placeName key="pmb259">Lido</placeName>! Immerhin ist
-               ziemliche Wahrscheinlichkeit vorhanden dass wir zwischen <date>2.</date> – und
-                  <date>5. September</date> in <placeName key="pmb40263">Bozen</placeName> oder
-                  <placeName key="pmb40263">Bozen</placeName>s Nähe sind.</p>
-            <p>Wenn Sie gelegentlich Ihren Aufenthalt mir melden, eventuell auch mir sagen wohin ich
+               südlich treibt- Dann – bei schönem Wetter über ein Stück der <rs ref="#pmb40120" type="place">Dolomitenstrasse</rs> nach <rs ref="#pmb40263" type="place">Bozen</rs> – schliesslich <rs ref="#pmb259" type="place">Lido</rs> – bei
+               kühlem Wetter direkt an den <rs ref="#pmb259" type="place">Lido</rs>! Immerhin ist
+               ziemliche Wahrscheinlichkeit vorhanden dass wir zwischen <date>2.</date>&#160;– und
+                  <date>5.&#160;September</date> in <rs ref="#pmb40263" type="place">Bozen</rs> oder
+                  <rs ref="#pmb40263" type="place">Bozen</rs>s Nähe sind.</p><p>Wenn Sie gelegentlich Ihren Aufenthalt mir melden, eventuell auch mir sagen wohin ich
                restante Briefe oder Telegramme richten soll, können wir uns vielleicht doch treffen
-               – was sehr schön wäre. Wenn Sie <persName key="pmb11485">Goldmann</persName> sehen,
+               – was sehr schön wäre. Wenn Sie <rs ref="#pmb11485" type="person">Goldmann</rs> sehen,
                sagen Sie ihm, bitte, dass ich ihm sehr für seine lieben Zeilen danke, dass ich ihm
-               als <persName key="pmb4986">Mamroth</persName> starb, nicht schrieb, weil ich um
-               diese Zeit den Kopf mit der beabsichtigten Operation an <rs type="person" key="pmb13913">Papa</rs> – die dann unterblieb – voll hatte, und ruhigere Tage
+               als <rs ref="#pmb4986" type="person">Mamroth</rs> starb, nicht schrieb, weil ich um
+               diese Zeit den Kopf mit der beabsichtigten Operation an <rs type="person" ref="#pmb13913" subtype="implied">Papa</rs> – die dann unterblieb – voll hatte, und ruhigere Tage
                abwarten wollte um ihm zu schreiben. Ich will mich aber nie mehr selbst auf »ruhige«
                oder »ruhigere« Tage vertrösten, ich entdecke – vielleicht ein bischen zu spät – daß
-               es keine gibt, – nie gibt, für Leute wie ich bin! zumindest nicht.</p>
-            <p>Geht <persName key="pmb11485">Goldmann</persName> mit Ihnen dann sagen Sie mir wie
+               es keine gibt,&#160;– nie gibt, für Leute wie ich bin! zumindest nicht.</p><p>Geht <rs ref="#pmb11485" type="person">Goldmann</rs> mit Ihnen dann sagen Sie mir wie
                lange er mit Ihnen bleibt, vielleicht kann ich es (wenn es sich nur um 1-2 Tage
-               handelt) so einrichten, daß ich ihn noch treffe. Geht er aber <placeName key="pmb50">Wien</placeName>wärts, so liegen wir an seiner Route und erwarten ein Telegramm
-                  »<placeName key="pmb40118">Wahliss</placeName> – <placeName key="pmb909">Velden</placeName>« wann er hieher kommt. Alles Herzliche Ihnen und Frau
-                  <persName key="pmb2173">Olga</persName>.</p>
-            <closer>Ihr <signed>Richard</signed>
-            </closer>
-         </div>
-      </body>
+               handelt) so einrichten, daß ich ihn noch treffe. Geht er aber <rs ref="#pmb50" type="place">Wien</rs>wärts, so liegen wir an seiner Route und erwarten ein Telegramm
+                  »<rs ref="#pmb40118" type="place">Wahliss</rs> – <rs ref="#pmb909" type="place">Velden</rs>« wann er hieher kommt. Alles Herzliche Ihnen und Frau
+                  <rs ref="#pmb2173" type="person">Olga</rs>.</p><closer>Ihr <signed>Richard</signed></closer></div></body>
    </text>
 </TEI>

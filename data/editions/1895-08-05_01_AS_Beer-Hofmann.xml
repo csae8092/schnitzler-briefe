@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1895_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler an Richard Beer-Hofmann,
-               [5. 8. 1895?]</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+               [5.&#160;8.&#160;1895?]</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -64,18 +68,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <date when="1895-08-05" n="01">[5. 8. 1895?]</date>
-               <placeName key="pmb213">Bad Ischl</placeName>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <date when="1895-08-05" n="01">[5.&#160;8.&#160;1895?]</date>
+               <placeName ref="#pmb213">Bad Ischl</placeName>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb213">Bad Ischl</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb213">Bad Ischl</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-07-25_01">Schnitzler an Beer-Hofmann, [27. 5. 1895?]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-08-19_01">Schnitzler an Beer-Hofmann, 19. 8. 1895</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-07-25_01">Schnitzler an Beer-Hofmann, [27.&#160;5.&#160;1895?]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-08-19_01">Schnitzler an Beer-Hofmann, 19.&#160;8.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -90,32 +94,17 @@
       <graphic url="1895_AS_RBH_3_00008.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="1895_AS_RBH_3_00007.jpeg"/>
-               <salute>Lieber Richard! </salute>
-               <anchor type="commentary" xml:id="KLM20191022-1"/>
-               <persName key="pmb2167">
-                  <hi rend="latintype">Salten</hi>
-               </persName>
-               <note type="commentary" xml:id="KLM20191022-1h">Das verwendete Papier (und die Einordnung zwischen die
+      <body><div type="writingSession" n="1"><p><pb facs="1895_AS_RBH_3_00007.jpeg"/><salute>Lieber Richard! </salute><anchor type="commentary" xml:id="KLM20191022-1"/><rs ref="#pmb2167" type="person"><hi rend="latintype">Salten</hi></rs><note type="commentary" xml:id="KLM20191022-1h">Das verwendete Papier (und die Einordnung zwischen die
                   anderen Korrespondenzstücke im Archiv) deuten auf <date>1895</date>. Aus dem
-                  Inhalt geht hervor, dass es die Kommunikation außerhalb von <placeName key="pmb50">Wien</placeName> stattfindet (»<quote>angeko<c rendition="#gemination-m"/>en</quote>«). Das reduziert die durch das <workName key="pmb33243">Tagebuch</workName> möglichen Daten auf <date>5.</date> und
-                     <date>16. 8. 1895</date>. Beim zweiten Termin kündigt <persName key="pmb2167">Salten</persName> aber an, einen späteren Zug zu nehmen. Auch
-                  dürfte sich <persName key="pmb10863">Beer-Hofmann</persName> zu diesem Zeitpunkt
-                  nicht in <placeName key="pmb213">Ischl</placeName> aufgehalten haben, was den
-                     <date>5. 8. 1895</date> wahrscheinlich macht. Im Theater sieht
-                     <persName key="pmb2121">Schnitzler</persName> an diesem Tag <workName key="pmb31857">Zwei glückliche Tage</workName>.</note> iſt erſt kurz vor
-                  <time>1</time> hier angeko<c rendition="#gemination-m"/>en. – Haben Sie
+                  Inhalt geht hervor, dass es die Kommunikation außerhalb von <rs ref="#pmb50" type="place">Wien</rs> stattfindet (»<quote>angeko<c rendition="#gemination-m"/>en</quote>«). Das reduziert die durch das <rs ref="#pmb33243" type="work">Tagebuch</rs> möglichen Daten auf <date>5.</date> und
+                     <date>16.&#160;8.&#160;1895</date>. Beim zweiten Termin kündigt <rs ref="#pmb2167" type="person">Salten</rs> aber an, einen späteren Zug zu nehmen. Auch
+                  dürfte sich <rs ref="#pmb10863" type="person">Beer-Hofmann</rs> zu diesem Zeitpunkt
+                  nicht in <rs ref="#pmb213" type="place">Ischl</rs> aufgehalten haben, was den
+                     <date>5.&#160;8.&#160;1895</date> wahrscheinlich macht. Im Theater sieht
+                     <rs ref="#pmb2121" type="person">Schnitzler</rs> an diesem Tag <rs ref="#pmb31857" type="work">Zwei glückliche Tage</rs>.</note> iſt erſt kurz vor
+                  <time>1</time> hier angeko<c rendition="#gemination-m"/>en.&#160;– Haben Sie
                ſchon einen Sitz für mich geno<c rendition="#gemination-m"/>en, ſo geh ich natürlich
-               ins Theater – nicht – nicht. – Für alle Fälle laſſen Sie mir was ſagen. <pb facs="1895_AS_RBH_3_00008.jpeg"/>Iſts Ihnen recht, ko<c rendition="#gemination-m"/> ich mit <persName key="pmb2167">
-                  <hi rend="latintype">S.</hi>
-               </persName> zwiſchen
-                  <time>5</time> u <time>6</time> zu Ihnen.</p>
-            <closer>Herzlich<lb/>Ihr <signed>Arth</signed>
-            </closer>
-         </div>
-      </body>
+               ins Theater – nicht – nicht.&#160;– Für alle Fälle laſſen Sie mir was ſagen. <pb facs="1895_AS_RBH_3_00008.jpeg"/>Iſts Ihnen recht, ko<c rendition="#gemination-m"/> ich mit <rs ref="#pmb2167" type="person"><hi rend="latintype">S.</hi></rs> zwiſchen
+                  <time>5</time> u <time>6</time> zu Ihnen.</p><closer>Herzlich<lb/>Ihr <signed>Arth</signed></closer></div></body>
    </text>
 </TEI>

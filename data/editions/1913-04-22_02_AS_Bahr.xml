@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1913-04-22_02_AS_Bahr">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1913-04-22_02_AS_Bahr">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 22. 4. 1913</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 22.&#160;4.&#160;1913</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -52,7 +56,7 @@
                         <idno>HS AM 23393 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>ms. Brief, 2 Bl., 3 S., hs. Korrekturen in Lateinschrift (Bleistift und Tinte),
+                        <p>ms. Brief, 2&#160;Bl., 3&#160;S., hs. Korrekturen in Lateinschrift (Bleistift und Tinte),
                            hs. Unterschrift in Tinte in Lateinschrift.</p>
                      </physDesc>
                   </msDesc>
@@ -74,7 +78,7 @@
             <listBibl>
                <biblStruct corresp="ASB2"> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="#pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">Briefe 1913–1931</title>
                      <editor>Hg. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler</editor>
                      <imprint>
@@ -87,11 +91,11 @@
                </biblStruct>
                <biblStruct corresp="DASB">
                   <analytic>
-                     <title level="a">22. 4. 1913</title>
+                     <title level="a">22.&#160;4.&#160;1913</title>
      
                   </analytic>
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint> 
@@ -108,8 +112,8 @@
                </biblStruct>
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -127,18 +131,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1913-04-22" n="02">22. 4. 1913</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1913-04-22" n="02">22.&#160;4.&#160;1913</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb30">Salzburg</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb30">Salzburg</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1913-04-18_01">Schnitzler an Bahr, 18. 4. 1913</ptr>
-               <ptr type="next" subtype="toAuthor" target="1913-04-23_01">Bahr an Schnitzler, 23. 4. 1913</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1913-04-18_01">Schnitzler an Bahr, 18.&#160;4.&#160;1913</ptr>
+               <ptr type="next" subtype="toAuthor" target="1913-04-23_01">Bahr an Schnitzler, 23.&#160;4.&#160;1913</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -155,76 +159,40 @@
      <graphic url="HS_AM23393Ba_2"/>
   </facsimile>
   <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <p>
-                  <seg rend="left">
-                     <pb facs=""/>
-                     <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
-                  </seg>
-                  <seg rend="right">
-                     <date>22. 4. 1913</date>.
-                  </seg>
-               </p>
-               <p>
-                  <hi rend="pre-print">
-                     <placeName key="pmb150">Wien XVIII. Sternwartestrasse 71</placeName>
-                  </hi>
-               </p>
-               <salute>Lieber Hermann.</salute>
-            </opener>
-            <p>Ich habe <anchor type="commentary" xml:id="KL127-2"/>nun <persName key="pmb2147">Altenberg</persName>, seinen <rs type="person" key="pmb2260">Bruder</rs> und seinen <rs type="person" key="pmb23360">Arzt</rs>
-               gesprochen<note type="commentary" xml:id="KL127-2h">Am <date>20. 4.</date>
-               </note> und glaube ein klares Bild von der ganzen Sache zu haben. <persName key="pmb2147">Altenberg</persName> ist vor zirka 4–5 Monaten wegen eines akuten
-               alkoholischen Irreseins nach <placeName key="pmb153">Steinhof</placeName> gebracht
+      <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></seg><seg rend="right"><date>22.&#160;4.&#160;1913</date>.
+                  </seg></p><p><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></p><salute>Lieber Hermann.</salute></opener><p>Ich habe <anchor type="commentary" xml:id="KL127-2"/>nun <rs ref="#pmb2147" type="person">Altenberg</rs>, seinen <rs type="person" ref="#pmb2260" subtype="implied">Bruder</rs> und seinen <rs type="person" ref="#pmb23360" subtype="implied">Arzt</rs>
+               gesprochen<note type="commentary" xml:id="KL127-2h">Am <date>20.&#160;4.</date></note> und glaube ein klares Bild von der ganzen Sache zu haben. <rs ref="#pmb2147" type="person">Altenberg</rs> ist vor zirka 4–5 Monaten wegen eines akuten
+               alkoholischen Irreseins nach <rs ref="#pmb153" type="place">Steinhof</rs> gebracht
                worden. Die schweren Erscheinungen, Verfolgungsideen etc., die, erst in der Anstalt
                selbst auftraten, dürften (was mir ärztlicherseits allerdings nicht gesagt wurde) auf
                die plötzliche vollkommene Abstinenz zurückzuführen gewesen sein (die man jetzt, ich
                weiss nicht recht warum, statt der früher geübten allmählichen Entwöhnung in vielen
-               Fällen anwendet). Ich habe <persName key="pmb2147">Altenberg</persName> geistig
+               Fällen anwendet). Ich habe <rs ref="#pmb2147" type="person">Altenberg</rs> geistig
                frischer gefunden als seit langer Zeit, nur eben sehr erregt, weil er schon gerne auf
-               den <placeName key="pmb189">Semmering</placeName> möchte. Freilich besteht die Gefahr, besser die Sicherheit, dass er ohne
+               den <rs ref="#pmb189" type="place">Semmering</rs> möchte. Freilich besteht die Gefahr, besser die Sicherheit, dass er ohne
                ärztliche Aufsicht sofort wieder zu trinken und bald auch wieder alkoholisch <pb facs="HS_AM23393Ba_1_R"/>zu
                <anchor type="commentary" xml:id="KL127-1"/>exzedieren<note type="commentary" xml:id="KL127-1h">übertreiben.</note> anfängt. Diese Gefahr wird aber gerade so wie heute in acht Tagen, in vier
                Wochen und in einem halben Jahr bestehen. Dazu kommt, dass seine steigende Erregung
-               wegen der Internierung in <placeName key="pmb153">Steinhof</placeName> seinem
-               allgemeinen Zustand kaum förderlich sein dürfte. Dies alles habe ich auch <persName key="pmb2147">Peter Altenbergs</persName>
-               <space unit="chars" quantity="1"/>
-               <rs type="person" key="pmb2260">Bruder</rs> gesagt, und da <del rend="strikethrough">auch</del> der <rs type="person" key="pmb23360">Chefarzt</rs> gegen <persName key="pmb2147">P. A.’s</persName> Entlassung nichts einzuwenden hat, wenn der <rs type="person" key="pmb2260">Bruder</rs> die Verantwortung übernimmt, (man muss
-               allerdings fragen, wofür?), so dürfte <persName key="pmb2147">P. A.</persName> in
-               wenigen Tagen die Reise auf den <placeName key="pmb189">Semmering</placeName> antreten können. Der <rs type="person" key="pmb2260">Bruder</rs> möchte
-               nur, was ich sehr vernünftig finde, dass <persName key="pmb2147">P. A.</persName>
-               wenigstens anfänglich nicht im Hotel, sondern im <placeName key="pmb442">Kurhaus</placeName>, also unter recht
+               wegen der Internierung in <rs ref="#pmb153" type="place">Steinhof</rs> seinem
+               allgemeinen Zustand kaum förderlich sein dürfte. Dies alles habe ich auch <rs ref="#pmb2147" type="person">Peter Altenbergs</rs><space unit="chars" quantity="1"/><rs type="person" ref="#pmb2260" subtype="implied">Bruder</rs> gesagt, und da <del rend="strikethrough">auch</del> der <rs type="person" ref="#pmb23360" subtype="implied">Chefarzt</rs> gegen <rs ref="#pmb2147" type="person">P. A.’s</rs> Entlassung nichts einzuwenden hat, wenn der <rs type="person" ref="#pmb2260" subtype="implied">Bruder</rs> die Verantwortung übernimmt, (man muss
+               allerdings fragen, wofür?), so dürfte <rs ref="#pmb2147" type="person">P. A.</rs> in
+               wenigen Tagen die Reise auf den <rs ref="#pmb189" type="place">Semmering</rs> antreten können. Der <rs type="person" ref="#pmb2260" subtype="implied">Bruder</rs> möchte
+               nur, was ich sehr vernünftig finde, dass <rs ref="#pmb2147" type="person">P. A.</rs>
+               wenigstens anfänglich nicht im Hotel, sondern im <rs ref="#pmb442" type="place">Kurhaus</rs>, also unter recht
                bescheidener ärztlicher Aufsicht wohne. Für den Fall, dass sich das nicht durchführen
-               liesse, wäre auch die Begleitung durch einen Wärter in Erwägung zu ziehen. <persName key="pmb2147">P. A.</persName> möchte selbst sehr gern seinen Wärter aus dem
+               liesse, wäre auch die Begleitung durch einen Wärter in Erwägung zu ziehen. <rs ref="#pmb2147" type="person">P. A.</rs> möchte selbst sehr gern seinen Wärter aus dem
                Sanatorium für ein paar Tage mitnehmen, wenn dem nicht, wie es den Anschein hat, von
                Seiten der Anstalt Schwierigkei<pb facs="HS_AM23393Ba_2"/>ten entgegengesetzt würden. Es hat meiner Ansicht
-               nach wirklich keinen Sinn <persName key="pmb2147">Peter Altenberg</persName> länger
-               in <placeName key="pmb153">Steinhof</placeName> zu halten, wenn auch kaum zu
+               nach wirklich keinen Sinn <rs ref="#pmb2147" type="person">Peter Altenberg</rs> länger
+               in <rs ref="#pmb153" type="place">Steinhof</rs> zu halten, wenn auch kaum zu
                bezweifeln ist, dass nach einiger Zeit ihm ein neues Delirium und wahrscheinlich eine
                neuerliche Internierung, die ja dann der Umgebung wegen nicht zu vermeiden ist,
                bevorstehen dürfte. Von den Degenerationserscheinungen, die man nach allerlei
-               Gerüchten hätte befürchten können habe ich bei <persName key="pmb2147">Altenberg</persName> nicht das Geringste bemerkt, und ich glaube, wenn auch
-               vielleicht die <anchor type="textConst" xml:id="TL127-1"/>
-               <hi rend="underline" n="1">plötzliche</hi>
-               <note type="textConst" xml:id="TL127-1h">Hs. Unterstreichung.</note> Abstinenz zu Beginn der Anstaltsbehandlung nicht
-               ausschliesslich von Vorteil <subst>
-                  <del rend="strikethrough">war, dass der Aufenthalt im Ganzen</del>
-                  <add place="above">für ihn gewesen w.</add>
-               </subst>, – die
+               Gerüchten hätte befürchten können habe ich bei <rs ref="#pmb2147" type="person">Altenberg</rs> nicht das Geringste bemerkt, und ich glaube, wenn auch
+               vielleicht die <anchor type="textConst" xml:id="TL127-1"/><hi rend="underline" n="1">plötzliche</hi><note type="textConst" xml:id="TL127-1h">Hs. Unterstreichung.</note> Abstinenz zu Beginn der Anstaltsbehandlung nicht
+               ausschliesslich von Vorteil <subst><del rend="strikethrough">war, dass der Aufenthalt im Ganzen</del><add place="above">für ihn gewesen w.</add></subst>, – die
                geänderte Lebensweise im weiteren Verlauf und alles was damit zusammenhängt hat ihm
                sicher nur gut getan. Was natürlich kein Anlass ist den Aufenthalt ohne Notwendigkeit
-               zu verlängern.</p>
-            <closer>Herzlichen Gruss<lb/>Dein<lb/>
-               <signed>
-                  <handShift/>Arthur</signed>
-            </closer>
-            <postscript>
-               <p>
-                  <handShift medium="typewriter"/>Herrn Hermann Bahr, <placeName key="pmb30">Salzburg</placeName>.</p>
-            </postscript>
-         </div>
-      </body>
+               zu verlängern.</p><closer>Herzlichen Gruss<lb/>Dein<lb/><signed><handShift/>Arthur</signed></closer><postscript><p><handShift medium="typewriter"/>Herrn Hermann Bahr, <rs ref="#pmb30" type="place">Salzburg</rs>.</p></postscript></div></body>
   </text>
 </TEI>

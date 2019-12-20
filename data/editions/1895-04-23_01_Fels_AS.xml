@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L042XXX">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L042XXX">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Friedrich M. Fels an Arthur Schnitzler,
-                    23. 4. 1895</title>
-                <author key="pmb2450">Fels, Friedrich M.</author>
+                    23.&#160;4.&#160;1895</title>
+                <author ref="#pmb2450">Fels, Friedrich M.</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -16,8 +20,8 @@
                     <address>
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
-                        <placeName>
-                            <country>A</country> Wien </placeName>
+                        <rs type="place">
+                            <country>A</country> Wien </rs>
                     </address>
                 </funder>
             </titleStmt>
@@ -56,13 +60,13 @@
                            </quote>« und
                                     nummeriert: »<quote>21</quote>«.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb51">Wien 1/1</placeName>
-                                    <date when="1895-05-23">23. 5. 1895</date>
+                                    <rs ref="#pmb51" type="place">Wien 1/1</rs>
+                                    <date when="1895-05-23">23.&#160;5.&#160;1895</date>
                                     <time>1–N</time>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="pmb59">Wien 9/3</placeName>
-                                    <date when="1895-05-23">2<unclear>3</unclear>. 5. 1895</date>
+                                    <rs ref="#pmb59" type="place">Wien 9/3</rs>
+                                    <date when="1895-05-23">2<unclear>3</unclear>.&#160;5.&#160;1895</date>
                                     <time>3</time>
                                     <action>Bestellt</action>
                                 </stamp>
@@ -77,19 +81,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2450">Fels, Friedrich M.</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1895-04-23" n="01">23. 4. 1895</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2450">Fels, Friedrich M.</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1895-04-23" n="01">23.&#160;4.&#160;1895</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1895-04-23">23. 4. 1895</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1895-04-23">23.&#160;4.&#160;1895</date>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-11-26_01">Fels an Schnitzler, [26. 11. 1894]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-05-20_01">Fels an Schnitzler, 20. 5. 1895</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-11-26_01">Fels an Schnitzler, [26.&#160;11.&#160;1894]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-05-20_01">Fels an Schnitzler, 20.&#160;5.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -99,33 +103,10 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs=""/>Herrn Dr. Arthur Schnitzler</addrLine>
-                    <addrLine>
-                        <placeName key="pmb50">Wien</placeName>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb397">IX, Frankgaſse 1</placeName>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                  <pb facs=""/>Lieber Dr. Schnitzler,</salute>
-                </opener>
-                <p>In der <workName key="pmb41989">Gegenwart</workName> vom
-                        <date>20. d.</date> steht eine <anchor type="commentary" xml:id="KLMAM20191011-2"/>
-               <rs type="work" key="pmb41991">Besprechung</rs>
-               <note type="commentary" xml:id="KLMAM20191011-2h">»<quote>
-                     <workName key="pmb30117">
-                        <hi rend="spaced_out">Sterben</hi>
-                     </workName>. Novelle von <hi rend="spaced_out">Arthur
-                                Schnitzler</hi>. (<placeName key="pmb168">Berlin</placeName>,
-                                <orgName key="pmb29639">S. Fischer</orgName>.) Ein trauriges
+        <body><div type="address"><address><addrLine><pb facs=""/>Herrn Dr. Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb397" type="place">IX, Frankgaſse 1</rs></addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs=""/>Lieber Dr. Schnitzler,</salute></opener><p>In der <rs ref="#pmb41989" type="work">Gegenwart</rs> vom
+                        <date>20.&#160;d.</date> steht eine <anchor type="commentary" xml:id="KLMAM20191011-2"/><rs type="work" ref="#pmb41991" subtype="implied">Besprechung</rs><note type="commentary" xml:id="KLMAM20191011-2h">»<quote><rs ref="#pmb30117" type="work"><hi rend="spaced_out">Sterben</hi></rs>. Novelle von <hi rend="spaced_out">Arthur
+                                Schnitzler</hi>. (<rs ref="#pmb168" type="place">Berlin</rs>,
+                                <rs ref="#pmb29639" type="organisation">S. Fischer</rs>.) Ein trauriges
                             und peinliches, aber ein feines und bedeutendes Werk eines echten
                             Künstlers. Das Sterben eines Schwindsüchtigen wird geschildert, sein
                             Ringen mit Leben und Tod, das langsame Scheiden von der Geliebten, die
@@ -133,17 +114,12 @@
                             wahr, nichts übertrieben, dem Dramatischen wird discret aus dem Wege
                             gegangen, wie jeglichem schildernden Naturalismus. Das Zuständliche ist
                             knapp, die Menschen ohne Individualisirung gezeichnet – sie haben auch
-                            keinen Familiennamen –, aber die Seelenanalyse ist voll feiner
+                            keinen Familiennamen&#160;–, aber die Seelenanalyse ist voll feiner
                             Züge, so daß uns weder Ekel noch Schauer erfaßt und die rein menschliche
-                            Theilnahme his zuletzt rege bleibt.</quote>« (<bibl>[O. V.], in:
-                                <workName key="pmb41989">Die Gegenwart</workName>, Bd. 48,
-                            Nr. XXXX, <date>20. 4. 1895</date>,
-                            S. XXXX</bibl>.)</note> Ihrer <rs type="work" key="pmb30117">Novelle</rs>, sehr knapp und <hi rend="underline" n="1">sehr</hi> anerke<c rendition="#gemination-n"/>enend, dabei sehr vernünftig – ungefähr so, wie
-                    wir selbst darüber schreiben würden. </p>
-                <closer>Herzlichst<lb/>
-               <signed>Fels</signed>
-                </closer>
-            </div>
-        </body>
+                            Theilnahme his zuletzt rege bleibt.</quote>« (<bibl>[O.&#160;V.], in:
+                                <rs ref="#pmb41989" type="work">Die Gegenwart</rs>, Bd.&#160;48,
+                            Nr.&#160;XXXX, <date>20.&#160;4.&#160;1895</date>,
+                            S.&#160;XXXX</bibl>.)</note> Ihrer <rs type="work" ref="#pmb30117" subtype="implied">Novelle</rs>, sehr knapp und <hi rend="underline" n="1">sehr</hi> anerke<c rendition="#gemination-n"/>enend, dabei sehr vernünftig – ungefähr so, wie
+                    wir selbst darüber schreiben würden. </p><closer>Herzlichst<lb/><signed>Fels</signed></closer></div></body>
     </text>
 </TEI>

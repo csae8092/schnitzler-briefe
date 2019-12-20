@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0">
     <xsl:output encoding="UTF-8" media-type="text/html" method="html" version="5.0" indent="yes"/>
     <xsl:variable name="title">
-        <xsl:value-of select="normalize-space(string-join(//tei:titleStmt[1]/tei:title[@level='a']//text(), ' '))"/>
+        <xsl:value-of select="normalize-space(string-join(//tei:titleStmt[1]/tei:title//text(), ' '))"/>
     </xsl:variable>
     <xsl:variable name="prev">
         <xsl:value-of select="//data(tei:TEI/@prev)"/>
@@ -43,7 +43,7 @@
                     <div class="card">
                         <div class="card-header">
                             <div class="row" style="text-align:left">
-                                <div>
+                                <div class="col-md-2">
                                     <xsl:if test="$prev">
                                         <h1>
                                             <a>
@@ -57,7 +57,7 @@
                                 </div>
                                 <div class="col-md-8">
                                     <h2 align="center">
-                                        <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title[@level='a']">
+                                        <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title">
                                             <xsl:apply-templates/>
                                             <br/>
                                         </xsl:for-each>
@@ -156,6 +156,19 @@
             </ul>
         
     </xsl:template>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
 <!--    the following code is copied from resources/xslt/shared/base.xsl-->
@@ -294,9 +307,9 @@
         </xsl:for-each>
     </xsl:template><!-- reference strings   -->
     
-    <xsl:template match="*[starts-with(data(@ref), 'pmb')]">
+    <xsl:template match="*[starts-with(data(@key), '#')]">
         <xsl:variable name="xml-id">
-            <xsl:value-of select="data(@ref)"/>
+            <xsl:value-of select="substring-after(data(@key), '#')"/>
         </xsl:variable>
         <xsl:variable name="index-entry">
             <xsl:value-of select="normalize-space(string-join(//*[@xml:id=$xml-id]//text(), ' '))"/>
@@ -306,26 +319,66 @@
         </abbr>
     </xsl:template>
     
-    <xsl:template match="*[not(starts-with(data(@ref), 'pmb'))][@ref]">
+    <xsl:template match="*[not(starts-with(data(@key), '#'))][@key]">
         <a>
             <xsl:attribute name="href">
-                <xsl:value-of select="@ref"/>
+                <xsl:value-of select="@key"/>
             </xsl:attribute>
             <xsl:apply-templates/>
         </a>
     </xsl:template>
     
     <!-- additions -->
- <!-- Bücher -->
+    <xsl:template match="tei:add">
+        <xsl:element name="span">
+            <xsl:attribute name="style">
+                <xsl:text>color:blue;</xsl:text>
+            </xsl:attribute>
+            <xsl:attribute name="title">
+                <xsl:choose>
+                    <xsl:when test="@place='margin'">
+                        <xsl:text>zeitgenössische Ergänzung am Rand</xsl:text>(<xsl:value-of select="./@place"/>).
+                    </xsl:when>
+                    <xsl:when test="@place='above'">
+                        <xsl:text>zeitgenössische Ergänzung oberhalb</xsl:text>(<xsl:value-of select="./@place"/>)
+                    </xsl:when>
+                    <xsl:when test="@place='below'">
+                        <xsl:text>zeitgenössische Ergänzung unterhalb</xsl:text>(<xsl:value-of select="./@place"/>)
+                    </xsl:when>
+                    <xsl:when test="@place='inline'">
+                        <xsl:text>zeitgenössische Ergänzung in der gleichen Zeile</xsl:text>(<xsl:value-of select="./@place"/>)
+                    </xsl:when>
+                    <xsl:when test="@place='top'">
+                        <xsl:text>zeitgenössische Ergänzung am oberen Blattrand</xsl:text>(<xsl:value-of select="./@place"/>)
+                    </xsl:when>
+                    <xsl:when test="@place='bottom'">
+                        <xsl:text>zeitgenössische Ergänzung am unteren Blattrand</xsl:text>(<xsl:value-of select="./@place"/>)
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:text>zeitgenössische Ergänzung am unteren Blattrand</xsl:text>(<xsl:value-of select="./@place"/>)
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:attribute>
+            <xsl:text/>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template><!-- Bücher -->
     <xsl:template match="tei:bibl">
         <xsl:element name="strong">
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template><!-- Seitenzahlen -->
-    <!-- Seitenzahlen -->
-   
-    
-    <!-- Tabellen -->
+    <xsl:template match="tei:pb">
+        <xsl:element name="div">
+            <xsl:attribute name="style">
+                <xsl:text>text-align:right;</xsl:text>
+            </xsl:attribute>
+            <xsl:text>[Bl.</xsl:text>
+            <xsl:value-of select="@n"/>
+            <xsl:text>]</xsl:text>
+        </xsl:element>
+        <xsl:element name="hr"/>
+    </xsl:template><!-- Tabellen -->
     <xsl:template match="tei:table">
         <xsl:element name="table">
             <xsl:attribute name="class">
@@ -373,8 +426,19 @@
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template><!-- Zeilenumbürche   -->
-   
-  
+    <xsl:template match="tei:lb">
+        <br/>
+    </xsl:template><!-- Absätze    -->
+    <xsl:template match="tei:p">
+        <xsl:element name="p">
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template><!-- Durchstreichungen -->
+    <xsl:template match="tei:del">
+        <xsl:element name="strike">
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
     <xsl:template match="tei:origDate[@notBefore and @notAfter]">
         <xsl:variable name="dates">
             <xsl:value-of select="./@*" separator="-"/>

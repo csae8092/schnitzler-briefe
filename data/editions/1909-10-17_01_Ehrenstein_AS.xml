@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1909-10-17_01_Ehrenstein_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1909-10-17_01_Ehrenstein_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Albert Ehrenstein an Arthur Schnitzler, 17. 10. 1909</title>
-                <author key="pmb11230">Ehrenstein, Albert</author>
+                <title level="a">Albert Ehrenstein an Arthur Schnitzler, 17.&#160;10.&#160;1909</title>
+                <author ref="#pmb11230">Ehrenstein, Albert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>            
                                 <settlement>Cambridge</settlement>            
                                 <repository>University Library</repository>            
-                                <idno>Schnitzler, B 30</idno>
+                                <idno>Schnitzler, B&#160;30</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S. Von Schnitzler beschriftet »<quote>
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S. Von Schnitzler beschriftet »<quote>
                               <hi rend="latintype">Ehrenst<unclear>ein</unclear>
                               </hi>
                            </quote>«.</p>
@@ -62,7 +66,7 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb11230">Ehrenstein, Albert</author>
+                            <author ref="#pmb11230">Ehrenstein, Albert</author>
                             <title level="m">Briefe</title>
                             <editor>Hg. Hanni Mittelmann</editor>
                             <imprint>
@@ -85,19 +89,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11230">Ehrenstein, Albert</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1909-10-17" n="01">17. 10. 1909</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11230">Ehrenstein, Albert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1909-10-17" n="01">17.&#160;10.&#160;1909</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <!--<placeName key="pmb50">Wien</placeName>-->
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <!--<placeName ref="#pmb50">Wien</placeName>-->
                    <!--<date when=""></date>-->
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1909-08-24_01">Ehrenstein an Schnitzler, 24. 8. 1909</ptr>
-               <ptr type="next" subtype="toAuthor" target="1909-11-06_01">Ehrenstein an Schnitzler, 06. 11. 1909</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1909-08-24_01">Ehrenstein an Schnitzler, 24.&#160;8.&#160;1909</ptr>
+               <ptr type="next" subtype="toAuthor" target="1909-11-06_01">Ehrenstein an Schnitzler, 06.&#160;11.&#160;1909</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -108,71 +112,45 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline>
-                  <seg rend="left">
-                     <pb facs="gray00101.pdf"/>
-                     <hi rend="latintype">Albert Ehrenstein</hi>
-                  </seg>
-                  <seg rend="right">
-                     <date>17. Okt. 09</date>
-                  </seg>
-                    </dateline>
-                    <p rend="left">
-                  <placeName key="pmb300">
-                     <hi rend="latintype">XVI. Ottakringerstr</hi> 114</placeName>.</p>
-                    <salute>
-                  <hi rend="latintype">Sehr geehrter Herr Doktor,</hi>
-               </salute>
-            </opener>
-                <p>nachdem meine nach <placeName key="pmb462">Venedig</placeName> geſandten Manuſkripte einen
-                    Monat lang verſchollen und ich, da ſie auf 1000 K verſichert waren,
+        <body><div type="writingSession" n="1"><opener><dateline><seg rend="left"><pb facs="gray00101.pdf"/><hi rend="latintype">Albert Ehrenstein</hi></seg><seg rend="right"><date>17.&#160;Okt.&#160;09</date></seg></dateline><p rend="left"><rs ref="#pmb300" type="place"><hi rend="latintype">XVI. Ottakringerstr</hi> 114</rs>.</p><salute><hi rend="latintype">Sehr geehrter Herr Doktor,</hi></salute></opener><p>nachdem meine nach <rs ref="#pmb462" type="place">Venedig</rs> geſandten Manuſkripte einen
+                    Monat lang verſchollen und ich, da ſie auf 1000&#160;K verſichert waren,
                     bereits geträumt hatte, in den Beſitz dieſer Unſumme zu gelangen, geſchah es
                     mir, daß ſie ſich doch noch vorfanden und einige Zeit nachher feierte ich denn
                     auch ein halb gerührtes, halb ärgerliches Wiederſehen mit meinen Arbeiten. Um
                     auch andere an meinen Gefühlen teilnehmen zu laſſen, transportierte ich einiges
-                    zu Herrn <persName key="pmb10788">Auernheimer</persName>, den ich nicht antraf.
+                    zu Herrn <rs ref="#pmb10788" type="person">Auernheimer</rs>, den ich nicht antraf.
                     Weil mir die Angelegenheit <pb facs="gray00102.pdf"/>damals noch dringend
-                    ſchien, machte ich mich 14 Tage darauf wieder auf den Weg in die <placeName key="pmb1212">Neulinggaſſe</placeName>. Da nun ergab es ſich, daß <persName key="pmb10788">A.</persName> bis dahin jede Berührung mit meinen Operaten
+                    ſchien, machte ich mich 14 Tage darauf wieder auf den Weg in die <rs ref="#pmb1212" type="place">Neulinggaſſe</rs>. Da nun ergab es ſich, daß <rs ref="#pmb10788" type="person">A.</rs> bis dahin jede Berührung mit meinen Operaten
                     ängſtlich vermieden hatte und auch bis <date>Mittwoch</date>, als ich
                     beſtelltermaßen zu ihm kam, hatte er noch nicht jenen Heroismus aufgebracht, der
                     zur reſtloſen Bewältigung mir entſtammender ſchriftſtelleriſcher Gebilde leider
                     unbedingt nötig ſein dürfte. Nichtsdeſtoweniger und obwohl er nur in kleineren
-                    und keineswegs in den für die <orgName key="pmb29351">Preſſe</orgName> beſtimmten
+                    und keineswegs in den für die <rs ref="#pmb29351" type="organisation">Preſſe</rs> beſtimmten
                     Erzählungen geblättert hatte, kam er ſpielend zu einem erſchöpfenden Urteil über
-                    mich. Er nannte mich ein unreifes Talent, phantaſtiſch nach <persName key="pmb12248">Meyrink</persName>s Art, meine Sachen ungeeignet zur
-                    Publikation, möglich höchſtens für den »<orgName key="pmb29552">Hyperion</orgName>« oder »<orgName key="pmb29568">Spiegel</orgName>« –
+                    mich. Er nannte mich ein unreifes Talent, phantaſtiſch nach <rs ref="#pmb12248" type="person">Meyrink</rs>s Art, meine Sachen ungeeignet zur
+                    Publikation, möglich höchſtens für den »<rs ref="#pmb29552" type="organisation">Hyperion</rs>« oder »<rs ref="#pmb29568" type="organisation">Spiegel</rs>« –
                     Zeitſchriften <pb facs="gray00102.pdf"/>übrigens, die mein profanes Auge
-                    niemals ſchaute und von denen ich bloß weiß, daß ſie im Lande <persName key="pmb10955">Blei</persName> liegen. Seine Rede krönte er mit einem
+                    niemals ſchaute und von denen ich bloß weiß, daß ſie im Lande <rs ref="#pmb10955" type="person">Blei</rs> liegen. Seine Rede krönte er mit einem
                     anſcheinend unſchuldigen Satz, dem vortrefflich gewählten <hi rend="latintype">ceterum censeo</hi>: »Was wollen ſie eigentlich? Falls bei ihnen einmal
                     mehr als Anſätze, nämlich Erfüllungen vorhanden ſein ſollten, wird ſie
-                    Schnitzler an die <orgName key="pmb29212">Neue Rundſchau</orgName> empfehlen und
+                    Schnitzler an die <rs ref="#pmb29212" type="organisation">Neue Rundſchau</rs> empfehlen und
                     das wird viel mehr ſein als wenn ſie in ſo einem Literatenblättchen gedruckt
                     würden.« Schließlich verſtand er ſich dazu, mir die Zuſendung von
                     Recenſionsexemplaren zu verſprechen, womit die ganze Affaire für mich abgetan
-                    ſein wird. Mehr brauche ich nämlich glücklicherweiſe von der <orgName key="pmb29351">Preſſe</orgName> nicht und wenn ich früher erfahren hätte, was
-                    ich leider erſt <date> </date> erfuhr, daß nämlich an der Verzögerung der
-                    Approbation <pb facs="gray00103.pdf"/>meiner <rs type="work" key="pmb33458">Diſſertation</rs> nicht ſo ſehr Übelwollen als Schlamperei die Schuld trug,
+                    ſein wird. Mehr brauche ich nämlich glücklicherweiſe von der <rs ref="#pmb29351" type="organisation">Preſſe</rs> nicht und wenn ich früher erfahren hätte, was
+                    ich leider erſt <date></date> erfuhr, daß nämlich an der Verzögerung der
+                    Approbation <pb facs="gray00103.pdf"/>meiner <rs type="work" ref="#pmb33458" subtype="implied">Diſſertation</rs> nicht ſo ſehr Übelwollen als Schlamperei die Schuld trug,
                     dann hätte ich Ihnen, ſehr geehrter Herr Doktor, und mir allerhand erſparen
                         können<c rendition="#dots" n="4"/> Allerdings ſehne ich mich noch immer
                     danach, nicht etwa einer Zelle in jener papierenen Welt, ſondern eines Platzes
                     an der Sonne teilhaftig zu werden, um endlich zu einigem Genuße meines Lebens zu
-                    gelangen. Meine Perſonalkenntniſſe der <placeName key="pmb50">Wien</placeName>er Journaliſtik wünſche ich
+                    gelangen. Meine Perſonalkenntniſſe der <rs ref="#pmb50" type="place">Wien</rs>er Journaliſtik wünſche ich
                     dennoch nicht zu bereichern, ich möchte vielmehr äußerſt gern aus Ihrem Munde
-                    vernehmen, ob der in »<workName key="pmb33454">Baber</workName>« und »<workName key="pmb33482">Agaturien</workName>
-               <!-- veröffentlicht als Apaturien -->« gezeigte Stil für mich und andere von
+                    vernehmen, ob der in »<rs ref="#pmb33454" type="work">Baber</rs>« und »<rs ref="#pmb33482" type="work">Agaturien</rs><!-- veröffentlicht als Apaturien -->« gezeigte Stil für mich und andere von
                     Wert iſt und ob eine Veröffentlichung oder Edition der beſſeren meiner Skizzen
                     und Erzählungen einen materiellen Effekt haben könnte? Soll ich ſchon jetzt
                     daran gehen, meine Sammlung redaktioneller Kundgebungen durch Angliederung
                     ähnlich negativer Beſcheide von Verlegern gebührend auszubauen? Vielleicht
-                    können Sie, ſehr geehrter Herr Doktor, raten</p>
-                <closer>Ihrem ergebenſten<lb/>
-               <signed>Albert Ehrenstein.</signed>
-                    
-                </closer>
-            </div>
-        </body>
+                    können Sie, ſehr geehrter Herr Doktor, raten</p><closer>Ihrem ergebenſten<lb/><signed>Albert Ehrenstein.</signed></closer></div></body>
     </text>
 </TEI>

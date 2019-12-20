@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-02-01_01_Bahr_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1892-02-01_01_Bahr_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hermann Bahr an Arthur Schnitzler, [1?. 2. 1892]</title>
-            <author key="pmb10815">Bahr, Hermann</author>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, [1?.&#160;2.&#160;1892]</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                <name full="yes" instant="false">Müller, Martin Anton</name>
             </editor>
@@ -47,7 +50,7 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 5b</idno>
+                        <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Visitenkarte, Bleistift. Von Schnitzler mit rotem Buntstift datiert: »<quote>
@@ -61,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="HBAS">
                   <monogr>
-                     <author key="pmb10815">Bahr, Hermann</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
                      <imprint>
@@ -82,17 +85,17 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <placeName key="pmb50">[Wien]</placeName>
-               <date when="1892-02-01" n="01">[1?. 2. 1892]</date>
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
+               <date when="1892-02-01" n="01">[1?.&#160;2.&#160;1892]</date>
             </correspAction>
             <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1891-12-22_01">Bahr an Schnitzler, 22. 12. 1891</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-02-20_01">Bahr an Schnitzler, [20. 2. 1892]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1891-12-22_01">Bahr an Schnitzler, 22.&#160;12.&#160;1891</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-02-20_01">Bahr an Schnitzler, [20.&#160;2.&#160;1892]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -109,25 +112,9 @@
       <graphic url="MS-B-00005-B-000-00006"/>
    </facsimile>
    <text type="card">
-      <body>
-         <div type="writingSession" n="1">
-            <p rend="center">
-               <hi rend="pre-print">
-                  <pb facs="MS-B-00005-B-000-00005"/>Hermann Bahr.</hi>
-            </p>
-
-            <p>bittet Sie, ihm mitzuteilen, ob er Ihnen eine Einladg <pb facs="MS-B-00005-B-000-00006"/>zu <anchor type="commentary" xml:id="KL147-1"/>
-               <hi rend="latintype">Matinee</hi>
-               <space unit="chars" quantity="1"/>
-               <persName key="pmb12491">
-                  <hi rend="latintype">Reicher</hi>
-               </persName>
-               <note type="commentary" xml:id="KL147-1h">Die Matinée fand am <date when="1892-02-07">7. 2. 1892</date> statt; <persName key="pmb2121">Schnitzler</persName> nahm
-                  teil.</note> bei <persName key="pmb11491">Goldſchmid</persName> beſorgen ſoll</p>
-            <closer>Herzlichſt<lb/>
-               <signed>H</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><p rend="center"><hi rend="pre-print"><pb facs="MS-B-00005-B-000-00005"/>Hermann Bahr.</hi></p><p>bittet Sie, ihm mitzuteilen, ob er Ihnen eine Einladg <pb
+                  facs="MS-B-00005-B-000-00006"/>zu <anchor type="commentary" xml:id="KL147-1"/><hi rend="latintype">Matinee</hi><space unit="chars" quantity="1"/><rs ref="#pmb12491" type="person"><hi rend="latintype">Reicher</hi></rs><note type="commentary" xml:id="KL147-1h">Die Matinée fand am <date when="1892-02-07"
+                     >7.&#160;2.&#160;1892</date> statt; <rs ref="#pmb2121" type="person">Schnitzler</rs> nahm
+                  teil.</note> bei <rs ref="#pmb11491" type="person">Goldſchmid</rs> beſorgen ſoll</p><closer>Herzlichſt<lb/><signed>H</signed></closer></div></body>
    </text>
 </TEI>

@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1913-04-20_01_AS_Englaender">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1913-04-20_01_AS_Englaender">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Georg Engländer, 20. 4. 1913</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Georg Engländer, 20.&#160;4.&#160;1913</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -54,9 +57,9 @@
                                 <p>eh. Postkarte. Von unbekannter Hand mit blauem Buntstift:
                                         »<quote>71</quote>«</p>
                                 <stamp n="1">
-                                    <placeName key="pmb68">18/1 WIEN 111</placeName>
+                                    <rs ref="#pmb68" type="place">18/1 WIEN 111</rs>
                                     <date when="1913">
-                                        <unclear>20. 4.</unclear> 13</date>
+                                        <unclear>20.&#160;4.</unclear>&#160;13</date>
                                     <time>4</time>
                                 </stamp>
                             </physDesc>
@@ -71,14 +74,14 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1913-04-20" n="01">20. 4. 1913</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1913-04-20" n="01">20.&#160;4.&#160;1913</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2260">Engländer, Georg</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2260">Engländer, Georg</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             
          </correspDesc>
@@ -89,50 +92,10 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="XXXX"/>
-                        <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="pre-print">
-                            <placeName key="pmb150">Wien XVIII. Sternwartestrasse 71</placeName>
-                        </hi>
-                    </addrLine>
-                </address>
-                <address>
-                    <addrLine>Herrn</addrLine>
-                    <addrLine>
-                        <hi rend="latintype">Georg Engländer</hi>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb59">Wien IX</placeName>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="pmb1270">Nußdorferstr <del rend="strikethrough">
-                                <unclear>4</unclear>
-                            </del> 10.</placeName>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="XXXXandere Seite"/>
-                        <date>20. 4. 913</date>
-                    </dateline>
-                    <salute>Sehr geehrter Herr,</salute>
-                </opener>
-                <p>in Angelegenheit von <persName key="pmb2147">Pet.</persName> den ich heute ſprach
-                    (auch Primar Dr. <persName key="pmb23360">R.</persName> ſprach ich) möchte ich
+        <body><div type="address"><address><addrLine><pb facs="XXXX"/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></addrLine><addrLine><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></addrLine></address><address><addrLine>Herrn</addrLine><addrLine><hi rend="latintype">Georg Engländer</hi></addrLine><addrLine><rs ref="#pmb59" type="place">Wien IX</rs></addrLine><addrLine><rs ref="#pmb1270" type="place">Nußdorferstr <del rend="strikethrough"><unclear>4</unclear></del> 10.</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="XXXXandere Seite"/><date>20.&#160;4.&#160;913</date></dateline><salute>Sehr geehrter Herr,</salute></opener><p>in Angelegenheit von <rs ref="#pmb2147" type="person">Pet.</rs> den ich heute ſprach
+                    (auch Primar Dr. <rs ref="#pmb23360" type="person">R.</rs> ſprach ich) möchte ich
                     gern mit Ihnen reden. We<c rendition="#gemination-n"/> ich Sie morgen
-                        <date>Montag</date> um <time>1 Uhr</time> oder um <time>½ 7–7</time> Abend
-                    erwarten darf, bedarf es keiner Antwort.</p>
-                <closer>Ihr ſehr ergebner <signed>A. S.</signed>
-                </closer>
-            </div>
-        </body>
+                        <date>Montag</date> um <time>1 Uhr</time> oder um <time>½&#160;7–7</time> Abend
+                    erwarten darf, bedarf es keiner Antwort.</p><closer>Ihr ſehr ergebner <signed>A.&#160;S.</signed></closer></div></body>
     </text>
 </TEI>

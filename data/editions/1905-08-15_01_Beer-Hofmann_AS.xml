@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1905-08-15_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1905-08-15_01_Beer-Hofmann_AS">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, Mitte August
                     1905</title>
-                <author key="pmb10863">Beer-Hofmann, Richard</author>
+                <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -49,10 +53,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 8</idno>
+                                <idno>Schnitzler, B&#160;8</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., Lateinschrift. XXXX</p>
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S., Lateinschrift. XXXX</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -60,8 +64,8 @@
                 <listBibl>
                     <biblStruct corresp="ASBH">
                         <monogr>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
-                            <author key="pmb10863">Beer-Hofmann, Richard</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                             <title level="m">Briefwechsel 1891–1931</title>
                             <editor>Hg. Konstanze Fliedl</editor>
                             <imprint>
@@ -80,18 +84,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+                <correspAction  type="sent">
+                    <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                     <date when="1905-08-15" n="01">Mitte August 1905</date>
-                    <placeName key="pmb985">Fulpmes</placeName>
+                    <placeName ref="#pmb985">Fulpmes</placeName>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">[Wien]</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">[Wien]</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1905-07-30_01">Schnitzler an Beer-Hofmann, 30. 7. 1905</ptr>
-               <ptr type="next" subtype="toAuthor" target="1905-09-06_01">Beer-Hofmann an Bahr, [6.] 9. 1905</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1905-07-30_01">Schnitzler an Beer-Hofmann, 30.&#160;7.&#160;1905</ptr>
+               <ptr type="next" subtype="toAuthor" target="1905-09-06_01">Beer-Hofmann an Bahr, [6.] 9.&#160;1905</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -103,39 +107,25 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-                    <salute>Lieber Arthur! </salute>Wir sind da oben. In <placeName key="pmb651">Kärnten</placeName> fand ich keine Unterkunft. Dort – wie im <placeName key="pmb724">Pusterthal</placeName> alles furchtbar überfüllt, so dass ich froh
+        <body><div type="writingSession" n="1"><p><salute>Lieber Arthur! </salute>Wir sind da oben. In <rs ref="#pmb651" type="place">Kärnten</rs> fand ich keine Unterkunft. Dort – wie im <rs ref="#pmb724" type="place">Pusterthal</rs> alles furchtbar überfüllt, so dass ich froh
                     war hier unterzukommen. Das Hôtel ist erst voriges Jahr eröffnet worden, noch
-                    nicht sehr bekannt und daher halbleer. </p>
-                <p>
-                    <persName key="pmb13055">Wassermann</persName>, <persName key="pmb11324">S. Fischer</persName>, <persName key="pmb3068">Bella Wengerow</persName>,
-                        <rs type="person" key="pmb26937">Schwester</rs>, <rs type="person" key="pmb4510">Mutter</rs>, und Dr. <persName key="pmb2496">Kaufmann</persName> sind <anchor type="commentary" xml:id="KL520-1"/>hier<note type="commentary" xml:id="KL520-1h">Im <placeName key="pmb751">Grand Hotel Stubai in Fulpmes</placeName>.</note>. <persName key="pmb10860">Paula</persName> hat kein Behagen an den kühlen Abenden und
+                    nicht sehr bekannt und daher halbleer. </p><p><rs ref="#pmb13055" type="person">Wassermann</rs>, <rs ref="#pmb11324" type="person">S.&#160;Fischer</rs>, <rs ref="#pmb3068" type="person">Bella Wengerow</rs>,
+                        <rs type="person" ref="#pmb26937" subtype="implied">Schwester</rs>, <rs type="person" ref="#pmb4510" subtype="implied">Mutter</rs>, und Dr. <rs ref="#pmb2496" type="person">Kaufmann</rs> sind <anchor type="commentary" xml:id="KL520-1"/>hier<note type="commentary" xml:id="KL520-1h">Im <rs ref="#pmb751" type="place">Grand Hotel Stubai in Fulpmes</rs>.</note>. <rs ref="#pmb10860" type="person">Paula</rs> hat kein Behagen an den kühlen Abenden und
                     auch sonst an der Gegend – der Wald ist für sie – augenblicklich – zu weit vom
                     Hôtel. Ich will also am <date>21.</date> oder <date>22.</date> von hier weg, und
-                    über <placeName key="pmb40263">Bozen</placeName>, eventuell <placeName key="pmb374">Gardasee</placeName>,
-                    an den <placeName key="pmb259">Lido</placeName>. Hoffentlich tut ihr der Aufenthalt dort gut. Sie ist <hi rend="underline" n="1">sehr</hi> blutleer, und hat recht miserable Nerven.
-                    Das <rs type="work" key="pmb29999">Stück</rs> von <persName key="pmb10815">Bahr</persName> blieb in <placeName key="pmb173">Rodaun</placeName> liegen,
-                    weil in Folge der Aufschrift »<orgName key="pmb29461">Eisenstein</orgName>« nur
+                    über <rs ref="#pmb40263" type="place">Bozen</rs>, eventuell <rs ref="#pmb374" type="place">Gardasee</rs>,
+                    an den <rs ref="#pmb259" type="place">Lido</rs>. Hoffentlich tut ihr der Aufenthalt dort gut. Sie ist <hi rend="underline" n="1">sehr</hi> blutleer, und hat recht miserable Nerven.
+                    Das <rs type="work" ref="#pmb29999" subtype="implied">Stück</rs> von <rs ref="#pmb10815" type="person">Bahr</rs> blieb in <rs ref="#pmb173" type="place">Rodaun</rs> liegen,
+                    weil in Folge der Aufschrift »<rs ref="#pmb29461" type="organisation">Eisenstein</rs>« nur
                     Bücher darin vermutet wurden, mit denen es nicht eilig sei; ich lasse es mir
                     heute nachschicken. Bitte sind Sie so gut und fügen Sie auf beiliegendem Brief
-                    die Adresse hinzu. Wer »A« sagt – –!</p>
-                <p>Hier hat sich das Gerücht verbreitet, Sie hätten dem <persName key="pmb11740">Hugo</persName> zwei wunderschöne <rs type="work" key="">Stücke</rs>
+                    die Adresse hinzu. Wer »A« sagt –&#160;–!</p><p>Hier hat sich das Gerücht verbreitet, Sie hätten dem <rs ref="#pmb11740" type="person">Hugo</rs> zwei wunderschöne <rs type="work" subtype="implied" ref="">Stücke</rs>
                     vorgelesen. Ich freue mich sehr im <date>Oktober</date> mehr davon zu erfahren.
                     Von mir will ich nichts schreiben, ich ziehe es vor Ihnen mündlich vorzujammem –
                     obgleich Sie mir dann bei physischen Dingen versichern werden Sie hätten dies
                     alles seit Jahren. Schreiben Sie mir, bitte, immer wo Sie sind – ich will es
                     auch tun. Die Möglichkeit soll uns doch bleiben, uns etwas zu sagen. Viele
-                    Grüsse an Ihre <rs type="person" key="pmb2173">Frau</rs> von mir und <persName key="pmb10860">Paula</persName>.</p>
-                <closer>Von Herzen Ihr<lb/>
-                    <signed>Richard</signed>
-                </closer>
-                <postscript>
-                    <p>Bitte entschuldigen Sie mich gelegentlich bei Ihrer <rs type="person" key="pmb2315">Schwägerin</rs>, und <persName key="pmb12837">Steinrück</persName>. Ich hatte vor der Abreise zuviel zu besorgen.
-                        R.</p>
-                </postscript>
-            </div>
-        </body>
+                    Grüsse an Ihre <rs type="person" ref="#pmb2173" subtype="implied">Frau</rs> von mir und <rs ref="#pmb10860" type="person">Paula</rs>.</p><closer>Von Herzen Ihr<lb/><signed>Richard</signed></closer><postscript><p>Bitte entschuldigen Sie mich gelegentlich bei Ihrer <rs type="person" ref="#pmb2315" subtype="implied">Schwägerin</rs>, und <rs ref="#pmb12837" type="person">Steinrück</rs>. Ich hatte vor der Abreise zuviel zu besorgen.
+                        R.</p></postscript></div></body>
     </text>
 </TEI>

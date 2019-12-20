@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1918-08-19_01_AS_Adam">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1918-08-19_01_AS_Adam">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Robert Adam, 19. 8. 1918</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Robert Adam, 19.&#160;8.&#160;1918</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,11 +55,11 @@
                                 <idno>96.34.1/12</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>ms. Umschlag und Brief, 1 Bl., 2 S. mit eh. Korrektur
+                                <p>ms. Umschlag und Brief, 1&#160;Bl., 2&#160;S. mit eh. Korrektur
                                     und Nachschrift in Lateinschrift.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb50">Wien</placeName>
-                                    <date when="1918-08-19">19. VIII. 18</date>
+                                    <rs ref="#pmb50" type="place">Wien</rs>
+                                    <date when="1918-08-19">19.&#160;VIII.&#160;18</date>
                                     <time>3</time>
                                 </stamp>
                             </physDesc>
@@ -70,7 +74,7 @@
                                 <idno>A:Schnitzler, 85.1.1621</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>ms. Durchschlag, 2 Bl., 2 S. Von Schnitzler beschriftet:
+                                <p>ms. Durchschlag, 2&#160;Bl., 2&#160;S. Von Schnitzler beschriftet:
                                             »<quote>
                               <hi rend="latintype">Adam</hi>
                            </quote>« und
@@ -89,18 +93,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1918-08-19" n="01">19. 8. 1918</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1918-08-19" n="01">19.&#160;8.&#160;1918</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1918-08-10_01">Adam an Schnitzler, 10. 8. 1918</ptr>
-               <ptr type="next" subtype="toAuthor" target="1918-10-01_01">Adam an Schnitzler, 1. 10. 1918</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1918-08-10_01">Adam an Schnitzler, 10.&#160;8.&#160;1918</ptr>
+               <ptr type="next" subtype="toAuthor" target="1918-10-01_01">Adam an Schnitzler, 1.&#160;10.&#160;1918</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -111,111 +115,36 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <pb facs=""/>
-                  <hi rend="pre-print">Dr. Arthur
-                        Schnitzler</hi>
-               </addrLine>
-                    <addrLine>
-                  <placeName key="pmb150">
-                     <hi rend="pre-print">Wien, XVIII.
-    Sternwartestrasse 71</hi>
-                  </placeName>
-               </addrLine>
-                </address>
-                <address>
-                    <addrLine>
-                  <pb facs=""/>Herrn Robert Adam</addrLine>
-                    <addrLine>
-                  <placeName key="pmb62">
-                     <hi rend="spaced_out">Wien
-    XII</hi>
-                  </placeName>.</addrLine>
-                    <addrLine>
-                  <placeName key="pmb1239">Meidlinger Hauptstraße 56</placeName>.</addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline>
-                  <seg rend="left">
-                     <pb facs=""/>
-                     <hi rend="pre-print">Dr. Arthur
-                                Schnitzler</hi>
-                  </seg>
-                  <seg rend="right">
-                     <date>19. 8. 1918</date>.</seg>
-               </dateline>
-                    <p>
-                  <hi rend="pre-print">
-                     <placeName key="pmb150">Wien XVIII. Sternwartestrasse 71</placeName>
-                  </hi>
-               </p>
-                    <salute rend="center">Verehrtester Herr Doktor.</salute>
-                </opener>
-                <p>Bei der Lektüre Ihres »<workName key="pmb33604">Yppl</workName>« habe ich mich
+        <body><div type="address"><address><addrLine><pb facs=""/><hi rend="pre-print">Dr. Arthur
+                        Schnitzler</hi></addrLine><addrLine><rs ref="#pmb150" type="place"><hi rend="pre-print">Wien, XVIII.
+    Sternwartestrasse 71</hi></rs></addrLine></address><address><addrLine><pb facs=""/>Herrn Robert Adam</addrLine><addrLine><rs ref="#pmb62" type="place"><hi rend="spaced_out">Wien
+    XII</hi></rs>.</addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hauptstraße 56</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline><seg rend="left"><pb facs=""/><hi rend="pre-print">Dr. Arthur
+                                Schnitzler</hi></seg><seg rend="right"><date>19.&#160;8.&#160;1918</date>.</seg></dateline><p><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></p><salute rend="center">Verehrtester Herr Doktor.</salute></opener><p>Bei der Lektüre Ihres »<rs ref="#pmb33604" type="work">Yppl</rs>« habe ich mich
                     recht wohlbehagt. Die Milieuschilderung ist hübsch gelungen, vielleicht etwas zu
                     sehr biedermeierisch geraten, wenn auch nicht ganz ohne moderne Durchleuchtung.
                     Die Charakteristik ist fein, nur der Held kommt, wie das ja so häufig der Fall
-                    ist, etwas blässlich heraus. Die Chargen sind am besten, besonders der <rs type="work" key="pmb33604">Almeseder</rs>, auch der <persName key="pmb12605">Hans Sachs</persName>
-               <subst>
-                        <del rend="strikethrough">sche</del>
-                        <add place="above">hafte</add>
-                    </subst> Präsident hat mir ganz wohl gefallen. Ob sich die Idylle auf dem
+                    ist, etwas blässlich heraus. Die Chargen sind am besten, besonders der <rs type="work" ref="#pmb33604" subtype="implied">Almeseder</rs>, auch der <rs ref="#pmb12605" type="person">Hans Sachs</rs><subst><del rend="strikethrough">sche</del><add place="above">hafte</add></subst> Präsident hat mir ganz wohl gefallen. Ob sich die Idylle auf dem
                     Theater würde behaupten können, ist schwer vorher zu sagen. Dazu hat sie
                     vielleicht doch nicht Eigenart und Kraft genug. Auch bin ich zweifelhaft, ob die
-                    Wiederholung der Situation des 2. Aktes im 4. (Probe) glückliche Wirkung tun
-                        mö<damage agent="other">
-                        <supplied>chte.</supplied>
-                    </damage> Immerhin sollten Sie einen Versuch <damage agent="other">
-                        <supplied>mit dem</supplied>
-                    </damage>
-               <space unit="chars" quantity="1"/>
-               <pb facs=""/>
-               <rs key="pmb33604" type="work">Stück</rs> machen und vielleicht könnte man eine kleine Bühne –
-                    ich meine, eine räumlich kleine wie etwa die <placeName key="pmb633">Kammerspiele</placeName> – dafür interessieren. Wenn es Ihnen Recht ist,
-                    will ich gerne den Regisseur Dr. <persName key="pmb5799">Rosenthal</persName> auf Ihr <rs type="work" key="pmb33604">Stück</rs>
+                    Wiederholung der Situation des 2.&#160;Aktes im 4. (Probe) glückliche Wirkung tun
+                        mö<damage agent="other"><supplied>chte.</supplied></damage> Immerhin sollten Sie einen Versuch <damage agent="other"><supplied>mit dem</supplied></damage><space unit="chars" quantity="1"/><pb facs=""/><rs ref="#pmb33604" type="work" subtype="implied">Stück</rs> machen und vielleicht könnte man eine kleine Bühne –
+                    ich meine, eine räumlich kleine wie etwa die <rs ref="#pmb633" type="place">Kammerspiele</rs> – dafür interessieren. Wenn es Ihnen Recht ist,
+                    will ich gerne den Regisseur Dr. <rs ref="#pmb5799" type="person">Rosenthal</rs> auf Ihr <rs type="work" ref="#pmb33604" subtype="implied">Stück</rs>
                     aufmerksam machen, das ich Ihnen hiemit mit bestem Danke zurückstelle. Wir reden
                     wohl noch ausführlicher darüber. Von <date>Mitte September</date> an stehe ich
-                    gerne zur Verfügung.</p>
-                <closer>Herzlichst grüssend<lb/>Ihr </closer>
-                <postscript>
-                    <p>Das <rs key="pmb33604" type="work">Stück</rs> liegt Ihrem Wunsch gemäss zum
-                        Abholen bei mir bereit.</p>
-                </postscript>
-            </div>
-            <div type="writingSession" n="2">
-                <p>
-               <handShift/>Vielen Dank für das Verzeichnis. Wie viel Mühe haben Sie ſich gemacht
-                    – ich bin ganz gerührt. Einige der Bücher würde mich ſehr intereſſieren, –
-                    beſonders <anchor type="commentary" xml:id="KL2113-1"/>
-               <persName key="pmb34073">Mönckenmüller</persName>
-               <note type="commentary" xml:id="KL2113-1h">Vermutlich: <bibl>
-                     <workName key="pmb34080">Geistesstörung und Verbrechen im
-                                Kindesalter</workName> von Dr. <persName key="pmb34073">Mönkemöller</persName>, Oberarzt an der <orgName key="pmb34076">Provinzial-Heil- und Pflegeanstalt Osnabrück</orgName>. Berlin:
-                                <orgName key="pmb34078">Verlag von Reuther <c rendition="#kaufmannsund"/> Reichard</orgName>
-                     <space unit="chars" quantity="1"/>
-                     <date>1903</date>
-                  </bibl>.</note> u
-                        <anchor type="commentary" xml:id="KL2113-2"/>
-               <persName key="pmb34083">Ferrioni</persName>
-               <note type="commentary" xml:id="KL2113-2h">Vermutlich:
-                                <bibl>
-                     <workName key="pmb34086">Minderjährige Verbrecher. (Versuch
+                    gerne zur Verfügung.</p><closer>Herzlichst grüssend<lb/>Ihr </closer><postscript><p>Das <rs ref="#pmb33604" type="work" subtype="implied">Stück</rs> liegt Ihrem Wunsch gemäss zum
+                        Abholen bei mir bereit.</p></postscript></div><div type="writingSession" n="2"><p><handShift/>Vielen Dank für das Verzeichnis. Wie viel Mühe haben Sie ſich gemacht
+                    – ich bin ganz gerührt. Einige der Bücher würde mich ſehr intereſſieren,&#160;–
+                    beſonders <anchor type="commentary" xml:id="KL2113-1"/><rs ref="#pmb34073" type="person">Mönckenmüller</rs><note type="commentary" xml:id="KL2113-1h">Vermutlich: <bibl><rs ref="#pmb34080" type="work">Geistesstörung und Verbrechen im
+                                Kindesalter</rs> von Dr. <rs ref="#pmb34073" type="person">Mönkemöller</rs>, Oberarzt an der <rs ref="#pmb34076" type="organisation">Provinzial-Heil- und Pflegeanstalt Osnabrück</rs>. Berlin:
+                                <rs ref="#pmb34078" type="organisation">Verlag von Reuther <c rendition="#kaufmannsund"/> Reichard</rs><space unit="chars" quantity="1"/><date>1903</date></bibl>.</note> u
+                        <anchor type="commentary" xml:id="KL2113-2"/><rs ref="#pmb34083" type="person">Ferrioni</rs><note type="commentary" xml:id="KL2113-2h">Vermutlich:
+                                <bibl><rs ref="#pmb34086" type="work">Minderjährige Verbrecher. (Versuch
                                 einer strafgerichtlichen Psychologie) mit Original-Gutachten von
                                 Berenini – Brusa – Colajanni – Negri – Nordau –
-                                Pierantoni</workName>. Von Cav. <persName key="pmb34083">Lino
-                                Ferriani</persName>, Staatsanwalt in Como. Deutsch von <persName key="pmb34088">Alfred
-                                Ruhemann</persName>. Autorisierte Ausgabe. Berlin: <orgName key="pmb34090">Siegfried Cronbach</orgName>
-                     <space unit="chars" quantity="1"/>
-                     <date>1896</date>
-                  </bibl>.</note> – dazu nächſtens.
-                        <signed>A. S.</signed>
-            </p>
-            </div>
-        </body>
+                                Pierantoni</rs>. Von Cav. <rs ref="#pmb34083" type="person">Lino
+                                Ferriani</rs>, Staatsanwalt in Como. Deutsch von <rs ref="#pmb34088" type="person">Alfred
+                                Ruhemann</rs>. Autorisierte Ausgabe. Berlin: <rs ref="#pmb34090" type="organisation">Siegfried Cronbach</rs><space unit="chars" quantity="1"/><date>1896</date></bibl>.</note> – dazu nächſtens.
+                        <signed>A.&#160;S.</signed></p></div></body>
     </text>
 </TEI>

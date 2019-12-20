@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-04-20_01_AS_Boelsche">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-04-20_01_AS_Boelsche">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Wilhelm Bölsche, 20. 4. 1892</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Wilhelm Bölsche, 20.&#160;4.&#160;1892</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Böl.Pis 1764</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Seite 3 quer zur üblichen
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte. Seite 3 quer zur üblichen
                                     Schreibrichtung. Von Bölsche als
                                             »<quote>Erl<supplied>edigt</supplied>
                                     </quote>« gezeichnet.</p>
@@ -62,7 +66,7 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb11061">Bölsche, Wilhelm</author>
+                            <author ref="#pmb11061">Bölsche, Wilhelm</author>
                             <title level="m">Briefwechsel. Mit Autoren der Freien Bühne</title>
                             <editor>Hg. Gerd-Hermann Susen</editor>
                             <imprint>
@@ -85,17 +89,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1892-04-20" n="01">20. 4. 1892</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1892-04-20" n="01">20.&#160;4.&#160;1892</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11061">Bölsche, Wilhelm</persName>
-                    <placeName key="pmb168">Berlin</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1892-03-27_01">Schnitzler an Bölsche, 27. 3. 1892</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1892-03-27_01">Schnitzler an Bölsche, 27.&#160;3.&#160;1892</ptr>
                <ptr type="next" subtype="toAuthor" target="1892-04_01">Bölsche an Schnitzler, [Anfang April 1892]</ptr>
             </correspContext>
          </correspDesc>
@@ -112,38 +116,13 @@
         <!-- $$$$ Dateinamen müssen noch ergänzt werden! -->
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="Böl.Pis 1764-1"/>
-                        <placeName key="pmb50">Wien</placeName>, <date>20. April 92</date>
-                    </dateline>
-                    <salute>Verehrteſter Herr,</salute>
-                </opener>
-                <p>ich ſchicke Ihnen hier die <rs type="work" key="pmb30169">Skizze</rs> mit der
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Böl.Pis 1764-1"/><rs ref="#pmb50" type="place">Wien</rs>, <date>20.&#160;April 92</date></dateline><salute>Verehrteſter Herr,</salute></opener><p>ich ſchicke Ihnen hier die <rs type="work" ref="#pmb30169" subtype="implied">Skizze</rs> mit der
                     beſondern Bitte, mir falls Sie ſie zu veröffentlichen gedenken, gütigſt eine <hi n="2" rend="underline">Correctur</hi> ſenden laſſen zu wollen; ſie ſoll
                         beſti<c rendition="#gemination-m"/>t in 24 Stunden erledigt ſein. Sollten
-                    Sie das <rs type="work" key="pmb30169">Manuscript</rs>
-                    <pb facs="Böl.Pis 1764-2"/>nicht brauchen können, was mir aufrichtig leid thäte,
-                    ſo haben Sie wohl die Liebenswürdigkeit, es mir recht bald zurückzuſenden.</p>
-                <closer>Hochachtungsvoll<lb/>Ihr ſehr ergebner<lb/>
-                    <signed>
-                        <hi rend="latintype">Dr</hi> Arthur Schnitzler</signed>
-                </closer>
-                <postscript>
-                    <p>
-                        <placeName key="pmb542">
-                            <hi rend="latintype">I. Giselastraße 11</hi>.</placeName>
-                    </p>
-                    <p>
-                        <pb facs="Böl.Pis 1764-3"/>Scheint Ihnen etwa der Titel zu riskant, ſo
-                        könnte die <rs type="work" key="pmb30169">Skizze</rs> auch »<workName key="pmb30169">Verblaßende Farben</workName>« genannt werden; lieber iſt
-                        mir allerdings der erſte »<workName key="pmb30169">Das
-                        Himmelbett</workName>.«</p>
-                    <p rend="right">ArthSch</p>
-                </postscript>
-            </div>
-        </body>
+                    Sie das <rs type="work" ref="#pmb30169" subtype="implied">Manuscript</rs><pb facs="Böl.Pis 1764-2"/>nicht brauchen können, was mir aufrichtig leid thäte,
+                    ſo haben Sie wohl die Liebenswürdigkeit, es mir recht bald zurückzuſenden.</p><closer>Hochachtungsvoll<lb/>Ihr ſehr ergebner<lb/><signed><hi rend="latintype">Dr</hi> Arthur Schnitzler</signed></closer><postscript><p><rs ref="#pmb542" type="place"><hi rend="latintype">I. Giselastraße 11</hi>.</rs></p><p><pb facs="Böl.Pis 1764-3"/>Scheint Ihnen etwa der Titel zu riskant, ſo
+                        könnte die <rs type="work" ref="#pmb30169" subtype="implied">Skizze</rs> auch »<rs ref="#pmb30169" type="work">Verblaßende Farben</rs>« genannt werden; lieber iſt
+                        mir allerdings der erſte »<rs ref="#pmb30169" type="work">Das
+                        Himmelbett</rs>.«</p><p rend="right">ArthSch</p></postscript></div></body>
     </text>
 </TEI>

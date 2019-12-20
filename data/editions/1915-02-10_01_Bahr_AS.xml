@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1915-02-10_01_Bahr_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1915-02-10_01_Bahr_AS">
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 10. 2. 1915</title>
-            <author key="pmb10815">Bahr, Hermann</author>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 10.&#160;2.&#160;1915</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,10 +53,10 @@
                         <country>GB</country>            
                         <settlement>Cambridge</settlement>            
                         <repository>University Library</repository>            
-                        <idno>Schnitzler, B 5b</idno>
+                        <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S., von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,8 +64,8 @@
             <listBibl>                
                <biblStruct corresp="HBAS">                              
                   <monogr>                             
-                     <author key="pmb10815">Bahr, Hermann</author>                                  
-                     <author key="pmb2121">Schnitzler, Arthur</author>                             
+                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
                      <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
                      <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
                      <imprint>                                       
@@ -79,17 +83,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10815">Bahr, Hermann</persName>
-               <date when="1915-02-10" n="01">10. 2. 1915</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <date when="1915-02-10" n="01">10.&#160;2.&#160;1915</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">[Wien]</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1915-02-09_01">Schnitzler an Bahr, 9. 2. 1915</ptr>
-               <ptr type="next" subtype="toAuthor" target="1918-08-24_01">Schnitzler an Bahr, 24. 8. 1918</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1915-02-09_01">Schnitzler an Bahr, 9.&#160;2.&#160;1915</ptr>
+               <ptr type="next" subtype="toAuthor" target="1918-08-24_01">Schnitzler an Bahr, 24.&#160;8.&#160;1918</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -104,35 +108,18 @@
       <graphic url="MS-B-00005-B-000-00321"/>
    </facsimile>
    <text type="letter">
-      <body>
-     
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>10. 2. 15</date>
-               </dateline>
-               <salute rend="center">Lieber Arthur!</salute>
-            </opener>
-            <p>Herzlichen Dank für den lieben Brief, der <rs type="person" key="pmb10818">uns
-                  Beiden</rs> eine große Freude gemacht hat! Meine <rs type="person" key="pmb10818">Frau</rs> möchte sehr gern einmal in <placeName key="pmb50">Wien</placeName> Lieder singen, <persName key="pmb12729">Schubert</persName>, <persName key="pmb13152">Hugo Wolf</persName> und die <workName key="pmb29973">Wesendoncklieder</workName> am liebsten. Jetzt aber geht das nicht, sie kann hier
-               nicht abkommen von ihrem <anchor type="commentary" xml:id="KL342-1"/>
-               <rs type="place" key="pmb157">Spital</rs>
-               <note type="commentary" xml:id="KL342-1h">Sie arbeitete als freiwillige Pflegehelferin im
-                <placeName key="pmb157">Salzburger Truppenspital Nonntal</placeName>.</note> (ich schrieb das
-                  <persName key="pmb11646">Heller</persName> gestern schon). Auch bin ich der
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>10.&#160;2.&#160;15</date></dateline><salute rend="center">Lieber Arthur!</salute></opener><p>Herzlichen Dank für den lieben Brief, der <rs type="person" ref="#pmb10818" subtype="implied">uns
+                  Beiden</rs> eine große Freude gemacht hat! Meine <rs type="person" ref="#pmb10818" subtype="implied">Frau</rs> möchte sehr gern einmal in <rs ref="#pmb50" type="place">Wien</rs> Lieder singen, <rs ref="#pmb12729" type="person">Schubert</rs>, <rs ref="#pmb13152" type="person">Hugo Wolf</rs> und die <rs ref="#pmb29973" type="work">Wesendoncklieder</rs> am liebsten. Jetzt aber geht das nicht, sie kann hier
+               nicht abkommen von ihrem <anchor type="commentary" xml:id="KL342-1"/><rs type="place" ref="#pmb157" subtype="implied">Spital</rs><note type="commentary" xml:id="KL342-1h">Sie arbeitete als freiwillige Pflegehelferin im
+                <rs ref="#pmb157" type="place">Salzburger Truppenspital Nonntal</rs>.</note> (ich schrieb das
+                  <rs ref="#pmb11646" type="person">Heller</rs> gestern schon). Auch bin ich der
                Meinung, daß es besser ist, dazu eine stillere, für Kunst empfänglichere Zeit
                abzuwarten. Willst Du aber nicht so lange warten, so komm doch her, Du kannst es bei
                uns viel schöner haben als je in einem Konzert, was doch von vorneherein die
                scheußlichste Kunstwidrigkeit ist! Wir würden uns herzlich freuen und ich hätte ja so
-               viel mit Dir zu reden, Tage lang!</p>
-            <p>Grüße Frau <persName key="pmb2173">Olga</persName> in alter herzlicher
+               viel mit Dir zu reden, Tage lang!</p><p>Grüße Frau <rs ref="#pmb2173" type="person">Olga</rs> in alter herzlicher
                   <unclear>Ve</unclear>rehrung schönstens von mir und kommt wirklich bald einmal!
                (Aber mit Nachricht ein paar Tage früher, damit ich nicht gerade weg bin, in
-                     <placeName key="pmb38129">München</placeName> oder in den Bergen!) </p>
-            <closer>Herzlichst<lb/>Dein alter<lb/>
-               <signed>H</signed>
-            </closer>
-         </div>
-      </body>
+                     <rs ref="#pmb38129" type="place">München</rs> oder in den Bergen!) </p><closer>Herzlichst<lb/>Dein alter<lb/><signed>H</signed></closer></div></body>
   </text>
 </TEI>

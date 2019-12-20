@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-05-05_01_AS_Boelsche">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1891-05-05_01_AS_Boelsche">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Wilhelm Bölsche, [5. 5. 1891]</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Wilhelm Bölsche, [5.&#160;5.&#160;1891]</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>Böl.Pis 1772</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte.</p>
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -59,7 +63,7 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb11061">Bölsche, Wilhelm</author>
+                            <author ref="#pmb11061">Bölsche, Wilhelm</author>
                             <title level="m">Briefwechsel. Mit Autoren der Freien Bühne</title>
                             <editor>Hg. Gerd-Hermann Susen</editor>
                             <imprint>
@@ -82,18 +86,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1891-05-05" n="01">[5. 5. 1891]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1891-05-05" n="01">[5.&#160;5.&#160;1891]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11061">Bölsche, Wilhelm</persName>
-                    <placeName key="pmb168">Berlin</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1890-10-25_01">Bölsche an Schnitzler, 25. 10. 1890</ptr>
-               <ptr type="next" subtype="toAuthor" target="1891-08-03_01">Schnitzler an Bölsche, 3. 8. 1891</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1890-10-25_01">Bölsche an Schnitzler, 25.&#160;10.&#160;1890</ptr>
+               <ptr type="next" subtype="toAuthor" target="1891-08-03_01">Schnitzler an Bölsche, 3.&#160;8.&#160;1891</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -108,32 +112,13 @@
         <!-- $$$$ Dateinamen müssen noch ergänzt werden! -->
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="Böl.Pis 1772-1"/>Sehr geehrter Herr Redakteur,</salute>
-                </opener>
-                <p>ich <anchor type="commentary" xml:id="KL162-1"/>ſende<note type="commentary" xml:id="KL162-1h">Der Brief ist undatiert, lässt sich aber mit dem <workName key="pmb33243">Tagebuch</workName>
-                        <space unit="chars" quantity="1"/>
-                        <persName key="pmb2121">Schnitzler</persName>s datieren; der Eintrag vom
-                        5.5.1891 lautet: »›<workName key="pmb30257">Sohn</workName>‹ an die
-                            <workName key="pmb36149">Freie Bühne</workName> gesandt.«.</note> Ihnen
-                    hier eine <rs type="work" key="pmb30257">Skizze</rs>, vielleicht finden Sie
-                    dieſelbe für Ihre <rs type="work" key="pmb36166">Zeitſchrift</rs> geeignet, was
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="Böl.Pis 1772-1"/>Sehr geehrter Herr Redakteur,</salute></opener><p>ich <anchor type="commentary" xml:id="KL162-1"/>ſende<note type="commentary" xml:id="KL162-1h">Der Brief ist undatiert, lässt sich aber mit dem <rs ref="#pmb33243" type="work">Tagebuch</rs><space unit="chars" quantity="1"/><rs ref="#pmb2121" type="person">Schnitzler</rs>s datieren; der Eintrag vom
+                        5.5.1891 lautet: »›<rs ref="#pmb30257" type="work">Sohn</rs>‹ an die
+                            <rs ref="#pmb36149" type="work">Freie Bühne</rs> gesandt.«.</note> Ihnen
+                    hier eine <rs type="work" ref="#pmb30257" subtype="implied">Skizze</rs>, vielleicht finden Sie
+                    dieſelbe für Ihre <rs type="work" ref="#pmb36166" subtype="implied">Zeitſchrift</rs> geeignet, was
                     mir zur beſondern Ehre gereichte. Können Sie das Ding nicht brauchen, ſo haben
                     Sie wohl die Liebens<pb facs="Böl.Pis 1772-2"/>würdigkeit, es bald an mich
-                    zurückzuſenden.</p>
-                <closer>Hochachtungsvoll<lb/>
-                    <signed>Dr. Arthur Schnitzler</signed>
-                </closer>
-                <postscript>
-                    <p>
-                        <placeName key="pmb542">
-                            <hi rend="latintype">Wien, I. Giselastraße 11</hi>
-                        </placeName>. </p>
-                </postscript>
-            </div>
-        </body>
+                    zurückzuſenden.</p><closer>Hochachtungsvoll<lb/><signed>Dr. Arthur Schnitzler</signed></closer><postscript><p><rs ref="#pmb542" type="place"><hi rend="latintype">Wien, I. Giselastraße 11</hi></rs>. </p></postscript></div></body>
     </text>
 </TEI>

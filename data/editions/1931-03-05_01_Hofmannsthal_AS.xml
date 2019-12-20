@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1931-03-05_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1931-03-05_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Gerty von Hofmannsthal an Arthur Schnitzler, [5. 3. 1931]</title>
-                <author key="pmb2292">Hofmannsthal, Gerty von</author>
+                <title level="a">Gerty von Hofmannsthal an Arthur Schnitzler, [5.&#160;3.&#160;1931]</title>
+                <author ref="#pmb2292">Hofmannsthal, Gerty von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>ms. Brief mit eh. Unterschrift, 1 Bl., 1 S. Von Schnitzler
+                                <p>ms. Brief mit eh. Unterschrift, 1&#160;Bl., 1&#160;S. Von Schnitzler
                                     beschriftet »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>« und
@@ -72,14 +76,14 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2292">Hofmannsthal, Gerty von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1931-03-05" n="01">[5. 1. 1931]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1931-03-05" n="01">[5.&#160;1.&#160;1931]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             
          </correspDesc>
@@ -90,38 +94,20 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="MS-SCHNITZLER-B-00043-D-000-00036"/>
-                  <date>
-                     <anchor type="commentary" xml:id="KL2242-1"/>Donnerstag<note type="commentary" xml:id="KL2242-1h">Der <date>5. 3. 1931</date> war
-                                ein Donnerstag.</note>
-                  </date>
-               </dateline>
-                    <salute>Lieber Arthur,</salute>
-                </opener>
-                <p>Hier zwei Verträge die insofern di<del rend="overwritten">g</del>fferieren, als
-                    die Summe von <persName key="pmb12870">Strauss</persName> an <persName key="pmb11740">Hugo</persName> bei Abschluss des Vertrages (die ich ü<del rend="overwritten">v</del>brigens vergass zu erwähnen) in dem früheren
-                    Vertrag in Mark ausgedrückt war und dann in Dollar, ferner jetzt nur mehr 20 <c rendition="#prozent"/> vom Ladenpreis des Buches statt wie im Anfang 25 <c rendition="#prozent"/> gezahlt werden. Sonst sehe ich nichts wesentlich
-                    verschiedenes. Diese Vorauszahlung d. h. einmalige Zahlung von 3500 Dollar
-                    vermindert etwas die Ungerechtigkeit dass nur <persName key="pmb12870">Strauss</persName> von <orgName key="pmb34146">Fürstner</orgName> so hohe
-                    Bezahlung bei Ablieferung der Oper kriegt. Aber dass die Oper blos 7 <c rendition="#prozent"/> abrechnet ist schon irgend eine komische Sache, denn
-                    tatsächlich rechnen sie schon mehr ab nur nimmt sich <orgName key="pmb34146">Fürstner</orgName> wegen der hohen Zahlung an <persName key="pmb12870">Strauss</persName> die Differenz, was bei gut gehenden Opern doch zu hohen
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-D-000-00036"/><date><anchor type="commentary" xml:id="KL2242-1"/>Donnerstag<note type="commentary" xml:id="KL2242-1h">Der <date>5.&#160;3.&#160;1931</date> war
+                                ein Donnerstag.</note></date></dateline><salute>Lieber Arthur,</salute></opener><p>Hier zwei Verträge die insofern di<del rend="overwritten">g</del>fferieren, als
+                    die Summe von <rs ref="#pmb12870" type="person">Strauss</rs> an <rs ref="#pmb11740" type="person">Hugo</rs> bei Abschluss des Vertrages (die ich ü<del rend="overwritten">v</del>brigens vergass zu erwähnen) in dem früheren
+                    Vertrag in Mark ausgedrückt war und dann in Dollar, ferner jetzt nur mehr 20&#160;<c rendition="#prozent"/> vom Ladenpreis des Buches statt wie im Anfang 25&#160;<c rendition="#prozent"/> gezahlt werden. Sonst sehe ich nichts wesentlich
+                    verschiedenes. Diese Vorauszahlung d.&#160;h. einmalige Zahlung von 3500 Dollar
+                    vermindert etwas die Ungerechtigkeit dass nur <rs ref="#pmb12870" type="person">Strauss</rs> von <rs ref="#pmb34146" type="organisation">Fürstner</rs> so hohe
+                    Bezahlung bei Ablieferung der Oper kriegt. Aber dass die Oper blos 7&#160;<c rendition="#prozent"/> abrechnet ist schon irgend eine komische Sache, denn
+                    tatsächlich rechnen sie schon mehr ab nur nimmt sich <rs ref="#pmb34146" type="organisation">Fürstner</rs> wegen der hohen Zahlung an <rs ref="#pmb12870" type="person">Strauss</rs> die Differenz, was bei gut gehenden Opern doch zu hohen
                     Gewinn für ihn ist. Verstehen tu ich die Sache nicht recht, weiss aber dass
-                        <persName key="pmb11740">Hugo</persName> mit <persName key="pmb12630">Schalk</persName> darüber sprach, auch mit <persName key="pmb12870">Strauss</persName> darüber Aussprachen hatte, die aber zu nichts
-                    führten.</p>
-                <p>Bitte telephonieren Sie mich einmal an, womöglich doch lieber einen Tag früher
-                    und kommen einen Sprung heraus, auch vormittag wies Ihnen passt.</p>
-                <p>Wenn es vor dem <date>11ten</date> sein könnte wärs mir sehr lieb weil ich dann
-                    immer unsicher bin ob nicht der <persName key="pmb3241">Raimund</persName>
+                        <rs ref="#pmb11740" type="person">Hugo</rs> mit <rs ref="#pmb12630" type="person">Schalk</rs> darüber sprach, auch mit <rs ref="#pmb12870" type="person">Strauss</rs> darüber Aussprachen hatte, die aber zu nichts
+                    führten.</p><p>Bitte telephonieren Sie mich einmal an, womöglich doch lieber einen Tag früher
+                    und kommen einen Sprung heraus, auch vormittag wies Ihnen passt.</p><p>Wenn es vor dem <date>11ten</date> sein könnte wärs mir sehr lieb weil ich dann
+                    immer unsicher bin ob nicht der <rs ref="#pmb3241" type="person">Raimund</rs>
                     gerade ankommt mit dem ich dann hier in aller Eile vieles Geschäftliche zu tun
-                    habe.</p>
-                <closer>Von Herzen Ihre<lb/>
-                    <signed>Gerty</signed>
-                </closer>
-            </div>
-        </body>
+                    habe.</p><closer>Von Herzen Ihre<lb/><signed>Gerty</signed></closer></div></body>
     </text>
 </TEI>

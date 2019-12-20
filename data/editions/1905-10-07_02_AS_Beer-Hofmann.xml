@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1905-10-07_02_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1905-10-07_02_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 
-                        7. 10. 1905</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+                        7.&#160;10.&#160;1905</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -52,7 +56,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -80,17 +84,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key=""/>
-               <date when="1905-10-07" n="02">7. 10. 1905</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref=""/>
+               <date when="1905-10-07" n="02">7.&#160;10.&#160;1905</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1905-10-07_01">Beer-Hofmann an Schnitzler, 7. 10. 1905</ptr>
-               <ptr type="next" subtype="toAuthor" target="1906-01-30_01">Schnitzler an Beer-Hofmann, 30. 1. 1906</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1905-10-07_01">Beer-Hofmann an Schnitzler, 7.&#160;10.&#160;1905</ptr>
+               <ptr type="next" subtype="toAuthor" target="1906-01-30_01">Schnitzler an Beer-Hofmann, 30.&#160;1.&#160;1906</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,24 +103,10 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         
-				        <div type="writingSession" n="1">
-					          <opener>
-						            <dateline rend="right">
-							              <date when="1905-10-07"> 7. 10. 905</date>
-						            </dateline>
-					          </opener>
-					          <p>
-						            <salute>Lieber Richard, </salute>warum so spät? <persName key="pmb11740">Hugo</persName> hat mir nur wegen Sitzen für sich, und nicht Ihretwegen
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date when="1905-10-07"> 7.&#160;10.&#160;905</date></dateline></opener><p><salute>Lieber Richard, </salute>warum so spät? <rs ref="#pmb11740" type="person">Hugo</rs> hat mir nur wegen Sitzen für sich, und nicht Ihretwegen
 						geschrieben. Ich mußte meine Wünsche bis heut Mittags 1 an Rosenbaum
 						mittheilen. Sitze werd ich mm kaum mehr für Sie kriegen können, vielleicht
 						aber krieg ich eine 2. Stock Loge, war Ihnen damit gedient? Jedenfalls
-						erfahr ich erst Dinstag woran ich bin.</p>
-					          <closer>Herzlichst Ihr <signed>A.</signed>
-					          </closer>
-				        </div>
-			      
-      </body>
+						erfahr ich erst Dinstag woran ich bin.</p><closer>Herzlichst Ihr <signed>A.</signed></closer></div></body>
    </text>
 </TEI>

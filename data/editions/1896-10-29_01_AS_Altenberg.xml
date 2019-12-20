@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-10-29_01_AS_Altenberg">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-10-29_01_AS_Altenberg">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Peter Altenberg, 29. 10. 1896</title>
-                <author key="pmb2147">Altenberg, Peter</author>
+                <title level="a">Arthur Schnitzler an Peter Altenberg, 29.&#160;10.&#160;1896</title>
+                <author ref="#pmb2147">Altenberg, Peter</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,25 +55,25 @@
                                 <idno>H.I.N.-137077</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>Fotokopie eines eh. Brief, 1 Bl., 2 S., schwarze Tinte; im
-                                    Nachlass von <persName key="pmb11988">Karl Kraus</persName>
-                                    überliefert. <persName key="pmb11988">Kraus</persName> ergänzte
+                                <p>Fotokopie eines eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte; im
+                                    Nachlass von <rs ref="#pmb11988" type="person">Karl Kraus</rs>
+                                    überliefert. <rs ref="#pmb11988" type="person">Kraus</rs> ergänzte
                                     (vor der Kopie) am Objekt: »<quote>handſchriftliche Notiz von
                                         Peter Altenberg. Das Dokument <date>1896</date> von ihm
-                                        empfangen. <placeName key="pmb50">Wien</placeName>, im
+                                        empfangen. <rs ref="#pmb50" type="place">Wien</rs>, im
                                             <date>November 1922</date>
                                         <space unit="chars" quantity="3"/>
-                                        <persName key="pmb11988">Karl Kraus</persName>
+                                        <rs ref="#pmb11988" type="person">Karl Kraus</rs>
                                     </quote>«. Nur zwei der vier Zeilen der Notiz ansatzweise zu
                                     entziffern: »<quote>
                                         <hi rend="latintype">Lendway</hi>
                                         <lb/>
                                         <hi rend="latintype">II. <unclear>A</unclear>
                                             <gap quantity="5" reason="illegible" unit="chars"/>gasse 5</hi>
-                                    </quote>«. <persName key="pmb11988">Kraus</persName> ließ das
+                                    </quote>«. <rs ref="#pmb11988" type="person">Kraus</rs> ließ das
                                     Original versteigern. Schnitzler bot selber mit, wurde aber
                                     überboten. Vgl. <bibl>
-                                        <workName>B</workName> II,293–296</bibl> und <workName key="pmb41244">Die Fackel</workName>
+                                        <rs type="work">B</rs> II,293–296</bibl> und <rs ref="#pmb41244" type="work">Die Fackel</rs>
                                     <space unit="chars" quantity="1"/>-Hefte von <date>Ende
                                         1922</date>–<date>Anfang 1923</date>.</p>
                             </physDesc>
@@ -81,13 +85,13 @@
                         <monogr>
                             <title level="m">Vorlesung Karl Kraus [Programm]</title>
                             <imprint>
-                                <date when="1922-11-26">26. 11. 1922</date>
+                                <date when="1922-11-26">26.&#160;11.&#160;1922</date>
                             </imprint>
                         </monogr>
                     </biblStruct>
                     <biblStruct>
                         <monogr>
-                            <title key="pmb41244" level="j">Die Fackel</title>
+                            <title ref="#pmb41244" level="j">Die Fackel</title>
                             <imprint>
                                 <date when="1922-12-31">Ende Dezember 1922</date>
                             </imprint>
@@ -108,7 +112,7 @@
                                 <date when="1968">1968</date>
                             </imprint>
                             <biblScope unit="jg">3</biblScope>
-                            <biblScope unit="pp">292–304, hier S. 293</biblScope>
+                            <biblScope unit="pp">292–304, hier S.&#160;293</biblScope>
                         </monogr>
                     </biblStruct>
                 </listBibl>
@@ -119,20 +123,20 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <date n="01" when="1896-10-29">29. 10. 1896</date>
-                    <placeName key="pmb168">Berlin</placeName>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <date n="01" when="1896-10-29">29.&#160;10.&#160;1896</date>
+                    <placeName ref="#pmb168">Berlin</placeName>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2147">Altenberg, Peter</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1896-10-30">30. 10. 1896</date>
+                <correspAction  type="received">
+                    <persName ref="#pmb2147">Altenberg, Peter</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1896-10-30">30.&#160;10.&#160;1896</date>
                     <!-- Vgl. Brief an Annie Holitscher vom 31. -->
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-10-10_02">Altenberg an Schnitzler, [10. 10. 1895]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-10-30_01">Altenberg an Schnitzler, [30.? 10. 1896]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-10-10_02">Altenberg an Schnitzler, [10.&#160;10.&#160;1895]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-10-30_01">Altenberg an Schnitzler, [30.?&#160;10.&#160;1896]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -147,30 +151,11 @@
         <graphic url="Wienbibliothek H.I.N.-137077_rs.tif"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="Wienbibliothek H.I.N.-137077_vs.tif"/>Lieber Herr Peter
-                        Altenberg,</salute>
-                </opener>
-                <p>geſtern ſprach ich mit <persName key="pmb11617">
-                        <hi rend="latintype">Gerhard Hauptmann</hi>
-                    </persName>, der ſich über Ihr <rs type="work" key="pmb30965">Buch</rs> in
-                    unendlich ſympathiſcher Weiſe äußerte u. unter anderm sagte, ſeit <hi rend="underline" n="1">Jahren</hi> habe kein <rs type="work" key="pmb30965">Buch</rs> einen ſo ſtarken Eindruck auf ihn gemacht als das Ihre.</p>
-                <p>Da dieſe Bemerkung für Sie <anchor type="commentary" xml:id="KL882-1"/>intereſſant ſein<note type="commentary" xml:id="KL882-1h">Für <persName key="pmb2147">Altenberg</persName> bot sie den Anlass, <persName key="pmb11617">Hauptmann</persName> direkt einen Brief zu schreiben. (<bibl>
-                            <workName>Selbsterfindung eines Dichters</workName>,
-                        S. 80</bibl>.)</note> dürfte und ſie ſonſt kaum an Sie <pb facs="Wienbibliothek H.I.N.-137077_rs.tif"/>gelangen könnte, fühle ich mich
-                    in gewiſſem Sinne angenehm verpflichtet, ſie Ihnen mitzutheilen.</p>
-                <closer>Mit beſtem Gruſs Ihr ergebener<lb/>
-                    <signed>ArthurSchnitzler</signed>
-                </closer>
-                <postscript>
-                    <dateline>
-                        <placeName key="pmb168">Berlin</placeName>,
-                        <date>29. X. 96</date>.</dateline>
-                </postscript>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="Wienbibliothek H.I.N.-137077_vs.tif"/>Lieber Herr Peter
+                        Altenberg,</salute></opener><p>geſtern ſprach ich mit <rs ref="#pmb11617" type="person"><hi rend="latintype">Gerhard Hauptmann</hi></rs>, der ſich über Ihr <rs type="work" ref="#pmb30965" subtype="implied">Buch</rs> in
+                    unendlich ſympathiſcher Weiſe äußerte u. unter anderm sagte, ſeit <hi rend="underline" n="1">Jahren</hi> habe kein <rs type="work" ref="#pmb30965" subtype="implied">Buch</rs> einen ſo ſtarken Eindruck auf ihn gemacht als das Ihre.</p><p>Da dieſe Bemerkung für Sie <anchor type="commentary" xml:id="KL882-1"/>intereſſant ſein<note type="commentary" xml:id="KL882-1h">Für <rs ref="#pmb2147" type="person">Altenberg</rs> bot sie den Anlass, <rs ref="#pmb11617" type="person">Hauptmann</rs> direkt einen Brief zu schreiben. (<bibl><rs type="work">Selbsterfindung eines Dichters</rs>,
+                        S.&#160;80</bibl>.)</note> dürfte und ſie ſonſt kaum an Sie <pb facs="Wienbibliothek H.I.N.-137077_rs.tif"/>gelangen könnte, fühle ich mich
+                    in gewiſſem Sinne angenehm verpflichtet, ſie Ihnen mitzutheilen.</p><closer>Mit beſtem Gruſs Ihr ergebener<lb/><signed>ArthurSchnitzler</signed></closer><postscript><dateline><rs ref="#pmb168" type="place">Berlin</rs>,
+                        <date>29.&#160;X.&#160;96</date>.</dateline></postscript></div></body>
     </text>
 </TEI>

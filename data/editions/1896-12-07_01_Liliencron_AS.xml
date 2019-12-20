@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-12-07_01_Liliencron_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-12-07_01_Liliencron_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Detlev von Liliencron und Marcell Salzer an Arthur Schnitzler, 7. 12. 1896</title>
-                <author key="pmb12071">Liliencron, Detlev von</author>
-                <author key="pmb12614">Salzer, Marcell</author>
+                <title level="a">Detlev von Liliencron und Marcell Salzer an Arthur Schnitzler, 7.&#160;12.&#160;1896</title>
+                <author ref="#pmb12071">Liliencron, Detlev von</author>
+                <author ref="#pmb12614">Salzer, Marcell</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -49,7 +53,7 @@
                                 <country>GB</country>            
                                 <settlement>Cambridge</settlement>            
                                 <repository>University Library</repository>            
-                                <idno>Schnitzler, B 59</idno>
+                                <idno>Schnitzler, B&#160;59</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Bildpostkarte, 2 Verfasser. XXXX Rückseite fehlt am Mikrofilm, damit auch Datum!</p>
@@ -65,19 +69,19 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12071">Liliencron, Detlev von</persName>
-                    <author key="pmb12614">Salzer, Marcell</author>
-                    <placeName key="pmb506">Hamburg</placeName>
-                    <date when="1896-12-07" n="01">7. 12. 1896</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12071">Liliencron, Detlev von</persName>
+                    <author ref="#pmb12614">Salzer, Marcell</author>
+                    <placeName ref="#pmb506">Hamburg</placeName>
+                    <date when="1896-12-07" n="01">7.&#160;12.&#160;1896</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1894-05-07_01">Liliencron an Schnitzler, 7. 5. 1894</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-12-10_01">Schnitzler an Liliencron, 10. 12. 1896</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1894-05-07_01">Liliencron an Schnitzler, 7.&#160;5.&#160;1894</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-12-10_01">Schnitzler an Liliencron, 10.&#160;12.&#160;1896</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -87,28 +91,8 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-               <pb facs="gray00045.pdf"/>
-               <handShift scribe="pmb12071"/>Marcell Salzer, der herrliche
-                Vorleſer ſitzt neben mir und erzählt von Ihnen! Hurrah! Ihr</p>
-                <closer>
-               <signed>Liliencron.</signed>
-            </closer>
-            </div>
-                <div type="writingSession" n="2">
-                    <p>
-               <handShift scribe="pmb12614"/>Danke herzlichſt <subst>
-                        <del rend="overwritten">H</del>
-                        <add place="inline">v</add>
-                    </subst>erehrteſter Herr Doctor für Ihren <placeName key="pmb506">Hamburg</placeName>-Brief. 
-                    Nehmen Sie meine i<c rendition="#gemination-n"/>igſten verehrungsvollſten Grüße entgegen.</p> 
-               <closer>Ihr<space unit="chars" quantity="5"/>
-               <signed>Salzer</signed>
-            </closer>
-               
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><p><pb facs="gray00045.pdf"/><handShift scribe="pmb12071"/>Marcell Salzer, der herrliche
+                Vorleſer ſitzt neben mir und erzählt von Ihnen! Hurrah! Ihr</p><closer><signed>Liliencron.</signed></closer></div><div type="writingSession" n="2"><p><handShift scribe="pmb12614"/>Danke herzlichſt <subst><del rend="overwritten">H</del><add place="inline">v</add></subst>erehrteſter Herr Doctor für Ihren <rs ref="#pmb506" type="place">Hamburg</rs>-Brief. 
+                    Nehmen Sie meine i<c rendition="#gemination-n"/>igſten verehrungsvollſten Grüße entgegen.</p><closer>Ihr<space unit="chars" quantity="5"/><signed>Salzer</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1930-06-15_01_Adam_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1930-06-15_01_Adam_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 15. 6. 1930</title>
-                <author key="pmb12438">Adam, Robert</author>
+                <title level="a">Robert Adam an Arthur Schnitzler, 15.&#160;6.&#160;1930</title>
+                <author ref="#pmb12438">Adam, Robert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 1</idno>
+                                <idno>Schnitzler, B&#160;1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Von unbekannter Hand
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte. Von unbekannter Hand
                                     nummeriert: »<quote>25</quote>«. Vereinzelte Unterstreichungen
                                     mit rotem Buntstift.</p>
                             </physDesc>
@@ -77,17 +81,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1930-06-15" n="01">15. 6. 1930</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1930-06-15" n="01">15.&#160;6.&#160;1930</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1930-06-12_01">Schnitzler an Adam, 12. 6. 1930</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1930-06-12_01">Schnitzler an Adam, 12.&#160;6.&#160;1930</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -104,41 +108,21 @@
         <graphic url="MS-SCHNITZLER-B-00001-000-00002"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00001-000-00001"/>
-                        <placeName key="pmb50">Wien</placeName>, am <date>15. Juni 1930</date>
-                    </dateline>
-                    <salute>Hochverehrter Herr Doktor!</salute>
-                </opener>
-                <p>Nehmen Sie meinen beſten Dank für Ihre freundlichen Glückwünſche in beiden
-                    »Belangen«!</p>
-                <p>Der literariſche Vor-Erfolg – ich weiß recht gut, daß von ihm zum Enderfolg noch
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00001-000-00001"/><rs ref="#pmb50" type="place">Wien</rs>, am <date>15.&#160;Juni 1930</date></dateline><salute>Hochverehrter Herr Doktor!</salute></opener><p>Nehmen Sie meinen beſten Dank für Ihre freundlichen Glückwünſche in beiden
+                    »Belangen«!</p><p>Der literariſche Vor-Erfolg – ich weiß recht gut, daß von ihm zum Enderfolg noch
                     ein weiter unſicherer Weg zurückzulegen iſt – hat mich eigentlich weit mehr
-                    erfreut als die <anchor type="commentary" xml:id="KL999-1"/>Ernennung<note type="commentary" xml:id="KL999-1h">Zum Vizepräsidenten des <orgName key="pmb29591">Handelsgerichts</orgName>
-                        <space unit="chars" quantity="1"/>
-                        <placeName key="pmb50">Wien</placeName>.</note>; denn die mußte ja doch,
+                    erfreut als die <anchor type="commentary" xml:id="KL999-1"/>Ernennung<note type="commentary" xml:id="KL999-1h">Zum Vizepräsidenten des <rs ref="#pmb29591" type="organisation">Handelsgerichts</rs><space unit="chars" quantity="1"/><rs ref="#pmb50" type="place">Wien</rs>.</note>; denn die mußte ja doch,
                     trotz angeſtammter Hinderniſſe, einmal erfolgen, während ich, nach vergeblichen
                     zähen Kämpfen, deren Zeitlänge Ihnen bekannt iſt, ſchon jede Hoffnung aufgegeben
                     hatte, mit einer meiner Komödien an’s Rampenlicht zu kommen. Daß das vom
-                    Schickſal hiezu beſtimmte <rs type="work" key="pmb33618">Stück</rs> kein
+                    Schickſal hiezu beſtimmte <rs type="work" ref="#pmb33618" subtype="implied">Stück</rs> kein
                     künſtlerisch-beſſeres iſt, muß ich achſelzuckend hinnehmen. Außerdem hat es
-                    durch die mir vom <placeName key="pmb168">Berlin</placeName>er <rs type="organisation" key="pmb33886">Verlag</rs> abgeforderte Umarbeitung –
+                    durch die mir vom <rs ref="#pmb168" type="place">Berlin</rs>er <rs type="organisation" ref="#pmb33886" subtype="implied">Verlag</rs> abgeforderte Umarbeitung –
                     ich habe einen neuen letzten Akt verfaßt – an geiſtigem Inhalt noch eingebüßt,
-                    mag es auch bühnenwirkſamer geworden ſein.</p>
-                <p>Gern ſchriebe ich eine oder die andere Komödie <pb facs="MS-SCHNITZLER-B-00001-000-00002"/>nieder, die mir in freien Minuten
+                    mag es auch bühnenwirkſamer geworden ſein.</p><p>Gern ſchriebe ich eine oder die andere Komödie <pb facs="MS-SCHNITZLER-B-00001-000-00002"/>nieder, die mir in freien Minuten
                     durch den Kopf geht: aber ich bin von Amtsarbeit derart erdrückt, daß mir die
-                    Zeit wie die Konzentrationsmöglichkeit vollkommen mangeln.</p>
-                <p>Ich würde Sie, hochverehrter Herr Doktor, außerordentlich gern einmal aufſuchen
+                    Zeit wie die Konzentrationsmöglichkeit vollkommen mangeln.</p><p>Ich würde Sie, hochverehrter Herr Doktor, außerordentlich gern einmal aufſuchen
                     und würde mir zu jeder Stunde, die Ihnen genehm wäre, die Arbeit
-                    abſchütteln.</p>
-                <p>Mit bestem Dank und vielen Grüßen verbleibe ich Ihr ergebener</p>
-                <closer>
-                    <signed>D<hi rend="superscript">r</hi>RAdam</signed>
-                </closer>
-            </div>
-        </body>
+                    abſchütteln.</p><p>Mit bestem Dank und vielen Grüßen verbleibe ich Ihr ergebener</p><closer><signed>D<hi rend="superscript">r</hi>RAdam</signed></closer></div></body>
     </text>
 </TEI>

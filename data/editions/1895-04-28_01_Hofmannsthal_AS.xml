@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-04-28_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1895-04-28_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [28. 4. 1895]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [28.&#160;4.&#160;1895]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief mit aufgeprägtem Wappen, 1 Bl., 3 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief mit aufgeprägtem Wappen, 1&#160;Bl., 3&#160;S., schwarze Tinte. Von Schnitzler mit
                                     Bleistift datiert: »<quote>
                                         <date when="1895-04-28">28/4 95</date>
                                     </quote>« und nummeriert: »<quote>70</quote>«.</p>
@@ -62,8 +66,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -82,18 +86,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1895-04-28" n="02">[28. 4. 1895]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1895-04-28" n="02">[28.&#160;4.&#160;1895]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-04-10_01">Hofmannsthal an Schnitzler, 10. 4. 1895</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-06-05_01">Hofmannsthal an Schnitzler, 5. 6. 1895</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1895-04-10_01">Hofmannsthal an Schnitzler, 10.&#160;4.&#160;1895</ptr>
+               <ptr type="next" subtype="toAuthor" target="1895-06-05_01">Hofmannsthal an Schnitzler, 5.&#160;6.&#160;1895</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -109,29 +113,16 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00144"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00143"/>mein lieber
-                        Arthur,</salute>
-                </opener>
-                <p>ich mache die beſten Fortſchritte, fahre jeden Tag nach <placeName key="pmb190">Schönbrunn</placeName> oder <placeName key="pmb69">Döbling</placeName> und
-                    kann ſchon 1 ½ Stunden ohne Ermüdung gehen. Morgen bin ich durch Familie
-                    occupiert. Übermorgen will ich ſchon in der Früh zur <persName key="pmb24686">Tini</persName> fahren, vielleicht <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00144"/>dort das <workName key="pmb33962">Märchen</workName> fertigſchreiben oder wenn das ſchon fertig
-                    wäre, eine Geſchichte des <workName key="pmb34257">Actäon</workName> anfangen.
-                    Ich hab dem <persName key="pmb10863">Richard</persName> geſchrieben, ob er mir
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00143"/>mein lieber
+                        Arthur,</salute></opener><p>ich mache die beſten Fortſchritte, fahre jeden Tag nach <rs ref="#pmb190" type="place">Schönbrunn</rs> oder <rs ref="#pmb69" type="place">Döbling</rs> und
+                    kann ſchon 1&#160;½ Stunden ohne Ermüdung gehen. Morgen bin ich durch Familie
+                    occupiert. Übermorgen will ich ſchon in der Früh zur <rs ref="#pmb24686" type="person">Tini</rs> fahren, vielleicht <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00144"/>dort das <rs ref="#pmb33962" type="work">Märchen</rs> fertigſchreiben oder wenn das ſchon fertig
+                    wäre, eine Geſchichte des <rs ref="#pmb34257" type="work">Actäon</rs> anfangen.
+                    Ich hab dem <rs ref="#pmb10863" type="person">Richard</rs> geſchrieben, ob er mir
                     nicht nachfahren will. Es wär ſehr ſchön, wenn Sie mit ihm ſich über ſo etwas
                     einigen würden. Den Nachmittag könnten wir dann wo anders hin, von der
-                        <placeName key="pmb34045">Brühl</placeName> aus.</p>
-                <p>
-                    <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00144"/>Jedenfalls rechne ich
+                        <rs ref="#pmb34045" type="place">Brühl</rs> aus.</p><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00144"/>Jedenfalls rechne ich
                     darauf, mit Ihnen in der nächſten Woche mindeſtens einen Abend zu
-                    verbringen.</p>
-                <closer>Herzlich<lb/> Ihr<lb/>
-                    <signed>Hugo.</signed>
-                </closer>
-            </div>
-        </body>
+                    verbringen.</p><closer>Herzlich<lb/> Ihr<lb/><signed>Hugo.</signed></closer></div></body>
     </text>
 </TEI>

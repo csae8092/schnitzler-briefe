@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-02-02_02_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1893-02-02_02_Hofmannsthal_AS">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 2. 2. [1893]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 2.&#160;2. [1893]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
                 </editor>
@@ -48,12 +51,12 @@
                                 <country>UK</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte. Von Schnitzler mit
                                     Bleistift nummeriert: »<quote>43</quote>« und umdatiert zu: »<quote>
-                                        <date>1. III.</date>
+                                        <date>1.&#160;III.</date>
                                     </quote>«.</p>
                             </physDesc>
                         </msDesc>
@@ -62,8 +65,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -76,8 +79,8 @@
                     </biblStruct>
                     <biblStruct corresp="HBAS">
                         <monogr>
-                            <author key="pmb10815">Bahr, Hermann</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10815">Bahr, Hermann</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel, Aufzeichnungen, Dokumente
                                 (1891–1931)</title>
                             <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
@@ -97,18 +100,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1893-02-02" n="02">2. 2. [1893]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1893-02-02" n="02">2.&#160;2. [1893]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1893-02-01_02">Schnitzler an Hofmannsthal, [1. 2. 1893]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-02-09_01">Hofmannsthal an Schnitzler, 9. 2. 1893</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1893-02-01_02">Schnitzler an Hofmannsthal, [1.&#160;2.&#160;1893]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1893-02-09_01">Hofmannsthal an Schnitzler, 9.&#160;2.&#160;1893</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -125,42 +128,20 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00088"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <date>
-                            <anchor type="textConst" xml:id="TL420-1"/>1. II.<note type="textConst" xml:id="TL420-1h">Die hs. Datierung »<quote>1. II.</quote>« wirft
-                                mehrere Fragen auf, die <persName key="pmb2121">Schnitzler</persName> selbst versuchte zu lösen, indem er durch
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><date><anchor type="textConst" xml:id="TL420-1"/>1.&#160;II.<note type="textConst" xml:id="TL420-1h">Die hs. Datierung »<quote>1.&#160;II.</quote>« wirft
+                                mehrere Fragen auf, die <rs ref="#pmb2121" type="person">Schnitzler</rs> selbst versuchte zu lösen, indem er durch
                                 Ergänzung eines weiteren Strichs bei der Monatsangabe auf März
-                                umdatierte.</note>
-                            <!-- Ich weiß nicht, welche Fragen du meinst: ich finde die Datierung auf 1.2. viel plausibler;
+                                umdatierte.</note><!-- Ich weiß nicht, welche Fragen du meinst: ich finde die Datierung auf 1.2. viel plausibler;
                                 am 9.2. kommt plötzlich Auspitzer ins Gespräch; der Ablauf der Rettung via Dt. Ztg. ist so viel logischer, weil Bahr am 1.2.
-                            den Vorschlag macht, der in den nächsten Briefen diskutiert wird. -->
-                        </date>
-                    </dateline>
-                    <salute>
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00087"/>lieber Arthur.</salute>
-                </opener>
-                <p>
-                    <persName key="pmb10815">Bahr</persName> ſtellte mir zu meiner Freude folgenden
-                    Antrag: er ſei im Stande und gern bereit, <persName key="pmb2450">Fels</persName> von <date>Anfang März</date> an mit einem Gehalt von 100 fl
-                    in der <orgName key="pmb29424">Deutſchen Zeitung</orgName> als Redacteur
+                            den Vorschlag macht, der in den nächsten Briefen diskutiert wird. --></date></dateline><salute><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00087"/>lieber Arthur.</salute></opener><p><rs ref="#pmb10815" type="person">Bahr</rs> ſtellte mir zu meiner Freude folgenden
+                    Antrag: er ſei im Stande und gern bereit, <rs ref="#pmb2450" type="person">Fels</rs> von <date>Anfang März</date> an mit einem Gehalt von 100&#160;fl
+                    in der <rs ref="#pmb29424" type="organisation">Deutſchen Zeitung</rs> als Redacteur
                     unterzubringen. Es handelt ſich nur um Fähigkeit und Bereitwilligkeit. Dritten
-                    Perſonen werden Sie es vorläufig ebenſowenig erzählen, wie ich.</p>
-                <p>Falls wir Sonntag bei Ihnen Zuſammenkommen, zu welchem <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00088"/>Zweck ich wenigſtens
-                    vorläufig eine Einladung abgelehnt habe, ſeien Sie doch ſogut, <persName key="pmb4326">Robert Ehrhardt</persName> (<hi rend="latintype">V. <placeName key="pmb566">Siebenbrunng.</placeName> 29</hi>) ausdrücklich einzuladen.
+                    Perſonen werden Sie es vorläufig ebenſowenig erzählen, wie ich.</p><p>Falls wir Sonntag bei Ihnen Zuſammenkommen, zu welchem <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00088"/>Zweck ich wenigſtens
+                    vorläufig eine Einladung abgelehnt habe, ſeien Sie doch ſogut, <rs ref="#pmb4326" type="person">Robert Ehrhardt</rs> (<hi rend="latintype">V. <rs ref="#pmb566" type="place">Siebenbrunng.</rs> 29</hi>) ausdrücklich einzuladen.
                     Er geht der Trauer wegen faſt nicht in Geſellschaft und würde gewiſs gern
-                    kommen.</p>
-                <closer>Herzlichſt<space unit="chars" quantity="5"/>Ihr<lb/>
-                    <signed>Loris.</signed>
-                </closer>
-                <postscript>
-                    <p>P. S.<lb/>Ich denke ſehr oft an die Novelle vom <workName key="pmb30117">Sterben</workName> und möchte viel mehr davon reden, als geſchieht. Sie
+                    kommen.</p><closer>Herzlichſt<space unit="chars" quantity="5"/>Ihr<lb/><signed>Loris.</signed></closer><postscript><p>P.&#160;S.<lb/>Ich denke ſehr oft an die Novelle vom <rs ref="#pmb30117" type="work">Sterben</rs> und möchte viel mehr davon reden, als geſchieht. Sie
                         haben was gegen die Geſchichte. Wenigſtens ſcheinen Sie ſie todtſchweigen zu
-                        wollen.</p>
-                </postscript>
-            </div>
-        </body>
+                        wollen.</p></postscript></div></body>
     </text>
 </TEI>

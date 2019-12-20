@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1906-01-29_04_AS_Ehrenstein">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1906-01-29_04_AS_Ehrenstein">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Charlotte Ehrenstein, 29. 1. 1906</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Charlotte Ehrenstein, 29.&#160;1.&#160;1906</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,7 +52,7 @@
                                 <country>IL</country>
                                 <settlement>Jerusalem</settlement>
                                 <repository>The National Library of Israel</repository>
-                                <idno>ARC. Ms. Var. 306 1 118</idno>
+                                <idno>ARC. Ms.&#160;Var. 306&#160;1&#160;118</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Briefkarte. Von unbekannter Hand mit Bleistift nummeriert
@@ -64,16 +68,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1906-01-29" n="04">29. 1. 1906</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1906-01-29" n="04">29.&#160;1.&#160;1906</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11230">Ehrenstein, Albert</persName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11230">Ehrenstein, Albert</persName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1906-01-29_03">Treibl an Schnitzler, [29.? 1. 1906]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1906-01-29_03">Treibl an Schnitzler, [29.?&#160;1.&#160;1906]</ptr>
                <ptr type="next" subtype="toAuthor" target="1906-03-15_01">Ehrenstein an Schnitzler, [Mitte Februar 1906?]</ptr>
             </correspContext>
          </correspDesc>
@@ -85,34 +89,10 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p>
-                        <seg rend="left">
-                            <pb facs="NLJ0003r.tif"/>
-                            <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
-                            <lb/>
-                            <hi rend="pre-print">
-                                <placeName key="pmb133">Wien, XVIII.
-                                Spoettelgasse 7</placeName>.</hi>
-                        </seg>
-                        <seg rend="right">
-                            <date>29. 1. 906</date>
-                        </seg>
-                    </p>
-                </opener>
-                <p>
-                    <salute>Sehr geehrte gnäd<unclear>i</unclear>ge Frau, </salute>ich danke Ihnen u
-                    Herrn <persName key="pmb29150">Treibel</persName> für die freundlichen
+        <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs="NLJ0003r.tif"/><hi rend="pre-print">Dr. Arthur Schnitzler</hi><lb/><hi rend="pre-print"><rs ref="#pmb133" type="place">Wien, XVIII.
+                                Spoettelgasse 7</rs>.</hi></seg><seg rend="right"><date>29.&#160;1.&#160;906</date></seg></p></opener><p><salute>Sehr geehrte gnäd<unclear>i</unclear>ge Frau, </salute>ich danke Ihnen u
+                    Herrn <rs ref="#pmb29150" type="person">Treibel</rs> für die freundlichen
                     Nachrichten; hoffentlich erfahr’ ich bald vollko<c rendition="#gemination-m"/>en
-                    günſtiges über das Befinden Ihres <rs type="person" key="pmb11230">Sohn<unclear>e</unclear>s</rs>, den ich <pb facs="NLJ0003v.tif"/>beſtens zu grüßen bitte.</p>
-                <p>Mit Empfehlungen an Sie gnädige Frau und Ihren <rs type="person" key="pmb15712">Gatten</rs>
-                </p>
-                <closer>ganz ergebens<lb/>
-                    <signed>ArtSch</signed>
-                </closer>
-            </div>
-        </body>
+                    günſtiges über das Befinden Ihres <rs type="person" ref="#pmb11230" subtype="implied">Sohn<unclear>e</unclear>s</rs>, den ich <pb facs="NLJ0003v.tif"/>beſtens zu grüßen bitte.</p><p>Mit Empfehlungen an Sie gnädige Frau und Ihren <rs type="person" ref="#pmb15712" subtype="implied">Gatten</rs></p><closer>ganz ergebens<lb/><signed>ArtSch</signed></closer></div></body>
     </text>
 </TEI>

@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-03-24_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1899-03-24_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal,
-                    [24. 3. 1899]</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                    [24.&#160;3.&#160;1899]</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -52,7 +56,7 @@
                                 <idno>Hs-30885,XXXX</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>XXXXeh. Brief, 1 Bl., 1 S. XXXX</p>
+                                <p>XXXXeh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -60,8 +64,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -80,17 +84,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1899-03-24" n="01">[24. 3. 1899]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1899-03-24" n="01">[24.&#160;3.&#160;1899]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb168">Berlin</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-03-23_01">Hofmannsthal an Schnitzler, [23.? 3. 1899]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-03-23_01">Hofmannsthal an Schnitzler, [23.?&#160;3.&#160;1899]</ptr>
                <ptr type="next" subtype="toAuthor" target="1899-03-26_01">Hofmannsthal an Schnitzler, 26. 3. 1899</ptr>
             </correspContext>
          </correspDesc>
@@ -100,28 +104,16 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <p>
-               <salute>mein lieber Hugo, </salute>wenn ich früher nach <placeName key="pmb168">Berlin</placeName> fahre, so doch erst <date>Ostern</date>, mit meinem <rs type="person" key="pmb12698">Bruder</rs> (<orgName key="pmb36278">Chirurgencongreß</orgName>). Sagen Sie mir, wenn Sie wieder nach <placeName key="pmb50">Wien</placeName> kommen. Vielleicht
-                    fahr ich morgen nach <placeName key="pmb860">Graz</placeName>, dort sind jetzt
-                        <rs type="person" key="pmb2378">ihre</rs>
-               <space unit="chars" quantity="1"/>
-               <rs type="person" key="pmb23209 pmb23215">Eltern</rs>. Es brennt in mir
+        <body><div type="writingSession" n="1"><p><salute>mein lieber Hugo, </salute>wenn ich früher nach <rs ref="#pmb168" type="place">Berlin</rs> fahre, so doch erst <date>Ostern</date>, mit meinem <rs type="person" ref="#pmb12698" subtype="implied">Bruder</rs> (<rs ref="#pmb36278" type="organisation">Chirurgencongreß</rs>). Sagen Sie mir, wenn Sie wieder nach <rs ref="#pmb50" type="place">Wien</rs> kommen. Vielleicht
+                    fahr ich morgen nach <rs ref="#pmb860" type="place">Graz</rs>, dort sind jetzt
+                        <rs type="person" ref="#pmb2378" subtype="implied">ihre</rs><space unit="chars" quantity="1"/><rs type="person" ref="#pmb23209 pmb23215" subtype="implied">Eltern</rs>. Es brennt in mir
                     weiter, ganz wie wenn alles von dem tobenden Schmerz aufgefressen werden sollte.
-                    Nie, nie versteht man es.</p>
-                <p>Sie machen sich doch nichts daraus, daß Ihre <rs type="work" key="pmb29849 pmb32512">Stücke</rs> in <placeName key="pmb168">B.</placeName>
-                    nicht gegangen sind; hoff ich. </p>
-                <p>Wie soll das mit meinen in <placeName key="pmb168">B.</placeName> werden. Jeder
+                    Nie, nie versteht man es.</p><p>Sie machen sich doch nichts daraus, daß Ihre <rs type="work" ref="#pmb29849 pmb32512" subtype="implied">Stücke</rs> in <rs ref="#pmb168" type="place">B.</rs>
+                    nicht gegangen sind; hoff ich. </p><p>Wie soll das mit meinen in <rs ref="#pmb168" type="place">B.</rs> werden. Jeder
                     Satz ist beinah eine gemeinschaftliche Erinnerung – wie jeder Gedanke dieser
-                    vier Jahre, wie jedes Haus, jeder Stein, jeder Mensch in <placeName key="pmb50">Wien</placeName>; wie meine ganze
-                    Existenz. – Schreiben Sie mir bitte wie Sie leben, wen Sie sehen.</p>
-                <p>Ihr <rs type="person" key="pmb11737">Vater</rs> war bei mir, ich aber nicht zu
-                    Haus. Viel bin ich mit <persName key="pmb12740">Gust. Schw.</persName> zusammen,
-                    auch mit <persName key="pmb10863">Richard</persName>, <persName key="pmb2167">Salten</persName>. </p>
-                <closer>Von Herzen<lb/>Ihr <signed>Arth</signed> 
-            </closer>
-            </div>
-        </body>
+                    vier Jahre, wie jedes Haus, jeder Stein, jeder Mensch in <rs ref="#pmb50" type="place">Wien</rs>; wie meine ganze
+                    Existenz.&#160;– Schreiben Sie mir bitte wie Sie leben, wen Sie sehen.</p><p>Ihr <rs type="person" ref="#pmb11737" subtype="implied">Vater</rs> war bei mir, ich aber nicht zu
+                    Haus. Viel bin ich mit <rs ref="#pmb12740" type="person">Gust. Schw.</rs> zusammen,
+                    auch mit <rs ref="#pmb10863" type="person">Richard</rs>, <rs ref="#pmb2167" type="person">Salten</rs>. </p><closer>Von Herzen<lb/>Ihr <signed>Arth</signed></closer></div></body>
     </text>
 </TEI>

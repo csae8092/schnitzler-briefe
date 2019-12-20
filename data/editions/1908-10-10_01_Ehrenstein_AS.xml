@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1908-10-10_01_Ehrenstein_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1908-10-10_01_Ehrenstein_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Albert Ehrenstein an Arthur Schnitzler, 10. 10. 1908</title>
-                <author key="pmb11230">Ehrenstein, Albert</author>
+                <title level="a">Albert Ehrenstein an Arthur Schnitzler, 10.&#160;10.&#160;1908</title>
+                <author ref="#pmb11230">Ehrenstein, Albert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -49,10 +53,10 @@
                                 <country>GB</country>            
                                 <settlement>Cambridge</settlement>            
                                 <repository>University Library</repository>            
-                                <idno>Schnitzler, B 30</idno>
+                                <idno>Schnitzler, B&#160;30</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S. Von Schnitzler beschrieben: »<quote>
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S. Von Schnitzler beschrieben: »<quote>
                               <hi rend="latintype">Ehrenstein</hi>
                            </quote>«.</p>
                             </physDesc>
@@ -64,10 +68,10 @@
                                  <country>IL</country>           
                                  <settlement>Jerusalem</settlement>
                                  <repository>The National Library of Israel</repository>
-                                 <idno>ARC. Ms. Var. 306 1 117</idno>
+                                 <idno>ARC. Ms.&#160;Var. 306&#160;1&#160;117</idno>
                              </msIdentifier>
                              <physDesc>
-                        <p>eh. Briefentwurf, 1 Bl., 4 S.</p>
+                        <p>eh. Briefentwurf, 1&#160;Bl., 4&#160;S.</p>
                      </physDesc>
                          </msDesc>
                      </witness>
@@ -77,10 +81,10 @@
                                  <country>IL</country>           
                                  <settlement>Jerusalem</settlement>
                                  <repository>The National Library of Israel</repository>
-                                 <idno>ARC. Ms. Var. 306 1 117</idno>
+                                 <idno>ARC. Ms.&#160;Var. 306&#160;1&#160;117</idno>
                              </msIdentifier>
                              <physDesc>
-                        <p>eh. Briefentwurf des Schlusses, 1 Bl.</p>
+                        <p>eh. Briefentwurf des Schlusses, 1&#160;Bl.</p>
                      </physDesc>
                          </msDesc>
                      </witness>
@@ -90,10 +94,10 @@
                                  <country>IL</country>           
                                  <settlement>Jerusalem</settlement>
                                  <repository>The National Library of Israel</repository>
-                                 <idno>ARC. Ms. Var. 306 1 117</idno>
+                                 <idno>ARC. Ms.&#160;Var. 306&#160;1&#160;117</idno>
                              </msIdentifier>
                              <physDesc>
-                        <p>eh. Briefentwurf, 1 Bl., 2 S.</p>
+                        <p>eh. Briefentwurf, 1&#160;Bl., 2&#160;S.</p>
                      </physDesc>
                          </msDesc>
                      </witness>
@@ -103,10 +107,10 @@
                                  <country>IL</country>           
                                  <settlement>Jerusalem</settlement>
                                  <repository>The National Library of Israel</repository>
-                                 <idno>ARC. Ms. Var. 306 1 117</idno>
+                                 <idno>ARC. Ms.&#160;Var. 306&#160;1&#160;117</idno>
                              </msIdentifier>
                              <physDesc>
-                        <p>eh. Briefentwurf, 1 Bl., 1 S.</p>
+                        <p>eh. Briefentwurf, 1&#160;Bl., 1&#160;S.</p>
                      </physDesc>
                          </msDesc>
                      </witness>
@@ -114,7 +118,7 @@
                 <listBibl>
                     <biblStruct>
                         <monogr>
-                            <author key="pmb11230">Ehrenstein, Albert</author>
+                            <author ref="#pmb11230">Ehrenstein, Albert</author>
                             <title level="m">Briefe</title>
                             <editor>Hg. Hanni Mittelmann</editor>
                             <imprint>
@@ -137,17 +141,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
         <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11230">Ehrenstein, Albert</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1908-10-10" n="01">10. 10. 1908</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11230">Ehrenstein, Albert</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1908-10-10" n="01">10.&#160;10.&#160;1908</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1908-01-24_01">Schnitzler an Ehrenstein, 24. 1. 1908</ptr>
-               <ptr type="next" subtype="toAuthor" target="1908-10-20_01">Ehrenstein an Schnitzler, 20. 10. 1908</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1908-01-24_01">Schnitzler an Ehrenstein, 24.&#160;1.&#160;1908</ptr>
+               <ptr type="next" subtype="toAuthor" target="1908-10-20_01">Ehrenstein an Schnitzler, 20.&#160;10.&#160;1908</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -158,24 +162,7 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <seg rend="left">
-                     <pb facs="gray00079.pdf"/>
-                     <placeName key="pmb300">Wien, XVI. <hi rend="latintype">Ottakringerstr 114</hi>
-                     </placeName>.</seg>
-                        <seg rend="right">
-                     <date>
-                        <hi rend="latintype">10. Oktober 1908</hi>
-                     </date>.</seg>
-               </dateline>
-                    <salute rend="center">
-                  <hi rend="latintype">Sehr geehrter Herr Doktor!</hi>
-               </salute>
-            </opener>
-                <p>Verhindert durch <anchor type="commentary" xml:id="KL852-1"/>Handarbeiten<note type="commentary" xml:id="KL852-1h">Er hatte <date>1905</date> ein
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><seg rend="left"><pb facs="gray00079.pdf"/><rs ref="#pmb300" type="place">Wien, XVI. <hi rend="latintype">Ottakringerstr 114</hi></rs>.</seg><seg rend="right"><date><hi rend="latintype">10.&#160;Oktober 1908</hi></date>.</seg></dateline><salute rend="center"><hi rend="latintype">Sehr geehrter Herr Doktor!</hi></salute></opener><p>Verhindert durch <anchor type="commentary" xml:id="KL852-1"/>Handarbeiten<note type="commentary" xml:id="KL852-1h">Er hatte <date>1905</date> ein
                 Universitätsstudium von Geschichte, Kunstgeschichte und Geographie aufgenommen.</note> geographiſch-geſchichtlichen Charakters, noch mehr
                     aber durch das Nochnichtvorhandenſein eigener Artefakte, die mir als halbwegs
                     annehmbare Legitimation für eine abermalige Beläſtigung hätten dienen können,
@@ -192,25 +179,18 @@
                     unterbrochen machte einer mehr stoßweiſen, abgeriſſenen Art der der<!-- so! --> Erzählung
                     Platz. Notwendig ſind die vorliegenden Darbietungen, ſobald Schwung <pb facs="gray00080.pdf"/>und Stimmung von außen verſcheucht worden, in einem dem
                     Laſter ſozuſagen jeden Augenblick freigebendem Stil geſchrieben, was beſonders
-                    bei der letzten <rs type="work" key="pmb33452">Novellette</rs> ermüden muß, welche an ſich Langeweile und
+                    bei der letzten <rs type="work" ref="#pmb33452" subtype="implied">Novellette</rs> ermüden muß, welche an ſich Langeweile und
                     Enttäuſchung, einen an den Auslagen der Geſchäfte und Leute entlang lebenden
                     Menſchen zu ſchildern unternimmt. Wenn ich mich trotz alledem erkühne, an Sie,
                     ſehr geehrter Herr Doktor, mit dem wenig gerechtfertigten Anſinnen
                     heranzutreten, die übrigens teilweiſe untereinander in Konnex und Abfolge
-                    ſtehenden Werkchen (einzeln) zu beurteilen die Güte zu haben, <pb facs="gray00081.pdf"/>die möglicherweiſe wertvolle <anchor type="commentary" xml:id="KL852-2"/>
-               <rs type="work" key="pmb33504" cert="low">Titelnovelle</rs>
-               <note type="commentary" xml:id="KL852-2h">Es dürfte sich,
+                    ſtehenden Werkchen (einzeln) zu beurteilen die Güte zu haben, <pb facs="gray00081.pdf"/>die möglicherweiſe wertvolle <anchor type="commentary" xml:id="KL852-2"/><rs type="work" ref="#pmb33504" cert="low" subtype="implied">Titelnovelle</rs><note type="commentary" xml:id="KL852-2h">Es dürfte sich,
                             was durch den Hinweis auf den Umfang angedeutet wird,
-                            um das 87 Seiten umfassende Manuskript von <workName key="pmb33504">Seltene Gäste</workName> handeln, das in dieser Form
+                            um das 87 Seiten umfassende Manuskript von <rs ref="#pmb33504" type="work">Seltene Gäste</rs> handeln, das in dieser Form
                         erst <date>1991</date> veröffentlicht wurde.</note>, falls es
                     irgend angeht, auf einmal leſen zu wollen – ſo bitte ich dieſe nicht
                     anſpruchsvollen Zumutungen nicht zu mißdeuten. Nichts liegt mir ferner als
                     Prätention, nichts wünſche ich ſoſehr als Rat und Hilfe. In der Hoffnung,
-                    diesmal, wenn verdient, realerer Erfolge teilhaftig zu werden, verbleibe ich<space unit="chars" quantity="5"/>Hochachtungsvoll ergebenſt<lb/>Ihr Sie, ſehr geehrter Herr Doktor, verehrender</p>
-                <closer>
-               <signed>Albert Ehrenstein.</signed>
-                </closer>
-            </div>
-        </body>
+                    diesmal, wenn verdient, realerer Erfolge teilhaftig zu werden, verbleibe ich<space unit="chars" quantity="5"/>Hochachtungsvoll ergebenſt<lb/>Ihr Sie, ſehr geehrter Herr Doktor, verehrender</p><closer><signed>Albert Ehrenstein.</signed></closer></div></body>
     </text>
 </TEI>

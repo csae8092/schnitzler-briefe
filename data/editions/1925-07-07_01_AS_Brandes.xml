@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1925-07-07_01_AS_Brandes">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1925-07-07_01_AS_Brandes">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Georg Brandes, 7. 7. 1925</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Georg Brandes, 7.&#160;7.&#160;1925</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -52,7 +55,7 @@
                             <idno>Georg Brandes Arkiv</idno>
                         </msIdentifier>
                         <physDesc>
-                            <p>eh. Brief, 6 Bl., 6 S., Lateinschrift. Von Schnitzler paginiert: »<quote>II</quote>«–»<quote>VI</quote>«, von unbekannter Hand mit Bleistift nummeriert: »<quote>52.</quote>«
+                            <p>eh. Brief, 6&#160;Bl., 6&#160;S., Lateinschrift. Von Schnitzler paginiert: »<quote>II</quote>«–»<quote>VI</quote>«, von unbekannter Hand mit Bleistift nummeriert: »<quote>52.</quote>«
                                 und die weiteren Blätter datiert: »<quote>7/7 25</quote>.</p>
                         </physDesc>
                     </msDesc>
@@ -61,8 +64,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>  
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -75,7 +78,7 @@
                     </biblStruct>
                     <biblStruct corresp="ASB2"> 
                         <monogr> 
-                            <author key="pmb2121">Schnitzler, Arthur</author> 
+                            <author ref="#pmb2121">Schnitzler, Arthur</author> 
                             <title level="m">Briefe 1913–1931</title>
                             <editor>Hg. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler</editor>
                             <imprint>
@@ -94,18 +97,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
         <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1925-07-07" n="01">7. 7. 1925</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1925-07-07" n="01">7.&#160;7.&#160;1925</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10992">Brandes, Georg</persName>
-               <placeName key="pmb36300">Kopenhagen</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10992">Brandes, Georg</persName>
+               <placeName ref="#pmb36300">Kopenhagen</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1925-06-21_01">Brandes an Schnitzler, 21. 6. 1925</ptr>
-               <ptr type="next" subtype="toAuthor" target="1925-07-12_01">Brandes an Schnitzler, 12. 7. 1925</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1925-06-21_01">Brandes an Schnitzler, 21.&#160;6.&#160;1925</ptr>
+               <ptr type="next" subtype="toAuthor" target="1925-07-12_01">Brandes an Schnitzler, 12.&#160;7.&#160;1925</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -116,17 +119,8 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="Georg_Brandes_arkiv_224.jpg"/>
-                  <placeName key="pmb50">Wien</placeName>, <date>7. Juli 1925</date>
-               </dateline>
-                </opener>
-                    <p>
-               <salute>mein lieber und verehrter Freund, </salute>Sie haben mich während Ihres diesmaligen
-                        Aufenthalts in <placeName key="pmb50">Wien</placeName> »nicht heiter« gefunden, – 
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Georg_Brandes_arkiv_224.jpg"/><rs ref="#pmb50" type="place">Wien</rs>, <date>7.&#160;Juli 1925</date></dateline></opener><p><salute>mein lieber und verehrter Freund, </salute>Sie haben mich während Ihres diesmaligen
+                        Aufenthalts in <rs ref="#pmb50" type="place">Wien</rs> »nicht heiter« gefunden,&#160;– 
                         und so muß ich fast
                         befürchten, daß Sie nicht ganz bemerkt haben, wie glücklich mich Ihre
                         Anwesenheit gemacht hat und wie froh ich war, daß Sie mir Ihre Sympathie –
@@ -141,12 +135,10 @@
                         leid thut), daſs ich <pb facs="Georg_Brandes_arkiv_225.jpg"/>zuweilen ein wenig melancholisch bin, oder doch bedrückt. Hauptanlaß wohl
                         mein Ohrenleiden, an dem nicht nur die langsam aber sicher zunehmende
                         Schwerhörigkeit, sondern, mehr noch, die ununterbrochenen subjectiven
-                        Geräusche, ein Klingen, ein Sausen, und ein <del rend="strikethrough">
-                  <unclear>nicht</unclear>
-               </del> stetes Vogelzwitschem (das sich bis zu
+                        Geräusche, ein Klingen, ein Sausen, und ein <del rend="strikethrough"><unclear>nicht</unclear></del> stetes Vogelzwitschem (das sich bis zu
                         einem mäßigen Papageiengekreisch verstärken kann) recht quälend sind. Und,
                         sonderbar genug, es gibt doch Stunden, ja Tage, an denen mir diese
-                        Geräusche, – so continuirlich sie i<c rendition="#gemination-m"/>er (seit
+                        Geräusche,&#160;– so continuirlich sie i<c rendition="#gemination-m"/>er (seit
                         bald dreißig Jahren!) kaum zu Bewußtsein ko<c rendition="#gemination-m"/>en. Im ganzen verläuft ja die Sache etwas langsamer, als ich zu Beginn der
                         Erkrankung gefürchtet habe – man gewöhnts auch allmälig <anchor type="textConst" xml:id="TL843-1"/>(<note type="textConst" xml:id="TL843-1h">Öffnende Klammer am Zeilenende gestrichen und in
                         der neuen Zeile erneut ausgeführt.</note>zu mindesten manchmal) aber es ist doch
@@ -154,81 +146,53 @@
                         Theaterbesuch schon ziemlich vergällt ist und auch bei musikalischen
                         Genüssen viel, sehr viel entgeht. Und schli<c rendition="#gemination-m"/>, <pb facs="Georg_Brandes_arkiv_226.jpg"/>daß es eine eigentliche
                         »Stille« für mich längst nicht mehr gibt. Glücklicherweise werd ich im
-                        Schlafen nicht gestört, – wenn auch diese Geräusche auf mancherlei, oft ganz
-                        phantastische Art sich in meine Träume drängen.</p>
-                    <p>Auch meine persönliche Existenz ist ja nicht ganz einfach, wie Sie wissen;
-                        aber es würde zu weit führen, da in Einzelheiten einzugehen; – an Conflicten
+                        Schlafen nicht gestört,&#160;– wenn auch diese Geräusche auf mancherlei, oft ganz
+                        phantastische Art sich in meine Träume drängen.</p><p>Auch meine persönliche Existenz ist ja nicht ganz einfach, wie Sie wissen;
+                        aber es würde zu weit führen, da in Einzelheiten einzugehen;&#160;– an Conflicten
                         seelischer Art mangelt es ja in diesen Grenzjahren (es ist vielleicht kühn,
                         mit 63 noch von Grenzjahren zu reden, aber gerade Sie werden mich verstehen)
-                        nie.</p>
-                    <p>Dabei fühl ich doch, daſs ich im Grunde nicht klagen dürfte (ich
-                        thu’s auch selten), – besonders darum weil meine beiden <rs type="person" key="pmb12692 pmb2238">Kinder</rs> sehr wohl
-                        gerathen sind (auch steh ich jetzt mit meiner früheren <rs type="person" key="pmb2173">Gattin</rs>, die in
-                        <placeName key="pmb228">Baden-Baden</placeName> lebt, in sehr freundschaftlichen, natürlich nicht immer 
+                        nie.</p><p>Dabei fühl ich doch, daſs ich im Grunde nicht klagen dürfte (ich
+                        thu’s auch selten),&#160;– besonders darum weil meine beiden <rs type="person" ref="#pmb12692 pmb2238" subtype="implied">Kinder</rs> sehr wohl
+                        gerathen sind (auch steh ich jetzt mit meiner früheren <rs type="person" ref="#pmb2173" subtype="implied">Gattin</rs>, die in
+                        <rs ref="#pmb228" type="place">Baden-Baden</rs> lebt, in sehr freundschaftlichen, natürlich nicht immer 
                         unge<pb facs="Georg_Brandes_arkiv_227.jpg"/>trübten Beziehungen), und ferner
                         weil ich mich in meiner Schaffenslust eher noch wachsen als abnehmen fühle.
                         Auch an äußeren Erfolgen fehlt es nicht; und nach einer Periode, die sich
                         ein wenig bedenklich anließ, glaub ich auch materiell – ach nicht durch das
-                        Vorhandensein eines Vermögens – wer besitzt de<c rendition="#gemination-n"/> jetzt etwas!, – aber durch das Ansteigen meiner Einnahmen, – mit Ruhe in
+                        Vorhandensein eines Vermögens – wer besitzt de<c rendition="#gemination-n"/> jetzt etwas!,&#160;– aber durch das Ansteigen meiner Einnahmen,&#160;– mit Ruhe in
                         die Zukunft blicken zu dürfen. Und blasirt bin ich ja nicht – mir macht
-                        eigentlich alles mehr Freude als es mir in meiner Jugend gemacht hat, – jede
+                        eigentlich alles mehr Freude als es mir in meiner Jugend gemacht hat,&#160;– jede
                         Blume, jeder Spaziergang, jedes schöne Buch und Herzlichkeit mancher Art,
                         die mir entgegengebracht wird. »So wollen wirs de<c rendition="#gemination-n"/> noch eine Weile weiter treiben« wie ein sehr
                         Großer gesagt haben kö<c rendition="#gemination-n"/>te und wahrscheinlich
                         irgendwo gesagt hat – und Sie sollen wissen, liebster Freund, daſs
                         ich, we<c rendition="#gemination-n"/> auch gelegentlich ein wenig
                         verdüstert, <pb facs="Georg_Brandes_arkiv_228.jpg"/>mich gar nicht übel
-                        befinde; – und hoffentlich mach ich auch Ihnen einen vergnügtem Eindruck,
-                        we<c rendition="#gemination-n"/> wir uns wiedersehen.</p>
-                    <p>Wie gut begreife ich, daſs Sie nicht nach »<placeName key="pmb433">Leningrad</placeName>« gehen wollen –
+                        befinde;&#160;– und hoffentlich mach ich auch Ihnen einen vergnügtem Eindruck,
+                        we<c rendition="#gemination-n"/> wir uns wiedersehen.</p><p>Wie gut begreife ich, daſs Sie nicht nach »<rs ref="#pmb433" type="place">Leningrad</rs>« gehen wollen –
                         auch ich, (selbst we<c rendition="#gemination-n"/> ich dort nicht reden
-                        müßte,) hätte nicht die geringste Lust dazu. Kennen Sie das <add place="above">(kleine)</add>
-               <space unit="chars" quantity="1"/>
-               <rs type="work" key="pmb33410 pmb33412">Buch</rs> von <persName key="pmb5564">Bucharin</persName> über den Bolschewismus?
+                        müßte,) hätte nicht die geringste Lust dazu. Kennen Sie das <add place="above">(kleine)</add><space unit="chars" quantity="1"/><rs type="work" ref="#pmb33410 pmb33412" subtype="implied">Buch</rs> von <rs ref="#pmb5564" type="person">Bucharin</rs> über den Bolschewismus?
                         Wenn die deutsche Übersetzung nicht <anchor type="textConst" xml:id="TL843-2"/>etwa<note type="textConst" xml:id="TL843-2h">Unsicher zu lesen. Wohl zur Verdeutlichung
                         gestrichen und über der Zeile wiederholt.</note> zu dem Zwecke gefälscht ist, um die
-                        Idee – (die Idee!!) des Bolschewismus zu compromittieren, da<c rendition="#gemination-n"/> hat es <persName key="pmb5564">Bucharin</persName> selbst in unübertrefflicher
-                        Weise gethan. –</p>
-                <p>Ihren Brief hab ich in <placeName key="pmb40263">Bozen</placeName> erhalten, 
-                    (<placeName key="pmb40263">Bolzano</placeName>) von wo ich erst vor ein paar
-                        Tagen nach <placeName key="pmb50">Wien</placeName> zurückgekehrt bin. Ich bleibe nur den <date>Juli</date> über hier, und
+                        Idee – (die Idee!!) des Bolschewismus zu compromittieren, da<c rendition="#gemination-n"/> hat es <rs ref="#pmb5564" type="person">Bucharin</rs> selbst in unübertrefflicher
+                        Weise gethan.&#160;–</p><p>Ihren Brief hab ich in <rs ref="#pmb40263" type="place">Bozen</rs> erhalten, 
+                    (<rs ref="#pmb40263" type="place">Bolzano</rs>) von wo ich erst vor ein paar
+                        Tagen nach <rs ref="#pmb50" type="place">Wien</rs> zurückgekehrt bin. Ich bleibe nur den <date>Juli</date> über hier, und
                         fahre im <date>August</date> wahrscheinlich wieder in die <geogName type="mountains">Dolomiten</geogName>. Für den Herbst steht
-                    mir allerlei bevor: in <pb facs="Georg_Brandes_arkiv_229.jpg"/>
-               <anchor type="commentary" xml:id="KL843-1"/>
-               <placeName key="pmb168">Berlin</placeName>
-               <note type="commentary" xml:id="KL843-1h">Die geplante Inszenierung von <persName key="pmb10833">Victor Barnowsky</persName> wird 
-               nicht realisiert (<bibl>Vgl. <workName>B</workName> II, 468</bibl>).</note>
-                    die Aufführung der <workName key="pmb30205">Komödie der Verführung</workName>, – in <anchor type="commentary" xml:id="KL843-2"/>
-               <placeName key="pmb50">Wien</placeName> Reprisen<note type="commentary" xml:id="KL843-2h">
-                  <workName key="pmb30207">Das weite Land</workName> wurde ab <date>4. 9. 1925</date> am 
-                   <placeName key="pmb20">Deutschen Volkstheater</placeName> gegeben, wo auch <workName key="pmb29985">Der einsame Weg</workName> am <date>14. 11. 1925</date> im
-               Zuge eines Gastspiels von <persName key="pmb10844">Albert Bassermann</persName> aufgeführt wurde.</note> von »<workName key="pmb30207">Das weite
-                        Land</workName>« und »<workName key="pmb29985">der einsame Weg</workName>«, vielleicht auch ein neues <rs type="work" key="pmb30775">Stück</rs> (in Versen).
-                    Ein paar <rs type="work" key="pmb30751 pmb30851">Novellen</rs> sind auch fertig. In <anchor type="commentary" xml:id="KL843-3"/>
-               <placeName key="pmb182">Paris</placeName>
-               <note type="commentary" xml:id="KL843-3h">Nicht realisiert, das Stück wurde erst <date>1931</date> gegeben.</note> wird vielleicht »<workName key="pmb30207">das weite
-                        Land</workName>« gespielt werden; und nach <placeName key="pmb175">
-                  <country>Amerika</country>
-               </placeName> bin ich zur Premiere des »<workName key="pmb29985">einsamen
-                            Wegs</workName>« im <anchor type="commentary" xml:id="KL843-4"/>
-               <placeName key="pmb609">Guild Theater</placeName>
-                    <note type="commentary" xml:id="KL843-4h">Das <rs type="work" key="pmb29985">Stück</rs> wurde erst <date>1931</date> auf den Spielplan genommen.</note> u. des »<workName key="pmb29905">Ruf des Lebens</workName>« am <anchor type="commentary" xml:id="KL843-5"/>
-               <placeName key="pmb1157">Astor Theater</placeName>
-                    <note type="commentary" xml:id="KL843-5h">Produziert vom <placeName key="pmb1157">Astor Theater</placeName> wurde <workName key="pmb29905">The Call of Life</workName> im <placeName key="pmb1141">Comedy Theatre</placeName> am <date>9. 10. 1925</date> zum
+                    mir allerlei bevor: in <pb facs="Georg_Brandes_arkiv_229.jpg"/><anchor type="commentary" xml:id="KL843-1"/><rs ref="#pmb168" type="place">Berlin</rs><note type="commentary" xml:id="KL843-1h">Die geplante Inszenierung von <rs ref="#pmb10833" type="person">Victor Barnowsky</rs> wird 
+               nicht realisiert (<bibl>Vgl. <rs type="work">B</rs> II, 468</bibl>).</note>
+                    die Aufführung der <rs ref="#pmb30205" type="work">Komödie der Verführung</rs>,&#160;– in <anchor type="commentary" xml:id="KL843-2"/><rs ref="#pmb50" type="place">Wien</rs> Reprisen<note type="commentary" xml:id="KL843-2h"><rs ref="#pmb30207" type="work">Das weite Land</rs> wurde ab <date>4.&#160;9.&#160;1925</date> am 
+                   <rs ref="#pmb20" type="place">Deutschen Volkstheater</rs> gegeben, wo auch <rs ref="#pmb29985" type="work">Der einsame Weg</rs> am <date>14.&#160;11.&#160;1925</date> im
+               Zuge eines Gastspiels von <rs ref="#pmb10844" type="person">Albert Bassermann</rs> aufgeführt wurde.</note> von »<rs ref="#pmb30207" type="work">Das weite
+                        Land</rs>« und »<rs ref="#pmb29985" type="work">der einsame Weg</rs>«, vielleicht auch ein neues <rs type="work" ref="#pmb30775" subtype="implied">Stück</rs> (in Versen).
+                    Ein paar <rs type="work" ref="#pmb30751 pmb30851" subtype="implied">Novellen</rs> sind auch fertig. In <anchor type="commentary" xml:id="KL843-3"/><rs ref="#pmb182" type="place">Paris</rs><note type="commentary" xml:id="KL843-3h">Nicht realisiert, das Stück wurde erst <date>1931</date> gegeben.</note> wird vielleicht »<rs ref="#pmb30207" type="work">das weite
+                        Land</rs>« gespielt werden; und nach <rs ref="#pmb175" type="place"><country>Amerika</country></rs> bin ich zur Premiere des »<rs ref="#pmb29985" type="work">einsamen
+                            Wegs</rs>« im <anchor type="commentary" xml:id="KL843-4"/><rs ref="#pmb609" type="place">Guild Theater</rs><note type="commentary" xml:id="KL843-4h">Das <rs type="work" ref="#pmb29985" subtype="implied">Stück</rs> wurde erst <date>1931</date> auf den Spielplan genommen.</note> u. des »<rs ref="#pmb29905" type="work">Ruf des Lebens</rs>« am <anchor type="commentary" xml:id="KL843-5"/><rs ref="#pmb1157" type="place">Astor Theater</rs><note type="commentary" xml:id="KL843-5h">Produziert vom <rs ref="#pmb1157" type="place">Astor Theater</rs> wurde <rs ref="#pmb29905" type="work">The Call of Life</rs> im <rs ref="#pmb1141" type="place">Comedy Theatre</rs> am <date>9.&#160;10.&#160;1925</date> zum
                         ersten Mal und in Folge 19 Mal gegeben. Die Bearbeitung stammte von
-                        <persName key="pmb5588">Dorothy Donnelli</persName>.</note> eingeladen
-                        (Ich werde aber kaum hinreisen.) –</p>
-                    <p>– Ich lese immer noch, aufs stärkste angeregt, Ihren wunderbaren <workName key="pmb33376">Julius
-                        Caesar</workName>. Und erwarte Ihr »<workName key="pmb33392">Hellas</workName>«. –</p>
-                    <p>Bleiben Sie mir weiter, und lange noch der Freund, der Sie mir immer waren;
+                        <rs ref="#pmb5588" type="person">Dorothy Donnelli</rs>.</note> eingeladen
+                        (Ich werde aber kaum hinreisen.)&#160;–</p><p>– Ich lese immer noch, aufs stärkste angeregt, Ihren wunderbaren <rs ref="#pmb33376" type="work">Julius
+                        Caesar</rs>. Und erwarte Ihr »<rs ref="#pmb33392" type="work">Hellas</rs>«. –</p><p>Bleiben Sie mir weiter, und lange noch der Freund, der Sie mir immer waren;
                         es ist schön zu wissen, daß Sie auf der Welt sind! Ich grüße Sie von
-                        Herzen!</p>
-                <closer>Ihr<lb/>
-               <signed>Arthur Schnitzler</signed>
-            </closer>
-                    
-                   
-            </div>
-        </body>
+                        Herzen!</p><closer>Ihr<lb/><signed>Arthur Schnitzler</signed></closer></div></body>
     </text>
 </TEI>

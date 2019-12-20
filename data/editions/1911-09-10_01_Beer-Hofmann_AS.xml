@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1911-09-10_01_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1911-09-10_01_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Richard Beer-Hofmann an Arthur Schnitzler,
-               [10.? 9. 1911]</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+               [10.?&#160;9.&#160;1911]</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -49,7 +53,7 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>ms. Telegramm</p>
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -80,17 +84,20 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb415">Bad Aussee</placeName>
-               <date notBefore="1911-09-10" when="1911-09-10" notAfter="1911-09-20" n="01">[10.? 9. 1911]</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb415">Bad Aussee</placeName>
+               <date notBefore="1911-09-10"
+                     when="1911-09-10"
+                     notAfter="1911-09-20"
+                     n="01">[10.?&#160;9.&#160;1911]</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1911-06-15_02">Beer-Hofmann an Schnitzler, 15. 6. 1911</ptr>
-               <ptr type="next" subtype="toAuthor" target="1911-10-09_01">Beer-Hofmann an Schnitzler, 9. 10. 1911</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1911-06-15_02">Beer-Hofmann an Schnitzler, 15.&#160;6.&#160;1911</ptr>
+               <ptr type="next" subtype="toAuthor" target="1911-10-09_01">Beer-Hofmann an Schnitzler, 9.&#160;10.&#160;1911</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -103,21 +110,11 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00002-000-00230"/>
    </facsimile>
    <text type="telegram">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <placeName key="pmb415">badaussee</placeName> 496 44
-                     <time>11/40</time>
-               </dateline>
-            </opener>
-            <p>bitte uebermitteln sye ihrem <rs type="person" key="pmb12698">bruder</rs> u ihrer <rs type="person" key="pmb2461">Schwester</rs> mein aufrichtigstes <anchor type="commentary" xml:id="KL2690-1"/>bejlejd<note type="commentary" xml:id="KL2690-1h">Die Mutter <persName key="pmb12701">Louise
-                     Schnitzler</persName> war am <date>9. 9. 1911</date>
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb415" type="place">badaussee</rs> 496 44
+                     <time>11/40</time></dateline></opener><p>bitte uebermitteln sye ihrem <rs type="person" ref="#pmb12698" subtype="implied">bruder</rs> u ihrer <rs type="person" ref="#pmb2461" subtype="implied">Schwester</rs> mein aufrichtigstes <anchor type="commentary" xml:id="KL2690-1"/>bejlejd<note type="commentary" xml:id="KL2690-1h">Die Mutter <rs ref="#pmb12701" type="person">Louise
+                     Schnitzler</rs> war am <date>9.&#160;9.&#160;1911</date>
                   gestorben.</note> sye selbst lieber arthur wiszen denke ich dasz ich heute wie
                immer an allem was sye an gutem und boesem trifft von herzen antejl nehme
-                  <signed>richard. +</signed>
-            </p>
-         </div>
-      </body>
+                  <signed>richard.&#160;+</signed></p></div></body>
    </text>
 </TEI>

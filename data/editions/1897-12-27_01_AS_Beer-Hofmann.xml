@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-12-27_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1897-12-27_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 27. 12. 1897</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 27.&#160;12.&#160;1897</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -53,7 +57,7 @@
                      <physDesc>
                         <p>eh. Briefkarte mit Umschlag, Bleistift.</p>
                         <stamp n="1">
-                           <placeName key="pmb51">Wien 1/1</placeName>
+                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
                            <date when="1897-12-27">27. 12. 97</date>
                            <time>10–11N</time>
                         </stamp>
@@ -64,8 +68,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -84,18 +88,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1897-12-27" n="01">27. 12. 1897</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1897-12-27" n="01">27.&#160;12.&#160;1897</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-12-25_01">Beer-Hofmann an Schnitzler, [25. 12. 1897]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-12-30_01">Schnitzler an Beer-Hofmann, 30. 12. 1897</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1897-12-25_01">Beer-Hofmann an Schnitzler, [25. 12.&#160;1897]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1897-12-30_01">Schnitzler an Beer-Hofmann, 30.&#160;12.&#160;1897</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -111,37 +115,11 @@
       <graphic url="1897_AS_RBH_3_00022.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="address">
-            <address>
-               <addrLine>
-                  <pb facs="1897_AS_RBH_4_00019.jpeg"/>Herrn <hi rend="latintype">Dr. Rich.
-                     Beer-Hofmann</hi>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb50">Wien</placeName>
-               </addrLine>
-               <addrLine>
-                  <placeName key="pmb338">
-                     <hi rend="latintype">I.
-                     Wollzeile 15</hi>
-                  </placeName>.</addrLine>
-            </address>
-         </div>
-         <div type="writingSession" n="1">
-            <p>
-               <pb facs="1897_AS_RBH_4_00021.jpeg"/>
-               <salute>Lieber Richard, </salute>aus nicht unwichtigen Urſachen möchte ich Ihnen mein
+      <body><div type="address"><address><addrLine><pb facs="1897_AS_RBH_4_00019.jpeg"/>Herrn <hi rend="latintype">Dr. Rich.
+                     Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb338" type="place"><hi rend="latintype">I.
+                     Wollzeile 15</hi></rs>.</addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1897_AS_RBH_4_00021.jpeg"/><salute>Lieber Richard, </salute>aus nicht unwichtigen Urſachen möchte ich Ihnen mein
                Stück ſehr gern morgen Dinſtag Abend vorleſen. We<c rendition="#gemination-n"/> Sie
                Zeit und Luſt haben, bitte ko<c rendition="#gemination-m"/>en Sie um
-                  <time>½ 10</time>
-               <pb facs="1897_AS_RBH_4_00022.jpeg"/>zu mir.</p>
-            <p>Mit herzl. Gruſs Ihr</p>
-            <closer>
-               <signed>Arthur.</signed>
-            </closer>
-            <p>Antwort erbeten, we<c rendition="#gemination-n"/> nein</p>
-         </div>
-      </body>
+                  <time>½&#160;10</time><pb facs="1897_AS_RBH_4_00022.jpeg"/>zu mir.</p><p>Mit herzl. Gruſs Ihr</p><closer><signed>Arthur.</signed></closer><p>Antwort erbeten, we<c rendition="#gemination-n"/> nein</p></div></body>
    </text>
 </TEI>

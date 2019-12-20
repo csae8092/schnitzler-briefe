@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1907-09-18_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1907-09-18_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 18. 9. 1907</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 18.&#160;9.&#160;1907</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>                
-               <!--<placeName key="pmb50">Wien</placeName>-->
-               <date when="1907-09-18" n="01">18. 9. 1907</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>                
+               <!--<placeName ref="#pmb50">Wien</placeName>-->
+               <date when="1907-09-18" n="01">18.&#160;9.&#160;1907</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1907-09-16_01">Schnitzler an Hofmannsthal, 16. 9. 1907</ptr>
-               <ptr type="next" subtype="toAuthor" target="1907-10-16_01">Hofmannsthal an Schnitzler, 16. 10. 1907</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1907-09-16_01">Schnitzler an Hofmannsthal, 16.&#160;9.&#160;1907</ptr>
+               <ptr type="next" subtype="toAuthor" target="1907-10-16_01">Hofmannsthal an Schnitzler, 16.&#160;10.&#160;1907</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,30 +105,13 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date>18 IX.</date>
-               </dateline>
-               <salute>lieber </salute>
-            </opener>
-            <p>Diplomatenprüfung im Alter 28/29 natürlich sehr ungewöhnlich, nur erklärlich – wie Sie selbst
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>18 IX.</date></dateline><salute>lieber </salute></opener><p>Diplomatenprüfung im Alter 28/29 natürlich sehr ungewöhnlich, nur erklärlich – wie Sie selbst
    annehmen – durch Umsatteln aus dem inneren Dienst (Statthalterei) allenfalls aus der Of fici
    erslauf- bahn. Diplomatenprüfung setzt volles jus (oh neD octorat) voraus, hat aber mit Orient.
    Akademie gar nichts zu tuen; diese bereitet zur Consularcarri fc re vor, welche
-   dienstlich und social von Diplomatie geschieden. </p>
-            <p>Mein Stück schreitet, in ungleichem te m po, vor. Wir sind jedenfallsiten October in <placeName key="pmb50">Wien</placeName>. </p>
-            <closer>Herzlich Ihr<signed>Hugo.</signed>
-            </closer>
-            <p>P. S. Rate dringend »Morgen« und allen andern Re fl ectanten gegenüber den Preis ha l te n,
+   dienstlich und social von Diplomatie geschieden. </p><p>Mein Stück schreitet, in ungleichem te m po, vor. Wir sind jedenfallsiten October in <rs ref="#pmb50" type="place">Wien</rs>. </p><closer>Herzlich Ihr<signed>Hugo.</signed></closer><p>P.&#160;S. Rate dringend »Morgen« und allen andern Re fl ectanten gegenüber den Preis ha l te n,
    nicht sich eilen, nicht Geduld verlieren, nicht sich ein paar Briefe mehr verdrießen lassen.
-    <persName key="pmb13055">Wassermann</persName> bekommt von <orgName>Über Land u Meer</orgName>
-   für den <rs type="work">Romanabdruck</rs> 12000 </p>
-            <p>8 Auflagen im vorhinein 8000 </p>
-            <p>20000M = 24000Kronen. </p>
-            <p>Und Sie haben einen viel stärkern Namen! </p>
-         </div>
-      </body>
+    <rs ref="#pmb13055" type="person">Wassermann</rs> bekommt von <rs type="organisation">Über Land u Meer</rs>
+   für den <rs type="work" subtype="implied">Romanabdruck</rs> 12000 </p><p>8 Auflagen im vorhinein 8000 </p><p>20000M = 24000Kronen. </p><p>Und Sie haben einen viel stärkern Namen! </p></div></body>
    </text>
 </TEI>

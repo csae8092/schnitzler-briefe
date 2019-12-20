@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-03-13_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1896-03-13_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
                 <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler,
-                    13. 3. 1896</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                    13.&#160;3.&#160;1896</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -49,10 +53,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
+                                <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>XXXX Buchabschrift eh. Brief, 1 Bl., 1 S. Von
+                                <p>XXXX Buchabschrift eh. Brief, 1&#160;Bl., 1&#160;S. Von
                                     Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
@@ -63,8 +67,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -83,18 +87,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1896-03-13" n="01">13. 3. 1896</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1896-03-13" n="01">13.&#160;3.&#160;1896</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1896-02-20_01">Hofmannsthal an Schnitzler, [20. 2. 1896]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1896-05-17_01">Hofmannsthal an Schnitzler, 17. 5. [1896]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1896-02-20_01">Hofmannsthal an Schnitzler, [20.&#160;2.&#160;1896]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1896-05-17_01">Hofmannsthal an Schnitzler, 17.&#160;5.&#160;[1896]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -105,23 +109,9 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs=""/>
-                  <date>13. 3. 96</date>
-               </dateline>
-                    <salute>lieber Arthur.</salute>
-                </opener>
-                <p>Wir sehen uns zu selten. Könnte ich nicht <date>Sonntag</date> nach
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>13.&#160;3.&#160;96</date></dateline><salute>lieber Arthur.</salute></opener><p>Wir sehen uns zu selten. Könnte ich nicht <date>Sonntag</date> nach
                         <time>7</time> zu Ihnen kommen. Ich denke, wir gehen dann zusammen nach
-                        <time>½ 10 Uhr</time> in diese Gesellschaft. Oder stört es Sie beim
-                    Anziehen, wenn ich dabei bin? Bitte Antwort.</p>
-                <closer> Herzlich<lb/>Ihr<lb/>
-               <signed>Hugo</signed>
-            </closer>
-            </div>
-        </body>
+                        <time>½&#160;10 Uhr</time> in diese Gesellschaft. Oder stört es Sie beim
+                    Anziehen, wenn ich dabei bin? Bitte Antwort.</p><closer> Herzlich<lb/>Ihr<lb/><signed>Hugo</signed></closer></div></body>
     </text>
 </TEI>

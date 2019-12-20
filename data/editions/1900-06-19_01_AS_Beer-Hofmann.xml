@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1900-06-19_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1900-06-19_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 19. 6. 1900</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 19.&#160;6.&#160;1900</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,17 +83,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key=""/>
-               <date when="1900-06-19" n="01">19. 6. 1900</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref=""/>
+               <date when="1900-06-19" n="01">19.&#160;6.&#160;1900</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1900-03-02_01">Schnitzler an Beer-Hofmann, 2. 3. 1900</ptr>
-               <ptr type="next" subtype="toAuthor" target="1900-06-20_01">Beer-Hofmann an Schnitzler, 20. 6. 1900</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1900-03-02_01">Schnitzler an Beer-Hofmann, 2.&#160;3.&#160;1900</ptr>
+               <ptr type="next" subtype="toAuthor" target="1900-06-20_01">Beer-Hofmann an Schnitzler, 20.&#160;6.&#160;1900</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -98,29 +102,17 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <date when="1900-06-19">19/6. 900. </date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Richard, </salute>es ist ziemlich unglaublich, dass Sie gar nichts
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date when="1900-06-19">19/6.&#160;900.&#160;</date></dateline></opener><p><salute>Lieber Richard, </salute>es ist ziemlich unglaublich, dass Sie gar nichts
                absolut nichts von sich hören lassen. Ich möchte gern gegen Ende dieses auf 2-3 Tage
-               nach <placeName key="pmb34401">Altaussee</placeName> kommen, ist es Ihnen recht?
-                  <persName key="pmb11485">Goldmann</persName> schreibt mir wegen einer event.
-               Fußtour <date>Anfang August</date>, auch <persName key="pmb11910">Kerr</persName>
-               möchte sich anschließen, mir wäre die Zeit nach <date>20. Juli</date>
+               nach <rs ref="#pmb34401" type="place">Altaussee</rs> kommen, ist es Ihnen recht?
+                  <rs ref="#pmb11485" type="person">Goldmann</rs> schreibt mir wegen einer event.
+               Fußtour <date>Anfang August</date>, auch <rs ref="#pmb11910" type="person">Kerr</rs>
+               möchte sich anschließen, mir wäre die Zeit nach <date>20.&#160;Juli</date>
                eigentlich lieber; auch darüber sprechen wir wohl. Mir geht es innerlich nicht gut.
-               Denken Sie übrigens, dass <persName key="pmb12671">Schlenther</persName> die
-                  <workName key="pmb29857">Bea.</workName> nicht aufführen will. (Natürlich
-               verblümt.) Näheres auch darüber mündlich. Ich war und bin noch wüthend drüber. –
-               Meine <rs type="work" key="pmb30486">Novelle</rs> ist fertig. Nicht schlecht Einiges
-               kleinere halbfertig. Zu größerm keine rechte Lust. –<persName key="pmb11740">Hugo</persName> ist in der <placeName key="pmb34041">Brühl</placeName>. <persName key="pmb12740">Gustav</persName> auch.</p>
-            <closer>Herzlichst Ihr <signed>Arthur</signed>
-            </closer>
-         </div>
-      </body>
+               Denken Sie übrigens, dass <rs ref="#pmb12671" type="person">Schlenther</rs> die
+                  <rs ref="#pmb29857" type="work">Bea.</rs> nicht aufführen will. (Natürlich
+               verblümt.) Näheres auch darüber mündlich. Ich war und bin noch wüthend drüber.&#160;–
+               Meine <rs type="work" ref="#pmb30486" subtype="implied">Novelle</rs> ist fertig. Nicht schlecht Einiges
+               kleinere halbfertig. Zu größerm keine rechte Lust.&#160;–<rs ref="#pmb11740" type="person">Hugo</rs> ist in der <rs ref="#pmb34041" type="place">Brühl</rs>. <rs ref="#pmb12740" type="person">Gustav</rs> auch.</p><closer>Herzlichst Ihr <signed>Arthur</signed></closer></div></body>
    </text>
 </TEI>

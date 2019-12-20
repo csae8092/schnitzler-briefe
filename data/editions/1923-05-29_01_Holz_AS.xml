@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1923-05-29_01_Holz_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1923-05-29_01_Holz_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arno Holz an Arthur Schnitzler, 29. 5. 1923</title>
-                <author key="pmb11763">Holz, Arno</author>
+                <title level="a">Arno Holz an Arthur Schnitzler, 29.&#160;5.&#160;1923</title>
+                <author ref="#pmb11763">Holz, Arno</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,13 +52,13 @@
                           <country>GB</country>            
                           <settlement>Cambridge</settlement>            
                           <repository>University Library</repository>            
-                          <idno>Schnitzler, B 44</idno>
+                          <idno>Schnitzler, B&#160;44</idno>
                       </msIdentifier>
                       <physDesc>
                           <p>eh. Bildpostkarte, Bleistift. Motiv: Porträt von Arno Holz.</p>
                           <stamp n="1">
-                              <placeName key="pmb168">Berlin</placeName>
-                              <date when="1923-05-29">29. 5. 1923</date>
+                              <rs ref="#pmb168" type="place">Berlin</rs>
+                              <date when="1923-05-29">29.&#160;5.&#160;1923</date>
                               <time>7–8N</time>
                           </stamp>
                       </physDesc>
@@ -68,17 +72,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11763">Holz, Arno</persName>
-                    <placeName key="pmb168">Berlin</placeName>
-                    <date when="1923-05-29" n="01">29. 5. 1923</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11763">Holz, Arno</persName>
+                    <placeName ref="#pmb168">Berlin</placeName>
+                    <date when="1923-05-29" n="01">29.&#160;5.&#160;1923</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1917-02-28_01">Schnitzler an Holz, 28. 2. 1917</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1917-02-28_01">Schnitzler an Holz, 28.&#160;2.&#160;1917</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -89,57 +93,10 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>Herrn</addrLine>
-                    <addrLine>
-                  <hi rend="latintype">
+        <body><div type="address"><address><addrLine>Herrn</addrLine><addrLine><hi rend="latintype">
                      Dr. Arthur Schnitzler
-                  </hi>
-               </addrLine>
-                    <addrLine>
-                  <hi rend="latintype">
-                     
-                        <placeName key="pmb68">Wien XVIII.</placeName>
-                     
-                  </hi>
-               </addrLine>
-                    <addrLine>
-                  <placeName key="pmb150">Sternwartestr: 71</placeName>.</addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <p>
-               <pb facs="DSC_0650.jpg"/>Arno Holz</p>
-                <p>
-               <pb facs="DSC_0651.jpg"/>
-               <hi rend="underline" n="1">dankt</hi>
-            </p>
-                <p>
-               <hi rend="underline" n="1">Herrn</hi>
-            </p>
-                <p>
-               <hi rend="latintype">
-                  <hi rend="underline" n="1">Dr.</hi>
-                  <space unit="chars" quantity="1"/>
-                  <hi rend="underline" n="1">Arthur</hi>
-                  <space unit="chars" quantity="1"/>
-                  <hi rend="underline" n="1"> Schnitzler</hi>
-               </hi>
-            </p>
-                <p>
-               <hi rend="underline" n="1">herzlichst.</hi>
-            </p>
-                <postscript>
-               <dateline rend="right">
-                  <anchor type="textConst" xml:id="TL976-1"/>
-                  <date>26. IV. 23</date>.<note type="textConst" xml:id="TL976-1h">Die Unterstreichung 
-                    in rot. Vermutlich um auf die Diskrepanz hinzuweisen zwischen der gleich am Tag des 60. Geburtstag verfassten Karte (oder zumindest auf den Tag des Geburtstags datierten Karte)
-                    und dem durch den Stempel nachweislich verzögerten Versand.</note>
-               </dateline>
-            </postscript>
-            </div>
-        </body>
+                  </hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb68" type="place">Wien XVIII.</rs></hi></addrLine><addrLine><rs ref="#pmb150" type="place">Sternwartestr:&#160;71</rs>.</addrLine></address></div><div type="writingSession" n="1"><p><pb facs="DSC_0650.jpg"/>Arno Holz</p><p><pb facs="DSC_0651.jpg"/><hi rend="underline" n="1">dankt</hi></p><p><hi rend="underline" n="1">Herrn</hi></p><p><hi rend="latintype"><hi rend="underline" n="1">Dr.</hi><space unit="chars" quantity="1"/><hi rend="underline" n="1">Arthur</hi><space unit="chars" quantity="1"/><hi rend="underline" n="1"> Schnitzler</hi></hi></p><p><hi rend="underline" n="1">herzlichst.</hi></p><postscript><dateline rend="right"><anchor type="textConst" xml:id="TL976-1"/><date>26.&#160;IV.&#160;23</date>.<note type="textConst" xml:id="TL976-1h">Die Unterstreichung 
+                    in rot. Vermutlich um auf die Diskrepanz hinzuweisen zwischen der gleich am Tag des 60.&#160;Geburtstag verfassten Karte (oder zumindest auf den Tag des Geburtstags datierten Karte)
+                    und dem durch den Stempel nachweislich verzögerten Versand.</note></dateline></postscript></div></body>
     </text>
 </TEI>

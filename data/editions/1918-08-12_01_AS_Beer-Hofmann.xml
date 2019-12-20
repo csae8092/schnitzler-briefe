@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1918-08-12_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1918-08-12_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 
-                        12. 8. 1918</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+                        12.&#160;8.&#160;1918</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -52,7 +56,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -80,17 +84,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key=""/>
-               <date when="1918-08-12" n="01">12. 8. 1918</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref=""/>
+               <date when="1918-08-12" n="01">12.&#160;8.&#160;1918</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1918-04-12_01">Schnitzler an Beer-Hofmann, 12. 4. 1918</ptr>
-               <ptr type="next" subtype="toAuthor" target="1918-08-13_01">Beer-Hofmann an Schnitzler, 13. 8. 1918</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1918-04-12_01">Schnitzler an Beer-Hofmann, 12.&#160;4.&#160;1918</ptr>
+               <ptr type="next" subtype="toAuthor" target="1918-08-13_01">Beer-Hofmann an Schnitzler, 13.&#160;8.&#160;1918</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,30 +103,13 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         
-				        <div type="writingSession" n="1">
-					          <opener>
-						            <dateline rend="right">
-							              <date when="1918-08-12">12. 8. 18</date>
-						            </dateline>
-					          </opener>
-					          <p>
-						            <salute>Lieber Richard, </salute>es wäre nicht undenkbar, daß ich mich auf
-						der Reise nach <placeName key="pmb314">Bayern</placeName> in <placeName key="pmb30">Salzburg</placeName> aufhielte. Bitte schreiben Sie mir ein Wort, ob
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date when="1918-08-12">12.&#160;8.&#160;18</date></dateline></opener><p><salute>Lieber Richard, </salute>es wäre nicht undenkbar, daß ich mich auf
+						der Reise nach <rs ref="#pmb314" type="place">Bayern</rs> in <rs ref="#pmb30" type="place">Salzburg</rs> aufhielte. Bitte schreiben Sie mir ein Wort, ob
 						sie in der nächsten Woche (etwa um <date>22.</date>, <date>23.</date>,
-							<date>24.</date>) dort sind – da Sie</p>
-					          <p>doch, wenn ich gut unterrichtet bin, um des <rs type="person" key="pmb12504">
-							              <placeName key="pmb34839">Leopoldskron</placeName>er Schloßerrn</rs>
+							<date>24.</date>) dort sind – da Sie</p><p>doch, wenn ich gut unterrichtet bin, um des <rs type="person" ref="#pmb12504" subtype="implied"><rs ref="#pmb34839" type="place">Leopoldskron</rs>er Schloßerrn</rs>
 						willen hinzufahren gedenken. Ich hoffe, Sie fühlen sich, nach der
-						unfreiwilligen Unterbrechung, wohler als vorher, – auch das Wetter scheint
+						unfreiwilligen Unterbrechung, wohler als vorher,&#160;– auch das Wetter scheint
 						sich ja besinnen zu wollen. Alles übrige sieht freilich nicht nach
-						Besserwerden aus. Grüßen Sie die Ihrigen. Von Herzen Ihr</p>
-					          <closer>
-						            <signed>Arthur</signed>
-					          </closer>
-				        </div>
-			      
-      </body>
+						Besserwerden aus. Grüßen Sie die Ihrigen. Von Herzen Ihr</p><closer><signed>Arthur</signed></closer></div></body>
    </text>
 </TEI>

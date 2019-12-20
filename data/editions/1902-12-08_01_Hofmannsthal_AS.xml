@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1902-12-08_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="L1902-12-08_01_Hofmannsthal_AS"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 8. 12. 1902</title>
-            <author key="pmb11740">Hofmannsthal, Hugo von</author>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 8.&#160;12.&#160;1902</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
+                        <idno>Schnitzler, B&#160;43</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Hugo</hi>
                            </quote>«. XXXX</p>
                      </physDesc>
@@ -61,8 +65,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author key="pmb11740">Hofmannsthal, Hugo</author>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -81,18 +85,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName key="pmb173">XXXX</placeName>
-               <date when="1902-12-08" n="01">8. 12. 1902</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb173">XXXX</placeName>
+               <date when="1902-12-08" n="01">8.&#160;12.&#160;1902</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1902-11-25_01">Schnitzler an Hofmannsthal, [25.? 11. 1902]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1902-12-17_01">Hofmannsthal an Schnitzler, [17. 12. 1902]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1902-11-25_01">Schnitzler an Hofmannsthal, [25.?&#160;11.&#160;1902]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1902-12-17_01">Hofmannsthal an Schnitzler, [17.&#160;12.&#160;1902]</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -101,20 +105,10 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <p>
-               <salute>lieber, </salute>sehe keine andere Möglichkeit Sie auf längere Zeit hinaus zu
-               sehen als wenn es gestattet ist <date>Samstag</date> um <time>½ 2</time> bei Ihrer
-                  <rs type="person" key="pmb12701">Mama</rs> mit Ihnen zu essen. Ich käme schon um
-                     <time>1<hi rend="superscript">h</hi>
-               </time> zu Ihnen, um vorher ein bisserl zu plaudern, weil um <time>3<hi rend="superscript">h</hi>
-               </time> wieder weg müßte. Hoffe es paßt Ihnen, dann keine Antwort nötig, andernfalls
-               bitte sogleich telephonieren. </p>
-            <closer>Von Herzen<lb/>
-               <signed>Hugo.</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><p><salute>lieber, </salute>sehe keine andere Möglichkeit Sie auf längere Zeit hinaus zu
+               sehen als wenn es gestattet ist <date>Samstag</date> um <time>½&#160;2</time> bei Ihrer
+                  <rs type="person" ref="#pmb12701" subtype="implied">Mama</rs> mit Ihnen zu essen. Ich käme schon um
+                     <time>1<hi rend="superscript">h</hi></time> zu Ihnen, um vorher ein bisserl zu plaudern, weil um <time>3<hi rend="superscript">h</hi></time> wieder weg müßte. Hoffe es paßt Ihnen, dann keine Antwort nötig, andernfalls
+               bitte sogleich telephonieren. </p><closer>Von Herzen<lb/><signed>Hugo.</signed></closer></div></body>
    </text>
 </TEI>

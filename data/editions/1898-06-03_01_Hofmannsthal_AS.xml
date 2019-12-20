@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-06-03_01_Hofmannsthal_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1898-06-03_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [3.? 6. 1898]</title>
-                <author key="pmb11740">Hofmannsthal, Hugo von</author>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [3.? 6.&#160;1898]</title>
+                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 43b/1</idno>
+                                <idno>Schnitzler, B&#160;43b/1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S., schwarze Tinte. Von Schnitzler mit
+                                <p>eh. Brief, 1&#160;Bl., 3&#160;S., schwarze Tinte. Von Schnitzler mit
                                     Bleistift datiert: »<quote>
                                         <date>Mai? 98</date>
                                     </quote>«. Von unbekannter Hand mit Bleistift nummeriert:
@@ -63,8 +67,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -83,18 +87,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb75">Hinterbrühl</placeName>
-                    <date when="1898-06-03" n="01">[3.? 6. 1898]</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb75">Hinterbrühl</placeName>
+                    <date when="1898-06-03" n="01">[3.?&#160;6.&#160;1898]</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1898-05-29_01">Schnitzler an Hofmannsthal, [29. 5. 1898?]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1898-06-04_02">Schnitzler an Hofmannsthal, [4. 6. 1898]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1898-05-29_01">Schnitzler an Hofmannsthal, [29.&#160;5.&#160;1898?]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1898-06-04_02">Schnitzler an Hofmannsthal, [4.&#160;6.&#160;1898]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -111,39 +115,20 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00254"/>
     </facsimile>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00253"/>
-                        <placeName key="pmb75">Hinterbrühl</placeName>,
-                        <date>Freitag</date>.</dateline>
-                    <salute>mein lieber Arthur</salute>
-                </opener>
-                <p>
-                    <anchor type="commentary" xml:id="KL2188-1"/>
-                    <date>Dienstag</date>
-                    <note type="commentary" xml:id="KL2188-1h">Durch die privaten Aufzeichungen
-                            <persName key="pmb11740">Hofmannsthal</persName>s
-                            (<bibl>S. 397–398</bibl>) ergibt sich für die Maturalernzeit nur ein
-                        Freitag in <placeName key="pmb75">Hinterbrühl</placeName>, an dem er am
-                        Dienstag und Mittwoch zuvor in <placeName key="pmb50">Wien</placeName> war,
-                        der <date>3. 6. 1898</date>.</note> war ich im Café bin aber um
-                        <time>½ 11</time> ſehr müd geworden und <date>Mittwoch</date> war ich
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00253"/><rs ref="#pmb75" type="place">Hinterbrühl</rs>,
+                        <date>Freitag</date>.</dateline><salute>mein lieber Arthur</salute></opener><p><anchor type="commentary" xml:id="KL2188-1"/><date>Dienstag</date><note type="commentary" xml:id="KL2188-1h">Durch die privaten Aufzeichungen
+                            <rs ref="#pmb11740" type="person">Hofmannsthal</rs>s
+                            (<bibl>S.&#160;397–398</bibl>) ergibt sich für die Maturalernzeit nur ein
+                        Freitag in <rs ref="#pmb75" type="place">Hinterbrühl</rs>, an dem er am
+                        Dienstag und Mittwoch zuvor in <rs ref="#pmb50" type="place">Wien</rs> war,
+                        der <date>3.&#160;6.&#160;1898</date>.</note> war ich im Café bin aber um
+                        <time>½&#160;11</time> ſehr müd geworden und <date>Mittwoch</date> war ich
                     überhaupt von der Lernerei ſehr müd. Auch davon iſt man ein biſſel
                     niedergeſchlagen, daſs es gar <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00254"/>nicht So<c rendition="#gemination-m"/>er werden kann und ſo wenig Sonne
-                    iſt.</p>
-                <p>Bitte gehen Sie nur gleich fort nach <placeName key="pmb651">Kärnten</placeName>
+                    iſt.</p><p>Bitte gehen Sie nur gleich fort nach <rs ref="#pmb651" type="place">Kärnten</rs>
                     ſobald es ſchön iſt, es giebt doch Möglichkeiten, ohne Betrug, einer ſo tiefen
-                    Verſtimmung entgegenzuarbeiten.</p>
-                <p>
-                    <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00254"/>Aber bitte laſſen Sie mich
+                    Verſtimmung entgegenzuarbeiten.</p><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00254"/>Aber bitte laſſen Sie mich
                     nicht ganz ohne Verſtändigung, es freut einen i<c rendition="#gemination-m"/>er
-                    ſo die Menſchen die man gern hat, in irgend einer Landſchaft zu denken.</p>
-                <closer>Von Herzen<space unit="chars" quantity="4"/>Ihr<lb/>
-                    <signed>Hugo</signed>
-                </closer>
-            </div>
-        </body>
+                    ſo die Menſchen die man gern hat, in irgend einer Landſchaft zu denken.</p><closer>Von Herzen<space unit="chars" quantity="4"/>Ihr<lb/><signed>Hugo</signed></closer></div></body>
     </text>
 </TEI>

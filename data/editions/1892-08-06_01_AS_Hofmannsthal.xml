@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-08-06_01_AS_Hofmannsthal">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1892-08-06_01_AS_Hofmannsthal">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, [6. 8. 1892]</title>
-                <author key="pmb2121">Schnitzler, Arthur</author>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, [6.&#160;8.&#160;1892]</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
 
                 <editor>
                     <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -53,12 +56,12 @@
                                 <idno>Hs-30885,24</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 2 Bl., 6 S., schwarze Tinte. Das erste Blatt von
+                                <p>eh. Brief, 2&#160;Bl., 6&#160;S., schwarze Tinte. Das erste Blatt von
                                     unbekannter Hand mit Bleistift beschriftet:
                                     »<quote>Wien</quote>« und datiert: »<quote>
-                                        <date>6. 8. 92</date>
+                                        <date>6.&#160;8.&#160;92</date>
                                     </quote>«. Zweites Blatt datiert mit Bleistift:
-                                            »<quote>(<date>6. 8. 92</date>
+                                            »<quote>(<date>6.&#160;8.&#160;92</date>
                                         <supplied>)</supplied>
                                     </quote>«.</p>
                             </physDesc>
@@ -68,8 +71,8 @@
                 <listBibl>
                     <biblStruct corresp="HvHAS">
                         <monogr>
-                            <author key="pmb11740">Hofmannsthal, Hugo</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel</title>
                             <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                             <imprint>
@@ -82,8 +85,8 @@
                     </biblStruct>
                     <biblStruct corresp="HBAS">
                         <monogr>
-                            <author key="pmb10815">Bahr, Hermann</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10815">Bahr, Hermann</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Briefwechsel, Aufzeichnungen, Dokumente
                                 (1891–1931)</title>
                             <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
@@ -102,18 +105,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1892-08-06" n="01">6. 8. 1892</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1892-08-06" n="01">6.&#160;8.&#160;1892</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName key="pmb50">[Wien]</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#pmb50">[Wien]</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1892-08-04_01">Hofmannsthal an Schnitzler, 4. 8. [1892]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-08-23_01">Hofmannsthal an Schnitzler, 23. 8. [1892]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1892-08-04_01">Hofmannsthal an Schnitzler, 4.&#160;8.&#160;[1892]</ptr>
+               <ptr type="next" subtype="toAuthor" target="1892-08-23_01">Hofmannsthal an Schnitzler, 23.&#160;8.&#160;[1892]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -132,75 +135,33 @@
         <graphic url="Hs-30885,24b_002.JPG"/>
     </facsimile>
     <text type="letter">
-        <body>
-
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="Hs-30885,24a_001.JPG"/>Mein lieber Loris,</salute>
-                </opener>
-                <p>vielen Dank für den überſandten Brief. Es ſtehen geſcheidte Sachen drin. Es iſt
-                    ſogar möglich, daſs die <persName key="pmb11666">H.</persName> mit all ihrem
+        <body><div type="writingSession" n="1"><opener><salute><pb facs="Hs-30885,24a_001.JPG"/>Mein lieber Loris,</salute></opener><p>vielen Dank für den überſandten Brief. Es ſtehen geſcheidte Sachen drin. Es iſt
+                    ſogar möglich, daſs die <rs ref="#pmb11666" type="person">H.</rs> mit all ihrem
                     Tadel Recht hat: gewiſs aber hat ſie manches zu loben vergeſſen. Daſs ſie den
-                        »<workName key="pmb30257">Sohn</workName>« ſo beſonders gut findet zeigt
-                    mir, daſs ſie ein wenig vom <placeName key="pmb168">Berliner</placeName>-<persName key="pmb11061">Bölſche</persName>thum
+                        »<rs ref="#pmb30257" type="work">Sohn</rs>« ſo beſonders gut findet zeigt
+                    mir, daſs ſie ein wenig vom <rs ref="#pmb168" type="place">Berliner</rs>-<rs ref="#pmb11061" type="person">Bölſche</rs>thum
                     beeinflußt iſt. Ich habe den Eindruck, daſs ſie alles einzelne an mir verſteht,
                     wie das bei ihrer kritiſchen <pb facs="Hs-30885,24a_002.JPG"/>Begabung
                     ſelbſtverſtändlich – nur meine <hi rend="underline" n="1">Atmosphäre</hi>
-                    nicht. –</p>
-                <p>Das <workName key="pmb29935">Anatol</workName>-Buch erſcheint im <hi rend="latintype">
-                        <orgName key="pmb29716">Bibliogr. Bureau</orgName>, <placeName key="pmb168">Berlin</placeName>
-                    </hi>. –</p>
-                <p>Von <persName key="pmb14328">Blumenthal</persName> hab ich Nachricht: 2. Quartal,
+                    nicht.&#160;–</p><p>Das <rs ref="#pmb29935" type="work">Anatol</rs>-Buch erſcheint im <hi rend="latintype"><rs ref="#pmb29716" type="organisation">Bibliogr. Bureau</rs>, <rs ref="#pmb168" type="place">Berlin</rs></hi>.&#160;–</p><p>Von <rs ref="#pmb14328" type="person">Blumenthal</rs> hab ich Nachricht: 2. Quartal,
                     d. h. <date>Jaenner</date>–<date>März 93</date> Etwas ſpät! Umſomehr als ich
-                    heute aus <placeName key="pmb652">Prag</placeName> die Mittheilung erhalte, daſs
-                    das <rs type="work" key="pmb29935">Stück</rs> im Oktober dranko<c rendition="#gemination-m"/>en dürfte! Zugleich hat man mir meine Luſtſpiele
-                    von dort retournirt, da ſie für eine Provinzbühne zu gewagt ſeien. </p>
-                <p>
-                    <pb facs="Hs-30885,24a_002.JPG"/>– <persName key="pmb12737">
-                        <hi rend="latintype">Schupp</hi>
-                    </persName> iſt Secretär des Preſsausſchuſses für d. <hi rend="latintype">
-                        <placeName key="pmb880">Chicago</placeName>.<orgName key="pmb29318"> W.
-                            A.</orgName>
-                    </hi> –</p>
-                <p>– <hi rend="latintype">Von <persName key="pmb11673">Theodor Herzl</persName>
-                    </hi> hab ich einen reizenden Brief beko<c rendition="#gemination-m"/>en. –</p>
-                <p>Vielleicht ſehen wir uns doch im Laufe dieſes So<c rendition="#gemination-m"/>ers. Ich habe nämlich keine Einberufung zur Waffenübung beko<c rendition="#gemination-m"/>en, und fahre vielleicht <date>Ende Auguſt</date>
-                    nach <placeName key="pmb213">Iſchl</placeName>. – Wohin gehn Sie im
-                        <date>September</date>? –</p>
-                <p>– Ich kam die letzten Tage nicht zum Schreiben; die äußerliche Thätigkeit ſtört
+                    heute aus <rs ref="#pmb652" type="place">Prag</rs> die Mittheilung erhalte, daſs
+                    das <rs type="work" ref="#pmb29935" subtype="implied">Stück</rs> im Oktober dranko<c rendition="#gemination-m"/>en dürfte! Zugleich hat man mir meine Luſtſpiele
+                    von dort retournirt, da ſie für eine Provinzbühne zu gewagt ſeien. </p><p><pb facs="Hs-30885,24a_002.JPG"/>– <rs ref="#pmb12737" type="person"><hi rend="latintype">Schupp</hi></rs> iſt Secretär des Preſsausſchuſses für d. <hi rend="latintype"><rs ref="#pmb880" type="place">Chicago</rs>.<rs ref="#pmb29318" type="organisation"> W.
+                            A.</rs></hi> –</p><p>– <hi rend="latintype">Von <rs ref="#pmb11673" type="person">Theodor Herzl</rs></hi> hab ich einen reizenden Brief beko<c rendition="#gemination-m"/>en.&#160;–</p><p>Vielleicht ſehen wir uns doch im Laufe dieſes So<c rendition="#gemination-m"/>ers. Ich habe nämlich keine Einberufung zur Waffenübung beko<c rendition="#gemination-m"/>en, und fahre vielleicht <date>Ende Auguſt</date>
+                    nach <rs ref="#pmb213" type="place">Iſchl</rs>.&#160;– Wohin gehn Sie im
+                        <date>September</date>? –</p><p>– Ich kam die letzten Tage nicht zum Schreiben; die äußerliche Thätigkeit ſtört
                     doch. Hoffentlich bald! – Sie <pb facs="Hs-30885,24a_001.JPG"/>ko<c rendition="#gemination-m"/>en ja ſicher mit den ganzen 5 Akten zurück!
-                    ––</p>
-                <p>Haben Sie Recht, von einem »<hi rend="underline" n="1">herrſchenden</hi>
+                    ––</p><p>Haben Sie Recht, von einem »<hi rend="underline" n="1">herrſchenden</hi>
                     Novellendrama« zu ſprechen? – Berechtigung hat die Form gewiſs – ſobald nur <hi rend="underline" n="1">ein</hi> bedeutender Menſch da iſt, der daran Freude
                     findet. Ueber den gewiſſen Fundamentalſatz: »Das iſt eben kein rechtes Drama,
                     das nicht von der Bühne herab wirkt (oder gar ›auf die Menge‹ wirkt<del rend="strikethrough">«</del>)« hab ich <pb facs="Hs-30885,24b_001.JPG"/>mich
                         i<c rendition="#gemination-m"/>er geärgert. Eventuell will ich mir, mir ganz
-                    allein was vorſpielen laſſen! – Na, Sie wiſſen ja, <persName key="pmb19832">Kulka</persName> hat ja das wichtigſte über dieſes Thema ſchon gesagt.
-                    –</p>
-                <p>– Wa<c rendition="#gemination-n"/> wird man ſich Briefe phonographiren können? –
+                    allein was vorſpielen laſſen! – Na, Sie wiſſen ja, <rs ref="#pmb19832" type="person">Kulka</rs> hat ja das wichtigſte über dieſes Thema ſchon gesagt.
+                    –</p><p>– Wa<c rendition="#gemination-n"/> wird man ſich Briefe phonographiren können? –
                     Die Zeit ſeh ich ko<c rendition="#gemination-m"/>en, wo die Leute über unſre
-                    mühſelige Correſpondenzerei lächeln und ſtaunen werden.</p>
-                <p>
-                    <pb facs="Hs-30885,24b_002.JPG"/>Auf dieſer Seite ſteht nur mehr, daſs ich Sie,
-                    liebſter Freund, aufs Herzlichſte grüße!</p>
-                <closer>Ganz der Ihre<lb/>
-                    <signed>Arthur.</signed>
-                </closer>
-                <postscript>
-                    <p>Was macht <persName key="pmb10863">
-                            <hi rend="latintype">Richard</hi>
-                        </persName>? –</p>
-                    <p>– Mit <persName key="pmb12740">
-                            <hi rend="latintype">Schwarzkopf</hi>
-                        </persName> war ich einige Male auf dem Land. –</p>
-                    <p>
-                        <persName key="pmb10815">
-                            <hi rend="latintype">Bahr</hi>
-                        </persName> iſt verzweifelt; – er wurde einberufen und fahndet nun nach
-                        einer Befreiung. –</p>
-                </postscript>
-            </div>
-        </body>
+                    mühſelige Correſpondenzerei lächeln und ſtaunen werden.</p><p><pb facs="Hs-30885,24b_002.JPG"/>Auf dieſer Seite ſteht nur mehr, daſs ich Sie,
+                    liebſter Freund, aufs Herzlichſte grüße!</p><closer>Ganz der Ihre<lb/><signed>Arthur.</signed></closer><postscript><p>Was macht <rs ref="#pmb10863" type="person"><hi rend="latintype">Richard</hi></rs>? –</p><p>– Mit <rs ref="#pmb12740" type="person"><hi rend="latintype">Schwarzkopf</hi></rs> war ich einige Male auf dem Land.&#160;–</p><p><rs ref="#pmb10815" type="person"><hi rend="latintype">Bahr</hi></rs> iſt verzweifelt; – er wurde einberufen und fahndet nun nach
+                        einer Befreiung.&#160;–</p></postscript></div></body>
     </text>
 </TEI>

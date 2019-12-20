@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1902-12-24_02_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1902-12-24_02_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 
-                        24. 12. 1902</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+                        24.&#160;12.&#160;1902</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -52,7 +56,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -80,17 +84,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key=""/>
-               <date when="1902-12-24" n="02">24. 12. 1902</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref=""/>
+               <date when="1902-12-24" n="02">24.&#160;12.&#160;1902</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1902-12-24_01">Beer-Hofmann an Schnitzler, 24. 12. 1902</ptr>
-               <ptr type="next" subtype="toAuthor" target="1903-01-14_01">Schnitzler an Beer-Hofmann, 14. 1. 1903</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1902-12-24_01">Beer-Hofmann an Schnitzler, 24.&#160;12.&#160;1902</ptr>
+               <ptr type="next" subtype="toAuthor" target="1903-01-14_01">Schnitzler an Beer-Hofmann, 14.&#160;1.&#160;1903</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -99,22 +103,7 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         
-				        <div type="writingSession" n="1">
-					          <opener>
-						            <dateline rend="right">
-							              <date when="1902-12-24">24. 12. 902</date>
-						            </dateline>
-					          </opener>
-					          <p>
-						            <salute>Lieber Richard, </salute>ich danke Ihnen. Es ist wunderschön. Man
-						kann es gar nicht »anstatt« tragen. Ich bin ergriffen.</p>
-					          <p>Grüßen Sie. Auf bald.</p>
-					          <closer>Herzlichst Ihr <signed>Arthur</signed>
-					          </closer>
-				        </div>
-			      
-      </body>
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date when="1902-12-24">24.&#160;12.&#160;902</date></dateline></opener><p><salute>Lieber Richard, </salute>ich danke Ihnen. Es ist wunderschön. Man
+						kann es gar nicht »anstatt« tragen. Ich bin ergriffen.</p><p>Grüßen Sie. Auf bald.</p><closer>Herzlichst Ihr <signed>Arthur</signed></closer></div></body>
    </text>
 </TEI>

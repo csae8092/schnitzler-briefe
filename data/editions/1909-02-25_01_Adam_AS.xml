@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1909-02-25_01_Adam_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1909-02-25_01_Adam_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 25. 2. 1909</title>
-                <author key="pmb12438">Adam, Robert</author>
+                <title level="a">Robert Adam an Arthur Schnitzler, 25.&#160;2.&#160;1909</title>
+                <author ref="#pmb12438">Adam, Robert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                                 <idno>A:Schnitzler, HS.NZ85.1.4230,1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                                <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Ada</hi>
                            </quote>«.</p>
                             </physDesc>
@@ -65,17 +69,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1909-02-25" n="01">25. 2. 1909</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1909-02-25" n="01">25.&#160;2.&#160;1909</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="next" subtype="toAuthor" target="1909-03-20_01">Schnitzler an Adam, 20. 3. 1909</ptr>
+               <ptr type="next" subtype="toAuthor" target="1909-03-20_01">Schnitzler an Adam, 20.&#160;3.&#160;1909</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -86,37 +90,11 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="OGL Kopie"/>
-                  <placeName key="pmb50">Wien</placeName>, am <date>25. Febr. 1909</date>
-               </dateline>
-                    <salute>Hochverehrter Herr Doktor!</salute>
-            </opener>                         
-                <p>Ich bin ſo frei, Ihnen als Zeichen meiner Hochſchätzung meine Komödie:
-                    »<anchor type="commentary" xml:id="KL2095-1"/>
-               <workName key="pmb33578">Die Geſchichte
-                        des Alî ibn Bekkâr mit Schams an-Nahâr</workName>
-               <note type="commentary" xml:id="KL2095-1h">
-                  <bibl>
-                     <workName key="pmb33578">Die Geschichte
-                            des Alî ibn Bekkâr mit Schams an-Nahâr</workName>. Eine Komödie von <persName key="pmb12438">Robert Adam</persName>. Wien und Leipzig:
-                            <orgName key="pmb29747">Hugo Heller <c rendition="#kaufmannsund"/> Cie.</orgName>
-                     <space unit="chars" quantity="1"/>
-                     <date>1909</date>
-                        </bibl>. (Erschienen im <date>Februar.</date>)</note>« zu überſenden
-                    und bitte Sie, mein Buch Ihrer Aufmerkſamkeit für wert zu erachten.</p>
-                <closer>Ihr ergebener<lb/>
-                    <signed>Robert Adam</signed>
-                </closer>
-                <postscript>
-               <p>
-                  <placeName key="pmb1239">Wien XII/<hi rend="subscript">1</hi> Meidlinger Hauptſtr. 56</placeName>
-               </p>
-            </postscript>
-            </div>
-        </body>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="OGL Kopie"/><rs ref="#pmb50" type="place">Wien</rs>, am <date>25.&#160;Febr.&#160;1909</date></dateline><salute>Hochverehrter Herr Doktor!</salute></opener><p>Ich bin ſo frei, Ihnen als Zeichen meiner Hochſchätzung meine Komödie:
+                    »<anchor type="commentary" xml:id="KL2095-1"/><rs ref="#pmb33578" type="work">Die Geſchichte
+                        des Alî ibn Bekkâr mit Schams an-Nahâr</rs><note type="commentary" xml:id="KL2095-1h"><bibl><rs ref="#pmb33578" type="work">Die Geschichte
+                            des Alî ibn Bekkâr mit Schams an-Nahâr</rs>. Eine Komödie von <rs ref="#pmb12438" type="person">Robert Adam</rs>. Wien und Leipzig:
+                            <rs ref="#pmb29747" type="organisation">Hugo Heller <c rendition="#kaufmannsund"/> Cie.</rs><space unit="chars" quantity="1"/><date>1909</date></bibl>. (Erschienen im <date>Februar.</date>)</note>« zu überſenden
+                    und bitte Sie, mein Buch Ihrer Aufmerkſamkeit für wert zu erachten.</p><closer>Ihr ergebener<lb/><signed>Robert Adam</signed></closer><postscript><p><rs ref="#pmb1239" type="place">Wien XII/<hi rend="subscript">1</hi> Meidlinger Hauptſtr. 56</rs></p></postscript></div></body>
     </text>
 </TEI>

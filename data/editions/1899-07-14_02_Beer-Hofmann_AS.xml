@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-07-14_02_Beer-Hofmann_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1899-07-14_02_Beer-Hofmann_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 14. 7. 1899</title>
-            <author key="pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 14.&#160;7.&#160;1899</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 4 S., Bleistift; Lateinschrift. Von unbekannter Hand
+                        <p>eh. Brief, 1&#160;Bl., 4&#160;S., Bleistift; Lateinschrift. Von unbekannter Hand
                            mit Bleistift nummeriert: »<quote>132</quote>«.</p>
                      </physDesc>
                   </msDesc>
@@ -60,8 +64,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -80,17 +84,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName key="pmb34824">Seeboden</placeName>
-               <date when="1899-07-14" n="02">14. 7. 1899</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb34824">Seeboden</placeName>
+               <date when="1899-07-14" n="02">14.&#160;7.&#160;1899</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-07-13_02">Beer-Hofmann an Schnitzler, 13. 7. 1899</ptr>
-               <ptr type="next" subtype="toAuthor" target="1899-07-16_01">Schnitzler an Beer-Hofmann, 16. 7. 1899</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1899-07-13_02">Beer-Hofmann an Schnitzler, 13.&#160;7.&#160;1899</ptr>
+               <ptr type="next" subtype="toAuthor" target="1899-07-16_01">Schnitzler an Beer-Hofmann, 16.&#160;7.&#160;1899</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -105,49 +109,22 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00297.jpg"/>
    </facsimile>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="center">
-                  <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00296"/>
-                  <placeName key="pmb34824">Seeboden</placeName>
-                  <space unit="chars" quantity="1"/>
-                  <date when="1899-07-14">14/VII 99</date>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Arthur! </salute>Das »Vielleicht« konnte sich doch selbstverständlich
+      <body><div type="writingSession" n="1"><opener><dateline rend="center"><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00296"/><rs ref="#pmb34824" type="place">Seeboden</rs><space unit="chars" quantity="1"/><date when="1899-07-14">14/VII 99</date></dateline></opener><p><salute>Lieber Arthur! </salute>Das »Vielleicht« konnte sich doch selbstverständlich
                nur auf die gemeinschaftliche Tour beziehen. Ich wünsche – aber das ist ja
-               selbstverständlich, – ich hoffe mit einer Wahrscheinlichkeit von 75<c rendition="#prozent"/> daß wir in den letzten Julitagen eine gemeinschaftliche
+               selbstverständlich,&#160;– ich hoffe mit einer Wahrscheinlichkeit von 75<c rendition="#prozent"/> daß wir in den letzten Julitagen eine gemeinschaftliche
                Tour machen können. Vielleicht daß wir von hier aus <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00295"/>am <date>25</date> oder
                   <date>26</date> über die <geogName type="mountain">Tauern</geogName> nach
-                  <placeName key="pmb30">Salzburg</placeName> gehen – dort 2 Tage bleiben (1 Tag
-               davon muß ich nach <placeName key="pmb213">Ischl</placeName>
-               <add place="margin">od<supplied>er</supplied>
-               </add>
-               <placeName key="pmb415">Aussee</placeName>) dann nach <placeName key="pmb734">Bayreuth</placeName> am <date>31</date> und von dort <placeName key="pmb38129">München</placeName>
-               <space unit="chars" quantity="1"/>
-               <placeName key="pmb867">Innsbruck</placeName>
-               <space unit="chars" quantity="1"/>
-               <placeName key="pmb40264">Franzensfeste</placeName> (– eventuell begleite ich Sie
-               nach <placeName key="pmb40263">Bozen</placeName>) zurück. Vorher möchte ich Sie gewiß
-               gerne hier oder in <placeName key="pmb41069">Millstatt</placeName> haben. Meine ganze
+                  <rs ref="#pmb30" type="place">Salzburg</rs> gehen – dort 2 Tage bleiben (1 Tag
+               davon muß ich nach <rs ref="#pmb213" type="place">Ischl</rs><add place="margin">od<supplied>er</supplied></add><rs ref="#pmb415" type="place">Aussee</rs>) dann nach <rs ref="#pmb734" type="place">Bayreuth</rs> am <date>31</date> und von dort <rs ref="#pmb38129" type="place">München</rs><space unit="chars" quantity="1"/><rs ref="#pmb867" type="place">Innsbruck</rs><space unit="chars" quantity="1"/><rs ref="#pmb40264" type="place">Franzensfeste</rs> (–&#160;eventuell begleite ich Sie
+               nach <rs ref="#pmb40263" type="place">Bozen</rs>) zurück. Vorher möchte ich Sie gewiß
+               gerne hier oder in <rs ref="#pmb41069" type="place">Millstatt</rs> haben. Meine ganze
                Reserve im Ausdruck darin nur aus der Nervosi<pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00297"/>tät Pläne zu machen, und aus der
                zweiten Nervosität ob ich bis zu Ihrer Ankunft fertig sein werde. Ihre Adresse in
-                  <placeName key="pmb909">Velden</placeName> haben Sie mir noch nicht angegeben. Von
-               Herzen</p>
-            <closer>Ihr<lb/>
-               <signed>Richard</signed>
-            </closer>
-            <postscript>
-               <p>Bitte sagen Sie <persName key="pmb12740">Schwarzkopf</persName> daß ich zu
+                  <rs ref="#pmb909" type="place">Velden</rs> haben Sie mir noch nicht angegeben. Von
+               Herzen</p><closer>Ihr<lb/><signed>Richard</signed></closer><postscript><p>Bitte sagen Sie <rs ref="#pmb12740" type="person">Schwarzkopf</rs> daß ich zu
                      versti<c rendition="#gemination-m"/>t war um ihm zu schreiben – ich weiß schon,
                   er wird sagen: »u wenn er nicht <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00296"/>versti<c rendition="#gemination-m"/>t ist schreibt er?« Aber ich lasse ihn
                   herzlich grüßen und ich würde mich mehr – als er glaubt – freuen wenn er hieher
-                  käme.</p>
-               <p>– Ich <hi n="1" rend="underline">habe</hi> geschrieben »versti<c rendition="#gemination-m"/>t war«. Diese Vergangenheit ist unberechtigt.</p>
-            </postscript>
-         </div>
-      </body>
+                  käme.</p><p>– Ich <hi n="1" rend="underline">habe</hi> geschrieben »versti<c rendition="#gemination-m"/>t war«. Diese Vergangenheit ist unberechtigt.</p></postscript></div></body>
    </text>
 </TEI>

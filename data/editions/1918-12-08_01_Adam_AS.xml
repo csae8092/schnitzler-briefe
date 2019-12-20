@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1918-12-08_01_Adam_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1918-12-08_01_Adam_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 8. 12. 1918</title>
-                <author key="pmb12438">Adam, Robert</author>
+                <title level="a">Robert Adam an Arthur Schnitzler, 8.&#160;12.&#160;1918</title>
+                <author ref="#pmb12438">Adam, Robert</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,10 +52,10 @@
                                 <country>GB</country>            
                                 <settlement>Cambridge</settlement>            
                                 <repository>University Library</repository>            
-                                <idno>Schnitzler, B 1</idno>
+                                <idno>Schnitzler, B&#160;1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S. Von Schnitzler beschriftet: »<quote>
+                                <p>eh. Brief, 1&#160;Bl., 4&#160;S. Von Schnitzler beschriftet: »<quote>
                               <hi rend="latintype">Adam</hi>
                            </quote>«. Von unbekannter Hand nummeriert: »<quote>11</quote>«.</p>
                             </physDesc>
@@ -76,18 +80,18 @@
             <language ident="de-AT">German</language>
          </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb12438">Adam, Robert</persName>
-                    <placeName key="pmb50">Wien</placeName>
-                    <date when="1918-12-08" n="01">8. 12. 1918</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb12438">Adam, Robert</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1918-12-08" n="01">8.&#160;12.&#160;1918</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1918-12-02_01">Adam an Schnitzler, 2. 12. 1918</ptr>
-               <ptr type="next" subtype="toAuthor" target="1918-12-20_01">Schnitzler an Adam, 20. 12. [1918]</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1918-12-02_01">Adam an Schnitzler, 2.&#160;12.&#160;1918</ptr>
+               <ptr type="next" subtype="toAuthor" target="1918-12-20_01">Schnitzler an Adam, 20.&#160;12.&#160;[1918]</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -98,20 +102,9 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                  <pb facs="gray00526.pdf"/>
-                  <placeName key="pmb50">Wien</placeName>, <date>8. Dezember 1918</date>
-               </dateline>
-                    <salute rend="center">Hochverehrter Herr Doktor!</salute>
-            </opener>
-                <p>Sie haben mir durch die Zuſendung von »<workName key="pmb30971">
-                  <hi rend="latintype">Casanovas Heimfahrt</hi>
-               </workName>« eine große Freude
-                    bereitet, und ich ſage Ihnen herzlichen Dank. Wie ſehr ich dieſe <rs type="work" key="pmb30971">Novelle</rs>, die
-                    ich zum erſtenmal während des Erſcheinens in der <workName key="pmb36156">Neuen Rundschau</workName> las, als die
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="gray00526.pdf"/><rs ref="#pmb50" type="place">Wien</rs>, <date>8.&#160;Dezember 1918</date></dateline><salute rend="center">Hochverehrter Herr Doktor!</salute></opener><p>Sie haben mir durch die Zuſendung von »<rs ref="#pmb30971" type="work"><hi rend="latintype">Casanovas Heimfahrt</hi></rs>« eine große Freude
+                    bereitet, und ich ſage Ihnen herzlichen Dank. Wie ſehr ich dieſe <rs type="work" ref="#pmb30971" subtype="implied">Novelle</rs>, die
+                    ich zum erſtenmal während des Erſcheinens in der <rs ref="#pmb36156" type="work">Neuen Rundschau</rs> las, als die
                     wundervoll-weiſe und ſüße Frucht einer Erzählermeiſterſchaft ſchätze, habe ich
                     Ihnen bereits geſagt. Wenn ich mich geneigt fühle, ſie allen Ihren früheren
                     epiſchen Arbeiten voranzuſtellen, mag mich vielleicht meine Vorliebe für den
@@ -123,23 +116,18 @@
                     und Lebloſe, das ſie umgibt, mit gewaltiger
                     Plaſtik, die doch nie aufhört, das einfachſte und ſelbſtverſtändlichſte Ding der
                     Welt zu ſcheinen, hingeſtellt und umriſſen iſt; daß auf allen der 181 Seiten des
-                    <rs type="work" key="pmb30971">Buchs</rs> kein Wort zuviel und daher unnütz zu ſein ſcheint, was mir als Merkzeichen
+                    <rs type="work" ref="#pmb30971" subtype="implied">Buchs</rs> kein Wort zuviel und daher unnütz zu ſein ſcheint, was mir als Merkzeichen
                     einer klaſſiſchen Arbeit gilt – das muß und wird jeder Kunſtverſtändige, wenn er
                     auch meine Spezialliebe zum Helden nicht teilt, aus vollem Herzen bezeugen. Ich
-                    bin ſchon außerordentlich auf Ihren jungen <rs type="work" key="pmb30819">
-                  <persName key="pmb3145">
-                     <hi rend="latintype">Casanova</hi>
-                  </persName> in <placeName key="pmb1266">Spaa</placeName>
-               </rs> begierig, den wir
+                    bin ſchon außerordentlich auf Ihren jungen <rs type="work" ref="#pmb30819" subtype="implied"><rs ref="#pmb3145" type="person"><hi rend="latintype">Casanova</hi></rs> in <rs ref="#pmb1266" type="place">Spaa</rs></rs> begierig, den wir
                     wohl ſchon längſt kennen gelernt hätten, wenn die politiſche Umwälzung nicht
                     gekommen wäre. Bis er erſcheint, will ich mir noch einmal, und nun mit Muße und
                     unabhängig von Fortſetzungen, den gealterten Sünder vornehmen und an Ihrem Werke
                     lernen, wie man klar und farbig und ſpannend und einfach und doch geiſtreich
                     erzählen kann: daß ich dies nicht kann und niemals können werde, iſt etwas, was
                     mich manchmal niedergeſchlagen, immer aber vor dem, der es kann, ehrfürchtig und
-                    beſcheiden <pb facs="gray00527.pdf"/>macht. –</p>
-                <p>Die Bitte, die ich in meinem letzten Briefe an Sie ſtellte – Sie möchten ſich
-                    über das Geſchick meiner zwei <rs type="work" key="pmb33604 pmb33606">Stücke</rs> gelegentlich 
+                    beſcheiden <pb facs="gray00527.pdf"/>macht.&#160;–</p><p>Die Bitte, die ich in meinem letzten Briefe an Sie ſtellte – Sie möchten ſich
+                    über das Geſchick meiner zwei <rs type="work" ref="#pmb33604 pmb33606" subtype="implied">Stücke</rs> gelegentlich 
                     erkundigen – iſt durch die
                     traurigen Ereigniſſe der letzten Woche gegenſtandslos geworden; Sie werden
                     einſehen, daß mich wirklich das Pech verfolgt – ich glaube ſogar, daß das
@@ -151,22 +139,15 @@
                     Erquickliches ringsum gibt, das aufheitern oder tröſten könnte – die
                     Verhältniſſe haben es mit ſich gebracht, daß ich, der noch vor kurzem aus dem
                     Staatsdienſt mich wegſehnte, um die mir noch etwa verbliebene Kraft frei
-                    verwerten zu können, nunmehr, beim Anblick ſo vieler <anchor type="commentary" xml:id="KL2021-1"/>
-               <rs type="person" key="pmb5859">Beliſare</rs>
-               <note type="commentary" xml:id="KL2021-1h">Hier wohl im Sinne der apokrpyhen
-                        Überlieferung, <persName key="pmb5859">Belisar</persName> hätte, nach seiner Zeit als Feldherr, die Augen ausgestochen
+                    verwerten zu können, nunmehr, beim Anblick ſo vieler <anchor type="commentary" xml:id="KL2021-1"/><rs type="person" ref="#pmb5859" subtype="implied">Beliſare</rs><note type="commentary" xml:id="KL2021-1h">Hier wohl im Sinne der apokrpyhen
+                        Überlieferung, <rs ref="#pmb5859" type="person">Belisar</rs> hätte, nach seiner Zeit als Feldherr, die Augen ausgestochen
                     bekommen und als Bettler auf der Straße gelebt.</note>, froh ſein muß,
                     ein feſtes Amt zu bekleiden, und nicht, wie ſo mancher meines Alters, auf
                     Stel<pb facs="gray00528.pdf"/>lungsſuche gehen zu müſſen. Daß ich aber in
-                    der hungernden und frierenden <rs type="place" key="pmb41240">Republik</rs> gerade ſo wie im Kaiſerſtaat Tag für Tag
+                    der hungernden und frierenden <rs type="place" ref="#pmb41240" subtype="implied">Republik</rs> gerade ſo wie im Kaiſerſtaat Tag für Tag
                     über Preistreibereien zu Gericht ſitze, als wäre gar nichts geſchehen, als
                     beſtünde noch der außerordentliche Kriegszuſtand, das kommt mir manchmal ſo
                     grauenhaft vor wie das Weiterwachſen der Haare einer Leiche, die verfault und
-                    zerfällt. –</p>
-                <closer>Nochmals beſten Dank! Und die herzlichsten Grüße von Ihrem<lb/>ergebenen<lb/>
-                    <signed>D<hi rend="superscript">r</hi>RAdam</signed>
-                </closer>
-            </div>
-        </body>
+                    zerfällt.&#160;–</p><closer>Nochmals beſten Dank! Und die herzlichsten Grüße von Ihrem<lb/>ergebenen<lb/><signed>D<hi rend="superscript">r</hi>RAdam</signed></closer></div></body>
     </text>
 </TEI>

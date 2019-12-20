@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1902-03-03_01_AS_Beer-Hofmann">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1902-03-03_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 3. 3. 1902</title>
-            <author key="pmb2121">Schnitzler, Arthur</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 3.&#160;3.&#160;1902</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -51,7 +55,7 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,8 +63,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author key="pmb2121">Schnitzler, Arthur</author>
-                     <author key="pmb10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -79,17 +83,17 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="sent">
-               <persName key="pmb2121">Schnitzler, Arthur</persName>
-               <placeName key="pmb50">Wien</placeName>
-               <date when="1902-03-03" n="01">3. 3. 1902</date>
+            <correspAction  type="sent">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1902-03-03" n="01">3.&#160;3.&#160;1902</date>
             </correspAction>
-            <correspAction type="received">
-               <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+            <correspAction  type="received">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1902-02-26_01">Schnitzler an Beer-Hofmann, 26. 2. 1902</ptr>
-               <ptr type="next" subtype="toAuthor" target="1902-03-08_02">Beer-Hofmann an Schnitzler, 8. 3. 1902</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1902-02-26_01">Schnitzler an Beer-Hofmann, 26.&#160;2.&#160;1902</ptr>
+               <ptr type="next" subtype="toAuthor" target="1902-03-08_02">Beer-Hofmann an Schnitzler, 8.&#160;3.&#160;1902</ptr>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -98,34 +102,10 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                  <supplied>
-                     <placeName key="pmb50">Wien</placeName>, <date when="1902-03-03">3. 3. 1902</date>
-                  </supplied>
-               </dateline>
-            </opener>
-            <p>
-               <salute>Lieber Richard, </salute>ich weiss nicht, ob Sie Sitze haben, jedenfalls
-               lasse ich Ihnen bis <date>Dinstag</date>
-               <space unit="chars" quantity="1"/>
-               <time>Mittag</time> an der <placeName key="pmb118">Carltheater</placeName> Casse
-               2 Parkets reserviren. Holen Sie sie nicht, so werden sie anderweitig verkauft. –
-               Sie haben sich also nicht weiter zu kümmern. –</p>
-            <p>Dem <persName key="pmb11740">Hugo</persName> sagen Sie bitte, aber sicher, dass
-                  <persName key="pmb10986">Brahm</persName>
-               <space unit="chars" quantity="1"/>
-               <date>Dinstag</date> nicht zu mir kommt.</p>
-            <p>– Ich hoffe übrigens <date>Sonntag</date>
-               <space unit="chars" quantity="1"/>
-               <time>Vormittag</time>
-               <space unit="chars" quantity="1"/>
-               <placeName key="pmb173">Rodaun</placeName> zu durchradeln.</p>
-            <closer>Herzlichst Ihr <signed>A.</signed>
-            </closer>
-         </div>
-      </body>
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><supplied><rs ref="#pmb50" type="place">Wien</rs>, <date when="1902-03-03">3.&#160;3.&#160;1902</date></supplied></dateline></opener><p><salute>Lieber Richard, </salute>ich weiss nicht, ob Sie Sitze haben, jedenfalls
+               lasse ich Ihnen bis <date>Dinstag</date><space unit="chars" quantity="1"/><time>Mittag</time> an der <rs ref="#pmb118" type="place">Carltheater</rs> Casse
+               2 Parkets reserviren. Holen Sie sie nicht, so werden sie anderweitig verkauft.&#160;–
+               Sie haben sich also nicht weiter zu kümmern.&#160;–</p><p>Dem <rs ref="#pmb11740" type="person">Hugo</rs> sagen Sie bitte, aber sicher, dass
+                  <rs ref="#pmb10986" type="person">Brahm</rs><space unit="chars" quantity="1"/><date>Dinstag</date> nicht zu mir kommt.</p><p>– Ich hoffe übrigens <date>Sonntag</date><space unit="chars" quantity="1"/><time>Vormittag</time><space unit="chars" quantity="1"/><rs ref="#pmb173" type="place">Rodaun</rs> zu durchradeln.</p><closer>Herzlichst Ihr <signed>A.</signed></closer></div></body>
    </text>
 </TEI>

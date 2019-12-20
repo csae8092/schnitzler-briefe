@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1912-09-26_01_Brandes_AS">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+     xml:id="L1912-09-26_01_Brandes_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Georg Brandes an Arthur Schnitzler, 26. 9. 1912</title>
-                <author key="pmb10992">Brandes, Georg</author>
+                <title level="a">Georg Brandes an Arthur Schnitzler, 26.&#160;9.&#160;1912</title>
+                <author ref="#pmb10992">Brandes, Georg</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
                     <name>Susen, Gerd-Hermann</name>
@@ -48,13 +52,13 @@
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
-                                <idno>Schnitzler, B 17</idno>
+                                <idno>Schnitzler, B&#160;17</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Postkarte, Lateinschrift, blaue Tinte. Von unbekannter Hand
                                     mit Bleistift nummeriert: »<quote>39</quote>«.</p>
                                 <stamp n="1">
-                                    <placeName key="pmb1132">Skagen</placeName>
+                                    <rs ref="#pmb1132" type="place">Skagen</rs>
                                     <date>26.9. 12</date>
                                     <time>12-3E</time>
                                 </stamp>
@@ -65,8 +69,8 @@
                 <listBibl>
                     <biblStruct corresp="ASGB">
                         <monogr>
-                            <author key="pmb10992">Brandes, Georg</author>
-                            <author key="pmb2121">Schnitzler, Arthur</author>
+                            <author ref="#pmb10992">Brandes, Georg</author>
+                            <author ref="#pmb2121">Schnitzler, Arthur</author>
                             <title level="m">Ein Briefwechsel</title>
                             <editor>Hg. Kurt Bergel</editor>
                             <imprint>
@@ -85,18 +89,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="pmb10992">Brandes, Georg</persName>
-                    <placeName key="pmb1132">Skagen</placeName>
-                    <date when="1912-09-26" n="01">26. 9. 1912</date>
+                <correspAction  type="sent">
+                    <persName ref="#pmb10992">Brandes, Georg</persName>
+                    <placeName ref="#pmb1132">Skagen</placeName>
+                    <date when="1912-09-26" n="01">26.&#160;9.&#160;1912</date>
                 </correspAction>
-                <correspAction type="received">
-                    <persName key="pmb2121">Schnitzler, Arthur</persName>
-                    <placeName key="pmb50">Wien</placeName>
+                <correspAction  type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
             <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1912-02-03_01">Brandes an Schnitzler, Schnitzler, 3. 2. 1912</ptr>
-               <ptr type="next" subtype="toAuthor" target="1912-11-20_01">Schnitzler an Brandes, 20. 11. 1912</ptr>
+               <ptr type="previous" subtype="toAuthor" target="1912-02-03_01">Brandes an Schnitzler, Schnitzler, 3.&#160;2.&#160;1912</ptr>
+               <ptr type="next" subtype="toAuthor" target="1912-11-20_01">Schnitzler an Brandes, 20.&#160;11.&#160;1912</ptr>
             </correspContext>
          </correspDesc>
         </profileDesc>
@@ -112,50 +116,9 @@
         <graphic url="MS-SCHNITZLER-B-00017-A-00001-000-00074"/>
     </facsimile>
     <text type="card">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                  <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00073"/>Herrn Dr. Arthur Schnitzler</addrLine>
-                    <addrLine>
-                  <placeName key="pmb150">Sternwartestrasse 71</placeName>
-               </addrLine>
-                    <addrLine>
-                  <placeName key="pmb68">Wien XVIII</placeName>
-               </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00074"/>
-                        <anchor type="commentary" xml:id="KL801-1"/>p. T.<note type="commentary" xml:id="KL801-1h">pro tempore, lat.: zur Zeit.</note>
-                        <space unit="chars" quantity="1"/>
-                        <placeName key="pmb1132">Skagen</placeName>
-                        <lb/>
-                        <placeName key="pmb434">
-                     <country>Dänemark</country>
-                  </placeName>
-                        <lb/>Adresse: <placeName key="pmb36300">Kopenhagen</placeName>
-                    </dateline>
-                    <salute>Verehrter Freund</salute>
-                </opener>
-                <p>Da es zehn oder elf Jahre her ist, dass ich in <placeName key="pmb50">Wien</placeName> war, habe ich um einen Vorwand zu haben, es wiederzusehen, mich
-                    engagiren lassen, ein Paar erbärmliche Vorträge zwischen <date>20</date>
-                    <space unit="chars" quantity="1"/>
-                    <del rend="strikethrough">
-                        <gap reason="illegible" unit="chars" quantity="1"/>
-                    </del> und <date>23 November</date> dort zu halten (<placeName key="pmb1013">
-                  <hi n="1" rend="underline">Urania</hi>
-               </placeName>). Da nun Sie ein Hauptstück von meinem <placeName key="pmb50">Wien</placeName> sind, möchte ich gerne wissen, ob Sie wol zu der Zeit sich in
-                        <placeName key="pmb50">Wien</placeName> befinden (nur auf einer Karte antworten).</p>
-                <p>Ich möchte noch gerne <persName key="pmb10863">Beer-Hoffmann</persName> und
-                        <persName key="pmb13055">Wassermann</persName> und <persName key="pmb11740">Hofmannsthal</persName> sehen, die ja alle <placeName key="pmb50">Wien</placeName>er sind; Sie sind aber für mich die Hauptperson.</p>
-                <closer>Ihr sehr ergebener<lb/>
-                    <signed>Georg Brandes</signed>
-                </closer>
-
-            </div>
-        </body>
+        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00073"/>Herrn Dr. Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb150" type="place">Sternwartestrasse 71</rs></addrLine><addrLine><rs ref="#pmb68" type="place">Wien XVIII</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00017-A-00001-000-00074"/><anchor type="commentary" xml:id="KL801-1"/>p.&#160;T.<note type="commentary" xml:id="KL801-1h">pro tempore, lat.: zur Zeit.</note><space unit="chars" quantity="1"/><rs ref="#pmb1132" type="place">Skagen</rs><lb/><rs ref="#pmb434" type="place"><country>Dänemark</country></rs><lb/>Adresse: <rs ref="#pmb36300" type="place">Kopenhagen</rs></dateline><salute>Verehrter Freund</salute></opener><p>Da es zehn oder elf Jahre her ist, dass ich in <rs ref="#pmb50" type="place">Wien</rs> war, habe ich um einen Vorwand zu haben, es wiederzusehen, mich
+                    engagiren lassen, ein Paar erbärmliche Vorträge zwischen <date>20</date><space unit="chars" quantity="1"/><del rend="strikethrough"><gap reason="illegible" unit="chars" quantity="1"/></del> und <date>23 November</date> dort zu halten (<rs ref="#pmb1013" type="place"><hi n="1" rend="underline">Urania</hi></rs>). Da nun Sie ein Hauptstück von meinem <rs ref="#pmb50" type="place">Wien</rs> sind, möchte ich gerne wissen, ob Sie wol zu der Zeit sich in
+                        <rs ref="#pmb50" type="place">Wien</rs> befinden (nur auf einer Karte antworten).</p><p>Ich möchte noch gerne <rs ref="#pmb10863" type="person">Beer-Hoffmann</rs> und
+                        <rs ref="#pmb13055" type="person">Wassermann</rs> und <rs ref="#pmb11740" type="person">Hofmannsthal</rs> sehen, die ja alle <rs ref="#pmb50" type="place">Wien</rs>er sind; Sie sind aber für mich die Hauptperson.</p><closer>Ihr sehr ergebener<lb/><signed>Georg Brandes</signed></closer></div></body>
     </text>
 </TEI>
