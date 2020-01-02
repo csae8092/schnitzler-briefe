@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1893-12-30_01_Bahr_AS">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1893-12-30_01_Bahr_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -55,19 +54,10 @@
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Postkarte, Bleistift. Von Schnitzler mit Bleistift beschriftet:
-                           »<quote>Bahr</quote>«. Von unbekannter Hand jeweils mit rotem Buntstift und
-                           Bleistift nummeriert: »<quote>17</quote>«.</p>
-                        <stamp n="1">
-                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
-                           <date when="1893-12-30">30<supplied>.</supplied> 12.&#160;93</date>
-                           <time>10–11N</time>
-                        </stamp>
-                        <stamp n="2">
-                           <action>bestellt</action>
-                           <rs ref="#pmb59" type="place">Wien 9/3</rs>
-                           <date when="1893-12-31">31.&#160;12.&#160;93</date>
-                           <time>2</time>
-                        </stamp>
+                              »<quote>Bahr</quote>«. Von unbekannter Hand jeweils mit rotem
+                           Buntstift und Bleistift nummeriert: »<quote>17</quote>«.</p>
+                        <stamp n="1"><placeName ref="#pmb51">Wien 1/1</placeName><date when="1893-12-30">30<supplied>.</supplied> 12.&#160;93</date><time>10–11N</time></stamp>
+                        <stamp n="2"><action>Bestellt</action><placeName ref="#pmb59">Wien 9/3</placeName><date when="1893-12-31">31.&#160;12.&#160;93</date><time>2</time></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -95,12 +85,12 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction  type="sent">
+            <correspAction type="sent">
                <persName ref="#pmb10815">Bahr, Hermann</persName>
                <placeName ref="#pmb50">Wien</placeName>
                <date when="1893-12-30" n="01">30.&#160;12.&#160;1893</date>
             </correspAction>
-            <correspAction  type="received">
+            <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                <placeName ref="#pmb50">Wien</placeName>
                <date when="1893-12-31">31.&#160;12.&#160;93</date>
@@ -124,7 +114,12 @@
       <graphic url="MS-B-00005-B-000-00029"/>
    </facsimile>
    <text type="card">
-      <body><div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00028"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><rs ref="#pmb51" type="place"><hi rend="latintype">Wien I</hi></rs></addrLine><addrLine><rs ref="#pmb397" type="place"><hi rend="latintype">Frankgasse 1.</hi></rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="MS-B-00005-B-000-00029"/>Möchten Sie mir, <salute>lieber Freund</salute>,
-               morgen Vormittag noch ſagen laſſen, in welchem Coſtüm man da eigentlich ko<c rendition="#gemination-m"/>t</p></div></body>
+      <body>
+         <div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00028"/>Herrn <hi rend="latintype">D<hi
+                        rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><rs ref="#pmb51" type="place"><hi rend="latintype">Wien I</hi></rs></addrLine><addrLine><rs ref="#pmb397" type="place"><hi rend="latintype">Frankgasse 1.</hi></rs></addrLine></address></div>
+         <div type="writingSession" n="1"><p><pb facs="MS-B-00005-B-000-00029"/>Möchten Sie mir, <salute>lieber Freund</salute>,
+               morgen Vormittag noch ſagen laſſen, in welchem Coſtüm man da eigentlich ko<c
+                  rendition="#gemination-m"/>t</p></div>
+      </body>
    </text>
 </TEI>

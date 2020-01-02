@@ -57,14 +57,8 @@
                      </msIdentifier>
                      <physDesc>
                         <p>Kartenbrief.</p>
-                        <stamp n="1">
-                           <rs ref="#pmb50" type="place">Wien</rs>
-                           <date when="1905-09-19">19.&#160;IX.&#160;05</date>
-                        </stamp>
-                        <stamp n="2">
-                           <rs ref="#pmb63" type="place">Wien 13/7</rs>
-                           <date when="1905-09-19">19.&#160;9.&#160;05</date>
-                        </stamp>
+                        <stamp n="1"><placeName ref="#pmb50">Wien</placeName><date when="1905-09-19">19.&#160;IX.&#160;05</date></stamp>
+                        <stamp n="2"><placeName ref="#pmb63">Wien 13/7</placeName><date when="1905-09-19">19.&#160;9.&#160;05</date></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -139,8 +133,11 @@
       <graphic url="HS_AM23377Ba"/>
      <graphic url="HS_AM23377Ba_R"/>
    </facsimile>
-  <text type="card">
-      <body><div type="address"><address><addrLine><pb facs="HS_AM23377Ba"/><hi rend="latintype">Herrn Hermann Bahr</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb165" type="place">Wien Ober St Veit</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb220" type="place">Veitlissengasse</rs></hi></addrLine></address></div><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></seg><seg rend="right"><date>18/9 905</date></seg></p><p><hi rend="pre-print"><rs ref="#pmb133" type="place">Wien, XVIII. Spoettelgasse 7</rs>.</hi></p></opener><p><salute>lieber Hermann, </salute>herzlichen Dank für deinen Brief. Es ist mir sehr wahrscheinlich, dass du in
+  <text type="letter-card">
+      <body> 
+         <div type="address"><address><addrLine><pb facs="HS_AM23377Ba"/><hi rend="latintype">Herrn Hermann Bahr</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb165" type="place">Wien Ober St Veit</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb220" type="place">Veitlissengasse</rs></hi></addrLine></address></div> 
+         
+         <div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></seg><seg rend="right"><date>18/9 905</date></seg></p><p><hi rend="pre-print"><rs ref="#pmb133" type="place">Wien, XVIII. Spoettelgasse 7</rs>.</hi></p></opener><p><salute>lieber Hermann, </salute>herzlichen Dank für deinen Brief. Es ist mir sehr wahrscheinlich, dass du in
           deinem Bedenken gegen den <rs type="work" ref="#pmb29905" subtype="implied">2. Akt</rs> recht hast –
           vielleicht spricht sogar <hi rend="underline" n="1">dafür</hi>, dss er beim
           Vorlesen immer am stärksten wirkte. Ob es aber in der Oekonomie gerade dieses
@@ -152,6 +149,7 @@
             <date>22.</date>, auf den <rs ref="#pmb189" type="place">Semmering</rs> und kehrte am
             Donnerstag, den <date>26.</date>, zurück.</note>; aber dann muss man sich doch
           wirklich endlich, endlich sehn. Das <hi rend="latintype"><rs type="work" ref="#pmb29905" subtype="implied">Mscrpt</rs></hi> schicke mir gelegentlich, da ich nur
-          1 Ex. daheim habe, u das wieder fortschicken muss. – </p><closer>Herzlichst dein<lb/><signed>A. </signed></closer></div></body>
+          1 Ex. daheim habe, u das wieder fortschicken muss. – </p><closer>Herzlichst dein<lb/><signed>A. </signed></closer></div>
+      </body>
   </text>
 </TEI>

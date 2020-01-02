@@ -57,17 +57,8 @@
                      <physDesc>
                         <p>eh. Postkarte, blauer Buntstift; Lateinschrift. Von unbekannter Hand mit
                            Bleistift nummeriert: »<quote>83</quote>«.</p>
-                        <stamp n="1">
-                           <rs ref="#pmb662" type="place">Baden 1</rs>
-                           <date>10.&#160;9.&#160;96</date>
-                           <time>7–8&#160;N</time>
-                        </stamp>
-                        <stamp n="2">
-                           <rs ref="#pmb59" type="place">Wien 9/3</rs>
-                           <date>11.&#160;9.&#160;96</date>
-                           <time>8.V</time>
-                           <action>Bestellt</action>
-                        </stamp>
+                        <stamp n="1"><placeName ref="#pmb662">Baden 1</placeName><date>10.&#160;9.&#160;96</date><time>7–8&#160;N</time></stamp>
+                        <stamp n="2"><placeName ref="#pmb59">Wien 9/3</placeName><date>11.&#160;9.&#160;96</date><time>8.V</time><action>Bestellt</action></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -123,8 +114,12 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00180"/>
    </facsimile>
    <text type="card">
-      <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00180"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb397" type="place">IX Frankgasse 1</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00179"/><date when="1896-09-10">10/IX 96</date></dateline></opener><p><salute>Lieber Arthur! </salute>War gestern in <rs ref="#pmb50" type="place">Wien</rs> habe Sie vergeblich antelefonirt. Ich bleibe bis –&#160;– ungefähr
+      <body>
+         <div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00180"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb397" type="place">IX Frankgasse 1</rs></addrLine></address></div>
+         <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00179"/><date when="1896-09-10">10/IX 96</date></dateline></opener><p><salute>Lieber Arthur! </salute>War gestern in <rs ref="#pmb50" type="place">Wien</rs> habe Sie vergeblich antelefonirt. Ich bleibe bis –&#160;– ungefähr
                Ende des Monats. Ich arbeite – Ja – wirklich – ganz wirklich, und bin sehr erstaunt
-               und erschreckt darüber. Herzlichst Ihr <signed>R.</signed></p></div></body>
+               und erschreckt darüber. Herzlichst Ihr <signed>R.</signed></p></div>
+
+      </body>
    </text>
 </TEI>

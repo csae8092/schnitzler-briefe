@@ -56,17 +56,8 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Postkarte (Rohrpost), Bleistift.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb51" type="place">Wien 1/1</rs>
-                                    <date when="1897-03-17">18 <supplied>3. 1897</supplied>
-                           </date>
-                                    <time>7&#160;30&#160;V</time>
-                                </stamp>
-                                <stamp n="2">
-                                    <rs ref="#pmb51" type="place">Wien 1/1</rs>
-                                    <date when="1897-03-17">18 III 97</date>
-                                    <time>7&#160;40&#160;V</time>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb51">Wien 1/1</placeName><date when="1897-03-17">18 <supplied>3. 1897</supplied></date><time>7&#160;30&#160;V</time></stamp>
+                                <stamp n="2"><placeName ref="#pmb51">Wien 1/1</placeName><date when="1897-03-17">18 III 97</date><time>7&#160;40&#160;V</time></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -105,7 +96,10 @@
         <graphic url="1897_AS_RBH_1_00019.jpeg"/>
     </facsimile>
     <text type="card">
-        <body><div type="address"><address><addrLine><pb facs="1897_AS_RBH_1_00018.jpeg"/>Herrn Dr <hi rend="latintype">Richard Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I. Wollzeile 15</rs>.</hi></addrLine></address></div><div type="writingSession" n="1"><p rend="center"><pb facs="1897_AS_RBH_1_00018.jpeg"/><rs ref="#pmb77" type="place">Raimundtheater</rs></p><p>Vergeſſen Sie es nicht!<lb/>2 <anchor type="commentary" xml:id="KLM20191112-3"/><rs type="work" ref="#pmb31957" subtype="implied">Sitze</rs><note type="commentary" xml:id="KLM20191112-3h"><rs ref="#pmb2121" type="person">Schnitzler</rs> besuchte die Premiere von <rs ref="#pmb31957" type="work">Die Sklavin</rs>. (<bibl>CUL,
-                        A&#160;179a)</bibl></note>! mir ſchicken!</p><closer>Herzliche Grüße von <signed>Richard</signed></closer><p><anchor type="textConst" xml:id="TG20"/>Von mir keine Grüße<note type="textConst" xml:id="TG20h">am oberen Rand auf dem Kopf</note><signed>Arth</signed></p></div></body>
+        <body>
+            <div type="address"><address><addrLine><pb facs="1897_AS_RBH_1_00018.jpeg"/>Herrn Dr <hi rend="latintype">Richard Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I. Wollzeile 15</rs>.</hi></addrLine></address></div>
+            <div type="writingSession" n="1"><p rend="center"><pb facs="1897_AS_RBH_1_00018.jpeg"/><rs ref="#pmb77" type="place">Raimundtheater</rs></p><p>Vergeſſen Sie es nicht!<lb/>2 <anchor type="commentary" xml:id="KLM20191112-3"/><rs type="work" ref="#pmb31957" subtype="implied">Sitze</rs><note type="commentary" xml:id="KLM20191112-3h"><rs ref="#pmb2121" type="person">Schnitzler</rs> besuchte die Premiere von <rs ref="#pmb31957" type="work">Die Sklavin</rs>. (<bibl>CUL,
+                        A&#160;179a)</bibl></note>! mir ſchicken!</p><closer>Herzliche Grüße von <signed>Richard</signed></closer><p><anchor type="textConst" xml:id="TG20"/>Von mir keine Grüße<note type="textConst" xml:id="TG20h">am oberen Rand auf dem Kopf</note><signed>Arth</signed></p></div>
+        </body>
     </text>
 </TEI>

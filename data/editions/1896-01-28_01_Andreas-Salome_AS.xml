@@ -57,19 +57,8 @@
                             <physDesc>
                                 <p>eh. Kartenbrief, schwarze Tinte. Von unbekannter Hand mit
                                     Bleistift nummeriert: »<quote>17</quote>«.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb51" type="place">Wien 1/1</rs>
-                                    <date>28.1.96 </date>
-                                    <time>9 10 N</time>
-                                </stamp>
-                                <stamp n="2">
-                                    <rs ref="#pmb59" type="place">Wien <supplied>9/3</supplied>
-                                    </rs>
-                                    <date>29.1<supplied>.96</supplied>
-                                    </date>
-                                    <time>8 <supplied>V</supplied>
-                                    </time>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb51">Wien 1/1</placeName><date>28.1.96 </date><time>9 10 N</time></stamp>
+                                <stamp n="2"><placeName ref="#pmb59">Wien <supplied>9/3</supplied></placeName><date>29.1<supplied>.96</supplied></date><time>8 <supplied>V</supplied></time></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -108,11 +97,14 @@
         <graphic url="MS-SCHNITZLER-B-00003-000-00037"/>
         <graphic url="MS-SCHNITZLER-B-00003-000-00038"/>
     </facsimile>
-    <text type="letter">
-        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00003-000-00037"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi></hi></addrLine><addrLine><hi rend="latintype">Arthur Schnitzler</hi></addrLine><addrLine><hi rend="latintype">Wien IX</hi></addrLine><addrLine><rs ref="#pmb397" type="place">Frankgasse 1.</rs></addrLine></address></div><div type="writingSession" n="1"><p><salute><pb facs="MS-SCHNITZLER-B-00003-000-00038"/>Lieber Herr <hi rend="latintype">D<hi rend="superscript">r</hi></hi>, </salute>danke für Ihren Beſuch. ich ſchlief ſo feſt, daß ich Sie
+    <text type="letter-card">
+        <body>
+            <div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00003-000-00037"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi></hi></addrLine><addrLine><hi rend="latintype">Arthur Schnitzler</hi></addrLine><addrLine><hi rend="latintype">Wien IX</hi></addrLine><addrLine><rs ref="#pmb397" type="place">Frankgasse 1.</rs></addrLine></address></div>
+            <div type="writingSession" n="1"><p><salute><pb facs="MS-SCHNITZLER-B-00003-000-00038"/>Lieber Herr <hi rend="latintype">D<hi rend="superscript">r</hi></hi>, </salute>danke für Ihren Beſuch. ich ſchlief ſo feſt, daß ich Sie
                     nicht einmal klopfen gehört habe. Sie werden vor mir in <rs ref="#pmb168" type="place">Berlin</rs> ſein: wollen Sie ſo gut ſein, mir <hi n="1" rend="underline">hierher nach <rs ref="#pmb50" type="place">Wien</rs></hi> eine Karte mit Angabe Ihrer Hôteladreſſe zu ſchicken? ich ſuche Sie gleich
                     auf, ſobald ich ankomme, – <hi n="1" rend="underline">wenn</hi> ich ankomme.
                     Aber ich weiß es, von Stunde zu Stunde, nicht, wann das ſein wird.</p><p>Sie werden gewiß viel Freude in <rs ref="#pmb168" type="place">Berlin</rs>
-                    erleben; ich wünſche Ihnen eine gute <rs type="work" ref="#pmb29917" subtype="implied">Beſetzung</rs> und viel, viel Glück.</p><closer>Herzlich Ihre<lb/><signed>LouAS.</signed></closer></div></body>
+                    erleben; ich wünſche Ihnen eine gute <rs type="work" ref="#pmb29917" subtype="implied">Beſetzung</rs> und viel, viel Glück.</p><closer>Herzlich Ihre<lb/><signed>LouAS.</signed></closer></div>
+        </body>
     </text>
 </TEI>

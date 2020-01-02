@@ -56,17 +56,8 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Postkarte, Bleistift.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb59" type="place">Wien 9/3</rs>
-                                    <date when="1894-10-09">9.&#160;10.&#160;94</date>
-                                    <time>5–6 N</time>
-                                </stamp>
-                                <stamp n="2">
-                                    <rs ref="#pmb445" type="place">Roma</rs>
-                                    <date when="1894-11-10">11 10 <supplied>94</supplied>
-                                    </date>
-                                    <time>8 M</time>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb59">Wien 9/3</placeName><date when="1894-10-09">9.&#160;10.&#160;94</date><time>5–6 N</time></stamp>
+                                <stamp n="2"><placeName ref="#pmb445">Roma</placeName><date when="1894-11-10">11 10 <supplied>94</supplied></date><time>8 M</time></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -123,7 +114,9 @@
         <graphic url="1894_AS_RBH_3_00031.jpeg"/>
     </facsimile>
     <text type="letter">
-        <body><div type="address"><address><addrLine><pb facs="1894_AS_RBH_3_00030"/><hi rend="latintype"><rs ref="#pmb40306" type="place"><country>Italien</country></rs></hi></addrLine><addrLine><hi rend="latintype">Dr. Rich Beer-Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb445" type="place">Rom</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb769" type="place">Hotel Quirinal</rs></hi></addrLine></address></div><div type="writingSession" n="1"><opener><p><pb facs="1894_AS_RBH_3_00031"/><rs ref="#pmb50" type="place"><unclear>Wien</unclear></rs></p><dateline rend="right"><date>Dienstag, 9.&#160;10.&#160;94</date>.</dateline></opener><p><salute>Lieber Richard, </salute>bitte theilen Sie mir mit, ob Sie meinen Brief
+        <body>
+            <div type="address"><address><addrLine><pb facs="1894_AS_RBH_3_00030"/><hi rend="latintype"><rs ref="#pmb40306" type="place">Italien</rs></hi></addrLine><addrLine><hi rend="latintype">Dr. Rich Beer-Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb445" type="place">Rom</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb769" type="place">Hotel Quirinal</rs></hi></addrLine></address></div>
+            <div type="writingSession" n="1"><opener><p><pb facs="1894_AS_RBH_3_00031"/><rs ref="#pmb50" type="place"><unclear>Wien</unclear></rs></p><dateline rend="right"><date>Dienstag, 9.&#160;10.&#160;94</date>.</dateline></opener><p><salute>Lieber Richard, </salute>bitte theilen Sie mir mit, ob Sie meinen Brief
                         <rs ref="#pmb445" type="place">Rom</rs><space unit="chars" quantity="1"/><hi rend="latintype">a post. ferm</hi> der »Lieber Bekannter« anfing, nicht
                     erhalten haben. Und die 2 Karten nach <rs ref="#pmb975" type="place">Pallanza</rs>? –</p><p><rs ref="#pmb10815" type="person"><hi rend="latintype">Bahr</hi></rs>: <rs ref="#pmb770" type="place">Wien, VIII <hi rend="latintype">Lammgasse</hi> 3</rs>. Er hat ſich ſehr über Ihr Telegr.
                     gefreut. Erſte <rs type="organisation" ref="#pmb29209" subtype="implied">Nu<c rendition="#gemination-m"/>er</rs> wohlgelungen. <hi rend="latintype"><anchor type="commentary" xml:id="KL642-1"/><rs type="work" ref="#pmb31363" subtype="implied"><rs ref="#pmb2713" type="person">Helferich</rs></rs><note type="commentary" xml:id="KL642-1h"><bibl><rs ref="#pmb2713" type="person">Hermann Helferich</rs>: <rs ref="#pmb31363" type="work">»Schöne Frauen«</rs>. In: <rs ref="#pmb36340" type="work">Die Zeit</rs>, Bd.&#160;1, Nr.&#160;1,
@@ -132,6 +125,7 @@
                         Heft.</note>, beſonders <anchor type="commentary" xml:id="KL642-2"/><rs ref="#pmb32209" type="work">Burgtheater</rs><note type="commentary" xml:id="KL642-2h"><bibl><rs ref="#pmb10815" type="person">Hermann Bahr</rs>: <rs ref="#pmb32209" type="work">Burgtheater</rs>. In: <rs ref="#pmb36340" type="work">Die Zeit</rs>, Bd.&#160;1, Nr.&#160;1, <date>6.&#160;10.&#160;1894</date>,
                             S.&#160;9–10</bibl>.</note> vorzüglich. –</p><p><rs ref="#pmb30397" type="work">Schmetterlingsſchlacht</rs> noch nicht geſehen,
                     will Freitag gehen. – Schreiben Sie mehr, wann ko<c rendition="#gemination-m"/>en Sie?</p><closer>Herzlichen Gruſs<space unit="chars" quantity="3"/>Ihr
-                        <signed>Arthur</signed></closer></div></body>
+                        <signed>Arthur</signed></closer></div>
+        </body>
     </text>
 </TEI>

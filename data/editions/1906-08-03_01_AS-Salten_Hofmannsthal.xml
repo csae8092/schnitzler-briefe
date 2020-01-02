@@ -57,14 +57,8 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Bildpostkarte, 2 Verfasser, Tinte. Salten schreibt in Lateinschrift.
-                                        Motiv:»<quote>
-                              <pb facs="Hs-25714_001.tif"/>
-                                    <rs ref="#pmb1284" type="place">Krenborg Slot</rs>.</quote>«</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb726" type="place">Helsingør</rs>
-                                    <date when="1906-08-03">3.&#160;8.&#160;<supplied>1906</supplied>
-                                    </date>
-                                </stamp>
+                                        Motiv:»<quote><pb facs="Hs-25714_001.tif"/><rs ref="#pmb1284" type="place">Krenborg Slot</rs>.</quote>«</p>
+                                <stamp n="1"><placeName ref="#pmb726">Helsingør</placeName><date when="1906-08-03">3.&#160;8.&#160;<supplied>1906</supplied></date></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -101,7 +95,11 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body><div type="address"><address><addrLine><pb facs="Hs-25714_002.tif"/><rs ref="#pmb41240" type="place"><country>Österreich</country></rs></addrLine><addrLine>Herrn D<hi rend="superscript">r</hi> Hugo v. Hofmannsthal</addrLine><addrLine><rs ref="#pmb186" type="place">Lueg <hi rend="superscript">bei</hi>/St Gilgen am
-    Wolfgangsee</rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="Hs-25714_002.tif"/>Kommender Tage froh gedenkend herzlichst <signed>Salten</signed></p><p><handShift scribe="pmb2121"/>Herzliche Grüße. Ihr <signed>Arthur</signed></p></div></body>
+        <body>
+            <div type="address"><address><addrLine><pb facs="Hs-25714_002.tif"/><rs ref="#pmb41240" type="place">Österreich
+</rs></addrLine><addrLine>Herrn D<hi rend="superscript">r</hi> Hugo v. Hofmannsthal</addrLine><addrLine><rs ref="#pmb186" type="place">Lueg <hi rend="superscript">bei</hi>/St Gilgen am
+    Wolfgangsee</rs></addrLine></address></div>
+            <div type="writingSession" n="1"><p><pb facs="Hs-25714_002.tif"/>Kommender Tage froh gedenkend herzlichst <signed>Salten</signed></p><p><handShift scribe="#pmb2121"/>Herzliche Grüße. Ihr <signed>Arthur</signed></p></div>
+        </body>
     </text>
 </TEI>

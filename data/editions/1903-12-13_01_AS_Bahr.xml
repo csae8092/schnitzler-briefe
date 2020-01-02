@@ -56,24 +56,11 @@
                         <idno>HS AM 23362 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>ms. Telegramm, »<quote>aufgenommen den <date>23/12</date> um <time>11 Uhr 57 M</time>
-                           </quote>«, ausgefertigt mit 
-                           Tinte, von »<quote>
-                              <rs ref="#pmb27690" type="person">Schott</rs>
-                           </quote>« signiert und mit 
-                           weiterer Empfängeradresse versehen: »<quote>
-                              <rs ref="#pmb215" type="place">N.W.7 Hotel de Rom</rs> zu bestellen</quote>«</p>
-                        <stamp n="1">
-                           <rs ref="#pmb168" type="place">Berlin N.&#160;W. 6</rs>
-                           <date when="1903-12-13">13.&#160;12.&#160;03.</date>
-                           <time>12<hi rend="superscript">20</hi>
-                           </time>
-                        </stamp>
-                        <stamp n="2">
-                           <action>Ausgefertigt</action>
-                           <date when="1903-12-13">13 Dec. <supplied>1903</supplied>
-                           </date>
-                        </stamp>
+                        <p>ms. Telegramm, »<quote>aufgenommen den <date>23/12</date> um <time>11 Uhr 57 M</time></quote>«, ausgefertigt mit 
+                           Tinte, von »<quote><rs ref="#pmb27690" type="person">Schott</rs></quote>« signiert und mit 
+                           weiterer Empfängeradresse versehen: »<quote><rs ref="#pmb215" type="place">N.W.7 Hotel de Rom</rs> zu bestellen</quote>«</p>
+                        <stamp n="1"><placeName ref="#pmb168">Berlin N.&#160;W. 6</placeName><date when="1903-12-13">13.&#160;12.&#160;03.</date><time>12<hi rend="superscript">20</hi></time></stamp>
+                        <stamp n="2"><action>Ausgefertigt</action><date when="1903-12-13">13 Dec. <supplied>1903</supplied></date></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -147,7 +134,10 @@
       <graphic url="HS_AM23362Ba"/>     
    </facsimile>
   <text type="telegram">
-      <body><div type="address"><address><addrLine><pb facs="HS_AM23362Ba"/>hermann bahr <rs ref="#pmb3" type="place">berlin deutsches theater</rs></addrLine></address></div><div type="writingSession" n="1"><p>herzlichen <anchor type="commentary" xml:id="KL067-1"/>glueckwunsch<note type="commentary" xml:id="KL067-1h">Am <date>12.&#160;12.&#160;1903</date> Uraufführung von
-                <rs ref="#pmb29983" type="work">Der Meister</rs> im <rs ref="#pmb3" type="place">Deutschen Theater</rs> in <rs ref="#pmb168" type="place">Berlin</rs>.</note> und gruss dein arthur schnitzler</p></div></body>
+      <body> 
+         <div type="address"><address><addrLine><pb facs="HS_AM23362Ba"/>hermann bahr <rs ref="#pmb3" type="place">berlin deutsches theater</rs></addrLine></address></div> 
+         <div type="writingSession" n="1"><p>herzlichen <anchor type="commentary" xml:id="KL067-1"/>glueckwunsch<note type="commentary" xml:id="KL067-1h">Am <date>12.&#160;12.&#160;1903</date> Uraufführung von
+                <rs ref="#pmb29983" type="work">Der Meister</rs> im <rs ref="#pmb3" type="place">Deutschen Theater</rs> in <rs ref="#pmb168" type="place">Berlin</rs>.</note> und gruss dein arthur schnitzler</p></div>
+      </body>
   </text>
 </TEI>

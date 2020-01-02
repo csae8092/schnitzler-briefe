@@ -55,15 +55,8 @@
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Brief mit Umschlag, 1&#160;Bl., 4&#160;S., Bleistift.</p>
-                        <stamp n="1">
-                           <rs ref="#pmb883" type="place">Wiesbaden</rs>
-                           <date>29.&#160;9.&#160;99</date>
-                           <time>9-10N</time>
-                        </stamp>
-                        <stamp n="2">
-                           <rs ref="#pmb40832" type="place">St. Michael in Eppan</rs>
-                           <date>2&#160;10&#160;99</date>
-                        </stamp>
+                        <stamp n="1"><placeName ref="#pmb883">Wiesbaden</placeName><date>29.&#160;9.&#160;99</date><time>9-10N</time></stamp>
+                        <stamp n="2"><placeName ref="#pmb40832">St. Michael in Eppan</placeName><date>2&#160;10&#160;99</date></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -116,12 +109,14 @@
       <graphic url="1899_AS_RBH_3_00017.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body><div type="address"><address><addrLine><pb facs="1899_AS_RBH_3_00015.jpeg"/><hi rend="latintype">Arthur
+      <body>
+         <div type="address"><address><addrLine><pb facs="1899_AS_RBH_3_00015.jpeg"/><hi rend="latintype">Arthur
                      Schnitzler</hi><space unit="chars" quantity="1"/><rs ref="#pmb59" type="place">Wien
                      IX.</rs><space unit="chars" quantity="1"/><hi rend="latintype"
                         ><rs ref="#pmb397" type="place">Frankgasse</rs></hi></addrLine></address><address><addrLine><pb facs="1899_AS_RBH_3_00014.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
                      Beer-Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb40832" type="place">St. Michael in
-                        Eppan</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1899_AS_RBH_3_00016.jpeg"/><salute>Mein lieber Richard, </salute>wo iſt
+                        Eppan</rs></hi></addrLine></address></div>
+         <div type="writingSession" n="1"><p><pb facs="1899_AS_RBH_3_00016.jpeg"/><salute>Mein lieber Richard, </salute>wo iſt
                das, <rs ref="#pmb40832" type="place"><hi rend="latintype">St Michael</hi> in
                   Eppan</rs>? – Wie ſind Sie auf die Idee gekommen? Wie lang bleiben Sie
                dort?&#160;– In welchem <rs type="work" ref="#pmb30233" subtype="implied">Akt</rs> ſind Sie? Wie iſt
@@ -139,7 +134,8 @@
                   quantity="1"/><rs ref="#pmb545" type="place"><hi rend="latintype">Hotel
                   Savoy</hi></rs>, ich denke dſs ich vom nächſten <date>Dinſtag 3.</date>&#160;–
                bis <date>So<c rendition="#gemination-n"/>tag</date> dort ſein werde.</p><p>Grüßen Sie <rs type="person" ref="#pmb10860" subtype="implied">Frau</rs> und <rs type="person"
-                  ref="#pmb2534 pmb2668" subtype="implied">Kinder</rs>.</p><p>Leben Sie wohl.</p><closer>Herzlichſt Ihr<lb/><signed>Arthur</signed></closer><postscript><p><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date>29.
-                     9. 99.</date></p></postscript></div></body>
+                  ref="#pmb2534 #pmb2668" subtype="implied">Kinder</rs>.</p><p>Leben Sie wohl.</p><closer>Herzlichſt Ihr<lb/><signed>Arthur</signed></closer><postscript><p><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date>29.
+                     9. 99.</date></p></postscript></div>
+      </body>
    </text>
 </TEI>

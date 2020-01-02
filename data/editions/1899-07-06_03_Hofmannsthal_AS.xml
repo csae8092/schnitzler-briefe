@@ -55,24 +55,10 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Postkarte, schwarze Tinte. Von Schnitzler mit Bleistift die
-                                    Jahreszahl ergänzt: »<quote>
-                                        <date>99</date>
-                                    </quote>«. Von unbekannter Hand mit Bleistift nummeriert: »<quote>
-                                        <del rend="strikethrough">152</del>
-                                    </quote>«. Von weiterer Hand mit Bleistift nummeriert:
+                                    Jahreszahl ergänzt: »<quote><date>99</date></quote>«. Von unbekannter Hand mit Bleistift nummeriert: »<quote><del rend="strikethrough">152</del></quote>«. Von weiterer Hand mit Bleistift nummeriert:
                                         »<quote>149</quote>«.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb772" type="place">Marienbad</rs>
-                                    <date>6.&#160;7.&#160;1899</date>
-                                    <time>2</time>
-                                </stamp>
-                                <stamp n="2">
-                                    <rs ref="#pmb59" type="place">Wien 9/3</rs>
-                                    <date>7.&#160;7.&#160;1899</date>
-                                    <time>9.<supplied>V</supplied>
-                                    </time>
-                                    <action>BESTELLT</action>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb772">Marienbad</placeName><date>6.&#160;7.&#160;1899</date><time>2</time></stamp>
+                                <stamp n="2"><placeName ref="#pmb59">Wien 9/3</placeName><date>7.&#160;7.&#160;1899</date><time>9.<supplied>V</supplied></time><action>BESTELLT</action></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -127,9 +113,12 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00328"/>
     </facsimile>
     <text type="card">
-        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00327"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
-                            Schnitzler</hi></addrLine><addrLine><hi rend="latintype">IX Wien</hi></addrLine><addrLine><rs ref="#pmb397" type="place"><hi rend="latintype">Franckgasse 1</hi></rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00328"/><rs ref="#pmb772" type="place">Marienbad</rs><lb/><rs ref="#pmb35066" type="place">Hotel Klinger</rs><lb/><date>6<hi rend="superscript">ten</hi> July</date></dateline></opener><p>Sie haben verſprochen, mich nicht zu lange Zeit ohne Kenntnis Ihrer Adreſſe zu
+        <body>
+            <div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00327"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
+                            Schnitzler</hi></addrLine><addrLine><hi rend="latintype">IX Wien</hi></addrLine><addrLine><rs ref="#pmb397" type="place"><hi rend="latintype">Franckgasse 1</hi></rs></addrLine></address></div>
+            <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00328"/><rs ref="#pmb772" type="place">Marienbad</rs><lb/><rs ref="#pmb35066" type="place">Hotel Klinger</rs><lb/><date>6<hi rend="superscript">ten</hi> July</date></dateline></opener><p>Sie haben verſprochen, mich nicht zu lange Zeit ohne Kenntnis Ihrer Adreſſe zu
                     laſſen; die <rs ref="#pmb543" type="place">croatiſche</rs> iſt wohl lange nicht
-                    mehr gültig?</p><closer>Herzlich<lb/><signed>Hugo.</signed></closer></div></body>
+                    mehr gültig?</p><closer>Herzlich<lb/><signed>Hugo.</signed></closer></div>
+        </body>
     </text>
 </TEI>

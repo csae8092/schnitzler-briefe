@@ -19,8 +19,7 @@
                     <address>
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
-                        <rs type="place">
-                            <country>A</country> Wien </rs>
+                        <placeName><country>A</country> <settlement>Wien</settlement> </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -57,17 +56,9 @@
                                     handschriftliche Kommas, eine Streichung eines Halbsatzes durch
                                     Einklammerung und Unterstreichungen zur archivalischen
                                     Verwahrung von Schnitzler. Beschriftet von Schnitzler
-                                            mit: »<quote>
-                              <hi rend="latintype">Mann,
-                                        Thomas</hi>
-                           </quote>«, »<quote>
-                              <rs ref="#pmb29574" type="organisation">
-                                 <hi rend="latintype">Book of M
-                                        Club</hi>
-                              </rs>
-                           </quote>«, »<quote>
-                              <rs ref="#pmb38129" type="place">München</rs>
-                           </quote>«.</p>
+                                            mit: »<quote><hi rend="latintype">Mann,
+                                        Thomas</hi></quote>«, »<quote><rs ref="#pmb29574" type="organisation"><hi rend="latintype">Book of M
+                                        Club</hi></rs></quote>«, »<quote><rs ref="#pmb38129" type="place">München</rs></quote>«.</p>
                      </physDesc>
                         </msDesc>
                     </witness>
@@ -117,7 +108,8 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>30.&#160;1.&#160;1929</date>.</dateline><salute>Lieber und verehrter Herr Thomas Mann.</salute></opener><p>Sie haben jedenfalls vom »<rs ref="#pmb29574" type="organisation">Book-of-the-Month
+        <body>
+            <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>30.&#160;1.&#160;1929</date>.</dateline><salute>Lieber und verehrter Herr Thomas Mann.</salute></opener><p>Sie haben jedenfalls vom »<rs ref="#pmb29574" type="organisation">Book-of-the-Month
                         Club</rs>« ein ähnliches Schreiben erhalten wie ich und man hat auch
                     Ihnen einen gewissen Betrag, sozusagen einen jährlichen Gehalt, offeriert, um
                     als Mitglied eines <anchor type="textConst" xml:id="TLM20191125-2"/>Advisory
@@ -137,6 +129,7 @@
                     verehrter Herr Thomas Mann, würden Sie mich sehr verbinden.</p><p>Ich habe sehr bedauert<add place="inline">,</add> Ihnen anlässlich Ihres letzten
                     Besuchs in <rs ref="#pmb50" type="place">Wien</rs> nicht begegnet zu sein. Ein
                     nächstes Mal, sei es hier, sei es anderswo, hoffe ich nicht nur Gelegenheit <del rend="erased">sondern acuh die erwünschte innere Verfassung)</del><space unit="chars" quantity="1"/><pb/>zu finden, sondern auch <del rend="strikethrough">in</del> wieder in der inneren Verfassung zu sein<add place="inline">,</add> Ihnen die Hand zu drücken und mich an vernünftigen
-                    und fruchtbaren Gesprächen zu beteiligen.</p><closer>Mit den herzlichsten Grüssen<lb/>Ihr wärmstens ergebener</closer><postscript><p>Herrn Thomas Mann,<lb/><rs ref="#pmb38129" type="place">München</rs>.</p></postscript></div></body>
+                    und fruchtbaren Gesprächen zu beteiligen.</p><closer>Mit den herzlichsten Grüssen<lb/>Ihr wärmstens ergebener</closer><postscript><p>Herrn Thomas Mann,<lb/><rs ref="#pmb38129" type="place">München</rs>.</p></postscript></div>
+        </body>
     </text>
 </TEI>

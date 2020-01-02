@@ -1,15 +1,18 @@
 xquery version "3.1";
 module namespace app="http://www.digital-archiv.at/ns/templates";
 declare namespace tei="http://www.tei-c.org/ns/1.0";
+declare namespace pkg="http://expath.org/ns/pkg";
+declare namespace repo="http://exist-db.org/xquery/repo";
 declare namespace functx = 'http://www.functx.com';
-
-import module namespace util="http://exist-db.org/xquery/util";
 import module namespace http="http://expath.org/ns/http-client";
 import module namespace templates="http://exist-db.org/xquery/templates" ;
 import module namespace config="http://www.digital-archiv.at/ns/config" at "config.xqm";
 import module namespace kwic = "http://exist-db.org/xquery/kwic" at "resource:org/exist/xquery/lib/kwic.xql";
 
+
+declare variable $app:xslCollection := $config:app-root||'/resources/xslt';
 declare variable $app:data := $config:app-root||'/data';
+declare variable $app:meta := $config:app-root||'/data/meta';
 declare variable $app:editions := $config:app-root||'/data/editions';
 declare variable $app:indices := $config:app-root||'/data/indices';
 declare variable $app:placeIndex := $config:app-root||'/data/indices/listplace.xml';
@@ -17,12 +20,14 @@ declare variable $app:personIndex := $config:app-root||'/data/indices/listperson
 declare variable $app:orgIndex := $config:app-root||'/data/indices/listorg.xml';
 declare variable $app:workIndex := $config:app-root||'/data/indices/listwork.xml';
 declare variable $app:defaultXsl := doc($config:app-root||'/resources/xslt/xmlToHtml.xsl');
-declare variable $app:cachedGraph := doc($app:data||'/cache/graph_cache.xml');
-
+declare variable $app:projectName := doc(concat($config:app-root, "/expath-pkg.xml"))//pkg:title//text();
+declare variable $app:authors := normalize-space(string-join(doc(concat($config:app-root, "/repo.xml"))//repo:author//text(), ', '));
+declare variable $app:description := doc(concat($config:app-root, "/repo.xml"))//repo:description/text();
+declare variable $app:purpose_de := "der Bereitstellung von Forschungsdaten";
+declare variable $app:purpose_en := "is the publication of research data.";
 
 declare variable $app:redmineBaseUrl := "https://shared.acdh.oeaw.ac.at/acdh-common-assets/api/imprint.php?serviceID=";
-declare variable $app:redmineID := "11833";
-declare variable $app:productionBaseURL := "https://schnitzler-tagebuch.acdh.oeaw.ac.at";
+declare variable $app:redmineID := "6930";
 
 declare function functx:contains-case-insensitive
   ( $arg as xs:string? ,
@@ -123,24 +128,13 @@ let $name := functx:substring-after-last(document-uri(root($node)), '/')
 };
 
 (:~
-: renders the name element of the passed in entity node.
+: returns the (relativ) name of the collection the passed in node is located at.
 :)
-declare function app:nameOfIndexWork($node as node(), $model as map (*)){
-    let $searchkey := xs:string(request:get-parameter("searchkey", "No search key provided"))
-    let $item := doc($app:workIndex)//tei:item[./tei:title[@key=$searchkey]]
-    let $name := $item/tei:title/text()
-    let $noOfterms := count($item//tei:date)
-    return
-     <h1 style="text-align:center;">
-        <small>
-            <span id="hitcount"/>{$noOfterms} Treffer für</small>
-        <br/>
-        <strong>
-            {$name}
-        </strong>
-    </h1>
+declare function app:getColName($node as node()){
+let $root := tokenize(document-uri(root($node)), '/')
+    let $dirIndex := count($root)-1
+    return $root[$dirIndex]
 };
-
 
 (:~
 : renders the name element of the passed in entity node as a link to entity's info-modal.
@@ -202,16 +196,15 @@ let $href := concat('show.html','?document=', app:getDocName($node), '&amp;direc
  declare function app:ft_search($node as node(), $model as map (*)) {
  if (request:get-parameter("searchexpr", "") !="") then
  let $searchterm as xs:string:= request:get-parameter("searchexpr", "")
- for $hit in collection(concat($config:app-root, '/data/editions/'))//*[.//tei:body[ft:query(.,$searchterm)]]
+ for $hit in collection(concat($config:app-root, '/data/editions/'))//*[.//tei:p[ft:query(.,$searchterm)]]
     let $href := concat(app:hrefToDoc($hit), "&amp;searchexpr=", $searchterm)
     let $score as xs:float := ft:score($hit)
-    let $docname := app:getDocName($hit)
-    let $day := substring-before(substring-after($docname, 'entry__'), '.xml')
-    order by $docname descending
+    order by $score descending
     return
     <tr>
-        <td><a href="{$href}">{$day}</a></td>
-        <td class="KWIC">{kwic:summarize($hit, <config width="100" link="{$href}" />)}</td>
+        <td>{$score}</td>
+        <td class="KWIC">{kwic:summarize($hit, <config width="40" link="{$href}" />)}</td>
+        <td align="center"><a href="{app:hrefToDoc($hit)}">{app:getDocName($hit)}</a></td>
     </tr>
  else
     <div>Nothing to search for</div>
@@ -220,49 +213,26 @@ let $href := concat('show.html','?document=', app:getDocName($node), '&amp;direc
 declare function app:indexSearch_hits($node as node(), $model as map(*),  $searchkey as xs:string?, $path as xs:string?){
 let $indexSerachKey := $searchkey
 let $searchkey:= '#'||$searchkey
-let $entities := collection($app:editions)//tei:TEI[.//*/@ref=$searchkey]
-for $title in ($entities)
-    let $docTitle := root($title)//tei:titleStmt/tei:title[@type='iso-date']/text()
+let $entities := collection($app:data)//tei:TEI[.//*/@ref=$searchkey]
+let $terms := collection($app:editions)//tei:TEI[.//tei:term[./text() eq substring-after($searchkey, '#')]]
+for $title in ($entities, $terms)
+    let $docTitle := string-join(root($title)//tei:titleStmt/tei:title[@type='main']//text(), ' ')
     let $hits := if (count(root($title)//*[@ref=$searchkey]) = 0) then 1 else count(root($title)//*[@ref=$searchkey])
+    let $collection := app:getColName($title)
     let $snippet :=
         for $entity in root($title)//*[@ref=$searchkey]
-                let $before := string-join(($entity/preceding::text()[3],$entity/preceding::text()[2], $entity/preceding::text()[1]), '')
-                let $after := substring(normalize-space(string-join($entity/following::text(), '')), 1, 50)
+                let $before := $entity/preceding::text()[1]
+                let $after := $entity/following::text()[1]
                 return
-                    <p>... {concat($before, ' ')} <strong><a href="{concat(app:hrefToDoc($title), "&amp;searchkey=", $indexSerachKey)}"> {string-join($entity//text(), '')}</a></strong> {concat(' ', $after)}...<br/></p>
+                    <p>… {$before} <strong><a href="{concat(app:hrefToDoc($title, $collection), "&amp;searchkey=", $indexSerachKey)}"> {$entity//text()[not(ancestor::tei:abbr)]}</a></strong> {$after}…<br/></p>
     let $zitat := $title//tei:msIdentifier
+    let $collection := app:getColName($title)
     return
             <tr>
-               <td style="white-space: nowrap;"><a href="{concat(app:hrefToDoc($title), "&amp;searchkey=", $indexSerachKey)}">{$docTitle}</a></td>
+               <td>{$docTitle}</td>
                <td>{$hits}</td>
-               <td>{$snippet}</td>
+               <td>{$snippet}<p style="text-align:right">{<a href="{concat(app:hrefToDoc($title, $collection), "&amp;searchkey=", $indexSerachKey)}">{app:getDocName($title)}</a>}</p></td>
             </tr>
-};
-
-
-declare function app:workIndexSearchResults($node as node(), $model as map(*),  $searchkey as xs:string?, $path as xs:string?){
-let $entities := collection($app:editions)//tei:TEI[.//*/@xml:id=$searchkey]
-for $title in ($entities)
-    let $docTitle := root($title)//tei:titleStmt/tei:title[@type='iso-date']/text()
-    return
-            <tr>
-               <td style="white-space: nowrap;"><a href="{concat(app:hrefToDoc($title), "&amp;searchkey=", $searchkey)}">{$docTitle}</a></td>
-            </tr>
-};
-
-
-(:~
- : creates a basic work-index derived from the  '/data/indices/listwork.xml'
- :)
-declare function app:listWork($node as node(), $model as map(*)) {
-    let $hitHtml := "work-search.html?searchkey="
-    for $item in doc($app:workIndex)//tei:body//tei:item
-        return
-        <tr>
-            <td><a href="{concat($hitHtml, data($item/tei:title/@key))}">{$item/tei:title/text()}</a></td>
-            <td><a href="{concat($hitHtml, data($item/tei:title/@key))}">{count($item//tei:date)}</a></td>
-            <td>{$item/tei:note[1]}</td>
-        </tr>
 };
 
 (:~
@@ -271,51 +241,49 @@ declare function app:listWork($node as node(), $model as map(*)) {
 declare function app:listPers($node as node(), $model as map(*)) {
     let $hitHtml := "hits.html?searchkey="
     for $person in doc($app:personIndex)//tei:listPerson/tei:person
-    let $gnd := $person/tei:idno[@type='GND']
-    let $gender := if ($person/tei:sex/text() != "") then $person/tei:sex/text() else '-'
-    let $job := normalize-space(string-join($person//tei:occupation//text(), ', '))
-    let $jobstring := if ($job != '') then $job else '-'
-    let $birthday := if ($person/tei:birth/tei:date/text() != "") then $person/tei:birth/tei:date/text() else '-'
-    let $surname := if ($person/tei:persName/tei:surname) then $person/tei:persName/tei:surname else '-'
-    let $forename := if ($person/tei:persName/tei:forename) then $person/tei:persName/tei:forename else '-'
-    let $birthplace := if ($person/tei:birth/tei:placeName/text() != "") then $person/tei:birth/tei:placeName/text() else '-'
-    let $deathday := if ($person/tei:death/tei:date/text() != "") then $person/tei:death/tei:date/text() else '-'
-    let $deathplace := if ($person/tei:death/tei:placeName/text() != "") then $person/tei:death/tei:placeName/text() else '-'
+    let $gnd := $person/tei:note/tei:p[3]/text()
     let $gnd_link := if ($gnd != "no gnd provided") then
-        <a href="{$gnd}">gnd:{tokenize($gnd, '/')[last()]}</a>
+        <a href="{$gnd}">{$gnd}</a>
         else
         "-"
         return
         <tr>
             <td>
-                <a href="{concat($hitHtml,data($person/@xml:id))}">{$surname}</a>
+                <a href="{concat($hitHtml,data($person/@xml:id))}">{$person/tei:persName/tei:surname}</a>
             </td>
             <td>
-                <a href="{concat($hitHtml,data($person/@xml:id))}">{$forename}</a>
-            </td>
-            <td>
-                {$birthday}
-            </td>
-            <td>
-                {$birthplace}
-            </td>
-            <td>
-                {$deathday}
-            </td>
-            <td>
-                {$deathplace}
+                {$person/tei:persName/tei:forename}
             </td>
             <td>
                 {$gnd_link}
             </td>
+        </tr>
+};
+
+(:~
+ : creates a basic work-index derived from the  '/data/indices/listwork.xml'
+ :)
+declare function app:listwork($node as node(), $model as map(*)) {
+    let $hitHtml := "hits.html?searchkey="
+    for $work in doc($app:workIndex)//tei:listBibl/tei:bibl
+    let $gnd := $person/tei:note/tei:p[3]/text()
+    let $gnd_link := if ($gnd != "no gnd provided") then
+        <a href="{$gnd}">{$gnd}</a>
+        else
+        "-"
+        return
+        <tr>
             <td>
-                {$jobstring}
+                <a href="{concat($hitHtml,data($work/@xml:id))}">{$work/tei:title}</a>
             </td>
+            <td></td>
             <td>
-                {$gender}
+                {$gnd_link}
             </td>
         </tr>
 };
+
+
 
 (:~
  : creates a basic place-index derived from the  '/data/indices/listplace.xml'
@@ -325,58 +293,125 @@ declare function app:listPlace($node as node(), $model as map(*)) {
     for $place in doc($app:placeIndex)//tei:listPlace/tei:place
     let $lat := tokenize($place//tei:geo/text(), ' ')[1]
     let $lng := tokenize($place//tei:geo/text(), ' ')[2]
-    let $idno := if ($place//tei:idno/text() != "") then analyze-string($place//tei:idno/text(), '\d*')//*:match else '-'
-    let $idnolink := if ($place//tei:idno/text() != "") then  <a href="{$place//tei:idno/text()}">geonames:{$idno}</a> else '-'
-
         return
         <tr>
             <td>
                 <a href="{concat($hitHtml, data($place/@xml:id))}">{functx:capitalize-first($place/tei:placeName[1])}</a>
             </td>
             <td>{for $altName in $place//tei:placeName return <li>{$altName/text()}</li>}</td>
-            <td>{$idnolink}</td>
+            <td>{$place//tei:idno/text()}</td>
             <td>{$lat}</td>
             <td>{$lng}</td>
         </tr>
 };
 
-declare function app:createTocRow($x as item()){
-    let $entry_label := $x//tei:title[@type="main"]/text()
-    let $entry_text := normalize-space(string-join($x//tei:div[@type="diary-day"]//text(), ' '))
-    let $token_nr := count(tokenize($entry_text))
-    let $week_day := substring-before($entry_label, ',')
-    let $date := $x//tei:title[@type="iso-date"]/text()
-    let $date_split := tokenize($date, '-')
-    let $persons := for $item in $x//tei:listPerson/tei:person return <li>{normalize-space(string-join($item/tei:persName[1]//text()))}</li>
-    let $places := for $item in $x//tei:listPlace/tei:place return <li>{normalize-space(string-join($item/tei:placeName[1]//text()))}</li>
-    let $works := for $item in $x//tei:listbibl/tei:bibl return <li>{normalize-space(string-join($item/tei:title[1]//text()))}</li>
+(:~
+ : returns header information about the current collection
+ :)
+declare function app:tocHeader($node as node(), $model as map(*)) {
+
+    let $collection := request:get-parameter("collection", "")
+    let $colName := if ($collection)
+        then
+            $collection
+        else
+            "editions"
+    let $docs := count(collection(concat($config:app-root, '/data/', $colName, '/'))//tei:TEI)
+    let $infoDoc := doc($app:meta||"/"||$colName||".xml")
+    let $colLabel := $infoDoc//tei:title[1]/text()
+    let $infoUrl := "show.html?document="||$colName||".xml&amp;directory=meta"
+    let $apiUrl := "../resolver/resolve-col.xql?collection="||$colName
+    let $zipUrl := "../resolver/download-col.xql?collection="||$colName
     return
-        <tr>
-            <td>
-              <a href="{app:hrefToDoc($x, 'editions')}" target="_blank">{$entry_label}</a>
-            </td>
-            <td>{$date_split[1]}</td>
-            <td>{$date_split[2]}</td>
-            <td>{$date_split[3]}</td>
-            <td>{$week_day}</td>
-            <td>{$date}</td>
-            <td>{$entry_text}</td>
-            <td>{$persons}</td>
-            <td>{$places}</td>
-            <td>{$works}</td>
-            <td>{count($persons)}</td>
-            <td>{count($places)}</td>
-            <td>{count($works)}</td>
-            <td>{$token_nr}</td>
-        </tr>
+        <div class="card-header" style="text-align:center;">
+            <h1>{$docs} Dokumente in {$colLabel}</h1>
+            <h3>
+                <a>
+                    <i class="fas fa-info" title="Info zum Personenregister" data-toggle="modal" data-target="#exampleModal"/>
+                </a>
+                |
+                <a href="{$apiUrl}">
+                    <i class="fas fa-download" title="Liste der TEI Dokumente"/>
+                </a>
+                  |
+                <a href="{$zipUrl}">
+                    <i class="fas fa-file-archive" title="Download Collection as ZIP"></i>
+                </a>
+            </h3>
+        </div>
 };
 
 (:~
- : creates a basic table of content derived from the documents stored in '/data/editions'
+ : returns context information about the current collection displayd in a bootstrap modal
+ :)
+declare function app:tocModal($node as node(), $model as map(*)) {
+
+    let $collection := request:get-parameter("collection", "")
+    let $colName := if ($collection)
+        then
+            $collection
+        else
+            "editions"
+    let $infoDoc := doc($app:meta||"/"||$colName||".xml")
+    let $colLabel := $infoDoc//tei:title[1]/text()
+   let $params :=
+        <parameters>
+            <param name="app-name" value="{$config:app-name}"/>
+            <param name="collection-name" value="{$colName}"/>
+            <param name="projectName" value="{$app:projectName}"/>
+            <param name="authors" value="{$app:authors}"/>
+           {
+                for $p in request:get-parameter-names()
+                    let $val := request:get-parameter($p,())
+                        return
+                           <param name="{$p}"  value="{$val}"/>
+           }
+        </parameters>
+    let $xsl := doc($app:xslCollection||"/modals.xsl")
+    let $modalBody := transform:transform($infoDoc, $xsl, $params)
+    return
+        <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">{$colLabel}</h5>
+                </div>
+                <div class="modal-body">
+                   {$modalBody}
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+};
+
+(:~
+ : creates a basic table of contents derived from the documents stored in '/data/editions'
  :)
 declare function app:toc($node as node(), $model as map(*)) {
-  for $x in doc($app:data||'/cache/toc_cache.xml')//tr
-    return $x
+
+    let $collection := request:get-parameter("collection", "")
+    let $docs := if ($collection)
+        then
+            collection(concat($config:app-root, '/data/', $collection, '/'))//tei:TEI
+        else
+            collection(concat($config:app-root, '/data/editions/'))//tei:TEI
+    for $title in $docs
+        let $date := $title//tei:title//text()
+        let $link2doc := if ($collection)
+            then
+                <a href="{app:hrefToDoc($title, $collection)}">{app:getDocName($title)}</a>
+            else
+                <a href="{app:hrefToDoc($title)}">{app:getDocName($title)}</a>
+        return
+        <tr>
+           <td>{$date}</td>
+            <td>
+                {$link2doc}
+            </td>
+        </tr>
 };
 
 (:~
@@ -389,14 +424,13 @@ let $xmlPath := concat(xs:string(request:get-parameter("directory", "editions"))
 let $xml := doc(replace(concat($config:app-root,'/data/', $xmlPath, $ref), '/exist/', '/db/'))
 let $collectionName := util:collection-name($xml)
 let $collection := functx:substring-after-last($collectionName, '/')
-let $neighbors := try{app:doc-context($collectionName, $ref)} catch * {false()}
+let $neighbors := app:doc-context($collectionName, $ref)
 let $prev := if($neighbors[1]) then 'show.html?document='||$neighbors[1]||'&amp;directory='||$collection else ()
 let $next := if($neighbors[3]) then 'show.html?document='||$neighbors[3]||'&amp;directory='||$collection else ()
 let $amount := $neighbors[4]
 let $currentIx := $neighbors[5]
 let $progress := ($currentIx div $amount)*100
 let $xslPath := xs:string(request:get-parameter("stylesheet", ""))
-let $quotationURL := string-join(($app:productionBaseURL, 'v', $collection, $refname), '/')
 let $xsl := if($xslPath eq "")
     then
         if(doc($config:app-root||'/resources/xslt/'||$collection||'.xsl'))
@@ -424,8 +458,9 @@ let $params :=
     <param name="amount" value="{$amount}"/>
     <param name="currentIx" value="{$currentIx}"/>
     <param name="progress" value="{$progress}"/>
-    <param name="productionBaseUrl" value="{$app:productionBaseURL}"/>
-    <param name="quotationURL" value="{$quotationURL}"/>
+    <param name="projectName" value="{$app:projectName}"/>
+    <param name="authors" value="{$app:authors}"/>
+
    {
         for $p in request:get-parameter-names()
             let $val := request:get-parameter($p,())
@@ -433,9 +468,8 @@ let $params :=
                    <param name="{$p}"  value="{$val}"/>
    }
 </parameters>
-let $result := if (not($neighbors castable as xs:boolean)) then transform:transform($xml, $xsl, $params) else <h1>Kein Eintrag für diesen Tag</h1>
 return
-    $result
+    transform:transform($xml, $xsl, $params)
 };
 
 (:~
@@ -493,6 +527,16 @@ declare function app:listOrg($node as node(), $model as map(*)) {
 };
 
 (:~
+ : fetches the first document in the given collection
+ :)
+declare function app:firstDoc($node as node(), $model as map(*)) {
+    let $all := sort(xmldb:get-child-resources($app:editions))
+    let $href := "show.html?document="||$all[1]||"&amp;directory=editions"
+        return
+            <a class="btn btn-main btn-outline-primary btn-lg" href="{$href}" role="button">Start Reading</a>
+};
+
+(:~
  : fetches html snippets from ACDH's imprint service; Make sure you'll have $app:redmineBaseUrl and $app:redmineID set
  :)
 declare function app:fetchImprint($node as node(), $model as map(*)) {
@@ -502,17 +546,6 @@ declare function app:fetchImprint($node as node(), $model as map(*)) {
     let $response := http:send-request($request)
         return $response[2]
 };
-
-(:~
- : fetches the first document in the given collection
- :)
-declare function app:firstDoc($node as node(), $model as map(*)) {
-    let $all := sort(xmldb:get-child-resources($app:editions))
-    let $href := "show.html?document="||$all[1]||"&amp;directory=editions"
-        return
-            <a href="{$href}"><button class="btn btn-round">Lesen</button></a>
-};
-
 
 (:~
  : returns first n chars of random doc
@@ -547,6 +580,7 @@ declare function app:randomDoc($node as node(), $model as map(*), $maxlen as xs:
     return
         $result
 };
+
 
 declare function app:populate_cache(){
 let $contents :=

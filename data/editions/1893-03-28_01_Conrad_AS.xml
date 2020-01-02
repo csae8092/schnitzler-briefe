@@ -57,15 +57,8 @@
                             <physDesc>
                                 <p>eh. Postkarte, schwarze Tinte. Von unbekannter Hand mit rotem Buntstift
                                     nummeriert: »<quote>2</quote>«.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb38129" type="place">München I</rs>
-                                    <date when="1893-03-28">28 Mär <supplied>93</supplied>
-                                    </date>
-                                    <time>7-8 N</time>
-                                </stamp>
-                                <stamp n="2">
-                                    <rs ref="#pmb50" type="place">Wien 1/</rs>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb38129">München I</placeName><date when="1893-03-28">28 Mär <supplied>93</supplied></date><time>7-8 N</time></stamp>
+                                <stamp n="2"><placeName ref="#pmb50">Wien 1/</placeName></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -104,11 +97,14 @@
         <graphic url="MS-SCHNITZLER-B-00022-000-00006"/>
     </facsimile>
     <text type="card">
-        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00022-000-00005"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi></hi> Arthur Schnitzler</addrLine><addrLine>Wien I.</addrLine><addrLine><rs ref="#pmb412" type="place">Grillparzerſtr. 7</rs>. </addrLine></address></div><div type="writingSession" n="1"><opener><p><pb facs="MS-SCHNITZLER-B-00022-000-00006"/><rs ref="#pmb38129" type="place">München</rs>, <rs ref="#pmb1231" type="place">Steinsdorfſtr. 7</rs>. </p><dateline rend="right"><date>28.&#160;3.&#160;93</date>.</dateline></opener><p>Beſten Dank für Ihre Zuſchrift, ſehr geehrter Herr Doktor! Haben Sie ſeit
+        <body>
+            <div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00022-000-00005"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi></hi> Arthur Schnitzler</addrLine><addrLine>Wien I.</addrLine><addrLine><rs ref="#pmb412" type="place">Grillparzerſtr. 7</rs>. </addrLine></address></div>
+            <div type="writingSession" n="1"><opener><p><pb facs="MS-SCHNITZLER-B-00022-000-00006"/><rs ref="#pmb38129" type="place">München</rs>, <rs ref="#pmb1231" type="place">Steinsdorfſtr. 7</rs>. </p><dateline rend="right"><date>28.&#160;3.&#160;93</date>.</dateline></opener><p>Beſten Dank für Ihre Zuſchrift, ſehr geehrter Herr Doktor! Haben Sie ſeit
                         <rs ref="#pmb31637" type="work">A.&#160;L.</rs> nichts mehr veröffentlicht? Stünde
                     ich mit der Leitung d. <rs ref="#pmb9" type="place">Hoftheaters</rs> beſſer,
                     würde ich gern perſönlich für Ihr <rs type="work" ref="#pmb31637" subtype="implied">Werk</rs>
                     eintreten. Aber ich habe von dieſer Seite auch noch nichts als Kränkungen
-                    erfahren. Mit hochachtungsvollem Gruße<space unit="chars" quantity="3"/>Ihr ergebener</p><closer><signed>Dr.&#160;Conrad.</signed></closer></div></body>
+                    erfahren. Mit hochachtungsvollem Gruße<space unit="chars" quantity="3"/>Ihr ergebener</p><closer><signed>Dr.&#160;Conrad.</signed></closer></div>
+        </body>
     </text>
 </TEI>

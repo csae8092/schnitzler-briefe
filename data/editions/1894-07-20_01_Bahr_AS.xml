@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1894-07-20_01_Bahr_AS">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1894-07-20_01_Bahr_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -54,19 +53,10 @@
                         <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Kartenbrief, Bleistift. Von Schnitzler mit Bleistift datiert: »<quote>
-                              <date>20/7 94</date>
-                           </quote>«. Von unbekannter Hand jeweils mit Bleistift und rotem Buntstift
+                        <p>eh. Kartenbrief, Bleistift. Von Schnitzler mit Bleistift datiert: »<quote><date>20/7 94</date></quote>«. Von unbekannter Hand jeweils mit Bleistift und rotem Buntstift
                            nummeriert: »<quote>24</quote>«.</p>
-                        <stamp n="1">
-                           <rs ref="#pmb282" type="place">Grundlsee</rs>
-                           <date when="1894-07-20">20/7</date>
-                        </stamp>
-                        <stamp n="2">
-                           <rs ref="#pmb213" type="place">Ischl</rs>
-                           <date when="1894-07-20">20 7 94</date>
-                           <time>12M</time>
-                        </stamp>
+                        <stamp n="1"><placeName ref="#pmb282">Grundlsee</placeName><date when="1894-07-20">20/7</date></stamp>
+                        <stamp n="2"><placeName ref="#pmb213">Ischl</placeName><date when="1894-07-20">20 7 94</date><time>12M</time></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -83,6 +73,7 @@
                         <publisher>Wallstein</publisher>
                         <date when="2018">2018</date>
                      </imprint>
+                     <biblScope unit="pp">76</biblScope>
                   </monogr>
                </biblStruct>
             </listBibl>
@@ -93,14 +84,15 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction  type="sent">
+            <correspAction type="sent">
                <persName ref="#pmb10815">Bahr, Hermann</persName>
                <placeName ref="#pmb282">Grundlsee</placeName>
                <date when="1894-07-20" n="01">20.&#160;7.&#160;1894</date>
             </correspAction>
-            <correspAction  type="received">
+            <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                <placeName ref="#pmb213">Bad Ischl</placeName>
+               <date when="1894-07-20">20.&#160;7.&#160;1894</date>
             </correspAction>
             <correspContext>
                <ptr type="previous" subtype="toAuthor" target="1894-07-17_01">Bahr an Schnitzler, [17.? 7.&#160;1894]</ptr>
@@ -119,11 +111,14 @@
       <graphic url="MS-B-00005-B-000-00036"/>
       <graphic url="MS-B-00005-B-000-00037"/>
    </facsimile>
-   <text type="card">
-      <body><div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00036"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb414" type="place">Pension Leop. Petta</rs><space unit="chars" quantity="1"/><rs ref="#pmb214" type="place">Rudolfshöhe</rs></hi></addrLine><addrLine><rs ref="#pmb213" type="place"><hi rend="latintype">Ischl</hi></rs></addrLine></address></div><div type="writingSession" n="1"><p><salute>Lieber Thuri! </salute>Ich komme <date>Samſtag</date> mit dem Zuge, der
-                  <time>9 Uhr 40</time> von <rs ref="#pmb415" type="place"><hi rend="latintype">Aussee</hi></rs> geht. Da<c rendition="#gemination-n"/> ſchaue ich ins
-                  <rs ref="#pmb416" type="place"><hi rend="latintype">Café Walter</hi></rs> u. ſuche
-               zunächſt einen <hi rend="latintype">Masseur</hi> oder <hi rend="latintype">Masseuse</hi>, da ich wahnſinnige rheumat. Kreuzſchmerzen habe. Dann bleibe ich
-               bei euch bis <time>6 Uhr Abds</time>.</p><closer>Herzlichst Dein<lb/><signed>Hermann</signed></closer></div></body>
+   <text type="letter-card">
+      <body>
+         <div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00036"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb414" type="place">Pension Leop. Petta</rs><space unit="chars" quantity="1"/><rs ref="#pmb214" type="place">Rudolfshöhe</rs></hi></addrLine><addrLine><rs ref="#pmb213" type="place"><hi rend="latintype">Ischl</hi></rs></addrLine></address></div>
+         <div type="writingSession" n="1"><p><salute>Lieber Thuri! </salute>Ich komme <date>Samſtag</date> mit dem Zuge, der
+                  <time>9 Uhr 40</time> von <rs ref="#pmb415" type="place"><hi rend="latintype">Aussee</hi></rs> geht. Da<c rendition="#gemination-n"/> ſchaue ich ins <rs ref="#pmb416"
+                  type="place"><hi rend="latintype">Café Walter</hi></rs> u. ſuche zunächſt einen <hi rend="latintype">Masseur</hi> oder <hi
+                  rend="latintype">Masseuse</hi>, da ich wahnſinnige rheumat. Kreuzſchmerzen habe.
+               Dann bleibe ich bei euch bis <time>6 Uhr Abds</time>.</p><closer>Herzlichst Dein<lb/><signed>Hermann</signed></closer></div>
+      </body>
    </text>
 </TEI>

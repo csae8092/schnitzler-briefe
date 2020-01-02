@@ -59,15 +59,8 @@
                         <p>eh. Bildpostkarte, Bleistift. Motiv: »Gruss aus <rs ref="#pmb146" type="place"
                               >Frankfurt a.&#160;M.</rs><space unit="chars" quantity="1"
                               /><rs ref="#pmb43121" type="place">Rossmarkt</rs>«.</p>
-                        <stamp n="1">
-                           <rs ref="#pmb146" type="place">Frankfurt</rs>
-                           <date when="1899-09-20"><supplied>20.&#160;</supplied>9.&#160;99</date>
-                           <time>6-7N</time>
-                        </stamp>
-                        <stamp n="2">
-                           <rs ref="#pmb946" type="place"><supplied>Vahrn</supplied></rs>
-                           <date when="1899-09-22">22.&#160;9.&#160;99</date>
-                        </stamp>
+                        <stamp n="1"><placeName ref="#pmb146">Frankfurt</placeName><date when="1899-09-20"><supplied>20.&#160;</supplied>9.&#160;99</date><time>6-7N</time></stamp>
+                        <stamp n="2"><placeName ref="#pmb946"><supplied>Vahrn</supplied></placeName><date when="1899-09-22">22.&#160;9.&#160;99</date></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -104,9 +97,12 @@
       <graphic url="1899_AS_RBH_3_00009.jpeg"/>
    </facsimile>
    <text type="card">
-      <body><div type="address"><address><addrLine><pb facs="1899_AS_RBH_3_00009.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
+      <body>
+         <div type="address"><address><addrLine><pb facs="1899_AS_RBH_3_00009.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
                      Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb946" type="place"><hi rend="latintype">Vahrn</hi></rs></addrLine><addrLine>bei <hi rend="latintype"><rs ref="#pmb28068" type="place"
-                  >Brixen</rs></hi></addrLine><addrLine><rs ref="#pmb423" type="place"><hi rend="latintype">Tirol</hi></rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1899_AS_RBH_3_00008.jpeg"/>Herzliche Grüße<lb/><signed>Arthur</signed></p><p><handShift scribe="pmb11485"/>Herzlichen Gruß. Vielen Dank für den ſchönen
-                  Brief!<lb/><signed>P. G.</signed></p></div></body>
+                  >Brixen</rs></hi></addrLine><addrLine><rs ref="#pmb423" type="place"><hi rend="latintype">Tirol</hi></rs></addrLine></address></div>
+         <div type="writingSession" n="1"><p><pb facs="1899_AS_RBH_3_00008.jpeg"/>Herzliche Grüße<lb/><signed>Arthur</signed></p><p><handShift scribe="#pmb11485"/>Herzlichen Gruß. Vielen Dank für den ſchönen
+                  Brief!<lb/><signed>P. G.</signed></p></div>
+      </body>
    </text>
 </TEI>

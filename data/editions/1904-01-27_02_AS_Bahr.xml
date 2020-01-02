@@ -57,16 +57,8 @@
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Briefkarte</p>
-                        <stamp n="1">
-                           <rs ref="#pmb68" type="place">Wien 18/1</rs>
-                           <date when="1904-01-27">27.&#160;1.&#160;04</date>
-                           <time>11–12 V</time>
-                        </stamp>
-                        <stamp n="2">
-                           <rs ref="#pmb846" type="place">Wangen</rs>
-                           <date when="1904-01-29">29./1.&#160;04</date>
-                           <time>9–10 V</time>
-                        </stamp>
+                        <stamp n="1"><placeName ref="#pmb68">Wien 18/1</placeName><date when="1904-01-27">27.&#160;1.&#160;04</date><time>11–12 V</time></stamp>
+                        <stamp n="2"><placeName ref="#pmb846">Wangen</placeName><date when="1904-01-29">29./1.&#160;04</date><time>9–10 V</time></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -142,8 +134,11 @@
       <graphic url="HS_AM23364Ba_R"/> 
    </facsimile>
   <text type="card">
-      <body><div type="address"><address><addrLine><pb facs="HS_AM23364Ba"/>Herrn <hi rend="latintype">Hermann Bahr</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb219" type="place">Marbach (Sanatorium)</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb845" type="place">Radolfzell</rs> am Bodensee</hi></addrLine></address></div><div type="writingSession" n="1"><opener><salute>mein lieber Hermann,</salute></opener><p>möchtest du mir ein Wort schreiben, wie’s dir geht? wie lang 
+      <body> 
+         <div type="address"><address><addrLine><pb facs="HS_AM23364Ba"/>Herrn <hi rend="latintype">Hermann Bahr</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb219" type="place">Marbach (Sanatorium)</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb845" type="place">Radolfzell</rs> am Bodensee</hi></addrLine></address></div> 
+         <div type="writingSession" n="1"><opener><salute>mein lieber Hermann,</salute></opener><p>möchtest du mir ein Wort schreiben, wie’s dir geht? wie lang 
         du in <rs ref="#pmb218" type="place">Marbach</rs> bleiben wirst? –</p><p>Anfang Feber fahre ich nach <rs ref="#pmb168" type="place">Berlin</rs>, den <rs ref="#pmb29985" type="work">Einsamen Weg</rs> hab ich
-          dir durch <rs ref="#pmb11324" type="person">Fischer</rs> schicken lassen!</p><closer>herzliche Grüße!<lb/>Dein getreuer<lb/><signed>Arthur</signed></closer><postscript><p><date>27.&#160;1.&#160;904.</date></p></postscript></div></body>
+          dir durch <rs ref="#pmb11324" type="person">Fischer</rs> schicken lassen!</p><closer>herzliche Grüße!<lb/>Dein getreuer<lb/><signed>Arthur</signed></closer><postscript><p><date>27.&#160;1.&#160;904.</date></p></postscript></div>
+      </body>
   </text>
 </TEI>

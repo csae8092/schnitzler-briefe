@@ -56,9 +56,7 @@
                            </msIdentifier>
                             <physDesc>
                                 <p>eh. Karte und Umschlag, Lateinschrift.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb50" type="place">Wien</rs>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb50">Wien</placeName></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -91,7 +89,9 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body><div type="address"><address><addrLine><hi rend="pre-print">Dr. Arthur Schnitzler</hi></addrLine><addrLine><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></addrLine></address><address><addrLine><pb facs=""/>Herrn Dr. Rob. Ad. Pollak</addrLine><addrLine>k.k. Bezirksrichter</addrLine><addrLine><rs ref="#pmb1240" type="place">Zistersdorf</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></seg><seg rend="right"><date>18.&#160;6.&#160;15</date>.</seg></p><p><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></p><salute rend="inline">Verehrter Herr Adam,</salute></opener><p>mit besonderm Vergnügen habe ich Ihre freundliche <rs type="work" ref="#pmb33606" subtype="implied">Manuscriptsendung</rs> empfangen,
+        <body>
+            <div type="address"><address><addrLine><hi rend="pre-print">Dr. Arthur Schnitzler</hi></addrLine><addrLine><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></addrLine></address><address><addrLine><pb facs=""/>Herrn Dr. Rob. Ad. Pollak</addrLine><addrLine>k.k. Bezirksrichter</addrLine><addrLine><rs ref="#pmb1240" type="place">Zistersdorf</rs>.</addrLine></address></div>
+            <div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></seg><seg rend="right"><date>18.&#160;6.&#160;15</date>.</seg></p><p><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></p><salute rend="inline">Verehrter Herr Adam,</salute></opener><p>mit besonderm Vergnügen habe ich Ihre freundliche <rs type="work" ref="#pmb33606" subtype="implied">Manuscriptsendung</rs> empfangen,
                     mit wirklichem, innersten Interesse die sechs Scenen gelesen, und wüßte nicht,
                     was Sie davon abhalten sollte, diese vornehme we<c rendition="#gemination-n"/>
                     auch nicht in allen Theilen gleich starke, in in manchen rhythmischen
@@ -103,6 +103,7 @@
                     nächsten Zeit nach <rs ref="#pmb50" type="place">Wien</rs> kämen, lassen Sie michs
                     vielleicht wissen; es wäre mir ein Vergnügen Sie wieder zu sprechen – eventuell
                     auch zu dem problematischen Capitel der praktischen Möglichkeiten Ihrer
-                    <rs type="work" ref="#pmb33606" subtype="implied">Arbeit</rs>.</p><closer>Verbindlich grüßend u dankend<lb/>Ihr sehr ergebner<signed>Arthur Schnitzler</signed></closer></div></body>
+                    <rs type="work" ref="#pmb33606" subtype="implied">Arbeit</rs>.</p><closer>Verbindlich grüßend u dankend<lb/>Ihr sehr ergebner<signed>Arthur Schnitzler</signed></closer></div>
+        </body>
     </text>
 </TEI>

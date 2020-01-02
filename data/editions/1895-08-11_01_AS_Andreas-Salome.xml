@@ -20,8 +20,7 @@
                     <address>
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
-                        <rs type="place">
-                            <country>A</country> Wien </rs>
+                        <placeName><country>A</country> <settlement>Wien</settlement> </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -91,7 +90,8 @@
         <graphic url="Schnitzler Brief 2b"/>
     </facsimile>
     <text type="letter">
-        <body><div type="writingSession" n="1"><opener><salute><pb facs="Schnitzler Brief 2a"/>Verehrte Frau Lou,</salute></opener><p>es trifft ſich alles aufs beſte. Heute früh ko<c rendition="#gemination-m"/>’ ich
+        <body>
+            <div type="writingSession" n="1"><opener><salute><pb facs="Schnitzler Brief 2a"/>Verehrte Frau Lou,</salute></opener><p>es trifft ſich alles aufs beſte. Heute früh ko<c rendition="#gemination-m"/>’ ich
                     in <rs ref="#pmb50" type="place">Wien</rs> an, und <del rend="strikethrough">treffe</del> finde Ihre lieben Zeilen, für die ich herzlich danke.</p><p>Ich fahre in 2 oder 3 Tagen nach <rs ref="#pmb213" type="place">Iſchl</rs>
                     und ko<c rendition="#gemination-m"/>e etwa <date>20.</date> oder
                         <date>21.</date> nach <rs ref="#pmb30" type="place">Salzburg</rs>. Dort
@@ -102,6 +102,7 @@
                     ſo wärs aber ganz beſonders ſchön.</p><p>In <rs ref="#pmb213" type="place">Iſchl</rs> wohne ich <rs ref="#pmb214" type="place"><hi rend="latintype">Rudolfshöhe</hi></rs>, <pb facs="Schnitzler Brief 2b"/>wo ich Nachricht von Ihnen vorzufinden hoffe. In
                         <rs ref="#pmb30" type="place">Salzb.</rs> werde ich wahrſcheinlich im
                         <rs ref="#pmb230" type="place">oesterr. Hof</rs> abſteigen. <rs ref="#pmb10863" type="person">Richard</rs> iſt wohl von den genauen <rs ref="#pmb30" type="place">Salzb.</rs> Daten gleichfalls in Ke<c rendition="#gemination-n"/>tnis geſetzt?&#160;– </p><closer>Viele Grüße und auf angenehmes Wiederſehen!<lb/>Ihr Sie
-                        hochſch<unclear>ätz</unclear>ender<lb/><signed>ArthSch</signed></closer><postscript><dateline><date>11.&#160;8.&#160;95</date>.<lb/><rs ref="#pmb50" type="place">Wien</rs></dateline></postscript></div></body>
+                        hochſch<unclear>ätz</unclear>ender<lb/><signed>ArthSch</signed></closer><postscript><dateline><date>11.&#160;8.&#160;95</date>.<lb/><rs ref="#pmb50" type="place">Wien</rs></dateline></postscript></div>
+        </body>
     </text>
 </TEI>

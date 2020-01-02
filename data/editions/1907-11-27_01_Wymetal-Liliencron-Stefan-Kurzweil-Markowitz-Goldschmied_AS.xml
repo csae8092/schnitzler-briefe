@@ -61,10 +61,7 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Bildpostkarte, 6 Verfasser. XXXX</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb50" type="place">XXXX</rs>
-                                    <date when="1907-11-27">27.&#160;11.&#160;XXXX</date>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb50">XXXX</placeName><date when="1907-11-27">27.&#160;11.&#160;XXXX</date></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -99,7 +96,10 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body><div type="address"><address><addrLine><hi rend="latintype">Herrn</hi></addrLine><addrLine><hi rend="latintype">Dr. Arthur Schnitzler</hi></addrLine><addrLine><rs ref="#pmb68" type="place"><hi rend="latintype">Wien XVIII</hi></rs>/</addrLine><addrLine><rs ref="#pmb133" type="place"><hi rend="latintype">Spöttelstr. 7</hi></rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="gray00045.pdf"/><handShift scribe="pmb12071"/>Herzlichen Gruß</p><closer>Ihr <signed>Liliencron</signed></closer><p><handShift scribe="pmb12826"/>Ergebenſt Ihr <signed>Paul Stefan.</signed></p><p><handShift scribe="pmb2725"/><hi rend="latintype">Herzlich ergeben</hi><lb/><signed>Will Wymetal</signed></p><p><handShift scribe="pmb29183"/><signed>Hedwig Kurzweil</signed></p><p><handShift scribe="pmb5819"/><signed>D<hi rend="superscript">r</hi>Markowitz.</signed></p><p><handShift scribe="pmb29182"/><signed>EGoldschmied</signed></p><postscript><dateline><handShift scribe="pmb2725"/><rs ref="#pmb50" type="place"><hi rend="latintype">Wien</hi></rs>, <anchor type="commentary" xml:id="KL2122-1"/><date>27/11</date><note type="commentary" xml:id="KL2122-1h">Am <date>27.&#160;11.&#160;1907</date>
-                       veranstaltete der <rs ref="#pmb29596" type="organisation">Ansorge-Verein</rs> im <rs ref="#pmb563" type="place">Gewerbevereinssaal</rs> veranstaltete.</note></dateline></postscript></div></body>
+        <body>
+            <div type="address"><address><addrLine><hi rend="latintype">Herrn</hi></addrLine><addrLine><hi rend="latintype">Dr. Arthur Schnitzler</hi></addrLine><addrLine><rs ref="#pmb68" type="place"><hi rend="latintype">Wien XVIII</hi></rs>/</addrLine><addrLine><rs ref="#pmb133" type="place"><hi rend="latintype">Spöttelstr. 7</hi></rs></addrLine></address></div>
+            <div type="writingSession" n="1"><p><pb facs="gray00045.pdf"/><handShift scribe="#pmb12071"/>Herzlichen Gruß</p><closer>Ihr <signed>Liliencron</signed></closer><p><handShift scribe="#pmb12826"/>Ergebenſt Ihr <signed>Paul Stefan.</signed></p><p><handShift scribe="#pmb2725"/><hi rend="latintype">Herzlich ergeben</hi><lb/><signed>Will Wymetal</signed></p><p><handShift scribe="#pmb29183"/><signed>Hedwig Kurzweil</signed></p><p><handShift scribe="#pmb5819"/><signed>D<hi rend="superscript">r</hi>Markowitz.</signed></p><p><handShift scribe="#pmb29182"/><signed>EGoldschmied</signed></p><postscript><dateline><handShift scribe="#pmb2725"/><rs ref="#pmb50" type="place"><hi rend="latintype">Wien</hi></rs>, <anchor type="commentary" xml:id="KL2122-1"/><date>27/11</date><note type="commentary" xml:id="KL2122-1h">Am <date>27.&#160;11.&#160;1907</date>
+                       veranstaltete der <rs ref="#pmb29596" type="organisation">Ansorge-Verein</rs> im <rs ref="#pmb563" type="place">Gewerbevereinssaal</rs> veranstaltete.</note></dateline></postscript></div>
+        </body>
     </text>
 </TEI>

@@ -55,22 +55,13 @@
                                 <idno>Georg Brandes Arkiv</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Bildpostkarte, Motiv: »<pb facs="Georg_Brandes_arkiv_143.jpg"/>
-                                    <quote>
-                                        <rs ref="#pmb667" type="place">Garmisch</rs> geg. <geogName type="mountain">Wetterstein</geogName>
-                                    </quote>« (»<quote>Nr.&#160;7545. Verlag: <rs ref="#pmb29499" type="organisation">Würthle <c rendition="#kaufmannsund"/> Sohn
+                                <p>eh. Bildpostkarte, Motiv: »<pb facs="Georg_Brandes_arkiv_143.jpg"/><quote><rs ref="#pmb667" type="place">Garmisch</rs> geg. <geogName type="mountain">Wetterstein</geogName></quote>« (»<quote>Nr.&#160;7545. Verlag: <rs ref="#pmb29499" type="organisation">Würthle <c rendition="#kaufmannsund"/> Sohn
                                             Nachf.</rs>, G.&#160;m.&#160;b.&#160;H.</quote>«), Bleistift. Die
                                     linke Ecke abgerissen, eine Briefmarke entfernt. Mit blauem
                                     Buntstift »<quote>138/31</quote>« überm Adressfeld. Von
                                     unbekannter Hand mit Bleistift nummeriert:
                                     »<quote>31</quote>«.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb667" type="place">P<supplied>arten</supplied>kirchen</rs>
-                                    <date when="1911-04-29">
-                                        <supplied>29</supplied>. Apr. <supplied>11</supplied>
-                                    </date>
-                                    <time>6–7Nm</time>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb667">P<supplied>arten</supplied>kirchen</placeName><date when="1911-04-29"><supplied>29</supplied>. Apr. <supplied>11</supplied></date><time>6–7Nm</time></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -124,7 +115,10 @@
         <graphic url="Georg_Brandes_arkiv_144"/>
     </facsimile>
     <text type="card">
-        <body><div type="address"><address><addrLine><pb facs="Georg_Brandes_arkiv_144.jpg"/>Herrn Prof. <hi rend="latintype">Georg Brandes</hi></addrLine><addrLine><rs ref="#pmb182" type="place"><hi rend="latintype">Paris</hi></rs></addrLine><addrLine><rs ref="#pmb1095" type="place"><hi rend="latintype">Hotel Lutetia</hi></rs></addrLine><addrLine><rs ref="#pmb1094" type="place"><hi rend="latintype">Boulevrd Pasqual</hi><!-- sic! recte: Raspail --></rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline><!--<pb facs="Georg_Brandes_arkiv_144.jpg"/>--><rs ref="#pmb667" type="place">Partenkirchen</rs>, <date>29.&#160;4.&#160;11</date></dateline></opener><p>Ihre Karte, <salute>verehrter Herr Br<damage agent="paperloss"><supplied>andes,</supplied></damage></salute> und die Druckſchriften ſind uns nach <rs ref="#pmb36456" type="place">Mentone</rs> nachgewandert, u. am Ende meiner Reiſe, dank ich und grüß ich
-                    herzlichſt in alter Treue. </p><closer>Ihr<lb/><signed>Arth Schni</signed></closer></div></body>
+        <body>
+            <div type="address"><address><addrLine><pb facs="Georg_Brandes_arkiv_144.jpg"/>Herrn Prof. <hi rend="latintype">Georg Brandes</hi></addrLine><addrLine><rs ref="#pmb182" type="place"><hi rend="latintype">Paris</hi></rs></addrLine><addrLine><rs ref="#pmb1095" type="place"><hi rend="latintype">Hotel Lutetia</hi></rs></addrLine><addrLine><rs ref="#pmb1094" type="place"><hi rend="latintype">Boulevrd Pasqual</hi><!-- sic! recte: Raspail --></rs></addrLine></address></div>
+            <div type="writingSession" n="1"><opener><dateline><!--<pb facs="Georg_Brandes_arkiv_144.jpg"/>--><rs ref="#pmb667" type="place">Partenkirchen</rs>, <date>29.&#160;4.&#160;11</date></dateline></opener><p>Ihre Karte, <salute>verehrter Herr Br<damage agent="paperloss"><supplied>andes,</supplied></damage></salute> und die Druckſchriften ſind uns nach <rs ref="#pmb36456" type="place">Mentone</rs> nachgewandert, u. am Ende meiner Reiſe, dank ich und grüß ich
+                    herzlichſt in alter Treue. </p><closer>Ihr<lb/><signed>Arth Schni</signed></closer></div>
+        </body>
     </text>
 </TEI>

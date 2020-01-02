@@ -19,8 +19,7 @@
                     <address>
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
-                        <rs type="place">
-                            <country>A</country> Wien </rs>
+                        <placeName><country>A</country> <settlement>Wien</settlement> </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -54,8 +53,7 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>ms. Durchschlag, 1&#160;Bl., 1&#160;S., mit hs. Ergänzungen einer Klammer und Unterstreichungen zur archivalischen
-                                    Verwahrung und Beschriftung von Schnitzler: »<quote>Ma<c rendition="#gemination-n"/>
-                           </quote>« und
+                                    Verwahrung und Beschriftung von Schnitzler: »<quote>Ma<c rendition="#gemination-n"/></quote>« und
                                         »<quote>K</quote>«. Der grammatikalisch unvollständige Satz »<quote>Und es ist alles eher…</quote> wurde durch Ergänzung »<quote>wenn ich finde,</quote>« von unbekannter
                                 Hand (<rs ref="#pmb12692" type="person">Heinrich Schnitzler</rs>?) richtiggestellt.</p>
                      </physDesc>
@@ -123,7 +121,8 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>28.&#160;12.&#160;1922</date>.</dateline><salute>Sehr verehrter Herr Thomas Mann. </salute></opener><p>Das Jahr darf doch nicht zu Ende gehen, ohne dass ich Ihnen – recht sehr
+        <body>
+            <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>28.&#160;12.&#160;1922</date>.</dateline><salute>Sehr verehrter Herr Thomas Mann. </salute></opener><p>Das Jahr darf doch nicht zu Ende gehen, ohne dass ich Ihnen – recht sehr
                     verspätet – für Ihren lieben Brief vom <date>4.&#160;September
                         d.&#160;J.</date> danke. Ihre freundlichen Worte über »<rs ref="#pmb30971" type="work">Casanovas Heimfahrt</rs>« haben mich sehr gefreut.
                     Indess hat auch dieses Werk sein Schicksal oder wenigstens seine kleine Affaire
@@ -156,10 +155,11 @@
                     fähig wäre. Aber ich gerate ins Allgemeine, in einen Essay, das ist meine Sache
                     nicht, ich brächte doch keinen zu Ende, er müsste auf dem Wege sterben an der
                     Menge von Parenthesen, die ich immer wieder für unerlässlich hielte.</p><p>Sie kommen im <date>Jänner</date> nach <rs ref="#pmb50" type="place">Wien</rs>,
-                    da werde ich Sie ja hoffentlich sehen. Ich bin im Herbst in der <rs ref="#pmb33977 pmb34478" type="place">Cechoslowakei</rs> gewesen (in <rs ref="#pmb34478" type="place">Teplitz</rs> machten sich die Hakenkreuzler peinlich
+                    da werde ich Sie ja hoffentlich sehen. Ich bin im Herbst in der <rs ref="#pmb33977 #pmb34478" type="place">Cechoslowakei</rs> gewesen (in <rs ref="#pmb34478" type="place">Teplitz</rs> machten sich die Hakenkreuzler peinlich
                     bemerkbar), im <date>März</date> soll ich wieder hin, diesmal nach östlicheren
                     Gegenden, im Frühjahr fahre ich vielleicht nach <rs ref="#pmb434" type="place">Dänemark</rs> und <rs ref="#pmb244" type="place">Schweden</rs>. Ihr
                     <rs type="work" ref="#pmb33247" subtype="implied">Roman</rs> schreitet hoffentlich seiner Vollendung
-                    entgegen. Ich freue mich ihm und Ihnen entgegen.</p><closer>Seien Sie vielmals und herzlichst gegrüsst von<lb/>Ihrem ergebenen</closer><postscript><p>Herrn Thomas Mann<lb/></p><p><rs ref="#pmb38129" type="place">München</rs></p></postscript></div></body>
+                    entgegen. Ich freue mich ihm und Ihnen entgegen.</p><closer>Seien Sie vielmals und herzlichst gegrüsst von<lb/>Ihrem ergebenen</closer><postscript><p>Herrn Thomas Mann<lb/></p><p><rs ref="#pmb38129" type="place">München</rs></p></postscript></div>
+        </body>
     </text>
 </TEI>

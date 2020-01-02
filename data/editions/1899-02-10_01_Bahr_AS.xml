@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1899-02-10_01_Bahr_AS">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1899-02-10_01_Bahr_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -54,7 +53,8 @@
                         <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1&#160;Bl., 1&#160;S..</p>
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S., schwarze Tinte. Von unbekannter Hand
+                           mit Bleistift nummeriert: »<quote>65</quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -71,6 +71,7 @@
                         <publisher>Wallstein</publisher>
                         <date when="2018">2018</date>
                      </imprint>
+                     <biblScope unit="pp">167</biblScope>
                   </monogr>
                </biblStruct>
             </listBibl>
@@ -81,14 +82,14 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction  type="sent">
+            <correspAction type="sent">
                <persName ref="#pmb10815">Bahr, Hermann</persName>
                <placeName ref="#pmb50">Wien</placeName>
                <date when="1899-02-10" n="01">10.&#160;2.&#160;1899</date>
             </correspAction>
-            <correspAction  type="received">
+            <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-               <placeName ref="#pmb50">[Wien]</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
                <ptr type="previous" subtype="toAuthor" target="1898-12-14_01">Bahr an Schnitzler, 14.&#160;12.&#160;1898</ptr>
@@ -100,19 +101,32 @@
          <change who="KI MAM" when="2015-12-04">Kollationiert</change>
          <change who="KI MAM" when="2017-05-26">Kollationiert</change>
          <change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
+         <change who="GHS" when="2019-12-30">finalisiert</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
       <graphic url="MS-B-00005-B-000-00104"/>
    </facsimile>
    <text type="letter">
-      <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print">»<rs ref="#pmb29209" type="organisation">Die Zeit</rs>«</hi></seg><seg rend="right"><hi rend="pre-print"><hi rend="bold"><rs ref="#pmb50" type="place">Wien</rs></hi>, <rs ref="#pmb296" type="place">IX/3, Günthergasse 1</rs>., den </hi><date>10.&#160;Februar <hi rend="pre-print">189</hi>9</date></seg></p><p><hi rend="pre-print">Wiener Wochenſchrift</hi></p><p><hi rend="pre-print"><hi rend="bold">Herausgeber</hi>:</hi><lb/><hi rend="pre-print">Profeſſor Dr.&#160;<rs ref="#pmb12790" type="person">I.&#160;Singer</rs>,
-                        <rs ref="#pmb10815" type="person">Hermann Bahr</rs>, Dr.&#160;<rs ref="#pmb11867" type="person">Heinrich Kanner</rs>.</hi></p><p><hi rend="pre-print">Telephon Nr.&#160;6415.</hi></p><salute rend="center">Lieber Arthur!</salute></opener><p>Bitte, lies meinen diesmaligen <anchor type="commentary" xml:id="KL224-1"/><rs type="work" ref="#pmb31343" subtype="implied">Artikel</rs><note type="commentary" xml:id="KL224-1h"><bibl><rs ref="#pmb10815" type="person">Hermann Bahr</rs>: <rs ref="#pmb31343" type="work">Premièren. (Zur Première des Lustspiels »<rs ref="#pmb31581" type="work">Unser
-                           Käthchen</rs>« von <rs ref="#pmb11673" type="person">Theodor
-                           Herzl</rs> im Deutschen Volkstheater am <date>4. Februar
-                              1898</date>)</rs>. In: <rs ref="#pmb36340" type="work">Die Zeit</rs>,
-                     Bd.&#160;18, Nr.&#160;228, <date>11.&#160;2.&#160;1899</date>, S.&#160;90–91</bibl>.</note>. Ich schlage
-               da vor, daß die Autoren bei ihren Premièren nicht mehr erscheinen sollen. Willst Du
-               so lieb sein, mir darüber in zwei Zeilen, die ich in der »<rs ref="#pmb29209" type="organisation">Zeit</rs>« abdrucken darf, <subst><del rend="overwritten">m</del><add place="inline">D</add></subst>eine Meinung zu sagen?</p><closer>Herzlichst<lb/>Dein<lb/><signed>Hermann</signed></closer><postscript><p>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler </p></postscript></div></body>
+      <body>
+         <div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs="MS-B-00005-B-000-00104"/><hi rend="pre-print">»<rs ref="#pmb29209" type="organisation">Die
+                        Zeit</rs>«</hi></seg><seg rend="right"><hi rend="pre-print"><hi rend="bold"><rs ref="#pmb50" type="place">Wien</rs></hi>, <rs ref="#pmb296" type="place">IX/3, Günthergaſſe 1</rs>., den </hi><date>10.&#160;Februar <hi rend="pre-print">189</hi>9</date></seg></p><p><hi rend="pre-print">Wiener Wochenſchrift</hi></p><p><hi rend="pre-print"><hi rend="bold">Herausgeber</hi>:</hi><lb/><hi rend="pre-print">Profeſſor Dr.&#160;<rs ref="#pmb12790" type="person"
+                        >I.&#160;Singer</rs>, <rs ref="#pmb10815" type="person">Hermann Bahr</rs>,
+                        Dr.&#160;<rs ref="#pmb11867" type="person">Heinrich Kanner</rs>.</hi></p><p><hi rend="pre-print">Telephon Nr.&#160;6415.</hi></p><salute rend="center">Lieber Arthur!</salute></opener><p>Bitte, lies meinen diesmaligen <anchor type="commentary" xml:id="KL224-1"/><rs type="work" ref="#pmb31343" subtype="implied">Artikel</rs><note type="commentary" xml:id="KL224-1h"><bibl><rs ref="#pmb10815" type="person">Hermann Bahr</rs>: <rs ref="#pmb31343"
+                        type="work">Premièren. (Zur Première des Lustspiels »<rs ref="#pmb31581"
+                           type="work">Unser Käthchen</rs>« von <rs ref="#pmb11673" type="person"
+                           >Theodor Herzl</rs> im Deutschen Volkstheater am <date>4.&#160;Februar
+                           1898</date>)</rs>. In: <rs ref="#pmb36340" type="work">Die Zeit</rs>,
+                     Bd.&#160;18, Nr.&#160;228, <date>11.&#160;2.&#160;1899</date>,
+                     S.&#160;90–91</bibl>.</note>. Ich ſchlage da vor, daß die Autoren bei ihren
+               Premièren nicht mehr erſcheinen ſollen. Willſt Du ſo lieb ſein, mir darüber in zwei
+               Zeilen, die ich in der »<rs ref="#pmb29209" type="organisation">Zeit</rs>« abdrucken
+               darf, <subst><del rend="overwritten">m</del><add place="inline">D</add></subst>eine Meinung zu ſagen?</p><closer>Herzlichſt<lb/>Dein<lb/><signed>Hermann</signed></closer><postscript><p>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi> Arthur
+                  Schnitzler</hi></p></postscript><p><hi rend="pre-print"><anchor type="textConst" xml:id="TG73"/>Alle für »<rs ref="#pmb29209"
+                     type="organisation">Die Zeit</rs>« beſtimmten Zuſchriften und Sendungen ſind an
+                  die Redaction der »<rs ref="#pmb29209" type="organisation">Zeit</rs>« und nicht an
+                  die Perſon eines der Herausgeber oder Mitarbeiter zu richten.<note
+                     type="textConst" xml:id="TG73h">am unteren Rand der Seite</note></hi></p></div>
+      </body>
    </text>
 </TEI>

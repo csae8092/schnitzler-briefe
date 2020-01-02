@@ -57,17 +57,8 @@
                             <physDesc>
                                 <p>eh. Postkarte, schwarze Tinte. Von unbekannter Hand mit rotem Buntstift
                                     nummeriert: »7«. Eine Unterstreichung mit rotem Buntstift.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb51" type="place">Wien 1/1</rs>
-                                    <date>22.&#160;11. 95</date>
-                                    <time>11-12 N</time>
-                                </stamp>
-                                <stamp n="2">
-                                    <rs ref="#pmb59" type="place">Wien 9/3</rs>
-                                    <date>23.&#160;11. 95</date>
-                                    <time>8.V</time>
-                                    <action>Bestellt</action>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb51">Wien 1/1</placeName><date>22.&#160;11. 95</date><time>11-12 N</time></stamp>
+                                <stamp n="2"><placeName ref="#pmb59">Wien 9/3</placeName><date>23.&#160;11. 95</date><time>8.V</time><action>Bestellt</action></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -107,11 +98,15 @@
         <graphic url="MS-SCHNITZLER-B-00003-000-00018"/>
     </facsimile>
     <text type="card">
-        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00003-000-00017"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi></hi></addrLine><addrLine><hi rend="latintype">Arthur Schnitzler</hi></addrLine><addrLine><hi rend="latintype">Wien</hi></addrLine><addrLine><rs ref="#pmb397" type="place">Frankgasse 1.</rs></addrLine></address></div><div type="writingSession" n="1"><p><salute><pb facs="MS-SCHNITZLER-B-00003-000-00018"/>Lieber Herr <hi rend="latintype">D<hi rend="superscript">r</hi></hi></salute>, wahrſcheinlich gehe ich morgen (Sonnabend) in Ihrer Sprechſtunde bei
+        <body>
+            <div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00003-000-00017"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi></hi></addrLine><addrLine><hi rend="latintype">Arthur Schnitzler</hi></addrLine><addrLine><hi rend="latintype">Wien</hi></addrLine><addrLine><rs ref="#pmb397" type="place">Frankgasse 1.</rs></addrLine></address></div>
+            <div type="writingSession" n="1"><p><salute><pb facs="MS-SCHNITZLER-B-00003-000-00018"/>Lieber Herr <hi rend="latintype">D<hi rend="superscript">r</hi></hi></salute>, wahrſcheinlich gehe ich morgen (Sonnabend) in Ihrer Sprechſtunde bei
                     Ihnen vor<!-- sic! -->. Ich habe den Auftrag bekommen, ſo ſchnell als möglich
                     ein Exemplar der »<rs ref="#pmb29917" type="work">Liebelei</rs>« behufs einer
-                        <rs ref="#pmb434" type="place"><country>däniſchen</country></rs> Uebersetzung nach <rs ref="#pmb36300" type="place">Kopenhagen</rs>
+                        <rs ref="#pmb434" type="place">däniſchen
+</rs> Uebersetzung nach <rs ref="#pmb36300" type="place">Kopenhagen</rs>
                     zu ſenden und möchte Sie deswegen ſprechen. Seit geſtern bin ich, zusammen mit
-                        <rs ref="#pmb5412" type="person">Frieda von Bülow</rs>, im <rs ref="#pmb1101" type="place">Hôtel <hi rend="latintype">Royal</hi></rs>.</p><closer>Mit herzlichem Gruß<lb/><signed>LouAS.</signed></closer></div></body>
+                        <rs ref="#pmb5412" type="person">Frieda von Bülow</rs>, im <rs ref="#pmb1101" type="place">Hôtel <hi rend="latintype">Royal</hi></rs>.</p><closer>Mit herzlichem Gruß<lb/><signed>LouAS.</signed></closer></div>
+        </body>
     </text>
 </TEI>

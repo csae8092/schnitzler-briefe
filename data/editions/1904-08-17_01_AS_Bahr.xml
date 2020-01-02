@@ -57,16 +57,8 @@
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Kartenbrief, Bleistift</p>
-                        <stamp n="1">
-                           <rs ref="#pmb68" type="place">Wien 18</rs>
-                           <date when="1904-08-17">17.&#160;VIII 04</date>
-                        </stamp>
-                        <stamp n="2">
-                           <action>Bestellt</action>
-                           <rs ref="#pmb63" type="place">Wien 13/7</rs>
-                           <date when="1904-08-18">18.&#160;8.&#160;04</date>
-                           <time>8. V</time>
-                        </stamp>
+                        <stamp n="1"><placeName ref="#pmb68">Wien 18</placeName><date when="1904-08-17">17.&#160;VIII 04</date></stamp>
+                        <stamp n="2"><action>Bestellt</action><placeName ref="#pmb63">Wien 13/7</placeName><date when="1904-08-18">18.&#160;8.&#160;04</date><time>8. V</time></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -140,9 +132,12 @@
      <graphic url="HS_AM23366Ba"/>
      <graphic url="HS_AM23366Ba_R"/>
    </facsimile>
-  <text type="letter">
-      <body><div type="address"><address><addrLine><pb facs="HS_AM23366Ba"/>Herrn Hermann Bahr</addrLine><addrLine><rs ref="#pmb165" type="place">Wien Ob. St. Veit</rs></addrLine><addrLine><rs ref="#pmb220" type="place">Veitlissengasse.</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><date>17.&#160;8.</date></dateline></opener><p><salute>lieber Hermann, </salute><rs type="person" ref="#pmb2173" subtype="implied">wir</rs> wollen Freitag um 8 in
+  <text type="letter-card">
+      <body> 
+         <div type="address"><address><addrLine><pb facs="HS_AM23366Ba"/>Herrn Hermann Bahr</addrLine><addrLine><rs ref="#pmb165" type="place">Wien Ob. St. Veit</rs></addrLine><addrLine><rs ref="#pmb220" type="place">Veitlissengasse.</rs></addrLine></address></div> 
+         <div type="writingSession" n="1"><opener><dateline rend="right"><date>17.&#160;8.</date></dateline></opener><p><salute>lieber Hermann, </salute><rs type="person" ref="#pmb2173" subtype="implied">wir</rs> wollen Freitag um 8 in
         dem <anchor type="commentary" xml:id="KL072-1"/><rs ref="#pmb304" type="place"><hi rend="latintype">Kuffner</hi> Garten</rs><note type="commentary" xml:id="KL072-1h">Gastgarten des <rs ref="#pmb304" type="place">Ottakringer Bräu</rs>. Das Lokal gehörte zu der im 16. <rs ref="#pmb50" type="place">Wien</rs>er Gemeindebezirk (<rs ref="#pmb66" type="place">Ottakring</rs>) angesiedelten Brauerei <rs ref="#pmb6" type="place">Kuffner</rs>.</note> in <rs ref="#pmb63" type="place">Hietzing</rs> nachtmahlen; – und
-          hoffen sehr, wenn du nichts anderes vorhast, dich dort zu treffen.</p><p>Ziehst du ein andres Rendezvous vor, so verständige mich.</p><closer>Von Herzen<lb/>dein<lb/><signed>Arthur</signed></closer></div></body>
+          hoffen sehr, wenn du nichts anderes vorhast, dich dort zu treffen.</p><p>Ziehst du ein andres Rendezvous vor, so verständige mich.</p><closer>Von Herzen<lb/>dein<lb/><signed>Arthur</signed></closer></div>
+      </body>
   </text>
 </TEI>

@@ -57,15 +57,9 @@
                         <idno>HS AM 60147 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Ansichtskarte, Motiv: <rs ref="#pmb2306" type="person">Heinrich Kley</rs>: »<quote>
-                              <rs ref="#pmb466" type="place">Im Hofgarten München</rs>
-                           </quote>«,
+                        <p>eh. Ansichtskarte, Motiv: <rs ref="#pmb2306" type="person">Heinrich Kley</rs>: »<quote><rs ref="#pmb466" type="place">Im Hofgarten München</rs></quote>«,
             Bleistift</p>
-                        <stamp n="1">
-                           <rs ref="#pmb38129" type="place">München</rs>
-                           <date when="1908-05-06">6. Mai 08</date>
-                           <time>5–6 N</time>
-                        </stamp>
+                        <stamp n="1"><placeName ref="#pmb38129">München</placeName><date when="1908-05-06">6. Mai 08</date><time>5–6 N</time></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -140,6 +134,10 @@
      <graphic url="HS_AM60147Ba_R"/>
    </facsimile>
   <text type="card">
-      <body><div type="address"><address><addrLine><pb facs="HS_AM60147Ba"/><hi rend="latintype">Herrn Hermann Bahr</hi></addrLine><addrLine><rs ref="#pmb165" type="place"><hi rend="latintype">Wien Ob St Veit</hi></rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb220" type="place">Veitlissengasse</rs></hi></addrLine></address></div><div type="writingSession" n="1"><opener><dateline><date>6/5 908</date></dateline></opener><p>herzliche Grüße, in <anchor type="commentary" xml:id="KL106-1"/>Erinnerung an <date>1894</date><note type="commentary" xml:id="KL106-1h"><ptr target="L041533"/>.</note></p><closer>Dein<lb/><signed>Arthur</signed></closer></div><div type="writingSession" n="2"><closer><handShift scribe="pmb2173"/><signed>OlgaSchnitzler</signed></closer></div></body>
+      <body> 
+         <div type="address"><address><addrLine><pb facs="HS_AM60147Ba"/><hi rend="latintype">Herrn Hermann Bahr</hi></addrLine><addrLine><rs ref="#pmb165" type="place"><hi rend="latintype">Wien Ob St Veit</hi></rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb220" type="place">Veitlissengasse</rs></hi></addrLine></address></div> 
+         <div type="writingSession" n="1"><opener><dateline><date>6/5 908</date></dateline></opener><p>herzliche Grüße, in <anchor type="commentary" xml:id="KL106-1"/>Erinnerung an <date>1894</date><note type="commentary" xml:id="KL106-1h"><ptr target="L041533"/>.</note></p><closer>Dein<lb/><signed>Arthur</signed></closer></div>
+         <div type="writingSession" n="2"><closer><handShift scribe="#pmb2173"/><signed>OlgaSchnitzler</signed></closer></div>
+      </body>
   </text>
 </TEI>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1892-11-23_01_Hofmannsthal_AS">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+    xml:id="L1892-11-23_01_Hofmannsthal_AS">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [23.&#160;11.&#160;1892?]</title>
+                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler,
+                    [23.&#160;11.&#160;1892?]</title>
                 <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
@@ -55,10 +55,11 @@
                                 <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 2&#160;Bl., 2&#160;S. Zuerst mit blauem Stift, dann mit Tinte
-                                    und zuletzt mit Bleistift beschrieben. Der Brief entspricht
-                                    durch Papier und blauem Stift den Briefen <rs ref="#pmb10863" type="person">Richard Beer-Hofmann</rs>s. Von
-                                    unbekannter Hand mit Bleistift nummeriert:
+                                <p>eh. Brief, 2&#160;Bl., 2&#160;S. Zuerst mit blauem Stift, dann
+                                    mit Tinte und zuletzt mit Bleistift beschrieben. Der Brief
+                                    entspricht durch Papier und blauem Stift den Briefen <rs
+                                        ref="#pmb10863" type="person">Richard Beer-Hofmann</rs>s.
+                                    Von unbekannter Hand mit Bleistift nummeriert:
                                     »<quote>8</quote>«.</p>
                             </physDesc>
                         </msDesc>
@@ -87,20 +88,20 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction  type="sent">
+                <correspAction type="sent">
                     <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                     <placeName ref="#pmb50">Wien</placeName>
                     <date when="1892-11-23" n="01">[23.&#160;11.&#160;1892?]</date>
                 </correspAction>
-                <correspAction  type="received">
+                <correspAction type="received">
                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                     <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
-            <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1892-11-09_01">Schnitzler an Hofmannsthal, 9.&#160;11.&#160;1892</ptr>
-               <ptr type="next" subtype="toAuthor" target="1892-11-24_01">Schnitzler an Hofmannsthal, 24.&#160;11.&#160;1892</ptr>
-            </correspContext>
-         </correspDesc>
+                <correspContext>
+                    <ptr type="previous" subtype="toAuthor" target="1892-11-09_01">Schnitzler an Hofmannsthal, 9.&#160;11.&#160;1892</ptr>
+                    <ptr type="next" subtype="toAuthor" target="1892-11-24_01">Schnitzler an Hofmannsthal, 24.&#160;11.&#160;1892</ptr>
+                </correspContext>
+            </correspDesc>
         </profileDesc>
         <revisionDesc status="proposed">
             <change who="GHS" when="2019-02-18">Angelegt</change>
@@ -114,15 +115,20 @@
         <!-- muss noch bestellt werden! -->
     </facsimile>
     <text type="letter">
-        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00013"/><anchor type="commentary" xml:id="KL2217-1"/><date>Mittwoch</date><note type="commentary" xml:id="KL2217-1h">Die Datierung beruht auf dem
-                            Brief vom <date>24.&#160;11.&#160;1892</date> (<ptr target="L1892-11-24_01_AS_Hofmannsthal.xml"/>), bei dem es sich um
+        <body>
+            <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00013"/><anchor type="commentary" xml:id="KL2217-1"/><date>Mittwoch</date><note type="commentary" xml:id="KL2217-1h">Die Datierung beruht auf dem
+                            Brief vom <date>24.&#160;11.&#160;1892</date>
+                            (<ptr target="L1892-11-24_01_AS_Hofmannsthal.xml"/>), bei dem es sich um
                             die Antwort auf diesen handeln dürfte.</note></dateline><salute>Lieber Arthur</salute></opener><p>Ich ſchreibe zufällig an <rs ref="#pmb10863" type="person">Richard</rs>s
                     Schreibtiſch, das macht aber nichts. <anchor type="textConst" xml:id="TG5"/>Ich
                     möchte <note type="textConst" xml:id="TG5h">weiter mit schwarzer
                     Tinte</note>Ihnen nämlich etwas ſagen: <del rend="strikethrough">wir</del> wir
-                    ſollten doch einmal wieder ein bischen unter uns zuſammenkommen. <rs ref="#pmb4326" type="person">Robert</rs><space unit="chars" quantity="1"/><anchor type="textConst" xml:id="TG6"/><rs ref="#pmb4326" type="person">Ehrhardt</rs><note type="textConst" xml:id="TG6h">weiter mit Bleistift</note> und <rs ref="#pmb18523" type="person"><hi rend="latintype">Paul Horn</hi></rs> und alle ſind ja jeder in ſeiner Art ſehr nett, aber immer, das
-                    vergröbert und encanailliert naturgemäß Thema und Ton. Ich gehe deshalb nicht zu
-                        <pb facs=""/><!-- Faksimile fehlt,  --><rs ref="#pmb49" type="place">Pfob</rs>, meinen Sie nicht auch? Wir haben ja
-                    ſehr gut ohne das alles exiſtirt. Übrigens auf Wiederſehen Sonntag.</p><closer>Ihr <signed>Loris</signed></closer></div></body>
+                    ſollten doch einmal wieder ein bischen unter uns zuſammenkommen. <rs
+                        ref="#pmb4326" type="person">Robert</rs><space unit="chars" quantity="1"/><anchor type="textConst" xml:id="TG6"/><rs ref="#pmb4326" type="person">Ehrhardt</rs><note type="textConst" xml:id="TG6h">weiter mit Bleistift</note> und <rs
+                        ref="#pmb18523" type="person"><hi rend="latintype">Paul Horn</hi></rs> und alle ſind ja jeder in ſeiner Art ſehr nett, aber immer, das vergröbert
+                    und encanailliert naturgemäß Thema und Ton. Ich gehe deshalb nicht zu <pb
+                        facs=""/><!-- Faksimile fehlt,  --><rs ref="#pmb49" type="place">Pfob</rs>, meinen Sie nicht auch? Wir haben ja
+                    ſehr gut ohne das alles exiſtirt. Übrigens auf Wiederſehen Sonntag.</p><closer>Ihr <signed>Loris</signed></closer></div>
+        </body>
     </text>
 </TEI>

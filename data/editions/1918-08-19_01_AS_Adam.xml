@@ -57,11 +57,7 @@
                             <physDesc>
                                 <p>ms. Umschlag und Brief, 1&#160;Bl., 2&#160;S. mit eh. Korrektur
                                     und Nachschrift in Lateinschrift.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb50" type="place">Wien</rs>
-                                    <date when="1918-08-19">19.&#160;VIII.&#160;18</date>
-                                    <time>3</time>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb50">Wien</placeName><date when="1918-08-19">19.&#160;VIII.&#160;18</date><time>3</time></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -75,13 +71,8 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>ms. Durchschlag, 2&#160;Bl., 2&#160;S. Von Schnitzler beschriftet:
-                                            »<quote>
-                              <hi rend="latintype">Adam</hi>
-                           </quote>« und
-                                            »<quote>
-                              <hi rend="latintype">Kr</hi>
-                              <supplied>itik</supplied>
-                           </quote>«.</p>
+                                            »<quote><hi rend="latintype">Adam</hi></quote>« und
+                                            »<quote><hi rend="latintype">Kr</hi><supplied>itik</supplied></quote>«.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -115,10 +106,12 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body><div type="address"><address><addrLine><pb facs=""/><hi rend="pre-print">Dr. Arthur
+        <body>
+            <div type="address"><address><addrLine><pb facs=""/><hi rend="pre-print">Dr. Arthur
                         Schnitzler</hi></addrLine><addrLine><rs ref="#pmb150" type="place"><hi rend="pre-print">Wien, XVIII.
     Sternwartestrasse 71</hi></rs></addrLine></address><address><addrLine><pb facs=""/>Herrn Robert Adam</addrLine><addrLine><rs ref="#pmb62" type="place"><hi rend="spaced_out">Wien
-    XII</hi></rs>.</addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hauptstraße 56</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline><seg rend="left"><pb facs=""/><hi rend="pre-print">Dr. Arthur
+    XII</hi></rs>.</addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hauptstraße 56</rs>.</addrLine></address></div>
+            <div type="writingSession" n="1"><opener><dateline><seg rend="left"><pb facs=""/><hi rend="pre-print">Dr. Arthur
                                 Schnitzler</hi></seg><seg rend="right"><date>19.&#160;8.&#160;1918</date>.</seg></dateline><p><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></p><salute rend="center">Verehrtester Herr Doktor.</salute></opener><p>Bei der Lektüre Ihres »<rs ref="#pmb33604" type="work">Yppl</rs>« habe ich mich
                     recht wohlbehagt. Die Milieuschilderung ist hübsch gelungen, vielleicht etwas zu
                     sehr biedermeierisch geraten, wenn auch nicht ganz ohne moderne Durchleuchtung.
@@ -133,7 +126,8 @@
                     aufmerksam machen, das ich Ihnen hiemit mit bestem Danke zurückstelle. Wir reden
                     wohl noch ausführlicher darüber. Von <date>Mitte September</date> an stehe ich
                     gerne zur Verfügung.</p><closer>Herzlichst grüssend<lb/>Ihr </closer><postscript><p>Das <rs ref="#pmb33604" type="work" subtype="implied">Stück</rs> liegt Ihrem Wunsch gemäss zum
-                        Abholen bei mir bereit.</p></postscript></div><div type="writingSession" n="2"><p><handShift/>Vielen Dank für das Verzeichnis. Wie viel Mühe haben Sie ſich gemacht
+                        Abholen bei mir bereit.</p></postscript></div>
+            <div type="writingSession" n="2"><p><handShift/>Vielen Dank für das Verzeichnis. Wie viel Mühe haben Sie ſich gemacht
                     – ich bin ganz gerührt. Einige der Bücher würde mich ſehr intereſſieren,&#160;–
                     beſonders <anchor type="commentary" xml:id="KL2113-1"/><rs ref="#pmb34073" type="person">Mönckenmüller</rs><note type="commentary" xml:id="KL2113-1h">Vermutlich: <bibl><rs ref="#pmb34080" type="work">Geistesstörung und Verbrechen im
                                 Kindesalter</rs> von Dr. <rs ref="#pmb34073" type="person">Mönkemöller</rs>, Oberarzt an der <rs ref="#pmb34076" type="organisation">Provinzial-Heil- und Pflegeanstalt Osnabrück</rs>. Berlin:
@@ -145,6 +139,7 @@
                                 Pierantoni</rs>. Von Cav. <rs ref="#pmb34083" type="person">Lino
                                 Ferriani</rs>, Staatsanwalt in Como. Deutsch von <rs ref="#pmb34088" type="person">Alfred
                                 Ruhemann</rs>. Autorisierte Ausgabe. Berlin: <rs ref="#pmb34090" type="organisation">Siegfried Cronbach</rs><space unit="chars" quantity="1"/><date>1896</date></bibl>.</note> – dazu nächſtens.
-                        <signed>A.&#160;S.</signed></p></div></body>
+                        <signed>A.&#160;S.</signed></p></div>
+        </body>
     </text>
 </TEI>

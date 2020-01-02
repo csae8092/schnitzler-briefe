@@ -55,16 +55,8 @@
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Postkarte, Bleistift.</p>
-                        <stamp n="1">
-                           <rs ref="#pmb213" type="place">Ischl</rs>
-                           <date when="1899-09-10">10.&#160;9.&#160;99</date>
-                           <time>7–8&#160;V</time>
-                        </stamp>
-                        <stamp n="2">
-                           <rs ref="#pmb28068" type="place">Brixen</rs>
-                           <date when="1899-09-11">11. 9. 99</date>
-                           <time>6.V</time>
-                        </stamp>
+                        <stamp n="1"><placeName ref="#pmb213">Ischl</placeName><date when="1899-09-10">10.&#160;9.&#160;99</date><time>7–8&#160;V</time></stamp>
+                        <stamp n="2"><placeName ref="#pmb28068">Brixen</placeName><date when="1899-09-11">11. 9. 99</date><time>6.V</time></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -103,10 +95,13 @@
       <graphic url="1899_AS_RBH_2_00043.jpeg"/>
    </facsimile>
    <text type="card">
-      <body><div type="address"><address><addrLine><pb facs="1899_AS_RBH_2_00042.jpeg"/><hi rend="latintype">Herrn Dr.
-                  Richard Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb946" type="place"><hi rend="latintype">Vahrn</hi></rs> bei <hi rend="latintype"><rs ref="#pmb28068" type="place">Brixen</rs></hi></addrLine><addrLine><rs ref="#pmb423" type="place"><hi rend="latintype">Tirol</hi></rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1899_AS_RBH_2_00043.jpeg"/><salute>lieber Richard, </salute>eben iſt ein
+      <body>
+         <div type="address"><address><addrLine><pb facs="1899_AS_RBH_2_00042.jpeg"/><hi rend="latintype">Herrn Dr.
+                  Richard Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb946" type="place"><hi rend="latintype">Vahrn</hi></rs> bei <hi rend="latintype"><rs ref="#pmb28068" type="place">Brixen</rs></hi></addrLine><addrLine><rs ref="#pmb423" type="place"><hi rend="latintype">Tirol</hi></rs></addrLine></address></div>
+         <div type="writingSession" n="1"><p><pb facs="1899_AS_RBH_2_00043.jpeg"/><salute>lieber Richard, </salute>eben iſt ein
                Brief an Sie nach <rs ref="#pmb41430" type="place"><hi rend="latintype"
                   >Sachsenburg</hi></rs> abgegangen. Er enthält nichts wichtiges; nur d<subst><del rend="overwritten"><unclear>en Umſtand</unclear></del><add place="inline">ie Bitte</add></subst>, Sie möchten mir nach <rs ref="#pmb38129" type="place">München</rs> ſchreiben,
-               wo ich <date>Mittwoch</date> u <date>Donnerstag</date> ſein will.</p><closer>Herzlich Ihr <signed>A.</signed></closer></div></body>
+               wo ich <date>Mittwoch</date> u <date>Donnerstag</date> ſein will.</p><closer>Herzlich Ihr <signed>A.</signed></closer></div>
+      </body>
    </text>
 </TEI>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1895-08-27_01_AS_Beer-Hofmann">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1895-08-27_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 27.&#160;8.&#160;1895</title>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann,
+               27.&#160;8.&#160;1895</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -55,8 +55,9 @@
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>hs. Telegramm, aufgegeben in <rs ref="#pmb38129" type="place">München</rs> (<time>4.45&#160;N</time>), eingegangen in
-                              <rs ref="#pmb213" type="place">Ischl</rs> (<time>5.50</time>).</p>
+                        <p>hs. Telegramm, aufgegeben in <rs ref="#pmb38129" type="place"
+                              >München</rs> (<time>4.45&#160;N</time>), eingegangen in <rs
+                              ref="#pmb213" type="place">Ischl</rs> (<time>5.50</time>).</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -68,12 +69,12 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction  type="sent">
+            <correspAction type="sent">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                <placeName ref="#pmb38129">München</placeName>
                <date when="1895-08-27" n="01">27.&#160;8.&#160;1895</date>
             </correspAction>
-            <correspAction  type="received">
+            <correspAction type="received">
                <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                <placeName ref="#pmb213">Bad Ischl</placeName>
                <date when="1895-08-27">27.&#160;8.&#160;1895</date>
@@ -94,20 +95,29 @@
       <graphic url="1895_AS_RBH_2_00022.jpeg"/>
    </facsimile>
    <text type="telegram">
-      <body><div type="address"><address><addrLine>Richard Beer</addrLine><addrLine>Hoffmann</addrLine><addrLine><rs ref="#pmb766" type="place">Egelmos 22</rs></addrLine><addrLine><rs ref="#pmb213" type="place"><hi rend="stamp">Ischl</hi></rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1895_AS_RBH_2_00022.jpeg"/>Wohne ſchön <rs ref="#pmb681" type="place">Hotel
-                  Continental</rs><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KLMAM20191019-1"/>ſitze beſorgt<note type="commentary" xml:id="KLMAM20191019-1h">Möglicherweise ist dieses Telegramm der Ursprung eines
-                  beliebten Witzes, den Zeitungen mehrfach abdrucken und der zumeist <rs ref="#pmb2292" type="person">Hofmannsthal</rs> und <rs ref="#pmb2121" type="person">Schnitzler</rs> als Protagonisten hat: »<quote>In <rs ref="#pmb50" type="place">Wien</rs>er Literatenkreisen wird über folgende angeblich wahre
-                     Geschichte herzlich gelacht: <rs ref="#pmb2121" type="person">Artur
-                        Schnitzler</rs> ersuchte in <rs ref="#pmb415" type="place">Aussee</rs>
-                     seinen Freund <rs ref="#pmb2292" type="place">Hugo Hoffmannsthal</rs>, er möge
-                     ihm, wenn er nach <rs ref="#pmb30" type="place">Salzburg</rs> fahre, Karten für
-                     die <rs ref="#pmb30129" type="work">Jedermann</rs>-Aufführung besorgen. Nach
-                     einigen Wochen, als <rs ref="#pmb2121" type="person">Schnitzler</rs> längst diese
-                     Bitte vergessen hatte, erhielt er aus <rs ref="#pmb30" type="place">Salzburg</rs> folgendes Telegramm: <hi rend="spaced_out">Sitze
-                        besorgt </hi><rs ref="#pmb152" type="place"><hi rend="spaced_out">Hotel
-                        Europe</hi></rs>. <rs ref="#pmb2292" type="place">Hoffmannsthal</rs>.
-                     Worauf <rs ref="#pmb2121" type="person">Schnitzler</rs> bestürzt zurückdrahtete:
-                        <hi rend="spaced_out">Warum sitzt du besorgt im </hi><rs ref="#pmb152" type="place"><hi rend="spaced_out">Hotel Europe</hi></rs><hi rend="spaced_out">? <rs ref="#pmb2121" type="person">Schnitzler</rs>.</hi></quote>« (<bibl><rs ref="#pmb42403" type="work">Der Morgen</rs>, Jg.&#160;12,
-                     Nr.&#160;42, <date>17.&#160;10.&#160;1921</date>, S.&#160;8</bibl>.)</note><rs ref="#pmb11485" type="person">Paul</rs> kommt morgen herzlichſt</p><closer><signed>Arthur</signed></closer></div></body>
+      <body>
+         <div type="address"><address><addrLine>Richard Beer</addrLine><addrLine>Hoffmann</addrLine><addrLine><rs ref="#pmb766" type="place">Egelmos 22</rs></addrLine><addrLine><rs ref="#pmb213" type="place"><hi rend="stamp">Ischl</hi></rs></addrLine></address></div>
+         <div type="writingSession" n="1"><p><pb facs="1895_AS_RBH_2_00022.jpeg"/>Wohne ſchön <rs ref="#pmb681" type="place">Hotel
+                  Continental</rs><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KLMAM20191019-1"/>ſitze beſorgt<note
+                  type="commentary" xml:id="KLMAM20191019-1h">Möglicherweise ist dieses Telegramm
+                  der Ursprung eines beliebten Witzes, den Zeitungen mehrfach abdrucken und der
+                  zumeist <rs ref="#pmb2292" type="person">Hofmannsthal</rs> und <rs ref="#pmb2121"
+                     type="person">Schnitzler</rs> als Protagonisten hat: »<quote>In <rs
+                        ref="#pmb50" type="place">Wien</rs>er Literatenkreisen wird über folgende
+                     angeblich wahre Geschichte herzlich gelacht: <rs ref="#pmb2121" type="person"
+                        >Artur Schnitzler</rs> ersuchte in <rs ref="#pmb415" type="place"
+                        >Aussee</rs> seinen Freund <rs ref="#pmb2292" type="place">Hugo
+                        Hoffmannsthal</rs>, er möge ihm, wenn er nach <rs ref="#pmb30" type="place"
+                        >Salzburg</rs> fahre, Karten für die <rs ref="#pmb30129" type="work"
+                        >Jedermann</rs>-Aufführung besorgen. Nach einigen Wochen, als <rs
+                        ref="#pmb2121" type="person">Schnitzler</rs> längst diese Bitte vergessen
+                     hatte, erhielt er aus <rs ref="#pmb30" type="place">Salzburg</rs> folgendes
+                     Telegramm: <hi rend="spaced_out">Sitze besorgt </hi><rs ref="#pmb152" type="place"><hi rend="spaced_out">Hotel Europe</hi></rs>. <rs ref="#pmb2292" type="place">Hoffmannsthal</rs>. Worauf <rs
+                        ref="#pmb2121" type="person">Schnitzler</rs> bestürzt zurückdrahtete: <hi
+                        rend="spaced_out">Warum sitzt du besorgt im </hi><rs ref="#pmb152" type="place"><hi rend="spaced_out">Hotel Europe</hi></rs><hi rend="spaced_out">? <rs ref="#pmb2121" type="person">Schnitzler</rs>.</hi></quote>« (<bibl><rs ref="#pmb42403" type="work">Der Morgen</rs>, Jg.&#160;12, Nr.&#160;42,
+                        <date>17.&#160;10.&#160;1921</date>, S.&#160;8</bibl>.)</note><space
+                  unit="chars" quantity="1"/><rs ref="#pmb11485" type="person">Paul</rs> kommt
+               morgen herzlichſt</p><closer><signed>Arthur</signed></closer></div>
+      </body>
    </text>
 </TEI>

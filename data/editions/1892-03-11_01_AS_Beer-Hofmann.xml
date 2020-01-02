@@ -56,15 +56,8 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Brief mit Umschlag und rotem Siegel: »<quote>AS</quote>«, schwarze Tinte, 2&#160;Bl., 8&#160;S.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb51" type="place">Wien 1/1</rs>
-                                    <date when="1892-03-11">11 3 92</date>
-                                    <time>7–8&#160;N</time>
-                                </stamp>
-                                <stamp n="2">
-                                    <rs ref="#pmb38096" type="place">Abbazia</rs>
-                                    <date when="1892-03-13">13<supplied>.&#160;3.</supplied>&#160;92</date>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb51">Wien 1/1</placeName><date when="1892-03-11">11 3 92</date><time>7–8&#160;N</time></stamp>
+                                <stamp n="2"><placeName ref="#pmb38096">Abbazia</placeName><date when="1892-03-13">13<supplied>.&#160;3.</supplied>&#160;92</date></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -160,8 +153,10 @@
         <graphic url="1892_AS_RBH_1_00030"/>
     </facsimile>
     <text type="letter">
-        <body><div type="address"><address><addrLine><pb facs="1892_AS_RBH_1_00023"/>Herrn <hi rend="latintype">Dr. Rich.
-                            Beer-Hofm<damage agent="paperloss"><supplied>a</supplied></damage>nn</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb38096" type="place">Abbazia</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb756" type="place">Pension Quisisana</rs></hi></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1892_AS_RBH_1_00025"/><rs ref="#pmb50" type="place">Wien</rs>, <date>11.&#160;März 92</date>.</dateline><salute>Lieber Richard,</salute></opener><p><rs ref="#pmb2563" type="person">Kafka</rs> habe ich die letzten Tage nicht geſehn.
+        <body>
+            <div type="address"><address><addrLine><pb facs="1892_AS_RBH_1_00023"/>Herrn <hi rend="latintype">Dr. Rich.
+                            Beer-Hofm<damage agent="paperloss"><supplied>a</supplied></damage>nn</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb38096" type="place">Abbazia</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb756" type="place">Pension Quisisana</rs></hi></addrLine></address></div>
+            <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1892_AS_RBH_1_00025"/><rs ref="#pmb50" type="place">Wien</rs>, <date>11.&#160;März 92</date>.</dateline><salute>Lieber Richard,</salute></opener><p><rs ref="#pmb2563" type="person">Kafka</rs> habe ich die letzten Tage nicht geſehn.
                     Das letzte Mal an unſerem <rs type="organisation" ref="#pmb29781" subtype="implied">Vereinsabend</rs>, der nur einen Lichtpunkt hatte: <rs ref="#pmb10815" type="person">Bahr’s</rs> »<anchor type="commentary" xml:id="KL377-1"/><rs ref="#pmb30187" type="work">treue Adele</rs><note type="commentary" xml:id="KL377-1h"><bibl><rs ref="#pmb10815" type="person">Hermann Bahr</rs>: <rs ref="#pmb30187" type="work">Die treue Adele. Eine vergeßliche
                                 Geschichte</rs>. In: <rs ref="#pmb35919" type="work">Die
                                 Gesellschaft</rs>, Jg.&#160;5, Nr.&#160;11, <date>November 1889</date>,
@@ -197,6 +192,7 @@
                     – und werden es nicht einmal bemerken. So wollen wir die Unbequemen zu relativem
                     Tod verurtheilen: wir vom »großen Orden«!&#160;– Oder hätte Sie <rs ref="#pmb2167" type="person"><hi rend="latintype">Salten</hi></rs> abreiſen laſſen, ohne Ihnen den großen Orden zu erläutern?&#160;–</p><p>Schreiben Sie mir bald, und möglichſt viel, es muſs doch ganz ſchön ſein, we<c rendition="#gemination-n"/>
                     man einmal wo anders iſt. Und dann, ſchreiben Sie – wir erwarten es, wir – vom
-                    großen Orden.&#160;–</p><closer><pb facs="1892_AS_RBH_1_00030"/>Herzlichſt Ihr<lb/><signed>Arthur Sch</signed></closer></div></body>
+                    großen Orden.&#160;–</p><closer><pb facs="1892_AS_RBH_1_00030"/>Herzlichſt Ihr<lb/><signed>Arthur Sch</signed></closer></div>
+        </body>
     </text>
 </TEI>

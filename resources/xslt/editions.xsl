@@ -125,7 +125,7 @@
                         <a class="ml-3">
                             <xsl:attribute name="href">
                             <xsl:value-of select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?document=entry__', $datum,'.xml')"/>
-                        </xsl:attribute>TAGEBUCH</a>
+                            </xsl:attribute><span style="color:037a33;">TAGEBUCH</span></a>
                        <!-- <label>
                              <input type="checkbox" id="check_auszeichnungen"> MARKIERUNGEN</input>
                         </label>-->
@@ -143,10 +143,6 @@
                     <dl class="kommentarhang">
                         <xsl:apply-templates select="//tei:anchor[@type='textConst']|//tei:note[@type='textConst']|//tei:anchor[@type='commentary']|//tei:note[@type='commentary']" mode="lemma"/>
                     </dl>
-                    
-                    
-               
-              
                 </div>
             </div>
             
@@ -288,8 +284,7 @@
                                     </xsl:if>
                                     <xsl:if test="//tei:physDesc">
                                         <tr>
-                                            <th valign="top">
-                                                Beschreibung
+                                            <th valign="top">Beschreibung
                                             </th>
                                             <td>
                                                 <xsl:apply-templates select="tei:msDesc/tei:physDesc/tei:p"/>
@@ -298,8 +293,7 @@
                                         <xsl:if test="tei:msDesc/tei:physDesc/tei:stamp">
                                             <xsl:for-each select="tei:msDesc/tei:physDesc/tei:stamp">
                                             <tr>
-                                                <th valign="top">
-                                                    Stempel
+                                                <th valign="top">Stempel
                                                     <xsl:value-of select="@n"/>
                                                     
                                                 </th>

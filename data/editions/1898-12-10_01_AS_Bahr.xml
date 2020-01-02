@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1898-12-10_01_AS_Bahr">
-  <teiHeader type="text">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1898-12-10_01_AS_Bahr">
+   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Arthur Schnitzler an Hermann Bahr, 10.&#160;12.&#160;1898</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
-               
                <name full="yes" instant="false">Müller, Martin Anton</name>
             </editor>
             <funder>
@@ -20,9 +18,9 @@
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
                   <placeName>
-                     <country>A</country>  
+                     <country>A</country>
                      <settlement>Wien</settlement>
-                  </placeName> 
+                  </placeName>
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +33,7 @@
             </respStmt>
          </editionStmt>
          <publicationStmt>
-            <publisher>Austrian Academy of Sciences, Vienna</publisher> 
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
             <idno type="HBAS-L" n="1024"/>
             <availability status="free">
                <p>Copyright © 2018</p>
@@ -45,28 +43,19 @@
             <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
          </seriesStmt>
          <sourceDesc>
-            
             <listWit>
                <witness n="1">
                   <msDesc>
                      <msIdentifier>
-                        <country>A</country>           
+                        <country>A</country>
                         <settlement>Wien</settlement>
                         <repository>Theatermuseum</repository>
                         <idno>HS AM 23334 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Kartenbrief, Bleistift</p>
-                        <stamp n="1">
-                           <rs ref="#pmb50" type="place">Wien</rs>
-                           <date when="1898-12-11">11.&#160;12.&#160;98</date>
-                           <time>7–8 V</time>
-                        </stamp>
-                        <stamp n="2">
-                           <rs ref="#pmb50" type="place">Wien</rs>
-                           <date when="1898-12-11">11. <supplied>12.&#160;98</supplied>
-                           </date>
-                        </stamp>
+                        <p>eh. Kartenbrief, Bleistift.</p>
+                        <stamp n="1"><placeName ref="#pmb51">Wien 1/1</placeName><date when="1898-12-11">11.&#160;12.&#160;98</date><time>7–8 V</time></stamp>
+                        <stamp n="2"><placeName ref="#pmb59">Wien 9/2</placeName><date when="1898-12-11">11. <supplied>12.&#160;98</supplied></date></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -79,31 +68,34 @@
                   <monogr>
                      <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
-                     <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
-                     <imprint> 
-                        <pubPlace>Chapel Hill</pubPlace> 
-                        <publisher>The University of North Carolina Press</publisher> 
-                        <date when="1978">1978</date> 
-                     </imprint> 
+                     <editor>Edited, annotated, and with an introduction, by Donald G.
+                        Daviau</editor>
+                     <imprint>
+                        <pubPlace>Chapel Hill</pubPlace>
+                        <publisher>The University of North Carolina Press</publisher>
+                        <date when="1978">1978</date>
+                     </imprint>
                      <biblScope unit="pp">65</biblScope>
                   </monogr>
-                  <series> 
-                     <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> 
-                     <biblScope unit="nr">89</biblScope> 
+                  <series>
+                     <title level="s">University of North Carolina studies in the Germanic languages
+                        and literatures</title>
+                     <biblScope unit="nr">89</biblScope>
                   </series>
                </biblStruct>
-               <biblStruct corresp="HBAS">                              
-                  <monogr>                             
-                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
-                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
-                     <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
-                     <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
-                     <imprint>                                       
-                        <pubPlace>Göttingen</pubPlace>                                       
-                        <publisher>Wallstein</publisher>                                       
-                        <date when="2018">2018</date>                                  
-                     </imprint>                             
-                  </monogr>                     
+               <biblStruct corresp="HBAS">
+                  <monogr>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+                     <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
+                     <imprint>
+                        <pubPlace>Göttingen</pubPlace>
+                        <publisher>Wallstein</publisher>
+                        <date when="2018">2018</date>
+                     </imprint>
+                     <biblScope unit="pp">165</biblScope>
+                  </monogr>
                </biblStruct>
             </listBibl>
          </sourceDesc>
@@ -113,16 +105,16 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction  type="sent">
+            <correspAction type="sent">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                <placeName ref="#pmb50">[Wien]</placeName>
                <date when="1898-12-10" n="01">10.&#160;12.&#160;1898</date>
             </correspAction>
-            <correspAction  type="received">
+            <correspAction type="received">
                <persName ref="#pmb10815">Bahr, Hermann</persName>
                <placeName ref="#pmb50">Wien</placeName>
                <date when="1898-12-11">11. <supplied>12.&#160;98</supplied>
-                           </date>
+               </date>
             </correspAction>
             <correspContext>
                <ptr type="previous" subtype="toAuthor" target="1898-12-01_02">Schnitzler an Bahr, 1.&#160;12.&#160;1898</ptr>
@@ -134,15 +126,19 @@
          <change who="KI MAM" when="2015-10-01">Kollationiert</change>
          <change who="KI MAM" when="2017-05-03">Kollationiert</change>
          <change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
-         
+         <change who="GHS" when="2019-12-28">finalisiert</change>
       </revisionDesc>
-  </teiHeader>
-   <facsimile>       
-     <graphic url="HS_AM23334Ba"/>
-     <graphic url="HS_AM23334Ba_R"/>
+   </teiHeader>
+   <facsimile>
+      <graphic url="HS_AM23334Ba"/>
+      <graphic url="HS_AM23334Ba_R"/>
    </facsimile>
-  <text type="card">
-      <body><div type="address"><address><addrLine><pb facs="HS_AM23334Ba"/>Herrn <hi rend="latintype">Hermann Bahr</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb436" type="place">IX. Porzellangasse 37.</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p><salute>Lieber Hermann, </salute>ich gratulire dir von Herzen zu deinem heutigen Erfolg und noch
-          mehr zu deinem <rs type="work" ref="#pmb30127" subtype="implied">Stück</rs>! </p><closer>Dein <signed>Arth Schnitzler</signed></closer><postscript><p><date when="1898-12-10">Samstag Abend,<lb/>10.&#160;12.&#160;98.</date></p></postscript></div></body>
-  </text>
+   <text type="letter-card">
+      <body>
+         <div type="address"><address><addrLine><pb facs="HS_AM23334Ba_R"/>Herrn <hi rend="latintype">Hermann Bahr</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb436" type="place">IX. Porzellangasse 37.</rs></hi></addrLine></address></div>
+         <div type="writingSession" n="1"><p><pb facs="HS_AM23334Ba"/>"/><salute>Lieber Hermann, </salute>ich gratulire dir von Herzen zu deinem heutigen
+               Erfolg und noch mehr zu deinem <rs type="work" ref="#pmb30127" subtype="implied"
+                  >Stück</rs>! </p><closer>Dein <signed>Arth Schnitzler</signed></closer><postscript><p><date when="1898-12-10">Samſtag Abend,<lb/>10.&#160;12.&#160;98.</date></p></postscript></div>
+      </body>
+   </text>
 </TEI>

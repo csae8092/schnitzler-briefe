@@ -19,8 +19,7 @@
                     <address>
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
-                        <rs type="place">
-                            <country>A</country> Wien </rs>
+                        <placeName><country>A</country> <settlement>Wien</settlement> </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -88,7 +87,8 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body><div type="writingSession" n="1"><p><pb facs=""/><salute>Lieber Dr Schnitzler! </salute>Warum sind Sie heute nicht
+        <body>
+            <div type="writingSession" n="1"><p><pb facs=""/><salute>Lieber Dr Schnitzler! </salute>Warum sind Sie heute nicht
                         geko<c rendition="#gemination-m"/>en? Ich bin <anchor type="commentary" xml:id="KLMAM20191009-17"/>schwach<note type="commentary" xml:id="KLMAM20191009-17h">Am <date>20.&#160;12.&#160;1892</date> notiert
                         sich <rs ref="#pmb2121" type="person">Schnitzler</rs> erstmals bei einem Besuch
                         von <rs ref="#pmb2450" type="person">Fels</rs>, dessen desolaten Zustand:
@@ -104,6 +104,7 @@
                     der Sohn meines <rs type="person" ref="#pmb41903" subtype="implied">Hauswirts</rs> – können ihm
                     also die gröſte Su<c rendition="#gemination-m"/>e mitgeben. Ich sitze <gap quantity="2" reason="illegible" unit="chars"/> ohne alles hier; nicht einmal
                     die Cigarette <pb facs=""/>die ich rauche ist bezahlt. <unclear><gap quantity="2" reason="illegible" unit="chars"/></unclear>. Bitte um Adreſse (genaue) von <rs ref="#pmb10863" type="person">Beer-Hofma<c rendition="#gemination-n"/></rs> u.
-                        <rs ref="#pmb11740" type="person">Loris</rs>.</p><closer>H. <lb/><signed>Fels</signed></closer></div></body>
+                        <rs ref="#pmb11740" type="person">Loris</rs>.</p><closer>H. <lb/><signed>Fels</signed></closer></div>
+        </body>
     </text>
 </TEI>

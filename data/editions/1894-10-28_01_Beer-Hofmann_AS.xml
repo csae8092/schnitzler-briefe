@@ -54,25 +54,11 @@
                         <idno>Schnitzler, B&#160;8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Postkarte, Bleistift. Von Schnitzler mit Bleistift datiert: »<quote>
-                              <date>28/10 94</date>
-                           </quote>« und nummeriert: »<quote>31</quote>«.</p>
-                        <stamp n="1">
-                           <rs ref="#pmb310" type="place">Hotel d’Italie <c rendition="#kaufmannsund"/>
-                              Bauer Bauer Grünwald Venise</rs>
-                           <date>28&#160;Oct.&#160;94</date>
-                        </stamp>
-                        <stamp n="2">
-                           <rs ref="#pmb462" type="place">Venezia Ferrovia</rs>
-                           <date>28&#160;10–94</date>
-                           <time>9&#160;S</time>
-                        </stamp>
-                        <stamp n="3">
-                           <rs ref="#pmb59" type="place">Wien 9/3</rs>
-                           <date>30.&#160;10.&#160;94</date>
-                           <time>8.V</time>
-                           <action>Bestellt</action>
-                        </stamp>
+                        <p>eh. Postkarte, Bleistift. Von Schnitzler mit Bleistift datiert: »<quote><date>28/10 94</date></quote>« und nummeriert: »<quote>31</quote>«.</p>
+                        <stamp n="1"><placeName ref="#pmb310">Hotel d’Italie <c rendition="#kaufmannsund"/>
+                              Bauer Bauer Grünwald Venise</placeName><date>28&#160;Oct.&#160;94</date></stamp>
+                        <stamp n="2"><placeName ref="#pmb462">Venezia Ferrovia</placeName><date>28&#160;10–94</date><time>9&#160;S</time></stamp>
+                        <stamp n="3"><placeName ref="#pmb59">Wien 9/3</placeName><date>30.&#160;10.&#160;94</date><time>8.V</time><action>Bestellt</action></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -128,7 +114,9 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00070.jpg"/>
    </facsimile>
    <text type="card">
-      <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00070"/><hi rend="pre-print">A</hi>n</addrLine><addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine>Wien</addrLine><addrLine><rs ref="#pmb397" type="place">IX Frankgasse</rs> 1</addrLine><addrLine><rs ref="#pmb41240" type="place">Austria</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00069"/><rs ref="#pmb462" type="place">Venedig</rs>. <date when="1894-10-28">Sonntag
+      <body>
+         <div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00070"/><hi rend="pre-print">A</hi>n</addrLine><addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine>Wien</addrLine><addrLine><rs ref="#pmb397" type="place">IX Frankgasse</rs> 1</addrLine><addrLine><rs ref="#pmb41240" type="place">Austria</rs></addrLine></address></div>
+         <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00069"/><rs ref="#pmb462" type="place">Venedig</rs>. <date when="1894-10-28">Sonntag
                      Abends</date></dateline></opener><p><salute>Lieber Arthur! </salute>Ihren Brief hab ich erhalten. Es ist wahrscheinlich
                daß ich schon <date>Donnerstag</date> in <rs ref="#pmb50" type="place">Wien</rs> bin
                   (<hi rend="underline" n="1">Das ist aber njcht<!-- sic! --> officiell</hi>). Jedenfalls
@@ -139,6 +127,7 @@
                   »<rs ref="#pmb30397" type="work">Schmetterlingsschlacht</rs>« in den Hi<c
                   rendition="#gemination-m"/>el. Das hat <anchor type="textConst" xml:id="TG17"/>ihr
                   noch<note type="textConst" xml:id="TG17h">weiter am rechten Rand</note> gefehlt!
-                  <signed>Richard</signed></p></div></body>
+                  <signed>Richard</signed></p></div>
+      </body>
    </text>
 </TEI>

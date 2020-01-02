@@ -55,16 +55,8 @@
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Bildpostkarte, Bleistift. Motiv: »Gruss vom <rs ref="#pmb43126" type="place">National-Denkmal</rs>.«</p>
-                        <stamp n="1">
-                           <!-- Das hatten wir noch nie (gabs ab und zu in meinem Bölsche-Ziegel) ein Zugpoststempel -->
-                           <!-- er nennt die Strecke des Zuges [Cöln (RH) - Niederlahnst{ein} - Frankfurt (M)], die Zugnummer (könnte 32 sein) und das Datum (30.9.99) - wie angeben?-->
-                           <rs type="place"></rs>
-                           <date>30.&#160;9.&#160;99</date>
-                        </stamp>
-                        <stamp n="2">
-                           <rs ref="#pmb40832" type="place">St. Michael in Eppan</rs>
-                           <date>1&#160;10&#160;99</date>
-                        </stamp>
+                        <stamp n="1"><!-- Das hatten wir noch nie (gabs ab und zu in meinem Bölsche-Ziegel) ein Zugpoststempel --><!-- er nennt die Strecke des Zuges [Cöln (RH) - Niederlahnst{ein} - Frankfurt (M)], die Zugnummer (könnte 32 sein) und das Datum (30.9.99) - wie angeben?--><placeName></placeName><date>30.&#160;9.&#160;99</date></stamp>
+                        <stamp n="2"><placeName ref="#pmb40832">St. Michael in Eppan</placeName><date>1&#160;10&#160;99</date></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -101,7 +93,10 @@
       <graphic url="1899_AS_RBH_3_00019.jpeg"/>
    </facsimile>
    <text type="card">
-      <body><div type="address"><address><addrLine><pb facs="1899_AS_RBH_3_00019.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
-                     Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb40832" type="place"><hi rend="latintype">St. Michael</hi></rs></addrLine><addrLine>in Eppan</addrLine></address></div><div type="writingSession" n="1"><p rend="center"><pb facs="1899_AS_RBH_3_00018.jpeg"/><hi rend="latintype">Heilô!</hi></p></div></body>
+      <body>
+         <div type="address"><address><addrLine><pb facs="1899_AS_RBH_3_00019.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
+                     Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb40832" type="place"><hi rend="latintype">St. Michael</hi></rs></addrLine><addrLine>in Eppan</addrLine></address></div>
+         <div type="writingSession" n="1"><p rend="center"><pb facs="1899_AS_RBH_3_00018.jpeg"/><hi rend="latintype">Heilô!</hi></p></div>
+      </body>
    </text>
 </TEI>

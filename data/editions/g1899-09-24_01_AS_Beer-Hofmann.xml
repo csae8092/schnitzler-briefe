@@ -57,15 +57,8 @@
                         <p>eh. Bildpostkarte, Bleistift. Motiv: »<rs ref="#pmb43124" type="place"
                               >Nerobergbahn</rs><space unit="chars" quantity="1"/><rs
                               ref="#pmb883" type="place">Wiesbaden</rs>«.</p>
-                        <stamp n="1">
-                           <rs ref="#pmb883" type="place">Wiesbaden</rs>
-                           <date when="1899-09-24">24.&#160;9.&#160;99</date>
-                           <time>6-7N</time>
-                        </stamp>
-                        <stamp n="2">
-                           <rs ref="#pmb946" type="place">V<supplied>ahrn</supplied></rs>
-                           <date when="1899-09-26">2<supplied>6.</supplied>&#160;9.&#160;99</date>
-                        </stamp>
+                        <stamp n="1"><placeName ref="#pmb883">Wiesbaden</placeName><date when="1899-09-24">24.&#160;9.&#160;99</date><time>6-7N</time></stamp>
+                        <stamp n="2"><placeName ref="#pmb946">V<supplied>ahrn</supplied></placeName><date when="1899-09-26">2<supplied>6.</supplied>&#160;9.&#160;99</date></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -102,15 +95,18 @@
       <graphic url="1899_AS_RBH_3_00012.jpeg"/>
    </facsimile>
    <text type="card">
-      <body><div type="address"><address><addrLine><pb facs="1899_AS_RBH_3_00012.jpeg"/><hi rend="latintype">Dr. Richard
+      <body>
+         <div type="address"><address><addrLine><pb facs="1899_AS_RBH_3_00012.jpeg"/><hi rend="latintype">Dr. Richard
                      Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb946" type="place"><hi rend="latintype">Vahrn</hi></rs></addrLine><addrLine>bei <hi rend="latintype"><rs ref="#pmb28068" type="place"
-                  >Brixen</rs></hi></addrLine><addrLine><rs ref="#pmb423" type="place"><hi rend="latintype">Tirol</hi></rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1899_AS_RBH_3_00011.jpeg"/>24. 9. 99.</dateline></opener><p>Will hier 8 Tage bleiben, arbeiten. Bitte ſchreiben Sie mir, auch <rs
+                  >Brixen</rs></hi></addrLine><addrLine><rs ref="#pmb423" type="place"><hi rend="latintype">Tirol</hi></rs></addrLine></address></div>
+         <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1899_AS_RBH_3_00011.jpeg"/>24. 9. 99.</dateline></opener><p>Will hier 8 Tage bleiben, arbeiten. Bitte ſchreiben Sie mir, auch <rs
                   ref="#pmb11740" type="person">Hugo</rs>, wie’s Ihnen geht, <anchor type="textConst"
                   xml:id="TG42"/>und was die Arbeit macht. Ich wohne <rs ref="#pmb43055" type="place"
                   >Parkhotel</rs>.<note type="textConst" xml:id="TG42h">am rechten
                   Rand</note><space unit="chars" quantity="1"/><anchor type="textConst"
                   xml:id="TG43"/>Die Ovation hab ich erhalten. <rs ref="#pmb11485" type="person"
                   >Paul</rs> ist heut nach <rs ref="#pmb263" type="place">Florenz</rs>.<note
-                  type="textConst" xml:id="TG43h">am linken Rand</note></p></div></body>
+                  type="textConst" xml:id="TG43h">am linken Rand</note></p></div>
+      </body>
    </text>
 </TEI>

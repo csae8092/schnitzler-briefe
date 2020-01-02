@@ -55,19 +55,9 @@
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Brief mit Umschlag, 1&#160;Bl., 3&#160;S., Bleistift.</p>
-                        <stamp n="1">
-                           <rs ref="#pmb59" type="place">Wien 1/1</rs>
-                           <date>19&#160;XII&#160;99</date>
-                           <time>4&#160;10N</time>
-                        </stamp>
-                        <stamp n="2">
-                           <rs ref="#pmb59" type="place">Wien 9/1</rs>
-                           <date>24.<supplied>&#160;12.&#160;99</supplied></date>
-                           <time>5-6N</time>
-                        </stamp>
-                        <stamp n="2">
-                           <rs ref="#pmb51" type="place">Wie<supplied>n 1/1</supplied></rs>
-                        </stamp>
+                        <stamp n="1"><placeName ref="#pmb59">Wien 1/1</placeName><date>19&#160;XII&#160;99</date><time>4&#160;10N</time></stamp>
+                        <stamp n="2"><placeName ref="#pmb59">Wien 9/1</placeName><date>24.<supplied>&#160;12.&#160;99</supplied></date><time>5-6N</time></stamp>
+                        <stamp n="2"><placeName ref="#pmb51">Wie<supplied>n 1/1</supplied></placeName></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -122,13 +112,17 @@
       <graphic url="1899_AS_RBH_3_00053.jpeg"/>
    </facsimile>
    <text type="letter">
-      <body><div type="address"><address><addrLine><pb facs="1899_AS_RBH_3_00050.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
-                     Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I. Wollzeile 15</rs></hi>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1899_AS_RBH_3_00052.jpeg"/><date when="1899-12-24">24.&#160;12.&#160;99</date></dateline><salute>Mein lieber Richard,</salute></opener><p>ich kann nur ſagen, es iſt geradezu feinſinnig, was diesmal keine Beleidigung
+      <body>
+         <div type="address"><address><addrLine><pb facs="1899_AS_RBH_3_00050.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
+                     Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I. Wollzeile 15</rs></hi>.</addrLine></address></div>
+         <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1899_AS_RBH_3_00052.jpeg"/><date when="1899-12-24">24.&#160;12.&#160;99</date></dateline><salute>Mein lieber Richard,</salute></opener><p>ich kann nur ſagen, es iſt geradezu feinſinnig, was diesmal keine Beleidigung
                bedeuten ſoll, und ich bin (wiſſen Sie kein andres Wort?) beſchämt, befangen – und
                verſuche mich mit einem Witz aus der Affaire zu <pb facs="1899_AS_RBH_3_00053.jpeg"
-               />ziehen – z.&#160;B. daſs ich immer auf einen der 3 Einakter verzichten muſs – bei
-               Ihrem Geſchenk auf die Gefährtin – aber ich will (was gleich ein zweiter Witz iſt)
+               />ziehen – z.&#160;B. daſs ich immer auf einen der <rs type="work" ref="#pmb32562">3&#160;Einakter</rs> verzichten muſs – bei
+               Ihrem Geſchenk auf die <rs type="work" ref="#pmb29845">Gefährtin</rs> – aber ich will (was gleich ein zweiter Witz iſt)
                die Schachtel ſelbſt als Gefährtin anſehen da sie (dritter Witz) keine alte iſt.</p><p><pb facs="1899_AS_RBH_3_00053.jpeg"/>Also herzlichen Dank und Gruſs; auf Wiedersehen
-               morgen, wohl ſchon in der Joſefſtadt.</p><closer>Ihr <signed>Arthur</signed></closer></div></body>
+               <rs ref="#pmb42614" subtype="implied" type="work">morgen</rs>, wohl ſchon in der <rs type="place" ref="#pmb40">Joſefſtadt</rs>.</p><closer>Ihr <signed>Arthur</signed></closer></div>
+
+      </body>
    </text>
 </TEI>

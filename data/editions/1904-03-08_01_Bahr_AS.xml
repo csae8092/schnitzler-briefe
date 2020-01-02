@@ -56,23 +56,9 @@
                         <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Bildpostkarte, Motiv: »<quote>
-                              <geogName type="river" instant="false">L’Ombla – Cempresata</geogName>
-                           </quote>«, von Schnitzler datiert: »<quote>
-                              <date>11.&#160;3.&#160;904</date>
-                           </quote>«.</p>
-                        <stamp n="1">
-                           <rs ref="#pmb682" type="place">Dubrovnik</rs>
-                           <date when="1904-03-09">9/3 <supplied>1904</supplied>
-                           </date>
-             
-                        </stamp>
-                        <stamp n="2">
-                           <action>Bestellt</action>
-                           <rs ref="#pmb68" type="place">Wien 18/1</rs>
-                           <date when="1904-03-11">11.&#160;3.&#160;04</date>
-                           <time>12. V</time>
-                        </stamp>
+                        <p>eh. Bildpostkarte, Motiv: »<quote><geogName type="river" instant="false">L’Ombla – Cempresata</geogName></quote>«, von Schnitzler datiert: »<quote><date>11.&#160;3.&#160;904</date></quote>«.</p>
+                        <stamp n="1"><placeName ref="#pmb682">Dubrovnik</placeName><date when="1904-03-09">9/3 <supplied>1904</supplied></date></stamp>
+                        <stamp n="2"><action>Bestellt</action><placeName ref="#pmb68">Wien 18/1</placeName><date when="1904-03-11">11.&#160;3.&#160;04</date><time>12. V</time></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -126,11 +112,15 @@
       <graphic url="MS-B-00005-B-000-00340"/>
    </facsimile>
    <text type="card">
-      <body><div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00201"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler
-               </addrLine><addrLine><rs ref="#pmb68" type="place">Wien XVIII</rs></addrLine><addrLine><rs ref="#pmb133" type="place">Spöttelgasse 7</rs></addrLine></address></div><div type="writingSession" n="1"><p>Danke für Deinen lieben Brief. Mir geht es langsam besser.</p><p>Fahr jedenfalls
+      <body> 
+         <div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00201"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler
+               </addrLine><addrLine><rs ref="#pmb68" type="place">Wien XVIII</rs></addrLine><addrLine><rs ref="#pmb133" type="place">Spöttelgasse 7</rs></addrLine></address></div> 
+         <div type="writingSession" n="1"><p>Danke für Deinen lieben Brief. Mir geht es langsam besser.</p><p>Fahr jedenfalls
          über <rs ref="#pmb265" type="place">Dalmatien</rs>! <rs ref="#pmb365" type="place">Ragusa</rs> ist schöner
-        als alles <rs ref="#pmb40306" type="place"><country>Italien</country></rs> und selbst
+        als alles <rs ref="#pmb40306" type="place">Italien
+</rs> und selbst
          <rs ref="#pmb388" type="place">Spanien</rs>.</p><closer>Grüße an Deine
-               <rs type="person" ref="#pmb2173" subtype="implied">Frau</rs>.<lb/>Herzlichst<lb/><signed>Hermann</signed></closer></div></body>
+               <rs type="person" ref="#pmb2173" subtype="implied">Frau</rs>.<lb/>Herzlichst<lb/><signed>Hermann</signed></closer></div>
+      </body>
   </text>
 </TEI>

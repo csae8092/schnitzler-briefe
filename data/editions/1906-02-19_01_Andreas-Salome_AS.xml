@@ -56,19 +56,10 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Postkarte, schwarze Tinte. Von Schnitzler mit Bleistift
-                                    datiert: »<quote>
-                                        <date>19/2&#160;06</date>
-                                    </quote>«. Von unbekannter Hand mit Bleistift nummeriert:
+                                    datiert: »<quote><date>19/2&#160;06</date></quote>«. Von unbekannter Hand mit Bleistift nummeriert:
                                     »<quote>20</quote>«. Eine Unterstreichung mit rotem Buntstift.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb168" type="place">Berlin W 50</rs>
-                                    <date>19.2.06</date>
-                                    <time>9 10 N</time>
-                                </stamp>
-                                <stamp n="2">
-                                    <date>20.2.06</date>
-                                    <!-- Rest unlesbar -->
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb168">Berlin W 50</placeName><date>19.2.06</date><time>9 10 N</time></stamp>
+                                <stamp n="2"><date>20.2.06</date><!-- Rest unlesbar --></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -108,7 +99,9 @@
         <graphic url="MS-SCHNITZLER-B-00003-000-00044"/>
     </facsimile>
     <text type="card">
-        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00003-000-00043"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><hi rend="latintype">Berlin C.</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb399" type="place">Hôtel Continental</rs>.</hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00003-000-00044"/><salute>Lieber Doktor <hi rend="latintype">Schnitzler</hi>, </salute>darf ich
+        <body>
+            <div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00003-000-00043"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><hi rend="latintype">Berlin C.</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb399" type="place">Hôtel Continental</rs>.</hi></addrLine></address></div>
+            <div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00003-000-00044"/><salute>Lieber Doktor <hi rend="latintype">Schnitzler</hi>, </salute>darf ich
                     Sie um die Erlaubniß bitten, am <anchor type="commentary" xml:id="KL739-1"/>Freitag<note type="commentary" xml:id="KL739-1h">Die Generalprobe von
                             <rs ref="#pmb29905" type="work">Der Ruf des Lebens</rs> am <rs ref="#pmb3" type="place">Deutschen Theater in Berlin</rs> fand am Freitag, den
                             <date>23.&#160;2.&#160;1906</date>, statt, die Uraufführung am Folgetag, beide in
@@ -116,6 +109,7 @@
                     »Ja« dazu ſagen, machen Sie mir eine große Freude! Ich glaube, <rs ref="#pmb10986" type="person"><hi rend="latintype">Brahm</hi></rs> würde nichts dagegen haben weil ich ja auch bei <rs ref="#pmb11617" type="person">Hauptmann</rs>’ſchen Generalproben öfters (auch letztes
                         <anchor type="commentary" xml:id="KL739-2"/><rs type="work" ref="#pmb33043" subtype="implied">Mal</rs><note type="commentary" xml:id="KL739-2h"><rs ref="#pmb33043" type="work">Und Pippa tanzt. Ein Glashüttenmärchen</rs>,
                         hatte am <date>19.&#160;1.&#160;1906</date> Uraufführung am <rs ref="#pmb3" type="place">Deutschen Theater</rs>.</note>) zugegen war. Wollen Sie mir's
-                    ſchreiben in die <rs ref="#pmb1103" type="place"><hi rend="latintype">Marburger</hi>ſtr.&#160;4</rs>, <rs ref="#pmb1104" type="place">Hospiz des Weſtens</rs>? </p><closer>In alter Verehrung Ihre<lb/><signed>Frau Lou.</signed></closer></div></body>
+                    ſchreiben in die <rs ref="#pmb1103" type="place"><hi rend="latintype">Marburger</hi>ſtr.&#160;4</rs>, <rs ref="#pmb1104" type="place">Hospiz des Weſtens</rs>? </p><closer>In alter Verehrung Ihre<lb/><signed>Frau Lou.</signed></closer></div>
+        </body>
     </text>
 </TEI>

@@ -57,15 +57,8 @@
                      </msIdentifier>
                      <physDesc>
                         <p>Briefkarte</p>
-                        <stamp n="1">
-                           <rs ref="#pmb68" type="place">Wien 18/1</rs>
-                           <date when="1903-11-11">11.&#160;11.&#160;03</date>
-                           <time>11–12 V</time>
-                        </stamp>
-                        <stamp n="2">
-                           <rs ref="#pmb63" type="place">Wien 13/7</rs>
-                           <date when="1903-11-11">11.&#160;11.&#160;03</date>
-                        </stamp>
+                        <stamp n="1"><placeName ref="#pmb68">Wien 18/1</placeName><date when="1903-11-11">11.&#160;11.&#160;03</date><time>11–12 V</time></stamp>
+                        <stamp n="2"><placeName ref="#pmb63">Wien 13/7</placeName><date when="1903-11-11">11.&#160;11.&#160;03</date></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -140,7 +133,9 @@
      <graphic url="HS_AM23360Ba_R"/>
    </facsimile>
   <text type="card">
-      <body><div type="address"><address><addrLine><pb facs="HS_AM23360Ba"/>Herrn Hermann Bahr</addrLine><addrLine><rs ref="#pmb165" type="place">Wien Ob St Veit</rs></addrLine><addrLine><rs ref="#pmb220" type="place">Veitlissengasse.</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline><date>11.&#160;11.&#160;903</date>.</dateline></opener><p><salute>lieber Hermann, </salute>ich habe mich gleich an <rs ref="#pmb12698" type="person">Julius</rs> gewandt, da mir diese Titelsache selbst nicht
+      <body> 
+         <div type="address"><address><addrLine><pb facs="HS_AM23360Ba"/>Herrn Hermann Bahr</addrLine><addrLine><rs ref="#pmb165" type="place">Wien Ob St Veit</rs></addrLine><addrLine><rs ref="#pmb220" type="place">Veitlissengasse.</rs></addrLine></address></div> 
+         <div type="writingSession" n="1"><opener><dateline><date>11.&#160;11.&#160;903</date>.</dateline></opener><p><salute>lieber Hermann, </salute>ich habe mich gleich an <rs ref="#pmb12698" type="person">Julius</rs> gewandt, da mir diese Titelsache selbst nicht
           erinnerlich ist; er wird dir wohl gleich direct antworten.</p><p>In einem <anchor type="commentary" xml:id="KL065-1"/>Brief von <rs ref="#pmb10986" type="person">Brahm</rs><note type="commentary" xml:id="KL065-1h">Brief vom <date>8.&#160;11.&#160;1903</date>
                     (<bibl><rs type="work">Bw</rs> Schnitzler/Brahm
         152–153</bibl>).</note>, der vorgestern anlangte,
@@ -150,6 +145,7 @@
                wissen soll?) zum <anchor type="commentary" xml:id="KL065-2"/><rs type="work" ref="#pmb29981" subtype="implied">Fulda</rs><note type="commentary" xml:id="KL065-2h">Uraufführung <rs ref="#pmb29981" type="work">Novella
                 d’Andrea</rs> am <date>21.&#160;11.&#160;1903</date> im <rs ref="#pmb14" type="place">Burgtheater</rs>.</note> her. Nach dem
                   Telegr<damage agent="hole"><supplied>amm</supplied></damage> an dich zu schließen, dürftest du wohl <hi rend="underline" n="1">vor
-                  mir</hi>, etwa <date>Anfang Dezember</date>, <rs type="work" ref="#pmb29983" subtype="implied">drankommen</rs>?</p><closer>Herzlichen Gruss. Dein <signed>A.</signed></closer><postscript><p>·) Auch einige (nicht beträchtliche) Aenderungen schlägt er vor.</p></postscript></div></body>
+                  mir</hi>, etwa <date>Anfang Dezember</date>, <rs type="work" ref="#pmb29983" subtype="implied">drankommen</rs>?</p><closer>Herzlichen Gruss. Dein <signed>A.</signed></closer><postscript><p>·) Auch einige (nicht beträchtliche) Aenderungen schlägt er vor.</p></postscript></div>
+      </body>
   </text>
 </TEI>

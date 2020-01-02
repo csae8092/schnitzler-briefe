@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1916-07-14_01_AS_Beer-Hofmann">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1916-07-14_01_AS_Beer-Hofmann">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 
-                        14.&#160;7.&#160;1916</title>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann,
+               14.&#160;7.&#160;1916</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -26,7 +25,7 @@
                   </placeName>
                </address>
             </funder>
-         </titleStmt> 
+         </titleStmt>
          <editionStmt>
             <edition>ASBW</edition>
             <respStmt>
@@ -84,12 +83,12 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction  type="sent">
+            <correspAction type="sent">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-               <placeName ref="#pmb34401 pmb34402 pmb34387">Alt-Aussee</placeName>
+               <placeName ref="#pmb34401">Alt-Aussee</placeName>
                <date when="1916-07-14" n="01">14.&#160;7.&#160;1916</date>
             </correspAction>
-            <correspAction  type="received">
+            <correspAction type="received">
                <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
             </correspAction>
             <correspContext>
@@ -103,12 +102,16 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb34401" type="place">Alt-Aussee</rs>. <date when="1916-07-14"> 14.&#160;7.&#160;16</date><rs ref="#pmb34402" type="place">Fischerndorf</rs> 79 <rs ref="#pmb34387" type="place">An<supplied>n</supplied>erl Haus</rs></dateline></opener><p><salute>Lieber Richard, </salute>wir sind in unserm Haus sehr gut installirt
-						und durchaus gut (daheim und beim <rs ref="#pmb106" type="place">Seewirth</rs>) versorgt. Die Lage unsrer Wohnung ist wundervoll.
-						Die Landschaft behagt mir sehr, ich fliege viel aus und arbeite – weniger.
-						Im übrigen bin ich mit der Welt wenig zufrieden. Wird man Sie bald hier
-						sehen? Sie haben (wirklich!) bessere Verbindung als wir, wegen
-						Zurückfahrens. Jedenfalls lassen Sie möglichst bald von sich hören.
-						Herzliche Grüße von uns allen zu Ihnen Allen! Ihr <signed>A.</signed></p></div></body>
+      <body>
+         <div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb34401" type="place">Alt-Aussee</rs>. <date when="1916-07-14">
+                     14.&#160;7.&#160;16</date><rs ref="#pmb34402" type="place">Fischerndorf</rs> 79 <rs ref="#pmb34387"
+                     type="place">An<supplied>n</supplied>erl Haus</rs></dateline></opener><p><salute>Lieber Richard, </salute>wir sind in unserm Haus sehr gut installirt und
+               durchaus gut (daheim und beim <rs ref="#pmb106" type="place">Seewirth</rs>) versorgt.
+               Die Lage unsrer Wohnung ist wundervoll. Die Landschaft behagt mir sehr, ich fliege
+               viel aus und arbeite – weniger. Im übrigen bin ich mit der Welt wenig zufrieden. Wird
+               man Sie bald hier sehen? Sie haben (wirklich!) bessere Verbindung als wir, wegen
+               Zurückfahrens. Jedenfalls lassen Sie möglichst bald von sich hören. Herzliche Grüße
+               von uns allen zu Ihnen Allen! Ihr <signed>A.</signed></p></div>
+      </body>
    </text>
 </TEI>

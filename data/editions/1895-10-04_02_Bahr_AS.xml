@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1895-10-04_02_Bahr_AS">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1895-10-04_02_Bahr_AS">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -54,13 +53,7 @@
                         <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1&#160;Bl., 1&#160;S., schwarze Tinte. Von Schnitzler datiert: »<quote>
-                              <date>
-                                 <subst>
-                                    <del rend="overwritten">5</del>
-                                    <add place="inline">4</add>
-                                 </subst>/10 95</date>
-                           </quote>«. Von unbekannter Hand jeweils mit Bleistift und rotem Buntstift
+                        <p>eh. Brief, 1&#160;Bl., 1&#160;S., schwarze Tinte. Von Schnitzler datiert: »<quote><date><subst><del rend="overwritten">5</del><add place="inline">4</add></subst>/10 95</date></quote>«. Von unbekannter Hand jeweils mit Bleistift und rotem Buntstift
                            nummeriert: »<quote>32</quote>«.</p>
                      </physDesc>
                   </msDesc>
@@ -78,6 +71,7 @@
                         <publisher>Wallstein</publisher>
                         <date when="2018">2018</date>
                      </imprint>
+                     <biblScope unit="pp">108</biblScope>
                   </monogr>
                </biblStruct>
             </listBibl>
@@ -88,12 +82,12 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction  type="sent">
+            <correspAction type="sent">
                <persName ref="#pmb10815">Bahr, Hermann</persName>
                <placeName ref="#pmb50">Wien</placeName>
                <date when="1895-10-04" n="02">[4.&#160;10.&#160;1895]</date>
             </correspAction>
-            <correspAction  type="received">
+            <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                <placeName ref="#pmb50">[Wien]</placeName>
             </correspAction>
@@ -114,11 +108,18 @@
       <graphic url="MS-B-00005-B-000-00049"/>
    </facsimile>
    <text type="letter">
-      <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print">»<rs ref="#pmb29209" type="organisation">Die Zeit</rs>«</hi></seg><seg rend="right"><hi rend="pre-print"><hi rend="bold"><rs ref="#pmb50" type="place">Wien</rs></hi>, <rs ref="#pmb296" type="place">IX/3, Günthergaſſe 1</rs>., den <c rendition="#dots" n="10 "/> 189<c rendition="#dots" n="2"/></hi></seg></p><p><hi rend="pre-print">Wiener Wochenſchrift</hi></p><p><hi rend="pre-print"><hi rend="bold">Herausgeber</hi>:</hi><lb/><hi rend="pre-print">Profeſſor Dr.&#160;<rs ref="#pmb12790" type="person">I.&#160;Singer</rs>,
-                        <rs ref="#pmb10815" type="person">Hermann Bahr</rs>, Dr.&#160;<rs ref="#pmb11867" type="person">Heinrich Kanner</rs>.</hi></p><p><hi rend="pre-print">Telephon Nr.&#160;6415.</hi></p><salute>Lieber Thuri,</salute></opener><p>mein Wort, daß ich es keinem Menſchen verrathe. Am liebſten iſt es mir, das <rs type="work" ref="#pmb29917" subtype="implied"><hi rend="latintype">Manuscript</hi></rs> Sonntag von 9 Uhr bis 12 Uhr zu haben.
-               Oder morgen Samſtag nach dem Theater für die Nacht, wo Du es Sonntag früh zurück
-               hätteſt.</p><closer>Herzlich dankend<lb/>Dein<lb/><signed>Bahr</signed></closer><p><hi rend="pre-print"><anchor type="textConst" xml:id="TG34"/>Alle für <note type="textConst" xml:id="TG34h">am unteren Rand der Seite</note>»<rs ref="#pmb29209" type="organisation">Die Zeit</rs>« beſtimmten Zuſchriften und
-               Sendungen ſind an die Redaction der »<rs ref="#pmb29209" type="organisation">Zeit</rs>« und <hi rend="bold">nicht</hi> an die
-               Perſon eines der Herausgeber zu richten.</hi></p></div></body>
+      <body>
+         <div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs="MS-B-00005-B-000-00049"/><hi rend="pre-print">»<rs ref="#pmb29209" type="organisation">Die
+                        Zeit</rs>«</hi></seg><seg rend="right"><hi rend="pre-print"><hi rend="bold"><rs ref="#pmb50" type="place">Wien</rs></hi>, <rs ref="#pmb296" type="place">IX/3, Günthergaſſe 1</rs>., den <c
+                           rendition="#dots" n="10 "/> 189<c rendition="#dots" n="2"/></hi></seg></p><p><hi rend="pre-print">Wiener Wochenſchrift</hi></p><p><hi rend="pre-print"><hi rend="bold">Herausgeber</hi>:</hi><lb/><hi rend="pre-print">Profeſſor Dr.&#160;<rs ref="#pmb12790" type="person"
+                        >I.&#160;Singer</rs>, <rs ref="#pmb10815" type="person">Hermann Bahr</rs>,
+                        Dr.&#160;<rs ref="#pmb11867" type="person">Heinrich Kanner</rs>.</hi></p><p><hi rend="pre-print">Telephon Nr.&#160;6415.</hi></p><salute>Lieber Thuri,</salute></opener><p>mein Wort, daß ich es keinem Menſchen verrathe. Am liebſten iſt es mir, das <rs
+                  type="work" ref="#pmb29917" subtype="implied"><hi rend="latintype">Manuscript</hi></rs> Sonntag von 9 Uhr bis 12 Uhr zu haben. Oder morgen Samſtag nach dem Theater für
+               die Nacht, wo Du es Sonntag früh zurück hätteſt.</p><closer>Herzlich dankend<lb/>Dein<lb/><signed>Bahr</signed></closer><p><hi rend="pre-print"><anchor type="textConst" xml:id="TG34"/>Alle für »<rs ref="#pmb29209"
+                     type="organisation">Die Zeit</rs>« beſtimmten Zuſchriften und Sendungen ſind an
+                  die Redaction der »<rs ref="#pmb29209" type="organisation">Zeit</rs>« und <hi
+                     rend="bold">nicht</hi> an die Perſon eines der Herausgeber zu richten.<note
+                     type="textConst" xml:id="TG34h">am unteren Rand der Seite</note></hi></p></div>
+      </body>
    </text>
 </TEI>

@@ -56,11 +56,7 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Kartenbrief, Lateinschrift.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb50" type="place">Wien</rs>
-                                    <date when="1917-05-29">29.&#160;V.&#160;17</date>
-                                    <time>7</time>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb50">Wien</placeName><date when="1917-05-29">29.&#160;V.&#160;17</date><time>7</time></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -91,8 +87,10 @@
             <change who="MAM" when="2019-05-14">Angelegt</change>
         </revisionDesc>
     </teiHeader>
-    <text type="letter">
-        <body><div type="address"><address><addrLine><pb facs=""/>Hrn Dr. Robert Adam Pollak</addrLine><addrLine><rs ref="#pmb62" type="place">Wien XII</rs>.</addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hptstr 56</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>28.&#160;5.&#160;1917</date></dateline><salute rend="inline">verehrter Herr Doktor,</salute></opener><p>es thut mir sehr leid, daß Sie schon wieder eine theatralische Enttäuschung
+    <text type="letter-card">
+        <body>
+            <div type="address"><address><addrLine><pb facs=""/>Hrn Dr. Robert Adam Pollak</addrLine><addrLine><rs ref="#pmb62" type="place">Wien XII</rs>.</addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hptstr 56</rs>.</addrLine></address></div>
+            <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>28.&#160;5.&#160;1917</date></dateline><salute rend="inline">verehrter Herr Doktor,</salute></opener><p>es thut mir sehr leid, daß Sie schon wieder eine theatralische Enttäuschung
                     erleben mußten;&#160;– da gibts nun einmal nichts andres, als weiter arbeiten –
                     vielleicht glückt es mit dem nächsten besser, und da<c rendition="#gemination-n"/> rücken die Vorgänger nach. Ich sehe Sie hoffentlich bal<unclear>d</unclear>
                     wieder, nicht wahr? Ende dieser Woche wollen wir auf circa 14 Tage nach
@@ -102,6 +100,7 @@
                         das Leben.</note> einer sehr lieben <rs type="person" ref="#pmb13653" subtype="implied">Freundin</rs> zurückgerufen) – <date>Mitte Juni</date> aber dürften wir
                     wieder zu Hause sein. Ich schicke Ihnen den sehr amüsanten <rs ref="#pmb11190" type="person"><rs ref="#pmb33652" type="work" subtype="implied">Dumas</rs></rs> mit
                     vielem Dank zurück.</p><closer>Herzlichſt grüßen<unclear>d</unclear> Ihr<lb/><signed>Arthur
-                        Schnitzler</signed></closer></div></body>
+                        Schnitzler</signed></closer></div>
+        </body>
     </text>
 </TEI>

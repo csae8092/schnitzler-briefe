@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:foo="just some local crap" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0">
     <xsl:template match="tei:date[@*]">
-        <abbr>
+       <!-- <abbr>
             <xsl:attribute name="title">
                 <xsl:value-of select="data(./@*)"/>
-            </xsl:attribute>
+            </xsl:attribute>-->
             <xsl:apply-templates/>
-        </abbr>
+        <!--</abbr>-->
     </xsl:template>
     <xsl:template match="tei:term">
         <span>
@@ -26,7 +26,7 @@
                 </span>
             </xsl:when>
             <xsl:when test="@rend = 'italics'">
-               <span class="italic">
+               <span class="italics">
                     <xsl:apply-templates/>
                 </span>
             </xsl:when>
@@ -74,7 +74,16 @@
                     <xsl:apply-templates/>
                 </span>
             </xsl:when>
-            
+            <xsl:when test="@rend= 'latintype'">
+                <span class="latintype">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
+            <xsl:when test="@rend= 'antiqua'">
+                <span class="antiqua">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
             <xsl:otherwise>
                 <span>
                     <xsl:attribute name="class">
@@ -171,110 +180,96 @@
     </xsl:template>
     <!-- reference strings   -->
     <xsl:template match="tei:title[@ref]">
-        <strong>
+        
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listtitle.xml</xsl:attribute>
                 <xsl:attribute name="data-key">
-                    <xsl:value-of select="data(@ref)"/>
-                    <xsl:value-of select="@ref"/>
+                    <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                    <xsl:value-of select="@key"/>
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
-        </strong>
+        
     </xsl:template>
     <xsl:template match="tei:origPlace[@ref]">
-        <strong>
+        
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listplace.xml</xsl:attribute>
                 <xsl:attribute name="data-key">
-                    <xsl:value-of select="data(@ref)"/>
-                    <xsl:value-of select="@ref"/>
+                    <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                    <xsl:value-of select="@key"/>
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
-        </strong>
+        
     </xsl:template>
+    
     <xsl:template match="tei:author[@ref]">
-        <strong>
+        
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listperson.xml</xsl:attribute>
                 <xsl:attribute name="data-key">
-                    <xsl:value-of select="data(@ref)"/>
-                    <xsl:value-of select="@ref"/>
+                    <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                    <xsl:value-of select="@key"/>
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
-        </strong>
+        
     </xsl:template>
-    <!--<xsl:template match="tei:rs[@ref or @ref]">
+    
+    <xsl:template match="tei:rs[@ref or @key]">
+        
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">
                     <xsl:value-of select="concat('list', data(@type), '.xml')"/>
                 </xsl:attribute>
                 <xsl:attribute name="data-key">
-                    <xsl:value-of select="data(@ref)"/>
-                    <xsl:value-of select="@ref"/>
+                    <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                    <xsl:value-of select="@key"/>
                 </xsl:attribute>
-                <xsl:value-of select="."/>
+                <xsl:apply-templates/>
             </xsl:element>
-    </xsl:template>-->
-    <xsl:template match="tei:persName[@ref]|tei:rs[@type='person' and @ref]">
+        
+    </xsl:template>
+    <xsl:template match="tei:persName[@key]">
+        
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listperson.xml</xsl:attribute>
                 <xsl:attribute name="data-key">
-                    <xsl:value-of select="@ref"/>
+                    <xsl:value-of select="@key"/>
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
+        
     </xsl:template>
-    
-    <xsl:template match="tei:placeName[@ref]|tei:rs[@type='place' and @ref]">
+    <xsl:template match="tei:placeName[@key]">
+        
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listplace.xml</xsl:attribute>
                 <xsl:attribute name="data-key">
-                    <xsl:value-of select="@ref"/>
+                    <xsl:value-of select="@key"/>
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
+        
     </xsl:template>
-    
-    <xsl:template match="tei:workName[@ref]|tei:rs[@type='work' and @ref]">
-            <xsl:element name="a">
-                <xsl:attribute name="class">reference</xsl:attribute>
-                <xsl:attribute name="data-type">listwork.xml</xsl:attribute>
-                <xsl:attribute name="data-key">
-                    <xsl:value-of select="@ref"/>
-                </xsl:attribute>
-                <xsl:value-of select="."/>
-            </xsl:element>
-    </xsl:template>
-    
-    <xsl:template match="tei:orgName[@ref]|tei:rs[@type='organisation' and @ref]">
-            <xsl:element name="a">
-                <xsl:attribute name="class">reference</xsl:attribute>
-                <xsl:attribute name="data-type">listorg.xml</xsl:attribute>
-                <xsl:attribute name="data-key">
-                    <xsl:value-of select="@ref"/>
-                </xsl:attribute>
-                <xsl:value-of select="."/>
-            </xsl:element>
-    </xsl:template>
-    
-    <xsl:template match="tei:region[@ref] | tei:country[@ref]">
+    <xsl:template match="tei:region[@key] | tei:country[@key]">
+        
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listplace.xml</xsl:attribute>
                 <xsl:attribute name="data-key">
-                    <xsl:value-of select="@ref"/>
+                    <xsl:value-of select="@key"/>
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
+        
     </xsl:template>
     <!-- additions -->
  
@@ -339,6 +334,9 @@
         <xsl:element name="i">
             <xsl:apply-templates/>
         </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:quote">
+        <xsl:apply-templates/>
     </xsl:template>
     <!-- Zeilenumbürche   -->
     <xsl:template match="tei:lb">

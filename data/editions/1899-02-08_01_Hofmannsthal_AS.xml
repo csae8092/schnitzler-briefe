@@ -56,19 +56,10 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Postkarte (Rohrpost), schwarze Tinte. Von Schnitzler mit
-                                    Bleistift datiert: »<quote>
-                                        <date when="1899-02-08">8/2 99</date>
-                                    </quote>«. Von unbekannter Hand mit Bleistift nummeriert:
+                                    Bleistift datiert: »<quote><date when="1899-02-08">8/2 99</date></quote>«. Von unbekannter Hand mit Bleistift nummeriert:
                                         »<quote>135</quote>«.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb53" type="place">Wien 3/3</rs>
-                                    <date>8&#160;II&#160;99</date>
-                                    <time>3&#160;10N</time>
-                                </stamp>
-                                <stamp n="2">
-                                    <date>8 <supplied>II</supplied> 99</date>
-                                    <time>3&#160;50N</time>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb53">Wien 3/3</placeName><date>8&#160;II&#160;99</date><time>3&#160;10N</time></stamp>
+                                <stamp n="2"><date>8 <supplied>II</supplied> 99</date><time>3&#160;50N</time></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -124,10 +115,13 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00300"/>
     </facsimile>
     <text type="card">
-        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00299"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
-                            Schnitzler</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb50" type="place">Wien</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb397" type="place">IX Franckgasse 1</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00300"/>Ich werde ſo frei ſein,
+        <body>
+            <div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00299"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
+                            Schnitzler</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb50" type="place">Wien</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb397" type="place">IX Franckgasse 1</rs></hi></addrLine></address></div>
+            <div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00300"/>Ich werde ſo frei ſein,
                     heute <time>abend</time> als Mittel gegen Ihre <anchor type="commentary" xml:id="KL2385-1"/>Zahnſchmerzen<note type="commentary" xml:id="KL2385-1h">Am <date>3.&#160;2.&#160;1899</date> notierte sich <rs ref="#pmb2121" type="person">Schnitzler</rs> im <rs ref="#pmb33243" type="work">Tagebuch</rs>,
                         solche zu haben.</note> und gegen den dämoniſchen <rs ref="#pmb11391" type="person">Fulda</rs> den ſehr luſtigen und angenehmen <rs ref="#pmb24691" type="person"><hi rend="latintype">Josi Schönborn</hi></rs> mitzubringen; er wird entweder nach dem Nachtmahl oder (wenn er ſich
-                    freimachen kann) ſchon um <time>½&#160;9</time> ko<c rendition="#gemination-m"/>en.</p><closer>Ihr <signed>Hugo.</signed></closer></div></body>
+                    freimachen kann) ſchon um <time>½&#160;9</time> ko<c rendition="#gemination-m"/>en.</p><closer>Ihr <signed>Hugo.</signed></closer></div>
+        </body>
     </text>
 </TEI>

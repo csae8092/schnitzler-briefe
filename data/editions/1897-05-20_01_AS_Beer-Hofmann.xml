@@ -55,18 +55,8 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Brief, 2&#160;Bl., 8&#160;S.</p>
-                                <stamp n="1">
-                                    <rs type="place" ref="">Paris 2</rs>
-                                    <date>20 Mai 97</date>
-                                    <time>75</time>
-                                    <!-- Uhrzeit? -->
-                                </stamp>
-                                <stamp n="2">
-                                    <rs ref="#pmb51" type="place">Wien 1/1</rs>
-                                    <date>22 5. 97</date>
-                                    <time>9-10½V.</time>
-                                    <action>Bestellt</action>
-                                </stamp>
+                                <stamp n="1"><placeName ref="">Paris 2</placeName><date>20 Mai 97</date><time>75</time><!-- Uhrzeit? --></stamp>
+                                <stamp n="2"><placeName ref="#pmb51">Wien 1/1</placeName><date>22 5. 97</date><time>9-10½V.</time><action>Bestellt</action></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -152,9 +142,11 @@
         <graphic url="1897_AS_RBH_2_00023.jpeg"/>
     </facsimile>
     <text type="letter">
-        <body><div type="address"><address><addrLine><pb facs="1897_AS_RBH_2_00022.jpeg"/><hi rend="latintype">Mr Dr. Richard
+        <body>
+            <div type="address"><address><addrLine><pb facs="1897_AS_RBH_2_00022.jpeg"/><hi rend="latintype">Mr Dr. Richard
                             Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place"><hi rend="latintype">Wien</hi></rs></addrLine><addrLine><rs ref="#pmb338" type="place"><hi rend="latintype"
-                            >I.&#160;Wollzeile&#160;15</hi></rs></addrLine><addrLine><hi rend="latintype">Autriche</hi></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1897_AS_RBH_2_00013.jpeg"/><date when="1897-05-20">20.&#160;5.&#160;97</date><lb/><rs ref="#pmb182" type="place"><hi
+                            >I.&#160;Wollzeile&#160;15</hi></rs></addrLine><addrLine><hi rend="latintype">Autriche</hi></addrLine></address></div>
+            <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1897_AS_RBH_2_00013.jpeg"/><date when="1897-05-20">20.&#160;5.&#160;97</date><lb/><rs ref="#pmb182" type="place"><hi
                                 rend="latintype">Paris</hi></rs>. </dateline></opener><p><salute>Lieber Richard, </salute>die <rs ref="#pmb182" type="place">Pariſer</rs>
                     Tage – ſie werden wahrſcheinlich bald »ſehr ſchön geweſen« ſein – nahen ihrem
                     Ende; Montag fahre ich nach <rs ref="#pmb224" type="place">London</rs> und bin
@@ -207,6 +199,7 @@
                         type="work" ref="#pmb29855" subtype="implied">Biebitz</rs>! – Aber ſonſt haben Sie hoffentlich
                     mehr gearbeitet als ich. Nach dieſen zwei Dingen ſehn ich mich unbeſchreiblich:
                     nach dem Schreiben und nach dem <hi rend="latintype">Bicycle</hi>! – Kö<c
-                        rendition="#gemination-n"/>en Sie’s endlich? (Bicycle natürlich. –) </p><closer>Seien Sie herzlich gegrüßt. Ihr<lb/><signed>Arthur.</signed></closer></div></body>
+                        rendition="#gemination-n"/>en Sie’s endlich? (Bicycle natürlich. –) </p><closer>Seien Sie herzlich gegrüßt. Ihr<lb/><signed>Arthur.</signed></closer></div>
+        </body>
     </text>
 </TEI>

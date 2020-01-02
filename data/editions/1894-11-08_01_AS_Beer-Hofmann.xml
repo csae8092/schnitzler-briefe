@@ -56,16 +56,8 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Postkarte (Rohrpost), Bleistift.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb51" type="place">Wien 1/1</rs>
-                                    <date when="1894-11-08">8 XI 94</date>
-                                    <time>2&#160;40&#160;N</time>
-                                </stamp>
-                                <stamp n="3">
-                                    <rs ref="#pmb51" type="place">Wien 1/1</rs>
-                                    <date when="1894-11-08">8 XI 94</date>
-                                    <time>2&#160;50&#160;N</time>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb51">Wien 1/1</placeName><date when="1894-11-08">8 XI 94</date><time>2&#160;40&#160;N</time></stamp>
+                                <stamp n="3"><placeName ref="#pmb51">Wien 1/1</placeName><date when="1894-11-08">8 XI 94</date><time>2&#160;50&#160;N</time></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -104,7 +96,10 @@
         <graphic url="1894_AS_RBH_4_00037.jpeg"/>
     </facsimile>
     <text type="card">
-        <body><div type="address"><address><addrLine><pb facs="1894_AS_RBH_4_00036"/><hi rend="latintype">Herrn Dr
-                            Rich.-Beer Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I. Wollzeile 15</rs>. </hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1894_AS_RBH_4_00036"/><salute>L. R. </salute>für <hi rend="latintype"><rs ref="#pmb41136" type="work"><hi rend="underline" n="1">Pelikan</hi></rs></hi> nichts beko<c rendition="#gemination-m"/>. Sehe morgen nochmals nach.</p><closer>Herzl Gruſs<lb/><signed>Arthur</signed></closer></div></body>
+        <body>
+            <div type="address"><address><addrLine><pb facs="1894_AS_RBH_4_00036"/><hi rend="latintype">Herrn Dr
+                            Rich.-Beer Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I. Wollzeile 15</rs>. </hi></addrLine></address></div>
+            <div type="writingSession" n="1"><p><pb facs="1894_AS_RBH_4_00036"/><salute>L. R. </salute>für <hi rend="latintype"><rs ref="#pmb41136" type="work"><hi rend="underline" n="1">Pelikan</hi></rs></hi> nichts beko<c rendition="#gemination-m"/>. Sehe morgen nochmals nach.</p><closer>Herzl Gruſs<lb/><signed>Arthur</signed></closer></div>
+        </body>
     </text>
 </TEI>

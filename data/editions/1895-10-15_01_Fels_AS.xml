@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L042XXX">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L042XXX">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,8 +19,9 @@
                     <address>
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
-                        <rs type="place">
-                            <country>A</country> Wien </rs>
+                        <placeName><country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -55,29 +54,12 @@
                                 <idno>A:Schnitzler, HS.NZ85.1.2956</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Postkarte, Motiv: »<quote>
-                              <p>Grand Restaurant et Café
-                                            Metropol Zurich Auböck <c rendition="#kaufmannsund"/>
-                                            Ziegler Pr.</p>
-                              <p>Irrgarten (Labyrinth) D<hi rend="superscript">ir</hi>
-                                 <space unit="chars" quantity="1"/>
-                                 <rs type="person" ref="">G.
-                                                D.’Ouvenou</rs>.</p>
-                           </quote>«, schwarze Tinte,
-                                    Lateinschrift. Von Schnitzler nummeriert:
-                                    »<quote>27</quote>«.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb484" type="place">Zürich B<unclear>h</unclear>f.
-                                        Exp.</rs>
-                                    <date when="1895-10-15">15.&#160;X.&#160;95</date>
-                                    <time>11</time>
-                                </stamp>
-                                <stamp n="2">
-                                    <rs ref="#pmb59" type="place">Wien 9/3</rs>
-                                    <date when="1895-10-17">17 10.&#160;95</date>
-                                    <time>9.V</time>
-                                    <action>Bestellt</action>
-                                </stamp>
+                                <p>eh. Postkarte, Motiv: »<quote><p>Grand Restaurant et Café Metropol Zurich Auböck <c
+                                                rendition="#kaufmannsund"/> Ziegler Pr.</p><p>Irrgarten (Labyrinth) D<hi rend="superscript">ir</hi><space unit="chars" quantity="1"/><rs type="person" ref="">G. D.’Ouvenou</rs>.</p></quote>«, schwarze Tinte; Lateinschrift. Von Schnitzler
+                                    nummeriert: »<quote>27</quote>«.</p>
+                                <stamp n="1"><placeName ref="#pmb484">Zürich Bhf.
+                                        Exp.</placeName><date when="1895-10-15">15.&#160;X.&#160;95</date><time>11</time></stamp>
+                                <stamp n="2"><placeName ref="#pmb59">Wien 9/3</placeName><date when="1895-10-17">17 10.&#160;95</date><time>9.V</time><action>Bestellt</action></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -89,29 +71,36 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction  type="sent">
+                <correspAction type="sent">
                     <persName ref="#pmb2450">Fels, Friedrich M.</persName>
                     <persName ref="#pmb42508">Nordegg, Jenny</persName>
                     <placeName ref="#pmb484">Zürich</placeName>
                     <date when="1895-10-15" n="01">15.&#160;10.&#160;1895</date>
                 </correspAction>
-                <correspAction  type="received">
+                <correspAction type="received">
                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                     <placeName ref="#pmb50">Wien</placeName>
                     <date when="1895-10-17">17.&#160;10.&#160;1895</date>
                 </correspAction>
-            
-         </correspDesc>
+            </correspDesc>
         </profileDesc>
-        <revisionDesc status="proposed">
+        <revisionDesc status="approved">
             <change who="MAM" when="2019-10-22">Angelegt</change>
             <change who="MAM" when="2019-10-22">Index check</change>
+            <change who="GHS" when="2019-12-28">finalisiert</change>
         </revisionDesc>
     </teiHeader>
+    <facsimile>
+        <graphic url="Fels, Friedrich an AS ÖGL.pdf"/>
+    </facsimile>
     <text type="card">
-        <body><div type="address"><address><addrLine><pb facs=""/>Herrn Dr.&#160;med. Arthur Schnitzler</addrLine><addrLine>Schriftsteller</addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb397" type="place">IX, Frankgaſse 1</rs></addrLine><addrLine><rs ref="#pmb162" type="place">Österreich</rs></addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs=""/>Lieber Dr. Schnitzler!</salute></opener><p>Soeben lesen wir <rs ref="#pmb12816" type="person">Speidel</rs>s <rs type="work" ref="#pmb42512" subtype="implied">Kritik</rs> und freuen uns riesig über Ihren Erfolg. Fahren
-                    Sie so weiter, junger Ma<c rendition="#gemination-n"/>, und vergeſsen Sie im
-                    Glücke nicht »<rs type="work" ref="#pmb42545" subtype="implied">derer, die am Wege
-                    sterben</rs>«.</p><closer>Herzlichst<lb/><lb/><signed><handShift scribe="pmb42508"/>Jenny Nordegg</signed><lb/><signed><handShift scribe="pmb2450"/>Fels</signed></closer></div></body>
+        <body>
+            <div type="address"><address><addrLine><pb facs="Fels, Friedrich an AS ÖGL.pdf"/>Herrn Dr.&#160;med. Arthur Schnitzler</addrLine><addrLine>Schriftsteller</addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb397" type="place">IX, Frankgaſse 1</rs></addrLine><addrLine><rs ref="#pmb162" type="place">Österreich</rs></addrLine></address></div>
+            <div type="writingSession" n="1"><opener><salute><pb facs="Fels, Friedrich an AS ÖGL.pdf"/>Lieber Dr. Schnitzler!</salute></opener><p>Soeben lesen wir <rs ref="#pmb12816" type="person">Speidel</rs>s <rs type="work"
+                        ref="#pmb42512" subtype="implied">Kritik</rs> und freuen uns riesig über
+                    Ihren Erfolg. Fahren Sie so weiter, junger Ma<c rendition="#gemination-n"/>, und
+                    vergeſsen Sie im Glücke nicht »<rs type="work" ref="#pmb42545" subtype="implied"
+                        >derer, die am Wege sterben</rs>«.</p><closer>Herzlichst<lb/><lb/><signed><handShift scribe="#pmb42508"/>Jenny Nordegg</signed><lb/><handShift scribe="#pmb2450"/>und <signed>Friedr. M. Fels</signed></closer></div>
+        </body>
     </text>
 </TEI>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1897-07-08_01_AS_Hofmannsthal">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+    xml:id="L1897-07-08_01_AS_Hofmannsthal">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 8.&#160;7.&#160;1897</title>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal,
+                    8.&#160;7.&#160;1897</title>
                 <author ref="#pmb2121">Schnitzler, Arthur</author>
                 <editor>
                     <name>Müller, Martin Anton</name>
@@ -20,9 +20,9 @@
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
                         <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -83,49 +83,61 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction  type="sent">
+                <correspAction type="sent">
                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                     <placeName ref="#pmb213">Bad Ischl</placeName>
                     <date when="1897-07-08" n="01">8.&#160;7.&#160;1897</date>
                 </correspAction>
-                <correspAction  type="received">
+                <correspAction type="received">
                     <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                     <placeName ref="#pmb573">Bad Fusch</placeName>
                 </correspAction>
-            <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-07-06_01">Hofmannsthal an Schnitzler, 6.&#160;7.&#160;[1897]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-07-09_02">Hofmannsthal an Schnitzler, 9.&#160;[7.&#160;1897]</ptr>
-            </correspContext>
-         </correspDesc>
+                <correspContext>
+                    <ptr type="previous" subtype="toAuthor" target="1897-07-06_01">Hofmannsthal an Schnitzler, 6.&#160;7.&#160;[1897]</ptr>
+                    <ptr type="next" subtype="toAuthor" target="1897-07-09_02">Hofmannsthal an Schnitzler, 9.&#160;[7.&#160;1897]</ptr>
+                </correspContext>
+            </correspDesc>
         </profileDesc>
         <revisionDesc status="proposed">
             <change who="GHS" when="2018-11-20">Angelegt</change>
+            <change who="MAM" when="2019-12-27">Index check</change>
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body><div type="writingSession" n="1"><opener><dateline><pb facs=""/><rs ref="#pmb213" type="place">Ischl</rs>,
-                            <date>8.&#160;7.&#160;97</date>.</dateline></opener><p><salute>Mein lieber Hugo, </salute>gestern ist Ihr Brief aus der <rs ref="#pmb573" type="place">Fusch</rs> gekommen. Ich freue mich sehr, daß es Ihnen
-                    gut geht und weiß daß manche von den Versen die Sie »versuchen«, Ihnen gelingen
-                    werden. Glauben Sie das nicht selbst? Ich selbst schreibe an einem <rs ref="#pmb30219" type="work" subtype="implied">Stück</rs>, dessen zweiten Akt ich heute begonnen
-                    habe. Es ist nicht das, was ich mir vorgenommen habe, sondern ein andres, das
-                    mir als Einfall bereits vor ein paar Monaten in <rs ref="#pmb50" type="place">Wien</rs> gekommen und mir plötzlich,
-                    in den zwei ersten Tagen meines <rs ref="#pmb213" type="place">Ischl</rs>er Aufenthalts mit
-                    großer Lebendigkeit, Scene für Scene klar geworden ist. Ich habe den ersten <rs ref="#pmb30219" type="work" subtype="implied">Akt</rs> mit viel Liebe geschrieben, bin gegen
-                    den Schluß mißtrauisch geworden und fand ihn beim Durchlesen vorgestern blaß.
-                    Aus verschiedenen Gründen ist die ganze Stimmung wieder ins dunklere
-                    hineingeraten, aber die Hoffnung, daß es wieder besser wird, darf bestehn. Ich
-                    werde weiter arbeiten, wie man unter drohenden Wolken weiterfährt; (was doch
-                    eigentlich ein recht stupider Vergleich ist.) ((Ich hätt ihn doch ausstreichen
-                    können, ganz einfach?)) </p><p>Ich muß vielleicht bald nach <rs ref="#pmb50" type="place">Wien</rs>, da ich in der Wohnungsfrage
-                    in der bekannten, noch mancherlei oder vielmehr alles zu ordnen habe. Das
-                    ursprünglich geplante Häuschen im Gebirg ist mir weggeschnappt worden. Es ist
-                    sehr ärgerlich. Natürlich bleibt es trotzdem bei unserm
-                        <rs ref="#pmb30" type="place">Salzburg</rs>, und ich freu mich sehr darauf. Sagen Sie
-                    mir nur gleich das genaue Datum, da ich mit den Tagen haushalten muß. Morgen
-                    schicke ich Ihnen den <rs type="work" ref="#pmb34255" subtype="implied">2.&#160;Band <rs ref="#pmb12303" type="person">Mozart</rs></rs>.&#160;– <rs ref="#pmb10863" type="person">Richard</rs> arbeitet wirklich; er scheint im dritten <rs ref="#pmb31535" type="work" subtype="implied">Capitel</rs> zu sein. Wenigstens hat er kaum zu
-                    was anderm Zeit und ist eine Radelraunzen wie ein kleines Kind. </p><p>Neulich bin ich nach <rs ref="#pmb877" type="place">Unterach</rs> zu <rs ref="#pmb25673 pmb25676" type="person">Stri</rs>’s geradelt; sonst mach ich nur ganz
-                    kleine Spazierfahrten, und plaudre mit einer merkwürdig gescheiten <rs type="person" ref="#pmb16560" subtype="implied">Frau</rs> sehr viel, die Humor hat, und ich
-                    versuche mich zu erinnern, ob ich schon je eine Frau mit Humor gekannt
-                    habe.&#160;–</p><p>Schreiben Sie mir bald. </p><p>Ich lese noch immer <rs type="work" subtype="implied" ref=""><rs ref="#pmb3739" type="person">Tolstoi</rs></rs> u. <rs type="work" subtype="implied" ref=""><rs ref="#pmb10992" type="person">Brandes</rs></rs>. </p><closer>Herzlich der Ihre<lb/><signed>Arthur.</signed></closer></div></body>
+        <body>
+            <div type="writingSession" n="1"><opener><dateline><pb facs=""/><rs ref="#pmb213" type="place">Ischl</rs>,
+                        <date>8.&#160;7.&#160;97</date>.</dateline></opener><p><salute>Mein lieber Hugo, </salute>gestern ist Ihr Brief aus der <rs
+                        ref="#pmb573" type="place">Fusch</rs> gekommen. Ich freue mich sehr, daß es
+                    Ihnen gut geht und weiß daß manche von den Versen die Sie »versuchen«, Ihnen
+                    gelingen werden. Glauben Sie das nicht selbst? Ich selbst schreibe an einem <rs
+                        ref="#pmb30219" type="work" subtype="implied">Stück</rs>, dessen zweiten Akt
+                    ich heute begonnen habe. Es ist nicht das, was ich mir vorgenommen habe, sondern
+                    ein andres, das mir als Einfall bereits vor ein paar Monaten in <rs ref="#pmb50"
+                        type="place">Wien</rs> gekommen und mir plötzlich, in den zwei ersten Tagen
+                    meines <rs ref="#pmb213" type="place">Ischl</rs>er Aufenthalts mit großer
+                    Lebendigkeit, Scene für Scene klar geworden ist. Ich habe den ersten <rs
+                        ref="#pmb30219" type="work" subtype="implied">Akt</rs> mit viel Liebe
+                    geschrieben, bin gegen den Schluß mißtrauisch geworden und fand ihn beim
+                    Durchlesen vorgestern blaß. Aus verschiedenen Gründen ist die ganze Stimmung
+                    wieder ins dunklere hineingeraten, aber die Hoffnung, daß es wieder besser wird,
+                    darf bestehn. Ich werde weiter arbeiten, wie man unter drohenden Wolken
+                    weiterfährt; (was doch eigentlich ein recht stupider Vergleich ist.) ((Ich hätt
+                    ihn doch ausstreichen können, ganz einfach?)) </p><p>Ich muß vielleicht bald nach <rs ref="#pmb50" type="place">Wien</rs>, da ich in
+                    der Wohnungsfrage in der bekannten, noch mancherlei oder vielmehr alles zu
+                    ordnen habe. Das ursprünglich geplante Häuschen im Gebirg ist mir weggeschnappt
+                    worden. Es ist sehr ärgerlich. Natürlich bleibt es trotzdem bei unserm <rs
+                        ref="#pmb30" type="place">Salzburg</rs>, und ich freu mich sehr darauf.
+                    Sagen Sie mir nur gleich das genaue Datum, da ich mit den Tagen haushalten muß.
+                    Morgen schicke ich Ihnen den <rs type="work" ref="#pmb34255" subtype="implied"
+                        >2.&#160;Band <rs ref="#pmb12303" type="person">Mozart</rs></rs>.&#160;– <rs ref="#pmb10863" type="person">Richard</rs> arbeitet wirklich;
+                    er scheint im dritten <rs ref="#pmb31535" type="work" subtype="implied"
+                        >Capitel</rs> zu sein. Wenigstens hat er kaum zu was anderm Zeit und ist
+                    eine Radelraunzen wie ein kleines Kind. </p><p>Neulich bin ich nach <rs ref="#pmb877" type="place">Unterach</rs> zu <rs
+                        ref="#pmb25673 #pmb25676" type="person">Stri</rs>’s geradelt; sonst mach ich
+                    nur ganz kleine Spazierfahrten, und plaudre mit einer merkwürdig gescheiten <rs
+                        type="person" ref="#pmb16560" subtype="implied">Frau</rs> sehr viel, die
+                    Humor hat, und ich versuche mich zu erinnern, ob ich schon je eine Frau mit
+                    Humor gekannt habe.&#160;–</p><p>Schreiben Sie mir bald. </p><p>Ich lese noch immer <rs type="work" subtype="implied" ref="#pmb34996"><rs ref="#pmb3739" type="person">Tolstoi</rs></rs> u. <rs type="work" subtype="implied" ref="#pmb32159"><rs ref="#pmb10992" type="person">Brandes</rs></rs>. </p><closer>Herzlich der Ihre<lb/><signed>Arthur.</signed></closer></div>
+        </body>
     </text>
 </TEI>

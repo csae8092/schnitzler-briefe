@@ -20,8 +20,7 @@
                     <address>
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
-                        <rs type="place">
-                            <country>A</country> Wien </rs>
+                        <placeName><country>A</country> <settlement>Wien</settlement> </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -55,21 +54,10 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Kartenbrief, Lateinschrift. Von Schnitzler mit Bleistift
-                                    datiert: »<quote>
-                              <date>23/4 95</date>
-                           </quote>« und
+                                    datiert: »<quote><date>23/4 95</date></quote>« und
                                     nummeriert: »<quote>21</quote>«.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb51" type="place">Wien 1/1</rs>
-                                    <date when="1895-05-23">23.&#160;5.&#160;1895</date>
-                                    <time>1–N</time>
-                                </stamp>
-                                <stamp n="2">
-                                    <rs ref="#pmb59" type="place">Wien 9/3</rs>
-                                    <date when="1895-05-23">2<unclear>3</unclear>.&#160;5.&#160;1895</date>
-                                    <time>3</time>
-                                    <action>Bestellt</action>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb51">Wien 1/1</placeName><date when="1895-05-23">23.&#160;5.&#160;1895</date><time>1–N</time></stamp>
+                                <stamp n="2"><placeName ref="#pmb59">Wien 9/3</placeName><date when="1895-05-23">2<unclear>3</unclear>.&#160;5.&#160;1895</date><time>3</time><action>Bestellt</action></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -100,10 +88,13 @@
         <revisionDesc status="proposed">
             <change who="MAM" when="2019-10-07">Angelegt</change>
             <change who="MAM" when="2019-10-01">Durchsicht</change>
+            <change who="MAM" when="2019-12-27">Index check</change>
         </revisionDesc>
     </teiHeader>
-    <text type="letter">
-        <body><div type="address"><address><addrLine><pb facs=""/>Herrn Dr. Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb397" type="place">IX, Frankgaſse 1</rs></addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs=""/>Lieber Dr. Schnitzler,</salute></opener><p>In der <rs ref="#pmb41989" type="work">Gegenwart</rs> vom
+    <text type="letter-card">
+        <body>
+            <div type="address"><address><addrLine><pb facs=""/>Herrn Dr. Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb397" type="place">IX, Frankgaſse 1</rs></addrLine></address></div>
+            <div type="writingSession" n="1"><opener><salute><pb facs=""/>Lieber Dr. Schnitzler,</salute></opener><p>In der <rs ref="#pmb41989" type="work">Gegenwart</rs> vom
                         <date>20.&#160;d.</date> steht eine <anchor type="commentary" xml:id="KLMAM20191011-2"/><rs type="work" ref="#pmb41991" subtype="implied">Besprechung</rs><note type="commentary" xml:id="KLMAM20191011-2h">»<quote><rs ref="#pmb30117" type="work"><hi rend="spaced_out">Sterben</hi></rs>. Novelle von <hi rend="spaced_out">Arthur
                                 Schnitzler</hi>. (<rs ref="#pmb168" type="place">Berlin</rs>,
                                 <rs ref="#pmb29639" type="organisation">S. Fischer</rs>.) Ein trauriges
@@ -120,6 +111,7 @@
                                 <rs ref="#pmb41989" type="work">Die Gegenwart</rs>, Bd.&#160;48,
                             Nr.&#160;XXXX, <date>20.&#160;4.&#160;1895</date>,
                             S.&#160;XXXX</bibl>.)</note> Ihrer <rs type="work" ref="#pmb30117" subtype="implied">Novelle</rs>, sehr knapp und <hi rend="underline" n="1">sehr</hi> anerke<c rendition="#gemination-n"/>enend, dabei sehr vernünftig – ungefähr so, wie
-                    wir selbst darüber schreiben würden. </p><closer>Herzlichst<lb/><signed>Fels</signed></closer></div></body>
+                    wir selbst darüber schreiben würden. </p><closer>Herzlichst<lb/><signed>Fels</signed></closer></div>
+        </body>
     </text>
 </TEI>

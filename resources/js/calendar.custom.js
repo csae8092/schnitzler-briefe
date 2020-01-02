@@ -18,7 +18,7 @@
                   $obj.endDate = new Date($j,$m-1,$d);
                   $obj.startDate = new Date($j,$m-1,$d);
                   $obj.id = entry.id;
-                  $obj.color = "#254aa5";
+                  $obj.color = "#A63437";
                    if (years.indexOf($j) === -1)
                   {
                     years.push($j)   
@@ -29,7 +29,7 @@
                 
                 $('#calendar').calendar({
                     dataSource: $dataSource,
-                    startYear: 1900,
+                    startYear: 1891,
                     language: "de",
                     renderEnd: function(e) {
                         $(".yearbtn").removeClass("focus");
@@ -42,7 +42,7 @@
                 
                 for (var i = 0; i <= yearsSorted.length; i++){
                     $('#years-table').append(createyearcell(yearsSorted[i]) +createyearcell(yearsSorted[i+1])+createyearcell(yearsSorted[i+2]));
-                    i += 3;
+                    i += 2;
                 }
     
                 $('#calendar').clickDay(function(e){

@@ -56,12 +56,7 @@
                             <physDesc>
                                 <p>eh. Kartenbrief, schwarze Tinte. Von Schnitzler mit Bleistift
                                     nummeriert: »<quote>41</quote>«.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb53" type="place">Wien 3/3</rs>
-                                    <date when="1893-02-22">22.&#160;2.&#160;93</date>
-                                    <time>
-                                        <unclear>7</unclear>N</time>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb53">Wien 3/3</placeName><date when="1893-02-22">22.&#160;2.&#160;93</date><time><unclear>7</unclear>N</time></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -131,9 +126,11 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00083"/>
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00084"/>
     </facsimile>
-    <text type="letter">
-        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00083"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
-                            Schnitzler</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb50" type="place">Wien</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb412" type="place">I. Grillparzerstrasse 7</rs></hi></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00084"/><rs ref="#pmb50" type="place">Wien</rs>, <date>22 II 93.</date></dateline><salute>lieber Arthur.</salute></opener><p>Ich habe nach einem Geſpräch mit <rs ref="#pmb10815" type="person">Bahr</rs> die
+    <text type="letter-card">
+        <body>
+            <div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00083"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
+                            Schnitzler</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb50" type="place">Wien</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb412" type="place">I. Grillparzerstrasse 7</rs></hi></addrLine></address></div>
+            <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00084"/><rs ref="#pmb50" type="place">Wien</rs>, <date>22 II 93.</date></dateline><salute>lieber Arthur.</salute></opener><p>Ich habe nach einem Geſpräch mit <rs ref="#pmb10815" type="person">Bahr</rs> die
                     volle Überzeugung, daſs er ſich ernſtlich bemühen wird, <rs ref="#pmb2450" type="person">Fels</rs>, sei es bei der »<rs ref="#pmb29424" type="organisation">Deutſchen</rs>« ſei es wo anders, unterzubringen und bin des Erfolges
                     ſeiner Bemühung vollkommen ſicher, habe auch an <rs ref="#pmb2450" type="person">Fels</rs> in dieſem Sinn beruhigend geſchrieben. Hoffentlich erholt
                     er ſich ausgiebig. Bitte, ſchreiben Sie mir einmal in Ziffern, wie viel ich
@@ -141,6 +138,7 @@
                     ich mir’s eben verſchaffen. Recht?</p><closer>Herzlichſt<lb/><signed>Loris.</signed></closer><postscript><p>Alle 2<hi rend="superscript">ten</hi> Tag <anchor type="commentary" xml:id="KL423-1"/>Bilderproben<note type="commentary" xml:id="KL423-1h">Proben für
                             Privataufführung von »lebenden Bildern« am <date>28.&#160;2.</date> und
                                 <date>2.&#160;3.&#160;1893</date>, zu denen <rs ref="#pmb11740" type="person">Hofmannsthal</rs> zwei Texte beisteuerte.</note> von 7–2 Uhr
-                        Nachts aber ſehr luſtig.</p></postscript></div></body>
+                        Nachts aber ſehr luſtig.</p></postscript></div>
+        </body>
     </text>
 </TEI>

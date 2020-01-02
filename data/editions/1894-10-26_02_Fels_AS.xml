@@ -19,10 +19,9 @@
                     <address>
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
-                        <rs type="place">
-                            <country>A</country>
-                            Wien
-                        </rs>
+                        <placeName><country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -88,7 +87,8 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date>26.&#160;Okt.&#160;94</date></dateline><salute>Lieber Dr Schnitzler!</salute></opener><p>Danke für Ihre frdl. Bemühungen wegen
+        <body>
+            <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><date>26.&#160;Okt.&#160;94</date></dateline><salute>Lieber Dr Schnitzler!</salute></opener><p>Danke für Ihre frdl. Bemühungen wegen
                     <rs ref="#pmb29717" type="organisation">Extrapost</rs>; sie sind 
                 gegenstandslos geworden. Ich soeben, mit Empfehlung von
                 Dr. <rs ref="#pmb41891" type="person">Brüll-Neuda</rs>, bei dem
@@ -113,6 +113,7 @@
                     schmerzt mich, we<c rendition="#gemination-n"/> ich bedenke, daſs nun wieder
                     mehr Aussicht für mich vorhanden ist, das nicht zu erreichen, was ich
                     anstrebe. Mögen also die Dinge ihren Lauf nehmen: ich hadere mit niemanden.
-                </p><closer>Herzlichen Gruſs<lb/>von Ihrem <signed>Fels</signed></closer></div></body>
+                </p><closer>Herzlichen Gruſs<lb/>von Ihrem <signed>Fels</signed></closer></div>
+        </body>
     </text>
 </TEI>

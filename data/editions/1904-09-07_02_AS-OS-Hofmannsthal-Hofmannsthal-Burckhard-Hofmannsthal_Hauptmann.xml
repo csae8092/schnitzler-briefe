@@ -61,25 +61,9 @@
                             <idno>Nachl. Gerhart Hauptmann/Briefnachlass A; Prominente, Freunde und Bekannte; Ha-Hu; 5</idno>
                         </msIdentifier>
                         <physDesc>
-                            <p>eh. Ansichtskarte: »<quote>
-                              <rs ref="#pmb824" type="place">Hotel <c rendition="#kaufmannsund"/> Pension Lueg b. St.&#160;Gilgen am Wolfgangsee</rs>. Depôt der <rs ref="#pmb29547" type="organisation">Stiegl-Brauerei</rs> in <rs ref="#pmb30" type="place">
-     Salzb<damage agent="paperloss">
-                                    <supplied>urg.</supplied>
-                                 </damage>
-     
-                              </rs>
-                              <space unit="chars" quantity="1"/>
-                              <rs ref="#pmb1150" type="place">Bahn <c rendition="#kaufmannsund"/> Dampfschiff-Station</rs>
-                           </quote>«, sechs Verfasser, Bleistift</p>
-                            <stamp n="1">
-                                <rs ref="#pmb33" type="place">St.&#160;Gilgen</rs>
-                                <date when="1904-09-08">8.&#160;9.&#160;04</date>
-                            </stamp>
-                            <stamp n="2">
-                                <rs ref="#pmb735" type="place">Agnetendorf</rs>
-                                <date when="1904-09-10">1<unclear>0</unclear>.&#160;9.&#160;04</date>
-                                <time>5–6&#160;N</time>
-                            </stamp>
+                            <p>eh. Ansichtskarte: »<quote><rs ref="#pmb824" type="place">Hotel <c rendition="#kaufmannsund"/> Pension Lueg b. St.&#160;Gilgen am Wolfgangsee</rs>. Depôt der <rs ref="#pmb29547" type="organisation">Stiegl-Brauerei</rs> in <rs ref="#pmb30" type="place">Salzb<damage agent="paperloss"><supplied>urg.</supplied></damage></rs><space unit="chars" quantity="1"/><rs ref="#pmb1150" type="place">Bahn <c rendition="#kaufmannsund"/> Dampfschiff-Station</rs></quote>«, sechs Verfasser, Bleistift</p>
+                            <stamp n="1"><placeName ref="#pmb33">St.&#160;Gilgen</placeName><date when="1904-09-08">8.&#160;9.&#160;04</date></stamp>
+                            <stamp n="2"><placeName ref="#pmb735">Agnetendorf</placeName><date when="1904-09-10">1<unclear>0</unclear>.&#160;9.&#160;04</date><time>5–6&#160;N</time></stamp>
                         </physDesc>
                     </msDesc>
                     </witness>
@@ -118,7 +102,10 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body><div type="address"><address><addrLine><pb facs="http://resolver.staatsbibliothek-berlin.de/SBB000139DE00000001"/><handShift scribe="pmb2292"/>Gerh. Hauptmann</addrLine><addrLine><rs ref="#pmb735" type="place">Agnetendorf</rs></addrLine><addrLine><rs ref="#pmb1122" type="place">Pr. Schlesien</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="http://resolver.staatsbibliothek-berlin.de/SBB000139DE00000002"/><handShift scribe="pmb2121"/><date>7.&#160;9.&#160;904</date></dateline></opener><p>Herzlichen Gruß <signed>Arthur Schnitzler</signed></p><p><handShift scribe="pmb2173"/><signed>Olga Schnitzler</signed></p><p><handShift scribe="pmb11740"/><signed>Hofmannsthal</signed></p><p><handShift scribe="pmb2292"/><signed>Gerty H.</signed></p><p><handShift scribe="pmb11737"/><signed>D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/>Hofmannsthal sen.</signed></p><p><handShift scribe="pmb11036"/>Herzlichst 
-                    <signed>D<unclear><hi rend="superscript">r</hi></unclear><space unit="chars" quantity="1"/>Burckhard</signed></p></div></body>
+        <body>
+            <div type="address"><address><addrLine><pb facs="http://resolver.staatsbibliothek-berlin.de/SBB000139DE00000001"/><handShift scribe="#pmb2292"/>Gerh. Hauptmann</addrLine><addrLine><rs ref="#pmb735" type="place">Agnetendorf</rs></addrLine><addrLine><rs ref="#pmb1122" type="place">Pr. Schlesien</rs></addrLine></address></div>
+            <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="http://resolver.staatsbibliothek-berlin.de/SBB000139DE00000002"/><handShift scribe="#pmb2121"/><date>7.&#160;9.&#160;904</date></dateline></opener><p>Herzlichen Gruß <signed>Arthur Schnitzler</signed></p><p><handShift scribe="#pmb2173"/><signed>Olga Schnitzler</signed></p><p><handShift scribe="#pmb11740"/><signed>Hofmannsthal</signed></p><p><handShift scribe="#pmb2292"/><signed>Gerty H.</signed></p><p><handShift scribe="#pmb11737"/><signed>D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/>Hofmannsthal sen.</signed></p><p><handShift scribe="#pmb11036"/>Herzlichst 
+                    <signed>D<unclear><hi rend="superscript">r</hi></unclear><space unit="chars" quantity="1"/>Burckhard</signed></p></div>
+        </body>
     </text>
 </TEI>

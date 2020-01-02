@@ -57,11 +57,7 @@
                             <physDesc>
                                 <p>ms. Umschlag und Brief, 1&#160;Bl., 1&#160;S. mit eh.
                                     Unterschrift sowie hs. Korrekturen.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb59" type="place">9/1 Wien 66</rs>
-                                    <date when="1910-10-31">31.&#160;X.&#160;10</date>
-                                    <time>3</time>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb59">9/1 Wien 66</placeName><date when="1910-10-31">31.&#160;X.&#160;10</date><time>3</time></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -75,9 +71,7 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>ms. Durchschlag, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet:
-                                            »<quote>
-                              <hi rend="latintype">Adam</hi>
-                           </quote>«.</p>
+                                            »<quote><hi rend="latintype">Adam</hi></quote>«.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -111,10 +105,13 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body><div type="address"><address><addrLine><pb facs=""/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></addrLine><addrLine><rs ref="#pmb150" type="place"><hi rend="pre-print">Wien, XVIII. Sternwartestrasse 71</hi></rs></addrLine></address><address><addrLine><pb facs=""/>Herrn Robert Adam</addrLine><addrLine><rs ref="#pmb62" type="place"><hi rend="spaced_out">Wien XII</hi></rs>.</addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hauptstraße 56</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline><seg rend="left"><pb facs=""/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></seg><seg rend="right"><date>31.&#160;10.&#160;1910</date>.</seg></dateline><p><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></p><salute rend="center">Sehr geehrter Herr Adam.</salute></opener><p>Ihrer <add place="inline">»</add><rs ref="#pmb33578" type="work">Ali Bekkar<add place="inline">«</add>-Komödie</rs> erinnere ich gern und
+        <body>
+            <div type="address"><address><addrLine><pb facs=""/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></addrLine><addrLine><rs ref="#pmb150" type="place"><hi rend="pre-print">Wien, XVIII. Sternwartestrasse 71</hi></rs></addrLine></address><address><addrLine><pb facs=""/>Herrn Robert Adam</addrLine><addrLine><rs ref="#pmb62" type="place"><hi rend="spaced_out">Wien XII</hi></rs>.</addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hauptstraße 56</rs>.</addrLine></address></div>
+            <div type="writingSession" n="1"><opener><dateline><seg rend="left"><pb facs=""/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></seg><seg rend="right"><date>31.&#160;10.&#160;1910</date>.</seg></dateline><p><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></p><salute rend="center">Sehr geehrter Herr Adam.</salute></opener><p>Ihrer <add place="inline">»</add><rs ref="#pmb33578" type="work">Ali Bekkar<add place="inline">«</add>-Komödie</rs> erinnere ich gern und
                     so interessiert es mich natürlich auch Ihr neues <rs type="work" ref="#pmb33580" subtype="implied">Stück</rs> kennen zu lernen, nur möchte bitten 1. es mir in
                     Schreibmaschinenschrift zu<add place="inline"><space unit="chars" quantity="1"/></add>senden zu wollen und 2. sich fre<supplied>u</supplied>ndlichst bis nach
                     meiner <anchor type="commentary" xml:id="KL2111-1"/><rs ref="#pmb14" type="place">Burgtheater</rs>première<note type="commentary" xml:id="KL2111-1h">Am <date>24.&#160;11.&#160;1910</date> Uraufführung von <rs ref="#pmb29937" type="work">Der
-                            junge Medardus</rs>.</note> zu gedulden. </p><closer>Mit verbindlichem Gruss<lb/>Ihr sehr ergebener <signed><handShift/>Arthur Schnitzler</signed></closer><postscript><p><handShift medium="typewriter"/>Herrn Robert Adam, <rs ref="#pmb50" type="place">Wien</rs>.</p></postscript></div></body>
+                            junge Medardus</rs>.</note> zu gedulden. </p><closer>Mit verbindlichem Gruss<lb/>Ihr sehr ergebener <signed><handShift/>Arthur Schnitzler</signed></closer><postscript><p><handShift medium="typewriter"/>Herrn Robert Adam, <rs ref="#pmb50" type="place">Wien</rs>.</p></postscript></div>
+        </body>
     </text>
 </TEI>

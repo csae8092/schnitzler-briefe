@@ -19,10 +19,9 @@
                     <address>
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
-                        <rs type="place">
-                            <country>A</country>
-                            Wien
-                        </rs>
+                        <placeName><country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -55,21 +54,10 @@
                                <idno>A:Schnitzler, HS.NZ85.1.2956</idno>
                            </msIdentifier>
                             <physDesc>
-                                <p>eh. Kartenbrief, Lateinschrift. Von Schnitzler mit Bleistift datiert: »<quote>
-                              <date>23/4 95</date>
-                           </quote>« und
+                                <p>eh. Kartenbrief, Lateinschrift. Von Schnitzler mit Bleistift datiert: »<quote><date>23/4 95</date></quote>« und
                                 nummeriert: »<quote>21</quote>«.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb51" type="place">Wien 1/1</rs>
-                                    <date when="1895-05-20">20.&#160;5.&#160;95</date>
-                                    <time>1–2N</time>
-                                </stamp>
-                                <stamp n="1">
-                                    <rs ref="#pmb59" type="place">Wien 9/3</rs>
-                                    <date when="1895-05-20">20.&#160;5.&#160;95</date>
-                                    <time>3.N</time>
-                                    <action>Bestellt</action>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb51">Wien 1/1</placeName><date when="1895-05-20">20.&#160;5.&#160;95</date><time>1–2N</time></stamp>
+                                <stamp n="1"><placeName ref="#pmb59">Wien 9/3</placeName><date when="1895-05-20">20.&#160;5.&#160;95</date><time>3.N</time><action>Bestellt</action></stamp>
                             </physDesc>
                             
                         </msDesc>
@@ -101,10 +89,13 @@
         </profileDesc>
         <revisionDesc status="proposed">
             <change who="MAM" when="2019-10-07">Angelegt</change>
+            <change who="MAM" when="2019-12-27">Index check</change>
         </revisionDesc>
     </teiHeader>
-    <text type="letter">
-        <body><div type="address"><address><addrLine><pb facs=""/>Herrn</addrLine><addrLine>Dr. Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb397" type="place">IX, Frankgaſse <damage agent="paperloss"><supplied>1</supplied></damage></rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs=""/><salute>Lieber Dr Schnitzler! </salute> Sie sagten mir neulich, Sie
+    <text type="letter-card">
+        <body>
+            <div type="address"><address><addrLine><pb facs=""/>Herrn</addrLine><addrLine>Dr. Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb397" type="place">IX, Frankgaſse <damage agent="paperloss"><supplied>1</supplied></damage></rs></addrLine></address></div>
+            <div type="writingSession" n="1"><p><pb facs=""/><salute>Lieber Dr Schnitzler! </salute> Sie sagten mir neulich, Sie
                   wollten mit <rs ref="#pmb10863" type="person">Beer-Hofma<c rendition="#gemination-n"/></rs> reden
                   wegen eines Anzugs; falls Sie es nicht gethan haben, darf ich jetz wohl daran
                   eri<c rendition="#gemination-n"/>ern. Es ist sehr langweilig, seine Hose jeden
@@ -119,6 +110,7 @@
                       Antrag durch 
                       <rs ref="#pmb14456" type="person">Raoul Bourse</rs> (<bibl><rs ref="#pmb33243" type="work">Tagebuch</rs>, <date>1.&#160;5.&#160;1895</date></bibl>.) Die Übersetzung
                       erfolgte durch <rs ref="#pmb40665" type="person">Gaspard Vallette</rs>.</note> – so was
-                  hätten Sie sich so bald nicht träumen laſsen.</p><closer>Herzl. Gruſs und Dank<lb/><signed>F.</signed></closer><postscript><p><rs ref="#pmb727" type="place">Wien XVIII, Währinger-Gürtel 154 part. Th.&#160;9</rs></p></postscript></div></body>
+                  hätten Sie sich so bald nicht träumen laſsen.</p><closer>Herzl. Gruſs und Dank<lb/><signed>F.</signed></closer><postscript><p><rs ref="#pmb727" type="place">Wien XVIII, Währinger-Gürtel 154 part. Th.&#160;9</rs></p></postscript></div>
+        </body>
     </text>
 </TEI>

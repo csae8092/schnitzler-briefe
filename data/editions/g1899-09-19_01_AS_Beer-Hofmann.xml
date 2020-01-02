@@ -56,11 +56,7 @@
                      <physDesc>
                         <p>eh. Bildpostkarte, Bleistift. Motiv: »<rs ref="#pmb11209" type="person">Albrecht
                               Dürer</rs>s Wohnhaus«.</p>
-                        <stamp n="1">
-                           <rs ref="#pmb1145" type="place">Nürnberg</rs>
-                           <date when="1899-09-19">19 Sep 99</date>
-                           <time>1-2Nm</time>
-                        </stamp>
+                        <stamp n="1"><placeName ref="#pmb1145">Nürnberg</placeName><date when="1899-09-19">19 Sep 99</date><time>1-2Nm</time></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -96,11 +92,14 @@
       <graphic url="1899_AS_RBH_3_00006.jpeg"/>
    </facsimile>
    <text type="card">
-      <body><div type="address"><address><addrLine><pb facs="1899_AS_RBH_3_00005.jpeg"/>Hrn <hi rend="latintype">Dr Rich
+      <body>
+         <div type="address"><address><addrLine><pb facs="1899_AS_RBH_3_00005.jpeg"/>Hrn <hi rend="latintype">Dr Rich
                      Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb946" type="place"><hi rend="latintype">Vahrn</hi></rs></addrLine><addrLine>bei <hi rend="latintype"><rs ref="#pmb28068" type="place"
-                  >Brixen</rs></hi></addrLine><addrLine><rs ref="#pmb423" type="place"><hi rend="latintype">Tirol</hi></rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1899_AS_RBH_3_00006.jpeg"/>Herzliche Grüße Ihnen und den Ihren und
-                  <rs type="person" ref="11740">Hugo</rs> we<c rendition="#gemination-n"/> er bei
-                  Ihnen<space unit="chars" quantity="3"/>Ihr <signed>Arth</signed></p><postscript><p><anchor type="textConst" xml:id="TG41"/><date>19. 9. 99</date><note
-                     type="textConst" xml:id="TG41h">quer am linken Rand</note></p></postscript></div></body>
+                  >Brixen</rs></hi></addrLine><addrLine><rs ref="#pmb423" type="place"><hi rend="latintype">Tirol</hi></rs></addrLine></address></div>
+         <div type="writingSession" n="1"><p><pb facs="1899_AS_RBH_3_00006.jpeg"/>Herzliche Grüße Ihnen und den Ihren und
+                  <rs type="person" ref="#pmb11740">Hugo</rs> we<c rendition="#gemination-n"/> er bei
+                  Ihnen<space unit="chars" quantity="3"/>Ihr <signed>Arth</signed></p><postscript><p><anchor type="textConst" xml:id="TG41"/><date>19.&#160;9.&#160;99</date><note
+                     type="textConst" xml:id="TG41h">quer am linken Rand.</note></p></postscript></div>
+      </body>
    </text>
 </TEI>

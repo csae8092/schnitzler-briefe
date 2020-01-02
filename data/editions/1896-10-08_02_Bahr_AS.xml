@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1896-10-08_02_Bahr_AS">
-  <teiHeader type="text">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
+   xml:id="L1896-10-08_02_Bahr_AS">
+   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Hermann Bahr an Arthur Schnitzler, 8.&#160;10.&#160;1896</title>
             <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
-               
                <name full="yes" instant="false">Müller, Martin Anton</name>
             </editor>
             <funder>
@@ -20,9 +18,9 @@
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
                   <placeName>
-                     <country>A</country>  
+                     <country>A</country>
                      <settlement>Wien</settlement>
-                  </placeName> 
+                  </placeName>
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +33,7 @@
             </respStmt>
          </editionStmt>
          <publicationStmt>
-            <publisher>Austrian Academy of Sciences, Vienna</publisher> 
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
             <idno type="HBAS-L" n="1188"/>
             <availability status="free">
                <p>Copyright © 2018</p>
@@ -45,36 +43,37 @@
             <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
          </seriesStmt>
          <sourceDesc>
-            
             <listWit>
                <witness n="1">
                   <msDesc>
                      <msIdentifier>
-                        <country>GB</country>            
-                        <settlement>Cambridge</settlement>            
-                        <repository>University Library</repository>            
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
                         <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1&#160;Bl., 3&#160;S..</p>
+                        <p>eh. Brief, 1&#160;Bl., 3&#160;S., schwarze Tinte. Von unbekannter Hand
+                           mit Bleistift nummeriert: »<quote>43</quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>                
-               <biblStruct corresp="HBAS">                              
-                  <monogr>                             
-                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
-                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
-                     <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
-                     <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
-                     <imprint>                                       
-                        <pubPlace>Göttingen</pubPlace>                                       
-                        <publisher>Wallstein</publisher>                                       
-                        <date when="2018">2018</date>                                  
-                     </imprint>                             
-                  </monogr>                     
-               </biblStruct>             
+            <listBibl>
+               <biblStruct corresp="HBAS">
+                  <monogr>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+                     <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
+                     <imprint>
+                        <pubPlace>Göttingen</pubPlace>
+                        <publisher>Wallstein</publisher>
+                        <date when="2018">2018</date>
+                     </imprint>
+                     <biblScope unit="pp">127-128</biblScope>
+                  </monogr>
+               </biblStruct>
             </listBibl>
          </sourceDesc>
       </fileDesc>
@@ -83,12 +82,12 @@
             <language ident="de-AT">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction  type="sent">
+            <correspAction type="sent">
                <persName ref="#pmb10815">Bahr, Hermann</persName>
                <placeName ref="#pmb50">Wien</placeName>
                <date when="1896-10-08" n="02">8.&#160;10.&#160;1896</date>
             </correspAction>
-            <correspAction  type="received">
+            <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
@@ -102,24 +101,41 @@
          <change who="KI MAM" when="2015-12-02">Kollationiert</change>
          <change who="KI MAM" when="2017-05-27">Kollationiert</change>
          <change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
+         <change who="GHS" when="2019-12-23">finalisiert</change>
       </revisionDesc>
-  </teiHeader>
+   </teiHeader>
    <facsimile>
       <graphic url="MS-B-00005-B-000-00064"/>
       <graphic url="MS-B-00005-B-000-00065"/>
       <graphic url="MS-B-00005-B-000-00066"/>
    </facsimile>
    <text type="letter">
-      <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print">»<rs ref="#pmb29209" type="organisation">Die Zeit</rs>«</hi></seg><seg rend="right"><hi rend="pre-print"><hi rend="bold"><rs ref="#pmb50" type="place">Wien</rs></hi>, <rs ref="#pmb296" type="place">IX/3, Günthergasse 1</rs>., den </hi><date>8/10 <hi rend="pre-print">189</hi></date></seg></p><p><hi rend="pre-print">Wiener Wochenſchrift</hi></p><p><hi rend="pre-print"><hi rend="bold">Herausgeber</hi>:</hi><lb/><hi rend="pre-print">Profeſſor Dr.&#160;<rs ref="#pmb12790" type="person">I.&#160;Singer</rs>, <rs ref="#pmb10815" type="person">Hermann Bahr</rs>, Dr.&#160;<rs ref="#pmb11867" type="person">Heinrich Kanner</rs>.</hi></p><p><hi rend="pre-print">Telephon Nr.&#160;6415.</hi></p><salute rend="center">Lieber Arthur!</salute></opener><p>Ich habe <rs ref="#pmb10992" type="person">Brandes</rs> sofort ausführlich
-        geschrieben. Ich kann ihm belegen, daß ich den <rs type="work" ref="#pmb32063" subtype="implied">Artikel</rs> von einer ihm u. mir
-               bekannten, sehr angesehenen <rs ref="#pmb168" type="place">Berlin</rs>er <rs type="person" ref="#pmb2361" subtype="implied">Dame</rs> erhielt,
-        als aus einem <rs type="work" ref="#pmb32065" subtype="implied">Buche</rs> stammend, das den nächsten Winter erst deutsch erscheinen soll,
-        von ihm autorisiert, ja mit der Ermächtigung, <pb facs="MS-B-00005-B-000-00065"/>für ein besonderes Honorar das Fragment
-        als Originalartikel zu bringen. Ich bin also unschuldig.</p><p>Dir danke ich jedenfalls sehr, daß Du so lieb gewesen bist, mich gleich zu verständigen.
-          Interessiert Dich die Sache, so kannst Du die ganze Korrespondenz mit der
-        <rs type="person" ref="#pmb2361" subtype="implied">Berlinerin</rs> in unserem Copierbuche sehen.</p><p>Was macht Deine <anchor type="commentary" xml:id="KL188-1"/><rs type="work" ref="#pmb30075" subtype="implied">Novelle</rs><note type="commentary" xml:id="KL188-1h">Daraus wird: <bibl><rs ref="#pmb2121" type="person">Arthur
-                    Schnitzler</rs>: <rs ref="#pmb30075" type="work">Die Frau des Weisen</rs>.
-                In: <rs ref="#pmb36340" type="work">Die Zeit</rs>, Bd.&#160;10, H.&#160;118, <date>2.&#160;1.&#160;1897</date>, S.&#160;15–16; H.&#160;119, <date>9.&#160;1.&#160;1897</date>, S.&#160;31–32; H. 129,
-                    <date>16.&#160;1.&#160;1897</date>, S.&#160;47–48</bibl>.</note>? Ich rechne bestimmt auf sie! Auch bin ich sehr <pb facs="MS-B-00005-B-000-00066"/>neugierig, was aus dem »<rs ref="#pmb29899" type="work">Freiwild</rs>« wird.</p><closer>Nochmals dankt herzlich<lb/>mit besten Grüßen<lb/>Dein<lb/><signed>Hermann</signed></closer><postscript><p>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler<lb/><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><rs ref="#pmb397" type="place">IX Frankgasse 1</rs>.</p></postscript></div></body>
-  </text>
+      <body>
+         <div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs="MS-B-00005-B-000-00064"/><hi rend="pre-print">»<rs ref="#pmb29209" type="organisation">Die
+                        Zeit</rs>«</hi></seg><seg rend="right"><hi rend="pre-print"><hi rend="bold"><rs ref="#pmb50" type="place">Wien</rs></hi>, <rs ref="#pmb296" type="place">IX/3, Günthergaſſe 1</rs>., den </hi><date>8/10 <hi rend="pre-print">189</hi></date></seg></p><p><hi rend="pre-print">Wiener Wochenſchrift</hi></p><p><hi rend="pre-print"><hi rend="bold">Herausgeber</hi>:</hi><lb/><hi rend="pre-print">Profeſſor Dr.&#160;<rs ref="#pmb12790" type="person"
+                        >I.&#160;Singer</rs>, <rs ref="#pmb10815" type="person">Hermann Bahr</rs>,
+                        Dr.&#160;<rs ref="#pmb11867" type="person">Heinrich Kanner</rs>.</hi></p><p><hi rend="pre-print">Telephon Nr.&#160;6415.</hi></p><salute rend="center">Lieber Arthur!</salute></opener><p>Ich habe <rs ref="#pmb10992" type="person">Brandes</rs> ſofort ausführlich
+               geſchrieben. Ich kann ihm belegen, daß ich den <rs type="work" ref="#pmb32063"
+                  subtype="implied">Artikel</rs> von einer ihm u. mir bekannten, ſehr angeſehenen
+                  <rs ref="#pmb168" type="place">Berlin</rs>er <rs type="person" ref="#pmb2361"
+                  subtype="implied">Dame</rs> erhielt, als aus einem <rs type="work" ref="#pmb32065"
+                  subtype="implied">Buche</rs> ſta<c rendition="#gemination-m"/>end, das den
+               nächſten Winter erst deutſch erſcheinen ſoll, von ihm autoriſiert, ja mit der
+               Ermächtigung, <pb facs="MS-B-00005-B-000-00065"/>für ein beſonderes Honorar das
+               Fragment als Originalartikel zu bringen. Ich bin alſo unſchuldig.</p><p>Dir danke ich jedenfalls ſehr, daß Du ſo lieb geweſen biſt, mich gleich zu
+               verſtändigen. Intereſſiert Dich die Sache, ſo kannſt Du die ganze Correspondenz mit
+               der <rs type="person" ref="#pmb2361" subtype="implied">Berlinerin</rs> in unſerem
+               Copierbuche ſehen.</p><p>Was macht Deine <anchor type="commentary" xml:id="KL188-1"/><rs type="work" ref="#pmb30075" subtype="implied">Novelle</rs><note type="commentary" xml:id="KL188-1h">Daraus wird: <bibl><rs ref="#pmb2121" type="person">Arthur Schnitzler</rs>: <rs ref="#pmb30075"
+                        type="work">Die Frau des Weisen</rs>. In: <rs ref="#pmb36340" type="work"
+                        >Die Zeit</rs>, Bd.&#160;10, H.&#160;118, <date>2.&#160;1.&#160;1897</date>,
+                     S.&#160;15–16; H.&#160;119, <date>9.&#160;1.&#160;1897</date>, S.&#160;31–32;
+                     H. 129, <date>16.&#160;1.&#160;1897</date>, S.&#160;47–48</bibl>.</note>? Ich
+               rechne beſtimmt auf ſie! Auch bin ich ſehr <pb facs="MS-B-00005-B-000-00066"
+               />neugierig, was aus dem »<rs ref="#pmb29899" type="work">Freiwild</rs>« wird.</p><closer>Nochmals dankt herzlich<lb/>mit beſten Grüßen<lb/>Dein<lb/><signed>Hermann</signed></closer><postscript><p>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi><lb/><hi rend="latintype"><rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><rs ref="#pmb397" type="place">IX Frankgasse 1</rs>.</hi></p></postscript><p><hi rend="pre-print"><anchor type="textConst" xml:id="TG51"/>Alle für »<rs ref="#pmb29209"
+                     type="organisation">Die Zeit</rs>« beſtimmten Zuſchriften und Sendungen ſind an
+                  die Redaction der »<rs ref="#pmb29209" type="organisation">Zeit</rs>« und <hi
+                     rend="bold">nicht</hi> an die Perſon eines der Herausgeber zu richten.<note
+                     type="textConst" xml:id="TG51h">am unteren Rand der ersten Seite</note></hi></p></div>
+      </body>
+   </text>
 </TEI>

@@ -56,20 +56,8 @@
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Kartenbrief, Bleistift.</p>
-                        <stamp n="1">
-                           <rs ref="#pmb51" type="place">Wien 1/<supplied>1</supplied>
-                           </rs>
-                           <date>8.&#160;9.&#160;<supplied>96</supplied>
-                           </date>
-                           <time>8–9&#160;<supplied>V</supplied>
-                           </time>
-                        </stamp>
-                        <stamp n="2">
-                           <rs ref="#pmb662" type="place">Baden 1</rs>
-                           <date>8.&#160;9.&#160;96</date>
-                           <time>11-2N</time>
-                           <action>Bestellt</action>
-                        </stamp>
+                        <stamp n="1"><placeName ref="#pmb51">Wien 1/<supplied>1</supplied></placeName><date>8.&#160;9.&#160;<supplied>96</supplied></date><time>8–9&#160;<supplied>V</supplied></time></stamp>
+                        <stamp n="2"><placeName ref="#pmb662">Baden 1</placeName><date>8.&#160;9.&#160;96</date><time>11-2N</time><action>Bestellt</action></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -123,10 +111,12 @@
       <graphic url="1896_AS_RBH_2_00029.jpg"/>
       <graphic url="1896_AS_RBH_2_00030.jpg"/>
    </facsimile>
-   <text type="letter">
-      <body><div type="address"><address><addrLine><pb facs="1896_AS_RBH_2_00029.jpeg"/>Herrn <hi rend="latintype">Dr. Rich.
+   <text type="letter-card">
+      <body>
+         <div type="address"><address><addrLine><pb facs="1896_AS_RBH_2_00029.jpeg"/>Herrn <hi rend="latintype">Dr. Rich.
                      Beer-Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb662" type="place">Baden bei Wien</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb680" type="place">Franzensgassse 54</rs></hi>,
-                  Thür 8</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1896_AS_RBH_2_00030.jpeg"/><date>Montag</date></dateline></opener><p><salute>Lieber Richard, </salute>Ihre Karte hab ich bekommen. Morgen wollte ich zu
+                  Thür 8</addrLine></address></div>
+         <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1896_AS_RBH_2_00030.jpeg"/><date>Montag</date></dateline></opener><p><salute>Lieber Richard, </salute>Ihre Karte hab ich bekommen. Morgen wollte ich zu
                Ihnen; aber plötzlich iſt <rs ref="#pmb2299" type="person"><hi rend="latintype">Sorma</hi></rs> u <rs type="person" ref="#pmb21496" subtype="implied">Gemahl</rs> in
                   <rs ref="#pmb50" type="place">Wien</rs> und ich ſpeiſe morgen mit ihnen. Ich kann
                Ihnen alſo noch nicht genau ſagen, wann ich nach <rs ref="#pmb662" type="place">Baden</rs> fahre.</p><p>Wie lang bleiben Sie noch draußen? Arbeiten Sie? Haben Sie mit <rs ref="#pmb11324" type="person">Fiſcher</rs>, mit <rs ref="#pmb10986" type="person">Brahm</rs>
@@ -134,6 +124,7 @@
                8 Tagen hab ich ihm nach <rs ref="#pmb34401" type="place">Alt-Auſſee</rs>
                geſchrieben.&#160;– <rs ref="#pmb11036" type="person">Burckhard</rs> hat <rs ref="#pmb29899" type="work">Freiwild</rs> geleſen u gratulirt <rs ref="#pmb10986" type="person">Brahm</rs>, ders aufführen darf, hälts für den »pupillarſichern
                Senſationserfolg<supplied>«</supplied>, fährt nach <rs ref="#pmb168" type="place">Berlin</rs> zur
-               <hi rend="latintype">Premiére</hi>.&#160;– Herzlich Ihr</p><closer><signed>Arthur</signed></closer></div></body>
+               <hi rend="latintype">Premiére</hi>.&#160;– Herzlich Ihr</p><closer><signed>Arthur</signed></closer></div>
+      </body>
    </text>
 </TEI>

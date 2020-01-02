@@ -55,20 +55,9 @@
                                 <idno>Schnitzler, B&#160;43</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Postkarte (Rohrpost), blaue Tinte. Von Schnitzler mit Bleistift datiert: »<quote>
-                                        <date when="1895-06-05">5/6 95</date>
-                                    </quote>« und nummeriert: »<quote>71</quote>«.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb53" type="place">Wien 3/1</rs>
-                                    <date when="1895-06-05">5&#160;VI&#160;95</date>
-                                    <time>1120V</time>
-                                </stamp>
-                                <stamp n="2">
-                                    <rs ref="#pmb59" type="place">Wien 9/<unclear>3</unclear>
-                                    </rs>
-                                    <date when="1895-06-05">5&#160;VI&#160;95</date>
-                                    <time>1150V</time>
-                                </stamp>
+                                <p>eh. Postkarte (Rohrpost), blaue Tinte. Von Schnitzler mit Bleistift datiert: »<quote><date when="1895-06-05">5/6 95</date></quote>« und nummeriert: »<quote>71</quote>«.</p>
+                                <stamp n="1"><placeName ref="#pmb53">Wien 3/1</placeName><date when="1895-06-05">5&#160;VI&#160;95</date><time>1120V</time></stamp>
+                                <stamp n="2"><placeName ref="#pmb59">Wien 9/<unclear>3</unclear></placeName><date when="1895-06-05">5&#160;VI&#160;95</date><time>1150V</time></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -124,9 +113,12 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00146"/>
     </facsimile>
     <text type="card">
-        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00146"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
-                            Schnitzler</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb397" type="place">Franckgasse 1</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb59" type="place">IX Wien</rs></hi></addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00145"/>lieber,</salute></opener><p>ich fahre morgen für den ganzen Tag in die <rs ref="#pmb34045" type="place">Brühl</rs>. Ko<c rendition="#gemination-m"/>en Sie nach? Jedenfalls
+        <body>
+            <div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00146"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur
+                            Schnitzler</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb397" type="place">Franckgasse 1</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb59" type="place">IX Wien</rs></hi></addrLine></address></div>
+            <div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00145"/>lieber,</salute></opener><p>ich fahre morgen für den ganzen Tag in die <rs ref="#pmb34045" type="place">Brühl</rs>. Ko<c rendition="#gemination-m"/>en Sie nach? Jedenfalls
                     zwiſchen <time>4</time> und <time>6</time> werd ich Sie bei der <rs ref="#pmb24686" type="person">Tini</rs> erwarten oder genaue Poſt hinterlaſſen,
-                        ja?<space unit="chars" quantity="7"/>Adieu.</p><closer><signed>Hugo.</signed></closer></div></body>
+                        ja?<space unit="chars" quantity="7"/>Adieu.</p><closer><signed>Hugo.</signed></closer></div>
+        </body>
     </text>
 </TEI>

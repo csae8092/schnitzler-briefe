@@ -56,15 +56,9 @@
                             <physDesc>
                                 <p>eh. Postkarte, schwarze Tinte; Lateinschrift. Von Schnitzler mit
                                     Bleistift jeweils auf der Text- und auf der Anschriftenseite
-                                    datiert: »<quote>
-                                        <date>
-                                            <del rend="strikethrough">2</del>4 12 91</date>.</quote>« Von fremder Hand mit Bleistift
+                                    datiert: »<quote><date><del rend="strikethrough">2</del>4 12 91</date>.</quote>« Von fremder Hand mit Bleistift
                                     nummeriert: »<quote>2</quote>«.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb50" type="place">Wien</rs>
-                                    <date>4/12 91</date>
-                                    <time>10 A</time>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb50">Wien</placeName><date>4/12 91</date><time>10 A</time></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -137,9 +131,12 @@
         <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00018"/>
     </facsimile>
     <text type="card">
-        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00017"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb501" type="place">I Kärnthnerring 12</rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00018"/><rs ref="#pmb10815" type="person">Bahr</rs> wohnt <rs ref="#pmb500" type="place">Heumarkt 9, 3 Stiege, 3.&#160;Stock Thür 37</rs>. Kommt aber, wenn sie
+        <body>
+            <div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00017"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb501" type="place">I Kärnthnerring 12</rs></addrLine></address></div>
+            <div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00018"/><rs ref="#pmb10815" type="person">Bahr</rs> wohnt <rs ref="#pmb500" type="place">Heumarkt 9, 3 Stiege, 3.&#160;Stock Thür 37</rs>. Kommt aber, wenn sie
                     ihm nichts anderes schreiben, ebenso wie ich <anchor type="commentary" xml:id="KL406-1"/>Sonntag<note type="commentary" xml:id="KL406-1h">Am
                         Sonntag, den <date>6.&#160;12.&#160;1891</date>, besuchten Schnitzler und <rs ref="#pmb11740" type="person">Hofmannsthal</rs> am Nachmittag den erkrankten
-                            <rs ref="#pmb10815" type="person">Bahr</rs> im <rs ref="#pmb500" type="place">Heumarkt</rs>.</note> um <time>5</time> zu ihnen.</p><closer><signed>Loris.</signed></closer></div></body>
+                            <rs ref="#pmb10815" type="person">Bahr</rs> im <rs ref="#pmb500" type="place">Heumarkt</rs>.</note> um <time>5</time> zu ihnen.</p><closer><signed>Loris.</signed></closer></div>
+        </body>
     </text>
 </TEI>

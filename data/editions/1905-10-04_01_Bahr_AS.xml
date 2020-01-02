@@ -57,17 +57,8 @@
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Kartenbrief</p>
-                        <stamp n="1">
-                           <rs ref="#pmb63" type="place">Wien 13/5</rs>
-                           <date when="1905-10-04">4<supplied>.</supplied> X.&#160;05</date>
-                           <time>3</time>
-                        </stamp>
-                        <stamp n="2">
-                           <action>Bestellt</action>
-                           <rs ref="#pmb68" type="place">Wien 18/1</rs>
-                           <date when="1905-10-04">4.&#160;X.&#160;05</date>
-                           <time>7</time>
-                        </stamp>
+                        <stamp n="1"><placeName ref="#pmb63">Wien 13/5</placeName><date when="1905-10-04">4<supplied>.</supplied> X.&#160;05</date><time>3</time></stamp>
+                        <stamp n="2"><action>Bestellt</action><placeName ref="#pmb68">Wien 18/1</placeName><date when="1905-10-04">4.&#160;X.&#160;05</date><time>7</time></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -120,9 +111,12 @@
       <graphic url="MS-B-00005-B-000-00236"/>
       <graphic url="MS-B-00005-B-000-00237"/>
    </facsimile>
-   <text type="card">
-      <body><div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00236"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb68" type="place">Wien XVIII</rs></addrLine><addrLine><rs ref="#pmb133" type="place">Spöttlgasse 7</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><date>4.&#160;10.&#160;05</date></dateline><salute rend="center">Lieber Arthur!</salute></opener><p>Diese Woche gehts nun leider gar nicht. Nach Deiner <anchor type="commentary" xml:id="KL296-1"/><rs type="work" ref="#pmb29903" subtype="implied">Première</rs><note type="commentary" xml:id="KL296-1h">Von <rs ref="#pmb29903" type="work">Zwischenspiel</rs>, am
+   <text type="letter-card">
+      <body> 
+         <div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00236"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb68" type="place">Wien XVIII</rs></addrLine><addrLine><rs ref="#pmb133" type="place">Spöttlgasse 7</rs></addrLine></address></div> 
+         <div type="writingSession" n="1"><opener><dateline rend="right"><date>4.&#160;10.&#160;05</date></dateline><salute rend="center">Lieber Arthur!</salute></opener><p>Diese Woche gehts nun leider gar nicht. Nach Deiner <anchor type="commentary" xml:id="KL296-1"/><rs type="work" ref="#pmb29903" subtype="implied">Première</rs><note type="commentary" xml:id="KL296-1h">Von <rs ref="#pmb29903" type="work">Zwischenspiel</rs>, am
                 <date>12.&#160;10.</date></note> mußt Du so 
-          lieb sein, mir einen Vormittag zu bestimmen.</p><p>Anbei mein <rs type="work" ref="#pmb30001" subtype="implied">Einakter</rs>.</p><closer>Mit den herzlichsten Grüßen an Deine <rs type="person" ref="#pmb2173" subtype="implied">Frau</rs><lb/>eiligst<lb/><signed>H.</signed></closer></div></body>
+          lieb sein, mir einen Vormittag zu bestimmen.</p><p>Anbei mein <rs type="work" ref="#pmb30001" subtype="implied">Einakter</rs>.</p><closer>Mit den herzlichsten Grüßen an Deine <rs type="person" ref="#pmb2173" subtype="implied">Frau</rs><lb/>eiligst<lb/><signed>H.</signed></closer></div>
+      </body>
   </text>
 </TEI>

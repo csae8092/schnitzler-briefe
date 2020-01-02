@@ -57,17 +57,8 @@
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Postkarte, Bleistift</p>
-                        <stamp n="1">
-                           <rs ref="#pmb850" type="place">Venezia Ferrovia</rs>
-                           <date when="1906-07-04">
-                              <supplied>4.&#160;7.</supplied> 06</date>
-                           <time>2S</time>
-                        </stamp>
-                        <stamp n="2">
-                           <action>Bestellt</action>
-                           <rs ref="#pmb68" type="place">Wien 18/1</rs>
-                           <date when="1906-07-06">6.&#160;VII.&#160;06</date>
-                        </stamp>
+                        <stamp n="1"><placeName ref="#pmb850">Venezia Ferrovia</placeName><date when="1906-07-04"><supplied>4.&#160;7.</supplied> 06</date><time>2S</time></stamp>
+                        <stamp n="2"><action>Bestellt</action><placeName ref="#pmb68">Wien 18/1</placeName><date when="1906-07-06">6.&#160;VII.&#160;06</date></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -123,11 +114,14 @@
       
    </facsimile>
    <text type="card">
-      <body><div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00244"/>D<hi rend="superscript">r</hi> Artur Schnitzler</addrLine><addrLine><rs ref="#pmb68" type="place">XVIII Spöttelgasse 7</rs></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb462" type="place">Venezia</rs><space unit="chars" quantity="1"/><date>4.&#160;7.&#160;06</date><lb/><rs ref="#pmb305" type="place">Casa <rs type="person" ref="#pmb2975" subtype="implied">Petrarca</rs></rs></dateline></opener><p>Dank schön, <salute>lieber Artur. </salute>Dein Brief hat mir eine große Freude gemacht, und Lust,
+      <body> 
+         <div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00244"/>D<hi rend="superscript">r</hi> Artur Schnitzler</addrLine><addrLine><rs ref="#pmb68" type="place">XVIII Spöttelgasse 7</rs></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine></address></div> 
+         <div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb462" type="place">Venezia</rs><space unit="chars" quantity="1"/><date>4.&#160;7.&#160;06</date><lb/><rs ref="#pmb305" type="place">Casa <rs type="person" ref="#pmb2975" subtype="implied">Petrarca</rs></rs></dateline></opener><p>Dank schön, <salute>lieber Artur. </salute>Dein Brief hat mir eine große Freude gemacht, und Lust,
          solchen zweiten und dritten <rs type="work" ref="#pmb29913" subtype="implied">Akt</rs> wirklich zu schreiben. Neugierig, was <rs ref="#pmb10986" type="person">Brahm</rs> sagen
          wird. – Hier herrlichst, obwol mir die Sonne die Beine so verbrannt hat, daß sie
          zwei Tage in Bleiwasser gelegt werden mußten. – Grüß Frau <rs ref="#pmb2173" type="person">Olga</rs> herzlichst und 
          laßt es Euch gut gehen und schreib Deine
-         Adresse</p><closer>Deinem alten<lb/><signed>Hermann<space unit="chars" quantity="1"/><rs type="work" ref="#pmb29913" subtype="implied">Faun</rs></signed></closer></div></body>
+         Adresse</p><closer>Deinem alten<lb/><signed>Hermann<space unit="chars" quantity="1"/><rs type="work" ref="#pmb29913" subtype="implied">Faun</rs></signed></closer></div>
+      </body>
   </text>
 </TEI>

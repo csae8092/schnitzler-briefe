@@ -58,23 +58,9 @@
                         <p>eh. Brief mit Umschlag, 1&#160;Bl., 2&#160;S., Bleistift.<lb/>Nachgesandt nach
                               <rs ref="#pmb50" type="place">Wien</rs>, <rs ref="#pmb338" type="place">I
                               Wollzeile 15</rs>.</p>
-                        <stamp n="1">
-                           <rs ref="#pmb59" type="place">Wien 9/3</rs>
-                           <date>21. 9. 96</date>
-                           <time>3-4N</time>
-                        </stamp>
-                        <stamp n="2">
-                           <rs ref="#pmb662" type="place">Baden</rs>
-                           <date>22. 9. 96</date>
-                           <time>7-10V</time>
-                           <action>Bestellt</action>
-                        </stamp>
-                        <stamp n="3">
-                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
-                           <date>22. 9. 96</date>
-                           <time>3-4½N</time>
-                           <action>Bestellt</action>
-                        </stamp>
+                        <stamp n="1"><placeName ref="#pmb59">Wien 9/3</placeName><date>21. 9. 96</date><time>3-4N</time></stamp>
+                        <stamp n="2"><placeName ref="#pmb662">Baden</placeName><date>22. 9. 96</date><time>7-10V</time><action>Bestellt</action></stamp>
+                        <stamp n="3"><placeName ref="#pmb51">Wien 1/1</placeName><date>22. 9. 96</date><time>3-4½N</time><action>Bestellt</action></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -136,8 +122,10 @@
       <graphic url="DSC_0506"/>
    </facsimile>
    <text type="letter">
-      <body><div type="address"><address><addrLine><pb facs="1896_AS_RBH_2_00013.jpeg"/>Herrn Doctor <hi rend="latintype">Rich.
-                     Beer-Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb662" type="place">Baden bei Wien</rs>.</hi></addrLine><addrLine><rs ref="#pmb680" type="place">Franzensgaſſe 54</rs>, Th. 8.</addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1896_AS_RBH_2_00015.jpeg"/><salute>Lieber Richard, </salute>gerade wie ich die Sitze nehmen wollte, treff ich
+      <body>
+         <div type="address"><address><addrLine><pb facs="1896_AS_RBH_2_00013.jpeg"/>Herrn Doctor <hi rend="latintype">Rich.
+                     Beer-Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb662" type="place">Baden bei Wien</rs>.</hi></addrLine><addrLine><rs ref="#pmb680" type="place">Franzensgaſſe 54</rs>, Th. 8.</addrLine></address></div>
+         <div type="writingSession" n="1"><p><pb facs="1896_AS_RBH_2_00015.jpeg"/><salute>Lieber Richard, </salute>gerade wie ich die Sitze nehmen wollte, treff ich
                   <rs ref="#pmb2425" type="person">Dörmann</rs> der eben einen Brief erhalten (ich las
                den Brief) daſs <rs ref="#pmb42009" type="work">Sein Sohn</rs> auf <anchor type="commentary" xml:id="KLMAM20191011-6"/>unbesti<c rendition="#gemination-m"/>te Zeit<note type="commentary" xml:id="KLMAM20191011-6h"><rs ref="#pmb42015" type="person">Hugo Ranzenberg</rs> starb am <date>21.&#160;9.&#160;1896</date>, die
                   Uraufführung fand dann am <date>16.&#160;10.&#160;1896</date> statt.</note>
@@ -150,6 +138,7 @@
                und <pb facs="1896_AS_RBH_2_00016.jpeg"/>der <rs type="work" ref="#pmb29899" subtype="implied">Moritzki</rs> wäre vom Direktor <rs type="work" ref="#pmb29899" subtype="implied">Schneider</rs> ins
                Haus der alten Geigerin geſandt.&#160;–</p><p><rs ref="#pmb30417" type="work">Die Athenerin</rs> hat großen Erfolg gehabt, und
                   <rs ref="#pmb2150" type="person"><hi rend="latintype">Bauer</hi></rs> war bei der Premiére aufgeregter als der
-                  <rs type="person" ref="#pmb2157" subtype="implied">Autor</rs> (wie er <add place="above">(<rs ref="#pmb2150" type="person">B.</rs>)</add> ſelbſt im Parquet erzählte).&#160;–</p><closer>Herzlich Ihr<lb/><signed>Arthur</signed></closer></div></body>
+                  <rs type="person" ref="#pmb2157" subtype="implied">Autor</rs> (wie er <add place="above">(<rs ref="#pmb2150" type="person">B.</rs>)</add> ſelbſt im Parquet erzählte).&#160;–</p><closer>Herzlich Ihr<lb/><signed>Arthur</signed></closer></div>
+      </body>
    </text>
 </TEI>

@@ -55,17 +55,9 @@
                                 <idno>Hs-30885,2</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Bildpostkarte, Bleistift. Motiv: »<pb facs="Hs-30885,2_002.TIF "/>
-                                    <rs ref="#pmb1278" type="place">Messina<space unit="chars" quantity="3"/>Chiesa S. Gregorio</rs>«.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb1277" type="place">Messi<supplied>na</supplied>
-                           </rs>
-                                    <date when="1905-03-11">11 3-05</date>
-                                </stamp>
-                                <stamp n="2">
-                                    <rs ref="#pmb1006" type="place">Rodaun</rs>
-                                    <date when="1905-03-14">14.&#160;3.&#160;05</date>
-                                </stamp>
+                                <p>eh. Bildpostkarte, Bleistift. Motiv: »<pb facs="Hs-30885,2_002.TIF "/><rs ref="#pmb1278" type="place">Messina<space unit="chars" quantity="3"/>Chiesa S. Gregorio</rs>«.</p>
+                                <stamp n="1"><placeName ref="#pmb1277">Messi<supplied>na</supplied></placeName><date when="1905-03-11">11 3-05</date></stamp>
+                                <stamp n="2"><placeName ref="#pmb1006">Rodaun</placeName><date when="1905-03-14">14.&#160;3.&#160;05</date></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -115,6 +107,10 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body><div type="address"><address><addrLine><rs ref="#pmb41240" type="place"><country>Austria</country></rs></addrLine><addrLine><hi rend="latintype">Hugo v Hofmannsthal</hi></addrLine><addrLine><rs ref="#pmb1006" type="place">Rodaun</rs><space unit="chars" quantity="1"/><add place="margin"><hi rend="latintype">bei <rs ref="#pmb50" type="place">Wien</rs></hi></add></addrLine><addrLine><rs ref="#pmb1006" type="place"><hi rend="latintype">Badgasse</hi></rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="Hs-30885,2_002.TIF "/>Herzliche Grüße!</p><closer><signed>A.</signed></closer><postscript><dateline><date>11.&#160;3.&#160;905</date></dateline></postscript></div></body>
+        <body>
+            <div type="address"><address><addrLine><rs ref="#pmb41240" type="place">Austria
+</rs></addrLine><addrLine><hi rend="latintype">Hugo v Hofmannsthal</hi></addrLine><addrLine><rs ref="#pmb1006" type="place">Rodaun</rs><space unit="chars" quantity="1"/><add place="margin"><hi rend="latintype">bei <rs ref="#pmb50" type="place">Wien</rs></hi></add></addrLine><addrLine><rs ref="#pmb1006" type="place"><hi rend="latintype">Badgasse</hi></rs></addrLine></address></div>
+            <div type="writingSession" n="1"><p><pb facs="Hs-30885,2_002.TIF "/>Herzliche Grüße!</p><closer><signed>A.</signed></closer><postscript><dateline><date>11.&#160;3.&#160;905</date></dateline></postscript></div>
+        </body>
     </text>
 </TEI>

@@ -56,14 +56,8 @@
                         <idno>Schnitzler, B&#160;5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Bildpostkarte, Motiv: »<quote>
-                              <rs ref="#pmb459" type="place">Platz’scher Garten</rs> / Bes. Fr. <rs ref="#pmb28317" type="person">Kneuer</rs> / Gruss aus <rs ref="#pmb852" type="place">Würzburg</rs>
-                           </quote>«, Bleistift.</p>
-                        <stamp n="1">
-                           <rs ref="#pmb852" type="place">Wuerzburg</rs>
-                           <date when="1905-08-03">3 Aug 05</date>
-                           <time>8 Nm.</time>
-                        </stamp>
+                        <p>eh. Bildpostkarte, Motiv: »<quote><rs ref="#pmb459" type="place">Platz’scher Garten</rs> / Bes. Fr. <rs ref="#pmb28317" type="person">Kneuer</rs> / Gruss aus <rs ref="#pmb852" type="place">Würzburg</rs></quote>«, Bleistift.</p>
+                        <stamp n="1"><placeName ref="#pmb852">Wuerzburg</placeName><date when="1905-08-03">3 Aug 05</date><time>8 Nm.</time></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -117,7 +111,10 @@
       <graphic url="MS-B-00005-B-000-00229"/>
    </facsimile>
    <text type="card">
-      <body><div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00228"/>Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb68" type="place">Wien XVIII</rs></addrLine><addrLine><rs ref="#pmb133" type="place">Spöttlgasse 7</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><date>3.&#160;<anchor type="textConst" xml:id="TL291-1"/>7.<note type="textConst" xml:id="TL291-1h">Schreibirrtum.</note>&#160;05</date></dateline></opener><p>Dich u Deine liebe <rs type="person" ref="#pmb2173" subtype="implied">Frau</rs> grüßt
-        herzlichst </p><closer><signed>HermannB.</signed></closer></div></body>
+      <body> 
+         <div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00228"/>Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb68" type="place">Wien XVIII</rs></addrLine><addrLine><rs ref="#pmb133" type="place">Spöttlgasse 7</rs></addrLine></address></div> 
+         <div type="writingSession" n="1"><opener><dateline rend="right"><date>3.&#160;<anchor type="textConst" xml:id="TL291-1"/>7.<note type="textConst" xml:id="TL291-1h">Schreibirrtum.</note>&#160;05</date></dateline></opener><p>Dich u Deine liebe <rs type="person" ref="#pmb2173" subtype="implied">Frau</rs> grüßt
+        herzlichst </p><closer><signed>HermannB.</signed></closer></div>
+      </body>
   </text>
 </TEI>

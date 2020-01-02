@@ -57,17 +57,9 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Kartenbrief, Bleistift, 2&#160;Verf., Salten schreibt in Lateinschrift.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb1200" type="place">
-                                        <supplied>Pört</supplied>schach am See</rs>
-                                    <date>27&#160;8&#160;93</date>
-                                </stamp>
-                                <stamp n="2">
-                                    <rs ref="#pmb33978" type="place">Znaim
-                                        Znoj<unclear>m</unclear>o</rs>
-                                    <date>28&#160;8&#160;93</date>
-                                    <time>1<unclear>2</unclear>–4&#160;N</time>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb1200"><supplied>Pört</supplied>schach am See</placeName><date>27&#160;8&#160;93</date></stamp>
+                                <stamp n="2"><placeName ref="#pmb33978">Znaim
+                                        Znoj<unclear>m</unclear>o</placeName><date>28&#160;8&#160;93</date><time>1<unclear>2</unclear>–4&#160;N</time></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -122,16 +114,20 @@
         <graphic url="1893_AS_RBH_2_00008.jpeg"/>
         <graphic url="1893_AS_RBH_2_00009.jpeg"/>
     </facsimile>
-    <text type="letter">
-        <body><div type="address"><address><addrLine><pb facs="1893_AS_RBH_2_00008.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
+    <text type="letter-card">
+        <body>
+            <div type="address"><address><addrLine><pb facs="1893_AS_RBH_2_00008.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
                             Beer-Hofmann</hi></addrLine><addrLine>k.&#160;k. Lieutenant im Infanterie-Regimente Nr.&#160;99</addrLine><addrLine><hi rend="latintype"><rs ref="#pmb33978" type="place">Znaim</rs></hi></addrLine><addrLine><hi rend="underline" n="1"><rs ref="#pmb40823" type="place">Mähren</rs>
-                            (?)</hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1893_AS_RBH_2_00009.jpeg"/><salute>Lieber Richard, </salute>aus <rs ref="#pmb34112" type="place"><hi rend="latintype">Pieve di Cadore</hi></rs> ſchrieben wir dem <rs type="person" ref="#pmb11740" subtype="implied">Verfaſſer</rs>
+                            (?)</hi></addrLine></address></div>
+            <div type="writingSession" n="1"><p><pb facs="1893_AS_RBH_2_00009.jpeg"/><salute>Lieber Richard, </salute>aus <rs ref="#pmb34112" type="place"><hi rend="latintype">Pieve di Cadore</hi></rs> ſchrieben wir dem <rs type="person" ref="#pmb11740" subtype="implied">Verfaſſer</rs>
                     von <rs ref="#pmb31639" type="work">Tizians Tod</rs>;&#160;– aus <rs
                         ref="#pmb1200" type="place"><hi rend="latintype">Pörtschach</hi></rs> dem Verfaſſer des <rs ref="#pmb30437" type="work">Kindes</rs> – denn
                     ebenſowahr es iſt dß <rs ref="#pmb26079" type="person"><hi rend="latintype">Tizian</hi></rs> in <rs ref="#pmb34112" type="place"><hi rend="latintype">Pieve di Cadore</hi></rs> geboren word<unclear>en</unclear>, ebenſo wahr iſt es, dß hier ſchon manches Kind
                     geboren ward.</p><p>–&#160;Wir haben eine ſchöne Tour gemacht; näheres mündlich. Ihnen gehts hoffentlich
-                    gut, und wir grüßen Sie herzlich!</p><closer><signed>Arthur</signed></closer></div><div type="writingSession" n="2"><p><handShift scribe="pmb2167"/>Ich habe Sie hier ohne Backenbart gesehen, sorgen
+                    gut, und wir grüßen Sie herzlich!</p><closer><signed>Arthur</signed></closer></div>
+            <div type="writingSession" n="2"><p><handShift scribe="#pmb2167"/>Ich habe Sie hier ohne Backenbart gesehen, sorgen
                     dafür, dass er rasch wieder wächst. Frl. <rs ref="#pmb34878" type="person">Anna
-                        Hiller</rs>, die mir das Bild zeigte grüßt Sie. Ich auch</p><closer>Ihr<lb/><signed>Salten</signed></closer></div></body>
+                        Hiller</rs>, die mir das Bild zeigte grüßt Sie. Ich auch</p><closer>Ihr<lb/><signed>Salten</signed></closer></div>
+        </body>
     </text>
 </TEI>

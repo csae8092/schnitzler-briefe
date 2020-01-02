@@ -55,13 +55,9 @@
                                 <idno>96.34.2/3</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Bildpostkarte, Motiv: »<quote>
-                              <pb facs=""/>
-                              <rs ref="#pmb521" type="place">Badgastein</rs> (1046&#160;m)</quote>«, Lateinschrift, Bleistift.</p>
+                                <p>eh. Bildpostkarte, Motiv: »<quote><pb facs=""/><rs ref="#pmb521" type="place">Badgastein</rs> (1046&#160;m)</quote>«, Lateinschrift, Bleistift.</p>
                                
-                                <stamp n="1">
-                                    <rs ref="#pmb521" type="place">Badgastein</rs>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb521">Badgastein</placeName></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -94,6 +90,9 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body><div type="address"><address><addrLine><pb facs=""/>Hrn Dr. Rob. Adam Pollak</addrLine><addrLine>Richter</addrLine><addrLine><rs ref="#pmb62" type="place">Wien XII</rs>.</addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hptstr 52</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><rs ref="#pmb521" type="place">Badgastein</rs><space unit="chars" quantity="1"/><date>15.&#160;6.&#160;17</date></dateline></opener><p>Herzliche Grüße und auf baldiges Wiederſehen. Gratuliere zur <rs type="organisation" ref="#pmb29605" subtype="implied">Joſefſtadt</rs>!</p><closer>Ihr<lb/><signed>Arthur Schnitzler</signed></closer></div></body>
+        <body>
+            <div type="address"><address><addrLine><pb facs=""/>Hrn Dr. Rob. Adam Pollak</addrLine><addrLine>Richter</addrLine><addrLine><rs ref="#pmb62" type="place">Wien XII</rs>.</addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hptstr 52</rs></addrLine></address></div>
+            <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><rs ref="#pmb521" type="place">Badgastein</rs><space unit="chars" quantity="1"/><date>15.&#160;6.&#160;17</date></dateline></opener><p>Herzliche Grüße und auf baldiges Wiederſehen. Gratuliere zur <rs type="organisation" ref="#pmb29605" subtype="implied">Joſefſtadt</rs>!</p><closer>Ihr<lb/><signed>Arthur Schnitzler</signed></closer></div>
+        </body>
     </text>
 </TEI>

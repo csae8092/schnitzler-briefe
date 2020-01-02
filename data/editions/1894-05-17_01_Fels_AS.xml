@@ -17,8 +17,7 @@
                     <address>
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
-                        <rs type="place">
-                            <country>A</country> Wien </rs>
+                        <placeName><country>A</country> <settlement>Wien</settlement> </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -52,9 +51,7 @@
                             </msIdentifier>
                             <physDesc>
                                 <p>eh. Brief, 1&#160;Bl., 2&#160;S., Lateinschrift. Von Schnitzler mit
-                                    Bleistift datiert »<quote>
-                                        <date>17/5 94</date>
-                                    </quote>« und nummeriert: »<quote>12</quote>«.</p>
+                                    Bleistift datiert »<quote><date>17/5 94</date></quote>« und nummeriert: »<quote>12</quote>«.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -87,7 +84,8 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body><div type="writingSession" n="1"><opener><salute><pb facs=""/>Lieber Dr. Schnitzler!</salute></opener><p>I. Verzeihen Sie mir den unfrankierten Brief; aber we<c rendition="#gemination-n"
+        <body>
+            <div type="writingSession" n="1"><opener><salute><pb facs=""/>Lieber Dr. Schnitzler!</salute></opener><p>I. Verzeihen Sie mir den unfrankierten Brief; aber we<c rendition="#gemination-n"
                     /> ich mich auf den Kopf stelle, ko<c rendition="#gemination-m"/>en keine 3 Kr
                     zum Vorschein. Ich müsste also höchstens Ihr »<rs ref="#pmb29823" type="work"
                         >Mährchen</rs>« zum Antiquar tragen – und da zahlen Sie jedenfalls
@@ -114,6 +112,7 @@
                         gedacht <anchor type="textConst" xml:id="TMAM20191008-3"/>habe<note
                             type="commentary" xml:id="TMAM20191008-3h">er schreibt:
                                 »<quote>haben</quote>«.</note>. Bitte. von dieser Rechtfertigung
-                        Notiz zu nehmen. <signed>F</signed></p></postscript></div></body>
+                        Notiz zu nehmen. <signed>F</signed></p></postscript></div>
+        </body>
     </text>
 </TEI>

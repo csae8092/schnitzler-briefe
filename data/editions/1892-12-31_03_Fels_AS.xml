@@ -20,8 +20,7 @@
                     <address>
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
-                        <rs type="place">
-                            <country>A</country> Wien </rs>
+                        <placeName><country>A</country> <settlement>Wien</settlement> </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -56,9 +55,7 @@
                             <physDesc>
                                 <p>eh. Brief, 1&#160;Bl., 1&#160;S., Lateinschrift, schwarze Tinte. Von
                                     Schnitzler mit Bleistift datiert:
-                                        »<quote>
-                              <date>93</date>
-                           </quote>« und numeriert:
+                                        »<quote><date>93</date></quote>« und numeriert:
                                         »<quote>4</quote>«.</p>
                             </physDesc>
                         </msDesc>
@@ -94,13 +91,15 @@
         </revisionDesc>
     </teiHeader>
     <text type="letter">
-        <body><div type="writingSession" n="1"><p><pb facs=""/><salute>Lieber Dr </salute><space unit="chars" quantity="3"/>Wie man sich bisweilen irren ka<c rendition="#gemination-n"/>: Gestern kam ich gar nicht ins Café, sondern um
+        <body>
+            <div type="writingSession" n="1"><p><pb facs=""/><salute>Lieber Dr </salute><space unit="chars" quantity="3"/>Wie man sich bisweilen irren ka<c rendition="#gemination-n"/>: Gestern kam ich gar nicht ins Café, sondern um
                         <time>5 Uhr</time> lag ich im Bett.&#160;– Warum sah ich sie heute
                     Frühe nicht? Und es wäre grade so dringend gewesen! Ich muſs vielleicht heute
                     noch <anchor type="commentary" xml:id="KLMAM20191008-8"/>ausziehen<note type="commentary" xml:id="KLMAM20191008-8h">Da er am
                             <date>1.&#160;1.&#160;1893</date> sich für eine neue Wohnung
                         entscheidet, dürfte es sich bei dieser um die in der <rs ref="#pmb52" type="place">Leopoldstadt</rs> liegende vorhergehende Adresse handeln.</note>: das hätte mit Ihnen
                     gesprochen.</p><p>– Bitte, <hi rend="underline" n="1">nach 5 Uhr</hi> auf <hi rend="underline" n="1">einen Augenblick ins <rs ref="#pmb262" type="place">Central</rs></hi>, nicht ins groſse Lokal, sondern ins erste der
-                    langen Reihe. Ich bitte Sie so dringend wie herzlich darum.</p><closer><signed>Fels</signed></closer></div></body>
+                    langen Reihe. Ich bitte Sie so dringend wie herzlich darum.</p><closer><signed>Fels</signed></closer></div>
+        </body>
     </text>
 </TEI>

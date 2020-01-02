@@ -57,16 +57,8 @@
                      <physDesc>
                         <p>eh. Postkarte (Rohrpost), Bleistift; Lateinschrift. Von unbekannter Hand
                            mit Bleistift nummeriert: »<quote>106</quote>«.</p>
-                        <stamp n="1">
-                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
-                           <date>27 X 97</date>
-                           <time>4&#160;40&#160;N</time>
-                        </stamp>
-                        <stamp n="2">
-                           <rs ref="#pmb59" type="place">Wien 9/2</rs>
-                           <date>27 X 97</date>
-                           <time>5&#160;10&#160;N</time>
-                        </stamp>
+                        <stamp n="1"><placeName ref="#pmb51">Wien 1/1</placeName><date>27 X 97</date><time>4&#160;40&#160;N</time></stamp>
+                        <stamp n="2"><placeName ref="#pmb59">Wien 9/2</placeName><date>27 X 97</date><time>5&#160;10&#160;N</time></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -121,8 +113,11 @@
       <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00241"/>
    </facsimile>
    <text type="letter">
-      <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00241"/>D<hi rend="superscript">r</hi>
-                  Arthur Schnitzler</addrLine><addrLine>Schriftsteller</addrLine><addrLine><rs ref="#pmb397" type="place">IX Frankgasse 1</rs></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine></address></div><div type="writingSession" n="1"><p><salute><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00241"/>Lieber Arthur! </salute><rs ref="#pmb11740" type="person">Hugo</rs> ist morgen – <date>Donnerstag</date> um
-                  <time>7 Abends</time> bei mir und liest vor.</p><p>Bitte kommen Sie; Antworten Sie jedenfalls pneumatisch. Herzlichst</p><closer>Ihr<lb/><signed>Richard</signed></closer></div></body>
+      <body>
+         <div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00241"/>D<hi rend="superscript">r</hi>
+                  Arthur Schnitzler</addrLine><addrLine>Schriftsteller</addrLine><addrLine><rs ref="#pmb397" type="place">IX Frankgasse 1</rs></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine></address></div>
+         <div type="writingSession" n="1"><p><salute><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00241"/>Lieber Arthur! </salute><rs ref="#pmb11740" type="person">Hugo</rs> ist morgen – <date>Donnerstag</date> um
+                  <time>7 Abends</time> bei mir und liest vor.</p><p>Bitte kommen Sie; Antworten Sie jedenfalls pneumatisch. Herzlichst</p><closer>Ihr<lb/><signed>Richard</signed></closer></div>
+      </body>
    </text>
 </TEI>

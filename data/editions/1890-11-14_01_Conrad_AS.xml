@@ -57,15 +57,8 @@
                             <physDesc>
                                 <p>eh. Postkarte, schwarze Tinte. Von unbekannter Hand mit rotem
                                     Buntstift nummeriert: »<quote>1</quote>«.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb38129" type="place">München I</rs>
-                                    <date when="1890-11-14">14 Nov 90</date>
-                                    <time>4-5 N</time>
-                                </stamp>
-                                <stamp n="2">
-                                    <rs ref="#pmb50" type="place">Wien</rs>
-                                    <date when="1890-11-15">15/11 90</date>
-                                </stamp>
+                                <stamp n="1"><placeName ref="#pmb38129">München I</placeName><date when="1890-11-14">14 Nov 90</date><time>4-5 N</time></stamp>
+                                <stamp n="2"><placeName ref="#pmb50">Wien</placeName><date when="1890-11-15">15/11 90</date></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -104,8 +97,11 @@
         <graphic url="MS-SCHNITZLER-B-00022-000-00004"/>
     </facsimile>
     <text type="card">
-        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00022-000-00003"/>Herrn Dr. Arthur
-                        Schnitzler</addrLine><addrLine>Wien I.</addrLine><addrLine><rs ref="#pmb542" type="place">Giselaſtr. 11</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline><pb facs="MS-SCHNITZLER-B-00022-000-00004"/><rs ref="#pmb38129" type="place">München</rs>,
-                        <date>14.&#160;11.&#160;90</date>.</dateline></opener><p>Das <rs ref="#pmb30151" type="work" subtype="implied">Gedicht</rs> wird in der »<rs ref="#pmb35919" type="work">Geſellſchaft</rs>« abgedruckt. Dank und Gruß!</p><closer><signed>Dr. Conrad.</signed></closer></div></body>
+        <body>
+            <div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00022-000-00003"/>Herrn Dr. Arthur
+                        Schnitzler</addrLine><addrLine>Wien I.</addrLine><addrLine><rs ref="#pmb542" type="place">Giselaſtr. 11</rs></addrLine></address></div>
+            <div type="writingSession" n="1"><opener><dateline><pb facs="MS-SCHNITZLER-B-00022-000-00004"/><rs ref="#pmb38129" type="place">München</rs>,
+                        <date>14.&#160;11.&#160;90</date>.</dateline></opener><p>Das <rs ref="#pmb30151" type="work" subtype="implied">Gedicht</rs> wird in der »<rs ref="#pmb35919" type="work">Geſellſchaft</rs>« abgedruckt. Dank und Gruß!</p><closer><signed>Dr. Conrad.</signed></closer></div>
+        </body>
     </text>
 </TEI>

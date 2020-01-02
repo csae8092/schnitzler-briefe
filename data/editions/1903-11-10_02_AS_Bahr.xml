@@ -57,15 +57,8 @@
                      </msIdentifier>
                      <physDesc>
                         <p>Postkarte, Bleistift</p>
-                        <stamp n="1">
-                           <rs ref="#pmb50" type="place">Wien</rs>
-                           <time>10–11 V</time>
-                        </stamp>
-                        <stamp n="2">
-                           <rs ref="#pmb63" type="place">Wien 13/7</rs>
-                           <date when="1903-11-10">10.&#160;11.&#160;0<supplied>3</supplied>
-                           </date>
-                        </stamp>
+                        <stamp n="1"><placeName ref="#pmb50">Wien</placeName><time>10–11 V</time></stamp>
+                        <stamp n="2"><placeName ref="#pmb63">Wien 13/7</placeName><date when="1903-11-10">10.&#160;11.&#160;0<supplied>3</supplied></date></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -138,9 +131,12 @@
      <graphic url="HS_AM60156Ba_R"/>  
    </facsimile>
   <text type="card">
-      <body><div type="address"><address><addrLine><pb facs="HS_AM60156Ba"/><hi rend="latintype">Herrn Hermann Bahr</hi></addrLine><addrLine><rs ref="#pmb165" type="place">Wien-Ob. St. Veit</rs></addrLine><addrLine><rs ref="#pmb220" type="place">Veitlissengasse 15</rs></addrLine></address></div><div type="writingSession" n="1"><p><salute>lieber Hermann, </salute>du hast dich für den <anchor type="commentary" xml:id="KL052-1"/><rs ref="#pmb29975" type="work"><hi rend="underline" n="1">Goethe
+      <body> 
+         <div type="address"><address><addrLine><pb facs="HS_AM60156Ba"/><hi rend="latintype">Herrn Hermann Bahr</hi></addrLine><addrLine><rs ref="#pmb165" type="place">Wien-Ob. St. Veit</rs></addrLine><addrLine><rs ref="#pmb220" type="place">Veitlissengasse 15</rs></addrLine></address></div> 
+         <div type="writingSession" n="1"><p><salute>lieber Hermann, </salute>du hast dich für den <anchor type="commentary" xml:id="KL052-1"/><rs ref="#pmb29975" type="work"><hi rend="underline" n="1">Goethe
             Zelter</hi> Briefwechsel</rs><note type="commentary" xml:id="KL052-1h">Nicht unter den aus <rs ref="#pmb10815" type="person">Bahr</rs>s Besitz überlieferten Büchern.</note> interessirt. Im <hi rend="latintype">Catalog XXXIV</hi><space unit="chars" quantity="1"/><rs ref="#pmb29255" type="organisation">süddeutsches
           Antiquariat</rs>, <rs ref="#pmb448" type="place"><hi rend="underline" n="1">München</hi> Galleriestrasse 20</rs>, unter Nr 699 ist ein
-               Exemplar, 6 Bände um 40 Mark angekündigt. Herzlichst dein <signed>Arth Sch</signed></p></div></body>
+               Exemplar, 6 Bände um 40 Mark angekündigt. Herzlichst dein <signed>Arth Sch</signed></p></div>
+      </body>
   </text>
 </TEI>

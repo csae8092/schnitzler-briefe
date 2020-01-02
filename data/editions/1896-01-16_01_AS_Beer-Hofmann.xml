@@ -56,16 +56,8 @@
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Postkarte (Rohrpost), Bleistift.</p>
-                        <stamp n="1">
-                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
-                           <date>16 I 96</date>
-                           <time>12&#160;50N</time>
-                        </stamp>
-                        <stamp n="2">
-                           <rs ref="#pmb51" type="place">Wien 1/1</rs>
-                           <date>16 I 96</date>
-                           <time>1–N</time>
-                        </stamp>
+                        <stamp n="1"><placeName ref="#pmb51">Wien 1/1</placeName><date>16 I 96</date><time>12&#160;50N</time></stamp>
+                        <stamp n="2"><placeName ref="#pmb51">Wien 1/1</placeName><date>16 I 96</date><time>1–N</time></stamp>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -104,8 +96,11 @@
       <graphic url="1896_AS_RBH_1_00041.jpeg"/>
    </facsimile>
    <text type="card">
-      <body><div type="address"><address><addrLine><pb facs="1896_AS_RBH_1_00040.jpeg"/><hi rend="latintype">Dr. Richard
-                        Beer-Hofma<c rendition="#gemination-n"/></hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I Wollzeile 15</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1896_AS_RBH_1_00041.jpeg"/><salute>L. R. </salute>Vielleicht ſind Sie heut
-               gegen <time>11</time> oder früher im <hi rend="latintype"><rs ref="#pmb34" type="place">Grsdl</rs></hi>? Herzlich</p><closer>Ihr <signed>Arthur</signed></closer></div></body>
+      <body>
+         <div type="address"><address><addrLine><pb facs="1896_AS_RBH_1_00040.jpeg"/><hi rend="latintype">Dr. Richard
+                        Beer-Hofma<c rendition="#gemination-n"/></hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I Wollzeile 15</rs></hi></addrLine></address></div>
+         <div type="writingSession" n="1"><p><pb facs="1896_AS_RBH_1_00041.jpeg"/><salute>L. R. </salute>Vielleicht ſind Sie heut
+               gegen <time>11</time> oder früher im <hi rend="latintype"><rs ref="#pmb34" type="place">Grsdl</rs></hi>? Herzlich</p><closer>Ihr <signed>Arthur</signed></closer></div>
+      </body>
    </text>
 </TEI>

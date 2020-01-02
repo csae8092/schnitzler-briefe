@@ -56,20 +56,10 @@
                                 <idno>Hs-30885,7</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Bildpostkarte, Bleistift. Motiv: »<quote>
-                              <pb facs="Hs-30885,7_001.TIF"/>
-                              <rs ref="#pmb33988" type="place">Castel Mola</rs>
-                                    dal <rs ref="#pmb33991" type="place">Grand Hôtel S. Domenico, Taormina</rs>
-                           </quote>«.</p>
-                                <stamp n="1">
-                                    <rs ref="#pmb906" type="place">
-                              <supplied>Taormi</supplied>na <unclear>Mes</unclear>sina</rs>
-                                    <date when="1904-05-22">
-                              <supplied>22.&#160;5.</supplied>&#160;04</date>
-                                </stamp>
-                                <stamp n="2">
-                                    <rs ref="#pmb1006" type="place">Rodaun</rs>
-                                </stamp>
+                                <p>eh. Bildpostkarte, Bleistift. Motiv: »<quote><pb facs="Hs-30885,7_001.TIF"/><rs ref="#pmb33988" type="place">Castel Mola</rs>
+                                    dal <rs ref="#pmb33991" type="place">Grand Hôtel S. Domenico, Taormina</rs></quote>«.</p>
+                                <stamp n="1"><placeName ref="#pmb906"><supplied>Taormi</supplied>na <unclear>Mes</unclear>sina</placeName><date when="1904-05-22"><supplied>22.&#160;5.</supplied>&#160;04</date></stamp>
+                                <stamp n="2"><placeName ref="#pmb1006">Rodaun</placeName></stamp>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -120,7 +110,11 @@
         </revisionDesc>
     </teiHeader>
     <text type="card">
-        <body><div type="address"><address><addrLine>Herrn <hi rend="latintype">Dr Hugo von Hofmannsthal</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb173" type="place">Rodaun bei Wien</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb1006" type="place">Badgasse 5</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb41240" type="place"><hi rend="latintype">Austria</hi></rs></hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="Hs-30885,7_001.TIF"/><date>22.&#160;5.&#160;904</date></p><p>Herzliche Grüße, die Sie wohl nach <rs ref="#pmb188" type="place"><country>Holland</country></rs> nachgeſchickt bekommen? Auch
-                        <rs ref="#pmb2292" type="person">Gerty</rs> u Ihrem <rs ref="#pmb11737" type="person">Papa</rs>.&#160;– Ihr <signed>A.</signed></p><closer><handShift scribe="pmb2173"/><signed>Olga</signed></closer></div></body>
+        <body>
+            <div type="address"><address><addrLine>Herrn <hi rend="latintype">Dr Hugo von Hofmannsthal</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb173" type="place">Rodaun bei Wien</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb1006" type="place">Badgasse 5</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb41240" type="place"><hi rend="latintype">Austria</hi></rs></hi></addrLine></address></div>
+            <div type="writingSession" n="1"><p><pb facs="Hs-30885,7_001.TIF"/><date>22.&#160;5.&#160;904</date></p><p>Herzliche Grüße, die Sie wohl nach <rs ref="#pmb188" type="place">Holland
+</rs> nachgeſchickt bekommen? Auch
+                        <rs ref="#pmb2292" type="person">Gerty</rs> u Ihrem <rs ref="#pmb11737" type="person">Papa</rs>.&#160;– Ihr <signed>A.</signed></p><closer><handShift scribe="#pmb2173"/><signed>Olga</signed></closer></div>
+        </body>
     </text>
 </TEI>
