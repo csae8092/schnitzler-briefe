@@ -275,9 +275,7 @@
  
     <!-- Bücher -->
     <xsl:template match="tei:bibl">
-        <xsl:element name="strong">
             <xsl:apply-templates/>
-        </xsl:element>
     </xsl:template>
  
     <!-- Tabellen -->
@@ -614,6 +612,12 @@
     <xsl:template match="tei:p[child::tei:space[@dim] and not(child::*[2]) and empty(text())]">
         <br/>
     </xsl:template>
+    <xsl:template match="tei:p[parent::tei:quote]">
+        <xsl:apply-templates/>
+        <xsl:if test="not(position()=last())">
+            <xsl:text> / </xsl:text>
+        </xsl:if>
+    </xsl:template>
     <xsl:function name="foo:verticalSpace">
         <xsl:param name="anzahl"/>
         <br/>
@@ -718,7 +722,7 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    <xsl:template match="tei:p[ancestor::tei:body and not(ancestor::tei:note) and not(ancestor::tei:footNote) and not(ancestor::tei:caption) and not(parent::tei:bibl)]|tei:dateline|tei:closer">
+    <xsl:template match="tei:p[ancestor::tei:body and not(ancestor::tei:note) and not(ancestor::tei:footNote) and not(ancestor::tei:caption) and not(parent::tei:bibl) and not(parent::tei:quote)]|tei:dateline|tei:closer">
         <xsl:choose>
             <xsl:when test="@rend='right'">
                 <p align="right" class="editionText">
@@ -758,7 +762,7 @@
         </xsl:choose>
     </xsl:template>
     
-    <xsl:template match="tei:p[not(ancestor::tei:body) or ancestor::tei:note or ancestor::tei:footNote or ancestor::tei:caption or parent::tei:bibl]">
+    <xsl:template match="tei:p[not(parent::tei:quote) and (ancestor::tei:note or ancestor::tei:footNote or ancestor::tei:caption or parent::tei:bibl)]">
         <xsl:choose>
             <xsl:when test="@rend='right'">
                 <p align="right">
