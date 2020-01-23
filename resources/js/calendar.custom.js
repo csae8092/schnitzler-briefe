@@ -50,7 +50,47 @@
                     $.each(e.events, function( key, entry ) {
                         ids.push(entry.id)
                     });
-                    window.location = ids.join()
+                    //window.location = ids.join();
+                    if(ids.length > 1){
+                        let html = "<div class='modal' id='dialogForLinks' tabindex='-1' role='dialog' aria-labelledby='modalLabel' aria-hidden='true'>";
+                        html += "<div class='modal-dialog' role='document'>";
+                        html += "<div class='modal-content'>";
+                        html += "<div class='modal-header'>";
+                        html += "<h3 class='modal-title' id='modalLabel'>Links</h3>";
+                        html += "<button type='button' class='close' data-dismiss='modal' aria-label='Close'>";
+                        html += "<span aria-hidden='true'>&times;</span>";
+                        html += "</button></div>";
+                        html += "<div class='modal-body'>";
+                        let promises = [];
+                        for (let i = 0; i < ids.length; i++){
+                            let linkTitle = '';
+                            let url = ids[i];
+                            promises[i] = $.get(url);
+                            promises[i].then(function(data){
+                                let parser = new DOMParser();
+                                let contentAsDOM = parser.parseFromString(data, "text/html");
+                                linkTitle = contentAsDOM.getElementById('content')
+                                .getElementsByTagName('div')[0]
+                                .getElementsByTagName('div')[0]
+                                .getElementsByTagName('div')[0]
+                                .getElementsByTagName('div')[0]
+                                .getElementsByTagName('div')[1]
+                                .getElementsByTagName('h2')[0].innerHTML;
+                                console.log(linkTitle);
+                                html += "<div><a href='" + ids[i] + "'>" + linkTitle + "</a></div>";
+                            });
+                        }
+                        Promise.all(promises).then(function(){
+                            html += "</div>";
+                            html += "<div class='modal-footer'>";
+                            html += "<button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button>";
+                            html += "</div></div></div></div>";
+                            $('#dialogForLinks').remove();
+                            $('#loadModal').append(html);
+                            $('#dialogForLinks').modal('show');
+                        });
+                    }
+                    else { window.location = ids.join(); }
                 });
             }
             });

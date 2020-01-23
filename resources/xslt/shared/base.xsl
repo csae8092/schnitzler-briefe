@@ -220,7 +220,7 @@
         
     </xsl:template>
     
-    <xsl:template match="tei:rs[@ref or @key]">
+    <!--<xsl:template match="tei:rs[@ref or @key]">
         
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
@@ -234,7 +234,80 @@
                 <xsl:apply-templates/>
             </xsl:element>
         
+    </xsl:template>-->
+    <xsl:template match="tei:rs[(@ref or @key) and not(descendant::tei:rs)]">
+        
+        <xsl:element name="a">
+            <xsl:attribute name="class">reference</xsl:attribute>
+            <xsl:attribute name="data-type">
+                <xsl:value-of select="concat('list', data(@type), '.xml')"/>
+            </xsl:attribute>
+            <xsl:if test="count(tokenize(data(@ref),'\s+')) = 1">
+                <xsl:attribute name="data-key">
+                    <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                    <xsl:value-of select="@key"/>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:if test="count(tokenize(data(@ref),'\s+')) gt 1">
+                <xsl:attribute name="data-keys">
+                    <xsl:value-of select="data(@ref)"/>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:apply-templates/>
+        </xsl:element>
+        
     </xsl:template>
+    
+    <xsl:template match="tei:rs[(@ref or @key) and descendant::tei:rs]">
+        <xsl:variable name='unteres-element'>
+            <xsl:for-each select="descendant::tei:rs">
+                <xsl:variable name="type" select="@type"/>
+                <xsl:for-each select="tokenize(@ref,' ')">
+                <xsl:value-of select="$type"/>
+                    <xsl:text>:</xsl:text>
+                    <xsl:value-of select="substring-after(.,'#')"/>
+                    <xsl:if test='not(position()=last())'>
+                        <xsl:text> </xsl:text>
+                    </xsl:if>
+            </xsl:for-each>
+            </xsl:for-each>
+        </xsl:variable>
+        <xsl:variable name='current'>
+                <xsl:variable name="type" select="@type"/>
+                <xsl:for-each select="tokenize(@ref,' ')">
+                    <xsl:value-of select="$type"/>
+                    <xsl:text>:</xsl:text>
+                    <xsl:value-of select="substring-after(.,'#')"/>
+                    <xsl:if test='not(position()=last())'>
+                        <xsl:text> </xsl:text>
+                    </xsl:if>
+                </xsl:for-each>
+        </xsl:variable>
+        <xsl:variable name="data-keys" select="concat($current,' ',$unteres-element)"/>
+        <xsl:element name="a">
+            <xsl:attribute name="class">reference</xsl:attribute>
+            <xsl:choose>
+                <xsl:when test="count(tokenize($data-keys,'\s+')) = 1">
+                    <xsl:attribute name="data-key">
+                        <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                        <xsl:value-of select="@key"/>
+                    </xsl:attribute>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:attribute name="data-keys">
+                        <xsl:value-of select="$data-keys"/>
+                    </xsl:attribute>
+                </xsl:otherwise>
+            </xsl:choose>
+            <xsl:apply-templates/>
+        </xsl:element>
+        
+    </xsl:template>
+    
+    <xsl:template match="tei:rs[(@ref or @key) and ancestor::tei:rs]">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
     <xsl:template match="tei:persName[@key]">
         
             <xsl:element name="a">
@@ -413,6 +486,12 @@
         <strong>
             <xsl:apply-templates/>
         </strong>
+    </xsl:template>
+    
+    <xsl:template match="tei:title[ancestor::tei:fileDesc[1]/tei:titleStmt[1] and @level='a']">
+        <div id='titleForNavigation'>
+            <xsl:apply-templates/>
+        </div>
     </xsl:template>
     <xsl:template match="tei:scriptDesc">
         <xsl:for-each select="./tei:scriptNote">
