@@ -1,122 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1910-11-22_02_Mann_AS">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Thomas Mann an Arthur Schnitzler, 22.&#160;11.&#160;1910</title>
-                <author ref="#pmb12176">Mann, Thomas</author>
-                <editor>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </editor>
-                <funder>
-                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Wien</postCode>
-                        <placeName>
-                            <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>ASBW</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="ASBW" n="1981"/>
-                <availability status="free">
-                    <p>Copyright © 2018</p>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness n="1">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>GB</country>
-                                <settlement>Cambridge</settlement>
-                                <repository>University Library</repository>
-                                <idno>Schnitzler, B&#160;67</idno>
-                            </msIdentifier>
-                            <physDesc>
-                                <p>eh. Brief, 1&#160;Bl., 2&#160;S. Von Schnitzler beschriftet: »<quote><hi rend="latintype">Mann</hi></quote>«.</p>
-                            </physDesc>
-                        </msDesc>
-                    </witness>
-                </listWit>
-                <listBibl>
-                    <biblStruct>
-                        <analytic>
-                            <title level="a">Arthur Schnitzler – Thomas Mann: Briefe</title>
-                            <author>Krotkoff, Hertha</author>
-                        </analytic>
-                        <monogr>
-                            <title level="j">Modern Austrian Literature</title>
-                            <biblScope unit="jg">7</biblScope>
-                            <biblScope unit="nr">1/2</biblScope>
-                            <imprint>
-                                <date when="1974">1974</date>
-                            </imprint>
-                            <biblScope unit="pp">14</biblScope>
-                        </monogr>
-                    </biblStruct>
-                </listBibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-            <correspDesc>
-                <correspAction  type="sent">
-                    <persName ref="#pmb12176">Mann, Thomas</persName>
-                    <placeName ref="#pmb38129">München</placeName>
-                    <date when="1910-11-22" n="02">22.&#160;11.&#160;1910</date>
-                </correspAction>
-                <correspAction  type="received">
-                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                </correspAction>
-            <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1908-08-07_01">Mann an Schnitzler, 7.&#160;8.&#160;1908</ptr>
-               <ptr type="next" subtype="toAuthor" target="1911-09-25_01">Mann an Schnitzler, 25.&#160;9.&#160;1911</ptr>
-            </correspContext>
-         </correspDesc>
-        </profileDesc>
-        <revisionDesc status="proposed">
-            <change who="GHS" when="2018-11-11">Angelegt</change>
-            <change who="MAM" when="2018-12-10">Durchsicht</change>
-            <change who="MAM" when="2018-12-11">Index check</change>
-        </revisionDesc>
-    </teiHeader>
-    <text type="letter">
-        <body>
-            <div type="writingSession" n="1"><opener><p rend="right"><pb facs="gray00210.pdf"/><hi rend="pre-print"><rs ref="#pmb38129" type="place"><hi rend="small_caps">München</hi></rs><hi rend="small_caps">, den</hi></hi><space unit="chars" quantity="1"/><date>22.&#160;XI.&#160;1910</date>.</p><p rend="right"><hi rend="pre-print"><rs ref="#pmb1242" type="place">Franz Joseph-Strasse 2</rs>.</hi><space unit="chars" quantity="3"/></p><salute>Sehr verehrter Herr Doctor:</salute></opener><p>Der Verlag <rs ref="#pmb29639" type="org">S.&#160;Fiſcher</rs> sendet mir in Ihrem
-                    gütigen Auftrage Ihr neues <rs type="work" ref="#pmb29937" subtype="implied">Werk</rs>. Ich brauche
-                    Ihnen nicht zu ſagen, mit welcher Freude ich es in Empfang genommen habe. Das
-                        <anchor type="commentary" xml:id="KL981-1"/><rs type="work" ref="#pmb33586" subtype="implied">Bruchstück</rs><note type="commentary" xml:id="KL981-1h"><bibl><rs ref="#pmb2121" type="person">Arthur Schnitzler</rs>: <rs ref="#pmb33586" type="work">Vorspiel zu einem Drama »Der junge
-                                Medardus«</rs>. In: <rs ref="#pmb36156" type="work">Die neue
-                                Rundschau</rs>, Jg.&#160;21, H.&#160;10, <date>1.&#160;10.&#160;1910</date>,
-                            S.&#160;1385–1415</bibl>.</note>, das Sie in der <rs ref="#pmb36156" type="work">Neuen Rundschau</rs> daraus veröffentlichten, kannte ich ſchon. Nun
-                        <pb facs="gray00211"/>iſt es mir ein Bedürfnis, Ihnen aus der Lektüre des
-                    kunſt- und lebensvollen Ganzen heraus, meinen herzlichen Dank und Glückwunſch
-                    darzubringen.</p><closer>Ihr ſehr ergebener<lb/><signed>Thomas Mann.</signed></closer></div>
-        </body>
-    </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1910-11-22_02_Mann_AS"><teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+<title level="a">Thomas Mann an Arthur Schnitzler, 22. 11. 1910</title>
+<author ref="#pmb12176">Mann, Thomas</author>
+<editor>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</editor>
+<funder>
+<name>FWF - Fonds für Wissenschaft und Forschung</name>
+<address>
+<street>Sensengasse 1</street>
+<postCode>1090 Wien</postCode>
+<placeName>
+<country>A</country>
+<settlement>Wien</settlement>
+</placeName>
+</address>
+</funder>
+</titleStmt>
+<editionStmt>
+<edition>ASBW</edition>
+<respStmt>
+<resp>Transkription und Kommentierung</resp>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Austrian Academy of Sciences, Vienna</publisher>
+<idno type="ASBW" n="1981"/>
+<availability status="free">
+<p>Copyright © 2018</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+</seriesStmt>
+<sourceDesc>
+<listWit>
+<witness n="1">
+<msDesc>
+<msIdentifier>
+<country>GB</country>
+<settlement>Cambridge</settlement>
+<repository>University Library</repository>
+<idno>Schnitzler, B 67</idno>
+</msIdentifier>
+<physDesc>
+<p>eh. Brief, 1 Bl., 2 S. Von Schnitzler beschriftet: »<quote>
+<hi rend="latintype">Mann</hi>
+</quote>«.</p>
+</physDesc>
+</msDesc>
+</witness>
+</listWit>
+<listBibl>
+<biblStruct>
+<analytic>
+<title level="a">Arthur Schnitzler – Thomas Mann: Briefe</title>
+<author>Krotkoff, Hertha</author>
+</analytic>
+<monogr>
+<title level="j">Modern Austrian Literature</title>
+<biblScope unit="jg">7</biblScope>
+<biblScope unit="nr">1/2</biblScope>
+<imprint>
+<date when="1974">1974</date>
+</imprint>
+<biblScope unit="pp">14</biblScope>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de-AT">German</language>
+</langUsage>
+<correspDesc>
+<correspAction type="sent">
+<persName ref="#pmb12176">Mann, Thomas</persName>
+<placeName ref="#pmb38129">München</placeName>
+<date when="1910-11-22" n="02">22. 11. 1910</date>
+</correspAction>
+<correspAction type="received">
+<persName ref="#pmb2121">Schnitzler, Arthur</persName>
+<placeName ref="#pmb50">Wien</placeName>
+</correspAction>
+<correspContext>
+<ptr type="previous" subtype="toAuthor" target="1908-08-07_01">Mann an Schnitzler, 7. 8. 1908</ptr>
+<ptr type="next" subtype="toAuthor" target="1911-09-25_01">Mann an Schnitzler, 25. 9. 1911</ptr>
+</correspContext>
+</correspDesc>
+</profileDesc>
+<encodingDesc>
+<refsDecl>
+<ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, e.g. <ref type="schnitzlerDiary" target="1891-05-15"/> The complete URI is either: "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?directory=editions&amp;document=entry__1912-05-15.xml" (whereas &amp; has to be replaced with the single character ampersand) or "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-15.xml". </ab>
+</refsDecl>
+</encodingDesc>
+<revisionDesc status="proposed">
+<change who="GHS" when="2018-11-11">Angelegt</change>
+<change who="MAM" when="2018-12-10">Durchsicht</change>
+<change who="MAM" when="2018-12-11">Index check</change>
+</revisionDesc>
+</teiHeader><text type="letter"><body><div type="writingSession" n="1"><opener><p rend="right"><pb facs="gray00210.pdf"/><hi rend="pre-print"><rs ref="#pmb38129" type="place"><hi rend="small_caps">München</hi></rs><hi rend="small_caps">, den</hi></hi><space unit="chars" quantity="1"/><date>22. XI. 1910</date>.</p><p rend="right"><hi rend="pre-print"><rs ref="#pmb1242" type="place">Franz Joseph-Strasse 2</rs>.</hi><space unit="chars" quantity="3"/></p><salute>Sehr verehrter Herr Doctor:</salute></opener><p>Der Verlag <rs ref="#pmb29639" type="org">S. Fiſcher</rs> sendet mir in Ihrem gütigen Auftrage Ihr neues <rs type="work" ref="#pmb29937" subtype="implied">Werk</rs>. Ich brauche Ihnen nicht zu ſagen, mit welcher Freude ich es in Empfang genommen habe. Das <anchor type="commentary" xml:id="KL981-1"/><rs type="work" ref="#pmb33586" subtype="implied">Bruchstück</rs><note type="commentary" xml:id="KL981-1h"><bibl><rs ref="#pmb2121" type="person">Arthur Schnitzler</rs>: <rs ref="#pmb33586" type="work">Vorspiel zu einem Drama »Der junge Medardus«</rs>. In: <rs ref="#pmb36156" type="work">Die neue Rundschau</rs>, Jg. 21, H. 10, <date>1. 10. 1910</date>, S. 1385–1415</bibl>.</note>, das Sie in der <rs ref="#pmb36156" type="work">Neuen Rundschau</rs> daraus veröffentlichten, kannte ich ſchon. Nun <pb facs="gray00211"/>iſt es mir ein Bedürfnis, Ihnen aus der Lektüre des kunſt- und lebensvollen Ganzen heraus, meinen herzlichen Dank und Glückwunſch darzubringen.</p><closer>Ihr ſehr ergebener<lb/><signed>Thomas Mann.</signed></closer></div></body></text></TEI>

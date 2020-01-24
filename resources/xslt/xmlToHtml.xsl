@@ -13,7 +13,7 @@
     <xsl:template match="/">
         <div class="page-header">
             <h2 align="center">
-                <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title">
+                <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title[@level='a']">
                     <xsl:apply-templates/>
                     <br/>
                 </xsl:for-each>
@@ -34,7 +34,7 @@
                                     <abbr title="tei:titleStmt/tei:title">Dokument</abbr>
                                 </th>
                                 <td>
-                                    <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title">
+                                    <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title[@level='a']">
                                         <xsl:apply-templates/>
                                         <br/>
                                     </xsl:for-each>

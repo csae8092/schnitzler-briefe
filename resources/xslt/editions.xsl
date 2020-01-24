@@ -266,7 +266,7 @@
                         </div>
                         <div class="modal-body">
                             <xsl:for-each select="//tei:witness">
-                                <h5>ARCHIVZEUGE <xsl:value-of select="@n"/>
+                                <h5>TEXTZEUGE <xsl:value-of select="@n"/>
                                 </h5>
                             <table class="table table-striped">
                                 <tbody>

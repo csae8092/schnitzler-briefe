@@ -1,161 +1,135 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1912-11-07_01_Altenberg_AS">
-   <teiHeader type="text">
-      <fileDesc>
-         <titleStmt>
-            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Peter Altenberg an Arthur Schnitzler, [7.&#160;11.&#160;1912]</title>
-            <author ref="#pmb2147">Altenberg, Peter</author>
-            <editor>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
-            </editor>
-            <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-               </address>
-            </funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>HBAS</edition>
-            <respStmt>
-               <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Austrian Academy of Sciences, Vienna</publisher>
-            <idno type="HBAS-L" n="1590"/>
-            <availability status="free">
-               <p>Copyright © 2018</p>
-            </availability>
-         </publicationStmt>
-         <seriesStmt>
-            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-         </seriesStmt>
-         <sourceDesc>
-            <listWit>
-               <witness n="1">
-                  <msDesc>
-                     <msIdentifier>
-                        <country>GB</country>
-                        <settlement>Cambridge</settlement>
-                        <repository>University Library</repository>
-                        <idno>Schnitzler, B&#160;2</idno>
-                     </msIdentifier>
-                     <physDesc>
-                        <p>eh. Brief, 1 &#160;Bl., 2&#160;S., schwarze Tinte. Von Schnitzler mit Bleistift
-                           datiert: »<quote><date>7/11 912</date></quote>«. Von unbekannter Hand mit Bleistift nummeriert:
-                              »<quote>10</quote>«.</p>
-                     </physDesc>
-                  </msDesc>
-               </witness>
-               <witness n="2">
-                  <msDesc>
-                     <msIdentifier>
-                        <country>D</country>
-                        <settlement>Marbach am Neckar</settlement>
-                        <repository>Deutsches Literaturarchiv</repository>
-                        <idno>A:Schnitzler, 85.1.2342</idno>
-                     </msIdentifier>
-                     <physDesc>
-                        <p>ms. Abschrift, S.&#160;9–10, mit hs. Unterstreichungen und zwei hs.
-                           Korrekturen; die Abschrift mit Schnitzlers Schreibmaschine mit weiter
-                           Spationierung, womöglich kurz nach dem Tod Altenbergs entstanden.</p>
-                     </physDesc>
-                  </msDesc>
-               </witness>
-            </listWit>
-            <listBibl>
-               <biblStruct>
-                  <monogr>
-                     <author ref="#pmb2121">Schnitzler, Arthur</author>
-                     <title level="m">Das Wort. Tragikomödie in fünf Akten. Fragment</title>
-                     <editor>Aus dem Nachlaß hg. und eingel. von Kurt Bergel</editor>
-                     <imprint>
-                        <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
-                        <date when="1966">1966</date>
-                     </imprint>
-                     <biblScope unit="pp">10</biblScope>
-                  </monogr>
-               </biblStruct>
-               <biblStruct corresp="HBAS">
-                  <monogr>
-                     <author ref="#pmb10815">Bahr, Hermann</author>
-                     <author ref="#pmb2121">Schnitzler, Arthur</author>
-                     <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
-                     <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
-                     <imprint>
-                        <pubPlace>Göttingen</pubPlace>
-                        <publisher>Wallstein</publisher>
-                        <date when="2018">2018</date>
-                     </imprint>
-                     <biblScope unit="pp">478</biblScope>
-                  </monogr>
-               </biblStruct>
-            </listBibl>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="de-AT">German</language>
-         </langUsage>
-         <correspDesc>
-            <correspAction  type="sent">
-               <persName ref="#pmb2147">Altenberg, Peter</persName>
-               <placeName ref="#pmb189">Semmering</placeName>
-               <date when="1912-11-07" n="01">[7.&#160;11.&#160;1912]</date>
-            </correspAction>
-            <correspAction  type="received">
-               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-               <placeName ref="#pmb50">[Wien]</placeName>
-            </correspAction>
-            <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1912-05-10_01">Altenberg an Schnitzler, [10.? 5.&#160;1912]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1912-11-09_01">Altenberg an Schnitzler, [zwischen 9. und 15.&#160;11.&#160;1912?]</ptr>
-            </correspContext>
-         </correspDesc>
-      </profileDesc>
-      <revisionDesc status="approved">
-         <change who="MAM" when="2016-05-10">Angelegt</change>
-         <change who="KI MAM" when="2016-11-07">Kollationiert am Faksimile</change>
-         <change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
-         <change who="MAM" when="2018-02-14">Index check</change>
-         <change who="GHS" when="2018-12-06">2. Durchsicht</change>
-         <change who="GHS" when="2019-07-19">facs aktualisiert, korrigiert, finalisiert</change>
-      </revisionDesc>
-   </teiHeader>
-   <facsimile>
-      <graphic url="MS-SCHNITZLER-B-00002-000-00021"/>
-      <graphic url="MS-SCHNITZLER-B-00002-000-00022"/>
-   </facsimile>
-   <text type="letter">
-      <body>
-         <div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs="MS-SCHNITZLER-B-00002-000-00021"/><hi rend="pre-print">Peter Altenberg</hi></seg><seg rend="right"><hi rend="pre-print"><rs ref="#pmb189" type="place">Semmering</rs></hi></seg></p><p rend="right"><hi rend="pre-print"><rs ref="#pmb204" type="place">Hotel Panhans</rs>.</hi></p><salute>Lieber <hi rend="latintype">D<hi rend="superscript">r</hi></hi> Arthur
-                  Schnitzler,</salute></opener><p>ich ſchreibe es Ihnen ganz klip und klar, denn alles Andere hätte gar keinen
-               Sinn:</p><p>Eine Reihe von Menſchen, die mich <hi rend="underline" n="1">bisher</hi> durch <hi rend="underline" n="1">fixe monatliche Beiträge</hi> unterſtützt haben, ſind
-               allmälig »<hi rend="underline" n="1">ausgeſprungen</hi>«. Ich frage daher bei Ihnen,
-               dem vom Schickſale Begünſtigten, an, ob Sie oder Andere (<rs ref="#pmb10863" type="person">Beer-Hoffmann</rs>, <rs ref="#pmb11740" type="person">Hugo Hofmannstal</rs>,
-                  <rs ref="#pmb10815" type="person">Hermann Bahr</rs><hi rend="latintype">etc. etc.</hi>) <lb/>mir die Sorge meines
-               Lebensabends<lb/>(»tiefſte Lebensnacht« ſollte es eigentlich lauten) erleichtern
-               wollen!?!? <add place="inline">Bis zum 53.&#160;Jahre habe ich mich ſo »<hi rend="underline" n="1">durchgefrettet</hi>«.</add></p><p><pb facs="MS-SCHNITZLER-B-00002-000-00021"/>Ich bin ſeit 8 Wochen von einer
-               »allgemeinen Nervenentzündung« (<hi rend="latintype">polyneuritis</hi>) Tag und Nacht
-                  <hi rend="underline" n="3">gefoltert</hi>, dazu die ſeeliſche Depreſſion!</p><p>Ich bitte ſehr, dieſes Schreiben als <hi rend="underline" n="3">Geheimnis</hi> zu
-               betrachten. <add place="inline">Ich appellire an den Menſchen <hi rend="underline" n="1">und</hi> den Dichter.</add></p><p>Meine Tage ſind <hi rend="underline" n="1">gerichtet</hi> und gezählt, da gibt es
-               keine Demütigung mehr, man iſt ſchon halb wo anders, dort wo die Beurteilungen des
-               Menſchen und ſeiner Seele <hi rend="underline" n="3">anders</hi> gewertet werden!</p><closer>Ihr unglückſeliger<lb/><signed>Peter Altenberg</signed></closer><postscript><p><rs ref="#pmb204" type="place">Semmering, Hotel Panhans.</rs></p><p>Es iſt ein <hi rend="underline" n="1">Notſchrei</hi> eines ſchwerst
-                  Bedrängten.</p><p rend="right">Geheimnis!!!</p></postscript></div>
-      </body>
-   </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1912-11-07_01_Altenberg_AS"><teiHeader type="text">
+<fileDesc>
+<titleStmt>
+<title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+<title level="a">Peter Altenberg an Arthur Schnitzler, [7. 11. 1912]</title>
+<author ref="#pmb2147">Altenberg, Peter</author>
+<editor>
+<name>Müller, Martin Anton</name>
+</editor>
+<funder>
+<name>FWF – Fonds für Wissenschaft und Forschung</name>
+<address>
+<street>Sensengasse 1</street>
+<postCode>1090 Wien</postCode>
+<placeName>
+<country>A</country>
+<settlement>Wien</settlement>
+</placeName>
+</address>
+</funder>
+</titleStmt>
+<editionStmt>
+<edition>HBAS</edition>
+<respStmt>
+<resp>Transkription und Kommentierung</resp>
+<name>Kurt Ifkovits</name>
+<name>Martin Anton Müller</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Austrian Academy of Sciences, Vienna</publisher>
+<idno type="HBAS-L" n="1590"/>
+<availability status="free">
+<p>Copyright © 2018</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+</seriesStmt>
+<sourceDesc>
+<listWit>
+<witness n="1">
+<msDesc>
+<msIdentifier>
+<country>GB</country>
+<settlement>Cambridge</settlement>
+<repository>University Library</repository>
+<idno>Schnitzler, B 2</idno>
+</msIdentifier>
+<physDesc>
+<p>eh. Brief, 1  Bl., 2 S., schwarze Tinte. Von Schnitzler mit Bleistift datiert: »<quote>
+<date>7/11 912</date>
+</quote>«. Von unbekannter Hand mit Bleistift nummeriert: »<quote>10</quote>«.</p>
+</physDesc>
+</msDesc>
+</witness>
+<witness n="2">
+<msDesc>
+<msIdentifier>
+<country>D</country>
+<settlement>Marbach am Neckar</settlement>
+<repository>Deutsches Literaturarchiv</repository>
+<idno>A:Schnitzler, 85.1.2342</idno>
+</msIdentifier>
+<physDesc>
+<p>ms. Abschrift, S. 9–10, mit hs. Unterstreichungen und zwei hs. Korrekturen; die Abschrift mit Schnitzlers Schreibmaschine mit weiter Spationierung, womöglich kurz nach dem Tod Altenbergs entstanden.</p>
+</physDesc>
+</msDesc>
+</witness>
+</listWit>
+<listBibl>
+<biblStruct>
+<monogr>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<title level="m">Das Wort. Tragikomödie in fünf Akten. Fragment</title>
+<editor>Aus dem Nachlaß hg. und eingel. von Kurt Bergel</editor>
+<imprint>
+<pubPlace>Frankfurt am Main</pubPlace>
+<publisher>S. Fischer</publisher>
+<date when="1966">1966</date>
+</imprint>
+<biblScope unit="pp">10</biblScope>
+</monogr>
+</biblStruct>
+<biblStruct corresp="HBAS">
+<monogr>
+<author ref="#pmb10815">Bahr, Hermann</author>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+<editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
+<imprint>
+<pubPlace>Göttingen</pubPlace>
+<publisher>Wallstein</publisher>
+<date when="2018">2018</date>
+</imprint>
+<biblScope unit="pp">478</biblScope>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de-AT">German</language>
+</langUsage>
+<correspDesc>
+<correspAction type="sent">
+<persName ref="#pmb2147">Altenberg, Peter</persName>
+<placeName ref="#pmb189">Semmering</placeName>
+<date when="1912-11-07" n="01">[7. 11. 1912]</date>
+</correspAction>
+<correspAction type="received">
+<persName ref="#pmb2121">Schnitzler, Arthur</persName>
+<placeName ref="#pmb50">[Wien]</placeName>
+</correspAction>
+<correspContext>
+<ptr type="previous" subtype="toAuthor" target="1912-05-10_01">Altenberg an Schnitzler, [10.? 5. 1912]</ptr>
+<ptr type="next" subtype="toAuthor" target="1912-11-09_01">Altenberg an Schnitzler, [zwischen 9. und 15. 11. 1912?]</ptr>
+</correspContext>
+</correspDesc>
+</profileDesc>
+<encodingDesc>
+<refsDecl>
+<ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, e.g. <ref type="schnitzlerDiary" target="1891-05-15"/> The complete URI is either: "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?directory=editions&amp;document=entry__1912-05-15.xml" (whereas &amp; has to be replaced with the single character ampersand) or "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-15.xml". </ab>
+</refsDecl>
+</encodingDesc>
+<revisionDesc status="approved">
+<change who="MAM" when="2016-05-10">Angelegt</change>
+<change who="KI MAM" when="2016-11-07">Kollationiert am Faksimile</change>
+<change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
+<change who="MAM" when="2018-02-14">Index check</change>
+<change who="GHS" when="2018-12-06">2. Durchsicht</change>
+<change who="GHS" when="2019-07-19">facs aktualisiert, korrigiert, finalisiert</change>
+</revisionDesc>
+</teiHeader><facsimile><graphic url="MS-SCHNITZLER-B-00002-000-00021"/><graphic url="MS-SCHNITZLER-B-00002-000-00022"/></facsimile><text type="letter"><body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs="MS-SCHNITZLER-B-00002-000-00021"/><hi rend="pre-print">Peter Altenberg</hi></seg><seg rend="right"><hi rend="pre-print"><rs ref="#pmb189" type="place">Semmering</rs></hi></seg></p><p rend="right"><hi rend="pre-print"><rs ref="#pmb204" type="place">Hotel Panhans</rs>.</hi></p><salute>Lieber <hi rend="latintype">D<hi rend="superscript">r</hi></hi> Arthur Schnitzler,</salute></opener><p>ich ſchreibe es Ihnen ganz klip und klar, denn alles Andere hätte gar keinen Sinn:</p><p>Eine Reihe von Menſchen, die mich <hi rend="underline" n="1">bisher</hi> durch <hi rend="underline" n="1">fixe monatliche Beiträge</hi> unterſtützt haben, ſind allmälig »<hi rend="underline" n="1">ausgeſprungen</hi>«. Ich frage daher bei Ihnen, dem vom Schickſale Begünſtigten, an, ob Sie oder Andere (<rs ref="#pmb10863" type="person">Beer-Hoffmann</rs>, <rs ref="#pmb11740" type="person">Hugo Hofmannstal</rs>, <rs ref="#pmb10815" type="person">Hermann Bahr</rs><hi rend="latintype">etc. etc.</hi>) <lb/>mir die Sorge meines Lebensabends<lb/>(»tiefſte Lebensnacht« ſollte es eigentlich lauten) erleichtern wollen!?!? <add place="inline">Bis zum 53. Jahre habe ich mich ſo »<hi rend="underline" n="1">durchgefrettet</hi>«.</add></p><p><pb facs="MS-SCHNITZLER-B-00002-000-00021"/>Ich bin ſeit 8 Wochen von einer »allgemeinen Nervenentzündung« (<hi rend="latintype">polyneuritis</hi>) Tag und Nacht <hi rend="underline" n="3">gefoltert</hi>, dazu die ſeeliſche Depreſſion!</p><p>Ich bitte ſehr, dieſes Schreiben als <hi rend="underline" n="3">Geheimnis</hi> zu betrachten. <add place="inline">Ich appellire an den Menſchen <hi rend="underline" n="1">und</hi> den Dichter.</add></p><p>Meine Tage ſind <hi rend="underline" n="1">gerichtet</hi> und gezählt, da gibt es keine Demütigung mehr, man iſt ſchon halb wo anders, dort wo die Beurteilungen des Menſchen und ſeiner Seele <hi rend="underline" n="3">anders</hi> gewertet werden!</p><closer>Ihr unglückſeliger<lb/><signed>Peter Altenberg</signed></closer><postscript><p><rs ref="#pmb204" type="place">Semmering, Hotel Panhans.</rs></p><p>Es iſt ein <hi rend="underline" n="1">Notſchrei</hi> eines ſchwerst Bedrängten.</p><p rend="right">Geheimnis!!!</p></postscript></div></body></text></TEI>

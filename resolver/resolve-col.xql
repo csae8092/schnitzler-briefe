@@ -11,7 +11,7 @@ let $result :=
     <amount>{$amount}</amount>
     {
         for $x in $docs
-            let $title := normalize-space(string-join($x//tei:titleStmt/tei:title//text(), ''))
+            let $title := normalize-space(string-join($x//tei:titleStmt/tei:title[@level='a']//text(), ''))
             return
                 <doc>
                     <title>{$title}</title>

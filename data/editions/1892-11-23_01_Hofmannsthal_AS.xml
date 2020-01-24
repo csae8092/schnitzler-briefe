@@ -1,134 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-    xml:id="L1892-11-23_01_Hofmannsthal_AS">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler,
-                    [23.&#160;11.&#160;1892?]</title>
-                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
-                <editor>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </editor>
-                <funder>
-                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Wien</postCode>
-                        <placeName>
-                            <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>ASBW</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="ASBW" n="2217"/>
-                <availability status="free">
-                    <p>Copyright © 2018</p>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness n="1">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>GB</country>
-                                <settlement>Cambridge</settlement>
-                                <repository>University Library</repository>
-                                <idno>Schnitzler, B&#160;43</idno>
-                            </msIdentifier>
-                            <physDesc>
-                                <p>eh. Brief, 2&#160;Bl., 2&#160;S. Zuerst mit blauem Stift, dann
-                                    mit Tinte und zuletzt mit Bleistift beschrieben. Der Brief
-                                    entspricht durch Papier und blauem Stift den Briefen <rs
-                                        ref="#pmb10863" type="person">Richard Beer-Hofmann</rs>s.
-                                    Von unbekannter Hand mit Bleistift nummeriert:
-                                    »<quote>8</quote>«.</p>
-                            </physDesc>
-                        </msDesc>
-                    </witness>
-                </listWit>
-                <listBibl>
-                    <biblStruct corresp="HvHAS">
-                        <monogr>
-                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
-                            <author ref="#pmb2121">Schnitzler, Arthur</author>
-                            <title level="m">Briefwechsel</title>
-                            <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
-                            <imprint>
-                                <pubPlace>Frankfurt am Main</pubPlace>
-                                <publisher>S. Fischer</publisher>
-                                <date when="1964">1964</date>
-                            </imprint>
-                            <biblScope unit="pp">31</biblScope>
-                        </monogr>
-                    </biblStruct>
-                </listBibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                    <date when="1892-11-23" n="01">[23.&#160;11.&#160;1892?]</date>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                </correspAction>
-                <correspContext>
-                    <ptr type="previous" subtype="toAuthor" target="1892-11-09_01">Schnitzler an Hofmannsthal, 9.&#160;11.&#160;1892</ptr>
-                    <ptr type="next" subtype="toAuthor" target="1892-11-24_01">Schnitzler an Hofmannsthal, 24.&#160;11.&#160;1892</ptr>
-                </correspContext>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc status="proposed">
-            <change who="GHS" when="2019-02-18">Angelegt</change>
-            <change who="MAM" when="2019-03-12">Durchsicht</change>
-            <change who="MAM" when="2019-10-07">Index check</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00013"/>
-        <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00014"/>
-        <!-- muss noch bestellt werden! -->
-    </facsimile>
-    <text type="letter">
-        <body>
-            <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00013"/><anchor type="commentary" xml:id="KL2217-1"/><date>Mittwoch</date><note type="commentary" xml:id="KL2217-1h">Die Datierung beruht auf dem
-                            Brief vom <date>24.&#160;11.&#160;1892</date>
-                            (<ptr target="L1892-11-24_01_AS_Hofmannsthal.xml"/>), bei dem es sich um
-                            die Antwort auf diesen handeln dürfte.</note></dateline><salute>Lieber Arthur</salute></opener><p>Ich ſchreibe zufällig an <rs ref="#pmb10863" type="person">Richard</rs>s
-                    Schreibtiſch, das macht aber nichts. <anchor type="textConst" xml:id="TG5"/>Ich
-                    möchte <note type="textConst" xml:id="TG5h">weiter mit schwarzer
-                    Tinte</note>Ihnen nämlich etwas ſagen: <del rend="strikethrough">wir</del> wir
-                    ſollten doch einmal wieder ein bischen unter uns zuſammenkommen. <rs
-                        ref="#pmb4326" type="person">Robert</rs><space unit="chars" quantity="1"/><anchor type="textConst" xml:id="TG6"/><rs ref="#pmb4326" type="person">Ehrhardt</rs><note type="textConst" xml:id="TG6h">weiter mit Bleistift</note> und <rs
-                        ref="#pmb18523" type="person"><hi rend="latintype">Paul Horn</hi></rs> und alle ſind ja jeder in ſeiner Art ſehr nett, aber immer, das vergröbert
-                    und encanailliert naturgemäß Thema und Ton. Ich gehe deshalb nicht zu <pb
-                        facs=""/><!-- Faksimile fehlt,  --><rs ref="#pmb49" type="place">Pfob</rs>, meinen Sie nicht auch? Wir haben ja
-                    ſehr gut ohne das alles exiſtirt. Übrigens auf Wiederſehen Sonntag.</p><closer>Ihr <signed>Loris</signed></closer></div>
-        </body>
-    </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-11-23_01_Hofmannsthal_AS"><teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+<title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [23. 11. 1892?]</title>
+<author ref="#pmb11740">Hofmannsthal, Hugo von</author>
+<editor>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</editor>
+<funder>
+<name>FWF - Fonds für Wissenschaft und Forschung</name>
+<address>
+<street>Sensengasse 1</street>
+<postCode>1090 Wien</postCode>
+<placeName>
+<country>A</country>
+<settlement>Wien</settlement>
+</placeName>
+</address>
+</funder>
+</titleStmt>
+<editionStmt>
+<edition>ASBW</edition>
+<respStmt>
+<resp>Transkription und Kommentierung</resp>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Austrian Academy of Sciences, Vienna</publisher>
+<idno type="ASBW" n="2217"/>
+<availability status="free">
+<p>Copyright © 2018</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+</seriesStmt>
+<sourceDesc>
+<listWit>
+<witness n="1">
+<msDesc>
+<msIdentifier>
+<country>GB</country>
+<settlement>Cambridge</settlement>
+<repository>University Library</repository>
+<idno>Schnitzler, B 43</idno>
+</msIdentifier>
+<physDesc>
+<p>eh. Brief, 2 Bl., 2 S. Zuerst mit blauem Stift, dann mit Tinte und zuletzt mit Bleistift beschrieben. Der Brief entspricht durch Papier und blauem Stift den Briefen <rs ref="#pmb10863" type="person">Richard Beer-Hofmann</rs>s. Von unbekannter Hand mit Bleistift nummeriert: »<quote>8</quote>«.</p>
+</physDesc>
+</msDesc>
+</witness>
+</listWit>
+<listBibl>
+<biblStruct corresp="HvHAS">
+<monogr>
+<author ref="#pmb11740">Hofmannsthal, Hugo</author>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<title level="m">Briefwechsel</title>
+<editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+<imprint>
+<pubPlace>Frankfurt am Main</pubPlace>
+<publisher>S. Fischer</publisher>
+<date when="1964">1964</date>
+</imprint>
+<biblScope unit="pp">31</biblScope>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de-AT">German</language>
+</langUsage>
+<correspDesc>
+<correspAction type="sent">
+<persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+<placeName ref="#pmb50">Wien</placeName>
+<date when="1892-11-23" n="01">[23. 11. 1892?]</date>
+</correspAction>
+<correspAction type="received">
+<persName ref="#pmb2121">Schnitzler, Arthur</persName>
+<placeName ref="#pmb50">Wien</placeName>
+</correspAction>
+<correspContext>
+<ptr type="previous" subtype="toAuthor" target="1892-11-09_01">Schnitzler an Hofmannsthal, 9. 11. 1892</ptr>
+<ptr type="next" subtype="toAuthor" target="1892-11-24_01">Schnitzler an Hofmannsthal, 24. 11. 1892</ptr>
+</correspContext>
+</correspDesc>
+</profileDesc>
+<encodingDesc>
+<refsDecl>
+<ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, e.g. <ref type="schnitzlerDiary" target="1891-05-15"/> The complete URI is either: "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?directory=editions&amp;document=entry__1912-05-15.xml" (whereas &amp; has to be replaced with the single character ampersand) or "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-15.xml". </ab>
+</refsDecl>
+</encodingDesc>
+<revisionDesc status="proposed">
+<change who="GHS" when="2019-02-18">Angelegt</change>
+<change who="MAM" when="2019-03-12">Durchsicht</change>
+<change who="MAM" when="2019-10-07">Index check</change>
+</revisionDesc>
+</teiHeader><facsimile><graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00013"/><graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00014"/><!-- muss noch bestellt werden! --></facsimile><text type="letter"><body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00013"/><anchor type="commentary" xml:id="KL2217-1"/><date>Mittwoch</date><note type="commentary" xml:id="KL2217-1h">Die Datierung beruht auf dem Brief vom <date>24. 11. 1892</date> (<ptr target="L1892-11-24_01_AS_Hofmannsthal.xml"/>), bei dem es sich um die Antwort auf diesen handeln dürfte.</note></dateline><salute>Lieber Arthur</salute></opener><p>Ich ſchreibe zufällig an <rs ref="#pmb10863" type="person">Richard</rs>s Schreibtiſch, das macht aber nichts. <anchor type="textConst" xml:id="TG5"/>Ich möchte <note type="textConst" xml:id="TG5h">weiter mit schwarzer Tinte</note>Ihnen nämlich etwas ſagen: <del rend="strikethrough">wir</del> wir ſollten doch einmal wieder ein bischen unter uns zuſammenkommen. <rs ref="#pmb4326" type="person">Robert</rs><space unit="chars" quantity="1"/><anchor type="textConst" xml:id="TG6"/><rs ref="#pmb4326" type="person">Ehrhardt</rs><note type="textConst" xml:id="TG6h">weiter mit Bleistift</note> und <rs ref="#pmb18523" type="person"><hi rend="latintype">Paul Horn</hi></rs> und alle ſind ja jeder in ſeiner Art ſehr nett, aber immer, das vergröbert und encanailliert naturgemäß Thema und Ton. Ich gehe deshalb nicht zu <pb facs=""/><!-- Faksimile fehlt, --><rs ref="#pmb49" type="place">Pfob</rs>, meinen Sie nicht auch? Wir haben ja ſehr gut ohne das alles exiſtirt. Übrigens auf Wiederſehen Sonntag.</p><closer>Ihr <signed>Loris</signed></closer></div></body></text></TEI>

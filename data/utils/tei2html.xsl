@@ -57,7 +57,7 @@
                                 </div>
                                 <div class="col-md-8">
                                     <h2 align="center">
-                                        <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title">
+                                        <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title[@level='a']">
                                             <xsl:apply-templates/>
                                             <br/>
                                         </xsl:for-each>

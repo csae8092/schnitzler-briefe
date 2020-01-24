@@ -1,98 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1919-10-08_01_Adam_AS">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 8.&#160;10.&#160;1919</title>
-                <author ref="#pmb12438">Adam, Robert</author>
-                <editor>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </editor>
-                <funder>
-                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Wien</postCode>
-                        <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>ASBW</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="ASBW" n="2125"/>
-                <availability status="free">
-                    <p>Copyright © 2018</p>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-            </seriesStmt>
-            <sourceDesc>
-                 <listWit>
-                    <witness n="1">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>A</country>            
-                                <settlement>Wien</settlement>            
-                                <repository>Österreichische Nationalbibliothek</repository>            
-                                <idno>Cod.&#160;ser. 52.268</idno>
-                            </msIdentifier>
-                            <physDesc>
-                                <p>ms. Abschrift aus dem Tagebuch, Bl.&#160;23 verso, die erste Abschrift in Gabelsberger Bl.&#160;36.</p>
-                            </physDesc>
-                        </msDesc>
-                    </witness>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-            <language ident="de-AT">German</language>
-         </langUsage>
-            <correspDesc>
-                <correspAction  type="sent">
-                    <persName ref="#pmb12438">Adam, Robert</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                    <date when="1919-10-08" n="01">8.&#160;10.&#160;1919</date>
-                </correspAction>
-                <correspAction  type="received">
-                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                </correspAction>
-            <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1919-08-19_01">Adam an Schnitzler, 19.&#160;8.&#160;1919</ptr>
-               <ptr type="next" subtype="toAuthor" target="1919-10-28_01">Schnitzler an Adam, 28.&#160;10.&#160;1919</ptr>
-            </correspContext>
-         </correspDesc>
-        </profileDesc>
-        <revisionDesc status="proposed">
-            <change who="MAM" when="2018-12-19">Angelegt</change>
-            <change who="MAM" when="2019-01-02">Index check</change>
-        </revisionDesc>
-    </teiHeader>
-    <text type="letter">
-        <body>
-            <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>8.&#160;Oktober 1919</date></dateline><salute>Hochverehrter Herr Doktor!</salute></opener><p>Ich nehme an, dass Sie bereits nach <rs ref="#pmb50" type="place">Wien</rs> zurückgekehrt sind, 
-                    und erlaube mir die Anfrage, ob ich Sie in der nächsten Zeit einmal besuchen könnte?</p><p>Ich arbeite sehr fleissig an der <rs ref="#pmb33666" type="work">Märchenkomödie</rs>, selbst vewundert, 
-                    dass ich noch nicht obgeschreckt bin. Vielleicht wird aus ihr doch noch etwas, was mich zufrieden stellt. 
-                    Mit den besten Grüssen Ihr <signed>Dr RAP</signed></p></div>
-        </body>
-    </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1919-10-08_01_Adam_AS"><teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+<title level="a">Robert Adam an Arthur Schnitzler, 8. 10. 1919</title>
+<author ref="#pmb12438">Adam, Robert</author>
+<editor>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</editor>
+<funder>
+<name>FWF - Fonds für Wissenschaft und Forschung</name>
+<address>
+<street>Sensengasse 1</street>
+<postCode>1090 Wien</postCode>
+<placeName>
+<country>A</country>
+<settlement>Wien</settlement>
+</placeName>
+</address>
+</funder>
+</titleStmt>
+<editionStmt>
+<edition>ASBW</edition>
+<respStmt>
+<resp>Transkription und Kommentierung</resp>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Austrian Academy of Sciences, Vienna</publisher>
+<idno type="ASBW" n="2125"/>
+<availability status="free">
+<p>Copyright © 2018</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+</seriesStmt>
+<sourceDesc>
+<listWit>
+<witness n="1">
+<msDesc>
+<msIdentifier>
+<country>A</country>
+<settlement>Wien</settlement>
+<repository>Österreichische Nationalbibliothek</repository>
+<idno>Cod. ser. 52.268</idno>
+</msIdentifier>
+<physDesc>
+<p>ms. Abschrift aus dem Tagebuch, Bl. 23 verso, die erste Abschrift in Gabelsberger Bl. 36.</p>
+</physDesc>
+</msDesc>
+</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de-AT">German</language>
+</langUsage>
+<correspDesc>
+<correspAction type="sent">
+<persName ref="#pmb12438">Adam, Robert</persName>
+<placeName ref="#pmb50">Wien</placeName>
+<date when="1919-10-08" n="01">8. 10. 1919</date>
+</correspAction>
+<correspAction type="received">
+<persName ref="#pmb2121">Schnitzler, Arthur</persName>
+<placeName ref="#pmb50">Wien</placeName>
+</correspAction>
+<correspContext>
+<ptr type="previous" subtype="toAuthor" target="1919-08-19_01">Adam an Schnitzler, 19. 8. 1919</ptr>
+<ptr type="next" subtype="toAuthor" target="1919-10-28_01">Schnitzler an Adam, 28. 10. 1919</ptr>
+</correspContext>
+</correspDesc>
+</profileDesc>
+<encodingDesc>
+<refsDecl>
+<ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, e.g. <ref type="schnitzlerDiary" target="1891-05-15"/> The complete URI is either: "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?directory=editions&amp;document=entry__1912-05-15.xml" (whereas &amp; has to be replaced with the single character ampersand) or "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-15.xml". </ab>
+</refsDecl>
+</encodingDesc>
+<revisionDesc status="proposed">
+<change who="MAM" when="2018-12-19">Angelegt</change>
+<change who="MAM" when="2019-01-02">Index check</change>
+</revisionDesc>
+</teiHeader><text type="letter"><body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>8. Oktober 1919</date></dateline><salute>Hochverehrter Herr Doktor!</salute></opener><p>Ich nehme an, dass Sie bereits nach <rs ref="#pmb50" type="place">Wien</rs> zurückgekehrt sind, und erlaube mir die Anfrage, ob ich Sie in der nächsten Zeit einmal besuchen könnte?</p><p>Ich arbeite sehr fleissig an der <rs ref="#pmb33666" type="work">Märchenkomödie</rs>, selbst vewundert, dass ich noch nicht obgeschreckt bin. Vielleicht wird aus ihr doch noch etwas, was mich zufrieden stellt. Mit den besten Grüssen Ihr <signed>Dr RAP</signed></p></div></body></text></TEI>

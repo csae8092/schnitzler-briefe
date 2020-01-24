@@ -1,132 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1892-07-24_01_Boelsche_AS">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Wilhelm Bölsche an Arthur Schnitzler, [24.&#160;7.&#160;1892]</title>
-                <author ref="#pmb11061">Bölsche, Wilhelm</author>
-                <editor>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </editor>
-                <funder>
-                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Wien</postCode>
-                        <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>ASBW</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="ASBW" n="2173"/>
-                <availability status="free">
-                    <p>Copyright © 2018</p>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness n="1">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>D</country>
-                                <settlement>Marbach am Neckar</settlement>
-                                <repository>Deutsches Literaturarchiv</repository>
-                                <idno>A:Schnitzler, HS.NZ85.1.2577,6</idno>
-                            </msIdentifier>
-                            <physDesc>
-                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte. Von Schnitzler mit
-                                    Bleistift datiert: »<quote><date>24/7 92</date></quote>«. Von unbekannter Hand mit rotem Buntstift nummeriert:
-                                        »<quote>7</quote>«.</p>
-                            </physDesc>
-                        </msDesc>
-                    </witness>
-                </listWit>
-                <listBibl>
-                    <biblStruct>
-                        <monogr>
-                            <author ref="#pmb11061">Bölsche, Wilhelm</author>
-                            <title level="m">Briefwechsel. Mit Autoren der Freien Bühne</title>
-                            <editor>Hg. Gerd-Hermann Susen</editor>
-                            <imprint>
-                                <pubPlace>Berlin</pubPlace>
-                                <publisher>Weidler</publisher>
-                                <date when="2010">2010</date>
-                            </imprint>
-                            <biblScope unit="pp">682</biblScope>
-                        </monogr>
-                        <series>
-                            <title level="s">Werke und Briefe. Wissenschaftliche Ausgabe</title>
-                            <biblScope unit="vol">Briefe I</biblScope>
-                        </series>
-                    </biblStruct>
-                </listBibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-            <correspDesc>
-                <correspAction  type="sent">
-                    <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
-                    <placeName ref="#pmb168">Berlin</placeName>
-                    <date when="1892-07-24" n="01">[24.&#160;7.&#160;1892]</date>
-                </correspAction>
-                <correspAction  type="received">
-                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                </correspAction>
-            <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1892-05-27_01">Schnitzler an Bölsche, 27.&#160;5.&#160;1892</ptr>
-               <ptr type="next" subtype="toAuthor" target="1893-04-10_01">Schnitzler an Bölsche, 10.&#160;4.&#160;1893</ptr>
-            </correspContext>
-         </correspDesc>
-        </profileDesc>
-        <revisionDesc status="approved">
-            <change who="GHS" when="2019-01-17">Angelegt aus Buchausgabe</change>
-            <change who="MAM" when="2019-01-31">Index check</change>
-            <change who="MAM" when="2019-03-05">Durchsicht</change>
-            <change who="GHS" when="2019-09-14">finalisiert</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url=""/>
-        <!-- $$$$ Dateinamen müssen noch ergänzt werden! -->
-    </facsimile>
-    <text type="letter">
-        <body>
-            <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="HS.NZ85.1.2577,6-1"/><rs ref="#pmb1275" type="place">Friedrichshagen</rs><lb/>b. <rs ref="#pmb168" type="place">Berlin</rs>.<lb/><rs ref="#pmb1276" type="place">Wilhelmſtr. 72</rs>.</dateline><salute rend="center">Hochverehrter Herr Doktor!</salute></opener><p>Zu meinem Erſtaunen erſehe ich aus Ihrem Briefe, daß ein vor längerer Zeit ſchon
-                    an Sie abgeſandter Brief Sie offenbar nicht erreicht hat. Ich ſchrieb damals,
-                    daß ich betreffs Ihrer <rs type="work" ref="#pmb30169" subtype="implied">Novelle</rs> etwas <add place="above">in</add> Zweifel ſei, ob ſie ſich für eine Zeitſchrift eigne –
-                    des Motivs wegen – und ſtellte Ihnen anheim, ob Sie mir nicht lieber eine andere
-                    dafür geben wollten. Glücklicher Weiſe – wie ich jetzt ſagen muß – legte ich in
-                        <pb facs="HS.NZ85.1.2577,6-2"/>meiner Unſchlüſſigkeit das Manuſkript nicht
-                    bei,&#160;– ich wollte es erſt noch von eine<subst><del rend="strikethrough">m</del><add place="above">n</add></subst> Andern leſen laſſen, um <del rend="strikethrough">d</del> zu ſehen, ob
-                    ich mich nicht über die bedenkliche Wirkung täuſche. Es iſt alſo noch hier, und
-                    ich lege es heute bei – zugleich unter Wiederholung der Bitte um etwas Anderes.
-                    Der <rs type="work" ref="#pmb30169" subtype="implied">Stoff</rs> iſt wirklich »zeitſchriftlich«
-                    unmöglich!</p><closer>Mit herzlichem Gruß<lb/>Ihr<lb/><signed>W. Bölsche</signed></closer></div>
-        </body>
-    </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-07-24_01_Boelsche_AS"><teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+<title level="a">Wilhelm Bölsche an Arthur Schnitzler, [24. 7. 1892]</title>
+<author ref="#pmb11061">Bölsche, Wilhelm</author>
+<editor>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</editor>
+<funder>
+<name>FWF - Fonds für Wissenschaft und Forschung</name>
+<address>
+<street>Sensengasse 1</street>
+<postCode>1090 Wien</postCode>
+<placeName>
+<country>A</country>
+<settlement>Wien</settlement>
+</placeName>
+</address>
+</funder>
+</titleStmt>
+<editionStmt>
+<edition>ASBW</edition>
+<respStmt>
+<resp>Transkription und Kommentierung</resp>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Austrian Academy of Sciences, Vienna</publisher>
+<idno type="ASBW" n="2173"/>
+<availability status="free">
+<p>Copyright © 2018</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+</seriesStmt>
+<sourceDesc>
+<listWit>
+<witness n="1">
+<msDesc>
+<msIdentifier>
+<country>D</country>
+<settlement>Marbach am Neckar</settlement>
+<repository>Deutsches Literaturarchiv</repository>
+<idno>A:Schnitzler, HS.NZ85.1.2577,6</idno>
+</msIdentifier>
+<physDesc>
+<p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Von Schnitzler mit Bleistift datiert: »<quote>
+<date>24/7 92</date>
+</quote>«. Von unbekannter Hand mit rotem Buntstift nummeriert: »<quote>7</quote>«.</p>
+</physDesc>
+</msDesc>
+</witness>
+</listWit>
+<listBibl>
+<biblStruct>
+<monogr>
+<author ref="#pmb11061">Bölsche, Wilhelm</author>
+<title level="m">Briefwechsel. Mit Autoren der Freien Bühne</title>
+<editor>Hg. Gerd-Hermann Susen</editor>
+<imprint>
+<pubPlace>Berlin</pubPlace>
+<publisher>Weidler</publisher>
+<date when="2010">2010</date>
+</imprint>
+<biblScope unit="pp">682</biblScope>
+</monogr>
+<series>
+<title level="s">Werke und Briefe. Wissenschaftliche Ausgabe</title>
+<biblScope unit="vol">Briefe I</biblScope>
+</series>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de-AT">German</language>
+</langUsage>
+<correspDesc>
+<correspAction type="sent">
+<persName ref="#pmb11061">Bölsche, Wilhelm</persName>
+<placeName ref="#pmb168">Berlin</placeName>
+<date when="1892-07-24" n="01">[24. 7. 1892]</date>
+</correspAction>
+<correspAction type="received">
+<persName ref="#pmb2121">Schnitzler, Arthur</persName>
+<placeName ref="#pmb50">Wien</placeName>
+</correspAction>
+<correspContext>
+<ptr type="previous" subtype="toAuthor" target="1892-05-27_01">Schnitzler an Bölsche, 27. 5. 1892</ptr>
+<ptr type="next" subtype="toAuthor" target="1893-04-10_01">Schnitzler an Bölsche, 10. 4. 1893</ptr>
+</correspContext>
+</correspDesc>
+</profileDesc>
+<encodingDesc>
+<refsDecl>
+<ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, e.g. <ref type="schnitzlerDiary" target="1891-05-15"/> The complete URI is either: "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?directory=editions&amp;document=entry__1912-05-15.xml" (whereas &amp; has to be replaced with the single character ampersand) or "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-15.xml". </ab>
+</refsDecl>
+</encodingDesc>
+<revisionDesc status="approved">
+<change who="GHS" when="2019-01-17">Angelegt aus Buchausgabe</change>
+<change who="MAM" when="2019-01-31">Index check</change>
+<change who="MAM" when="2019-03-05">Durchsicht</change>
+<change who="GHS" when="2019-09-14">finalisiert</change>
+</revisionDesc>
+</teiHeader><facsimile><graphic url=""/><!-- $$$$ Dateinamen müssen noch ergänzt werden! --></facsimile><text type="letter"><body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="HS.NZ85.1.2577,6-1"/><rs ref="#pmb1275" type="place">Friedrichshagen</rs><lb/>b. <rs ref="#pmb168" type="place">Berlin</rs>.<lb/><rs ref="#pmb1276" type="place">Wilhelmſtr. 72</rs>.</dateline><salute rend="center">Hochverehrter Herr Doktor!</salute></opener><p>Zu meinem Erſtaunen erſehe ich aus Ihrem Briefe, daß ein vor längerer Zeit ſchon an Sie abgeſandter Brief Sie offenbar nicht erreicht hat. Ich ſchrieb damals, daß ich betreffs Ihrer <rs type="work" ref="#pmb30169" subtype="implied">Novelle</rs> etwas <add place="above">in</add> Zweifel ſei, ob ſie ſich für eine Zeitſchrift eigne – des Motivs wegen – und ſtellte Ihnen anheim, ob Sie mir nicht lieber eine andere dafür geben wollten. Glücklicher Weiſe – wie ich jetzt ſagen muß – legte ich in <pb facs="HS.NZ85.1.2577,6-2"/>meiner Unſchlüſſigkeit das Manuſkript nicht bei, – ich wollte es erſt noch von eine<subst><del rend="strikethrough">m</del><add place="above">n</add></subst> Andern leſen laſſen, um <del rend="strikethrough">d</del> zu ſehen, ob ich mich nicht über die bedenkliche Wirkung täuſche. Es iſt alſo noch hier, und ich lege es heute bei – zugleich unter Wiederholung der Bitte um etwas Anderes. Der <rs type="work" ref="#pmb30169" subtype="implied">Stoff</rs> iſt wirklich »zeitſchriftlich« unmöglich!</p><closer>Mit herzlichem Gruß<lb/>Ihr<lb/><signed>W. Bölsche</signed></closer></div></body></text></TEI>

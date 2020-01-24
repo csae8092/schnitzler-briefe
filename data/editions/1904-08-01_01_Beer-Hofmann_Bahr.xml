@@ -1,158 +1,132 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1904-08-01_01_Beer-Hofmann_Bahr">
-  <teiHeader type="text">
-      <fileDesc>
-         <titleStmt>
-            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Beer-Hofmann an Bahr, 1.&#160;8.&#160;1904</title>
-            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
-            <editor>
-               
-               <name full="yes" instant="false">Müller, Martin Anton</name>
-            </editor>
-            <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>  
-                     <settlement>Wien</settlement>
-                  </placeName> 
-               </address>
-            </funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>HBAS</edition>
-            <respStmt>
-               <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Austrian Academy of Sciences, Vienna</publisher> 
-            <idno type="HBAS-L" n="1525"/>
-            <availability status="free">
-               <p>Copyright © 2018</p>
-            </availability>
-         </publicationStmt>
-         <seriesStmt>
-            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-         </seriesStmt>
-         <sourceDesc>
-            
-            <listWit>
-               <witness n="1">
-                  <msDesc>
-                     <msIdentifier>
-                        <country>A</country>           
-                        <settlement>Wien</settlement>
-                        <repository>Theatermuseum</repository>
-                        <idno>HS AM 15513 Ba</idno>
-                     </msIdentifier>
-                     <physDesc>
-                        <p>hs. Brief, 1&#160;Bl., 2&#160;S., Lateinschrift</p>
-                     </physDesc>
-                  </msDesc>
-               </witness>
-            </listWit>
-            <listBibl>
-               <biblStruct corresp="BHHB2">
-                  <monogr>
-                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
-                     <title level="m">Briefe.&#160;1895–1945</title>
-                     <editor>Hg. und kommentiert von Alexander Košenina</editor>
-                     <imprint>
-                        <pubPlace>Oldenburg</pubPlace>
-                        <publisher>Igel</publisher>
-                        <date when="1999">1999</date>
-                     </imprint>
-                     <biblScope unit="pp">15–16</biblScope>
-                  </monogr> 
-               </biblStruct>
-               <biblStruct corresp="BHHB1">
-                  <analytic>
-                     <author>Berlin, Jeffrey B.</author>
-                     <title level="a">The Unpublished Letters of Richard Beer-Hofmann to Hermann Bahr (with the unpublished letters between Beer-Hofmann and Theodor Herzl)</title>
-                  </analytic>
-                  <monogr>
-                     <editor>Hg. Gelber, Mark H</editor>
-                     <title level="m">Identity and Ethos. A Festschrift for Sol Liptzin on the Occasion of His 85th Birthday</title>
-                     <imprint>
-                        <pubPlace>New York, Bern, Frankfurt am Main</pubPlace>
-                        <publisher>Peter Lang</publisher>
-                        <date when="1986">1986</date>
-                     </imprint>
-                     <biblScope unit="pp">127</biblScope>
-                  </monogr> 
-               </biblStruct>
-               <biblStruct>                              
-                  <monogr>                             
-                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
-                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
-                     <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
-                     <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
-                     <imprint>                                       
-                        <pubPlace>Göttingen</pubPlace>                                       
-                        <publisher>Wallstein</publisher>                                       
-                        <date when="2018">2018</date>                                  
-                     </imprint>                             
-                  </monogr>                     
-               </biblStruct>
-            </listBibl>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="de-AT">German</language>
-         </langUsage>
-         <correspDesc>
-            <correspAction  type="sent">
-               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName ref="#pmb415">Bad Aussee</placeName>
-               <date when="1904-08-01" n="01">1.&#160;8.&#160;1904</date>
-            </correspAction>
-            <correspAction  type="received">
-               <persName ref="#pmb10815">Bahr, Hermann</persName>
-               <placeName ref="#pmb734">[Bayreuth]</placeName>
-            </correspAction>
-            <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1904-07-28_01">Schnitzler an Beer-Hofmann, 28.&#160;7.&#160;1904</ptr>
-               <ptr type="next" subtype="toAuthor" target="1904-08-09_02">Beer-Hofmann an Bahr, 9.&#160;8.&#160;1904</ptr>
-            </correspContext>
-         </correspDesc>
-      </profileDesc>
-      <revisionDesc status="candidate">
-         <change who="MAM" when="2016-04-10">Angelegt nach Buchausgabe</change>
-         <change who="MAM" when="2016-04-11">Durchsicht mit Original</change>
-         <change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
-      </revisionDesc>
-  </teiHeader>
-  <text type="letter">
-      <body>
-         <div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb415" type="place">Aussee</rs><space unit="chars" quantity="1"/><date>1/VIII 04</date>.</dateline></opener><p><salute>Lieber Hermann! </salute> Aus Ihrem
-            <rs ref="#pmb30" type="place">Salzburg</rs>er Brief hab ich entnommen: </p><p>I. Dass Sie nur meinetwegen über <rs ref="#pmb30" type="place">Salzburg</rs>
-          wollen </p><p>II. Dass Sie <hi rend="underline" n="1">nachts</hi> in
-              <rs ref="#pmb30" type="place">Salzburg</rs> ankommen, und <hi rend="underline" n="1">nachts</hi> nach
-            <rs ref="#pmb50" type="place">Wien</rs> fahren müssen.</p><p>III. <hi rend="underline" n="1">Dass</hi> All das nur wegen <hi rend="underline" n="1">eines</hi> Tages
-          geschieht.</p><p>Schön wär es gewesen wenn wir doch zwei Tage hätten in
-              <rs ref="#pmb30" type="place">Salzburg</rs> sein können. Zwischen
-            <rs ref="#pmb180" type="place">Mirabell</rs><space unit="chars" quantity="1"/><rs ref="#pmb31" type="place">Hellbrunn</rs>, <rs ref="#pmb637" type="place">Pferdeschwemme</rs> und <rs ref="#pmb638" type="place">Hohensalzburg</rs> und
-          irgend einer Spazierfahrt am Abend zwischen Feldern <del rend="strikethrough">am</del> und
-          Gehöften hätten sich ein paar Stunden wol gefunden, wo ich gerne mein <rs type="work" ref="#pmb30233" subtype="implied">Stück</rs> (das noch unfertige – <unclear>h</unclear>eu!) Ihnen
-          vorgelesen, und Sie <pb/>mühelo<del rend="strikethrough">o</del>s zugehört hätten. So
-          hätte das Stück den Tag gefüllt und für
-            <rs ref="#pmb30" type="place">Salzburg</rs>, und uns Beide wäre nichts
-          übrig geblieben. Ein Unrecht gegen alle Drei. Ich will jetzt recht fleissig sein,
-          vielleicht giebt sich dann Ende des Monates, irgend eine Geleg<damage agent="hole"><supplied>en</supplied></damage>heit uns noch vor <rs ref="#pmb50" type="place">Wien</rs> zu sehen.</p><p><rs ref="#pmb2121" type="person">Arthur</rs> kommt Ende August nach
-              <rs ref="#pmb213" type="place">Ischl</rs>. <rs ref="#pmb11740" type="person">Hugo</rs> hat sich heute Vormittag bei mir gemeldet.</p><p>Die drei schon vernunftbegabten von uns <rs ref="#pmb10860" type="person">Paula</rs>,
-            <rs ref="#pmb2668" type="person">Mirjam</rs> und ich grüssen Sie von Herzen, die andern <rs type="person" ref="#pmb2534 #pmb13923" subtype="implied">zwei</rs> liegen jetzt faul und verfressen im
-          Gras.</p><closer>Ihr<lb/><signed>Richard</signed></closer></div>
-      </body>
-  </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1904-08-01_01_Beer-Hofmann_Bahr"><teiHeader type="text">
+<fileDesc>
+<titleStmt>
+<title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+<title level="a">Beer-Hofmann an Bahr, 1. 8. 1904</title>
+<author ref="#pmb10863">Beer-Hofmann, Richard</author>
+<editor>
+<name>Müller, Martin Anton</name>
+</editor>
+<funder>
+<name>FWF – Fonds für Wissenschaft und Forschung</name>
+<address>
+<street>Sensengasse 1</street>
+<postCode>1090 Wien</postCode>
+<placeName>
+<country>A</country>
+<settlement>Wien</settlement>
+</placeName>
+</address>
+</funder>
+</titleStmt>
+<editionStmt>
+<edition>HBAS</edition>
+<respStmt>
+<resp>Transkription und Kommentierung</resp>
+<name>Kurt Ifkovits</name>
+<name>Martin Anton Müller</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Austrian Academy of Sciences, Vienna</publisher>
+<idno type="HBAS-L" n="1525"/>
+<availability status="free">
+<p>Copyright © 2018</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+</seriesStmt>
+<sourceDesc>
+<listWit>
+<witness n="1">
+<msDesc>
+<msIdentifier>
+<country>A</country>
+<settlement>Wien</settlement>
+<repository>Theatermuseum</repository>
+<idno>HS AM 15513 Ba</idno>
+</msIdentifier>
+<physDesc>
+<p>hs. Brief, 1 Bl., 2 S., Lateinschrift</p>
+</physDesc>
+</msDesc>
+</witness>
+</listWit>
+<listBibl>
+<biblStruct corresp="BHHB2">
+<monogr>
+<author ref="#pmb10863">Beer-Hofmann, Richard</author>
+<title level="m">Briefe. 1895–1945</title>
+<editor>Hg. und kommentiert von Alexander Košenina</editor>
+<imprint>
+<pubPlace>Oldenburg</pubPlace>
+<publisher>Igel</publisher>
+<date when="1999">1999</date>
+</imprint>
+<biblScope unit="pp">15–16</biblScope>
+</monogr>
+</biblStruct>
+<biblStruct corresp="BHHB1">
+<analytic>
+<author>Berlin, Jeffrey B.</author>
+<title level="a">The Unpublished Letters of Richard Beer-Hofmann to Hermann Bahr (with the unpublished letters between Beer-Hofmann and Theodor Herzl)</title>
+</analytic>
+<monogr>
+<editor>Hg. Gelber, Mark H</editor>
+<title level="m">Identity and Ethos. A Festschrift for Sol Liptzin on the Occasion of His 85th Birthday</title>
+<imprint>
+<pubPlace>New York, Bern, Frankfurt am Main</pubPlace>
+<publisher>Peter Lang</publisher>
+<date when="1986">1986</date>
+</imprint>
+<biblScope unit="pp">127</biblScope>
+</monogr>
+</biblStruct>
+<biblStruct>
+<monogr>
+<author ref="#pmb10815">Bahr, Hermann</author>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+<editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
+<imprint>
+<pubPlace>Göttingen</pubPlace>
+<publisher>Wallstein</publisher>
+<date when="2018">2018</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de-AT">German</language>
+</langUsage>
+<correspDesc>
+<correspAction type="sent">
+<persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+<placeName ref="#pmb415">Bad Aussee</placeName>
+<date when="1904-08-01" n="01">1. 8. 1904</date>
+</correspAction>
+<correspAction type="received">
+<persName ref="#pmb10815">Bahr, Hermann</persName>
+<placeName ref="#pmb734">[Bayreuth]</placeName>
+</correspAction>
+<correspContext>
+<ptr type="previous" subtype="toAuthor" target="1904-07-28_01">Schnitzler an Beer-Hofmann, 28. 7. 1904</ptr>
+<ptr type="next" subtype="toAuthor" target="1904-08-09_02">Beer-Hofmann an Bahr, 9. 8. 1904</ptr>
+</correspContext>
+</correspDesc>
+</profileDesc>
+<encodingDesc>
+<refsDecl>
+<ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, e.g. <ref type="schnitzlerDiary" target="1891-05-15"/> The complete URI is either: "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?directory=editions&amp;document=entry__1912-05-15.xml" (whereas &amp; has to be replaced with the single character ampersand) or "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-15.xml". </ab>
+</refsDecl>
+</encodingDesc>
+<revisionDesc status="candidate">
+<change who="MAM" when="2016-04-10">Angelegt nach Buchausgabe</change>
+<change who="MAM" when="2016-04-11">Durchsicht mit Original</change>
+<change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
+</revisionDesc>
+</teiHeader><text type="letter"><body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb415" type="place">Aussee</rs><space unit="chars" quantity="1"/><date>1/VIII 04</date>.</dateline></opener><p><salute>Lieber Hermann! </salute> Aus Ihrem <rs ref="#pmb30" type="place">Salzburg</rs>er Brief hab ich entnommen: </p><p>I. Dass Sie nur meinetwegen über <rs ref="#pmb30" type="place">Salzburg</rs> wollen </p><p>II. Dass Sie <hi rend="underline" n="1">nachts</hi> in <rs ref="#pmb30" type="place">Salzburg</rs> ankommen, und <hi rend="underline" n="1">nachts</hi> nach <rs ref="#pmb50" type="place">Wien</rs> fahren müssen.</p><p>III. <hi rend="underline" n="1">Dass</hi> All das nur wegen <hi rend="underline" n="1">eines</hi> Tages geschieht.</p><p>Schön wär es gewesen wenn wir doch zwei Tage hätten in <rs ref="#pmb30" type="place">Salzburg</rs> sein können. Zwischen <rs ref="#pmb180" type="place">Mirabell</rs><space unit="chars" quantity="1"/><rs ref="#pmb31" type="place">Hellbrunn</rs>, <rs ref="#pmb637" type="place">Pferdeschwemme</rs> und <rs ref="#pmb638" type="place">Hohensalzburg</rs> und irgend einer Spazierfahrt am Abend zwischen Feldern <del rend="strikethrough">am</del> und Gehöften hätten sich ein paar Stunden wol gefunden, wo ich gerne mein <rs type="work" ref="#pmb30233" subtype="implied">Stück</rs> (das noch unfertige – <unclear>h</unclear>eu!) Ihnen vorgelesen, und Sie <pb/>mühelo<del rend="strikethrough">o</del>s zugehört hätten. So hätte das Stück den Tag gefüllt und für <rs ref="#pmb30" type="place">Salzburg</rs>, und uns Beide wäre nichts übrig geblieben. Ein Unrecht gegen alle Drei. Ich will jetzt recht fleissig sein, vielleicht giebt sich dann Ende des Monates, irgend eine Geleg<damage agent="hole"><supplied>en</supplied></damage>heit uns noch vor <rs ref="#pmb50" type="place">Wien</rs> zu sehen.</p><p><rs ref="#pmb2121" type="person">Arthur</rs> kommt Ende August nach <rs ref="#pmb213" type="place">Ischl</rs>. <rs ref="#pmb11740" type="person">Hugo</rs> hat sich heute Vormittag bei mir gemeldet.</p><p>Die drei schon vernunftbegabten von uns <rs ref="#pmb10860" type="person">Paula</rs>, <rs ref="#pmb2668" type="person">Mirjam</rs> und ich grüssen Sie von Herzen, die andern <rs type="person" ref="#pmb2534 #pmb13923" subtype="implied">zwei</rs> liegen jetzt faul und verfressen im Gras.</p><closer>Ihr<lb/><signed>Richard</signed></closer></div></body></text></TEI>

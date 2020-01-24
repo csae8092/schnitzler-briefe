@@ -216,7 +216,7 @@ let $searchkey:= '#'||$searchkey
 let $entities := collection($app:data)//tei:TEI[.//*/@ref=$searchkey]
 let $terms := collection($app:editions)//tei:TEI[.//tei:term[./text() eq substring-after($searchkey, '#')]]
 for $title in ($entities, $terms)
-    let $docTitle := string-join(root($title)//tei:titleStmt/tei:title[@type='main']//text(), ' ')
+    let $docTitle := string-join(root($title)//tei:titleStmt/tei:title[@level='a']//text(), ' ')
     let $hits := if (count(root($title)//*[@ref=$searchkey]) = 0) then 1 else count(root($title)//*[@ref=$searchkey])
     let $collection := app:getColName($title)
     let $snippet :=
@@ -387,6 +387,7 @@ declare function app:tocModal($node as node(), $model as map(*)) {
     </div>
 };
 
+
 (:~
  : creates a basic table of contents derived from the documents stored in '/data/editions'
  :)
@@ -399,7 +400,8 @@ declare function app:toc($node as node(), $model as map(*)) {
         else
             collection(concat($config:app-root, '/data/editions/'))//tei:TEI
     for $title in $docs
-        let $date := $title//tei:title//text()
+        let $title_a := $title//tei:title[@level='a']//text()
+        let $date := $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date
         let $link2doc := if ($collection)
             then
                 <a href="{app:hrefToDoc($title, $collection)}">{app:getDocName($title)}</a>
@@ -407,12 +409,14 @@ declare function app:toc($node as node(), $model as map(*)) {
                 <a href="{app:hrefToDoc($title)}">{app:getDocName($title)}</a>
         return
         <tr>
-           <td>{$date}</td>
+        
+           <td>{$title_a}</td>
             <td>
                 {$link2doc}
             </td>
         </tr>
 };
+
 
 (:~
  : perfoms an XSLT transformation
@@ -587,7 +591,7 @@ let $contents :=
 <result>{
 for $x in collection($app:editions)//tei:TEI[.//tei:date[@when castable as xs:date]]
     let $startDate : = data($x//*[@when castable as xs:date][1]/@when)
-    let $name := $x//tei:titleStmt/tei:title[@type="main"]/text()
+    let $name := $x//tei:titleStmt/tei:title[@level='a']/text()
     let $id := app:hrefToDoc($x)
     return
         <item>

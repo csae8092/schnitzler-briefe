@@ -1,183 +1,127 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1913-05-23_01_Zweig_AS">
-    <teiHeader type="text">
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Stefan Zweig an Arthur Schnitzler, 23.&#160;5.&#160;1913</title> 
-                <author ref="#pmb13212">Zweig, Stefan</author>
-                <editor>
-               
-                    <name full="yes" instant="false">Müller, Martin Anton</name>
-            </editor>
-                <funder>
-                    <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Wien</postCode>
-                        <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>HBAS</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name full="yes" instant="false">Kurt Ifkovits</name>
-                    <name full="yes" instant="false">Martin Anton Müller</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="HBAS-L" n="1274"/>
-                <availability status="free">
-                    <p>Copyright © 2015</p>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness n="1">
-                        <msDesc>
-                                <msIdentifier>
-                                    <country>GB</country>            
-                                    <settlement>Cambridge</settlement>            
-                                    <repository>University Library</repository>            
-                                    <idno>Schnitzler, B&#160;118</idno>
-                                </msIdentifier>
-                            <physDesc>XXXX</physDesc>
-                        </msDesc>
-                    </witness>
-                </listWit>
-                
-                <listBibl>
-               <biblStruct>
-                  <monogr>
-                     <author ref="#pmb13212">Zweig, Stefan</author>
-                     <title level="m">Briefe 1897–1914</title>
-                     <editor>Hg. Knut Beck, Jeffrey B. Berlin und Natascha Weschenbach-Feggeler</editor>
-                     <imprint>
-                        <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
-                        <date when="1989">1995</date>
-                     </imprint>
-                     <biblScope unit="pp">273–275</biblScope>
-                  </monogr>
-               </biblStruct>
-                    <biblStruct corresp="SZBW"> 
-                  <monogr> 
-                     <author ref="#pmb13212">Zweig, Stefan</author> 
-                     <title level="m">Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler</title>
-                     <editor>Hg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater</editor>
-                     <imprint>
-                        <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
-                        <date when="1989">1987</date>
-                     </imprint>
-                     <biblScope unit="pp">375–377</biblScope>
-                  </monogr>
-               </biblStruct>
-               <biblStruct corresp="HBAS">                              
-                  <monogr>                             
-                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
-                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
-                     <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
-                     <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
-                     <imprint>                                       
-                        <pubPlace>Göttingen</pubPlace>                                       
-                        <publisher>Wallstein</publisher>                                       
-                        <date when="2018">2018</date>                                  
-                     </imprint>                             
-                  </monogr>                     
-               </biblStruct>
-            </listBibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-         <langUsage>
-            <language ident="de-AT">German</language>
-         </langUsage>
-         <correspDesc>
-            <correspAction  type="sent">
-               <persName ref="#pmb13212">Zweig, Stefan</persName>
-               <placeName ref="#pmb50">Wien</placeName>
-               <date when="1913-05-23" n="01">23.&#160;5.&#160;1913</date>
-            </correspAction>
-            <correspAction  type="received">
-               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-            </correspAction>
-            <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1908-01-15_01">Zweig an Schnitzler, 15.&#160;1.&#160;190[8?]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1913-05-25_01">Schnitzler an Zweig, 25.&#160;5.&#160;1913</ptr>
-            </correspContext>
-         </correspDesc>
-      </profileDesc>
-        <revisionDesc status="candidate">
-            <change who="MAM" when="2016-06-20">Angelegt</change>
-         <change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
-         </revisionDesc>
-    </teiHeader>
-    <text type="letter">
-        <body>
-           
-            <div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb728" type="place">VIII. Kochgasse</rs><lb/><rs ref="#pmb50" type="place">Wien</rs>, <date>23.&#160;V.&#160;13</date></dateline></opener><p><salute>Verehrter Herr Doktor, </salute>ich habe soeben Ihre neue <rs type="work" ref="#pmb32133" subtype="implied">Novelle</rs> empfangen und keine eigene Arbeit ist mir so wichtig, um
-                    nicht sofort für so liebe Lectüre unterbrochen zu werden. In einem Zug von
-                    Anfang bis zu Ende, hatte ich doch nachher das Gefühl einer grossen Fülle, das
-                    einen immer überkommt, wenn man Existenzen nicht an einem zufälligen Punkte
-                    ihres Schicksals anstreift sondern durchlebt bis zu jenem innersten Kern, in dem
-                    die ganze Summe ihres Lebens in stärkstem Extract eingepresst ist. Nichts ist
-                    darin eigentlich episodisch, sondern Alles so zum Notwendigen herangedrängt,
-                    dass – wie in jedem vollendeten epischen Werk – es gar keine Hauptfigur mehr
-                    gibt, sondern jeder von seiner Seite das Geschehen beherrscht und ihr
-                    Gegeneinanderspiel zu einem harmonischen Kampf der Kräfte wird. Reute es mich im
-                    ersten und mittleren Teile, das Geschehnis nicht dramatisch gestaltet zu sehen –
-                    ich habe das Empfinden, als hätte sich der Stoff ihnen<!-- sic! --> zuerst
-                    dramatisch dargestellt, so stark ist das plastische Entgegentreten der Figuren –
-                    der Schluss überzeugte mich durch seine Harmonie, dass hier die Form zu wählen
-                    war, die <rs type="work" ref="#pmb32133" subtype="implied">Novelle</rs> das einzig mögliche, weil nur sie
-                    die erhabene Beschwichtigung so erregter Gefühle duldet. Ich muss für Sie
-                    befürchten, dass Sie auf manche Gegnerschaft gerade diesmal stossen werden, weil
-                    Sie in so grosser Wahrhaftigkeit dem primitiv Sexuellen entgegengetreten sind,
-                    indess die meisten Menschen aus einer merkwürdigen innern Verlogenheit jede
-                    ihrer rein sexuellen Empfindungen mit dem Begriff Liebe verbrämen und selbst im
-                    Kunstwerk das reine nakte<!-- sic! --> Blutgefühl nicht dulden wollen: sie
-                    verwandeln dann gern ein falsches Schamgefühl in moralische oder ästhetische
-                    Abneigung, indess ich gerade jene Intensität des Körperlichen in Verbindung mit
-                    der atmosphärischen Elektricität dieser (wundervoll hingemalten) Sommertage als
-                    stärkste Wahrheit dieses Werkes empfinde. Der Schluss hat freilich auch mich im
-                    ersten Lesen befremdet, doch bin ich meiner hier weniger sicher als Ihrer und
-                    zweifle nicht, dass eine zweite und nun weniger von der Spannung nach vorwärts
-                    gejagte Lectüre mir die Notwendigkeit fühlbarer machen wird. Das Motiv der
-                    Entladung aufgestauter erotischer Kräfte, das die <rs ref="#pmb30486" type="work">Garlan</rs>
-                    und <rs ref="#pmb30207" type="work">Das weite Land</rs> schon so prachtvoll ausbildeten, ist
-                    hier zu wundervoller Vehemenz geworden und ich freue mich, dass wir an Ihnen
-                    gerade in jenen Jahren, wo die Dichter sonst gemessen und vorsichtig werden,
-                    ebenso wie im <rs ref="#pmb30203" type="work">Bernhardi</rs> eine männliche geradeausblickende
-                    Kühnheit so sehr bewundern dürfen. Für mich werden Ihre Werke immer
-                    selbstbewusster immer näher der Wahrheit, immer weiter vom Illusionären, das
-                    doch irgendwie immer mit Jugend und Träumerei zusammenhängt. Haben Sie innigen
-                    Dank auch für dieses Werk wie für all die andern, (mit denen ich öfter dank der
-                    schönen <rs type="work" ref="#pmb30313" subtype="implied">Gesamm<supplied>t</supplied>ausgabe</rs> jetzt
-                    Zwiesprache tausche, als Sie es vermuten möchten)<supplied>.</supplied></p><p>Vielleicht komme ich noch irgendwo zurecht, mich über das Werk öffentlich auseinanderzusetzen: es reizen mich so viele ineinandergefaltete Probleme hier einzeln vor den Blick zu stellen. Leider sind Ihre Bücher bei den Blättern fast immer schon am Tage des Erscheinens vergeben und man käme post festum.</p><p>Nun noch Eines: ich spreche <hi rend="italic">Montag</hi> um <hi rend="italic">½ 8 Uhr im kleinen
-                    Festsaal</hi> der <rs ref="#pmb386" type="place">Universität</rs> zur <anchor type="commentary" xml:id="KL274-1"/><rs ref="#pmb10815" type="person">Bahr</rs>-Feier<note type="commentary" xml:id="KL274-1h">Am <date>26.&#160;5.&#160;1913</date>, veranstaltet vom <rs ref="#pmb29767" type="org">Akademischen Verein für Kunst und Literatur</rs>. Der Veranstaltungsort änderte sich 
-        kurzfristig zum Hörsaal III des <rs ref="#pmb836" type="place">Elektrotechnischen Instituts der Technischen Universität</rs>.</note> und sage
-                    es offen, dass ich Sie <hi rend="italic">sehr gerne</hi> unter den Anwesenden
-                    sähe. Nicht um meinetwillen (der vielfach Widerspruch wecken dürfte, denn
-                        <rs ref="#pmb10815" type="person">Bahr</rs> ist eine so provocant agressive<!--- sic! -->
-                    Persönlichkeit, dass er sogar noch als Thema erbittert) sondern um
-                        <rs ref="#pmb10815" type="person">Bahr</rs>’s willen, von dem vielfach vermeint wird, er sei
-                    von seiner ganzen Generation heute irgendwie verlassen oder ihr entfremdet. Es
-                    ist ja zum Teil leider wahr, nicht aber, wie ich doch weiss, bei Ihnen: deshalb
-                    hätte ich, ohne zudringlich sein zu wollen, <hi rend="italic">für ihn</hi> gerne Ihre
-                    Gegenwart erbeten.</p><p>Empfangen Sie verehrter Herr Doktor nochmals den Dank alter und immer wieder erneuter Liebe und Verehrung von Ihrem getreu ergebenen</p><closer><signed>Stefan Zweig</signed></closer></div>
-        </body>
-    </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1913-05-23_01_Zweig_AS"><teiHeader type="text">
+<fileDesc>
+<titleStmt>
+<title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+<title level="a">Stefan Zweig an Arthur Schnitzler, 23. 5. 1913</title>
+<author ref="#pmb13212">Zweig, Stefan</author>
+<editor>
+<name>Müller, Martin Anton</name>
+</editor>
+<funder>
+<name>FWF - Fonds für Wissenschaft und Forschung</name>
+<address>
+<street>Sensengasse 1</street>
+<postCode>1090 Wien</postCode>
+<placeName>
+<country>A</country>
+<settlement>Wien</settlement>
+</placeName>
+</address>
+</funder>
+</titleStmt>
+<editionStmt>
+<edition>HBAS</edition>
+<respStmt>
+<resp>Transkription und Kommentierung</resp>
+<name>Kurt Ifkovits</name>
+<name>Martin Anton Müller</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Austrian Academy of Sciences, Vienna</publisher>
+<idno type="HBAS-L" n="1274"/>
+<availability status="free">
+<p>Copyright © 2015</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+</seriesStmt>
+<sourceDesc>
+<listWit>
+<witness n="1">
+<msDesc>
+<msIdentifier>
+<country>GB</country>
+<settlement>Cambridge</settlement>
+<repository>University Library</repository>
+<idno>Schnitzler, B 118</idno>
+</msIdentifier>
+<physDesc>
+<p>XXXX</p>
+</physDesc>
+</msDesc>
+</witness>
+</listWit>
+<listBibl>
+<biblStruct>
+<monogr>
+<author ref="#pmb13212">Zweig, Stefan</author>
+<title level="m">Briefe 1897–1914</title>
+<editor>Hg. Knut Beck, Jeffrey B. Berlin und Natascha Weschenbach-Feggeler</editor>
+<imprint>
+<pubPlace>Frankfurt am Main</pubPlace>
+<publisher>S. Fischer</publisher>
+<date when="1989">1995</date>
+</imprint>
+<biblScope unit="pp">273–275</biblScope>
+</monogr>
+</biblStruct>
+<biblStruct corresp="SZBW">
+<monogr>
+<author ref="#pmb13212">Zweig, Stefan</author>
+<title level="m">Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler</title>
+<editor>Hg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater</editor>
+<imprint>
+<pubPlace>Frankfurt am Main</pubPlace>
+<publisher>S. Fischer</publisher>
+<date when="1989">1987</date>
+</imprint>
+<biblScope unit="pp">375–377</biblScope>
+</monogr>
+</biblStruct>
+<biblStruct corresp="HBAS">
+<monogr>
+<author ref="#pmb10815">Bahr, Hermann</author>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+<editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
+<imprint>
+<pubPlace>Göttingen</pubPlace>
+<publisher>Wallstein</publisher>
+<date when="2018">2018</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de-AT">German</language>
+</langUsage>
+<correspDesc>
+<correspAction type="sent">
+<persName ref="#pmb13212">Zweig, Stefan</persName>
+<placeName ref="#pmb50">Wien</placeName>
+<date when="1913-05-23" n="01">23. 5. 1913</date>
+</correspAction>
+<correspAction type="received">
+<persName ref="#pmb2121">Schnitzler, Arthur</persName>
+</correspAction>
+<correspContext>
+<ptr type="previous" subtype="toAuthor" target="1908-01-15_01">Zweig an Schnitzler, 15. 1. 190[8?]</ptr>
+<ptr type="next" subtype="toAuthor" target="1913-05-25_01">Schnitzler an Zweig, 25. 5. 1913</ptr>
+</correspContext>
+</correspDesc>
+</profileDesc>
+<encodingDesc>
+<refsDecl>
+<ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, e.g. <ref type="schnitzlerDiary" target="1891-05-15"/> The complete URI is either: "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?directory=editions&amp;document=entry__1912-05-15.xml" (whereas &amp; has to be replaced with the single character ampersand) or "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-15.xml". </ab>
+</refsDecl>
+</encodingDesc>
+<revisionDesc status="candidate">
+<change who="MAM" when="2016-06-20">Angelegt</change>
+<change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
+</revisionDesc>
+</teiHeader><text type="letter"><body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb728" type="place">VIII. Kochgasse</rs><lb/><rs ref="#pmb50" type="place">Wien</rs>, <date>23. V. 13</date></dateline></opener><p><salute>Verehrter Herr Doktor, </salute>ich habe soeben Ihre neue <rs type="work" ref="#pmb32133" subtype="implied">Novelle</rs> empfangen und keine eigene Arbeit ist mir so wichtig, um nicht sofort für so liebe Lectüre unterbrochen zu werden. In einem Zug von Anfang bis zu Ende, hatte ich doch nachher das Gefühl einer grossen Fülle, das einen immer überkommt, wenn man Existenzen nicht an einem zufälligen Punkte ihres Schicksals anstreift sondern durchlebt bis zu jenem innersten Kern, in dem die ganze Summe ihres Lebens in stärkstem Extract eingepresst ist. Nichts ist darin eigentlich episodisch, sondern Alles so zum Notwendigen herangedrängt, dass – wie in jedem vollendeten epischen Werk – es gar keine Hauptfigur mehr gibt, sondern jeder von seiner Seite das Geschehen beherrscht und ihr Gegeneinanderspiel zu einem harmonischen Kampf der Kräfte wird. Reute es mich im ersten und mittleren Teile, das Geschehnis nicht dramatisch gestaltet zu sehen – ich habe das Empfinden, als hätte sich der Stoff ihnen<!-- sic! --> zuerst dramatisch dargestellt, so stark ist das plastische Entgegentreten der Figuren – der Schluss überzeugte mich durch seine Harmonie, dass hier die Form zu wählen war, die <rs type="work" ref="#pmb32133" subtype="implied">Novelle</rs> das einzig mögliche, weil nur sie die erhabene Beschwichtigung so erregter Gefühle duldet. Ich muss für Sie befürchten, dass Sie auf manche Gegnerschaft gerade diesmal stossen werden, weil Sie in so grosser Wahrhaftigkeit dem primitiv Sexuellen entgegengetreten sind, indess die meisten Menschen aus einer merkwürdigen innern Verlogenheit jede ihrer rein sexuellen Empfindungen mit dem Begriff Liebe verbrämen und selbst im Kunstwerk das reine nakte<!-- sic! --> Blutgefühl nicht dulden wollen: sie verwandeln dann gern ein falsches Schamgefühl in moralische oder ästhetische Abneigung, indess ich gerade jene Intensität des Körperlichen in Verbindung mit der atmosphärischen Elektricität dieser (wundervoll hingemalten) Sommertage als stärkste Wahrheit dieses Werkes empfinde. Der Schluss hat freilich auch mich im ersten Lesen befremdet, doch bin ich meiner hier weniger sicher als Ihrer und zweifle nicht, dass eine zweite und nun weniger von der Spannung nach vorwärts gejagte Lectüre mir die Notwendigkeit fühlbarer machen wird. Das Motiv der Entladung aufgestauter erotischer Kräfte, das die <rs ref="#pmb30486" type="work">Garlan</rs> und <rs ref="#pmb30207" type="work">Das weite Land</rs> schon so prachtvoll ausbildeten, ist hier zu wundervoller Vehemenz geworden und ich freue mich, dass wir an Ihnen gerade in jenen Jahren, wo die Dichter sonst gemessen und vorsichtig werden, ebenso wie im <rs ref="#pmb30203" type="work">Bernhardi</rs> eine männliche geradeausblickende Kühnheit so sehr bewundern dürfen. Für mich werden Ihre Werke immer selbstbewusster immer näher der Wahrheit, immer weiter vom Illusionären, das doch irgendwie immer mit Jugend und Träumerei zusammenhängt. Haben Sie innigen Dank auch für dieses Werk wie für all die andern, (mit denen ich öfter dank der schönen <rs type="work" ref="#pmb30313" subtype="implied">Gesamm<supplied>t</supplied>ausgabe</rs> jetzt Zwiesprache tausche, als Sie es vermuten möchten)<supplied>.</supplied></p><p>Vielleicht komme ich noch irgendwo zurecht, mich über das Werk öffentlich auseinanderzusetzen: es reizen mich so viele ineinandergefaltete Probleme hier einzeln vor den Blick zu stellen. Leider sind Ihre Bücher bei den Blättern fast immer schon am Tage des Erscheinens vergeben und man käme post festum.</p><p>Nun noch Eines: ich spreche <hi rend="italic">Montag</hi> um <hi rend="italic">½ 8 Uhr im kleinen Festsaal</hi> der <rs ref="#pmb386" type="place">Universität</rs> zur <anchor type="commentary" xml:id="KL274-1"/><rs ref="#pmb10815" type="person">Bahr</rs>-Feier<note type="commentary" xml:id="KL274-1h">Am <date>26. 5. 1913</date>, veranstaltet vom <rs ref="#pmb29767" type="org">Akademischen Verein für Kunst und Literatur</rs>. Der Veranstaltungsort änderte sich kurzfristig zum Hörsaal III des <rs ref="#pmb836" type="place">Elektrotechnischen Instituts der Technischen Universität</rs>.</note> und sage es offen, dass ich Sie <hi rend="italic">sehr gerne</hi> unter den Anwesenden sähe. Nicht um meinetwillen (der vielfach Widerspruch wecken dürfte, denn <rs ref="#pmb10815" type="person">Bahr</rs> ist eine so provocant agressive<!--- sic! --> Persönlichkeit, dass er sogar noch als Thema erbittert) sondern um <rs ref="#pmb10815" type="person">Bahr</rs>’s willen, von dem vielfach vermeint wird, er sei von seiner ganzen Generation heute irgendwie verlassen oder ihr entfremdet. Es ist ja zum Teil leider wahr, nicht aber, wie ich doch weiss, bei Ihnen: deshalb hätte ich, ohne zudringlich sein zu wollen, <hi rend="italic">für ihn</hi> gerne Ihre Gegenwart erbeten.</p><p>Empfangen Sie verehrter Herr Doktor nochmals den Dank alter und immer wieder erneuter Liebe und Verehrung von Ihrem getreu ergebenen</p><closer><signed>Stefan Zweig</signed></closer></div></body></text></TEI>

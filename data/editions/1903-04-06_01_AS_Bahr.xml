@@ -1,183 +1,139 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1903-04-06_01_AS_Bahr">
-  <teiHeader type="text">
-      <fileDesc>
-         <titleStmt>
-            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 6.&#160;4.&#160;1903</title>
-            <author ref="#pmb2121">Schnitzler, Arthur</author>
-            <editor>
-               
-               <name full="yes" instant="false">Müller, Martin Anton</name>
-            </editor>
-            <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>  
-                     <settlement>Wien</settlement>
-                  </placeName> 
-               </address>
-            </funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>HBAS</edition>
-            <respStmt>
-               <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Austrian Academy of Sciences, Vienna</publisher> 
-            <idno type="HBAS-L" n="1055"/>
-            <availability status="free">
-               <p>Copyright © 2018</p>
-            </availability>
-         </publicationStmt>
-         <seriesStmt>
-            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-         </seriesStmt>
-         <sourceDesc>
-            
-            <listWit>
-               <witness n="1">
-                  <msDesc>
-                     <msIdentifier>
-                        <country>A</country>           
-                        <settlement>Wien</settlement>
-                        <repository>Theatermuseum</repository>
-                        <idno>HS AM 23354 Ba</idno>
-                     </msIdentifier>
-                     <physDesc>
-                        <p>eh. Brief, 2&#160;Bl., 7&#160;S.</p>
-                     </physDesc>
-                  </msDesc>
-               </witness>
-            </listWit>
-            <listBibl>
-               <biblStruct corresp="ASB1">
-                  <monogr>
-                     <author ref="#pmb2121">Schnitzler, Arthur</author>
-                     <title level="m">Briefe 1875–1912</title>
-                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
-                     <imprint>
-                        <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
-                        <date when="1981">1981</date>
-                     </imprint>
-                     <biblScope unit="pp">458–460</biblScope>
-                  </monogr> 
-               </biblStruct>
-               <biblStruct corresp="DASB">
-                  <analytic>
-                     <title level="a">6.&#160;4.&#160;1903</title>
-                  </analytic>
-                  <monogr>
-                     <author ref="#pmb2121">Schnitzler, Arthur</author>
-                     <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
-                     <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
-                     <imprint> 
-                        <pubPlace>Chapel Hill</pubPlace> 
-                        <publisher>The University of North Carolina Press</publisher> 
-                        <date when="1978">1978</date> 
-                     </imprint> 
-                     <biblScope unit="pp">77–78</biblScope>
-                  </monogr>
-                  <series> 
-                     <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> 
-                     <biblScope unit="nr">89</biblScope> 
-                  </series>
-               </biblStruct>
-               <biblStruct corresp="HBAS">                              
-                  <monogr>                             
-                     <author ref="#pmb10815">Bahr, Hermann</author>                                  
-                     <author ref="#pmb2121">Schnitzler, Arthur</author>                             
-                     <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
-                     <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
-                     <imprint>                                       
-                        <pubPlace>Göttingen</pubPlace>                                       
-                        <publisher>Wallstein</publisher>                                       
-                        <date when="2018">2018</date>                                  
-                     </imprint>                             
-                  </monogr>                     
-               </biblStruct>
-            </listBibl>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="de-AT">German</language>
-         </langUsage>
-         <correspDesc>
-            <correspAction  type="sent">
-               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-               <placeName ref="#pmb50">Wien</placeName>
-               <date when="1903-04-06" n="01">6.&#160;4.&#160;1903</date>
-            </correspAction>
-            <correspAction  type="received">
-               <persName ref="#pmb10815">Bahr, Hermann</persName>
-               <placeName ref="#pmb50">[Wien]</placeName>
-            </correspAction>
-            <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1903-04-04_01">Bahr an Schnitzler, 4.&#160;4.&#160;1903</ptr>
-               <ptr type="next" subtype="toAuthor" target="1903-05-18_01">Schnitzler an Bahr, 18.&#160;5.&#160;1903</ptr>
-            </correspContext>
-         </correspDesc>
-      </profileDesc>
-      <revisionDesc status="approved">
-         <change who="KI MAM" when="2015-10-01">Kollationiert</change>
-         <change who="KI MAM" when="2017-05-08">Kollationiert</change>
-         <change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
-         
-      </revisionDesc>
-  </teiHeader>
-   <facsimile>       
-     <graphic url="HS_AM23354Ba_1"/> 
-     <graphic url="HS_AM23354Ba_1_R"/>
-     <graphic url="HS_AM23354Ba_2"/> 
-     <graphic url="HS_AM23354Ba_2_R"/>
-  </facsimile>
-  <text type="letter">
-      <body>
-         <div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb50" type="place">Wien</rs>, <date>6.&#160;4.&#160;903</date>.</dateline><salute>lieber Hermann,</salute></opener><p>ich glaube wir befinden uns beide in einer sehr ähnlichen Situation der
-          Oeffentlichkeit gegenüber: was immer wir thun oder unterlassen werden – eine
-          compact-vertrackte Majorität wird schimpfen. Es wird also immer notwendiger find
-          ich sich ausschließlich nach dem zu richten, was wir selbst für das vernünftige
-          halten – auf die Gefahr hin dss wir uns ge<pb facs="HS_AM23354Ba_1_R"/>legentlich irren. Willst du mir
-            <rs type="work" ref="#pmb29891" subtype="implied">deinen neuen Band</rs> widmen, so seh ich darin
-          nichts andres als den neuesten Ausdruck für die Herzlichkeit unsrer Beziehungen,
-          zu der wir uns ja wahrhaftig schwer genug durchgerungen haben. Ich freu mich nun
-          umso mehr, dass wir soweit sind dass wir einander wirklich verstehen und – was
-          in diesen Jahren <pb facs="HS_AM23354Ba_2"/>doch eigentlich recht selten vorkommt, uns – ich schließe
-          von mir wohl nicht ganz verfehlt auf dich – einander jenseits von Literatur und
-          allerlei Getriebe – gern haben. <hi rend="underline" n="1">Ich</hi> für meinen Theil nehme also die Gefahr auf
-          mich, neuerdings als mit dir <anchor type="label" xml:id="LL055-1">vercliquet</anchor><space unit="chars" quantity="1"/><subst><del rend="overwritten"><gap unit="chars" quantity="3" reason="illegible"/></del><add place="inline">ange</add></subst>sehen zu werden, <add place="inline">–</add> (ob<subst><del rend="overwritten">s</del><add place="inline">z</add></subst>war ich nachweisen könnte, dass ich nie eine lobende Kritik über dich
-          geschrieben habe) – und <pb facs="HS_AM23354Ba_2_R"/>mehr als das – ich danke dir aufrichtg für deine
-          liebenswürdg Absicht. Eine Bitte füg ich bei, obwohl sie recht überflüssig sein
-          dürfte: sage mir nichts »freundliches« oder »schönes« in deinem <rs type="work" ref="#pmb29891" subtype="implied">Widmungswort</rs>. Die Thatsache der Zu<subst><del rend="overwritten">n</del><add place="inline">ei</add></subst>gnung allein ist mir
-          Freude genug.</p><p>Eben erst merke ich, dass du mir auf einer Extraseite den Wortlaut der Widmung
-          schon mitgetheilt hast. Sie ist einfach und schön. Ich danke dir.</p><p><pb facs="HS_AM23354Ba_2_R"/>Die Nachricht des <rs ref="#pmb36376" type="work">N. Wr. Journ</rs> ist unwahr, mindestens um sehr geraume Zeit
-               verfrüht. Erinnerst du dich, dss wir gerade am Tag vorher mit einem <rs type="person" ref="#pmb2288" subtype="implied">Herrn</rs> des <rs ref="#pmb29320" type="org">N.&#160;Wr.&#160;J.</rs> über die Büberei gesprochen haben, die <subst><del rend="overwritten">die</del><add place="inline">durch</add></subst><space unit="chars" quantity="1"/><subst><del rend="overwritten"><unclear>den</unclear></del><add place="inline">die</add></subst> journalistischen Einmischung ins Privatleben verübt werden? – In
-          meinem Fall war es ja zufällig gleichgiltig; aber es hätte ebenso gut eine
-          freche Indiscretion sein <supplied>können.</supplied></p><p><damage agent="ink"><supplied>–</supplied></damage> Wie steht es mit deinen <anchor type="commentary" xml:id="KL055-1"/>Reise- u Erholungsplänen<note type="commentary" xml:id="KL055-1h"><rs ref="#pmb10815" type="person">Bahr</rs> hielt sich
-            vom <date>18.</date> bis <date>25.&#160;5.</date> in der <rs ref="#pmb80" type="place">Kuranstalt Konried in Reichenau an der Rax</rs> auf, <rs ref="#pmb2121" type="person">Schnitzler</rs> war zu der Zeit vor allem in <rs ref="#pmb50" type="place">Wien</rs>.</note>? Ich
-          hoffe dich <pb facs="HS_AM23354Ba_2_R"/>jedenfalls sehr bald zu sehen; immerhin verständige mich; denn ich
-          möchte wenn’s dir nicht unangenehm ist, auch ganz gern ein paar Tage in die
-         <rs ref="#pmb483" type="place">Reichenauer Gegend</rs>.</p><p>Zum Cap. <rs ref="#pmb29855" type="work">Reigen</rs>: <rs ref="#pmb2167" type="person">Salten</rs> hat sein 
-               Feuill. vorläufig in der <rs ref="#pmb35935" type="work">Zeit</rs> auch noch nicht unterbringen können. 
-               Warum?<c rendition="#dots" n="2"/> Mein – <rs type="person" ref="#pmb2284" subtype="implied">Schwager</rs> war entsetzt, als er durch
-            <anchor type="commentary" xml:id="KL055-2"/><rs ref="#pmb12790" type="person">Singer</rs><note type="commentary" xml:id="KL055-2h"><rs ref="#pmb12790" type="person">Isidor Singer</rs>,
-            der Herausgeber der Wochenschrift und der gleichnamigen Tageszeitung <rs ref="#pmb29209 #pmb29626" type="org">Die Zeit</rs>.</note> erfuhr, dass von diesem
-          verderblichen Buch an her<pb facs="HS_AM23354Ba_2_R"/>vorragender Stelle Notiz genommen werden solle u
-          rieth ihm dringend ab. <rs ref="#pmb12790" type="person">Singer</rs>: »Sehn Sie,
-          sogar der <rs type="person" ref="#pmb2284" subtype="implied">Schwager</rs><c rendition="#dots" n="3"/>«</p><p>Man ernenne doch endlich den Storch zum Ehrenbürger der Menschheit.</p><closer>herzlichen Gruss<lb/>dein getreuer<lb/><signed>Arthur</signed></closer></div>
-      </body>
-  </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1903-04-06_01_AS_Bahr"><teiHeader type="text">
+<fileDesc>
+<titleStmt>
+<title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+<title level="a">Arthur Schnitzler an Hermann Bahr, 6. 4. 1903</title>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<editor>
+<name>Müller, Martin Anton</name>
+</editor>
+<funder>
+<name>FWF – Fonds für Wissenschaft und Forschung</name>
+<address>
+<street>Sensengasse 1</street>
+<postCode>1090 Wien</postCode>
+<placeName>
+<country>A</country>
+<settlement>Wien</settlement>
+</placeName>
+</address>
+</funder>
+</titleStmt>
+<editionStmt>
+<edition>HBAS</edition>
+<respStmt>
+<resp>Transkription und Kommentierung</resp>
+<name>Kurt Ifkovits</name>
+<name>Martin Anton Müller</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Austrian Academy of Sciences, Vienna</publisher>
+<idno type="HBAS-L" n="1055"/>
+<availability status="free">
+<p>Copyright © 2018</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+</seriesStmt>
+<sourceDesc>
+<listWit>
+<witness n="1">
+<msDesc>
+<msIdentifier>
+<country>A</country>
+<settlement>Wien</settlement>
+<repository>Theatermuseum</repository>
+<idno>HS AM 23354 Ba</idno>
+</msIdentifier>
+<physDesc>
+<p>eh. Brief, 2 Bl., 7 S., schwarze Tinte. Gelocht.</p>
+</physDesc>
+</msDesc>
+</witness>
+</listWit>
+<listBibl>
+<biblStruct corresp="ASB1">
+<monogr>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<title level="m">Briefe 1875–1912</title>
+<editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+<imprint>
+<pubPlace>Frankfurt am Main</pubPlace>
+<publisher>S. Fischer</publisher>
+<date when="1981">1981</date>
+</imprint>
+<biblScope unit="pp">458–460</biblScope>
+</monogr>
+</biblStruct>
+<biblStruct corresp="DASB">
+<analytic>
+<title level="a">6. 4. 1903</title>
+</analytic>
+<monogr>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
+<editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
+<imprint>
+<pubPlace>Chapel Hill</pubPlace>
+<publisher>The University of North Carolina Press</publisher>
+<date when="1978">1978</date>
+</imprint>
+<biblScope unit="pp">77–78</biblScope>
+</monogr>
+<series>
+<title level="s">University of North Carolina studies in the Germanic languages and literatures</title>
+<biblScope unit="nr">89</biblScope>
+</series>
+</biblStruct>
+<biblStruct corresp="HBAS">
+<monogr>
+<author ref="#pmb10815">Bahr, Hermann</author>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+<editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
+<imprint>
+<pubPlace>Göttingen</pubPlace>
+<publisher>Wallstein</publisher>
+<date when="2018">2018</date>
+</imprint>
+<biblScope unit="pp">264–265</biblScope>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de-AT">German</language>
+</langUsage>
+<correspDesc>
+<correspAction type="sent">
+<persName ref="#pmb2121">Schnitzler, Arthur</persName>
+<placeName ref="#pmb50">Wien</placeName>
+<date when="1903-04-06" n="01">6. 4. 1903</date>
+</correspAction>
+<correspAction type="received">
+<persName ref="#pmb10815">Bahr, Hermann</persName>
+<placeName ref="#pmb50">[Wien]</placeName>
+</correspAction>
+<correspContext>
+<ptr type="previous" subtype="toAuthor" target="1903-04-04_01">Bahr an Schnitzler, 4. 4. 1903</ptr>
+<ptr type="next" subtype="toAuthor" target="1903-05-18_01">Schnitzler an Bahr, 18. 5. 1903</ptr>
+</correspContext>
+</correspDesc>
+</profileDesc>
+<encodingDesc>
+<refsDecl>
+<ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, e.g. <ref type="schnitzlerDiary" target="1891-05-15"/> The complete URI is either: "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?directory=editions&amp;document=entry__1912-05-15.xml" (whereas &amp; has to be replaced with the single character ampersand) or "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-15.xml". </ab>
+</refsDecl>
+</encodingDesc>
+<revisionDesc status="approved">
+<change who="KI MAM" when="2015-10-01">Kollationiert</change>
+<change who="KI MAM" when="2017-05-08">Kollationiert</change>
+<change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
+<change who="GHS" when="2020-01-14">finalisiert</change>
+<change who="MAM" when="2019-01-20">Index check</change>
+</revisionDesc>
+</teiHeader><facsimile><graphic url="HS_AM23354Ba_1"/><graphic url="HS_AM23354Ba_1_R"/><graphic url="HS_AM23354Ba_2"/><graphic url="HS_AM23354Ba_2_R"/></facsimile><text type="letter"><body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="HS_AM23354Ba_1"/><rs ref="#pmb50" type="place">Wien</rs>, <date>6. 4. 903</date>.</dateline><salute>lieber Hermann,</salute></opener><p>ich glaube wir befinden uns beide in einer ſehr ähnlichen Situation der Oeffentlichkeit gegenüber: was immer wir thun oder unterlaſſen werden – eine compact-vertrackte Majorität wird ſchimpfen. Es wird alſo immer notwendiger find ich ſich ausſchließlich nach dem zu richten, was wir ſelbſt für das vernünftige halten – auf die Gefahr hin dſs wir uns ge<pb facs="HS_AM23354Ba_1_R"/>legentlich irren. Willſt du mir <rs type="work" ref="#pmb29891" subtype="implied">deinen neuen Band</rs> widmen, ſo ſeh ich darin nichts andres als den neueſten Ausdruck für die Herzlichkeit unsrer Beziehungen, zu der wir uns ja wahrhaftig ſchwer genug durchgerungen haben. Ich freu mich nun umſo mehr, daſs wir ſo weit ſind daſs wir einander wirklich verſtehen und – was in dieſen Jahren <pb facs="HS_AM23354Ba_2"/>doch eigentlich recht ſelten vorko<c rendition="#gemination-m"/>t, uns – ich ſchließe von mir wohl nicht ganz verfehlt auf dich – einander jenſeits von Literatur und allerlei Getriebe – gern haben. <hi rend="underline" n="1">Ich</hi> für meinen Theil nehme alſo die Gefahr auf mich, neuerdings als mit dir vercliquet angeſehen zu werden, <add place="inline">–</add> (ob<subst><del rend="overwritten">ſ</del><add place="inline">z</add></subst>war ich nachweiſen könnte, daſs ich nie eine lobende Kritik über dich geſchrieben habe) – und <pb facs="HS_AM23354Ba_2_R"/>mehr als das – ich danke dir aufrichtg für deine liebenswürdg Abſicht. Eine Bitte füg ich bei, obwohl ſie recht überflüſſig ſein dürfte: ſage mir nichts »freundliches« oder »ſchönes« in deinem <rs type="work" ref="#pmb29891" subtype="implied">Widmungswort</rs>. Die Thatſache der Zu<subst><del rend="overwritten">n</del><add place="inline">ei</add></subst>gnung allein iſt mir Freude genug.</p><p>Eben erſt merke ich, daſs du mir auf einer Extraſeite den Wortlaut der Widmung schon mitgetheilt haſt. Sie iſt einfach und ſchön. Ich danke dir.</p><p><pb facs="HS_AM23354Ba_2_R"/>Die Nachricht des <rs ref="#pmb36376" type="work">N. Wr. Journ</rs> ist unwahr, mindeſtens um ſehr geraume Zeit verfrüht. Erinnerſt du dich, dſs wir gerade am Tag vorher mit einem <rs type="person" ref="#pmb2288" subtype="implied">Herrn</rs> des <rs ref="#pmb29320" type="org">N. Wr. J.</rs> über die Büberei geſprochen haben, die <subst><del rend="overwritten">die</del><add place="inline">durch</add></subst><space unit="chars" quantity="1"/><subst><del rend="overwritten"><unclear>den</unclear></del><add place="inline">die</add></subst> journaliſtiſchen Einmiſchung ins Privatleben verübt werden? – In meinem Fall war es ja zufällig gleichgiltig; aber es hätte ebenſo gut eine freche Indiscretion ſein <supplied>können.</supplied></p><p><damage agent="ink"><supplied>–</supplied></damage> Wie ſteht es mit deinen <anchor type="commentary" xml:id="KL055-1"/>Reiſe- u Erholungsplänen<note type="commentary" xml:id="KL055-1h"><rs ref="#pmb10815" type="person">Bahr</rs> hielt sich vom <date>18.</date> bis <date>25. 5.</date> in der <rs ref="#pmb80" type="place">Kuranstalt Konried in Reichenau an der Rax</rs> auf, <rs ref="#pmb2121" type="person">Schnitzler</rs> war zu der Zeit vor allem in <rs ref="#pmb50" type="place">Wien</rs>.</note>? Ich hoffe dich <pb facs="HS_AM23354Ba_2_R"/>jedenfalls ſehr bald zu ſehen; i<c rendition="#gemination-m"/>erhin verſtändige mich; denn ich möchte we<c rendition="#gemination-n"/>’s dir nicht unangenehm iſt, auch ganz gern ein paar Tage in die <rs ref="#pmb483" type="place">Reichenauer Gegend</rs>.</p><p>Zum Cap. <rs ref="#pmb29855" type="work">Reigen</rs>: <rs ref="#pmb2167" type="person">Salten</rs> hat ſein Feuill. vorläufig in der <rs ref="#pmb35935" type="work">Zeit</rs> auch noch nicht unterbringen können. Warum?<c rendition="#dots" n="2"/> Mein – <rs type="person" ref="#pmb2284" subtype="implied">Schwager</rs> war entſetzt, als er durch <anchor type="commentary" xml:id="KL055-2"/><rs ref="#pmb12790" type="person">Singer</rs><note type="commentary" xml:id="KL055-2h"><rs ref="#pmb12790" type="person">Isidor Singer</rs>, der Herausgeber der Wochenschrift und der gleichnamigen Tageszeitung <rs ref="#pmb29209 #pmb29626" type="org">Die Zeit</rs>.</note> erfuhr, daſs von dieſem verderblichen Buch an her<pb facs="HS_AM23354Ba_2_R"/>vorragender Stelle Notiz genommen werden ſolle u rieth ihm dringend ab. <rs ref="#pmb12790" type="person">Singer</rs>: »Sehn Sie, ſogar der <rs type="person" ref="#pmb2284" subtype="implied">Schwager</rs><c rendition="#dots" n="3"/>«</p><p>Man ernenne doch endlich den Storch zum Ehrenbürger der Menſchheit.</p><closer>herzlichen Gruſs<lb/>dein getreuer<lb/><signed>Arthur</signed></closer></div></body></text></TEI>

@@ -1,114 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xml:id="L1900-07-18_01_Beer-Hofmann-Hofmannsthal_AS"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann und Hugo von Hofmannsthal an Arthur Schnitzler, 18.&#160;7.&#160;1900</title>
-            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
-            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
-            <editor>
-               <name>Müller, Martin Anton</name>
-               <name>Susen, Gerd-Hermann</name>
-            </editor>
-            <funder>
-               <name>FWF - Fonds für Wissenschaft und Forschung</name>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-               </address>
-            </funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>ASBW</edition>
-            <respStmt>
-               <resp>Transkription und Kommentierung</resp>
-               <name>Müller, Martin Anton</name>
-               <name>Susen, Gerd-Hermann</name>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Austrian Academy of Sciences, Vienna</publisher>
-            <idno type="ASBW" n="2880"/>
-            <availability status="free">
-               <p>Copyright © 2019</p>
-            </availability>
-         </publicationStmt>
-         <seriesStmt>
-            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-         </seriesStmt>
-         <sourceDesc>
-            <listWit>
-               <witness n="1">
-                  <msDesc>
-                     <msIdentifier>
-                        <country>GB</country>
-                        <settlement>Cambridge</settlement>
-                        <repository>University Library</repository>
-                        <idno>Schnitzler, B&#160;43</idno>
-                     </msIdentifier>
-                     <physDesc>
-                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. Von Schnitzler beschriftet: »<quote><hi rend="latintype">Hugo</hi></quote>«. XXXX</p>
-                     </physDesc>
-                  </msDesc>
-               </witness>
-            </listWit>
-            <listBibl>
-               <biblStruct corresp="HvHAS">
-                  <monogr>
-                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
-                     <author ref="#pmb2121">Schnitzler, Arthur</author>
-                     <title level="m">Briefwechsel</title>
-                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
-                     <imprint>
-                        <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
-                        <date when="1964">1964</date>
-                     </imprint>
-                     <biblScope unit="pp">XXXX</biblScope>
-                  </monogr>
-               </biblStruct>
-            </listBibl>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="de-AT">German</language>
-         </langUsage>
-         <correspDesc>
-            <correspAction  type="sent">
-               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
-               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName ref="#pmb30">XXXX</placeName>
-               <date when="1900-07-18" n="01">18.&#160;7.&#160;1900</date>
-            </correspAction>
-            <correspAction  type="received">
-               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-               <placeName ref="#pmb50">Wien</placeName>
-            </correspAction>
-            <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1899-09-19_01">Beer-Hofmann, Hofmannsthal an Schnitzler, 19.&#160;9.&#160;1899</ptr>
-               <ptr type="next" subtype="toAuthor" target="1914-07-15_01">Hofmannsthal, Hofmannsthal, Beer-Hofmann, Beer-Hofmann, Schwarzkopf an Schnitzler, 15.&#160;7.&#160;1914</ptr>
-            </correspContext>
-         </correspDesc>
-      </profileDesc>
-      <revisionDesc status="proposed">
-         <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
-      </revisionDesc>
-   </teiHeader>
-   <text type="letter">
-      <body>
-         <div type="writingSession" n="1"><p>Ganz zufällig sind wir beide hier, aber natürlich absichtlich. <signed>Hugo</signed></p></div>
-         <div type="writingSession" n="2"><p><handShift scribe="#pmb10863"/>Absicht ist ein gelungener Zufall oder umgekehrt
-    <signed>Richard</signed></p></div>
-      </body>
-   </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1900-07-18_01_Beer-Hofmann-Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"><teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+<title level="a">Richard Beer-Hofmann und Hugo von Hofmannsthal an Arthur Schnitzler, 18. 7. 1900</title>
+<author ref="#pmb11740">Hofmannsthal, Hugo von</author>
+<author ref="#pmb10863">Beer-Hofmann, Richard</author>
+<editor>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</editor>
+<funder>
+<name>FWF - Fonds für Wissenschaft und Forschung</name>
+<address>
+<street>Sensengasse 1</street>
+<postCode>1090 Wien</postCode>
+<placeName>
+<country>A</country>
+<settlement>Wien</settlement>
+</placeName>
+</address>
+</funder>
+</titleStmt>
+<editionStmt>
+<edition>ASBW</edition>
+<respStmt>
+<resp>Transkription und Kommentierung</resp>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Austrian Academy of Sciences, Vienna</publisher>
+<idno type="ASBW" n="2880"/>
+<availability status="free">
+<p>Copyright © 2019</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+</seriesStmt>
+<sourceDesc>
+<listWit>
+<witness n="1">
+<msDesc>
+<msIdentifier>
+<country>GB</country>
+<settlement>Cambridge</settlement>
+<repository>University Library</repository>
+<idno>Schnitzler, B 43</idno>
+</msIdentifier>
+<physDesc>
+<p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+<hi rend="latintype">Hugo</hi>
+</quote>«. XXXX</p>
+</physDesc>
+</msDesc>
+</witness>
+</listWit>
+<listBibl>
+<biblStruct corresp="HvHAS">
+<monogr>
+<author ref="#pmb11740">Hofmannsthal, Hugo</author>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<title level="m">Briefwechsel</title>
+<editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+<imprint>
+<pubPlace>Frankfurt am Main</pubPlace>
+<publisher>S. Fischer</publisher>
+<date when="1964">1964</date>
+</imprint>
+<biblScope unit="pp">XXXX</biblScope>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de-AT">German</language>
+</langUsage>
+<correspDesc>
+<correspAction type="sent">
+<persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+<persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+<placeName ref="#pmb30">XXXX</placeName>
+<date when="1900-07-18" n="01">18. 7. 1900</date>
+</correspAction>
+<correspAction type="received">
+<persName ref="#pmb2121">Schnitzler, Arthur</persName>
+<placeName ref="#pmb50">Wien</placeName>
+</correspAction>
+<correspContext>
+<ptr type="previous" subtype="toAuthor" target="1899-09-19_01">Beer-Hofmann, Hofmannsthal an Schnitzler, 19. 9. 1899</ptr>
+<ptr type="next" subtype="toAuthor" target="1914-07-15_01">Hofmannsthal, Hofmannsthal, Beer-Hofmann, Beer-Hofmann, Schwarzkopf an Schnitzler, 15. 7. 1914</ptr>
+</correspContext>
+</correspDesc>
+</profileDesc>
+<encodingDesc>
+<refsDecl>
+<ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, e.g. <ref type="schnitzlerDiary" target="1891-05-15"/> The complete URI is either: "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?directory=editions&amp;document=entry__1912-05-15.xml" (whereas &amp; has to be replaced with the single character ampersand) or "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-15.xml". </ab>
+</refsDecl>
+</encodingDesc>
+<revisionDesc status="proposed">
+<change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
+</revisionDesc>
+</teiHeader><text type="letter"><body><div type="writingSession" n="1"><p>Ganz zufällig sind wir beide hier, aber natürlich absichtlich. <signed>Hugo</signed></p></div><div type="writingSession" n="2"><p><handShift scribe="#10863"/>Absicht ist ein gelungener Zufall oder umgekehrt <signed>Richard</signed></p></div></body></text></TEI>

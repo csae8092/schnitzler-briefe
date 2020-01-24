@@ -1,109 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1895-12-15_01_Andreas-Salome_AS">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Lou Andreas-Salomé an Arthur Schnitzler, 15.&#160;12.&#160;1895</title>
-                <author ref="#pmb10762">Andreas-Salomé, Lou</author>
-                <editor>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </editor>
-                <funder>
-                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Wien</postCode>
-                        <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>ASBW</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="ASBW" n="1737"/>
-                <availability status="free">
-                    <p>Copyright © 2018</p>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness n="1">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>GB</country>
-                                <settlement>Cambridge</settlement>
-                                <repository>University Library</repository>
-                                <idno>Schnitzler, B&#160;3</idno>
-                            </msIdentifier>
-                            <physDesc>
-                                <p>eh. Postkarte, schwarze Tinte. Von Schnitzler mit Bleistift
-                                    datiert: »<quote><date>15/12&#160;95</date></quote>«. Von unbekannter Hand mit Bleistift nummeriert:
-                                        »<quote>13</quote>«.</p>
-                                <stamp n="1"><placeName ref="#pmb51">Wien 1/1</placeName><date>15.12.95</date><time>4-5N</time></stamp>
-                                <stamp n="2"><placeName ref="#pmb59">Wien 9/3</placeName><date>16.12.95</date><time>8V</time></stamp>
-                            </physDesc>
-                        </msDesc>
-                    </witness>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-            <correspDesc>
-                <correspAction  type="sent">
-                    <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                    <date when="1895-12-15" n="01">15.&#160;12.&#160;1895</date>
-                </correspAction>
-                <correspAction  type="received">
-                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                    <date when="1895-12-16">16.&#160;12.&#160;1895</date>
-                </correspAction>
-            <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1895-12-08_01">Andreas-Salomé an Schnitzler, 8.&#160;12.&#160;1895</ptr>
-               <ptr type="next" subtype="toAuthor" target="1895-12-27_01">Andreas-Salomé an Schnitzler, 27.&#160;12.&#160;1895</ptr>
-            </correspContext>
-         </correspDesc>
-        </profileDesc>
-        <revisionDesc status="approved">
-            <change who="GHS" when="2018-08-02">Angelegt</change>
-            <change who="MAM" when="2018-08-08">Durchsicht</change>
-            <change who="MAM" when="2018-02-14">Index check</change>
-            <change who="GHS" when="2019-06-23">facs aktualisiert, korrigiert, finalisiert</change>
-        </revisionDesc>
-    </teiHeader>
-   <facsimile>
-        <graphic url="MS-SCHNITZLER-B-00003-000-00029"/>
-        <graphic url="MS-SCHNITZLER-B-00003-000-00030"/>
-    </facsimile>
-    <text type="card">
-        <body>
-            <div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00003-000-00029"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi></hi></addrLine><addrLine><hi rend="latintype">Arthur Schnitzler</hi></addrLine><addrLine><hi rend="latintype">Wien</hi></addrLine><addrLine><rs ref="#pmb397" type="place">Frankgasse 1.</rs></addrLine></address></div>
-            <div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00003-000-00030"/><salute>
-                        Lieber Herr <hi rend="latintype">D<hi rend="superscript">r</hi></hi>, </salute>ich komme, wenn's Ihnen recht iſt, morgen, am Montag, <del rend="strikethrough">e</del>in Ihre Sprechſtunde, um ein wenig mit Ihnen zu
-                    plaudern. Vielleicht können wir dann etwas mündlich verabreden.</p><closer>Mit herzlichem Gruß und Dank für alle Ihre Benachrichtigungen.<space unit="chars" quantity="3"/>Ihre<lb/><signed>LouAS.</signed></closer></div>
-        </body>
-    </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-12-15_01_Andreas-Salome_AS"><teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+<title level="a">Lou Andreas-Salomé an Arthur Schnitzler, 15. 12. 1895</title>
+<author ref="#pmb10762">Andreas-Salomé, Lou</author>
+<editor>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</editor>
+<funder>
+<name>FWF - Fonds für Wissenschaft und Forschung</name>
+<address>
+<street>Sensengasse 1</street>
+<postCode>1090 Wien</postCode>
+<placeName>
+<country>A</country>
+<settlement>Wien</settlement>
+</placeName>
+</address>
+</funder>
+</titleStmt>
+<editionStmt>
+<edition>ASBW</edition>
+<respStmt>
+<resp>Transkription und Kommentierung</resp>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Austrian Academy of Sciences, Vienna</publisher>
+<idno type="ASBW" n="1737"/>
+<availability status="free">
+<p>Copyright © 2018</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+</seriesStmt>
+<sourceDesc>
+<listWit>
+<witness n="1">
+<msDesc>
+<msIdentifier>
+<country>GB</country>
+<settlement>Cambridge</settlement>
+<repository>University Library</repository>
+<idno>Schnitzler, B 3</idno>
+</msIdentifier>
+<physDesc>
+<p>eh. Postkarte, schwarze Tinte. Von Schnitzler mit Bleistift datiert: »<quote>
+<date>15/12 95</date>
+</quote>«. Von unbekannter Hand mit Bleistift nummeriert: »<quote>13</quote>«.</p>
+<stamp n="1">
+<placeName ref="#pmb51">Wien 1/1</placeName>
+<date>15.12.95</date>
+<time>4-5N</time>
+</stamp>
+<stamp n="2">
+<placeName ref="#pmb59">Wien 9/3</placeName>
+<date>16.12.95</date>
+<time>8V</time>
+</stamp>
+</physDesc>
+</msDesc>
+</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de-AT">German</language>
+</langUsage>
+<correspDesc>
+<correspAction type="sent">
+<persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
+<placeName ref="#pmb50">Wien</placeName>
+<date when="1895-12-15" n="01">15. 12. 1895</date>
+</correspAction>
+<correspAction type="received">
+<persName ref="#pmb2121">Schnitzler, Arthur</persName>
+<placeName ref="#pmb50">Wien</placeName>
+<date when="1895-12-16">16. 12. 1895</date>
+</correspAction>
+<correspContext>
+<ptr type="previous" subtype="toAuthor" target="1895-12-08_01">Andreas-Salomé an Schnitzler, 8. 12. 1895</ptr>
+<ptr type="next" subtype="toAuthor" target="1895-12-27_01">Andreas-Salomé an Schnitzler, 27. 12. 1895</ptr>
+</correspContext>
+</correspDesc>
+</profileDesc>
+<encodingDesc>
+<refsDecl>
+<ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, e.g. <ref type="schnitzlerDiary" target="1891-05-15"/> The complete URI is either: "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?directory=editions&amp;document=entry__1912-05-15.xml" (whereas &amp; has to be replaced with the single character ampersand) or "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-15.xml". </ab>
+</refsDecl>
+</encodingDesc>
+<revisionDesc status="approved">
+<change who="GHS" when="2018-08-02">Angelegt</change>
+<change who="MAM" when="2018-08-08">Durchsicht</change>
+<change who="MAM" when="2018-02-14">Index check</change>
+<change who="GHS" when="2019-06-23">facs aktualisiert, korrigiert, finalisiert</change>
+</revisionDesc>
+</teiHeader><facsimile><graphic url="MS-SCHNITZLER-B-00003-000-00029"/><graphic url="MS-SCHNITZLER-B-00003-000-00030"/></facsimile><text type="card"><body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00003-000-00029"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi></hi></addrLine><addrLine><hi rend="latintype">Arthur Schnitzler</hi></addrLine><addrLine><hi rend="latintype">Wien</hi></addrLine><addrLine><rs ref="#pmb397" type="place">Frankgasse 1.</rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00003-000-00030"/><salute> Lieber Herr <hi rend="latintype">D<hi rend="superscript">r</hi></hi>, </salute>ich komme, wenn's Ihnen recht iſt, morgen, am Montag, <del rend="strikethrough">e</del>in Ihre Sprechſtunde, um ein wenig mit Ihnen zu plaudern. Vielleicht können wir dann etwas mündlich verabreden.</p><closer>Mit herzlichem Gruß und Dank für alle Ihre Benachrichtigungen.<space unit="chars" quantity="3"/>Ihre<lb/><signed>LouAS.</signed></closer></div></body></text></TEI>

@@ -1,123 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1897-12-31_01_AS_Brandes">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Georg Brandes, 31.&#160;12.&#160;1897</title>
-                <author ref="#pmb2121">Schnitzler, Arthur</author>
-                <editor>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </editor>
-                <funder>
-                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Wien</postCode>
-                        <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>ASBW</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="ASBW" n="1746"/>
-                <availability status="free">
-                    <p>Copyright © 2018</p>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness n="1">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>Dk</country>
-                                <settlement>Kopenhagen</settlement>
-                                <repository>Det Kongelige Bibliotek</repository>
-                                <idno>Georg Brandes Arkiv</idno>
-                            </msIdentifier>
-                            <physDesc>
-                                <p>eh. Brief, 1&#160;Bl., 3&#160;S., schwarze Tinte. Von unbekannter Hand mit Bleistift
-                                    nummeriert: »<quote>10. Schnitzler</quote>«.</p>
-                            </physDesc>
-                        </msDesc>
-                    </witness>
-                </listWit>
-                <listBibl>
-                    <biblStruct corresp="ASGB">
-                        <monogr>
-                            <author ref="#pmb10992">Brandes, Georg</author>
-                            <author ref="#pmb2121">Schnitzler, Arthur</author>
-                            <title level="m">Ein Briefwechsel</title>
-                            <editor>Hg. Kurt Bergel</editor>
-                            <imprint>
-                                <pubPlace>Bern</pubPlace>
-                                <publisher>Francke</publisher>
-                                <date when="1956">1956</date>
-                            </imprint>
-                            <biblScope unit="pp">66</biblScope>
-                        </monogr>
-                    </biblStruct>
-                </listBibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-            <correspDesc>
-                <correspAction  type="sent">
-                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                    <date when="1897-12-31" n="01">31.&#160;12.&#160;1897</date>
-                </correspAction>
-                <correspAction  type="received">
-                    <persName ref="#pmb10992">Brandes, Georg</persName>
-                </correspAction>
-            <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-12-28_01">Brandes an Schnitzler, 28.&#160;12.&#160;1897</ptr>
-               <ptr type="next" subtype="toAuthor" target="1898-01-25_01">Brandes an Schnitzler, 25.&#160;1.&#160;1898</ptr>
-            </correspContext>
-         </correspDesc>
-        </profileDesc>
-        <revisionDesc status="approved">
-            <change who="GHS" when="2018-07-01">Angelegt</change>
-            <change who="MAM" when="2018-08-02">Durchsicht</change>
-            <change who="MAM" when="2018-02-14">Index check</change>
-            <change who="GHS" when="2019-04-27">Korrektur gelesen, facs aktualisiert,
-                finalisiert</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="Georg_Brandes_arkiv_040"/>
-        <graphic url="Georg_Brandes_arkiv_041"/>
-        <graphic url="Georg_Brandes_arkiv_042"/>
-    </facsimile>
-    <text type="letter">
-        <body>
-            <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Georg_Brandes_arkiv_040.jpg"/><rs ref="#pmb50" type="place"><hi rend="latintype">Wien</hi></rs>, <date>31.&#160;12.&#160;97</date><lb/><rs ref="#pmb397" type="place">IX. Frankgaſſe&#160;1</rs></dateline><salute>Verehrteſter Herr Brandes,</salute></opener><p>was für eine erfreuliche Nachricht als erſte nach ſo langer Zeit! Sowohl
-                        <rs ref="#pmb10863" type="person"><hi rend="latintype">Beer-Hofma<c rendition="#gemination-n"/></hi></rs> als ich ſind in <rs ref="#pmb50" type="place">Wien</rs> und freuen uns ſehr, Sie ſobald wiederzuſehen. Als Hotel wird mir
-                    in <pb facs="Georg_Brandes_arkiv_041.jpg"/>der letzten Zeit das »<rs ref="#pmb1106" type="place">Reſidenz-Hotel</rs>« in der <rs ref="#pmb1107" type="place"><hi rend="latintype">Teinfaltstraße</hi></rs>, ſehr gut gelegen, empfohlen; es iſt nicht abſolut erſten Ranges,
-                    ſcheint mir aber angenehmer als die großen Hotels, <rs ref="#pmb126" type="place"><hi rend="latintype">Imperial</hi></rs>, <rs ref="#pmb255" type="place"><hi rend="latintype">Grand Hotel</hi></rs>, <rs ref="#pmb205" type="place"><hi rend="latintype">Bristol</hi></rs>. Vielleicht ſchreiben Sie mir noch näheres <pb facs="Georg_Brandes_arkiv_042.jpg"/>über Ihre Wünſche; auf eine weitere
-                    Nachricht von Ihrem Kommen dürfen wir ja hoffen?</p><closer>Mit herzlichen Grüßen<lb/>Ihr ergebenſter<lb/><signed>Arthur Schnitzler.</signed></closer></div>
-        </body>
-    </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-12-31_01_AS_Brandes"><teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+<title level="a">Arthur Schnitzler an Georg Brandes, 31. 12. 1897</title>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<editor>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</editor>
+<funder>
+<name>FWF - Fonds für Wissenschaft und Forschung</name>
+<address>
+<street>Sensengasse 1</street>
+<postCode>1090 Wien</postCode>
+<placeName>
+<country>A</country>
+<settlement>Wien</settlement>
+</placeName>
+</address>
+</funder>
+</titleStmt>
+<editionStmt>
+<edition>ASBW</edition>
+<respStmt>
+<resp>Transkription und Kommentierung</resp>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Austrian Academy of Sciences, Vienna</publisher>
+<idno type="ASBW" n="1746"/>
+<availability status="free">
+<p>Copyright © 2018</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+</seriesStmt>
+<sourceDesc>
+<listWit>
+<witness n="1">
+<msDesc>
+<msIdentifier>
+<country>Dk</country>
+<settlement>Kopenhagen</settlement>
+<repository>Det Kongelige Bibliotek</repository>
+<idno>Georg Brandes Arkiv</idno>
+</msIdentifier>
+<physDesc>
+<p>eh. Brief, 1 Bl., 3 S., schwarze Tinte. Von unbekannter Hand mit Bleistift nummeriert: »<quote>10. Schnitzler</quote>«.</p>
+</physDesc>
+</msDesc>
+</witness>
+</listWit>
+<listBibl>
+<biblStruct corresp="ASGB">
+<monogr>
+<author ref="#pmb10992">Brandes, Georg</author>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<title level="m">Ein Briefwechsel</title>
+<editor>Hg. Kurt Bergel</editor>
+<imprint>
+<pubPlace>Bern</pubPlace>
+<publisher>Francke</publisher>
+<date when="1956">1956</date>
+</imprint>
+<biblScope unit="pp">66</biblScope>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de-AT">German</language>
+</langUsage>
+<correspDesc>
+<correspAction type="sent">
+<persName ref="#pmb2121">Schnitzler, Arthur</persName>
+<placeName ref="#pmb50">Wien</placeName>
+<date when="1897-12-31" n="01">31. 12. 1897</date>
+</correspAction>
+<correspAction type="received">
+<persName ref="#pmb10992">Brandes, Georg</persName>
+</correspAction>
+<correspContext>
+<ptr type="previous" subtype="toAuthor" target="1897-12-28_01">Brandes an Schnitzler, 28. 12. 1897</ptr>
+<ptr type="next" subtype="toAuthor" target="1898-01-25_01">Brandes an Schnitzler, 25. 1. 1898</ptr>
+</correspContext>
+</correspDesc>
+</profileDesc>
+<encodingDesc>
+<refsDecl>
+<ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, e.g. <ref type="schnitzlerDiary" target="1891-05-15"/> The complete URI is either: "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?directory=editions&amp;document=entry__1912-05-15.xml" (whereas &amp; has to be replaced with the single character ampersand) or "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-15.xml". </ab>
+</refsDecl>
+</encodingDesc>
+<revisionDesc status="approved">
+<change who="GHS" when="2018-07-01">Angelegt</change>
+<change who="MAM" when="2018-08-02">Durchsicht</change>
+<change who="MAM" when="2018-02-14">Index check</change>
+<change who="GHS" when="2019-04-27">Korrektur gelesen, facs aktualisiert, finalisiert</change>
+</revisionDesc>
+</teiHeader><facsimile><graphic url="Georg_Brandes_arkiv_040"/><graphic url="Georg_Brandes_arkiv_041"/><graphic url="Georg_Brandes_arkiv_042"/></facsimile><text type="letter"><body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Georg_Brandes_arkiv_040.jpg"/><rs ref="#pmb50" type="place"><hi rend="latintype">Wien</hi></rs>, <date>31. 12. 97</date><lb/><rs ref="#pmb397" type="place">IX. Frankgaſſe 1</rs></dateline><salute>Verehrteſter Herr Brandes,</salute></opener><p>was für eine erfreuliche Nachricht als erſte nach ſo langer Zeit! Sowohl <rs ref="#pmb10863" type="person"><hi rend="latintype">Beer-Hofma<c rendition="#gemination-n"/></hi></rs> als ich ſind in <rs ref="#pmb50" type="place">Wien</rs> und freuen uns ſehr, Sie ſobald wiederzuſehen. Als Hotel wird mir in <pb facs="Georg_Brandes_arkiv_041.jpg"/>der letzten Zeit das »<rs ref="#pmb1106" type="place">Reſidenz-Hotel</rs>« in der <rs ref="#pmb1107" type="place"><hi rend="latintype">Teinfaltstraße</hi></rs>, ſehr gut gelegen, empfohlen; es iſt nicht abſolut erſten Ranges, ſcheint mir aber angenehmer als die großen Hotels, <rs ref="#pmb126" type="place"><hi rend="latintype">Imperial</hi></rs>, <rs ref="#pmb255" type="place"><hi rend="latintype">Grand Hotel</hi></rs>, <rs ref="#pmb205" type="place"><hi rend="latintype">Bristol</hi></rs>. Vielleicht ſchreiben Sie mir noch näheres <pb facs="Georg_Brandes_arkiv_042.jpg"/>über Ihre Wünſche; auf eine weitere Nachricht von Ihrem Kommen dürfen wir ja hoffen?</p><closer>Mit herzlichen Grüßen<lb/>Ihr ergebenſter<lb/><signed>Arthur Schnitzler.</signed></closer></div></body></text></TEI>

@@ -1,119 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1898-07-04_01_Beer-Hofmann_AS">
-   <teiHeader type="text">
-      <fileDesc>
-         <titleStmt>
-            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 4.&#160;7.&#160;1898</title>
-            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
-            <editor>
-               <name>Müller, Martin Anton</name>
-               <name>Susen, Gerd-Hermann</name>
-            </editor>
-            <funder>
-               <name>FWF - Fonds für Wissenschaft und Forschung</name>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-               </address>
-            </funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>ASBW</edition>
-            <respStmt>
-               <resp>Transkription und Kommentierung</resp>
-               <name>Müller, Martin Anton</name>
-               <name>Susen, Gerd-Hermann</name>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Austrian Academy of Sciences, Vienna</publisher>
-            <idno type="ASBW" n="2500"/>
-            <availability status="free">
-               <p>Copyright © 2019</p>
-            </availability>
-         </publicationStmt>
-         <seriesStmt>
-            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-         </seriesStmt>
-         <sourceDesc>
-            <listWit>
-               <witness n="1">
-                  <msDesc>
-                     <msIdentifier>
-                        <country>GB</country>
-                        <settlement>Cambridge</settlement>
-                        <repository>University Library</repository>
-                        <idno>Schnitzler, B&#160;8</idno>
-                     </msIdentifier>
-                     <physDesc>
-                        <p>ms. Telegramm vom 4. 7. 1898 aus Steindorf nach Wien.</p>
-                     </physDesc>
-                  </msDesc>
-               </witness>
-            </listWit>
-            <listBibl>
-               <biblStruct corresp="ASBH">
-                  <monogr>
-                     <author ref="#pmb2121">Schnitzler, Arthur</author>
-                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
-                     <title level="m">Briefwechsel 1891–1931</title>
-                     <editor>Hg. Konstanze Fliedl</editor>
-                     <imprint>
-                        <pubPlace>Wien, Zürich</pubPlace>
-                        <publisher>Europaverlag</publisher>
-                        <date when="1992">1992</date>
-                     </imprint>
-                     <biblScope unit="pp">122</biblScope>
-                  </monogr>
-               </biblStruct>
-            </listBibl>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="de-AT">German</language>
-         </langUsage>
-         <correspDesc>
-            <correspAction  type="sent">
-               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName ref="#pmb34860">Steindorf</placeName>
-               <date when="1898-07-04" n="01">4.&#160;7.&#160;1898</date>
-            </correspAction>
-            <correspAction  type="received">
-               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-               <placeName ref="#pmb50">Wien</placeName>
-            </correspAction>
-            <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1898-07-03_01">Beer-Hofmann an Schnitzler, 3.&#160;7.&#160;1898</ptr>
-               <ptr type="next" subtype="toAuthor" target="1898-07-06_01">Schnitzler an Beer-Hofmann, 6.&#160;7.&#160;1898</ptr>
-            </correspContext>
-         </correspDesc>
-      </profileDesc>
-      <revisionDesc status="proposed">
-         <change who="MAM" when="2019-06-12">Automatisch angelegt aus Buchausgabe</change>
-         <change who="GHS" when="2019-11-08">überprüft am Faksimile</change>
-      </revisionDesc>
-   </teiHeader>
-   <facsimile>
-      <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00266.jpg"/>
-   </facsimile>
-   <text type="telegram">
-      <body>
-         <div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00266"/>schicken sye mir bitte sofort
-                  <anchor type="commentary" xml:id="KL2500-1"/>nummero sechzehn<note type="commentary" xml:id="KL2500-1h">Diese erschien am
-                  <date>1.&#160;7.&#160;1898</date>.</note> der <rs ref="#pmb29749" type="org">wiener
-                  rundschau</rs> von <anchor type="commentary" xml:id="KL2500-2"/><date>ersten juny</date><note type="commentary" xml:id="KL2500-2h">Am 1. 6. erschien die Nummer 14. Unmittelbar ist
-                  nicht ersichtlich, für welchen Artikel sich <rs ref="#pmb10863" type="person">Beer-Hofmann</rs> interessiert haben könnte.</note> bryef unterwegs
-               herzlychst <signed>rychard</signed></p></div>
-      </body>
-   </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-07-04_01_Beer-Hofmann_AS"><teiHeader type="text">
+<fileDesc>
+<titleStmt>
+<title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+<title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 4. 7. 1898</title>
+<author ref="#pmb10863">Beer-Hofmann, Richard</author>
+<editor>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</editor>
+<funder>
+<name>FWF - Fonds für Wissenschaft und Forschung</name>
+<address>
+<street>Sensengasse 1</street>
+<postCode>1090 Wien</postCode>
+<placeName>
+<country>A</country>
+<settlement>Wien</settlement>
+</placeName>
+</address>
+</funder>
+</titleStmt>
+<editionStmt>
+<edition>ASBW</edition>
+<respStmt>
+<resp>Transkription und Kommentierung</resp>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Austrian Academy of Sciences, Vienna</publisher>
+<idno type="ASBW" n="2500"/>
+<availability status="free">
+<p>Copyright © 2019</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+</seriesStmt>
+<sourceDesc>
+<listWit>
+<witness n="1">
+<msDesc>
+<msIdentifier>
+<country>GB</country>
+<settlement>Cambridge</settlement>
+<repository>University Library</repository>
+<idno>Schnitzler, B 8</idno>
+</msIdentifier>
+<physDesc>
+<p>ms. Telegramm vom 4. 7. 1898 aus Steindorf nach Wien.</p>
+</physDesc>
+</msDesc>
+</witness>
+</listWit>
+<listBibl>
+<biblStruct corresp="ASBH">
+<monogr>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<author ref="#pmb10863">Beer-Hofmann, Richard</author>
+<title level="m">Briefwechsel 1891–1931</title>
+<editor>Hg. Konstanze Fliedl</editor>
+<imprint>
+<pubPlace>Wien, Zürich</pubPlace>
+<publisher>Europaverlag</publisher>
+<date when="1992">1992</date>
+</imprint>
+<biblScope unit="pp">122</biblScope>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de-AT">German</language>
+</langUsage>
+<correspDesc>
+<correspAction type="sent">
+<persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+<placeName ref="#pmb34860">Steindorf</placeName>
+<date when="1898-07-04" n="01">4. 7. 1898</date>
+</correspAction>
+<correspAction type="received">
+<persName ref="#pmb2121">Schnitzler, Arthur</persName>
+<placeName ref="#pmb50">Wien</placeName>
+</correspAction>
+<correspContext>
+<ptr type="previous" subtype="toAuthor" target="1898-07-03_01">Beer-Hofmann an Schnitzler, 3. 7. 1898</ptr>
+<ptr type="next" subtype="toAuthor" target="1898-07-06_01">Schnitzler an Beer-Hofmann, 6. 7. 1898</ptr>
+</correspContext>
+</correspDesc>
+</profileDesc>
+<encodingDesc>
+<refsDecl>
+<ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, e.g. <ref type="schnitzlerDiary" target="1891-05-15"/> The complete URI is either: "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?directory=editions&amp;document=entry__1912-05-15.xml" (whereas &amp; has to be replaced with the single character ampersand) or "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-15.xml". </ab>
+</refsDecl>
+</encodingDesc>
+<revisionDesc status="proposed">
+<change who="MAM" when="2019-06-12">Automatisch angelegt aus Buchausgabe</change>
+<change who="GHS" when="2019-11-08">überprüft am Faksimile</change>
+</revisionDesc>
+</teiHeader><facsimile><graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00266.jpg"/></facsimile><text type="telegram"><body><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00266"/>schicken sye mir bitte sofort <anchor type="commentary" xml:id="KL2500-1"/>nummero sechzehn<note type="commentary" xml:id="KL2500-1h">Diese erschien am <date>1. 7. 1898</date>.</note> der <rs ref="#pmb29749" type="org">wiener rundschau</rs> von <anchor type="commentary" xml:id="KL2500-2"/><date>ersten juny</date><note type="commentary" xml:id="KL2500-2h">Am 1. 6. erschien die Nummer 14. Unmittelbar ist nicht ersichtlich, für welchen Artikel sich <rs ref="#pmb10863" type="person">Beer-Hofmann</rs> interessiert haben könnte.</note> bryef unterwegs herzlychst <signed>rychard</signed></p></div></body></text></TEI>

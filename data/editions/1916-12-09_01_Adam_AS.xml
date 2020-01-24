@@ -1,121 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1916-12-09_01_Adam_AS">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Robert Adam an Arthur Schnitzler, 9.&#160;12.&#160;1916</title>
-                <author ref="#pmb12438">Adam, Robert</author>
-                <editor>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </editor>
-                <funder>
-                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Wien</postCode>
-                        <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>ASBW</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="ASBW" n="2116"/>
-                <availability status="free">
-                    <p>Copyright © 2018</p>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-            </seriesStmt>
-            <sourceDesc>
-                 <listWit>
-                    <witness n="1">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>D</country>          
-                                <settlement>Marbach am Neckar</settlement>
-                                <repository>Deutsches Literaturarchiv</repository>
-                                <idno>A:Schnitzler, HS.NZ85.1.4230,15</idno>
-                            </msIdentifier>
-                            <physDesc>
-                                <p>eh. Brief, 1&#160;Bl., 3&#160;S. Von Schnitzler beschriftet: »<quote><hi rend="latintype">Adam</hi></quote>«.</p>
-                            </physDesc>
-                        </msDesc>
-                    </witness>
-                     <witness n="2">
-                         <msDesc>
-                             <msIdentifier>
-                                 <country>A</country>
-                                 <settlement>Wien</settlement>
-                                 <repository>Österreichische Nationalbibliothek</repository>
-                                 <idno>Cod.ser. 52.263, 182</idno>
-                             </msIdentifier>
-                             <physDesc>Ms. Briefabschrift.</physDesc>
-                         </msDesc>
-                     </witness>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-            <language ident="de-AT">German</language>
-         </langUsage>
-            <correspDesc>
-                <correspAction  type="sent">
-                    <persName ref="#pmb12438">Adam, Robert</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                    <date when="1916-12-09" n="01">9.&#160;12.&#160;1916</date>
-                </correspAction>
-                <correspAction  type="received">
-                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                </correspAction>
-            <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1916-11-30_01">Adam an Schnitzler, 30.&#160;11.&#160;1916</ptr>
-               <ptr type="next" subtype="toAuthor" target="1916-12-11_01">Schnitzler an Adam, 11.&#160;12.&#160;1916</ptr>
-            </correspContext>
-         </correspDesc>
-        </profileDesc>
-        <revisionDesc status="proposed">
-            <change who="GHS" when="2018-12-16">Angelegt</change>
-            <change who="MAM" when="2018-12-17">Index check</change>
-        </revisionDesc>
-    </teiHeader>
-    <text type="letter">
-        <body>
-            <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="OGL Kopie"/><rs ref="#pmb50" type="place">Wien</rs>, am <date>9.&#160;Dezember 1916</date>.</dateline><salute>Hochverehrter Herr Doktor!</salute></opener><p>Ich teile Ihnen – natürlich ſehr erſtaunt – mit, daß ich heute einen Brief des
-                    Hr. Oberregiſſeurs <rs ref="#pmb12837" type="person"><hi rend="latintype">Steinrück</hi></rs> erhielt:
-                    der »<rs ref="#pmb33580" type="work">Neidhard</rs>« habe ſein ehrliches
-                    Intereſſe erweckt und er bedaure es unendlich, daß er ſeiner monſtröſen Form
-                    wegen nicht zu einer Aufführung geeignet ſei; er rate mir zu einer Überarbeitung
-                    unter herzhaften Strichen, wodurch ein wirkſames Werk zuſtande käme. Dieſes ſoll
-                    ich direkt an den Dramaturgen D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><rs ref="#pmb5812" type="person">Gutherz</rs> ſenden und dürfte mich auf ihn be<pb facs="OGL Kopie"/>rufen, auch darauf, daß er ſich für die Rolle ſehr
-                    intereſſiere. Den <rs ref="#pmb33578" type="work"><hi rend="latintype">Alî ibn Bekkâr</hi></rs> hielte er für »nicht hinreißend«.</p><p>Ich habe natürlich umgehend erwidert, daß ich mich ſofort an die Herſtellung eines
-                    Bühnen-<rs ref="#pmb33580" type="work">Neidhard</rs> machen würde, und zugleich das Manuſkript des »<rs ref="#pmb33606" type="work">Fremden</rs>«
-                    beigeſchloſſen. Ich bin ſehr begierig, ob
-                    <rs ref="#pmb12837" type="person"><hi rend="latintype">Steinrück</hi></rs> meinem Peſſimismus
-                    <anchor type="commentary" xml:id="KL2116-1"/><hi rend="latintype">quoad</hi><note type="commentary" xml:id="KL2116-1h">(lat.) insofern.</note> Bühnenwirkſamkeit Recht geben wird
-                    oder Ihrer dem Stücke günstigeren Ansicht (die
-                    ich ihm mitteilte).</p><p>Nochmals herzlichen Dank, hochverehrter Herr Doktor! Jetzt heißt’s an die
-                    <rs ref="#pmb33580" type="work">Neidhard</rs>-Arbeit gehen: ach, wenn Sie wüßten, in welchem atembeengenden Wuſt von
-                    Be<pb facs="OGL Kopie"/>tätigungen und unerfüllten Pflichten ich ſtecke!</p><closer>Ihr<lb/><signed>Robert Adam</signed></closer></div>
-        </body>
-    </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1916-12-09_01_Adam_AS"><teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+<title level="a">Robert Adam an Arthur Schnitzler, 9. 12. 1916</title>
+<author ref="#pmb12438">Adam, Robert</author>
+<editor>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</editor>
+<funder>
+<name>FWF - Fonds für Wissenschaft und Forschung</name>
+<address>
+<street>Sensengasse 1</street>
+<postCode>1090 Wien</postCode>
+<placeName>
+<country>A</country>
+<settlement>Wien</settlement>
+</placeName>
+</address>
+</funder>
+</titleStmt>
+<editionStmt>
+<edition>ASBW</edition>
+<respStmt>
+<resp>Transkription und Kommentierung</resp>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Austrian Academy of Sciences, Vienna</publisher>
+<idno type="ASBW" n="2116"/>
+<availability status="free">
+<p>Copyright © 2018</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+</seriesStmt>
+<sourceDesc>
+<listWit>
+<witness n="1">
+<msDesc>
+<msIdentifier>
+<country>D</country>
+<settlement>Marbach am Neckar</settlement>
+<repository>Deutsches Literaturarchiv</repository>
+<idno>A:Schnitzler, HS.NZ85.1.4230,15</idno>
+</msIdentifier>
+<physDesc>
+<p>eh. Brief, 1 Bl., 3 S. Von Schnitzler beschriftet: »<quote>
+<hi rend="latintype">Adam</hi>
+</quote>«.</p>
+</physDesc>
+</msDesc>
+</witness>
+<witness n="2">
+<msDesc>
+<msIdentifier>
+<country>A</country>
+<settlement>Wien</settlement>
+<repository>Österreichische Nationalbibliothek</repository>
+<idno>Cod.ser. 52.263, 182</idno>
+</msIdentifier>
+<physDesc>
+<p>Ms. Briefabschrift.</p>
+</physDesc>
+</msDesc>
+</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de-AT">German</language>
+</langUsage>
+<correspDesc>
+<correspAction type="sent">
+<persName ref="#pmb12438">Adam, Robert</persName>
+<placeName ref="#pmb50">Wien</placeName>
+<date when="1916-12-09" n="01">9. 12. 1916</date>
+</correspAction>
+<correspAction type="received">
+<persName ref="#pmb2121">Schnitzler, Arthur</persName>
+<placeName ref="#pmb50">Wien</placeName>
+</correspAction>
+<correspContext>
+<ptr type="previous" subtype="toAuthor" target="1916-11-30_01">Adam an Schnitzler, 30. 11. 1916</ptr>
+<ptr type="next" subtype="toAuthor" target="1916-12-11_01">Schnitzler an Adam, 11. 12. 1916</ptr>
+</correspContext>
+</correspDesc>
+</profileDesc>
+<encodingDesc>
+<refsDecl>
+<ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, e.g. <ref type="schnitzlerDiary" target="1891-05-15"/> The complete URI is either: "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?directory=editions&amp;document=entry__1912-05-15.xml" (whereas &amp; has to be replaced with the single character ampersand) or "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-15.xml". </ab>
+</refsDecl>
+</encodingDesc>
+<revisionDesc status="proposed">
+<change who="GHS" when="2018-12-16">Angelegt</change>
+<change who="MAM" when="2018-12-17">Index check</change>
+</revisionDesc>
+</teiHeader><text type="letter"><body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="OGL Kopie"/><rs ref="#pmb50" type="place">Wien</rs>, am <date>9. Dezember 1916</date>.</dateline><salute>Hochverehrter Herr Doktor!</salute></opener><p>Ich teile Ihnen – natürlich ſehr erſtaunt – mit, daß ich heute einen Brief des Hr. Oberregiſſeurs <rs ref="#pmb12837" type="person"><hi rend="latintype">Steinrück</hi></rs> erhielt: der »<rs ref="#pmb33580" type="work">Neidhard</rs>« habe ſein ehrliches Intereſſe erweckt und er bedaure es unendlich, daß er ſeiner monſtröſen Form wegen nicht zu einer Aufführung geeignet ſei; er rate mir zu einer Überarbeitung unter herzhaften Strichen, wodurch ein wirkſames Werk zuſtande käme. Dieſes ſoll ich direkt an den Dramaturgen D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><rs ref="#pmb5812" type="person">Gutherz</rs> ſenden und dürfte mich auf ihn be<pb facs="OGL Kopie"/>rufen, auch darauf, daß er ſich für die Rolle ſehr intereſſiere. Den <rs ref="#pmb33578" type="work"><hi rend="latintype">Alî ibn Bekkâr</hi></rs> hielte er für »nicht hinreißend«.</p><p>Ich habe natürlich umgehend erwidert, daß ich mich ſofort an die Herſtellung eines Bühnen-<rs ref="#pmb33580" type="work">Neidhard</rs> machen würde, und zugleich das Manuſkript des »<rs ref="#pmb33606" type="work">Fremden</rs>« beigeſchloſſen. Ich bin ſehr begierig, ob <rs ref="#pmb12837" type="person"><hi rend="latintype">Steinrück</hi></rs> meinem Peſſimismus <anchor type="commentary" xml:id="KL2116-1"/><hi rend="latintype">quoad</hi><note type="commentary" xml:id="KL2116-1h">(lat.) insofern.</note> Bühnenwirkſamkeit Recht geben wird oder Ihrer dem Stücke günstigeren Ansicht (die ich ihm mitteilte).</p><p>Nochmals herzlichen Dank, hochverehrter Herr Doktor! Jetzt heißt’s an die <rs ref="#pmb33580" type="work">Neidhard</rs>-Arbeit gehen: ach, wenn Sie wüßten, in welchem atembeengenden Wuſt von Be<pb facs="OGL Kopie"/>tätigungen und unerfüllten Pflichten ich ſtecke!</p><closer>Ihr<lb/><signed>Robert Adam</signed></closer></div></body></text></TEI>

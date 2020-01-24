@@ -42,7 +42,7 @@ let $RDF :=
                         false()
                     }
                 let $title := try {
-                        <acdh:hasTitle>{normalize-space(string-join($node//tei:titleStmt/tei:title//text(), ' '))}</acdh:hasTitle>
+                        <acdh:hasTitle>{normalize-space(string-join($node//tei:titleStmt/tei:title[@level='a']//text(), ' '))}</acdh:hasTitle>
                     } catch * {
                         <acdh:hasTitle>{$doc}</acdh:hasTitle>
                     }

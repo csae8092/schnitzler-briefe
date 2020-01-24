@@ -1,112 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1909-12-11_02_Beer-Hofmann_AS">
-	  <teiHeader type="text">
-		    <fileDesc>
-			      <titleStmt>
-				        <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-				        <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 11.&#160;12.&#160;1909</title>
-				        <author ref="#pmb10863">Beer-Hofmann, Richard</author>
-				        <editor>
-					          <name>Müller, Martin Anton</name>
-					          <name>Susen, Gerd-Hermann</name>
-				        </editor>
-				        <funder>
-					          <name>FWF - Fonds für Wissenschaft und Forschung</name>
-					          <address>
-						            <street>Sensengasse 1</street>
-						            <postCode>1090 Wien</postCode>
-						            <placeName>
-							              <country>A</country>
-							              <settlement>Wien</settlement>
-						            </placeName>
-					          </address>
-				        </funder>
-			      </titleStmt>
-			      <editionStmt>
-				        <edition>ASBW</edition>
-				        <respStmt>
-					          <resp>Transkription und Kommentierung</resp>
-					          <name>Müller, Martin Anton</name>
-					          <name>Susen, Gerd-Hermann</name>
-				        </respStmt>
-			      </editionStmt>
-			      <publicationStmt>
-				        <publisher>Austrian Academy of Sciences, Vienna</publisher>
-				        <idno type="ASBW" n="2667"/>
-				        <availability status="free">
-					          <p>Copyright © 2019</p>
-				        </availability>
-			      </publicationStmt>
-			      <seriesStmt>
-				        <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-			      </seriesStmt>
-			      <sourceDesc>
-				        <listWit>
-					          <witness n="1">
-						            <msDesc>
-							              <msIdentifier>
-								                <country>GB</country>
-								                <settlement>Cambridge</settlement>
-								                <repository>University Library</repository>
-								                <idno>Schnitzler, B&#160;8</idno>
-							              </msIdentifier>
-							              <physDesc>
-								                <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
-							              </physDesc>
-						            </msDesc>
-					          </witness>
-				        </listWit>
-				        <listBibl>
-					          <biblStruct corresp="ASBH">
-						            <monogr>
-							              <author ref="#pmb2121">Schnitzler, Arthur</author>
-							              <author ref="#pmb10863">Beer-Hofmann, Richard</author>
-							              <title level="m">Briefwechsel 1891–1931</title>
-							              <editor>Hg. Konstanze Fliedl</editor>
-							              <imprint>
-								                <pubPlace>Wien, Zürich</pubPlace>
-								                <publisher>Europaverlag</publisher>
-								                <date when="1992">1992</date>
-							              </imprint>
-							              <biblScope unit="pp">XXXX</biblScope>
-						            </monogr>
-					          </biblStruct>
-				        </listBibl>
-			      </sourceDesc>
-		    </fileDesc>
-		    <profileDesc>
-			      <langUsage>
-				        <language ident="de-AT">German</language>
-			      </langUsage>
-			      <correspDesc>
-				        <correspAction  type="sent">
-					          <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
-					          <placeName ref="#pmb50">Wien</placeName>
-					          <date when="1909-12-11" n="02">11.&#160;12.&#160;1909</date>
-				        </correspAction>
-				        <correspAction  type="received">
-					          <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-				        </correspAction>
-			         <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1909-12-10_01">Schnitzler an Beer-Hofmann, 10.&#160;12.&#160;1909</ptr>
-               <ptr type="next" subtype="toAuthor" target="1909-12-12_01">Schnitzler an Beer-Hofmann, 12.&#160;12.&#160;1909</ptr>
-            </correspContext>
-         </correspDesc>
-		    </profileDesc>
-		    <revisionDesc status="proposed">
-			      <change who="MAM" when="2019-06-12">Automatisch angelegt aus Buchausgabe</change>
-		    </revisionDesc>
-	  </teiHeader>
-	  <text type="letter">
-		    <body>
-
-			      <div type="writingSession" n="1"><p rend="center">DAS ECHO DES LEBENS.</p><p rend="center">Ein Epilog zur Generalprobe des Stückes »<rs ref="#pmb29905" type="work">Der Ruf des Lebens</rs>«.</p><p><space dim="vertical" unit="line" quantity="1"/></p><p>Am Tage der Aufführung. Vier Uhr Nachmittags. Da es der <date>11.&#160;Dezember</date>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1909-12-11_02_Beer-Hofmann_AS"><teiHeader type="text">
+<fileDesc>
+<titleStmt>
+<title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+<title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 11. 12. 1909</title>
+<author ref="#pmb10863">Beer-Hofmann, Richard</author>
+<editor>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</editor>
+<funder>
+<name>FWF - Fonds für Wissenschaft und Forschung</name>
+<address>
+<street>Sensengasse 1</street>
+<postCode>1090 Wien</postCode>
+<placeName>
+<country>A</country>
+<settlement>Wien</settlement>
+</placeName>
+</address>
+</funder>
+</titleStmt>
+<editionStmt>
+<edition>ASBW</edition>
+<respStmt>
+<resp>Transkription und Kommentierung</resp>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Austrian Academy of Sciences, Vienna</publisher>
+<idno type="ASBW" n="2667"/>
+<availability status="free">
+<p>Copyright © 2019</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+</seriesStmt>
+<sourceDesc>
+<listWit>
+<witness n="1">
+<msDesc>
+<msIdentifier>
+<country>GB</country>
+<settlement>Cambridge</settlement>
+<repository>University Library</repository>
+<idno>Schnitzler, B 8</idno>
+</msIdentifier>
+<physDesc>
+<p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+</physDesc>
+</msDesc>
+</witness>
+</listWit>
+<listBibl>
+<biblStruct corresp="ASBH">
+<monogr>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<author ref="#pmb10863">Beer-Hofmann, Richard</author>
+<title level="m">Briefwechsel 1891–1931</title>
+<editor>Hg. Konstanze Fliedl</editor>
+<imprint>
+<pubPlace>Wien, Zürich</pubPlace>
+<publisher>Europaverlag</publisher>
+<date when="1992">1992</date>
+</imprint>
+<biblScope unit="pp">XXXX</biblScope>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de-AT">German</language>
+</langUsage>
+<correspDesc>
+<correspAction type="sent">
+<persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+<placeName ref="#pmb50">Wien</placeName>
+<date when="1909-12-11" n="02">11. 12. 1909</date>
+</correspAction>
+<correspAction type="received">
+<persName ref="#pmb2121">Schnitzler, Arthur</persName>
+</correspAction>
+<correspContext>
+<ptr type="previous" subtype="toAuthor" target="1909-12-10_01">Schnitzler an Beer-Hofmann, 10. 12. 1909</ptr>
+<ptr type="next" subtype="toAuthor" target="1909-12-12_01">Schnitzler an Beer-Hofmann, 12. 12. 1909</ptr>
+</correspContext>
+</correspDesc>
+</profileDesc>
+<encodingDesc>
+<refsDecl>
+<ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, e.g. <ref type="schnitzlerDiary" target="1891-05-15"/> The complete URI is either: "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?directory=editions&amp;document=entry__1912-05-15.xml" (whereas &amp; has to be replaced with the single character ampersand) or "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-15.xml". </ab>
+</refsDecl>
+</encodingDesc>
+<revisionDesc status="proposed">
+<change who="MAM" when="2019-06-12">Automatisch angelegt aus Buchausgabe</change>
+</revisionDesc>
+</teiHeader><text type="letter"><body><div type="writingSession" n="1"><p rend="center">DAS ECHO DES LEBENS.</p><p rend="center">Ein Epilog zur Generalprobe des Stückes »<rs ref="#pmb29905" type="work">Der Ruf des Lebens</rs>«.</p><p><space dim="vertical" unit="line" quantity="1"/></p><p>Am Tage der Aufführung. Vier Uhr Nachmittags. Da es der <date>11. Dezember</date>
 					ist, dämmert es bereits merklich. Der Vorhang ist hochgezogen. Die Bühne trägt
-					die Dekoration des <rs type="work" ref="#pmb29905" subtype="implied">2.&#160;Aktes</rs>. Die Figuren des
+					die Dekoration des <rs type="work" ref="#pmb29905" subtype="implied">2. Aktes</rs>. Die Figuren des
 					Stückes, die noch vor kurzem, in der unmateriellen Wirklichkeit, die ihnen die
 					Worte ihres Schöpfers gaben, bewegt aufrecht standen – lehnen nun, in der
 					materiellen Unwirklichkeit, die ihnen gestern – bei der Generalprobe – die
@@ -188,7 +183,7 @@
 					trifft Ihre arme Tochter kein Verschulden. Sie selbst haben sich umgebracht.
 					Wären Sie damals, anstatt feige davonzulaufen, den Heldentod gestorben – Sie
 					hätten nie geheiratet, hätten nie eine Tochter (die Sie notgedrungen vergiften
-					musste) gehabt – und wären heute,&#160;– mit Ausnahme kleiner Altersbeschwerden
+					musste) gehabt – und wären heute, – mit Ausnahme kleiner Altersbeschwerden
 					frisch und gesund!</p><p>SEBASTIAN: (eine neue Locke aufsteckend, sehr begeistert) Noch ein Dreh!</p><p>OBERSTIN: Um Ihretwillen, Sie alter Feigling, muss mein Mann sterben!</p><p>OBERST: Um Ihretwillen, Herr Rittmeister, ist ein ganzes Regiment totgeweiht!</p><p>DER ARZT: Sie sind an allem schuld, Herr Moser!</p><p>DER ALTE MOSER: Jetzt ist’s zu viel und vor allem, Herr Doktor, sagen Sie nicht
 					Herr Moser, sondern Rittmeister zu mir. Mein Davonlaufen ist an allem schuld?
 					Ja, dann ist mein Vater daran schuld, weil er meine Mutter geheiratet hat, und
@@ -253,8 +248,4 @@
 					Eschkenasi? Von welchem Eschkenasi sind Sie —</p><p>SOUFFLEUR: (milde) Bestehen Sie noch immer darauf, dass Sie »Sebastian«
 					heissen?</p><p>SEBASTIAN: (hat sich aufgerichtet; respektlos, in herzlicher Gemütlichkeit,
 					fraternisierend) Sind Sie nicht bös, Herr Dichter – und Herr Eschkenasi – wir
-					sind alle blaue Kürrassiere!</p><p>Der Vorhang fällt.</p></div>
-
-		    </body>
-	  </text>
-</TEI>
+					sind alle blaue Kürrassiere!</p><p>Der Vorhang fällt.</p></div></body></text></TEI>

@@ -27,6 +27,8 @@
                 });
                 var yearsSorted = years.sort();
                 
+                
+                
                 $('#calendar').calendar({
                     dataSource: $dataSource,
                     startYear: 1891,

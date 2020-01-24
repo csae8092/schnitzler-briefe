@@ -1,145 +1,120 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1897-03-12_01_AS_Hofmannsthal">
-    <teiHeader type="text">
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 12.&#160;3.&#160;1897</title>
-                <author ref="#pmb2121">Schnitzler, Arthur</author>
-                <editor>
-                    <name full="yes" instant="false">Müller, Martin Anton</name>
-                </editor>
-                <funder>
-                    <name full="yes" instant="false">FWF - Fonds für Wissenschaft und
-                        Forschung</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Wien</postCode>
-                        <placeName>
-                            <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>HBAS</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name full="yes" instant="false">Kurt Ifkovits</name>
-                    <name full="yes" instant="false">Martin Anton Müller</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="HBAS-L" n="1436"/>
-                <availability status="free">
-                    <p>Copyright © 2018</p>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness n="1">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>D</country>
-                                <settlement>Frankfurt am Main</settlement>
-                                <repository>Freies Deutsches Hochstift</repository>
-                                <idno>Hs-30885,55</idno>
-                            </msIdentifier>
-                            <physDesc>
-                                <p>eh. Brief, 1&#160;Bl., 4&#160;S., Bleistift.</p>
-                            </physDesc>
-                        </msDesc>
-                    </witness>
-                </listWit>
-                <listBibl>
-                    <biblStruct corresp="HvHAS">
-                        <monogr>
-                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
-                            <author ref="#pmb2121">Schnitzler, Arthur</author>
-                            <title level="m">Briefwechsel</title>
-                            <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
-                            <imprint>
-                                <pubPlace>Frankfurt am Main</pubPlace>
-                                <publisher>S. Fischer</publisher>
-                                <date when="1964">1964</date>
-                            </imprint>
-                            <biblScope unit="pp">78</biblScope>
-                        </monogr>
-                    </biblStruct>
-                    <biblStruct corresp="HBAS">
-                        <monogr>
-                            <author ref="#pmb10815">Bahr, Hermann</author>
-                            <author ref="#pmb2121">Schnitzler, Arthur</author>
-                            <title level="m">Briefwechsel, Aufzeichnungen, Dokumente
-                                (1891–1931)</title>
-                            <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
-                            <imprint>
-                                <pubPlace>Göttingen</pubPlace>
-                                <publisher>Wallstein</publisher>
-                                <date when="2018">2018</date>
-                            </imprint>
-                            <biblScope unit="pp">137</biblScope>
-                        </monogr>
-                    </biblStruct>
-                </listBibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-            <correspDesc>
-                <correspAction  type="sent">
-                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                    <date when="1897-03-12" n="01">12.&#160;3.&#160;1897</date>
-                </correspAction>
-                <correspAction  type="received">
-                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName ref="#pmb50">[Wien]</placeName>
-                </correspAction>
-            <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1897-02-09_02">Schnitzler an Hofmannsthal, [9.&#160;2.&#160;1897?]</ptr>
-               <ptr type="next" subtype="toAuthor" target="1897-03-12_02">Hofmannsthal an Schnitzler, [12.&#160;3.&#160;1897]</ptr>
-            </correspContext>
-         </correspDesc>
-        </profileDesc>
-        <revisionDesc status="approved">
-            <change who="MAM" when="2016-03-09">Angelegt aus OCR</change>
-            <change who="KI MAM" when="2017-06-27">Kollationiert</change>
-            <change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
-            <change who="GHS" when="2019-06-02">facs etc. aktualisiert, finalisiert</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="Hs-30885,55_001.JPG"/>
-        <graphic url="Hs-30885,55_002.JPG"/>
-    </facsimile>
-    <text type="letter">
-        <body>
-            <div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs="Hs-30885,55_001.JPG"/><hi rend="pre-print">»<rs ref="#pmb29209" type="org">Die Zeit</rs>«</hi></seg><seg rend="right"><hi rend="pre-print"><hi rend="bold"><rs ref="#pmb50" type="place">Wien</rs></hi>, <rs ref="#pmb296" type="place">IX/3, Günthergasse 1</rs>.,
-                                den </hi><date>12/3 97</date></seg></p><p><hi rend="pre-print">Wiener Wochenſchrift</hi></p><p><hi rend="pre-print"><hi rend="bold">Herausgeber</hi>:</hi><lb/><hi rend="pre-print">Profeſſor Dr.&#160;<rs ref="#pmb12790" type="person">I.&#160;Singer</rs>,</hi></p><p><hi rend="pre-print"><rs ref="#pmb10815" type="person">Hermann Bahr</rs>, Dr.&#160;<rs ref="#pmb11867" type="person">Heinrich Kanner</rs>.</hi></p><p><hi rend="pre-print">Telephon Nr.&#160;6415.</hi></p></opener><p><salute>Lieber Hugo, </salute>vielleicht könnten Sie ſich doch entſchließen, bei
-                    dieſer Veranſtaltung zu leſen. Ich thät es hundertmal lieber, wenn Sie dabei
-                    wären. Das iſt natürlich kein Grund. Aber Sie wiſſen ganz gut, die Leute würd es
-                    ſehr intereſſiren <pb facs="Hs-30885,55_001.JPG"/>und, wenn man ſchon von
-                    ſolchen Sachen ſprechen ſoll, »ſchaden« werden Sie ſich nicht, ſondern die
-                    Menſchen werden nur das Bedürfnis haben, Ihre Gedichte ſchön zu finden, auch
-                        we<c rendition="#gemination-n"/> ſie ihnen nicht gefallen. Ich will jetzt
-                    eben zu <rs ref="#pmb11701" type="person">Hirſchfeld</rs> gehen, daſs <pb facs="Hs-30885,55_002.JPG"/>er vielleicht auch vorlieſt – ſchon um das dumme
-                    »Jung <rs ref="#pmb50" type="place">Wien</rs>« Geplauſch zu paralyſiren.&#160;–</p><p>Antworten Sie mir vielleicht ein Wort.</p><p>Mir wäre eine Verſchiebung zum So<c rendition="#gemination-m"/>er lieb. Was ſoll
-                        <hi rend="underline" n="1">ich</hi> denn leſen?</p><closer><pb facs="Hs-30885,55_002.JPG"/>Herzlich<lb/>Ihr <signed>Arthur</signed></closer><postscript><p><rs ref="#pmb10815" type="person">Bahr</rs> grüßt Sie.</p></postscript></div>
-            <div type="writingSession" n="2"><p><rs ref="#pmb11701" type="person">Hirſchfeld</rs> ist einverſtanden.</p><p><hi rend="pre-print"><anchor type="textConst" xml:id="TG22"/>Alle für <note type="textConst" xml:id="TG22h">am unteren Rand der ersten Seite</note>»<rs ref="#pmb29209" type="org">Die Zeit</rs>«
-                    beſtimmten Zuſchriften und Sendungen ſind an die Redaction der »<rs ref="#pmb29209" type="org">Zeit</rs>« und
-                            <hi rend="bold">nicht</hi> an die Perſon eines der Herausgeber zu
-                        richten.</hi></p></div>
-        </body>
-    </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-03-12_01_AS_Hofmannsthal"><teiHeader type="text">
+<fileDesc>
+<titleStmt>
+<title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+<title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 12. 3. 1897</title>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<editor>
+<name>Müller, Martin Anton</name>
+</editor>
+<funder>
+<name>FWF - Fonds für Wissenschaft und Forschung</name>
+<address>
+<street>Sensengasse 1</street>
+<postCode>1090 Wien</postCode>
+<placeName>
+<country>A</country>
+<settlement>Wien</settlement>
+</placeName>
+</address>
+</funder>
+</titleStmt>
+<editionStmt>
+<edition>HBAS</edition>
+<respStmt>
+<resp>Transkription und Kommentierung</resp>
+<name>Kurt Ifkovits</name>
+<name>Martin Anton Müller</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Austrian Academy of Sciences, Vienna</publisher>
+<idno type="HBAS-L" n="1436"/>
+<availability status="free">
+<p>Copyright © 2018</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+</seriesStmt>
+<sourceDesc>
+<listWit>
+<witness n="1">
+<msDesc>
+<msIdentifier>
+<country>D</country>
+<settlement>Frankfurt am Main</settlement>
+<repository>Freies Deutsches Hochstift</repository>
+<idno>Hs-30885,55</idno>
+</msIdentifier>
+<physDesc>
+<p>eh. Brief, 1 Bl., 4 S., Bleistift.</p>
+</physDesc>
+</msDesc>
+</witness>
+</listWit>
+<listBibl>
+<biblStruct corresp="HvHAS">
+<monogr>
+<author ref="#pmb11740">Hofmannsthal, Hugo</author>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<title level="m">Briefwechsel</title>
+<editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+<imprint>
+<pubPlace>Frankfurt am Main</pubPlace>
+<publisher>S. Fischer</publisher>
+<date when="1964">1964</date>
+</imprint>
+<biblScope unit="pp">78</biblScope>
+</monogr>
+</biblStruct>
+<biblStruct corresp="HBAS">
+<monogr>
+<author ref="#pmb10815">Bahr, Hermann</author>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+<editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
+<imprint>
+<pubPlace>Göttingen</pubPlace>
+<publisher>Wallstein</publisher>
+<date when="2018">2018</date>
+</imprint>
+<biblScope unit="pp">137</biblScope>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de-AT">German</language>
+</langUsage>
+<correspDesc>
+<correspAction type="sent">
+<persName ref="#pmb2121">Schnitzler, Arthur</persName>
+<placeName ref="#pmb50">Wien</placeName>
+<date when="1897-03-12" n="01">12. 3. 1897</date>
+</correspAction>
+<correspAction type="received">
+<persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+<placeName ref="#pmb50">[Wien]</placeName>
+</correspAction>
+<correspContext>
+<ptr type="previous" subtype="toAuthor" target="1897-02-09_02">Schnitzler an Hofmannsthal, [9. 2. 1897?]</ptr>
+<ptr type="next" subtype="toAuthor" target="1897-03-12_02">Hofmannsthal an Schnitzler, [12. 3. 1897]</ptr>
+</correspContext>
+</correspDesc>
+</profileDesc>
+<encodingDesc>
+<refsDecl>
+<ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, e.g. <ref type="schnitzlerDiary" target="1891-05-15"/> The complete URI is either: "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?directory=editions&amp;document=entry__1912-05-15.xml" (whereas &amp; has to be replaced with the single character ampersand) or "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-15.xml". </ab>
+</refsDecl>
+</encodingDesc>
+<revisionDesc status="approved">
+<change who="MAM" when="2016-03-09">Angelegt aus OCR</change>
+<change who="KI MAM" when="2017-06-27">Kollationiert</change>
+<change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
+<change who="GHS" when="2019-06-02">facs etc. aktualisiert, finalisiert</change>
+<change who="MAM" when="2019-01-20">Index check</change>
+</revisionDesc>
+</teiHeader><facsimile><graphic url="Hs-30885,55_001.JPG"/><graphic url="Hs-30885,55_002.JPG"/></facsimile><text type="letter"><body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs="Hs-30885,55_001.JPG"/><hi rend="pre-print">»<rs ref="#pmb29209" type="org">Die Zeit</rs>«</hi></seg><seg rend="right"><hi rend="pre-print"><hi rend="bold"><rs ref="#pmb50" type="place">Wien</rs></hi>, den </hi><date>12/3 97</date></seg></p><p><seg rend="left"><hi rend="pre-print">Wiener Wochenſchrift</hi></seg><seg rend="right"><hi rend="pre-print"><rs ref="#pmb296" type="place">IX/3, Günthergaſſe 1</rs>.</hi></seg></p><p><hi rend="pre-print"><hi rend="bold">Herausgeber</hi>:</hi><lb/><hi rend="pre-print">Profeſſor Dr. <rs ref="#pmb12790" type="person">I. Singer</rs>,</hi></p><p><hi rend="pre-print"><rs ref="#pmb10815" type="person">Hermann Bahr</rs>, Dr. <rs ref="#pmb11867" type="person">Heinrich Kanner</rs>.</hi></p><p><hi rend="pre-print">Telephon Nr. 6415.</hi></p></opener><p><salute>Lieber Hugo, </salute>vielleicht könnten Sie ſich doch entſchließen, bei dieſer Veranſtaltung zu leſen. Ich thät es hundertmal lieber, wenn Sie dabei wären. Das iſt natürlich kein Grund. Aber Sie wiſſen ganz gut, die Leute würd es ſehr intereſſiren <pb facs="Hs-30885,55_001.JPG"/>und, wenn man ſchon von ſolchen Sachen ſprechen ſoll, »ſchaden« werden Sie ſich nicht, ſondern die Menſchen werden nur das Bedürfnis haben, Ihre Gedichte ſchön zu finden, auch we<c rendition="#gemination-n"/> ſie ihnen nicht gefallen. Ich will jetzt eben zu <rs ref="#pmb11701" type="person">Hirſchfeld</rs> gehen, daſs <pb facs="Hs-30885,55_002.JPG"/>er vielleicht auch vorlieſt – ſchon um das dumme »Jung <rs ref="#pmb50" type="place">Wien</rs>« Geplauſch zu paralyſiren. –</p><p>Antworten Sie mir vielleicht ein Wort.</p><p>Mir wäre eine Verſchiebung zum So<c rendition="#gemination-m"/>er lieb. Was ſoll <hi rend="underline" n="1">ich</hi> denn leſen?</p><closer><pb facs="Hs-30885,55_002.JPG"/>Herzlich<lb/>Ihr <signed>Arthur</signed></closer><postscript><p><rs ref="#pmb10815" type="person">Bahr</rs> grüßt Sie.</p></postscript></div><div type="writingSession" n="2"><p><rs ref="#pmb11701" type="person">Hirſchfeld</rs> ist einverſtanden.</p><p><hi rend="pre-print"><anchor type="textConst" xml:id="TG22"/>Alle für »<rs ref="#pmb29209" type="org">Die Zeit</rs>« beſtimmten Zuſchriften und Sendungen ſind an die Redaction der »<rs ref="#pmb29209" type="org">Zeit</rs>« und <hi rend="bold">nicht</hi> an die Perſon eines der Herausgeber zu richten.<note type="textConst" xml:id="TG22h">am unteren Rand der ersten Seite</note></hi></p></div></body></text></TEI>

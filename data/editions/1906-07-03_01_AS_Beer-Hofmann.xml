@@ -1,110 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1906-07-03_01_AS_Beer-Hofmann">
-   <teiHeader type="text">
-      <fileDesc>
-         <titleStmt>
-            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 3.&#160;7.&#160;1906</title>
-            <author ref="#pmb2121">Schnitzler, Arthur</author>
-            <editor>
-               <name>Müller, Martin Anton</name>
-               <name>Susen, Gerd-Hermann</name>
-            </editor>
-            <funder>
-               <name>FWF - Fonds für Wissenschaft und Forschung</name>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-               </address>
-            </funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>ASBW</edition>
-            <respStmt>
-               <resp>Transkription und Kommentierung</resp>
-               <name>Müller, Martin Anton</name>
-               <name>Susen, Gerd-Hermann</name>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Austrian Academy of Sciences, Vienna</publisher>
-            <idno type="ASBW" n="2623"/>
-            <availability status="free">
-               <p>Copyright © 2019</p>
-            </availability>
-         </publicationStmt>
-         <seriesStmt>
-            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-         </seriesStmt>
-         <sourceDesc>
-            <listWit>
-               <witness n="1">
-                  <msDesc>
-                     <msIdentifier>
-                        <country>U.S.A.</country>
-                        <settlement>Yale</settlement>
-                        <repository>Beinecke Rare Book and Manuscript Library</repository>
-                        <idno>Yale Collection of German Literature, MSS 31</idno>
-                     </msIdentifier>
-                     <physDesc>
-                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
-                     </physDesc>
-                  </msDesc>
-               </witness>
-            </listWit>
-            <listBibl>
-               <biblStruct corresp="ASBH">
-                  <monogr>
-                     <author ref="#pmb2121">Schnitzler, Arthur</author>
-                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
-                     <title level="m">Briefwechsel 1891–1931</title>
-                     <editor>Hg. Konstanze Fliedl</editor>
-                     <imprint>
-                        <pubPlace>Wien, Zürich</pubPlace>
-                        <publisher>Europaverlag</publisher>
-                        <date when="1992">1992</date>
-                     </imprint>
-                     <biblScope unit="pp"/>
-                  </monogr>
-               </biblStruct>
-            </listBibl>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="de-AT">German</language>
-         </langUsage>
-         <correspDesc>
-            <correspAction  type="sent">
-               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-               <placeName ref="#pmb959">Marienlyst</placeName>
-               <date when="1906-07-03" n="01">3.&#160;7.&#160;1906</date>
-            </correspAction>
-            <correspAction  type="received">
-               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
-            </correspAction>
-            <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1906-01-30_01">Schnitzler an Beer-Hofmann, 30.&#160;1.&#160;1906</ptr>
-               <ptr type="next" subtype="toAuthor" target="1906-07-13_02">Beer-Hofmann an Schnitzler, 13.&#160;7.&#160;1906</ptr>
-            </correspContext>
-         </correspDesc>
-      </profileDesc>
-      <revisionDesc status="proposed">
-         <change who="MAM" when="2019-06-12">Automatisch angelegt aus Buchausgabe</change>
-      </revisionDesc>
-   </teiHeader>
-   <text type="letter">
-      <body>
-         <div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb41010" type="place">Marienlyst, Kurhaus</rs>, <date when="1906-07-03">3/7. 906</date></dateline></opener><p>Wunderschön hier. Dürften längre Zeit bleiben. Habe gestern <rs ref="#pmb10992" type="person">Brandes</rs> besucht, der im <rs ref="#pmb1109" type="place">Commune Hospital</rs> wieder mit seiner Venenentzündung krank liegt aber frisch ist
-               wie je. Lassen Sie von sich und den Ihren hören. Herzlichst,</p><closer>Ihr <signed>A. O.</signed></closer><p><rs ref="#pmb30233" type="work">Charolais</rs> wird im Herbst in <rs ref="#pmb36300" type="place">Kopenhagen</rs> aufgeführt.</p></div>
-      </body>
-   </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1906-07-03_01_AS_Beer-Hofmann"><teiHeader type="text">
+<fileDesc>
+<titleStmt>
+<title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+<title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 3. 7. 1906</title>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<editor>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</editor>
+<funder>
+<name>FWF - Fonds für Wissenschaft und Forschung</name>
+<address>
+<street>Sensengasse 1</street>
+<postCode>1090 Wien</postCode>
+<placeName>
+<country>A</country>
+<settlement>Wien</settlement>
+</placeName>
+</address>
+</funder>
+</titleStmt>
+<editionStmt>
+<edition>ASBW</edition>
+<respStmt>
+<resp>Transkription und Kommentierung</resp>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Austrian Academy of Sciences, Vienna</publisher>
+<idno type="ASBW" n="2623"/>
+<availability status="free">
+<p>Copyright © 2019</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+</seriesStmt>
+<sourceDesc>
+<listWit>
+<witness n="1">
+<msDesc>
+<msIdentifier>
+<country>U.S.A.</country>
+<settlement>Yale</settlement>
+<repository>Beinecke Rare Book and Manuscript Library</repository>
+<idno>Yale Collection of German Literature, MSS 31</idno>
+</msIdentifier>
+<physDesc>
+<p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+</physDesc>
+</msDesc>
+</witness>
+</listWit>
+<listBibl>
+<biblStruct corresp="ASBH">
+<monogr>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<author ref="#pmb10863">Beer-Hofmann, Richard</author>
+<title level="m">Briefwechsel 1891–1931</title>
+<editor>Hg. Konstanze Fliedl</editor>
+<imprint>
+<pubPlace>Wien, Zürich</pubPlace>
+<publisher>Europaverlag</publisher>
+<date when="1992">1992</date>
+</imprint>
+<biblScope unit="pp"/>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de-AT">German</language>
+</langUsage>
+<correspDesc>
+<correspAction type="sent">
+<persName ref="#pmb2121">Schnitzler, Arthur</persName>
+<placeName ref="#pmb959">Marienlyst</placeName>
+<date when="1906-07-03" n="01">3. 7. 1906</date>
+</correspAction>
+<correspAction type="received">
+<persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+</correspAction>
+<correspContext>
+<ptr type="previous" subtype="toAuthor" target="1906-01-30_01">Schnitzler an Beer-Hofmann, 30. 1. 1906</ptr>
+<ptr type="next" subtype="toAuthor" target="1906-07-13_02">Beer-Hofmann an Schnitzler, 13. 7. 1906</ptr>
+</correspContext>
+</correspDesc>
+</profileDesc>
+<encodingDesc>
+<refsDecl>
+<ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, e.g. <ref type="schnitzlerDiary" target="1891-05-15"/> The complete URI is either: "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?directory=editions&amp;document=entry__1912-05-15.xml" (whereas &amp; has to be replaced with the single character ampersand) or "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-15.xml". </ab>
+</refsDecl>
+</encodingDesc>
+<revisionDesc status="proposed">
+<change who="MAM" when="2019-06-12">Automatisch angelegt aus Buchausgabe</change>
+</revisionDesc>
+</teiHeader><text type="letter"><body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb41010" type="place">Marienlyst, Kurhaus</rs>, <date when="1906-07-03">3/7. 906</date></dateline></opener><p>Wunderschön hier. Dürften längre Zeit bleiben. Habe gestern <rs ref="#pmb10992" type="person">Brandes</rs> besucht, der im <rs ref="#pmb1109" type="place">Commune Hospital</rs> wieder mit seiner Venenentzündung krank liegt aber frisch ist wie je. Lassen Sie von sich und den Ihren hören. Herzlichst,</p><closer>Ihr <signed>A. O.</signed></closer><p><rs ref="#pmb30233" type="work">Charolais</rs> wird im Herbst in <rs ref="#pmb36300" type="place">Kopenhagen</rs> aufgeführt.</p></div></body></text></TEI>

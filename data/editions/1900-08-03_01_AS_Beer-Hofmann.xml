@@ -1,128 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1900-08-03_01_AS_Beer-Hofmann">
-   <teiHeader type="text">
-      <fileDesc>
-         <titleStmt>
-            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 3.&#160;8.&#160;1900</title>
-            <author ref="#pmb2121">Schnitzler, Arthur</author>
-            <editor>
-               <name>Müller, Martin Anton</name>
-               <name>Susen, Gerd-Hermann</name>
-            </editor>
-            <funder>
-               <name>FWF - Fonds für Wissenschaft und Forschung</name>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-               </address>
-            </funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>ASBW</edition>
-            <respStmt>
-               <resp>Transkription und Kommentierung</resp>
-               <name>Müller, Martin Anton</name>
-               <name>Susen, Gerd-Hermann</name>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Austrian Academy of Sciences, Vienna</publisher>
-            <idno type="ASBW" n="2558"/>
-            <availability status="free">
-               <p>Copyright © 2019</p>
-            </availability>
-         </publicationStmt>
-         <seriesStmt>
-            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-         </seriesStmt>
-         <sourceDesc>
-            <listWit>
-               <witness n="1">
-                  <msDesc>
-                     <msIdentifier>
-                        <country>U.S.A.</country>
-                        <settlement>Yale</settlement>
-                        <repository>Beinecke Rare Book and Manuscript Library</repository>
-                        <idno>Yale Collection of German Literature, MSS 31</idno>
-                     </msIdentifier>
-                     <physDesc>
-                        <p>eh. Brief, 1&#160;Bl., 1&#160;S. XXXX</p>
-                     </physDesc>
-                  </msDesc>
-               </witness>
-            </listWit>
-            <listBibl>
-               <biblStruct corresp="ASBH">
-                  <monogr>
-                     <author ref="#pmb2121">Schnitzler, Arthur</author>
-                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
-                     <title level="m">Briefwechsel 1891–1931</title>
-                     <editor>Hg. Konstanze Fliedl</editor>
-                     <imprint>
-                        <pubPlace>Wien, Zürich</pubPlace>
-                        <publisher>Europaverlag</publisher>
-                        <date when="1992">1992</date>
-                     </imprint>
-                     <biblScope unit="pp">149–151</biblScope>
-                  </monogr>
-               </biblStruct>
-            </listBibl>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="de-AT">German</language>
-         </langUsage>
-         <correspDesc>
-            <correspAction  type="sent">
-               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-               <placeName ref="#pmb213">Bad Ischl</placeName>
-               <date when="1900-08-03" n="01">3.&#160;8.&#160;1900</date>
-            </correspAction>
-            <correspAction  type="received">
-               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
-            </correspAction>
-            <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1900-08-02_01">Beer-Hofmann an Schnitzler, 2.&#160;8.&#160;1900</ptr>
-               <ptr type="next" subtype="toAuthor" target="1900-09-14_01">Beer-Hofmann an Schnitzler, 14.&#160;9.&#160;1900</ptr>
-            </correspContext>
-         </correspDesc>
-      </profileDesc>
-      <revisionDesc status="proposed">
-         <change who="MAM" when="2019-06-12">Automatisch angelegt aus Buchausgabe</change>
-         <change who="MAM" when="2019-11-13">Index check</change>
-      </revisionDesc>
-   </teiHeader>
-   <text type="letter">
-      <body>
-         <div type="writingSession" n="1"><opener><dateline rend="right"><date when="1900-08-03">3.&#160;8.&#160;900</date>.</dateline></opener><p><salute>Lieber Richard, </salute>ich kann den Vortheil Ihres neuen Vorschlags nicht
-               einsehn. Das missliche daran ist: doch per Bahn nach <rs ref="#pmb40329" type="place">Jenbach</rs> fahren müssen, dann wieder von <rs ref="#pmb40302" type="place">Sterzing</rs> nach <rs ref="#pmb867" type="place">Innsbruck</rs> zurück
-               müssen. Vergessen Sie nicht, unsre Absicht ist: von <rs ref="#pmb40336" type="place">Zell
-                  a/See</rs> nach <rs ref="#pmb867" type="place">Innsbruck</rs>, auf einem
-               neuen Weg, zu kommen. Überdies kostet Ihre Tour 1 Tag mehr, und <rs ref="#pmb11910" type="person">Kerr</rs> möchte uns in <rs ref="#pmb867" type="place">Innsbruck</rs> treffen. Nach meinem Reisebuch bietet das <geogName type="mountain">Pfitscher Joch</geogName> kaum mehr als <rs ref="#pmb40432" type="place">Krimml</rs> und <rs ref="#pmb40280" type="place">Gerlos</rs>, und die
-               Sache ist weit bequemer. Ich schlage also vor:</p><p><rs ref="#pmb30" type="place">Salzburg</rs> ab <date>Montag</date> (spätestens
-                  <date>Dinstag</date>) <time>Nachmittag 3.12</time>.</p><p>Ankunft <date>Zell am See</date><space unit="chars" quantity="1"/><time>5.43</time>. <rs ref="#pmb40435" type="place">Post Kesselfall</rs></p><p>Übernachten.</p><p><date>Dinstag</date> (resp. <date>Mittwoch</date>)</p><p>Spazierg <rs ref="#pmb40339" type="place">Moserboden</rs>, zurück <rs ref="#pmb40435" type="place">Kesselfall</rs>, bis <rs ref="#pmb40336" type="place">Zell am
-                  See</rs>, Bahn (<time>4.50</time> nach <rs ref="#pmb40432" type="place">Krimml</rs>)</p><p>Übernachten</p><p><date>Mittwoch</date> (resp <date>Donn</date>) <rs ref="#pmb40432" type="place">Krimml</rs><space unit="chars" quantity="1"/><rs ref="#pmb40280" type="place">Gerlos</rs> (Fußpartie – 4 Stunden)</p><p><rs ref="#pmb40280" type="place">Gerlos</rs> – <rs ref="#pmb134" type="place">Zell
-                  (Zillerthal)</rs> 4 Stunden</p><p><rs ref="#pmb134" type="place">Zell</rs> – <rs ref="#pmb40329" type="place">Jenbach</rs> (Wagen, <time>abds</time><space unit="chars" quantity="1"/><rs ref="#pmb867" type="place">Innsbruck</rs>, 4 Stunden)</p><p>Das <geogName type="mountain">Pfitscher Joch</geogName> ist einfach »lohnend«, hat
-               nicht einmal einen Stern! – und ist viel schwerer als <rs ref="#pmb40280" type="place">Gerlos</rs>.&#160;–</p><p>Was nun die <rs ref="#pmb34006" type="place">Schweiz</rs> anbelangt: Übergang direct
-               nach <rs ref="#pmb38518" type="place">Klosters</rs> dem Überg. nach <rs ref="#pmb40646" type="place">Küblis</rs> vorzuziehn, da wir jedenfalls nach <rs ref="#pmb38518" type="place">Klosters</rs> und von da nach <rs ref="#pmb892" type="place">Davos</rs> müssen; von da <rs ref="#pmb40649" type="place">Flüelapass</rs>
-               nach <rs ref="#pmb5969" type="place">Samaden</rs> und <rs ref="#pmb34946" type="place">Pontresina</rs>. (Fahrstrasse)</p><p>– Im übrigen werden wir keinen Richter brauchen, dagegen Träger.&#160;– <rs ref="#pmb11701" type="person">Georg H.</rs> wird fast sicher nicht mitkommen, obwohl ich
-               ihn auf den Knieen beschworen habe. Menschlicher Voraussicht nach (fassen Sie dieses
-               »Mensch« nicht falsch auf) werd’ ich <date>Sonntag den 12.</date> in <rs ref="#pmb30" type="place">Salzburg</rs> sein. Ich bin sehr dafür, schon
-                  <date>Montag</date> abzufahren. Von <rs ref="#pmb12740" type="person">Schwarzk.</rs>
-               und <rs ref="#pmb2167" type="person">Salten</rs> noch keine Nachricht. Auch von
-                  <rs ref="#pmb11485" type="person">Paul G.</rs> nichts neues.&#160;–</p><p>Leben Sie wohl.&#160;–</p><closer>Herzlichst Ihr <signed>Arthur</signed></closer><p><rs ref="#pmb11740" type="person">Hugo</rs> hat mir geschrieben ist wohl schon in
-                  <rs ref="#pmb30" type="place">Salzburg</rs> bleibt bis <date>15.</date> Er schrieb
-               mir auch von seiner Verlobung.</p></div>
-      </body>
-   </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1900-08-03_01_AS_Beer-Hofmann"><teiHeader type="text">
+<fileDesc>
+<titleStmt>
+<title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+<title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 3. 8. 1900</title>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<editor>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</editor>
+<funder>
+<name>FWF - Fonds für Wissenschaft und Forschung</name>
+<address>
+<street>Sensengasse 1</street>
+<postCode>1090 Wien</postCode>
+<placeName>
+<country>A</country>
+<settlement>Wien</settlement>
+</placeName>
+</address>
+</funder>
+</titleStmt>
+<editionStmt>
+<edition>ASBW</edition>
+<respStmt>
+<resp>Transkription und Kommentierung</resp>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Austrian Academy of Sciences, Vienna</publisher>
+<idno type="ASBW" n="2558"/>
+<availability status="free">
+<p>Copyright © 2019</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+</seriesStmt>
+<sourceDesc>
+<listWit>
+<witness n="1">
+<msDesc>
+<msIdentifier>
+<country>U.S.A.</country>
+<settlement>Yale</settlement>
+<repository>Beinecke Rare Book and Manuscript Library</repository>
+<idno>Yale Collection of German Literature, MSS 31</idno>
+</msIdentifier>
+<physDesc>
+<p>eh. Brief, 1 Bl., 1 S. XXXX</p>
+</physDesc>
+</msDesc>
+</witness>
+</listWit>
+<listBibl>
+<biblStruct corresp="ASBH">
+<monogr>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<author ref="#pmb10863">Beer-Hofmann, Richard</author>
+<title level="m">Briefwechsel 1891–1931</title>
+<editor>Hg. Konstanze Fliedl</editor>
+<imprint>
+<pubPlace>Wien, Zürich</pubPlace>
+<publisher>Europaverlag</publisher>
+<date when="1992">1992</date>
+</imprint>
+<biblScope unit="pp">149–151</biblScope>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de-AT">German</language>
+</langUsage>
+<correspDesc>
+<correspAction type="sent">
+<persName ref="#pmb2121">Schnitzler, Arthur</persName>
+<placeName ref="#pmb213">Bad Ischl</placeName>
+<date when="1900-08-03" n="01">3. 8. 1900</date>
+</correspAction>
+<correspAction type="received">
+<persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+</correspAction>
+<correspContext>
+<ptr type="previous" subtype="toAuthor" target="1900-08-02_01">Beer-Hofmann an Schnitzler, 2. 8. 1900</ptr>
+<ptr type="next" subtype="toAuthor" target="1900-09-14_01">Beer-Hofmann an Schnitzler, 14. 9. 1900</ptr>
+</correspContext>
+</correspDesc>
+</profileDesc>
+<encodingDesc>
+<refsDecl>
+<ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, e.g. <ref type="schnitzlerDiary" target="1891-05-15"/> The complete URI is either: "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?directory=editions&amp;document=entry__1912-05-15.xml" (whereas &amp; has to be replaced with the single character ampersand) or "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-15.xml". </ab>
+</refsDecl>
+</encodingDesc>
+<revisionDesc status="proposed">
+<change who="MAM" when="2019-06-12">Automatisch angelegt aus Buchausgabe</change>
+<change who="MAM" when="2019-11-13">Index check</change>
+</revisionDesc>
+</teiHeader><text type="letter"><body><div type="writingSession" n="1"><opener><dateline rend="right"><date when="1900-08-03">3. 8. 900</date>.</dateline></opener><p><salute>Lieber Richard, </salute>ich kann den Vortheil Ihres neuen Vorschlags nicht einsehn. Das missliche daran ist: doch per Bahn nach <rs ref="#pmb40329" type="place">Jenbach</rs> fahren müssen, dann wieder von <rs ref="#pmb40302" type="place">Sterzing</rs> nach <rs ref="#pmb867" type="place">Innsbruck</rs> zurück müssen. Vergessen Sie nicht, unsre Absicht ist: von <rs ref="#pmb40336" type="place">Zell a/See</rs> nach <rs ref="#pmb867" type="place">Innsbruck</rs>, auf einem neuen Weg, zu kommen. Überdies kostet Ihre Tour 1 Tag mehr, und <rs ref="#pmb11910" type="person">Kerr</rs> möchte uns in <rs ref="#pmb867" type="place">Innsbruck</rs> treffen. Nach meinem Reisebuch bietet das <geogName type="mountain">Pfitscher Joch</geogName> kaum mehr als <rs ref="#pmb40432" type="place">Krimml</rs> und <rs ref="#pmb40280" type="place">Gerlos</rs>, und die Sache ist weit bequemer. Ich schlage also vor:</p><p><rs ref="#pmb30" type="place">Salzburg</rs> ab <date>Montag</date> (spätestens <date>Dinstag</date>) <time>Nachmittag 3.12</time>.</p><p>Ankunft <date>Zell am See</date><space unit="chars" quantity="1"/><time>5.43</time>. <rs ref="#pmb40435" type="place">Post Kesselfall</rs></p><p>Übernachten.</p><p><date>Dinstag</date> (resp. <date>Mittwoch</date>)</p><p>Spazierg <rs ref="#pmb40339" type="place">Moserboden</rs>, zurück <rs ref="#pmb40435" type="place">Kesselfall</rs>, bis <rs ref="#pmb40336" type="place">Zell am See</rs>, Bahn (<time>4.50</time> nach <rs ref="#pmb40432" type="place">Krimml</rs>)</p><p>Übernachten</p><p><date>Mittwoch</date> (resp <date>Donn</date>) <rs ref="#pmb40432" type="place">Krimml</rs><space unit="chars" quantity="1"/><rs ref="#pmb40280" type="place">Gerlos</rs> (Fußpartie – 4 Stunden)</p><p><rs ref="#pmb40280" type="place">Gerlos</rs> – <rs ref="#pmb134" type="place">Zell (Zillerthal)</rs> 4 Stunden</p><p><rs ref="#pmb134" type="place">Zell</rs> – <rs ref="#pmb40329" type="place">Jenbach</rs> (Wagen, <time>abds</time><space unit="chars" quantity="1"/><rs ref="#pmb867" type="place">Innsbruck</rs>, 4 Stunden)</p><p>Das <geogName type="mountain">Pfitscher Joch</geogName> ist einfach »lohnend«, hat nicht einmal einen Stern! – und ist viel schwerer als <rs ref="#pmb40280" type="place">Gerlos</rs>. –</p><p>Was nun die <rs ref="#pmb34006" type="place">Schweiz</rs> anbelangt: Übergang direct nach <rs ref="#pmb38518" type="place">Klosters</rs> dem Überg. nach <rs ref="#pmb40646" type="place">Küblis</rs> vorzuziehn, da wir jedenfalls nach <rs ref="#pmb38518" type="place">Klosters</rs> und von da nach <rs ref="#pmb892" type="place">Davos</rs> müssen; von da <rs ref="#pmb40649" type="place">Flüelapass</rs> nach <rs ref="#pmb5969" type="place">Samaden</rs> und <rs ref="#pmb34946" type="place">Pontresina</rs>. (Fahrstrasse)</p><p>– Im übrigen werden wir keinen Richter brauchen, dagegen Träger. – <rs ref="#pmb11701" type="person">Georg H.</rs> wird fast sicher nicht mitkommen, obwohl ich ihn auf den Knieen beschworen habe. Menschlicher Voraussicht nach (fassen Sie dieses »Mensch« nicht falsch auf) werd’ ich <date>Sonntag den 12.</date> in <rs ref="#pmb30" type="place">Salzburg</rs> sein. Ich bin sehr dafür, schon <date>Montag</date> abzufahren. Von <rs ref="#pmb12740" type="person">Schwarzk.</rs> und <rs ref="#pmb2167" type="person">Salten</rs> noch keine Nachricht. Auch von <rs ref="#pmb11485" type="person">Paul G.</rs> nichts neues. –</p><p>Leben Sie wohl. –</p><closer>Herzlichst Ihr <signed>Arthur</signed></closer><p><rs ref="#pmb11740" type="person">Hugo</rs> hat mir geschrieben ist wohl schon in <rs ref="#pmb30" type="place">Salzburg</rs> bleibt bis <date>15.</date> Er schrieb mir auch von seiner Verlobung.</p></div></body></text></TEI>

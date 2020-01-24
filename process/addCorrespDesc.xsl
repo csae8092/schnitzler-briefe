@@ -14,12 +14,12 @@
     
     <xsl:variable name="sender-place">
         <xsl:choose>
-            <xsl:when test="exists(.//tei:titleStmt/tei:title/tei:rs[@type='place'][last()]/@ref[1])">
+            <xsl:when test="exists(.//tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName[last()]/@ref[1])">
                 <settlement>
                     <xsl:attribute name="ref">
-                        <xsl:value-of select=".//tei:titleStmt/tei:title/tei:rs[@type='place'][last()]/@ref[1]"/>
+                        <xsl:value-of select=".//tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName[last()]/@ref[1]"/>
                     </xsl:attribute>
-                    <xsl:value-of select="normalize-space(.//tei:titleStmt/tei:title/tei:rs[@type='place'][last()]/text())"/>
+                    <xsl:value-of select="normalize-space(.//tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName[last()]/@ref[1]/text())"/>
                 </settlement>
             </xsl:when>
         </xsl:choose>

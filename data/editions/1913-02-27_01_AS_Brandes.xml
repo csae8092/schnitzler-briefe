@@ -1,169 +1,121 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1913-02-27_01_AS_Brandes">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Georg Brandes, 27.&#160;2.&#160;1913</title>
-                <author ref="#pmb2121">Schnitzler, Arthur</author>
-                <editor>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </editor>
-                <funder>
-                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Wien</postCode>
-                        <placeName>
-                            <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>ASBW</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="ASBW" n="1709"/>
-                <availability status="free">
-                    <p>Copyright © 2018</p>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness n="1">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>Dk</country>
-                                <settlement>Kopenhagen</settlement>
-                                <repository>Det Kongelige Bibliotek</repository>
-                                <idno>Georg Brandes Arkiv</idno>
-                            </msIdentifier>
-                            <physDesc>
-                                <p>ms. Brief mit eh. Unterschrift, 2&#160;Bl., 3&#160;S., ms. paginiert 2–3,
-                                    schwarze Tinte. Zwei Streichungen und Unterschrift mit Tinte
-                                    durch Schnitzler. Auf dem ersten&#160;Blatt Nummerierung mit
-                                    Bleistift: »<quote>34.</quote>«, das zweite Blatt markiert mit »<quote><date>27/2 13</date></quote>«.</p>
-                            </physDesc>
-                        </msDesc>
-                    </witness>
-                </listWit>
-                <listBibl>
-                    <biblStruct corresp="ASGB">
-                        <monogr>
-                            <author ref="#pmb10992">Brandes, Georg</author>
-                            <author ref="#pmb2121">Schnitzler, Arthur</author>
-                            <title level="m">Ein Briefwechsel</title>
-                            <editor>Hg. Kurt Bergel</editor>
-                            <imprint>
-                                <pubPlace>Bern</pubPlace>
-                                <publisher>Francke</publisher>
-                                <date when="1956">1956</date>
-                            </imprint>
-                            <biblScope unit="pp">106–107</biblScope>
-                        </monogr>
-                    </biblStruct>
-                    <biblStruct corresp="ASB2">
-                        <monogr>
-                            <author ref="#pmb2121">Schnitzler, Arthur</author>
-                            <title level="m">Briefe 1913–1931</title>
-                            <editor>Hg. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik
-                                und Heinrich Schnitzler</editor>
-                            <imprint>
-                                <pubPlace>Frankfurt am Main</pubPlace>
-                                <publisher>S. Fischer</publisher>
-                                <date when="1984">1984</date>
-                            </imprint>
-                            <biblScope unit="pp">12–13</biblScope>
-                        </monogr>
-                    </biblStruct>
-                </listBibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-            <correspDesc>
-                <correspAction  type="sent">
-                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                    <date when="1913-02-27" n="01">27.&#160;2.&#160;1913</date>
-                </correspAction>
-                <correspAction  type="received">
-                    <persName ref="#pmb10992">Brandes, Georg</persName>
-                    <placeName ref="#pmb36300">Kopenhagen</placeName>
-                </correspAction>
-            <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1912-11-20_02">Brandes an Schnitzler, 20.&#160;11.&#160;1912</ptr>
-               <ptr type="next" subtype="toAuthor" target="1913-03-05_01">Brandes an Schnitzler, 5.&#160;3.&#160;1913</ptr>
-            </correspContext>
-         </correspDesc>
-        </profileDesc>
-        <revisionDesc status="approved">
-            <change who="MAM" when="2018-08-02">Angelegt</change>
-            <change who="MAM" when="2018-02-14">Index check</change>
-            <change who="GHS" when="2019-08-16">facs aktualisiert, korrigiert, finalisiert</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="Georg_Brandes_arkiv_150"/>
-        <graphic url="Georg_Brandes_arkiv_151"/>
-        <graphic url="Georg_Brandes_arkiv_152"/>
-    </facsimile>
-    <text type="letter">
-        <body>
-            <div type="writingSession" n="1"><opener><p><pb facs="Georg_Brandes_arkiv_150.jpg"/><hi rend="pre-print">Dr. Arthur Schnitzler</hi><lb/><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></p><dateline rend="right"><date>27.&#160;2.&#160;1913</date></dateline><salute rend="center">Lieber und verehrter Freund.</salute></opener><p>Ihr <anchor type="commentary" xml:id="KL709-2"/><rs type="work" ref="#pmb33362" subtype="implied">Bild</rs><note type="commentary" xml:id="KL709-2h">Es dürfte sich um die Fotografie
-                        handeln, die abgebildet ist in: <bibl><rs ref="#pmb2121" type="person">Arthur Schnitzler</rs>: <rs type="work">Sein
-                                Leben · Sein Werk · Seine Zeit</rs>. Hg. Heinrich Schnitzler,
-                            Christian Brandstätter und Reinhard Urbach. Frankfurt am Main: <rs ref="#pmb29639" type="org">S.&#160;Fischer</rs><space unit="chars" quantity="1"/><date>1981</date>, S.&#160;73</bibl>.</note> ist aus <rs ref="#pmb182" type="place">Paris</rs> eingetroffen, es ist ausserordentlich gelungen, hat uns
-                    grosse Freude gemacht und wir sagen Ihnen herzlichen Dank dafür.</p><p>Im »<rs ref="#pmb29560" type="org">Merker</rs>« habe ich eben Ihren höchst
-                    anregenden <anchor type="commentary" xml:id="KL709-1"/><rs ref="#pmb33259" type="work" subtype="implied">Artikel</rs><note type="commentary" xml:id="KL709-1h"><bibl><rs ref="#pmb10992" type="person">Georg Brandes</rs>: <rs ref="#pmb33259" type="work">Theater und Schauspiele in Deutschland</rs>.
-                            In: <rs ref="#pmb29560" type="work">Der Merker</rs>, Jg.&#160;4, H.&#160;3,
-                                <date>1.&#160;Februar-Heft 1913</date>, S.&#160;95–99</bibl>.</note> über
-                    Theater in <rs ref="#pmb151" type="place">Deutschland
-</rs> gelesen. Dass meine neue Komödie »<rs ref="#pmb30203" type="work">Professor Bernhardi</rs>« Sie so lebhaft interessiert hat, ist mir
-                    sehr lieb. Es ist über dieses Stück gar viel herumgeredet und – nicht immer
-                    bonafide – herumgeschwätzt<subst><del rend="strikethrough"> worden</del><add place="inline">,</add></subst> und auch Sie, verehrter Freund, sind wie speziell aus einer Ihrer
-                    Bemerkungen hervorgeht, über die Entstehungsgeschichte meines Stückes nicht ganz
-                    richtig informiert worden. Die <rs type="work" ref="#pmb30203" subtype="implied">Komödie</rs>
-                    behandelt nicht eigentlich »ein Lebensschicksal, wie es mein Vater erfahren hat,
-                    der Inhalt ist vielmehr frei erfunden. Mein <pb facs="Georg_Brandes_arkiv_151.jpg"/><rs type="person" ref="#pmb12695" subtype="implied">Vater</rs> hat wohl seinerzeit, mit Freunden
-                    zusammen, ein <rs ref="#pmb41" type="place" subtype="implied">Krankeninstitut</rs> in der Art des
-                    Elisabethinums gegründet, hat es gegen mancherlei Anfeindungen mit Aufgebot
-                    seiner ganzen Begabung und Tatkraft, natürlich nicht ohne die Mithilfe
-                    ausgezeichneter Arbeits- und Kampfgefährten, zu hoher Blüte gebracht und musste
-                    insbesondere gegen Schlus seines Lebens von mancher Seite Undank und Kränkung
-                    erfahren; – aber wenn sein Ausscheiden aus dem von ihm gegründeten Institut
-                    vielleicht auch Einem oder dem Andern nicht unangenehm gewesen wäre, er ist
-                    keineswegs »hinausintrigiert« worden, ja, <del rend="strikethrough">es</del> ist
-                    sogar als Direktor des <rs ref="#pmb41" type="place" subtype="implied">Instituts</rs> am
-                        <date>2.&#160;Mai 1893</date> gestorben. Uebrigens hat mein Titelheld, der »<rs type="work" ref="#pmb30203" subtype="implied">Professor Bernhardi</rs>«, von meinem <rs type="person" ref="#pmb12695" subtype="implied">Vater</rs> nur wenige Züge entliehen,und auch
-                    die anderen Figuren meines Stückes sind, mit der freilich unerlässlichen
-                    Benützung von Wirklichkeitszügen so frei gestaltet, dass nur Kunstfremde, an
-                    denen es natürlich <pb facs="Georg_Brandes_arkiv_152.jpg"/>niemals mangelt, hier
-                    von einem Schlüsselstück reden k<subst><del rend="overwritten">o</del><add place="inline">ö</add></subst>nnten. Meine <rs type="work" ref="#pmb30203" subtype="implied">Komödie</rs> hat keine
-                    andere Wahrheit als die, dass sich die Handlung genau so, wie ich sie
-                        erfunden<del rend="strikethrough">,</del> habe, zugetragen haben könnte,&#160;–
-                    zum mindesten in <rs ref="#pmb50" type="place">Wien</rs> zu Ende des vorigen
-                    Jahrhunderts.</p><p>Ich sende Ihnen diese Zeilen nach <rs ref="#pmb36300" type="place">Kopenhagen</rs>, freilich ohne zu wissen, ob Sie jetzt schon zurück
-                    sind. Man schickt Ihnen den Brief wohl nach, sei es nach <rs ref="#pmb182" type="place">Paris</rs> oder anderswohin. Kommen Sie vielleicht über <rs ref="#pmb50" type="place">Wien</rs>, wenn Sie heimreisen? Oder wo sonst werden Sie
-                    im Frühjahr sein? Es wäre schön einander einmal im Süden zu begegnen.</p><closer>Mit herzlichen Grüssen<lb/>Ihr<lb/><signed><handShift/>ArthurSchnitzler</signed></closer><postscript><p><handShift medium="typewriter"/>Herrn Georg Brandes, <rs ref="#pmb36300" type="place">Kopenhagen</rs>.</p></postscript></div>
-        </body>
-    </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1913-02-27_01_AS_Brandes"><teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+<title level="a">Arthur Schnitzler an Georg Brandes, 27. 2. 1913</title>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<editor>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</editor>
+<funder>
+<name>FWF - Fonds für Wissenschaft und Forschung</name>
+<address>
+<street>Sensengasse 1</street>
+<postCode>1090 Wien</postCode>
+<placeName>
+<country>A</country>
+<settlement>Wien</settlement>
+</placeName>
+</address>
+</funder>
+</titleStmt>
+<editionStmt>
+<edition>ASBW</edition>
+<respStmt>
+<resp>Transkription und Kommentierung</resp>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Austrian Academy of Sciences, Vienna</publisher>
+<idno type="ASBW" n="1709"/>
+<availability status="free">
+<p>Copyright © 2018</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+</seriesStmt>
+<sourceDesc>
+<listWit>
+<witness n="1">
+<msDesc>
+<msIdentifier>
+<country>Dk</country>
+<settlement>Kopenhagen</settlement>
+<repository>Det Kongelige Bibliotek</repository>
+<idno>Georg Brandes Arkiv</idno>
+</msIdentifier>
+<physDesc>
+<p>ms. Brief mit eh. Unterschrift, 2 Bl., 3 S., ms. paginiert 2–3, schwarze Tinte. Zwei Streichungen und Unterschrift mit Tinte durch Schnitzler. Auf dem ersten Blatt Nummerierung mit Bleistift: »<quote>34.</quote>«, das zweite Blatt markiert mit »<quote>
+<date>27/2 13</date>
+</quote>«.</p>
+</physDesc>
+</msDesc>
+</witness>
+</listWit>
+<listBibl>
+<biblStruct corresp="ASGB">
+<monogr>
+<author ref="#pmb10992">Brandes, Georg</author>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<title level="m">Ein Briefwechsel</title>
+<editor>Hg. Kurt Bergel</editor>
+<imprint>
+<pubPlace>Bern</pubPlace>
+<publisher>Francke</publisher>
+<date when="1956">1956</date>
+</imprint>
+<biblScope unit="pp">106–107</biblScope>
+</monogr>
+</biblStruct>
+<biblStruct corresp="ASB2">
+<monogr>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<title level="m">Briefe 1913–1931</title>
+<editor>Hg. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler</editor>
+<imprint>
+<pubPlace>Frankfurt am Main</pubPlace>
+<publisher>S. Fischer</publisher>
+<date when="1984">1984</date>
+</imprint>
+<biblScope unit="pp">12–13</biblScope>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de-AT">German</language>
+</langUsage>
+<correspDesc>
+<correspAction type="sent">
+<persName ref="#pmb2121">Schnitzler, Arthur</persName>
+<placeName ref="#pmb50">Wien</placeName>
+<date when="1913-02-27" n="01">27. 2. 1913</date>
+</correspAction>
+<correspAction type="received">
+<persName ref="#pmb10992">Brandes, Georg</persName>
+<placeName ref="#pmb36300">Kopenhagen</placeName>
+</correspAction>
+<correspContext>
+<ptr type="previous" subtype="toAuthor" target="1912-11-20_02">Brandes an Schnitzler, 20. 11. 1912</ptr>
+<ptr type="next" subtype="toAuthor" target="1913-03-05_01">Brandes an Schnitzler, 5. 3. 1913</ptr>
+</correspContext>
+</correspDesc>
+</profileDesc>
+<encodingDesc>
+<refsDecl>
+<ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, e.g. <ref type="schnitzlerDiary" target="1891-05-15"/> The complete URI is either: "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?directory=editions&amp;document=entry__1912-05-15.xml" (whereas &amp; has to be replaced with the single character ampersand) or "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-15.xml". </ab>
+</refsDecl>
+</encodingDesc>
+<revisionDesc status="approved">
+<change who="MAM" when="2018-08-02">Angelegt</change>
+<change who="MAM" when="2018-02-14">Index check</change>
+<change who="GHS" when="2019-08-16">facs aktualisiert, korrigiert, finalisiert</change>
+</revisionDesc>
+</teiHeader><facsimile><graphic url="Georg_Brandes_arkiv_150"/><graphic url="Georg_Brandes_arkiv_151"/><graphic url="Georg_Brandes_arkiv_152"/></facsimile><text type="letter"><body><div type="writingSession" n="1"><opener><p><pb facs="Georg_Brandes_arkiv_150.jpg"/><hi rend="pre-print">Dr. Arthur Schnitzler</hi><lb/><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></p><dateline rend="right"><date>27. 2. 1913</date></dateline><salute rend="center">Lieber und verehrter Freund.</salute></opener><p>Ihr <anchor type="commentary" xml:id="KL709-2"/><rs type="work" ref="#pmb33362" subtype="implied">Bild</rs><note type="commentary" xml:id="KL709-2h">Es dürfte sich um die Fotografie handeln, die abgebildet ist in: <bibl><rs ref="#pmb2121" type="person">Arthur Schnitzler</rs>: <title level="m">Sein Leben · Sein Werk · Seine Zeit</title>. Hg. Heinrich Schnitzler, Christian Brandstätter und Reinhard Urbach. Frankfurt am Main: <rs ref="#pmb29639" type="org">S. Fischer</rs><space unit="chars" quantity="1"/><date>1981</date>, S. 73</bibl>.</note> ist aus <rs ref="#pmb182" type="place">Paris</rs> eingetroffen, es ist ausserordentlich gelungen, hat uns grosse Freude gemacht und wir sagen Ihnen herzlichen Dank dafür.</p><p>Im »<rs ref="#pmb29560" type="org">Merker</rs>« habe ich eben Ihren höchst anregenden <anchor type="commentary" xml:id="KL709-1"/><rs ref="#pmb33259" type="work" subtype="implied">Artikel</rs><note type="commentary" xml:id="KL709-1h"><bibl><rs ref="#pmb10992" type="person">Georg Brandes</rs>: <rs ref="#pmb33259" type="work">Theater und Schauspiele in Deutschland</rs>. In: <rs ref="#pmb29560" type="work">Der Merker</rs>, Jg. 4, H. 3, <date>1. Februar-Heft 1913</date>, S. 95–99</bibl>.</note> über Theater in <rs ref="#pmb151" type="place">Deutschland
+</rs> gelesen. Dass meine neue Komödie »<rs ref="#pmb30203" type="work">Professor Bernhardi</rs>« Sie so lebhaft interessiert hat, ist mir sehr lieb. Es ist über dieses Stück gar viel herumgeredet und – nicht immer bonafide – herumgeschwätzt<subst><del rend="strikethrough"> worden</del><add place="inline">,</add></subst> und auch Sie, verehrter Freund, sind wie speziell aus einer Ihrer Bemerkungen hervorgeht, über die Entstehungsgeschichte meines Stückes nicht ganz richtig informiert worden. Die <rs type="work" ref="#pmb30203" subtype="implied">Komödie</rs> behandelt nicht eigentlich »ein Lebensschicksal, wie es mein Vater erfahren hat, der Inhalt ist vielmehr frei erfunden. Mein <pb facs="Georg_Brandes_arkiv_151.jpg"/><rs type="person" ref="#pmb12695" subtype="implied">Vater</rs> hat wohl seinerzeit, mit Freunden zusammen, ein <rs ref="#pmb41" type="place" subtype="implied">Krankeninstitut</rs> in der Art des Elisabethinums gegründet, hat es gegen mancherlei Anfeindungen mit Aufgebot seiner ganzen Begabung und Tatkraft, natürlich nicht ohne die Mithilfe ausgezeichneter Arbeits- und Kampfgefährten, zu hoher Blüte gebracht und musste insbesondere gegen Schlus seines Lebens von mancher Seite Undank und Kränkung erfahren; – aber wenn sein Ausscheiden aus dem von ihm gegründeten Institut vielleicht auch Einem oder dem Andern nicht unangenehm gewesen wäre, er ist keineswegs »hinausintrigiert« worden, ja, <del rend="strikethrough">es</del> ist sogar als Direktor des <rs ref="#pmb41" type="place" subtype="implied">Instituts</rs> am <date>2. Mai 1893</date> gestorben. Uebrigens hat mein Titelheld, der »<rs type="work" ref="#pmb30203" subtype="implied">Professor Bernhardi</rs>«, von meinem <rs type="person" ref="#pmb12695" subtype="implied">Vater</rs> nur wenige Züge entliehen,und auch die anderen Figuren meines Stückes sind, mit der freilich unerlässlichen Benützung von Wirklichkeitszügen so frei gestaltet, dass nur Kunstfremde, an denen es natürlich <pb facs="Georg_Brandes_arkiv_152.jpg"/>niemals mangelt, hier von einem Schlüsselstück reden k<subst><del rend="overwritten">o</del><add place="inline">ö</add></subst>nnten. Meine <rs type="work" ref="#pmb30203" subtype="implied">Komödie</rs> hat keine andere Wahrheit als die, dass sich die Handlung genau so, wie ich sie erfunden<del rend="strikethrough">,</del> habe, zugetragen haben könnte, – zum mindesten in <rs ref="#pmb50" type="place">Wien</rs> zu Ende des vorigen Jahrhunderts.</p><p>Ich sende Ihnen diese Zeilen nach <rs ref="#pmb36300" type="place">Kopenhagen</rs>, freilich ohne zu wissen, ob Sie jetzt schon zurück sind. Man schickt Ihnen den Brief wohl nach, sei es nach <rs ref="#pmb182" type="place">Paris</rs> oder anderswohin. Kommen Sie vielleicht über <rs ref="#pmb50" type="place">Wien</rs>, wenn Sie heimreisen? Oder wo sonst werden Sie im Frühjahr sein? Es wäre schön einander einmal im Süden zu begegnen.</p><closer>Mit herzlichen Grüssen<lb/>Ihr<lb/><signed><handShift/>ArthurSchnitzler</signed></closer><postscript><p><handShift medium="typewriter"/>Herrn Georg Brandes, <rs ref="#pmb36300" type="place">Kopenhagen</rs>.</p></postscript></div></body></text></TEI>

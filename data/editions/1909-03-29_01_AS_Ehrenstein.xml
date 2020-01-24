@@ -1,96 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1909-03-29_01_AS_Ehrenstein">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Albert Ehrenstein, 29.&#160;3.&#160;1909</title>
-                <author ref="#pmb2121">Schnitzler, Arthur</author>
-                <editor>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </editor>
-                <funder>
-                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Wien</postCode>
-                        <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>ASBW</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="ASBW" n="1942"/>
-                <availability status="free">
-                    <p>Copyright © 2018</p>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-            </seriesStmt>
-            <sourceDesc>
-                 <listWit>
-                    <witness n="1">
-                  <msDesc>
-                        <msIdentifier>
-                            <country>IL</country>           
-                        <settlement>Jerusalem</settlement>
-                            <repository>The National Library of Israel</repository>
-                            <idno>ARC. Ms.&#160;Var. 306&#160;1&#160;118</idno>
-                        </msIdentifier>
-                        <physDesc>
-                            <p>eh. Briefkarte. Von unbekannter Hand mit Bleistift nummeriert: »<quote>10</quote>«.</p>
-                        </physDesc>
-                    </msDesc>
-                    </witness>
-                </listWit> 
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-            <language ident="de-AT">German</language>
-         </langUsage>
-            <correspDesc>
-                <correspAction  type="sent">
-                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                    <date when="1909-03-29" n="01">29.&#160;3.&#160;1909</date>
-                </correspAction>
-                <correspAction  type="received">
-                    <persName ref="#pmb11230">Ehrenstein, Albert</persName>
-                </correspAction>
-            <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1909-03-27_01">Ehrenstein an Schnitzler, 27.&#160;3.&#160;1909</ptr>
-               <ptr type="next" subtype="toAuthor" target="1909-05-06_01">Ehrenstein an Schnitzler, 6.&#160;5.&#160;1909</ptr>
-            </correspContext>
-         </correspDesc>
-        </profileDesc>
-        <revisionDesc status="proposed">
-            <change who="GHS" when="2018-10-24">Angelegt</change>
-            <change who="MAM" when="2018-11-05">Durchsicht</change>
-            <change who="MAM" when="2018-11-05">Index check</change>
-        </revisionDesc>
-    </teiHeader>
-    <text type="letter">
-        <body>
-            <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="NLJ0010.tif"/>29.&#160;3.&#160;09</dateline><p><hi rend="pre-print">Dr. Arthur Schnitzler</hi><lb/><hi rend="pre-print"><rs ref="#pmb133" type="place">Wien XVIII. Spoettelgasse 7</rs>.</hi></p><salute>lieber Herr Ehrenſtein,</salute></opener><p>von Ihren <rs type="org" ref="#pmb29496" subtype="implied">rundſchauerlichen</rs> Schickſalen zu erfahren würd mich intereſſieren u ich erwarte Sie
-                    we<c rendition="#gemination-n"/>s Ihnen paſſt am Mittwoch um 7 Uhr Abends.</p><closer>bestens grüßend<space unit="chars" quantity="7"/>Ihr <signed>A.&#160;S.</signed></closer></div>
-        </body>
-    </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1909-03-29_01_AS_Ehrenstein"><teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+<title level="a">Arthur Schnitzler an Albert Ehrenstein, 29. 3. 1909</title>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<editor>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</editor>
+<funder>
+<name>FWF - Fonds für Wissenschaft und Forschung</name>
+<address>
+<street>Sensengasse 1</street>
+<postCode>1090 Wien</postCode>
+<placeName>
+<country>A</country>
+<settlement>Wien</settlement>
+</placeName>
+</address>
+</funder>
+</titleStmt>
+<editionStmt>
+<edition>ASBW</edition>
+<respStmt>
+<resp>Transkription und Kommentierung</resp>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Austrian Academy of Sciences, Vienna</publisher>
+<idno type="ASBW" n="1942"/>
+<availability status="free">
+<p>Copyright © 2018</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+</seriesStmt>
+<sourceDesc>
+<listWit>
+<witness n="1">
+<msDesc>
+<msIdentifier>
+<country>IL</country>
+<settlement>Jerusalem</settlement>
+<repository>The National Library of Israel</repository>
+<idno>ARC. Ms. Var. 306 1 118</idno>
+</msIdentifier>
+<physDesc>
+<p>eh. Briefkarte. Von unbekannter Hand mit Bleistift nummeriert: »<quote>10</quote>«.</p>
+</physDesc>
+</msDesc>
+</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de-AT">German</language>
+</langUsage>
+<correspDesc>
+<correspAction type="sent">
+<persName ref="#pmb2121">Schnitzler, Arthur</persName>
+<placeName ref="#pmb50">Wien</placeName>
+<date when="1909-03-29" n="01">29. 3. 1909</date>
+</correspAction>
+<correspAction type="received">
+<persName ref="#pmb11230">Ehrenstein, Albert</persName>
+</correspAction>
+<correspContext>
+<ptr type="previous" subtype="toAuthor" target="1909-03-27_01">Ehrenstein an Schnitzler, 27. 3. 1909</ptr>
+<ptr type="next" subtype="toAuthor" target="1909-05-06_01">Ehrenstein an Schnitzler, 6. 5. 1909</ptr>
+</correspContext>
+</correspDesc>
+</profileDesc>
+<encodingDesc>
+<refsDecl>
+<ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, e.g. <ref type="schnitzlerDiary" target="1891-05-15"/> The complete URI is either: "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?directory=editions&amp;document=entry__1912-05-15.xml" (whereas &amp; has to be replaced with the single character ampersand) or "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-15.xml". </ab>
+</refsDecl>
+</encodingDesc>
+<revisionDesc status="proposed">
+<change who="GHS" when="2018-10-24">Angelegt</change>
+<change who="MAM" when="2018-11-05">Durchsicht</change>
+<change who="MAM" when="2018-11-05">Index check</change>
+</revisionDesc>
+</teiHeader><text type="letter"><body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="NLJ0010.tif"/>29. 3. 09</dateline><p><hi rend="pre-print">Dr. Arthur Schnitzler</hi><lb/><hi rend="pre-print"><rs ref="#pmb133" type="place">Wien XVIII. Spoettelgasse 7</rs>.</hi></p><salute>lieber Herr Ehrenſtein,</salute></opener><p>von Ihren <rs type="org" ref="#pmb29496" subtype="implied">rundſchauerlichen</rs> Schickſalen zu erfahren würd mich intereſſieren u ich erwarte Sie we<c rendition="#gemination-n"/>s Ihnen paſſt am Mittwoch um 7 Uhr Abends.</p><closer>bestens grüßend<space unit="chars" quantity="7"/>Ihr <signed>A. S.</signed></closer></div></body></text></TEI>

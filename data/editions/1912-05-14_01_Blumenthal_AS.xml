@@ -1,109 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1912-05-14_01_Blumenthal_AS">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Oscar Blumenthal an Arthur Schnitzler,
-                    14.&#160;5.&#160;1912</title>
-                <author ref="#pmb14328">Blumenthal, Oscar</author>
-                <editor>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </editor>
-                <funder>
-                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Wien</postCode>
-                        <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>ASBW</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="ASBW" n="2830"/>
-                <availability status="free">
-                    <p>Copyright © 2018</p>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness n="1">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>A</country>
-                                <settlement>Wien</settlement>
-                                <repository>Theatermuseum</repository>
-                                <idno>HS Schn 1/59/4</idno>
-                            </msIdentifier>
-                            <physDesc>
-                                <p>eh. Brief, 1&#160;Bl., 2&#160;S., schwarze Tinte. Von
-                                    unbekannter Hand mit rotem Buntstift nummeriert: »<quote>1</quote>«.
-                                    Eine Unterstreichung mit rotem Buntstift.</p>
-                            </physDesc>
-                        </msDesc>
-                    </witness>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-            <correspDesc>
-                <correspAction  type="sent">
-                    <persName ref="#pmb14328">Blumenthal, Oscar</persName>
-                    <placeName ref="#pmb35658">Lauffen bei Ischl</placeName>
-                    <date when="1912-05-14" n="01">14.&#160;5.&#160;1912</date>
-                </correspAction>
-                <correspAction  type="received">
-                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                </correspAction>
-            <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1912-03-14_01">Blumenthal an Schnitzler, [nach dem 13.&#160;3.&#160;1912]</ptr>
-            </correspContext>
-         </correspDesc>
-        </profileDesc>
-        <revisionDesc status="proposed">
-            <change who="GHS" when="2019-06-21">Angelegt</change>
-            <change who="MAM" when="2019-06-21">Durchsicht</change>
-            <change who="MAM" when="2019-06-21">Index check</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="TMW HS_Schn1_59_4"/>
-    </facsimile>
-    <text type="letter">
-        <body>
-            <div type="writingSession" n="1"><opener><dateline><pb facs="TMW HS_Schn1_59_4"/><seg rend="left"><hi rend="pre-print">D<hi rend="superscript">r</hi> Oscar Blumenthal</hi></seg><seg rend="right"><hi rend="pre-print"><rs ref="#pmb168" type="place">Berlin W. 15</rs> den</hi><space unit="chars" quantity="1"/><date>14 Mai 1912</date></seg></dateline><p rend="right"><rs ref="#pmb35654" type="place"><hi rend="pre-print">Kaiser-Allee 20</hi></rs>.<lb/>z.&#160;Z. <rs ref="#pmb35658" type="place">Laufen bei Ischl</rs></p><salute rend="center">Werther Herr Doctor!</salute></opener><p>Dem vielſtimmigen Chor der Dankbarkeit und Verehrung, dem Sie <anchor type="commentary" xml:id="KL2830-1"/>heute<note type="commentary" xml:id="KL2830-1h"><rs ref="#pmb2121" type="person">Schnitzler</rs>s
-                        50.&#160;Geburtstag am <date>15.&#160;5.&#160;1912</date>.</note>
-                    rettungslos ausgeliefert sind, bitte ich einen Zuruf der herzlichſten Sympathie
-                    einfügen zu dürfen, die sich mir mit jeder Ihrer neuen Schöpfungen gefeſtigt,
-                    vertieft und geſteigert hat. Vielleicht empfinden Sie das Bedürfniß, sich von
-                    der frohen Bürde Ihres Lebensjubiläums hier auszuruhen und geben mir dann
-                    Gelegenheit, Ihnen meine wärmſten Wünſche mündlich zu wiederholen. Sie finden
-                    jetzt hier alles, was man zur Erholung braucht: Frühlingswetter, Bergfrieden und
-                    – keine Menſchen. Herzlichſt Ihr</p><closer><signed>Osc. Blumenthal.</signed></closer></div>
-        </body>
-    </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1912-05-14_01_Blumenthal_AS"><teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+<title level="a">Oscar Blumenthal an Arthur Schnitzler, 14. 5. 1912</title>
+<author ref="#pmb14328">Blumenthal, Oscar</author>
+<editor>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</editor>
+<funder>
+<name>FWF - Fonds für Wissenschaft und Forschung</name>
+<address>
+<street>Sensengasse 1</street>
+<postCode>1090 Wien</postCode>
+<placeName>
+<country>A</country>
+<settlement>Wien</settlement>
+</placeName>
+</address>
+</funder>
+</titleStmt>
+<editionStmt>
+<edition>ASBW</edition>
+<respStmt>
+<resp>Transkription und Kommentierung</resp>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Austrian Academy of Sciences, Vienna</publisher>
+<idno type="ASBW" n="2830"/>
+<availability status="free">
+<p>Copyright © 2018</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+</seriesStmt>
+<sourceDesc>
+<listWit>
+<witness n="1">
+<msDesc>
+<msIdentifier>
+<country>A</country>
+<settlement>Wien</settlement>
+<repository>Theatermuseum</repository>
+<idno>HS Schn 1/59/4</idno>
+</msIdentifier>
+<physDesc>
+<p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Von unbekannter Hand mit rotem Buntstift nummeriert: »<quote>1</quote>«. Eine Unterstreichung mit rotem Buntstift.</p>
+</physDesc>
+</msDesc>
+</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de-AT">German</language>
+</langUsage>
+<correspDesc>
+<correspAction type="sent">
+<persName ref="#pmb14328">Blumenthal, Oscar</persName>
+<placeName ref="#pmb35658">Lauffen bei Ischl</placeName>
+<date when="1912-05-14" n="01">14. 5. 1912</date>
+</correspAction>
+<correspAction type="received">
+<persName ref="#pmb2121">Schnitzler, Arthur</persName>
+<placeName ref="#pmb50">Wien</placeName>
+</correspAction>
+<correspContext>
+<ptr type="previous" subtype="toAuthor" target="1912-03-14_01">Blumenthal an Schnitzler, [nach dem 13. 3. 1912]</ptr>
+</correspContext>
+</correspDesc>
+</profileDesc>
+<encodingDesc>
+<refsDecl>
+<ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, e.g. <ref type="schnitzlerDiary" target="1891-05-15"/> The complete URI is either: "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?directory=editions&amp;document=entry__1912-05-15.xml" (whereas &amp; has to be replaced with the single character ampersand) or "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-15.xml". </ab>
+</refsDecl>
+</encodingDesc>
+<revisionDesc status="proposed">
+<change who="GHS" when="2019-06-21">Angelegt</change>
+<change who="MAM" when="2019-06-21">Durchsicht</change>
+<change who="MAM" when="2019-06-21">Index check</change>
+</revisionDesc>
+</teiHeader><facsimile><graphic url="TMW HS_Schn1_59_4"/></facsimile><text type="letter"><body><div type="writingSession" n="1"><opener><dateline><pb facs="TMW HS_Schn1_59_4"/><seg rend="left"><hi rend="pre-print">D<hi rend="superscript">r</hi> Oscar Blumenthal</hi></seg><seg rend="right"><hi rend="pre-print"><rs ref="#pmb168" type="place">Berlin W. 15</rs> den</hi><space unit="chars" quantity="1"/><date>14 Mai 1912</date></seg></dateline><p rend="right"><rs ref="#pmb35654" type="place"><hi rend="pre-print">Kaiser-Allee 20</hi></rs>.<lb/>z. Z. <rs ref="#pmb35658" type="place">Laufen bei Ischl</rs></p><salute rend="center">Werther Herr Doctor!</salute></opener><p>Dem vielſtimmigen Chor der Dankbarkeit und Verehrung, dem Sie <anchor type="commentary" xml:id="KL2830-1"/>heute<note type="commentary" xml:id="KL2830-1h"><rs ref="#pmb2121" type="person">Schnitzler</rs>s 50. Geburtstag am <date>15. 5. 1912</date>.</note> rettungslos ausgeliefert sind, bitte ich einen Zuruf der herzlichſten Sympathie einfügen zu dürfen, die sich mir mit jeder Ihrer neuen Schöpfungen gefeſtigt, vertieft und geſteigert hat. Vielleicht empfinden Sie das Bedürfniß, sich von der frohen Bürde Ihres Lebensjubiläums hier auszuruhen und geben mir dann Gelegenheit, Ihnen meine wärmſten Wünſche mündlich zu wiederholen. Sie finden jetzt hier alles, was man zur Erholung braucht: Frühlingswetter, Bergfrieden und – keine Menſchen. Herzlichſt Ihr</p><closer><signed>Osc. Blumenthal.</signed></closer></div></body></text></TEI>

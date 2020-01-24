@@ -1,119 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"
-     xml:id="L1925-12-26_02_AS_Hofmannsthal">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 26.&#160;12.&#160;1925</title>
-                <author ref="#pmb2121">Schnitzler, Arthur</author>
-                <editor>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </editor>
-                <funder>
-                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Wien</postCode>
-                        <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>ASBW</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="ASBW" n="2153"/>
-                <availability status="free">
-                    <p>Copyright © 2018</p>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness n="1">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>D</country>
-                                <settlement>Frankfurt am Main</settlement>
-                                <repository>Freies Deutsches Hochstift</repository>
-                                <idno>Hs-30885,155</idno>
-                            </msIdentifier>
-                            <physDesc>
-                                <p>eh. Brief, 1&#160;Bl., 2&#160;S.</p>
-                            </physDesc>
-                        </msDesc>
-                    </witness>
-                </listWit>
-                <listBibl>
-                    <biblStruct corresp="HvHAS">
-                        <monogr>
-                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
-                            <author ref="#pmb2121">Schnitzler, Arthur</author>
-                            <title level="m">Briefwechsel</title>
-                            <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
-                            <imprint>
-                                <pubPlace>Frankfurt am Main</pubPlace>
-                                <publisher>S. Fischer</publisher>
-                                <date when="1964">1964</date>
-                            </imprint>
-                            <biblScope unit="pp">304</biblScope>
-                        </monogr>
-                    </biblStruct>
-                </listBibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-            <correspDesc>
-                <correspAction  type="sent">
-                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                    <date when="1925-12-26" n="02">26.&#160;12.&#160;1925</date>
-                </correspAction>
-                <correspAction  type="received">
-                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                </correspAction>
-            <correspContext>
-               <ptr type="previous" subtype="toAuthor" target="1925-12-10_01">Hofmannsthal an Schnitzler, 10.&#160;12.&#160;1925</ptr>
-               <ptr type="next" subtype="toAuthor" target="1926-03-09_01">Hofmannsthal an Schnitzler, 9.&#160;3.&#160;1926</ptr>
-            </correspContext>
-         </correspDesc>
-        </profileDesc>
-        <revisionDesc status="proposed">
-            <change who="GHS" when="2019-01-08">Angelegt</change>
-            <change who="MAM" when="2019-02-26">Durchsicht</change>
-        </revisionDesc>
-    </teiHeader>
-    <text type="letter">
-        <body>
-            <div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Hs-30885,155_001.TIF"/><rs ref="#pmb50" type="place">Wien</rs>, <date>26/12 925</date></dateline></opener><p><salute>mein lieber Hugo, </salute>viel Dank für den <anchor type="commentary" xml:id="KL2153-1"/><rs type="work" ref="#pmb31253" subtype="implied">Briefwechsel</rs><note type="commentary" xml:id="KL2153-1h"><bibl><rs ref="#pmb12870" type="person">Richard Strauss</rs>: <rs ref="#pmb31253" type="work">Briefwechsel mit Hugo von Hofmannsthal</rs>.
-                            Berlin, Wien, Leipzig: <rs ref="#pmb36907" type="org">Paul Zsolnay</rs><space unit="chars" quantity="1"/><date>1926</date></bibl>.</note>. Ich finde ihn ganz besonders interessant, aufschließend,
-                    anregend und – nebstbei, unglaublich amüsant. Ein wahres Feiertagsvergnügen<c rendition="#dots" n="3"/></p><p>Ihr <rs type="work" ref="#pmb33718" subtype="implied"><rs ref="#pmb12654" type="person">Schiller</rs>-Artikel</rs> in der <rs ref="#pmb29351" type="org">N.&#160;Fr.&#160;Pr.</rs> war ganz außerordentlich. Ich glaube
-                    nicht, daſs es heute in Deutschland neben Ihnen einen Schriftsteller gibt, der
-                    im »Essayistischen« (im höchsten Sinn) an dieses Niveau heranreicht. In jedem
-                    Absatz, jedem Satz – spürt man den Dichter,&#160;– oder vielmehr beide, <rs ref="#pmb12654" type="person">Schiller</rs> und Sie,&#160;– (ohne daſs Sie je »poetisch«
-                    werden, was übrigens den Feuilletonisten eher passiert);&#160;– es <pb facs="Hs-30885,155_002.TIF "/>ist mir ein rechtes Bedürfnis, Ihnen bei
-                    dieser Gelegenheit wieder einmal – ach man unterläßt es so oft&#160;–! meine liebende
-                    Bewunderung auszudrücken.</p><closer>Alles beste zum Neuen Jahr.<lb/> Von Herzen Ihr<lb/><signed>Arthur.</signed></closer></div>
-        </body>
-    </text>
-</TEI>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1925-12-26_02_AS_Hofmannsthal"><teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+<title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 26. 12. 1925</title>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<editor>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</editor>
+<funder>
+<name>FWF - Fonds für Wissenschaft und Forschung</name>
+<address>
+<street>Sensengasse 1</street>
+<postCode>1090 Wien</postCode>
+<placeName>
+<country>A</country>
+<settlement>Wien</settlement>
+</placeName>
+</address>
+</funder>
+</titleStmt>
+<editionStmt>
+<edition>ASBW</edition>
+<respStmt>
+<resp>Transkription und Kommentierung</resp>
+<name>Müller, Martin Anton</name>
+<name>Susen, Gerd-Hermann</name>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Austrian Academy of Sciences, Vienna</publisher>
+<idno type="ASBW" n="2153"/>
+<availability status="free">
+<p>Copyright © 2018</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+</seriesStmt>
+<sourceDesc>
+<listWit>
+<witness n="1">
+<msDesc>
+<msIdentifier>
+<country>D</country>
+<settlement>Frankfurt am Main</settlement>
+<repository>Freies Deutsches Hochstift</repository>
+<idno>Hs-30885,155</idno>
+</msIdentifier>
+<physDesc>
+<p>eh. Brief, 1 Bl., 2 S.</p>
+</physDesc>
+</msDesc>
+</witness>
+</listWit>
+<listBibl>
+<biblStruct corresp="HvHAS">
+<monogr>
+<author ref="#pmb11740">Hofmannsthal, Hugo</author>
+<author ref="#pmb2121">Schnitzler, Arthur</author>
+<title level="m">Briefwechsel</title>
+<editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+<imprint>
+<pubPlace>Frankfurt am Main</pubPlace>
+<publisher>S. Fischer</publisher>
+<date when="1964">1964</date>
+</imprint>
+<biblScope unit="pp">304</biblScope>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de-AT">German</language>
+</langUsage>
+<correspDesc>
+<correspAction type="sent">
+<persName ref="#pmb2121">Schnitzler, Arthur</persName>
+<placeName ref="#pmb50">Wien</placeName>
+<date when="1925-12-26" n="02">26. 12. 1925</date>
+</correspAction>
+<correspAction type="received">
+<persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+<placeName ref="#pmb50">Wien</placeName>
+</correspAction>
+<correspContext>
+<ptr type="previous" subtype="toAuthor" target="1925-12-10_01">Hofmannsthal an Schnitzler, 10. 12. 1925</ptr>
+<ptr type="next" subtype="toAuthor" target="1926-03-09_01">Hofmannsthal an Schnitzler, 9. 3. 1926</ptr>
+</correspContext>
+</correspDesc>
+</profileDesc>
+<encodingDesc>
+<refsDecl>
+<ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, e.g. <ref type="schnitzlerDiary" target="1891-05-15"/> The complete URI is either: "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?directory=editions&amp;document=entry__1912-05-15.xml" (whereas &amp; has to be replaced with the single character ampersand) or "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-15.xml". </ab>
+</refsDecl>
+</encodingDesc>
+<revisionDesc status="proposed">
+<change who="GHS" when="2019-01-08">Angelegt</change>
+<change who="MAM" when="2019-02-26">Durchsicht</change>
+</revisionDesc>
+</teiHeader><text type="letter"><body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Hs-30885,155_001.TIF"/><rs ref="#pmb50" type="place">Wien</rs>, <date>26/12 925</date></dateline></opener><p><salute>mein lieber Hugo, </salute>viel Dank für den <anchor type="commentary" xml:id="KL2153-1"/><rs type="work" ref="#pmb31253" subtype="implied">Briefwechsel</rs><note type="commentary" xml:id="KL2153-1h"><bibl><rs ref="#pmb12870" type="person">Richard Strauss</rs>: <rs ref="#pmb31253" type="work">Briefwechsel mit Hugo von Hofmannsthal</rs>. Berlin, Wien, Leipzig: <rs ref="#pmb36907" type="org">Paul Zsolnay</rs><space unit="chars" quantity="1"/><date>1926</date></bibl>.</note>. Ich finde ihn ganz besonders interessant, aufschließend, anregend und – nebstbei, unglaublich amüsant. Ein wahres Feiertagsvergnügen<c rendition="#dots" n="3"/></p><p>Ihr <rs type="work" ref="#pmb33718" subtype="implied"><rs ref="#pmb12654" type="person">Schiller</rs>-Artikel</rs> in der <rs ref="#pmb29351" type="org">N. Fr. Pr.</rs> war ganz außerordentlich. Ich glaube nicht, daſs es heute in Deutschland neben Ihnen einen Schriftsteller gibt, der im »Essayistischen« (im höchsten Sinn) an dieses Niveau heranreicht. In jedem Absatz, jedem Satz – spürt man den Dichter, – oder vielmehr beide, <rs ref="#pmb12654" type="person">Schiller</rs> und Sie, – (ohne daſs Sie je »poetisch« werden, was übrigens den Feuilletonisten eher passiert); – es <pb facs="Hs-30885,155_002.TIF "/>ist mir ein rechtes Bedürfnis, Ihnen bei dieser Gelegenheit wieder einmal – ach man unterläßt es so oft –! meine liebende Bewunderung auszudrücken.</p><closer>Alles beste zum Neuen Jahr.<lb/> Von Herzen Ihr<lb/><signed>Arthur.</signed></closer></div></body></text></TEI>
