@@ -125,7 +125,9 @@
                         <a class="ml-3">
                             <xsl:attribute name="href">
                             <xsl:value-of select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?document=entry__', $datum,'.xml')"/>
-                            </xsl:attribute><span style="color:037a33;">TAGEBUCH</span></a>
+                            </xsl:attribute>
+                            <span style="color:037a33;">TAGEBUCH</span>
+                        </a>
                        <!-- <label>
                              <input type="checkbox" id="check_auszeichnungen"> MARKIERUNGEN</input>
                         </label>-->

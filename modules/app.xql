@@ -417,6 +417,81 @@ declare function app:toc($node as node(), $model as map(*)) {
         </tr>
 };
 
+(:~
+ : creates a table of the correspActions sent derived from the documents stored in '/data/editions'
+ :)
+declare function app:toc_correspDesc_sent($node as node(), $model as map(*)) {
+
+    let $collection := request:get-parameter("collection", "")
+    let $docs := if ($collection)
+        then
+            collection(concat($config:app-root, '/data/', $collection, '/'))//tei:TEI
+        else
+            collection(concat($config:app-root, '/data/editions/'))//tei:TEI
+    for $title in $docs
+        let $sent_pers := $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:persName
+        let $received_pers := $title//tei:correspDesc/tei:correspAction[@type='received']/tei:persName
+        let $date_sent := $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date
+        let $date_sent_ISO := $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when/string()
+        let $date_sent_notBefore := fn:string($title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notBefore)
+        let $date_sent_notAfter := fn:string($title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notAfter)
+        let $place := $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName
+        let $link2doc := if ($collection)
+            then
+                <a href="{app:hrefToDoc($title, $collection)}">{$date_sent}</a>
+            else
+                <a href="{app:hrefToDoc($title)}">{$date_sent}</a>
+        return
+        <tr>
+        
+           <td>{for $pers in $sent_pers return <div>{$pers/text()}</div>}</td>
+           <td>{$link2doc}</td>
+           <td>{$date_sent_ISO}</td>
+           <td>{$date_sent_notBefore}</td>
+           <td>{$date_sent_notAfter}</td>
+           <td>{$place}</td>
+           <td>{for $rec in $received_pers return <div>{$rec/text()}</div>}</td>
+        </tr>
+};
+
+(:~
+ : creates a table of the correspActions received derived from the documents stored in '/data/editions'
+ :)
+declare function app:toc_correspDesc_received($node as node(), $model as map(*)) {
+
+    let $collection := request:get-parameter("collection", "")
+    let $docs := if ($collection)
+        then
+            collection(concat($config:app-root, '/data/', $collection, '/'))//tei:TEI
+        else
+            collection(concat($config:app-root, '/data/editions/'))//tei:TEI
+    for $title in $docs
+        let $received_pers := $title//tei:correspDesc/tei:correspAction[@type='received']/tei:persName
+        let $sent_pers := $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:persName
+        let $date_received := $title//tei:correspDesc/tei:correspAction[@type='received']/tei:date
+        let $date_received_ISO := $title//tei:correspDesc/tei:correspAction[@type='received']/tei:date/@when/string()
+        let $date_received_notBefore := fn:string($title//tei:correspDesc/tei:correspAction[@type='received']/tei:date/@notBefore)
+        let $date_received_notAfter := fn:string($title//tei:correspDesc/tei:correspAction[@type='received']/tei:date/@notAfter)
+        let $place := $title//tei:correspDesc/tei:correspAction[@type='received']/tei:placeName
+        let $link2doc := if ($collection)
+            then
+                <a href="{app:hrefToDoc($title, $collection)}">{$date_received}</a>
+            else
+                <a href="{app:hrefToDoc($title)}">{$date_received}</a>
+        return
+        <tr>
+        
+           <td>{for $pers in $received_pers return <div>{$pers/text()}</div>}</td>
+           <td>{$link2doc}</td>
+           <td>{$date_received_ISO}</td>
+           <td>{$date_received_notBefore}</td>
+           <td>{$date_received_notAfter}</td>
+           <td>{$place}</td>
+           <td>{for $sen in $sent_pers return <div>{$sen/text()}</div>}</td>
+        </tr>
+};
+
+
 
 (:~
  : perfoms an XSLT transformation
