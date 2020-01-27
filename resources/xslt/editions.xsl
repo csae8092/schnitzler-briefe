@@ -590,6 +590,11 @@
         </xsl:choose>
     </xsl:function>
     
+    <xsl:template match="tei:space[@unit = 'chars' and @quantity=1]" mode='lemma'>
+        <xsl:text> </xsl:text>
+    </xsl:template>
+   
+    
     <xsl:template match="tei:anchor[@type='commentary']" mode="lemma">
         <xsl:for-each-group select="following-sibling::node()" group-ending-with="//tei:note[@type = 'commentary' ]">
             <xsl:if test="position() eq 1">
