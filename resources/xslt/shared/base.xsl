@@ -654,6 +654,7 @@
     <xsl:template match="tei:c[@rendition = '#prozent']">
         %
     </xsl:template>
+    
     <xsl:function name="foo:dots">
         <xsl:param name="anzahl"/>
         .
