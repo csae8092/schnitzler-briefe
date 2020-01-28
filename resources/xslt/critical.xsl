@@ -147,16 +147,23 @@
                             </xsl:attribute>
                             <i title="Critical Edition" class="fas fa-camera"></i>
                         </a>
-                        <!-- -->
-                       <!-- <label>
-                             <input type="checkbox" id="check_auszeichnungen"> MARKIERUNGEN</input>
-                        </label>-->
-                        
-                        
-                        <!--<div id="csLink" data-correspondent-1-name="" data-correspondent-1-id="" data-correspondent-2-name="" data-correspondent-2-id="http://d-nb.info/gnd/115674667" data-start-date="$datum" data-end-date="" data-range="30" data-selection-when="before-after" data-selection-span="median-before-after" data-result-max="4" data-exclude-edition="#AVHR">
-                            <script type="text/javascript" src="../resources/js/cslink.js"></script></div>-->
+                        <xsl:variable name="datum">
+                            <xsl:choose>
+                                <xsl:when test="//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when">
+                                    <xsl:value-of select="//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when"/>
+                                </xsl:when>
+                                <xsl:when test="//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notBefore">
+                                    <xsl:value-of select="//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notBefore"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notAfter"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:variable>
+                        <div id="csLink" data-correspondent-1-name="" data-correspondent-1-id="all" data-correspondent-2-name="" data-correspondent-2-id="" data-start-date="{$datum}" data-end-date="" data-range="50" data-selection-when="before-after" data-selection-span="median-before-after" data-result-max="4" data-exclude-edition="">
+                        </div>
                    </p>
-                    <p style="text-align:center;">
+                    <p>
                         <input type="range" min="1" max="{$amount}" value="{$currentIx}" data-rangeslider="" style="width:100%;"/>
                         <a id="output" class="btn btn-main btn-outline-primary btn-sm" href="show.html?document=entry__1889-08-02_01_Mamroth_AS.xml&amp;directory=editions" role="button">Gehe zu</a>
                     </p>
