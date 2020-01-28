@@ -10,7 +10,7 @@ let $whens := collection($app:editions)//tei:TEI//tei:correspDesc/tei:correspAct
 let $dates := ($notAfters, $notBefores, $whens)
 
 
-for $x in collection($app:editions)//tei:TEI[.//tei:correspDesc/tei:correspAction[@type='sent']/*[@when castable as xs:date]]
+for $x in collection($app:editions)//tei:TEI//tei:correspDesc/tei:correspAction[@type='sent'][./*[@when castable as xs:date]]
     let $startDate : = data($x//*[@when castable as xs:date][1]/@when)
     let $name := normalize-space(string-join($x//tei:title[1]//text(), ' '))
     let $id := app:hrefToDoc($x)
