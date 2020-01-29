@@ -141,7 +141,7 @@ let $root := tokenize(document-uri(root($node)), '/')
 :)
 declare function app:nameOfIndexEntry($node as node(), $model as map (*)){
 
-    let $searchkey := xs:string(request:get-parameter("searchkey", "No search key provided"))
+    let $searchkey := xs:string(request:get-parameter("searchkey", "Kein Suchstring vorhanden"))
     let $withHash:= '#'||$searchkey
     let $entities := collection($app:editions)//tei:TEI//*[@ref=$withHash]
     let $terms := (collection($app:editions)//tei:TEI[.//tei:term[./text() eq substring-after($withHash, '#')]])
@@ -196,18 +196,18 @@ let $href := concat('show.html','?document=', app:getDocName($node), '&amp;direc
  declare function app:ft_search($node as node(), $model as map (*)) {
  if (request:get-parameter("searchexpr", "") !="") then
  let $searchterm as xs:string:= request:get-parameter("searchexpr", "")
- for $hit in collection(concat($config:app-root, '/data/editions/'))//*[.//tei:p[ft:query(.,$searchterm)]]
+ for $hit in collection(concat($config:app-root, '/data/editions/'))//*[(.//tei:p[ft:query(.,$searchterm)]) or .//tei:cell[ft:query(.,$searchterm)] or .//tei:dateline[ft:query(.,$searchterm)] or .//tei:seg[ft:query(.,$searchterm)] or .//tei:l[ft:query(.,$searchterm)]]
     let $href := concat(app:hrefToDoc($hit), "&amp;searchexpr=", $searchterm)
     let $score as xs:float := ft:score($hit)
     order by $score descending
     return
     <tr>
-        <td>{$score}</td>
         <td class="KWIC">{kwic:summarize($hit, <config width="40" link="{$href}" />)}</td>
         <td align="center"><a href="{app:hrefToDoc($hit)}">{app:getDocName($hit)}</a></td>
+        <td>{$score}</td>
     </tr>
  else
-    <div>Nothing to search for</div>
+    <div>Kein Suchtext vorhanden</div>
  };
 
 declare function app:indexSearch_hits($node as node(), $model as map(*),  $searchkey as xs:string?, $path as xs:string?){
@@ -335,7 +335,7 @@ declare function app:tocHeader($node as node(), $model as map(*)) {
                 </a>
                   |
                 <a href="{$zipUrl}">
-                    <i class="fas fa-file-archive" title="Download Collection as ZIP"></i>
+                    <i class="fas fa-file-archive" title="Sammlung als ZIP laden"></i>
                 </a>
             </h3>
         </div>
