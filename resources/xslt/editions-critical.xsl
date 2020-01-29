@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:foo="just some local crap" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0">
     <xsl:template match="tei:date[@*]">
-       <!-- <abbr>
+        <!-- <abbr>
             <xsl:attribute name="title">
                 <xsl:value-of select="data(./@*)"/>
             </xsl:attribute>-->
-            <xsl:apply-templates/>
+        <xsl:apply-templates/>
         <!--</abbr>-->
     </xsl:template>
     <xsl:template match="tei:term">
@@ -26,60 +26,60 @@
                 </span>
             </xsl:when>
             <xsl:when test="@rend = 'italics'">
-               <span class="italics">
+                <span class="italics">
                     <xsl:apply-templates/>
                 </span>
             </xsl:when>
-              <xsl:when test="@rend = 'underline'"> 
-              <xsl:choose>
-              <xsl:when test="@n='1'">
-              <span class="underline">
-                    <xsl:apply-templates/>
-                </span>
-                </xsl:when>
-                              <xsl:when test="@n='2'">
-              <span class="doubleUnderline">
-                    <xsl:apply-templates/>
-                </span>
-                </xsl:when>
-                <xsl:otherwise>
-                 <span class="tripleUnderline">
-                    <xsl:apply-templates/>
-                </span>
-                </xsl:otherwise>
+            <xsl:when test="@rend = 'underline'">
+                <xsl:choose>
+                    <xsl:when test="@n = '1'">
+                        <span class="underline">
+                            <xsl:apply-templates/>
+                        </span>
+                    </xsl:when>
+                    <xsl:when test="@n = '2'">
+                        <span class="doubleUnderline">
+                            <xsl:apply-templates/>
+                        </span>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <span class="tripleUnderline">
+                            <xsl:apply-templates/>
+                        </span>
+                    </xsl:otherwise>
                 </xsl:choose>
-                </xsl:when>
-                <xsl:when test="@rend = 'pre-print'">
-               <span class="pre-print">
+            </xsl:when>
+            <xsl:when test="@rend = 'pre-print'">
+                <span class="pre-print">
                     <xsl:apply-templates/>
                 </span>
             </xsl:when>
             <xsl:when test="@rend = 'bold'">
-               <strong>
+                <strong>
                     <xsl:apply-templates/>
                 </strong>
             </xsl:when>
             <xsl:when test="@rend = 'stamp'">
-               <span class="stamp">
+                <span class="stamp">
                     <xsl:apply-templates/>
                 </span>
             </xsl:when>
             <xsl:when test="@rend = 'small_caps'">
-               <span class="small_caps">
+                <span class="small_caps">
                     <xsl:apply-templates/>
                 </span>
             </xsl:when>
-             <xsl:when test="@rend = 'spaced_out'">
-               <span class="spaced_out">
+            <xsl:when test="@rend = 'spaced_out'">
+                <span class="spaced_out">
                     <xsl:apply-templates/>
                 </span>
             </xsl:when>
-            <xsl:when test="@rend= 'latintype'">
+            <xsl:when test="@rend = 'latintype'">
                 <span class="latintype">
                     <xsl:apply-templates/>
                 </span>
             </xsl:when>
-            <xsl:when test="@rend= 'antiqua'">
+            <xsl:when test="@rend = 'antiqua'">
                 <span class="antiqua">
                     <xsl:apply-templates/>
                 </span>
@@ -94,8 +94,6 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-
-    
     <!--    footnotes -->
     <xsl:template match="tei:note">
         <xsl:element name="a">
@@ -180,46 +178,38 @@
     </xsl:template>
     <!-- reference strings   -->
     <xsl:template match="tei:title[@ref]">
-        
-            <xsl:element name="a">
-                <xsl:attribute name="class">reference</xsl:attribute>
-                <xsl:attribute name="data-type">listtitle.xml</xsl:attribute>
-                <xsl:attribute name="data-key">
-                    <xsl:value-of select="substring-after(data(@ref), '#')"/>
-                    <xsl:value-of select="@key"/>
-                </xsl:attribute>
-                <xsl:value-of select="."/>
-            </xsl:element>
-        
+        <xsl:element name="a">
+            <xsl:attribute name="class">reference</xsl:attribute>
+            <xsl:attribute name="data-type">listtitle.xml</xsl:attribute>
+            <xsl:attribute name="data-key">
+                <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                <xsl:value-of select="@key"/>
+            </xsl:attribute>
+            <xsl:value-of select="."/>
+        </xsl:element>
     </xsl:template>
     <xsl:template match="tei:origPlace[@ref]">
-        
-            <xsl:element name="a">
-                <xsl:attribute name="class">reference</xsl:attribute>
-                <xsl:attribute name="data-type">listplace.xml</xsl:attribute>
-                <xsl:attribute name="data-key">
-                    <xsl:value-of select="substring-after(data(@ref), '#')"/>
-                    <xsl:value-of select="@key"/>
-                </xsl:attribute>
-                <xsl:value-of select="."/>
-            </xsl:element>
-        
+        <xsl:element name="a">
+            <xsl:attribute name="class">reference</xsl:attribute>
+            <xsl:attribute name="data-type">listplace.xml</xsl:attribute>
+            <xsl:attribute name="data-key">
+                <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                <xsl:value-of select="@key"/>
+            </xsl:attribute>
+            <xsl:value-of select="."/>
+        </xsl:element>
     </xsl:template>
-    
     <xsl:template match="tei:author[@ref]">
-        
-            <xsl:element name="a">
-                <xsl:attribute name="class">reference</xsl:attribute>
-                <xsl:attribute name="data-type">listperson.xml</xsl:attribute>
-                <xsl:attribute name="data-key">
-                    <xsl:value-of select="substring-after(data(@ref), '#')"/>
-                    <xsl:value-of select="@key"/>
-                </xsl:attribute>
-                <xsl:value-of select="."/>
-            </xsl:element>
-        
+        <xsl:element name="a">
+            <xsl:attribute name="class">reference</xsl:attribute>
+            <xsl:attribute name="data-type">listperson.xml</xsl:attribute>
+            <xsl:attribute name="data-key">
+                <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                <xsl:value-of select="@key"/>
+            </xsl:attribute>
+            <xsl:value-of select="."/>
+        </xsl:element>
     </xsl:template>
-    
     <!--<xsl:template match="tei:rs[@ref or @key]">
         
             <xsl:element name="a">
@@ -236,58 +226,55 @@
         
     </xsl:template>-->
     <xsl:template match="tei:rs[(@ref or @key) and not(descendant::tei:rs) and not(ancestor::tei:rs)]">
-        
         <xsl:element name="a">
             <xsl:attribute name="class">reference</xsl:attribute>
             <xsl:attribute name="data-type">
                 <xsl:value-of select="concat('list', data(@type), '.xml')"/>
             </xsl:attribute>
-            <xsl:if test="count(tokenize(data(@ref),'\s+')) = 1">
+            <xsl:if test="count(tokenize(data(@ref), '\s+')) = 1">
                 <xsl:attribute name="data-key">
                     <xsl:value-of select="substring-after(data(@ref), '#')"/>
                     <xsl:value-of select="@key"/>
                 </xsl:attribute>
             </xsl:if>
-            <xsl:if test="count(tokenize(data(@ref),'\s+')) gt 1">
+            <xsl:if test="count(tokenize(data(@ref), '\s+')) gt 1">
                 <xsl:attribute name="data-keys">
                     <xsl:value-of select="data(@ref)"/>
                 </xsl:attribute>
             </xsl:if>
             <xsl:apply-templates/>
         </xsl:element>
-        
     </xsl:template>
-    
     <xsl:template match="tei:rs[(@ref or @key) and descendant::tei:rs and not(ancestor::tei:rs)]">
         <xsl:variable name="unteres-element">
             <xsl:for-each select="descendant::tei:rs">
                 <xsl:variable name="type" select="@type"/>
-                <xsl:for-each select="tokenize(@ref,' ')">
-                <xsl:value-of select="$type"/>
-                    <xsl:text>:</xsl:text>
-                    <xsl:value-of select="substring-after(.,'#')"/>
-                    <xsl:if test="not(position()=last())">
-                        <xsl:text> </xsl:text>
-                    </xsl:if>
-            </xsl:for-each>
-            </xsl:for-each>
-        </xsl:variable>
-        <xsl:variable name="current">
-                <xsl:variable name="type" select="@type"/>
-                <xsl:for-each select="tokenize(@ref,' ')">
+                <xsl:for-each select="tokenize(@ref, ' ')">
                     <xsl:value-of select="$type"/>
                     <xsl:text>:</xsl:text>
-                    <xsl:value-of select="substring-after(.,'#')"/>
-                    <xsl:if test="not(position()=last())">
+                    <xsl:value-of select="substring-after(., '#')"/>
+                    <xsl:if test="not(position() = last())">
                         <xsl:text> </xsl:text>
                     </xsl:if>
                 </xsl:for-each>
+            </xsl:for-each>
         </xsl:variable>
-        <xsl:variable name="data-keys" select="concat($current,' ',$unteres-element)"/>
+        <xsl:variable name="current">
+            <xsl:variable name="type" select="@type"/>
+            <xsl:for-each select="tokenize(@ref, ' ')">
+                <xsl:value-of select="$type"/>
+                <xsl:text>:</xsl:text>
+                <xsl:value-of select="substring-after(., '#')"/>
+                <xsl:if test="not(position() = last())">
+                    <xsl:text> </xsl:text>
+                </xsl:if>
+            </xsl:for-each>
+        </xsl:variable>
+        <xsl:variable name="data-keys" select="concat($current, ' ', $unteres-element)"/>
         <xsl:element name="a">
             <xsl:attribute name="class">reference</xsl:attribute>
             <xsl:choose>
-                <xsl:when test="count(tokenize($data-keys,'\s+')) = 1">
+                <xsl:when test="count(tokenize($data-keys, '\s+')) = 1">
                     <xsl:attribute name="data-key">
                         <xsl:value-of select="substring-after(data(@ref), '#')"/>
                         <xsl:value-of select="@key"/>
@@ -301,56 +288,45 @@
             </xsl:choose>
             <xsl:apply-templates/>
         </xsl:element>
-        
     </xsl:template>
-    
     <xsl:template match="tei:rs[(@ref or @key) and ancestor::tei:rs]">
         <xsl:apply-templates/>
     </xsl:template>
-    
     <xsl:template match="tei:persName[@key]">
-        
-            <xsl:element name="a">
-                <xsl:attribute name="class">reference</xsl:attribute>
-                <xsl:attribute name="data-type">listperson.xml</xsl:attribute>
-                <xsl:attribute name="data-key">
-                    <xsl:value-of select="@key"/>
-                </xsl:attribute>
-                <xsl:value-of select="."/>
-            </xsl:element>
-        
+        <xsl:element name="a">
+            <xsl:attribute name="class">reference</xsl:attribute>
+            <xsl:attribute name="data-type">listperson.xml</xsl:attribute>
+            <xsl:attribute name="data-key">
+                <xsl:value-of select="@key"/>
+            </xsl:attribute>
+            <xsl:value-of select="."/>
+        </xsl:element>
     </xsl:template>
     <xsl:template match="tei:placeName[@key]">
-        
-            <xsl:element name="a">
-                <xsl:attribute name="class">reference</xsl:attribute>
-                <xsl:attribute name="data-type">listplace.xml</xsl:attribute>
-                <xsl:attribute name="data-key">
-                    <xsl:value-of select="@key"/>
-                </xsl:attribute>
-                <xsl:value-of select="."/>
-            </xsl:element>
-        
+        <xsl:element name="a">
+            <xsl:attribute name="class">reference</xsl:attribute>
+            <xsl:attribute name="data-type">listplace.xml</xsl:attribute>
+            <xsl:attribute name="data-key">
+                <xsl:value-of select="@key"/>
+            </xsl:attribute>
+            <xsl:value-of select="."/>
+        </xsl:element>
     </xsl:template>
     <xsl:template match="tei:region[@key] | tei:country[@key]">
-        
-            <xsl:element name="a">
-                <xsl:attribute name="class">reference</xsl:attribute>
-                <xsl:attribute name="data-type">listplace.xml</xsl:attribute>
-                <xsl:attribute name="data-key">
-                    <xsl:value-of select="@key"/>
-                </xsl:attribute>
-                <xsl:value-of select="."/>
-            </xsl:element>
-        
+        <xsl:element name="a">
+            <xsl:attribute name="class">reference</xsl:attribute>
+            <xsl:attribute name="data-type">listplace.xml</xsl:attribute>
+            <xsl:attribute name="data-key">
+                <xsl:value-of select="@key"/>
+            </xsl:attribute>
+            <xsl:value-of select="."/>
+        </xsl:element>
     </xsl:template>
     <!-- additions -->
- 
     <!-- Bücher -->
     <xsl:template match="tei:bibl">
-            <xsl:apply-templates/>
+        <xsl:apply-templates/>
     </xsl:template>
- 
     <!-- Tabellen -->
     <xsl:template match="tei:table">
         <xsl:element name="table">
@@ -487,8 +463,7 @@
             <xsl:apply-templates/>
         </strong>
     </xsl:template>
-    
-    <xsl:template match="tei:title[ancestor::tei:fileDesc[1]/tei:titleStmt[1] and @level='a']">
+    <xsl:template match="tei:title[ancestor::tei:fileDesc[1]/tei:titleStmt[1] and @level = 'a']">
         <div id="titleForNavigation">
             <xsl:apply-templates/>
         </div>
@@ -635,29 +610,18 @@
             <xsl:apply-templates/>
         </code>
     </xsl:template>
-        
-        <xsl:template match="tei:c[@rendition='#kaufmannsund']">
-        &amp;
-        </xsl:template>
-        <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-auf']">
-       {
-        </xsl:template>
-        <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-zu']">
-       }
-        </xsl:template>
-       <xsl:template match="tei:c[@rendition = '#gemination-m']">
-         <span class="gemination">mm</span>
-        </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#kaufmannsund']"> &amp; </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-auf']"> { </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-zu']"> } </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#gemination-m']">
+        <span class="gemination">mm</span>
+    </xsl:template>
     <xsl:template match="tei:c[@rendition = '#gemination-n']">
         <span class="gemination">nn</span>
     </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#prozent']">
-        %
-    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#prozent']"> % </xsl:template>
     <xsl:function name="foo:dots">
-        <xsl:param name="anzahl"/>
-        .
-        <xsl:if test="$anzahl &gt; 1">
+        <xsl:param name="anzahl"/> . <xsl:if test="$anzahl &gt; 1">
             <xsl:value-of select="foo:dots($anzahl - 1)"/>
         </xsl:if>
     </xsl:function>
@@ -673,27 +637,25 @@
     </xsl:function>
     <xsl:template match="tei:gap[@unit = 'chars' and @reason = 'illegible']">
         <span class="illegible">
-        <xsl:value-of select="foo:gaps(@quantity)"/>
+            <xsl:value-of select="foo:gaps(@quantity)"/>
         </span>
     </xsl:template>
     <xsl:template match="tei:gap[@unit = 'lines' and @reason = 'illegible']">
         <div class="illegible">
-        <xsl:text> [</xsl:text>
-        <xsl:value-of select="@quantity"/>
-        <xsl:text> Zeilen unleserlich] </xsl:text>
+            <xsl:text> [</xsl:text>
+            <xsl:value-of select="@quantity"/>
+            <xsl:text> Zeilen unleserlich] </xsl:text>
         </div>
     </xsl:template>
-    
     <xsl:template match="tei:gap[@reason = 'outOfScope']">
         <div class="outOfScope">[…]</div>
     </xsl:template>
-    
     <xsl:template match="tei:p[child::tei:space[@dim] and not(child::*[2]) and empty(text())]">
         <br/>
     </xsl:template>
     <xsl:template match="tei:p[parent::tei:quote]">
         <xsl:apply-templates/>
-        <xsl:if test="not(position()=last())">
+        <xsl:if test="not(position() = last())">
             <xsl:text> / </xsl:text>
         </xsl:if>
     </xsl:template>
@@ -705,44 +667,41 @@
         </xsl:if>
     </xsl:function>
     <xsl:template match="tei:space[@dim = 'vertical']">
-      
         <xsl:element name="div">
             <xsl:attribute name="style">
-                <xsl:value-of select="concat('padding-bottom:', @quantity,'em;')"/>
+                <xsl:value-of select="concat('padding-bottom:', @quantity, 'em;')"/>
             </xsl:attribute>
         </xsl:element>
     </xsl:template>
-    <xsl:template match="tei:space[@unit = 'chars' and @quantity=1]">
+    <xsl:template match="tei:space[@unit = 'chars' and @quantity = 1]">
         <xsl:text> </xsl:text>
     </xsl:template>
-    <xsl:template match="tei:space[@unit = 'chars' and not(@quantity=1)]">
+    <xsl:template match="tei:space[@unit = 'chars' and not(@quantity = 1)]">
         <xsl:variable name="weite" select="0.5 * @quantity"/>
-       <xsl:element name="span">
-           <xsl:attribute name="style">
-               <xsl:value-of select="concat('display:inline-block; width: ', $weite,'em; ')"/>
-           </xsl:attribute>
-       </xsl:element>
+        <xsl:element name="span">
+            <xsl:attribute name="style">
+                <xsl:value-of select="concat('display:inline-block; width: ', $weite, 'em; ')"/>
+            </xsl:attribute>
+        </xsl:element>
     </xsl:template>
     <xsl:template match="tei:opener">
         <div class="opener">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    
     <xsl:template match="tei:add[@place and not(parent::tei:subst)]">
         <span class="steuerzeichen">↓</span>
         <span class="add">
-        <xsl:apply-templates/>
+            <xsl:apply-templates/>
         </span>
         <span class="steuerzeichen">↓</span>
     </xsl:template>
     <!-- Streichung -->
     <xsl:template match="tei:del[not(parent::tei:subst)]">
         <span class="del">
-        <xsl:apply-templates/>
+            <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
     <xsl:template match="tei:del[parent::tei:subst]">
         <xsl:apply-templates/>
     </xsl:template>
@@ -750,10 +709,10 @@
     <xsl:template match="tei:subst">
         <span class="steuerzeichen">↑</span>
         <span class="superscript">
-        <xsl:apply-templates select="tei:del"/>
+            <xsl:apply-templates select="tei:del"/>
         </span>
         <span class="subst-add">
-        <xsl:apply-templates select="tei:add"/>
+            <xsl:apply-templates select="tei:add"/>
         </span>
         <span class="steuerzeichen">↓</span>
     </xsl:template>
@@ -770,13 +729,12 @@
     </xsl:template>
     <xsl:template match="tei:handShift[@scribe]">
         <xsl:variable name="scribe">
-        <xsl:value-of select="@scribe"/>
+            <xsl:value-of select="@scribe"/>
         </xsl:variable>
         <xsl:text>[hs. </xsl:text>
-        <xsl:value-of select="foo:vorname-vor-nachname(//tei:correspDesc//tei:persName[@ref  = $scribe])"/>
+        <xsl:value-of select="foo:vorname-vor-nachname(//tei:correspDesc//tei:persName[@ref = $scribe])"/>
         <xsl:text>:] </xsl:text>
     </xsl:template>
-    
     <xsl:function name="foo:vorname-vor-nachname">
         <xsl:param name="autorname"/>
         <xsl:choose>
@@ -790,7 +748,6 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
-    
     <xsl:template match="tei:salute[parent::tei:opener]">
         <div class="salute editionText">
             <xsl:apply-templates/>
@@ -801,24 +758,24 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    <xsl:template match="tei:p[ancestor::tei:body and not(ancestor::tei:note) and not(ancestor::tei:footNote) and not(ancestor::tei:caption) and not(parent::tei:bibl) and not(parent::tei:quote)]|tei:dateline|tei:closer">
+    <xsl:template match="tei:p[ancestor::tei:body and not(ancestor::tei:note) and not(ancestor::tei:footNote) and not(ancestor::tei:caption) and not(parent::tei:bibl) and not(parent::tei:quote)] | tei:dateline | tei:closer">
         <xsl:choose>
-            <xsl:when test="@rend='right'">
+            <xsl:when test="@rend = 'right'">
                 <p align="right" class="editionText">
                     <xsl:apply-templates/>
                 </p>
             </xsl:when>
-            <xsl:when test="@rend='left'">
+            <xsl:when test="@rend = 'left'">
                 <p align="left" class="editionText">
                     <xsl:apply-templates/>
                 </p>
             </xsl:when>
-            <xsl:when test="@rend='center'">
+            <xsl:when test="@rend = 'center'">
                 <p align="center" class="editionText">
                     <xsl:apply-templates/>
                 </p>
             </xsl:when>
-            <xsl:when test="@rend='inline'">
+            <xsl:when test="@rend = 'inline'">
                 <p class="inline editionText">
                     <xsl:apply-templates/>
                 </p>
@@ -826,10 +783,10 @@
             <xsl:when test="child::tei:seg">
                 <div class="wrapper editionText">
                     <span class="editionText">
-                        <xsl:apply-templates select="tei:seg[@rend='left']"/>
+                        <xsl:apply-templates select="tei:seg[@rend = 'left']"/>
                     </span>
                     <span class="editionText">
-                        <xsl:apply-templates select="tei:seg[@rend='right']"/>
+                        <xsl:apply-templates select="tei:seg[@rend = 'right']"/>
                     </span>
                 </div>
             </xsl:when>
@@ -840,25 +797,24 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    
     <xsl:template match="tei:p[not(parent::tei:quote) and (ancestor::tei:note or ancestor::tei:footNote or ancestor::tei:caption or parent::tei:bibl)]">
         <xsl:choose>
-            <xsl:when test="@rend='right'">
+            <xsl:when test="@rend = 'right'">
                 <p align="right">
                     <xsl:apply-templates/>
                 </p>
             </xsl:when>
-            <xsl:when test="@rend='left'">
+            <xsl:when test="@rend = 'left'">
                 <p align="left">
                     <xsl:apply-templates/>
                 </p>
             </xsl:when>
-            <xsl:when test="@rend='center'">
+            <xsl:when test="@rend = 'center'">
                 <p align="center">
                     <xsl:apply-templates/>
                 </p>
             </xsl:when>
-            <xsl:when test="@rend='inline'">
+            <xsl:when test="@rend = 'inline'">
                 <p style="inline">
                     <xsl:apply-templates/>
                 </p>
@@ -870,27 +826,23 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    
-    <xsl:template match="tei:div[not(@type='address')]">
+    <xsl:template match="tei:div[not(@type = 'address')]">
         <div class="div">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    
-    <xsl:template match="tei:div[@type='address']">
-                <div class="wrapper">
-                    <xsl:apply-templates/>
-                </div>
+    <xsl:template match="tei:div[@type = 'address']">
+        <div class="wrapper">
+            <xsl:apply-templates/>
+        </div>
         <hr align="center" width="50%"/>
         <br/>
     </xsl:template>
-    
     <xsl:template match="tei:address">
         <div class="column">
-             <xsl:apply-templates/>
+            <xsl:apply-templates/>
         </div>
     </xsl:template>
-    
     <xsl:template match="tei:addrLine">
         <p class="addrLine">
             <xsl:apply-templates/>
@@ -901,30 +853,24 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
-    
-   <xsl:template match="tei:pb">
-       <span class="steuerzeichenUnten">|</span>
-   </xsl:template>
-    
+    <xsl:template match="tei:pb">
+        <span class="steuerzeichenUnten">|</span>
+    </xsl:template>
     <xsl:template match="tei:unclear">
         <span class="unsicher">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
-    <xsl:template match="tei:lg[@type='poem']">
+    <xsl:template match="tei:lg[@type = 'poem']">
         <div class="poem editionText">
-        <ul>
-            <xsl:apply-templates/>
-        </ul>
+            <ul>
+                <xsl:apply-templates/>
+            </ul>
         </div>
     </xsl:template>
-    
     <xsl:template match="tei:l">
-            <li>
-                <xsl:apply-templates/>
-            </li>
+        <li>
+            <xsl:apply-templates/>
+        </li>
     </xsl:template>
-    
 </xsl:stylesheet>

@@ -7,7 +7,7 @@
         var URLtoCopy = $(this).data("copyuri");
         var result = copyToClipboard(URLtoCopy);
         if (result) {
-	        $('#copyLinkTextfield').val("URL is copied to clipboard!");
+	        $('#copyLinkTextfield').val("Nachweis ist in die Zwischenablage kopiert!");
 	        setTimeout(function() { $('#copyLinkTextfield').val(URLtoCopy); }, 2000);
         }
     });
