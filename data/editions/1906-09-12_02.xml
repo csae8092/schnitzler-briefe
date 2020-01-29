@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1906-09-12_02_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 12. 9. 1906</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </editor>
+            <funder>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASBW</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
+            <idno type="ASBW" n="3025"/>
+            <availability status="free">
+               <p>Copyright © 2019</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 43</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
+                              <hi rend="latintype">Hugo</hi>
+                           </quote>«. XXXX</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HvHAS">
+                  <monogr>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefwechsel</title>
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1964">1964</date>
+                     </imprint>
+                     <biblScope unit="pp">223</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>       
+               <placeName ref="#pmb33">St. Gilgen</placeName>
+               <date when="1906-09-12" n="02">12. 9. 1906</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#11740"/>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1906-09-12_01">Hofmannsthal an Schnitzler, 12. 9. 1906</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1906-10-14_01">Hofmannsthal an Schnitzler, 14. 10. 1906</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <encodingDesc>          
+         <refsDecl>             
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
+            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
+        </ab>          
+         </refsDecl>       
+      </encodingDesc>
+      <revisionDesc status="proposed">
+         <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+ <div type="writingSession" n="1">
+ <opener>
+ <dateline rend="right">
+ <date>Mittwoch</date>
+ </dateline>
+ </opener>
+ <p>Kommen direct; freuen uns. Bitten durch <rs ref="#pmb12556" type="person">Rosenbaum</rs> für morgen
+ <date>Donnerstag</date>
+ <space unit="chars" quantity="1"/>
+ <time>7<hi rend="superscript">h</hi> abends</time> zweibettiges Zimmer möglichst billig, neues Gebäude, höheres Stockwerk,
+ nach rückwärts, bestellen. Herzlich </p>
+ <closer>
+ <signed>Hugo.</signed>
+ </closer>
+ </div>
+ </body>
+   </text>
+</TEI>

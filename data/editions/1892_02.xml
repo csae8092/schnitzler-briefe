@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892_02_Beer-Hofmann_AS">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, [1892–1894?]</title>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </editor>
+            <funder>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASBW</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
+            <idno type="ASBW" n="2752"/>
+            <availability status="free">
+               <p>Copyright © 2019</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 8</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 1 S., schwarze Tinte; Lateinschrift. Von Schnitzler mit
+                           Bleistift nummeriert: »<quote>17</quote>«.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date notAfter="1894" notBefore="1892" n="02">[1892–1894?]</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+            </correspAction>
+            <correspContext/>
+         </correspDesc>
+      </profileDesc>
+      <encodingDesc>          
+         <refsDecl>             
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
+            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
+        </ab>          
+         </refsDecl>       
+      </encodingDesc>
+      <revisionDesc status="approved">
+         <change who="GHS" when="2019-09-24">angelegt aus Faksimile</change>
+         <change who="MAM" when="2019-09-26">Durchsicht und finalisiert</change>
+         <change who="MAM" when="2019-09-26">Index check</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00035"/>
+   </facsimile>
+   <text type="letter">
+      <body>
+ <div type="writingSession" n="1">
+ <opener>
+ <salute>
+ <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00035"/>Lieber Arthur!</salute>
+ </opener>
+ <p>
+ <rs ref="#pmb2456" type="person">Specht</rs> liest <anchor type="commentary" xml:id="KL20190926-3"/>
+ <date>Samstag</date>
+ <note type="commentary" xml:id="KL20190926-3h">Die mit <rs ref="#pmb2121" type="person">Schnitzler</rs>s
+ <rs ref="#pmb33243" type="work">Tagebuch</rs> nachweisbaren Lesungen <rs ref="#pmb2456" type="person">Specht</rs>s fanden entweder nicht an einem Samstag oder
+ nicht bei <rs ref="#pmb10863" type="person">Beer-Hofmann</rs> statt. Die erste war am
+ <date>20. 11. 1892</date>, die letzte am
+ <date>29. 3. 1894</date>. Dementsprechend dürfte auch dieses
+ Korrespondenzstück in diesen Zeitraum fallen.</note>
+ <space unit="chars" quantity="1"/>
+ <time>6 Uhr</time> bei mir; bitte pünktlich, wir soupiren dann
+ auswärts zusa<c rendition="#gemination-m"/>en.</p>
+ <closer>Herzlichst<lb/>
+ <signed>Richard.</signed>
+ </closer>
+ <postscript>
+ <p>Bitte <date>Sonntag</date> für um
+ <time>
+ <hi n="1" rend="underline">4</hi>
+ </time>. frei zu halten.</p>
+ </postscript>
+ </div>
+ </body>
+   </text>
+</TEI>
