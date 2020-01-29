@@ -1,152 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1907-11-01_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 1. 11. 1907</title>
-            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
-            <editor>
-               <name>Müller, Martin Anton</name>
-               <name>Susen, Gerd-Hermann</name>
-            </editor>
-            <funder>
-               <name>FWF - Fonds für Wissenschaft und Forschung</name>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-               </address>
-            </funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>ASBW</edition>
-            <respStmt>
-               <resp>Transkription und Kommentierung</resp>
-               <name>Müller, Martin Anton</name>
-               <name>Susen, Gerd-Hermann</name>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Austrian Academy of Sciences, Vienna</publisher>
-            <idno type="ASBW" n="3048"/>
-            <availability status="free">
-               <p>Copyright © 2019</p>
-            </availability>
-         </publicationStmt>
-         <seriesStmt>
-            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-         </seriesStmt>
-         <sourceDesc>
-            <listWit>
-               <witness n="1">
-                  <msDesc>
-                     <msIdentifier>
-                        <country>GB</country>
-                        <settlement>Cambridge</settlement>
-                        <repository>University Library</repository>
-                        <idno>Schnitzler, B 43</idno>
-                     </msIdentifier>
-                     <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>
-                              <hi rend="latintype">Hugo</hi>
-                           </quote>«. XXXX</p>
-                     </physDesc>
-                  </msDesc>
-               </witness>
-            </listWit>
-            <listBibl>
-               <biblStruct corresp="HvHAS">
-                  <monogr>
-                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
-                     <author ref="#pmb2121">Schnitzler, Arthur</author>
-                     <title level="m">Briefwechsel</title>
-                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
-                     <imprint>
-                        <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
-                        <date when="1964">1964</date>
-                     </imprint>
-                     <biblScope unit="pp">XXXX</biblScope>
-                  </monogr>
-               </biblStruct>
-            </listBibl>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="de-AT">German</language>
-         </langUsage>
-         <correspDesc>
-            <correspAction type="sent">
-               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName ref="#pmb173">R.</placeName>
-               <date when="1907-11-01" n="01">1. 11. 1907</date>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-               <placeName ref="#pmb50">Wien</placeName>
-            </correspAction>
-            <correspContext>
-               <ref type="belongsToCorrespondence" target="#pmb11740"/>
-               <ref subtype="previous_letter" type="withinCorrespondence" target="1907-10-16_01">Hofmannsthal an Schnitzler, 16. 10. 1907</ref>
-               <ref subtype="next_letter" type="withinCorrespondence" target="1907-11-15_01">Schnitzler an Hofmannsthal, 15. 11. 1907</ref>
-            </correspContext>
-         </correspDesc>
-      </profileDesc>
-      <encodingDesc>          
-         <refsDecl>             
-            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1907-11-01_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"><teiHeader><fileDesc><titleStmt><title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title><title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 1. 11. 1907</title><author ref="#pmb11740">Hofmannsthal, Hugo von</author><editor><name>Müller, Martin Anton</name><name>Susen, Gerd-Hermann</name></editor><funder><name>FWF - Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>ASBW</edition><respStmt><resp>Transkription und Kommentierung</resp><name>Müller, Martin Anton</name><name>Susen, Gerd-Hermann</name></respStmt></editionStmt><publicationStmt><publisher>Austrian Academy of Sciences, Vienna</publisher><idno type="ASBW" n="3048"/><availability status="free"><p>Copyright © 2019</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 43</idno></msIdentifier><physDesc><p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote><hi rend="latintype">Hugo</hi></quote>«. XXXX</p></physDesc></msDesc></witness></listWit><listBibl><biblStruct corresp="HvHAS"><monogr><author ref="#pmb11740">Hofmannsthal, Hugo</author><author ref="#pmb2121">Schnitzler, Arthur</author><title level="m">Briefwechsel</title><editor>Hg. Therese Nickl und Heinrich Schnitzler</editor><imprint><pubPlace>Frankfurt am Main</pubPlace><publisher>S. Fischer</publisher><date when="1964">1964</date></imprint><biblScope unit="pp">XXXX</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb11740">Hofmannsthal, Hugo von</persName><placeName ref="#pmb173">R.</placeName><date when="1907-11-01" n="01">1. 11. 1907</date></correspAction><correspAction type="received"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb11740"/><ref subtype="previous_letter" type="withinCorrespondence" target="1907-10-16_01">Hofmannsthal an Schnitzler, 16. 10. 1907</ref><ref subtype="next_letter" type="withinCorrespondence" target="1907-11-15_01">Schnitzler an Hofmannsthal, 15. 11. 1907</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>          
-         </refsDecl>       
-      </encodingDesc>
-      <revisionDesc status="proposed">
-         <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
-      </revisionDesc>
-   </teiHeader>
-   <text type="letter">
-      <body>
- <div type="writingSession" n="1">
- <opener>
- <dateline rend="right">
- <rs ref="#pmb173" type="place">R.</rs>, <date>1. XI.</date>
- </dateline>
- <salute>mein guter Arthur, </salute>
- </opener>
- <p>wir kämen ja sehr gern – aber ich arbeite jetzt (ungefähr seit 2 Wochen) jeden
+        </ab></refsDecl></encodingDesc><revisionDesc status="proposed"><change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change></revisionDesc></teiHeader><text type="letter"><body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb173" type="place">R.</rs>, <date>1. XI.</date></dateline><salute>mein guter Arthur, </salute></opener><p>wir kämen ja sehr gern – aber ich arbeite jetzt (ungefähr seit 2 Wochen) jeden
  Vormittag jeden Abend. Durch einen Abend bei Euch verlöre ich einen Abend und den
  nächsten Vormittag (und vielleicht durch Nervosität mehr als das) also muß ich leider
- verzichten.</p>
- <p>Nicht wahr Sie bringen das Gespräch dann mit <rs ref="#pmb10788" type="person">Auernheimer</rs> auf mich und speciell darauf, daß er den »<rs ref="#pmb173" type="place">Rodaun</rs>er Aestheten« anführte als eine Figur, die von
+ verzichten.</p><p>Nicht wahr Sie bringen das Gespräch dann mit <rs ref="#pmb10788" type="person">Auernheimer</rs> auf mich und speciell darauf, daß er den »<rs ref="#pmb173" type="place">Rodaun</rs>er Aestheten« anführte als eine Figur, die von
  <rs ref="#pmb9674" type="person">Schaukal</rs> entzückt ist und der – <rs ref="#pmb9674" type="person">Schaukal</rs> für seinen Dreck! (um den sich das Feuilleton
  dreht) becomplimentiert. Fragen Sie ihn bitte welche meiner Arbeiten einer ähnlichen
- Characterisierung die Handhabe bietet.</p>
- <p>Ich habe es so satt, nach 17 Jahren ziemlich ernsthaften Arbeitens in dieser Weise
+ Characterisierung die Handhabe bietet.</p><p>Ich habe es so satt, nach 17 Jahren ziemlich ernsthaften Arbeitens in dieser Weise
  »ironisiert« zu werden – und in diesem Fall ist es ja kein Lausbub, sondern jemand
  anscheinend Anständiger. Also wozu? Mein <rs type="work" subtype="implied" ref="">Stück</rs> ist ein
  recht sonderbares Ding. Wenns nicht mißlingt – ist es viel wert, für mich meine ich.
  Jedenfalls gehen mir hie und da einige Ahnungen auf darüber wie das was man die Leute
  reden läßt wieder zurückwirkt auf die sogenannte Handlung (das Scearium) u. s. f.
- u. s. f. Sehr einsam ist man in solchen </p>
- <p>Momenten, wie tief in einem Bergwerk, nur im Finstern irgendwo neben sich, aber weit,
+ u. s. f. Sehr einsam ist man in solchen </p><p>Momenten, wie tief in einem Bergwerk, nur im Finstern irgendwo neben sich, aber weit,
  glaubt man einen andern hämmern zu hören. Sie z. B. So habe ich neulich den ersten
  Act vom »<rs ref="#pmb29905" type="work">Ruf des Lebens</rs>« sehr aufmerksam gelesen, mit viel
  Gewinn (vielleicht auch für Sie). Ich glaube das notwendige organische Stück steckt
  hier (wie natürlich). Sie sind aber wie mit geschlossenen Augen darüber
  hinweggegangen. (In der Scene <rs type="work" subtype="implied">Marie</rs>–<rs type="work" subtype="implied">Adjunct</rs>
  steckt die Idee des Stückes.) Davon nächstens. Ich glaube ich werde Sie plötzlich
- brauchen, zu Hilfe.</p>
- <closer>Adieu.<lb/>Ihr<signed>Hugo.</signed>
- </closer>
- <postscript>
- <p>Ich wüßte gern, wie denn überhaupt <rs ref="#pmb10788" type="person">A.</rs> zu
- meinen Arbeiten steht, z. B. den prosaischen.</p>
- </postscript>
- </div>
- </body>
-   </text>
+ brauchen, zu Hilfe.</p><closer>Adieu.<lb/>Ihr<signed>Hugo.</signed></closer><postscript><p>Ich wüßte gern, wie denn überhaupt <rs ref="#pmb10788" type="person">A.</rs> zu
+ meinen Arbeiten steht, z. B. den prosaischen.</p></postscript></div></body></text>
 </TEI>

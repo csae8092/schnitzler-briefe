@@ -123,7 +123,7 @@
                         <xsl:choose>
                             <xsl:when test="not(//tei:teiHeader[1]/tei:revisionDesc[1]/@status = 'approved')">
                                 <li class="nav-item dropdown">
-                                            <a class="ml-3" data-toggle="modal" data-target="#qualitaet">
+                                    <a class="nav-link" data-toggle="modal" data-target="#qualitaet">
                                     <span style="color: orange;">QUALITÄT: ENTWURF</span>
                                 </a>
                                         </li>

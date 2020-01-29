@@ -181,19 +181,19 @@
                             <xsl:attribute name="href">
                                 <xsl:value-of select="concat('show.html?document=',$document,'&amp;stylesheet=plain')"/>
                             </xsl:attribute>
-                            <i title="Plain Text" class="fas fa-camera"></i>
+                            <i title="Plain Text" class="fas fa-camera"/>
                         </a>
                         <a class="ml-3">
                             <xsl:attribute name="href">
                                 <xsl:value-of select="concat('show.html?document=',$document,'&amp;stylesheet=links')"/>
                             </xsl:attribute>
-                            <i title="With Links" class="fas fa-camera"></i>
+                            <i title="With Links" class="fas fa-camera"/>
                         </a>
                         <a class="ml-3">
                             <xsl:attribute name="href">
                                 <xsl:value-of select="concat('show.html?document=',$document,'&amp;stylesheet=critical')"/>
                             </xsl:attribute>
-                            <i title="Critical Edition" class="fas fa-camera"></i>
+                            <i title="Critical Edition" class="fas fa-camera"/>
                         </a>
                         <xsl:variable name="datum">
                             <xsl:choose>
