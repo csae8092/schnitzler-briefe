@@ -9,7 +9,7 @@ Die Edition von Martin Anton Müller (@martinantonmueller) und Gerd-Hermann Suse
 Weiters beteiligt an der Web-Applikation basierend auf der DSE Base App (https://github.com/KONDE-AT/dsebaseapp): 
 * Peter Andorfer (@csae8092)
 * Ingo Börner (@ingoboerner)
-* Thomas Klampfl (@#tklampfl)
+* Thomas Klampfl (@tklampfl)
 
 ## Funding
 
