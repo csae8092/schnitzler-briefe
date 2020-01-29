@@ -122,6 +122,18 @@ a:not([href]):not([tabindex]) {
     text-decoration: none;
 }
 
+
+.kommentarhang{ background-color: white;}
+.card-footer {background-color: white;
+                padding-left: 0px;
+                padding-right: 0px;
+                padding-top: 15px;
+                padding-bottom: 25px;}
+                
+h2 {font-size: 20pt;}
+                
+.card-header{background: white;}
+
 .navbar {
     padding-left: 0;
     padding-right: 0;
@@ -375,6 +387,7 @@ td p {
     line-height: 1.75; 
     font-size: large;
     font-family:serif;
+    color:black;
     
 }
 
@@ -383,7 +396,7 @@ td p {
   flex-direction: row;
   align-items: baseline; /* NEW */
   justify-content: space-between;
-  
+  color:black;
 }
 
 .column {
