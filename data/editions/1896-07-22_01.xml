@@ -4,7 +4,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
             <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 22. 7. 1896</title>
-            <author ref="#10863">Beer-Hofmann, Richard</author>
+            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -50,8 +50,8 @@
                         <idno>Schnitzler, B 8</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>hs. Telegramm von <rs ref="#30" type="place">Salzburg</rs>, aufgegeben
-                           um <time>14.10 Uhr</time>, nach <rs ref="#40290" type="place">Trondheim</rs>, angekommen um <time>4.45 Uhr</time>. Von
+                        <p>hs. Telegramm von <rs ref="#pmb30" type="place">Salzburg</rs>, aufgegeben
+                           um <time>14.10 Uhr</time>, nach <rs ref="#pmb40290" type="place">Trondheim</rs>, angekommen um <time>4.45 Uhr</time>. Von
                            unbekannter Hand mit Bleistift nummeriert: »<quote>76</quote>«.</p>
                      </physDesc>
                   </msDesc>
@@ -60,8 +60,8 @@
             <listBibl>
                <biblStruct corresp="ASBH">
                   <monogr>
-                     <author ref="#2121">Schnitzler, Arthur</author>
-                     <author ref="#10863">Beer-Hofmann, Richard</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
                      <title level="m">Briefwechsel 1891–1931</title>
                      <editor>Hg. Konstanze Fliedl</editor>
                      <imprint>
@@ -81,17 +81,17 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="#10863">Beer-Hofmann, Richard</persName>
-               <placeName ref="#30">Salzburg</placeName>
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb30">Salzburg</placeName>
                <date when="1896-07-22" n="01">22. 7. 1896</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="#2121">Schnitzler, Arthur</persName>
-               <placeName ref="#40290">Trondheim</placeName>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb40290">Trondheim</placeName>
                <date when="1896-07-22">22. 7. 1896</date>
             </correspAction>
             <correspContext>
-               <ref type="belongsToCorrespondence" target="#10863">Beer-Hofmann, Richard</ref>
+               <ref type="belongsToCorrespondence" target="#pmb10863">Beer-Hofmann, Richard</ref>
                <ref subtype="previous_letter" type="withinCorrespondence" target="1896-07-18_01">Schnitzler an Beer-Hofmann, 18. 7. 1896</ref>
                <ref subtype="next_letter" type="withinCorrespondence" target="1896-07-24_01">Schnitzler an Beer-Hofmann, 24. 7. 1896</ref>
             </correspContext>
@@ -112,6 +112,6 @@
       </revisionDesc>
    </teiHeader>
    <text type="telegram">
-      <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00165"/><hi rend="latintype">Doktor Arthur</hi></addrLine><addrLine><hi rend="latintype">Schnitzler</hi></addrLine><addrLine><hi rend="latintype">poste restante <rs ref="#40290" type="place">Thiem</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p>Reise heute <rs ref="#30" type="place">Salzburg</rs> ab, über <rs ref="#38129" type="place">München</rs><space unit="chars" quantity="1"/><rs ref="#168" type="place">Berlin</rs> bin <date>25</date><space unit="chars" quantity="1"/><rs ref="#36300" type="place">Kopenhagen</rs> erwarte Nachricht herzlichst</p><closer><signed>Richard</signed></closer></div></body>
+      <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00165"/><hi rend="latintype">Doktor Arthur</hi></addrLine><addrLine><hi rend="latintype">Schnitzler</hi></addrLine><addrLine><hi rend="latintype">poste restante <rs ref="#pmb40290" type="place">Thiem</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p>Reise heute <rs ref="#pmb30" type="place">Salzburg</rs> ab, über <rs ref="#pmb38129" type="place">München</rs><space unit="chars" quantity="1"/><rs ref="#pmb168" type="place">Berlin</rs> bin <date>25</date><space unit="chars" quantity="1"/><rs ref="#pmb36300" type="place">Kopenhagen</rs> erwarte Nachricht herzlichst</p><closer><signed>Richard</signed></closer></div></body>
    </text>
 </TEI>
