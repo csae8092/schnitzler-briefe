@@ -61,6 +61,11 @@ dd {
     line-height: 0.7;
 }
 
+.addrLine-plain {
+    font-family: serif;
+    font-size: large;
+    line-height: 0.7;
+}
 
 .antiqua {
     font-variant: small-caps;
@@ -99,6 +104,15 @@ dd {
 .reference {
     cursor: pointer;
     color: #A63437;
+    
+   
+   
+}
+
+.reference-black {
+    cursor: pointer;
+    color: black;
+    
 }
 
 .data-hr {
@@ -117,10 +131,27 @@ a {
     color: #A63437;
 }
 
+
 a:not([href]):not([tabindex]) {
     color: #A63437;
     text-decoration: none;
 }
+
+a:not([href]):not([tabindex]).reference-black {
+    color: inherit;
+    text-decoration: none;
+}
+
+.kommentarhang{ background-color: white;}
+.card-footer {background-color: white;
+                padding-left: 0px;
+                padding-right: 0px;
+                padding-top: 15px;
+                padding-bottom: 25px;}
+                
+h2 {font-size: 20pt;}
+                
+.card-header{background: white;}
 
 .navbar {
     padding-left: 0;
@@ -273,7 +304,7 @@ td p {
     position: relative;
     z-index: 9;
     display:inline-block;
-    color: #A63437;
+    color: grey;
     cursor:pointer;
 }
 
@@ -302,8 +333,7 @@ td p {
     border: 1px solid black;
     border-radius: 5px;
     color: #A63437;
-    font-family: inherit;
-    font-style: italic;
+    font-family: sans-serif;
     font-size: 13px;
     text-align: left;
     overflow:hidden;
@@ -375,6 +405,7 @@ td p {
     line-height: 1.75; 
     font-size: large;
     font-family:serif;
+    color:black;
     
 }
 
@@ -383,7 +414,7 @@ td p {
   flex-direction: row;
   align-items: baseline; /* NEW */
   justify-content: space-between;
-  
+  color:black;
 }
 
 .column {
