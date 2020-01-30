@@ -1,13 +1,134 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-12-17_01_AS_Beer-Hofmann"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title><title level="a">Arthur Schnitzler an Richard Beer-Hofmann,
-               17. 12. 1897</title><author ref="#pmb2121">Schnitzler, Arthur</author><editor><name>Müller, Martin Anton</name><name>Susen, Gerd-Hermann</name></editor><funder><name>FWF - Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>ASBW</edition><respStmt><resp>Transkription und Kommentierung</resp><name>Müller, Martin Anton</name><name>Susen, Gerd-Hermann</name></respStmt></editionStmt><publicationStmt><publisher>Austrian Academy of Sciences, Vienna</publisher><idno type="ASBW" n="2484"/><availability status="free"><p>Copyright © 2019</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>U.S.A.</country><settlement>Yale</settlement><repository>Beinecke Rare Book and Manuscript Library</repository><idno>Yale Collection of German Literature, MSS 31</idno></msIdentifier><physDesc><p>eh. Briefkarte mit Umschlag, Bleistift.</p><stamp n="1"><placeName ref="#pmb59">Wien 9/3</placeName><date when="1897-12-17">17. 12. 97</date><time>11–12V</time></stamp><stamp n="2"><placeName ref="#pmb51">Wien 1/1</placeName><date when="1897-12-17">17/12 97</date><time>1–2½N</time><action>Bestellt</action></stamp></physDesc></msDesc></witness></listWit><listBibl><biblStruct corresp="ASBH"><monogr><author ref="#pmb2121">Schnitzler, Arthur</author><author ref="#pmb10863">Beer-Hofmann, Richard</author><title level="m">Briefwechsel 1891–1931</title><editor>Hg. Konstanze Fliedl</editor><imprint><pubPlace>Wien, Zürich</pubPlace><publisher>Europaverlag</publisher><date when="1992">1992</date></imprint><biblScope unit="pp">114</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName><date when="1897-12-17" n="01">17. 12. 1897</date></correspAction><correspAction type="received"><persName ref="#pmb10863">Beer-Hofmann, Richard</persName><placeName ref="#pmb50">Wien</placeName><date when="1897-12-17">17. 12. 1897</date></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb10863"/><ref subtype="previous_letter" type="withinCorrespondence" target="1897-12-11_01">Schnitzler an Beer-Hofmann, 11. 12. 1897</ref><ref subtype="next_letter" type="withinCorrespondence" target="1897-12-25_01">Beer-Hofmann an Schnitzler, [25. 12. 1897]</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-12-17_01_AS_Beer-Hofmann">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann,
+               17. 12. 1897</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </editor>
+            <funder>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASBW</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
+            <idno type="ASBW" n="2484"/>
+            <availability status="free">
+               <p>Copyright © 2019</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>U.S.A.</country>
+                        <settlement>Yale</settlement>
+                        <repository>Beinecke Rare Book and Manuscript Library</repository>
+                        <idno>Yale Collection of German Literature, MSS 31</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Briefkarte mit Umschlag, Bleistift.</p>
+                        <stamp n="1">
+                           <placeName ref="#59">Wien 9/3</placeName>
+                           <date when="1897-12-17">17. 12. 97</date>
+                           <time>11–12V</time>
+                        </stamp>
+                        <stamp n="2">
+                           <placeName ref="#51">Wien 1/1</placeName>
+                           <date when="1897-12-17">17/12 97</date>
+                           <time>1–2½N</time>
+                           <action>Bestellt</action>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="ASBH">
+                  <monogr>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <author ref="#10863">Beer-Hofmann, Richard</author>
+                     <title level="m">Briefwechsel 1891–1931</title>
+                     <editor>Hg. Konstanze Fliedl</editor>
+                     <imprint>
+                        <pubPlace>Wien, Zürich</pubPlace>
+                        <publisher>Europaverlag</publisher>
+                        <date when="1992">1992</date>
+                     </imprint>
+                     <biblScope unit="pp">114</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#2121">Schnitzler, Arthur</persName>
+               <placeName ref="#50">Wien</placeName>
+               <date when="1897-12-17" n="01">17. 12. 1897</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#50">Wien</placeName>
+               <date when="1897-12-17">17. 12. 1897</date>
+            </correspAction>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#10863">Beer-Hofmann, Richard</ref>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1897-12-11_01">Schnitzler an Beer-Hofmann, 11. 12. 1897</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1897-12-25_01">Beer-Hofmann an Schnitzler, [25. 12. 1897]</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <encodingDesc>          
+         <refsDecl>             
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab></refsDecl></encodingDesc><revisionDesc status="approved"><change who="MAM" when="2019-06-12">Automatisch angelegt aus Buchausgabe</change><change who="MAM" when="2019-10-01">Index check</change><change who="GHS" when="2019-11-08">finalisiert</change><change who="MAM" when="2020-01-22">Durchsicht</change></revisionDesc></teiHeader><facsimile><graphic url="1897_AS_RBH_4_00014.jpeg"/><graphic url="1897_AS_RBH_4_00015.jpeg"/><graphic url="1897_AS_RBH_4_00016.jpeg"/><graphic url="1897_AS_RBH_4_00017.jpeg"/></facsimile><text type="letter"><body><div type="address"><address><addrLine><pb facs="1897_AS_RBH_4_00014.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
- Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb338" type="place"><hi rend="latintype">I. Wollzeile 15</hi></rs>.</addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1897_AS_RBH_4_00014.jpeg"/><salute>Lieber Richard, </salute>bitte ſenden Sie mir gelegentlich »<rs ref="#pmb29833" type="work">Die Todten ſchweigen</rs>«.</p><closer>Herzlichſt Ihr <signed>Arthur –</signed></closer><postscript><p>(wiſſen Sie, der in der <rs ref="#pmb397" type="place">Frank<pb facs="1897_AS_RBH_4_00015.jpeg"/>gaſſe</rs> wohnt – gelegentlich auch
- bei Notaren <anchor type="commentary" xml:id="KLMAM20191011-5"/>Zeugenſchaft<note type="commentary" xml:id="KLMAM20191011-5h"><rs type="person" ref="#pmb2121">Schnitzler</rs> war Zeuge
- nach der Geburt der Tochter <rs type="person" ref="#pmb2668">Mirjam</rs> (<date>4. 9. 1897</date>) gewesen und wurde am
- <date>14. 5. 1898</date> Trauzeuge bei der Hochzeit von <rs ref="#pmb10863" type="person">Beer-Hofmann</rs> und <rs ref="#pmb10860" type="person">Paula Lissy </rs>.</note> ablegt – der bekannte Arzt des
- <rs type="person" ref="#pmb10765" subtype="implied">Verfaſſer</rs>s des <rs type="work" ref="#pmb30435" subtype="implied">Gartens der Erkenntnis</rs> – na,
- Sie werden ſich ſchon erinnern.)</p></postscript></div></body></text>
+        </ab>          
+         </refsDecl>       
+      </encodingDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2019-06-12">Automatisch angelegt aus Buchausgabe</change>
+         <change who="MAM" when="2019-10-01">Index check</change>
+         <change who="GHS" when="2019-11-08">finalisiert</change>
+         <change who="MAM" when="2020-01-22">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="1897_AS_RBH_4_00014.jpeg"/>
+      <graphic url="1897_AS_RBH_4_00015.jpeg"/>
+      <graphic url="1897_AS_RBH_4_00016.jpeg"/>
+      <graphic url="1897_AS_RBH_4_00017.jpeg"/>
+   </facsimile>
+   <text type="letter">
+      <body><div type="address"><address><addrLine><pb facs="1897_AS_RBH_4_00014.jpeg"/>Herrn <hi rend="latintype">Dr. Richard Beer-Hofmann</hi></addrLine><addrLine><rs ref="#50" type="place">Wien</rs></addrLine><addrLine><rs ref="#338" type="place"><hi rend="latintype">I. Wollzeile 15</hi></rs>.</addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1897_AS_RBH_4_00014.jpeg"/><salute>Lieber Richard, </salute>bitte ſenden Sie mir gelegentlich »<rs ref="#29833" type="work">Die Todten ſchweigen</rs>«.</p><closer>Herzlichſt Ihr <signed>Arthur –</signed></closer><postscript><p>(wiſſen Sie, der in der <rs ref="#397" type="place">Frank<pb facs="1897_AS_RBH_4_00015.jpeg"/>gaſſe</rs> wohnt – gelegentlich auch bei Notaren <anchor type="commentary" xml:id="KLMAM20191011-5"/>Zeugenſchaft<note type="commentary" xml:id="KLMAM20191011-5h"><rs type="person" ref="#2121">Schnitzler</rs> war Zeuge nach der Geburt der Tochter <rs type="person" ref="#2668">Mirjam</rs> (<date>4. 9. 1897</date>) gewesen und wurde am <date>14. 5. 1898</date> Trauzeuge bei der Hochzeit von <rs ref="#10863" type="person">Beer-Hofmann</rs> und <rs ref="#10860" type="person">Paula Lissy </rs>.</note> ablegt – der bekannte Arzt des <rs type="person" ref="#10765" subtype="implied">Verfaſſer</rs>s des <rs type="work" ref="#30435" subtype="implied">Gartens der Erkenntnis</rs> – na, Sie werden ſich ſchon erinnern.)</p></postscript></div></body>
+   </text>
 </TEI>

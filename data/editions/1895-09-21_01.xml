@@ -1,29 +1,140 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-09-21_01_AS_Beer-Hofmann"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title><title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 21. 9. 1895</title><author ref="#pmb2121">Schnitzler, Arthur</author><editor><name>Müller, Martin Anton</name><name>Susen, Gerd-Hermann</name></editor><funder><name>FWF - Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>ASBW</edition><respStmt><resp>Transkription und Kommentierung</resp><name>Müller, Martin Anton</name><name>Susen, Gerd-Hermann</name></respStmt></editionStmt><publicationStmt><publisher>Austrian Academy of Sciences, Vienna</publisher><idno type="ASBW" n="2422"/><availability status="free"><p>Copyright © 2019</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>U.S.A.</country><settlement>Yale</settlement><repository>Beinecke Rare Book and Manuscript Library</repository><idno>Yale Collection of German Literature, MSS 31</idno></msIdentifier><physDesc><p>eh. Brief mit Umschlag, 2 Bl., 78 S., Bleistift. Umschlag mit schwarzer
-                           Tinte.<lb/>Nachgesandt nach <hi rend="latintype"><rs ref="#pmb374" type="place">Gardone</rs> p. r.</hi></p><stamp n="1"><placeName ref="#pmb50">Wien</placeName><!-- bei den Stempeln ist kaum etwas zu lesen --><date>21. 9. 95</date></stamp><stamp n="2"><date>22. 9. 95</date></stamp><stamp n="3"><placeName ref="#pmb374">Gardone Riviera</placeName><date>24 9. 95</date></stamp></physDesc></msDesc></witness></listWit><listBibl><biblStruct corresp="ASBH"><monogr><author ref="#pmb2121">Schnitzler, Arthur</author><author ref="#pmb10863">Beer-Hofmann, Richard</author><title level="m">Briefwechsel 1891–1931</title><editor>Hg. Konstanze Fliedl</editor><imprint><pubPlace>Wien, Zürich</pubPlace><publisher>Europaverlag</publisher><date when="1992">1992</date></imprint><biblScope unit="pp">80</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName><date when="1895-09-21" n="01">21. 9. 1895</date></correspAction><correspAction type="received"><persName ref="#pmb10863">Beer-Hofmann, Richard</persName><placeName ref="#pmb374">Gardone</placeName><date when="1895-09-24">24. 9. 1895</date></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb10863"/><ref subtype="previous_letter" type="withinCorrespondence" target="1895-09-19_01">Schnitzler an Beer-Hofmann, 19. 9. 1895</ref><ref subtype="next_letter" type="withinCorrespondence" target="1895-09-23_01">Schnitzler an Beer-Hofmann, 23. 9. 1895</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-09-21_01_AS_Beer-Hofmann">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 21. 9. 1895</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </editor>
+            <funder>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASBW</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
+            <idno type="ASBW" n="2422"/>
+            <availability status="free">
+               <p>Copyright © 2019</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>U.S.A.</country>
+                        <settlement>Yale</settlement>
+                        <repository>Beinecke Rare Book and Manuscript Library</repository>
+                        <idno>Yale Collection of German Literature, MSS 31</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief mit Umschlag, 2 Bl., 78 S., Bleistift. Umschlag mit schwarzer
+                           Tinte.<lb/>Nachgesandt nach <hi rend="latintype">
+                              <rs ref="#374" type="place">Gardone</rs> p. r.</hi>
+                        </p>
+                        <stamp n="1">
+                           <placeName ref="#50">Wien</placeName>
+                           <!-- bei den Stempeln ist kaum etwas zu lesen -->
+                           <date>21. 9. 95</date>
+                        </stamp>
+                        <stamp n="2">
+                           <date>22. 9. 95</date>
+                        </stamp>
+                        <stamp n="3">
+                           <placeName ref="#374">Gardone Riviera</placeName>
+                           <date>24 9. 95</date>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="ASBH">
+                  <monogr>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <author ref="#10863">Beer-Hofmann, Richard</author>
+                     <title level="m">Briefwechsel 1891–1931</title>
+                     <editor>Hg. Konstanze Fliedl</editor>
+                     <imprint>
+                        <pubPlace>Wien, Zürich</pubPlace>
+                        <publisher>Europaverlag</publisher>
+                        <date when="1992">1992</date>
+                     </imprint>
+                     <biblScope unit="pp">80</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#2121">Schnitzler, Arthur</persName>
+               <placeName ref="#50">Wien</placeName>
+               <date when="1895-09-21" n="01">21. 9. 1895</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#374">Gardone</placeName>
+               <date when="1895-09-24">24. 9. 1895</date>
+            </correspAction>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#10863">Beer-Hofmann, Richard</ref>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1895-09-19_01">Schnitzler an Beer-Hofmann, 19. 9. 1895</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1895-09-23_01">Schnitzler an Beer-Hofmann, 23. 9. 1895</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <encodingDesc>          
+         <refsDecl>             
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab></refsDecl></encodingDesc><revisionDesc status="approved"><change who="MAM" when="2019-06-12">Automatisch angelegt aus Buchausgabe</change><change who="MAM" when="2019-10-17">Index check</change><change who="GHS" when="2019-10-22">finalisiert</change></revisionDesc></teiHeader><facsimile><graphic url="1895_AS_RBH_3_00043.jpeg"/><graphic url="1895_AS_RBH_3_00044.jpeg"/><graphic url="1895_AS_RBH_3_00045.jpeg"/><graphic url="1895_AS_RBH_3_00046.jpeg"/><graphic url="1895_AS_RBH_3_00047.jpeg"/><graphic url="1895_AS_RBH_3_00048.jpeg"/><graphic url="1895_AS_RBH_3_00049.jpeg"/><graphic url="1895_AS_RBH_3_00050.jpeg"/></facsimile><text type="letter"><body><div type="address"><address><addrLine><pb facs="1895_AS_RBH_3_00043.jpeg"/>Herrn <hi rend="latintype">Dr. Richard
- Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb465" type="place">Riva am Gardasee</rs></addrLine><addrLine><hi rend="latintype">post restante</hi></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1895_AS_RBH_3_00045.jpeg"/><date when="1895-09-21">21. 9. 95</date></dateline></opener><p><salute>Lieber Richard, </salute>meine Karte haben Sie wohl. In <rs ref="#pmb465" type="place"><hi rend="latintype">Riva</hi></rs> iſt es <hi rend="underline" n="1">mir</hi> nemlich vor 3 Jahren paſſirt, daſs der Poſtbeamte
- mir die Briefe an mich nicht gab – ich verlangte damals die Einläufe durchzuſehen, da
- entdeckte ich meine Briefe. Und ich hatte nicht gepfiffen! –</p><p><pb facs="1895_AS_RBH_3_00046.jpeg"/>Die Leſeprobe fiel gut aus. Frl. <rs ref="#pmb12618" type="person">S.</rs> ignorirte mich, aber that ſehr ergriffen von dem <rs type="work" ref="#pmb29917" subtype="implied">Stück</rs>, Nachmittag telephonirte sie <hi rend="latintype">en bon camerade</hi>. <rs ref="#pmb12809" type="person">So<c rendition="#gemination-n"/>enthal</rs> hat »gute Hoffnung«. Beim <rs type="work" ref="#pmb29917" subtype="implied">1. Akt</rs> wurde viel gelacht. Vom <rs type="work" ref="#pmb29917" subtype="implied">3.</rs> verſpricht man ſich ſichre Wirkung. Dem <rs type="work" ref="#pmb29917" subtype="implied">2.</rs> ſcheint man am wenigſten zu vertrauen. <pb facs="1895_AS_RBH_3_00046.jpeg"/><rs ref="#pmb12265" type="person"><hi rend="latintype">Mitterwurzer</hi></rs> war nicht anweſend; er ſpielt aber ſicher, ließ
- ſich officiell entſchuldigen. Die <rs ref="#pmb11860" type="person"><hi rend="latintype">Kallina</hi></rs> wird überraſchen. Dazu will <rs ref="#pmb11036" type="person"><hi rend="latintype">Burckhard</hi></rs> einen Einakter von <rs ref="#pmb11431" type="person"><hi rend="latintype">Giacosa</hi></rs>, <rs ref="#pmb31711" type="work">Rechte der Seele</rs> geben; während der Leſeprobe half er
- den <rs ref="#pmb2702" type="person"><hi rend="latintype">Laube</hi></rs> in <rs ref="#pmb1004" type="place">Sprottau</rs> ent<pb facs="1895_AS_RBH_3_00047.jpeg"/>hüllen.
- Ich wünſchte ihm angenehme Enthüllung. Er ſagte, die Enthüllung des Fräulein
- <rs ref="#pmb4501" type="person"><hi rend="latintype">Dandler</hi></rs> zöge er
- vor. –</p><p><rs ref="#pmb2450" type="person"><hi rend="latintype">Fels</hi></rs> ſchreibt mir heute.
- Sie können ſich denken. Er appellirt an uns zusa<c rendition="#gemination-m"/>men,
- die Summe iſt 25 fl. Ich hab ihm gleich 10 fl. <pb facs="1895_AS_RBH_3_00048.jpeg"/>geſchickt. Darf ich ihm auch für Sie was ſchicken? Auch an <rs ref="#pmb11740" type="person">Hugo</rs> wandt ich mich bereits. –</p><p>Geſtern war ich beim »<rs ref="#pmb41136" type="work">Pelikan</rs>«. Dieſes Blaßwerden
- guter Stücke iſt ſeltſam. – <anchor type="commentary" xml:id="KLMAM20190923-8"/>Heute<note type="commentary" xml:id="KLMAM20190923-8h">Gegeben wurde zum ersten
- Mal <rs ref="#pmb41143" type="work">Die Doppelhochzeit</rs> von <rs ref="#pmb2337" type="person">Victor Léon</rs> und <rs ref="#pmb26602" type="person">Heinrich von
- Waldberg</rs>, Musik von <rs ref="#pmb18093" type="person">Josef
- Hellmesberger</rs>.</note> geh ich zur Eröffnung der <rs ref="#pmb40" type="place"><hi rend="latintype">Josefstadt</hi></rs>. – Gearbeitet hab ich
- noch i<c rendition="#gemination-m"/>er gar nichts; heute <pb facs="1895_AS_RBH_3_00049.jpeg"/>Nacht will ich anfangen. Glauben Sie? –</p><p>Das Datum der <rs ref="#pmb29917" type="work">L.</rs> iſt noch nicht
- feſtgeſtellt. –</p><p>Den <rs ref="#pmb11740" type="person">Hugo</rs> hab ich geſtern begegnet, vorgeſtern iſt
- er zurückgeko<c rendition="#gemination-m"/>en. Er ſieht gut aus, »wettergebräunt«.
- Nach und nach wird man zu allen Worten Anführungszeichen <pb facs="1895_AS_RBH_3_00049.jpeg"/>machen müſſen – das wird dann das Ende der
- Literatur sein.</p><p>Wie geht’s Ihnen? Nächſtens ſchreiben Sie mir einen Brief ſtatt einer Depeſche; da
- werde ich weniger erſchrecken und mich beſſer unterhalten. Ich wünſche Ihnen weiter
- gute Laune, <pb facs="1895_AS_RBH_3_00050.jpeg"/>gutes Wetter, gute Sti<c rendition="#gemination-m"/>ung und lebhafte Empfindung Ihrer Freiheit und Ihres
- Lebens.</p><closer>Herzliche Grüße Ihr<lb/><signed>Arthur</signed></closer></div></body></text>
+        </ab>          
+         </refsDecl>       
+      </encodingDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2019-06-12">Automatisch angelegt aus Buchausgabe</change>
+         <change who="MAM" when="2019-10-17">Index check</change>
+         <change who="GHS" when="2019-10-22">finalisiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="1895_AS_RBH_3_00043.jpeg"/>
+      <graphic url="1895_AS_RBH_3_00044.jpeg"/>
+      <graphic url="1895_AS_RBH_3_00045.jpeg"/>
+      <graphic url="1895_AS_RBH_3_00046.jpeg"/>
+      <graphic url="1895_AS_RBH_3_00047.jpeg"/>
+      <graphic url="1895_AS_RBH_3_00048.jpeg"/>
+      <graphic url="1895_AS_RBH_3_00049.jpeg"/>
+      <graphic url="1895_AS_RBH_3_00050.jpeg"/>
+   </facsimile>
+   <text type="letter">
+      <body><div type="address"><address><addrLine><pb facs="1895_AS_RBH_3_00043.jpeg"/>Herrn <hi rend="latintype">Dr. Richard Beer-Hofmann</hi></addrLine><addrLine><rs ref="#465" type="place">Riva am Gardasee</rs></addrLine><addrLine><hi rend="latintype">post restante</hi></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1895_AS_RBH_3_00045.jpeg"/><date when="1895-09-21">21. 9. 95</date></dateline></opener><p><salute>Lieber Richard, </salute>meine Karte haben Sie wohl. In <rs ref="#465" type="place"><hi rend="latintype">Riva</hi></rs> iſt es <hi rend="underline" n="1">mir</hi> nemlich vor 3 Jahren paſſirt, daſs der Poſtbeamte mir die Briefe an mich nicht gab – ich verlangte damals die Einläufe durchzuſehen, da entdeckte ich meine Briefe. Und ich hatte nicht gepfiffen! –</p><p><pb facs="1895_AS_RBH_3_00046.jpeg"/>Die Leſeprobe fiel gut aus. Frl. <rs ref="#12618" type="person">S.</rs> ignorirte mich, aber that ſehr ergriffen von dem <rs type="work" ref="#29917" subtype="implied">Stück</rs>, Nachmittag telephonirte sie <hi rend="latintype">en bon camerade</hi>. <rs ref="#12809" type="person">So<c rendition="#gemination-n"/>enthal</rs> hat »gute Hoffnung«. Beim <rs type="work" ref="#29917" subtype="implied">1. Akt</rs> wurde viel gelacht. Vom <rs type="work" ref="#29917" subtype="implied">3.</rs> verſpricht man ſich ſichre Wirkung. Dem <rs type="work" ref="#29917" subtype="implied">2.</rs> ſcheint man am wenigſten zu vertrauen. <pb facs="1895_AS_RBH_3_00046.jpeg"/><rs ref="#12265" type="person"><hi rend="latintype">Mitterwurzer</hi></rs> war nicht anweſend; er ſpielt aber ſicher, ließ ſich officiell entſchuldigen. Die <rs ref="#11860" type="person"><hi rend="latintype">Kallina</hi></rs> wird überraſchen. Dazu will <rs ref="#11036" type="person"><hi rend="latintype">Burckhard</hi></rs> einen Einakter von <rs ref="#11431" type="person"><hi rend="latintype">Giacosa</hi></rs>, <rs ref="#31711" type="work">Rechte der Seele</rs> geben; während der Leſeprobe half er den <rs ref="#2702" type="person"><hi rend="latintype">Laube</hi></rs> in <rs ref="#1004" type="place">Sprottau</rs> ent<pb facs="1895_AS_RBH_3_00047.jpeg"/>hüllen. Ich wünſchte ihm angenehme Enthüllung. Er ſagte, die Enthüllung des Fräulein <rs ref="#4501" type="person"><hi rend="latintype">Dandler</hi></rs> zöge er vor. –</p><p><rs ref="#2450" type="person"><hi rend="latintype">Fels</hi></rs> ſchreibt mir heute. Sie können ſich denken. Er appellirt an uns zusa<c rendition="#gemination-m"/>men, die Summe iſt 25 fl. Ich hab ihm gleich 10 fl. <pb facs="1895_AS_RBH_3_00048.jpeg"/>geſchickt. Darf ich ihm auch für Sie was ſchicken? Auch an <rs ref="#11740" type="person">Hugo</rs> wandt ich mich bereits. –</p><p>Geſtern war ich beim »<rs ref="#41136" type="work">Pelikan</rs>«. Dieſes Blaßwerden guter Stücke iſt ſeltſam. – <anchor type="commentary" xml:id="KLMAM20190923-8"/>Heute<note type="commentary" xml:id="KLMAM20190923-8h">Gegeben wurde zum ersten Mal <rs ref="#41143" type="work">Die Doppelhochzeit</rs> von <rs ref="#2337" type="person">Victor Léon</rs> und <rs ref="#26602" type="person">Heinrich von Waldberg</rs>, Musik von <rs ref="#18093" type="person">Josef Hellmesberger</rs>.</note> geh ich zur Eröffnung der <rs ref="#40" type="place"><hi rend="latintype">Josefstadt</hi></rs>. – Gearbeitet hab ich noch i<c rendition="#gemination-m"/>er gar nichts; heute <pb facs="1895_AS_RBH_3_00049.jpeg"/>Nacht will ich anfangen. Glauben Sie? –</p><p>Das Datum der <rs ref="#29917" type="work">L.</rs> iſt noch nicht feſtgeſtellt. –</p><p>Den <rs ref="#11740" type="person">Hugo</rs> hab ich geſtern begegnet, vorgeſtern iſt er zurückgeko<c rendition="#gemination-m"/>en. Er ſieht gut aus, »wettergebräunt«. Nach und nach wird man zu allen Worten Anführungszeichen <pb facs="1895_AS_RBH_3_00049.jpeg"/>machen müſſen – das wird dann das Ende der Literatur sein.</p><p>Wie geht’s Ihnen? Nächſtens ſchreiben Sie mir einen Brief ſtatt einer Depeſche; da werde ich weniger erſchrecken und mich beſſer unterhalten. Ich wünſche Ihnen weiter gute Laune, <pb facs="1895_AS_RBH_3_00050.jpeg"/>gutes Wetter, gute Sti<c rendition="#gemination-m"/>ung und lebhafte Empfindung Ihrer Freiheit und Ihres Lebens.</p><closer>Herzliche Grüße Ihr<lb/><signed>Arthur</signed></closer></div></body>
+   </text>
 </TEI>

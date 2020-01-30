@@ -1,7 +1,123 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1926-05-23_01_Mann-Mann_AS"><teiHeader><fileDesc><titleStmt><title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title><title level="a">Thomas und Katia Mann an Arthur Schnitzler, 23. 5. 1926</title><author ref="#pmb12176">Mann, Thomas</author><editor><name>Müller, Martin Anton</name><name>Susen, Gerd-Hermann</name></editor><funder><name>FWF - Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>ASBW</edition><respStmt><resp>Transkription und Kommentierung</resp><name>Müller, Martin Anton</name><name>Susen, Gerd-Hermann</name></respStmt></editionStmt><publicationStmt><publisher>Austrian Academy of Sciences, Vienna</publisher><idno type="ASBW" n="1990"/><availability status="free"><p>Copyright © 2018</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 67</idno></msIdentifier><physDesc><p>eh. Bildpostkarte, 1 Verf., Motiv: »<quote><rs ref="#pmb1214" type="place">Arosa</rs>. <rs ref="#pmb1215" type="place">Bergkirchli</rs> m. <geogName type="mountain">Weisshorn</geogName></quote>«.</p><stamp n="1"><date when="1926-05-24">24<!-- für den Rest brauchen wir einen besseren Scan --></date></stamp></physDesc></msDesc></witness></listWit><listBibl><biblStruct><analytic><title level="a">Arthur Schnitzler – Thomas Mann: Briefe</title><author>Krotkoff, Hertha</author></analytic><monogr><title level="j">Modern Austrian Literature</title><biblScope unit="jg">7</biblScope><biblScope unit="nr">1/2</biblScope><imprint><date when="1974">1974</date></imprint><biblScope unit="pp">24</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb12176">Mann, Thomas</persName><persName ref="#pmb12173">Mann, Katia</persName><!-- K. M. ist nicht Autorin des Briefes, sehr wohl aber Absenderin  --><placeName ref="#pmb1214">Arosa</placeName><date when="1926-05-23" n="01">23. 5. 1926</date></correspAction><correspAction type="received"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb12176 "/><ref type="belongsToCorrespondence" target="#pmb12173"/><ref subtype="previous_letter" type="withinCorrespondence" target="1925-06-07_01">Schnitzler an Mann, 7. 6. 1925</ref><ref subtype="next_letter" type="withinCorrespondence" target="1927-12-25_02">Mann an Schnitzler, 25. 12. 1927</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1926-05-23_01_Mann-Mann_AS">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Thomas und Katia Mann an Arthur Schnitzler, 23. 5. 1926</title>
+                <author ref="#12176">Mann, Thomas</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="1990"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                 <listWit>
+                    <witness n="1">
+                  <msDesc>
+                      <msIdentifier>
+                          <country>GB</country>            
+                          <settlement>Cambridge</settlement>            
+                          <repository>University Library</repository>            
+                          <idno>Schnitzler, B 67</idno>
+                      </msIdentifier>
+                      <physDesc>
+                          <p>eh. Bildpostkarte, 1 Verf., Motiv: »<quote>
+                              <rs ref="#1214" type="place">Arosa</rs>. <rs ref="#1215" type="place">Bergkirchli</rs> m. <geogName type="mountain">Weisshorn</geogName>
+                           </quote>«.</p>
+                          <stamp n="1">
+                              <date when="1926-05-24">24<!-- für den Rest brauchen wir einen besseren Scan --></date>
+                          </stamp>
+                      </physDesc>
+                  </msDesc>
+                    </witness>
+                </listWit> 
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Arthur Schnitzler – Thomas Mann: Briefe</title>
+                            <author>Krotkoff, Hertha</author>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Modern Austrian Literature</title>
+                            <biblScope unit="jg">7</biblScope>
+                            <biblScope unit="nr">1/2</biblScope>
+                            <imprint>
+                                <date when="1974">1974</date>
+                            </imprint>
+                            <biblScope unit="pp">24</biblScope>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+            <correspDesc>
+            <correspAction type="sent">
+                    <persName ref="#12176">Mann, Thomas</persName>
+                    <persName ref="#12173">Mann, Katia</persName>
+               <!-- K. M. ist nicht Autorin des Briefes, sehr wohl aber Absenderin  -->
+                    <placeName ref="#1214">Arosa</placeName>
+                    <date when="1926-05-23" n="01">23. 5. 1926</date>
+                </correspAction>
+            <correspAction type="received">
+                    <persName ref="#2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#50">Wien</placeName>
+                </correspAction>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#12176">Mann, Thomas</ref>
+               <ref type="belongsToCorrespondence" target="#12173">Mann, Katia</ref>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1925-06-07_01">Schnitzler an Mann, 7. 6. 1925</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1927-12-25_02">Mann an Schnitzler, 25. 12. 1927</ref>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+      <encodingDesc>          
+         <refsDecl>             
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab></refsDecl></encodingDesc><revisionDesc status="proposed"><change who="GHS" when="2018-11-12">Angelegt</change><change who="MAM" when="2018-11-13">Durchsicht</change><change who="MAM" when="2018-12-12">Index check</change></revisionDesc></teiHeader><text type="card"><body><div type="address"><address><addrLine><hi rend="latintype">Herr</hi></addrLine><addrLine><hi rend="latintype">Dr. Arthur Schnitzler</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb50" type="place">Wien</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb150" type="place">Sternwartstr.</rs></hi></addrLine></address></div><div type="writingSession" n="1"><opener><dateline><pb facs="gray00227.pdf"/><rs ref="#pmb1214" type="place">Arosa</rs> den <date>23. V. 26</date></dateline><salute>Lieber und verehrter Dr. Schnitzler,</salute></opener><p>hingeriſſen haben wir die <rs ref="#pmb30851" type="work">Traumnovelle</rs> hier geleſen, beide in einem Zuge, atemlos, und begrüſſen Sie
- voller Bewunderung.</p><closer><signed>Thomas und Katja Mann.</signed></closer></div></body></text>
+        </ab>          
+         </refsDecl>       
+      </encodingDesc>
+        <revisionDesc status="proposed">
+            <change who="GHS" when="2018-11-12">Angelegt</change>
+            <change who="MAM" when="2018-11-13">Durchsicht</change>
+            <change who="MAM" when="2018-12-12">Index check</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="card">
+        <body><div type="address"><address><addrLine><hi rend="latintype">Herr</hi></addrLine><addrLine><hi rend="latintype">Dr. Arthur Schnitzler</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#50" type="place">Wien</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#150" type="place">Sternwartstr.</rs></hi></addrLine></address></div><div type="writingSession" n="1"><opener><dateline><pb facs="gray00227.pdf"/><rs ref="#1214" type="place">Arosa</rs> den <date>23. V. 26</date></dateline><salute>Lieber und verehrter Dr. Schnitzler,</salute></opener><p>hingeriſſen haben wir die <rs ref="#30851" type="work">Traumnovelle</rs> hier geleſen, beide in einem Zuge, atemlos, und begrüſſen Sie voller Bewunderung.</p><closer><signed>Thomas und Katja Mann.</signed></closer></div></body>
+    </text>
 </TEI>

@@ -1,22 +1,119 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-06-29_01_AS_Hofmannsthal"><teiHeader><fileDesc><titleStmt><title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title><title level="a">Arthur Schnitzler an Hugo von Hofmannsthal,
-                    29. 6. 1896</title><author ref="#pmb2121">Schnitzler, Arthur</author><editor><name>Müller, Martin Anton</name><name>Susen, Gerd-Hermann</name></editor><funder><name>FWF - Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>ASBW</edition><respStmt><resp>Transkription und Kommentierung</resp><name>Müller, Martin Anton</name><name>Susen, Gerd-Hermann</name></respStmt></editionStmt><publicationStmt><publisher>Austrian Academy of Sciences, Vienna</publisher><idno type="ASBW" n="2833"/><availability status="free"><p>Copyright © 2018</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>D</country><settlement>Frankfurt am Main</settlement><repository>Freies Deutsches Hochstift</repository><idno>Hs-30885,50</idno></msIdentifier><physDesc><p>eh. Brief, 1 Bl., 4 S., schwarze Tinte.</p></physDesc></msDesc></witness></listWit><listBibl><biblStruct corresp="HvHAS"><monogr><author ref="#pmb11740">Hofmannsthal, Hugo</author><author ref="#pmb2121">Schnitzler, Arthur</author><title level="m">Briefwechsel</title><editor>Hg. Therese Nickl und Heinrich Schnitzler</editor><imprint><pubPlace>Frankfurt am Main</pubPlace><publisher>S. Fischer</publisher><date when="1964">1964</date></imprint><biblScope unit="pp">68–69</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName><date when="1896-06-29" n="01">29. 6. 1896</date></correspAction><correspAction type="received"><persName ref="#pmb11740">Hofmannsthal, Hugo von</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb11740"/><ref subtype="previous_letter" type="withinCorrespondence" target="1896-06-27_02">Hofmannsthal an Schnitzler, 27. 6. [1896]</ref><ref subtype="next_letter" type="withinCorrespondence" target="1896-07-16_01">Hofmannsthal an Schnitzler, 16. 7. [1896]</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-06-29_01_AS_Hofmannsthal">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal,
+                    29. 6. 1896</title>
+                <author ref="#2121">Schnitzler, Arthur</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW" n="2833"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>D</country>
+                                <settlement>Frankfurt am Main</settlement>
+                                <repository>Freies Deutsches Hochstift</repository>
+                                <idno>Hs-30885,50</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Brief, 1 Bl., 4 S., schwarze Tinte.</p>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <biblStruct corresp="HvHAS">
+                        <monogr>
+                            <author ref="#11740">Hofmannsthal, Hugo</author>
+                            <author ref="#2121">Schnitzler, Arthur</author>
+                            <title level="m">Briefwechsel</title>
+                            <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                            <imprint>
+                                <pubPlace>Frankfurt am Main</pubPlace>
+                                <publisher>S. Fischer</publisher>
+                                <date when="1964">1964</date>
+                            </imprint>
+                            <biblScope unit="pp">68–69</biblScope>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+            <correspAction type="sent">
+                    <persName ref="#2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#50">Wien</placeName>
+                    <date when="1896-06-29" n="01">29. 6. 1896</date>
+                </correspAction>
+            <correspAction type="received">
+                    <persName ref="#11740">Hofmannsthal, Hugo von</persName>
+                    <placeName ref="#50">Wien</placeName>
+                </correspAction>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#11740">Hofmannsthal, Hugo von</ref>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1896-06-27_02">Hofmannsthal an Schnitzler, 27. 6. [1896]</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1896-07-16_01">Hofmannsthal an Schnitzler, 16. 7. [1896]</ref>
+            </correspContext>
+         </correspDesc>
+        </profileDesc>
+      <encodingDesc>          
+         <refsDecl>             
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab></refsDecl></encodingDesc><revisionDesc status="approved"><change who="MAM" when="2019-07-10">Angelegt aus Buchausgabe</change><change who="MAM" when="2019-12-27">Index check</change><change who="GHS" when="2020-01-09">finalisiert</change></revisionDesc></teiHeader><facsimile><graphic url="Hs-30885,50_001"/><graphic url="Hs-30885,50_002"/></facsimile><text type="letter"><body><div type="writingSession"><opener><dateline rend="right"><pb facs="Hs-30885,50_001"/><rs ref="#pmb50" type="place">Wien</rs>, <date>29. Juni 96</date></dateline></opener><p><salute>Mein lieber Hugo, </salute>ich lege Ihnen einen Zettel bei, da ſteht
- drauf, wo ich für Briefe zu erreichen bin, u. bis wann. In <rs ref="#pmb50" type="place">Wien</rs> bin ich noch bis zum <date>Freitag</date>
- (ſpäteſtens) <date>3. Juli</date>). –</p><p>Ich wollte eben niederſchreiben, daſs ich mich »freue« u. habe gezögert, weil die
- Freude nicht ganz rein iſt. Es iſt, durch heftigeres Erklin<pb facs="Hs-30885,50_002"/>gen früherer Lebensbeziehungen, in der letzten Zeit
- wieder manche Unruhe in mich gekommen, die in manchen Stunden, beſonders
- Abendſtunden allein auf dem Land, ſchmerzlich bewegt. Nun weiſs ich nicht, ob
- ſich das da oben gänzlich beruhigen wird oder ob nicht vielleicht noch dunklere
- Traurigkeit ko<c rendition="#gemination-m"/>en mag. Ich leide gewiſs an <pb facs="Hs-30885,50_002"/>einer gewiſſen (ſentimentalen!) Ueberempfindlichkeit
- für gewiſſe Begriffe, wie Ferne, Einſamkeit, und Vergangen. Das hängt wohl mit
- meiner mangelnden Fähigkeit <add place="above">abzuſchließen</add> zusa<c rendition="#gemination-m"/>en. Abzuſchließen, in jedem Sinn. Fehler meines
- Lebens und meiner Kunſt ſind daraus zu erklären.</p><p>– Das <rs type="work" ref="#pmb29899" subtype="implied">Stück</rs> reiſt
- natürlich mit; <pb facs="Hs-30885,50_001"/>iſt Ihnen noch was dazu
- eingefallen?</p><p>– Iſt das <rs type="work" subtype="implied" ref="#pmb34220">eine</rs> Ihrer
- <anchor type="commentary" xml:id="KLMAM20191227-2"/>Soldatengeſchichten<note type="commentary" xml:id="KLMAM20191227-2h">Mehrere Texte aus der Zeit
- spielen im Milieu des Militärs.</note>, die Sie ſchreiben? –</p><p>Sie hören ſehr bald von mir und laſſen mich wohl auch nicht lang ohne Nachricht.
- Empfehlen Sie mich Ihren <rs ref="#pmb11737 #pmb18404" type="person" subtype="implied">Eltern</rs>. Seien Sie herzlich gegrüßt.</p><closer>Ihr <signed>Arthur</signed></closer></div></body></text>
+        </ab>          
+         </refsDecl>       
+      </encodingDesc>
+        <revisionDesc status="approved">
+            <change who="MAM" when="2019-07-10">Angelegt aus Buchausgabe</change>
+            <change who="MAM" when="2019-12-27">Index check</change>
+            <change who="GHS" when="2020-01-09">finalisiert</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="Hs-30885,50_001"/>
+        <graphic url="Hs-30885,50_002"/>
+    </facsimile>
+    <text type="letter">
+        <body><div type="writingSession"><opener><dateline rend="right"><pb facs="Hs-30885,50_001"/><rs ref="#50" type="place">Wien</rs>, <date>29. Juni 96</date></dateline></opener><p><salute>Mein lieber Hugo, </salute>ich lege Ihnen einen Zettel bei, da ſteht drauf, wo ich für Briefe zu erreichen bin, u. bis wann. In <rs ref="#50" type="place">Wien</rs> bin ich noch bis zum <date>Freitag</date> (ſpäteſtens) <date>3. Juli</date>). –</p><p>Ich wollte eben niederſchreiben, daſs ich mich »freue« u. habe gezögert, weil die Freude nicht ganz rein iſt. Es iſt, durch heftigeres Erklin<pb facs="Hs-30885,50_002"/>gen früherer Lebensbeziehungen, in der letzten Zeit wieder manche Unruhe in mich gekommen, die in manchen Stunden, beſonders Abendſtunden allein auf dem Land, ſchmerzlich bewegt. Nun weiſs ich nicht, ob ſich das da oben gänzlich beruhigen wird oder ob nicht vielleicht noch dunklere Traurigkeit ko<c rendition="#gemination-m"/>en mag. Ich leide gewiſs an <pb facs="Hs-30885,50_002"/>einer gewiſſen (ſentimentalen!) Ueberempfindlichkeit für gewiſſe Begriffe, wie Ferne, Einſamkeit, und Vergangen. Das hängt wohl mit meiner mangelnden Fähigkeit <add place="above">abzuſchließen</add> zusa<c rendition="#gemination-m"/>en. Abzuſchließen, in jedem Sinn. Fehler meines Lebens und meiner Kunſt ſind daraus zu erklären.</p><p>– Das <rs type="work" ref="#29899" subtype="implied">Stück</rs> reiſt natürlich mit; <pb facs="Hs-30885,50_001"/>iſt Ihnen noch was dazu eingefallen?</p><p>– Iſt das <rs type="work" subtype="implied" ref="#34220">eine</rs> Ihrer <anchor type="commentary" xml:id="KLMAM20191227-2"/>Soldatengeſchichten<note type="commentary" xml:id="KLMAM20191227-2h">Mehrere Texte aus der Zeit spielen im Milieu des Militärs.</note>, die Sie ſchreiben? –</p><p>Sie hören ſehr bald von mir und laſſen mich wohl auch nicht lang ohne Nachricht. Empfehlen Sie mich Ihren <rs ref="#11737 #18404" type="person" subtype="implied">Eltern</rs>. Seien Sie herzlich gegrüßt.</p><closer>Ihr <signed>Arthur</signed></closer></div></body>
+    </text>
 </TEI>

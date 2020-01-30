@@ -1,24 +1,120 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1913-04-23_01_Bahr_AS"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title><title level="a">Hermann Bahr an Arthur Schnitzler, 23. 4. 1913</title><author ref="#pmb10815">Bahr, Hermann</author><editor><name>Müller, Martin Anton</name></editor><funder><name>FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name>Kurt Ifkovits</name><name>Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Austrian Academy of Sciences, Vienna</publisher><idno type="HBAS-L" n="1338"/><availability status="free"><p>Copyright © 2018</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 5b</idno></msIdentifier><physDesc><p>eh. Brief, 1 Bl., 2 S., von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p></physDesc></msDesc></witness></listWit><listBibl><biblStruct corresp="HBAS"><monogr><author ref="#pmb10815">Bahr, Hermann</author><author ref="#pmb2121">Schnitzler, Arthur</author><title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title><editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor><imprint><pubPlace>Göttingen</pubPlace><publisher>Wallstein</publisher><date when="2018">2018</date></imprint></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb10815">Bahr, Hermann</persName><placeName ref="#pmb30">Salzburg</placeName><date when="1913-04-23" n="01">23. 4. 1913</date></correspAction><correspAction type="received"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">[Wien]</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb10815"/><ref subtype="previous_letter" type="withinCorrespondence" target="1913-04-22_02">Schnitzler an Bahr, 22. 4. 1913</ref><ref subtype="next_letter" type="withinCorrespondence" target="1913-04-25_01">Schnitzler an Bahr, 2[5]. 4. 1913</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1913-04-23_01_Bahr_AS">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 23. 4. 1913</title>
+            <author ref="#10815">Bahr, Hermann</author>
+            <editor>
+               
+               <name>Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>  
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher> 
+            <idno type="HBAS-L" n="1338"/>
+            <availability status="free">
+               <p>Copyright © 2018</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>            
+                        <settlement>Cambridge</settlement>            
+                        <repository>University Library</repository>            
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 2 S., von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>                
+               <biblStruct corresp="HBAS">                              
+                  <monogr>                             
+                     <author ref="#10815">Bahr, Hermann</author>                                  
+                     <author ref="#2121">Schnitzler, Arthur</author>                             
+                     <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>                             
+                     <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>                                  
+                     <imprint>                                       
+                        <pubPlace>Göttingen</pubPlace>                                       
+                        <publisher>Wallstein</publisher>                                       
+                        <date when="2018">2018</date>                                  
+                     </imprint>                             
+                  </monogr>                     
+               </biblStruct>             
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#10815">Bahr, Hermann</persName>
+               <placeName ref="#30">Salzburg</placeName>
+               <date when="1913-04-23" n="01">23. 4. 1913</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#2121">Schnitzler, Arthur</persName>
+               <placeName ref="#50">[Wien]</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#10815">Bahr, Hermann</ref>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1913-04-22_02">Schnitzler an Bahr, 22. 4. 1913</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1913-04-25_01">Schnitzler an Bahr, 2[5]. 4. 1913</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <encodingDesc>          
+         <refsDecl>             
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab></refsDecl></encodingDesc><revisionDesc status="approved"><change who="KI MAM" when="2015-12-17">Kollationiert</change><change who="KI MAM" when="2017-05-31">Kollationiert</change><change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change><change who="MAM" when="2019-01-20">Index check</change></revisionDesc></teiHeader><facsimile><graphic url="MS-B-00005-B-000-00314"/><graphic url="MS-B-00005-B-000-00315"/></facsimile><text type="letter"><body><div type="writingSession" n="1"><opener><dateline rend="right"><date>23. 4. 13</date></dateline><salute>Lieber Arthur,</salute></opener><p>herzlichen Dank! Ich bin sehr froh, den armen
- <rs ref="#pmb2147" type="person">Peter</rs> bald wieder »draußen« zu wissen.</p><p>Und nun noch was. Ich <anchor type="commentary" xml:id="KL338-1"/>schrieb Dir im Dezember<note type="commentary" xml:id="KL338-1h"><ptr target="L041336"/>.</note>, daß ich keine Lust habe, Geld für ihn
- herzugeben. Ich glaube nemlich bestimmt zu wissen, daß er es nicht braucht und daß ich es
- also besser verwenden kann. Solltest Du aber einmal den Eindruck haben, daß es <hi rend="underline" n="1">notwendig</hi> ist, so bitte schreib mir das, da geb ich
- natürlich gleich, was ich entbehren kann. Aber bitte <pb facs="MS-B-00005-B-000-00315"/>dies ganz unter uns.</p><p>Ich erfuhr jetzt erst, daß Du einem <anchor type="commentary" xml:id="KL338-2"/>»Comité« für meinen 50. Geburtstag<note type="commentary" xml:id="KL338-2h"><ptr target="T030045"/>.</note> usw. Ich danke Dir dafür sehr.</p><p>Zur <anchor type="commentary" xml:id="KL338-3"/>»<rs ref="#pmb29987" type="work">Götterdämmerung</rs>« war ich neulich in <rs ref="#pmb50" type="place">Wien</rs>, komme wol
- zum »<rs ref="#pmb29897" type="work">Tristan</rs>« wieder<note type="commentary" xml:id="KL338-3h"><Lemma>»Götterdämmerung« war {\dots} wieder </Lemma>Die
- <rs ref="#pmb15" type="place">Hofoper</rs> gab <rs ref="#pmb13024" type="person">Wagner</rs>s <rs ref="#pmb29987" type="work">Götterdämmerung</rs> am <date>13. 4.</date>, <rs ref="#pmb29897" type="work">Tristan und Isolde</rs> am <date>5. 5. 1913</date>, beide Male mit <rs ref="#pmb10818" type="person">Anna
- Bahr-Mildenburg</rs>.</note>, aber immer knapp zur Vorstellung
- und nachher in aller Früh wieder weg, denn ich bi<unclear>n</unclear> mitten in einem neuen <anchor type="commentary" xml:id="KL338-5"/><rs type="work" ref="#pmb30083" subtype="implied">Stück</rs><note type="commentary" xml:id="KL338-5h"><rs ref="#pmb30083" type="work">Das Phantom</rs>
- (<bibl>Komödie in drei Akten. Mit Dekorationsskizzen von <rs ref="#pmb3280" type="person">Koloman Moser</rs>. Berlin: <rs ref="#pmb29639" type="org">S. Fischer</rs><space unit="chars" quantity="1"/><date>1913</date></bibl>).</note>. Aber, wohin Du
- sommers auch gehst, Du kommst doch über
- <rs ref="#pmb30" type="place">Salzburg</rs> und wir freuen uns <rs type="person" ref="#pmb10818" subtype="implied">Beide</rs> sehr, sehr, sehr darauf, <rs type="person" ref="#pmb2173" subtype="implied">Euch</rs> dann hier zu haben und einmal ausgiebig mit <rs type="person" ref="#pmb2173" subtype="implied">Euch</rs> zusammen zu sein.</p><closer><anchor type="commentary" xml:id="KL338-4"/>Immer derselbe<note type="commentary" xml:id="KL338-4h">Hier lässt sich eine Verbindung zu einem zentralen
- Motto <rs ref="#pmb10815" type="person">Bahrs</rs> herstellen, das er <date>1911</date> so
- begründete: »<quote>In ein Stammbuch schrieb einer stolz: Immer derselbe! Ich darunter
- keck: Niemals derselbe! Spät erst ging mir auf, das Rechte wäre wohl Beides: Niemals
- derselbe und eben darin doch immer derselbe zu sein!</quote>« (<bibl><rs ref="#pmb32694" type="work">[Stammbuch-Spruch]</rs> In: <title level="m">Musen-Almanach
- 1911.</title> Berlin: <publisher>Verein Berliner Presse</publisher> 1910, S. 39</bibl>) Im Jahr darauf knüpfte er im Text <rs ref="#pmb32542" type="work">Selbstinventur</rs> (<bibl><rs ref="#pmb36156" type="work">Die neue
- Rundschau</rs>, Jg. 23, H. 9, S. 1287–1303</bibl>) längere Überlegungen
- daran an.</note><lb/><signed>Hermann</signed></closer></div></body></text>
+        </ab>          
+         </refsDecl>       
+      </encodingDesc>
+      <revisionDesc status="approved">
+         <change who="KI MAM" when="2015-12-17">Kollationiert</change>
+         <change who="KI MAM" when="2017-05-31">Kollationiert</change>
+         <change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
+         <change who="MAM" when="2019-01-20">Index check</change>
+         
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00314"/>
+      <graphic url="MS-B-00005-B-000-00315"/>
+   </facsimile>
+   <text type="letter">
+      <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>23. 4. 13</date></dateline><salute>Lieber Arthur,</salute></opener><p>herzlichen Dank! Ich bin sehr froh, den armen <rs ref="#2147" type="person">Peter</rs> bald wieder »draußen« zu wissen.</p><p>Und nun noch was. Ich <anchor type="commentary" xml:id="KL338-1"/>schrieb Dir im Dezember<note type="commentary" xml:id="KL338-1h"><ptr target="L041336"/>.</note>, daß ich keine Lust habe, Geld für ihn herzugeben. Ich glaube nemlich bestimmt zu wissen, daß er es nicht braucht und daß ich es also besser verwenden kann. Solltest Du aber einmal den Eindruck haben, daß es <hi rend="underline" n="1">notwendig</hi> ist, so bitte schreib mir das, da geb ich natürlich gleich, was ich entbehren kann. Aber bitte <pb facs="MS-B-00005-B-000-00315"/>dies ganz unter uns.</p><p>Ich erfuhr jetzt erst, daß Du einem <anchor type="commentary" xml:id="KL338-2"/>»Comité« für meinen 50. Geburtstag<note type="commentary" xml:id="KL338-2h"><ptr target="T030045"/>.</note> usw. Ich danke Dir dafür sehr.</p><p>Zur <anchor type="commentary" xml:id="KL338-3"/>»<rs ref="#29987" type="work">Götterdämmerung</rs>« war ich neulich in <rs ref="#50" type="place">Wien</rs>, komme wol zum »<rs ref="#29897" type="work">Tristan</rs>« wieder<note type="commentary" xml:id="KL338-3h"><Lemma>»Götterdämmerung« war {\dots} wieder </Lemma>Die <rs ref="#15" type="place">Hofoper</rs> gab <rs ref="#13024" type="person">Wagner</rs>s <rs ref="#29987" type="work">Götterdämmerung</rs> am <date>13. 4.</date>, <rs ref="#29897" type="work">Tristan und Isolde</rs> am <date>5. 5. 1913</date>, beide Male mit <rs ref="#10818" type="person">Anna Bahr-Mildenburg</rs>.</note>, aber immer knapp zur Vorstellung und nachher in aller Früh wieder weg, denn ich bi<unclear>n</unclear> mitten in einem neuen <anchor type="commentary" xml:id="KL338-5"/><rs type="work" ref="#30083" subtype="implied">Stück</rs><note type="commentary" xml:id="KL338-5h"><rs ref="#30083" type="work">Das Phantom</rs> (<bibl>Komödie in drei Akten. Mit Dekorationsskizzen von <rs ref="#3280" type="person">Koloman Moser</rs>. Berlin: <rs ref="#29639" type="org">S. Fischer</rs><space unit="chars" quantity="1"/><date>1913</date></bibl>).</note>. Aber, wohin Du sommers auch gehst, Du kommst doch über <rs ref="#30" type="place">Salzburg</rs> und wir freuen uns <rs type="person" ref="#10818" subtype="implied">Beide</rs> sehr, sehr, sehr darauf, <rs type="person" ref="#2173" subtype="implied">Euch</rs> dann hier zu haben und einmal ausgiebig mit <rs type="person" ref="#2173" subtype="implied">Euch</rs> zusammen zu sein.</p><closer><anchor type="commentary" xml:id="KL338-4"/>Immer derselbe<note type="commentary" xml:id="KL338-4h">Hier lässt sich eine Verbindung zu einem zentralen Motto <rs ref="#10815" type="person">Bahrs</rs> herstellen, das er <date>1911</date> so begründete: »<quote>In ein Stammbuch schrieb einer stolz: Immer derselbe! Ich darunter keck: Niemals derselbe! Spät erst ging mir auf, das Rechte wäre wohl Beides: Niemals derselbe und eben darin doch immer derselbe zu sein!</quote>« (<bibl><rs ref="#32694" type="work">[Stammbuch-Spruch]</rs> In: <title level="m">Musen-Almanach 1911.</title> Berlin: <publisher>Verein Berliner Presse</publisher> 1910, S. 39</bibl>) Im Jahr darauf knüpfte er im Text <rs ref="#32542" type="work">Selbstinventur</rs> (<bibl><rs ref="#36156" type="work">Die neue Rundschau</rs>, Jg. 23, H. 9, S. 1287–1303</bibl>) längere Überlegungen daran an.</note><lb/><signed>Hermann</signed></closer></div></body>
+  </text>
 </TEI>

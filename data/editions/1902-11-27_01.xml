@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1902-11-27_01_AS_Hauptmann">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Arthur Schnitzler an Gerhart Hauptmann, [27. 11. 1902?]</title>
+                <!-- Datierung aufgrund des einzigen in AS Tgb angesprochenen Besuchs GHs in der Frankgasse; HvH ist auch dabei, wegen Visitenkarte-->
+                <author ref="#2121">Schnitzler, Arthur</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>HBAS</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Kurt Ifkovits</name>
+                    <name>Martin Anton Müller</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="HBAS-L" n="1390"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>D</country>
+                                <settlement>Berlin</settlement>
+                                <repository>Staatsbibliothek Berlin – Preußischer Kulturbesitz</repository>
+                                <idno>GHBrBl A:Schnitzler</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Visitenkarte, Bleistift. Visitenkarte von <rs type="person" ref="#11740">Hugo von Hofmannsthal</rs>.</p>
+                                <!-- von HvH oder von HvH sen.? Es ist eine andere als MS-SCHNITZLER-B-00043-B-00001-000-00167 bei HvH 6.5.91 -->
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#50">Wien</placeName>
+                    <date when="1902-11-27" n="01">[27. 11. 1902?]</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#11617">Hauptmann, Gerhart</persName>
+                    <placeName ref="#50">Wien</placeName>
+                </correspAction>
+                <correspContext/>
+            </correspDesc>
+        </profileDesc>
+        <encodingDesc>
+            <refsDecl>
+                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates
+                    only, e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+                    'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
+            </refsDecl>
+        </encodingDesc>
+        <revisionDesc status="proposed">
+            <change who="GHS" when="2020-01-28">angelegt aus Faksimile</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="00000001.jpg"/>
+        <graphic url="00000001.jpg"/>
+    </facsimile>
+    <text type="card">
+        <body><div type="writingSession" n="1"><p rend="inline"><pb facs="00000001.jpg"/><hi rend="latintype">Dr Schnitzler</hi><lb/><hi rend="latintype">Frankgasse 1</hi><lb/><hi rend="latintype">Mezzanin</hi></p><p>½ 10.</p><p rend="center"><pb facs="00000001.jpg"/><hi rend="pre-print"><del rend="strikethrough"><rs type="person" ref="#11740">Hugo von Hofmannsthal</rs></del></hi></p><p rend="right"><hi rend="pre-print"><del rend="strikethrough"><rs type="place" ref="#76">III., Salesianergasse 12.</rs></del></hi></p></div></body>
+    </text>
+</TEI>
