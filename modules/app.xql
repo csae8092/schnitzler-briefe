@@ -450,7 +450,7 @@ declare function app:toc_correspondences($node as node(), $model as map(*)) {
 (: creates a list of letters belonging to a particular correspondence :)
 declare function app:toc_correspondence($node as node(), $model as map(*)) {
     let $collection := request:get-parameter("collection","")
-    let $correspondence := concat('#',substring-after(request:get-parameter("correspondence",""),'pmb'))
+    let $correspondence := concat('#',request:get-parameter("correspondence",""))
     let $docs := collection(concat($config:app-root, '/data/editions/'))//tei:TEI[tei:teiHeader[1]/tei:profileDesc[1]/tei:correspDesc[1]/tei:correspContext[1]/tei:ref/@target=$correspondence]
     for $doc in $docs
     let $log := util:log('error',serialize($doc))
