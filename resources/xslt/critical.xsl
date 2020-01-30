@@ -47,7 +47,7 @@
                                     <xsl:attribute name="href">
                                         <xsl:value-of select="concat(substring-before($prev,'&amp;directory'),'&amp;stylesheet=', $current-view)"/>
                                     </xsl:attribute>
-                                    <i class="fas fa-chevron-left" title="prev"/>
+                                    <i class="fas fa-chevron-left" title="Voriger"/>
                                 </a>
                             </h1>
                         </xsl:if>
@@ -67,7 +67,7 @@
                                     <xsl:attribute name="href">
                                         <xsl:value-of select="concat(substring-before($next,'&amp;directory'),'&amp;stylesheet=', $current-view)"/>
                                     </xsl:attribute>
-                                    <i class="fas fa-chevron-right" title="next"/>
+                                    <i class="fas fa-chevron-right" title="Nächster"/>
                                 </a>
                             </h1>
                         </xsl:if>
@@ -96,8 +96,8 @@
                         </xsl:choose>
                     </xsl:variable>
                     <nav class="navbar-expand-md navbar-light bg-white box-shadow">
-                    <div>
-                        <ul class="navbar-nav mr-auto">
+                        <div>
+                            <ul class="navbar-nav mr-auto">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <i title="Critical Edition" class="fas fa-glasses"/> ANSICHT (<xsl:value-of select="$current-view-deutsch"/>)
@@ -710,5 +710,12 @@
             <xsl:apply-templates/>
         </xsl:element>
         
+    </xsl:template>
+    
+    <xsl:template match="tei:c[@rendition = '#gemination-m']">
+        <span class="gemination">m̄</span>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#gemination-n']">
+        <span class="gemination">n̄</span>
     </xsl:template>
 </xsl:stylesheet>
