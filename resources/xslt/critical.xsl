@@ -174,7 +174,7 @@
                         </xsl:variable>
                             <li class="nav-item dropdown">
                                     <span class="nav-link">
-                        <div id="csLink" data-correspondent-1-name="" data-correspondent-1-id="all" data-correspondent-2-name="" data-correspondent-2-id="" data-start-date="{$datum}" data-end-date="" data-range="50" data-selection-when="before-after" data-selection-span="median-before-after" data-result-max="4" data-exclude-edition=""> </div>
+                        <div id="csLink" class="a.grau" data-correspondent-1-name="" data-correspondent-1-id="all" data-correspondent-2-name="" data-correspondent-2-id="" data-start-date="{$datum}" data-end-date="" data-range="50" data-selection-when="before-after" data-selection-span="median-before-after" data-result-max="4" data-exclude-edition=""> </div>
                             </span>
                             </li>
                         </ul>
@@ -642,5 +642,73 @@
                     <xsl:apply-templates select="current-group()[position() != last()]" mode="lemma"/>]</dt>
             </xsl:if>
         </xsl:for-each-group>
+    </xsl:template>
+    
+    <xsl:template match="tei:rs[(@ref or @key) and not(descendant::tei:rs) and not(ancestor::tei:rs)]">
+        <xsl:element name="a">
+            <xsl:attribute name="class">reference-black</xsl:attribute>
+            <xsl:attribute name="data-type">
+                <xsl:value-of select="concat('list', data(@type), '.xml')"/>
+            </xsl:attribute>
+            <xsl:if test="count(tokenize(data(@ref),'\s+')) = 1">
+                <xsl:attribute name="data-key">
+                    <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                    <xsl:value-of select="@key"/>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:if test="count(tokenize(data(@ref),'\s+')) gt 1">
+                <xsl:attribute name="data-keys">
+                    <xsl:value-of select="data(@ref)"/>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:apply-templates/>
+        </xsl:element>
+        
+    </xsl:template>
+    
+    <xsl:template match="tei:rs[(@ref or @key) and descendant::tei:rs and not(ancestor::tei:rs)]">
+        <xsl:variable name="unteres-element">
+            <xsl:for-each select="descendant::tei:rs">
+                <xsl:variable name="type" select="@type"/>
+                <xsl:for-each select="tokenize(@ref,' ')">
+                    <xsl:value-of select="$type"/>
+                    <xsl:text>:</xsl:text>
+                    <xsl:value-of select="substring-after(.,'#')"/>
+                    <xsl:if test="not(position()=last())">
+                        <xsl:text> </xsl:text>
+                    </xsl:if>
+                </xsl:for-each>
+            </xsl:for-each>
+        </xsl:variable>
+        <xsl:variable name="current">
+            <xsl:variable name="type" select="@type"/>
+            <xsl:for-each select="tokenize(@ref,' ')">
+                <xsl:value-of select="$type"/>
+                <xsl:text>:</xsl:text>
+                <xsl:value-of select="substring-after(.,'#')"/>
+                <xsl:if test="not(position()=last())">
+                    <xsl:text> </xsl:text>
+                </xsl:if>
+            </xsl:for-each>
+        </xsl:variable>
+        <xsl:variable name="data-keys" select="concat($current,' ',$unteres-element)"/>
+        <xsl:element name="a">
+            <xsl:attribute name="class">reference-black</xsl:attribute>
+            <xsl:choose>
+                <xsl:when test="count(tokenize($data-keys,'\s+')) = 1">
+                    <xsl:attribute name="data-key">
+                        <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                        <xsl:value-of select="@key"/>
+                    </xsl:attribute>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:attribute name="data-keys">
+                        <xsl:value-of select="$data-keys"/>
+                    </xsl:attribute>
+                </xsl:otherwise>
+            </xsl:choose>
+            <xsl:apply-templates/>
+        </xsl:element>
+        
     </xsl:template>
 </xsl:stylesheet>
