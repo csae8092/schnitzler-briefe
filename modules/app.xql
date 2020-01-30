@@ -8,6 +8,7 @@ import module namespace http="http://expath.org/ns/http-client";
 import module namespace templates="http://exist-db.org/xquery/templates" ;
 import module namespace config="http://www.digital-archiv.at/ns/config" at "config.xqm";
 import module namespace kwic = "http://exist-db.org/xquery/kwic" at "resource:org/exist/xquery/lib/kwic.xql";
+import module namespace util = "http://exist-db.org/xquery/util";
 
 
 declare variable $app:xslCollection := $config:app-root||'/resources/xslt';
@@ -415,6 +416,58 @@ declare function app:toc($node as node(), $model as map(*)) {
                 {$link2doc}
             </td>
         </tr>
+};
+
+(: creates a table of correspondences derived from the documents stored in /data/editions :)
+declare function app:toc_correspondences($node as node(), $model as map(*)) {
+    let $collection := request:get-parameter("collection", "")
+    let $docs := if ($collection)
+        then
+            collection(concat($config:app-root, '/data/', $collection, '/'))//tei:TEI
+        else
+            collection(concat($config:app-root, '/data/editions/'))//tei:TEI
+    let $list-of-persons := doc(concat($config:app-root,'/data/indices/listperson.xml'))
+    let $correspondences := for $doc in $docs
+        let $targets := $doc//tei:correspDesc/tei:correspContext/tei:ref[@type='belongsToCorrespondence']/@target
+        for $target in $targets
+           let $target-normalized := if(contains($target,'pmb'))
+                then substring-after($target,'#')
+                else concat('pmb',substring-after($target,'#'))      
+        group by $target-normalized
+        return $target-normalized
+    for $correspondence in $correspondences
+        let $person-name := $list-of-persons/tei:TEI/tei:text/tei:body/tei:div[@type='index_persons']/tei:listPerson[@xml:id='pmblistperson']/tei:person[@xml:id=$correspondence]/tei:persName
+        let $forename := $person-name/tei:forename/text()
+        let $surname := $person-name/tei:surname/text()
+        let $name := concat($forename,' ',$surname)
+        let $link-to-doc := concat('toc_correspondence.html?collection=editions&amp;correspondence=',$correspondence)
+        return
+        <tr>
+            <td><a href="{$link-to-doc}">{$name}</a></td>
+        </tr>
+};
+
+(: creates a list of letters belonging to a particular correspondence :)
+declare function app:toc_correspondence($node as node(), $model as map(*)) {
+    let $collection := request:get-parameter("collection","")
+    let $correspondence := concat('#',substring-after(request:get-parameter("correspondence",""),'pmb'))
+    let $docs := collection(concat($config:app-root, '/data/editions/'))//tei:TEI[tei:teiHeader[1]/tei:profileDesc[1]/tei:correspDesc[1]/tei:correspContext[1]/tei:ref/@target=$correspondence]
+    for $doc in $docs
+    let $log := util:log('error',serialize($doc))
+        let $title-level-a := $doc//tei:title[@level='a']//text()
+        let $link2doc := if ($collection)
+           then
+              <a href="{app:hrefToDoc($doc, $collection)}">{app:getDocName($doc)}</a>
+           else
+              <a href="{app:hrefToDoc($doc)}">{app:getDocName($doc)}</a>
+           return
+           <tr>
+               <td>{$title-level-a}</td>
+               <td>
+                   {$link2doc}
+               </td>
+           </tr>
+   
 };
 
 (:~
