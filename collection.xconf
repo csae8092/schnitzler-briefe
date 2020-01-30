@@ -7,8 +7,15 @@
         <create qname="tei:placeName" type="xs:string"/>
         <create qname="tei:rs" type="xs:string"/>
         <create qname="@ref" type="xs:string"/>
+		<create qname="tei:title" type="xs:string"/>
+		<create qname="tei:author" type="xs:string"/>
+		<create qname="tei:correspAction" type="xs:string"/>
+		<create qname="tei:correspContext" type="xs:string"/>
         <lucene>
             <text qname="tei:p"/>
+			<text qname="tei:persName"/>
+			<text qname="tei:title"/>
+			<text qname="tei:author"/>			
         </lucene>
     </index>
     <triggers>

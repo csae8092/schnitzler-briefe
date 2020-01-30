@@ -10,7 +10,6 @@ import module namespace config="http://www.digital-archiv.at/ns/config" at "conf
 import module namespace kwic = "http://exist-db.org/xquery/kwic" at "resource:org/exist/xquery/lib/kwic.xql";
 import module namespace util = "http://exist-db.org/xquery/util";
 
-
 declare variable $app:xslCollection := $config:app-root||'/resources/xslt';
 declare variable $app:data := $config:app-root||'/data';
 declare variable $app:meta := $config:app-root||'/data/meta';
@@ -187,7 +186,7 @@ let $href := concat('show.html','?document=', app:getDocName($node))
  :)
 declare function app:hrefToDoc($node as node(), $collection as xs:string){
 let $name := functx:substring-after-last($node, '/')
-let $href := concat('show.html','?document=', app:getDocName($node), '&amp;directory=', $collection)
+let $href := concat('show.html','?document=', app:getDocName($node), '&amp;stylesheet=plain')
     return $href
 };
 
@@ -197,7 +196,7 @@ let $href := concat('show.html','?document=', app:getDocName($node), '&amp;direc
  declare function app:ft_search($node as node(), $model as map (*)) {
  if (request:get-parameter("searchexpr", "") !="") then
  let $searchterm as xs:string:= request:get-parameter("searchexpr", "")
- for $hit in collection(concat($config:app-root, '/data/editions/'))//*[(.//tei:p[ft:query(.,$searchterm)]) or .//tei:cell[ft:query(.,$searchterm)] or .//tei:dateline[ft:query(.,$searchterm)] or .//tei:seg[ft:query(.,$searchterm)] or .//tei:l[ft:query(.,$searchterm)] or .//tei:correspAction/tei:persName[ft:query(.,$searchterm)] or .//tei:correspAction/tei:date[ft:query(.,$searchterm)] or .//tei:correspAction/tei:placeName[ft:query(.,$searchterm)]]
+ for $hit in collection(concat($config:app-root, '/data/editions/'))//*[(.//tei:p[ft:query(.,$searchterm)]) or .//tei:persName[ft:query(.,$searchterm)] or .//tei:cell[ft:query(.,$searchterm)] or .//tei:dateline[ft:query(.,$searchterm)] or .//tei:seg[ft:query(.,$searchterm)] or .//tei:l[ft:query(.,$searchterm)] or .//tei:correspAction[ft:query(.,$searchterm)] or .//tei:correspAction/tei:date[ft:query(.,$searchterm)] or .//tei:correspAction/tei:placeName[ft:query(.,$searchterm)] or .//tei:correspContext[ft:query(.,$searchterm)]]
     let $href := concat(app:hrefToDoc($hit), "&amp;searchexpr=", $searchterm)
     let $score as xs:float := ft:score($hit)
     order by $score descending
@@ -603,7 +602,7 @@ let $params :=
    }
 </parameters>
 return
-    transform:transform($xml, $xsl, $params)
+    transform:transform($xml, $xsl, $params,(), "parameter-document=parameters.xml" )
 };
 
 (:~
@@ -665,9 +664,9 @@ declare function app:listOrg($node as node(), $model as map(*)) {
  :)
 declare function app:firstDoc($node as node(), $model as map(*)) {
     let $all := sort(xmldb:get-child-resources($app:editions))
-    let $href := "show.html?document="||$all[1]||"&amp;directory=editions"
+    let $href := "show.html?document="||$all[1]||"&amp;stylesheet=plain"
         return
-            <a class="btn btn-main btn-outline-primary btn-lg" href="{$href}" role="button">Start Reading</a>
+            <a class="btn btn-main btn-outline-primary btn-lg" href="{$href}" role="button">Lesen</a>
 };
 
 (:~
@@ -696,7 +695,7 @@ declare function app:randomDoc($node as node(), $model as map(*), $maxlen as xs:
     let $title := $teinode//tei:title[@type="main"]/text()
     let $doc := normalize-space(string-join(doc($collection||"/"||$selectedDoc)//tei:div[@type="diary-day"]//text(), ' '))
     let $shortdoc := substring($doc, 1, $maxlen)
-    let $url := "show.html?directory=editions&amp;document="||$selectedDoc
+    let $url := "show.html?document="||$selectedDoc||"&amp;stylesheet=plain"
     let $result :=
     <div class="entry-text-content">
         <header class="entry-header">
