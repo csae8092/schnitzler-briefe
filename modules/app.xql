@@ -491,7 +491,7 @@ declare function app:toc($node as node(), $model as map(*)) {
         return
         <tr>
         
-           <td>{$date}</td>
+           <td><a href="{$link2doc}">{$date}</a></td>
             <td>
                 {$title_a}
             </td>

@@ -63,23 +63,28 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
+            <correspAction type="sent">
                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                     <placeName ref="#pmb50">Wien</placeName>
                     <date when="1902-11-27" n="01">[27. 11. 1902?]</date>
                 </correspAction>
-                <correspAction type="received">
+            <correspAction type="received">
                     <persName ref="#pmb11617">Hauptmann, Gerhart</persName>
                     <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
-                <correspContext/>
-            </correspDesc>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#pmb11617">Hauptmann, Gerhart</ref>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1899-07-15_01">Schnitzler an Hauptmann, 15. 7. 1899</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1903-03-08_01">Schnitzler an Hauptmann, 8. 3. 1903</ref>
+            </correspContext>
+         </correspDesc>
         </profileDesc>
         <encodingDesc>
             <refsDecl>
-                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates
-                    only, e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
-                    'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
+                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
+            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
+        </ab>
             </refsDecl>
         </encodingDesc>
         <revisionDesc status="proposed">
@@ -91,6 +96,10 @@
         <graphic url="00000001.jpg"/>
     </facsimile>
     <text type="card">
-        <body><div type="writingSession" n="1"><p rend="inline"><pb facs="00000001.jpg"/><hi rend="latintype">Dr Schnitzler</hi><lb/><hi rend="latintype">Frankgasse 1</hi><lb/><hi rend="latintype">Mezzanin</hi></p><p>½ 10.</p><p rend="center"><pb facs="00000001.jpg"/><hi rend="pre-print"><del rend="strikethrough"><rs type="person" ref="#pmb11740">Hugo von Hofmannsthal</rs></del></hi></p><p rend="right"><hi rend="pre-print"><del rend="strikethrough"><rs type="place" ref="#pmb76">III., Salesianergasse 12.</rs></del></hi></p></div></body>
+        <body><div type="writingSession" n="1"><p rend="inline"><pb facs="00000001.jpg"/><hi rend="latintype">Dr Schnitzler</hi><lb/><hi rend="latintype">Frankgasse 1</hi><lb/><hi rend="latintype">Mezzanin</hi></p>
+<p>½ 10.</p>
+<p rend="center"><pb facs="00000001.jpg"/><hi rend="pre-print"><del rend="strikethrough"><rs type="person" ref="#pmb11740">Hugo von Hofmannsthal</rs></del></hi></p>
+<p rend="right"><hi rend="pre-print"><del rend="strikethrough"><rs type="place" ref="#pmb76">III., Salesianergasse 12.</rs></del></hi></p>
+</div></body>
     </text>
 </TEI>

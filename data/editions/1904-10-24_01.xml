@@ -70,24 +70,29 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
+            <correspAction type="sent">
                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                     <placeName ref="#pmb50">Wien</placeName>
                     <date when="1904-10-24" n="01">24. 10. 1904</date>
                 </correspAction>
-                <correspAction type="received">
+            <correspAction type="received">
                     <persName ref="#pmb11617">Hauptmann, Gerhart</persName>
                     <placeName ref="#pmb168">Berlin</placeName>
                     <date when="1904-10-24">24. 10. 1904</date>
                 </correspAction>
-                <correspContext/>
-            </correspDesc>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#pmb11617">Hauptmann, Gerhart</ref>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1904-09-07_02">Schnitzler, Schnitzler, Hofmannsthal, Hofmannsthal, Burckhard, Hofmannsthal an Hauptmann, 7. 9. 1904</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1905-01-18_01">Schnitzler an Hauptmann, 18. 1. 1905</ref>
+            </correspContext>
+         </correspDesc>
         </profileDesc>
         <encodingDesc>
             <refsDecl>
-                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates
-                    only, e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
-                    'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
+                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
+            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
+        </ab>
             </refsDecl>
         </encodingDesc>
         <revisionDesc status="proposed">
@@ -99,6 +104,7 @@
         <graphic url="00000020.jpg"/>
     </facsimile>
     <text type="telegram">
-        <body><div type="address"><address><addrLine><pb facs="00000019.jpg"/>erhard Hauptmann <rs type="place" ref="#pmb168">berlin</rs></addrLine><addrLine><rs type="place" ref="#pmb35053">lessingtheater</rs></addrLine></address></div><div type="writingSession" n="1"><p>jch beglueckwuensche sie und <rs ref="#pmb10986" type="person">brahm</rs> herzlich zur ruhmreichen auferstehung des <rs ref="#pmb33273" type="work">florian geyer</rs> – herzlichst gruessend jhr<space unit="chars" quantity="2"/> arthur schnitzler</p></div></body>
+        <body><div type="address"><address><addrLine><pb facs="00000019.jpg"/>erhard Hauptmann <rs type="place" ref="#pmb168">berlin</rs></addrLine><addrLine><rs type="place" ref="#pmb35053">lessingtheater</rs></addrLine></address></div><div type="writingSession" n="1"><p>jch beglueckwuensche sie und <rs ref="#pmb10986" type="person">brahm</rs> herzlich zur ruhmreichen auferstehung des <rs ref="#pmb33273" type="work">florian geyer</rs> – herzlichst gruessend jhr<space unit="chars" quantity="2"/> arthur schnitzler</p>
+</div></body>
     </text>
 </TEI>

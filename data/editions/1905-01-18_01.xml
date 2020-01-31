@@ -61,22 +61,27 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
+            <correspAction type="sent">
                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                     <placeName ref="#pmb50">Wien</placeName>
                     <date when="1905-01-18" n="01">18. 1. 1905</date>
                 </correspAction>
-                <correspAction type="received">
+            <correspAction type="received">
                     <persName ref="#pmb11617">Hauptmann, Gerhart</persName>
                 </correspAction>
-                <correspContext/>
-            </correspDesc>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#pmb11617">Hauptmann, Gerhart</ref>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1904-10-24_01">Schnitzler an Hauptmann, 24. 10. 1904</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1905-01-24_01">Hauptmann an Schnitzler, 24. 1. 1905</ref>
+            </correspContext>
+         </correspDesc>
         </profileDesc>
         <encodingDesc>
             <refsDecl>
-                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates
-                    only, e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
-                    'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
+                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
+            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
+        </ab>
             </refsDecl>
         </encodingDesc>
         <revisionDesc status="proposed">
@@ -88,6 +93,7 @@
         <graphic url="00000021.jpg"/>
     </facsimile>
     <text type="letter">
-        <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb133" type="place">XVIII Spoettelgasse 7</rs><lb/><rs type="place" ref="#pmb50">Wien</rs><space unit="chars" quantity="1"/><date>18. 1. 905</date></dateline><salute>Lieber Herr Hauptmann</salute></opener><p>ich gratulire Ihnen herzlich zum nächſten <rs ref="#pmb29677" type="org">Grillparzer-Preis</rs>. Und zur <rs type="work" ref="#pmb30693">Elga</rs> nicht minder, von der ich hoffe, daſs ſie ſo wie ſie iſt, auf die Bühne kommen möge.</p><closer>Mit den ſchönſten Grüßen an Sie und Frau <rs ref="#pmb11621" type="person">Grethe</rs><lb/>Ihr<lb/>Arthur Schnitzler</closer></div></body>
+        <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb133" type="place">XVIII Spoettelgasse 7</rs><lb/><rs type="place" ref="#pmb50">Wien</rs><space unit="chars" quantity="1"/><date>18. 1. 905</date></dateline><salute>Lieber Herr Hauptmann</salute></opener><p>ich gratulire Ihnen herzlich zum nächſten <rs ref="#pmb29677" type="org">Grillparzer-Preis</rs>. Und zur <rs type="work" ref="#pmb30693">Elga</rs> nicht minder, von der ich hoffe, daſs ſie ſo wie ſie iſt, auf die Bühne kommen möge.</p>
+<closer>Mit den ſchönſten Grüßen an Sie und Frau <rs ref="#pmb11621" type="person">Grethe</rs><lb/>Ihr<lb/>Arthur Schnitzler</closer></div></body>
     </text>
 </TEI>
