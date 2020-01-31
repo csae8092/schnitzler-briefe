@@ -383,6 +383,7 @@ declare function app:tocCorrespondencesHeader($node as node(), $model as map(*))
 declare function app:tocCorrespondenceHeader($node as node(), $model as map(*)) {
 
     let $collection := request:get-parameter("collection", "")
+    let $correspondence := request:get-parameter("correspondence","")
     let $colName := if ($collection)
         then
             $collection
@@ -390,14 +391,19 @@ declare function app:tocCorrespondenceHeader($node as node(), $model as map(*)) 
             "editions"
     let $docs := count(collection(concat($config:app-root, '/data/', $colName, '/'))//tei:TEI)
     let $infoDoc := doc($app:meta||"/"||$colName||".xml")
-    let $colLabel := $infoDoc//tei:title[1]/text()
+    let $colLabel := $infoDoc//tei:titleStmt/tei:title[@level='a']/text()
     let $infoUrl := "show.html?document="||$colName||".xml&amp;directory=meta"
     let $apiUrl := "../resolver/resolve-col.xql?collection="||$colName
     let $zipUrl := "../resolver/download-col.xql?collection="||$colName
-    let $nameCorr := collection(concat($config:app-root, '/data/', $colName, '/'))//tei:TEI[1]//tei:correspContext/tei:ref[@type='belongsToCorrespondence']
+        let $list-of-persons := doc(concat($config:app-root,'/data/indices/listperson.xml'))
+    let $person-name := $list-of-persons/tei:TEI/tei:text/tei:body/tei:div[@type='index_persons']/tei:listPerson[@xml:id='pmblistperson']/tei:person[@xml:id=$correspondence]/tei:persName
+        let $forename := $person-name/tei:forename/text()
+        let $surname := $person-name/tei:surname/text()
+        let $name := concat($forename, ' ', $surname)
     return
         <div class="card-header" style="text-align:center;">
-            <h1>{$nameCorr}</h1>
+            <h1>Korrespondenz mit <a class='reference' data-type='listperson.xml' data-key='{$correspondence}'>
+                {$name}</a></h1>
             <h3>
                 <a>
                     <i class="fas fa-info" title="Info zum Personenregister" data-toggle="modal" data-target="#exampleModal"/>
@@ -473,8 +479,10 @@ declare function app:toc($node as node(), $model as map(*)) {
         else
             collection(concat($config:app-root, '/data/editions/'))//tei:TEI
     for $title in $docs
-        let $title_a := $title//tei:title[@level='a']//text()
-        let $date := $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date
+        let $title_a := $title//tei:titleStmt/tei:title[@level='a']//text()
+        let $date := if ($title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when) then $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when/string()
+        else if ($title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notBefore) then $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notBefore/string()
+        else $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notAfter/string() return
         let $link2doc := if ($collection)
             then
                 <a href="{app:hrefToDoc($title, $collection)}">{app:getDocName($title)}</a>
@@ -483,9 +491,9 @@ declare function app:toc($node as node(), $model as map(*)) {
         return
         <tr>
         
-           <td>{$title_a}</td>
+           <td>{$date}</td>
             <td>
-                {$link2doc}
+                {$title_a}
             </td>
         </tr>
 };
@@ -521,26 +529,27 @@ declare function app:toc_correspondences($node as node(), $model as map(*)) {
 
 (: creates a list of letters belonging to a particular correspondence :)
 declare function app:toc_correspondence($node as node(), $model as map(*)) {
-    let $collection := request:get-parameter("collection","")
-    let $correspondence := concat('#',request:get-parameter("correspondence",""))
-    let $docs := collection(concat($config:app-root, '/data/editions/'))//tei:TEI[tei:teiHeader[1]/tei:profileDesc[1]/tei:correspDesc[1]/tei:correspContext[1]/tei:ref/@target=$correspondence]
-    for $doc in $docs
-    let $log := util:log('error',serialize($doc))
-        let $title-level-a := $doc//tei:title[@level='a']//text()
-        let $date := if ($doc//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when) then $doc//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when/string()
-        else if ($doc//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notBefore) then $doc//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notBefore/string()
-        else $doc//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notAfter/string() return
+       let $collection := request:get-parameter("collection", "")
+       let $correspondence := concat('#',request:get-parameter("correspondence",""))
+   let $docs := collection(concat($config:app-root, '/data/editions/'))//tei:TEI[tei:teiHeader[1]/tei:profileDesc[1]/tei:correspDesc[1]/tei:correspContext[1]/tei:ref/@target=$correspondence]
+    for $title in $docs
+        let $title_a := $title//tei:titleStmt/tei:title[@level='a']//text()
+        let $date := if ($title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when) then $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when/string()
+        else if ($title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notBefore) then $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notBefore/string()
+        else $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notAfter/string() return
         let $link2doc := if ($collection)
-           then
-              <a href="{app:hrefToDoc($doc, $collection)}">{app:getDocName($doc)}</a>
-           else
-              <a href="{app:hrefToDoc($doc)}">{app:getDocName($doc)}</a>
-           return
-           <tr>
-                <td><a href="{$link2doc}">{$date}</a></td>
-               <td><a href="{$link2doc}">{$title-level-a}</a></td>
-               
-           </tr>
+            then
+                <a href="{app:hrefToDoc($title, $collection)}">{app:getDocName($title)}</a>
+            else
+                <a href="{app:hrefToDoc($title)}">{app:getDocName($title)}</a>
+        return
+        <tr>
+        <td><a href="{$link2doc}">{$date}</a></td>
+           <td>{$title_a}</td>
+           
+        </tr>
+   
+  
    
 };
 
@@ -767,7 +776,7 @@ declare function app:randomDoc($node as node(), $model as map(*), $maxlen as xs:
     let $random-nr-secure := if($random-nr = 0) then 1 else $random-nr
     let $selectedDoc := $all[$random-nr-secure]
     let $teinode := doc($collection||"/"||$selectedDoc)//tei:TEI
-    let $title := $teinode//tei:title[@type="main"]/text()
+    let $title := $teinode//tei:titleStmt/tei:title[@level="a"]/text()
     let $doc := normalize-space(string-join(doc($collection||"/"||$selectedDoc)//tei:div[@type="diary-day"]//text(), ' '))
     let $shortdoc := substring($doc, 1, $maxlen)
     let $url := "show.html?document="||$selectedDoc||"&amp;stylesheet=plain"
