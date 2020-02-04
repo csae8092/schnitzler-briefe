@@ -283,10 +283,6 @@
 -->
     <!-- additions -->
  
-    <!-- Bücher -->
-    <xsl:template match="tei:bibl">
-            <xsl:apply-templates/>
-    </xsl:template>
  
     <!-- Tabellen -->
     <xsl:template match="tei:table">
@@ -728,9 +724,9 @@
     </xsl:function>
     
     <xsl:template match="tei:salute[parent::tei:opener]">
-        <p><div class="salute">
+        <div class="salute editionText">
             <xsl:apply-templates/>
-        </div></p>
+        </div>
     </xsl:template>
     <xsl:template match="tei:signed">
         <div class="signed editionText">

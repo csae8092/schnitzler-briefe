@@ -322,11 +322,7 @@
             <xsl:value-of select="."/>
         </xsl:element>
     </xsl:template>
-    <!-- additions -->
-    <!-- Bücher -->
-    <xsl:template match="tei:bibl">
-        <xsl:apply-templates/>
-    </xsl:template>
+    
     <!-- Tabellen -->
     <xsl:template match="tei:table">
         <xsl:element name="table">

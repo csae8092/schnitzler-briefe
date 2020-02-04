@@ -333,7 +333,9 @@
  
     <!-- Bücher -->
     <xsl:template match="tei:bibl">
+        <span class="bibl">
             <xsl:apply-templates/>
+        </span>
     </xsl:template>
  
     <!-- Tabellen -->
