@@ -775,11 +775,6 @@
         </xsl:choose>
     </xsl:function>
     
-    <xsl:template match="tei:salute[parent::tei:opener]">
-        <div class="salute editionText">
-            <xsl:apply-templates/>
-        </div>
-    </xsl:template>
     <xsl:template match="tei:signed">
         <div class="signed editionText">
             <xsl:apply-templates/>

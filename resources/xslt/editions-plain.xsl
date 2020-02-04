@@ -728,9 +728,9 @@
     </xsl:function>
     
     <xsl:template match="tei:salute[parent::tei:opener]">
-        <div class="salute editionText">
+        <p><div class="salute">
             <xsl:apply-templates/>
-        </div>
+        </div></p>
     </xsl:template>
     <xsl:template match="tei:signed">
         <div class="signed editionText">
