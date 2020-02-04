@@ -118,12 +118,19 @@ declare function local:viewName($entity as node()){
         $name
 };
 
-
 (:~
 : returns the name of the document of the node passed to this function.
 :)
 declare function app:getDocName($node as node()){
 let $name := functx:substring-after-last(document-uri(root($node)), '/')
+    return $name
+};
+
+(:~
+: returns the name of the document of the node passed to this function.
+:)
+declare function app:getDocNameWithoutCountingNumberAndFileSuffix($node as node()){
+let $name := functx:substring-before-last(functx:substring-after-last(document-uri(root($node)), '/'),'_')
     return $name
 };
 
@@ -203,7 +210,7 @@ let $href := concat('show.html','?document=', app:getDocName($node), '&amp;style
     return
     <tr>
         <td class="KWIC">{kwic:summarize($hit, <config width="40" link="{$href}" />)}</td>
-        <td align="center"><a href="{app:hrefToDoc($hit)}">{app:getDocName($hit)}</a></td>
+        <td align="center"><a href="{app:hrefToDoc($hit)}">{app:getDocNameWithoutCountingNumberAndFileSuffix($hit)}</a></td>
         <td>{$score}</td>
     </tr>
  else
@@ -231,7 +238,7 @@ for $title in ($entities, $terms)
             <tr>
                <td>{$docTitle}</td>
                <td>{$hits}</td>
-               <td>{$snippet}<p style="text-align:right">{<a href="{concat(app:hrefToDoc($title, $collection), "&amp;searchkey=", $indexSerachKey)}">{app:getDocName($title)}</a>}</p></td>
+               <td>{$snippet}<p style="text-align:right">{<a href="{concat(app:hrefToDoc($title, $collection), "&amp;searchkey=", $indexSerachKey)}">{app:getDocNameWithoutCountingNumberAndFileSuffix($title)}</a>}</p></td>
             </tr>
 };
 
@@ -486,7 +493,7 @@ declare function app:toc($node as node(), $model as map(*)) {
             then
                 <a href="{app:hrefToDoc($title, $collection)}">{$date}</a>
             else
-                <a href="{app:hrefToDoc($title)}">{app:getDocName($title)}</a>
+                <a href="{app:hrefToDoc($title)}">{app:getDocNameWithoutCountingNumberAndFileSuffix($title)}</a>
         return
          
         <tr>
