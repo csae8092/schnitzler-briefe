@@ -419,8 +419,6 @@ td p {
 }
 
 .wrapper {
-  display: flex;
-  flex-direction: row;
   align-items: baseline; /* NEW */
   justify-content: space-between;
   color:black;
@@ -431,6 +429,32 @@ td p {
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+}
+
+.container-width {
+    width: 50%;
+    padding-left: 20pt;
+}
+
+.image-index-one {
+    margin-top: 10pt;
+    clip: rect(0, 1100px, 200px, 0);
+    position: absolute;
+    display: block;
+}
+
+.create-borders {
+    border-top-color: #A63437;
+    border-top-width: 5px !important;
+    border-top-style: solid;
+    margin-top: 20pt;
+    margin-bottom: 10pt;
+    height: 300px;
+}
+
+.floating-boxes {
+    float:left;
+    width: 50%;
 }
 
 .unsicher {

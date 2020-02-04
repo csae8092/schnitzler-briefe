@@ -784,7 +784,7 @@ declare function app:randomDoc($node as node(), $model as map(*), $maxlen as xs:
     let $selectedDoc := $all[$random-nr-secure]
     let $teinode := doc($collection||"/"||$selectedDoc)//tei:TEI
     let $title := $teinode//tei:titleStmt/tei:title[@level="a"]/text()
-    let $doc := normalize-space(string-join(doc($collection||"/"||$selectedDoc)//tei:div[@type="diary-day"]//text(), ' '))
+    let $doc := normalize-space(string-join(doc($collection||"/"||$selectedDoc)//tei:div[@type="writingSession"]//text(), ' '))
     let $shortdoc := substring($doc, 1, $maxlen)
     let $url := "show.html?document="||$selectedDoc||"&amp;stylesheet=plain"
     let $result :=
@@ -797,7 +797,7 @@ declare function app:randomDoc($node as node(), $model as map(*), $maxlen as xs:
         <!-- .entry-header -->
         <div class="entry-content">
             <p>{$shortdoc}[...]</p>
-            <a class="btn btn-round mb-1" href="{$url}">Mehr lesen</a>
+            <a class="btn btn-main btn-outline-primary btn-lg mb-1" href="{$url}">Mehr lesen</a>
         </div>
         <!-- .entry-content -->
     </div>
