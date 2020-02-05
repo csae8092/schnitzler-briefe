@@ -77,6 +77,10 @@
             <div class="card-body">
                 <div>
                     <xsl:apply-templates select="//tei:text"/>
+                    <xsl:element name="ol">
+                        <xsl:attribute name="class"><xsl:text>list-for-footnotes</xsl:text></xsl:attribute>
+                        <xsl:apply-templates select="//tei:footNote" mode="footnote"/>
+                    </xsl:element>
                 </div>
                 <hr width="75%"/>
                 
@@ -733,6 +737,26 @@
         <span class="subst-add">
             <xsl:apply-templates select="tei:add"/>
         </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:footNote">
+        <xsl:element name="a">
+            <xsl:attribute name="href">
+                <xsl:text>#footnote</xsl:text><xsl:number level="any" count="tei:footNote" format="1"/>
+            </xsl:attribute>
+            <sup><xsl:number level="any" count="tei:footNote" format="[1]"/></sup>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="//tei:footNote" mode="footnote">
+        <xsl:element name="li">
+            <xsl:attribute name="id">
+                <xsl:text>footnote</xsl:text><xsl:number level="any" count="tei:footNote" format="1"/>
+            </xsl:attribute>
+            <sup><xsl:number level="any" count="tei:footNote" format="1"/></sup>
+            <xsl:text> </xsl:text>
+            <xsl:apply-templates/>
+        </xsl:element>
     </xsl:template>
     
 </xsl:stylesheet>

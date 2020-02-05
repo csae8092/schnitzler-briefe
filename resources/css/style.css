@@ -148,6 +148,20 @@ a:not([href]):not([tabindex]).reference-black {
     text-decoration: none;
 }
 
+p.editionText a {
+    color: black;
+}
+
+.list-for-footnotes {
+    color: black;
+    font-family: serif;
+    list-style-type: none;
+}
+
+ol.list-for-footnotes p {
+    display: inline;
+}
+
 .kommentarhang{ background-color: white;}
 .card-footer {background-color: white;
                 padding-left: 0px;
