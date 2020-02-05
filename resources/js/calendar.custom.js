@@ -85,7 +85,7 @@
                         Promise.all(promises).then(function(){
                             html += "</div>";
                             html += "<div class='modal-footer'>";
-                            html += "<button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button>";
+                            html += "<button type='button' class='btn btn-secondary' data-dismiss='modal'>X</button>";
                             html += "</div></div></div></div>";
                             $('#dialogForLinks').remove();
                             $('#loadModal').append(html);

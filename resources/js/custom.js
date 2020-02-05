@@ -78,7 +78,7 @@ $(document).ready(function(){
           });
       }
       Promise.all(promises).then(function(){
-        html = html + "</div><div class='modal-footer'><button onclick='$(`#linksModal`).modal(`hide`);$(`#linksModal`).remove();' type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button></div>" + "</div></div></div>";
+        html = html + "</div><div class='modal-footer'><button onclick='$(`#linksModal`).modal(`hide`);$(`#linksModal`).remove();' type='button' class='btn btn-secondary' data-dismiss='modal'>X</button></div>" + "</div></div></div>";
         $('#linksModal').remove();
         $('#loadModal').append(html);
         $('#linksModal').modal('show');
