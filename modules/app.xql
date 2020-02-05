@@ -209,8 +209,8 @@ let $href := concat('show.html','?document=', app:getDocName($node), '&amp;style
     order by $score descending
     return
     <tr>
+        <td><a href="{app:hrefToDoc($hit)}">{app:getDocNameWithoutCountingNumberAndFileSuffix($hit)}</a></td>
         <td class="KWIC">{kwic:summarize($hit, <config width="40" link="{$href}" />)}</td>
-        <td align="center"><a href="{app:hrefToDoc($hit)}">{app:getDocNameWithoutCountingNumberAndFileSuffix($hit)}</a></td>
         <td>{$score}</td>
     </tr>
  else
