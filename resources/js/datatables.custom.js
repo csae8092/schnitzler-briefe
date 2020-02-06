@@ -9,6 +9,7 @@
             "'<'row'<'col-sm-12't>>'"+
             "'<'row'<'col-sm-6 offset-sm-6'p>>'"
         ,
+        columnDefs: [{ targets: 0, type: 'handle-question-marks' }],        
          buttons: [
             {
                 extend:'colvis',
