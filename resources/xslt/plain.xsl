@@ -162,6 +162,14 @@
                                         <i class="fas fa-external-link-alt"/> TAGEBUCH<!--</span>-->
                                     </a>
                                 </li>
+                                <xsl:if test="//tei:facsimile/tei:graphic">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" title="Faksimile zu diesem Eintrag" data-toggle="modal" data-target="#exampleModal">
+                                            <i class="far fa-eye"/>
+                                            <xsl:text> FAKSIMILE</xsl:text>
+                                        </a>    
+                                    </li>
+                                </xsl:if>
                                 
                                 <xsl:variable name="datum">
                                     <xsl:choose>
@@ -434,6 +442,45 @@
                     </div>
                 </div>
             </div>
+            <!-- modal dialogue for facsimiles start -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3>Faksimile des Briefes</h3>
+                        </div>
+                        <div class="modal-body">
+                            <div id="openseadragon-photo" style="height: 350px;"/>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"/>
+                            <script type="text/javascript">
+                                var viewer = OpenSeadragon({
+                                id: "openseadragon-photo",
+                                protocol: "http://iiif.io/api/image",
+                                prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/images/",
+                                sequenceMode : true,
+                                showReferenceStrip: true,
+                                tileSources: ["https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2780.tif?PARAM=info.json&amp;format=iiif", "https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2781.tif?PARAM=info.json&amp;format=iiif"]
+                                });
+                            </script>
+                        </div>
+                        <div class="modal-footer">
+                            <p>
+                                <xsl:for-each select="//tei:facsimile/tei:graphic/@url">
+                                    <a>
+                                        <xsl:attribute name="href">
+                                            <xsl:text>../data/images/</xsl:text>
+                                            <xsl:value-of select="."/>
+                                            <xsl:text>.jpg</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:value-of select="."/>
+                                    </a>
+                                </xsl:for-each>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- modal dialogue for facsimiles end -->
         </div>
     </xsl:template>
     <xsl:function name="foo:analytic-angabe">
@@ -836,5 +883,23 @@
                 <xsl:apply-templates/>
             </xsl:element>
     </xsl:template>
+    
+    <xsl:template match="//tei:pb">
+        <xsl:if test=".[@facs]">
+            <xsl:if test="starts-with(./@facs,'http')">
+                <xsl:element name="a">
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="./@facs"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="target">
+                        <xsl:text>_blank</xsl:text>
+                    </xsl:attribute>
+                    <i class="fas fa-external-link-alt" style="color:gray;"/>
+                    <xsl:text> </xsl:text>
+                </xsl:element>
+            </xsl:if>
+        </xsl:if>
+    </xsl:template>
+
     
 </xsl:stylesheet>
