@@ -184,6 +184,11 @@ h1 {font-size: 20pt;}
                 
 .card-header{background: white;}
 
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .navbar {
     padding-left: 0;
     padding-right: 0;
@@ -456,7 +461,7 @@ td p {
 }
 
 .container-width {
-    width: 50%;
+    width: 75%;
     padding-left: 20pt;
 }
 
@@ -479,6 +484,7 @@ td p {
 .floating-boxes {
     float:left;
     width: 50%;
+    min-width: 500px;
 }
 
 .unsicher {
