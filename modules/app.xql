@@ -253,7 +253,7 @@ declare function app:listPers($node as node(), $model as map(*)) {
         <a href="{$gnd}">{$gnd}</a>
         else
         "-"
-        return
+        return if ($person/tei:persName/tei:surname != '??' and $person/tei:persName/tei:surname != '') then
         <tr>
             <td>
                 <a href="{concat($hitHtml,data($person/@xml:id))}">{$person/tei:persName/tei:surname}</a>
@@ -265,6 +265,7 @@ declare function app:listPers($node as node(), $model as map(*)) {
                 {$gnd_link}
             </td>
         </tr>
+        else ()
 };
 
 (:~
