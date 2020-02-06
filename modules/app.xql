@@ -331,8 +331,7 @@ declare function app:tocHeader($node as node(), $model as map(*)) {
     let $zipUrl := "../resolver/download-col.xql?collection="||$colName
     return
         <div class="card-header" style="text-align:center;">
-            <h1>{$docs} Dokumente in {$colLabel}</h1>
-            <h3>
+            <h1 style="padding-right:10px;">{$docs} Dokumente in {$colLabel} </h1>
                 <a>
                     <i class="fas fa-info" title="Info zum Personenregister" data-toggle="modal" data-target="#exampleModal"/>
                 </a>
@@ -344,7 +343,6 @@ declare function app:tocHeader($node as node(), $model as map(*)) {
                 <a href="{$zipUrl}">
                     <i class="fas fa-file-archive" title="Sammlung als ZIP laden"></i>
                 </a>
-            </h3>
         </div>
 };
 
@@ -367,8 +365,7 @@ declare function app:tocCorrespondencesHeader($node as node(), $model as map(*))
     let $zipUrl := "../resolver/download-col.xql?collection="||$colName
     return
         <div class="card-header" style="text-align:center;">
-            <h1>Korrespondenzen mit Arthur Schnitzler</h1>
-            <h3>
+            <h1 style="padding-right:10px;">Korrespondenzen mit Arthur Schnitzler</h1>
                 <a>
                     <i class="fas fa-info" title="Info zum Personenregister" data-toggle="modal" data-target="#exampleModal"/>
                 </a>
@@ -380,7 +377,6 @@ declare function app:tocCorrespondencesHeader($node as node(), $model as map(*))
                 <a href="{$zipUrl}">
                     <i class="fas fa-file-archive" title="Sammlung als ZIP laden"></i>
                 </a>
-            </h3>
         </div>
 };
 
@@ -409,9 +405,8 @@ declare function app:tocCorrespondenceHeader($node as node(), $model as map(*)) 
         let $name := concat($forename, ' ', $surname)
     return
         <div class="card-header" style="text-align:center;">
-            <h1>Korrespondenz mit <a class='reference' data-type='listperson.xml' data-key='{$correspondence}'>
+            <h1 style="padding-right:10px;">Korrespondenz mit <a class='reference' data-type='listperson.xml' data-key='{$correspondence}'>
                 {$name}</a></h1>
-            <h3>
                 <a>
                     <i class="fas fa-info" title="Info zum Personenregister" data-toggle="modal" data-target="#exampleModal"/>
                 </a>
@@ -423,7 +418,6 @@ declare function app:tocCorrespondenceHeader($node as node(), $model as map(*)) 
                 <a href="{$zipUrl}">
                     <i class="fas fa-file-archive" title="Sammlung als ZIP laden"></i>
                 </a>
-            </h3>
         </div>
 };
 
