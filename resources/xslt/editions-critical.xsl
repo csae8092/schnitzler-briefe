@@ -147,7 +147,7 @@
         </xsl:choose>
     </xsl:template>
     <!-- Verweise auf andere Dokumente   -->
-    <xsl:template match="tei:ref">
+    <xsl:template match="tei:ref[not(@type='schnitzlerDiary')]">
         <xsl:choose>
             <xsl:when test="@target[ends-with(., '.xml')]">
                 <xsl:element name="a">
@@ -870,5 +870,43 @@
         <li>
             <xsl:apply-templates/>
         </li>
+    </xsl:template>
+    
+    
+    <xsl:template match="tei:ref[@type='schnitzlerDiary']">
+        <xsl:choose>
+            <xsl:when test="@subtype='see'">
+                <xsl:text>Siehe </xsl:text>
+            </xsl:when>
+            <xsl:when test="@subtype='cf'">
+                <xsl:text>Vgl. </xsl:text>
+            </xsl:when>
+        </xsl:choose>
+        <xsl:text>A. S.: Tagebuch, </xsl:text>
+        <a> 
+            <xsl:attribute name="class">reference-black</xsl:attribute>
+            <xsl:attribute name="href">
+                <xsl:value-of select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?document=entry__', @target,'.xml')"/>
+            </xsl:attribute>
+            <xsl:choose>
+                <xsl:when test="substring(@target,10,1) = '0'">
+                    <xsl:value-of select="substring(@target,11,1)"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="substring(@target,10,2)"/>
+                </xsl:otherwise>
+            </xsl:choose>
+            <xsl:text>. </xsl:text>
+            <xsl:choose>
+                <xsl:when test="substring(@target,6,1)='0'">
+                    <xsl:value-of select="substring(@target,7,1)"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="substring(@target,6,2)"/>
+                </xsl:otherwise>
+            </xsl:choose>
+            <xsl:text>. </xsl:text>
+            <xsl:value-of select="substring(@target,1,4)"/>
+        </a><xsl:text>.</xsl:text>
     </xsl:template>
 </xsl:stylesheet>
