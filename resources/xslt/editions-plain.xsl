@@ -914,7 +914,7 @@
             </xsl:choose>
             <xsl:text>. </xsl:text>
             <xsl:value-of select="substring(@target,1,4)"/>
-        </a><xsl:text>.</xsl:text>
+        </a>
     </xsl:template>
     
 </xsl:stylesheet>
