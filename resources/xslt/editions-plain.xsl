@@ -859,7 +859,27 @@
                 <xsl:apply-templates/>
             </li>
     </xsl:template>
-    
+    <!-- Verweise auf andere Dokumente   -->
+    <xsl:template match="tei:ref[not(@type='schnitzlerDiary')]">
+        <xsl:choose>
+            <xsl:when test="@target[ends-with(., '.xml')]">
+                <xsl:element name="a">
+                    <xsl:attribute name="class">reference-black</xsl:attribute>
+                    <xsl:attribute name="href"> show.html?ref=<xsl:value-of select="tokenize(./@target, '/')[4]"/>
+                    </xsl:attribute>
+                    <xsl:value-of select="."/>
+                </xsl:element>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:element name="a">
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="@target"/>
+                    </xsl:attribute>
+                    <xsl:value-of select="."/>
+                </xsl:element>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
     <xsl:template match="tei:ref[@type='schnitzlerDiary']">
         <xsl:choose>
             <xsl:when test="@subtype='see'">
