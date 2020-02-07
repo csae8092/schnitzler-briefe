@@ -909,6 +909,7 @@
     </xsl:template>
     
     <xsl:template match="tei:ref[@type='schnitzlerDiary']">
+        <xsl:if test="not(@subtype='date-only')">
         <xsl:choose>
             <xsl:when test="@subtype='see'">
                 <xsl:text>Siehe </xsl:text>
@@ -918,6 +919,7 @@
             </xsl:when>
         </xsl:choose>
         <xsl:text>A. S.: Tagebuch, </xsl:text>
+        </xsl:if>
         <a>
             <xsl:attribute name="href">
                 <xsl:value-of select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?document=entry__', @target,'.xml')"/>

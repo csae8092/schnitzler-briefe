@@ -881,6 +881,7 @@
         </xsl:choose>
     </xsl:template>
     <xsl:template match="tei:ref[@type='schnitzlerDiary']">
+        <xsl:if test="not(@subtype='date-only')">
         <xsl:choose>
             <xsl:when test="@subtype='see'">
                 <xsl:text>Siehe </xsl:text>
@@ -890,6 +891,7 @@
             </xsl:when>
         </xsl:choose>
         <xsl:text>A. S.: Tagebuch, </xsl:text>
+        </xsl:if>
         <a>
             <xsl:attribute name="class">reference-black</xsl:attribute>
             <xsl:attribute name="href">
