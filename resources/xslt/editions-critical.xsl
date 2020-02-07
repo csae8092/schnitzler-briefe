@@ -892,14 +892,14 @@
                 <xsl:value-of select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?document=entry__', @target,'.xml')"/>
             </xsl:attribute>
             <xsl:choose>
-                <xsl:when test="substring(@target,10,1) = '0'">
-                    <xsl:value-of select="substring(@target,11,1)"/>
+                <xsl:when test="substring(@target,9,1) = '0'">
+                    <xsl:value-of select="substring(@target,10,1)"/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:value-of select="substring(@target,10,2)"/>
+                    <xsl:value-of select="substring(@target,9,2)"/>
                 </xsl:otherwise>
             </xsl:choose>
-            <xsl:text>. </xsl:text>
+            <xsl:text>.&#160;</xsl:text>
             <xsl:choose>
                 <xsl:when test="substring(@target,6,1)='0'">
                     <xsl:value-of select="substring(@target,7,1)"/>
@@ -908,7 +908,7 @@
                     <xsl:value-of select="substring(@target,6,2)"/>
                 </xsl:otherwise>
             </xsl:choose>
-            <xsl:text>. </xsl:text>
+            <xsl:text>.&#160;</xsl:text>
             <xsl:value-of select="substring(@target,1,4)"/>
         </a>
     </xsl:template>
