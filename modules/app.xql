@@ -751,7 +751,7 @@ declare function app:firstDoc($node as node(), $model as map(*)) {
     let $all := sort(xmldb:get-child-resources($app:editions))
     let $href := "show.html?document="||$all[1]||"&amp;stylesheet=plain"
         return
-            <a class="btn btn-main btn-outline-primary btn-lg" href="{$href}" role="button">Lesen</a>
+            <a class="btn btn-round" href="{$href}" role="button">Lesen</a>
 };
 
 (:~
@@ -791,7 +791,7 @@ declare function app:randomDoc($node as node(), $model as map(*), $maxlen as xs:
         <!-- .entry-header -->
         <div class="entry-content">
             <p>{$shortdoc}[...]</p>
-            <a class="btn btn-main btn-outline-primary btn-lg mb-1" href="{$url}">Mehr lesen</a>
+            <a class="btn btn-round" href="{$url}">Mehr lesen</a>
         </div>
         <!-- .entry-content -->
     </div>

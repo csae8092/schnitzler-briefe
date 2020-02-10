@@ -2,26 +2,28 @@
 <div data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content">
     <div class="wrapper" id="wrapper-hero">
         <!-- ******************* The Hero Area ******************* -->
-        <div class="wrapper" id="wrapper-hero-content" style="background-image:url(../resources/img/hero-bg.jpg); background-repeat:no-repeat; background-size:cover; min-width: 600px;">
+        <div class="wrapper" id="wrapper-hero-content" style="background-image:url(https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/hero-bg.jpg)">
             <div class="container-fluid hero-light" id="wrapper-hero-inner" tabindex="-1">
-                <h1 class="mb-0 container-width">Arthur Schnitzler</h1>
-                <h1 class="display-3 mb-2 container-width">Briefwechsel mit Autorinnen und Autoren</h1>
-                <h2 class="container-width">1889–1931</h2>
-                <p class="mt-3 container-width">Weit über 10.000 Briefe dürfte Arthur Schnitzler in seinem Leben
+                <div>
+                    <h1 class="mb-0">Arthur Schnitzler</h1>
+                    <h1 class="display-3 mb-2">Briefwechsel mit Autorinnen und Autoren</h1>
+                    <h2>1889–1931</h2>
+                </div>
+                <p class="mt-3">Weit über 10.000 Briefe dürfte Arthur Schnitzler in seinem Leben
                     geschrieben haben. Eine ebenso hohe Anzahl hat er erhalten und sind in seinem
                     Nachlass überliefert. Diese Website bringt Korrespondenzstücke
                     aus den Briefwechseln mit seinen schreibenden Kolleginnen und Kollegen. Derzeit sind
                     2000 Briefe aufgenommen. Viele
                     davon werden erstmals veröffentlicht. Alle anderen sind nach den Originalen in
                     Archiven der ganzen Welt durchgesehen und korrigiert.</p>
-                <div style="padding-left: 20pt;"><a data-template="app:firstDoc"/>
+                <a data-template="app:firstDoc"/>
                 <a href="show.html?document=about.xml&amp;directory=meta&amp;stylesheet=meta">
-                    <button class="btn btn-main btn-outline-primary btn-lg" role="button">Weiter</button>
+                    <button class="btn btn-round">Weiter</button>
                 </a>
-                </div>
             </div>
         </div>
         <!-- #wrapper-hero-content -->
+        
         <div class="wrapper" id="index-wrapper">
             <div class="container-fluid" id="content" tabindex="-1">
                 <div class="row">
@@ -29,76 +31,88 @@
                     <div class="col-md-12 content-area" id="primary">
                         <main class="site-main" id="main">
                             <!-- Use custom content block templates if they are defined -->
+                            
                             <div class="card-wrapper">
-                                <article class="card col-md-6 flat-style floating-boxes">
-                                    <div class="card-inner card-vertical create-borders" style="min-height:300px; min-width: 500px; background-image:url(https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/resources/img/post-bg-1.jpg); background-repeat:no-repeat; background-size:cover;">
+                                <article class="card col-md-6 flat-style">
+                                    <div class="card-inner card-vertical" style="min-height:420px;">
+                                        <a class="entry-top-thumbnail" style="height:230px;" href="#" rel="bookmark">
+                                            <img width="1024" height="684" src="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/resources/img/post-bg-1.jpg" alt=""/>
+                                        </a>
+                                        <div data-template="app:randomDoc" data-template-maxlen="200"/>
                                         <!-- .entry-text-content -->
-                                    </div>
-                                    <div data-template="app:randomDoc" data-template-maxlen="200"/>
-                                    <!-- .card-inner -->
-                                </article>
-                                <!-- #post-## -->
-                                <article class="card col-md-6 flat-style floating-boxes">
-                                    <div class="card-inner card-vertical create-borders" style="min-height:300px; min-width: 500px; background-image:url(https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/resources/img/post-bg-2.jpg); background-repeat:no-repeat; background-size:cover;">                                     
-                                        <!-- .entry-text-content -->
-                                    </div>
-                                    <div class="entry-text-content">
-                                        <header class="entry-header">
-                                            <h4 class="entry-title">
-                                                <a href="calendar.html" rel="bookmark" class="light">Zur Kalenderansicht</a>
-                                            </h4>
-                                        </header>
-                                        <!-- .entry-header -->
-                                        <!-- .entry-content -->
-                                    </div>
-                                    <div class="entry-content">
-                                        <p>Über den Kalender lassen sich die Briefe finden,
-                                            die zu einem bestimmten Zeitpunkt geschrieben
-                                            wurden.</p>
-                                        <a class="btn btn-main btn-outline-primary btn-lg mb-1" href="calendar.html">Weiter</a>
                                     </div>
                                     <!-- .card-inner -->
                                 </article>
                                 <!-- #post-## -->
-                                <!--<div style="clear:both;"/>-->
-                                <article class="card col-md-6 flat-style floating-boxes">
-                                    <div class="card-inner card-vertical create-borders" style="min-height:300px; min-width: 500px; background-image:url(https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/resources/img/persons.jpg); background-repeat:no-repeat; background-size:cover;" title="University Children's Hospital, Vienna: a row of girl patients, outdoors, being measured for height. Photograph, 1921. Credit: Wellcome Collection. CC BY" alt="University Children's Hospital, Vienna: a row of girl patients, outdoors, being measured for height. Photograph, 1921. Credit: Wellcome Collection. CC BY">
-                                        <!-- .entry-text-content -->
-                                    </div>
-                                    <div class="entry-text-content">
-                                        <header class="entry-header">
-                                            <h4 class="entry-title">
-                                                <a href="persons.html" rel="bookmark" class="light">Personenverzeichnis</a>
-                                            </h4>
-                                        </header>
-                                        <!-- .entry-header -->
-                                        <div class="entry-content">
-                                            <p>Zugang zu den in den Korrespondenzstücken
-                                                erwähnten Personen.</p>
-                                            <a class="btn btn-main btn-outline-primary btn-lg mb-1" href="persons.html">Weiter</a>
+                                <article class="card col-md-6 flat-style">
+                                    <div class="card-inner card-vertical" style="min-height:420px;">
+                                        <a class="entry-top-thumbnail" style="height:230px;" href="calendar.html" rel="bookmark">
+                                            <img width="1024" height="684" src="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/resources/img/post-bg-2.jpg" alt=""/>
+                                        </a>
+                                        <div class="entry-text-content">
+                                            <header class="entry-header">
+                                                <h4 class="entry-title">
+                                                    <a href="calendar.html" rel="bookmark" class="light">Die Sammlung der Briefe in Kalenderansicht</a>
+                                                </h4>
+                                            </header>
+                                            <!-- .entry-header -->
+                                            <div class="entry-content">
+                                                <p>Über den Kalender lassen sich die Briefe finden,
+                                                    die zu einem bestimmten Zeitpunkt geschrieben
+                                                    wurden.</p>
+                                                <a class="btn btn-round mb-1" href="calendar.html">Mehr lesen</a>
+                                            </div>
+                                            <!-- .entry-content -->
                                         </div>
-                                        <!-- .entry-content -->
+                                        <!-- .entry-text-content -->
                                     </div>
                                     <!-- .card-inner -->
                                 </article>
                                 <!-- #post-## -->
-                                <article class="card col-md-6 flat-style floating-boxes">
-                                    <div class="card-inner card-vertical create-borders" style="min-height:300px; min-width: 500px; background-image:url(https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/resources/img/places.jpg); background-repeat:no-repeat; background-size:cover;" title="Stadtplan von Wien innerhalb des Gürtels, Beilage zum Meyers Konversationslexikon von 1905.">
+                                <article class="card col-md-6 flat-style">
+                                    <div class="card-inner card-vertical" style="min-height:420px;">
+                                        <a class="entry-top-thumbnail" style="height:230px;" href="persons.html" rel="bookmark">
+                                            <img width="1024" height="684" src="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/resources/img/persons.jpg" title="University Children's Hospital, Vienna: a row of girl patients, outdoors, being measured for height. Photograph, 1921. Credit: Wellcome Collection. CC BY" alt="University Children's Hospital, Vienna: a row of girl patients, outdoors, being measured for height. Photograph, 1921. Credit: Wellcome Collection. CC BY"/>
+                                        </a>
+                                        <div class="entry-text-content">
+                                            <header class="entry-header">
+                                                <h4 class="entry-title">
+                                                    <a href="persons.html" rel="bookmark" class="light">Personenverzeichnis</a>
+                                                </h4>
+                                            </header>
+                                            <!-- .entry-header -->
+                                            <div class="entry-content">
+                                                <p>Zugang zu den in den Korrespondenzstücken
+                                                    erwähnten Personen.</p>
+                                                <a class="btn btn-round mb-1" href="persons.html">Mehr lesen</a>
+                                            </div>
+                                            <!-- .entry-content -->
+                                        </div>
                                         <!-- .entry-text-content -->
                                     </div>
-                                    <div class="entry-text-content">
-                                        <header class="entry-header">
-                                            <h4 class="entry-title">
-                                                <a href="places.html" rel="bookmark" class="light">Ortsverzeichnis</a>
-                                            </h4>
-                                        </header>
-                                        <!-- .entry-header -->
-                                        <div class="entry-content">
-                                            <p>Zugang zu den Briefen mittels erwähnter Orte. Sie sind auch
-                                                über ihre Koordinaten erschlossen.</p>
-                                            <a class="btn btn-main btn-outline-primary btn-lg mb-1" href="places.html">Weiter</a>
+                                    <!-- .card-inner -->
+                                </article>
+                                <!-- #post-## -->
+                                <article class="card col-md-6 flat-style">
+                                    <div class="card-inner card-vertical" style="min-height:420px;">
+                                        <a class="entry-top-thumbnail" style="height:230px;" href="places.html" rel="bookmark">
+                                            <img width="1024" height="684" src="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/resources/img/places.jpg" alt="Stadtplan von Wien innerhalb des Gürtels, Beilage zum Meyers Konversationslexikon von 1905." title="Stadtplan von Wien innerhalb des Gürtels, Beilage zum Meyers Konversationslexikon von 1905."/>
+                                        </a>
+                                        <div class="entry-text-content">
+                                            <header class="entry-header">
+                                                <h4 class="entry-title">
+                                                    <a href="places.html" rel="bookmark" class="light">Ortsverzeichnis</a>
+                                                </h4>
+                                            </header>
+                                            <!-- .entry-header -->
+                                            <div class="entry-content">
+                                                <p>Zugang zu den Briefen mittels erwähnter Orte. Sie sind auch
+                                                    über ihre Koordinaten erschlossen.</p>
+                                                <a class="btn btn-round mb-1" href="places.html">Mehr lesen</a>
+                                            </div>
+                                            <!-- .entry-content -->
                                         </div>
-                                        <!-- .entry-content -->
+                                        <!-- .entry-text-content -->
                                     </div>
                                     <!-- .card-inner -->
                                 </article>
@@ -116,5 +130,6 @@
             </div>
             <!-- Container end -->
         </div>
+        
     </div>
 </div>
