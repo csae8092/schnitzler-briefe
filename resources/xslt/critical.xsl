@@ -716,12 +716,7 @@
         
     </xsl:template>
     
-    <xsl:template match="tei:c[@rendition = '#gemination-m']">
-        <span class="gemination">m̄</span>
-    </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#gemination-n']">
-        <span class="gemination">n̄</span>
-    </xsl:template>
+   
     
     <xsl:template match="tei:footNote">
         <xsl:element name="a">
@@ -743,4 +738,40 @@
         </xsl:element>
     </xsl:template>
     
+    <xsl:template match="tei:c[@rendition='#kaufmannsund']" mode="lemma">
+        &amp;
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-auf']"  mode="lemma">
+        {
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-zu']"  mode="lemma">
+        }
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#gemination-m']"  mode="lemma">
+        <span class="gemination">mm</span>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#gemination-n']"  mode="lemma">
+        <span class="gemination">nn</span>
+    </xsl:template>
+    
+    <xsl:template match="tei:c[@rendition = '#prozent']"  mode="lemma">
+        %
+    </xsl:template>
+    <xsl:function name="foo:dots">
+        <xsl:param name="anzahl"/>
+        .
+        <xsl:if test="$anzahl &gt; 1">
+            <xsl:value-of select="foo:dots($anzahl - 1)"/>
+        </xsl:if>
+    </xsl:function>
+    <xsl:template match="tei:c[@rendition = '#dots']"  mode="lemma">
+        <xsl:value-of select="foo:dots(@n)"/>
+    </xsl:template>
+    <xsl:function name="foo:gaps">
+        <xsl:param name="anzahl"/>
+        <xsl:text>×</xsl:text>
+        <xsl:if test="$anzahl &gt; 1">
+            <xsl:value-of select="foo:gaps($anzahl - 1)"/>
+        </xsl:if>
+    </xsl:function>
 </xsl:stylesheet>
