@@ -607,24 +607,11 @@
             <xsl:apply-templates/>
         </code>
     </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#kaufmannsund']"> &amp; </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-auf']"> { </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-zu']"> } </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#gemination-m']">
-        <span class="gemination">mm</span>
-    </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#gemination-n']">
-        <span class="gemination">nn</span>
-    </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#prozent']"> % </xsl:template>
     <xsl:function name="foo:dots">
         <xsl:param name="anzahl"/> . <xsl:if test="$anzahl &gt; 1">
             <xsl:value-of select="foo:dots($anzahl - 1)"/>
         </xsl:if>
     </xsl:function>
-    <xsl:template match="tei:c[@rendition = '#dots']">
-        <xsl:value-of select="foo:dots(@n)"/>
-    </xsl:template>
     <xsl:function name="foo:gaps">
         <xsl:param name="anzahl"/>
         <xsl:text>×</xsl:text>
@@ -899,7 +886,7 @@
                     <xsl:value-of select="substring(@target,9,2)"/>
                 </xsl:otherwise>
             </xsl:choose>
-            <xsl:text>.&#160;</xsl:text>
+            <xsl:text>. </xsl:text>
             <xsl:choose>
                 <xsl:when test="substring(@target,6,1)='0'">
                     <xsl:value-of select="substring(@target,7,1)"/>
@@ -908,7 +895,7 @@
                     <xsl:value-of select="substring(@target,6,2)"/>
                 </xsl:otherwise>
             </xsl:choose>
-            <xsl:text>.&#160;</xsl:text>
+            <xsl:text>. </xsl:text>
             <xsl:value-of select="substring(@target,1,4)"/>
         </a>
     </xsl:template>
