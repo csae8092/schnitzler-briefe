@@ -687,7 +687,7 @@ let $params :=
    }
 </parameters>
 return
-    transform:transform($xml, $xsl, $params,(), "parameter-document=parameters.xml" )
+    transform:transform($xml, $xsl, $params)
 };
 
 (:~

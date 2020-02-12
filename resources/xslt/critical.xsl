@@ -738,6 +738,62 @@
         </xsl:element>
     </xsl:template>
     
+    <xsl:template match="tei:body">
+        <xsl:apply-templates/>
+        <xsl:if test="descendant::tei:pb">
+            <xsl:variable name="url-of-facsimile">
+                <xsl:for-each select="ancestor::tei:text//descendant::tei:pb[not(starts-with(@facs, 'http'))]/@facs">
+                    <xsl:text>"https://iiif.acdh.oeaw.ac.at/schnitzler-briefe/</xsl:text>
+                    <xsl:value-of select="."/>
+                    <xsl:text>/info.json"</xsl:text>
+                    <xsl:if test="not(position()=last())">
+                        <xsl:text>, </xsl:text>
+                    </xsl:if>
+                </xsl:for-each>
+            </xsl:variable>
+            <!-- modal dialogue for facsimiles start -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3>Faksimile des Briefes</h3>
+                        </div>
+                        <div class="modal-body">
+                            <div id="openseadragon-photo" style="height:800px;"/>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"/>
+                            <script type="text/javascript">
+                                var viewer = OpenSeadragon({
+                                id: "openseadragon-photo",
+                                protocol: "http://iiif.io/api/image",
+                                prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/images/",
+                                sequenceMode : true,
+                                showReferenceStrip: true,
+                                defaultZoomLevel : 1,
+                                tileSources: [<xsl:value-of select="$url-of-facsimile"/>]
+                                });
+                            </script>
+                        </div>
+                        <div class="modal-footer">
+                            <!--<p>
+                                <xsl:for-each select="//tei:facsimile/tei:graphic/@url">
+                                    <a>
+                                        <xsl:attribute name="href">
+                                            <xsl:text>../data/images/</xsl:text>
+                                            <xsl:value-of select="."/>
+                                            <xsl:text>.jpg</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:value-of select="."/>
+                                    </a>
+                                </xsl:for-each>
+                            </p>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- modal dialogue for facsimiles end -->
+        </xsl:if>
+    </xsl:template>
+    
     <xsl:template match="tei:c[@rendition='#kaufmannsund']" mode="lemma">
         &amp;
     </xsl:template>

@@ -841,6 +841,28 @@
     </xsl:template>
     <xsl:template match="tei:pb">
         <span class="steuerzeichenUnten">|</span>
+        <xsl:if test=".[@facs]">
+            <xsl:choose>
+                <xsl:when test="starts-with(./@facs, 'http')">
+                    <xsl:element name="a">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="./@facs"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="target">
+                            <xsl:text>_blank</xsl:text>
+                        </xsl:attribute>
+                        <i class="fas fa-external-link-alt" style="color:gray; padding-left:2px; padding-right:2px;"/>
+                        <xsl:text> </xsl:text>
+                    </xsl:element>
+                </xsl:when>
+                <xsl:otherwise>
+                    <a title="Faksimile zu diesem Eintrag" data-toggle="modal" data-target="#exampleModal">
+                        <i class="fas fa-external-link-alt" style="color:gray; font-size:10pt; padding-left:2px; padding-right:2px;"/>
+                    </a>
+                    
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:if>
     </xsl:template>
     <xsl:template match="tei:unclear">
         <span class="unsicher">

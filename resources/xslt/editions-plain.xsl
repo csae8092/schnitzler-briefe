@@ -767,9 +767,9 @@
                 </div>
             </xsl:when>
             <xsl:otherwise>
-                <p class="editionText">
+                <div class="editionText">
                     <xsl:apply-templates/>
-                </p>
+                </div>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
