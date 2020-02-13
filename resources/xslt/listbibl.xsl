@@ -21,13 +21,11 @@
                             <xsl:when test="$entity">
                                 <xsl:variable name="entity" select="//tei:bibl[@xml:id=$entiyID]"/>
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal">
-                                        <span class="fa fa-times"/>
-                                    </button>
+                                    
                                     <h3 class="modal-title">
                                         <xsl:value-of select="$entity"/>  
-                                    </h3>
-                                    <h4>
+                                    <br/>
+                                    <small><!-- -->
                                         <a>
                                             <xsl:attribute name="href">
                                                 <xsl:value-of select="concat('hits.html?searchkey=', $entiyID)"/>
@@ -35,7 +33,11 @@
                                             <xsl:attribute name="target">_blank</xsl:attribute>
                                             mentioned in
                                         </a>
-                                    </h4>
+                                    </small>
+                                    </h3>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        <span class="fa fa-times"/>
+                                    </button>
                                 </div>
                                 <div class="modal-body">
                                     <table class="table table-boardered table-hover">
@@ -70,7 +72,7 @@
                                             </tr>
                                         </xsl:if>
                                     </table>
-                                    <div>
+                                    <!--<div>
                                         <h4 data-toggle="collapse" data-target="#more"> more (tei structure)</h4>
                                         <div id="more" class="collapse">
                                             <xsl:choose>
@@ -83,12 +85,12 @@
                                                 </xsl:otherwise>
                                             </xsl:choose>
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </xsl:when>
                         </xsl:choose>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">X</button>
+                            <!--<button type="button" class="btn btn-default" data-dismiss="modal">X</button>-->
                         </div>
                     </div>
                 </div>
