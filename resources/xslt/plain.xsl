@@ -207,52 +207,53 @@
                         <xsl:apply-templates select="//tei:anchor[@type = 'textConst'] | //tei:note[@type = 'textConst'] | //tei:anchor[@type = 'commentary'] | //tei:note[@type = 'commentary']" mode="lemma"/>
                     </dl>
                 </div>
-                <div class="row">
-                    <div class="col-md-2" style="flex: 0 0 50%; max-width: 50%;">
-                        <!-- navigation in specific correspondence left start -->
-                        <xsl:if test="//tei:correspDesc/tei:correspContext/tei:ref[@type = 'withinCorrespondence' and @subtype = 'previous_letter']">
-                            <xsl:for-each select="//tei:correspDesc/tei:correspContext/tei:ref[@type = 'withinCorrespondence' and @subtype = 'previous_letter']">
-                                <h5>
-                                    <a>
-                                        <xsl:attribute name="href">
-                                            <xsl:variable name="name-of-document">
-                                                <xsl:value-of select="./@target"/>
-                                            </xsl:variable>
-                                            <xsl:value-of select="concat('show.html?document=',$name-of-document,'.xml&amp;stylesheet=', $current-view)"/>
-                                        </xsl:attribute>
-                                        <span class="nav-link">
-                                            <i class="fas fa-chevron-left" title="Vorhergehender Brief innerhalb der Korrespondenz"/>
-                                            <xsl:text> </xsl:text>
-                                            <xsl:value-of select="./text()"/>
-                                        </span>
-                                    </a>
-                                </h5>
-                            </xsl:for-each>
-                        </xsl:if>
-                    </div>
-                    <div class="col-md-2" style="flex: 0 0 50%; max-width: 50%; text-align: right;">
-                        <!-- navigation in specific correspondence right start -->
-                        <xsl:if test="//tei:correspDesc/tei:correspContext/tei:ref[@type = 'withinCorrespondence' and @subtype = 'next_letter']">
-                            <xsl:for-each select="//tei:correspDesc/tei:correspContext/tei:ref[@type = 'withinCorrespondence' and @subtype = 'next_letter']">
-                                <h5>
-                                    <a>
-                                        <xsl:attribute name="href">
-                                            <xsl:variable name="name-of-document">
-                                                <xsl:value-of select="./@target"/>
-                                            </xsl:variable>
-                                            <xsl:value-of select="concat('show.html?document=',$name-of-document,'.xml&amp;stylesheet=', $current-view)"/>
-                                        </xsl:attribute>
-                                        <span class="nav-link">
-                                            <xsl:value-of select="./text()"/>
-                                            <xsl:text> </xsl:text>
-
-                                            <i class="fas fa-chevron-right" title="Nächster Brief innerhalb der Korrespondenz"/>
-                                        </span>
-                                    </a>
-                                </h5>
-                            </xsl:for-each>
-                        </xsl:if>
-                    </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-md-2" style="flex: 0 0 50%; max-width: 50%;">
+                    <!-- navigation in specific correspondence left start -->
+                    <xsl:if test="//tei:correspDesc/tei:correspContext/tei:ref[@type = 'withinCorrespondence' and @subtype = 'previous_letter']">
+                        <xsl:for-each select="//tei:correspDesc/tei:correspContext/tei:ref[@type = 'withinCorrespondence' and @subtype = 'previous_letter']">
+                            <h5>
+                                <a>
+                                    <xsl:attribute name="href">
+                                        <xsl:variable name="name-of-document">
+                                            <xsl:value-of select="./@target"/>
+                                        </xsl:variable>
+                                        <xsl:value-of select="concat('show.html?document=',$name-of-document,'.xml&amp;stylesheet=', $current-view)"/>
+                                    </xsl:attribute>
+                                    <span class="nav-link">
+                                        <i class="fas fa-chevron-left" title="Vorhergehender Brief innerhalb der Korrespondenz"/>
+                                        <xsl:text> </xsl:text>
+                                        <xsl:value-of select="./text()"/>
+                                    </span>
+                                </a>
+                            </h5>
+                        </xsl:for-each>
+                    </xsl:if>
+                </div>
+                <div class="col-md-2" style="flex: 0 0 50%; max-width: 50%; text-align: right;">
+                    <!-- navigation in specific correspondence right start -->
+                    <xsl:if test="//tei:correspDesc/tei:correspContext/tei:ref[@type = 'withinCorrespondence' and @subtype = 'next_letter']">
+                        <xsl:for-each select="//tei:correspDesc/tei:correspContext/tei:ref[@type = 'withinCorrespondence' and @subtype = 'next_letter']">
+                            <h5>
+                                <a>
+                                    <xsl:attribute name="href">
+                                        <xsl:variable name="name-of-document">
+                                            <xsl:value-of select="./@target"/>
+                                        </xsl:variable>
+                                        <xsl:value-of select="concat('show.html?document=',$name-of-document,'.xml&amp;stylesheet=', $current-view)"/>
+                                    </xsl:attribute>
+                                    <span class="nav-link">
+                                        <xsl:value-of select="./text()"/>
+                                        <xsl:text> </xsl:text>
+                                        
+                                        <i class="fas fa-chevron-right" title="Nächster Brief innerhalb der Korrespondenz"/>
+                                    </span>
+                                </a>
+                            </h5>
+                        </xsl:for-each>
+                    </xsl:if>
                 </div>
             </div>
             <div class="modal fade" id="qualitaet" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">

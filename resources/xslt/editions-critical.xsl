@@ -731,11 +731,9 @@
         </xsl:choose>
     </xsl:function>
     <xsl:template match="tei:salute[parent::tei:opener]">
-        <p>
-            <div class="salute editionText">
+        <div class="salute editionText">
             <xsl:apply-templates/>
         </div>
-        </p>
     </xsl:template>
     <xsl:template match="tei:signed">
         <div class="signed editionText">
@@ -745,24 +743,24 @@
     <xsl:template match="tei:p[ancestor::tei:body and not(ancestor::tei:note) and not(ancestor::tei:footNote) and not(ancestor::tei:caption) and not(parent::tei:bibl) and not(parent::tei:quote)] | tei:dateline | tei:closer">
         <xsl:choose>
             <xsl:when test="@rend = 'right'">
-                <p align="right" class="editionText">
+                <div align="right" class="editionText">
                     <xsl:apply-templates/>
-                </p>
+                </div>
             </xsl:when>
             <xsl:when test="@rend = 'left'">
-                <p align="left" class="editionText">
+                <div align="left" class="editionText">
                     <xsl:apply-templates/>
-                </p>
+                </div>
             </xsl:when>
             <xsl:when test="@rend = 'center'">
-                <p align="center" class="editionText">
+                <div align="center" class="editionText">
                     <xsl:apply-templates/>
-                </p>
+                </div>
             </xsl:when>
             <xsl:when test="@rend = 'inline'">
-                <p class="inline editionText">
+                <div class="inline editionText">
                     <xsl:apply-templates/>
-                </p>
+                </div>
             </xsl:when>
             <xsl:when test="child::tei:seg">
                 <div class="wrapper editionText">
@@ -775,40 +773,46 @@
                 </div>
             </xsl:when>
             <xsl:otherwise>
-                <p class="editionText">
+                <div class="editionText">
                     <xsl:apply-templates/>
-                </p>
+                </div>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
     <xsl:template match="tei:p[not(parent::tei:quote) and (ancestor::tei:note or ancestor::tei:footNote or ancestor::tei:caption or parent::tei:bibl)]">
         <xsl:choose>
             <xsl:when test="@rend = 'right'">
-                <p align="right">
+                <div align="right">
                     <xsl:apply-templates/>
-                </p>
+                </div>
             </xsl:when>
             <xsl:when test="@rend = 'left'">
-                <p align="left">
+                <div align="left">
                     <xsl:apply-templates/>
-                </p>
+                </div>
             </xsl:when>
             <xsl:when test="@rend = 'center'">
-                <p align="center">
+                <div align="center">
                     <xsl:apply-templates/>
-                </p>
+                </div>
             </xsl:when>
             <xsl:when test="@rend = 'inline'">
-                <p style="inline">
+                <div style="inline">
                     <xsl:apply-templates/>
-                </p>
+                </div>
             </xsl:when>
             <xsl:otherwise>
-                <p>
+                <div>
                     <xsl:apply-templates/>
-                </p>
+                </div>
             </xsl:otherwise>
         </xsl:choose>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#gemination-m']">
+        <span class="gemination">m̅</span>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#gemination-n']">
+        <span class="gemination">n̅</span>
     </xsl:template>
     <xsl:template match="tei:div[not(@type = 'address')]">
         <div class="div">
@@ -828,9 +832,9 @@
         </div>
     </xsl:template>
     <xsl:template match="tei:addrLine">
-        <p class="addrLine">
+        <div class="addrLine">
             <xsl:apply-templates/>
-        </p>
+        </div>
     </xsl:template>
     <xsl:template match="tei:damage">
         <span class="damage">
