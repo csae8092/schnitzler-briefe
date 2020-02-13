@@ -465,9 +465,7 @@
         </xsl:for-each>
     </xsl:template>
     <xsl:template match="tei:title">
-        <strong>
             <xsl:apply-templates/>
-        </strong>
     </xsl:template>
     
     <xsl:template match="tei:title[ancestor::tei:fileDesc[1]/tei:titleStmt[1] and @level='a']">
@@ -932,7 +930,7 @@
                     <xsl:value-of select="substring(@target,9,2)"/>
                 </xsl:otherwise>
             </xsl:choose>
-            <xsl:text>.&#160;</xsl:text>
+            <xsl:text>. </xsl:text>
             <xsl:choose>
                 <xsl:when test="substring(@target,6,1)='0'">
                     <xsl:value-of select="substring(@target,7,1)"/>
@@ -941,7 +939,7 @@
                     <xsl:value-of select="substring(@target,6,2)"/>
                 </xsl:otherwise>
             </xsl:choose>
-            <xsl:text>.&#160;</xsl:text>
+            <xsl:text>. </xsl:text>
             <xsl:value-of select="substring(@target,1,4)"/>
         </a>
     </xsl:template>

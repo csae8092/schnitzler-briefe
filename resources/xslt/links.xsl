@@ -833,19 +833,21 @@
                         <xsl:attribute name="target">
                             <xsl:text>_blank</xsl:text>
                         </xsl:attribute>
-                        <i class="fas fa-external-link-alt" style="color:gray; padding-left:2px; padding-right:2px;"/>
-                        <xsl:text> </xsl:text>
+                        <xsl:text>|</xsl:text>
                     </xsl:element>
                 </xsl:when>
                 <xsl:otherwise>
                     <a title="Faksimile zu diesem Eintrag" data-toggle="modal" data-target="#exampleModal">
-                        <i class="fas fa-external-link-alt" style="color:gray; font-size:10pt; padding-left:2px; padding-right:2px;"/>
+                        <span class="pagebreak">
+                            <xsl:text>*</xsl:text>
+                        </span>
                     </a>
                     
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:if>
     </xsl:template>
+    
     
     <xsl:template match="tei:c[@rendition = '#gemination-m']">
         <span class="gemination">mm</span>

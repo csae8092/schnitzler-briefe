@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:foo="whatever" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0">
     <!-- <xsl:strip-space elements="*"/>-->
     <xsl:import href="editions-critical.xsl"/>
@@ -852,6 +853,8 @@
         </xsl:element>
     </xsl:template>
     
+    
+    
     <xsl:template match="tei:body">
             <xsl:apply-templates/>
         <xsl:if test="descendant::tei:pb">
@@ -865,46 +868,30 @@
                 </xsl:if>
             </xsl:for-each>
         </xsl:variable>
-        <!-- modal dialogue for facsimiles start -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3>Faksimile des Briefes</h3>
-                    </div>
-                    <div class="modal-body">
-                        <div id="openseadragon-photo" style="height:800px;"/>
-                        <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"/>
-                        <script type="text/javascript">
-                            var viewer = OpenSeadragon({
-                            id: "openseadragon-photo",
-                            protocol: "http://iiif.io/api/image",
-                            prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/images/",
-                            sequenceMode : true,
-                            showReferenceStrip: true,
-                            defaultZoomLevel : 1,
-                            tileSources: [<xsl:value-of select="$url-of-facsimile"/>]
-                            });
-                        </script>
-                    </div>
-                    <div class="modal-footer">
-                        <!--<p>
-                                <xsl:for-each select="//tei:facsimile/tei:graphic/@url">
-                                    <a>
-                                        <xsl:attribute name="href">
-                                            <xsl:text>../data/images/</xsl:text>
-                                            <xsl:value-of select="."/>
-                                            <xsl:text>.jpg</xsl:text>
-                                        </xsl:attribute>
-                                        <xsl:value-of select="."/>
-                                    </a>
-                                </xsl:for-each>
-                            </p>-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3>Faksimile des Briefes</h3>
+                        </div>
+                        <div class="modal-body">
+                            <div id="openseadragon-photo" style="height:800px;"/>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"/>
+                            <script type="text/javascript">
+                                var viewer = OpenSeadragon({
+                                id: "openseadragon-photo",
+                                protocol: "http://iiif.io/api/image",
+                                prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/images/",
+                                sequenceMode : true,
+                                showReferenceStrip: true,
+                                defaultZoomLevel : 1,
+                                tileSources: [<xsl:value-of select="$url-of-facsimile"/>]
+                                });
+                            </script>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- modal dialogue for facsimiles end -->
         </xsl:if>
     </xsl:template>
  
@@ -919,13 +906,14 @@
                         <xsl:attribute name="target">
                             <xsl:text>_blank</xsl:text>
                         </xsl:attribute>
-                        <i class="fas fa-external-link-alt" style="color:gray; padding-left:2px; padding-right:2px;"/>
-                        <xsl:text> </xsl:text>
+                        <xsl:text>|</xsl:text>
                     </xsl:element>
                 </xsl:when>
                 <xsl:otherwise>
                     <a title="Faksimile zu diesem Eintrag" data-toggle="modal" data-target="#exampleModal">
-                        <i class="fas fa-external-link-alt" style="color:gray; font-size:10pt; padding-left:2px; padding-right:2px;"/>
+                        <span class="pagebreak">
+                            <xsl:text>*</xsl:text>
+                        </span>
                     </a>
                     
                 </xsl:otherwise>

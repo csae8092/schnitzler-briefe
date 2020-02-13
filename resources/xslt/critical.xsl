@@ -78,7 +78,9 @@
                 <div>
                     <xsl:apply-templates select="//tei:text"/>
                     <xsl:element name="ol">
-                        <xsl:attribute name="class"><xsl:text>list-for-footnotes</xsl:text></xsl:attribute>
+                        <xsl:attribute name="class">
+                            <xsl:text>list-for-footnotes</xsl:text>
+                        </xsl:attribute>
                         <xsl:apply-templates select="//tei:footNote" mode="footnote"/>
                     </xsl:element>
                 </div>
@@ -721,21 +723,57 @@
     <xsl:template match="tei:footNote">
         <xsl:element name="a">
             <xsl:attribute name="href">
-                <xsl:text>#footnote</xsl:text><xsl:number level="any" count="tei:footNote" format="1"/>
+                <xsl:text>#footnote</xsl:text>
+                <xsl:number level="any" count="tei:footNote" format="1"/>
             </xsl:attribute>
-            <sup><xsl:number level="any" count="tei:footNote" format="[1]"/></sup>
+            <sup>
+                <xsl:number level="any" count="tei:footNote" format="[1]"/>
+            </sup>
         </xsl:element>
     </xsl:template>
     
     <xsl:template match="//tei:footNote" mode="footnote">
         <xsl:element name="li">
             <xsl:attribute name="id">
-                <xsl:text>footnote</xsl:text><xsl:number level="any" count="tei:footNote" format="1"/>
+                <xsl:text>footnote</xsl:text>
+                <xsl:number level="any" count="tei:footNote" format="1"/>
             </xsl:attribute>
-            <sup><xsl:number level="any" count="tei:footNote" format="1"/></sup>
+            <sup>
+                <xsl:number level="any" count="tei:footNote" format="1"/>
+            </sup>
             <xsl:text> </xsl:text>
             <xsl:apply-templates/>
         </xsl:element>
+    </xsl:template>
+
+    <xsl:template match="tei:pb">
+        <xsl:choose>
+            <xsl:when test="@facs">
+            <xsl:choose>
+                <xsl:when test="starts-with(./@facs, 'http')">
+                    <xsl:element name="a">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="./@facs"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="target">
+                            <xsl:text>_blank</xsl:text>
+                        </xsl:attribute>
+                        <xsl:text>|</xsl:text>
+                    </xsl:element>
+                </xsl:when>
+                <xsl:otherwise>
+                    <a title="Faksimile zu diesem Eintrag" data-toggle="modal" data-target="#exampleModal">
+                        <span class="pagebreak">
+                                <xsl:text>*</xsl:text>
+                            </span>
+                    </a>
+                </xsl:otherwise>
+            </xsl:choose>
+            </xsl:when>
+            <xsl:otherwise>
+                <span class="steuerzeichenUnten">|</span>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     
     <xsl:template match="tei:body">
@@ -797,20 +835,20 @@
     <xsl:template match="tei:c[@rendition='#kaufmannsund']" mode="lemma">
         &amp;
     </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-auf']"  mode="lemma">
+    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-auf']" mode="lemma">
         {
     </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-zu']"  mode="lemma">
+    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-zu']" mode="lemma">
         }
     </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#gemination-m']"  mode="lemma">
+    <xsl:template match="tei:c[@rendition = '#gemination-m']" mode="lemma">
         <span class="gemination">mm</span>
     </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#gemination-n']"  mode="lemma">
+    <xsl:template match="tei:c[@rendition = '#gemination-n']" mode="lemma">
         <span class="gemination">nn</span>
     </xsl:template>
     
-    <xsl:template match="tei:c[@rendition = '#prozent']"  mode="lemma">
+    <xsl:template match="tei:c[@rendition = '#prozent']" mode="lemma">
         %
     </xsl:template>
     <xsl:function name="foo:dots">
@@ -820,7 +858,7 @@
             <xsl:value-of select="foo:dots($anzahl - 1)"/>
         </xsl:if>
     </xsl:function>
-    <xsl:template match="tei:c[@rendition = '#dots']"  mode="lemma">
+    <xsl:template match="tei:c[@rendition = '#dots']" mode="lemma">
         <xsl:value-of select="foo:dots(@n)"/>
     </xsl:template>
     <xsl:function name="foo:gaps">

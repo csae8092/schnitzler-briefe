@@ -512,9 +512,7 @@
     </xsl:template>
     
     <xsl:template match="tei:title">
-        <strong>
             <xsl:apply-templates/>
-        </strong>
     </xsl:template>
     
     <xsl:template match="tei:scriptDesc">

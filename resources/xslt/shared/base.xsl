@@ -917,7 +917,7 @@
                 <xsl:text>Vgl. </xsl:text>
             </xsl:when>
         </xsl:choose>
-        <xsl:text>A.&#160;S.: Tagebuch, </xsl:text>
+        <xsl:text>A. S.: Tagebuch, </xsl:text>
         <a>
             <xsl:attribute name="href">
                 <xsl:value-of select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?document=entry__', @target,'.xml')"/>
@@ -931,7 +931,7 @@
                     <xsl:value-of select="substring(@target,10,2)"/>
                 </xsl:otherwise>
             </xsl:choose>
-            <xsl:text>.&#160;</xsl:text>
+            <xsl:text>. </xsl:text>
            <xsl:choose>
                <xsl:when test="substring(@target,6,1)='0'">
                    <xsl:value-of select="substring(@target,7,1)"/>
@@ -940,7 +940,7 @@
                    <xsl:value-of select="substring(@target,6,2)"/>
                </xsl:otherwise>
            </xsl:choose>
-        <xsl:text>.&#160;</xsl:text>
+        <xsl:text>. </xsl:text>
         <xsl:value-of select="substring(@target,1,4)"/>
             TEST
         </a>
