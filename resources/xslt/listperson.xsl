@@ -132,7 +132,7 @@
                                         </tr>
                                     </xsl:if>
                                 </table>
-                                <div>
+                                <!--<div>
                                     <h4 data-toggle="collapse" data-target="#more"> more (tei structure)</h4>
                                     <div id="more" class="collapse">
                                         <xsl:choose>
@@ -145,7 +145,7 @@
                                             </xsl:otherwise>
                                         </xsl:choose>
                                     </div>
-                                </div>
+                                </div>-->
                             </div>
                         </xsl:when>
                         <xsl:otherwise>
@@ -163,7 +163,7 @@
                         </xsl:otherwise>
                     </xsl:choose>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">X</button>
+                        <!--<button type="button" class="btn btn-default" data-dismiss="modal">X</button>-->
                     </div>
                 </div>
             </div>
