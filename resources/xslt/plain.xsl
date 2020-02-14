@@ -709,9 +709,7 @@
                 <xsl:apply-templates/>
             </xsl:when>
             <xsl:when test="@rend = 'antiqua'">
-                <span class="antiqua">
                     <xsl:apply-templates/>
-                </span>
             </xsl:when>
             <xsl:otherwise>
                 <span>
