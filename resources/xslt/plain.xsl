@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:foo="whatever" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0">
     <!-- <xsl:strip-space elements="*"/>-->
-    <xsl:import href="editions-critical.xsl"/>
+    <xsl:import href="editions-plain.xsl"/>
     <xsl:param name="document"/>
     <xsl:param name="app-name"/>
     <xsl:param name="collection-name"/>
@@ -85,8 +85,6 @@
                     </xsl:element>
                 </div>
                 <hr width="75%"/>
-
-
                 <div>
                     <xsl:variable name="datum">
                         <xsl:choose>
@@ -115,17 +113,13 @@
                                         <a class="dropdown-item" href="{concat('show.html?document=',$document,'&amp;stylesheet=links')}">
                                             <i title="With Links" class="fas fa-palette"/> SICHTBARE
                                             LINKS</a>
-
-
                                         <a class="dropdown-item" href="{concat('show.html?document=',$document,'&amp;stylesheet=critical')}">
                                             <i title="Critical Edition" class="fas fa-glasses"/>
                                             TEXTKRITISCH</a>
-
                                         <a class="dropdown-item" href="{$path2source}">
                                             <i class="far fa-file-code"/> TEI-XML</a>
                                     </div>
                                 </li>
-
                                 <xsl:choose>
                                     <xsl:when test="not(//tei:teiHeader[1]/tei:revisionDesc[1]/@status = 'approved')">
                                         <li class="nav-item dropdown">
@@ -172,7 +166,6 @@
                                         </a>    
                                     </li>
                                 </xsl:if>-->
-
                                 <xsl:variable name="datum">
                                     <xsl:choose>
                                         <xsl:when test="//tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@when">
@@ -199,7 +192,6 @@
                         <input type="range" min="1" max="{$amount}" value="{$currentIx}" data-rangeslider="" style="width:100%;"/>
                         <a id="output" class="btn btn-main btn-outline-primary btn-sm" href="show.html?document=entry__1889-08-02_01_Mamroth_AS.xml&amp;directory=editions" role="button">Gehe zu</a>
                     </p>-->
-
                     <!-- navigation in specific correspondence end -->
                 </div>
                 <div class="card-footer">
@@ -207,7 +199,6 @@
                         <xsl:apply-templates select="//tei:anchor[@type = 'textConst'] | //tei:note[@type = 'textConst'] | //tei:anchor[@type = 'commentary'] | //tei:note[@type = 'commentary']" mode="lemma"/>
                     </dl>
                 </div>
-                
             </div>
             <div class="row">
                 <div class="col-md-2" style="flex: 0 0 50%; max-width: 50%;">
@@ -247,7 +238,6 @@
                                     <span class="nav-link">
                                         <xsl:value-of select="./text()"/>
                                         <xsl:text> </xsl:text>
-                                        
                                         <i class="fas fa-chevron-right" title="Nächster Brief innerhalb der Korrespondenz"/>
                                     </span>
                                 </a>
@@ -325,7 +315,6 @@
                                     </tbody>
                                 </table>
                                 <br/>
-
                             </div>
                         </div>
                         <div class="modal-body">
@@ -653,14 +642,12 @@
     </xsl:template>
     <xsl:template match="tei:anchor[@type = 'textConst']" mode="lemma">
         <xsl:for-each-group select="following-sibling::node()" group-ending-with="//tei:note[@type = 'textConst']">
-
             <xsl:if test="position() eq 1">
                 <dt class="kommentar-lemma">
                     <xsl:apply-templates select="current-group()[position() != last()]" mode="lemma"/>]</dt>
             </xsl:if>
         </xsl:for-each-group>
     </xsl:template>
-
     <xsl:template match="tei:hi">
         <xsl:choose>
             <xsl:when test="@rend = 'subscript'">
@@ -774,9 +761,7 @@
             </xsl:if>
             <xsl:apply-templates/>
         </xsl:element>
-
     </xsl:template>
-
     <xsl:template match="tei:rs[(@ref or @key) and descendant::tei:rs and not(ancestor::tei:rs)]">
         <xsl:variable name="unteres-element">
             <xsl:for-each select="descendant::tei:rs">
@@ -820,9 +805,7 @@
             </xsl:choose>
             <xsl:apply-templates/>
         </xsl:element>
-
     </xsl:template>
-
     <xsl:template match="tei:footNote">
         <xsl:element name="a">
             <xsl:attribute name="href">
@@ -834,7 +817,6 @@
             </sup>
         </xsl:element>
     </xsl:template>
-
     <xsl:template match="//tei:footNote" mode="footnote">
         <xsl:element name="li">
             <xsl:attribute name="id">
@@ -848,22 +830,19 @@
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
-    
-    
-    
     <xsl:template match="tei:body">
-            <xsl:apply-templates/>
+        <xsl:apply-templates/>
         <xsl:if test="descendant::tei:pb">
-        <xsl:variable name="url-of-facsimile">
-            <xsl:for-each select="ancestor::tei:text//descendant::tei:pb[not(starts-with(@facs, 'http'))]/@facs">
-            <xsl:text>"https://iiif.acdh.oeaw.ac.at/schnitzler-briefe/</xsl:text>
-            <xsl:value-of select="."/>
-            <xsl:text>/info.json"</xsl:text>
-                <xsl:if test="not(position()=last())">
-                    <xsl:text>, </xsl:text>
-                </xsl:if>
-            </xsl:for-each>
-        </xsl:variable>
+            <xsl:variable name="url-of-facsimile">
+                <xsl:for-each select="ancestor::tei:text//descendant::tei:pb[not(starts-with(@facs, 'http'))]/@facs">
+                    <xsl:text>"https://iiif.acdh.oeaw.ac.at/schnitzler-briefe/</xsl:text>
+                    <xsl:value-of select="."/>
+                    <xsl:text>/info.json"</xsl:text>
+                    <xsl:if test="not(position() = last())">
+                        <xsl:text>, </xsl:text>
+                    </xsl:if>
+                </xsl:for-each>
+            </xsl:variable>
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
@@ -890,7 +869,6 @@
             </div>
         </xsl:if>
     </xsl:template>
- 
     <xsl:template match="tei:pb">
         <xsl:if test=".[@facs]">
             <xsl:choose>
@@ -911,12 +889,16 @@
                             <xsl:text>*</xsl:text>
                         </span>
                     </a>
-                    
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:if>
     </xsl:template>
-
+    <xsl:template match="tei:c[@rendition='#langesS']" mode="lemma">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition='#langesS']">
+        <xsl:apply-templates/>
+    </xsl:template>
     <xsl:template match="tei:c[@rendition = '#gemination-m']">
         <span class="gemination">mm</span>
     </xsl:template>
@@ -932,7 +914,6 @@
     <xsl:template match="tei:c[@rendition = '#gemination-n']" mode="lemma">
         <span class="gemination">nn</span>
     </xsl:template>
-
     <xsl:template match="tei:c[@rendition = '#prozent']" mode="lemma"> % </xsl:template>
     <xsl:function name="foo:dots">
         <xsl:param name="anzahl"/> . <xsl:if test="$anzahl &gt; 1">

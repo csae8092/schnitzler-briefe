@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:foo="whatever" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0">
     <!-- <xsl:strip-space elements="*"/>-->
-    <xsl:import href="editions-critical.xsl"/>
+    <xsl:import href="editions-links.xsl"/>
     <xsl:param name="document"/>
     <xsl:param name="app-name"/>
     <xsl:param name="collection-name"/>
@@ -848,7 +848,12 @@
             </xsl:choose>
         </xsl:if>
     </xsl:template>
-    
+    <xsl:template match="tei:c[@rendition='#langesS']" mode="lemma">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition='#langesS']">
+        <xsl:apply-templates/>
+    </xsl:template>
     
     <xsl:template match="tei:c[@rendition = '#gemination-m']">
         <span class="gemination">mm</span>

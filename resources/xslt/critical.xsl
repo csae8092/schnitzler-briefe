@@ -833,6 +833,12 @@
         </xsl:if>
     </xsl:template>
     
+    <xsl:template match="tei:c[@rendition='#langesS']" mode="lemma">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition='#langesS']">
+        <xsl:text>ſ</xsl:text>
+    </xsl:template>
     <xsl:template match="tei:c[@rendition='#kaufmannsund']" mode="lemma">
         &amp;
     </xsl:template>

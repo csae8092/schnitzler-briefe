@@ -806,7 +806,7 @@
             </xsl:when>
             <xsl:when test="child::tei:seg">
                 <div class="wrapper editionText">
-                    <span class="editionText">
+                    <span class="editionText ">
                         <xsl:apply-templates select="tei:seg[@rend='left']"/>
                     </span>
                     <span class="editionText">
@@ -878,9 +878,7 @@
         </p>
     </xsl:template>
     <xsl:template match="tei:damage">
-        <span class="damage">
             <xsl:apply-templates/>
-        </span>
     </xsl:template>
     
     

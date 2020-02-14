@@ -80,7 +80,7 @@ color: #A23B72;
 
 .addrLine {
     font-family: serif;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 
 
@@ -112,11 +112,14 @@ color: #A23B72;
 
 .opener {
   margin-bottom: 0.5rem;
+  overflow: hidden;
 }
 
 .salute {
-    text-align: left;
-    margin-top: 1rem;
+    float:left
+    display: inline-block;
+    margin-top: 10rem;
+    margin-bottom: 40rem;
 }
 
 .address-div {
@@ -179,7 +182,8 @@ ol.list-for-footnotes p {
     display: inline;
 }
 
-.kommentarhang{ background-color: white;}
+.kommentarhang{ background-color: white;
+color: black;}
 .card-footer {background-color: white;
                 padding-left: 0px;
                 padding-right: 0px;
@@ -436,13 +440,15 @@ td p {
 	line-height: 1.9em;
 }
 
-.damage {
-  background-image: linear-gradient(to right, #4C4C4C 70%, transparent 75%);
-  background-position: 0 1.1em;
-  background-repeat: repeat-x;
-  background-size: 8px 2.5px;
+.damage-critical{
+  border-style: none;
+border-bottom-style: solid;
+border-color: #F18F01;
 }
 
+.damage{
+  border-style: none;
+}
 
 .btn-outline-success:hover {
     color: #fff;

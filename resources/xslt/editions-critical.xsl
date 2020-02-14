@@ -731,7 +731,7 @@
         </xsl:choose>
     </xsl:function>
     <xsl:template match="tei:salute[parent::tei:opener]">
-        <div class="salute editionText">
+        <div class="editionText salute">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
@@ -820,24 +820,26 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    <xsl:template match="tei:div[@type = 'address']">
+    <xsl:template match="tei:div[@type='address']">
         <div class="address-div">
             <xsl:apply-templates/>
         </div>
         <br/>
     </xsl:template>
+    
     <xsl:template match="tei:address">
         <div class="column">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
+    
     <xsl:template match="tei:addrLine">
         <div class="addrLine">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
     <xsl:template match="tei:damage">
-        <span class="damage">
+        <span class="damage-critical">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
