@@ -731,9 +731,11 @@
         </xsl:choose>
     </xsl:function>
     <xsl:template match="tei:salute[parent::tei:opener]">
+        <p>
         <div class="editionText salute">
             <xsl:apply-templates/>
         </div>
+        </p>
     </xsl:template>
     <xsl:template match="tei:signed">
         <div class="signed editionText">
