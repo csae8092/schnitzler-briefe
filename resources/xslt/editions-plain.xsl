@@ -757,12 +757,13 @@
                 </p>
             </xsl:when>
             <xsl:when test="child::tei:seg">
-                <div class="wrapper editionText">
-                    <span class="editionText">
-                        <xsl:apply-templates select="tei:seg[@rend='left']"/>
+                <div class="editionText">
+                    <span class="seg-left">
+                        <xsl:apply-templates select="tei:seg[@rend = 'left']"/>
                     </span>
-                    <span class="editionText">
-                        <xsl:apply-templates select="tei:seg[@rend='right']"/>
+                    <xsl:text> </xsl:text>
+                    <span class="seg-right"> 
+                        <xsl:apply-templates select="tei:seg[@rend = 'right']"/>
                     </span>
                 </div>
             </xsl:when>
@@ -811,10 +812,9 @@
     </xsl:template>
     
     <xsl:template match="tei:div[@type='address']">
-                <div class="wrapper">
+                <div class="address-div">
                     <xsl:apply-templates/>
                 </div>
-        <hr align="center" width="50%"/>
         <br/>
     </xsl:template>
     
@@ -825,9 +825,9 @@
     </xsl:template>
     
     <xsl:template match="tei:addrLine">
-        <p class="addrLine">
+        <div class="addrLine">
             <xsl:apply-templates/>
-        </p>
+        </div>
     </xsl:template>
     <xsl:template match="tei:damage">
         <span class="damage">

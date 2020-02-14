@@ -755,11 +755,6 @@
     <xsl:template match="tei:unclear">
         <xsl:apply-templates/>
     </xsl:template>
-    <xsl:template match="tei:addrLine">
-        <p class="addrLine-plain">
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
     <xsl:template match="tei:rs[(@ref or @key) and not(descendant::tei:rs) and not(ancestor::tei:rs)]">
         <xsl:element name="a">
             <xsl:attribute name="class">reference-black</xsl:attribute>
