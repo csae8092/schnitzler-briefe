@@ -509,11 +509,9 @@ declare function app:toc_correspondences($node as node(), $model as map(*)) {
             collection(concat($config:app-root, '/data/editions/'))//tei:TEI
     let $list-of-persons := doc(concat($config:app-root,'/data/indices/listperson.xml'))
     let $correspondences := for $doc in $docs
-        let $targets := $doc//tei:correspDesc/tei:correspContext/tei:ref[@type='belongsToCorrespondence']/@target
+         let $targets := $doc//tei:correspDesc/tei:correspContext/tei:ref[@type='belongsToCorrespondence']/@target
         for $target in $targets
-           let $target-normalized := if(contains($target,'pmb'))
-                then substring-after($target,'#')
-                else concat('pmb',substring-after($target,'#'))      
+           let $target-normalized := substring-after($target,'#')
         group by $target-normalized
         return $target-normalized
     for $correspondence in $correspondences
@@ -524,7 +522,7 @@ declare function app:toc_correspondences($node as node(), $model as map(*)) {
         let $link-to-doc := concat('toc_correspondence.html?collection=editions&amp;correspondence=',$correspondence)
         return
         <tr>
-            <td><a href="{$link-to-doc}">{$name}</a></td>
+            <td><span style="display: none;">{$name}</span><a href="{$link-to-doc}">{$name}</a></td>
         </tr>
 };
 
@@ -545,9 +543,7 @@ declare function app:toc_correspondence($node as node(), $model as map(*)) {
                 <a href="{app:hrefToDoc($title)}">{$date}</a>
         return
         <tr>
-        <td>{$link2doc}</td>
-           <td>{$title_a}</td>
-           
+        <td><span style='display: none;'>{$date}</span><a href="{$link2doc}">{$title_a}</a></td>
         </tr>
    
   
