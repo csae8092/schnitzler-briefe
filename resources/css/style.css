@@ -184,6 +184,11 @@ ol.list-for-footnotes p {
 
 .kommentarhang{ background-color: white;
 color: black;}
+.card-body {
+max-width: 750px;
+margin: 0 auto;
+    
+}
 .card-footer {background-color: white;
                 padding-left: 0px;
                 padding-right: 0px;
@@ -223,12 +228,22 @@ h1 {font-size: 20pt;}
     font-size: 1.25rem;
 }
 
+
 .container-fluid {
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 0rem;
     padding-top: 0rem;
+    background: white;
 }
+
+.container-fluid-empty {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+}
+
 
 .sticky-navbar {
     z-index: 1001;
@@ -479,7 +494,7 @@ border-color: #F18F01;
 
 
 .wrapper {
-  
+  background: white;
 }
 
 .column {
