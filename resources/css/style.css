@@ -184,11 +184,55 @@ ol.list-for-footnotes p {
 
 .kommentarhang{ background-color: white;
 color: black;}
-.card-body {
+
+.menu-div {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.card-body-normalertext {
 max-width: 750px;
 margin: 0 auto;
-    
 }
+
+.card-body {
+max-width: 100%;
+margin: 0 auto;
+}
+
+.card-body-critical {
+  display:inline-flex;
+  flex-wrap:wrap;
+}
+.card-body-iif {
+float: right;
+width: 47%;
+}
+.card-body-text {
+float: left;
+width: 47%;
+max-width: 750px;
+margin: 0 auto;
+}
+
+.flex-direction{
+  flex-direction:row;
+}
+
+@media screen and (max-width: 500px) {
+  .flex-direction{
+  flex-direction:column;
+  }
+.card-body-critical{
+  width:100%;
+  }
+  .card-body-iif{
+  width:100%;
+  }
+
+}
+
+
 .card-footer {background-color: white;
                 padding-left: 0px;
                 padding-right: 0px;

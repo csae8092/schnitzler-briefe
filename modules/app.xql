@@ -381,6 +381,41 @@ declare function app:tocCorrespondencesHeader($node as node(), $model as map(*))
 };
 
 (:~
+ : returns header information about the archives
+ :)
+declare function app:tocArchivesHeader($node as node(), $model as map(*)) {
+
+    let $collection := request:get-parameter("collection", "")
+    let $colName := if ($collection)
+        then
+            $collection
+        else
+            "editions"
+    let $docs := count(collection(concat($config:app-root, '/data/', $colName, '/'))//tei:TEI)
+    let $infoDoc := doc($app:meta||"/"||$colName||".xml")
+    let $colLabel := $infoDoc//tei:title[1]/text()
+    let $infoUrl := "show.html?document="||$colName||".xml&amp;directory=meta"
+    let $apiUrl := "../resolver/resolve-col.xql?collection="||$colName
+    let $zipUrl := "../resolver/download-col.xql?collection="||$colName
+    return
+        <div class="card-header" style="text-align:center;">
+            <h1 style="padding-right:10px;">Archivbestände</h1>
+                <a>
+                    <i class="fas fa-info" title="Info zum Archivregister" data-toggle="modal" data-target="#exampleModal"/>
+                </a>
+                |
+                <a href="{$apiUrl}">
+                    <i class="fas fa-download" title="Liste der TEI Dokumente"/>
+                </a>
+                  |
+                <a href="{$zipUrl}">
+                    <i class="fas fa-file-archive" title="Sammlung als ZIP laden"></i>
+                </a>
+        </div>
+};
+
+
+(:~
  : returns header information about the current collection
  :)
 declare function app:tocCorrespondenceHeader($node as node(), $model as map(*)) {
@@ -523,6 +558,33 @@ declare function app:toc_correspondences($node as node(), $model as map(*)) {
         return
         <tr>
             <td><span style="display: none;">{$name}</span><a href="{$link-to-doc}">{$name}</a></td>
+        </tr>
+};
+
+(: creates a table of archives derived from the documents stored in /data/editions :)
+declare function app:toc_archives($node as node(), $model as map(*)) {
+    let $collection := request:get-parameter("collection", "")
+    let $docs := if ($collection)
+        then
+            collection(concat($config:app-root, '/data/', $collection, '/'))//tei:TEI
+        else
+            collection(concat($config:app-root, '/data/editions/'))//tei:TEI
+    let $list-of-persons := doc(concat($config:app-root,'/data/indices/listperson.xml'))
+    let $correspondences := for $doc in $docs
+         let $targets := $doc//tei:msDesc
+        for $target in $targets
+           let $target-normalized := tei:msDesc
+        group by $target-normalized
+        return $target-normalized
+    for $correspondence in $correspondences
+        let $person-name := $list-of-persons/tei:TEI/tei:text/tei:body/tei:div[@type='index_persons']/tei:listPerson[@xml:id='pmblistperson']/tei:person[@xml:id=$correspondence]/tei:persName
+        let $forename := $person-name/tei:forename/text()
+        let $surname := $person-name/tei:surname/text()
+        let $name := $target-normalized
+        let $link-to-doc := concat('toc_correspondence.html?collection=editions&amp;correspondence=',$correspondence)
+        return
+        <tr>
+            <td><span style="display: none;">{$target}</span><a href="{$link-to-doc}">{$name}</a></td>
         </tr>
 };
 

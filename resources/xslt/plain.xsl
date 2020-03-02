@@ -74,8 +74,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card-body">
-                <div>
+            <div class="card-body-normalertext">
                     <xsl:apply-templates select="//tei:text"/>
                     <xsl:element name="ol">
                         <xsl:attribute name="class">
@@ -83,9 +82,9 @@
                         </xsl:attribute>
                         <xsl:apply-templates select="//tei:footNote" mode="footnote"/>
                     </xsl:element>
-                </div>
-                <hr width="75%"/>
-                <div>
+            </div>
+                <div class="card-body">
+                    <hr width="75%"/>
                     <xsl:variable name="datum">
                         <xsl:choose>
                             <xsl:when test="//tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@when">
@@ -194,12 +193,12 @@
                     </p>-->
                     <!-- navigation in specific correspondence end -->
                 </div>
+        </div>
                 <div class="card-footer">
                     <dl class="kommentarhang">
                         <xsl:apply-templates select="//tei:anchor[@type = 'textConst'] | //tei:note[@type = 'textConst'] | //tei:anchor[@type = 'commentary'] | //tei:note[@type = 'commentary']" mode="lemma"/>
                     </dl>
                 </div>
-            </div>
             <div class="row">
                 <div class="col-md-2" style="flex: 0 0 50%; max-width: 50%;">
                     <!-- navigation in specific correspondence left start -->
@@ -434,7 +433,6 @@
                     </div>
                 </div>
             </div>
-        </div>
     </xsl:template>
     <xsl:function name="foo:analytic-angabe">
         <xsl:param name="gedruckte-quellen" as="node()"/>

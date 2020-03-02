@@ -74,7 +74,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card-body">
+            <div class="card-body-normalertext">
                 <div>
                     <xsl:apply-templates select="//tei:text"/>
                     <xsl:element name="ol">
@@ -84,10 +84,9 @@
                         <xsl:apply-templates select="//tei:footNote" mode="footnote"/>
                     </xsl:element>
                 </div>
-                <hr width="75%"/>
-                
-                
-                <div>
+            </div>
+                <div class="card-body">
+                    <hr width="75%"/>
                     <xsl:variable name="datum">
                         <xsl:choose>
                             <xsl:when test="//tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@when">
@@ -187,20 +186,14 @@
                         </div>
                     </nav>
                     <hr width="75%"/>
-                    <!-- <p>
-                        <input type="range" min="1" max="{$amount}" value="{$currentIx}" data-rangeslider="" style="width:100%;"/>
-                        <a id="output" class="btn btn-main btn-outline-primary btn-sm" href="show.html?document=entry__1889-08-02_01_Mamroth_AS.xml&amp;directory=editions" role="button">Gehe zu</a>
-                    </p>-->
-                    
-                    <!-- navigation in specific correspondence end -->
                 </div>
                 <div class="card-footer">
                     <dl class="kommentarhang">
                         <xsl:apply-templates select="//tei:anchor[@type = 'textConst'] | //tei:note[@type = 'textConst'] | //tei:anchor[@type = 'commentary'] | //tei:note[@type = 'commentary']" mode="lemma"/>
                     </dl>
                 </div>
-                
             </div>
+        
             <div class="row">
                 <div class="col-md-2" style="flex: 0 0 50%; max-width: 50%;">
                     <!-- navigation in specific correspondence left start -->
@@ -437,7 +430,6 @@
                     </div>
                 </div>
             </div>
-        </div>
     </xsl:template>
     <xsl:function name="foo:analytic-angabe">
         <xsl:param name="gedruckte-quellen" as="node()"/>
