@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-12-02_02_AS_Bahr"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-12-02_02_AS_Bahr"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -102,8 +103,29 @@
          <change who="KI MAM" when="2015-10-01">Kollationiert</change>
          <change who="KI MAM" when="2017-05-15">Kollationiert</change>
          <change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
-         <change who="GHS" when="2019-02-25"><c rendition="#langesS">s</c>, @facs, Nummerierungen, Seitenzahlen ergänzt</change>
+         <change who="GHS" when="2019-02-25">
+                <c rendition="#langesS">s</c>, @facs, Nummerierungen, Seitenzahlen ergänzt</change>
          <change who="GHS" when="2019-10-03">finalisiert</change>
          <change who="MAM" when="2019-01-20">Index check</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="FS_PK266826_V"/> <graphic url="FS_PK266826_R"/> </facsimile> <text type="card"> <body><div type="image" n="1"><figure><graphic url="./images/FS_PK277797alt_V" width="10cm"/></figure></div><div type="writingSession" n="1"><p><pb facs="FS_PK266826_R"/>Meinem lieben Freund <hi rend="latintype">Hermann Bahr</hi> in herzlicher Verehrung</p><closer><signed>ArthSch</signed></closer><postscript><p><hi rend="underline" n="1"><rs ref="#pmb50" type="place">Wien</rs>, <date when="1893-12-02">2. 12 93</date>.</hi></p></postscript></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="FS_PK266826_V"/> <graphic url="FS_PK266826_R"/> </facsimile> <text type="card"> <body>
+            <div type="image" n="1">
+                <figure>
+                    <graphic url="./images/FS_PK277797alt_V" width="10cm"/>
+                </figure>
+            </div>
+            <div type="writingSession" n="1">
+                <p>
+                    <pb facs="FS_PK266826_R"/>Meinem lieben Freund <hi rend="latintype">Hermann Bahr</hi> in herzlicher Verehrung</p>
+                <closer>
+                    <signed>ArthSch</signed>
+                </closer>
+                <postscript>
+                    <p>
+                        <hi rend="underline" n="1">
+                            <rs ref="#pmb50" type="place">Wien</rs>, <date when="1893-12-02">2. 12 93</date>.</hi>
+                    </p>
+                </postscript>
+            </div>
+        </body> </text>
+</TEI>

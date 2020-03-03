@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1915-08-06_01_Hofmannsthal_AS"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1915-08-06_01_Hofmannsthal_AS"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -104,4 +105,46 @@
             <change who="MAM" when="2019-03-28">Durchsicht</change>
             <change who="GHS" when="2020-01-30">finalisiert</change>
         </revisionDesc>
-    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00153"/> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00154"/> </facsimile> <text type="letter"> <body><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00153"/><hi rend="pre-print"><rs ref="#pmb655" type="place">HOTEL KAISERKRONE</rs></hi></seg><seg rend="right"><hi rend="pre-print"><rs ref="#pmb213" type="place">Bad Ischl</rs>, am <c rendition="#dots" n="10"/></hi></seg></p><p><hi rend="pre-print"><rs ref="#pmb213" type="place">BAD ISCHL</rs></hi></p><p><hi rend="pre-print">ZENTRALE LAGE</hi></p><p><hi rend="pre-print">RESTAURATIONSGARTEN, BÄDER</hi></p><p><hi rend="pre-print">LIFT, MODERNER KOMFORT</hi></p><salute>Viele Grüsse, lieber Arthur,</salute></opener><p>Ihnen und <rs ref="#pmb2173" type="person">Olga</rs>. Ich ko<c rendition="#gemination-m"/>e alle 3–4 Tage für 24 Stunden herüber. Vielleicht besuchen Sie <rs type="person" ref="#pmb11737" subtype="implied">Papa</rs> einmal, es ist ganz nahe, <rs ref="#pmb33909" type="place">Tänzlgasse 10</rs>, <time>vormittag</time> sitzt er i<c rendition="#gemination-m"/>er in seinem Garten.</p><closer>Von Herzen Ihr<lb/><signed>Hugo.</signed></closer><postscript><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00153"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</p></postscript></div></body> </text></TEI>
+    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00153"/> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00154"/> </facsimile> <text type="letter"> <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <p>
+                        <seg rend="left">
+                            <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00153"/>
+                            <hi rend="pre-print">
+                                <rs ref="#pmb655" type="place">HOTEL KAISERKRONE</rs>
+                            </hi>
+                        </seg>
+                        <seg rend="right">
+                            <hi rend="pre-print">
+                                <rs ref="#pmb213" type="place">Bad Ischl</rs>, am <c rendition="#dots" n="10"/>
+                            </hi>
+                        </seg>
+                    </p>
+                    <p>
+                        <hi rend="pre-print">
+                            <rs ref="#pmb213" type="place">BAD ISCHL</rs>
+                        </hi>
+                    </p>
+                    <p>
+                        <hi rend="pre-print">ZENTRALE LAGE</hi>
+                    </p>
+                    <p>
+                        <hi rend="pre-print">RESTAURATIONSGARTEN, BÄDER</hi>
+                    </p>
+                    <p>
+                        <hi rend="pre-print">LIFT, MODERNER KOMFORT</hi>
+                    </p>
+                    <salute>Viele Grüsse, lieber Arthur,</salute>
+                </opener>
+                <p>Ihnen und <rs ref="#pmb2173" type="person">Olga</rs>. Ich ko<c rendition="#gemination-m"/>e alle 3–4 Tage für 24 Stunden herüber. Vielleicht besuchen Sie <rs type="person" ref="#pmb11737" subtype="implied">Papa</rs> einmal, es ist ganz nahe, <rs ref="#pmb33909" type="place">Tänzlgasse 10</rs>, <time>vormittag</time> sitzt er i<c rendition="#gemination-m"/>er in seinem Garten.</p>
+                <closer>Von Herzen Ihr<lb/>
+                    <signed>Hugo.</signed>
+                </closer>
+                <postscript>
+                    <p>
+                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00153"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</p>
+                </postscript>
+            </div>
+        </body> </text>
+</TEI>

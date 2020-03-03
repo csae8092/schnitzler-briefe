@@ -349,6 +349,74 @@ declare function app:tocHeader($node as node(), $model as map(*)) {
 (:~
  : returns header information about the current collection
  :)
+declare function app:tocHeaderSent($node as node(), $model as map(*)) {
+
+    let $collection := request:get-parameter("collection", "")
+    let $colName := if ($collection)
+        then
+            $collection
+        else
+            "editions"
+    let $docs := count(collection(concat($config:app-root, '/data/', $colName, '/'))//tei:TEI)
+    let $infoDoc := doc($app:meta||"/"||$colName||".xml")
+    let $colLabel := $infoDoc//tei:title[1]/text()
+    let $infoUrl := "show.html?document="||$colName||".xml&amp;directory=meta"
+    let $apiUrl := "../resolver/resolve-col.xql?collection="||$colName
+    let $zipUrl := "../resolver/download-col.xql?collection="||$colName
+    return
+        <div class="card-header" style="text-align:center;">
+            <h1 style="padding-right:10px;">Korrespondenzstücke - Versand</h1>
+                <a>
+                    <i class="fas fa-info" title="Info zum Versand" data-toggle="modal" data-target="#exampleModal"/>
+                </a>
+                |
+                <a href="{$apiUrl}">
+                    <i class="fas fa-download" title="Liste der TEI Dokumente"/>
+                </a>
+                  |
+                <a href="{$zipUrl}">
+                    <i class="fas fa-file-archive" title="Sammlung als ZIP laden"></i>
+                </a>
+        </div>
+};
+
+(:~
+ : returns header information about the current collection
+ :)
+declare function app:tocHeaderReceived($node as node(), $model as map(*)) {
+
+    let $collection := request:get-parameter("collection", "")
+    let $colName := if ($collection)
+        then
+            $collection
+        else
+            "editions"
+    let $docs := count(collection(concat($config:app-root, '/data/', $colName, '/'))//tei:TEI)
+    let $infoDoc := doc($app:meta||"/"||$colName||".xml")
+    let $colLabel := $infoDoc//tei:title[1]/text()
+    let $infoUrl := "show.html?document="||$colName||".xml&amp;directory=meta"
+    let $apiUrl := "../resolver/resolve-col.xql?collection="||$colName
+    let $zipUrl := "../resolver/download-col.xql?collection="||$colName
+    return
+        <div class="card-header" style="text-align:center;">
+            <h1 style="padding-right:10px;">Korrespondenzstücke - Empfang</h1>
+                <a>
+                    <i class="fas fa-info" title="Info zum Versand" data-toggle="modal" data-target="#exampleModal"/>
+                </a>
+                |
+                <a href="{$apiUrl}">
+                    <i class="fas fa-download" title="Liste der TEI Dokumente"/>
+                </a>
+                  |
+                <a href="{$zipUrl}">
+                    <i class="fas fa-file-archive" title="Sammlung als ZIP laden"></i>
+                </a>
+        </div>
+};
+
+(:~
+ : returns header information about the current collection
+ :)
 declare function app:tocCorrespondencesHeader($node as node(), $model as map(*)) {
 
     let $collection := request:get-parameter("collection", "")
@@ -638,7 +706,7 @@ declare function app:toc_correspDesc_sent($node as node(), $model as map(*)) {
         return
         <tr>
         
-           <td>{for $pers in $sent_pers return <div>{$pers/text()}</div>}</td>
+           <td>{for $pers in $sent_pers return <div><span style='display: none;'>{$date_sent_ISO}</span>{$pers/text()}</div>}</td>
            <td>{$link2doc}</td>
            <td>{$date_sent_ISO}</td>
            <td>{$date_sent_notBefore}</td>
@@ -674,15 +742,15 @@ declare function app:toc_correspDesc_received($node as node(), $model as map(*))
                 <a href="{app:hrefToDoc($title)}">{$date_sent}</a>
         return
         <tr>
-        
-           <td>{for $pers in $received_pers return <div>{$pers/text()}</div>}</td>
-           <td>{$link2doc}</td>
+         <td>{for $pers in $received_pers return <div><span style='display: none;'>{$date_sent_ISO}</span>{$pers/text()}</div>}</td>
+                    <td>{$link2doc}</td>
+
            <td>{$date_sent_ISO}</td>
            <td>{$date_received}</td>
            <td>{$date_received_ISO}</td>
            <td>{$place}</td>
-           <td>{for $sen in $sent_pers return <div>{$sen/text()}</div>}</td>
-        </tr>
+         <td>{for $sen in $sent_pers return <div>{$sen/text()}</div>}</td>
+       </tr>
 };
 
 

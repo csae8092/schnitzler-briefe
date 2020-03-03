@@ -11,7 +11,7 @@ declare option exist:serialize "method=xml media-type=text/xml omit-xml-declarat
 <gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
     <meta lastmodifieddate="{current-date()}">
         <creator>schnitzler-briefe-net.xql</creator>
-        <description>A network of persons mentioned in the schnitzler-briefe-Korpus</description>
+        <description>A network of persons Erwähnungen the schnitzler-briefe-Korpus</description>
     </meta>
     <graph mode="static" defaultedgetype="directed">
         <nodes>

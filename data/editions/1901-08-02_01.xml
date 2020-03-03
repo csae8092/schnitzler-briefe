@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1901-07-27_01_Beer-Hofmann-Beer-Hofmann-Goldmann_AS"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1901-07-27_01_Beer-Hofmann-Beer-Hofmann-Goldmann_AS"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -92,4 +93,30 @@
       <revisionDesc status="proposed">
          <change who="GHS" when="2020-01-21">angelegt aus Faksimile</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-0008-B-00002-000-00013.jpg"/> <graphic url="MS-SCHNITZLER-B-0008-B-00002-000-00014.jpg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00002-000-00013"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb946" type="place">Vahrn</rs></addrLine><addrLine>bei <rs ref="#pmb43040" type="place">Brixen</rs></addrLine></address></div><div type="writingSession" n="1"><p>Herzliche Grüße von</p><p><handShift scribe="#pmb10860"/><signed>Paula</signed><lb/><handShift scribe="#pmb10863"/><signed>Richard</signed><lb/><handShift scribe="#pmb11485"/><signed>Paul Goldmann</signed></p></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-0008-B-00002-000-00013.jpg"/> <graphic url="MS-SCHNITZLER-B-0008-B-00002-000-00014.jpg"/> </facsimile> <text type="card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="MS-SCHNITZLER-B-0008-B-00002-000-00013"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
+                    <addrLine>
+                        <rs ref="#pmb946" type="place">Vahrn</rs>
+                    </addrLine>
+                    <addrLine>bei <rs ref="#pmb43040" type="place">Brixen</rs>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <p>Herzliche Grüße von</p>
+                <p>
+                    <handShift scribe="#pmb10860"/>
+                    <signed>Paula</signed>
+                    <lb/>
+                    <handShift scribe="#pmb10863"/>
+                    <signed>Richard</signed>
+                    <lb/>
+                    <handShift scribe="#pmb11485"/>
+                    <signed>Paul Goldmann</signed>
+                </p>
+            </div>
+        </body> </text>
+</TEI>

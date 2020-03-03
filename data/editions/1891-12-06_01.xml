@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-12-06_01_Hofmannsthal_AS"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-12-06_01_Hofmannsthal_AS"> <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -118,8 +119,27 @@
             <change who="MAM" when="2016-03-04">Angelegt aus OCR</change>
             <change who="MAM" when="2017-03-16">Durchgesehen mit Original in CUL</change>
             <change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
-            <change who="GHS" when="2018-11-28"><c rendition="#langesS">s</c>, @facs, Nummerierungen ergänzt</change>
+            <change who="GHS" when="2018-11-28">
+                <c rendition="#langesS">s</c>, @facs, Nummerierungen ergänzt</change>
             <change who="GHS" when="2019-09-10">finalisiert</change>
          <change who="MAM" when="2019-01-20">Index check</change>
         </revisionDesc>
-    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00025"/> </facsimile> <text type="letter"> <body><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00025"/>Soeben<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>chickt mir <rs ref="#pmb10815" type="person">Bahr</rs> die beiliegende <anchor type="commentary" xml:id="KL408-1"/>Karte<note type="commentary" xml:id="KL408-1h">Es dürfte sich hier um eine Karte für die Première von <rs ref="#pmb11617" type="person">Gerhart Hauptmann</rs>s <rs ref="#pmb29879" type="work">Einsame Menschen</rs> im Burgtheater am 6. 12. 1891 handeln. <rs ref="#pmb11740" type="person">Hofmannsthal</rs> war dort, Schnitzler nicht.</note>. Ich gehe jedenfalls hin.</p><p>Vielleicht erwarten Sie mich gegen <hi rend="underline" n="1">4 Uhr</hi> bei<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ich und wir gehen dann zu<c rendition="#langesS">s</c>ammen hin.</p><p>Wenn nicht, hinterla<c rendition="#langesS">s</c><c rendition="#langesS">s</c>en Sie mir eine Po<c rendition="#langesS">s</c>t.</p><closer><signed>Loris.</signed></closer><postscript><p>Soll man ihm einen Arzt<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>chicken?</p></postscript></div></body> </text></TEI>
+    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00025"/> </facsimile> <text type="letter"> <body>
+            <div type="writingSession" n="1">
+                <p>
+                    <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00025"/>Soeben<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>chickt mir <rs ref="#pmb10815" type="person">Bahr</rs> die beiliegende <anchor type="commentary" xml:id="KL408-1"/>Karte<note type="commentary" xml:id="KL408-1h">Es dürfte sich hier um eine Karte für die Première von <rs ref="#pmb11617" type="person">Gerhart Hauptmann</rs>s <rs ref="#pmb29879" type="work">Einsame Menschen</rs> im Burgtheater am 6. 12. 1891 handeln. <rs ref="#pmb11740" type="person">Hofmannsthal</rs> war dort, Schnitzler nicht.</note>. Ich gehe jedenfalls hin.</p>
+                <p>Vielleicht erwarten Sie mich gegen <hi rend="underline" n="1">4 Uhr</hi> bei<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>ich und wir gehen dann zu<c rendition="#langesS">s</c>ammen hin.</p>
+                <p>Wenn nicht, hinterla<c rendition="#langesS">s</c>
+                    <c rendition="#langesS">s</c>en Sie mir eine Po<c rendition="#langesS">s</c>t.</p>
+                <closer>
+                    <signed>Loris.</signed>
+                </closer>
+                <postscript>
+                    <p>Soll man ihm einen Arzt<space unit="chars" quantity="1"/>
+                        <c rendition="#langesS">s</c>chicken?</p>
+                </postscript>
+            </div>
+        </body> </text>
+</TEI>

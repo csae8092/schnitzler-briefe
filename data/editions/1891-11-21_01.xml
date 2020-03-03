@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-11-21_01_AS_Beer-Hofmann"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-11-21_01_AS_Beer-Hofmann"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -90,4 +91,40 @@
          <change who="MAM" when="2019-09-23">Index check</change>
          <change who="MAM" when="2019-09-23">Finalisiert</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="1891_AS_RBH_00007"/> <graphic url="1891_AS_RBH_00008"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="1891_AS_RBH_00007"/>Hrn <hi rend="latintype">Dr. Rich. Beer-Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb50" type="place">Wien</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb730" type="place">III. Seidlgasse 30</rs></hi>. </addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1891_AS_RBH_00008"/><salute>Lieber Richard! </salute><anchor type="commentary" xml:id="KKG16"/><date>So<c rendition="#gemination-n"/>tag</date><note type="commentary" xml:id="KKG16h">Am Sonntag, den 22. 11. 1891, trafen sich <rs ref="#pmb11740" type="person">Hofmannsthal</rs>, <rs ref="#pmb10863" type="person">Beer-Hofmann</rs> und <rs ref="#pmb2167" type="person">Salten</rs> bei Schnitzler.</note><space unit="chars" quantity="1"/><time>Nachmittag 4 Uhr</time> bin ich zu Hau<c rendition="#langesS">s</c>e. <hi rend="latintype"><rs ref="#pmb11740" type="person">Loris</rs></hi> ko<c rendition="#gemination-m"/>t auch. An <hi rend="latintype"><rs ref="#pmb2167" type="person">Salten</rs></hi><space unit="chars" quantity="1"/><c rendition="#langesS">s</c>chreibe ich.</p><closer>Herzlich<c rendition="#langesS">s</c>t Ihr<signed>Arth Schn</signed></closer></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="1891_AS_RBH_00007"/> <graphic url="1891_AS_RBH_00008"/> </facsimile> <text type="card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="1891_AS_RBH_00007"/>Hrn <hi rend="latintype">Dr. Rich. Beer-Hofmann</hi>
+                    </addrLine>
+                    <addrLine>
+                        <hi rend="latintype">
+                            <rs ref="#pmb50" type="place">Wien</rs>
+                        </hi>
+                    </addrLine>
+                    <addrLine>
+                        <hi rend="latintype">
+                            <rs ref="#pmb730" type="place">III. Seidlgasse 30</rs>
+                        </hi>. </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <p>
+                    <pb facs="1891_AS_RBH_00008"/>
+                    <salute>Lieber Richard! </salute>
+                    <anchor type="commentary" xml:id="KKG16"/>
+                    <date>So<c rendition="#gemination-n"/>tag</date>
+                    <note type="commentary" xml:id="KKG16h">Am Sonntag, den 22. 11. 1891, trafen sich <rs ref="#pmb11740" type="person">Hofmannsthal</rs>, <rs ref="#pmb10863" type="person">Beer-Hofmann</rs> und <rs ref="#pmb2167" type="person">Salten</rs> bei Schnitzler.</note>
+                    <space unit="chars" quantity="1"/>
+                    <time>Nachmittag 4 Uhr</time> bin ich zu Hau<c rendition="#langesS">s</c>e. <hi rend="latintype">
+                        <rs ref="#pmb11740" type="person">Loris</rs>
+                    </hi> ko<c rendition="#gemination-m"/>t auch. An <hi rend="latintype">
+                        <rs ref="#pmb2167" type="person">Salten</rs>
+                    </hi>
+                    <space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>chreibe ich.</p>
+                <closer>Herzlich<c rendition="#langesS">s</c>t Ihr<signed>Arth Schn</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

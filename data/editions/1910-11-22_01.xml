@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1910-11-22_01_Bahr_AS"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1910-11-22_01_Bahr_AS"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -106,4 +107,30 @@
          <change who="MAM" when="2019-01-20">Index check</change>
          
       </revisionDesc>
-  </teiHeader> <facsimile> <graphic url="MS-B-00005-B-000-00302"/> <graphic url="MS-B-00005-B-000-00303"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00302"/>Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb63" type="place">Wien XIII</rs></addrLine><addrLine><rs ref="#pmb133" type="place">Spöttelgasse 7</rs></addrLine></address></div><div type="writingSession" n="1"><p>Schönsten Dank für Deinen lieben Brief u. die herzlichsten Grüße an Dich u Deine <rs type="person" ref="#pmb2173" subtype="implied">Frau</rs><unclear>!</unclear></p><closer>Herzlichst <signed>Hermann</signed></closer><postscript><p><date when="1910-11-22">22. 11. 10</date></p></postscript></div></body> </text></TEI>
+  </teiHeader> <facsimile> <graphic url="MS-B-00005-B-000-00302"/> <graphic url="MS-B-00005-B-000-00303"/> </facsimile> <text type="card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="MS-B-00005-B-000-00302"/>Arthur Schnitzler</addrLine>
+                    <addrLine>
+                        <rs ref="#pmb63" type="place">Wien XIII</rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb133" type="place">Spöttelgasse 7</rs>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <p>Schönsten Dank für Deinen lieben Brief u. die herzlichsten Grüße an Dich u Deine <rs type="person" ref="#pmb2173" subtype="implied">Frau</rs>
+                    <unclear>!</unclear>
+                </p>
+                <closer>Herzlichst <signed>Hermann</signed>
+                </closer>
+                <postscript>
+                    <p>
+                        <date when="1910-11-22">22. 11. 10</date>
+                    </p>
+                </postscript>
+            </div>
+        </body> </text>
+</TEI>

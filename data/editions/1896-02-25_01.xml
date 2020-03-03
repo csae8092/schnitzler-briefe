@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-02-25_01_AS_Beer-Hofmann"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-02-25_01_AS_Beer-Hofmann"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -89,4 +90,38 @@
          <change who="MAM" when="2019-10-24">Durchsicht</change>
          <change who="MAM" when="2019-10-24">Index check</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="1895_AS_RBH_3_00027.jpeg"/> <graphic url="1895_AS_RBH_3_00028.jpeg"/> </facsimile> <text type="letter"> <body><div type="address"><address><addrLine><pb facs="1893_AS_RBH_3_00027.jpeg"/>Herrn <hi rend="latintype">Dr. Richard Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I. Wollzeile 15</rs></hi>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline><pb facs="1893_AS_RBH_3_00028.jpeg"/><time>Abend</time>, <date>Dinstag</date>,<lb/><date>25. 2. 96</date>.</dateline><salute>Lieber Richard.</salute></opener><p>Heute erhielt ich die<c rendition="#langesS">s</c>en <anchor type="commentary" xml:id="KLMAM20191024-1"/>Brief<note type="commentary" xml:id="KLMAM20191024-1h"><rs ref="#pmb6294" type="person">Hugo Bettauer</rs> hatte geschrieben, dass es <rs ref="#pmb2450" type="person">Fels</rs> in <rs ref="#pmb484" type="place">Zürich</rs> wieder schlecht gehe. (<bibl><publisher>DLA</publisher>, HS.NZ85.1.2518</bibl>)</note>. Ich habe <space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ofort telegrafi<c rendition="#langesS">s</c>ch 25 fl. angewie<c rendition="#langesS">s</c>en. Wenn Sie können, thun Sie das<c rendition="#langesS">s</c>elbe; nicht wahr?</p><closer>Herzlich der Ihre, <signed>Arthur</signed></closer><postscript><p>Könnte man auch an <rs ref="#pmb11740" type="person">Hugo</rs> herantreten?</p></postscript></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="1895_AS_RBH_3_00027.jpeg"/> <graphic url="1895_AS_RBH_3_00028.jpeg"/> </facsimile> <text type="letter"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="1893_AS_RBH_3_00027.jpeg"/>Herrn <hi rend="latintype">Dr. Richard Beer-Hofmann</hi>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb50" type="place">Wien</rs>
+                    </addrLine>
+                    <addrLine>
+                        <hi rend="latintype">
+                            <rs ref="#pmb338" type="place">I. Wollzeile 15</rs>
+                        </hi>.</addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline>
+                        <pb facs="1893_AS_RBH_3_00028.jpeg"/>
+                        <time>Abend</time>, <date>Dinstag</date>,<lb/>
+                        <date>25. 2. 96</date>.</dateline>
+                    <salute>Lieber Richard.</salute>
+                </opener>
+                <p>Heute erhielt ich die<c rendition="#langesS">s</c>en <anchor type="commentary" xml:id="KLMAM20191024-1"/>Brief<note type="commentary" xml:id="KLMAM20191024-1h">
+                        <rs ref="#pmb6294" type="person">Hugo Bettauer</rs> hatte geschrieben, dass es <rs ref="#pmb2450" type="person">Fels</rs> in <rs ref="#pmb484" type="place">Zürich</rs> wieder schlecht gehe. (<bibl>
+                            <publisher>DLA</publisher>, HS.NZ85.1.2518</bibl>)</note>. Ich habe <space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>ofort telegrafi<c rendition="#langesS">s</c>ch 25 fl. angewie<c rendition="#langesS">s</c>en. Wenn Sie können, thun Sie das<c rendition="#langesS">s</c>elbe; nicht wahr?</p>
+                <closer>Herzlich der Ihre, <signed>Arthur</signed>
+                </closer>
+                <postscript>
+                    <p>Könnte man auch an <rs ref="#pmb11740" type="person">Hugo</rs> herantreten?</p>
+                </postscript>
+            </div>
+        </body> </text>
+</TEI>

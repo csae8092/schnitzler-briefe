@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-07-22_01_Beer-Hofmann_AS"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-07-22_01_Beer-Hofmann_AS"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -105,4 +106,31 @@
          <change who="MAM" when="2019-10-23">Index check</change>
          <change who="GHS" when="2019-10-24">finalisiert</change>
       </revisionDesc>
-   </teiHeader> <text type="telegram"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00165"/><hi rend="latintype">Doktor Arthur</hi></addrLine><addrLine><hi rend="latintype">Schnitzler</hi></addrLine><addrLine><hi rend="latintype">poste restante <rs ref="#pmb40290" type="place">Thiem</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p>Reise heute <rs ref="#pmb30" type="place">Salzburg</rs> ab, über <rs ref="#pmb38129" type="place">München</rs><space unit="chars" quantity="1"/><rs ref="#pmb168" type="place">Berlin</rs> bin <date>25</date><space unit="chars" quantity="1"/><rs ref="#pmb36300" type="place">Kopenhagen</rs> erwarte Nachricht herzlichst</p><closer><signed>Richard</signed></closer></div></body> </text></TEI>
+   </teiHeader> <text type="telegram"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00165"/>
+                        <hi rend="latintype">Doktor Arthur</hi>
+                    </addrLine>
+                    <addrLine>
+                        <hi rend="latintype">Schnitzler</hi>
+                    </addrLine>
+                    <addrLine>
+                        <hi rend="latintype">poste restante <rs ref="#pmb40290" type="place">Thiem</rs>
+                        </hi>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <p>Reise heute <rs ref="#pmb30" type="place">Salzburg</rs> ab, über <rs ref="#pmb38129" type="place">München</rs>
+                    <space unit="chars" quantity="1"/>
+                    <rs ref="#pmb168" type="place">Berlin</rs> bin <date>25</date>
+                    <space unit="chars" quantity="1"/>
+                    <rs ref="#pmb36300" type="place">Kopenhagen</rs> erwarte Nachricht herzlichst</p>
+                <closer>
+                    <signed>Richard</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

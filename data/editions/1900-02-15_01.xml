@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1900-02-15_01_Beer-Hofmann_AS"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1900-02-15_01_Beer-Hofmann_AS"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -106,4 +107,42 @@
          <change who="MAM" when="2020-01-07">Durchsicht</change>
          <change who="MAM" when="2020-01-07">Index check</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00330.jpg"/> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00331.jpg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00330"/><hi rend="pre-print">A</hi>n D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs type="place" ref="#pmb50"/>Wien</addrLine><addrLine><rs ref="#pmb397" type="place">IX Frankgasse 1</rs></addrLine><addrLine><rs ref="#pmb41240" type="place">Austria</rs></addrLine></address></div><div type="writingSession" n="1"><opener><p><seg rend="right"><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00330"/><hi rend="pre-print"><rs type="place" ref="#pmb886">Milano</rs></hi></seg><seg rend="left"><rs type="place" ref="#pmb41022">Pegli</rs><space unit="chars" quantity="1"/><date when="1900-02-15">15/II 1900</date></seg></p></opener><p><salute>Lieber Arthur! </salute>Ich möchte wissen, I. Was Sie machen, II. Wie <rs type="person" ref="#pmb11485">Paul</rs>s Adresse ist. III Ob sein Onkel <rs type="person" ref="#pmb4986">Fedor M.</rs> heißt. IV Ob Sie nach <rs type="place" ref="#pmb40306">Italien</rs> gehen. Ich grüße Sie herzlich</p><closer>Ihr<signed>Richard.</signed></closer></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00330.jpg"/> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00331.jpg"/> </facsimile> <text type="card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00330"/>
+                        <hi rend="pre-print">A</hi>n D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
+                    <addrLine>
+                        <rs type="place" ref="#pmb50"/>Wien</addrLine>
+                    <addrLine>
+                        <rs ref="#pmb397" type="place">IX Frankgasse 1</rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb41240" type="place">Austria</rs>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <p>
+                        <seg rend="right">
+                            <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00330"/>
+                            <hi rend="pre-print">
+                                <rs type="place" ref="#pmb886">Milano</rs>
+                            </hi>
+                        </seg>
+                        <seg rend="left">
+                            <rs type="place" ref="#pmb41022">Pegli</rs>
+                            <space unit="chars" quantity="1"/>
+                            <date when="1900-02-15">15/II 1900</date>
+                        </seg>
+                    </p>
+                </opener>
+                <p>
+                    <salute>Lieber Arthur! </salute>Ich möchte wissen, I. Was Sie machen, II. Wie <rs type="person" ref="#pmb11485">Paul</rs>s Adresse ist. III Ob sein Onkel <rs type="person" ref="#pmb4986">Fedor M.</rs> heißt. IV Ob Sie nach <rs type="place" ref="#pmb40306">Italien</rs> gehen. Ich grüße Sie herzlich</p>
+                <closer>Ihr<signed>Richard.</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

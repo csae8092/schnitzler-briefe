@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1901-10-29_01_Bahr_AS"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1901-10-29_01_Bahr_AS"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -106,4 +107,36 @@
          <change who="GHS" when="2020-01-08">finalisiert</change>
          <change who="MAM" when="2019-01-20">Index check</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="MS-B-00005-B-000-00136"/> <graphic url="MS-B-00005-B-000-00137"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00137"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><rs ref="#pmb59" type="place">Wien IX</rs></addrLine><addrLine><rs ref="#pmb397" type="place">Frankga<c rendition="#langesS">s</c><c rendition="#langesS">s</c>e</rs> 1</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-B-00005-B-000-00136"/><date>29. 10.</date></dateline><salute>Lieber Arthur!</salute></opener><p>Ich glaube, <rs ref="#pmb10883" type="person">Berger</rs> i<c rendition="#langesS">s</c>t <anchor type="commentary" xml:id="KL243-1"/>noch hier<note type="commentary" xml:id="KL243-1h">Am <date>30. 10. 1901</date> kam <rs ref="#pmb10883" type="person">Berger</rs> zu <rs ref="#pmb2121" type="person">Schnitzler</rs>.</note>; Du kann<c rendition="#langesS">s</c>t es, da er Telephon hat,<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ofort erfahren.</p><p>– <rs ref="#pmb29853" type="work"><hi rend="latintype">Gustl</hi></rs> – <rs ref="#pmb2185" type="person">Guttmann</rs> i<c rendition="#langesS">s</c>t echt. Es gibt nur ein <rs ref="#pmb50" type="place">Wien</rs>, be<c rendition="#langesS">s</c>onders für Dichter.</p><closer>Herzlich<c rendition="#langesS">s</c>t<lb/>Dein<lb/><signed>HermannBahr</signed></closer></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="MS-B-00005-B-000-00136"/> <graphic url="MS-B-00005-B-000-00137"/> </facsimile> <text type="card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="MS-B-00005-B-000-00137"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb59" type="place">Wien IX</rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb397" type="place">Frankga<c rendition="#langesS">s</c>
+                            <c rendition="#langesS">s</c>e</rs> 1</addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <pb facs="MS-B-00005-B-000-00136"/>
+                        <date>29. 10.</date>
+                    </dateline>
+                    <salute>Lieber Arthur!</salute>
+                </opener>
+                <p>Ich glaube, <rs ref="#pmb10883" type="person">Berger</rs> i<c rendition="#langesS">s</c>t <anchor type="commentary" xml:id="KL243-1"/>noch hier<note type="commentary" xml:id="KL243-1h">Am <date>30. 10. 1901</date> kam <rs ref="#pmb10883" type="person">Berger</rs> zu <rs ref="#pmb2121" type="person">Schnitzler</rs>.</note>; Du kann<c rendition="#langesS">s</c>t es, da er Telephon hat,<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>ofort erfahren.</p>
+                <p>– <rs ref="#pmb29853" type="work">
+                        <hi rend="latintype">Gustl</hi>
+                    </rs> – <rs ref="#pmb2185" type="person">Guttmann</rs> i<c rendition="#langesS">s</c>t echt. Es gibt nur ein <rs ref="#pmb50" type="place">Wien</rs>, be<c rendition="#langesS">s</c>onders für Dichter.</p>
+                <closer>Herzlich<c rendition="#langesS">s</c>t<lb/>Dein<lb/>
+                    <signed>HermannBahr</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

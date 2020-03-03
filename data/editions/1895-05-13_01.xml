@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-05-13_01_AS_Beer-Hofmann"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-05-13_01_AS_Beer-Hofmann"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -89,4 +90,36 @@
          <change who="MAM" when="2019-10-17">Durchsicht</change>
          <change who="MAM" when="2019-10-17">Index check</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="1895_AS_RBH_1_00021.jpeg"/> <graphic url="1895_AS_RBH_1_00022.jpeg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="1895_AS_RBH_1_00021.jpeg"/>Hrn <hi rend="latintype">Dr. Richard Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I. Wollzeile 15</rs></hi>.</addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs="1895_AS_RBH_1_00022.jpeg"/>Lieber Richard, </salute></opener><p>Ich bin <subst><del rend="overwritten">zu mittg</del><add place="inline">nach</add></subst><space unit="chars" quantity="1"/><time>12’</time> mit <rs ref="#pmb9089" type="person"><hi rend="latintype">N</hi></rs> bei Ihnen.</p><p>Herzlich Ihr <signed>Arth</signed></p></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="1895_AS_RBH_1_00021.jpeg"/> <graphic url="1895_AS_RBH_1_00022.jpeg"/> </facsimile> <text type="card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="1895_AS_RBH_1_00021.jpeg"/>Hrn <hi rend="latintype">Dr. Richard Beer-Hofmann</hi>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb50" type="place">Wien</rs>
+                    </addrLine>
+                    <addrLine>
+                        <hi rend="latintype">
+                            <rs ref="#pmb338" type="place">I. Wollzeile 15</rs>
+                        </hi>.</addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <salute>
+                        <pb facs="1895_AS_RBH_1_00022.jpeg"/>Lieber Richard, </salute>
+                </opener>
+                <p>Ich bin <subst>
+                        <del rend="overwritten">zu mittg</del>
+                        <add place="inline">nach</add>
+                    </subst>
+                    <space unit="chars" quantity="1"/>
+                    <time>12’</time> mit <rs ref="#pmb9089" type="person">
+                        <hi rend="latintype">N</hi>
+                    </rs> bei Ihnen.</p>
+                <p>Herzlich Ihr <signed>Arth</signed>
+                </p>
+            </div>
+        </body> </text>
+</TEI>

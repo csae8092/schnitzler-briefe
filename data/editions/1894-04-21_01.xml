@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-04-21_01_Bahr_AS"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-04-21_01_Bahr_AS"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -102,8 +103,45 @@
          <change who="KI MAM" when="2015-12-01">Kollationiert</change>
          <change who="KI MAM" when="2017-05-22">Kollationiert</change>
          <change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
-         <change who="GHS" when="2019-02-26"><c rendition="#langesS">s</c>, @facs, Nummerierungen, Seitenzahlen ergänzt</change>
+         <change who="GHS" when="2019-02-26">
+                <c rendition="#langesS">s</c>, @facs, Nummerierungen, Seitenzahlen ergänzt</change>
          <change who="GHS" when="2019-10-05">finalisiert</change>
          <change who="MAM" when="2019-01-20">Index check</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="MS-B-00005-B-000-00031"/> <graphic url="MS-B-00005-B-000-00032"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00031"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine>Schriftsteller</addrLine><addrLine><rs ref="#pmb51" type="place"><hi rend="latintype">Wien</hi> I</rs></addrLine><addrLine><rs ref="#pmb397" type="place"><hi rend="latintype">Frankgasse</hi> 1</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-B-00005-B-000-00032"/><date><hi rend="latintype">Samstag</hi></date></dateline><salute>Lieber Arthur!</salute></opener><p>Ich bin al<c rendition="#langesS">s</c>o morgen <time><hi rend="underline" n="1">vor ¾ 10</hi></time> auf der <rs ref="#pmb41943" type="org">Südbahn</rs>.</p><closer>Herzlich<c rendition="#langesS">s</c>t<lb/>Dein<lb/><signed>Bahr</signed></closer></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="MS-B-00005-B-000-00031"/> <graphic url="MS-B-00005-B-000-00032"/> </facsimile> <text type="card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="MS-B-00005-B-000-00031"/>
+                        <hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi>
+                    </addrLine>
+                    <addrLine>Schriftsteller</addrLine>
+                    <addrLine>
+                        <rs ref="#pmb51" type="place">
+                            <hi rend="latintype">Wien</hi> I</rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb397" type="place">
+                            <hi rend="latintype">Frankgasse</hi> 1</rs>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <pb facs="MS-B-00005-B-000-00032"/>
+                        <date>
+                            <hi rend="latintype">Samstag</hi>
+                        </date>
+                    </dateline>
+                    <salute>Lieber Arthur!</salute>
+                </opener>
+                <p>Ich bin al<c rendition="#langesS">s</c>o morgen <time>
+                        <hi rend="underline" n="1">vor ¾ 10</hi>
+                    </time> auf der <rs ref="#pmb41943" type="org">Südbahn</rs>.</p>
+                <closer>Herzlich<c rendition="#langesS">s</c>t<lb/>Dein<lb/>
+                    <signed>Bahr</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

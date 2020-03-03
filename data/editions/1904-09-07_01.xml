@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1904-09-07_01_AS-OS-Hofmannsthal-Hofmannsthal-Burckhard-Hofmannsthal_Bahr"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1904-09-07_01_AS-OS-Hofmannsthal-Hofmannsthal-Burckhard-Hofmannsthal_Bahr"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -118,4 +119,61 @@
          <change who="MAM" when="2018-10-01">Durchsicht, s, langes s</change>
          <change who="GHS" when="2020-01-24">finalisiert</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="HS_AM61743Ba.jpg"/> <graphic url="HS_AM61743Ba_R.jpg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="HS_AM61743Ba_R"/><hi rend="latintype">Hermann Bahr</hi></addrLine><addrLine><subst><del rend="strikethrough"><hi rend="latintype">Wien</hi></del><add place="margin"><hi rend="latintype">Wien XIII<hi rend="subscript">7</hi></hi></add></subst><space unit="chars" quantity="1"/><rs ref="#pmb165" type="place">Ob St Veit</rs></addrLine><addrLine><rs ref="#pmb220" type="place">Veitli<c rendition="#langesS">s</c><c rendition="#langesS">s</c>enga<c rendition="#langesS">s</c><c rendition="#langesS">s</c>e</rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="HS_AM61743Ba"/>Herzlichen Gruß <signed>Arthur</signed></p><p><handShift scribe="#pmb2173"/><signed>Olga S.</signed></p><p><handShift scribe="#pmb11737"/><signed>D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/>Hofmannsthal sen.</signed></p><p><handShift scribe="#pmb11740"/><signed>Hugo</signed></p><p><handShift scribe="#pmb2121"/><date when="1904-09-07">7. 9. 904.</date></p><p><handShift scribe="#pmb11036"/>Herzlich<c rendition="#langesS">s</c>t <signed>Burckhard</signed></p><p><handShift scribe="#pmb2292"/><signed>Gerty</signed></p></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="HS_AM61743Ba.jpg"/> <graphic url="HS_AM61743Ba_R.jpg"/> </facsimile> <text type="card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="HS_AM61743Ba_R"/>
+                        <hi rend="latintype">Hermann Bahr</hi>
+                    </addrLine>
+                    <addrLine>
+                        <subst>
+                            <del rend="strikethrough">
+                                <hi rend="latintype">Wien</hi>
+                            </del>
+                            <add place="margin">
+                                <hi rend="latintype">Wien XIII<hi rend="subscript">7</hi>
+                                </hi>
+                            </add>
+                        </subst>
+                        <space unit="chars" quantity="1"/>
+                        <rs ref="#pmb165" type="place">Ob St Veit</rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb220" type="place">Veitli<c rendition="#langesS">s</c>
+                            <c rendition="#langesS">s</c>enga<c rendition="#langesS">s</c>
+                            <c rendition="#langesS">s</c>e</rs>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <p>
+                    <pb facs="HS_AM61743Ba"/>Herzlichen Gruß <signed>Arthur</signed>
+                </p>
+                <p>
+                    <handShift scribe="#pmb2173"/>
+                    <signed>Olga S.</signed>
+                </p>
+                <p>
+                    <handShift scribe="#pmb11737"/>
+                    <signed>D<hi rend="superscript">r</hi>
+                        <space unit="chars" quantity="1"/>Hofmannsthal sen.</signed>
+                </p>
+                <p>
+                    <handShift scribe="#pmb11740"/>
+                    <signed>Hugo</signed>
+                </p>
+                <p>
+                    <handShift scribe="#pmb2121"/>
+                    <date when="1904-09-07">7. 9. 904.</date>
+                </p>
+                <p>
+                    <handShift scribe="#pmb11036"/>Herzlich<c rendition="#langesS">s</c>t <signed>Burckhard</signed>
+                </p>
+                <p>
+                    <handShift scribe="#pmb2292"/>
+                    <signed>Gerty</signed>
+                </p>
+            </div>
+        </body> </text>
+</TEI>

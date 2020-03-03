@@ -75,7 +75,7 @@
                 </div>
             </div>
             <xsl:choose>
-                <xsl:when test="descendant::tei:pb/@facs and not(starts-with(descendant::tei:pb[1]/@facs, 'http'))">
+                <xsl:when test="descendant::tei:pb/@facs and not(starts-with(descendant::tei:pb[1]/@facs, 'http')) and not(contains(descendant::tei:pb[1]/@facs, '.pdf'))">
             <div class="card-body-critical">
                 <div class="card-body-text">
                     <br/>
@@ -777,9 +777,7 @@
     </xsl:template>
     <xsl:template match="tei:pb">
         <xsl:choose>
-            <xsl:when test="@facs">
-            <xsl:choose>
-                <xsl:when test="starts-with(./@facs, 'http')">
+            <xsl:when test="starts-with(./@facs, 'http')">
                     <xsl:element name="a">
                         <xsl:attribute name="href">
                             <xsl:value-of select="./@facs"/>
@@ -787,21 +785,15 @@
                         <xsl:attribute name="target">
                             <xsl:text>_blank</xsl:text>
                         </xsl:attribute>
-                        <xsl:text>|</xsl:text>
+                        <i class="fas fa-external-link-alt"/>
                     </xsl:element>
                 </xsl:when>
                 <xsl:otherwise>
                     <span class="pagebreak" title="Seitenbeginn">
                                 <xsl:text>*</xsl:text>
                             </span>
-                    
                 </xsl:otherwise>
             </xsl:choose>
-            </xsl:when>
-            <xsl:otherwise>
-                <span class="steuerzeichenUnten">|</span>
-            </xsl:otherwise>
-        </xsl:choose>
     </xsl:template>
     
     

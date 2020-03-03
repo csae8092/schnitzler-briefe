@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1907-05-18_01_AS_Bahr"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1907-05-18_01_AS_Bahr"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -126,4 +127,48 @@
          <change who="MAM" when="2019-01-20">Index check</change>
          
       </revisionDesc>
-  </teiHeader> <facsimile>  <graphic url="HS_AM60173Ba"/> <graphic url="HS_AM60173Ba_R"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="HS_AM60173Ba"/><hi rend="latintype">Herrn Hermann Bahr,</hi></addrLine><addrLine><rs ref="#pmb165" type="place">Wien Ober St. Veit</rs></addrLine><addrLine><rs ref="#pmb220" type="place">Veitlissengasse.</rs></addrLine></address></div><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs=""/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></seg><seg rend="right"><date>18. 5. 907</date></seg></p><p><hi rend="pre-print"><rs ref="#pmb133" type="place">Wien XVIII. Spoettelgasse 7</rs>.</hi></p></opener><p><salute>lieber Hermann; </salute><rs type="work" ref="#pmb30011" subtype="implied">Band 1</rs> mit Dank erhalten. (Du hast doch hoffentlich <rs type="work" ref="#pmb30011" subtype="implied">Band 2</rs>, den ich dir noch vor deiner Abreise <hi rend="latintype">per</hi> Post nach <hi rend="latintype"><rs ref="#pmb165" type="place">Ob St Veit</rs></hi> senden liess<subst><del rend="strikethrough">)</del><add place="inline">,</add></subst> richtig erhalten?)</p><p>Kann ich nächstens einmal vormittag zu dir hinaus kommen?</p><closer>herzlichst dein <signed>Arthur.</signed></closer></div></body> </text></TEI>
+  </teiHeader> <facsimile>  <graphic url="HS_AM60173Ba"/> <graphic url="HS_AM60173Ba_R"/> </facsimile> <text type="card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="HS_AM60173Ba"/>
+                        <hi rend="latintype">Herrn Hermann Bahr,</hi>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb165" type="place">Wien Ober St. Veit</rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb220" type="place">Veitlissengasse.</rs>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <p>
+                        <seg rend="left">
+                            <pb facs=""/>
+                            <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
+                        </seg>
+                        <seg rend="right">
+                            <date>18. 5. 907</date>
+                        </seg>
+                    </p>
+                    <p>
+                        <hi rend="pre-print">
+                            <rs ref="#pmb133" type="place">Wien XVIII. Spoettelgasse 7</rs>.</hi>
+                    </p>
+                </opener>
+                <p>
+                    <salute>lieber Hermann; </salute>
+                    <rs type="work" ref="#pmb30011" subtype="implied">Band 1</rs> mit Dank erhalten. (Du hast doch hoffentlich <rs type="work" ref="#pmb30011" subtype="implied">Band 2</rs>, den ich dir noch vor deiner Abreise <hi rend="latintype">per</hi> Post nach <hi rend="latintype">
+                        <rs ref="#pmb165" type="place">Ob St Veit</rs>
+                    </hi> senden liess<subst>
+                        <del rend="strikethrough">)</del>
+                        <add place="inline">,</add>
+                    </subst> richtig erhalten?)</p>
+                <p>Kann ich nächstens einmal vormittag zu dir hinaus kommen?</p>
+                <closer>herzlichst dein <signed>Arthur.</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>
