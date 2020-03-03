@@ -600,12 +600,12 @@ declare function app:toc_correspondence($node as node(), $model as map(*)) {
         else $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notAfter/string() return
         let $link2doc := if ($collection)
             then
-                <a href="{app:hrefToDoc($title, $collection)}">{$date}</a>
+                <a href="{app:hrefToDoc($title, $collection)}">{$title_a}</a>
             else
-                <a href="{app:hrefToDoc($title)}">{$date}</a>
+                <a href="{app:hrefToDoc($title)}">{$title_a}</a>
         return
         <tr>
-        <td><span style='display: none;'>{$date}</span><a href="{$link2doc}">{$title_a}</a></td>
+        <td><span style='display: none;'>{$date}</span>{$link2doc}</td>
         </tr>
    
   
