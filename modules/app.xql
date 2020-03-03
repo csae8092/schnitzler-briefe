@@ -737,15 +737,14 @@ declare function app:toc_correspDesc_received($node as node(), $model as map(*))
         let $place := $title//tei:correspDesc/tei:correspAction[@type='received']/tei:placeName
         let $link2doc := if ($collection)
             then
-                <a href="{app:hrefToDoc($title, $collection)}">{$date_sent}</a>
+                <a href="{app:hrefToDoc($title, $collection)}">{$date_sent_ISO}</a>
             else
-                <a href="{app:hrefToDoc($title)}">{$date_sent}</a>
+                <a href="{app:hrefToDoc($title)}">{$date_sent_ISO}</a>
         return
         <tr>
-         <td>{for $pers in $received_pers return <div><span style='display: none;'>{$date_sent_ISO}</span>{$pers/text()}</div>}</td>
-                    <td>{$link2doc}</td>
+         <td>{for $pers in $received_pers return <div><span style='display: none;'>{$date_received_ISO}{$date_sent_ISO}</span>{$pers/text()}</div>}</td>
 
-           <td>{$date_sent_ISO}</td>
+           <td>{$link2doc}</td>
            <td>{$date_received}</td>
            <td>{$date_received_ISO}</td>
            <td>{$place}</td>
