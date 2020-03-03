@@ -86,7 +86,6 @@
                 </div>
             </div>
                 <div class="card-body">
-                    <hr width="75%"/>
                     <xsl:variable name="datum">
                         <xsl:choose>
                             <xsl:when test="//tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@when">
@@ -109,17 +108,9 @@
                                     </a>
                                     <div class="dropdown-menu">
                                         <a class="dropdown-item" href="{concat('show.html?document=',$document,'&amp;stylesheet=plain')}">
-                                            <i title="Plain Text" class="fas fa-book-reader"/>
-                                            LESEANSICHT</a>
-                                        <a class="dropdown-item" href="{concat('show.html?document=',$document,'&amp;stylesheet=links')}">
-                                            <i title="With Links" class="fas fa-palette"/>
-                                            SICHTBARE LINKS</a>
-                                        
-                                        
+                                            <i title="Plain Text" class="fas fa-book-reader"/> LESEN</a>
                                         <a class="dropdown-item" href="{concat('show.html?document=',$document,'&amp;stylesheet=critical')}">
-                                            <i title="Critical Edition" class="fas fa-glasses"/>
-                                            TEXTKRITISCH</a>
-                                        
+                                            <i title="Critical Edition" class="fas fa-glasses"/> KRITISCH</a>
                                         <a class="dropdown-item" href="{$path2source}">
                                             <i class="far fa-file-code"/> TEI-XML</a>
                                     </div>
@@ -185,13 +176,12 @@
                             </ul>
                         </div>
                     </nav>
-                    <hr width="75%"/>
                 </div>
-                <div class="card-footer">
-                    <dl class="kommentarhang">
-                        <xsl:apply-templates select="//tei:anchor[@type = 'textConst'] | //tei:note[@type = 'textConst'] | //tei:anchor[@type = 'commentary'] | //tei:note[@type = 'commentary']" mode="lemma"/>
-                    </dl>
-                </div>
+        </div>
+            <div class="card-body-anhang">
+                <dl class="kommentarhang">
+                    <xsl:apply-templates select="//tei:anchor[@type = 'textConst'] | //tei:note[@type = 'textConst'] | //tei:anchor[@type = 'commentary'] | //tei:note[@type = 'commentary']" mode="lemma"/>
+                </dl>
             </div>
         
             <div class="row">

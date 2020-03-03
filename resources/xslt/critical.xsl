@@ -30,7 +30,7 @@
         <xsl:value-of select="//tei:publicationStmt//tei:idno[@type = 'URI']/text()"/>
     </xsl:variable>
     <xsl:variable name="current-view" select="'critical'"/>
-    <xsl:variable name="current-view-deutsch" select="'Textkritisch'"/>
+    <xsl:variable name="current-view-deutsch" select="'Kritisch'"/>
     <!--
 ##################################
 ### Seitenlayout und -struktur ###
@@ -119,13 +119,12 @@
             </div>
                 </xsl:when>
                 <xsl:otherwise>
-                    <div class="card-body">
+                    <div class="card-body-normalertext">
                         <xsl:apply-templates select="//tei:text"/>
                     </div>
                 </xsl:otherwise>
             </xsl:choose>
             <div class="card-body">
-                <hr width="75%"/>
                 <div>
                     <xsl:variable name="datum">
                         <xsl:choose>
@@ -149,17 +148,9 @@
                                 </a>
                                 <div class="dropdown-menu">
                                     <a class="dropdown-item" href="{concat('show.html?document=',$document,'&amp;stylesheet=plain')}">
-                                            <i title="Plain Text" class="fas fa-book-reader"/>
-                                        LESEANSICHT</a>
+                                        <i title="Plain Text" class="fas fa-book-reader"/> LESEN</a>
                                     <a class="dropdown-item" href="{concat('show.html?document=',$document,'&amp;stylesheet=links')}">
-                                        <i title="With Links" class="fas fa-palette"/>
-                                        SICHTBARE LINKS</a>
-                                    
-                                    
-                                    <a class="dropdown-item" href="{concat('show.html?document=',$document,'&amp;stylesheet=critical')}">
-                                        <i title="Critical Edition" class="fas fa-glasses"/>
-                                        TEXTKRITISCH</a>
-                                    
+                                        <i title="With Links" class="fas fa-palette"/> LINKS</a>
                                     <a class="dropdown-item" href="{$path2source}">
                                             <i class="far fa-file-code"/> TEI-XML</a>
                                 </div>
@@ -225,20 +216,13 @@
                         </ul>
                     </div>
                     </nav>
-                    <hr width="75%"/>
-                   <!-- <p>
-                        <input type="range" min="1" max="{$amount}" value="{$currentIx}" data-rangeslider="" style="width:100%;"/>
-                        <a id="output" class="btn btn-main btn-outline-primary btn-sm" href="show.html?document=entry__1889-08-02_01_Mamroth_AS.xml&amp;directory=editions" role="button">Gehe zu</a>
-                    </p>-->
-                    
-                    <!-- navigation in specific correspondence end -->
                 </div>
-                <div class="card-footer">
-                    <dl class="kommentarhang">
-                        <xsl:apply-templates select="//tei:anchor[@type = 'textConst'] | //tei:note[@type = 'textConst'] | //tei:anchor[@type = 'commentary'] | //tei:note[@type = 'commentary']" mode="lemma"/>
-                    </dl>
-                </div>
-                
+            </div>
+            
+            <div class="card-body-anhang">
+                <dl class="kommentarhang">
+                    <xsl:apply-templates select="//tei:anchor[@type = 'textConst'] | //tei:note[@type = 'textConst'] | //tei:anchor[@type = 'commentary'] | //tei:note[@type = 'commentary']" mode="lemma"/>
+                </dl>
             </div>
             <div class="row">
                 <div class="col-md-2" style="flex: 0 0 50%; max-width: 50%;">

@@ -30,7 +30,7 @@
         <xsl:value-of select="//tei:publicationStmt//tei:idno[@type = 'URI']/text()"/>
     </xsl:variable>
     <xsl:variable name="current-view" select="'plain'"/>
-    <xsl:variable name="current-view-deutsch" select="'einfach'"/>
+    <xsl:variable name="current-view-deutsch" select="'Simpel'"/>
     <!--
 ##################################
 ### Seitenlayout und -struktur ###
@@ -84,7 +84,6 @@
                     </xsl:element>
             </div>
                 <div class="card-body">
-                    <hr width="75%"/>
                     <xsl:variable name="datum">
                         <xsl:choose>
                             <xsl:when test="//tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@when">
@@ -106,15 +105,10 @@
                                         <i title="Critical Edition" class="fas fa-glasses"/> ANSICHT
                                             (<xsl:value-of select="$current-view-deutsch"/>) </a>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="{concat('show.html?document=',$document,'&amp;stylesheet=plain')}">
-                                            <i title="Plain Text" class="fas fa-book-reader"/>
-                                            LESEANSICHT</a>
                                         <a class="dropdown-item" href="{concat('show.html?document=',$document,'&amp;stylesheet=links')}">
-                                            <i title="With Links" class="fas fa-palette"/> SICHTBARE
-                                            LINKS</a>
+                                            <i title="With Links" class="fas fa-palette"/> LINKS</a>
                                         <a class="dropdown-item" href="{concat('show.html?document=',$document,'&amp;stylesheet=critical')}">
-                                            <i title="Critical Edition" class="fas fa-glasses"/>
-                                            TEXTKRITISCH</a>
+                                            <i title="Critical Edition" class="fas fa-glasses"/> KRITISCH</a>
                                         <a class="dropdown-item" href="{$path2source}">
                                             <i class="far fa-file-code"/> TEI-XML</a>
                                     </div>
@@ -157,27 +151,7 @@
                                         <i class="fas fa-external-link-alt"/> TAGEBUCH<!--</span>-->
                                     </a>
                                 </li>
-                                <!--<xsl:if test="//tei:facsimile/tei:graphic">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link" title="Faksimile zu diesem Eintrag" data-toggle="modal" data-target="#exampleModal">
-                                            <i class="far fa-eye"/>
-                                            <xsl:text> FAKSIMILE</xsl:text>
-                                        </a>    
-                                    </li>
-                                </xsl:if>-->
-                                <xsl:variable name="datum">
-                                    <xsl:choose>
-                                        <xsl:when test="//tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@when">
-                                            <xsl:value-of select="//tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@when"/>
-                                        </xsl:when>
-                                        <xsl:when test="//tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@notBefore">
-                                            <xsl:value-of select="//tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@notBefore"/>
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <xsl:value-of select="//tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@notAfter"/>
-                                        </xsl:otherwise>
-                                    </xsl:choose>
-                                </xsl:variable>
+                               
                                 <li class="nav-item dropdown">
                                     <span class="nav-link">
                                         <div id="csLink" data-correspondent-1-name="" data-correspondent-1-id="all" data-correspondent-2-name="" data-correspondent-2-id="" data-start-date="{$datum}" data-end-date="" data-range="50" data-selection-when="before-after" data-selection-span="median-before-after" data-result-max="4" data-exclude-edition=""> </div>
@@ -186,15 +160,9 @@
                             </ul>
                         </div>
                     </nav>
-                    <hr width="75%"/>
-                    <!-- <p>
-                        <input type="range" min="1" max="{$amount}" value="{$currentIx}" data-rangeslider="" style="width:100%;"/>
-                        <a id="output" class="btn btn-main btn-outline-primary btn-sm" href="show.html?document=entry__1889-08-02_01_Mamroth_AS.xml&amp;directory=editions" role="button">Gehe zu</a>
-                    </p>-->
-                    <!-- navigation in specific correspondence end -->
                 </div>
         </div>
-                <div class="card-footer">
+        <div class="card-body-anhang">
                     <dl class="kommentarhang">
                         <xsl:apply-templates select="//tei:anchor[@type = 'textConst'] | //tei:note[@type = 'textConst'] | //tei:anchor[@type = 'commentary'] | //tei:note[@type = 'commentary']" mode="lemma"/>
                     </dl>

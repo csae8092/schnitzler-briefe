@@ -182,8 +182,16 @@ ol.list-for-footnotes p {
     display: inline;
 }
 
-.kommentarhang{ background-color: white;
-color: black;}
+.kommentarhang{
+background-color: white;
+color: black;
+width: 750px;}
+
+@media only screen and (max-width: 767px){
+  kommentarhang{
+    width: 100%;        
+  }
+ }
 
 .menu-div {
     width: 100%;
@@ -193,6 +201,14 @@ color: black;}
 .card-body-normalertext {
 max-width: 750px;
 margin: 0 auto;
+}
+
+.card-body-anhang {
+display: block;
+max-width: 750px;
+margin: 0 auto;
+padding-top: 40px;
+padding-bottom: 70px;
 }
 
 .card-body {
@@ -239,7 +255,8 @@ margin: 0 auto;
                 padding-top: 15px;
                 padding-bottom: 25px;}
                 
-h2 {font-size: 20pt;}
+h2 {font-size: 20pt; 
+padding-bottom: 20pt;}
 h1 {font-size: 20pt;}
                 
 .card-header{background: white;}

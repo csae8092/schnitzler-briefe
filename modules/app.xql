@@ -607,9 +607,6 @@ declare function app:toc_correspondence($node as node(), $model as map(*)) {
         <tr>
         <td><span style='display: none;'>{$date}</span>{$link2doc}</td>
         </tr>
-   
-  
-   
 };
 
 (:~
