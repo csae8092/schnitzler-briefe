@@ -671,7 +671,7 @@
     </xsl:template>
     
     <xsl:template match="tei:gap[@reason = 'outOfScope']">
-        <div class="outOfScope">[…]</div>
+        <span class="outOfScope">[…]</span>
     </xsl:template>
     
     <xsl:template match="tei:p[child::tei:space[@dim] and not(child::*[2]) and empty(text())]">

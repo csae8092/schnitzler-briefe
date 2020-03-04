@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1901-07-27_01_Beer-Hofmann-Beer-Hofmann-Goldmann_AS"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1901-07-27_01_Beer-Hofmann-Beer-Hofmann-Goldmann_AS"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -52,7 +51,7 @@
                         <repository>University Library</repository>
                         <idno>Schnitzler, B 8</idno>
                      </msIdentifier>
-                     <physDesc>             <p>eh. Bildpostkarte, Bleistift; Lateinschrift. Motiv: »Insel-Hotel. <rs type="place" ref="#pmb43414">Schwelle</rs> am <rs ref="#pmb605" type="place">Faakersee</rs>«. Von Schnitzler mit Bleistift datiert: »<quote>              <date>2/8 901</date>             </quote>«. Von unbekannter Hand mit Bleistift nummeriert:              »<quote>166</quote>«.</p>             <stamp n="1">              <placeName ref="#pmb43416">Föderlach</placeName>              <date when="1901-08-02">2 8 01</date>             </stamp>             <stamp n="1">              <placeName ref="#pmb605">Faakersee Insel</placeName>             </stamp>             <stamp n="3">              <placeName ref="#pmb946">                <supplied>Vahrn</supplied>              </placeName>             </stamp>           </physDesc>
+                     <physDesc>             <p>eh. Bildpostkarte, 3 Verf., Bleistift; Lateinschrift. Motiv: »<quote>Insel-Hotel. <rs type="place" ref="#pmb43414">Schwelle</rs> am <rs ref="#pmb605" type="place">Faakersee</rs></quote>«. Von Schnitzler mit Bleistift datiert: »<quote>              <date>2/8 901</date>             </quote>«. Von unbekannter Hand mit Bleistift nummeriert:              »<quote>166</quote>«.</p>             <stamp n="1">              <placeName ref="#pmb43416">Föderlach</placeName>              <date when="1901-08-02">2 8 <unclear>01</unclear></date>             </stamp>             <stamp n="1">              <placeName ref="#pmb605">Faa<unclear>kersee</unclear> Insel</placeName>             </stamp>             <stamp n="3">              <placeName ref="#pmb946">                <supplied>Vahr</supplied><unclear>n</unclear>              </placeName>              <date when="1901-08-03">3 <supplied>8 1901</supplied></date>             </stamp>           </physDesc>
                   </msDesc>
                </witness>
             </listWit>
@@ -90,33 +89,9 @@
             </ab>
          </refsDecl>
       </encodingDesc>
-      <revisionDesc status="proposed">
+      <revisionDesc status="approved">
          <change who="GHS" when="2020-01-21">angelegt aus Faksimile</change>
+         <change who="MAM" when="2020-02-25">Durchsicht</change>
+         <change who="MAM" when="2020-02-25">Index check</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-0008-B-00002-000-00013.jpg"/> <graphic url="MS-SCHNITZLER-B-0008-B-00002-000-00014.jpg"/> </facsimile> <text type="card"> <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="MS-SCHNITZLER-B-0008-B-00002-000-00013"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
-                    <addrLine>
-                        <rs ref="#pmb946" type="place">Vahrn</rs>
-                    </addrLine>
-                    <addrLine>bei <rs ref="#pmb43040" type="place">Brixen</rs>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <p>Herzliche Grüße von</p>
-                <p>
-                    <handShift scribe="#pmb10860"/>
-                    <signed>Paula</signed>
-                    <lb/>
-                    <handShift scribe="#pmb10863"/>
-                    <signed>Richard</signed>
-                    <lb/>
-                    <handShift scribe="#pmb11485"/>
-                    <signed>Paul Goldmann</signed>
-                </p>
-            </div>
-        </body> </text>
-</TEI>
+   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-0008-B-00002-000-00013.jpg"/> <graphic url="MS-SCHNITZLER-B-0008-B-00002-000-00014.jpg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00002-000-00013"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb946" type="place">Vahrn</rs></addrLine><addrLine>bei <rs ref="#pmb43040" type="place">Brixen</rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-0008-B-00002-000-00014"/>Herzliche Grüße von</p><closer><signed>Richard</signed><lb/><handShift scribe="#pmb10860"/><signed>Paula</signed><lb/><handShift scribe="#pmb11485"/><signed>Paul Goldmann</signed></closer></div></body> </text></TEI>

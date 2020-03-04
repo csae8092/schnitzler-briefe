@@ -90,7 +90,7 @@
                 </div>
                 <div class="card-body-iif">
                     <xsl:variable name="url-of-facsimile">
-                        <xsl:for-each select="descendant::tei:pb[not(starts-with(@facs, 'http'))]/@facs">
+                        <xsl:for-each select="descendant::tei:pb[not(starts-with(@facs, 'http')) and not(preceding-sibling::tei:tp/@facs = @facs)]/@facs">
                             <xsl:text>"https://iiif.acdh.oeaw.ac.at/schnitzler-briefe/</xsl:text>
                             <xsl:value-of select="."/>
                             <xsl:text>/info.json"</xsl:text>
