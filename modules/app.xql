@@ -248,12 +248,13 @@ for $title in ($entities, $terms)
 declare function app:listPers($node as node(), $model as map(*)) {
     let $hitHtml := "hits.html?searchkey="
     for $person in doc($app:personIndex)//tei:listPerson/tei:person
-    let $gnd := $person/tei:note/tei:p[3]/text()
+    return
+    (:let $gnd := $person/tei:note/tei:p[3]/text()
     let $gnd_link := if ($gnd != "no gnd provided") then
         <a href="{$gnd}">{$gnd}</a>
         else
         "-"
-        return
+        return:)
         <tr>
             <td>
                 <a href="{concat($hitHtml,data($person/@xml:id))}">{$person/tei:persName/tei:surname}</a>
@@ -262,7 +263,10 @@ declare function app:listPers($node as node(), $model as map(*)) {
                 {$person/tei:persName/tei:forename}
             </td>
             <td>
-                {$gnd_link}
+                {$person/tei:birth/tei:date}
+            </td>
+            <td>
+                {$person/tei:death/tei:date}
             </td>
         </tr>
 };
@@ -596,9 +600,7 @@ declare function app:toc($node as node(), $model as map(*)) {
         <tr>
         
            <td>{$link2doc}</td>
-            <td>
-                {$title_a}
-            </td>
+            <td>{$title_a}</td>
         </tr>
 };
 
