@@ -864,12 +864,7 @@
         <br/>
     </xsl:template>
     
-    <xsl:template match="tei:div[@type='address']">
-        <div class="address-div">
-            <xsl:apply-templates/>
-        </div>
-        <br/>
-    </xsl:template>
+   
     
     <xsl:template match="tei:address">
         <div class="column">
