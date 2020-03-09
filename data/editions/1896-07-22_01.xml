@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-07-22_01_Beer-Hofmann_AS"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-07-22_01_Beer-Hofmann_AS"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -48,7 +49,26 @@
                         <repository>University Library</repository>
                         <idno>Schnitzler, B 8</idno>
                      </msIdentifier>
-                     <physDesc>             <p>hs. Telegramm, Lateinschrift: »<quote><hi rend="pre-print"><hi rend="bold">Optaget</hi>                 fra</hi> 39 <hi rend="pre-print">den</hi><space unit="chars" quantity="1"/><date>21<hi rend="pre-print">/</hi>7</date><space unit="chars" quantity="1"/>4,45 <hi rend="pre-print">midd.                 af</hi><space unit="chars" quantity="1"/><unclear>M</unclear></quote>« bzw. »<quote><hi rend="pre-print">Telegram fra</hi><space unit="chars" quantity="1"/><rs ref="#pmb30" type="place">Salzburg</rs><space unit="chars" quantity="1"/><hi rend="pre-print">No. </hi>501<hi rend="pre-print">, Ord</hi> 20<hi rend="pre-print">, den</hi><space unit="chars" quantity="1"/><date>22<hi rend="pre-print">/</hi>7<space unit="chars" quantity="1"/><hi rend="pre-print">189</hi>6</date><space unit="chars" quantity="1"/><hi rend="pre-print">Kl. </hi>11,10<hi rend="pre-print">midd.</hi></quote>«. Von unbekannter Hand mit              Bleistift nummeriert: »<quote>76</quote>«.</p>           </physDesc>
+                     <physDesc>             <p>hs. Telegramm, Lateinschrift: »<quote>
+                                        <hi rend="pre-print">
+                                            <hi rend="bold">Optaget</hi>                 fra</hi> 39 <hi rend="pre-print">den</hi>
+                                        <space unit="chars" quantity="1"/>
+                                        <date>21<hi rend="pre-print">/</hi>7</date>
+                                        <space unit="chars" quantity="1"/>4,45 <hi rend="pre-print">midd.                 af</hi>
+                                        <space unit="chars" quantity="1"/>
+                                        <unclear>M</unclear>
+                                    </quote>« bzw. »<quote>
+                                        <hi rend="pre-print">Telegram fra</hi>
+                                        <space unit="chars" quantity="1"/>
+                                        <rs ref="#pmb30" type="place">Salzburg</rs>
+                                        <space unit="chars" quantity="1"/>
+                                        <hi rend="pre-print">No. </hi>501<hi rend="pre-print">, Ord</hi> 20<hi rend="pre-print">, den</hi>
+                                        <space unit="chars" quantity="1"/>
+                                        <date>22<hi rend="pre-print">/</hi>7<space unit="chars" quantity="1"/>
+                                            <hi rend="pre-print">189</hi>6</date>
+                                        <space unit="chars" quantity="1"/>
+                                        <hi rend="pre-print">Kl. </hi>11,10<hi rend="pre-print">midd.</hi>
+                                    </quote>«. Von unbekannter Hand mit              Bleistift nummeriert: »<quote>76</quote>«.</p>           </physDesc>
                   </msDesc>
                </witness>
             </listWit>
@@ -105,4 +125,28 @@
          <change who="GHS" when="2019-10-24">finalisiert</change>
          <change who="MAM" when="2020-03-04">Durchsicht</change>
       </revisionDesc>
-   </teiHeader> <text type="telegram"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00165"/><hi rend="latintype">Doktor Arthur Schnitzler +</hi></addrLine><addrLine><hi rend="latintype">poste restante <rs ref="#pmb40290" type="place">Thiem</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p>Reise heute <rs ref="#pmb30" type="place">Salzburg</rs> ab, über <rs ref="#pmb38129" type="place">München</rs><space unit="chars" quantity="1"/><rs ref="#pmb168" type="place">Berlin</rs> bin <date>25</date><space unit="chars" quantity="1"/><rs ref="#pmb36300" type="place">Kopenhagen</rs> erwarte Nachricht herzlichst</p><closer><signed>Richard</signed></closer></div></body> </text></TEI>
+   </teiHeader> <text type="telegram"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00165"/>
+                        <hi rend="latintype">Doktor Arthur Schnitzler +</hi>
+                    </addrLine>
+                    <addrLine>
+                        <hi rend="latintype">poste restante <rs ref="#pmb40290" type="place">Thiem</rs>
+                        </hi>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <p>Reise heute <rs ref="#pmb30" type="place">Salzburg</rs> ab, über <rs ref="#pmb38129" type="place">München</rs>
+                    <space unit="chars" quantity="1"/>
+                    <rs ref="#pmb168" type="place">Berlin</rs> bin <date>25</date>
+                    <space unit="chars" quantity="1"/>
+                    <rs ref="#pmb36300" type="place">Kopenhagen</rs> erwarte Nachricht herzlichst</p>
+                <closer>
+                    <signed>Richard</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

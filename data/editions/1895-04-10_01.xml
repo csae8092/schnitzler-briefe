@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-04-10_01_Hofmannsthal_AS"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1895-04-10_01_Hofmannsthal_AS"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -106,4 +107,41 @@
             <change who="MAM" when="2019-03-22">Index check</change>
             <change who="GHS" when="2019-10-15">finalisiert</change>
         </revisionDesc>
-    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00141"/> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00142"/> </facsimile> <text type="letter-card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00142"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><rs ref="#pmb59" type="place"><hi rend="latintype">IX</hi></rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb397" type="place">Franckgasse 1</rs></hi></addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00141"/>mein lieber Arthur</salute></opener><p>Ich bin<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>chon wieder außer Bett, nur noch recht müde. Ich hoffe be<c rendition="#langesS">s</c>timmt, da<c rendition="#langesS">s</c>s wir den <time>Nachmittag</time><space unit="chars" quantity="1"/><hi rend="underline" n="1">und</hi><space unit="chars" quantity="1"/><time>Abend</time> von einem der <anchor type="commentary" xml:id="KL2270-1"/>Feiertage<note type="commentary" xml:id="KL2270-1h">Der <date>14. 4. 1895</date> war Ostersonntag.</note> endlich wieder einmal zu<c rendition="#langesS">s</c>ammen verbringen werden. Bitte la<c rendition="#langesS">s</c><c rendition="#langesS">s</c>en Sie mich Ihre Ab<c rendition="#langesS">s</c>ichten wi<c rendition="#langesS">s</c><c rendition="#langesS">s</c>en.</p><closer>Von Herzen<space unit="chars" quantity="7"/>Ihr<lb/><signed>Hugo</signed></closer></div></body> </text></TEI>
+    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00141"/> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00142"/> </facsimile> <text type="letter-card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00142"/>
+                        <hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb59" type="place">
+                            <hi rend="latintype">IX</hi>
+                        </rs>
+                    </addrLine>
+                    <addrLine>
+                        <hi rend="latintype">
+                            <rs ref="#pmb397" type="place">Franckgasse 1</rs>
+                        </hi>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <salute>
+                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00141"/>mein lieber Arthur</salute>
+                </opener>
+                <p>Ich bin<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>chon wieder außer Bett, nur noch recht müde. Ich hoffe be<c rendition="#langesS">s</c>timmt, da<c rendition="#langesS">s</c>s wir den <time>Nachmittag</time>
+                    <space unit="chars" quantity="1"/>
+                    <hi rend="underline" n="1">und</hi>
+                    <space unit="chars" quantity="1"/>
+                    <time>Abend</time> von einem der <anchor type="commentary" xml:id="KL2270-1"/>Feiertage<note type="commentary" xml:id="KL2270-1h">Der <date>14. 4. 1895</date> war Ostersonntag.</note> endlich wieder einmal zu<c rendition="#langesS">s</c>ammen verbringen werden. Bitte la<c rendition="#langesS">s</c>
+                    <c rendition="#langesS">s</c>en Sie mich Ihre Ab<c rendition="#langesS">s</c>ichten wi<c rendition="#langesS">s</c>
+                    <c rendition="#langesS">s</c>en.</p>
+                <closer>Von Herzen<space unit="chars" quantity="7"/>Ihr<lb/>
+                    <signed>Hugo</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

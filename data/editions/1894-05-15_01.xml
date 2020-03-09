@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-05-15_01_AS_Beer-Hofmann"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-05-15_01_AS_Beer-Hofmann"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -106,4 +107,38 @@
          <change who="MAM" when="2019-12-04">Index check</change>
          <change who="MAM" when="2019-12-05">Durchsicht</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="1894_AS_RBH_1_00023.jpeg"/> <graphic url="1894_AS_RBH_1_00024.jpeg"/> <graphic url="1894_AS_RBH_1_00025.jpeg"/> </facsimile> <text type="letter"> <body><div type="address"><address><addrLine><pb facs="1894_AS_RBH_1_00024"/>Hrn <hi rend="latintype">Dr. Richard Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb338" type="place"><hi rend="latintype">I. Wollzeile 15</hi></rs></addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs="1894_AS_RBH_1_00023"/>Lieber Richard,</salute></opener><p>Seien Sie<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>o gut,<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>enden Sie an <rs ref="#pmb2450" type="person"><hi rend="latintype">Fels</hi></rs><space unit="chars" quantity="1"/><rs ref="#pmb33993" type="place">XVIII., <hi rend="latintype">Exnergasse 3</hi></rs>, Thür 22, 3. Stock etwas Geld – ich bin am Ende meiner Kräfte.</p><closer>Herzl. Gru<c rendition="#langesS">s</c>s<lb/><signed>Arthur</signed></closer></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="1894_AS_RBH_1_00023.jpeg"/> <graphic url="1894_AS_RBH_1_00024.jpeg"/> <graphic url="1894_AS_RBH_1_00025.jpeg"/> </facsimile> <text type="letter"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="1894_AS_RBH_1_00024"/>Hrn <hi rend="latintype">Dr. Richard Beer-Hofmann</hi>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb50" type="place">Wien</rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb338" type="place">
+                            <hi rend="latintype">I. Wollzeile 15</hi>
+                        </rs>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <salute>
+                        <pb facs="1894_AS_RBH_1_00023"/>Lieber Richard,</salute>
+                </opener>
+                <p>Seien Sie<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>o gut,<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>enden Sie an <rs ref="#pmb2450" type="person">
+                        <hi rend="latintype">Fels</hi>
+                    </rs>
+                    <space unit="chars" quantity="1"/>
+                    <rs ref="#pmb33993" type="place">XVIII., <hi rend="latintype">Exnergasse 3</hi>
+                    </rs>, Thür 22, 3. Stock etwas Geld – ich bin am Ende meiner Kräfte.</p>
+                <closer>Herzl. Gru<c rendition="#langesS">s</c>s<lb/>
+                    <signed>Arthur</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

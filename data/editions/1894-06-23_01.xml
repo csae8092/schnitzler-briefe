@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-06-23_01_Fels_AS"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-06-23_01_Fels_AS"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -90,4 +91,36 @@
             <change who="MAM" when="2019-10-17">Index check</change>
             <change who="GHS" when="2020-01-07">finalisiert</change>
         </revisionDesc>
-    </teiHeader> <facsimile> <graphic url="Fels, Friedrich an AS ÖGL.pdf"/> </facsimile> <text type="letter-card"> <body><div type="address"><address><addrLine><tei:pb/>Herrn Dr. Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb397" type="place">IX, Frankgaße 1</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><tei:pb/><date>Samstags</date>.</dateline><salute>Lieber Doktor!</salute></opener><p>Auch heute von Dr <rs ref="#pmb10863" type="person">Beer-Hofma<c rendition="#gemination-n"/></rs> nichts geko<c rendition="#gemination-m"/>en. Sie haben wohl die Güte, falls Sie ihn noch einmal treffen sollten, ihm etc. etc.</p><closer>Besten Gruß und Dank<lb/><signed>F.</signed></closer><postscript><p><rs ref="#pmb33993" type="place">XVIII, Exnergaße 3</rs><lb/>III. St. Th. 22</p></postscript></div></body> </text></TEI>
+    </teiHeader> <facsimile> <graphic url="Fels, Friedrich an AS ÖGL.pdf"/> </facsimile> <text type="letter-card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <tei:pb/>Herrn Dr. Arthur Schnitzler</addrLine>
+                    <addrLine>
+                        <rs ref="#pmb50" type="place">Wien</rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb397" type="place">IX, Frankgaße 1</rs>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <tei:pb/>
+                        <date>Samstags</date>.</dateline>
+                    <salute>Lieber Doktor!</salute>
+                </opener>
+                <p>Auch heute von Dr <rs ref="#pmb10863" type="person">Beer-Hofma<c rendition="#gemination-n"/>
+                    </rs> nichts geko<c rendition="#gemination-m"/>en. Sie haben wohl die Güte, falls Sie ihn noch einmal treffen sollten, ihm etc. etc.</p>
+                <closer>Besten Gruß und Dank<lb/>
+                    <signed>F.</signed>
+                </closer>
+                <postscript>
+                    <p>
+                        <rs ref="#pmb33993" type="place">XVIII, Exnergaße 3</rs>
+                        <lb/>III. St. Th. 22</p>
+                </postscript>
+            </div>
+        </body> </text>
+</TEI>

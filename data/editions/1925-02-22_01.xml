@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1925-02-22_01_AS_Brandes"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1925-02-22_01_AS_Brandes"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -105,4 +106,29 @@
             <change who="MAM" when="2018-10-04">Angelegt</change>
             <change who="MAM" when="2018-10-01">Index check</change>
         </revisionDesc>
-    </teiHeader> <text type="card"> <body><div type="address"><address><addrLine><pb facs="Georg_Brandes_arkiv_219"/>Herrn Prof. Georg Brandes</addrLine><addrLine><rs ref="#pmb36300" type="place">Kopenhagen</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Georg_Brandes_arkiv_220"/><rs ref="#pmb50" type="place">Wien</rs>, <date>22. 2. 25</date></dateline></opener><p><signed>Verehrter lieber Freund, </signed>hoffentlich ka<c rendition="#gemination-n"/> ichs so einrichten, d<c rendition="#langesS">s</c>s ich zur Zeit Ihrer Ankunft in <rs ref="#pmb168" type="place">Berlin</rs> noch dort bin – meine dortige Anwesenheit war, aus verschiedenen Gründen für früher projectirt. Vielleicht ist Frau <rs ref="#pmb5558" type="person">Rung</rs>, der ich mich bestens empfehle auch noch so gütig, mir mitzutheilen, <hi rend="underline" n="1">an welchem Tage</hi> Sie schon in <rs ref="#pmb168" type="place">Berlin</rs><space unit="chars" quantity="1"/><hi rend="underline" n="1">eintreffen</hi>. Sie sind vielleicht schon vor dem <date>25/3</date> dort?</p><closer>In treuer und herzlicher Verehrung<lb/>Ihr <signed>A. S.</signed></closer></div></body> </text></TEI>
+    </teiHeader> <text type="card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="Georg_Brandes_arkiv_219"/>Herrn Prof. Georg Brandes</addrLine>
+                    <addrLine>
+                        <rs ref="#pmb36300" type="place">Kopenhagen</rs>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <pb facs="Georg_Brandes_arkiv_220"/>
+                        <rs ref="#pmb50" type="place">Wien</rs>, <date>22. 2. 25</date>
+                    </dateline>
+                </opener>
+                <p>
+                    <signed>Verehrter lieber Freund, </signed>hoffentlich ka<c rendition="#gemination-n"/> ichs so einrichten, d<c rendition="#langesS">s</c>s ich zur Zeit Ihrer Ankunft in <rs ref="#pmb168" type="place">Berlin</rs> noch dort bin – meine dortige Anwesenheit war, aus verschiedenen Gründen für früher projectirt. Vielleicht ist Frau <rs ref="#pmb5558" type="person">Rung</rs>, der ich mich bestens empfehle auch noch so gütig, mir mitzutheilen, <hi rend="underline" n="1">an welchem Tage</hi> Sie schon in <rs ref="#pmb168" type="place">Berlin</rs>
+                    <space unit="chars" quantity="1"/>
+                    <hi rend="underline" n="1">eintreffen</hi>. Sie sind vielleicht schon vor dem <date>25/3</date> dort?</p>
+                <closer>In treuer und herzlicher Verehrung<lb/>Ihr <signed>A. S.</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

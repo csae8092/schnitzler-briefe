@@ -327,11 +327,11 @@
                                                   <br/>
                                                   </xsl:if>
                                                   <xsl:if test="./tei:persName">
-                                                  <xsl:value-of select="./tei:persName" separator=";"/>
+                                                  <xsl:value-of select="./tei:persName" separator="; "/>
                                                   <br/>
                                                   </xsl:if>
                                                   <xsl:if test="./tei:placeName">
-                                                  <xsl:value-of select="./tei:placeName" separator=";"/>
+                                                  <xsl:value-of select="./tei:placeName" separator="; "/>
                                                   <br/>
                                                   </xsl:if>
                                                 </td>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-01-25_01_Brandes_AS"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-01-25_01_Brandes_AS"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -106,4 +107,31 @@
             <change who="MAM" when="2019-01-14">Überarbeitet nach Leo Baeck</change>
             <change who="GHS" when="2019-11-26">finalisiert</change>
         </revisionDesc>
-    </teiHeader> <text type="letter-card"> <body><div type="address"><address><addrLine><tei:pb/>Herrn Dr. Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb397" type="place">Frankgasse 1</rs></addrLine><addrLine><rs ref="#pmb59" type="place">Wien IX</rs></addrLine></address></div><div type="writingSession" n="1"><opener><p rend="center"><tei:pb/><rs ref="#pmb1106" type="place">Residenz-Hotel</rs></p><salute>Liebster Herr Doctor</salute></opener><p>Ich bin hier und würde mich freuen Sie zu sehen noch heute, wenn es geht<space unit="chars" quantity="3"/>Sagen Sie mir ob und wann ich Ihnen willkommen bin.</p><closer>Ihr<lb/><signed>Georg Brandes</signed></closer></div></body> </text></TEI>
+    </teiHeader> <text type="letter-card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <tei:pb/>Herrn Dr. Arthur Schnitzler</addrLine>
+                    <addrLine>
+                        <rs ref="#pmb397" type="place">Frankgasse 1</rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb59" type="place">Wien IX</rs>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <p rend="center">
+                        <tei:pb/>
+                        <rs ref="#pmb1106" type="place">Residenz-Hotel</rs>
+                    </p>
+                    <salute>Liebster Herr Doctor</salute>
+                </opener>
+                <p>Ich bin hier und würde mich freuen Sie zu sehen noch heute, wenn es geht<space unit="chars" quantity="3"/>Sagen Sie mir ob und wann ich Ihnen willkommen bin.</p>
+                <closer>Ihr<lb/>
+                    <signed>Georg Brandes</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>
