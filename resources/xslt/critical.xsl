@@ -777,10 +777,10 @@
     </xsl:template>
     <xsl:template match="tei:pb">
         <xsl:choose>
-            <xsl:when test="starts-with(./@facs, 'http')">
+            <xsl:when test="starts-with(@facs, 'http') or starts-with(@facs, 'www.')">
                     <xsl:element name="a">
                         <xsl:attribute name="href">
-                            <xsl:value-of select="./@facs"/>
+                            <xsl:value-of select="@facs"/>
                         </xsl:attribute>
                         <xsl:attribute name="target">
                             <xsl:text>_blank</xsl:text>
