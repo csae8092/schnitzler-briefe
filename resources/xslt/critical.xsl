@@ -75,7 +75,7 @@
                 </div>
             </div>
             <xsl:choose>
-                <xsl:when test="descendant::tei:pb/@facs and not(starts-with(descendant::tei:pb[1]/@facs, 'http')) and not(contains(descendant::tei:pb[1]/@facs, '.pdf'))">
+                <xsl:when test="descendant::tei:pb/@facs and not(starts-with(descendant::tei:pb[1]/@facs, 'http') or starts-with(descendant::tei:pb[1]/@facs, 'www.')) and not(contains(descendant::tei:pb[1]/@facs, '.pdf'))">
             <div class="card-body-critical">
                 <div class="card-body-text">
                     <br/>

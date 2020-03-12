@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-05-09_01_AS_Beer-Hofmann"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-05-09_01_AS_Beer-Hofmann"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -31,7 +30,7 @@
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences, Vienna</publisher>
-            <idno type="ASBW" n="2775"/>
+            <idno type="ASBW"/>
             <availability status="free">
                <p>Copyright © 2019</p>
             </availability>
@@ -49,7 +48,7 @@
                         <repository>Beinecke Rare Book and Manuscript Library</repository>
                         <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
-                     <physDesc>             <p>eh. Brief mit Umschlag, 1 Bl., 1 S., schwarze Tinte. Umschlag mit              Trauerrand.</p>             <stamp n="1">              <placeName ref="#pmb59">Wien 9/3</placeName>              <date>9. 5. 94</date>              <date>4-5 N</date>             </stamp>           </physDesc>
+                     <physDesc>             <p>eh. Brief mit Umschlag, 1 Bl., 1 S., schwarze Tinte. Umschlag mit              Trauerrand.</p>             <stamp n="1">              <placeName ref="#pmb59">Wien 9/3</placeName>              <date>9. 5. 94</date>              <time>4-5 N</time>             </stamp>           </physDesc>
                   </msDesc>
                </witness>
             </listWit>
@@ -88,28 +87,4 @@
          <change who="MAM" when="2019-10-08">angelegt aus Faksimile</change>
          <change who="MAM" when="2019-10-10">Durchsicht</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="1894_AS_RBH_1_00026.jpeg"/> <graphic url="1894_AS_RBH_1_00027.jpeg"/> <graphic url="1894_AS_RBH_1_00028.jpeg"/> </facsimile> <text type="letter"> <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="1894_AS_RBH_1_00027"/>
-                        <hi rend="latintype">Doctor Richard Beer Hofmann</hi>
-                    </addrLine>
-                    <addrLine>
-                        <rs ref="#pmb50" type="place">Wien</rs>
-                    </addrLine>
-                    <addrLine>
-                        <rs ref="#pmb338" type="place">
-                            <hi rend="latintype">I. Wollzeile 15</hi>
-                        </rs>.</addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <p>
-                    <pb facs="1894_AS_RBH_1_00026"/>Herzliche Grüße.</p>
-                <p>
-                    <signed>Arthur. –</signed>
-                </p>
-            </div>
-        </body> </text>
-</TEI>
+   </teiHeader> <facsimile> <graphic url="1894_AS_RBH_1_00026.jpeg"/> <graphic url="1894_AS_RBH_1_00027.jpeg"/> <graphic url="1894_AS_RBH_1_00028.jpeg"/> </facsimile> <text type="letter"> <body><div type="address"><address><addrLine><pb facs="1894_AS_RBH_1_00027"/><hi rend="latintype">Doctor Richard Beer Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb338" type="place"><hi rend="latintype">I. Wollzeile 15</hi></rs>.</addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1894_AS_RBH_1_00026"/>Herzliche Grüße.</p><p><signed>Arthur. –</signed></p></div></body> </text></TEI>

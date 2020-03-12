@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-09-19_02_Beer-Hofmann-Hofmannsthal_AS"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-09-19_02_Beer-Hofmann-Hofmannsthal_AS"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -33,9 +32,9 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="ASBW" n="2413"/>
+                <idno type="ASBW"/>
                 <availability status="free">
-                    <p>Copyright © 2018</p>
+                    <p>Copyright © 2020</p>
                 </availability>
             </publicationStmt>
             <seriesStmt>
@@ -112,36 +111,4 @@
             <change who="GHS" when="2019-12-15">überprüft am Faksimile</change>
             <change who="MAM" when="2020-01-14">Index check</change>
         </revisionDesc>
-    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00322.jpg"/> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00323.jpg"/> </facsimile> <text type="card"> <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00322"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
-                    <addrLine>
-                        <rs ref="#pmb146" type="place">Frankfurt a. Main</rs>
-                    </addrLine>
-                    <addrLine>Poste restante</addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00323"/>
-                        <rs ref="#pmb946" type="place">Vahrn</rs>
-                        <space unit="chars" quantity="1"/>
-                        <date when="1899-09-19">19/IX 1899</date>
-                    </dateline>
-                </opener>
-                <p>
-                    <rs ref="#pmb34875" type="person">Adolf Pichler</rs>
-                    <space unit="chars" quantity="5"/> Arthur S.</p>
-                <p>Dies wünschen Ihnen</p>
-                <closer>
-                    <signed>Richard</signed>
-                    <lb/>
-                    <signed>
-                        <handShift scribe="#pmb11740"/>Hugo</signed>
-                </closer>
-            </div>
-        </body> </text>
-</TEI>
+    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00322.jpg"/> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00323.jpg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00322"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb146" type="place">Frankfurt a. Main</rs></addrLine><addrLine>Poste restante</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00323"/><rs ref="#pmb946" type="place">Vahrn</rs> <date when="1899-09-19">19/IX 1899</date></dateline></opener><p><rs ref="#pmb34875" type="person">Adolf Pichler</rs><space unit="chars" quantity="5"/> Arthur S.</p><p>Dies wünschen Ihnen</p><closer><signed>Richard</signed><lb/><signed><handShift scribe="#pmb11740"/>Hugo</signed></closer></div></body> </text></TEI>

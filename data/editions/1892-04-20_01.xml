@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-04-20_01_AS_Boelsche"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-04-20_01_AS_Boelsche"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -31,9 +30,9 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="ASBW" n="2171"/>
+                <idno type="ASBW"/>
                 <availability status="free">
-                    <p>Copyright © 2018</p>
+                    <p>Copyright © 2020</p>
                 </availability>
             </publicationStmt>
             <seriesStmt>
@@ -54,6 +53,18 @@
                     </witness>
                 </listWit>
                 <listBibl>
+                    <biblStruct>
+                        <analytic><author>Woldan, Alois</author>
+                            <title level="a">Arthur Schnitzler – Briefe an Wilhelm Bölsche</title></analytic>
+                        <monogr>
+                            <title level="j">Germanica Wratislaviensia</title>
+                            <biblScope unit="nr">77</biblScope>
+                            <biblScope unit="pp">460</biblScope>
+                            <imprint>
+                                <date when="1987">1987</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
                     <biblStruct>
                         <monogr>
                             <author ref="#pmb11061">Bölsche, Wilhelm</author>
@@ -109,41 +120,4 @@
             <change who="MAM" when="2019-03-05">Durchsicht</change>
             <change who="GHS" when="2019-09-13">finalisiert</change>
         </revisionDesc>
-    </teiHeader> <facsimile> <graphic url=""/> <!-- $$$$ Dateinamen müssen noch ergänzt werden! --> </facsimile> <text type="letter"> <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <pb facs="Böl.Pis 1764-1"/>
-                        <rs ref="#pmb50" type="place">Wien</rs>, <date>20. April 92</date>
-                    </dateline>
-                    <salute>Verehrte<c rendition="#langesS">s</c>ter Herr,</salute>
-                </opener>
-                <p>ich<space unit="chars" quantity="1"/>
-                    <c rendition="#langesS">s</c>chicke Ihnen hier die <rs type="work" ref="#pmb30169" subtype="implied">Skizze</rs> mit der be<c rendition="#langesS">s</c>ondern Bitte, mir falls Sie<space unit="chars" quantity="1"/>
-                    <c rendition="#langesS">s</c>ie zu veröffentlichen gedenken, gütig<c rendition="#langesS">s</c>t eine <hi n="2" rend="underline">Correctur</hi>
-                    <space unit="chars" quantity="1"/>
-                    <c rendition="#langesS">s</c>enden la<c rendition="#langesS">s</c>
-                    <c rendition="#langesS">s</c>en zu wollen;<space unit="chars" quantity="1"/>
-                    <c rendition="#langesS">s</c>ie<space unit="chars" quantity="1"/>
-                    <c rendition="#langesS">s</c>oll be<c rendition="#langesS">s</c>ti<c rendition="#gemination-m"/>t in 24 Stunden erledigt<space unit="chars" quantity="1"/>
-                    <c rendition="#langesS">s</c>ein. Sollten Sie das <rs type="work" ref="#pmb30169" subtype="implied">Manuscript</rs>
-                    <pb facs="Böl.Pis 1764-2"/>nicht brauchen können, was mir aufrichtig leid thäte, <space unit="chars" quantity="1"/>
-                    <c rendition="#langesS">s</c>o haben Sie wohl die Liebenswürdigkeit, es mir recht bald zurückzu<c rendition="#langesS">s</c>enden.</p>
-                <closer>Hochachtungsvoll<lb/>Ihr<space unit="chars" quantity="1"/>
-                    <c rendition="#langesS">s</c>ehr ergebner<lb/>
-                    <signed>
-                        <hi rend="latintype">Dr</hi> Arthur Schnitzler</signed>
-                </closer>
-                <postscript>
-                    <p>
-                        <rs ref="#pmb542" type="place">
-                            <hi rend="latintype">I. Giselastraße 11</hi>.</rs>
-                    </p>
-                    <p>
-                        <pb facs="Böl.Pis 1764-3"/>Scheint Ihnen etwa der Titel zu riskant,<space unit="chars" quantity="1"/>
-                        <c rendition="#langesS">s</c>o könnte die <rs type="work" ref="#pmb30169" subtype="implied">Skizze</rs> auch »<rs ref="#pmb30169" type="work">Verblaßende Farben</rs>« genannt werden; lieber i<c rendition="#langesS">s</c>t mir allerdings der er<c rendition="#langesS">s</c>te »<rs ref="#pmb30169" type="work">Das Himmelbett</rs>.«</p>
-                    <p rend="right">ArthSch</p>
-                </postscript>
-            </div>
-        </body> </text>
-</TEI>
+    </teiHeader> <facsimile> <graphic url=""/> <!-- $$$$ Dateinamen müssen noch ergänzt werden! --> </facsimile> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Böl.Pis 1764-1"/><rs ref="#pmb50" type="place">Wien</rs>, <date>20. April 92</date></dateline><salute>Verehrte<c rendition="#langesS">s</c>ter Herr,</salute></opener><p>ich <c rendition="#langesS">s</c>chicke Ihnen hier die <rs type="work" ref="#pmb30169" subtype="implied">Skizze</rs> mit der be<c rendition="#langesS">s</c>ondern Bitte, mir falls Sie <c rendition="#langesS">s</c>ie zu veröffentlichen gedenken, gütig<c rendition="#langesS">s</c>t eine <hi n="2" rend="underline">Correctur</hi> <c rendition="#langesS">s</c>enden la<c rendition="#langesS">s</c><c rendition="#langesS">s</c>en zu wollen; <c rendition="#langesS">s</c>ie <c rendition="#langesS">s</c>oll be<c rendition="#langesS">s</c>ti<c rendition="#gemination-m"/>t in 24 Stunden erledigt <c rendition="#langesS">s</c>ein. Sollten Sie das <rs type="work" ref="#pmb30169" subtype="implied">Manuscript</rs><pb facs="Böl.Pis 1764-2"/>nicht brauchen können, was mir aufrichtig leid thäte,  <c rendition="#langesS">s</c>o haben Sie wohl die Liebenswürdigkeit, es mir recht bald zurückzu<c rendition="#langesS">s</c>enden.</p><closer>Hochachtungsvoll<lb/>Ihr <c rendition="#langesS">s</c>ehr ergebner<lb/><signed><hi rend="latintype">Dr</hi> Arthur Schnitzler</signed></closer><postscript><p><rs ref="#pmb542" type="place"><hi rend="latintype">I. Giselastraße 11</hi>.</rs></p><p><pb facs="Böl.Pis 1764-3"/>Scheint Ihnen etwa der Titel zu riskant, <c rendition="#langesS">s</c>o könnte die <rs type="work" ref="#pmb30169" subtype="implied">Skizze</rs> auch »<rs ref="#pmb30169" type="work">Verblaßende Farben</rs>« genannt werden; lieber i<c rendition="#langesS">s</c>t mir allerdings der er<c rendition="#langesS">s</c>te »<rs ref="#pmb30169" type="work">Das Himmelbett</rs>.«</p><p rend="right">ArthSch</p></postscript></div></body> </text></TEI>

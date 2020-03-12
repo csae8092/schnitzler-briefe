@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-09-22_01_AS_Beer-Hofmann"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-09-22_01_AS_Beer-Hofmann"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -15,8 +14,8 @@
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
                   <placeName>
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
+                     <country>A</country>
+                     <settlement>Wien</settlement>
                   </placeName>
                </address>
             </funder>
@@ -31,7 +30,7 @@
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences, Vienna</publisher>
-            <idno type="ASBW" n="2732"/>
+            <idno type="ASBW"/>
             <availability status="free">
                <p>Copyright © 2019</p>
             </availability>
@@ -106,56 +105,16 @@
             </correspContext>
          </correspDesc>
       </profileDesc>
-      <encodingDesc>          
-         <refsDecl>             
-            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>          
-         </refsDecl>       
+      <encodingDesc>
+         <refsDecl>
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only,
+               e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+               'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
+         </refsDecl>
       </encodingDesc>
       <revisionDesc status="approved">
          <change who="MAM" when="2019-06-12">Automatisch angelegt aus Buchausgabe</change>
          <change who="GHS" when="2019-09-06">finalisiert</change>
          <change who="MAM" when="2019-09-17">Index check</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="1891_AS_RBH_00010"/> <graphic url="1891_AS_RBH_00011"/> <graphic url="1891_AS_RBH_00012"/> <graphic url="1891_AS_RBH_00013"/> </facsimile> <text type="letter-card"> <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="1891_AS_RBH_00010"/>
-                        <hi rend="latintype">Herrn Dr. Rich. Beer-Hofmann</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <rs ref="#pmb50" type="place">Wien</rs>
-                        </hi>
-                    </addrLine>
-                    <addrLine>
-                        <rs ref="#pmb730" type="place">
-                            <hi rend="latintype">III Seidlgasse 30</hi>
-                        </rs>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <p>
-                    <pb facs="1891_AS_RBH_00011"/>
-                    <salute>Lieber Richard, </salute>das mu<c rendition="#langesS">s</c>s man erleben, die<c rendition="#langesS">s</c>es <rs ref="#pmb7946" type="place">Halle</rs>! Tramways, die an die Ehrlichkeit der Men<c rendition="#langesS">s</c>chen glauben – im Waggon<space unit="chars" quantity="1"/>
-                    <c rendition="#langesS">s</c>ind Kä<c rendition="#langesS">s</c>tchen, wo <pb facs="1891_AS_RBH_00012"/>man<space unit="chars" quantity="1"/>
-                    <c rendition="#langesS">s</c>ein Fahrgeld hineinwirft. – Und die<c rendition="#langesS">s</c>e Men<c rendition="#langesS">s</c>chen<space unit="chars" quantity="1"/>
-                    <c rendition="#langesS">s</c>elb<c rendition="#langesS">s</c>t – I<c rendition="#gemination-m"/>erfort<space unit="chars" quantity="1"/>
-                    <c rendition="#langesS">s</c>
-                    <subst>
-                        <del rend="overwritten">
-                            <unclear>in</unclear>
-                        </del>
-                        <add place="inline">chr</add>
-                    </subst>eien<space unit="chars" quantity="1"/>
-                    <c rendition="#langesS">s</c>ie und<space unit="chars" quantity="1"/>
-                    <c rendition="#langesS">s</c>ind<space unit="chars" quantity="1"/>
-                    <c rendition="#langesS">s</c>tolz auf das geeinte <rs ref="#pmb151" type="place">deut<c rendition="#langesS">s</c>che Reich</rs>. Lauter Nationalparvenus. – Ich ko<c rendition="#gemination-m"/>e bald. Ihr<signed>Arthur</signed>
-                </p>
-            </div>
-        </body> </text>
-</TEI>
+   </teiHeader> <facsimile> <graphic url="1891_AS_RBH_00010"/> <graphic url="1891_AS_RBH_00011"/> <graphic url="1891_AS_RBH_00012"/> <graphic url="1891_AS_RBH_00013"/> </facsimile> <text type="letter-card"> <body><div type="address"><address><addrLine><pb facs="1891_AS_RBH_00010"/><hi rend="latintype">Herrn Dr. Rich. Beer-Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb50" type="place">Wien</rs></hi></addrLine><addrLine><rs ref="#pmb730" type="place"><hi rend="latintype">III Seidlgasse 30</hi></rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1891_AS_RBH_00011"/><salute>Lieber Richard, </salute>das mu<c rendition="#langesS">s</c>s man erleben, die<c rendition="#langesS">s</c>es <rs ref="#pmb7946" type="place">Halle</rs>! Tramways, die an die Ehrlichkeit der Men<c rendition="#langesS">s</c>chen glauben – im Waggon <c rendition="#langesS">s</c>ind Kä<c rendition="#langesS">s</c>tchen, wo <pb facs="1891_AS_RBH_00012"/>man <c rendition="#langesS">s</c>ein Fahrgeld hineinwirft. – Und die<c rendition="#langesS">s</c>e Men<c rendition="#langesS">s</c>chen <c rendition="#langesS">s</c>elb<c rendition="#langesS">s</c>t – I<c rendition="#gemination-m"/>erfort <c rendition="#langesS">s</c><subst><del rend="overwritten"><unclear>in</unclear></del><add place="inline">chr</add></subst>eien <c rendition="#langesS">s</c>ie und <c rendition="#langesS">s</c>ind <c rendition="#langesS">s</c>tolz auf <anchor type="commentary" xml:id="G35"/>das geeinte <rs ref="#pmb151" type="place">deut<c rendition="#langesS">s</c>che Reich</rs><note type="commentary" xml:id="G35h">Am 2. September hatte sich zum 20. Mal der Tag von <rs ref="#pmb20806" type="place">Sedan</rs> (dem Ende des Deutsch-Französischen Krieges von 1870/71) gejährt, der im Deutschen Reich als Tag der Einheit galt. Vgl. hierzu auch den Brief an <rs ref="#pmb11740" type="person">Hofmannsthal</rs> vom 1. 9. 1895.</note>. Lauter Nationalparvenus. – Ich ko<c rendition="#gemination-m"/>e bald. Ihr<signed>Arthur</signed></p></div></body> </text></TEI>

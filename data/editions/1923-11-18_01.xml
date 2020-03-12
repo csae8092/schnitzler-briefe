@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1923-11-18_01_AS_Mann"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1923-11-18_01_AS_Mann"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -31,9 +30,9 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="ASBW" n="000"/>
+                <idno type="ASBW"/>
                 <availability status="free">
-                    <p>Copyright © 2018</p>
+                    <p>Copyright © 2020</p>
                 </availability>
             </publicationStmt>
             <seriesStmt>
@@ -87,31 +86,4 @@
         <revisionDesc status="proposed">
             <change who="MAM" when="2019-11-12">Angelegt</change>
         </revisionDesc>
-    </teiHeader> <text type="letter"> <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <tei:pb/>Herrn Thomas Mann</addrLine>
-                    <addrLine>
-                        <rs ref="#pmb38129" type="place">München</rs>
-                    </addrLine>
-                    <addrLine>
-                        <del rend="strikethrough">Puch</del>
-                        <space unit="chars" quantity="1"/>
-                        <handShift medium="typewriter"/>
-                        <rs ref="#pmb1213" type="place">Puschingerstr. 1</rs>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <tei:pb/>
-                        <rs ref="#pmb50" type="place">Wien</rs>, <date>18. 11. 923</date>
-                    </dateline>
-                    <salute>Verehrter und lieber Herr Thomas Mann,</salute>
-                </opener>
-                <p>XXXX</p>
-            </div>
-        </body> </text>
-</TEI>
+    </teiHeader> <text type="letter"> <body><div type="address"><address><addrLine><tei:pb/>Herrn Thomas Mann</addrLine><addrLine><rs ref="#pmb38129" type="place">München</rs></addrLine><addrLine><del rend="strikethrough">Puch</del> <handShift medium="typewriter"/><rs ref="#pmb1213" type="place">Puschingerstr. 1</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><tei:pb/><rs ref="#pmb50" type="place">Wien</rs>, <date>18. 11. 923</date></dateline><salute>Verehrter und lieber Herr Thomas Mann,</salute></opener><p>XXXX</p></div></body> </text></TEI>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1903-06-08_01_AS_Bahr"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1903-06-08_01_AS_Bahr"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -30,9 +29,9 @@
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences, Vienna</publisher>
-            <idno type="HBAS-L" n="1057"/>
+            <idno type="HBAS-L"/>
             <availability status="free">
-               <p>Copyright © 2018</p>
+               <p>Copyright © 2020</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -91,13 +90,12 @@
             </correspContext>
          </correspDesc>
       </profileDesc>
-      <encodingDesc>          
-         <refsDecl>             
-            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>          
-         </refsDecl>       
+      <encodingDesc>
+         <refsDecl>
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only,
+               e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+               'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
+         </refsDecl>
       </encodingDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="2015-10-01">Kollationiert</change>
@@ -106,39 +104,4 @@
          <change who="GHS" when="2020-01-15">finalisiert</change>
          <change who="MAM" when="2019-01-20">Index check</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="HS_AM60014Ba"/> <graphic url="HS_AM60014Ba_R"/> </facsimile> <text type="card"> <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="HS_AM60014Ba_R"/>
-                        <hi rend="latintype">Herrn Hermann Bahr</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <rs ref="#pmb165" type="place">Wien-Ob-St Veit</rs>
-                        </hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <rs ref="#pmb220" type="place">Veitlissengasse 3</rs>
-                        </hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <rs ref="#pmb41240" type="place">Austria</rs>
-                        </hi>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <dateline>
-                        <pb facs="HS_AM60014Ba"/>
-                        <date>8. 6. 903</date>
-                    </dateline>
-                </opener>
-                <p>Herzlich<c rendition="#langesS">s</c>te Grüße! Dein <signed>Arth Schn</signed>
-                </p>
-            </div>
-        </body> </text>
-</TEI>
+   </teiHeader> <facsimile> <graphic url="HS_AM60014Ba"/> <graphic url="HS_AM60014Ba_R"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="https://www.theatermuseum.at/de/object/468027d6bc/"/><hi rend="latintype">Herrn Hermann Bahr</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb165" type="place">Wien-Ob-St Veit</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb220" type="place">Veitlissengasse 3</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb41240" type="place">Austria</rs></hi></addrLine></address></div><div type="writingSession" n="1"><opener><dateline><pb facs="https://www.theatermuseum.at/de/object/468027d6bc/"/><date>8. 6. 903</date></dateline></opener><p>Herzlich<c rendition="#langesS">s</c>te Grüße! Dein <signed>Arth Schn</signed></p></div></body> </text></TEI>

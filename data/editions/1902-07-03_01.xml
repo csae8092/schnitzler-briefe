@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1902-07-03_01_Hofmannsthal-AS_Bahr"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1902-07-03_01_Hofmannsthal-AS_Bahr"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -32,9 +31,9 @@
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences, Vienna</publisher>
-            <idno type="HBAS-L" n="1201"/>
+            <idno type="HBAS-L"/>
             <availability status="free">
-               <p>Copyright © 2018</p>
+               <p>Copyright © 2020</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -95,13 +94,12 @@
             </correspContext>
          </correspDesc>
       </profileDesc>
-      <encodingDesc>          
-         <refsDecl>             
-            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>          
-         </refsDecl>       
+      <encodingDesc>
+         <refsDecl>
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only,
+               e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+               'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
+         </refsDecl>
       </encodingDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="2015-10-01">Kollationiert</change>
@@ -109,52 +107,4 @@
          <change who="GHS" when="2020-01-10">finalisiert</change>
          <change who="MAM" when="2019-01-20">Index check</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="HS_AM49090Ba.jpg"/> <graphic url="HS_AM49090Ba_R.jpg"/> </facsimile> <text type="card"> <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="HS_AM49090Ba_R"/>
-                        <hi rend="latintype">Herrn Hermann Bahr</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">Redacteur</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <rs ref="#pmb50" type="place">Wien</rs>
-                        </hi>
-                    </addrLine>
-                    <addrLine>
-                        <rs ref="#pmb220" type="place">
-                            <hi rend="latintype">XIII<hi rend="subscript">7</hi> Veitlissengasse</hi>
-                        </rs>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">in <rs ref="#pmb165" type="place">Ober St Veit</rs>.</hi>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <p>
-                    <anchor type="textConst" xml:id="TG76"/>Das was Sie<note type="textConst" xml:id="TG76h">quer am rechten Rand</note> über’n <anchor type="commentary" xml:id="KL201-1"/>
-                    <rs type="work" ref="#pmb32332" subtype="implied">Automobil</rs>
-                    <note type="commentary" xml:id="KL201-1h">In <rs ref="#pmb32332" type="work">Entgegen</rs> (<bibl>
-                            <rs ref="#pmb29414" type="org">Neues Wiener Tagblatt</rs>, Jg. 36, Nr. 179, <date>1. 7. 1902</date>, S. 1–2</bibl>) schildert <rs ref="#pmb10815" type="person">Bahr</rs> ein Automobilrennen.</note> ge<c rendition="#langesS">s</c>chrieben haben, war <hi rend="underline" n="1">
-                        <c rendition="#langesS">s</c>ehr</hi> gut.</p>
-                <p>
-                    <date>3 VII 02</date>.</p>
-                <closer>Viele Grüße<space unit="chars" quantity="3"/>
-                    <signed>Hugo</signed>
-                </closer>
-            </div>
-            <div type="writingSession" n="2">
-                <p>
-                    <handShift scribe="#pmb2121"/>
-                    <anchor type="textConst" xml:id="TG77"/>Ich auch<note type="textConst" xml:id="TG77h">am rechten Rand auf dem Kopf</note>
-                </p>
-                <closer>
-                    <signed>Arthur.</signed>
-                </closer>
-            </div>
-        </body> </text>
-</TEI>
+   </teiHeader> <facsimile> <graphic url="HS_AM49090Ba.jpg"/> <graphic url="HS_AM49090Ba_R.jpg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="https://www.theatermuseum.at/de/object/8caae39255/"/><hi rend="latintype">Herrn Hermann Bahr</hi></addrLine><addrLine><hi rend="latintype">Redacteur</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb50" type="place">Wien</rs></hi></addrLine><addrLine><rs ref="#pmb220" type="place"><hi rend="latintype">XIII<hi rend="subscript">7</hi> Veitlissengasse</hi></rs></addrLine><addrLine><hi rend="latintype">in <rs ref="#pmb165" type="place">Ober St Veit</rs>.</hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="https://www.theatermuseum.at/de/object/8caae39255/"/><anchor type="textConst" xml:id="TG76"/>Das was Sie<note type="textConst" xml:id="TG76h">quer am rechten Rand</note> über’n <anchor type="commentary" xml:id="KL201-1"/><rs type="work" ref="#pmb32332" subtype="implied">Automobil</rs><note type="commentary" xml:id="KL201-1h">In <rs ref="#pmb32332" type="work">Entgegen</rs> (<bibl><rs ref="#pmb29414" type="org">Neues Wiener Tagblatt</rs>, Jg. 36, Nr. 179, <date>1. 7. 1902</date>, S. 1–2</bibl>) schildert <rs ref="#pmb10815" type="person">Bahr</rs> ein Automobilrennen.</note> ge<c rendition="#langesS">s</c>chrieben haben, war <hi rend="underline" n="1"><c rendition="#langesS">s</c>ehr</hi> gut.</p><p><date>3 VII 02</date>.</p><closer>Viele Grüße<space unit="chars" quantity="3"/><signed>Hugo</signed></closer></div><div type="writingSession" n="2"><p><handShift scribe="#pmb2121"/><anchor type="textConst" xml:id="TG77"/>Ich auch<note type="textConst" xml:id="TG77h">am rechten Rand auf dem Kopf</note></p><closer><signed>Arthur.</signed></closer></div></body> </text></TEI>

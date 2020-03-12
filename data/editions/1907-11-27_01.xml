@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1907-11-27_01_Wymetal-Liliencron-Stefan-Kurzweil-Markowitz-Goldschmied_AS"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1907-11-27_01_Wymetal-Liliencron-Stefan-Kurzweil-Markowitz-Goldschmied_AS"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Wilhelm von Wymetal u. a. an Arthur Schnitzler, 27. 11. [1907]</title>
+                <title level="a">Wilhelm von Wymetal u. a. an Arthur Schnitzler,
+                    27. 11. [1907]</title>
                 <author ref="#pmb2725">Wymetal, Wilhelm von</author>
                 <author ref="#pmb12071">Liliencron, Detlev von</author>
                 <author ref="#pmb12826">Stefan, Paul</author>
@@ -20,9 +20,9 @@
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
                         <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -36,25 +36,25 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="ASBW" n="2122"/>
+                <idno type="ASBW"/>
                 <availability status="free">
-                    <p>Copyright © 2018</p>
+                    <p>Copyright © 2020</p>
                 </availability>
             </publicationStmt>
             <seriesStmt>
                 <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
             </seriesStmt>
             <sourceDesc>
-                 <listWit>
+                <listWit>
                     <witness n="1">
                         <msDesc>
                             <msIdentifier>
-                                <country>GB</country>            
-                                <settlement>Cambridge</settlement>            
-                                <repository>University Library</repository>            
+                                <country>GB</country>
+                                <settlement>Cambridge</settlement>
+                                <repository>University Library</repository>
                                 <idno>Schnitzler, B 59</idno>
                             </msIdentifier>
-                            <physDesc>                 <p>eh. Bildpostkarte, 6 Verfasser. XXXX</p>                 <stamp n="1">                   <placeName ref="#pmb50">XXXX</placeName>                   <date when="1907-11-27">27. 11. XXXX</date>                 </stamp>               </physDesc>
+                            <physDesc>                 <p>eh. Bildpostkarte, 6 Verfasser, blauer Buntstift. Motiv: »<quote><pb facs="MS-SCHNITZLER-B-00059-000-00003"/><rs type="place" ref="#pmb21799">Wien, XIII., Schönbrunn.                     Obeliks-Allee</rs>.</quote>«</p>                 <stamp n="1">                   <placeName ref="#pmb50">Wien 68</placeName>                   <date when="1907-11-27">27. <supplied>11. 1907</supplied></date>                 </stamp>               </physDesc>
                         </msDesc>
                     </witness>
                 </listWit>
@@ -62,10 +62,10 @@
         </fileDesc>
         <profileDesc>
             <langUsage>
-            <language ident="de-AT">German</language>
-         </langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
             <correspDesc>
-            <correspAction type="sent">
+                <correspAction type="sent">
                     <persName ref="#pmb2725">Wymetal, Wilhelm von</persName>
                     <persName ref="#pmb12071">Liliencron, Detlev von</persName>
                     <persName ref="#pmb12826">Stefan, Paul</persName>
@@ -75,86 +75,28 @@
                     <placeName ref="#pmb50">Wien</placeName>
                     <date when="1907-11-27" n="01">27. 11. [1907]</date>
                 </correspAction>
-            <correspAction type="received">
+                <correspAction type="received">
                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                     <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
-            <correspContext>
-               <ref type="belongsToCorrespondence" target="#pmb12071">Liliencron, Detlev von</ref>
-               <ref subtype="previous_letter" type="withinCorrespondence" target="1904-04-10_01">Liliencron, Stefan, Horwitz, Kahler, Altenberg, Kraus, Wymetal, Loos, Webern, Devrient an Schnitzler, 1[0?]. 4. 1904</ref>
-               <ref subtype="next_letter" type="withinCorrespondence" target="1909-07-24_02">Schnitzler an Liliencron, [24.?] 7. 1909</ref>
-            </correspContext>
-         </correspDesc>
+                <correspContext>
+                    <ref type="belongsToCorrespondence" target="#pmb12071">Liliencron, Detlev von</ref>
+                    <ref subtype="previous_letter" type="withinCorrespondence" target="1904-04-10_01">Liliencron, Stefan, Horwitz, Kahler, Altenberg,
+                        Kraus, Wymetal, Loos, Webern, Devrient an Schnitzler, 1[0?]. 4. 1904</ref>
+                    <ref subtype="next_letter" type="withinCorrespondence" target="1909-07-24_02">Schnitzler an Liliencron, [24.?] 7. 1909</ref>
+                </correspContext>
+            </correspDesc>
         </profileDesc>
-      <encodingDesc>          
-         <refsDecl>             
-            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>          
-         </refsDecl>       
-      </encodingDesc>
-        <revisionDesc status="proposed">
+        <encodingDesc>
+            <refsDecl>
+                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates
+                    only, e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+                    'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
+            </refsDecl>
+        </encodingDesc>
+        <revisionDesc status="approved">
             <change who="MAM" when="2018-12-18">Angelegt</change>
             <change who="MAM" when="2018-12-12">Index check</change>
+            <change who="MAM" when="2020-03-11">Finalisiert</change>
         </revisionDesc>
-    </teiHeader> <text type="card"> <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <hi rend="latintype">Herrn</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">Dr. Arthur Schnitzler</hi>
-                    </addrLine>
-                    <addrLine>
-                        <rs ref="#pmb68" type="place">
-                            <hi rend="latintype">Wien XVIII</hi>
-                        </rs>/</addrLine>
-                    <addrLine>
-                        <rs ref="#pmb133" type="place">
-                            <hi rend="latintype">Spöttelstr. 7</hi>
-                        </rs>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <p>
-                    <tei:pb/>
-                    <handShift scribe="#pmb12071"/>Herzlichen Gruß</p>
-                <closer>Ihr <signed>Liliencron</signed>
-                </closer>
-                <p>
-                    <handShift scribe="#pmb12826"/>Ergeben<c rendition="#langesS">s</c>t Ihr <signed>Paul Stefan.</signed>
-                </p>
-                <p>
-                    <handShift scribe="#pmb2725"/>
-                    <hi rend="latintype">Herzlich ergeben</hi>
-                    <lb/>
-                    <signed>Will Wymetal</signed>
-                </p>
-                <p>
-                    <handShift scribe="#pmb29183"/>
-                    <signed>Hedwig Kurzweil</signed>
-                </p>
-                <p>
-                    <handShift scribe="#pmb5819"/>
-                    <signed>D<hi rend="superscript">r</hi>Markowitz.</signed>
-                </p>
-                <p>
-                    <handShift scribe="#pmb29182"/>
-                    <signed>EGoldschmied</signed>
-                </p>
-                <postscript>
-                    <dateline>
-                        <handShift scribe="#pmb2725"/>
-                        <rs ref="#pmb50" type="place">
-                            <hi rend="latintype">Wien</hi>
-                        </rs>, <anchor type="commentary" xml:id="KL2122-1"/>
-                        <date>27/11</date>
-                        <note type="commentary" xml:id="KL2122-1h">Am <date>27. 11. 1907</date> veranstaltete der <rs ref="#pmb29596" type="org">Ansorge-Verein</rs> im <rs ref="#pmb563" type="place">Gewerbevereinssaal</rs> veranstaltete.</note>
-                    </dateline>
-                </postscript>
-            </div>
-        </body> </text>
-</TEI>
+    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00059-000-00003"/> <graphic url="MS-SCHNITZLER-B-00059-000-00004"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00059-000-00004"/><hi rend="latintype">Herrn</hi></addrLine><addrLine><hi rend="latintype">Dr. Arthur Schnitzler</hi></addrLine><addrLine><rs ref="#pmb68" type="place"><hi rend="latintype">Wien XVIII</hi></rs>/</addrLine><addrLine><rs ref="#pmb133" type="place"><hi rend="latintype">Spöttelstr. 7</hi></rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00059-000-00004"/><handShift scribe="#pmb12071"/>Herzlichen Gruß</p><closer>Ihr <signed>Liliencron</signed></closer></div><div type="writingSession" n="2"><closer><handShift scribe="#pmb12826"/>Ergeben<c rendition="#langesS">s</c>t Ihr <signed>Paul Stefan.</signed></closer></div><div type="writingSession" n="3"><p><handShift scribe="#pmb2725"/><hi rend="latintype">Herzlich ergeben</hi></p><closer><signed>Will Wymetal</signed></closer></div><div type="writingSession" n="4"><closer><handShift scribe="#pmb29183"/><signed>Hedwig Kurzweil</signed></closer></div><div type="writingSession" n="5"><closer><handShift scribe="#pmb5819"/><signed>D<hi rend="superscript">r</hi>Markowitz.</signed></closer></div><div type="writingSession" n="6"><closer><handShift scribe="#pmb29182"/><signed>EGoldschmied</signed></closer><postscript><dateline><handShift scribe="#pmb2725"/><rs ref="#pmb50" type="place"><hi rend="latintype">Wien</hi></rs>, <anchor type="commentary" xml:id="KL2122-1"/><date>27/11</date><note type="commentary" xml:id="KL2122-1h">Am <date>27. 11. 1907</date> veranstaltete der <rs ref="#pmb29596" type="org">Ansorge-Verein</rs> im <rs ref="#pmb563" type="place">Gewerbevereinssaal</rs> veranstaltete.</note></dateline></postscript></div></body> </text></TEI>

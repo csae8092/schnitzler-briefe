@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1907-12-24_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1907-12-24_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"> <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -31,7 +30,7 @@
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences, Vienna</publisher>
-            <idno type="ASBW" n="3052"/>
+            <idno type="ASBW"/>
             <availability status="free">
                <p>Copyright © 2019</p>
             </availability>
@@ -77,7 +76,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>                
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                <!--<placeName ref="#50">Wien</placeName>-->
                <date when="1907-12-24" n="01">24. 12. 1907</date>
             </correspAction>
@@ -88,30 +87,19 @@
             <correspContext>
                <ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</ref>
                <ref subtype="previous_letter" type="withinCorrespondence" target="1907-11_01">Hofmannsthal an Schnitzler, 1907-11</ref>
-               <ref subtype="next_letter" type="withinCorrespondence" target="1907_02">Hofmannsthal an Schnitzler, 1907</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1907_02">Hofmannsthal
+                  an Schnitzler, 1907</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
-      <encodingDesc>          
-         <refsDecl>             
-            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>          
-         </refsDecl>       
+      <encodingDesc>
+         <refsDecl>
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only,
+               e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+               'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
+         </refsDecl>
       </encodingDesc>
       <revisionDesc status="proposed">
          <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
       </revisionDesc>
-   </teiHeader> <text type="letter"> <body>
-            <div type="writingSession" n="1">
-                <dateline rend="right">
-                    <date>Weihnachten 1907</date>
-                </dateline>
-                <p>Der lieben und armen <rs ref="#pmb2173" type="person">Olga</rs> mit den innigsten Wünschen </p>
-                <closer>
-                    <signed>Hugo</signed> u. <signed>Gerty</signed>
-                </closer>
-            </div>
-        </body> </text>
-</TEI>
+   </teiHeader> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>Weihnachten 1907</date></dateline></opener><p>Der lieben und armen <rs ref="#pmb2173" type="person">Olga</rs> mit den innigsten Wünschen </p><closer><signed>Hugo</signed> u. <signed>Gerty</signed></closer></div></body> </text></TEI>

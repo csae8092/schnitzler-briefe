@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1900-05-19_02_AS_Bahr"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1900-05-19_02_AS_Bahr"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -30,9 +29,9 @@
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences, Vienna</publisher>
-            <idno type="HBAS-L" n="1028"/>
+            <idno type="HBAS-L"/>
             <availability status="free">
-               <p>Copyright © 2018</p>
+               <p>Copyright © 2020</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -113,13 +112,12 @@
             </correspContext>
          </correspDesc>
       </profileDesc>
-      <encodingDesc>          
-         <refsDecl>             
-            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>          
-         </refsDecl>       
+      <encodingDesc>
+         <refsDecl>
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only,
+               e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+               'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
+         </refsDecl>
       </encodingDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="2015-10-01">Kollationiert</change>
@@ -128,24 +126,4 @@
          <change who="GHS" when="2020-01-01">finalisiert</change>
          <change who="MAM" when="2019-01-20">Index check</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="HS_AM23337Ba"/> </facsimile> <text type="letter"> <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="HS_AM23337Ba"/>lieber Hermann, </salute>
-                </opener>
-                <p>ich habe gar nichts dagegen, we<c rendition="#gemination-n"/> du Herrn Doctor <rs ref="#pmb2170" type="person">Geiringer</rs> dein Exemplar des »<rs ref="#pmb29855" type="work">Reigen</rs>« leihwei<c rendition="#langesS">s</c>e zur Verfügung<space unit="chars" quantity="1"/>
-                    <c rendition="#langesS">s</c>tell<c rendition="#langesS">s</c>t. Ich<space unit="chars" quantity="1"/>
-                    <c rendition="#langesS">s</c>elb<c rendition="#langesS">s</c>t will u ka<c rendition="#gemination-n"/> eigentlich ein Buch von mir nicht <anchor type="textConst" xml:id="TL028-1"/>
-                    <hi rend="underline" n="1">herleihen</hi>
-                    <note type="textConst" xml:id="TL028-1h">Unterstreichung am Papier erkennbar, aber teilweise ohne Tinte. Wohl zur Verdeutlichung »leihen« über dem Text wiederholt.</note>; mü<unclear>ß</unclear>t es <pb facs="HS_AM23337Ba"/>gleich her<c rendition="#langesS">s</c>chenken, nur dazu reichen mir die Exemplare nicht mehr.</p>
-                <closer>Herzlich grüßend<lb/>dein <signed>Arthur Schn</signed>
-                </closer>
-                <postscript>
-                    <p>
-                        <date when="1900-05-19">19. 5. 900.</date>
-                    </p>
-                </postscript>
-            </div>
-        </body> </text>
-</TEI>
+   </teiHeader> <facsimile> <graphic url="HS_AM23337Ba"/> </facsimile> <text type="letter"> <body><div type="writingSession" n="1"><opener><salute><pb facs="https://www.theatermuseum.at/de/object/a7a09df286/"/>lieber Hermann, </salute></opener><p>ich habe gar nichts dagegen, we<c rendition="#gemination-n"/> du Herrn Doctor <rs ref="#pmb2170" type="person">Geiringer</rs> dein Exemplar des »<rs ref="#pmb29855" type="work">Reigen</rs>« leihwei<c rendition="#langesS">s</c>e zur Verfügung <c rendition="#langesS">s</c>tell<c rendition="#langesS">s</c>t. Ich <c rendition="#langesS">s</c>elb<c rendition="#langesS">s</c>t will u ka<c rendition="#gemination-n"/> eigentlich ein Buch von mir nicht <anchor type="textConst" xml:id="TL028-1"/><hi rend="underline" n="1">herleihen</hi><note type="textConst" xml:id="TL028-1h">Unterstreichung am Papier erkennbar, aber teilweise ohne Tinte. Wohl zur Verdeutlichung »leihen« über dem Text wiederholt.</note>; mü<unclear>ß</unclear>t es <pb facs="https://www.theatermuseum.at/de/object/a7a09df286/"/>gleich her<c rendition="#langesS">s</c>chenken, nur dazu reichen mir die Exemplare nicht mehr.</p><closer>Herzlich grüßend<lb/>dein <signed>Arthur Schn</signed></closer><postscript><dateline><date when="1900-05-19">19. 5. 900.</date></dateline></postscript></div></body> </text></TEI>

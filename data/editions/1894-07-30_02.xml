@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-07-30_02_Beer-Hofmann_AS"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-07-30_02_Beer-Hofmann_AS"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -31,7 +30,7 @@
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences, Vienna</publisher>
-            <idno type="ASBW" n="2780"/>
+            <idno type="ASBW"/>
             <availability status="free">
                <p>Copyright © 2019</p>
             </availability>
@@ -49,7 +48,7 @@
                         <repository>University Library</repository>
                         <idno>Schnitzler, B 8</idno>
                      </msIdentifier>
-                     <physDesc>             <p>ms. Telegramm, beschnitten; gestempelt mit dem Namen des Transkribierers              des Telegramms : »<quote>                <rs ref="#pmb41816" type="person">Edmund                 Winter</rs>              </quote>«. Von Schnitzler mit Bleistift datiert: »<quote>                <date>30<supplied>/7 94</supplied>                </date>              </quote>« und nummeriert: »<quote>30</quote>«.</p>           </physDesc>
+                     <physDesc>             <p>ms. Telegramm, beschnitten; gestempelt mit dem Namen des Transkribierers              des Telegramms : »<quote>                <rs ref="#pmb41816" type="person">Edmund Winter</rs>              </quote>«. Von Schnitzler mit Bleistift datiert: »<quote>                <date>30<supplied>/7 94</supplied>                </date>              </quote>« und nummeriert: »<quote>30</quote>«.</p>           </physDesc>
                   </msDesc>
                </witness>
             </listWit>
@@ -93,13 +92,12 @@
             </correspContext>
          </correspDesc>
       </profileDesc>
-      <encodingDesc>          
-         <refsDecl>             
-            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>          
-         </refsDecl>       
+      <encodingDesc>
+         <refsDecl>
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only,
+               e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+               'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
+         </refsDecl>
       </encodingDesc>
       <revisionDesc status="approved">
          <change who="MAM" when="2019-06-12">Automatisch angelegt aus Buchausgabe</change>
@@ -108,20 +106,4 @@
          <change who="MAM" when="2019-10-08">Finalisiert</change>
          <change who="MAM" when="2019-10-08">Index check</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00067.jpg"/> </facsimile> <text type="telegram"> <body>
-            <div type="writingSession" n="1">
-                <opener>
-                    <p>
-                        <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00067"/>
-                        <rs ref="#pmb50" type="place">wien</rs> fr <rs ref="#pmb213" type="place">ischl</rs> 5806 28 <time>12 20 n</time>
-                    </p>
-                </opener>
-                <p>wir sind am <date>zwejten august</date>
-                    <space unit="chars" quantity="1"/>
-                    <time>vormittag</time> in <rs ref="#pmb230" type="place">salzburg oesterreichischer hof</rs> bitte es dem <anchor type="commentary" xml:id="KLMAM20191008-1"/>suendentraum<note type="commentary" xml:id="KLMAM20191008-1h">Unklare Anspielung. Eventuell <rs ref="#pmb2456" type="person">Richard Specht</rs>, dessen dramatische Dichtung <rs ref="#pmb41820" type="work">Sündentraum</rs>
-                        <space unit="chars" quantity="1"/>
-                        <date>1892</date> erschienen war?</note> der in <rs ref="#pmb50" type="place">wien</rs> ist nicht zu sagen herzlichst <signed>= richard +</signed>
-                </p>
-            </div>
-        </body> </text>
-</TEI>
+   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00067.jpg"/> </facsimile> <text type="telegram"> <body><div type="writingSession" n="1"><opener><p><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00067"/><rs ref="#pmb50" type="place">wien</rs> fr <rs ref="#pmb213" type="place">ischl</rs> 5806 28 <time>12 20 n</time></p></opener><p>wir sind am <date>zwejten august</date> <time>vormittag</time> in <rs ref="#pmb230" type="place">salzburg oesterreichischer hof</rs> bitte es dem <anchor type="commentary" xml:id="KLMAM20191008-1"/>suendentraum<note type="commentary" xml:id="KLMAM20191008-1h">Unklare Anspielung. Eventuell <rs ref="#pmb2456" type="person">Richard Specht</rs>, dessen dramatische Dichtung <rs ref="#pmb41820" type="work">Sündentraum</rs> <date>1892</date> erschienen war? Oder <rs type="person" ref="#pmb12618" cert="low">Adele Sandrock</rs></note> der in <rs ref="#pmb50" type="place">wien</rs> ist nicht zu sagen herzlichst <signed>= richard +</signed></p></div></body> </text></TEI>

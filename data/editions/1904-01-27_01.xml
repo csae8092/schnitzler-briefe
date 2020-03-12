@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1904-01-27_01_AS_Bahr"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1904-01-27_01_AS_Bahr"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -30,16 +29,15 @@
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences, Vienna</publisher>
-            <idno type="HBAS-L" n="1069"/>
+            <idno type="HBAS-L"/>
             <availability status="free">
-               <p>Copyright © 2018</p>
+               <p>Copyright © 2020</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
          </seriesStmt>
          <sourceDesc>
-
             <listWit>
                <witness n="1">
                   <msDesc>
@@ -111,17 +109,17 @@
             <correspContext>
                <ref type="belongsToCorrespondence" target="#pmb10815">Bahr, Hermann</ref>
                <ref subtype="previous_letter" type="withinCorrespondence" target="1904-01-08_01">Schnitzler an Bahr, 8. 1. 1904</ref>
-               <ref subtype="next_letter" type="withinCorrespondence" target="1904-01-29_01">Bahr an Schnitzler, 29. 1. 1904</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1904-01-29_01">Bahr an
+                  Schnitzler, 29. 1. 1904</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
-      <encodingDesc>          
-         <refsDecl>             
-            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>          
-         </refsDecl>       
+      <encodingDesc>
+         <refsDecl>
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only,
+               e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+               'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
+         </refsDecl>
       </encodingDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="2015-10-01">Kollationiert</change>
@@ -130,42 +128,4 @@
          <change who="MAM" when="2019-01-20">Index check</change>
          <change who="GHS" when="2020-01-20">finalisiert</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="HS_AM23364Ba"/> <graphic url="HS_AM23364Ba_R"/> </facsimile> <text type="letter-card"> <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="HS_AM23364Ba_R"/>Herrn <hi rend="latintype">Hermann Bahr</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <rs ref="#pmb219" type="place">Marbach (Sanatorium)</rs>
-                        </hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <rs ref="#pmb845" type="place">Radolfzell</rs> am Bodensee</hi>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-                    <salute>
-                        <pb facs="HS_AM23364Ba"/>mein lieber Hermann,</salute>
-                </opener>
-                <p>möchte<c rendition="#langesS">s</c>t du mir ein Wort<space unit="chars" quantity="1"/>
-                    <c rendition="#langesS">s</c>chreiben, wie’s dir geht? wie lang du in <rs ref="#pmb218" type="place">Marbach</rs> bleiben wir<c rendition="#langesS">s</c>t? –</p>
-                <p>Anfang Feber fahre ich nach <rs ref="#pmb168" type="place">Berlin</rs>, den <rs ref="#pmb29985" type="work">Ein<c rendition="#langesS">s</c>amen Weg</rs> hab ich dir durch <rs ref="#pmb11324" type="person">Fi<c rendition="#langesS">s</c>cher</rs>
-                    <space unit="chars" quantity="1"/>
-                    <c rendition="#langesS">s</c>chicken la<c rendition="#langesS">s</c>
-                    <c rendition="#langesS">s</c>en!</p>
-                <closer>Herzliche Grüße!<lb/>Dein getreuer<lb/>
-                    <signed>Arthur</signed>
-                </closer>
-                <postscript>
-                    <p>
-                        <date>27. 1. 904.</date>
-                    </p>
-                </postscript>
-            </div>
-        </body> </text>
-</TEI>
+   </teiHeader> <facsimile> <graphic url="HS_AM23364Ba"/> <graphic url="HS_AM23364Ba_R"/> </facsimile> <text type="letter-card"> <body><div type="address"><address><addrLine><pb facs="https://www.theatermuseum.at/de/object/8688e8cc94/"/>Herrn <hi rend="latintype">Hermann Bahr</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb219" type="place">Marbach (Sanatorium)</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb845" type="place">Radolfzell</rs> am Bodensee</hi></addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs="https://www.theatermuseum.at/de/object/8688e8cc94/"/>mein lieber Hermann,</salute></opener><p>möchte<c rendition="#langesS">s</c>t du mir ein Wort <c rendition="#langesS">s</c>chreiben, wie’s dir geht? wie lang du in <rs ref="#pmb218" type="place">Marbach</rs> bleiben wir<c rendition="#langesS">s</c>t? –</p><p>Anfang Feber fahre ich nach <rs ref="#pmb168" type="place">Berlin</rs>, den <rs ref="#pmb29985" type="work">Ein<c rendition="#langesS">s</c>amen Weg</rs> hab ich dir durch <rs ref="#pmb11324" type="person">Fi<c rendition="#langesS">s</c>cher</rs> <c rendition="#langesS">s</c>chicken la<c rendition="#langesS">s</c><c rendition="#langesS">s</c>en!</p><closer>Herzliche Grüße!<lb/>Dein getreuer<lb/><signed>Arthur</signed></closer><postscript><dateline><date>27. 1. 904.</date></dateline></postscript></div></body> </text></TEI>

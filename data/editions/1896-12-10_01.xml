@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-12-10_01_AS_Liliencron"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-12-10_01_AS_Liliencron"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -31,9 +30,9 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="ASBW" n="1962"/>
+                <idno type="ASBW"/>
                 <availability status="free">
-                    <p>Copyright © 2018</p>
+                    <p>Copyright © 2020</p>
                 </availability>
             </publicationStmt>
             <seriesStmt>
@@ -85,39 +84,9 @@
         </ab>          
          </refsDecl>       
       </encodingDesc>
-        <revisionDesc status="proposed">
+        <revisionDesc status="approved">
             <change who="MAM" when="2019-01-31">Angelegt aus Faksimile</change>
             <change who="MAM" when="2018-12-28">Index check</change>
+            <change who="MAM" when="2020-03-11">Durchsicht</change>
         </revisionDesc>
-    </teiHeader> <text type="card"> <body>
-            <div type="address">
-                <address>
-                    <addrLine>
-                        <pb facs="Schnitzler1"/>Herrn <hi rend="latintype">Detlev Frhrn v Liliencron</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <rs ref="#pmb1259" type="place">Altona – Hamburg</rs>
-                        </hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <rs ref="#pmb1258" type="place">Pallmaille 5</rs>
-                        </hi>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <p>Herzlichen Dank für die freundliche Erinnerung und viele Grüße von Ihrem Sie verehrenden</p>
-                <closer>
-                    <signed>ArthSchnitzler</signed>
-                </closer>
-                <postscript>
-                    <dateline>
-                        <date>10. 12. 9<unclear>6</unclear>
-                        </date>
-                    </dateline>
-                </postscript>
-            </div>
-        </body> </text>
-</TEI>
+    </teiHeader> <facsimile> <graphic url="Kiel_Schnitzler1"/> <graphic url="Kiel_Schnitzler1a"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="Kiel_Schnitzler1"/>Herrn <hi rend="latintype">Detlev Frhrn v Liliencron</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb1259" type="place">Altona – Hamburg</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb1258" type="place">Pallmaille 5</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="Kiel_Schnitzler1a"/>Herzlichen Dank für die freundliche Erinnerung und viele Grüße von Ihrem Sie verehrenden</p><closer><signed>ArthSchnitzler</signed></closer><postscript><dateline><date>10. 12. 9<unclear>6</unclear></date>. </dateline></postscript></div></body> </text></TEI>
