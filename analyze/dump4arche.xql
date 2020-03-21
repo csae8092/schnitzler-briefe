@@ -54,16 +54,11 @@ let $RDF :=
                                     else $baseID||$config:app-name||'/'||data($y/@key)
                             
                                 return
-                                    <acdh:hasAuthor>
-                                <acdh:Person rdf:about="{$uri}">
-                                    <acdh:hasLastName>
+                                    <acdh:hasAuthor><acdh:Person rdf:about="{$uri}"><acdh:hasLastName>
                                         {$y/tei:surname/text()}
-                                    </acdh:hasLastName>
-                                    <acdh:hasFirstName>
+                                    </acdh:hasLastName><acdh:hasFirstName>
                                         {$y/tei:forename/text()}
-                                    </acdh:hasFirstName>
-                                </acdh:Person>
-                                </acdh:hasAuthor>
+                                    </acdh:hasFirstName></acdh:Person></acdh:hasAuthor>
                             
                         
                 } catch * {()}
@@ -73,8 +68,7 @@ let $RDF :=
                     <acdh:Resource rdf:about="{string-join(($collID, $doc), '/')}">
                         {$title}
                         {$authors}
-                        <acdh:isPartOf rdf:resource="{$collID}"/>
-                    </acdh:Resource>
+                        <acdh:isPartOf rdf:resource="{$collID}"/></acdh:Resource>
         }
 
     </rdf:RDF>

@@ -35,10 +35,7 @@ let $altnames := if ($altname)
     else
         ()
 let $entity :=
-    <tei:person xml:id="{$id}">
-        <tei:persName>
-            <tei:surname>{request:get-parameter('surname', '')}</tei:surname>
-            <tei:forename>{request:get-parameter('forename', '')}</tei:forename>
+    <tei:person xml:id="{$id}"><tei:persName><tei:surname>{request:get-parameter('surname', '')}</tei:surname><tei:forename>{request:get-parameter('forename', '')}</tei:forename>
             {$rolenames}
         </tei:persName>
         {$altnames}
@@ -51,12 +48,9 @@ let $update := if($listperson//tei:person[@xml:id=$id])
         update insert $entity into $listperson
 let $status := if ($update)
     then
-        <status>
-            <message>looks like such an entity already exists</message>
-        </status>
+        <status><message>looks like such an entity already exists</message></status>
     else
-        <status>
-            <message>follwoing node created</message>
+        <status><message>follwoing node created</message>
             {$entity}
         </status>
 return

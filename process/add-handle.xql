@@ -37,11 +37,7 @@ for $x in xmldb:get-child-collections($config:data-root)
             if ($node)
                 then
                     let $auth :="Basic "||util:string-to-binary($auth)
-                    let $headers := <headers>
-                                            <header name="Authorization" value="{$auth}"/>
-                                            <header name="Content-Type" value="application/json"/>
-                                            <header name="Accept" value="application/xhtml+xml"/>
-                                        </headers>
+                    let $headers := <headers><header name="Authorization" value="{$auth}"/><header name="Content-Type" value="application/json"/><header name="Accept" value="application/xhtml+xml"/></headers>
                     let $response := httpclient:post(xs:anyURI("http://pid.gwdg.de/handles/21.11115"), $data, true(),$headers)
                     let $handle := if ($response/@statusCode="201") 
                         then

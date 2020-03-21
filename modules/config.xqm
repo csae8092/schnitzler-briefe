@@ -89,22 +89,11 @@ declare function config:app-info($node as node(), $model as map(*)) {
     let $expath := config:expath-descriptor()
     let $repo := config:repo-descriptor()
     return
-        <table class="app-info">
-            <tr>
-                <td>app collection:</td>
-                <td>{$config:app-root}</td>
-            </tr>
+        <table class="app-info"><tr><td>app collection:</td><td>{$config:app-root}</td></tr>
             {
                 for $attr in ($expath/@*, $expath/*, $repo/*)
                 return
-                    <tr>
-                        <td>{node-name($attr)}:</td>
-                        <td>{$attr/string()}</td>
-                    </tr>
+                    <tr><td>{node-name($attr)}:</td><td>{$attr/string()}</td></tr>
             }
-            <tr>
-                <td>Controller:</td>
-                <td>{ request:get-attribute("$exist:controller") }</td>
-            </tr>
-        </table>
+            <tr><td>Controller:</td><td>{ request:get-attribute("$exist:controller") }</td></tr></table>
 };

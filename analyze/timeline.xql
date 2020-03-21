@@ -22,15 +22,7 @@ let $data := <data>{
     let $month := month-from-date(xs:date($date))
     let $day := day-from-date(xs:date($date))
     return 
-        <item>
-            <event_id>{$pos}</event_id>
-            <before>{$before}</before>
-            <match>{$match}</match>
-            <after>{$after}</after>
-            <backlink>{$backlink}</backlink>
-            <start>{$date}</start>
-            <date>({$year},{$month},{$day})</date>
-        </item>
+        <item><event_id>{$pos}</event_id><before>{$before}</before><match>{$match}</match><after>{$after}</after><backlink>{$backlink}</backlink><start>{$date}</start><date>({$year},{$month},{$day})</date></item>
 }</data>
 
 return $data

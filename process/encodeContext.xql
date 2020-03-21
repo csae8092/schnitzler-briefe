@@ -35,7 +35,4 @@ for $x in $all
         else
             ()
     return
-        <group for="{$currentDocName}">
-            <prev>{$neighbors[1]}</prev>
-            <next>{$neighbors[3]}</next>
-        </group>
+        <group for="{$currentDocName}"><prev>{$neighbors[1]}</prev><next>{$neighbors[3]}</next></group>

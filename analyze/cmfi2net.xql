@@ -8,13 +8,7 @@ declare namespace gefx = "http://gexf.net/data/hello-world.gexf";
 declare namespace util = "http://exist-db.org/xquery/util";
 
 declare option exist:serialize "method=xml media-type=text/xml omit-xml-declaration=no indent=yes";
-<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
-    <meta lastmodifieddate="{current-date()}">
-        <creator>schnitzler-briefe-net.xql</creator>
-        <description>A network of persons Erwähnungen the schnitzler-briefe-Korpus</description>
-    </meta>
-    <graph mode="static" defaultedgetype="directed">
-        <nodes>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2"><meta lastmodifieddate="{current-date()}"><creator>schnitzler-briefe-net.xql</creator><description>A network of persons Erwähnungen the schnitzler-briefe-Korpus</description></meta><graph mode="static" defaultedgetype="directed"><nodes>
         {
 (:          for $person in doc($config:app-root || "/data/indices/listperson.xml")//tei:person[exists(@xml:id)]:)
 (:            let $key := data($person/@xml:id):)
@@ -26,8 +20,7 @@ declare option exist:serialize "method=xml media-type=text/xml omit-xml-declarat
                   <node id="{$key}" label="{$key}"/>
  
         }
-        </nodes>
-        <edges>
+        </nodes><edges>
         {
             for $doc in collection($config:app-root || "/data/editions/")//tei:TEI[.//tei:rs[@role="sender"]]
             let $sender := $doc//tei:rs[@role="sender"]
@@ -38,7 +31,5 @@ declare option exist:serialize "method=xml media-type=text/xml omit-xml-declarat
         }
 
             
-        </edges>
-    </graph>
-</gexf>
+        </edges></graph></gexf>
 

@@ -13,32 +13,12 @@ let $baseURL := request:get-parameter("baseURL", "https://schnitzler-briefe-korr
 
 (: create the CMFI document:)
 let $CMFI := 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Correspondence Metadata Interchange Format for: {$config:app-title}</title>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Correspondence Metadata Interchange Format for: {$config:app-title}</title>
                 {for $x in $config:app-authors return 
                     <editor>{$x/text()}</editor>
                 }
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <ref target="{$baseURL}">{$config:app-title}</ref>
-                </publisher>
-                <idno type="url">{$baseURL}</idno>
-                <date when="{current-date()}"/>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY 4.0</licence>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="online">
-                    {$config:app-title} <ref target="{$baseURL}">{$baseURL}</ref>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
+            </titleStmt><publicationStmt><publisher><ref target="{$baseURL}">{$config:app-title}</ref></publisher><idno type="url">{$baseURL}</idno><date when="{current-date()}"/><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY 4.0</licence></availability></publicationStmt><sourceDesc><bibl type="online">
+                    {$config:app-title} <ref target="{$baseURL}">{$baseURL}</ref></bibl></sourceDesc></fileDesc><profileDesc>
 
 {
 for $corrspDesc in collection($app:editions)//tei:correspDesc
@@ -46,14 +26,7 @@ let $ref := app:getDocName($corrspDesc)
 return
     <correspDesc ref="{string-join(($baseURL, $ref), '/')}">{for $x in $corrspDesc//tei:correspAction return $x}</correspDesc>
 }
-        </profileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <p>some text</p>
-        </body>
-    </text>
-</TEI>
+        </profileDesc></teiHeader><text><body><p>some text</p></body></text></TEI>
 
 (: create a 'temp' collection:)
 let $temp := xmldb:create-collection($config:app-root, 'temp')

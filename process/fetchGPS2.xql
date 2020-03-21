@@ -21,7 +21,7 @@ declare function local:getCoordsFromGeonamesRDF($GN as xs:string) {
     (: "http://sws.geonames.org/7530819/about.rdf" :)
     let $rdfURL := "http://sws.geonames.org/" || $GN || "/about.rdf"
     let $RDF := doc($rdfURL)
-    (: <wgs84_pos:lat>50.00545</wgs84_pos:lat> <wgs84_pos:long>21.98848</wgs84_pos:long> :)
+    (: <wgs84_pos:lat>50.00545</wgs84_pos:lat><wgs84_pos:long>21.98848</wgs84_pos:long> :)
     let $lat := $RDF//wgs84_pos:lat/text()
     let $long := $RDF//wgs84_pos:long/text()
     return
@@ -56,9 +56,7 @@ declare function local:getCordsfromWikidata($Q as xs:string) {
     let $encoded-query := $query-url || encode-for-uri($query)
 
     let $request := 
-        <hc:request href="{$encoded-query}" method="GET">
-            <hc:header name="Connection" value="close"/>    
-        </hc:request>
+        <hc:request href="{$encoded-query}" method="GET"><hc:header name="Connection" value="close"/></hc:request>
     let $data := hc:send-request($request)
     
     let $coordsString := $data//sparql:results/sparql:result/sparql:binding[@name='coords']/sparql:literal/text()

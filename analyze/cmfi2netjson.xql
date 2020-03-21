@@ -23,11 +23,7 @@ let $result :=
                             let $key := data($person/@ref)
                             group by $key
                             return
-                                <nodes>
-                                    <id>{$key}</id>
-                                    <title>{$person[1]/text()}</title>
-                                    <color>green</color>
-                                </nodes>
+                                <nodes><id>{$key}</id><title>{$person[1]/text()}</title><color>green</color></nodes>
          
                 }
 
@@ -37,10 +33,7 @@ let $result :=
                         let $reciver := $corresp/tei:correspAction[@type='received']//tei:persName[1]
                         let $id := data($corresp/@ref)
                             return
-                                <edges>
-                                    <from>{data($sender/@ref)}</from>
-                                    <to>{data($reciver/@ref)}</to>
-                                </edges>
+                                <edges><from>{data($sender/@ref)}</from><to>{data($reciver/@ref)}</to></edges>
                 }
 
         </result>

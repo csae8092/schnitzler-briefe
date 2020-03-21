@@ -24,11 +24,7 @@ let $collections :=
                 return <ERROR>{($err:code, $err:description)}</ERROR>
             }
         return
-            <response>
-                <source>{$source}</source>
-                <target>{$target}</target>
-                <synced>{$synced}</synced>
-            </response>
+            <response><source>{$source}</source><target>{$target}</target><synced>{$synced}</synced></response>
 
 let $meta_dir :=  $config:app-root||'/data/meta'
 let $synced_meta_dir :=
@@ -44,11 +40,7 @@ let $synced_meta_dir :=
             return <ERROR>{($err:code, $err:description)}</ERROR>
         }
      return
-        <response>
-            <source>{$source}</source>
-            <target>{$target}</target>
-            <synced>{$synced}</synced>
-        </response>
+        <response><source>{$source}</source><target>{$target}</target><synced>{$synced}</synced></response>
 
 let $meta_dir :=  $config:app-root||'/data/indices'
 let $synced_meta_dir :=
@@ -64,11 +56,7 @@ let $synced_meta_dir :=
             return <ERROR>{($err:code, $err:description)}</ERROR>
         }
      return
-        <response>
-            <source>{$source}</source>
-            <target>{$target}</target>
-            <synced>{$synced}</synced>
-        </response>
+        <response><source>{$source}</source><target>{$target}</target><synced>{$synced}</synced></response>
 
 return
     <result>

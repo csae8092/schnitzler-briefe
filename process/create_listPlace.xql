@@ -31,8 +31,7 @@ let $listPlace :=
     group by $xmlID
     where $string != ''
     return 
-        <place xml:id="{$xmlID}" type="{$type[1]}">
-            <placeName type="pref">{normalize-space($key[1])}</placeName>
+        <place xml:id="{$xmlID}" type="{$type[1]}"><placeName type="pref">{normalize-space($key[1])}</placeName>
             {for $x in distinct-values($place/text()[1]) return <placeName type="alt">{normalize-space($x)}</placeName> }
         </place>
 }</listPlace>

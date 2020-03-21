@@ -34,18 +34,9 @@ declare %private function api:utils-list-collection-content($collection as xs:st
                 let $title := normalize-space(string-join($x//tei:title[1]//text(), ' '))
                 let $self := string-join(($result?endpoint, $id), '/')
                 return
-                    <data>
-                        <type>TEI-Document</type>
-                        <id>{$id}</id>
-                        <attributes>
-                            <title>{$title}</title>
-                        </attributes>
-                        <links>
-                            <self>
+                    <data><type>TEI-Document</type><id>{$id}</id><attributes><title>{$title}</title></attributes><links><self>
                                 {$self}
-                            </self>
-                        </links>
-                    </data>
+                            </self></links></data>
         return
             <result>
                 {$result?meta}
@@ -87,18 +78,7 @@ declare function api:utils-paginator(
         let $next := $endpoint||'?page[number]='||$next
         let $last := $endpoint||'?page[number]='||$last
         let $result := 
-                <result>
-                    <meta>
-                        <hits>{$all}</hits>
-                    </meta>
-                    <links>
-                        <self>{$endpoint}</self>
-                        <first>{$first}</first>
-                        <prev>{$prev}</prev>
-                        <next>{$next}</next>
-                        <last>{$last}</last>
-                    </links>
-                </result>
+                <result><meta><hits>{$all}</hits></meta><links><self>{$endpoint}</self><first>{$first}</first><prev>{$prev}</prev><next>{$next}</next><last>{$last}</last></links></result>
         return
             map{
                 "meta": $result,
@@ -111,43 +91,22 @@ declare function api:utils-paginator(
 };
 
 declare variable $api:TEXT := 
-<rest:response>
-    <http:response>
-        <http:header name="Access-Control-Allow-Origin" value="*"/>
-        <http:header name="X-Frame-Options" value="SAMEORIGIN"/>
-        <http:header name="Content-Language" value="en"/>
-        <http:header name="Content-Type" value="text/plain; charset=utf-8"/>
-    </http:response>
-    <output:serialization-parameters>
-        <output:method value='text'/>
+<rest:response><http:response><http:header name="Access-Control-Allow-Origin" value="*"/><http:header name="X-Frame-Options" value="SAMEORIGIN"/><http:header name="Content-Language" value="en"/><http:header name="Content-Type" value="text/plain; charset=utf-8"/></http:response>
+    <output:serialization-parameters><output:method value='text'/>
         <output:media-type value='text/plain'/>
     </output:serialization-parameters>
  </rest:response>;
 
 declare variable $api:JSON := 
-<rest:response>
-    <http:response>
-        <http:header name="Access-Control-Allow-Origin" value="*"/>
-        <http:header name="X-Frame-Options" value="SAMEORIGIN"/>
-        <http:header name="Content-Language" value="en"/>
-        <http:header name="Content-Type" value="application/json; charset=utf-8"/>
-    </http:response>
-    <output:serialization-parameters>
-        <output:method value='json'/>
+<rest:response><http:response><http:header name="Access-Control-Allow-Origin" value="*"/><http:header name="X-Frame-Options" value="SAMEORIGIN"/><http:header name="Content-Language" value="en"/><http:header name="Content-Type" value="application/json; charset=utf-8"/></http:response>
+    <output:serialization-parameters><output:method value='json'/>
         <output:media-type value='application/json'/>
     </output:serialization-parameters>
  </rest:response>;
 
 declare variable $api:XML := 
-<rest:response>
-    <http:response>
-        <http:header name="Access-Control-Allow-Origin" value="*"/>
-        <http:header name="X-Frame-Options" value="SAMEORIGIN"/>
-        <http:header name="Content-Language" value="en"/>
-        <http:header name="Content-Type" value="application/xml; charset=utf-8"/>
-    </http:response>
-    <output:serialization-parameters>
-        <output:method value='xml'/>
+<rest:response><http:response><http:header name="Access-Control-Allow-Origin" value="*"/><http:header name="X-Frame-Options" value="SAMEORIGIN"/><http:header name="Content-Language" value="en"/><http:header name="Content-Type" value="application/xml; charset=utf-8"/></http:response>
+    <output:serialization-parameters><output:method value='xml'/>
         <output:media-type value='application/xml'/>
     </output:serialization-parameters>
  </rest:response>;
@@ -167,44 +126,7 @@ declare
     %rest:query-param("format", "{$format}", 'json')
 function api:api-about($format as xs:string*, $pageNumber as xs:integer*, $pageSize as xs:integer*) {
     let $endpoints := 
-        <result>
-            <ep>
-                <url>/schnitzler-briefe/api/collections</url>
-                <name>list collections</name>
-                <description>API-Endpoint to list all child collections of the app's data collection</description>
-                <group>collections</group>
-            </ep>
-            <ep>
-                <url>{"/schnitzler-briefe/api/collections/{$collection}"}</url>
-                <name>list documents per collection</name>
-                <description>API-Endpoint to list all documents stored in the passed in collection</description>
-                <group>documents</group>
-            </ep>
-            <ep>
-                <url>{"/collections/{collectionId}/{$id}"}</url>
-                <name>show document</name>
-                <description>Get an XML/TEI version of a document.</description>
-                <group>documents</group>
-            </ep>
-            <ep>
-                <url>{"/entity-types"}</url>
-                <name>list entity types</name>
-                <description>List all entity-types</description>
-                <group>entities</group>
-            </ep>
-            <ep>
-                <url>{"/entity-types"}</url>
-                <name>list entities</name>
-                <description>List all entities located in the app's indices collections.</description>
-                <group>entities</group>
-            </ep>
-            <ep>
-                <url>{"/entities/{$id}"}</url>
-                <name>show entity</name>
-                <description>API-Endpoint for an entity</description>
-                <group>entities</group>
-            </ep>
-        </result>
+        <result><ep><url>/schnitzler-briefe/api/collections</url><name>list collections</name><description>API-Endpoint to list all child collections of the app's data collection</description><group>collections</group></ep><ep><url>{"/schnitzler-briefe/api/collections/{$collection}"}</url><name>list documents per collection</name><description>API-Endpoint to list all documents stored in the passed in collection</description><group>documents</group></ep><ep><url>{"/collections/{collectionId}/{$id}"}</url><name>show document</name><description>Get an XML/TEI version of a document.</description><group>documents</group></ep><ep><url>{"/entity-types"}</url><name>list entity types</name><description>List all entity-types</description><group>entities</group></ep><ep><url>{"/entity-types"}</url><name>list entities</name><description>List all entities located in the app's indices collections.</description><group>entities</group></ep><ep><url>{"/entities/{$id}"}</url><name>show entity</name><description>API-Endpoint for an entity</description><group>entities</group></ep></result>
     let $self := rest:uri()
     let $sequence := for $x in $endpoints/ep return $x
     let $paginator := api:utils-paginator($self, $pageNumber, $pageSize, $sequence)
@@ -213,20 +135,9 @@ function api:api-about($format as xs:string*, $pageNumber as xs:integer*, $pageS
         let $title := $x/name
         let $self := string-join(($paginator?endpoint, $id), '')
         return
-                <data>
-                    <type>{name($x)}</type>
-                    <id>{$id}</id>
-                    <attributes>
-                        <title>{$title/text()}</title>
-                        <description>{$x/description/text()}</description>
-                        <group>{$x/group/text()}</group>
-                    </attributes>
-                    <links>
-                        <self>
+                <data><type>{name($x)}</type><id>{$id}</id><attributes><title>{$title/text()}</title><description>{$x/description/text()}</description><group>{$x/group/text()}</group></attributes><links><self>
                             {$self}
-                        </self>
-                    </links>
-                </data>
+                        </self></links></data>
     
     let $result := 
             <result>
@@ -264,18 +175,9 @@ function api:api-list-collections($format as xs:string*, $pageNumber as xs:integ
             let $title := $x
             let $self := string-join(($paginator?endpoint, $id), '/')
             return
-                <data>
-                    <type>Collection</type>
-                    <id>{$id}</id>
-                    <attributes>
-                        <title>{$title}</title>
-                    </attributes>
-                    <links>
-                        <self>
+                <data><type>Collection</type><id>{$id}</id><attributes><title>{$title}</title></attributes><links><self>
                             {$self}
-                        </self>
-                    </links>
-                </data>
+                        </self></links></data>
     let $result := 
         <result>
             {$paginator?meta}
@@ -339,18 +241,9 @@ function api:api-list-entities($pageNumber as xs:integer*, $pageSize as xs:integ
         let $title := normalize-space(string-join($x/*[1]//text(), ' '))
         let $self := string-join(($paginator?endpoint, $id), '/')
         return
-            <data>
-                <type>{name($x)}</type>
-                <id>{$id}</id>
-                <attributes>
-                    <title>{$title}</title>
-                </attributes>
-                <links>
-                    <self>
+            <data><type>{name($x)}</type><id>{$id}</id><attributes><title>{$title}</title></attributes><links><self>
                         {$self}
-                    </self>
-                </links>
-            </data>
+                    </self></links></data>
     let $result := 
         <result>
             {$paginator?meta}
@@ -430,18 +323,9 @@ function api:api-list-entity-types($pageNumber as xs:integer*, $pageSize as xs:i
                 let $title := replace(substring-after($id, 'list'), '.xml', '')||'s'
                 let $self := string-join(($paginator?endpoint, $id), '/')
                 return
-                    <data>
-                        <type>Entity Type</type>
-                        <id>{$id}</id>
-                        <attributes>
-                            <title>{$title}</title>
-                        </attributes>
-                        <links>
-                            <self>
+                    <data><type>Entity Type</type><id>{$id}</id><attributes><title>{$title}</title></attributes><links><self>
                                 {$self}
-                            </self>
-                        </links>
-                    </data>
+                            </self></links></data>
     let $result := 
         <result>
             {$paginator?meta}
@@ -488,26 +372,16 @@ function api:api-kwic($collection as xs:string, $q as xs:string*) {
             let $score as xs:float := ft:score($hit)
             order by $score descending
             return
-            <hits>
-                <score>{$score}</score>
-                <hl>{kwic:summarize($hit, <config width="40"/>)}</hl>
-                <id>{util:document-name($hit)}</id>
-                <collection>{$collection}</collection>
-            </hits>
+            <hits><score>{$score}</score><hl>{kwic:summarize($hit, <config width="40"/>)}</hl><id>{util:document-name($hit)}</id><collection>{$collection}</collection></hits>
         let $result := 
-            <result>
-                <amount>{$numMatches}</amount>
+            <result><amount>{$numMatches}</amount>
                 {$kwics}
             </result>
         
         return ($api:JSON, $result)
     
     else
-        let $result := <hits>
-                <score>0</score>
-                <hl></hl>
-                <id></id>
-            </hits>
+        let $result := <hits><score>0</score><hl></hl><id></id></hits>
         return
             ($api:JSON, $result)
 };

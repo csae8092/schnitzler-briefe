@@ -8,14 +8,7 @@ let $query := request:get-parameter('query', '')
 
 let $return :=
     if($type eq 'person') then
-        <list>
-            <item>
-                <name>{false()}</name>
-                <id>{false()}</id>
-                <description>{false()}</description>
-                <more>{false()}</more>
-                <type>{$type}</type>
-            </item>{
+        <list><item><name>{false()}</name><id>{false()}</id><description>{false()}</description><more>{false()}</more><type>{$type}</type></item>{
         let $entities := if ($query)
             then
                 doc($app:personIndex)//tei:person[contains(string-join(.//tei:persName//text()), $query)]
@@ -27,13 +20,7 @@ let $return :=
         let $more := normalize-space($x//tei:idno[1 and @type="URL"]/text())
         where contains($name, $query)
             return
-                <item>
-                    <name>{$name}</name>
-                    <id>{data($x/@xml:id)}</id>
-                    <description>{$description}</description>
-                    <more>{$more}</more>
-                    <type>{$type}</type>
-                </item>
+                <item><name>{$name}</name><id>{data($x/@xml:id)}</id><description>{$description}</description><more>{$more}</more><type>{$type}</type></item>
         }</list>
     else if($type eq 'place') then
         <list>{
@@ -44,13 +31,7 @@ let $return :=
                 let $more := normalize-space($x//tei:idno[1 and @type="URL"]/text())
                 where contains($name, $query)
                 return
-                    <item>
-                        <name>{$x//tei:placeName[1]/text()[1]}</name>
-                        <id>{data($x/@xml:id)}</id>
-                        <description>{$description}</description>
-                        <more>{$more}</more>
-                        <type>{$type}</type>
-                    </item>
+                    <item><name>{$x//tei:placeName[1]/text()[1]}</name><id>{data($x/@xml:id)}</id><description>{$description}</description><more>{$more}</more><type>{$type}</type></item>
             }</list>
     else if($type eq 'org') then
         <list>{
@@ -61,13 +42,7 @@ let $return :=
             let $more := normalize-space($x//tei:idno[1 and @type="URL"]/text())
             where contains($name, $query)
                 return
-                    <item>
-                        <name>{$name}</name>
-                        <id>{data($x/@xml:id)}</id>
-                        <description>{$description}</description>
-                        <more>{$more}</more>
-                        <type>{$type}</type>
-                    </item>
+                    <item><name>{$name}</name><id>{data($x/@xml:id)}</id><description>{$description}</description><more>{$more}</more><type>{$type}</type></item>
         }</list>
     else if($type eq 'work') then
         <list>{
@@ -78,13 +53,7 @@ let $return :=
             let $more := normalize-space($x//tei:idno[1 and @type="URL"]/text())
             where contains($name, $query)
             return
-                <item>
-                    <name>{$name}</name>
-                    <id>{data($x/@xml:id)}</id>
-                    <description>{$description}</description>
-                    <more>{$more}</more>
-                    <type>{$type}</type>
-                </item>
+                <item><name>{$name}</name><id>{data($x/@xml:id)}</id><description>{$description}</description><more>{$more}</more><type>{$type}</type></item>
         }</list>
     else ()
 

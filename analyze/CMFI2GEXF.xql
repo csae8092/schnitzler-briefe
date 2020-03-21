@@ -14,13 +14,7 @@ let $CMFI:= request:get-parameter("CMFI", "")
 let $fallback := if ($CMFI eq "") then $config:app-root||'/data/indices/cmfi.xml' else $CMFI
 let $source := doc($fallback)
 let $result := 
-        <gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
-            <meta lastmodifieddate="{current-date()}">
-                <creator>schnitzler-briefe-net.xql</creator>
-                <description>A network of persons Erwähnungen the schnitzler-briefe-Korpus</description>
-            </meta>
-            <graph mode="static" defaultedgetype="directed">
-                <nodes>
+        <gexf xmlns="http://www.gexf.net/1.2draft" version="1.2"><meta lastmodifieddate="{current-date()}"><creator>schnitzler-briefe-net.xql</creator><description>A network of persons Erwähnungen the schnitzler-briefe-Korpus</description></meta><graph mode="static" defaultedgetype="directed"><nodes>
                 {
 
                     for $corresp in $source//tei:correspDesc[./tei:correspAction[@type='sent'] and ./tei:correspAction[@type='received']]
@@ -31,8 +25,7 @@ let $result :=
                                 <node id="{$key}" label="{$person[1]/text()}"/>
          
                 }
-                </nodes>
-                <edges>
+                </nodes><edges>
                 {
                     for $corresp in $source//tei:correspDesc[./tei:correspAction[@type='sent'] and ./tei:correspAction[@type='received']]
                         let $sender := $corresp/tei:correspAction[@type='sent']//tei:persName[1]
@@ -43,8 +36,6 @@ let $result :=
                 }
         
                     
-                </edges>
-            </graph>
-        </gexf>
+                </edges></graph></gexf>
 
 return $result

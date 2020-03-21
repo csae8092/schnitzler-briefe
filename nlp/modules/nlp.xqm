@@ -27,20 +27,12 @@ declare variable $nlp:posTaggerEndpoint :=
 xs:anyURI("https://spacyapp.acdh.oeaw.ac.at/query/jsonparser-api/");
 
 declare variable $nlp:serialiserParams :=
-        <output:serialization-parameters>
-          <output:omit-xml-declaration value="yes"/>
-          <output:expand-xincludes value="no"/>
-          <output:method value="xml"/>
-          <output:encoding value="utf-8"/>
-        </output:serialization-parameters>;
+        <output:serialization-parameters><output:omit-xml-declaration value="yes"/><output:expand-xincludes value="no"/><output:method value="xml"/><output:encoding value="utf-8"/></output:serialization-parameters>;
 
 declare function nlp:custom-tokenizer($input as node(), $profile as xs:string) as item(){
   let $endpoint := xs:anyURI(string-join(($nlp:customTokenizer, $profile), '/'))
   let $request-headers :=
-      <headers>
-          <header name="Content-Type" value="application/xml"/>
-          <header name="Accept" value="application/xml"/>
-      </headers>
+      <headers><header name="Content-Type" value="application/xml"/><header name="Accept" value="application/xml"/></headers>
   let $request := httpclient:post(
           $endpoint, $input, true(), $request-headers
       )
@@ -109,15 +101,9 @@ declare function nlp:fetch-text($input as node()){
         let $index := $pos - 1
         let $ws := if($word/following-sibling::tei:seg[1]) then true() else false()
         return
-            <tokenArray>
-                <value>{xs:string($token)}</value>
-                <runningNr>{$index}</runningNr>
-                <tokenId>{data($word/@xml:id)}</tokenId>
-                <whitespace>{$ws}</whitespace>
-            </tokenArray>
+            <tokenArray><value>{xs:string($token)}</value><runningNr>{$index}</runningNr><tokenId>{data($word/@xml:id)}</tokenId><whitespace>{$ws}</whitespace></tokenArray>
     }
-        <language>german</language>
-    </result>
+        <language>german</language></result>
     return
         $result
 };
@@ -134,18 +120,10 @@ declare function nlp:fetch-text($input as node()){
 
 declare function nlp:pos-tagging-post($input as node(), $language as xs:string){
     let $request-headers :=
-        <headers>
-            <header name="Accept" value="application/json+acdhlang"/>
-            <header name="Content-Type" value="application/json+acdhlang"/>
-        </headers>
+        <headers><header name="Accept" value="application/json+acdhlang"/><header name="Content-Type" value="application/json+acdhlang"/></headers>
     let $words := nlp:fetch-text($input)
     let $parameters := 
-        <output:serialization-parameters>
-              <output:expand-xincludes value="no"/>
-              <output:method value="json"/>
-              <output:media-type value="text/javascript"/>
-              <output:encoding value="utf-8"/>
-            </output:serialization-parameters>
+        <output:serialization-parameters><output:expand-xincludes value="no"/><output:method value="json"/><output:media-type value="text/javascript"/><output:encoding value="utf-8"/></output:serialization-parameters>
     let $payload := util:serialize($words, $parameters)
     let $request := httpclient:post(
           $nlp:posTaggerEndpoint, $payload, true(), $request-headers
@@ -182,9 +160,7 @@ declare function nlp:pos-tagging-post($input as node(), $language as xs:string){
 
 declare function nlp:pos-tagging($input as node()){
     let $request-headers :=
-            <headers>
-                <header name="Accept" value="application/json"/>
-            </headers>
+            <headers><header name="Accept" value="application/json"/></headers>
 
     for $word in $input//tei:w
         let $token := functx:trim(string-join($word//text(), ''))

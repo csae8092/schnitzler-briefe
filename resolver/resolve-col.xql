@@ -7,18 +7,12 @@ let $collection := request:get-parameter('collection', 'editions')
 let $docs := collection($app:data||'/'||$collection)//tei:TEI
 let $amount := count($docs)
 let $result :=
-<result>
-    <amount>{$amount}</amount>
+<result><amount>{$amount}</amount>
     {
         for $x in $docs
             let $title := normalize-space(string-join($x//tei:titleStmt/tei:title[@level='a']//text(), ''))
             return
-                <doc>
-                    <title>{$title}</title>
-                    <link>{app:hrefToDoc($x, $collection)}</link>
-                    <id>{app:getDocName($x)}</id>
-                    <collection>{app:getColName($x)}</collection>
-                </doc>
+                <doc><title>{$title}</title><link>{app:hrefToDoc($x, $collection)}</link><id>{app:getDocName($x)}</id><collection>{app:getColName($x)}</collection></doc>
     }
 </result>
 return $result

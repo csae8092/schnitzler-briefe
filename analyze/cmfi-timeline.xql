@@ -19,15 +19,9 @@ let $data := <data>{
     let $month := month-from-date(xs:date($date))
     let $day := day-from-date(xs:date($date))
     return 
-        <item>
-            <event_id>{$pos}</event_id>
-            <sender>{$sender}</sender>
+        <item><event_id>{$pos}</event_id><sender>{$sender}</sender>
             {if ($receiver) then <receiver>{$receiver}</receiver> else ()}
-            <content>{$content}</content>
-            <backlink>{$backlink}</backlink>
-            <start>{data($x//@when[1])}</start>
-            <date>({$year},{$month},{$day})</date>
-        </item>
+            <content>{$content}</content><backlink>{$backlink}</backlink><start>{data($x//@when[1])}</start><date>({$year},{$month},{$day})</date></item>
 }</data>
 
 return $data

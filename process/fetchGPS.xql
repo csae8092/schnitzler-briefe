@@ -21,9 +21,7 @@ for $entity in doc($app:placeIndex)//tei:place
     let $lat := $data//wgs84_pos:lat/text()
     let $lng := $data//wgs84_pos:long/text()
     let $loc := 
-        <tei:location>
-            <tei:geo>{concat($lat,' ',$lng)}</tei:geo>
-        </tei:location>
+        <tei:location><tei:geo>{concat($lat,' ',$lng)}</tei:geo></tei:location>
     where $data
     return
         update insert $loc into $entity

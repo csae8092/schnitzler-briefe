@@ -169,14 +169,9 @@ declare function app:nameOfIndexEntry($node as node(), $model as map (*)){
         else
             functx:capitalize-first($searchkey)
     return
-    <h1 style="text-align:center;">
-        <small>
-            <span id="hitcount"/>{$noOfterms} Treffer für</small>
-        <br/>
-        <strong>
+    <h1 style="text-align:center;"><small><span id="hitcount"/>{$noOfterms} Treffer für</small><br/><strong>
             {$name}
-        </strong>
-    </h1>
+        </strong></h1>
 };
 
 (:~
@@ -208,11 +203,7 @@ let $href := concat('show.html','?document=', app:getDocName($node), '&amp;style
     let $score as xs:float := ft:score($hit)
     order by $score descending
     return
-    <tr>
-        <td><a href="{app:hrefToDoc($hit)}">{app:getDocNameWithoutCountingNumberAndFileSuffix($hit)}</a></td>
-        <td class="KWIC">{kwic:summarize($hit, <config width="40" link="{$href}" />)}</td>
-        <td>{$score}</td>
-    </tr>
+    <tr><td><a href="{app:hrefToDoc($hit)}">{app:getDocNameWithoutCountingNumberAndFileSuffix($hit)}</a></td><td class="KWIC">{kwic:summarize($hit, <config width="40" link="{$href}" />)}</td><td>{$score}</td></tr>
  else
     <div>Kein Suchtext vorhanden</div>
  };
@@ -235,11 +226,7 @@ for $title in ($entities, $terms)
     let $zitat := $title//tei:msIdentifier
     let $collection := app:getColName($title)
     return
-            <tr>
-               <td>{$docTitle}</td>
-               <td>{$hits}</td>
-               <td>{$snippet}<p style="text-align:right">{<a href="{concat(app:hrefToDoc($title, $collection), "&amp;searchkey=", $indexSerachKey)}">{app:getDocNameWithoutCountingNumberAndFileSuffix($title)}</a>}</p></td>
-            </tr>
+            <tr><td>{$docTitle}</td><td>{$hits}</td><td>{$snippet}<p style="text-align:right">{<a href="{concat(app:hrefToDoc($title, $collection), "&amp;searchkey=", $indexSerachKey)}">{app:getDocNameWithoutCountingNumberAndFileSuffix($title)}</a>}</p></td></tr>
 };
 
 (:~
@@ -255,20 +242,13 @@ declare function app:listPers($node as node(), $model as map(*)) {
         else
         "-"
         return:)
-        <tr>
-            <td>
-                <a href="{concat($hitHtml,data($person/@xml:id))}">{$person/tei:persName/tei:surname}</a>
-            </td>
-            <td>
+        <tr><td><a href="{concat($hitHtml,data($person/@xml:id))}">{$person/tei:persName/tei:surname}</a></td><td>
                 {$person/tei:persName/tei:forename}
-            </td>
-            <td>
+            </td><td>
                 {$person/tei:birth/tei:date}
-            </td>
-            <td>
+            </td><td>
                 {$person/tei:death/tei:date}
-            </td>
-        </tr>
+            </td></tr>
 };
 
 (:~
@@ -283,15 +263,9 @@ declare function app:listwork($node as node(), $model as map(*)) {
         else
         "-"
         return
-        <tr>
-            <td>
-                <a href="{concat($hitHtml,data($work/@xml:id))}">{$work/tei:title}</a>
-            </td>
-            <td></td>
-            <td>
+        <tr><td><a href="{concat($hitHtml,data($work/@xml:id))}">{$work/tei:title}</a></td><td></td><td>
                 {$gnd_link}
-            </td>
-        </tr>
+            </td></tr>
 };
 
 
@@ -305,15 +279,7 @@ declare function app:listPlace($node as node(), $model as map(*)) {
     let $lat := tokenize($place//tei:geo/text(), ' ')[1]
     let $lng := tokenize($place//tei:geo/text(), ' ')[2]
         return
-        <tr>
-            <td>
-                <a href="{concat($hitHtml, data($place/@xml:id))}">{functx:capitalize-first($place/tei:placeName[1])}</a>
-            </td>
-            <td>{for $altName in $place//tei:placeName return <li>{$altName/text()}</li>}</td>
-            <td>{$place//tei:idno/text()}</td>
-            <td>{$lat}</td>
-            <td>{$lng}</td>
-        </tr>
+        <tr><td><a href="{concat($hitHtml, data($place/@xml:id))}">{functx:capitalize-first($place/tei:placeName[1])}</a></td><td>{for $altName in $place//tei:placeName return <li>{$altName/text()}</li>}</td><td>{$place//tei:idno/text()}</td><td>{$lat}</td><td>{$lng}</td></tr>
 };
 
 (:~
@@ -334,20 +300,11 @@ declare function app:tocHeader($node as node(), $model as map(*)) {
     let $apiUrl := "../resolver/resolve-col.xql?collection="||$colName
     let $zipUrl := "../resolver/download-col.xql?collection="||$colName
     return
-        <div class="card-header" style="text-align:center;">
-            <h1 style="padding-right:10px;">{$docs} Dokumente in {$colLabel} </h1>
-                <a>
-                    <i class="fas fa-info" title="Info zum Personenregister" data-toggle="modal" data-target="#exampleModal"/>
-                </a>
+        <div class="card-header" style="text-align:center;"><h1 style="padding-right:10px;">{$docs} Dokumente in {$colLabel} </h1><a><i class="fas fa-info" title="Info zum Personenregister" data-toggle="modal" data-target="#exampleModal"/></a>
                 |
-                <a href="{$apiUrl}">
-                    <i class="fas fa-download" title="Liste der TEI Dokumente"/>
-                </a>
+                <a href="{$apiUrl}"><i class="fas fa-download" title="Liste der TEI Dokumente"/></a>
                   |
-                <a href="{$zipUrl}">
-                    <i class="fas fa-file-archive" title="Sammlung als ZIP laden"></i>
-                </a>
-        </div>
+                <a href="{$zipUrl}"><i class="fas fa-file-archive" title="Sammlung als ZIP laden"></i></a></div>
 };
 
 (:~
@@ -368,20 +325,11 @@ declare function app:tocHeaderSent($node as node(), $model as map(*)) {
     let $apiUrl := "../resolver/resolve-col.xql?collection="||$colName
     let $zipUrl := "../resolver/download-col.xql?collection="||$colName
     return
-        <div class="card-header" style="text-align:center;">
-            <h1 style="padding-right:10px;">Korrespondenzstücke - Versand</h1>
-                <a>
-                    <i class="fas fa-info" title="Info zum Versand" data-toggle="modal" data-target="#exampleModal"/>
-                </a>
+        <div class="card-header" style="text-align:center;"><h1 style="padding-right:10px;">Korrespondenzstücke - Versand</h1><a><i class="fas fa-info" title="Info zum Versand" data-toggle="modal" data-target="#exampleModal"/></a>
                 |
-                <a href="{$apiUrl}">
-                    <i class="fas fa-download" title="Liste der TEI Dokumente"/>
-                </a>
+                <a href="{$apiUrl}"><i class="fas fa-download" title="Liste der TEI Dokumente"/></a>
                   |
-                <a href="{$zipUrl}">
-                    <i class="fas fa-file-archive" title="Sammlung als ZIP laden"></i>
-                </a>
-        </div>
+                <a href="{$zipUrl}"><i class="fas fa-file-archive" title="Sammlung als ZIP laden"></i></a></div>
 };
 
 (:~
@@ -402,20 +350,11 @@ declare function app:tocHeaderReceived($node as node(), $model as map(*)) {
     let $apiUrl := "../resolver/resolve-col.xql?collection="||$colName
     let $zipUrl := "../resolver/download-col.xql?collection="||$colName
     return
-        <div class="card-header" style="text-align:center;">
-            <h1 style="padding-right:10px;">Korrespondenzstücke - Empfang</h1>
-                <a>
-                    <i class="fas fa-info" title="Info zum Versand" data-toggle="modal" data-target="#exampleModal"/>
-                </a>
+        <div class="card-header" style="text-align:center;"><h1 style="padding-right:10px;">Korrespondenzstücke - Empfang</h1><a><i class="fas fa-info" title="Info zum Versand" data-toggle="modal" data-target="#exampleModal"/></a>
                 |
-                <a href="{$apiUrl}">
-                    <i class="fas fa-download" title="Liste der TEI Dokumente"/>
-                </a>
+                <a href="{$apiUrl}"><i class="fas fa-download" title="Liste der TEI Dokumente"/></a>
                   |
-                <a href="{$zipUrl}">
-                    <i class="fas fa-file-archive" title="Sammlung als ZIP laden"></i>
-                </a>
-        </div>
+                <a href="{$zipUrl}"><i class="fas fa-file-archive" title="Sammlung als ZIP laden"></i></a></div>
 };
 
 (:~
@@ -436,20 +375,11 @@ declare function app:tocCorrespondencesHeader($node as node(), $model as map(*))
     let $apiUrl := "../resolver/resolve-col.xql?collection="||$colName
     let $zipUrl := "../resolver/download-col.xql?collection="||$colName
     return
-        <div class="card-header" style="text-align:center;">
-            <h1 style="padding-right:10px;">Korrespondenzen mit Arthur Schnitzler</h1>
-                <a>
-                    <i class="fas fa-info" title="Info zum Personenregister" data-toggle="modal" data-target="#exampleModal"/>
-                </a>
+        <div class="card-header" style="text-align:center;"><h1 style="padding-right:10px;">Korrespondenzen mit Arthur Schnitzler</h1><a><i class="fas fa-info" title="Info zum Personenregister" data-toggle="modal" data-target="#exampleModal"/></a>
                 |
-                <a href="{$apiUrl}">
-                    <i class="fas fa-download" title="Liste der TEI Dokumente"/>
-                </a>
+                <a href="{$apiUrl}"><i class="fas fa-download" title="Liste der TEI Dokumente"/></a>
                   |
-                <a href="{$zipUrl}">
-                    <i class="fas fa-file-archive" title="Sammlung als ZIP laden"></i>
-                </a>
-        </div>
+                <a href="{$zipUrl}"><i class="fas fa-file-archive" title="Sammlung als ZIP laden"></i></a></div>
 };
 
 (:~
@@ -470,20 +400,11 @@ declare function app:tocArchivesHeader($node as node(), $model as map(*)) {
     let $apiUrl := "../resolver/resolve-col.xql?collection="||$colName
     let $zipUrl := "../resolver/download-col.xql?collection="||$colName
     return
-        <div class="card-header" style="text-align:center;">
-            <h1 style="padding-right:10px;">Archivbestände</h1>
-                <a>
-                    <i class="fas fa-info" title="Info zum Archivregister" data-toggle="modal" data-target="#exampleModal"/>
-                </a>
+        <div class="card-header" style="text-align:center;"><h1 style="padding-right:10px;">Archivbestände</h1><a><i class="fas fa-info" title="Info zum Archivregister" data-toggle="modal" data-target="#exampleModal"/></a>
                 |
-                <a href="{$apiUrl}">
-                    <i class="fas fa-download" title="Liste der TEI Dokumente"/>
-                </a>
+                <a href="{$apiUrl}"><i class="fas fa-download" title="Liste der TEI Dokumente"/></a>
                   |
-                <a href="{$zipUrl}">
-                    <i class="fas fa-file-archive" title="Sammlung als ZIP laden"></i>
-                </a>
-        </div>
+                <a href="{$zipUrl}"><i class="fas fa-file-archive" title="Sammlung als ZIP laden"></i></a></div>
 };
 
 
@@ -511,21 +432,12 @@ declare function app:tocCorrespondenceHeader($node as node(), $model as map(*)) 
         let $surname := $person-name/tei:surname/text()
         let $name := concat($forename, ' ', $surname)
     return
-        <div class="card-header" style="text-align:center;">
-            <h1 style="padding-right:10px;">Korrespondenz mit <a class='reference' data-type='listperson.xml' data-key='{$correspondence}'>
-                {$name}</a></h1>
-                <a>
-                    <i class="fas fa-info" title="Info zum Personenregister" data-toggle="modal" data-target="#exampleModal"/>
-                </a>
+        <div class="card-header" style="text-align:center;"><h1 style="padding-right:10px;">Korrespondenz mit <a class='reference' data-type='listperson.xml' data-key='{$correspondence}'>
+                {$name}</a></h1><a><i class="fas fa-info" title="Info zum Personenregister" data-toggle="modal" data-target="#exampleModal"/></a>
                 |
-                <a href="{$apiUrl}">
-                    <i class="fas fa-download" title="Liste der TEI Dokumente"/>
-                </a>
+                <a href="{$apiUrl}"><i class="fas fa-download" title="Liste der TEI Dokumente"/></a>
                   |
-                <a href="{$zipUrl}">
-                    <i class="fas fa-file-archive" title="Sammlung als ZIP laden"></i>
-                </a>
-        </div>
+                <a href="{$zipUrl}"><i class="fas fa-file-archive" title="Sammlung als ZIP laden"></i></a></div>
 };
 
 (:~
@@ -542,11 +454,7 @@ declare function app:tocModal($node as node(), $model as map(*)) {
     let $infoDoc := doc($app:meta||"/"||$colName||".xml")
     let $colLabel := $infoDoc//tei:title[1]/text()
    let $params :=
-        <parameters>
-            <param name="app-name" value="{$config:app-name}"/>
-            <param name="collection-name" value="{$colName}"/>
-            <param name="projectName" value="{$app:projectName}"/>
-            <param name="authors" value="{$app:authors}"/>
+        <parameters><param name="app-name" value="{$config:app-name}"/><param name="collection-name" value="{$colName}"/><param name="projectName" value="{$app:projectName}"/><param name="authors" value="{$app:authors}"/>
            {
                 for $p in request:get-parameter-names()
                     let $val := request:get-parameter($p,())
@@ -557,21 +465,9 @@ declare function app:tocModal($node as node(), $model as map(*)) {
     let $xsl := doc($app:xslCollection||"/modals.xsl")
     let $modalBody := transform:transform($infoDoc, $xsl, $params)
     return
-        <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">{$colLabel}</h5>
-                </div>
-                <div class="modal-body">
+        <div class="modal" tabindex="-1" role="dialog" id="exampleModal"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">{$colLabel}</h5></div><div class="modal-body">
                    {$modalBody}
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
-                </div>
-            </div>
-        </div>
-    </div>
+                </div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div></div></div></div>
 };
 
 
@@ -597,11 +493,7 @@ declare function app:toc($node as node(), $model as map(*)) {
                 <a href="{app:hrefToDoc($title)}">{app:getDocNameWithoutCountingNumberAndFileSuffix($title)}</a>
         return
          
-        <tr>
-        
-           <td>{$link2doc}</td>
-            <td>{$title_a}</td>
-        </tr>
+        <tr><td>{$link2doc}</td><td>{$title_a}</td></tr>
 };
 
 (: creates a table of correspondences derived from the documents stored in /data/editions :)
@@ -626,9 +518,7 @@ declare function app:toc_correspondences($node as node(), $model as map(*)) {
         let $name := concat($surname, ', ', $forename)
         let $link-to-doc := concat('toc_correspondence.html?collection=editions&amp;correspondence=',$correspondence)
         return
-        <tr>
-            <td><span style="display: none;">{$name}</span><a href="{$link-to-doc}">{$name}</a></td>
-        </tr>
+        <tr><td><span style="display: none;">{$name}</span><a href="{$link-to-doc}">{$name}</a></td></tr>
 };
 
 (: creates a table of archives derived from the documents stored in /data/editions :)
@@ -653,9 +543,7 @@ declare function app:toc_archives($node as node(), $model as map(*)) {
         let $name := $target-normalized
         let $link-to-doc := concat('toc_correspondence.html?collection=editions&amp;correspondence=',$correspondence)
         return
-        <tr>
-            <td><span style="display: none;">{$target}</span><a href="{$link-to-doc}">{$name}</a></td>
-        </tr>
+        <tr><td><span style="display: none;">{$target}</span><a href="{$link-to-doc}">{$name}</a></td></tr>
 };
 
 (: creates a list of letters belonging to a particular correspondence :)
@@ -674,9 +562,7 @@ declare function app:toc_correspondence($node as node(), $model as map(*)) {
             else
                 <a href="{app:hrefToDoc($title)}">{$title_a}</a>
         return
-        <tr>
-        <td><span style='display: none;'>{$date}</span>{$link2doc}</td>
-        </tr>
+        <tr><td><span style='display: none;'>{$date}</span>{$link2doc}</td></tr>
 };
 
 (:~
@@ -706,16 +592,7 @@ declare function app:toc_correspDesc_sent($node as node(), $model as map(*)) {
             else
                 <a href="{app:hrefToDoc($title)}">{$date_sent}</a>
         return
-        <tr>
-        
-           <td>{for $pers in $sent_pers return <div><span style='display: none;'>{$date_sent_ISO}</span>{$pers/text()}</div>}</td>
-           <td>{$link2doc}</td>
-           <td>{$date_sent_ISO}</td>
-           <td>{$date_sent_notBefore}</td>
-           <td>{$date_sent_notAfter}</td>
-           <td>{$place}</td>
-           <td>{for $rec in $received_pers return <div>{$rec/text()}</div>}</td>
-        </tr>
+        <tr><td>{for $pers in $sent_pers return <div><span style='display: none;'>{$date_sent_ISO}</span>{$pers/text()}</div>}</td><td>{$link2doc}</td><td>{$date_sent_ISO}</td><td>{$date_sent_notBefore}</td><td>{$date_sent_notAfter}</td><td>{$place}</td><td>{for $rec in $received_pers return <div>{$rec/text()}</div>}</td></tr>
 };
 
 (:~
@@ -743,15 +620,7 @@ declare function app:toc_correspDesc_received($node as node(), $model as map(*))
             else
                 <a href="{app:hrefToDoc($title)}">{$date_sent_ISO}</a>
         return
-        <tr>
-         <td>{for $pers in $received_pers return <div><span style='display: none;'>{$date_received_ISO}{$date_sent_ISO}</span>{$pers/text()}</div>}</td>
-
-           <td>{$link2doc}</td>
-           <td>{$date_received}</td>
-           <td>{$date_received_ISO}</td>
-           <td>{$place}</td>
-         <td>{for $sen in $sent_pers return <div>{$sen/text()}</div>}</td>
-       </tr>
+        <tr><td>{for $pers in $received_pers return <div><span style='display: none;'>{$date_received_ISO}{$date_sent_ISO}</span>{$pers/text()}</div>}</td><td>{$link2doc}</td><td>{$date_received}</td><td>{$date_received_ISO}</td><td>{$place}</td><td>{for $sen in $sent_pers return <div>{$sen/text()}</div>}</td></tr>
 };
 
 
@@ -791,17 +660,7 @@ let $xsl := if($xslPath eq "")
                 $app:defaultXsl
 let $path2source := "../resolver/resolve-doc.xql?doc-name="||$ref||"&amp;collection="||$collection
 let $params :=
-<parameters>
-    <param name="app-name" value="{$config:app-name}"/>
-    <param name="collection-name" value="{$collection}"/>
-    <param name="path2source" value="{$path2source}"/>
-    <param name="prev" value="{$prev}"/>
-    <param name="next" value="{$next}"/>
-    <param name="amount" value="{$amount}"/>
-    <param name="currentIx" value="{$currentIx}"/>
-    <param name="progress" value="{$progress}"/>
-    <param name="projectName" value="{$app:projectName}"/>
-    <param name="authors" value="{$app:authors}"/>
+<parameters><param name="app-name" value="{$config:app-name}"/><param name="collection-name" value="{$collection}"/><param name="path2source" value="{$path2source}"/><param name="prev" value="{$prev}"/><param name="next" value="{$next}"/><param name="amount" value="{$amount}"/><param name="currentIx" value="{$currentIx}"/><param name="progress" value="{$progress}"/><param name="projectName" value="{$app:projectName}"/><param name="authors" value="{$app:authors}"/>
 
    {
         for $p in request:get-parameter-names()
@@ -828,17 +687,11 @@ declare function app:listBibl($node as node(), $model as map(*)) {
         else
             'no normdata provided'
    return
-        <tr>
-            <td>
-                <a href="{concat($hitHtml,data($item/@xml:id))}">{$item//tei:title[1]/text()}</a>
-            </td>
-            <td>
+        <tr><td><a href="{concat($hitHtml,data($item/@xml:id))}">{$item//tei:title[1]/text()}</a></td><td>
                 {$author}
-            </td>
-            <td>
+            </td><td>
                 {$gnd_link}
-            </td>
-        </tr>
+            </td></tr>
 };
 
 (:~
@@ -855,17 +708,11 @@ declare function app:listOrg($node as node(), $model as map(*)) {
         else
             'no normdata provided'
    return
-        <tr>
-            <td>
-                <a href="{concat($hitHtml,data($item/@xml:id))}">{$item//tei:orgName[1]/text()}</a>
-            </td>
-            <td>
+        <tr><td><a href="{concat($hitHtml,data($item/@xml:id))}">{$item//tei:orgName[1]/text()}</a></td><td>
                 {$altnames}
-            </td>
-            <td>
+            </td><td>
                 {$gnd_link}
-            </td>
-        </tr>
+            </td></tr>
 };
 
 (:~
@@ -906,19 +753,7 @@ declare function app:randomDoc($node as node(), $model as map(*), $maxlen as xs:
     let $shortdoc := substring($doc, 1, $maxlen)
     let $url := "show.html?document="||$selectedDoc||"&amp;stylesheet=plain"
     let $result :=
-    <div class="entry-text-content">
-        <header class="entry-header">
-            <h4 class="entry-title">
-                <a href="{$url}" rel="bookmark" class="light">{$title}</a>
-            </h4>
-        </header>
-        <!-- .entry-header -->
-        <div class="entry-content">
-            <p>{$shortdoc}[...]</p>
-            <a class="btn btn-round" href="{$url}">Mehr lesen</a>
-        </div>
-        <!-- .entry-content -->
-    </div>
+    <div class="entry-text-content"><header class="entry-header"><h4 class="entry-title"><a href="{$url}" rel="bookmark" class="light">{$title}</a></h4></header><!-- .entry-header --><div class="entry-content"><p>{$shortdoc}[...]</p><a class="btn btn-round" href="{$url}">Mehr lesen</a></div><!-- .entry-content --></div>
     return
         $result
 };
@@ -932,11 +767,7 @@ for $x in collection($app:editions)//tei:TEI[.//tei:date[@when castable as xs:da
     let $name := $x//tei:titleStmt/tei:title[@level='a']/text()
     let $id := app:hrefToDoc($x)
     return
-        <item>
-            <name>{$name}</name>
-            <startDate>{$startDate}</startDate>
-            <id>{$id}</id>
-        </item>
+        <item><name>{$name}</name><startDate>{$startDate}</startDate><id>{$id}</id></item>
 }
 </result>
 let $rm-cache := try {xmldb:remove($app:data||'/cache')} catch * {'ok'}
