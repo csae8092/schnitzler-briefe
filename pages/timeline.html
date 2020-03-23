@@ -1,8 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?><div class="templates:surround?with=templates/page.html&amp;at=content"><script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"/><script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"/><link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.css" rel="stylesheet" type="text/css"/><style type="text/css">
+<?xml version="1.0" encoding="UTF-8"?>
+<div class="templates:surround?with=templates/page.html&amp;at=content">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.css" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
         #visualization {
         position: relative;
         }
-    </style><script id="item-template" type="text/x-handlebars-template"><p>{{before}} <a href="{{backlink}}">{{match}}</a>{{after}}</p></script><div id="visualization"></div><ul class="menu"><li>Click into the timeline hold<code>ctrl</code> to zoom</li><li>Data fetched from<a href="../analyze/timeline.xql">../analyze/timeline.xql</a></li></ul><script type="text/javascript">
+    </style>
+    <script id="item-template" type="text/x-handlebars-template">
+        <p>{{before}} <a href="{{backlink}}">{{match}}</a>{{after}}</p>
+    </script>
+    <div id="visualization"/>
+    <ul class="menu">
+        <li>Click into the timeline hold<code>ctrl</code> to zoom</li>
+        <li>Data fetched from<a href="../analyze/timeline.xql">../analyze/timeline.xql</a>
+        </li>
+    </ul>
+    <script type="text/javascript">
         var datasource = "../analyze/timeline.xql"
         var container = document.getElementById('visualization');
         $.getJSON( datasource, function( data ) {
@@ -28,4 +43,5 @@
         var timeline = new vis.Timeline(container, data.item, options);
         });
         
-    </script></div>
+    </script>
+</div>
