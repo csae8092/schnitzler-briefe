@@ -680,17 +680,13 @@ declare function app:listBibl($node as node(), $model as map(*)) {
     let $hitHtml := "hits.html?searchkey="
     for $item in doc($app:workIndex)//tei:listBibl/tei:bibl
     let $author := normalize-space(string-join($item/tei:author//text(), ' '))
-    let $gnd := $item//tei:idno/text()
-    let $gnd_link := if ($gnd)
-        then
-            <a href="{$gnd}">{$gnd}</a>
-        else
-            'no normdata provided'
+    let $date := $item//tei:date/text()
+    let $date-iso := concat($item//tei:date/@when, $item//tei:date/@from)
    return
         <tr><td><a href="{concat($hitHtml,data($item/@xml:id))}">{$item//tei:title[1]/text()}</a></td><td>
                 {$author}
             </td><td>
-                {$gnd_link}
+            <span style="visibility: hidden">{$date-iso}</span>{$date}
             </td></tr>
 };
 
