@@ -112,6 +112,12 @@
                             tileSources: [<xsl:value-of select="$url-of-facsimile"/>]
                             });
                         </script>
+                                <div class="image-rights">
+                                    <xsl:text>Bildrechte © </xsl:text>
+                                    <xsl:value-of select="//tei:fileDesc/tei:sourceDesc[1]/tei:listWit[1]/tei:witness[1]/tei:msDesc[1]/tei:msIdentifier[1]/tei:repository[1]"/>
+                                    <xsl:text>, </xsl:text>
+                                <xsl:value-of select="//tei:fileDesc/tei:sourceDesc[1]/tei:listWit[1]/tei:witness[1]/tei:msDesc[1]/tei:msIdentifier[1]/tei:settlement[1]"/>
+                                </div>
                             </div>
                         </div>
                     </div>
