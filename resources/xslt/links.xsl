@@ -192,7 +192,7 @@
                                 </xsl:attribute>
                                 <span class="nav-link">
                                     <i class="fas fa-chevron-left" title="Vorhergehender Brief innerhalb der Korrespondenz"/>
-                                    <xsl:text/>
+                                    <xsl:text> </xsl:text>
                                     <xsl:value-of select="./text()"/>
                                 </span>
                             </a>
@@ -213,7 +213,7 @@
                                 </xsl:attribute>
                                 <span class="nav-link">
                                     <xsl:value-of select="./text()"/>
-                                    <xsl:text/>
+                                    <xsl:text> </xsl:text>
                                     <i class="fas fa-chevron-right" title="Nächster Brief innerhalb der Korrespondenz"/>
                                 </span>
                             </a>
@@ -358,7 +358,7 @@
                                             <xsl:choose><!-- Zuerst Analytic -->
                                                 <xsl:when test="./tei:analytic">
                                                     <xsl:value-of select="foo:analytic-angabe(.)"/>
-                                                    <xsl:text/>
+                                                    <xsl:text> </xsl:text>
                                                     <xsl:text>In: </xsl:text>
                                                     <xsl:value-of select="foo:monogr-angabe(./tei:monogr[last()])"/>
                                                 </xsl:when><!-- Jetzt abfragen ob mehrere monogr -->
@@ -412,7 +412,7 @@
         <xsl:variable name="analytic" as="node()" select="$gedruckte-quellen/tei:analytic"/>
         <xsl:choose>
             <xsl:when test="$analytic/tei:author[1]">
-                <xsl:value-of select="foo:autor-rekursion($analytic, count($analytic/author), count($analytic/author), false(), true())"/>
+                <xsl:value-of select="foo:autor-rekursion($analytic, 1, count($analytic/tei:author))"/>
                 <xsl:text>: </xsl:text>
             </xsl:when>
         </xsl:choose>
@@ -441,7 +441,7 @@
             </xsl:otherwise>
         </xsl:choose>
         <xsl:if test="$analytic/tei:editor[1]">
-            <xsl:text/>
+            <xsl:text> </xsl:text>
             <xsl:value-of select="$analytic/tei:editor"/>
             <xsl:text>.</xsl:text>
         </xsl:if>
@@ -450,7 +450,7 @@
         <xsl:param name="monogr" as="node()"/>
         <xsl:choose>
             <xsl:when test="count($monogr/tei:author) &gt; 0">
-                <xsl:value-of select="foo:autor-rekursion($monogr, count($monogr/author), count($monogr/author), false(), true())"/>
+                <xsl:value-of select="foo:autor-rekursion($monogr, 1, count($monogr/tei:author))"/>
                 <xsl:text>: </xsl:text>
             </xsl:when>
         </xsl:choose>
@@ -483,13 +483,10 @@
         <xsl:param name="monogr" as="node()"/>
         <xsl:param name="autor-count"/>
         <xsl:param name="autor-count-gesamt"/>
-        <xsl:param name="keystattwert"/>
-        <xsl:param name="vorname-vor-nachname"/><!-- in den Fällen, wo ein Text unter einem Kürzel erschien, wird zum sortieren der key-Wert verwendet -->
-        <xsl:variable name="autor" select="$monogr/tei:author"/>
-        <xsl:value-of select="foo:vorname-vor-nachname($autor[$autor-count-gesamt - $autor-count + 1])"/>
-        <xsl:if test="$autor-count &gt; 1">
+        <xsl:value-of select="foo:vorname-vor-nachname($monogr/tei:author[$autor-count])"/>
+        <xsl:if test="$autor-count &lt; $autor-count-gesamt">
             <xsl:text>, </xsl:text>
-            <xsl:value-of select="foo:autor-rekursion($monogr, $autor-count - 1, $autor-count-gesamt, $keystattwert, $vorname-vor-nachname)"/>
+            <xsl:value-of select="foo:autor-rekursion($monogr, $autor-count + 1, $autor-count-gesamt)"/>
         </xsl:if>
     </xsl:function>
     <xsl:function name="foo:vorname-vor-nachname">
@@ -497,7 +494,7 @@
         <xsl:choose>
             <xsl:when test="contains($autorname, ', ')">
                 <xsl:value-of select="substring-after($autorname, ', ')"/>
-                <xsl:text/>
+                <xsl:text> </xsl:text>
                 <xsl:value-of select="substring-before($autorname, ', ')"/>
             </xsl:when>
             <xsl:otherwise>
@@ -559,7 +556,7 @@
                         <xsl:value-of select="$imprint/tei:publisher"/>
                         <xsl:choose>
                             <xsl:when test="$imprint/tei:date != ''">
-                                <xsl:text/>
+                                <xsl:text> </xsl:text>
                                 <xsl:value-of select="$imprint/tei:date"/>
                             </xsl:when>
                         </xsl:choose>
@@ -576,7 +573,7 @@
                         <xsl:value-of select="$imprint/tei:publisher"/>
                         <xsl:choose>
                             <xsl:when test="$imprint/tei:date != ''">
-                                <xsl:text/>
+                                <xsl:text> </xsl:text>
                                 <xsl:value-of select="$imprint/tei:date"/>
                             </xsl:when>
                         </xsl:choose>
@@ -715,7 +712,7 @@
             <sup>
                 <xsl:number level="any" count="tei:footNote" format="1"/>
             </sup>
-            <xsl:text/>
+            <xsl:text> </xsl:text>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
