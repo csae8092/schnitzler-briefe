@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd">
    <tei:teiHeader>
       <tei:fileDesc>
          <tei:titleStmt>
@@ -26,33 +29,7 @@
    <tei:text>
       <tei:body>
          <tei:div type="index_persons">
-            <tei:listPerson xml:id="pmblistperson">
-               <tei:person xml:id="pmb42390">
-                  <tei:persName>
-                     <tei:surname/>
-                     <tei:forename/>
-                  </tei:persName>
-                  <tei:birth>
-                     <tei:date when="1895-07-02">1895</tei:date>
-                  </tei:birth>
-                  <tei:death>
-                     <tei:date when="1895-07-02">1895</tei:date>
-                  </tei:death>
-                  <tei:occupation>651.0</tei:occupation>
-               </tei:person>
-               <tei:person xml:id="pmb42393">
-                  <tei:persName>
-                     <tei:surname/>
-                     <tei:forename/>
-                  </tei:persName>
-                  <tei:birth>
-                     <tei:date when="1895-07-02">1895</tei:date>
-                  </tei:birth>
-                  <tei:death>
-                     <tei:date when="1895-07-02">1895</tei:date>
-                  </tei:death>
-                  <tei:occupation>651.0</tei:occupation>
-               </tei:person>
+            <tei:listPerson xml:id="listperson">
                <tei:person xml:id="pmb39674">
                   <tei:persName>
                      <tei:surname/>
@@ -66,30 +43,6 @@
                   </tei:death>
                   <tei:occupation>674.0</tei:occupation>
                </tei:person>
-               <tei:person xml:id="pmb41124">
-                  <tei:persName>
-                     <tei:surname>?? [Befreundete Frau 1]</tei:surname>
-                     <tei:forename/>
-                  </tei:persName>
-                  <tei:birth>
-                     <tei:date when="1891-08-21">21. 8. 1891</tei:date>
-                  </tei:birth>
-                  <tei:death>
-                     <tei:date when="1891-08-21">21. 8. 1891</tei:date>
-                  </tei:death>
-               </tei:person>
-               <tei:person xml:id="pmb41128">
-                  <tei:persName>
-                     <tei:surname>?? [Befreundete Frau 2]</tei:surname>
-                     <tei:forename/>
-                  </tei:persName>
-                  <tei:birth>
-                     <tei:date when="1891-08-21">21. 8. 1891</tei:date>
-                  </tei:birth>
-                  <tei:death>
-                     <tei:date when="1891-08-21">21. 8. 1891</tei:date>
-                  </tei:death>
-               </tei:person>
                <tei:person xml:id="pmb41760">
                   <tei:persName>
                      <tei:surname>?? [[Schauspieler]</tei:surname>
@@ -102,6 +55,32 @@
                      <tei:date when="1898-07-03">3. 7. 1898</tei:date>
                   </tei:death>
                   <tei:occupation>105.0</tei:occupation>
+               </tei:person>
+               <tei:person xml:id="pmb42390">
+                  <tei:persName>
+                     <tei:surname>?? [Amerikanische Studentin in Zürich 1]</tei:surname>
+                     <tei:forename/>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1895-07-02">1895</tei:date>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1895-07-02">1895</tei:date>
+                  </tei:death>
+                  <tei:occupation>651.0</tei:occupation>
+               </tei:person>
+               <tei:person xml:id="pmb42393">
+                  <tei:persName>
+                     <tei:surname>?? [Amerikanische Studentin in Zürich 2]</tei:surname>
+                     <tei:forename/>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1895-07-02">1895</tei:date>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1895-07-02">1895</tei:date>
+                  </tei:death>
+                  <tei:occupation>651.0</tei:occupation>
                </tei:person>
                <tei:person xml:id="pmb41997">
                   <tei:persName>
@@ -141,6 +120,30 @@
                      <tei:date when="1893-07-02">1893</tei:date>
                   </tei:death>
                   <tei:occupation>905.0</tei:occupation>
+               </tei:person>
+               <tei:person xml:id="pmb41124">
+                  <tei:persName>
+                     <tei:surname>?? [Befreundete Frau 1]</tei:surname>
+                     <tei:forename/>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1891-08-21">21. 8. 1891</tei:date>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1891-08-21">21. 8. 1891</tei:date>
+                  </tei:death>
+               </tei:person>
+               <tei:person xml:id="pmb41128">
+                  <tei:persName>
+                     <tei:surname>?? [Befreundete Frau 2]</tei:surname>
+                     <tei:forename/>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1891-08-21">21. 8. 1891</tei:date>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1891-08-21">21. 8. 1891</tei:date>
+                  </tei:death>
                </tei:person>
                <tei:person xml:id="pmb42629">
                   <tei:persName>
@@ -1523,6 +1526,18 @@
                   </tei:death>
                   <tei:occupation>123.0</tei:occupation>
                </tei:person>
+               <tei:person xml:id="pmb28842">
+                  <tei:persName>
+                     <tei:surname>Bellschan von Mildenburg</tei:surname>
+                     <tei:forename>Anna</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1837-07-12">12. 7. 1837</tei:date>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1921-04-17">17. 4. 1921</tei:date>
+                  </tei:death>
+               </tei:person>
                <tei:person xml:id="pmb5546">
                   <tei:persName>
                      <tei:surname>Bendix</tei:surname>
@@ -2414,6 +2429,20 @@
                      <tei:date when="1866-12-06">6. 12. 1866</tei:date>
                   </tei:birth>
                   <tei:occupation>567.0</tei:occupation>
+               </tei:person>
+               <tei:person xml:id="pmb11054">
+                  <tei:persName>
+                     <tei:surname>Buschbeck</tei:surname>
+                     <tei:forename>Erhard</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1889-01-06">6. 1. 1889</tei:date>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1960-09-02">2. 9. 1960</tei:date>
+                  </tei:death>
+                  <tei:occupation>90.0</tei:occupation>
+                  <tei:occupation>115.0</tei:occupation>
                </tei:person>
                <tei:person xml:id="pmb14723">
                   <tei:persName>
@@ -4568,19 +4597,6 @@
                      <tei:date when="0303-07-02">303</tei:date>
                   </tei:death>
                </tei:person>
-               <tei:person xml:id="pmb3138">
-                  <tei:persName>
-                     <tei:surname>Géraldy</tei:surname>
-                     <tei:forename>Paul</tei:forename>
-                  </tei:persName>
-                  <tei:birth>
-                     <tei:date when="1885-03-06">6. 3. 1885</tei:date>
-                  </tei:birth>
-                  <tei:death>
-                     <tei:date when="1983-03-09">9. 3. 1983</tei:date>
-                  </tei:death>
-                  <tei:occupation>90.0</tei:occupation>
-               </tei:person>
                <tei:person xml:id="pmb11423">
                   <tei:persName>
                      <tei:surname>Gerasch</tei:surname>
@@ -5741,18 +5757,6 @@
                   </tei:death>
                   <tei:occupation>105.0</tei:occupation>
                </tei:person>
-               <tei:person xml:id="pmb18077">
-                  <tei:persName>
-                     <tei:surname>Heller</tei:surname>
-                     <tei:forename>Hedwig</tei:forename>
-                  </tei:persName>
-                  <tei:birth>
-                     <tei:date when="1881-04-19">19. 4. 1881</tei:date>
-                  </tei:birth>
-                  <tei:death>
-                     <tei:date when="1947-05-16">16. 5. 1947</tei:date>
-                  </tei:death>
-               </tei:person>
                <tei:person xml:id="pmb11646">
                   <tei:persName>
                      <tei:surname>Heller</tei:surname>
@@ -6705,13 +6709,13 @@
                <tei:person xml:id="pmb4332">
                   <tei:persName>
                      <tei:surname>Jean Paul</tei:surname>
-                     <tei:forename>Johann</tei:forename>
+                     <tei:forename/>
                   </tei:persName>
                   <tei:birth>
-                     <tei:date when="1763-01-01">1763</tei:date>
+                     <tei:date when="1763-03-21">21. 3. 1763</tei:date>
                   </tei:birth>
                   <tei:death>
-                     <tei:date when="1825-01-01">1825</tei:date>
+                     <tei:date when="1825-11-14">14. 11. 1825</tei:date>
                   </tei:death>
                   <tei:occupation>90.0</tei:occupation>
                </tei:person>
@@ -7044,20 +7048,6 @@
                   </tei:death>
                   <tei:occupation>90.0</tei:occupation>
                </tei:person>
-               <tei:person xml:id="pmb5759">
-                  <tei:persName>
-                     <tei:surname>Kauffmann</tei:surname>
-                     <tei:forename>Arthur</tei:forename>
-                  </tei:persName>
-                  <tei:birth>
-                     <tei:date when="1887-01-01">1887</tei:date>
-                  </tei:birth>
-                  <tei:death>
-                     <tei:date when="1983-01-01">1983</tei:date>
-                  </tei:death>
-                  <tei:occupation>144.0</tei:occupation>
-                  <tei:occupation>322.0</tei:occupation>
-               </tei:person>
                <tei:person xml:id="pmb2496">
                   <tei:persName>
                      <tei:surname>Kaufmann</tei:surname>
@@ -7313,6 +7303,19 @@
                   <tei:occupation>99.0</tei:occupation>
                   <tei:occupation>106.0</tei:occupation>
                   <tei:occupation>198.0</tei:occupation>
+               </tei:person>
+               <tei:person xml:id="pmb2331">
+                  <tei:persName>
+                     <tei:surname>Knappe</tei:surname>
+                     <tei:forename>Heinrich</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1887-09-28">28. 9. 1887</tei:date>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1980-10-12">12. 10. 1980</tei:date>
+                  </tei:death>
+                  <tei:occupation>131.0</tei:occupation>
                </tei:person>
                <tei:person xml:id="pmb19466">
                   <tei:persName>
@@ -9864,6 +9867,31 @@
                   </tei:death>
                   <tei:occupation>170.0</tei:occupation>
                   <tei:occupation>171.0</tei:occupation>
+               </tei:person>
+               <tei:person xml:id="pmb22203">
+                  <tei:persName>
+                     <tei:surname>Ornstein</tei:surname>
+                     <tei:forename>Sophie</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1844-09-26">26. 9. 1844</tei:date>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1906-11-18">18. 11. 1906</tei:date>
+                  </tei:death>
+               </tei:person>
+               <tei:person xml:id="pmb42107">
+                  <tei:persName>
+                     <tei:surname>Ornstein</tei:surname>
+                     <tei:forename>Wilhelm</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1831-02-22">22. 2. 1831</tei:date>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1908-11-07">7. 11. 1908</tei:date>
+                  </tei:death>
+                  <tei:occupation>175.0</tei:occupation>
                </tei:person>
                <tei:person xml:id="pmb2216">
                   <tei:persName>
@@ -14045,12 +14073,13 @@
                      <tei:forename>Alfred</tei:forename>
                   </tei:persName>
                   <tei:birth>
-                     <tei:date when="1879-01-01">1879</tei:date>
+                     <tei:date when="1879-06-29">29. 6. 1879</tei:date>
                   </tei:birth>
                   <tei:death>
-                     <tei:date when="1922-01-01">1922</tei:date>
+                     <tei:date when="1922-10-23">23. 10. 1922</tei:date>
                   </tei:death>
                   <tei:occupation>90.0</tei:occupation>
+                  <tei:occupation>99.0</tei:occupation>
                </tei:person>
                <tei:person xml:id="pmb27882">
                   <tei:persName>
@@ -14300,20 +14329,6 @@
                      <tei:date when="1945-09-15">15. 9. 1945</tei:date>
                   </tei:death>
                   <tei:occupation>129.0</tei:occupation>
-               </tei:person>
-               <tei:person xml:id="pmb26735">
-                  <tei:persName>
-                     <tei:surname>Wechsler</tei:surname>
-                     <tei:forename>Alfred</tei:forename>
-                  </tei:persName>
-                  <tei:birth>
-                     <tei:date when="1879-06-29">29. 6. 1879</tei:date>
-                  </tei:birth>
-                  <tei:death>
-                     <tei:date when="1922-10-23">23. 10. 1922</tei:date>
-                  </tei:death>
-                  <tei:occupation>90.0</tei:occupation>
-                  <tei:occupation>99.0</tei:occupation>
                </tei:person>
                <tei:person xml:id="pmb13068">
                   <tei:persName>
@@ -15010,19 +15025,6 @@
                   </tei:death>
                   <tei:occupation>137.0</tei:occupation>
                   <tei:occupation>138.0</tei:occupation>
-               </tei:person>
-               <tei:person xml:id="pmb13212">
-                  <tei:persName>
-                     <tei:surname>Zweig</tei:surname>
-                     <tei:forename>Stefan</tei:forename>
-                  </tei:persName>
-                  <tei:birth>
-                     <tei:date when="1881-11-28">28. 11. 1881</tei:date>
-                  </tei:birth>
-                  <tei:death>
-                     <tei:date when="1942-02-23">23. 2. 1942</tei:date>
-                  </tei:death>
-                  <tei:occupation>90.0</tei:occupation>
                </tei:person>
                <tei:person xml:id="pmb5877">
                   <tei:persName>
