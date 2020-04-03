@@ -137,26 +137,8 @@
                 <xsl:apply-templates/>
             </xsl:otherwise>
         </xsl:choose>
-    </xsl:template><!-- Verweise auf andere Dokumente   -->
-    <xsl:template match="tei:ref[not(@type='schnitzlerDiary')]">
-        <xsl:choose>
-            <xsl:when test="@target[ends-with(., '.xml')]">
-                <xsl:element name="a">
-                    <xsl:attribute name="href"> show.html?ref=<xsl:value-of select="tokenize(./@target, '/')[4]"/>
-                    </xsl:attribute>
-                    <xsl:value-of select="."/>
-                </xsl:element>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:element name="a">
-                    <xsl:attribute name="href">
-                        <xsl:value-of select="@target"/>
-                    </xsl:attribute>
-                    <xsl:value-of select="."/>
-                </xsl:element>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template><!-- resp -->
+    </xsl:template>
+    <!-- resp -->
     <xsl:template match="tei:respStmt/tei:resp">
         <xsl:apply-templates/>  </xsl:template>
     <xsl:template match="tei:respStmt/tei:name">
@@ -228,7 +210,7 @@
                     <xsl:text>:</xsl:text>
                     <xsl:value-of select="substring-after(.,'#')"/>
                     <xsl:if test="not(position()=last())">
-                        <xsl:text/>
+                        <xsl:text> </xsl:text>
                     </xsl:if>
                 </xsl:for-each>
             </xsl:for-each>
@@ -240,7 +222,7 @@
                 <xsl:text>:</xsl:text>
                 <xsl:value-of select="substring-after(.,'#')"/>
                 <xsl:if test="not(position()=last())">
-                    <xsl:text/>
+                    <xsl:text> </xsl:text>
                 </xsl:if>
             </xsl:for-each>
         </xsl:variable>
@@ -327,7 +309,7 @@
                 <xsl:attribute name="name">
                     <xsl:value-of select="@xml:id"/>
                 </xsl:attribute>
-                <xsl:text/>
+                <xsl:text> </xsl:text>
             </a>
         </xsl:if>
         <a>
@@ -335,7 +317,7 @@
                 <xsl:text>hd</xsl:text>
                 <xsl:number level="any"/>
             </xsl:attribute>
-            <xsl:text/>
+            <xsl:text> </xsl:text>
         </a>
         <h3>
             <div>
@@ -646,10 +628,10 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:space[@unit = 'chars' and @quantity=1]">
-        <xsl:text/>
+        <xsl:text> </xsl:text>
     </xsl:template>
     <xsl:template match="tei:space[@unit = 'chars' and not(@quantity=1)]">
-        <xsl:text/>
+        <xsl:text> </xsl:text>
     </xsl:template>
     <xsl:template match="tei:opener">
         <div class="opener">
@@ -685,7 +667,7 @@
         <xsl:choose>
             <xsl:when test="contains($autorname, ', ')">
                 <xsl:value-of select="substring-after($autorname, ', ')"/>
-                <xsl:text/>
+                <xsl:text> </xsl:text>
                 <xsl:value-of select="substring-before($autorname, ', ')"/>
             </xsl:when>
             <xsl:otherwise>
@@ -817,45 +799,5 @@
         <li>
             <xsl:apply-templates/>
         </li>
-    </xsl:template>
-    <xsl:template match="tei:ref[@type='schnitzlerDiary']">
-        <xsl:if test="not(@subtype='date-only')">
-            <xsl:choose>
-                <xsl:when test="@subtype='see'">
-                    <xsl:text>Siehe </xsl:text>
-                </xsl:when>
-                <xsl:when test="@subtype='cf'">
-                    <xsl:text>Vgl. </xsl:text>
-                </xsl:when>
-            </xsl:choose>
-            <xsl:text>A. S.: Tagebuch, </xsl:text>
-        </xsl:if>
-        <a>
-            <xsl:attribute name="href">
-                <xsl:value-of select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?document=entry__', @target,'.xml')"/>
-            </xsl:attribute>
-            <xsl:choose>
-                <xsl:when test="substring(@target,9,1) = '0'">
-                    <xsl:value-of select="substring(@target,10,1)"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="substring(@target,9,2)"/>
-                </xsl:otherwise>
-            </xsl:choose>
-            <xsl:text>. </xsl:text>
-            <xsl:choose>
-                <xsl:when test="substring(@target,6,1)='0'">
-                    <xsl:value-of select="substring(@target,7,1)"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="substring(@target,6,2)"/>
-                </xsl:otherwise>
-            </xsl:choose>
-            <xsl:text>. </xsl:text>
-            <xsl:value-of select="substring(@target,1,4)"/>
-        </a>
-    </xsl:template>
-    <xsl:template match="c[@rendition='gemination-n']">
-        mm
     </xsl:template>
 </xsl:stylesheet>

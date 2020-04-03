@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-08-23_01_Hofmannsthal_AS">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-08-23_01_Hofmannsthal_AS"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -50,7 +48,7 @@
                                 <repository>University Library</repository>
                                 <idno>Schnitzler, B 43</idno>
                             </msIdentifier>
-                            <physDesc><p>eh. Brief, 1 Bl., 1 S. Bleistift. Von Schnitzler mit Bleistift                   die Jahreszahl ergänzt: »<quote><date>92</date></quote>«. Von unbekannter Hand mit Bleistift nummeriert:                       »<quote>3<del rend="overwritten">1</del>0</quote>«.</p></physDesc>
+                            <physDesc>                 <p>eh. Brief, 1 Bl., 1 S. Bleistift. Von Schnitzler mit Bleistift                   die Jahreszahl ergänzt: »<quote>                     <date>92</date>                   </quote>«. Von unbekannter Hand mit Bleistift nummeriert:                       »<quote>3<del rend="overwritten">1</del>0</quote>«.</p>               </physDesc>
                         </msDesc>
                     </witness>
                 </listWit>
@@ -95,10 +93,9 @@
         </profileDesc>
         <encodingDesc>
             <refsDecl>
-                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>
+                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates
+                    only, e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+                    'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
             </refsDecl>
         </encodingDesc>
         <revisionDesc status="approved">
@@ -107,11 +104,4 @@
             <change who="MAM" when="2019-01-21">Index check</change>
             <change who="GHS" when="2019-09-18">finalisiert</change>
         </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00061"/>
-    </facsimile>
-    <text type="letter">
-        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00061"/><date>23. 8</date></dateline><salute rend="center"> Lieber Arthur.</salute></opener><p>Ich habe bei der ent<c rendition="#langesS">s</c>etzlichen Hitze an einer heftigen Beinhautentzündung etc. gelitten. An meinem <anchor type="commentary" xml:id="KL2134-1"/>Rei<c rendition="#langesS">s</c>eproject<note type="commentary" xml:id="KL2134-1h">Die Maturareise nach <rs ref="#pmb166" type="place">Frankreich </rs></note> i<c rendition="#langesS">s</c>t nichts geändert. Ich freue mich, Sie noch in <rs ref="#pmb213" type="place">I<c rendition="#langesS">s</c>chl</rs> zu <c rendition="#langesS">s</c>ehen.</p><closer><signed>Hugo.</signed></closer></div></body>
-    </text>
-</TEI>
+    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00061"/> </facsimile> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00061"/><date>23. 8</date></dateline><salute rend="center"> Lieber Arthur.</salute></opener><p>Ich habe bei der ent<c rendition="#langesS">s</c>etzlichen Hitze an einer heftigen Beinhautentzündung etc. gelitten. An meinem <anchor type="commentary" xml:id="KL2134-1"/>Rei<c rendition="#langesS">s</c>eproject<note type="commentary" xml:id="KL2134-1h">Die Maturareise nach <rs ref="#pmb166" type="place">Frankreich</rs></note> i<c rendition="#langesS">s</c>t nichts geändert. Ich freue mich, Sie noch in <rs ref="#pmb213" type="place">I<c rendition="#langesS">s</c>chl</rs> zu<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ehen.</p><closer><signed>Hugo.</signed></closer></div></body> </text></TEI>

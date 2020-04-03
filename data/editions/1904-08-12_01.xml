@@ -1,111 +1,105 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1904-08-12_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 12. 8. 1904</title>
-                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
-                <editor>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </editor>
-                <funder>
-                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Wien</postCode>
-                        <placeName>
-                            <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>ASBW</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="ASBW"/>
-                <availability status="free">
-                    <p>Copyright © 2019</p>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness n="1">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>GB</country>
-                                <settlement>Cambridge</settlement>
-                                <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
-                            </msIdentifier>
-                            <physDesc><p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote><hi rend="latintype">Hugo</hi></quote>«. XXXX</p></physDesc>
-                        </msDesc>
-                    </witness>
-                </listWit>
-                <listBibl>
-                    <biblStruct corresp="HvHAS">
-                        <monogr>
-                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
-                            <author ref="#pmb2121">Schnitzler, Arthur</author>
-                            <title level="m">Briefwechsel</title>
-                            <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
-                            <imprint>
-                                <pubPlace>Frankfurt am Main</pubPlace>
-                                <publisher>S. Fischer</publisher>
-                                <date when="1964">1964</date>
-                            </imprint>
-                            <biblScope unit="pp">196</biblScope>
-                        </monogr>
-                    </biblStruct>
-                </listBibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName ref="#pmb656">Ramgut</placeName>
-                    <date when="1904-08-12" n="01">12. 8. 1904</date>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                </correspAction>
-                <correspContext>
-                    <ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</ref>
-                    <ref subtype="previous_letter" type="withinCorrespondence" target="1904-08-09_01">Schnitzler an Hofmannsthal, 9. 8. 1904</ref>
-                    <ref subtype="next_letter" type="withinCorrespondence" target="1904-08-18_01">Hofmannsthal an Schnitzler, 18. 8. 1904</ref>
-                </correspContext>
-            </correspDesc>
-        </profileDesc>
-        <encodingDesc>
-            <refsDecl>
-                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1904-08-12_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"> <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 12. 8. 1904</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </editor>
+            <funder>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASBW</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
+            <idno type="ASBW"/>
+            <availability status="free">
+               <p>Copyright © 2019</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 43</idno>
+                     </msIdentifier>
+                     <physDesc>             <p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>                <hi rend="latintype">Hugo</hi>              </quote>«. XXXX</p>           </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HvHAS">
+                  <monogr>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefwechsel</title>
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1964">1964</date>
+                     </imprint>
+                     <biblScope unit="pp">196</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb656">Ramgut</placeName>
+               <date when="1904-08-12" n="01">12. 8. 1904</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</ref>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1904-08-09_01">Schnitzler an Hofmannsthal, 9. 8. 1904</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1904-08-18_01">Hofmannsthal an Schnitzler, 18. 8. 1904</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <encodingDesc>          
+         <refsDecl>             
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>
-            </refsDecl>
-        </encodingDesc>
-        <revisionDesc status="proposed">
-            <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
-        </revisionDesc>
-    </teiHeader>
-    <text type="letter">
-        <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb656" type="place">Markt Aussee, Ramgut</rs><date>12 VIII.</date></dateline><salute>Lieber, </salute></opener><p>Ich ging gegen Abend vom <rs ref="#pmb415" type="place">Markt</rs> herauf, begegnete drei Frauen, deren Gesichter ich nicht sehen konnte. Hinter mir sagte eine da von, ihr Gespräch fortsetzend: »und dann sind wir mit ihnen auseinandergekommen, das war zu der Zeit wie sie mit dem Arthur Schnitzler verlobt war«<c rendition="#dots" n="3"/> und die andere sagte bestätigend: »ja, zu der Zeit war sie mit dem Arthur Schnitzler verlobt«. Von wem kann da die Rede gewesen sein? Vielleicht von der ewigen <rs ref="#pmb24033" type="person">Minnie</rs>? </p><p>Eine Stunde später soupierte ich mit Leuten: da hörte ich mir gegenüber einen zu seinem Nachbar sagen, auf englisch: »und dann hat mir der Manager gesagt, wenn Schnitzler fortfährt, solche Sachen zu machen, wird man ihn als einen literarischen Paria behandeln (wörtlich.)« Das interessierte mich doch sehr und ich habe nach Tisch den Betreffenden angeredet; es ist der attaché bei der <rs ref="#pmb40421" type="place">englischen Botschaft in Paris</rs> Mr. <rs ref="#pmb26402" type="person">van Sittard</rs>, ein ungewöhnlicher junger Mensch, ganz jung, 23, ein Spieler, sehr elegant, hat die beste Prüfung gemacht, die in der englischen Diplomatie seit vielen Jahren vorgekommen ist, war head-boy von <rs ref="#pmb40424" type="org">Eton</rs>, schreibt auf französisch Theaterstücke und hat was das netteste ist, eine unglaublich intensive Liebe für Ihre Sachen. Er findet sie weit besser als alles was auf allen englischen und französischen Theatern zusammen aufgeführt wird, worin er ja Recht haben dürfte.<space unit="chars" quantity="5"/> Als ich ihn besuchte (er ist bis <date>23ten</date><rs ref="#pmb36393" type="place">Altaussee, Villa Franckenstein</rs>) lag auf dem Tisch <rs ref="#pmb30219" type="work">Vermächtnis</rs>, <rs ref="#pmb29857" type="work">Beatrice</rs>, <rs ref="#pmb30117" type="work">Sterben</rs>. Diese 3 waren das einzige was er nicht kannte und nachzuholen hatte. Er sagte also: es geschieht ihm nun schon das zweitemal daß er ganz auf dem Punkt ist, seine von Ihnen autorisierte Übersetzung von 3-4 <rs ref="#pmb29935" type="work">Anatol</rs>sachen auf eine gute Bühne zu bringen und daß im letzten Moment Einspruch erhoben wird von Leuten, denen Sie auch die Autorisation erteilt haben. Sonderbarerweise kam während ich mit ihm redete ein Brief, in dem abermals ein <rs type="person" ref="#pmb41764" subtype="implied">Regisseur</rs> schreibt: »wenn Mr. Schnitzler fort fährt, sich so <hi rend="underline" n="1">außerordentlich</hi> zu benehmen, wird niemand in <rs ref="#pmb254" type="place">England</rs> mehr etwas von ihm wissen wollen.« Was liegt da vor? ich kenne Ihre ungewöhnliche Exactheit und habe <rs ref="#pmb26402" type="person">van Sittard</rs> versichert, es muß da ein Schwindel vorliegen. Bitte klären Sie sogleich ihn oder mich auf, damit er nötigenfalls durch einen Proceß da Klarheit schafft und seinen so schönen und ziemlich ungewöhnlichen Eifer nicht verliert. Es ist ein recht interessanter Mensch.</p><p>Ich bin also von der Waffenübung befreit, d. h. sie ist auf den <date>November</date> verschoben, wo sie mich nicht sehr geniert. So treffen wir uns hoffentlich. Wo? <rs ref="#pmb213" type="place">Ischl</rs>, ich meine der Fleck <rs ref="#pmb213" type="place">Ischl</rs> selbst, wird mir vielleicht dadurch unmöglich, daß meine <rs type="person" ref="#pmb24233" subtype="implied">Schwiegermutter</rs> hingeht. Da käme ich eventuell an den <rs ref="#pmb40874" type="place">Wolfgangsee</rs>, jedenfalls rechne ich auf Zusammensein, d. h. für den Fall daß Sie die <rs ref="#pmb21766" type="person">Mütter</rs> nicht mithaben.</p><closer>Von Herzen<lb/>Ihr<signed>Hugo</signed></closer></div></body>
-    </text>
-</TEI>
+        </ab>          
+         </refsDecl>       
+      </encodingDesc>
+      <revisionDesc status="proposed">
+         <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
+      </revisionDesc>
+   </teiHeader> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><rs ref="#pmb656" type="place">Markt Aussee, Ramgut</rs><space unit="chars" quantity="1"/><date>12 VIII.</date></dateline><salute>Lieber, </salute></opener><p>Ich ging gegen Abend vom <rs ref="#pmb415" type="place">Markt</rs> herauf, begegnete drei Frauen, deren Gesichter ich nicht sehen konnte. Hinter mir sagte eine da von, ihr Gespräch fortsetzend: »und dann sind wir mit ihnen auseinandergekommen, das war zu der Zeit wie sie mit dem Arthur Schnitzler verlobt war«<c rendition="#dots" n="3"/> und die andere sagte bestätigend: »ja, zu der Zeit war sie mit dem Arthur Schnitzler verlobt«. Von wem kann da die Rede gewesen sein? Vielleicht von der ewigen <rs ref="#pmb24033" type="person">Minnie</rs>? </p><p>Eine Stunde später soupierte ich mit Leuten: da hörte ich mir gegenüber einen zu seinem Nachbar sagen, auf englisch: »und dann hat mir der Manager gesagt, wenn Schnitzler fortfährt, solche Sachen zu machen, wird man ihn als einen literarischen Paria behandeln (wörtlich.)« Das interessierte mich doch sehr und ich habe nach Tisch den Betreffenden angeredet; es ist der attaché bei der <rs ref="#pmb40421" type="place">englischen Botschaft in Paris</rs> Mr. <rs ref="#pmb26402" type="person">van Sittard</rs>, ein ungewöhnlicher junger Mensch, ganz jung, 23, ein Spieler, sehr elegant, hat die beste Prüfung gemacht, die in der englischen Diplomatie seit vielen Jahren vorgekommen ist, war head-boy von <rs ref="#pmb40424" type="org">Eton</rs>, schreibt auf französisch Theaterstücke und hat was das netteste ist, eine unglaublich intensive Liebe für Ihre Sachen. Er findet sie weit besser als alles was auf allen englischen und französischen Theatern zusammen aufgeführt wird, worin er ja Recht haben dürfte.<space unit="chars" quantity="5"/> Als ich ihn besuchte (er ist bis <date>23ten</date><space unit="chars" quantity="1"/><rs ref="#pmb36393" type="place">Altaussee, Villa Franckenstein</rs>) lag auf dem Tisch <rs ref="#pmb30219" type="work">Vermächtnis</rs>, <rs ref="#pmb29857" type="work">Beatrice</rs>, <rs ref="#pmb30117" type="work">Sterben</rs>. Diese 3 waren das einzige was er nicht kannte und nachzuholen hatte. Er sagte also: es geschieht ihm nun schon das zweitemal daß er ganz auf dem Punkt ist, seine von Ihnen autorisierte Übersetzung von 3-4 <rs ref="#pmb29935" type="work">Anatol</rs>sachen auf eine gute Bühne zu bringen und daß im letzten Moment Einspruch erhoben wird von Leuten, denen Sie auch die Autorisation erteilt haben. Sonderbarerweise kam während ich mit ihm redete ein Brief, in dem abermals ein <rs type="person" ref="#pmb41764" subtype="implied">Regisseur</rs><space unit="chars" quantity="1"/><c rendition="#langesS">s</c>chreibt: »wenn Mr. Schnitzler fort fährt, sich so <hi rend="underline" n="1">außerordentlich</hi> zu benehmen, wird niemand in <rs ref="#pmb254" type="place">England</rs> mehr etwas von ihm wissen wollen.« Was liegt da vor? ich kenne Ihre ungewöhnliche Exactheit und habe <rs ref="#pmb26402" type="person">van Sittard</rs> versichert, es muß da ein Schwindel vorliegen. Bitte klären Sie sogleich ihn oder mich auf, damit er nötigenfalls durch einen Proceß da Klarheit schafft und seinen so schönen und ziemlich ungewöhnlichen Eifer nicht verliert. Es ist ein recht interessanter Mensch.</p><p>Ich bin also von der Waffenübung befreit, d. h. sie ist auf den <date>November</date> verschoben, wo sie mich nicht sehr geniert. So treffen wir uns hoffentlich. Wo? <rs ref="#pmb213" type="place">Ischl</rs>, ich meine der Fleck <rs ref="#pmb213" type="place">Ischl</rs><space unit="chars" quantity="1"/><c rendition="#langesS">s</c>elbst, wird mir vielleicht dadurch unmöglich, daß meine <rs type="person" ref="#pmb24233" subtype="implied">Schwiegermutter</rs> hingeht. Da käme ich eventuell an den <rs ref="#pmb40874" type="place">Wolfgangsee</rs>, jedenfalls rechne ich auf Zusammensein, d. h. für den Fall daß Sie die <rs ref="#pmb21766" type="person">Mütter</rs> nicht mithaben.</p><closer>Von Herzen<lb/>Ihr<signed>Hugo</signed></closer></div></body> </text></TEI>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1909-01-26_02_AS_Ehrenstein">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1909-01-26_02_AS_Ehrenstein"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -50,7 +48,7 @@
                                 <repository>The National Library of Israel</repository>
                                 <idno>ARC. Ms. Var. 306 1 118</idno>
                             </msIdentifier>
-                            <physDesc><p>eh. Bildpostkarte, Bleistift. Motiv: »<pb facs="NLJ0009v"/><rs ref="#pmb413" type="place">Semmering Südbahnhotel</rs>«. Von                   unbekannter Hand mit Bleistift nummeriert:                   »<quote>9</quote>«.</p><stamp n="1"><placeName ref="#pmb189">Semmering</placeName><date when="1909-01-26">2<supplied>6. 1. 190</supplied>9</date></stamp></physDesc>
+                            <physDesc>                 <p>eh. Bildpostkarte, Bleistift. Motiv: »<pb facs="NLJ0009v"/>                   <rs ref="#pmb413" type="place">Semmering Südbahnhotel</rs>«. Von                   unbekannter Hand mit Bleistift nummeriert:                   »<quote>9</quote>«.</p>                 <stamp n="1">                   <placeName ref="#pmb189">Semmering</placeName>                   <date when="1909-01-26">2<supplied>6. 1. 190</supplied>9</date>                 </stamp>               </physDesc>
                         </msDesc>
                     </witness>
                 </listWit>
@@ -61,36 +59,32 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
+            <correspAction type="sent">
                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                     <placeName ref="#pmb189">Semmering</placeName>
                     <date when="1909-01-26" n="02">26. 1. 1909</date>
                 </correspAction>
-                <correspAction type="received">
+            <correspAction type="received">
                     <persName ref="#pmb11230">Ehrenstein, Albert</persName>
                     <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
-                <correspContext>
-                    <ref type="belongsToCorrespondence" target="#pmb11230">Ehrenstein, Albert</ref>
-                    <ref subtype="previous_letter" type="withinCorrespondence" target="1909-01-24_01">Ehrenstein an Schnitzler, 24. 1. 1909</ref>
-                    <ref subtype="next_letter" type="withinCorrespondence" target="1909-03-27_01">Ehrenstein an Schnitzler, 27. 3. 1909</ref>
-                </correspContext>
-            </correspDesc>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#pmb11230">Ehrenstein, Albert</ref>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1909-01-24_01">Ehrenstein an Schnitzler, 24. 1. 1909</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1909-03-27_01">Ehrenstein an Schnitzler, 27. 3. 1909</ref>
+            </correspContext>
+         </correspDesc>
         </profileDesc>
-        <encodingDesc>
-            <refsDecl>
-                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+      <encodingDesc>          
+         <refsDecl>             
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>
-            </refsDecl>
-        </encodingDesc>
+        </ab>          
+         </refsDecl>       
+      </encodingDesc>
         <revisionDesc status="proposed">
             <change who="MAM" when="2018-11-02">Angelegt</change>
             <change who="MAM" when="2018-11-05">Index check</change>
         </revisionDesc>
-    </teiHeader>
-    <text type="card">
-        <body><div type="address"><address><addrLine>Hrn <hi rend="latintype">Albert Ehrenstein</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb64" type="place">Wien XIV</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb300" type="place">Ottakringerstr. 114</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="NLJ0009r"/>Zu mündlicher Erkärung in <rs ref="#pmb50" type="place">Wien</rs>, etwa in 10–14 Tagen, gern bereit</p><closer>Be<c rendition="#langesS">s</c>tens grüßend<lb/>bis dahin Ihr<lb/><signed>Arth. Sch.</signed></closer><postscript><dateline><date>26. 1. 09</date>.</dateline></postscript></div></body>
-    </text>
-</TEI>
+    </teiHeader> <text type="card"> <body><div type="address"><address><addrLine>Hrn <hi rend="latintype">Albert Ehrenstein</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb64" type="place">Wien XIV</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb300" type="place">Ottakringerstr. 114</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="NLJ0009r"/>Zu mündlicher Erkärung in <rs ref="#pmb50" type="place">Wien</rs>, etwa in 10–14 Tagen, gern bereit</p><closer>Be<c rendition="#langesS">s</c>tens grüßend<lb/>bis dahin Ihr<lb/><signed>Arth. Sch.</signed></closer><postscript><dateline><date>26. 1. 09</date>.</dateline></postscript></div></body> </text></TEI>

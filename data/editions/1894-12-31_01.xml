@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-12-31_01_AS_Beer-Hofmann">
-    <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-12-31_01_AS_Beer-Hofmann"> <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -12,8 +10,7 @@
                     <name>Müller, Martin Anton</name>
                 </editor>
                 <funder>
-                    <name>FWF - Fonds für Wissenschaft und
-                        Forschung</name>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
                     <address>
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
@@ -52,7 +49,7 @@
                                 <repository>Beinecke Rare Book and Manuscript Library</repository>
                                 <idno>Yale Collection of German Literature, MSS 31</idno>
                             </msIdentifier>
-                            <physDesc><p>eh. Postkarte, Bleistift.</p><stamp n="1"><placeName ref="#pmb51">Wien 1/1</placeName><date when="1894-12-31">31. 12. 94</date><time>7–8 V</time></stamp></physDesc>
+                            <physDesc>                 <p>eh. Postkarte, Bleistift.</p>                 <stamp n="1">                   <placeName ref="#pmb51">Wien 1/1</placeName>                   <date when="1894-12-31">31. 12. 94</date>                   <time>7–8 V</time>                 </stamp>               </physDesc>
                         </msDesc>
                     </witness>
                 </listWit>
@@ -81,10 +78,9 @@
         </profileDesc>
         <encodingDesc>
             <refsDecl>
-                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>
+                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates
+                    only, e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+                    'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
             </refsDecl>
         </encodingDesc>
         <revisionDesc status="approved">
@@ -92,12 +88,4 @@
             <change who="MAM" when="2019-10-14">Index check</change>
             <change who="MAM" when="2019-10-14">Durchsicht</change>
         </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="1894_AS_RBH_4_00022.jpeg"/>
-        <graphic url="1894_AS_RBH_4_00023.jpeg"/>
-    </facsimile>
-    <text type="card">
-        <body><div type="address"><address><addrLine><pb facs="1894_AS_RBH_4_00022"/>Herrn <hi rend="latintype">Dr. Richard Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I Wollzeile 15</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1894_AS_RBH_4_00023"/><salute>Lieber Richard! </salute>Wir <c rendition="#langesS">s</c>ind am <date>Neujahrstag</date><time>10.45</time> Vormittg bei Ihnen, um mit Ihnen nach der <rs ref="#pmb34041" type="place">Brühl</rs> zu fahren. Schli<c rendition="#gemination-m"/><c rendition="#langesS">s</c>ten Falls fahren Sie nicht mit. Aber fahren Sie lieber mit.</p><closer>Herzlich<c rendition="#langesS">s</c>t <signed>Arthur</signed><lb/><signed><handShift scribe="#pmb11740"/>Hugo</signed></closer></div></body>
-    </text>
-</TEI>
+    </teiHeader> <facsimile> <graphic url="1894_AS_RBH_4_00022.jpeg"/> <graphic url="1894_AS_RBH_4_00023.jpeg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="1894_AS_RBH_4_00022"/>Herrn <hi rend="latintype">Dr. Richard Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I Wollzeile 15</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1894_AS_RBH_4_00023"/><salute>Lieber Richard! </salute>Wir<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ind am <date>Neujahrstag</date><space unit="chars" quantity="1"/><time>10.45</time> Vormittg bei Ihnen, um mit Ihnen nach der <rs ref="#pmb34041" type="place">Brühl</rs> zu fahren. Schli<c rendition="#gemination-m"/><c rendition="#langesS">s</c>ten Falls fahren Sie nicht mit. Aber fahren Sie lieber mit.</p><closer>Herzlich<c rendition="#langesS">s</c>t <signed>Arthur</signed><lb/><signed><handShift scribe="#pmb11740"/>Hugo</signed></closer></div></body> </text></TEI>

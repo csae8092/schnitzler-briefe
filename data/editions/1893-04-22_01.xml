@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-04-22_01_Hofmannsthal_AS">
-    <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-04-22_01_Hofmannsthal_AS"> <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -16,9 +14,9 @@
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
                         <placeName>
-                            <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,7 +48,7 @@
                                 <repository>University Library</repository>
                                 <idno>Schnitzler, B 43</idno>
                             </msIdentifier>
-                            <physDesc><p>eh. Postkarte (Rohrpost), Bleistift. Von Schnitzler mit Bleistift                   nummeriert: »<quote>44</quote>«.</p><stamp n="1"><placeName ref="#pmb53">Wien 3/1</placeName><date when="1893-04-22">22. IV. 93</date><time>1030V</time></stamp></physDesc>
+                            <physDesc>                 <p>eh. Postkarte (Rohrpost), Bleistift. Von Schnitzler mit Bleistift                   nummeriert: »<quote>44</quote>«.</p>                 <stamp n="1">                   <placeName ref="#pmb53">Wien 3/1</placeName>                   <date when="1893-04-22">22. IV. 93</date>                   <time>1030V</time>                 </stamp>               </physDesc>
                         </msDesc>
                     </witness>
                 </listWit>
@@ -92,45 +90,36 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
+            <correspAction type="sent">
                     <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                     <placeName ref="#pmb50">[Wien]</placeName>
                     <date when="1893-04-22" n="01">22. 4. 1893</date>
                 </correspAction>
-                <correspAction type="received">
+            <correspAction type="received">
                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                     <placeName ref="#pmb50">[Wien]</placeName>
                 </correspAction>
-                <correspContext>
-                    <ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</ref>
-                    <ref subtype="previous_letter" type="withinCorrespondence" target="1893-04-21_02">Hofmannsthal an Schnitzler, [21. 4. 1893]</ref>
-                    <ref subtype="next_letter" type="withinCorrespondence" target="1893-04-24_01">Hofmannsthal an Schnitzler, [24. 4. 1893]</ref>
-                </correspContext>
-            </correspDesc>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</ref>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1893-04-21_02">Hofmannsthal an Schnitzler, [21. 4. 1893]</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1893-04-24_01">Hofmannsthal an Schnitzler, [24. 4. 1893]</ref>
+            </correspContext>
+         </correspDesc>
         </profileDesc>
-        <encodingDesc>
-            <refsDecl>
-                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+      <encodingDesc>          
+         <refsDecl>             
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>
-            </refsDecl>
-        </encodingDesc>
+        </ab>          
+         </refsDecl>       
+      </encodingDesc>
         <revisionDesc status="approved">
             <change who="MAM" when="2016-03-07">Angelegt aus OCR</change>
             <change who="MAM" when="2017-03-16">Durchgesehen mit Original in CUL</change>
             <change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
-            <change who="GHS" when="2019-01-05">
-                <c rendition="#langesS">s</c>, @facs, Nummerierungen ergänzt</change>
+            <change who="GHS" when="2019-01-05"><c rendition="#langesS">s</c>, @facs, Nummerierungen ergänzt</change>
             <change who="GHS" when="2019-09-22">finalisiert</change>
-            <change who="MAM" when="2019-01-20">Index check</change>
+         <change who="MAM" when="2019-01-20">Index check</change>
         </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00089"/>
-        <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00090"/>
-    </facsimile>
-    <text type="card">
-        <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00089"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi>  Arthur Schnitzler</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb412" type="place">I Grillparzerstrasse 7</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb50" type="place">Wien</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00090"/><rs ref="#pmb10815" type="person">Bahr</rs><c rendition="#langesS">s</c>agt: bei Zeitungen ab<c rendition="#langesS">s</c>olut nichts zu erreichen, als monatliche Annahme einiger Feuilletons. Wir haben 2 greifbare Projecte ausgearbeitet. Details morgen. Verlangen Sie vor allem die genaue Schulden<c rendition="#langesS">s</c>umme zu erfahren: dann wird man einen Theil zahlen, der andere wird wohl nachgela<c rendition="#langesS">s</c><c rendition="#langesS">s</c>en oder in nachträgl. Raten verwandelt werden können. Ich gehe heute auf <hi rend="latintype"><rs ref="#pmb2416" type="person">Davids</rs></hi> Aufforderung in die <hi rend="latintype"><rs ref="#pmb29752" type="org"><hi rend="latintype">Concordia</hi></rs></hi>.</p><closer><signed>Hugo</signed></closer></div></body>
-    </text>
-</TEI>
+    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00089"/> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00090"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00089"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/> Arthur Schnitzler</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb412" type="place">I Grillparzerstrasse 7</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb50" type="place">Wien</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00090"/><rs ref="#pmb10815" type="person">Bahr</rs><space unit="chars" quantity="1"/><c rendition="#langesS">s</c>agt: bei Zeitungen ab<c rendition="#langesS">s</c>olut nichts zu erreichen, als monatliche Annahme einiger Feuilletons. Wir haben 2 greifbare Projecte ausgearbeitet. Details morgen. Verlangen Sie vor allem die genaue Schulden<c rendition="#langesS">s</c>umme zu erfahren: dann wird man einen Theil zahlen, der andere wird wohl nachgela<c rendition="#langesS">s</c><c rendition="#langesS">s</c>en oder in nachträgl. Raten verwandelt werden können. Ich gehe heute auf <hi rend="latintype"><rs ref="#pmb2416" type="person">Davids</rs></hi> Aufforderung in die <hi rend="latintype"><rs ref="#pmb29752" type="org"><hi rend="latintype">Concordia</hi></rs></hi>.</p><closer><signed>Hugo</signed></closer></div></body> </text></TEI>

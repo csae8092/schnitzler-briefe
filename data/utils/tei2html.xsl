@@ -327,7 +327,7 @@
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:attribute>
-            <xsl:text/>
+            <xsl:text> </xsl:text>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template><!-- Bücher -->
@@ -373,7 +373,7 @@
                 <xsl:attribute name="name">
                     <xsl:value-of select="@xml:id"/>
                 </xsl:attribute>
-                <xsl:text/>
+                <xsl:text> </xsl:text>
             </a>
         </xsl:if>
         <a>
@@ -381,7 +381,7 @@
                 <xsl:text>hd</xsl:text>
                 <xsl:number level="any"/>
             </xsl:attribute>
-            <xsl:text/>
+            <xsl:text> </xsl:text>
         </a>
         <h3>
             <div>

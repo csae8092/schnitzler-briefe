@@ -1,119 +1,109 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1903-11-15_01_Bahr_AS">
-    <teiHeader type="text">
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hermann Bahr an Arthur Schnitzler, 15. 11. 1903</title>
-                <author ref="#pmb10815">Bahr, Hermann</author>
-                <editor>
-                    <name>Müller, Martin Anton</name>
-                </editor>
-                <funder>
-                    <name>FWF – Fonds für Wissenschaft und Forschung</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Wien</postCode>
-                        <placeName>
-                            <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>HBAS</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name>Kurt Ifkovits</name>
-                    <name>Martin Anton Müller</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="HBAS-L"/>
-                <availability status="free">
-                    <p>Copyright © 2020</p>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness n="1">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>GB</country>
-                                <settlement>Cambridge</settlement>
-                                <repository>University Library</repository>
-                                <idno>Schnitzler, B 5b</idno>
-                            </msIdentifier>
-                            <physDesc><p>eh. Postkarte, schwarze Tinte. Von unbekannter Hand mit Bleistift              nummeriert: »<quote>104</quote>«.</p><stamp n="1"><placeName ref="#pmb63">Wien 13/7</placeName><date when="1903-11-15">15. 11<supplied>.</supplied> 03</date><time>12–1M</time></stamp><stamp n="2"><placeName ref="#pmb68">Wien 18/1</placeName><date when="1903-11-16">16. 11. 03</date><time>8.V</time><action>Bestellt</action></stamp></physDesc>
-                        </msDesc>
-                    </witness>
-                </listWit>
-                <listBibl>
-                    <biblStruct corresp="HBAS">
-                        <monogr>
-                            <author ref="#pmb10815">Bahr, Hermann</author>
-                            <author ref="#pmb2121">Schnitzler, Arthur</author>
-                            <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
-                            <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
-                            <imprint>
-                                <pubPlace>Göttingen</pubPlace>
-                                <publisher>Wallstein</publisher>
-                                <date when="2018">2018</date>
-                            </imprint>
-                            <biblScope unit="pp">282</biblScope>
-                        </monogr>
-                    </biblStruct>
-                </listBibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="#pmb10815">Bahr, Hermann</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                    <date when="1903-11-15" n="01">15. 11. 1903</date>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                    <date when="1903-11-16">16. 11. 03</date>
-                </correspAction>
-                <correspContext>
-                    <ref type="belongsToCorrespondence" target="#pmb10815">Bahr, Hermann</ref>
-                    <ref subtype="previous_letter" type="withinCorrespondence" target="1903-11-13_02">Schnitzler an Bahr, 13. 11. 1903</ref>
-                    <ref subtype="next_letter" type="withinCorrespondence" target="1903-12-13_01">Schnitzler an Bahr, 13. 12. 1903</ref>
-                </correspContext>
-            </correspDesc>
-        </profileDesc>
-        <encodingDesc>
-            <refsDecl>
-                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1903-11-15_01_Bahr_AS"> <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 15. 11. 1903</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
+            <idno type="HBAS-L"/>
+            <availability status="free">
+               <p>Copyright © 2020</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>             <p>eh. Postkarte, schwarze Tinte. Von unbekannter Hand mit Bleistift              nummeriert: »<quote>104</quote>«.</p>             <stamp n="1">              <placeName ref="#pmb63">Wien 13/7</placeName>              <date when="1903-11-15">15. 11<supplied>.</supplied> 03</date>              <time>12–1M</time>             </stamp>             <stamp n="2">              <placeName ref="#pmb68">Wien 18/1</placeName>              <date when="1903-11-16">16. 11. 03</date>              <time>8.V</time>              <action>Bestellt</action>             </stamp>           </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HBAS">
+                  <monogr>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+                     <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
+                     <imprint>
+                        <pubPlace>Göttingen</pubPlace>
+                        <publisher>Wallstein</publisher>
+                        <date when="2018">2018</date>
+                     </imprint>
+                     <biblScope unit="pp">282</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1903-11-15" n="01">15. 11. 1903</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1903-11-16">16. 11. 03</date>
+            </correspAction>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#pmb10815">Bahr, Hermann</ref>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1903-11-13_02">Schnitzler an Bahr, 13. 11. 1903</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1903-12-13_01">Schnitzler an Bahr, 13. 12. 1903</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <encodingDesc>          
+         <refsDecl>             
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>
-            </refsDecl>
-        </encodingDesc>
-        <revisionDesc status="approved">
-            <change who="KI MAM" when="2015-12-10">Kollationiert</change>
-            <change who="KI MAM" when="2017-05-29">Kollationiert</change>
-            <change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
-            <change who="GHS" when="2020-01-19">finalisiert</change>
-            <change who="MAM" when="2019-01-20">Index check</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="MS-B-00005-B-000-00184"/>
-        <graphic url="MS-B-00005-B-000-00185"/>
-    </facsimile>
-    <text type="card">
-        <body><div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00185"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><rs ref="#pmb68" type="place">Wien XVIII</rs></addrLine><addrLine><rs ref="#pmb133" type="place">Spöttelga<c rendition="#langesS">s</c><c rendition="#langesS">s</c>e 7</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-B-00005-B-000-00184"/><date>15. 11. 03</date></dateline></opener><p>Danke <c rendition="#langesS">s</c>ehr, <salute>lieber Arthur. </salute> Der <rs ref="#pmb29406" type="org">Berliner Bör<c rendition="#langesS">s</c>en Courier</rs> hat <c rendition="#langesS">s</c>chon abgelehnt u. ich habe wenig Hoffnung. Die<c rendition="#langesS">s</c>e Bande!</p><p><rs ref="#pmb11740" type="person">Hugo</rs><c rendition="#langesS">s</c>chreibt mir, Dein neues <rs type="work" ref="#pmb29985" subtype="implied">Stück</rs><c rendition="#langesS">s</c>ei »prachtvoll«. Ich freu mich <c rendition="#langesS">s</c>ehr u. wün<c rendition="#langesS">s</c>ch Dir herzlich<c rendition="#langesS">s</c>t Glück.</p><p><rs ref="#pmb10986" type="person">Brahm</rs> hat meine <anchor type="commentary" xml:id="KL265-1"/><rs type="work" ref="#pmb29983" subtype="implied">Première</rs><note type="commentary" xml:id="KL265-1h">von <rs ref="#pmb29983" type="work">Der Meister</rs></note> auf den <date>12. Dezember</date> ange<c rendition="#langesS">s</c>etzt. Warum plötzlich die<c rendition="#langesS">s</c>e Eile, weiß ich nicht. Er kommt Montag im <rs ref="#pmb126" type="place"><hi rend="latintype">Imperial</hi></rs> an.</p><closer>Herzlich<c rendition="#langesS">s</c>t<lb/>Dein<lb/><signed>H.</signed></closer></div></body>
-    </text>
-</TEI>
+        </ab>          
+         </refsDecl>       
+      </encodingDesc>
+      <revisionDesc status="approved">
+         <change who="KI MAM" when="2015-12-10">Kollationiert</change>
+         <change who="KI MAM" when="2017-05-29">Kollationiert</change>
+         <change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
+         <change who="GHS" when="2020-01-19">finalisiert</change>
+         <change who="MAM" when="2019-01-20">Index check</change>
+      </revisionDesc>
+   </teiHeader> <facsimile> <graphic url="MS-B-00005-B-000-00184"/> <graphic url="MS-B-00005-B-000-00185"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00185"/>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><rs ref="#pmb68" type="place">Wien XVIII</rs></addrLine><addrLine><rs ref="#pmb133" type="place">Spöttelga<c rendition="#langesS">s</c><c rendition="#langesS">s</c>e 7</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-B-00005-B-000-00184"/><date>15. 11. 03</date></dateline></opener><p>Danke<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ehr, <salute>lieber Arthur. </salute> Der <rs ref="#pmb29406" type="org">Berliner Bör<c rendition="#langesS">s</c>en Courier</rs> hat<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>chon abgelehnt u. ich habe wenig Hoffnung. Die<c rendition="#langesS">s</c>e Bande!</p><p><rs ref="#pmb11740" type="person">Hugo</rs><space unit="chars" quantity="1"/><c rendition="#langesS">s</c>chreibt mir, Dein neues <rs type="work" ref="#pmb29985" subtype="implied">Stück</rs><space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ei »prachtvoll«. Ich freu mich<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ehr u. wün<c rendition="#langesS">s</c>ch Dir herzlich<c rendition="#langesS">s</c>t Glück.</p><p><rs ref="#pmb10986" type="person">Brahm</rs> hat meine <anchor type="commentary" xml:id="KL265-1"/><rs type="work" ref="#pmb29983" subtype="implied">Première</rs><note type="commentary" xml:id="KL265-1h">von <rs ref="#pmb29983" type="work">Der Meister</rs></note> auf den <date>12. Dezember</date> ange<c rendition="#langesS">s</c>etzt. Warum plötzlich die<c rendition="#langesS">s</c>e Eile, weiß ich nicht. Er kommt Montag im <rs ref="#pmb126" type="place"><hi rend="latintype">Imperial</hi></rs> an.</p><closer>Herzlich<c rendition="#langesS">s</c>t<lb/>Dein<lb/><signed>H.</signed></closer></div></body> </text></TEI>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-04-20_01_Fels_AS">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-04-20_01_Fels_AS"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -17,7 +15,7 @@
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
                         <placeName>
-                            <country>A</country>
+                     <country>A</country>
                             <settlement>Wien</settlement>
                         </placeName>
                     </address>
@@ -51,7 +49,7 @@
                                 <repository>Deutsches Literaturarchiv</repository>
                                 <idno>A:Schnitzler, HS.NZ85.1.2956</idno>
                             </msIdentifier>
-                            <physDesc><p>eh. Brief, 1 Bl., 2 S., schwarze Tinte; Lateinschrift.                   Von Schnitzler mit Bleistift numeriert: »<quote>10</quote>«.</p></physDesc>
+                            <physDesc>                 <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte; Lateinschrift.                   Von Schnitzler mit Bleistift numeriert: »<quote>10</quote>«.</p>               </physDesc>
                         </msDesc>
                     </witness>
                 </listWit>
@@ -62,40 +60,33 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
+            <correspAction type="sent">
                     <persName ref="#pmb2450">Fels, Friedrich M.</persName>
                     <placeName ref="#pmb887">Meran</placeName>
                     <date when="1893-04-20" n="01">20. 4. 1893</date>
                 </correspAction>
-                <correspAction type="received">
+            <correspAction type="received">
                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                     <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
-                <correspContext>
-                    <ref type="belongsToCorrespondence" target="#pmb2450">Fels, Friedrich M.</ref>
-                    <ref subtype="previous_letter" type="withinCorrespondence" target="1893-02-23_01">Fels an Schnitzler, 23. 2.1893</ref>
-                    <ref subtype="next_letter" type="withinCorrespondence" target="1893-04-29_01">Fels an Schnitzler, [29. 4. 1893?]</ref>
-                </correspContext>
-            </correspDesc>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#pmb2450">Fels, Friedrich M.</ref>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1893-02-23_01">Fels an Schnitzler, 23. 2.1893</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1893-04-29_01">Fels an Schnitzler, [29. 4. 1893?]</ref>
+            </correspContext>
+         </correspDesc>
         </profileDesc>
-        <encodingDesc>
-            <refsDecl>
-                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+      <encodingDesc>          
+         <refsDecl>             
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>
-            </refsDecl>
-        </encodingDesc>
+        </ab>          
+         </refsDecl>       
+      </encodingDesc>
         <revisionDesc status="proposed">
             <change who="MAM" when="2019-10-19">Angelegt</change>
             <change who="MAM" when="2019-10-19">Index check</change>
             <change who="GHS" when="2020-01-01">finalisiert</change>
         </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="Fels, Friedrich an AS ÖGL.pdf"/>
-    </facsimile>
-    <text type="letter">
-        <body><div type="writingSession" n="1"><opener><dateline rend="right"><tei:pb/><rs ref="#pmb809" type="place">Meran-Obermais, Erzh. Rainer</rs><lb/><date>20. April <anchor type="commentary" xml:id="KLMAM20191019-3"/>1892<note type="commentary" xml:id="KLMAM20191019-3h">Die falsche Jahresangabe von <rs ref="#pmb2121" type="person">Schnitzler</rs> durch »<quote>3</quote>« ersetzt.</note></date></dateline><salute rend="center">Lieber Dr Schnitzler!</salute></opener><p>Entschuldigen Sie, bitte, da<c rendition="#langesS">s</c>s ich so lange nichts von mir hören lie<c rendition="#langesS">s</c>s; we<c rendition="#gemination-n"/> ich wieder in <rs ref="#pmb50" type="place">Wien</rs> sein werde, werde ich Ihnen des ausführlicheren über die Gründe meines höchst unliebenswürdigen und undankbaren Schweigens sprechen. Ende dieses Monats werde ich zurückkehren, nachdem ich vollständig genesen bin. Da aber zuvor die Angelegenheit mit der Rechnung geordnet werden mu<c rendition="#langesS">s</c>s, hätte ich folgende Bitte an Sie: Wollen Sie so freundlich sein, bei den Herren der <rs ref="#pmb29424" type="org">Deutschen Zeitung</rs> – da<c rendition="#langesS">s</c>s meine Anstellung ganz sicher sei, darüber hat mir <rs ref="#pmb11740" type="person">Loris</rs> geschrieben – vielleicht zu veranla<c rendition="#langesS">s</c>sen, da<c rendition="#langesS">s</c>s ich vom <date>1. Mai</date> ab eintreten ka<c rendition="#gemination-n"/> und <del rend="strikethrough">zug</del> da<c rendition="#langesS">s</c>s mir, we<c rendition="#gemination-n"/> das der Fall ist, umgehend eine Schrift zugeschickt werde, wodurch die <rs ref="#pmb29424" type="org">D. Ztg.</rs> erklärt, dem <rs ref="#pmb42413" type="person" subtype="implied">Hotelier</rs> des <rs ref="#pmb809" type="place">Erzh. Rainer</rs>, bis zur Befriedigung seiner Ansprüche, monatlich eine besti<c rendition="#gemination-m"/>te Su<c rendition="#gemination-m"/>e etwa ¼ <add place="above">oder ⅓</add> meines Gehaltes zuzusenden. We<c rendition="#gemination-n"/> ich nicht in kürzester Kürze diese Schrift oder eine andere Sicherstellung <subst><del rend="strikethrough">erhalten</del><add place="below">bieten ka<c rendition="#gemination-n"/></add></subst><tei:pb/>werde ich in sehr unangenehme Verwickelungen geraten und wahrscheinlich noch etwas früher, als hier sonst der Fall wäre, die Strafe für all meine Thaten erhalten.</p><p>Bitte, grü<c rendition="#langesS">s</c>sen Sie mir alle Beka<c rendition="#gemination-n"/>ten, die etwa noch geneigt sein sollten, einen Gru<c rendition="#langesS">s</c>s von mir zu empfangen, und seien Sie selbst herzl. gegrü<c rendition="#langesS">s</c>st</p><closer>von<lb/><signed>Fels</signed></closer></div></body>
-    </text>
-</TEI>
+    </teiHeader> <facsimile> <graphic url="Fels, Friedrich an AS ÖGL.pdf"/> </facsimile> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><tei:pb/><rs ref="#pmb809" type="place">Meran-Obermais, Erzh. Rainer</rs><lb/><date>20. April <anchor type="commentary" xml:id="KLMAM20191019-3"/>1892<note type="commentary" xml:id="KLMAM20191019-3h">Die falsche Jahresangabe von <rs ref="#pmb2121" type="person">Schnitzler</rs> durch »<quote>3</quote>« ersetzt.</note></date></dateline><salute rend="center">Lieber Dr Schnitzler!</salute></opener><p>Entschuldigen Sie, bitte, da<c rendition="#langesS">s</c>s ich so lange nichts von mir hören lie<c rendition="#langesS">s</c>s; we<c rendition="#gemination-n"/> ich wieder in <rs ref="#pmb50" type="place">Wien</rs><space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ein werde, werde ich Ihnen des ausführlicheren über die Gründe meines höchst unliebenswürdigen und undankbaren Schweigens sprechen. Ende dieses Monats werde ich zurückkehren, nachdem ich vollständig genesen bin. Da aber zuvor die Angelegenheit mit der Rechnung geordnet werden mu<c rendition="#langesS">s</c>s, hätte ich folgende Bitte an Sie: Wollen Sie so freundlich sein, bei den Herren der <rs ref="#pmb29424" type="org">Deutschen Zeitung</rs> – da<c rendition="#langesS">s</c>s meine Anstellung ganz sicher sei, darüber hat mir <rs ref="#pmb11740" type="person">Loris</rs> geschrieben – vielleicht zu veranla<c rendition="#langesS">s</c>sen, da<c rendition="#langesS">s</c>s ich vom <date>1. Mai</date> ab eintreten ka<c rendition="#gemination-n"/> und <del rend="strikethrough">zug</del> da<c rendition="#langesS">s</c>s mir, we<c rendition="#gemination-n"/> das der Fall ist, umgehend eine Schrift zugeschickt werde, wodurch die <rs ref="#pmb29424" type="org">D. Ztg.</rs> erklärt, dem <rs ref="#pmb42413" type="person" subtype="implied">Hotelier</rs> des <rs ref="#pmb809" type="place">Erzh. Rainer</rs>, bis zur Befriedigung seiner Ansprüche, monatlich eine besti<c rendition="#gemination-m"/>te Su<c rendition="#gemination-m"/>e etwa ¼ <add place="above">oder ⅓</add> meines Gehaltes zuzusenden. We<c rendition="#gemination-n"/> ich nicht in kürzester Kürze diese Schrift oder eine andere Sicherstellung <subst><del rend="strikethrough">erhalten</del><add place="below">bieten ka<c rendition="#gemination-n"/></add></subst><space unit="chars" quantity="1"/><tei:pb/>werde ich in sehr unangenehme Verwickelungen geraten und wahrscheinlich noch etwas früher, als hier sonst der Fall wäre, die Strafe für all meine Thaten erhalten.</p><p>Bitte, grü<c rendition="#langesS">s</c>sen Sie mir alle Beka<c rendition="#gemination-n"/>ten, die etwa noch geneigt sein sollten, einen Gru<c rendition="#langesS">s</c>s von mir zu empfangen, und seien Sie selbst herzl. gegrü<c rendition="#langesS">s</c>st</p><closer>von<lb/><signed>Fels</signed></closer></div></body> </text></TEI>

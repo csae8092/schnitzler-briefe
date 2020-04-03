@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-04-28_01_AS_Hofmannsthal">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-04-28_01_AS_Hofmannsthal"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -51,7 +49,7 @@
                                 <repository>Freies Deutsches Hochstift</repository>
                                 <idno>Hs-30885,57</idno>
                             </msIdentifier>
-                            <physDesc><p>eh. Brief, 1 Bl., 4 S., schwarze Tinte.</p></physDesc>
+                            <physDesc>                 <p>eh. Brief, 1 Bl., 4 S., schwarze Tinte.</p>               </physDesc>
                         </msDesc>
                     </witness>
                 </listWit>
@@ -78,41 +76,33 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
+            <correspAction type="sent">
                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                     <placeName ref="#pmb182">Paris</placeName>
                     <date when="1897-04-28" n="01">28. 4. 1897</date>
                 </correspAction>
-                <correspAction type="received">
+            <correspAction type="received">
                     <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                     <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
-                <correspContext>
-                    <ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</ref>
-                    <ref subtype="previous_letter" type="withinCorrespondence" target="1897-04-26_02">Schnitzler an Hofmannsthal, 26. 4. 1897</ref>
-                    <ref subtype="next_letter" type="withinCorrespondence" target="1897-05-02_01">Hofmannsthal an Schnitzler, 2. 5. [1897]</ref>
-                </correspContext>
-            </correspDesc>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</ref>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1897-04-26_02">Schnitzler an Hofmannsthal, 26. 4. 1897</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1897-05-02_01">Hofmannsthal an Schnitzler, 2. 5. [1897]</ref>
+            </correspContext>
+         </correspDesc>
         </profileDesc>
-        <encodingDesc>
-            <refsDecl>
-                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+      <encodingDesc>          
+         <refsDecl>             
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>
-            </refsDecl>
-        </encodingDesc>
+        </ab>          
+         </refsDecl>       
+      </encodingDesc>
         <revisionDesc status="approved">
             <change who="MAM" when="2019-07-11">Angelegt aus Buchausgabe</change>
             <change who="MAM" when="2019-12-27">Index check</change>
             <change who="GHS" when="2020-01-15">finalisiert</change>
         </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="Hs-30885,57_001.TIF"/>
-        <graphic url="Hs-30885,57_002.TIF"/>
-    </facsimile>
-    <text type="letter">
-        <body><div type="writingSession" n="1"><opener><dateline><pb facs="Hs-30885,57_001"/><rs ref="#pmb592" type="place">5  <hi rend="latintype">rue de Maubeuge</hi></rs><lb/><rs ref="#pmb182" type="place"><hi rend="latintype">Paris</hi></rs><date>28. 4. 97</date></dateline><salute>Lieber Hugo, </salute></opener><p>an <rs ref="#pmb11324" type="person">Fi<c rendition="#langesS">s</c>cher</rs> hab ich ge<c rendition="#langesS">s</c>chrieben, ich zweifle nicht, d<c rendition="#langesS">s</c>s er ohne weiters einver<c rendition="#langesS">s</c>tanden i<c rendition="#langesS">s</c>t. Warum aber glauben Sie, da<c rendition="#langesS">s</c>s alle die<c rendition="#langesS">s</c>e Sachen <c rendition="#langesS">s</c>ich nur von <rs ref="#pmb182" type="place">Paris</rs> aus komi<c rendition="#langesS">s</c>ch anhören. Sie <c rendition="#langesS">s</c>ind übrigens mehr ekelhaft als komi<c rendition="#langesS">s</c>ch. We<c rendition="#gemination-n"/><pb facs="Hs-30885,57_002"/><c rendition="#langesS">s</c>ich <rs ref="#pmb12435" type="person">Clara</rs> nur nicht viel draus macht und <c rendition="#langesS">s</c>ich nicht gar zu viel <c rendition="#langesS">s</c>ekkieren la<c rendition="#langesS">s</c><c rendition="#langesS">s</c>en mu<c rendition="#langesS">s</c>s. Grüßen Sie <c rendition="#langesS">s</c>ie u <rs ref="#pmb28285" type="person">Anna</rs> von mir herzlich.</p><p>– I<c rendition="#langesS">s</c>t es möglich, d<c rendition="#langesS">s</c>s <rs ref="#pmb24033" type="person">Minnie</rs> an dem Trat<c rendition="#langesS">s</c>ch zum Teil <c rendition="#langesS">s</c>chuld i<c rendition="#langesS">s</c>t? (Da wird <c rendition="#langesS">s</c>ie mir ja auch was ähnliches anrichten!) Sonderbarer Wei<c rendition="#langesS">s</c>e das einzige literari<c rendition="#langesS">s</c>che, worüber ich hier ein bi<c rendition="#langesS">s</c><c rendition="#langesS">s</c>el nachgedacht, i<c rendition="#langesS">s</c>t das <rs type="work" subtype="implied" ref="#pmb29923">Stück</rs>, wo <del rend="strikethrough"><c rendition="#langesS">s</c>ich</del><c rendition="#langesS">s</c>ie mich <pb facs="Hs-30885,57_002"/>rettet. Aber <c rendition="#langesS">s</c>ie ändert <c rendition="#langesS">s</c>ich mir im Kopf, <c rendition="#langesS">s</c>ie ist <c rendition="#langesS">s</c>chon beinah blond.</p><p>Meinen Brief von ge<c rendition="#langesS">s</c>tern oder vorge<c rendition="#langesS">s</c>tern haben Sie doch? –</p><p>Arbeiten Sie was?</p><p>Eben komme ich von <rs ref="#pmb36549" type="place"><hi rend="latintype">Versailles</hi></rs> zurück und habe eine unbe<c rendition="#langesS">s</c>chreibliche Lu<c rendition="#langesS">s</c>t nach Grün und Luft und Stille heimge<pb facs="Hs-30885,57_001"/>bracht; eine <c rendition="#langesS">s</c>o heftige Ungeduld, da<c rendition="#langesS">s</c>s ich gleich wieder aus Paris wegmöchte, we<c rendition="#gemination-n"/>’s <c rendition="#langesS">s</c>o ohne weiteres ginge.</p><p>Das gibt <c rendition="#langesS">s</c>ich wieder.</p><closer>Seien Sie herzlich gegrüßt.<lb/>Ihr<signed>Arthur.</signed></closer><postscript><p>Statt gemi<c rendition="#langesS">s</c>chten Hausbrotes e<c rendition="#langesS">s</c><c rendition="#langesS">s</c>e ich gemi<c rendition="#langesS">s</c>chtes Hausbrot. –</p></postscript></div></body>
-    </text>
-</TEI>
+    </teiHeader> <facsimile> <graphic url="Hs-30885,57_001.TIF"/> <graphic url="Hs-30885,57_002.TIF"/> </facsimile> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline><pb facs="Hs-30885,57_001"/><rs ref="#pmb592" type="place">5  <hi rend="latintype">rue de Maubeuge</hi></rs><lb/><rs ref="#pmb182" type="place"><hi rend="latintype">Paris</hi></rs><space unit="chars" quantity="1"/><date>28. 4. 97</date></dateline><salute>Lieber Hugo, </salute></opener><p>an <rs ref="#pmb11324" type="person">Fi<c rendition="#langesS">s</c>cher</rs> hab ich ge<c rendition="#langesS">s</c>chrieben, ich zweifle nicht, d<c rendition="#langesS">s</c>s er ohne weiters einver<c rendition="#langesS">s</c>tanden i<c rendition="#langesS">s</c>t. Warum aber glauben Sie, da<c rendition="#langesS">s</c>s alle die<c rendition="#langesS">s</c>e Sachen<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ich nur von <rs ref="#pmb182" type="place">Paris</rs> aus komi<c rendition="#langesS">s</c>ch anhören. Sie<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ind übrigens mehr ekelhaft als komi<c rendition="#langesS">s</c>ch. We<c rendition="#gemination-n"/><space unit="chars" quantity="1"/><pb facs="Hs-30885,57_002"/><c rendition="#langesS">s</c>ich <rs ref="#pmb12435" type="person">Clara</rs> nur nicht viel draus macht und<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ich nicht gar zu viel<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ekkieren la<c rendition="#langesS">s</c><c rendition="#langesS">s</c>en mu<c rendition="#langesS">s</c>s. Grüßen Sie<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ie u <rs ref="#pmb28285" type="person">Anna</rs> von mir herzlich.</p><p>– I<c rendition="#langesS">s</c>t es möglich, d<c rendition="#langesS">s</c>s <rs ref="#pmb24033" type="person">Minnie</rs> an dem Trat<c rendition="#langesS">s</c>ch zum Teil<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>chuld i<c rendition="#langesS">s</c>t? (Da wird<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ie mir ja auch was ähnliches anrichten!) Sonderbarer Wei<c rendition="#langesS">s</c>e das einzige literari<c rendition="#langesS">s</c>che, worüber ich hier ein bi<c rendition="#langesS">s</c><c rendition="#langesS">s</c>el nachgedacht, i<c rendition="#langesS">s</c>t das <rs type="work" subtype="implied" ref="#pmb29923">Stück</rs>, wo <del rend="strikethrough"><c rendition="#langesS">s</c>ich</del><space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ie mich <pb facs="Hs-30885,57_002"/>rettet. Aber<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ie ändert<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ich mir im Kopf,<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ie ist<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>chon beinah blond.</p><p>Meinen Brief von ge<c rendition="#langesS">s</c>tern oder vorge<c rendition="#langesS">s</c>tern haben Sie doch? –</p><p>Arbeiten Sie was?</p><p>Eben komme ich von <rs ref="#pmb36549" type="place"><hi rend="latintype">Versailles</hi></rs> zurück und habe eine unbe<c rendition="#langesS">s</c>chreibliche Lu<c rendition="#langesS">s</c>t nach Grün und Luft und Stille heimge<pb facs="Hs-30885,57_001"/>bracht; eine<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>o heftige Ungeduld, da<c rendition="#langesS">s</c>s ich gleich wieder aus Paris wegmöchte, we<c rendition="#gemination-n"/>’s<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>o ohne weiteres ginge.</p><p>Das gibt<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ich wieder.</p><closer>Seien Sie herzlich gegrüßt.<lb/>Ihr<signed>Arthur.</signed></closer><postscript><p>Statt gemi<c rendition="#langesS">s</c>chten Hausbrotes e<c rendition="#langesS">s</c><c rendition="#langesS">s</c>e ich gemi<c rendition="#langesS">s</c>chtes Hausbrot. –</p></postscript></div></body> </text></TEI>

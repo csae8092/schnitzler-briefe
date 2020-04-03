@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1910-10-31_01_AS_Adam">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1910-10-31_01_AS_Adam"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -50,7 +48,7 @@
                                 <repository>Deutsches Literaturarchiv</repository>
                                 <idno>96.34.1/2</idno>
                             </msIdentifier>
-                            <physDesc><p>ms. Umschlag und Brief, 1 Bl., 1 S. mit eh.                   Unterschrift sowie hs. Korrekturen.</p><stamp n="1"><placeName ref="#pmb59">9/1 Wien 66</placeName><date when="1910-10-31">31. X. 10</date><time>3</time></stamp></physDesc>
+                            <physDesc>                 <p>ms. Umschlag und Brief, 1 Bl., 1 S. mit eh. Unterschrift mit schwarzer Zinte sowie                   Bleistift-Korrektur.</p>                 <stamp n="1">                   <placeName ref="#pmb59">9/1 Wien 66</placeName>                   <date when="1910-10-31">31. X. 10</date>                   <time>3</time>                 </stamp>               </physDesc>
                         </msDesc>
                     </witness>
                     <witness n="2">
@@ -61,7 +59,7 @@
                                 <repository>Deutsches Literaturarchiv</repository>
                                 <idno>A:Schnitzler, 85.1.1621</idno>
                             </msIdentifier>
-                            <physDesc><p>ms. Durchschlag, 1 Bl., 1 S. Von Schnitzler beschriftet:                       »<quote><hi rend="latintype">Adam</hi></quote>«.</p></physDesc>
+                            <physDesc>                 <p>ms. Durchschlag, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>                     <hi rend="latintype">Adam</hi>                   </quote>«.</p>               </physDesc>
                         </msDesc>
                     </witness>
                 </listWit>
@@ -90,19 +88,15 @@
         </profileDesc>
         <encodingDesc>
             <refsDecl>
-                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>
+                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates
+                    only, e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+                    'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
             </refsDecl>
         </encodingDesc>
         <revisionDesc status="proposed">
             <change who="MAM" when="2018-12-13">Angelegt</change>
             <change who="MAM" when="2018-12-21">Index check</change>
             <change who="MAM" when="2019-04-03">Durchsicht mit DLA-Scans</change>
+            <change who="GHS" when="2020-03-29">finalisiert</change>
         </revisionDesc>
-    </teiHeader>
-    <text type="letter">
-        <body><div type="address"><address><addrLine><pb facs=""/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></addrLine><addrLine><rs ref="#pmb150" type="place"><hi rend="pre-print">Wien, XVIII. Sternwartestrasse 71</hi></rs></addrLine></address><address><addrLine><pb facs=""/>Herrn Robert Adam</addrLine><addrLine><rs ref="#pmb62" type="place"><hi rend="spaced_out">Wien XII</hi></rs>.</addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hauptstraße 56</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline><seg rend="left"><pb facs=""/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></seg><seg rend="right"><date>31. 10. 1910</date>.</seg></dateline><p><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></p><salute rend="center">Sehr geehrter Herr Adam.</salute></opener><p>Ihrer <add place="inline">»</add><rs ref="#pmb33578" type="work">Ali Bekkar<add place="inline">«</add>-Komödie</rs> erinnere ich gern und so interessiert es mich natürlich auch Ihr neues <rs type="work" ref="#pmb33580" subtype="implied">Stück</rs> kennen zu lernen, nur möchte bitten 1. es mir in Schreibmaschinenschrift zu<add place="inline"></add>senden zu wollen und 2. sich fre<supplied>u</supplied>ndlichst bis nach meiner <anchor type="commentary" xml:id="KL2111-1"/><rs ref="#pmb14" type="place">Burgtheater</rs>première<note type="commentary" xml:id="KL2111-1h">Am <date>24. 11. 1910</date> Uraufführung von <rs ref="#pmb29937" type="work">Der junge Medardus</rs>.</note> zu gedulden.</p><closer>Mit verbindlichem Gruss<lb/>Ihr sehr ergebener <signed><handShift/>Arthur Schnitzler</signed></closer><postscript><p><handShift medium="typewriter"/>Herrn Robert Adam, <rs ref="#pmb50" type="place">Wien</rs>.</p></postscript></div></body>
-    </text>
-</TEI>
+    </teiHeader> <facsimile> <graphic url="DLA 96.34.1 Schnitzler an Robert Adam.pdf"/> </facsimile> <text type="letter"> <body><div type="address"><address><addrLine><tei:pb/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></addrLine><addrLine><rs ref="#pmb150" type="place"><hi rend="pre-print">Wien, XVIII. Sternwartestrasse 71</hi></rs></addrLine></address><address><addrLine><tei:pb/>Herrn Robert Adam</addrLine><addrLine><rs ref="#pmb62" type="place"><hi rend="spaced_out">Wien XII</hi></rs>.</addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hauptstraße 56</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline><seg rend="left"><tei:pb/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></seg><seg rend="right"><date>31. 10. 1910</date>.</seg></dateline><p><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></p><salute rend="center">Sehr geehrter Herr Adam.</salute></opener><p>Ihrer <add place="inline">»</add><rs ref="#pmb33578" type="work">Ali Bekkar<add place="inline">«</add>-Komödie</rs> erinnere ich gern und so interessiert es mich natürlich auch Ihr neues <rs type="work" ref="#pmb33580" subtype="implied">Stück</rs> kennen zu lernen, nur möchte bitten 1. es mir in Schreibmaschinenschrift zu<add place="inline"><space unit="chars" quantity="1"/></add>senden zu wollen und 2. sich fre<supplied>u</supplied>ndlichst bis nach meiner <anchor type="commentary" xml:id="KL2111-1"/><rs ref="#pmb14" type="place">Burgtheater</rs>première<note type="commentary" xml:id="KL2111-1h">Am <date>24. 11. 1910</date> Uraufführung von <rs ref="#pmb29937" type="work">Der junge Medardus</rs>.</note> zu gedulden.</p><closer>Mit verbindlichem Gruss<lb/>Ihr sehr ergebener<signed><handShift/>Arthur Schnitzler</signed></closer><postscript><p><handShift medium="typewriter"/>Herrn Robert Adam, <rs ref="#pmb50" type="place">Wien</rs>.</p></postscript></div></body> </text></TEI>

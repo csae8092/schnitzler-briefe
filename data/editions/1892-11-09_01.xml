@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-11-09_01_AS_Hofmannsthal">
-    <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-11-09_01_AS_Hofmannsthal"> <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -50,7 +48,7 @@
                                 <repository>Freies Deutsches Hochstift</repository>
                                 <idno>Hs-30885,26</idno>
                             </msIdentifier>
-                            <physDesc><p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Auf der ersten Seite von                   Schnitzler mit Bleistift datiert: »<quote><date>9/11 92</date></quote>«.</p></physDesc>
+                            <physDesc>                 <p>eh. Brief, 1 Bl., 2 S., schwarze Tinte. Auf der ersten Seite von                   Schnitzler mit Bleistift datiert: »<quote>                     <date>9/11 92</date>                   </quote>«.</p>               </physDesc>
                         </msDesc>
                     </witness>
                 </listWit>
@@ -91,45 +89,36 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
+            <correspAction type="sent">
                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                     <placeName ref="#pmb50">[Wien]</placeName>
                     <date when="1892-11-09" n="01">9. 11. 1892</date>
                 </correspAction>
-                <correspAction type="received">
+            <correspAction type="received">
                     <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                     <placeName ref="#pmb50">[Wien]</placeName>
                 </correspAction>
-                <correspContext>
-                    <ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</ref>
-                    <ref subtype="previous_letter" type="withinCorrespondence" target="1892-11-08_01">Hofmannsthal an Schnitzler, [8. 11. 1892]</ref>
-                    <ref subtype="next_letter" type="withinCorrespondence" target="1892-11-23_01">Hofmannsthal an Schnitzler, [23. 11. 1892?]</ref>
-                </correspContext>
-            </correspDesc>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</ref>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1892-11-08_01">Hofmannsthal an Schnitzler, [8. 11. 1892]</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1892-11-23_01">Hofmannsthal an Schnitzler, [23. 11. 1892?]</ref>
+            </correspContext>
+         </correspDesc>
         </profileDesc>
-        <encodingDesc>
-            <refsDecl>
-                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+      <encodingDesc>          
+         <refsDecl>             
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>
-            </refsDecl>
-        </encodingDesc>
+        </ab>          
+         </refsDecl>       
+      </encodingDesc>
         <revisionDesc status="approved">
             <change who="MAM" when="2016-03-04">Angelegt aus OCR</change>
             <change who="MAM" when="2017-07-12">Kollationiert</change>
             <change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
-            <change who="GHS" when="2018-12-26">
-                <c rendition="#langesS">s</c>, @facs, Nummerierungen ergänzt</change>
+            <change who="GHS" when="2018-12-26"><c rendition="#langesS">s</c>, @facs, Nummerierungen ergänzt</change>
             <change who="GHS" when="2019-09-19">finalisiert</change>
-            <change who="MAM" when="2019-01-20">Index check</change>
+         <change who="MAM" when="2019-01-20">Index check</change>
         </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="Hs-30885,26_001.JPG"/>
-        <graphic url="Hs-30885,26_002.JPG"/>
-    </facsimile>
-    <text type="letter">
-        <body><div type="writingSession" n="1"><opener><salute><pb facs="Hs-30885,26_001"/>Lieb<c rendition="#langesS">s</c>ter Hugo,</salute></opener><p>zu <rs ref="#pmb31971" type="work"><hi rend="latintype">Musotte</hi></rs> geh ich beinahe <c rendition="#langesS">s</c>icher. –</p><p>Wir <c rendition="#langesS">s</c>oupiren al<c rendition="#langesS">s</c>o miteinander. –</p><p>Rendezvous einfach im Parterre Foyer. –</p><p>Herrn von <rs ref="#pmb4326" type="person"><hi rend="latintype">Ehrhardt</hi></rs> hab ich alles ausgerichtet. – Wi<c rendition="#langesS">s</c><c rendition="#langesS">s</c>en Sie <c rendition="#langesS">s</c>chon? Dien<c rendition="#langesS">s</c>tag <unclear><c rendition="#kaufmannsund"/></unclear><date>Sam<c rendition="#langesS">s</c>tag</date><rs ref="#pmb49" type="place"><hi rend="latintype">Cafe Pfob</hi></rs>. – Die andern Abende <rs ref="#pmb48" type="place"><hi rend="latintype">Café Union</hi></rs> – <add place="below">lies <hi rend="latintype"><hi n="1" rend="underline">Union</hi></hi></add> (<rs ref="#pmb412" type="place"><hi rend="latintype">Grillparzerstraße</hi></rs>.) –</p><p><pb facs="Hs-30885,26_002"/>Hat Ihnen <rs ref="#pmb11061" type="person">Böl<c rendition="#langesS">s</c>che</rs> geantwortet? –</p><p>Was treiben Sie überhaupt? –</p><p>Eigentlich habe ich gehofft, Sie heuer öfters zu <c rendition="#langesS">s</c>ehen. Ich arbeite; bin aber leider <c rendition="#langesS">s</c>ehr talentlos.</p><closer>Herzlich<c rendition="#langesS">s</c>t der Ihre<lb/><signed>Arthur</signed></closer><postscript><dateline><date>9/XI. 92</date></dateline><p>Grüßen Sie <rs ref="#pmb10815" type="person">Bahr</rs>!</p></postscript></div></body>
-    </text>
-</TEI>
+    </teiHeader> <facsimile> <graphic url="Hs-30885,26_001.JPG"/> <graphic url="Hs-30885,26_002.JPG"/> </facsimile> <text type="letter"> <body><div type="writingSession" n="1"><opener><salute><pb facs="Hs-30885,26_001"/>Lieb<c rendition="#langesS">s</c>ter Hugo,</salute></opener><p>zu <rs ref="#pmb31971" type="work"><hi rend="latintype">Musotte</hi></rs> geh ich beinahe<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>icher. –</p><p>Wir<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>oupiren al<c rendition="#langesS">s</c>o miteinander. –</p><p>Rendezvous einfach im Parterre Foyer. –</p><p>Herrn von <rs ref="#pmb4326" type="person"><hi rend="latintype">Ehrhardt</hi></rs> hab ich alles ausgerichtet. – Wi<c rendition="#langesS">s</c><c rendition="#langesS">s</c>en Sie<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>chon? Dien<c rendition="#langesS">s</c>tag <unclear><c rendition="#kaufmannsund"/></unclear><space unit="chars" quantity="1"/><date>Sam<c rendition="#langesS">s</c>tag</date><space unit="chars" quantity="1"/><rs ref="#pmb49" type="place"><hi rend="latintype">Cafe Pfob</hi></rs>. – Die andern Abende <rs ref="#pmb48" type="place"><hi rend="latintype">Café Union</hi></rs> – <add place="below">lies <hi rend="latintype"><hi n="1" rend="underline">Union</hi></hi></add> (<rs ref="#pmb412" type="place"><hi rend="latintype">Grillparzerstraße</hi></rs>.) –</p><p><pb facs="Hs-30885,26_002"/>Hat Ihnen <rs ref="#pmb11061" type="person">Böl<c rendition="#langesS">s</c>che</rs> geantwortet? –</p><p>Was treiben Sie überhaupt? –</p><p>Eigentlich habe ich gehofft, Sie heuer öfters zu<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ehen. Ich arbeite; bin aber leider<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ehr talentlos.</p><closer>Herzlich<c rendition="#langesS">s</c>t der Ihre<lb/><signed>Arthur</signed></closer><postscript><dateline><date>9/XI. 92</date></dateline><p>Grüßen Sie <rs ref="#pmb10815" type="person">Bahr</rs>!</p></postscript></div></body> </text></TEI>

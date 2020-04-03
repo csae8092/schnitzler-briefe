@@ -1,117 +1,108 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1907-04-26_01_Bahr_AS">
-    <teiHeader type="text">
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hermann Bahr an Arthur Schnitzler, 26. 4. 1907</title>
-                <author ref="#pmb10815">Bahr, Hermann</author>
-                <editor>
-                    <name>Müller, Martin Anton</name>
-                </editor>
-                <funder>
-                    <name>FWF – Fonds für Wissenschaft und Forschung</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Wien</postCode>
-                        <placeName>
-                            <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>HBAS</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name>Kurt Ifkovits</name>
-                    <name>Martin Anton Müller</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="HBAS-L"/>
-                <availability status="free">
-                    <p>Copyright © 2020</p>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness n="1">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>GB</country>
-                                <settlement>Cambridge</settlement>
-                                <repository>University Library</repository>
-                                <idno>Schnitzler, B 5b</idno>
-                            </msIdentifier>
-                            <physDesc><p>hs. Brief von <rs ref="#pmb27910" type="person">Lisa Clarus</rs> mit eh.              Unterschrift, 1 Bl., 1 S., blaue Tinte; Lateinschrift. Von unbekannter              Hand mit Bleistift nummeriert: »<quote>147</quote>«.</p></physDesc>
-                        </msDesc>
-                    </witness>
-                </listWit>
-                <listBibl>
-                    <biblStruct corresp="HBAS">
-                        <monogr>
-                            <author ref="#pmb10815">Bahr, Hermann</author>
-                            <author ref="#pmb2121">Schnitzler, Arthur</author>
-                            <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
-                            <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
-                            <imprint>
-                                <pubPlace>Göttingen</pubPlace>
-                                <publisher>Wallstein</publisher>
-                                <date when="2018">2018</date>
-                            </imprint>
-                            <biblScope unit="pp">392</biblScope>
-                        </monogr>
-                    </biblStruct>
-                </listBibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="#pmb10815">Bahr, Hermann</persName>
-                    <placeName ref="#pmb50">[Wien]</placeName>
-                    <date when="1907-04-26" n="01">26. 4. 1907</date>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                    <placeName ref="#pmb50">[Wien]</placeName>
-                </correspAction>
-                <correspContext>
-                    <ref type="belongsToCorrespondence" target="#pmb10815">Bahr, Hermann</ref>
-                    <ref subtype="previous_letter" type="withinCorrespondence" target="1907-04-16_01">Schnitzler an Bahr, 16. 4. 1907</ref>
-                    <ref subtype="next_letter" type="withinCorrespondence" target="1907-04-27_01">Bahr an
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1907-04-26_01_Bahr_AS"> <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 26. 4. 1907</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
+            <idno type="HBAS-L"/>
+            <availability status="free">
+               <p>Copyright © 2020</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>             <p>hs. Brief von <rs ref="#pmb27910" type="person">Lisa Clarus</rs> mit eh.              Unterschrift, 1 Bl., 1 S., blaue Tinte; Lateinschrift. Von unbekannter              Hand mit Bleistift nummeriert: »<quote>147</quote>«.</p>           </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HBAS">
+                  <monogr>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+                     <editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor>
+                     <imprint>
+                        <pubPlace>Göttingen</pubPlace>
+                        <publisher>Wallstein</publisher>
+                        <date when="2018">2018</date>
+                     </imprint>
+                     <biblScope unit="pp">392</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#pmb10815">Bahr, Hermann</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
+               <date when="1907-04-26" n="01">26. 4. 1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">[Wien]</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#pmb10815">Bahr, Hermann</ref>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1907-04-16_01">Schnitzler an Bahr, 16. 4. 1907</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1907-04-27_01">Bahr an
                   Schnitzler, 27. 4. 1907</ref>
-                </correspContext>
-            </correspDesc>
-        </profileDesc>
-        <encodingDesc>
-            <refsDecl>
-                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only,
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <encodingDesc>
+         <refsDecl>
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only,
                e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
                'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
-            </refsDecl>
-        </encodingDesc>
-        <revisionDesc status="approved">
-            <change who="KI MAM" when="2015-12-15">Kollationiert</change>
-            <change who="KI MAM" when="2017-05-30">Kollationiert</change>
-            <change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
-            <change who="MAM" when="2019-01-20">Index check</change>
-            <change who="GHS" when="2020-03-05">finalisiert</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="MS-B-00005-B-000-00258"/>
-    </facsimile>
-    <text type="letter">
-        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-B-00005-B-000-00258"/><date>26. 4. 07</date></dateline><salute>Lieber Arthur!</salute></opener><p>Möchtest Du so lieb sein, mir auch noch den <rs ref="#pmb30011" type="work">zweiten Band Brehm</rs> zu schicken? Du kriegst dann beide zusammen in ein paar Tagen zurück. Ich hoffe nun in der nächsten Woche, wahrscheinlich Dienstag oder Mittwoch, meine <anchor type="commentary" xml:id="KL308-1"/>Forschungsreise<note type="commentary" xml:id="KL308-1h">Möglicherweise eine doppelte Anspielung: einerseits auf <rs ref="#pmb10815" type="person">Bahrs</rs> Interesse für die südlichen österreichischen Provinzen, andererseits auf die Suche nach einer Sommervilla. <rs ref="#pmb10815" type="person">Bahr</rs> traf am <date>3. 5. 1907</date>, also später als angekündigt, in <rs ref="#pmb873" type="place">Triest</rs> ein und kündigte am <date>8.</date> die Weiterfahrt nach <rs ref="#pmb829" type="place">Sistiana</rs> an.</note> nach <rs ref="#pmb902" type="place">Fiume</rs> und <rs ref="#pmb873" type="place">Triest</rs> zu machen. Kommst Du mit?</p><closer>Mit den besten Grüssen an Deine <rs type="person" ref="#pmb2173" subtype="implied">Frau</rs>,<lb/>herzlichst<lb/><signed><handShift scribe="#pmb10815"/>HermannB</signed></closer></div></body>
-    </text>
-</TEI>
+         </refsDecl>
+      </encodingDesc>
+      <revisionDesc status="approved">
+         <change who="KI MAM" when="2015-12-15">Kollationiert</change>
+         <change who="KI MAM" when="2017-05-30">Kollationiert</change>
+         <change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
+         <change who="MAM" when="2019-01-20">Index check</change>
+         <change who="GHS" when="2020-03-05">finalisiert</change>
+      </revisionDesc>
+   </teiHeader> <facsimile> <graphic url="MS-B-00005-B-000-00258"/> </facsimile> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-B-00005-B-000-00258"/><date>26. 4. 07</date></dateline><salute>Lieber Arthur!</salute></opener><p>Möchtest Du so lieb sein, mir auch noch den <rs ref="#pmb30011" type="work">zweiten Band Brehm</rs> zu schicken? Du kriegst dann beide zusammen in ein paar Tagen zurück. Ich hoffe nun in der nächsten Woche, wahrscheinlich Dienstag oder Mittwoch, meine <anchor type="commentary" xml:id="KL308-1"/>Forschungsreise<note type="commentary" xml:id="KL308-1h">Möglicherweise eine doppelte Anspielung: einerseits auf <rs ref="#pmb10815" type="person">Bahrs</rs> Interesse für die südlichen österreichischen Provinzen, andererseits auf die Suche nach einer Sommervilla. <rs ref="#pmb10815" type="person">Bahr</rs> traf am <date>3. 5. 1907</date>, also später als angekündigt, in <rs ref="#pmb873" type="place">Triest</rs> ein und kündigte am <date>8.</date> die Weiterfahrt nach <rs ref="#pmb829" type="place">Sistiana</rs> an.</note> nach <rs ref="#pmb44246" type="place">Fiume</rs> und <rs ref="#pmb873" type="place">Triest</rs> zu machen. Kommst Du mit?</p><closer>Mit den besten Grüssen an Deine <rs type="person" ref="#pmb2173" subtype="implied">Frau</rs>,<lb/>herzlichst<lb/><signed><handShift scribe="#pmb10815"/>HermannB</signed></closer></div></body> </text></TEI>

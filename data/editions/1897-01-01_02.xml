@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897_04_Burckhard_AS">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897_04_Burckhard_AS"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -16,9 +14,9 @@
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
                         <placeName>
-                            <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -41,68 +39,64 @@
                 <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
             </seriesStmt>
             <sourceDesc>
-                <listWit>
+                 <listWit>
                     <witness n="1">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>GB</country>
-                                <settlement>Cambridge</settlement>
-                                <repository>University Library</repository>
-                                <idno>Schnitzler, B 20</idno>
-                            </msIdentifier>
-                            <physDesc><p>Visitkarte mit eh. Beschriftung. Von unbekannter Hand nummeriert: »<quote>30</quote>«.</p></physDesc>
-                        </msDesc>
+                  <msDesc>
+                      <msIdentifier>
+                          <country>GB</country>            
+                          <settlement>Cambridge</settlement>            
+                          <repository>University Library</repository>            
+                          <idno>Schnitzler, B 20</idno>
+                      </msIdentifier>
+                      <physDesc>              <p>Visitkarte mit eh. Beschriftung. Von unbekannter Hand nummeriert: »<quote>30</quote>«.</p>            </physDesc>
+                  </msDesc>
                     </witness>
-                    <witness n="2">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>D</country>
-                                <settlement>Marbach am Neckar</settlement>
-                                <repository>Deutsches Literaturarchiv</repository>
-                                <idno>A:Schnitzler, HS.NZ85.1.2665
+                     <witness n="2"> 
+                         <msDesc>
+                             <msIdentifier>
+                                 <country>D</country>           
+                                 <settlement>Marbach am Neckar</settlement>
+                                 <repository>Deutsches Literaturarchiv</repository>
+                                 <idno>A:Schnitzler, HS.NZ85.1.2665
                                  </idno>
-                            </msIdentifier>
-                            <physDesc><p>ms. Abschrift, S. [12], von Schnitzler hs. ergänzte Jahreszahl: »<quote><date>97</date></quote>«.</p></physDesc>
-                        </msDesc>
-                    </witness>
-                </listWit>
+                             </msIdentifier>
+                             <physDesc>                 <p>ms. Abschrift, S. [12], von Schnitzler hs. ergänzte Jahreszahl: »<quote>                <date>97</date>              </quote>«.</p>               </physDesc>
+                         </msDesc>
+                     </witness>
+                </listWit> 
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
             <correspDesc>
-                <correspAction type="sent">
+            <correspAction type="sent">
                     <persName ref="#pmb11036">Burckhard, Max</persName>
                     <placeName ref="#pmb50">Wien</placeName>
                     <date when="1897-01-01" n="02">[1897?]</date>
                 </correspAction>
-                <correspAction type="received">
+            <correspAction type="received">
                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                     <placeName ref="#pmb50">Wien</placeName>
                 </correspAction>
-                <correspContext>
-                    <ref type="belongsToCorrespondence" target="#pmb11036">Burckhard, Max Eugen</ref>
-                    <ref subtype="previous_letter" type="withinCorrespondence" target="1897-12-27_02">Burckhard an Schnitzler, [27.? 12. 1897]</ref>
-                    <ref subtype="next_letter" type="withinCorrespondence" target="1898-01-16_01">Burckhard an Schnitzler, [16. 1. 1898]</ref>
-                </correspContext>
-            </correspDesc>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#pmb11036">Burckhard, Max Eugen</ref>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1897-12-27_02">Burckhard an Schnitzler, [27.? 12. 1897]</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1898-01-16_01">Burckhard an Schnitzler, [16. 1. 1898]</ref>
+            </correspContext>
+         </correspDesc>
         </profileDesc>
-        <encodingDesc>
-            <refsDecl>
-                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+      <encodingDesc>          
+         <refsDecl>             
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>
-            </refsDecl>
-        </encodingDesc>
+        </ab>          
+         </refsDecl>       
+      </encodingDesc>
         <revisionDesc status="proposed">
             <change who="MAM" when="2018-10-16">Angelegt</change>
-            <change who="MAM" when="2018-10-16">Index check</change>
+             <change who="MAM" when="2018-10-16">Index check</change>
         </revisionDesc>
-    </teiHeader>
-    <text type="card">
-        <body><div type="writingSession" n="1"><opener><p><pb facs="DSC_0618"/><hi rend="pre-print"><hi rend="small_caps">D<hi rend="superscript">r.</hi> Burckhard</hi></hi></p><p><hi rend="pre-print"><hi rend="small_caps"><rs ref="#pmb397" type="place">IX. Frankgasse 1</rs></hi></hi></p><salute><pb facs="DSC_0619"/>Lieber verehrter Herr Doctor!</salute></opener><p>Ich war Ihrer <subst><del rend="overwritten"><gap quantity="4" reason="illegible" unit="chars"/></del><add place="inline">freund</add></subst><c rendition="#langesS">s</c>chaftlichen Ge<c rendition="#langesS">s</c>innung vertrauend bereits heute Vormittag <c rendition="#langesS">s</c>o frei Ihnen eine Ga<c rendition="#langesS">s</c>tkarte für morgen zu <c rendition="#langesS">s</c>enden, die jedenfalls im Lauf des Nachmittags in Ihren Händen <c rendition="#langesS">s</c>ein wird. Ich danke Ihnen herzlich für Ihre liebenswürdigen Zeilen.</p><closer>Herzlichst<lb/><signed>DrBurc</signed></closer></div></body>
-    </text>
-</TEI>
+    </teiHeader> <text type="card"> <body><div type="writingSession" n="1"><opener><p><pb facs="DSC_0618"/><hi rend="pre-print"><hi rend="small_caps">D<hi rend="superscript">r.</hi> Burckhard</hi></hi></p><p><hi rend="pre-print"><hi rend="small_caps"><rs ref="#pmb397" type="place">IX. Frankgasse 1</rs></hi></hi></p><salute><pb facs="DSC_0619"/>Lieber verehrter Herr Doctor!</salute></opener><p>Ich war Ihrer <subst><del rend="overwritten"><gap quantity="4" reason="illegible" unit="chars"/></del><add place="inline">freund</add></subst><c rendition="#langesS">s</c>chaftlichen Ge<c rendition="#langesS">s</c>innung vertrauend bereits heute Vormittag<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>o frei Ihnen eine Ga<c rendition="#langesS">s</c>tkarte für morgen zu<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>enden, die jedenfalls im Lauf des Nachmittags in Ihren Händen<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ein wird. Ich danke Ihnen herzlich für Ihre liebenswürdigen Zeilen.</p><closer>Herzlichst<lb/><signed>DrBurc</signed></closer></div></body> </text></TEI>

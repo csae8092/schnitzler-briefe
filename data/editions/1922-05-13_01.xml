@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1922-05-13_01_Adam_AS">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1922-05-13_01_Adam_AS"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -44,13 +42,14 @@
                 <listWit>
                     <witness n="1">
                         <msDesc>
-                            <msIdentifier><!-- OGL-Kopie; dürfte in Marbach sein? -->
+                            <msIdentifier>
+                                <!-- OGL-Kopie; dürfte in Marbach sein? -->
                                 <country>GB</country>
                                 <settlement>Cambridge</settlement>
                                 <repository>University Library</repository>
                                 <idno>Schnitzler, B 1</idno>
                             </msIdentifier>
-                            <physDesc><p>(Kopie) eh. Brief, 1 Bl., 2 S. Von Schnitzler beschriftet:                   »<quote><hi rend="latintype">Adam</hi></quote>«.</p></physDesc>
+                            <physDesc>                 <p>(Kopie) eh. Brief, 1 Bl., 2 S. Von Schnitzler beschriftet: »<quote>                     <hi rend="latintype">Adam</hi>                   </quote>«.</p>               </physDesc>
                         </msDesc>
                     </witness>
                 </listWit>
@@ -63,7 +62,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#pmb12438">Adam, Robert</persName>
-                    <placeName ref="#pmb1246">Millstatt</placeName>
+                    <placeName ref="#pmb41069">Millstatt</placeName>
                     <date when="1922-05-13" n="01">13. 5. 1922</date>
                 </correspAction>
                 <correspAction type="received">
@@ -79,10 +78,9 @@
         </profileDesc>
         <encodingDesc>
             <refsDecl>
-                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>
+                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates
+                    only, e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+                    'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
             </refsDecl>
         </encodingDesc>
         <revisionDesc status="proposed">
@@ -90,8 +88,4 @@
             <change who="MAM" when="2019-01-02">Durchsicht</change>
             <change who="MAM" when="2019-01-03">Index check</change>
         </revisionDesc>
-    </teiHeader>
-    <text type="letter">
-        <body><div type="writingSession" n="1"><opener><dateline rend="right"><tei:pb/><hi rend="latintype"><rs ref="#pmb1246" type="place">Millstatt</rs></hi>, den <date>13. <hi rend="latintype">Mai</hi> 1922</date></dateline><salute rend="center">Hochverehrter Herr Doktor!</salute></opener><p>Ge<c rendition="#langesS">s</c>tatten Sie mir, mich mit die<c rendition="#langesS">s</c>en Zeilen dem Reigen der Gratulanten anzu<c rendition="#langesS">s</c>chließen, der Ihren kommenden 60. Geburtstag als einen für <rs ref="#pmb41240" type="place">Ö<c rendition="#langesS">s</c>terreich </rs> und die deut<c rendition="#langesS">s</c>che Literatur freudigen Werktag feiert. Wie <c rendition="#langesS">s</c>ehr ich Ihre Arbeiten  <c rendition="#langesS">s</c>chätze, brauche ich Ihnen bei die<c rendition="#langesS">s</c>em Anlaß wohl nicht zu wiederholen. Möge es Ihnen vergönnt <c rendition="#langesS">s</c>ein, <tei:pb/>noch viele Jahre hindurch Ihr We<c rendition="#langesS">s</c>en in Werken auszu<c rendition="#langesS">s</c>chöpfen und uns die <c rendition="#langesS">s</c>üße Reife Ihrer Kun<c rendition="#langesS">s</c>t genießen zu la<c rendition="#langesS">s</c><c rendition="#langesS">s</c>en.</p><p>Nehmen Sie meine herzlich<c rendition="#langesS">s</c>ten Grüße und Empfehlungen entgegen!</p><closer>Ihr ergebener<lb/><signed>D<hi rend="superscript">r</hi>RAdam</signed></closer></div></body>
-    </text>
-</TEI>
+    </teiHeader> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><tei:pb/><hi rend="latintype"><rs ref="#pmb41069" type="place">Millstatt</rs></hi>, den <date>13. <hi rend="latintype">Mai</hi> 1922</date></dateline><salute rend="center">Hochverehrter Herr Doktor!</salute></opener><p>Ge<c rendition="#langesS">s</c>tatten Sie mir, mich mit die<c rendition="#langesS">s</c>en Zeilen dem Reigen der Gratulanten anzu<c rendition="#langesS">s</c>chließen, der Ihren kommenden 60. Geburtstag als einen für <rs ref="#pmb41240" type="place">Ö<c rendition="#langesS">s</c>terreich</rs> und die deut<c rendition="#langesS">s</c>che Literatur freudigen Werktag feiert. Wie<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ehr ich Ihre Arbeiten<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>chätze, brauche ich Ihnen bei die<c rendition="#langesS">s</c>em Anlaß wohl nicht zu wiederholen. Möge es Ihnen vergönnt<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ein, <tei:pb/>noch viele Jahre hindurch Ihr We<c rendition="#langesS">s</c>en in Werken auszu<c rendition="#langesS">s</c>chöpfen und uns die<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>üße Reife Ihrer Kun<c rendition="#langesS">s</c>t genießen zu la<c rendition="#langesS">s</c><c rendition="#langesS">s</c>en.</p><p>Nehmen Sie meine herzlich<c rendition="#langesS">s</c>ten Grüße und Empfehlungen entgegen!</p><closer>Ihr ergebener<lb/><signed>D<hi rend="superscript">r</hi>RAdam</signed></closer></div></body> </text></TEI>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-07-15_01_AS_Hofmannsthal">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-07-15_01_AS_Hofmannsthal"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -51,7 +49,7 @@
                                 <repository>Freies Deutsches Hochstift</repository>
                                 <idno>Hs-30885,61</idno>
                             </msIdentifier>
-                            <physDesc><p>eh. Brief, 1 Bl., 4 S., Bleistift.</p></physDesc>
+                            <physDesc>                 <p>eh. Brief, 1 Bl., 4 S., Bleistift.</p>               </physDesc>
                         </msDesc>
                     </witness>
                 </listWit>
@@ -78,41 +76,33 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-                <correspAction type="sent">
+            <correspAction type="sent">
                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                     <placeName ref="#pmb213">Bad Ischl</placeName>
                     <date when="1897-07-15" n="01">15. 7. 1897</date>
                 </correspAction>
-                <correspAction type="received">
+            <correspAction type="received">
                     <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                     <placeName ref="#pmb573">Bad Fusch</placeName>
                 </correspAction>
-                <correspContext>
-                    <ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</ref>
-                    <ref subtype="previous_letter" type="withinCorrespondence" target="1897-07-12_01">Hofmannsthal an Schnitzler, [12.? 7. 1897]</ref>
-                    <ref subtype="next_letter" type="withinCorrespondence" target="1897-07-16_01">Hofmannsthal an Schnitzler, 16. [7. 1897]</ref>
-                </correspContext>
-            </correspDesc>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</ref>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1897-07-12_01">Hofmannsthal an Schnitzler, [12.? 7. 1897]</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1897-07-16_01">Hofmannsthal an Schnitzler, 16. [7. 1897]</ref>
+            </correspContext>
+         </correspDesc>
         </profileDesc>
-        <encodingDesc>
-            <refsDecl>
-                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+      <encodingDesc>          
+         <refsDecl>             
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>
-            </refsDecl>
-        </encodingDesc>
+        </ab>          
+         </refsDecl>       
+      </encodingDesc>
         <revisionDesc status="approved">
             <change who="MAM" when="2019-07-11">Angelegt aus Buchausgabe</change>
             <change who="MAM" when="2019-11-13">Index check</change>
             <change who="GHS" when="2020-01-11">finalisiert</change>
         </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="Hs-30885,61_001.TIF"/>
-        <graphic url="Hs-30885,61_002.TIF"/>
-    </facsimile>
-    <text type="letter">
-        <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Hs-30885,61_001"/><date>15/7 97</date></dateline></opener><p><salute>Mein lieber Hugo, </salute>ich ka<c rendition="#gemination-n"/> keineswegs <date>Anfang Augu<c rendition="#langesS">s</c>t</date> mit Ihnen zusa<c rendition="#gemination-m"/>entreffen – Sie wi<c rendition="#langesS">s</c><c rendition="#langesS">s</c>en ja. Dagegen unterbreiten <rs ref="#pmb10863" type="person">Richard</rs> u ich Ihnen einen andern Vorschlag. Wir wollen Ihnen weiter <hi rend="latintype">resp</hi>. näher entgegen. Ich möchte z. B. <date>Freitag</date> den <date>23.</date> von hier fort, nach <rs ref="#pmb30" type="place">Salzburg</rs>, dann <hi rend="latintype">per</hi> Rad (wenn <c rendition="#langesS">s</c>ich meines bis dahin erholt hat und <pb facs="Hs-30885,61_002"/><rs ref="#pmb10863" type="person">Richard</rs> nicht faul i<c rendition="#langesS">s</c>t) über <rs ref="#pmb1181" type="place">Reichenhall</rs>, <rs ref="#pmb33929" type="place"><hi rend="latintype">Lofer</hi></rs> nach <rs ref="#pmb40336" type="place"><hi rend="latintype">Zell am See</hi></rs>. Ich <hi rend="latintype">resp</hi>. wir würden <date>Sam<c rendition="#langesS">s</c>tag</date><time>Früh</time> in <rs ref="#pmb40336" type="place">Zell am See</rs><c rendition="#langesS">s</c>ein, dort verbringen wir den Tag miteinander. Und Abend führe ich nach <rs ref="#pmb50" type="place">Wien</rs>. – Es handelt <c rendition="#langesS">s</c>ich al<c rendition="#langesS">s</c>o darum, ob Sie auf einen Tag von der <rs ref="#pmb573" type="place"><hi rend="latintype">Fusch</hi></rs> wegkönnen. Wenn <rs ref="#pmb10765" type="person">Andrian</rs><pb facs="Hs-30885,61_002"/>mit Ihnen fahren wollte, <c rendition="#langesS">s</c>o käme er mit. Grüßen Sie ihn herzlich von mir; es geht ihm hoffentlich wieder be<c rendition="#langesS">s</c><c rendition="#langesS">s</c>er.</p><p><rs type="work" ref="#pmb34255" subtype="implied"><rs ref="#pmb4203" type="person">Jahn</rs> 2. Band</rs> beko<c rendition="#gemination-m"/>en? –</p><p>– Auf einen <c rendition="#langesS">s</c>chönen So<c rendition="#gemination-m"/>ertag mit Ihnen, we<c rendition="#gemination-n"/>’s <c rendition="#langesS">s</c>chon nicht mehr <c rendition="#langesS">s</c>ein können, möcht ich nicht gern verzichten. Aber Sie <c rendition="#langesS">s</c>ollen <c rendition="#langesS">s</c>ich auch nicht die gering<c rendition="#langesS">s</c>te <pb facs="Hs-30885,61_001"/>Ungelegenheit machen.</p><closer>Herzlich Ihr<signed>Arthur</signed></closer><p><hi rend="latintype"><rs ref="#pmb213" type="place">Ischl</rs></hi><date>15. 7. 97</date></p></div></body>
-    </text>
-</TEI>
+    </teiHeader> <facsimile> <graphic url="Hs-30885,61_001.TIF"/> <graphic url="Hs-30885,61_002.TIF"/> </facsimile> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Hs-30885,61_001"/><date>15/7 97</date></dateline></opener><p><salute>Mein lieber Hugo, </salute>ich ka<c rendition="#gemination-n"/> keineswegs <date>Anfang Augu<c rendition="#langesS">s</c>t</date> mit Ihnen zusa<c rendition="#gemination-m"/>entreffen – Sie wi<c rendition="#langesS">s</c><c rendition="#langesS">s</c>en ja. Dagegen unterbreiten <rs ref="#pmb10863" type="person">Richard</rs> u ich Ihnen einen andern Vorschlag. Wir wollen Ihnen weiter <hi rend="latintype">resp</hi>. näher entgegen. Ich möchte z. B. <date>Freitag</date> den <date>23.</date> von hier fort, nach <rs ref="#pmb30" type="place">Salzburg</rs>, dann <hi rend="latintype">per</hi> Rad (wenn<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ich meines bis dahin erholt hat und <pb facs="Hs-30885,61_002"/><rs ref="#pmb10863" type="person">Richard</rs> nicht faul i<c rendition="#langesS">s</c>t) über <rs ref="#pmb1181" type="place">Reichenhall</rs>, <rs ref="#pmb33929" type="place"><hi rend="latintype">Lofer</hi></rs> nach <rs ref="#pmb40336" type="place"><hi rend="latintype">Zell am See</hi></rs>. Ich <hi rend="latintype">resp</hi>. wir würden <date>Sam<c rendition="#langesS">s</c>tag</date><space unit="chars" quantity="1"/><time>Früh</time> in <rs ref="#pmb40336" type="place">Zell am See</rs><space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ein, dort verbringen wir den Tag miteinander. Und Abend führe ich nach <rs ref="#pmb50" type="place">Wien</rs>. – Es handelt<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ich al<c rendition="#langesS">s</c>o darum, ob Sie auf einen Tag von der <rs ref="#pmb573" type="place"><hi rend="latintype">Fusch</hi></rs> wegkönnen. Wenn <rs ref="#pmb10765" type="person">Andrian</rs><space unit="chars" quantity="1"/><pb facs="Hs-30885,61_002"/>mit Ihnen fahren wollte,<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>o käme er mit. Grüßen Sie ihn herzlich von mir; es geht ihm hoffentlich wieder be<c rendition="#langesS">s</c><c rendition="#langesS">s</c>er.</p><p><rs type="work" ref="#pmb34255" subtype="implied"><rs ref="#pmb4203" type="person">Jahn</rs> 2. Band</rs> beko<c rendition="#gemination-m"/>en? –</p><p>– Auf einen<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>chönen So<c rendition="#gemination-m"/>ertag mit Ihnen, we<c rendition="#gemination-n"/>’s<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>chon nicht mehr<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ein können, möcht ich nicht gern verzichten. Aber Sie<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ollen<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ich auch nicht die gering<c rendition="#langesS">s</c>te <pb facs="Hs-30885,61_001"/>Ungelegenheit machen.</p><closer>Herzlich Ihr<signed>Arthur</signed></closer><p><hi rend="latintype"><rs ref="#pmb213" type="place">Ischl</rs></hi><space unit="chars" quantity="1"/><date>15. 7. 97</date></p></div></body> </text></TEI>

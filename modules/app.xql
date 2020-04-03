@@ -518,7 +518,7 @@ declare function app:tocCorrespondenceHeader($node as node(), $model as map(*)) 
     let $apiUrl := "../resolver/resolve-col.xql?collection="||$colName
     let $zipUrl := "../resolver/download-col.xql?collection="||$colName
         let $list-of-persons := doc(concat($config:app-root,'/data/indices/listperson.xml'))
-    let $person-name := $list-of-persons/tei:TEI/tei:text/tei:body/tei:div[@type='index_persons']/tei:listPerson[@xml:id='pmblistperson']/tei:person[@xml:id=$correspondence]/tei:persName
+    let $person-name := $list-of-persons/tei:TEI/tei:text/tei:body/tei:div[@type='index_persons']/tei:listPerson[@xml:id='listperson']/tei:person[@xml:id=$correspondence]/tei:persName
         let $forename := $person-name/tei:forename/text()
         let $surname := $person-name/tei:surname/text()
         let $name := concat($forename, ' ', $surname)
@@ -633,7 +633,7 @@ declare function app:toc_correspondences($node as node(), $model as map(*)) {
         group by $target-normalized
         return $target-normalized
     for $correspondence in $correspondences
-        let $person-name := $list-of-persons/tei:TEI/tei:text/tei:body/tei:div[@type='index_persons']/tei:listPerson[@xml:id='pmblistperson']/tei:person[@xml:id=$correspondence]/tei:persName
+        let $person-name := $list-of-persons/tei:TEI/tei:text/tei:body/tei:div[@type='index_persons']/tei:listPerson[@xml:id='listperson']/tei:person[@xml:id=$correspondence]/tei:persName
         let $forename := $person-name/tei:forename/text()
         let $surname := $person-name/tei:surname/text()
         let $name := concat($surname, ', ', $forename)
@@ -663,7 +663,7 @@ declare function app:toc_archives($node as node(), $model as map(*)) {
         group by $target-normalized
         return $target-normalized
     for $correspondence in $correspondences
-        let $person-name := $list-of-persons/tei:TEI/tei:text/tei:body/tei:div[@type='index_persons']/tei:listPerson[@xml:id='pmblistperson']/tei:person[@xml:id=$correspondence]/tei:persName
+        let $person-name := $list-of-persons/tei:TEI/tei:text/tei:body/tei:div[@type='index_persons']/tei:listPerson[@xml:id='listperson']/tei:person[@xml:id=$correspondence]/tei:persName
         let $forename := $person-name/tei:forename/text()
         let $surname := $person-name/tei:surname/text()
         let $name := $target-normalized

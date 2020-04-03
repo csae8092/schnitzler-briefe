@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894_01_Dehmel_AS">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894_01_Dehmel_AS"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -16,9 +14,9 @@
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
                         <placeName>
-                            <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -41,16 +39,16 @@
                 <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
             </seriesStmt>
             <sourceDesc>
-                <listWit>
+                 <listWit>
                     <witness n="1">
                         <msDesc>
                             <msIdentifier>
-                                <country>GB</country>
-                                <settlement>Cambridge</settlement>
-                                <repository>University Library</repository>
+                                <country>GB</country>            
+                                <settlement>Cambridge</settlement>            
+                                <repository>University Library</repository>            
                                 <idno>Schnitzler, B 26</idno>
                             </msIdentifier>
-                            <physDesc><p>Visitkarte mit eh. Zusatz mit schwarzer Tinte, Lateinschrift .</p></physDesc>
+                           <physDesc>                 <p>Visitkarte mit eh. Zusatz mit schwarzer Tinte, Lateinschrift .</p>               </physDesc>
                         </msDesc>
                     </witness>
                 </listWit>
@@ -58,40 +56,33 @@
         </fileDesc>
         <profileDesc>
             <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
             <correspDesc>
-                <correspAction type="sent">
+            <correspAction type="sent">
                     <persName ref="#pmb11148">Dehmel, Richard</persName>
                     <date notBefore="1894-01-01" notAfter="1920-02-08" n="01">[undatiert, zwischen 1894 und 1920]</date>
                 </correspAction>
-                <correspAction type="received">
+            <correspAction type="received">
                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                 </correspAction>
-                <correspContext>
-                    <ref type="belongsToCorrespondence" target="#pmb11148">Dehmel, Richard</ref>
-                    <ref subtype="next_letter" type="withinCorrespondence" target="1907_01">Dehmel an Schnitzler, [1907]</ref>
-                </correspContext>
-            </correspDesc>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#pmb11148">Dehmel, Richard</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1907_01">Dehmel an Schnitzler, [1907]</ref>
+            </correspContext>
+         </correspDesc>
         </profileDesc>
-        <encodingDesc>
-            <refsDecl>
-                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+      <encodingDesc>          
+         <refsDecl>             
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>
-            </refsDecl>
-        </encodingDesc>
+        </ab>          
+         </refsDecl>       
+      </encodingDesc>
         <revisionDesc status="approved">
             <change who="MAM" when="2018-12-04">Angelegt</change>
             <change who="MAM" when="2018-12-05">Index check</change>
             <change who="MAM" when="2020-03-13">Durchsicht</change>
         </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="MS-SCHNITZLER-B-00026-000-00003"/>
-    </facsimile>
-    <text type="card">
-        <body><div type="writingSession" n="1"><p rend="center"><pb facs="MS-SCHNITZLER-B-00026-000-00003"/><hi rend="pre-print">R⋅Dehmel</hi></p><p rend="center">mit ergebenstem Gruß</p></div></body>
-    </text>
-</TEI>
+    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00026-000-00003"/> </facsimile> <text type="card"> <body><div type="writingSession" n="1"><p rend="center"><pb facs="MS-SCHNITZLER-B-00026-000-00003"/><hi rend="pre-print">R⋅Dehmel</hi></p><p rend="center">mit ergebenstem Gruß</p></div></body> </text></TEI>

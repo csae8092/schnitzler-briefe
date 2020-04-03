@@ -228,7 +228,7 @@
                     <xsl:text>:</xsl:text>
                     <xsl:value-of select="substring-after(.,'#')"/>
                     <xsl:if test="not(position()=last())">
-                        <xsl:text/>
+                        <xsl:text> </xsl:text>
                     </xsl:if>
                 </xsl:for-each>
             </xsl:for-each>
@@ -240,7 +240,7 @@
                 <xsl:text>:</xsl:text>
                 <xsl:value-of select="substring-after(.,'#')"/>
                 <xsl:if test="not(position()=last())">
-                    <xsl:text/>
+                    <xsl:text> </xsl:text>
                 </xsl:if>
             </xsl:for-each>
         </xsl:variable>
@@ -332,7 +332,7 @@
                 <xsl:attribute name="name">
                     <xsl:value-of select="@xml:id"/>
                 </xsl:attribute>
-                <xsl:text/>
+                <xsl:text> </xsl:text>
             </a>
         </xsl:if>
         <a>
@@ -340,7 +340,7 @@
                 <xsl:text>hd</xsl:text>
                 <xsl:number level="any"/>
             </xsl:attribute>
-            <xsl:text/>
+            <xsl:text> </xsl:text>
         </a>
         <h3>
             <div>
@@ -651,7 +651,7 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:space[@unit = 'chars' and @quantity=1]">
-        <xsl:text/>
+        <xsl:text> </xsl:text>
     </xsl:template>
     <xsl:template match="tei:space[@unit = 'chars' and not(@quantity=1)]">
         <xsl:variable name="weite" select="0.5 * @quantity"/>
@@ -714,7 +714,7 @@
         <xsl:choose>
             <xsl:when test="contains($autorname, ', ')">
                 <xsl:value-of select="substring-after($autorname, ', ')"/>
-                <xsl:text/>
+                <xsl:text> </xsl:text>
                 <xsl:value-of select="substring-before($autorname, ', ')"/>
             </xsl:when>
             <xsl:otherwise>
