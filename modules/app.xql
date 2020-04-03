@@ -18,7 +18,7 @@ declare variable $app:indices := $config:app-root||'/data/indices';
 declare variable $app:placeIndex := $config:app-root||'/data/indices/listplace.xml';
 declare variable $app:personIndex := $config:app-root||'/data/indices/listperson.xml';
 declare variable $app:orgIndex := $config:app-root||'/data/indices/listorg.xml';
-declare variable $app:workIndex := $config:app-root||'/data/indices/listbibl.xml';
+declare variable $app:workIndex := $config:app-root||'/data/indices/listwork.xml';
 declare variable $app:defaultXsl := doc($config:app-root||'/resources/xslt/xmlToHtml.xsl');
 declare variable $app:projectName := doc(concat($config:app-root, "/expath-pkg.xml"))//pkg:title//text();
 declare variable $app:authors := normalize-space(string-join(doc(concat($config:app-root, "/repo.xml"))//repo:author//text(), ', '));
@@ -165,7 +165,7 @@ declare function app:nameOfIndexEntry($node as node(), $model as map (*)){
             <a class="reference" data-type="listorg.xml" data-key="{$searchkey}">{normalize-space(string-join($hit/tei:orgName[1], ', '))}</a>
         else if (contains(node-name($hit), 'bibl'))
         then
-            <a class="reference" data-type="listbibl.xml" data-key="{$searchkey}">{normalize-space(string-join($hit/tei:title[1], ', '))}</a>
+            <a class="reference" data-type="listwork.xml" data-key="{$searchkey}">{normalize-space(string-join($hit/tei:title[1], ', '))}</a>
         else
             functx:capitalize-first($searchkey)
     return
@@ -278,7 +278,7 @@ declare function app:listPers($node as node(), $model as map(*)) {
 };
 
 (:~
- : creates a basic work-index derived from the  '/data/indices/listbibl.xml'
+ : creates a basic work-index derived from the  '/data/indices/listwork.xml'
  :)
 declare function app:listbibl($node as node(), $model as map(*)) {
     let $hitHtml := "hits.html?searchkey="
@@ -835,7 +835,7 @@ return
 };
 
 (:~
- : creates a basic work-index derived from the  '/data/indices/listbibl.xml'
+ : creates a basic work-index derived from the  '/data/indices/listwork.xml'
  :)
 declare function app:listBibl($node as node(), $model as map(*)) {
     let $hitHtml := "hits.html?searchkey="

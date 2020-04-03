@@ -178,6 +178,7 @@ td p {
         text-decoration:none;
 }
 
+
 #wrapper-hero-content {
     background-position: top;
     padding: 4rem 0;
@@ -284,8 +285,8 @@ padding-bottom: 70px;
 .card-body {
 max-width: 100%;
 width: 95%;
-min-width: 90%;
-margin: 0 auto;
+padding-left: 0rem;
+padding-top: 2rem;
 }
 
 .card-body-critical {
@@ -335,7 +336,7 @@ margin: 0 auto;
 }
 
  .container-fluid {
-    padding-left: 2rem;
+    padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 0rem;
     padding-top: 0rem;
@@ -343,8 +344,8 @@ margin: 0 auto;
 }
 
 .container-fluid-empty {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     padding-bottom: 0rem;
     padding-top: 0rem;
 }
@@ -384,6 +385,11 @@ border-color: #F18F01;
 .div {
 max-width:850px;
     padding-bottom: 2rem
+}
+
+div.col-md-2{
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .doubleUnderline {
@@ -436,8 +442,7 @@ max-width:850px;
 .kommentarhang{
 background-color: white;
 color: black;
-max-width: 850px;
-min-width: 450px}
+max-width: 850px;}
 
 .latintype {
     font-variant:small-caps;
@@ -636,6 +641,11 @@ color: #A23B72;
 }
 
 @media (max-width: 1200px) {
+
+row {
+background: red;
+color: pink}
+
 .container {
 max-width:850px;
 }
