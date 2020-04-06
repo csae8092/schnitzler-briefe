@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-08-30_01_Beer-Hofmann_AS"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1896-08-30_01_Beer-Hofmann_AS"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -90,4 +91,32 @@
          <change who="MAM" when="2019-10-28">Durchsicht</change>
          <change who="MAM" when="2019-10-28">Index check</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00175"/> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00176"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00175"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb397" type="place">IX. Frankgasse 1</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00176"/><hi rend="pre-print">Gruss aus dem <rs ref="#pmb42678" type="place">Zoolog. Garten</rs> in <rs ref="#pmb864" type="place">Leipzig</rs>, d.</hi><space unit="chars" quantity="1"/><date>30/VIII 96</date></dateline></opener><p><salute>Lieber! </salute>Da man den »<rs ref="#pmb42691" type="work">Doppeladler</rs>« spielt <hi rend="underline" n="1">muß</hi> ich doch Ihnen schreiben. – Ich bin <time>Donnerstag</time> in <rs ref="#pmb662" type="place">Baden</rs>.</p><closer>Herzlichst<lb/>Ihr <signed>Richard</signed></closer></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00175"/> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00176"/> </facsimile> <text type="card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00175"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
+                    <addrLine>
+                        <rs ref="#pmb50" type="place">Wien</rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb397" type="place">IX. Frankgasse 1</rs>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00176"/>
+                        <hi rend="pre-print">Gruss aus dem <rs ref="#pmb42678" type="place">Zoolog. Garten</rs> in <rs ref="#pmb864" type="place">Leipzig</rs>, d.</hi>
+                        <space unit="chars" quantity="1"/>
+                        <date>30/VIII 96</date>
+                    </dateline>
+                </opener>
+                <p>
+                    <salute>Lieber! </salute>Da man den »<rs ref="#pmb42691" type="work">Doppeladler</rs>« spielt <hi rend="underline" n="1">muß</hi> ich doch Ihnen schreiben. – Ich bin <time>Donnerstag</time> in <rs ref="#pmb662" type="place">Baden</rs>.</p>
+                <closer>Herzlichst<lb/>Ihr <signed>Richard</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

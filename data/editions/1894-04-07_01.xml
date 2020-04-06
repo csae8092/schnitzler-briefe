@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-04-07_01_Hofmannsthal_AS"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-04-07_01_Hofmannsthal_AS"> <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -118,9 +119,26 @@
             <change who="MAM" when="2016-03-09">Angelegt aus OCR</change>
             <change who="MAM" when="2017-03-16">Durchgesehen mit Original in CUL</change>
             <change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
-            <change who="GHS" when="2019-02-26"><c rendition="#langesS">s</c>, @facs, Nummerierungen, Seitenzahlen
+            <change who="GHS" when="2019-02-26">
+                <c rendition="#langesS">s</c>, @facs, Nummerierungen, Seitenzahlen
                 ergänzt</change>
             <change who="GHS" when="2019-10-04">finalisiert</change>
          <change who="MAM" when="2019-01-20">Index check</change>
         </revisionDesc>
-    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00131"/> </facsimile> <text type="letter"> <body><div type="writingSession" n="1"><opener><salute><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00131"/>lieber Arthur.</salute></opener><p>Auf Wun<c rendition="#langesS">s</c>ch <rs ref="#pmb10815" type="person">Bahrs</rs> verbringen <hi rend="latintype"><rs ref="#pmb10863" type="person">Richard</rs></hi> und ich morgen nachmittag mit ihm. Nach 10 fa<c rendition="#langesS">s</c>t<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>icher im Café.</p><p>Ich werde ver<c rendition="#langesS">s</c>uchen für kommende Woche <rs ref="#pmb567" type="place">Stephansthurmbe<c rendition="#langesS">s</c>teigung</rs> zu organi<c rendition="#langesS">s</c>ieren.</p><closer>Von Herzen Ihr<lb/><signed>Hugo</signed></closer></div></body> </text></TEI>
+    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00131"/> </facsimile> <text type="letter"> <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <salute>
+                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00131"/>lieber Arthur.</salute>
+                </opener>
+                <p>Auf Wun<c rendition="#langesS">s</c>ch <rs ref="#pmb10815" type="person">Bahrs</rs> verbringen <hi rend="latintype">
+                        <rs ref="#pmb10863" type="person">Richard</rs>
+                    </hi> und ich morgen nachmittag mit ihm. Nach 10 fa<c rendition="#langesS">s</c>t<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>icher im Café.</p>
+                <p>Ich werde ver<c rendition="#langesS">s</c>uchen für kommende Woche <rs ref="#pmb567" type="place">Stephansthurmbe<c rendition="#langesS">s</c>teigung</rs> zu organi<c rendition="#langesS">s</c>ieren.</p>
+                <closer>Von Herzen Ihr<lb/>
+                    <signed>Hugo</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

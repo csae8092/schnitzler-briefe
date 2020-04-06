@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-10-12_01_Hofmannsthal_AS"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-10-12_01_Hofmannsthal_AS"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -106,4 +107,45 @@
             <change who="MAM" when="2019-07-11">Index check</change>
             <change who="GHS" when="2019-11-04">finalisiert</change>
         </revisionDesc>
-    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00209"/> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00210"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00210"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><rs ref="#pmb50" type="place"><hi rend="latintype">Wien</hi></rs></addrLine><addrLine><rs ref="#pmb397" type="place"><hi rend="latintype">XI. Franckgasse 1.</hi></rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00209"/><date>12<hi rend="superscript">ten</hi></date></dateline><salute>Mein lieber Arthur</salute></opener><p>ich bin von morgen <date>Mittwoch</date><space unit="chars" quantity="1"/><time>abend</time> an in <rs ref="#pmb50" type="place">Wien</rs>. Falls Sie<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ich zu einer <anchor type="commentary" xml:id="KL2306-1"/><rs type="work" ref="#pmb34284" subtype="implied"><rs ref="#pmb11851" type="person">Kainz</rs>vor<c rendition="#langesS">s</c>tellung</rs><note type="commentary" xml:id="KL2306-1h"><rs ref="#pmb34284" type="work">Die Jüdin von Toledo</rs> von <rs ref="#pmb11518" type="person">Franz Grillparzer</rs> wurde im <rs ref="#pmb14" type="place">Burgtheater</rs> gegeben.</note>, <date>Donnerstag</date> oder <date>Freitag</date> einen Sitz nehmen und noch Zeit haben, einen gleichen für mich zu nehmen bitte thuen Sie es und<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>chreiben mir vielleicht eine Zeile wo ich Sie für’s Theater abholen kann.</p><closer>Ihr<signed>Hugo.</signed></closer></div></body> </text></TEI>
+    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00209"/> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00210"/> </facsimile> <text type="card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00210"/>
+                        <hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb50" type="place">
+                            <hi rend="latintype">Wien</hi>
+                        </rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb397" type="place">
+                            <hi rend="latintype">XI. Franckgasse 1.</hi>
+                        </rs>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00209"/>
+                        <date>12<hi rend="superscript">ten</hi>
+                        </date>
+                    </dateline>
+                    <salute>Mein lieber Arthur</salute>
+                </opener>
+                <p>ich bin von morgen <date>Mittwoch</date>
+                    <space unit="chars" quantity="1"/>
+                    <time>abend</time> an in <rs ref="#pmb50" type="place">Wien</rs>. Falls Sie<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>ich zu einer <anchor type="commentary" xml:id="KL2306-1"/>
+                    <rs type="work" ref="#pmb34284" subtype="implied">
+                        <rs ref="#pmb11851" type="person">Kainz</rs>vor<c rendition="#langesS">s</c>tellung</rs>
+                    <note type="commentary" xml:id="KL2306-1h">
+                        <rs ref="#pmb34284" type="work">Die Jüdin von Toledo</rs> von <rs ref="#pmb11518" type="person">Franz Grillparzer</rs> wurde im <rs ref="#pmb14" type="place">Burgtheater</rs> gegeben.</note>, <date>Donnerstag</date> oder <date>Freitag</date> einen Sitz nehmen und noch Zeit haben, einen gleichen für mich zu nehmen bitte thuen Sie es und<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>chreiben mir vielleicht eine Zeile wo ich Sie für’s Theater abholen kann.</p>
+                <closer>Ihr<signed>Hugo.</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

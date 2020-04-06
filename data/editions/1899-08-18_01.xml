@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-08-18_01_Beer-Hofmann_AS"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-08-18_01_Beer-Hofmann_AS"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -89,4 +90,39 @@
          <change who="MAM" when="2019-12-05">Durchsicht</change>
          <change who="MAM" when="2019-12-05">Index check</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00304.jpg"/> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00305.jpg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00304"/>Herrn</addrLine><addrLine>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb213" type="place">Ischl</rs></addrLine><addrLine><rs ref="#pmb414" type="place">Pension Petter</rs></addrLine><addrLine><rs ref="#pmb43015" type="place">Kaltenbach</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00305"/><time>7 ½ früh</time><lb/><date>18/VIII 99</date></dateline><salute>Lieber Arthur,</salute></opener><p>Sie haben vergessen mir von <rs ref="#pmb11469" type="person">Golds</rs> Brief zu sagen. Durch <rs ref="#pmb11740" type="person">Hugo</rs> habe ich davon erfahren. Bitte schreiben Sie mir genau, oder noch besser schicken Sie mir zur Durchsicht <rs ref="#pmb11469" type="person">Golds</rs> Brief.</p><closer>Herzlich<lb/>Ihr <signed>R</signed></closer><postscript><p>Ich habe <rs type="place" ref="#pmb43004" subtype="implied">hier</rs> 3 Stunden Aufenthalt.</p></postscript></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00304.jpg"/> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00305.jpg"/> </facsimile> <text type="card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00304"/>Herrn</addrLine>
+                    <addrLine>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
+                    <addrLine>
+                        <rs ref="#pmb213" type="place">Ischl</rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb414" type="place">Pension Petter</rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb43015" type="place">Kaltenbach</rs>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00305"/>
+                        <time>7 ½ früh</time>
+                        <lb/>
+                        <date>18/VIII 99</date>
+                    </dateline>
+                    <salute>Lieber Arthur,</salute>
+                </opener>
+                <p>Sie haben vergessen mir von <rs ref="#pmb11469" type="person">Golds</rs> Brief zu sagen. Durch <rs ref="#pmb11740" type="person">Hugo</rs> habe ich davon erfahren. Bitte schreiben Sie mir genau, oder noch besser schicken Sie mir zur Durchsicht <rs ref="#pmb11469" type="person">Golds</rs> Brief.</p>
+                <closer>Herzlich<lb/>Ihr <signed>R</signed>
+                </closer>
+                <postscript>
+                    <p>Ich habe <rs type="place" ref="#pmb43004" subtype="implied">hier</rs> 3 Stunden Aufenthalt.</p>
+                </postscript>
+            </div>
+        </body> </text>
+</TEI>

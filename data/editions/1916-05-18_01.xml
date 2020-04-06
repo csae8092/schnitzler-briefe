@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1916-05-18_01_AS_Adam"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1916-05-18_01_AS_Adam"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -87,4 +88,46 @@
             <change who="MAM" when="2019-05-13">Angelegt</change>
             <change who="MAM" when="2019-06-26">Index check</change>
         </revisionDesc>
-    </teiHeader> <text type="card"> <body><div type="address"><address><addrLine><pb facs=""/><hi rend="pre-print">Dr. Arthur Schnitzler</hi></addrLine><addrLine><hi rend="pre-print"><rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs></hi></addrLine></address><address><addrLine>Hrn Dr. Robert Adam Pollak,</addrLine><addrLine><rs ref="#pmb62" type="place">Wien <subst><del rend="overwritten">II</del><add place="inline">X</add></subst>II</rs>.</addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hptstr 56</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><date>18. 5. 16</date>.</dateline><salute>verehrter Herr Doktor</salute></opener><p>darf ich Sie bitten morgen schon um <time>½ 7</time><space unit="chars" quantity="1"/><c rendition="#langesS">s</c>tatt 7 zu kommen?</p><closer>herzlichst grüßen<unclear>d</unclear><lb/>Ihr ergebn<unclear>er</unclear><lb/><signed><handShift/>ArthSchnitzler</signed></closer></div></body> </text></TEI>
+    </teiHeader> <text type="card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs=""/>
+                        <hi rend="pre-print">Dr. Arthur Schnitzler</hi>
+                    </addrLine>
+                    <addrLine>
+                        <hi rend="pre-print">
+                            <rs ref="#pmb150" type="place">Wien XVIII. Sternwartestrasse 71</rs>
+                        </hi>
+                    </addrLine>
+                </address>
+                <address>
+                    <addrLine>Hrn Dr. Robert Adam Pollak,</addrLine>
+                    <addrLine>
+                        <rs ref="#pmb62" type="place">Wien <subst>
+                                <del rend="overwritten">II</del>
+                                <add place="inline">X</add>
+                            </subst>II</rs>.</addrLine>
+                    <addrLine>
+                        <rs ref="#pmb1239" type="place">Meidlinger Hptstr 56</rs>.</addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <pb facs=""/>
+                        <date>18. 5. 16</date>.</dateline>
+                    <salute>verehrter Herr Doktor</salute>
+                </opener>
+                <p>darf ich Sie bitten morgen schon um <time>½ 7</time>
+                    <space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>tatt 7 zu kommen?</p>
+                <closer>herzlichst grüßen<unclear>d</unclear>
+                    <lb/>Ihr ergebn<unclear>er</unclear>
+                    <lb/>
+                    <signed>
+                        <handShift/>ArthSchnitzler</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

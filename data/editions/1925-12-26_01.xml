@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1925-12-26_01_AS_Braun"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1925-12-26_01_AS_Braun"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -87,4 +88,31 @@
             <change who="MAM" when="2018-12-05">Angelegt</change>
             <change who="MAM" when="2018-12-12">Index check</change>
         </revisionDesc>
-    </teiHeader> <text type="card"> <body><div type="address"><address><addrLine><pb facs="Wienbibliothek_H.I.N.-198049_vs"/>Herrn Felix Braun</addrLine><addrLine><rs ref="#pmb69" type="place">Wien XIX</rs></addrLine><addrLine><rs ref="#pmb1092" type="place">Sieveringer Hauptstr 149</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="Wienbibliothek_H.I.N.-198049_vs"/><date>26/12 925</date></dateline><salute>lieber Herr Felix Braun,</salute></opener><p>Ihre schönen Worte über die »<rs ref="#pmb30751" type="work">Frau des Richters</rs>« haben mich herzlich erfreut. Vielen Dank und die besten Wünsche und Grüße zum neuen Jahr.</p><closer>Ihr<lb/><signed>Arthur Schnitzler</signed></closer></div></body> </text></TEI>
+    </teiHeader> <text type="card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="Wienbibliothek_H.I.N.-198049_vs"/>Herrn Felix Braun</addrLine>
+                    <addrLine>
+                        <rs ref="#pmb69" type="place">Wien XIX</rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb1092" type="place">Sieveringer Hauptstr 149</rs>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <pb facs="Wienbibliothek_H.I.N.-198049_vs"/>
+                        <date>26/12 925</date>
+                    </dateline>
+                    <salute>lieber Herr Felix Braun,</salute>
+                </opener>
+                <p>Ihre schönen Worte über die »<rs ref="#pmb30751" type="work">Frau des Richters</rs>« haben mich herzlich erfreut. Vielen Dank und die besten Wünsche und Grüße zum neuen Jahr.</p>
+                <closer>Ihr<lb/>
+                    <signed>Arthur Schnitzler</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1909-12-02_01_Bahr_AS"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1909-12-02_01_Bahr_AS"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -105,4 +106,40 @@
          <change who="MAM" when="2019-01-20">Index check</change>
          <change who="GHS" when="2020-03-14">finalisiert</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="MS-B-00005-B-000-00286"/> <graphic url="MS-B-00005-B-000-00287"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-B-00005-B-000-00286"/><hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb133" type="place">Spöttelgasse 7</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb68" type="place">Wien XVIII</rs></hi></addrLine></address></div><div type="writingSession" n="1"><opener><p><date>2. Dez. 09</date></p><salute>Lieber Arthur!</salute></opener><p>Heute hier im <rs ref="#pmb29667" type="org">Goethebund</rs>:<lb/>Schnitzlerabend von HermannBahr.</p><p><anchor type="label" xml:id="LL323-1">So bin ich unermüdlich um Deinen Ruhm in Nord u. Süd be<c rendition="#langesS">s</c>orgt.</anchor></p><closer>Herzlich<c rendition="#langesS">s</c>t, mit<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>chönen Grüßen an <rs type="person" ref="#pmb2173" subtype="implied">Frau</rs>, <rs type="person" ref="#pmb12692" subtype="implied">Sohn</rs> und <rs type="person" ref="#pmb2238" subtype="implied">Tochter</rs>,<lb/>Dein<lb/><signed>H<unclear>m</unclear>B.</signed></closer></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="MS-B-00005-B-000-00286"/> <graphic url="MS-B-00005-B-000-00287"/> </facsimile> <text type="card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="MS-B-00005-B-000-00286"/>
+                        <hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi>
+                    </addrLine>
+                    <addrLine>
+                        <hi rend="latintype">
+                            <rs ref="#pmb133" type="place">Spöttelgasse 7</rs>
+                        </hi>
+                    </addrLine>
+                    <addrLine>
+                        <hi rend="latintype">
+                            <rs ref="#pmb68" type="place">Wien XVIII</rs>
+                        </hi>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <p>
+                        <date>2. Dez. 09</date>
+                    </p>
+                    <salute>Lieber Arthur!</salute>
+                </opener>
+                <p>Heute hier im <rs ref="#pmb29667" type="org">Goethebund</rs>:<lb/>Schnitzlerabend von HermannBahr.</p>
+                <p>
+                    <anchor type="label" xml:id="LL323-1">So bin ich unermüdlich um Deinen Ruhm in Nord u. Süd be<c rendition="#langesS">s</c>orgt.</anchor>
+                </p>
+                <closer>Herzlich<c rendition="#langesS">s</c>t, mit<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>chönen Grüßen an <rs type="person" ref="#pmb2173" subtype="implied">Frau</rs>, <rs type="person" ref="#pmb12692" subtype="implied">Sohn</rs> und <rs type="person" ref="#pmb2238" subtype="implied">Tochter</rs>,<lb/>Dein<lb/>
+                    <signed>H<unclear>m</unclear>B.</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

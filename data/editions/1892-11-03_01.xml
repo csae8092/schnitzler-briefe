@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-11-03_01_AS_Beer-Hofmann"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-11-03_01_AS_Beer-Hofmann"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -87,4 +88,35 @@
          <change who="GHS" when="2019-09-19">angelegt aus Faksimile</change>
          <change who="MAM" when="2019-09-23">Durchsicht und finalisiert</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="DSC_0132.JPG"/> <graphic url="DSC_0133.JPG"/> </facsimile> <text type="letter-card"> <body><div type="address"><address><addrLine><pb facs="DSC_0133"/><hi rend="latintype">Herrn Dr. Rich Beer Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb50" type="place">Wien</rs>.</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb338" type="place">I Wollzeile 15</rs></hi>.</addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs="DSC_0132"/>Lieber Richard, </salute></opener><p>mein <rs ref="#pmb12695" type="person">Papa</rs><space unit="chars" quantity="1"/><c rendition="#langesS">s</c>agt mir zu, auch für Sie den <rs ref="#pmb31971" type="work">Musotte</rs><space unit="chars" quantity="1"/><c rendition="#langesS">s</c>itz zu be<c rendition="#langesS">s</c>orgen.</p><closer>Herzlich<c rendition="#langesS">s</c>t<lb/> Ihr <signed>Arthur</signed></closer></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="DSC_0132.JPG"/> <graphic url="DSC_0133.JPG"/> </facsimile> <text type="letter-card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="DSC_0133"/>
+                        <hi rend="latintype">Herrn Dr. Rich Beer Hofmann</hi>
+                    </addrLine>
+                    <addrLine>
+                        <hi rend="latintype">
+                            <rs ref="#pmb50" type="place">Wien</rs>.</hi>
+                    </addrLine>
+                    <addrLine>
+                        <hi rend="latintype">
+                            <rs ref="#pmb338" type="place">I Wollzeile 15</rs>
+                        </hi>.</addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <salute>
+                        <pb facs="DSC_0132"/>Lieber Richard, </salute>
+                </opener>
+                <p>mein <rs ref="#pmb12695" type="person">Papa</rs>
+                    <space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>agt mir zu, auch für Sie den <rs ref="#pmb31971" type="work">Musotte</rs>
+                    <space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>itz zu be<c rendition="#langesS">s</c>orgen.</p>
+                <closer>Herzlich<c rendition="#langesS">s</c>t<lb/> Ihr <signed>Arthur</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

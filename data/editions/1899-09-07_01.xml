@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-09-08_01_Beer-Hofmann_AS"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-09-08_01_Beer-Hofmann_AS"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -89,4 +90,31 @@
          <change who="MAM" when="2019-12-06">Durchsicht</change>
          <change who="MAM" when="2019-12-06">Index check</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00312.jpg"/> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00313.jpg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00312"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb213" type="place">Ischl</rs></addrLine><addrLine><rs ref="#pmb414" type="place">Pension Petter</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00313"/><date when="1899-09-07">7/IX 99</date></dateline></opener><p><salute>Lieber Arthur! </salute>Ich übersiedle, hoffentlich auf einige Wochen, nach <hi n="1" rend="underline"><rs ref="#pmb946" type="place">Vahrn</rs> bei <rs ref="#pmb43040" type="place">Brixen</rs></hi>. Nähere Adresse nicht notwendig. Herzlichst <signed>Richard</signed></p></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00312.jpg"/> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00313.jpg"/> </facsimile> <text type="card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00312"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
+                    <addrLine>
+                        <rs ref="#pmb213" type="place">Ischl</rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb414" type="place">Pension Petter</rs>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00313"/>
+                        <date when="1899-09-07">7/IX 99</date>
+                    </dateline>
+                </opener>
+                <p>
+                    <salute>Lieber Arthur! </salute>Ich übersiedle, hoffentlich auf einige Wochen, nach <hi n="1" rend="underline">
+                        <rs ref="#pmb946" type="place">Vahrn</rs> bei <rs ref="#pmb43040" type="place">Brixen</rs>
+                    </hi>. Nähere Adresse nicht notwendig. Herzlichst <signed>Richard</signed>
+                </p>
+            </div>
+        </body> </text>
+</TEI>

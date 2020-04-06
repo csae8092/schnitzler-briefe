@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1902-09-04_01_Beer-Hofmann_AS"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1902-09-04_01_Beer-Hofmann_AS"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -102,4 +103,20 @@
       <revisionDesc status="proposed">
          <change who="MAM" when="2019-06-12">Automatisch angelegt aus Buchausgabe</change>
       </revisionDesc>
-   </teiHeader> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><supplied><rs ref="#pmb173" type="place">Rodaun</rs>,</supplied><space unit="chars" quantity="1"/><date when="1902-09-04">4/XI 02</date></dateline></opener><p><salute>Lieber Arthur! </salute>Wir hatten und haben noch Alles in Ordnung zu bringen, da die Wohnung <rs type="person" ref="#pmb13913" subtype="implied">Papa</rs>s geräumt werden muß. Wie ich nur ein wenig zur Ruhe komme, verabrede ich mit Ihnen wann wir uns treffen.</p><closer>Von Herzen Ihr <signed>Richard</signed></closer></div></body> </text></TEI>
+   </teiHeader> <text type="letter"> <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <supplied>
+                            <rs ref="#pmb173" type="place">Rodaun</rs>,</supplied>
+                        <space unit="chars" quantity="1"/>
+                        <date when="1902-09-04">4/XI 02</date>
+                    </dateline>
+                </opener>
+                <p>
+                    <salute>Lieber Arthur! </salute>Wir hatten und haben noch Alles in Ordnung zu bringen, da die Wohnung <rs type="person" ref="#pmb13913" subtype="implied">Papa</rs>s geräumt werden muß. Wie ich nur ein wenig zur Ruhe komme, verabrede ich mit Ihnen wann wir uns treffen.</p>
+                <closer>Von Herzen Ihr <signed>Richard</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

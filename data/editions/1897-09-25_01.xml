@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-09-25_01_AS_Beer-Hofmann"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-09-25_01_AS_Beer-Hofmann"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -120,4 +121,34 @@
          <change who="MAM" when="2019-11-13">Index check</change>
          <change who="MAM" when="2020-01-22">Durchsicht</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="1897_AS_RBH_3_00012.jpeg"/> <graphic url="1897_AS_RBH_3_00013.jpeg"/> <graphic url="1897_AS_RBH_3_00014.jpeg"/> </facsimile> <text type="letter"> <body><div type="address"><address><addrLine><pb facs="1897_AS_RBH_3_00012"/>Herrn <hi rend="latintype">Dr. Richard Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb338" type="place"><hi rend="latintype">I. Wollzeile 15</hi></rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs="1897_AS_RBH_3_00014"/>Lieber Richard,</salute></opener><p>ich wei<c rendition="#langesS">s</c>s nicht, ob <rs ref="#pmb26392" type="person">Leo</rs><space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ie heute ge<c rendition="#langesS">s</c>ehen hat und Ihnen das traurige bereits mitgetheilt. Das <rs type="person" ref="#pmb42794" subtype="implied">Kind</rs> i<c rendition="#langesS">s</c>t todt. Es i<c rendition="#langesS">s</c>t<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ehr<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>chrecklich, viel<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>chrecklicher, als ich je geahnt!</p><closer>Ihr<signed>Arthur</signed></closer></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="1897_AS_RBH_3_00012.jpeg"/> <graphic url="1897_AS_RBH_3_00013.jpeg"/> <graphic url="1897_AS_RBH_3_00014.jpeg"/> </facsimile> <text type="letter"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="1897_AS_RBH_3_00012"/>Herrn <hi rend="latintype">Dr. Richard Beer-Hofmann</hi>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb50" type="place">Wien</rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb338" type="place">
+                            <hi rend="latintype">I. Wollzeile 15</hi>
+                        </rs>.</addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <salute>
+                        <pb facs="1897_AS_RBH_3_00014"/>Lieber Richard,</salute>
+                </opener>
+                <p>ich wei<c rendition="#langesS">s</c>s nicht, ob <rs ref="#pmb26392" type="person">Leo</rs>
+                    <space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>ie heute ge<c rendition="#langesS">s</c>ehen hat und Ihnen das traurige bereits mitgetheilt. Das <rs type="person" ref="#pmb42794" subtype="implied">Kind</rs> i<c rendition="#langesS">s</c>t todt. Es i<c rendition="#langesS">s</c>t<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>ehr<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>chrecklich, viel<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>chrecklicher, als ich je geahnt!</p>
+                <closer>Ihr<signed>Arthur</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

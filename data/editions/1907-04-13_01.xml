@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1907-04-13_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1907-04-13_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"> <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -102,4 +103,20 @@
       <revisionDesc status="proposed">
          <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
       </revisionDesc>
-   </teiHeader> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>Samstag</date></dateline></opener><p>Können wir morgen <date>Sonntag</date> nachmittag mit <rs ref="#pmb3220" type="person">Christiane</rs> kommen? (Nicht zum Nachtmahl) Bitte pneumatisch umgehend <rs ref="#pmb795" type="place">Elisabethstraße 6</rs><space unit="chars" quantity="1"/><rs ref="#pmb24233" type="person">Schlesinger</rs> oder telephonisch 229 (vielleicht durch <rs ref="#pmb10863 #pmb10860" cert="low" type="person">Beers</rs>). (Die Antwort trifft uns dort bis heute <time>abends 8<hi rend="superscript">h</hi></time>)</p><closer><signed>H. v. H.</signed></closer></div></body> </text></TEI>
+   </teiHeader> <text type="letter"> <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <date>Samstag</date>
+                    </dateline>
+                </opener>
+                <p>Können wir morgen <date>Sonntag</date> nachmittag mit <rs ref="#pmb3220" type="person">Christiane</rs> kommen? (Nicht zum Nachtmahl) Bitte pneumatisch umgehend <rs ref="#pmb795" type="place">Elisabethstraße 6</rs>
+                    <space unit="chars" quantity="1"/>
+                    <rs ref="#pmb24233" type="person">Schlesinger</rs> oder telephonisch 229 (vielleicht durch <rs ref="#pmb10863 #pmb10860" cert="low" type="person">Beers</rs>). (Die Antwort trifft uns dort bis heute <time>abends 8<hi rend="superscript">h</hi>
+                    </time>)</p>
+                <closer>
+                    <signed>H. v. H.</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

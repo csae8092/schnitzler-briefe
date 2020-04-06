@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-04-24_01_AS_Beer-Hofmann"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1892-04-24_01_AS_Beer-Hofmann"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -88,4 +89,41 @@
          <change who="GHS" when="2019-09-10">angelegt aus Faksimile</change>
          <change who="MAM" when="2019-09-13">Durchsicht und finalisiert</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="DSC_0096.JPG"/> <graphic url="DSC_0097.JPG"/> <graphic url="DSC_0098.JPG"/> <graphic url="DSC_0099.JPG"/> </facsimile> <text type="letter"> <body><div type="address"><address><addrLine><pb facs="DSC_0098"/><hi rend="latintype">Herrn Doctor Richard Beer-Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb50" type="place">Wien</rs></hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb730" type="place">III Seidlgasse 30</rs></hi></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="DSC_0096"/><salute>Lieber Richard, </salute><date>Din<c rendition="#langesS">s</c>tag</date> vor <time>5 Uhr</time> will uns Hr <rs ref="#pmb12564" type="person"><hi rend="latintype">Rosner</hi></rs> bei mir eine Novelle <anchor type="commentary" xml:id="KMAM-1"/>vorle<c rendition="#langesS">s</c>en<note type="commentary" xml:id="KMAM-1h">Ob die Lesung stattgefunden hat, lässt sich derzeit nicht belegen.</note>; bitte<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ehr, ko<c rendition="#gemination-m"/>en Sie.</p><closer>Herzlich<c rendition="#langesS">s</c>t Ihr<lb/><signed>Arthur</signed></closer><postscript><dateline><date>24. 4. 92</date></dateline></postscript></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="DSC_0096.JPG"/> <graphic url="DSC_0097.JPG"/> <graphic url="DSC_0098.JPG"/> <graphic url="DSC_0099.JPG"/> </facsimile> <text type="letter"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="DSC_0098"/>
+                        <hi rend="latintype">Herrn Doctor Richard Beer-Hofmann</hi>
+                    </addrLine>
+                    <addrLine>
+                        <hi rend="latintype">
+                            <rs ref="#pmb50" type="place">Wien</rs>
+                        </hi>
+                    </addrLine>
+                    <addrLine>
+                        <hi rend="latintype">
+                            <rs ref="#pmb730" type="place">III Seidlgasse 30</rs>
+                        </hi>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <p>
+                    <pb facs="DSC_0096"/>
+                    <salute>Lieber Richard, </salute>
+                    <date>Din<c rendition="#langesS">s</c>tag</date> vor <time>5 Uhr</time> will uns Hr <rs ref="#pmb12564" type="person">
+                        <hi rend="latintype">Rosner</hi>
+                    </rs> bei mir eine Novelle <anchor type="commentary" xml:id="KMAM-1"/>vorle<c rendition="#langesS">s</c>en<note type="commentary" xml:id="KMAM-1h">Ob die Lesung stattgefunden hat, lässt sich derzeit nicht belegen.</note>; bitte<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>ehr, ko<c rendition="#gemination-m"/>en Sie.</p>
+                <closer>Herzlich<c rendition="#langesS">s</c>t Ihr<lb/>
+                    <signed>Arthur</signed>
+                </closer>
+                <postscript>
+                    <dateline>
+                        <date>24. 4. 92</date>
+                    </dateline>
+                </postscript>
+            </div>
+        </body> </text>
+</TEI>

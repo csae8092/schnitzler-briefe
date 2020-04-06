@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-03-07_01_Hofmannsthal_AS"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-03-07_01_Hofmannsthal_AS"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -106,4 +107,40 @@
             <change who="MAM" when="2019-04-26">Index check</change>
             <change who="GHS" when="2019-11-07">finalisiert</change>
         </revisionDesc>
-    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00197"/> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00198"/> </facsimile> <text type="letter-card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00198"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><rs ref="#pmb59" type="place"><hi rend="latintype">IX Wien</hi></rs></addrLine><addrLine><rs ref="#pmb397" type="place"><hi rend="latintype">Franckgasse</hi> 1</rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00197"/><salute>lieber Arthur</salute>, bitte wie gehts Ihnen und i<c rendition="#langesS">s</c>t es <del rend="strikethrough">Ab<c rendition="#langesS">s</c>ichts oder</del> Ver<c rendition="#langesS">s</c>timmung oder Zufall da<c rendition="#langesS">s</c>s man <space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ich nie<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ieht?</p><closer>Herzlich<lb/>Ihr<lb/><signed>Hugo</signed></closer><postscript><dateline><date>Montag</date><space unit="chars" quantity="1"/><time>abend</time></dateline></postscript></div></body> </text></TEI>
+    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00197"/> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00198"/> </facsimile> <text type="letter-card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00198"/>
+                        <hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb59" type="place">
+                            <hi rend="latintype">IX Wien</hi>
+                        </rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb397" type="place">
+                            <hi rend="latintype">Franckgasse</hi> 1</rs>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <p>
+                    <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00197"/>
+                    <salute>lieber Arthur</salute>, bitte wie gehts Ihnen und i<c rendition="#langesS">s</c>t es <del rend="strikethrough">Ab<c rendition="#langesS">s</c>ichts oder</del> Ver<c rendition="#langesS">s</c>timmung oder Zufall da<c rendition="#langesS">s</c>s man <space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>ich nie<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>ieht?</p>
+                <closer>Herzlich<lb/>Ihr<lb/>
+                    <signed>Hugo</signed>
+                </closer>
+                <postscript>
+                    <dateline>
+                        <date>Montag</date>
+                        <space unit="chars" quantity="1"/>
+                        <time>abend</time>
+                    </dateline>
+                </postscript>
+            </div>
+        </body> </text>
+</TEI>

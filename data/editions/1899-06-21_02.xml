@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-06-21_02_AS_Beer-Hofmann"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-06-21_02_AS_Beer-Hofmann"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -105,4 +106,36 @@
          <change who="MAM" when="2019-09-17">Durchsicht mit Faksimile</change>
          <change who="GHS" when="2019-11-29">finalisiert</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="1899_AS_RBH_1_00021.jpeg"/> <graphic url="1899_AS_RBH_1_00022.jpeg"/> <graphic url="1899_AS_RBH_1_00023.jpeg"/> </facsimile> <text type="letter"> <body><div type="address"><address><addrLine><pb facs="1899_AS_RBH_1_00021"/>Herrn <hi rend="latintype">Dr. Rich Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb34824" type="place"><hi rend="latintype">Seeboden</hi> am Mill<c rendition="#langesS">s</c>tätter<c rendition="#langesS">s</c>ee</rs></addrLine><addrLine><rs ref="#pmb40788" type="place">Villa Platzer</rs></addrLine></address></div><div type="writingSession" n="1"><opener><p><seg rend="left"><pb facs="1899_AS_RBH_1_00023"/>Nr. 2.</seg><seg rend="right"><date when="1899-06-21">21. 6. 99</date></seg></p></opener><p>Noch eins:</p><p>wie heißen diese <anchor type="commentary" xml:id="KL2521-1"/>Clo<c rendition="#langesS">s</c>che<note type="commentary" xml:id="KL2521-1h">frz. cloche: Hütchen</note> oder vielmehr Selb<c rendition="#langesS">s</c>t<c rendition="#langesS">s</c>chützer, die Sie mir neulich triumphirend gezeigt, u wo beko<c rendition="#gemination-m"/>t man<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ie?</p><closer>I<unclear>h</unclear>r <signed>A.</signed></closer></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="1899_AS_RBH_1_00021.jpeg"/> <graphic url="1899_AS_RBH_1_00022.jpeg"/> <graphic url="1899_AS_RBH_1_00023.jpeg"/> </facsimile> <text type="letter"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="1899_AS_RBH_1_00021"/>Herrn <hi rend="latintype">Dr. Rich Beer-Hofmann</hi>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb34824" type="place">
+                            <hi rend="latintype">Seeboden</hi> am Mill<c rendition="#langesS">s</c>tätter<c rendition="#langesS">s</c>ee</rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb40788" type="place">Villa Platzer</rs>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <p>
+                        <seg rend="left">
+                            <pb facs="1899_AS_RBH_1_00023"/>Nr. 2.</seg>
+                        <seg rend="right">
+                            <date when="1899-06-21">21. 6. 99</date>
+                        </seg>
+                    </p>
+                </opener>
+                <p>Noch eins:</p>
+                <p>wie heißen diese <anchor type="commentary" xml:id="KL2521-1"/>Clo<c rendition="#langesS">s</c>che<note type="commentary" xml:id="KL2521-1h">frz. cloche: Hütchen</note> oder vielmehr Selb<c rendition="#langesS">s</c>t<c rendition="#langesS">s</c>chützer, die Sie mir neulich triumphirend gezeigt, u wo beko<c rendition="#gemination-m"/>t man<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>ie?</p>
+                <closer>I<unclear>h</unclear>r <signed>A.</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

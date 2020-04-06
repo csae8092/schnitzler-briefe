@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-07-18_01_Beer-Hofmann_AS"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-07-18_01_Beer-Hofmann_AS"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -89,4 +90,34 @@
          <change who="MAM" when="2019-12-02">Durchsicht</change>
          <change who="MAM" when="2019-12-02">Index check</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00300.jpg"/> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00301.jpg"/> </facsimile> <text type="letter-card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00301"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs ref="#pmb909" type="place">Velden a Wörthersee</rs></addrLine><addrLine><rs ref="#pmb36282" type="place">Pension Pundschu</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00300"/><rs ref="#pmb34824" type="place">Seeboden</rs><space unit="chars" quantity="1"/><date>18/VII</date> früh</dateline></opener><p><salute>Lieber Arthur! </salute>Ich hoffe Ende dieser Woche fertig zu werden. Auch wenn ich aber nicht fertig bin ko<c rendition="#gemination-m"/> ich <date>Sonntag</date> oder <date>Montag</date> zu Ihnen. Jedenfalls telegrafire ich früher.</p><p>Was unsere Tour anlangt, habe ich außer irgendeinem <rs ref="#pmb40943" type="place">Tauern</rs>übergang keine besondere Wünsche.</p><p>Grüßen Sie <rs ref="#pmb13055" type="person">Wassermann</rs>.</p><closer>Herzlichst<lb/><signed>Richard</signed></closer></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00300.jpg"/> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00301.jpg"/> </facsimile> <text type="letter-card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00301"/>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
+                    <addrLine>
+                        <rs ref="#pmb909" type="place">Velden a Wörthersee</rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb36282" type="place">Pension Pundschu</rs>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00300"/>
+                        <rs ref="#pmb34824" type="place">Seeboden</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date>18/VII</date> früh</dateline>
+                </opener>
+                <p>
+                    <salute>Lieber Arthur! </salute>Ich hoffe Ende dieser Woche fertig zu werden. Auch wenn ich aber nicht fertig bin ko<c rendition="#gemination-m"/> ich <date>Sonntag</date> oder <date>Montag</date> zu Ihnen. Jedenfalls telegrafire ich früher.</p>
+                <p>Was unsere Tour anlangt, habe ich außer irgendeinem <rs ref="#pmb40943" type="place">Tauern</rs>übergang keine besondere Wünsche.</p>
+                <p>Grüßen Sie <rs ref="#pmb13055" type="person">Wassermann</rs>.</p>
+                <closer>Herzlichst<lb/>
+                    <signed>Richard</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

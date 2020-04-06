@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-05-16_01_AS_Beer-Hofmann"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1898-05-16_01_AS_Beer-Hofmann"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -89,4 +90,29 @@
          <change who="MAM" when="2019-11-25">Durchsicht</change>
          <change who="MAM" when="2019-11-25">Index check</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="1898_AS_RBH_2_00004.jpeg"/> <graphic url="1898_AS_RBH_2_00005.jpeg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="1898_AS_RBH_2_00004"/>Herrn <hi rend="latintype">Dr Rich Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb50" type="place">Wien</rs></addrLine><addrLine><rs ref="#pmb338" type="place"><hi rend="latintype">I. Wollzeile 15</hi></rs>.</addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1898_AS_RBH_2_00004"/><salute>Lieber Richard, </salute>Sie<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ind von der <anchor type="commentary" xml:id="KLM20191125-2"/>Loge<note type="commentary" xml:id="KLM20191125-2h">Es könnte sich um Karten für die Uraufführung von <rs ref="#pmb42891" type="work">Mädchentraum</rs> im <rs ref="#pmb14" type="place">Burgtheater</rs> gehandelt haben.</note> befreit.</p><closer>Herzlich Ihr<lb/><signed>Arthur</signed></closer></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="1898_AS_RBH_2_00004.jpeg"/> <graphic url="1898_AS_RBH_2_00005.jpeg"/> </facsimile> <text type="card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="1898_AS_RBH_2_00004"/>Herrn <hi rend="latintype">Dr Rich Beer-Hofmann</hi>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb50" type="place">Wien</rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb338" type="place">
+                            <hi rend="latintype">I. Wollzeile 15</hi>
+                        </rs>.</addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <p>
+                    <pb facs="1898_AS_RBH_2_00004"/>
+                    <salute>Lieber Richard, </salute>Sie<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>ind von der <anchor type="commentary" xml:id="KLM20191125-2"/>Loge<note type="commentary" xml:id="KLM20191125-2h">Es könnte sich um Karten für die Uraufführung von <rs ref="#pmb42891" type="work">Mädchentraum</rs> im <rs ref="#pmb14" type="place">Burgtheater</rs> gehandelt haben.</note> befreit.</p>
+                <closer>Herzlich Ihr<lb/>
+                    <signed>Arthur</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

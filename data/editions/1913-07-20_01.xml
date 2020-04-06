@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1913-07-20_01_Bahr_AS"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1913-07-20_01_Bahr_AS"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -47,7 +48,9 @@
                         <repository>University Library</repository>
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
-                     <physDesc>             <p>eh. Bildpostkarte ohne Anschrift, schwarze Tinte. Motiv: »<quote><pb facs="MS-B-00005-B-000-00317"/><rs ref="#pmb454" type="place">Salzburg, Am Stein</rs>             </quote>«. Von unbekannter Hand mit Bleistift              nummeriert: »<quote>178</quote>«. Die Karte ist nicht gelaufen.</p>           </physDesc>
+                     <physDesc>             <p>eh. Bildpostkarte ohne Anschrift, schwarze Tinte. Motiv: »<quote>
+                                        <pb facs="MS-B-00005-B-000-00317"/>
+                                        <rs ref="#pmb454" type="place">Salzburg, Am Stein</rs>             </quote>«. Von unbekannter Hand mit Bleistift              nummeriert: »<quote>178</quote>«. Die Karte ist nicht gelaufen.</p>           </physDesc>
                   </msDesc>
                </witness>
             </listWit>
@@ -104,4 +107,27 @@
          <change who="MAM" when="2019-01-20">Index check</change>
          <change who="GHS" when="2020-03-22">finalisiert</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="MS-B-00005-B-000-00316"/> <graphic url="MS-B-00005-B-000-00317"/> </facsimile> <text type="card"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-B-00005-B-000-00316"/><date>20. 7. 13</date></dateline><salute>Lieber Arthur!</salute></opener><p>Herzlichen Dank für Dein<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>o liebes Ge<c rendition="#langesS">s</c>chenk, das meine Wand<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>chmückt, und für <rs type="person" ref="#pmb2173" subtype="implied">Euer</rs> gutes Telegramm, das mein Herz erfreut!</p><p>Bleibt mir, was <rs type="person" ref="#pmb2173" subtype="implied">Ihr</rs> mir<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>eit<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>o vielen Jahren<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>eid! Ich will immer der <rs type="person" ref="#pmb2173" subtype="implied">Eure</rs><space unit="chars" quantity="1"/><c rendition="#langesS">s</c>ein!</p><closer><signed>HermannBahr</signed></closer></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="MS-B-00005-B-000-00316"/> <graphic url="MS-B-00005-B-000-00317"/> </facsimile> <text type="card"> <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <pb facs="MS-B-00005-B-000-00316"/>
+                        <date>20. 7. 13</date>
+                    </dateline>
+                    <salute>Lieber Arthur!</salute>
+                </opener>
+                <p>Herzlichen Dank für Dein<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>o liebes Ge<c rendition="#langesS">s</c>chenk, das meine Wand<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>chmückt, und für <rs type="person" ref="#pmb2173" subtype="implied">Euer</rs> gutes Telegramm, das mein Herz erfreut!</p>
+                <p>Bleibt mir, was <rs type="person" ref="#pmb2173" subtype="implied">Ihr</rs> mir<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>eit<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>o vielen Jahren<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>eid! Ich will immer der <rs type="person" ref="#pmb2173" subtype="implied">Eure</rs>
+                    <space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>ein!</p>
+                <closer>
+                    <signed>HermannBahr</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

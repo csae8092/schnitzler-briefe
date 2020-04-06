@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1903-08-23_01_AS_Beer-Hofmann"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1903-08-23_01_AS_Beer-Hofmann"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -102,4 +103,18 @@
       <revisionDesc status="proposed">
          <change who="MAM" when="2019-06-12">Automatisch angelegt aus Buchausgabe</change>
       </revisionDesc>
-   </teiHeader> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><supplied><rs ref="#pmb50" type="place">Wien</rs>, <date when="1903-08-23">23. 8. 1903</date></supplied></dateline></opener><p>Ich bitte Sie also Mittwoch halb eins Schopenhauergasse 37 als Beistand zu fungiren und die Sache durchaus als vertraulich zu behandeln</p><closer>Herzlichst Ihr <signed>Arthur</signed></closer></div></body> </text></TEI>
+   </teiHeader> <text type="letter"> <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <supplied>
+                            <rs ref="#pmb50" type="place">Wien</rs>, <date when="1903-08-23">23. 8. 1903</date>
+                        </supplied>
+                    </dateline>
+                </opener>
+                <p>Ich bitte Sie also Mittwoch halb eins Schopenhauergasse 37 als Beistand zu fungiren und die Sache durchaus als vertraulich zu behandeln</p>
+                <closer>Herzlichst Ihr <signed>Arthur</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>

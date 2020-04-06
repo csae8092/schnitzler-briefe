@@ -917,14 +917,11 @@ declare function app:randomDoc($node as node(), $model as map(*), $maxlen as xs:
     let $result :=
     <div class="entry-text-content">
     <header class="entry-header">
-<h4 class="entry-title">
-<a href="{$url}" rel="bookmark" class="light">{$title}</a>
-</h4>
+<h4 class="entry-title">Zufälliger Brief</h4>
 </header>
 <!-- .entry-header -->
     <div class="entry-content">
-<p>{$shortdoc}[...]</p>
-    <a class="btn btn-round" href="{$url}">Mehr lesen</a>
+<p><a href="{$url}" rel="bookmark" class="light">{$title}</a></p>
 </div>
 <!-- .entry-content -->
 </div>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-08-26_01_Hofmannsthal_AS"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1897-08-26_01_Hofmannsthal_AS"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -106,4 +107,60 @@
             <change who="MAM" when="2019-07-11">Index check</change>
             <change who="GHS" when="2019-11-04">finalisiert</change>
         </revisionDesc>
-    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00213"/> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00214"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00214"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><rs ref="#pmb50" type="place"><hi rend="latintype">Wien</hi></rs></addrLine><addrLine><rs ref="#pmb397" type="place"><hi rend="latintype">IX Franckgasse 1</hi></rs></addrLine><addrLine><rs ref="#pmb41240" type="place"><hi rend="latintype">Austria</hi></rs></addrLine><addrLine><hi rend="latintype">per Ala</hi></addrLine></address></div><div type="writingSession" n="1"><opener><dateline><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00213"/><seg rend="left"><date>26 VIII</date></seg><seg rend="right"><hi rend="latintype"><rs ref="#pmb928" type="place">Varese</rs> per <rs ref="#pmb886" type="place">Milano</rs></hi><lb/><hi rend="latintype"><rs ref="#pmb547" type="place">Hôtel d’Italie</rs></hi></seg></dateline><salute>mein lieber Arthur</salute></opener><p>ich bin<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>o zufrieden und glücklich wie glaub ich in meinem Leben nicht, ganz über<c rendition="#langesS">s</c>chwe<c rendition="#gemination-m"/>t von Plänen und Halbfertigem. Vielleicht hör ich etwas von Ihnen, ich bleibe bis <date>10. September</date> hier.</p><closer>Ihr<lb/><signed>Hugo</signed></closer><postscript><p>ich dank Ihnen herzlich für vieles wegen <rs ref="#pmb10765" type="person">Poldy</rs>.</p></postscript></div></body> </text></TEI>
+    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00213"/> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00214"/> </facsimile> <text type="card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00214"/>
+                        <hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb50" type="place">
+                            <hi rend="latintype">Wien</hi>
+                        </rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb397" type="place">
+                            <hi rend="latintype">IX Franckgasse 1</hi>
+                        </rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb41240" type="place">
+                            <hi rend="latintype">Austria</hi>
+                        </rs>
+                    </addrLine>
+                    <addrLine>
+                        <hi rend="latintype">per Ala</hi>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline>
+                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00213"/>
+                        <seg rend="left">
+                            <date>26 VIII</date>
+                        </seg>
+                        <seg rend="right">
+                            <hi rend="latintype">
+                                <rs ref="#pmb928" type="place">Varese</rs> per <rs ref="#pmb886" type="place">Milano</rs>
+                            </hi>
+                            <lb/>
+                            <hi rend="latintype">
+                                <rs ref="#pmb547" type="place">Hôtel d’Italie</rs>
+                            </hi>
+                        </seg>
+                    </dateline>
+                    <salute>mein lieber Arthur</salute>
+                </opener>
+                <p>ich bin<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>o zufrieden und glücklich wie glaub ich in meinem Leben nicht, ganz über<c rendition="#langesS">s</c>chwe<c rendition="#gemination-m"/>t von Plänen und Halbfertigem. Vielleicht hör ich etwas von Ihnen, ich bleibe bis <date>10. September</date> hier.</p>
+                <closer>Ihr<lb/>
+                    <signed>Hugo</signed>
+                </closer>
+                <postscript>
+                    <p>ich dank Ihnen herzlich für vieles wegen <rs ref="#pmb10765" type="person">Poldy</rs>.</p>
+                </postscript>
+            </div>
+        </body> </text>
+</TEI>

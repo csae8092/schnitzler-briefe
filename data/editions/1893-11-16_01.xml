@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-11-16_01_Boelsche_AS"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-11-16_01_Boelsche_AS"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -107,4 +108,34 @@
             <change who="MAM" when="2019-03-06">Durchsicht</change>
             <change who="GHS" when="2019-10-03">finalisiert</change>
         </revisionDesc>
-    </teiHeader> <text type="card"> <body><div type="address"><address><addrLine>Herrn Dr. Schnitzler</addrLine><addrLine><rs ref="#pmb59" type="place">Wien IX</rs></addrLine><addrLine><rs ref="#pmb397" type="place">Frankga<c rendition="#langesS">s</c><c rendition="#langesS">s</c>e 1.</rs></addrLine></address></div><div type="writingSession" n="1"><opener><salute><pb facs="HS.NZ85.1.2577,9-2"/>Hochgeehrter Herr Dr.!</salute></opener><p>Die Redaktion der »<rs ref="#pmb36166" type="work">Freien Bühne</rs>« hat Hr. <rs ref="#pmb10928" type="person">Otto Julius Bierbaum</rs>, <rs ref="#pmb359" type="place">Berlin, Köthener Str. 44</rs> übernommen, ich bitte Sie, bei die<c rendition="#langesS">s</c>em nachzufragen. Ich bin<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>eit <date>1. Okt.</date> zurückgetreten, – in einer allgemeinen »Redaktionsmüdigkeit,« die Sie vielleicht ver<c rendition="#langesS">s</c>tehen werden.</p><closer>Mit herzlichem Gruß<lb/>Ihr<signed>W. Bölsche</signed></closer><postscript><p><rs ref="#pmb34215" type="place">Zürich-Enge</rs>.<lb/><rs ref="#pmb34218" type="place">Seewartstr. 12<hi rend="subscript">I</hi></rs>.</p></postscript></div></body> </text></TEI>
+    </teiHeader> <text type="card"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>Herrn Dr. Schnitzler</addrLine>
+                    <addrLine>
+                        <rs ref="#pmb59" type="place">Wien IX</rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb397" type="place">Frankga<c rendition="#langesS">s</c>
+                            <c rendition="#langesS">s</c>e 1.</rs>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <salute>
+                        <pb facs="HS.NZ85.1.2577,9-2"/>Hochgeehrter Herr Dr.!</salute>
+                </opener>
+                <p>Die Redaktion der »<rs ref="#pmb36166" type="work">Freien Bühne</rs>« hat Hr. <rs ref="#pmb10928" type="person">Otto Julius Bierbaum</rs>, <rs ref="#pmb359" type="place">Berlin, Köthener Str. 44</rs> übernommen, ich bitte Sie, bei die<c rendition="#langesS">s</c>em nachzufragen. Ich bin<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>eit <date>1. Okt.</date> zurückgetreten, – in einer allgemeinen »Redaktionsmüdigkeit,« die Sie vielleicht ver<c rendition="#langesS">s</c>tehen werden.</p>
+                <closer>Mit herzlichem Gruß<lb/>Ihr<signed>W. Bölsche</signed>
+                </closer>
+                <postscript>
+                    <p>
+                        <rs ref="#pmb34215" type="place">Zürich-Enge</rs>.<lb/>
+                        <rs ref="#pmb34218" type="place">Seewartstr. 12<hi rend="subscript">I</hi>
+                        </rs>.</p>
+                </postscript>
+            </div>
+        </body> </text>
+</TEI>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-07-12_01_AS_Beer-Hofmann"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1894-07-12_01_AS_Beer-Hofmann"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -104,4 +105,41 @@
          <change who="MAM" when="2019-10-12">Index check</change>
          <change who="GHS" when="2019-10-10">finalisiert</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="1894_AS_RBH_2_00020.jpeg"/> <graphic url="1894_AS_RBH_2_00021.jpeg"/> <graphic url="1894_AS_RBH_2_00022.jpeg"/> </facsimile> <text type="letter"> <body><div type="address"><address><addrLine><pb facs="1894_AS_RBH_2_00022"/>Hrn <hi rend="latintype">Dr. Rich. Beer-Hofmann</hi></addrLine><addrLine><hi rend="latintype"><rs ref="#pmb213" type="place">Ischl</rs></hi></addrLine><addrLine><rs ref="#pmb766" type="place"><hi rend="latintype">Egelmoos</hi> 22</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="1894_AS_RBH_2_00020"/><date>Donner<c rendition="#langesS">s</c>tag</date></dateline></opener><p><salute>Lieber Richard, </salute><date>Sam<c rendition="#langesS">s</c>tag</date> ko<c rendition="#gemination-m"/>en die Cigaretten, und die <rs type="work" ref="#pmb34888" subtype="implied">2 Bände <pb facs="1894_AS_RBH_2_00021"/><rs ref="#pmb13897" type="person"><hi rend="latintype">Becque</hi></rs></rs>.</p><closer>Herzlich Ihr <signed>Arthur.</signed></closer><postscript><dateline>Auch ich komme <date>Sam<c rendition="#langesS">s</c>tag</date>. –</dateline></postscript></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="1894_AS_RBH_2_00020.jpeg"/> <graphic url="1894_AS_RBH_2_00021.jpeg"/> <graphic url="1894_AS_RBH_2_00022.jpeg"/> </facsimile> <text type="letter"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="1894_AS_RBH_2_00022"/>Hrn <hi rend="latintype">Dr. Rich. Beer-Hofmann</hi>
+                    </addrLine>
+                    <addrLine>
+                        <hi rend="latintype">
+                            <rs ref="#pmb213" type="place">Ischl</rs>
+                        </hi>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb766" type="place">
+                            <hi rend="latintype">Egelmoos</hi> 22</rs>.</addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <pb facs="1894_AS_RBH_2_00020"/>
+                        <date>Donner<c rendition="#langesS">s</c>tag</date>
+                    </dateline>
+                </opener>
+                <p>
+                    <salute>Lieber Richard, </salute>
+                    <date>Sam<c rendition="#langesS">s</c>tag</date> ko<c rendition="#gemination-m"/>en die Cigaretten, und die <rs type="work" ref="#pmb34888" subtype="implied">2 Bände <pb facs="1894_AS_RBH_2_00021"/>
+                        <rs ref="#pmb13897" type="person">
+                            <hi rend="latintype">Becque</hi>
+                        </rs>
+                    </rs>.</p>
+                <closer>Herzlich Ihr <signed>Arthur.</signed>
+                </closer>
+                <postscript>
+                    <dateline>Auch ich komme <date>Sam<c rendition="#langesS">s</c>tag</date>. –</dateline>
+                </postscript>
+            </div>
+        </body> </text>
+</TEI>

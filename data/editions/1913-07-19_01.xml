@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1913-07-19_01_AS_Bahr"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1913-07-19_01_AS_Bahr"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -47,7 +48,8 @@
                         <repository>Theatermuseum</repository>
                         <idno>HS AM 23397 Ba</idno>
                      </msIdentifier>
-                     <physDesc>             <p>ms. Telegramm, Absenderzeile: »<quote>                <rs ref="#pmb50" type="place">wien</rs>              </quote>«, aufgenommen »<quote>                <time>1 Uhr <hi rend="superscript">20n</hi>                </time>              </quote>«</p>             <stamp n="1">              <date when="1913-07-19">19 7 <supplied>1913</supplied></date>              <time>Nm</time>             </stamp>           </physDesc>
+                     <physDesc>             <p>ms. Telegramm, Absenderzeile: »<quote>                <rs ref="#pmb50" type="place">wien</rs>              </quote>«, aufgenommen »<quote>                <time>1 Uhr <hi rend="superscript">20n</hi>                </time>              </quote>«</p>             <stamp n="1">              <date when="1913-07-19">19 7 <supplied>1913</supplied>
+                                    </date>              <time>Nm</time>             </stamp>           </physDesc>
                   </msDesc>
                </witness>
             </listWit>
@@ -126,4 +128,20 @@
          <change who="MAM" when="2019-01-20">Index check</change>
          <change who="GHS" when="2020-03-22">finalisiert</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="HS_AM23397Ba"/> </facsimile> <text type="telegram"> <body><div type="address"><address><addrLine><pb facs="https://www.theatermuseum.at/de/object/d54be6d1d3/"/>herman bahr <rs ref="#pmb30" type="place">salzburg</rs></addrLine><addrLine><rs ref="#pmb160" type="place">schloss arenberg</rs></addrLine></address></div><div type="writingSession" n="1"><p>vergangner gemeinsamer stunden inigst gedenkend noch manche kuenftige erhoffend doch auch in getrennten dir freundschaftlich nach send ich dir zu gleich im namen meiner <rs type="person" ref="#pmb2173" subtype="implied">frau</rs> herzlichste wuensche und treue gruesze als dein alter <signed>arthur schnitzler</signed></p></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="HS_AM23397Ba"/> </facsimile> <text type="telegram"> <body>
+            <div type="address">
+                <address>
+                    <addrLine>
+                        <pb facs="https://www.theatermuseum.at/de/object/d54be6d1d3/"/>herman bahr <rs ref="#pmb30" type="place">salzburg</rs>
+                    </addrLine>
+                    <addrLine>
+                        <rs ref="#pmb160" type="place">schloss arenberg</rs>
+                    </addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <p>vergangner gemeinsamer stunden inigst gedenkend noch manche kuenftige erhoffend doch auch in getrennten dir freundschaftlich nach send ich dir zu gleich im namen meiner <rs type="person" ref="#pmb2173" subtype="implied">frau</rs> herzlichste wuensche und treue gruesze als dein alter <signed>arthur schnitzler</signed>
+                </p>
+            </div>
+        </body> </text>
+</TEI>

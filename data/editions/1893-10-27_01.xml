@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-10-27_01_Hofmannsthal-Salten_AS"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1893-10-27_01_Hofmannsthal-Salten_AS"> <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -109,4 +110,27 @@
             <change who="MAM" when="2019-05-02">Index check</change>
             <change who="GHS" when="2019-10-02">finalisiert</change>
         </revisionDesc>
-    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00119"/> </facsimile> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00119"/><time>½ 8 Uhr</time>.</dateline><salute>Lieber Arthur!</salute></opener><p>Wir kommen heute<space unit="chars" quantity="1"/><c rendition="#langesS">s</c>chon um <time><hi n="2" rend="underline">10</hi></time> ins Cafe!</p><closer><signed><handShift scribe="#pmb2167"/>Salten<space unit="chars" quantity="7"/><handShift scribe="#pmb11740"/>Loris</signed></closer><postscript><p><handShift scribe="#pmb2167"/>Der Loris hat vergessen zu schreiben dass wir jetzt gehen zu <rs ref="#pmb10863" type="person">Richard</rs>.</p></postscript></div></body> </text></TEI>
+    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00001-000-00119"/> </facsimile> <text type="letter"> <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <pb facs="MS-SCHNITZLER-B-00043-B-00001-000-00119"/>
+                        <time>½ 8 Uhr</time>.</dateline>
+                    <salute>Lieber Arthur!</salute>
+                </opener>
+                <p>Wir kommen heute<space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>chon um <time>
+                        <hi n="2" rend="underline">10</hi>
+                    </time> ins Cafe!</p>
+                <closer>
+                    <signed>
+                        <handShift scribe="#pmb2167"/>Salten<space unit="chars" quantity="7"/>
+                        <handShift scribe="#pmb11740"/>Loris</signed>
+                </closer>
+                <postscript>
+                    <p>
+                        <handShift scribe="#pmb2167"/>Der Loris hat vergessen zu schreiben dass wir jetzt gehen zu <rs ref="#pmb10863" type="person">Richard</rs>.</p>
+                </postscript>
+            </div>
+        </body> </text>
+</TEI>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:foo="just some local crap"
-  xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0">
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:foo="just some local crap" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0">
   <xsl:template match="tei:date[@*]">
     <!-- <abbr><xsl:attribute name="title"><xsl:value-of select="data(./@*)"/></xsl:attribute>-->
     <xsl:apply-templates/>
@@ -151,8 +149,7 @@
       <xsl:when test="@target[ends-with(., '.xml')]">
         <xsl:element name="a">
           <xsl:attribute name="class">reference-black</xsl:attribute>
-          <xsl:attribute name="href"> show.html?ref=<xsl:value-of
-              select="tokenize(./@target, '/')[4]"/>
+          <xsl:attribute name="href"> show.html?ref=<xsl:value-of select="tokenize(./@target, '/')[4]"/>
           </xsl:attribute>
           <xsl:value-of select="."/>
         </xsl:element>
@@ -409,8 +406,7 @@
   <xsl:template match="tei:layoutDesc">
     <xsl:for-each select="tei:layout">
       <div>
-        <xsl:value-of select="./@columns"/> Column(s) à <xsl:value-of
-          select="./@ruledLines | ./@writtenLines"/> ruled/written lines: <xsl:apply-templates/>
+        <xsl:value-of select="./@columns"/> Column(s) à <xsl:value-of select="./@ruledLines | ./@writtenLines"/> ruled/written lines: <xsl:apply-templates/>
       </div>
     </xsl:for-each>
   </xsl:template>
@@ -728,8 +724,7 @@
       <xsl:apply-templates/>
     </div>
   </xsl:template>
-  <xsl:template
-    match="tei:p[ancestor::tei:body and not(ancestor::tei:note) and not(ancestor::tei:footNote) and not(ancestor::tei:caption) and not(parent::tei:bibl) and not(parent::tei:quote)] | tei:dateline | tei:closer">
+  <xsl:template match="tei:p[ancestor::tei:body and not(ancestor::tei:note) and not(ancestor::tei:footNote) and not(ancestor::tei:caption) and not(parent::tei:bibl) and not(parent::tei:quote)] | tei:dateline | tei:closer">
     <xsl:choose>
       <xsl:when test="@rend = 'right'">
         <div align="right" class="editionText">
@@ -769,8 +764,7 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-  <xsl:template
-    match="tei:p[not(parent::tei:quote) and (ancestor::tei:note or ancestor::tei:footNote or ancestor::tei:caption or parent::tei:bibl)]">
+  <xsl:template match="tei:p[not(parent::tei:quote) and (ancestor::tei:note or ancestor::tei:footNote or ancestor::tei:caption or parent::tei:bibl)]">
     <xsl:choose>
       <xsl:when test="@rend = 'right'">
         <div align="right">
@@ -863,9 +857,7 @@
     <a>
       <xsl:attribute name="class">reference-black</xsl:attribute>
       <xsl:attribute name="href">
-        <xsl:value-of
-          select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?document=entry__', @target, '.xml')"
-        />
+        <xsl:value-of select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?document=entry__', @target, '.xml')"/>
       </xsl:attribute>
       <xsl:choose>
         <xsl:when test="substring(@target, 9, 1) = '0'">

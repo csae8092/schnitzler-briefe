@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1912-09-21_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1912-09-21_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"> <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
@@ -101,4 +102,21 @@
       <revisionDesc status="proposed">
          <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
       </revisionDesc>
-   </teiHeader> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb/><rs ref="#pmb36482" type="place">Gandegg</rs><space unit="chars" quantity="1"/><date>21. IX.</date></dateline></opener><p>Dies <rs type="place" ref="#pmb36482" subtype="implied">Schloß</rs><space unit="chars" quantity="1"/><c rendition="#langesS">s</c>teht leer, wir habens gemietet und genießen ein letztes oder erstes Stück Sommer. Ich versuche – was Sie beim letzten Mal als Wunsch ausgesprochen haben, mein lieber Arthur: – zu erzählen. Der <rs type="work" subtype="implied" ref="#pmb43924">Stoff</rs> ist schön, ich will mir viel Mühe geben. Von Herzen </p><closer>Ihr <signed>Hugo</signed></closer></div></body> </text></TEI>
+   </teiHeader> <text type="letter"> <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <pb/>
+                        <rs ref="#pmb36482" type="place">Gandegg</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date>21. IX.</date>
+                    </dateline>
+                </opener>
+                <p>Dies <rs type="place" ref="#pmb36482" subtype="implied">Schloß</rs>
+                    <space unit="chars" quantity="1"/>
+                    <c rendition="#langesS">s</c>teht leer, wir habens gemietet und genießen ein letztes oder erstes Stück Sommer. Ich versuche – was Sie beim letzten Mal als Wunsch ausgesprochen haben, mein lieber Arthur: – zu erzählen. Der <rs type="work" subtype="implied" ref="#pmb43924">Stoff</rs> ist schön, ich will mir viel Mühe geben. Von Herzen </p>
+                <closer>Ihr <signed>Hugo</signed>
+                </closer>
+            </div>
+        </body> </text>
+</TEI>
