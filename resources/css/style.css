@@ -68,6 +68,12 @@ td p {
 
 
 
+.editionText td, th, tr {
+padding: -0rem;
+border-style: none;
+border-top: 0;}
+
+
 /*  ID selectors  */
 
  #loader {
@@ -407,7 +413,9 @@ div.col-md-2{
     font-size: large;
     font-family:serif;
     color:black;
-    
+    border :0px;
+    table-layout: fixed;
+    width: inherit !important;
 }
 
 .floating-boxes {
@@ -446,7 +454,8 @@ div.col-md-2{
 .kommentarhang{
 background-color: white;
 color: black;
-max-width: 850px;}
+max-width: 850px;
+width: 100vw;}
 
 .latintype {
     font-variant:small-caps;

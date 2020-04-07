@@ -128,7 +128,7 @@
                 </xsl:attribute>
             </xsl:if>
             <xsl:attribute name="class">
-                <xsl:text>table table-bordered table-striped table-condensed table-hover</xsl:text>
+                <xsl:text>table editionText</xsl:text>
             </xsl:attribute>
             <xsl:element name="tbody">
                 <xsl:apply-templates/>
@@ -306,85 +306,6 @@
         <xsl:for-each select=".//tei:msItem">
             <xsl:apply-templates select="."/>
         </xsl:for-each>
-    </xsl:template>
-    <xsl:template match="tei:msItem">
-        <xsl:variable name="x">
-            <xsl:number level="any" count="tei:msItem"/>
-        </xsl:variable>
-        <p id="msitem_{$x}"> Manuscript Item Nr: <xsl:value-of select="$x"/>
-        </p>
-        <table class="table table-condensed table-bordered">
-            <thead>
-                <tr>
-                    <th width="20%">Key</th>
-                    <th>Value</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>locus</th>
-                    <td>
-                        <xsl:apply-templates select="./tei:locus"/>
-                    </td>
-                </tr>
-                <xsl:if test="./tei:note">
-                    <tr>
-                        <th>notes</th>
-                        <td>
-                            <xsl:apply-templates select="./tei:note"/>
-                        </td>
-                    </tr>
-                </xsl:if>
-                <xsl:if test="./tei:author">
-                    <tr>
-                        <th>author</th>
-                        <td>
-                            <xsl:apply-templates select="./tei:author"/>
-                        </td>
-                    </tr>
-                </xsl:if>
-                <xsl:if test="./tei:title">
-                    <tr>
-                        <th>title</th>
-                        <td>
-                            <xsl:apply-templates select="./tei:title"/>
-                        </td>
-                    </tr>
-                </xsl:if>
-                <xsl:if test="./tei:incipit">
-                    <tr>
-                        <th>incipit</th>
-                        <td>
-                            <xsl:apply-templates select="./tei:incipit"/>
-                        </td>
-                    </tr>
-                </xsl:if>
-                <xsl:if test="./tei:explicit">
-                    <tr>
-                        <th>explicit</th>
-                        <td>
-                            <xsl:apply-templates select="./tei:explicit"/>
-                        </td>
-                    </tr>
-                </xsl:if>
-                <xsl:if test="./tei:finalRubric">
-                    <tr>
-                        <th>finalRubric</th>
-                        <td>
-                            <xsl:apply-templates select="./tei:finalRubric"/>
-                        </td>
-                    </tr>
-                </xsl:if>
-                <xsl:if test="./tei:bibl">
-                    <tr>
-                        <th>Bibliography</th>
-                        <td>
-                            <xsl:apply-templates select="./tei:bibl"/>
-                        </td>
-                    </tr>
-                </xsl:if>
-            </tbody>
-        </table>
     </xsl:template>
     <xsl:template match="tei:gi">
         <code>

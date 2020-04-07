@@ -315,7 +315,7 @@
         </xsl:attribute>
       </xsl:if>
       <xsl:attribute name="class">
-        <xsl:text>table table-bordered table-striped table-condensed table-hover</xsl:text>
+        <xsl:text>table editionText</xsl:text>
       </xsl:attribute>
       <xsl:element name="tbody">
         <xsl:apply-templates/>
