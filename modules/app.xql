@@ -234,17 +234,17 @@ for $title in ($entities, $terms)
                 let $after := $entity/following::text()[1]
                 return
                     <p>… {$before} <strong>
-<a href="{concat(app:hrefToDoc($title, $collection), "&amp;searchkey=", $indexSerachKey)}"> {$entity//text()[not(ancestor::tei:abbr)]}</a>
+<a href="{concat(app:hrefToDoc($title, $collection), "&amp;searchkey=", $indexSerachKey)}">{$entity//text()[not(ancestor::tei:abbr)]}</a>
 </strong> {$after}…<br/>
 </p>
     let $zitat := $title//tei:msIdentifier
     let $collection := app:getColName($title)
     return
             <tr>
-<td>{$docTitle}</td>
-<td>{$hits}</td>
-<td>{$snippet}<p style="text-align:right">{<a href="{concat(app:hrefToDoc($title, $collection), "&amp;searchkey=", $indexSerachKey)}">{app:getDocNameWithoutCountingNumberAndFileSuffix($title)}</a>}</p>
-</td>
+            <td>{$snippet}</td>
+<td><a href="{concat(app:hrefToDoc($title, $collection), "&amp;searchkey=", $indexSerachKey)}">{$docTitle}</a></td>
+<td><a href="{concat(app:hrefToDoc($title, $collection), "&amp;searchkey=", $indexSerachKey)}">{$hits}</a></td>
+
 </tr>
 };
 
