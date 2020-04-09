@@ -794,13 +794,13 @@
         <span class="gemination">mm</span>
     </xsl:template>
     <xsl:template match="tei:c[@rendition = '#gemination-m']">
-        <span class="gemination">mm</span>
+        <span class="gemination">m̅</span>
     </xsl:template>
     <xsl:template match="tei:c[@rendition = '#gemination-n']" mode="lemma">
         <span class="gemination">nn</span>
     </xsl:template>
     <xsl:template match="tei:c[@rendition = '#gemination-n']">
-        <span class="gemination">nn</span>
+        <span class="gemination">n̅</span>
     </xsl:template>
     <xsl:template match="tei:c[@rendition = '#prozent']" mode="lemma">
         %
