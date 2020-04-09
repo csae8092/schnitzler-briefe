@@ -5,7 +5,8 @@ Quellcode der Website mit den Briefwechseln zwischen dem österreichischen Schri
 Derzeit in Entwicklung. Veröffentlichung unter:
 https://schnitzler-briefe.acdh.oeaw.ac.at
 
-Die Edition stammt von Martin Anton Müller (@martinantonmueller) und Gerd-Hermann Susen. Die Web-Applikation basierend auf der DSE Base App (https://github.com/KONDE-AT/dsebaseapp) wurde unterstützt durch: 
+Die Edition stammt von Martin Anton Müller (@martinantonmueller) und Gerd-Hermann Susen. 
+Die Web-Applikation basierend auf der DSE Base App (https://github.com/KONDE-AT/dsebaseapp) wurde unterstützt durch: 
 * Peter Andorfer (@csae8092)
 * Ingo Börner (@ingoboerner)
 * Thomas Klampfl (@tklampfl)

@@ -828,4 +828,19 @@
             <xsl:value-of select="foo:gaps($anzahl - 1)"/>
         </xsl:if>
     </xsl:function>
+    <xsl:template match="tei:div[@type='image']|tei:figure">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="tei:graphic">
+        <div style="width:100%; text-align:center; padding-bottom: 1rem;">
+            <img >
+                <xsl:attribute name="src">
+                    <xsl:value-of select="concat(@url, '.jpg')"/>
+                </xsl:attribute>
+                <xsl:attribute name="width">
+                    <xsl:text>50%</xsl:text>
+                </xsl:attribute>
+            </img>
+        </div>
+    </xsl:template>
 </xsl:stylesheet>

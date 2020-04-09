@@ -87,8 +87,11 @@
                             </xsl:element>
                         </div>
                         <div class="card-body-iif">
+                            <xsl:variable name="facsimiles">
+                                <xsl:value-of select="distinct-values(descendant::tei:pb[not(starts-with(@facs, 'http') or starts-with(@facs, 'www.')) and not(preceding-sibling::tei:tp/@facs = @facs)]/@facs)"/>
+                            </xsl:variable>
                             <xsl:variable name="url-of-facsimile">
-                                <xsl:for-each select="descendant::tei:pb[not(starts-with(@facs, 'http') or starts-with(@facs, 'www.')) and not(preceding-sibling::tei:tp/@facs = @facs)]/@facs">
+                                <xsl:for-each select="tokenize($facsimiles, ' ')">
                                     <xsl:text>"https://iiif.acdh.oeaw.ac.at/schnitzler-briefe/</xsl:text>
                                     <xsl:value-of select="."/>
                                     <xsl:text>/info.json"</xsl:text>
@@ -825,4 +828,19 @@
             <xsl:value-of select="foo:gaps($anzahl - 1)"/>
         </xsl:if>
     </xsl:function>
+    <xsl:template match="tei:div[@type='image']|tei:figure">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="tei:graphic">
+        <div style="width:100%; text-align:center; padding-bottom: 1rem;">
+            <img >
+                <xsl:attribute name="src">
+                    <xsl:value-of select="concat(@url, '.jpg')"/>
+                </xsl:attribute>
+                <xsl:attribute name="width">
+                    <xsl:text>50%</xsl:text>
+                </xsl:attribute>
+            </img>
+        </div>
+    </xsl:template>
 </xsl:stylesheet>

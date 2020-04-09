@@ -687,24 +687,24 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    <xsl:template match="tei:p[ancestor::tei:body and not(ancestor::tei:note) and not(ancestor::tei:footNote) and not(ancestor::tei:caption) and not(parent::tei:bibl) and not(parent::tei:quote)]|tei:dateline|tei:closer">
+    <xsl:template match="tei:p[ancestor::tei:body and not(ancestor::tei:note) and not(ancestor::tei:footNote) and not(ancestor::tei:caption) and not(parent::tei:bibl) and not(parent::tei:quote)] | tei:dateline | tei:closer">
         <xsl:choose>
-            <xsl:when test="@rend='right'">
+            <xsl:when test="@rend = 'right'">
                 <p align="right" class="editionText">
                     <xsl:apply-templates/>
                 </p>
             </xsl:when>
-            <xsl:when test="@rend='left'">
+            <xsl:when test="@rend = 'left'">
                 <p align="left" class="editionText">
                     <xsl:apply-templates/>
                 </p>
             </xsl:when>
-            <xsl:when test="@rend='center'">
+            <xsl:when test="@rend = 'center'">
                 <p align="center" class="editionText">
                     <xsl:apply-templates/>
                 </p>
             </xsl:when>
-            <xsl:when test="@rend='inline'">
+            <xsl:when test="@rend = 'inline'">
                 <p class="inline editionText">
                     <xsl:apply-templates/>
                 </p>
@@ -721,9 +721,9 @@
                 </div>
             </xsl:when>
             <xsl:otherwise>
-                <p class="editionText">
+                <div class="editionText">
                     <xsl:apply-templates/>
-                </p>
+                </div>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
