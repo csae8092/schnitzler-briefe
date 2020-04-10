@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:foo="just some local crap" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0">
     <xsl:template match="tei:date[@*]"><!-- <abbr><xsl:attribute name="title"><xsl:value-of select="data(./@*)"/></xsl:attribute>-->
         <xsl:apply-templates/><!--</abbr>-->
@@ -326,7 +325,7 @@
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template><!-- Überschriften -->
-    <xsl:template match="tei:head">
+    <xsl:template match="tei:head[not(@type='sub')]">
         <xsl:if test="@xml:id[starts-with(., 'org') or starts-with(., 'ue')]">
             <a>
                 <xsl:attribute name="name">
@@ -347,7 +346,13 @@
                 <xsl:apply-templates/>
             </div>
         </h3>
-    </xsl:template><!--  Quotes / Zitate -->
+    </xsl:template>
+    <xsl:template match="tei:head[(@type='sub')]">
+        <h4>
+           <xsl:apply-templates/>
+        </h4>
+    </xsl:template>
+    <!--  Quotes / Zitate -->
     <xsl:template match="tei:q">
         <xsl:element name="i">
             <xsl:apply-templates/>
@@ -450,7 +455,7 @@
         </xsl:for-each>
     </xsl:template>
     <xsl:template match="tei:list">
-        <ul>
+        <ul class="editionText">
             <xsl:apply-templates/>
         </ul>
     </xsl:template>
