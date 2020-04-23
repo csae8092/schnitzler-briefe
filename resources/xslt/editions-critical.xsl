@@ -694,9 +694,17 @@
     <xsl:variable name="scribe">
       <xsl:value-of select="@scribe"/>
     </xsl:variable>
-    <xsl:text>[hs. </xsl:text>
-    <xsl:value-of select="foo:vorname-vor-nachname(//tei:correspDesc//tei:persName[@ref = $scribe])"/>
-    <xsl:text>:] </xsl:text>
+    <xsl:choose>
+      <xsl:when test="//tei:correspAction//tei:persName[@ref = $scribe]">
+        <xsl:text>[hs. </xsl:text>
+        <xsl:value-of select="foo:vorname-vor-nachname(//tei:correspAction//tei:persName[@ref = $scribe])"/>
+        <xsl:text>:] </xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:text>[Schreiberwechsel:] </xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+   
   </xsl:template>
   <xsl:function name="foo:vorname-vor-nachname">
     <xsl:param name="autorname"/>

@@ -1,4 +1,106 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1904-09-22_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"><teiHeader><fileDesc><titleStmt><title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title><title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 22. 9. 1904</title><author ref="#pmb11740">Hofmannsthal, Hugo von</author><editor><name>Müller, Martin Anton</name><name>Susen, Gerd-Hermann</name></editor><funder><name>FWF - Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>ASBW</edition><respStmt><resp>Transkription und Kommentierung</resp><name>Müller, Martin Anton</name><name>Susen, Gerd-Hermann</name></respStmt></editionStmt><publicationStmt><publisher>Austrian Academy of Sciences, Vienna</publisher><idno type="ASBW"/><availability status="free"><p>Copyright © 2019</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 43</idno></msIdentifier><physDesc><p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote><hi rend="latintype">Hugo</hi></quote>«. XXXX</p></physDesc></msDesc></witness></listWit><listBibl><biblStruct corresp="HvHAS"><monogr><author ref="#pmb11740">Hofmannsthal, Hugo</author><author ref="#pmb2121">Schnitzler, Arthur</author><title level="m">Briefwechsel</title><editor>Hg. Therese Nickl und Heinrich Schnitzler</editor><imprint><pubPlace>Frankfurt am Main</pubPlace><publisher>S. Fischer</publisher><date when="1964">1964</date></imprint><biblScope unit="pp">XXXX</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb11740">Hofmannsthal, Hugo von</persName><placeName ref="#pmb462">XXXX</placeName><date when="1904-09-22" n="01">22. 9. 1904</date></correspAction><correspAction type="received"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</ref><ref subtype="previous_letter" type="withinCorrespondence" target="1904-09-16_01">Schnitzler an Hofmannsthal, 16. 9. 1904</ref><ref subtype="next_letter" type="withinCorrespondence" target="1904-09-24_01">Schnitzler an Hofmannsthal, 24. 9. 1904</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab></refsDecl></encodingDesc><revisionDesc status="proposed"><change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change></revisionDesc></teiHeader><text type="letter"><body><div type="writingSession" n="1"><p><salute>lieber, </salute>bin wohl und rechtfleißig, bei hellem aber sehr kühlem Wetter. Bitte vielmals schicken Sie mir recht bald hieher – ich habe in den Abendstunden gar nichts zu lesen – womöglich: <rs ref="#pmb12170" type="person">H. Mann</rs>, <rs ref="#pmb31983" type="work">Herzogin</rs>, I u. II (Bd III <rs ref="#pmb31983" type="work">Venus</rs> habe ich) und das Heft der <rs ref="#pmb40042" type="work">Zukunft</rs>, worin <rs ref="#pmb12170" type="person">H.</rs> über <rs ref="#pmb30633" type="work">Elektra</rs><space unit="chars" quantity="1"/><rs type="work" subtype="implied" ref="#pmb43894">schrieb</rs>. Wenn das nicht möglich, so vielleicht »<rs ref="#pmb31981" type="work">Jagd nach Liebe</rs>«. Voraus dankend, von Herzen </p><closer><signed>Hugo.</signed></closer><postscript><p>P. S. Eben kommt die »<rs ref="#pmb40042" type="work">Zukunft</rs>«, also die nicht.</p></postscript></div></body></text></TEI>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1904-09-22_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"> <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 22. 9. 1904</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </editor>
+            <funder>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASBW</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
+            <idno type="ASBW"/>
+            <availability status="free">
+               <p>Copyright © 2019</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 43</idno>
+                     </msIdentifier>
+                     <physDesc><p>eh. Postkarte, schwarze Tinte. Von Schnitzler mit Bleistift die              Jahreszahl ergänzt: »<quote><date>904</date></quote>«. Von unbekannter              Hand mit Bleistift nummeriert: »224 255«</p><stamp n="1">              <placeName ref="#pmb850">Venezia <supplied>Ferrovia</supplied></placeName>              <date>22 9 <supplied>04</supplied></date>              <time>10 S</time>             </stamp><stamp n="2">              <placeName ref="#pmb68">18/1 Wien</placeName>              <date>24. 9. 04</date>              <time>2.V</time>              <action>Bestellt</action>             </stamp></physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HvHAS">
+                  <monogr>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefwechsel</title>
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1964">1964</date>
+                     </imprint>
+                     <biblScope unit="pp">202</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb462">Venedig</placeName>
+               <date when="1904-09-22" n="01">22. 9. 1904</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1904-09-24">24. 9. 1904</date>
+            </correspAction>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</ref>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1904-09-16_01">Schnitzler an Hofmannsthal, 16. 9. 1904</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1904-09-24_01">Schnitzler an Hofmannsthal, 24. 9. 1904</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <encodingDesc>
+         <refsDecl>
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only,
+               e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+               'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
+         </refsDecl>
+      </encodingDesc>
+      <revisionDesc status="proposed">
+         <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
+         <change who="GHS" when="2020-04-16">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00209.jpg"/> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00210.jpg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00209"/><hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><rs type="place" ref="#pmb50"><hi rend="latintype">Wien</hi></rs></addrLine><addrLine><rs ref="#pmb133" type="place"><hi rend="latintype">XVIII Spöttelgasse 7</hi>.</rs></addrLine><addrLine><rs ref="#pmb41240" type="place"><hi rend="latintype">Austria</hi></rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><date>22. 9</date></dateline></opener><p><salute><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00210"/>lieber, </salute>bin wohl und recht fleißig, bei hellem aber<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>ehr kühlem Wetter. Bitte vielmals<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>chicken Sie mir recht bald hieher – ich habe in den Abend<c rendition="#langesS">s</c>tunden gar nichts zu le<c rendition="#langesS">s</c>en – womöglich: <hi rend="latintype"><rs ref="#pmb12170" type="person">H. Mann</rs>, <rs ref="#pmb31983" type="work">Herzogin</rs></hi>, I u. II (<hi rend="latintype">Bd III <rs ref="#pmb31983" type="work">Venus</rs></hi> habe ich) und das Heft der <rs ref="#pmb40042" type="work">Zukunft</rs>, worin <rs ref="#pmb12170" type="person"><hi rend="latintype">H</hi>.</rs> über <rs ref="#pmb30633" type="work"><hi rend="latintype">Elektra</hi></rs><space unit="chars" quantity="1"/><rs type="work" subtype="implied" ref="#pmb43894"><c rendition="#langesS">s</c>chrieb</rs>. Wenn das nicht möglich, <tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>o vielleicht »<rs ref="#pmb31981" type="work"><hi rend="latintype">Jagd nach Liebe</hi></rs>«. Voraus dankend, von Herzen</p><closer><signed>Hugo.</signed></closer><postscript><p><anchor type="textConst" xml:id="TL1904-09-22_01_Hofmannsthal_AS-"/><hi rend="latintype">P. S.</hi> Eben ko<c rendition="#gemination-m"/>t die »<rs ref="#pmb40042" type="work">Zukunft</rs>«, al<c rendition="#langesS">s</c>o die nicht.<note type="textConst" xml:id="TL1904-09-22_01_Hofmannsthal_AS-h">quer am rechten Rand</note></p></postscript></div></body> </text></TEI>

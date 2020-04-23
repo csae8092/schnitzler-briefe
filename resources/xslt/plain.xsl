@@ -118,7 +118,7 @@
                                 <xsl:when test="not(//tei:teiHeader[1]/tei:revisionDesc[1]/@status = 'approved')">
                                     <li class="nav-item dropdown">
                                         <a class="nav-link" data-toggle="modal" data-target="#qualitaet">
-                                            <span style="color: orange;">QUALITÄT: ENTWURF</span>
+                                            <span style="color: orange;">ENTWURF</span>
                                         </a>
                                     </li>
                                 </xsl:when>
@@ -158,6 +158,7 @@
                         </ul>
                     </div>
                 </nav>
+                
             </div>
         </div>
         <div class="card-body-anhang">
@@ -223,7 +224,7 @@
                     <div class="modal-body">
                         <p>Dieses Korrespondenzstück wurde noch nicht ausreichend mit dem Original
                             abgeglichen. Es entspricht damit noch nicht den angestrebten
-                            Qualitätsstandards und sollte derzeit noch nicht als Zitatvorlage
+                            Qualitätsstandards und sollte derzeit nicht als Zitatvorlage
                             dienen. </p>
                     </div>
                 </div>
@@ -833,7 +834,7 @@
     </xsl:template>
     <xsl:template match="tei:graphic">
         <div style="width:100%; text-align:center; padding-bottom: 1rem;">
-            <img >
+            <img>
                 <xsl:attribute name="src">
                     <xsl:value-of select="concat(@url, '.jpg')"/>
                 </xsl:attribute>
