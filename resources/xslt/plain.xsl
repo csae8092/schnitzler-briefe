@@ -810,6 +810,9 @@
     <xsl:template match="tei:c[@rendition = '#gemination-m']" mode="lemma">
         <span class="gemination">mm</span>
     </xsl:template>
+    <xsl:template match="tei:space[@unit='chars' and @quantity='1']" mode="lemma">
+        <xsl:text> </xsl:text>
+    </xsl:template>
     <xsl:template match="tei:c[@rendition = '#gemination-n']" mode="lemma">
         <span class="gemination">nn</span>
     </xsl:template>
