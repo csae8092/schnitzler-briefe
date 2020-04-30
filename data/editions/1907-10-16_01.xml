@@ -48,7 +48,7 @@
                         <repository>University Library</repository>
                         <idno>Schnitzler, B 43</idno>
                      </msIdentifier>
-                     <physDesc><p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>                <hi rend="latintype">Hugo</hi>              </quote>«. XXXX</p></physDesc>
+                     <physDesc><p>eh. Postkarte, schwarze Tinte. Von Schnitzler mit Bleistift datiert:                 »<quote><date>16/10 907</date></quote>«.Von unbekannter Hand mit              Bleistift nummeriert: »<quote>285</quote>«.</p><stamp n="1">              <placeName ref="#pmb173">Rodaun</placeName>              <date>16. X. 07</date>              <time>12</time>             </stamp></physDesc>
                   </msDesc>
                </witness>
             </listWit>
@@ -64,7 +64,7 @@
                         <publisher>S. Fischer</publisher>
                         <date when="1964">1964</date>
                      </imprint>
-                     <biblScope unit="pp">XXXX</biblScope>
+                     <biblScope unit="pp">232</biblScope>
                   </monogr>
                </biblStruct>
             </listBibl>
@@ -76,8 +76,8 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>                
-               <!--<placeName ref="#50">Wien</placeName>-->
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb173">Rodaun</placeName>
                <date when="1907-10-16" n="01">16. 10. 1907</date>
             </correspAction>
             <correspAction type="received">
@@ -91,15 +91,15 @@
             </correspContext>
          </correspDesc>
       </profileDesc>
-      <encodingDesc>          
-         <refsDecl>             
-            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>          
-         </refsDecl>       
+      <encodingDesc>
+         <refsDecl>
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only,
+               e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+               'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
+         </refsDecl>
       </encodingDesc>
       <revisionDesc status="proposed">
          <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
+         <change who="GHS" when="2020-04-25">Durchsicht</change>
       </revisionDesc>
-   </teiHeader> <text type="letter"> <body><div type="writingSession" n="1"><p>Also wir kommen ganz bestimmt Montag gegen <time>¾ 7</time>. <date>Dienstag</date> reise ich.</p><closer>Herzlich<lb/><signed>Hugo.</signed></closer></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00281.jpg"/> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00282.jpg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00281"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs type="place" ref="#pmb50">Wien</rs></addrLine><addrLine><rs ref="#pmb133" type="place">XVII Spöttelgasse 7</rs></addrLine><addrLine>neben <rs type="place" ref="#pmb43882">Türkenschanzstrasse</rs>. </addrLine></address></div><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00282"/>Al<c rendition="#langesS">s</c>o wir ko<c rendition="#gemination-m"/>en ganz be<c rendition="#langesS">s</c>timmt Montag<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>chon gegen <time>¾ 7</time>. <date>Dienstag</date> rei<c rendition="#langesS">s</c>e ich.</p><closer>Herzlich<lb/><signed>Hugo.</signed></closer></div></body> </text></TEI>

@@ -2,7 +2,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 27. 10. 1909</title>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [27. 10. 1909]</title>
             <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -48,7 +48,7 @@
                         <repository>University Library</repository>
                         <idno>Schnitzler, B 43</idno>
                      </msIdentifier>
-                     <physDesc><p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>                <hi rend="latintype">Hugo</hi>              </quote>«. XXXX</p></physDesc>
+                     <physDesc><p>hs. Telegramm aus <rs type="place" ref="#pmb173">Rodaun</rs>. Von Schnitzler              mit Bleistift datiert: »<quote>27/X 09</quote>«. Von unbekannter Hand              mit Bleistift nummeriert: »<quote>310</quote>«.</p></physDesc>
                   </msDesc>
                </witness>
             </listWit>
@@ -64,7 +64,7 @@
                         <publisher>S. Fischer</publisher>
                         <date when="1964">1964</date>
                      </imprint>
-                     <biblScope unit="pp">XXXX</biblScope>
+                     <biblScope unit="pp">246</biblScope>
                   </monogr>
                </biblStruct>
             </listBibl>
@@ -91,15 +91,15 @@
             </correspContext>
          </correspDesc>
       </profileDesc>
-      <encodingDesc>          
-         <refsDecl>             
-            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>          
-         </refsDecl>       
+      <encodingDesc>
+         <refsDecl>
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only,
+               e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+               'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
+         </refsDecl>
       </encodingDesc>
       <revisionDesc status="proposed">
          <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
+         <change who="GHS" when="2020-04-27">Durchsicht</change>
       </revisionDesc>
-   </teiHeader> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right">[<rs ref="#pmb173" type="place">Rodaun</rs>, 27. Oktober 1909]</dateline></opener><p>Freue mich riesig auf Montag </p><closer><signed>Hugo</signed></closer></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00003-000-00011"/> <graphic url="MS-SCHNITZLER-B-00043-B-00003-000-00012"/> </facsimile> <text type="telegram"> <body><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00043-B-00003-000-00011"/>Freue mich rie<c rendition="#langesS">s</c>ig auf montag</p><closer><signed>Hugo</signed></closer></div></body> </text></TEI>

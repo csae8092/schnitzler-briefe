@@ -48,7 +48,7 @@
                         <repository>University Library</repository>
                         <idno>Schnitzler, B 43</idno>
                      </msIdentifier>
-                     <physDesc><p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>                <hi rend="latintype">Hugo</hi>              </quote>«. XXXX</p></physDesc>
+                     <physDesc><p>eh. Bildpostkarte, Bleistift. Motiv: »<quote><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00306"/><rs type="place" ref="#pmb30">Salzburg</rs> – <rs ref="#pmb41187" type="place">Kiosk                 Tomaselli</rs>.</quote>«. Von Schnitzler mit Bleistift beschriftet:                »<quote>Hofma</quote>«. Von unbekannter Hand mit Bleistift nummeriert:                »<quote>328 298</quote>«.</p><stamp n="1">              <placeName ref="#pmb30">Salzburg 2</placeName>              <date>11. VII. 08</date>              <time>6</time>             </stamp></physDesc>
                   </msDesc>
                </witness>
             </listWit>
@@ -64,7 +64,7 @@
                         <publisher>S. Fischer</publisher>
                         <date when="1964">1964</date>
                      </imprint>
-                     <biblScope unit="pp">XXXX</biblScope>
+                     <biblScope unit="pp">237</biblScope>
                   </monogr>
                </biblStruct>
             </listBibl>
@@ -77,12 +77,12 @@
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName ref="#pmb30">XXXX</placeName>
+               <placeName ref="#pmb30">Salzburg</placeName>
                <date when="1908-07-11" n="01">11. 7. 1908</date>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-               <placeName ref="#pmb50">Wien</placeName>
+               <placeName ref="#pmb988">Seis am Schlern</placeName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</ref>
@@ -91,15 +91,15 @@
             </correspContext>
          </correspDesc>
       </profileDesc>
-      <encodingDesc>          
-         <refsDecl>             
-            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>          
-         </refsDecl>       
+      <encodingDesc>
+         <refsDecl>
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only,
+               e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+               'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
+         </refsDecl>
       </encodingDesc>
       <revisionDesc status="proposed">
          <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
+         <change who="GHS" when="2020-04-27">Durchsicht</change>
       </revisionDesc>
-   </teiHeader> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><date>11. VII.</date></dateline></opener><p>Wie lange waren wir schon nicht hier zusammen! Ich gehe (weiterarbeitend) heute in die <rs ref="#pmb573" type="place">Fusch</rs>, von wo ich Ihnen schreibe. Herzlichst</p><closer><signed>Hugo.</signed></closer></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00305.jpg"/> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00306.jpg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00305"/><hi rend="latintype">Herrn</hi></addrLine><addrLine><hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><rs type="place" ref="#pmb988"><hi rend="latintype">Seis am Schlern</hi></rs></addrLine><addrLine><rs ref="#pmb467" type="place"><hi rend="latintype">Villa Heufler</hi></rs></addrLine><addrLine><rs ref="#pmb969" type="place"><hi rend="latintype">Süd Tirol</hi></rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00306"/><date>11. VII.</date></dateline></opener><p>Wie lange waren wir<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>chon nicht hier zu<c rendition="#langesS">s</c>a<c rendition="#gemination-m"/>en!</p><p>Ich gehe (weiterarbeitend) heute in die <rs ref="#pmb573" type="place">Fu<c rendition="#langesS">s</c>ch</rs>, von wo ich Ihnen<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>chreibe.</p><closer> Herzlich<c rendition="#langesS">s</c>t <signed>Hugo.</signed></closer></div></body> </text></TEI>

@@ -2,7 +2,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 30. 11. 1911</title>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [30. 11. 1911]</title>
             <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -48,7 +48,7 @@
                         <repository>University Library</repository>
                         <idno>Schnitzler, B 43</idno>
                      </msIdentifier>
-                     <physDesc><p>eh. Brief, 1 Bl., 1 S. Von Schnitzler beschriftet: »<quote>                <hi rend="latintype">Hugo</hi>              </quote>«. XXXX</p></physDesc>
+                     <physDesc><p>ms. Telegramm aus <rs type="place" ref="#pmb168">Berlin</rs>. Von Schnitzler              mit Bleistift datiert: »<quote>30/12 10</quote>«. Von unbekannter Hand              mit Bleistift nummeriert: »<quote>334</quote>«.</p></physDesc>
                   </msDesc>
                </witness>
             </listWit>
@@ -64,7 +64,7 @@
                         <publisher>S. Fischer</publisher>
                         <date when="1964">1964</date>
                      </imprint>
-                     <biblScope unit="pp">XXXX</biblScope>
+                     <biblScope unit="pp">264</biblScope>
                   </monogr>
                </biblStruct>
             </listBibl>
@@ -77,8 +77,8 @@
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
-               <placeName ref="#pmb168">XXXX</placeName>
-               <date when="1911-11-30" n="01">30. 11. 1911</date>
+               <placeName ref="#pmb168">Berlin</placeName>
+               <date when="1911-11-30" n="01">[30. 11. 1911]</date>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -91,15 +91,15 @@
             </correspContext>
          </correspDesc>
       </profileDesc>
-      <encodingDesc>          
-         <refsDecl>             
-            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>          
-         </refsDecl>       
+      <encodingDesc>
+         <refsDecl>
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only,
+               e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+               'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
+         </refsDecl>
       </encodingDesc>
       <revisionDesc status="proposed">
          <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
+         <change who="GHS" when="2020-04-27">Durchsicht</change>
       </revisionDesc>
-   </teiHeader> <text type="letter"> <body><div type="writingSession" n="1"><p>Danke herzlichst für so gute liebe Worte in etwas bänglichem Moment</p><closer><signed>Hugo</signed></closer></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00003-000-00063"/> </facsimile> <text type="telegram"> <body><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00043-B-00003-000-00063"/>danke herzlichst für so gute liebe Worte in etwas baenglichem <rs type="work" ref="#pmb30129" subtype="implied">Moment</rs></p><closer><signed>Hugo</signed></closer></div></body> </text></TEI>
