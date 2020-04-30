@@ -472,6 +472,25 @@
             </li>
         </xsl:for-each>
     </xsl:template>
+    <xsl:template match="tei:div[@type='image']|tei:figure">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="tei:graphic">
+        <div style="width:100%; text-align:center; padding-bottom: 1rem;">
+            <img>
+                <xsl:attribute name="src">
+                    <xsl:choose>
+                        <xsl:when test="not(ends-with(@url, '.jpg')) or not(ends-with(@url, '.png'))">
+                            <xsl:value-of select="@url"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="concat(@url, '.jpg')"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:attribute>
+            </img>
+        </div>
+    </xsl:template>
     <xsl:template match="tei:ptr">
         <xsl:variable name="x">
             <xsl:value-of select="./@target"/>
