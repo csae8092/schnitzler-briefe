@@ -157,6 +157,14 @@ $(document).ready(function(){
 						$('.modal-body').append('<div>' + labelOfRelation + ' <a href="' + linkhref + '">' + firstname + " " + targetOfRelation + '</a></div>');
 					}
 				}
+				// persons relations
+				for (let i = 0; i < data.relations.persons.length; i++){
+					let idOfRelation = data.relations.persons[i].target.id;
+					let labelOfRelation = data.relations.persons[i].relation_type.label;
+					let targetOfRelation = data.relations.persons[i].target.name;
+					let linkhref = '/exist/apps/schnitzler-briefe/pages/hits.html?searchkey=pmb' + idOfRelation;
+					$('.modal-body').append('<div>' + labelOfRelation + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
+				}
 				// places relations
 				for (let i = 0; i < data.relations.places.length; i++){
 					let idOfRelation = data.relations.places[i].target.id;
@@ -190,7 +198,7 @@ $(document).ready(function(){
 					$('.modal-body').append('<div>' + labelOfRelation + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
 				}
 			}
-			if (data.entity_type === 'Institution' || data.entity_type === 'Places' || data.entity_type === 'Persons'){
+			if (data.entity_type === 'Institution' || data.entity_type === 'Places' || data.entity_type === 'Persons' || data.entity_type === 'Events'){
 				// places relations
 				for (let i = 0; i < data.relations.places.length; i++){
 					let idOfRelation = data.relations.places[i].target.id;

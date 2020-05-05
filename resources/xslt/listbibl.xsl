@@ -17,6 +17,7 @@
             <div class="modal" id="myModal" role="dialog">
                 <div class="modal-dialog">
                     <div class="modal-content">
+                        <xsl:text>ARSCH</xsl:text>
                         <xsl:choose>
                             <xsl:when test="$entity">
                                 <xsl:variable name="entity" select="//tei:bibl[@xml:id=$entiyID]"/>

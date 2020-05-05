@@ -316,10 +316,10 @@ declare function app:listPlace($node as node(), $model as map(*)) {
 <td>
 <a href="{concat($hitHtml, data($place/@xml:id))}">{functx:capitalize-first($place/tei:placeName[1])}</a>
 </td>
-<td>{for $altName in $place//tei:placeName return <li>{$altName/text()}</li>}</td>
-<td>{$place//tei:idno/text()}</td>
 <td>{$lat}</td>
 <td>{$lng}</td>
+<td></td>
+<td></td>
 </tr>
 };
 

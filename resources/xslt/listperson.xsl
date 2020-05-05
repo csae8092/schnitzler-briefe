@@ -22,13 +22,46 @@
                                 <xsl:variable name="entity" select="//tei:person[@xml:id=$entiyID]"/>
                                 <h3 class="modal-title">
                                     <xsl:choose>
+                                        <xsl:when test="//$entity//tei:surname[1]/text() and //$entity//tei:forename[1]/text()">
+                                            <xsl:value-of select="$entity//tei:forename[1]/text()"/>
+                                            <xsl:text> </xsl:text>
+                                            <xsl:value-of select="$entity//tei:surname[1]/text()"/>
+                                        </xsl:when>
                                         <xsl:when test="//$entity//tei:surname[1]/text()">
                                             <xsl:value-of select="$entity//tei:surname[1]/text()"/>
+                                        </xsl:when>
+                                        <xsl:when test="//$entity//tei:forename[1]/text()">
+                                            <xsl:value-of select="$entity//tei:forename[1]/text()"/>
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <xsl:value-of select="$entity//tei:persName[1]"/>
                                         </xsl:otherwise>
                                     </xsl:choose>
+                                    <small>
+                                    <xsl:choose>
+                                        <!--<xsl:when test="//$entity//tei:birth[1]/tei:date[1]/text() = //$entity//tei:death[1]/tei:date[1]/text()">
+                                            <br/>
+                                            <xsl:text>Vorkommen: </xsl:text>
+                                            <xsl:value-of select="//$entity//tei:birth[1]/tei:date[1]/text()"/>
+                                        </xsl:when>-->
+                                        <xsl:when test="//$entity//tei:birth[1]/tei:date[1]/text() and //$entity//tei:death[1]/tei:date[1]/text()">
+                                            <br/>
+                                            <xsl:value-of select="//$entity//tei:birth[1]/tei:date[1]/text()"/>
+                                            <xsl:text> – </xsl:text>
+                                            <xsl:value-of select="//$entity//tei:death[1]/tei:date[1]/text()"/>
+                                        </xsl:when>
+                                        <xsl:when test="//$entity//tei:birth[1]/tei:date[1]/text()">
+                                            <br/>
+                                            <xsl:text>* </xsl:text>
+                                            <xsl:value-of select="//$entity//tei:birth[1]/tei:date[1]/text()"/>
+                                        </xsl:when>
+                                        <xsl:when test="//$entity//tei:death[1]/tei:date[1]/text()">
+                                            <br/>
+                                            <xsl:text>† </xsl:text>
+                                            <xsl:value-of select="//$entity//tei:death[1]/tei:date[1]/text()"/>
+                                        </xsl:when>
+                                    </xsl:choose>
+                                    </small>
                                     <br/>
                                     <small>
                                         <a>
@@ -44,7 +77,7 @@
                                     <span aria-hidden="true">x</span>
                                 </button>
                             </div>
-                            <div class="modal-body">
+                            <!--<div class="modal-body">
                                 <table class="table table-boardered table-hover">
                                     <xsl:variable name="entity" select="//tei:person[@xml:id=$entiyID]"/>
                                     <xsl:for-each select="$entity//tei:persName">
@@ -130,8 +163,8 @@
                                             </td>
                                         </tr>
                                     </xsl:if>
-                                </table><!--<div><h4 data-toggle="collapse" data-target="#more"> more (tei structure)</h4><div id="more" class="collapse"><xsl:choose><xsl:when test="//*[@xml:id=$entiyID or @id=$entiyID]"><xsl:apply-templates select="//*[@xml:id=$entiyID or @id=$entiyID]" mode="start"/></xsl:when><xsl:otherwise>Looks like there exists no index entry for ID<strong><xsl:value-of select="concat(' ', $entiyID)"/></strong></xsl:otherwise></xsl:choose></div></div>-->
-                            </div>
+                                </table><!-\-<div><h4 data-toggle="collapse" data-target="#more"> more (tei structure)</h4><div id="more" class="collapse"><xsl:choose><xsl:when test="//*[@xml:id=$entiyID or @id=$entiyID]"><xsl:apply-templates select="//*[@xml:id=$entiyID or @id=$entiyID]" mode="start"/></xsl:when><xsl:otherwise>Looks like there exists no index entry for ID<strong><xsl:value-of select="concat(' ', $entiyID)"/></strong></xsl:otherwise></xsl:choose></div></div>-\->
+                            </div>-->
                         </xsl:when>
                         <xsl:otherwise>
                             <div class="modal-header">
@@ -139,9 +172,9 @@
                                     <span class="fa fa-times"/>
                                 </button>
                                 <h3 class="modal-title">
-                                    Looks like there doesn't exist an index entry <strong>
+                                    Upps! Hier scheint der Index-Eintrag für <strong>
                                         <xsl:value-of select="$entiyID"/>
-                                    </strong> for the entity you were looking for  
+                                    </strong> zu fehlen.  
                                 </h3>
                             </div>
                         </xsl:otherwise>

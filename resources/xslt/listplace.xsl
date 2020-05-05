@@ -39,7 +39,7 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <table class="table table-boardered table-hover">
+                                    <!--<table class="table table-boardered table-hover">
                                         <tr>
                                             <th>Name</th>
                                             <td>
@@ -77,7 +77,7 @@
                                                 </td>
                                             </tr>
                                         </xsl:if>
-                                    </table><!--<div><h4 data-toggle="collapse" data-target="#more"> more (tei structure)</h4><div id="more" class="collapse"><xsl:choose><xsl:when test="//*[@xml:id=$entiyID or @id=$entiyID]"><xsl:apply-templates select="//*[@xml:id=$entiyID or @id=$entiyID]" mode="start"/></xsl:when><xsl:otherwise>Looks like there exists no index entry for ID<strong><xsl:value-of select="concat(' ', $entiyID)"/></strong></xsl:otherwise></xsl:choose></div></div>-->
+                                    </table>--><!--<div><h4 data-toggle="collapse" data-target="#more"> more (tei structure)</h4><div id="more" class="collapse"><xsl:choose><xsl:when test="//*[@xml:id=$entiyID or @id=$entiyID]"><xsl:apply-templates select="//*[@xml:id=$entiyID or @id=$entiyID]" mode="start"/></xsl:when><xsl:otherwise>Looks like there exists no index entry for ID<strong><xsl:value-of select="concat(' ', $entiyID)"/></strong></xsl:otherwise></xsl:choose></div></div>-->
                                 </div>
                             </xsl:when>
                         </xsl:choose>

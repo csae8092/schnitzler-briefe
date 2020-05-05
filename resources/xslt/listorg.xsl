@@ -24,7 +24,16 @@
                                     <h3 class="modal-title">
                                         <xsl:value-of select="$entity/tei:orgName[1]"/>  
                                 <br/>
-                                        <small><!-- -->
+                                        <small>
+                                            <xsl:if test="$entity/tei:desc/tei:gloss">
+                                                <xsl:value-of select="$entity/tei:desc/tei:gloss" separator=", "/>
+                                                <br/>
+                                            </xsl:if>
+                                                <xsl:if test="$entity/tei:place/tei:placeName">
+                                                    <xsl:value-of select="$entity/tei:place/tei:placeName"/>
+                                                <br/>
+                                                </xsl:if>
+                                                                                       
                                             <a>
                                                 <xsl:attribute name="href">
                                                     <xsl:value-of select="concat('hits.html?searchkey=', $entiyID)"/>

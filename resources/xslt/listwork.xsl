@@ -22,9 +22,33 @@
                                 <xsl:variable name="entity" select="//tei:bibl[@xml:id=$entiyID]"/>
                                 <div class="modal-header">
                                     <h3 class="modal-title">
-                                        <xsl:value-of select="$entity"/>  
-                                    <br/>
-                                        <small><!-- -->
+                                        <xsl:if test="$entity/tei:author[@role='author']">
+                                            <small>
+                                                <xsl:value-of select="concat($entity/tei:author[@role='author']/tei:forename, ' ', $entity/tei:author[@role='author']/tei:surname)" separator=", "/>
+                                            </small>
+                                            <br/>
+                                        </xsl:if>
+                                        <xsl:value-of select="$entity//tei:title/text()"/>
+                                        <small>
+                                            <xsl:variable name="date" select="$entity//tei:date"/>
+                                            
+                                            <xsl:choose>
+                                                <xsl:when test="$date/@from-custom and $date/@to-custom and not($date/@from-custom = $date/@to-custom)">
+                                                    <br/>
+                                                    <xsl:value-of select="$date/@from-custom"/>
+                                                    <xsl:text>–</xsl:text>
+                                                    <xsl:value-of select="$date/@to-custom"/>
+                                                </xsl:when>
+                                                <xsl:when test="$date/@from-custom">
+                                                    <br/>
+                                                    <xsl:value-of select="$date/@from-custom"/>
+                                                </xsl:when>
+                                                <xsl:when test="$date/@when-custom">
+                                                    <br/>
+                                                    <xsl:value-of select="$date/@when-custom"/>
+                                                </xsl:when>
+                                            </xsl:choose>
+                                            <br/>
                                             <a>
                                                 <xsl:attribute name="href">
                                                     <xsl:value-of select="concat('hits.html?searchkey=', $entiyID)"/>
@@ -39,35 +63,6 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <table class="table table-boardered table-hover">
-                                        <tr>
-                                            <th>Name</th>
-                                            <td>
-                                                <xsl:value-of select="//tei:bibl[@xml:id=$entiyID]"/>
-                                            </td>
-                                        </tr>
-                                        <xsl:if test="$entity/tei:idno[@type='URL']">
-                                            <tr>
-                                                <th>URL:</th>
-                                                <td>
-                                                    <a>
-                                                        <xsl:attribute name="href">
-                                                            <xsl:value-of select="$entity/tei:idno[@type='URL']/text()"/>
-                                                        </xsl:attribute>
-                                                        <xsl:value-of select="$entity/tei:idno[@type='URL']/text()"/>
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                        </xsl:if>
-                                        <xsl:if test="$entity/tei:idno">
-                                            <tr>
-                                                <th>URL:</th>
-                                                <td>
-                                                    <xsl:value-of select="$entity/tei:idno/text()"/>
-                                                </td>
-                                            </tr>
-                                        </xsl:if>
-                                    </table><!--<div><h4 data-toggle="collapse" data-target="#more"> more (tei structure)</h4><div id="more" class="collapse"><xsl:choose><xsl:when test="//*[@xml:id=$entiyID or @id=$entiyID]"><xsl:apply-templates select="//*[@xml:id=$entiyID or @id=$entiyID]" mode="start"/></xsl:when><xsl:otherwise>Looks like there exists no index entry for ID<strong><xsl:value-of select="concat(' ', $entiyID)"/></strong></xsl:otherwise></xsl:choose></div></div>-->
                                 </div>
                             </xsl:when>
                         </xsl:choose>
