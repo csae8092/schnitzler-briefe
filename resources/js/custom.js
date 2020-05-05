@@ -143,7 +143,7 @@ $(document).ready(function(){
 							let birth = data.start_date;
 							let death = data.end_date;
 							let idOfPerson = data.id;
-							let linkhref = '/exist/apps/schnitzler-briefe/pages/hits.html?searchkey=pmb' + idOfPerson;
+							let linkhref = '/pages/hits.html?searchkey=pmb' + idOfPerson;
 							$('.modal-body').append('<div><a href="' + linkhref + '">' + firstName + ' ' + surname + '</a></div>');
 							$('.modal-body').append('<div>' + birth + " - " + death + '</div>');
 						});
@@ -153,7 +153,7 @@ $(document).ready(function(){
 						let labelOfRelation = data.relations.persons[i].relation_type.label;
 						let targetOfRelation = data.relations.persons[i].target.name;
 						let firstname = data.relations.persons[i].target.first_name;
-						let linkhref = '/exist/apps/schnitzler-briefe/pages/hits.html?searchkey=pmb' + idOfRelation;
+						let linkhref = '/pages/hits.html?searchkey=pmb' + idOfRelation;
 						$('.modal-body').append('<div>' + labelOfRelation + ' <a href="' + linkhref + '">' + firstname + " " + targetOfRelation + '</a></div>');
 					}
 				}
@@ -162,7 +162,7 @@ $(document).ready(function(){
 					let idOfRelation = data.relations.persons[i].target.id;
 					let labelOfRelation = data.relations.persons[i].relation_type.label;
 					let targetOfRelation = data.relations.persons[i].target.name;
-					let linkhref = '/exist/apps/schnitzler-briefe/pages/hits.html?searchkey=pmb' + idOfRelation;
+					let linkhref = '/pages/hits.html?searchkey=pmb' + idOfRelation;
 					$('.modal-body').append('<div>' + labelOfRelation + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
 				}
 				// places relations
@@ -170,7 +170,7 @@ $(document).ready(function(){
 					let idOfRelation = data.relations.places[i].target.id;
 					let labelOfRelation = data.relations.places[i].relation_type.label;
 					let targetOfRelation = data.relations.places[i].target.name;
-					let linkhref = '/exist/apps/schnitzler-briefe/pages/hits.html?searchkey=pmb' + idOfRelation;
+					let linkhref = '/pages/hits.html?searchkey=pmb' + idOfRelation;
 					$('.modal-body').append('<div>' + labelOfRelation + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
 				}
 				// events relations
@@ -178,7 +178,7 @@ $(document).ready(function(){
 					let idOfRelation = data.relations.events[i].target.id;
 					let labelOfRelation = data.relations.events[i].relation_type.label;
 					let targetOfRelation = data.relations.events[i].target.name;
-					let linkhref = '/exist/apps/schnitzler-briefe/pages/hits.html?searchkey=pmb' + idOfRelation;
+					let linkhref = '/pages/hits.html?searchkey=pmb' + idOfRelation;
 					$('.modal-body').append('<div>' + labelOfRelation + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
 				}
 				// works relations
@@ -186,7 +186,7 @@ $(document).ready(function(){
 					let idOfRelation = data.relations.works[i].target.id;
 					let labelOfRelation = data.relations.works[i].relation_type.label;
 					let targetOfRelation = data.relations.works[i].target.name;
-					let linkhref = '/exist/apps/schnitzler-briefe/pages/hits.html?searchkey=pmb' + idOfRelation;
+					let linkhref = '/pages/hits.html?searchkey=pmb' + idOfRelation;
 					$('.modal-body').append('<div>' + labelOfRelation + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
 				}
 				// institutions relations
@@ -194,7 +194,7 @@ $(document).ready(function(){
 					let idOfRelation = data.relations.institutions[i].target.id;
 					let labelOfRelation = data.relations.institutions[i].relation_type.label;
 					let targetOfRelation = data.relations.institutions[i].target.name;
-					let linkhref = '/exist/apps/schnitzler-briefe/pages/hits.html?searchkey=pmb' + idOfRelation;
+					let linkhref = '/pages/hits.html?searchkey=pmb' + idOfRelation;
 					$('.modal-body').append('<div>' + labelOfRelation + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
 				}
 			}
@@ -204,7 +204,7 @@ $(document).ready(function(){
 					let idOfRelation = data.relations.places[i].target.id;
 					let labelOfRelation = data.relations.places[i].relation_type.label;
 					let targetOfRelation = data.relations.places[i].target.name;
-					let linkhref = '/exist/apps/schnitzler-briefe/pages/hits.html?searchkey=pmb' + idOfRelation;
+					let linkhref = '/pages/hits.html?searchkey=pmb' + idOfRelation;
 					$('.modal-body').append('<div>' + labelOfRelation + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
 				}
 				// events relations
@@ -212,7 +212,7 @@ $(document).ready(function(){
 					let idOfRelation = data.relations.events[i].target.id;
 					let labelOfRelation = data.relations.events[i].relation_type.label;
 					let targetOfRelation = data.relations.events[i].target.name;
-					let linkhref = '/exist/apps/schnitzler-briefe/pages/hits.html?searchkey=pmb' + idOfRelation;
+					let linkhref = '/pages/hits.html?searchkey=pmb' + idOfRelation;
 					$('.modal-body').append('<div>' + labelOfRelation + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
 				}
 				// works relations
@@ -220,7 +220,7 @@ $(document).ready(function(){
 					let idOfRelation = data.relations.works[i].target.id;
 					let labelOfRelation = data.relations.works[i].relation_type.label;
 					let targetOfRelation = data.relations.works[i].target.name;
-					let linkhref = '/exist/apps/schnitzler-briefe/pages/hits.html?searchkey=pmb' + idOfRelation;
+					let linkhref = '/pages/hits.html?searchkey=pmb' + idOfRelation;
 					$('.modal-body').append('<div>' + labelOfRelation + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
 				}
 				// institutions relations
@@ -228,7 +228,7 @@ $(document).ready(function(){
 					let idOfRelation = data.relations.institutions[i].target.id;
 					let labelOfRelation = data.relations.institutions[i].relation_type.label;
 					let targetOfRelation = data.relations.institutions[i].target.name;
-					let linkhref = '/exist/apps/schnitzler-briefe/pages/hits.html?searchkey=pmb' + idOfRelation;
+					let linkhref = '/pages/hits.html?searchkey=pmb' + idOfRelation;
 					$('.modal-body').append('<div>' + labelOfRelation + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
 				}
 				// persons relations
@@ -237,7 +237,7 @@ $(document).ready(function(){
 					let labelOfRelation = data.relations.persons[i].relation_type.label;
 					let targetOfRelation = data.relations.persons[i].target.name;
 					let firstname = data.relations.persons[i].target.first_name;
-					let linkhref = '/exist/apps/schnitzler-briefe/pages/hits.html?searchkey=pmb' + idOfRelation;
+					let linkhref = '/pages/hits.html?searchkey=pmb' + idOfRelation;
 					$('.modal-body').append('<div>' + labelOfRelation + ' <a href="' + linkhref + '">' + firstname + " " + targetOfRelation + '</a></div>');
 				}
 			}
