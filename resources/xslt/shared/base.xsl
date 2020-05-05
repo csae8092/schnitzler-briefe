@@ -820,7 +820,7 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    <xsl:template match="tei:div[not(@type='address')]">
+    <xsl:template match="tei:div[not(@type='address') and not(@type='image')]">
         <div class="div">
             <xsl:apply-templates/>
         </div>
