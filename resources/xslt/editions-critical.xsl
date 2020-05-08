@@ -10,6 +10,9 @@
       <xsl:apply-templates/>
     </span>
   </xsl:template>
+  <xsl:template match="tei:supplied">
+    <xsl:text>[</xsl:text><xsl:apply-templates/><xsl:text>]</xsl:text>
+  </xsl:template>
   <xsl:template match="tei:hi">
     <xsl:choose>
       <xsl:when test="@rend = 'subscript'">

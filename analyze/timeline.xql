@@ -6,18 +6,15 @@ import module namespace app="http://www.digital-archiv.at/ns/templates" at "../m
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 declare option exist:serialize "method=json media-type=text/javascript";
 
-let $notAfters := collection($app:editions)//tei:TEI//tei:correspDesc/tei:correspAction[@type='sent']/*[@notBefore castable as xs:date]
-let $notBefores := collection($app:editions)//tei:TEI//tei:correspDesc/tei:correspAction[@type='sent']/*[@notBefore castable as xs:date]
-let $whens := collection($app:editions)//tei:TEI//tei:correspDesc/tei:correspAction[@type='sent']/*[@when castable as xs:date]
-let $dates := ($notAfters, $notBefores, $whens)
+let $whens := collection($app:editions)//tei:TEI//tei:correspDesc/tei:correspAction[@type='sent']/tei:date[@when castable as xs:date]
 
 let $data := <data>{
-    for $x at $pos in $dates
+    for $x at $pos in $whens
     let $before := $x/preceding::text()[1]
     let $after := $x/following::text()[1]
     let $match := $x/text()
     let $backlink := app:hrefToDoc($x)
-    let $date := if(data($x/@notBefore)) then data($x/@notBefore) else data($x/@when)
+    let $date := data($x/@when)
     let $year := year-from-date(xs:date($date))
     let $month := month-from-date(xs:date($date))
     let $day := day-from-date(xs:date($date))
