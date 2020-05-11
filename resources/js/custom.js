@@ -198,7 +198,7 @@ $(document).ready(function(){
 					$('.modal-body').append('<div>' + labelOfRelation + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
 				}
 			}
-			if (data.entity_type === 'Institution' || data.entity_type === 'Places' || data.entity_type === 'Persons' || data.entity_type === 'Events'){
+			if (data.entity_type === 'Institution' || data.entity_type === 'Place' || data.entity_type === 'Person' || data.entity_type === 'Event'){
 				// places relations
 				for (let i = 0; i < data.relations.places.length; i++){
 					let idOfRelation = data.relations.places[i].target.id;
