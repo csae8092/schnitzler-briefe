@@ -137,6 +137,14 @@ $(document).ready(function(){
 					let targetOfRelation = data.relations.persons[i].target.name;
 					let firstname = data.relations.persons[i].target.first_name;
 					let linkhref = 'https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/' + idOfRelation +'/detail';
+					if (firstname) {
+					    if (targetOfRelation) {
+					        var name = firstname + ' ' + targetOfRelation;
+					    } else {
+					        var name = firstname;
+					    };
+					} else 
+					{ var name = targetOfRelation;};
 					if (labelOfRelation.includes('>>')) {
 					    	var n = labelOfRelation.lastIndexOf('>>');
 					        var str = labelOfRelation.substring(n+3);
@@ -144,7 +152,7 @@ $(document).ready(function(){
 					} else {
 					    var str = labelOfRelation;
 					}
-					$('.modal-body').append('<div>' + str + ' <a href="' + linkhref + '">' + firstname + " " + targetOfRelation + '</a></div>');
+					$('.modal-body').append('<div>' + str + ' <a href="' + linkhref + '">' + name + '</a></div>');
 				}
 				// works relations
 				for (let i = 0; i < data.relations.works.length; i++){
