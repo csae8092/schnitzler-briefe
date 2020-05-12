@@ -487,6 +487,16 @@ font-style: italic;
 font-family: sans-serif;
 color: black}
 
+.modal-body {
+    padding: 0pt;
+}
+
+.modal-text {
+    font-size: unset;
+    text-indent: 1em;
+    display: inline-block;
+}
+
 .mt-3{
     width:650px;
     max-width:650px;
@@ -529,6 +539,22 @@ ol.list-for-footnotes p {
     position: relative; bottom: -0.2em;
     font-weight: bold; 
    color:#A63437;
+}
+
+.pmb {
+     padding-top: 1em;
+     font-weight: bold;
+     font-size: initial;
+    text-indent: 1em;
+    display: inline-block;
+}
+
+.pmbAbfrageText {
+    font-size: 90%;
+    display: inline-block;
+    width:100%;
+    padding-left: 3em;
+    text-indent: -2em;
 }
 
 .poem

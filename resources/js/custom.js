@@ -152,7 +152,7 @@ $(document).ready(function(){
 					} else {
 					    var str = labelOfRelation;
 					}
-					$('.modal-body').append('<div>' + str + ' <a href="' + linkhref + '">' + name + '</a></div>');
+					$('.modal-body').append('<div class="pmbAbfrageText">' + str + ' <a href="' + linkhref + '">' + name + '</a></div>');
 				}
 				// works relations
 				for (let i = 0; i < data.relations.works.length; i++){
@@ -167,7 +167,7 @@ $(document).ready(function(){
 					} else {
 					    var str = labelOfRelation;
 					}
-					$('.modal-body').append('<div>' + str + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
+					$('.modal-body').append('<div class="pmbAbfrageText">' + str + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
 				}
 				// events relations
 				for (let i = 0; i < data.relations.events.length; i++){
@@ -182,7 +182,7 @@ $(document).ready(function(){
 					} else {
 					    var str = labelOfRelation;
 					}
-					$('.modal-body').append('<div>' + str + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
+					$('.modal-body').append('<div class="pmbAbfrageText">' + str + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
 				}
 				// institutions relations
 				for (let i = 0; i < data.relations.institutions.length; i++){
@@ -197,7 +197,7 @@ $(document).ready(function(){
 					} else {
 					    var str = labelOfRelation;
 					}
-					$('.modal-body').append('<div>' + str + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
+					$('.modal-body').append('<div class="pmbAbfrageText">' + str + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
 				}
 				// places relations
 				for (let i = 0; i < data.relations.places.length; i++){
@@ -212,7 +212,7 @@ $(document).ready(function(){
 					} else {
 					    var str = labelOfRelation;
 					}
-					$('.modal-body').append('<div>' + str + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
+					$('.modal-body').append('<div class="pmbAbfrageText">' + str + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
 				}
 			}
 		});

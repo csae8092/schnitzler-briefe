@@ -39,47 +39,28 @@
                                                     <xsl:value-of select="concat('hits.html?searchkey=', $entiyID)"/>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="target">_blank</xsl:attribute>
-                                        Erwähnungen
-                                    </a>
+                                                Erwähnungen 
+                                            </a> in den Briefen
                                         </small>
                                     </h3>
                                     <button type="button" class="close" data-dismiss="modal">
                                         <span class="fa fa-times"/>
                                     </button>
                                 </div>
-                                <div class="modal-body">
-                                    <table class="table table-boardered table-hover">
-                                        <tr>
-                                            <th>Name</th>
-                                            <td>
-                                                <xsl:value-of select="//tei:org[@xml:id=$entiyID]/tei:orgName[1]"/>
-                                            </td>
-                                        </tr>
-                                        <xsl:if test="count($entity//tei:orgName) &gt; 1">
-                                            <xsl:for-each select="$entity//tei:orgName[position()&gt;1]">
-                                                <tr>
-                                                    <th>alternative names</th>
-                                                    <td>
-                                                        <xsl:value-of select="."/>
-                                                    </td>
-                                                </tr>
-                                            </xsl:for-each>
-                                        </xsl:if>
-                                        <xsl:if test="$entity/tei:idno[@type='URL']">
-                                            <tr>
-                                                <th>URL:</th>
-                                                <td>
-                                                    <a>
-                                                        <xsl:attribute name="href">
-                                                            <xsl:value-of select="$entity/tei:idno[@type='URL']/text()"/>
-                                                        </xsl:attribute>
-                                                        <xsl:value-of select="$entity/tei:idno[@type='URL']/text()"/>
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                        </xsl:if>
-                                    </table><!--<div><h4 data-toggle="collapse" data-target="#more"> more (tei structure)</h4><div id="more" class="collapse"><xsl:choose><xsl:when test="//*[@xml:id=$entiyID or @id=$entiyID]"><xsl:apply-templates select="//*[@xml:id=$entiyID or @id=$entiyID]" mode="start"/></xsl:when><xsl:otherwise>Looks like there exists no index entry for ID<strong><xsl:value-of select="concat(' ', $entiyID)"/></strong></xsl:otherwise></xsl:choose></div></div>-->
+                                <div>
+                                    <h3 class="pmb">PMB</h3>
+                                    <xsl:variable name="pmb-weg" select="substring-after($entiyID, 'pmb')"/>
+                                    <xsl:variable name="pmb-url" select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/institution/', $pmb-weg, '/detail')"/>
+                                    <p class="pmbAbfrageText">
+                                        <xsl:element name="a">
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of select="$pmb-url"/>
+                                        </xsl:attribute>
+                                        <xsl:text>Zum PMB-Eintrag</xsl:text>
+                                    </xsl:element>
+                                    </p>
                                 </div>
+                                <div class="modal-body"/>
                             </xsl:when>
                         </xsl:choose>
                         <div class="modal-footer"><!--<button type="button" class="btn btn-default" data-dismiss="modal">X</button>--></div>
