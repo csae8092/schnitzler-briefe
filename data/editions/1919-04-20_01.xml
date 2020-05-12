@@ -1,105 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1919-04-20_01_Hofmannsthal_AS"> <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 20. 4. 1919</title>
-                <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
-                <editor>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </editor>
-                <funder>
-                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Wien</postCode>
-                        <placeName>
-                            <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>ASBW</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name>Müller, Martin Anton</name>
-                    <name>Susen, Gerd-Hermann</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Austrian Academy of Sciences, Vienna</publisher>
-                <idno type="ASBW"/>
-                <availability status="free">
-                    <p>Copyright © 2020</p>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness n="1">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>GB</country>
-                                <settlement>Cambridge</settlement>
-                                <repository>University Library</repository>
-                                <idno>Schnitzler, B 43</idno>
-                            </msIdentifier>
-                            <physDesc><p>eh. Brief, 1 Bl., 2 S. Von Schnitzler mit Bleistift beschriftet:                     »<quote>Hugo</quote>«und mit »<quote>A</quote>« (für                   »Abschreiben«/»Abschrift«) versehen. Von unbekannter Hand                   nummeriert: »<quote>352</quote>«.</p></physDesc>
-                        </msDesc>
-                    </witness>
-                </listWit>
-                <listBibl>
-                    <biblStruct corresp="HvHAS">
-                        <monogr>
-                            <author ref="#pmb11740">Hofmannsthal, Hugo</author>
-                            <author ref="#pmb2121">Schnitzler, Arthur</author>
-                            <title level="m">Briefwechsel</title>
-                            <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
-                            <imprint>
-                                <pubPlace>Frankfurt am Main</pubPlace>
-                                <publisher>S. Fischer</publisher>
-                                <date when="1964">1964</date>
-                            </imprint>
-                            <biblScope unit="pp">283</biblScope>
-                        </monogr>
-                    </biblStruct>
-                </listBibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                    <date when="1919-04-20" n="01">20. 4. 1919</date>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                    <placeName ref="#pmb50">Wien</placeName>
-                </correspAction>
-                <correspContext>
-                    <ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</ref>
-                    <ref subtype="previous_letter" type="withinCorrespondence" target="1918-12-21_01">Hofmannsthal an Schnitzler, 21. 12. [1918]</ref>
-                    <ref subtype="next_letter" type="withinCorrespondence" target="1919-05-06_01">Hofmannsthal, Hofmannsthal an Schnitzler, 6. 5. 1919</ref>
-                </correspContext>
-            </correspDesc>
-        </profileDesc>
-        <encodingDesc>
-            <refsDecl>
-                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates
-                    only, e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
-                    'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
-            </refsDecl>
-        </encodingDesc>
-        <revisionDesc status="proposed">
-            <change who="GHS" when="2019-02-28">Angelegt</change>
-            <change who="MAM" when="2019-03-15">Durchsicht</change>
-        </revisionDesc>
-    </teiHeader> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00003-000-00173"/><rs ref="#pmb173" type="place">Rodaun</rs>, <date>Oster<c rendition="#langesS">s</c>onntag 19.</date></dateline><salute>mein lieber Arthur</salute></opener><p>grüß Sie Gott. Wie gehts Ihnen denn immer?</p><p>Ich bin<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>chon<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>eit 3 Wochen krank, mu<c rendition="#langesS">s</c>s jetzt liegen wegen einer Rippenfellreizung. Sie waren ja auch in die<c rendition="#langesS">s</c>em Winter einmal recht krank u. ich hab es gar nicht gewußt!</p><p>Ich bitte Sie Arthur, wegen die<c rendition="#langesS">s</c>er <rs type="org" ref="#pmb29594" subtype="implied">Autorenorgani<c rendition="#langesS">s</c>ation</rs>, da<c rendition="#langesS">s</c>s Sie eventuell den Leuten von mir<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>agen, da<c rendition="#langesS">s</c>s ich krank bin, und dann autori<c rendition="#langesS">s</c>iere ich Sie, alles was Ihnen zu <pb facs="MS-SCHNITZLER-B-00043-B-00003-000-00174"/>be<c rendition="#langesS">s</c>chließen oder wozu zuzu<c rendition="#langesS">s</c>ti<c rendition="#gemination-m"/>en Ihnen richtig er<c rendition="#langesS">s</c>cheint, dies auch in meinem Namen zu tun.</p><p>Ich wundere mich nur, wie man eine<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>pecielle <rs type="org" ref="#pmb29594" subtype="implied">Organi<c rendition="#langesS">s</c>ation</rs> in <rs ref="#pmb41240" type="place">Ö<c rendition="#langesS">s</c>terreich</rs><space unit="chars" quantity="1"/><c rendition="#langesS">s</c>chaffen will, da wir doch alle an dem deut<c rendition="#langesS">s</c>chen ge<c rendition="#langesS">s</c>amten Bühnenwe<c rendition="#langesS">s</c>en beteiligt<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>ind, – aber<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>ei dem wie immer.</p><closer>In alter Liebe<lb/>Ihr<lb/><signed>Hugo.</signed></closer><postscript><p>PS. Alles Gute an <rs ref="#pmb2173" type="person">Olga</rs>. Wie<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>chön war man früher oft zu<c rendition="#langesS">s</c>a<c rendition="#gemination-m"/>en. Im Bett liegend, genieße ich manches Freundliche in der Erinnerung.</p></postscript></div></body> </text></TEI>
+  <fileDesc>
+   <titleStmt>
+    <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+    <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 20. 4. 1919</title>
+    <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
+    <editor>
+     <name>Müller, Martin Anton</name>
+     <name>Susen, Gerd-Hermann</name>
+    </editor>
+    <funder>
+     <name>FWF - Fonds für Wissenschaft und Forschung</name>
+     <address>
+      <street>Sensengasse 1</street>
+      <postCode>1090 Wien</postCode>
+      <placeName>
+       <country>A</country>
+       <settlement>Wien</settlement>
+      </placeName>
+     </address>
+    </funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>ASBW</edition>
+    <respStmt>
+     <resp>Transkription und Kommentierung</resp>
+     <name>Müller, Martin Anton</name>
+     <name>Susen, Gerd-Hermann</name>
+    </respStmt>
+   </editionStmt>
+   <publicationStmt>
+    <publisher>Austrian Academy of Sciences, Vienna</publisher>
+    <idno type="ASBW"/>
+    <availability status="free">
+     <p>Copyright © 2020</p>
+    </availability>
+   </publicationStmt>
+   <seriesStmt>
+    <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+   </seriesStmt>
+   <sourceDesc>
+    <listWit>
+     <witness n="1">
+      <msDesc>
+       <msIdentifier>
+        <country>GB</country>
+        <settlement>Cambridge</settlement>
+        <repository>University Library</repository>
+        <idno>Schnitzler, B 43</idno>
+       </msIdentifier>
+       <physDesc><p>eh. Brief, 1 Bl., 2 S. Von Schnitzler mit Bleistift beschriftet: »<quote>Hugo</quote>«und mit »<quote>A</quote>« (für »Abschreiben«/»Abschrift«) versehen. Von unbekannter Hand nummeriert: »<quote>352</quote>«.</p></physDesc>
+      </msDesc>
+     </witness>
+    </listWit>
+    <listBibl>
+     <biblStruct corresp="HvHAS">
+      <monogr>
+       <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+       <author ref="#pmb2121">Schnitzler, Arthur</author>
+       <title level="m">Briefwechsel</title>
+       <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+       <imprint>
+        <pubPlace>Frankfurt am Main</pubPlace>
+        <publisher>S. Fischer</publisher>
+        <date when="1964">1964</date>
+       </imprint>
+       <biblScope unit="pp">283</biblScope>
+      </monogr>
+     </biblStruct>
+    </listBibl>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="de-AT">German</language>
+   </langUsage>
+   <correspDesc>
+   <correspAction type="sent">
+     <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+     <placeName ref="#pmb50">Wien</placeName>
+     <date when="1919-04-20" n="01">20. 4. 1919</date>
+    </correspAction>
+   <correspAction type="received">
+     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+     <placeName ref="#pmb50">Wien</placeName>
+    </correspAction>
+   <correspContext>
+      <tei:ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</tei:ref>
+      <ref subtype="previous_letter" type="withinCorrespondence" target="1918-12-21_01">Hofmannsthal an Schnitzler, 21. 12. [1918]</ref>
+      <ref subtype="next_letter" type="withinCorrespondence" target="1919-05-06_01">Hofmannsthal, Hofmannsthal an Schnitzler, 6. 5. 1919</ref>
+   </correspContext>
+   </correspDesc>
+  </profileDesc>
+  <encodingDesc>
+   <refsDecl>
+    <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
+   e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
+   'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
+  </ab>
+   </refsDecl>
+  </encodingDesc>
+  <revisionDesc status="proposed">
+   <change who="GHS" when="2019-02-28">Angelegt</change>
+   <change who="MAM" when="2019-03-15">Durchsicht</change>
+  </revisionDesc>
+ </teiHeader> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00003-000-00173"/><rs ref="#pmb173" type="place">Rodaun</rs>, <date>Oster<c rendition="#langesS">s</c>onntag 19.</date></dateline><salute>mein lieber Arthur</salute></opener><p>grüß Sie Gott. Wie gehts Ihnen denn immer?</p><p>Ich bin<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>chon<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>eit 3 Wochen krank, mu<c rendition="#langesS">s</c>s jetzt liegen wegen einer Rippenfellreizung. Sie waren ja auch in die<c rendition="#langesS">s</c>em Winter einmal recht krank u. ich hab es gar nicht gewußt!</p><p>Ich bitte Sie Arthur, wegen die<c rendition="#langesS">s</c>er <rs type="org" ref="#pmb29594" subtype="implied">Autorenorgani<c rendition="#langesS">s</c>ation</rs>, da<c rendition="#langesS">s</c>s Sie eventuell den Leuten von mir<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>agen, da<c rendition="#langesS">s</c>s ich krank bin, und dann autori<c rendition="#langesS">s</c>iere ich Sie, alles was Ihnen zu <pb facs="MS-SCHNITZLER-B-00043-B-00003-000-00174"/>be<c rendition="#langesS">s</c>chließen oder wozu zuzu<c rendition="#langesS">s</c>ti<c rendition="#gemination-m"/>en Ihnen richtig er<c rendition="#langesS">s</c>cheint, dies auch in meinem Namen zu tun.</p><p>Ich wundere mich nur, wie man eine<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>pecielle <rs type="org" ref="#pmb29594" subtype="implied">Organi<c rendition="#langesS">s</c>ation</rs> in <rs ref="#pmb41240" type="place">Ö<c rendition="#langesS">s</c>terreich</rs><space unit="chars" quantity="1"/><c rendition="#langesS">s</c>chaffen will, da wir doch alle an dem deut<c rendition="#langesS">s</c>chen ge<c rendition="#langesS">s</c>amten Bühnenwe<c rendition="#langesS">s</c>en beteiligt<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>ind, – aber<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>ei dem wie immer.</p><closer>In alter Liebe<lb/>Ihr<lb/><signed>Hugo.</signed></closer><postscript><p>PS. Alles Gute an <rs ref="#pmb2173" type="person">Olga</rs>. Wie<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>chön war man früher oft zu<c rendition="#langesS">s</c>a<c rendition="#gemination-m"/>en. Im Bett liegend, genieße ich manches Freundliche in der Erinnerung.</p></postscript></div></body> </text></TEI>
