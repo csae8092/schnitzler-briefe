@@ -68,10 +68,12 @@ td p {
 
 
 
-.editionText td, th, tr {
-padding: -0rem;
+.editionText td, th, tr, h5 {
+padding-left: 0.75rem;
 border-style: none;
+vertical-align: top;
 border-top: 0;}
+
 
 
 /*  ID selectors  */
@@ -496,6 +498,11 @@ color: black}
     text-indent: 1em;
     display: inline-block;
 }
+
+.modal-title {
+ padding-left: 0pt;
+ }
+
 
 .mt-3{
     width:650px;

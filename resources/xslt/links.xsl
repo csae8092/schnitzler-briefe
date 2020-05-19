@@ -231,7 +231,7 @@
                             <span aria-hidden="true">x</span>
                         </button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-info-body">
                         <p>Dieses Korrespondenzstück wurde noch nicht ausreichend mit dem
                                 Original abgeglichen. Es entspricht damit noch nicht den
                                 angestrebten Qualitätsstandards und sollte derzeit nicht als
@@ -255,12 +255,12 @@
                         </button>
                     </div>
                     <div class="modal-content">
-                        <div class="modal-body">
+                        <div class="modal-info-body">
                             <table>
                                 <tbody>
                                     <xsl:for-each select="//tei:correspAction">
                                         <tr>
-                                            <th valign="top">
+                                            <th>
                                                 <xsl:choose>
                                                     <xsl:when test="@type = 'sent'"> Versand: </xsl:when>
                                                     <xsl:when test="@type = 'received'"> Empfangen: </xsl:when>
@@ -293,7 +293,7 @@
                             <br/>
                         </div>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-info-body">
                         <xsl:for-each select="//tei:witness">
                             <h5>TEXTZEUGE <xsl:value-of select="@n"/>
                             </h5>
@@ -301,7 +301,7 @@
                                 <tbody>
                                     <xsl:if test="tei:msDesc/tei:msIdentifier">
                                         <tr>
-                                            <th valign="top">Signatur </th>
+                                            <th>Signatur </th>
                                             <td>
                                                 <xsl:for-each select="tei:msDesc/tei:msIdentifier/child::*">
                                                     <xsl:value-of select="."/>
@@ -312,7 +312,7 @@
                                     </xsl:if>
                                     <xsl:if test="//tei:physDesc">
                                         <tr>
-                                            <th valign="top">Beschreibung </th>
+                                            <th>Beschreibung </th>
                                             <td>
                                                 <xsl:apply-templates select="tei:msDesc/tei:physDesc/tei:p"/>
                                             </td>
@@ -320,7 +320,7 @@
                                         <xsl:if test="tei:msDesc/tei:physDesc/tei:stamp">
                                             <xsl:for-each select="tei:msDesc/tei:physDesc/tei:stamp">
                                                 <tr>
-                                                    <th valign="top">Stempel <xsl:value-of select="@n"/>
+                                                    <th>Stempel <xsl:value-of select="@n"/>
                                                     </th>
                                                     <td>
                                                         <xsl:if test="tei:placeName"> Ort:
@@ -353,7 +353,7 @@
                             <table class="table table-striped">
                                 <tbody>
                                     <tr>
-                                        <th valign="top"/>
+                                        <th/>
                                         <td>
                                             <xsl:choose><!-- Zuerst Analytic -->
                                                 <xsl:when test="./tei:analytic">
