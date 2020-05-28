@@ -1,107 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="L1904-03-14_01_Hofmannsthal_AS" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd"> <teiHeader>
-   <fileDesc>
-   <titleStmt>
-   <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-   <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 14. 3. 1904</title>
-   <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
-   <editor>
-      <name>Müller, Martin Anton</name>
-      <name>Susen, Gerd-Hermann</name>
-   </editor>
-   <funder>
-      <name>FWF - Fonds für Wissenschaft und Forschung</name>
-      <address>
-      <street>Sensengasse 1</street>
-      <postCode>1090 Wien</postCode>
-      <placeName>
-      <country>A</country>
-      <settlement>Wien</settlement>
-      </placeName>
-      </address>
-   </funder>
-   </titleStmt>
-   <editionStmt>
-   <edition>ASBW</edition>
-   <respStmt>
-      <resp>Transkription und Kommentierung</resp>
-      <name>Müller, Martin Anton</name>
-      <name>Susen, Gerd-Hermann</name>
-   </respStmt>
-   </editionStmt>
-   <publicationStmt>
-   <publisher>Austrian Academy of Sciences, Vienna</publisher>
-   <idno type="ASBW"/>
-   <availability status="free">
-      <p>Copyright © 2019</p>
-   </availability>
-   </publicationStmt>
-   <seriesStmt>
-   <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-   </seriesStmt>
-   <sourceDesc>
-   <listWit>
-      <witness n="1">
-      <msDesc>
-      <msIdentifier>
-      <country>GB</country>
-      <settlement>Cambridge</settlement>
-      <repository>University Library</repository>
-      <idno>Schnitzler, B 43</idno>
-      </msIdentifier>
-      <physDesc><p>eh. Postkarte, schwarze Tinte. Von Schnitzler mit Bleistift datiert: »<quote><date>14. 3. 904</date></quote>«. Von unbekannter Hand mit Bleistift nummeriert: »<quote><del rend="strikethrough">236</del> 229</quote>«.</p><stamp n="1"><placeName ref="#pmb173">Rodaun</placeName><date>1<supplied>4</supplied> 3 04</date><time>7-<unclear>8</unclear>N</time></stamp><stamp n="2"><placeName ref="#pmb68">Wien 18/1</placeName><date>15. 3. 04</date><time>8.V</time><action>Bestellt</action></stamp></physDesc>
-      </msDesc>
-      </witness>
-   </listWit>
-   <listBibl>
-      <biblStruct corresp="HvHAS">
-      <monogr>
-      <author ref="#pmb11740">Hofmannsthal, Hugo</author>
-      <author ref="#pmb2121">Schnitzler, Arthur</author>
-      <title level="m">Briefwechsel</title>
-      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
-      <imprint>
-      <pubPlace>Frankfurt am Main</pubPlace>
-      <publisher>S. Fischer</publisher>
-      <date when="1964">1964</date>
-      </imprint>
-      <biblScope unit="pp">184</biblScope>
-      </monogr>
-      </biblStruct>
-   </listBibl>
-   </sourceDesc>
-   </fileDesc>
-   <profileDesc>
-   <langUsage>
-   <language ident="de-AT">German</language>
-   </langUsage>
-   <correspDesc>
-   <correspAction type="sent">
-      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
-      <placeName ref="#pmb173">Rodaun</placeName>
-      <date when="1904-03-14" n="01">14. 3. 1904</date>
-   </correspAction>
-   <correspAction type="received">
-      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-      <placeName ref="#pmb50">Wien</placeName>
-      <date when="1904-03-15">15. 3. 1904</date>
-   </correspAction>
-   <correspContext>
-      <tei:ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</tei:ref>
-      <ref subtype="previous_letter" type="withinCorrespondence" target="1904-03-09_02">Hofmannsthal an Schnitzler, 9. 3. 1904</ref>
-      <ref subtype="next_letter" type="withinCorrespondence" target="1904-03-15_01">Hofmannsthal an Schnitzler, 15. 3. 1904</ref>
-   </correspContext>
-   </correspDesc>
-   </profileDesc>
-   <encodingDesc>
-   <refsDecl>
-   <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-   e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-   'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-  </ab>
-   </refsDecl>
-   </encodingDesc>
-   <revisionDesc status="proposed">
-   <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
-   <change who="GHS" when="2020-04-09">Durchsicht</change>
-   </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00151.jpg"/> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00152.jpg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00151"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><rs type="place" ref="#pmb50"><hi rend="latintype">Wien</hi></rs></addrLine><addrLine><rs ref="#pmb133" type="place"><hi rend="latintype">XVIII Spöttelgasse 7</hi></rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00152"/><date>14.</date></dateline></opener><p><salute>Lieber, </salute>wir möchten lieber <date><hi rend="underline" n="1">Freitag</hi></date><space unit="chars" quantity="1"/><time>abend</time> ko<c rendition="#gemination-m"/>en, um <time>7<hi rend="superscript">h</hi></time>,<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>ind aber in der Zeit nicht gedrängt weil wir danach in der Stadt übernachten.<space unit="chars" quantity="3"/>Wenn Sie nicht antworten, i<c rendition="#langesS">s</c>t Ihnen der Tag recht.<space unit="chars" quantity="3"/>Von Herzen</p><closer><signed>Hugo</signed></closer><postscript><p><hi rend="latintype">P. S.</hi> Laden Sie vielleicht einmal <rs ref="#pmb12740" type="person">S-kopf</rs> dazu?</p><p>Ich<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>ehe ihn monatelang nicht.</p></postscript></div></body> </text></TEI>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 14. 3. 1904</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </editor>
+            <funder>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASBW</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Müller, Martin Anton</name>
+               <name>Susen, Gerd-Hermann</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences, Vienna</publisher>
+            <idno type="ASBW"/>
+            <availability status="free">
+               <p>Copyright © 2019</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 43</idno>
+                     </msIdentifier>
+                     <physDesc><p>eh. Postkarte, schwarze Tinte. Von Schnitzler mit Bleistift beim Datum              Monat und Jahreszahl ergänzt: »<quote><date><unclear>3. 904</unclear></date></quote>«. Von unbekannter Hand an Stelle einer früheren Zählung mit              Bleistift nummeriert: »<quote><del rend="strikethrough">236</del> 229</quote>«.</p><stamp n="1">              <placeName ref="#pmb173">Rodaun</placeName>              <date>14 <supplied>3</supplied> 04</date>              <time>7–<unclear>8</unclear>N</time>             </stamp><stamp n="2">              <placeName ref="#pmb68">18/1 Wien</placeName>              <date>15. 3. 04</date>              <time>8.V</time>              <action>Bestellt</action>             </stamp></physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HvHAS">
+                  <monogr>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefwechsel</title>
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1964">1964</date>
+                     </imprint>
+                     <biblScope unit="pp">184</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+               <placeName ref="#pmb173">Rodaun</placeName>
+               <date when="1904-03-14" n="01">14. 3. 1904</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
+               <date when="1904-03-15">15. 3. 1904</date>
+            </correspAction>
+            <correspContext>
+               <tei:ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo
+                  von</tei:ref>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1904-03-09_02">Hofmannsthal an Schnitzler, 9. 3. 1904</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1904-03-15_01">Hofmannsthal an Schnitzler, 15. 3. 1904</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <encodingDesc>
+         <refsDecl>
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only,
+               e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+               'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
+         </refsDecl>
+      </encodingDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
+         <change who="GHS" when="2020-04-09">Durchsicht</change>
+         <change who="MAM" when="2020-05-19">Durchsicht</change>
+         <change who="MAM" when="2020-05-19">Index check</change>
+      </revisionDesc>
+   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00151.jpg"/> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00152.jpg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00151"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><rs type="place" ref="#pmb50"><hi rend="latintype">Wien</hi></rs></addrLine><addrLine><rs ref="#pmb133" type="place"><hi rend="latintype">XVIII Spöttelgasse 7</hi></rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00152"/><date>14.</date></dateline></opener><p><salute>Lieber, </salute>wir möchten lieber <date><hi rend="underline" n="1">Freitag</hi></date><time>abend</time> ko<c rendition="#gemination-m"/>en, um <time>7<hi rend="superscript">h</hi></time>,<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>ind aber in der Zeit nicht gedrängt weil wir danach in der Stadt übernachten. Wenn Sie nicht antworten, i<c rendition="#langesS">s</c>t Ihnen der Tag recht.</p><closer>Von Herzen<lb/><signed>Hugo</signed></closer><postscript><p><hi rend="latintype">P. S.</hi> Laden Sie vielleicht einmal <rs ref="#pmb12740" type="person">S-kopf</rs> dazu? Ich<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>ehe ihn monatelang nicht.</p></postscript></div></body> </text></TEI>

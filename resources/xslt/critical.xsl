@@ -73,7 +73,7 @@
                 </div>
             </div>
             <xsl:choose>
-                <xsl:when test="descendant::tei:pb/@facs and not(starts-with(descendant::tei:pb[1]/@facs, 'http') or starts-with(descendant::tei:pb[1]/@facs, 'www.')) and not(contains(descendant::tei:pb[1]/@facs, '.pdf'))">
+                <xsl:when test="descendant::tei:pb[1]/@facs and not(starts-with(descendant::tei:pb[1]/@facs, 'http') or starts-with(descendant::tei:pb[1]/@facs, 'www.')) and not(contains(descendant::tei:pb[1]/@facs, '.pdf'))">
                     <div class="card-body-critical">
                         <div class="card-body-text">
                             <br/>
@@ -88,7 +88,7 @@
                         </div>
                         <div class="card-body-iif">
                             <xsl:variable name="facsimiles">
-                                <xsl:value-of select="distinct-values(descendant::tei:pb[not(starts-with(@facs, 'http') or starts-with(@facs, 'www.') or @facs='' or empty(@facs)) and not(preceding-sibling::tei:tp/@facs = @facs)]/@facs)"/>
+                                <xsl:value-of select="distinct-values(descendant::tei:pb[not(starts-with(@facs, 'http') or starts-with(@facs, 'www.') or @facs='' or empty(@facs)) and not(preceding-sibling::tei:tp/@facs = @facs) or (not(@facs))]/@facs)"/>
                             </xsl:variable>
                             <xsl:variable name="url-of-facsimile">
                                 <xsl:for-each select="tokenize($facsimiles, ' ')">
@@ -753,8 +753,18 @@
         <xsl:choose>
             <xsl:when test="starts-with(@facs, 'http') or starts-with(@facs, 'www.')">
                 <xsl:element name="a">
+                    <xsl:variable name="href">
+                        <xsl:choose>
+                            <xsl:when test="not(starts-with(@facs, 'http'))">
+                                <xsl:value-of select="concat('https://', @facs)"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="@facs"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:variable>
                     <xsl:attribute name="href">
-                        <xsl:value-of select="@facs"/>
+                        <xsl:value-of select="$href"/>
                     </xsl:attribute>
                     <xsl:attribute name="target">
                         <xsl:text>_blank</xsl:text>

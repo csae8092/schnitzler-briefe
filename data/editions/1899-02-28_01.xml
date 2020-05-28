@@ -1,91 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-02-28_01_David_AS"> <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-    <title level="a">Jakob Julius David an Arthur Schnitzler,
-     28. 2. 1899</title>
-    <author ref="#pmb2416">David, Jakob Julius</author>
-    <editor>
-     <name>Müller, Martin Anton</name>
-     <name>Susen, Gerd-Hermann</name>
-    </editor>
-    <funder>
-     <name>FWF - Fonds für Wissenschaft und Forschung</name>
-     <address>
-      <street>Sensengasse 1</street>
-      <postCode>1090 Wien</postCode>
-      <placeName>
-       <country>A</country>
-       <settlement>Wien</settlement>
-      </placeName>
-     </address>
-    </funder>
-   </titleStmt>
-   <editionStmt>
-    <edition>ASBW</edition>
-    <respStmt>
-     <resp>Transkription und Kommentierung</resp>
-     <name>Müller, Martin Anton</name>
-     <name>Susen, Gerd-Hermann</name>
-    </respStmt>
-   </editionStmt>
-   <publicationStmt>
-    <publisher>Austrian Academy of Sciences, Vienna</publisher>
-    <idno type="ASBW"/>
-    <availability status="free">
-     <p>Copyright © 2020</p>
-    </availability>
-   </publicationStmt>
-   <seriesStmt>
-    <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-   </seriesStmt>
-   <sourceDesc>
-    <listWit>
-     <witness n="1">
-      <msDesc>
-       <msIdentifier>
-        <country>GB</country>
-        <settlement>Cambridge</settlement>
-        <repository>University Library</repository>
-        <idno>Schnitzler, B 25</idno>
-       </msIdentifier>
-       <physDesc><p>eh. Postkarte, schwarze Tinte; Lateinschrift.</p><stamp n="1"><placeName ref="#pmb52">Wien 2/3</placeName><date>28. 2. 99</date><time>3-4N</time></stamp><stamp n="2"><placeName ref="#pmb59">Wien 9/3</placeName><date>28. 2. 99</date><time>6.N</time><action>Bestellt</action></stamp></physDesc>
-      </msDesc>
-     </witness>
-    </listWit>
-   </sourceDesc>
-  </fileDesc>
-  <profileDesc>
-   <langUsage>
-    <language ident="de-AT">German</language>
-   </langUsage>
-   <correspDesc>
-   <correspAction type="sent">
-     <persName ref="#pmb2416">David, Jakob Julius</persName>
-     <placeName ref="#pmb50">Wien</placeName>
-     <date when="1899-02-28" n="01">28. 2. 1899</date>
-    </correspAction>
-   <correspAction type="received">
-     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-     <placeName ref="#pmb50">Wien</placeName>
-     <date when="1899-02-28">28. 2. 1899</date>
-    </correspAction>
-   <correspContext>
-      <tei:ref type="belongsToCorrespondence" target="#pmb2416">David, Jakob Julius</tei:ref>
-      <ref subtype="previous_letter" type="withinCorrespondence" target="1899-02-27_01">David an Schnitzler, 27. 2. 1899</ref>
-      <ref subtype="next_letter" type="withinCorrespondence" target="1899-03-03_01">David an Schnitzler, 3. 3. 1899</ref>
-   </correspContext>
-   </correspDesc>
-  </profileDesc>
-  <encodingDesc>
-   <refsDecl>
-    <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-   e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-   'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-  </ab>
-   </refsDecl>
-  </encodingDesc>
-  <revisionDesc status="proposed">
-   <change who="GHS" when="2020-05-08">Angelegt</change>
-  </revisionDesc>
- </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00025-000-00015"/> <graphic url="MS-SCHNITZLER-B-00025-000-00016"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00025-000-00015"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs type="place" ref="#pmb59">IX.</rs><space unit="chars" quantity="1"/><rs ref="#pmb397" type="place">Franckgaße N<hi rend="superscript">o</hi>. 1.</rs></addrLine></address></div><div type="writingSession" n="1"><opener><salute rend="center"><pb facs="MS-SCHNITZLER-B-00025-000-00016"/>Lieber Freund!</salute></opener><p>Noch ganz im Eindruck – meine aufrichtige Freude! Zwei von den Sachen haben mir imponirt und ich will nicht hinterm Berg halten mit meiner Meinung. Wünschen Sie die Büc<damage agent="ink"><supplied>he</supplied></damage>r wieder, so stehen sie Ihnen zur Verfügung.</p><p>Wider meine Gewohnheit bitte ich Sie erst zur dritten oder vierten Vorstellung um zwei Karten. Ich möchte mir die Sachen noch einmal und nicht im Premièren-Ru<c rendition="#gemination-m"/>el ansehen. </p><closer>Bestens Ihr<lb/><signed>David</signed></closer></div></body> </text></TEI>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Jakob Julius David an Arthur Schnitzler, 28. 2. 1899</title>
+                <author ref="#pmb2416">David, Jakob Julius</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW"/>
+                <availability status="free">
+                    <p>Copyright © 2020</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>GB</country>
+                                <settlement>Cambridge</settlement>
+                                <repository>University Library</repository>
+                                <idno>Schnitzler, B 25</idno>
+                            </msIdentifier>
+                            <physDesc><p>eh. Postkarte, schwarze Tinte; Lateinschrift. Von unbekannter                   Hand mit Bleistift nummeriert: »<quote>7</quote>«.</p><stamp n="1">                   <placeName ref="#pmb52">Wien 2/3</placeName>                   <date>28. 2. 99</date>                   <time>3–4N</time>                 </stamp><stamp n="2">                   <placeName ref="#pmb59">Wien 9/3</placeName>                   <date>28. 2. 99</date>                   <time>6.N</time>                   <action>Bestellt</action>                 </stamp></physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#pmb2416">David, Jakob Julius</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1899-02-28" n="01">28. 2. 1899</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1899-02-28">28. 2. 1899</date>
+                </correspAction>
+                <correspContext>
+                    <tei:ref type="belongsToCorrespondence" target="#pmb2416">David, Jakob
+                        Julius</tei:ref>
+                    <ref subtype="previous_letter" type="withinCorrespondence" target="1899-02-27_01">David an Schnitzler, 27. 2. 1899</ref>
+                    <ref subtype="next_letter" type="withinCorrespondence" target="1899-03-03_01">David an Schnitzler, 3. 3. 1899</ref>
+                </correspContext>
+            </correspDesc>
+        </profileDesc>
+        <encodingDesc>
+            <refsDecl>
+                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates
+                    only, e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+                    'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
+            </refsDecl>
+        </encodingDesc>
+        <revisionDesc status="approved">
+            <change who="GHS" when="2020-05-08">Angelegt</change>
+            <change who="MAM" when="2020-05-13">Durchsicht</change>
+            <change who="MAM" when="2020-05-13">Index check</change>
+        </revisionDesc>
+    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00025-000-00015"/> <graphic url="MS-SCHNITZLER-B-00025-000-00016"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00025-000-00015"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs type="place" ref="#pmb59">IX.</rs><space unit="chars" quantity="1"/><rs ref="#pmb397" type="place">Franckgaße N<hi rend="superscript">o</hi>. 1.</rs></addrLine></address></div><div type="writingSession" n="1"><opener><salute rend="center"><pb facs="MS-SCHNITZLER-B-00025-000-00016"/>Lieber Freund!</salute></opener><p>Noch ganz im Eindruck – meine aufrichtige Freude! Zwei von den <rs type="work" ref="#pmb32562" subtype="implied">Sachen</rs> haben mir imponirt und ich will nicht hinterm Berg halten mit meiner Meinung. Wünschen Sie die Büc<damage agent="ink"><supplied>he</supplied></damage>r wieder, so stehen sie Ihnen zur Verfügung.</p><p>Wider meine Gewohnheit bitte ich Sie zur dritten oder vierten <rs type="work" ref="#pmb32562" subtype="implied">Vorstellung</rs> um zwei Karten. Ich möchte mir die Sachen noch einmal und nicht im <rs type="work" ref="#pmb32562" subtype="implied">Premièren-Ru<c rendition="#gemination-m"/>el</rs> ansehn.</p><closer>Bestens Ihr<lb/><signed>David</signed></closer></div></body> </text></TEI>

@@ -1,91 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1891-03-11_01_AS_Conrad"> <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-    <title level="a">Arthur Schnitzler an Michael Georg Conrad, 11. 3. 1891</title>
-    <author ref="#pmb2121">Schnitzler, Arthur</author>
-    <editor>
-     <name>Müller, Martin Anton</name>
-     <name>Susen, Gerd-Hermann</name>
-    </editor>
-    <funder>
-     <name>FWF - Fonds für Wissenschaft und Forschung</name>
-     <address>
-      <street>Sensengasse 1</street>
-      <postCode>1090 Wien</postCode>
-      <placeName>
-       <country>A</country>
-       <settlement>Wien</settlement>
-      </placeName>
-     </address>
-    </funder>
-   </titleStmt>
-   <editionStmt>
-    <edition>ASBW</edition>
-    <respStmt>
-     <resp>Transkription und Kommentierung</resp>
-     <name>Müller, Martin Anton</name>
-     <name>Susen, Gerd-Hermann</name>
-    </respStmt>
-   </editionStmt>
-   <publicationStmt>
-    <publisher>Austrian Academy of Sciences, Vienna</publisher>
-    <idno type="ASBW"/>
-    <availability status="free">
-     <p>Copyright © 2020</p>
-    </availability>
-   </publicationStmt>
-   <seriesStmt>
-    <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
-   </seriesStmt>
-   <sourceDesc>
-    <listWit>
-     <witness n="1">
-      <msDesc>
-       <msIdentifier>
-        <country>D</country>
-        <settlement>München</settlement>
-        <repository>Monacensia</repository>
-        <idno>Schnitzler, Arthur A I/1</idno>
-       </msIdentifier>
-       <physDesc><p>eh. Brief, 1 Bl., 2 S., schwarze Tinte.</p></physDesc>
-      </msDesc>
-     </witness>
-    </listWit>
-   </sourceDesc>
-  </fileDesc>
-  <profileDesc>
-   <langUsage>
-    <language ident="de-AT">German</language>
-   </langUsage>
-   <correspDesc>
-   <correspAction type="sent">
-     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-     <placeName ref="#pmb50">Wien</placeName>
-     <date when="1891-03-11" n="01">11. 3. 1891</date>
-    </correspAction>
-   <correspAction type="received">
-     <persName ref="#pmb11098">Conrad, Michael Georg</persName>
-    </correspAction>
-   <correspContext>
-      <tei:ref type="belongsToCorrespondence" target="#pmb11098">Conrad, Michael Georg</tei:ref>
-      <ref subtype="previous_letter" type="withinCorrespondence" target="1890-11-14_01">Conrad an Schnitzler, 14. 11. 1890</ref>
-      <ref subtype="next_letter" type="withinCorrespondence" target="1893-03-28_01">Conrad an Schnitzler, 28. 3. 1893</ref>
-   </correspContext>
-   </correspDesc>
-  </profileDesc>
-  <encodingDesc>
-   <refsDecl>
-    <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-   e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-   'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-  </ab>
-   </refsDecl>
-  </encodingDesc>
-  <revisionDesc status="approved">
-   <change who="MAM" when="2019-02-19">Angelegt</change>
-   <change who="MAM" when="2019-02-19">Index check</change>
-   <change who="GHS" when="2019-05-27">Korrektur gelesen, facs aktualisiert,
-    finalisiert</change>
-  </revisionDesc>
- </teiHeader> <facsimile> <graphic url="SchnitzlerArthur_AI-1_ad"/> <graphic url="SchnitzlerArthur_AI-1_bc"/> </facsimile> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="SchnitzlerArthur_AI-1_ad"/><rs ref="#pmb50" type="place">Wien</rs>, <date>11. März 1891</date></dateline></opener><p><salute>Erlauben Sie mir,<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>ehr verehrter Herr, </salute>Ihnen hiemit <anchor type="commentary" xml:id="KL1891-03-11_01_AS_Conrad-"/><rs ref="#pmb31637" type="work">Alkandi’s Lied</rs><note type="commentary" xml:id="KL1891-03-11_01_AS_Conrad-h">Schnitzler hatte das Stück bereits im Herbst 1889 vollendet. <ref target="1889-11-15" type="schnitzlerDiary" subtype="see"/>.</note>, ein dramati<c rendition="#langesS">s</c>ches Gedicht zu über<c rendition="#langesS">s</c>enden. Vielleicht haben Sie einmal eine halbe Stunde, es durchzule<c rendition="#langesS">s</c>en. Ihr Urtheil wäre mir<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>ehr werthvoll. Halten Sie das <rs type="work" ref="#pmb31637" subtype="implied">Stück</rs> für aufführbar? Könnten Sie mir rathen, es der <anchor type="commentary" xml:id="G10"/><rs ref="#pmb44112" type="org">Münchner Bühne</rs><note type="commentary" xml:id="G10h"><rs type="person" ref="#pmb2121">Schnitzler</rs> bezieht sich auf das <rs type="org" ref="#pmb44112">Kgl. Hof- und Nationaltheater und das Kgl. Residenz-Theater</rs>; General-Intendant war <rs ref="#pmb22428" type="person">Karl Freiherr von Perfall</rs>; zur Beziehung <rs ref="#pmb11098" type="person">Conrad</rs>s zu den Königlichen Bühnen vgl. den Brief Conrads vom <date>28. 3. 1893</date>.</note> einzu<c rendition="#langesS">s</c>enden? Wie<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>ehr möchte ich Ihnen für eine kurze Beantwortung die<c rendition="#langesS">s</c>er <pb facs="SchnitzlerArthur_AI-1_bc"/>Fragen danken!</p><closer>In aufrichtiger Verehrung<lb/>Ihr<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>ehr ergebener<lb/><signed>Dr. Arthur Schnitzler</signed></closer><postscript><p><hi rend="latintype"><rs ref="#pmb50" type="place">Wien, I. Giselastraße 11</rs>.</hi></p></postscript></div></body> </text></TEI>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
+                <title level="a">Arthur Schnitzler an Michael Georg Conrad,
+                    11. 3. 1891</title>
+                <author ref="#pmb2121">Schnitzler, Arthur</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </editor>
+                <funder>
+                    <name>FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASBW</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Müller, Martin Anton</name>
+                    <name>Susen, Gerd-Hermann</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Vienna</publisher>
+                <idno type="ASBW"/>
+                <availability status="free">
+                    <p>Copyright © 2020</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>D</country>
+                                <settlement>München</settlement>
+                                <repository>Monacensia</repository>
+                                <idno>Schnitzler, Arthur A I/1</idno>
+                            </msIdentifier>
+                            <physDesc><p>eh. Brief, 1 Bl., 2 S., schwarze Tinte.</p></physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                    <placeName ref="#pmb50">Wien</placeName>
+                    <date when="1891-03-11" n="01">11. 3. 1891</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#pmb11098">Conrad, Michael Georg</persName>
+                </correspAction>
+                <correspContext>
+                    <tei:ref type="belongsToCorrespondence" target="#pmb11098">Conrad, Michael
+                        Georg</tei:ref>
+                    <ref subtype="previous_letter" type="withinCorrespondence" target="1890-11-14_01">Conrad an Schnitzler, 14. 11. 1890</ref>
+                    <ref subtype="next_letter" type="withinCorrespondence" target="1893-03-28_01">Conrad an Schnitzler, 28. 3. 1893</ref>
+                </correspContext>
+            </correspDesc>
+        </profileDesc>
+        <encodingDesc>
+            <refsDecl>
+                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates
+                    only, e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+                    'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
+            </refsDecl>
+        </encodingDesc>
+        <revisionDesc status="approved">
+            <change who="MAM" when="2019-02-19">Angelegt</change>
+            <change who="MAM" when="2019-02-19">Index check</change>
+            <change who="GHS" when="2019-05-27">Korrektur gelesen, facs aktualisiert,
+                finalisiert</change>
+        </revisionDesc>
+    </teiHeader> <facsimile> <graphic url="SchnitzlerArthur_AI-1_ad"/> <graphic url="SchnitzlerArthur_AI-1_bc"/> </facsimile> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="SchnitzlerArthur_AI-1_ad"/><rs ref="#pmb50" type="place">Wien</rs>, <date>11. März 1891</date></dateline></opener><p><salute>Erlauben Sie mir,<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>ehr verehrter Herr, </salute>Ihnen hiemit <anchor type="commentary" xml:id="KL1891-03-11_01_AS_Conrad-1"/><rs ref="#pmb31637" type="work">Alkandi’s Lied</rs><note type="commentary" xml:id="KL1891-03-11_01_AS_Conrad-1h">Schnitzler hatte das <rs type="work" ref="#pmb31637" subtype="implied">Stück</rs> bereits im <date>Herbst 1889</date> vollendet. <ref target="1889-11-15" type="schnitzlerDiary" subtype="see"/>.</note>, ein dramati<c rendition="#langesS">s</c>ches Gedicht zu über<c rendition="#langesS">s</c>enden. Vielleicht haben Sie einmal eine halbe Stunde, es durchzule<c rendition="#langesS">s</c>en. Ihr Urtheil wäre mir<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>ehr werthvoll. Halten Sie das <rs type="work" ref="#pmb31637" subtype="implied">Stück</rs> für aufführbar? Könnten Sie mir rathen, es der <anchor type="commentary" xml:id="G10"/><rs ref="#pmb44112" type="org">Münchner Bühne</rs><note type="commentary" xml:id="G10h"> Schnitzler bezieht sich auf das <rs type="org" ref="#pmb44112">Kgl. Hof- und Nationaltheater und das Kgl. Residenz-Theater</rs>; General-Intendant war <rs ref="#pmb22428" type="person">Karl Freiherr von Perfall</rs>; zur Beziehung <rs ref="#pmb11098" type="person">Conrad</rs>s zu den Königlichen Bühnen vgl. den Brief Conrads vom <date>28. 3. 1893</date>.</note> einzu<c rendition="#langesS">s</c>enden? Wie<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>ehr möchte ich Ihnen für eine kurze Beantwortung die<c rendition="#langesS">s</c>er <pb facs="SchnitzlerArthur_AI-1_bc"/>Fragen danken!</p><closer>In aufrichtiger Verehrung<lb/>Ihr<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>ehr ergebener<lb/><signed>Dr. Arthur Schnitzler</signed></closer><postscript><p><hi rend="latintype"><rs ref="#pmb50" type="place">Wien, I. Giselastraße 11</rs>.</hi></p></postscript></div></body> </text></TEI>
