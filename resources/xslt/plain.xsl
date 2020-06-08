@@ -792,10 +792,10 @@
     <xsl:template match="tei:body">
         <xsl:apply-templates/>
     </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#langesS']" mode="lemma">
+    <xsl:template match="tei:c[@rendition='#langesS']" mode="lemma">
         <xsl:apply-templates/>
     </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#langesS']">
+    <xsl:template match="tei:c[@rendition='#langesS']">
         <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="tei:c[@rendition = '#gemination-m']">
@@ -804,27 +804,47 @@
     <xsl:template match="tei:c[@rendition = '#gemination-n']">
         <span class="gemination">nn</span>
     </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#kaufmannsund']" mode="lemma"> &amp; </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-auf']" mode="lemma"> { </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-zu']" mode="lemma"> } </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#gemination-m']" mode="lemma">
-        <span class="gemination">mm</span>
+    <xsl:template match="tei:c[@rendition='#kaufmannsund']">
+        <xsl:text>&amp;</xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition='#kaufmannsund']" mode="lemma">
+        <xsl:text>&amp;</xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-auf']">
+        <xsl:text>{</xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-zu']">
+        <xsl:text>}</xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-auf']" mode="lemma">
+        <xsl:text>{</xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-zu']" mode="lemma">
+        <xsl:text>}</xsl:text>
     </xsl:template>
     <xsl:template match="tei:space[@unit='chars' and @quantity='1']" mode="lemma">
         <xsl:text> </xsl:text>
     </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#gemination-m']" mode="lemma">
+        <span class="gemination">mm</span>
+    </xsl:template>
     <xsl:template match="tei:c[@rendition = '#gemination-n']" mode="lemma">
         <span class="gemination">nn</span>
     </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#prozent']" mode="lemma"> % </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#prozent']" mode="lemma">
+        <xsl:text>%</xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#dots']" mode="lemma">
+        <xsl:value-of select="foo:dots(@n)"/>
+    </xsl:template>
+    <xsl:template match="tei:space[@unit='chars' and @quantity='1']" mode="lemma">
+        <xsl:text> </xsl:text>
+    </xsl:template>
     <xsl:function name="foo:dots">
         <xsl:param name="anzahl"/> . <xsl:if test="$anzahl &gt; 1">
             <xsl:value-of select="foo:dots($anzahl - 1)"/>
         </xsl:if>
     </xsl:function>
-    <xsl:template match="tei:c[@rendition = '#dots']" mode="lemma">
-        <xsl:value-of select="foo:dots(@n)"/>
-    </xsl:template>
     <xsl:function name="foo:gaps">
         <xsl:param name="anzahl"/>
         <xsl:text>×</xsl:text>

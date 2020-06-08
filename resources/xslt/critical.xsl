@@ -786,25 +786,25 @@
         <xsl:text>ſ</xsl:text>
     </xsl:template>
     <xsl:template match="tei:c[@rendition='#kaufmannsund']" mode="lemma">
-        &amp;
+        <xsl:text>&amp;</xsl:text>
     </xsl:template>
     <xsl:template match="tei:c[@rendition='#kaufmannsund']">
-        &amp;
+        <xsl:text>&amp;</xsl:text>
     </xsl:template>
     <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-auf']" mode="lemma">
-        {
+        <xsl:text>{</xsl:text>
     </xsl:template>
     <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-auf']">
-        {
+        <xsl:text>{</xsl:text>
     </xsl:template>
     <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-zu']" mode="lemma">
-        }
+        <xsl:text>}</xsl:text>
     </xsl:template>
     <xsl:template match="tei:space[@unit='chars' and @quantity='1']" mode="lemma">
         <xsl:text> </xsl:text>
     </xsl:template>
     <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-zu']">
-        }
+        <xsl:text>}</xsl:text>
     </xsl:template>
     <xsl:template match="tei:c[@rendition = '#gemination-m']" mode="lemma">
         <span class="gemination">mm</span>
@@ -819,11 +819,14 @@
         <span class="gemination">n̅</span>
     </xsl:template>
     <xsl:template match="tei:c[@rendition = '#prozent']" mode="lemma">
-        %
+        <xsl:text>%</xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#prozent']">
+        <xsl:text>%</xsl:text>
     </xsl:template>
     <xsl:function name="foo:dots">
         <xsl:param name="anzahl"/>
-        .
+        <xsl:text>.</xsl:text>
         <xsl:if test="$anzahl &gt; 1">
             <xsl:value-of select="foo:dots($anzahl - 1)"/>
         </xsl:if>

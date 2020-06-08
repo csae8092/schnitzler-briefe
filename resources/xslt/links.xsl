@@ -733,22 +733,22 @@
         <span class="gemination">nn</span>
     </xsl:template>
     <xsl:template match="tei:c[@rendition='#kaufmannsund']">
-        &amp;
-    </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-auf']">
-        {
-    </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-zu']">
-        }
+        <xsl:text>&amp;</xsl:text>
     </xsl:template>
     <xsl:template match="tei:c[@rendition='#kaufmannsund']" mode="lemma">
-        &amp;
+        <xsl:text>&amp;</xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-auf']">
+        <xsl:text>{</xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-zu']">
+        <xsl:text>}</xsl:text>
     </xsl:template>
     <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-auf']" mode="lemma">
-        {
+        <xsl:text>{</xsl:text>
     </xsl:template>
     <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-zu']" mode="lemma">
-        }
+        <xsl:text>}</xsl:text>
     </xsl:template>
     <xsl:template match="tei:space[@unit='chars' and @quantity='1']" mode="lemma">
         <xsl:text> </xsl:text>
@@ -760,7 +760,7 @@
         <span class="gemination">nn</span>
     </xsl:template>
     <xsl:template match="tei:c[@rendition = '#prozent']" mode="lemma">
-        %
+        <xsl:text>%</xsl:text>
     </xsl:template>
     <xsl:function name="foo:dots">
         <xsl:param name="anzahl"/>
