@@ -746,6 +746,11 @@
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
+    <xsl:template match="tei:p[ancestor::tei:footNote]">
+        <span>
+            <xsl:apply-templates/>
+        </span><lb/>
+    </xsl:template>
     <xsl:template match="tei:body">
         <xsl:apply-templates/>
     </xsl:template>

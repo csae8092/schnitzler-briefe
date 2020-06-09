@@ -834,6 +834,9 @@
     <xsl:template match="tei:c[@rendition = '#prozent']" mode="lemma">
         <xsl:text>%</xsl:text>
     </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#prozent']">
+        <xsl:text>%</xsl:text>
+    </xsl:template>
     <xsl:template match="tei:c[@rendition = '#dots']" mode="lemma">
         <xsl:value-of select="foo:dots(@n)"/>
     </xsl:template>

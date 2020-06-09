@@ -762,6 +762,9 @@
     <xsl:template match="tei:c[@rendition = '#prozent']" mode="lemma">
         <xsl:text>%</xsl:text>
     </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#prozent']">
+        <xsl:text>%</xsl:text>
+    </xsl:template>
     <xsl:function name="foo:dots">
         <xsl:param name="anzahl"/>
         .
