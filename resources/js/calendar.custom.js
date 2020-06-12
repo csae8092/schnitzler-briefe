@@ -79,7 +79,7 @@
                                 .getElementsByTagName('div')[1]
                                 .getElementsByTagName('h2')[0].innerHTML;
                                 console.log(linkTitle);
-                                html += "<div><a href='" + ids[i] + "'>" + linkTitle + "</a></div>";
+                                html += "<div class='indent'><a href='" + ids[i] + "'>" + linkTitle + "</a></div>";
                             });
                         }
                         Promise.all(promises).then(function(){
