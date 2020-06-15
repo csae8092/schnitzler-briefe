@@ -53,7 +53,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-body-text">
+                <div>
                     <xsl:apply-templates select="//tei:body"/>
                 </div>
                 <div class="card-footer text-muted" style="text-align:center">

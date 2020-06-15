@@ -822,7 +822,7 @@
     <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-zu']" mode="lemma">
         <xsl:text>}</xsl:text>
     </xsl:template>
-    <xsl:template match="tei:space[@unit='chars' and @quantity='1']" mode="lemma">
+    <xsl:template match="tei:space[@unit='chars' and @quantity='1']">
         <xsl:text> </xsl:text>
     </xsl:template>
     <xsl:template match="tei:c[@rendition = '#gemination-m']" mode="lemma">
