@@ -143,6 +143,9 @@
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
+                                <xsl:attribute name="target">
+                                    <xsl:text>_blank</xsl:text>
+                                </xsl:attribute>
                                 <a class="nav-link">
                                     <xsl:attribute name="href">
                                         <xsl:value-of select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?document=entry__', $datum, '.xml')"/>
