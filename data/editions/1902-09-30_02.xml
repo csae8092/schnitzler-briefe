@@ -47,7 +47,7 @@
                                 <repository>University Library</repository>
                                 <idno>Schnitzler, B 43b/1</idno>
                             </msIdentifier>
-                            <physDesc><p>eh. Brief, 1 Bl., 1 S.; schwarze Tinte. Von Schnitzler mit                   Bleistift datiert: »<quote><date>Ende Sept. 902</date></quote>«.                   Von unbekannter Hand mit Bleistift nummeriert: »<quote><del rend="strikethrough">201</del> 185</quote>«.</p></physDesc>
+                            <physDesc><p>eh. Brief, 1 Bl., 1 S.; schwarze Tinte. Von Schnitzler mit Bleistift datiert: »<quote><date>Ende Sept. 902</date></quote>«. Von unbekannter Hand mit Bleistift an Stelle einer früheren Zählung nummeriert: »<quote><del rend="strikethrough">201</del> 185</quote>«.</p></physDesc>
                         </msDesc>
                     </witness>
                 </listWit>
@@ -89,28 +89,27 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-            <correspAction type="sent">
+                <correspAction type="sent">
                     <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                     <placeName ref="#pmb50">Wien</placeName>
                     <date when="1902-09-30" n="02">[30. 9. 1902]</date>
                 </correspAction>
-            <correspAction type="received">
+                <correspAction type="received">
                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                     <placeName ref="#pmb50">[Wien]</placeName>
                 </correspAction>
-            <correspContext>
-               <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</tei:ref>
-               <ref subtype="previous_letter" type="withinCorrespondence" target="1902-08-01_01">Hofmannsthal an Schnitzler, 1. 8. 1902</ref>
-               <ref subtype="next_letter" type="withinCorrespondence" target="1902-10-07_01">Schnitzler an Hofmannsthal, 7. 10. 1902</ref>
-            </correspContext>
-         </correspDesc>
+                <correspContext>
+                    <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</tei:ref>
+                    <ref subtype="previous_letter" type="withinCorrespondence" target="1902-08-01_01">Hofmannsthal an Schnitzler, 1. 8. 1902</ref>
+                    <ref subtype="next_letter" type="withinCorrespondence" target="1902-10-07_01">Schnitzler an Hofmannsthal, 7. 10. 1902</ref>
+                </correspContext>
+            </correspDesc>
         </profileDesc>
         <encodingDesc>
             <refsDecl>
-                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>
+                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates
+                    only, e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+                    'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
             </refsDecl>
         </encodingDesc>
         <revisionDesc status="approved">
@@ -119,4 +118,4 @@
             <change who="MAM" when="2018-07-15">Überführt aus Bahr–Schnitzler-Daten</change>
             <change who="GHS" when="2020-03-31">Durchsicht</change>
         </revisionDesc>
-    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00059.jpg"/> </facsimile> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00059"/><date>Dienstag</date> abend</dateline></opener><p><salute>lieber, </salute>bitte<tei:space xmlns:tei="http://www.tei-c.org/ns/1.0" unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>chicken Sie den beiliegenden Brief mit meiner gleichfalls beiliegenden Erledigung<tei:space xmlns:tei="http://www.tei-c.org/ns/1.0" unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>owie Ihrer Antwort an <rs ref="#pmb10815" type="person">Bahr</rs> zurück.</p><p>Ich fahre in 2 Stunden nach <rs ref="#pmb445" type="place">Rom</rs>.</p><p>Leben Sie und Ihrigen wohl. Hoffentlich arbeiten Sie viel und<tei:space xmlns:tei="http://www.tei-c.org/ns/1.0" unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>chön. Ihr <signed>Hugo</signed>.</p><postscript><p><anchor type="textConst" xml:id="TL454-1"/>Adre<c rendition="#langesS">s</c><c rendition="#langesS">s</c>e: <rs ref="#pmb623" type="place">Hôtel Ha<c rendition="#langesS">s</c><c rendition="#langesS">s</c>ler Rom</rs><note type="textConst" xml:id="TL454-1h">quer am rechten Rand</note></p></postscript></div></body> </text></TEI><!-- Datum ergibt sich daraus, dass Paula Dehmel am 23.&#160;9. (=Dienstag) schreibt und es nur mehr einen Dienstag gibt bevor AS am 3. Oktober antwortet  -->
+    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00059.jpg"/> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00060.jpg"/> <!-- leere Rückseite --> </facsimile> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00059"/><date>Dienstag</date> abend</dateline></opener><p><salute>lieber, </salute>bitte<tei:space xmlns:tei="http://www.tei-c.org/ns/1.0" unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>chicken Sie den beiliegenden Brief mit meiner gleichfalls beiliegenden Erledigung<tei:space xmlns:tei="http://www.tei-c.org/ns/1.0" unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>owie Ihrer Antwort an <rs ref="#pmb10815" type="person">Bahr</rs> zurück.</p><p>Ich fahre in 2 Stunden nach <rs ref="#pmb445" type="place">Rom</rs>.</p><p>Leben Sie und Ihrigen wohl. Hoffentlich arbeiten Sie viel und<tei:space xmlns:tei="http://www.tei-c.org/ns/1.0" unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>chön. Ihr <signed>Hugo</signed>.</p><postscript><p><anchor type="textConst" xml:id="TL454-1"/>Adre<c rendition="#langesS">s</c><c rendition="#langesS">s</c>e: <rs ref="#pmb623" type="place">Hôtel Ha<c rendition="#langesS">s</c><c rendition="#langesS">s</c>ler Rom</rs><note type="textConst" xml:id="TL454-1h">quer am rechten Rand</note></p></postscript></div></body> </text></TEI><!-- Datum ergibt sich daraus, dass Paula Dehmel am 23.&#160;9. (=Dienstag) schreibt und es nur mehr einen Dienstag gibt bevor AS am 3. Oktober antwortet  -->

@@ -48,7 +48,7 @@
                         <repository>University Library</repository>
                         <idno>Schnitzler, B 43</idno>
                      </msIdentifier>
-                     <physDesc><p>ms. Telegramm aus <rs ref="#pmb33" type="place">St. Gilgen</rs> nach <rs type="place" ref="#pmb189">Semmering</rs>. Von Schnitzler mit Bleistift              datiert »<quote><date>12/9 906</date></quote>«. Von unbekannter Hand mit Bleistift nummeriert:                »<quote>265a</quote>«. Beschnitten.</p></physDesc>
+                     <physDesc><p>ms. Telegramm. Stempel des Telegrafenbeamten: »<quote><rs type="person" ref="#pmb45472">Steiner</rs></quote>«. Von Schnitzler mit Bleistift datiert »<quote><date>12/9 906</date></quote>«. Von unbekannter Hand mit Bleistift nummeriert: »<quote>265a</quote>«. Beschnitten.</p></physDesc>
                   </msDesc>
                </witness>
             </listWit>
@@ -85,7 +85,8 @@
                <placeName ref="#pmb189">Semmering</placeName>
             </correspAction>
             <correspContext>
-               <tei:ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</tei:ref>
+               <tei:ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo
+                  von</tei:ref>
                <ref subtype="previous_letter" type="withinCorrespondence" target="1906-09-11_01">Hofmannsthal an Schnitzler, [11. 9. 1906]</ref>
                <ref subtype="next_letter" type="withinCorrespondence" target="1906-09-12_02">Hofmannsthal an Schnitzler, [12. 9. 1906]</ref>
             </correspContext>
@@ -93,14 +94,15 @@
       </profileDesc>
       <encodingDesc>
          <refsDecl>
-            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only,
+               e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+               'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
          </refsDecl>
       </encodingDesc>
-      <revisionDesc status="proposed">
+      <revisionDesc status="approved">
          <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
          <change who="GHS" when="2020-04-12">Durchsicht</change>
+         <change who="MAM" when="2020-06-05">Durchsicht</change>
+         <change who="MAM" when="2020-06-05">Index check</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00239.jpg"/> </facsimile> <text type="telegram"> <body><div type="writingSession" n="1"><p><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00239"/>schlagen vor begegnung <rs ref="#pmb860" type="place">graz</rs> das wier<!-- sic! --> nicht kennen haetten grosse freude haben raeder mit erwarten postwendent praecise vorschlaege freuen uns</p><closer><signed>Hugo</signed></closer></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00239.jpg"/> </facsimile> <text type="telegram"> <body><div type="writingSession" n="1"><opener><dateline><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00239"/>fr <rs ref="#pmb33" type="place">st. gilgen</rs> 380 24 <time>11/25 m</time></dateline></opener><p>schlagen vor begegnung <rs ref="#pmb860" type="place">graz</rs> das wier<!-- sic! --> nicht kennen haetten grosse freude haben raeder mit erwarten postwendent praecise vorschlaege freuen uns</p><closer><signed>= hugo =</signed></closer></div></body> </text></TEI>

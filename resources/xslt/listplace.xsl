@@ -51,7 +51,7 @@
                                     </xsl:element>
                                     </p>
                                 </div>
-                                <div class="modal-body"/>
+                                <div class="modal-body-pmb"/>
                                 
                             </xsl:when>
                         </xsl:choose>

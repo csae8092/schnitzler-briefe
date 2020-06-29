@@ -50,7 +50,7 @@
                         <repository>University Library</repository>
                         <idno>Schnitzler, B 43</idno>
                      </msIdentifier>
-                     <physDesc><p>eh. Bildpostkarte, Bleistift. Motiv: »<pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00204"/><quote><rs type="place" ref="#pmb36549" subtype="implied">Trianon artistique. –                 Le Moulin</rs>.</quote>« Von unbekannter Hand mit Bleistift              nummeriert: »<quote><del rend="strikethrough">242</del> 253</quote>«. Von              unbekannter Hand mit Bleistift die Bezirksangabe ergänzt:                »<quote>XVIII/1</quote>«.</p><stamp n="1">              <placeName ref="#pmb36549">Versailles à Paris</placeName>              <date>12 Mai 05</date>             </stamp></physDesc>
+                     <physDesc><p>eh. Bildpostkarte, 2 Verfasser, Bleistift. Von unbekannter Hand mit Bleistift an Stelle einer früheren Zählung nummeriert: »<quote><del rend="strikethrough">242</del> 253</quote>«. Von unbekannter Hand mit Bleistift die Bezirksangabe ergänzt: »<quote>XVIII/1</quote>«.</p><stamp n="1">              <placeName ref="#pmb36549">Versailles à Paris</placeName>              <date>12 Mai 05</date>             </stamp></physDesc>
                   </msDesc>
                </witness>
             </listWit>
@@ -88,7 +88,8 @@
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <tei:ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</tei:ref>
+               <tei:ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo
+                  von</tei:ref>
                <ref subtype="previous_letter" type="withinCorrespondence" target="1905-04-19_01">Hofmannsthal an Schnitzler, 19. 4. 1905</ref>
                <ref subtype="next_letter" type="withinCorrespondence" target="1905-05-29_01">Hofmannsthal an Schnitzler, 29. 5. 1905</ref>
             </correspContext>
@@ -96,10 +97,9 @@
       </profileDesc>
       <encodingDesc>
          <refsDecl>
-            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only,
+               e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+               'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
          </refsDecl>
       </encodingDesc>
       <revisionDesc status="approved">
@@ -108,4 +108,4 @@
          <change who="MAM" when="2020-05-04">Durchsicht</change>
          <change who="MAM" when="2020-05-04">Index check</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00203.jpg"/> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00204.jpg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00203"/><hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><rs type="place" ref="#pmb50"><hi rend="latintype">Wien</hi></rs></addrLine><addrLine><rs ref="#pmb41240" type="place"><hi rend="latintype">Autriche</hi></rs></addrLine></address></div><div type="writingSession" n="1"><closer><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00203"/>Viele Grüße <signed>Hugo</signed><lb/><signed><handShift scribe="#pmb2292"/>Gerty</signed></closer><postscript><dateline><date>11 V</date></dateline></postscript></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00203.jpg"/> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00204.jpg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00203"/><hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><rs type="place" ref="#pmb50"><hi rend="latintype">Wien</hi></rs></addrLine><addrLine><rs ref="#pmb41240" type="place"><hi rend="latintype">Autriche</hi></rs></addrLine></address></div><div type="writingSession" n="1"><opener><p><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00204"/><hi rend="pre-print">124. <rs type="place" ref="#pmb36549" subtype="implied"><hi rend="italics">Trianon artistique</hi>. – Le Moulin</rs>.</hi></p></opener><closer><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00203"/>Viele Grüße <signed>Hugo</signed><lb/><signed><handShift scribe="#pmb2292"/>Gerty</signed></closer><postscript><dateline><date>11 V</date></dateline></postscript></div></body> </text></TEI>

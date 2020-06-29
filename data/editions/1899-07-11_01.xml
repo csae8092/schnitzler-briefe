@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-07-11_01_Beer-Hofmann_AS"> <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/META/asbwschema.xsd" xml:id="L1899-07-11_01_AS_Beer-Hofmann"> <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren</title>
-            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 11. 7. 1899</title>
-            <author ref="#pmb10863">Beer-Hofmann, Richard</author>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 11. 7. 1899</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Susen, Gerd-Hermann</name>
@@ -43,31 +43,15 @@
                <witness n="1">
                   <msDesc>
                      <msIdentifier>
-                        <country>GB</country>
-                        <settlement>Cambridge</settlement>
-                        <repository>University Library</repository>
-                        <idno>Schnitzler, B 8</idno>
+                        <country>U.S.A.</country>
+                        <settlement>Yale</settlement>
+                        <repository>Beinecke Rare Book and Manuscript Library</repository>
+                        <idno>Yale Collection of German Literature, MSS 31</idno>
                      </msIdentifier>
-                     <physDesc><p>eh. Brief, 1 Bl., 2 S., schwarze Tinte; Lateinschrift. Von unbekannter              Hand mit Bleistift nummeriert: »<quote>131</quote>«.</p></physDesc>
+                     <physDesc><p>eh. Briefkarte mit Umschlag, Bleistift.</p><stamp n="1">              <placeName ref="#pmb51">Wien 1/1</placeName>              <date when="1899-07-11">11. 7. 99</date>              <time>8–9 N</time>             </stamp><stamp n="2">              <placeName ref="#pmb34824">                <unclear>Seeboden</unclear>              </placeName>              <date when="1899-07-12">12. 7. 9<supplied>9</supplied>              </date>             </stamp></physDesc>
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-               <biblStruct corresp="ASBH">
-                  <monogr>
-                     <author ref="#pmb2121">Schnitzler, Arthur</author>
-                     <author ref="#pmb10863">Beer-Hofmann, Richard</author>
-                     <title level="m">Briefwechsel 1891–1931</title>
-                     <editor>Hg. Konstanze Fliedl</editor>
-                     <imprint>
-                        <pubPlace>Wien, Zürich</pubPlace>
-                        <publisher>Europaverlag</publisher>
-                        <date when="1992">1992</date>
-                     </imprint>
-                     <biblScope unit="pp">130</biblScope>
-                  </monogr>
-               </biblStruct>
-            </listBibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -76,17 +60,19 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
-               <placeName ref="#pmb34824">Seeboden</placeName>
+               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <placeName ref="#pmb50">Wien</placeName>
                <date when="1899-07-11" n="01">11. 7. 1899</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+               <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+               <placeName ref="#pmb34824">Seeboden</placeName>
+               <date when="1899-07-12">12. 7. 1899</date>
             </correspAction>
             <correspContext>
                <tei:ref type="belongsToCorrespondence" target="#pmb10863">Beer-Hofmann, Richard</tei:ref>
-               <ref subtype="previous_letter" type="withinCorrespondence" target="1899-07-06_01">Schnitzler an Beer-Hofmann, 6. 7. 1899</ref>
-               <ref subtype="next_letter" type="withinCorrespondence" target="1899-07-11_02">Schnitzler an Beer-Hofmann, 11. 7. 1899</ref>
+               <ref subtype="previous_letter" type="withinCorrespondence" target="1899-07-11_01">Beer-Hofmann an Schnitzler, 11. 7. 1899</ref>
+               <ref subtype="next_letter" type="withinCorrespondence" target="1899-07-13_01">Schnitzler an Beer-Hofmann, 13. 7. 1899</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -98,9 +84,9 @@
         </ab>          
          </refsDecl>       
       </encodingDesc>
-      <revisionDesc status="proposed">
-         <change who="MAM" when="2019-06-12">Automatisch angelegt aus Buchausgabe</change>
-         <change who="GHS" when="2019-11-29">überprüft am Faksimile</change>
+      <revisionDesc status="approved">
+         <change who="GHS" when="2019-11-29">angelegt aus Faksimile</change>
+         <change who="MAM" when="2019-12-02">Durchsicht</change>
          <change who="MAM" when="2019-12-02">Index check</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00294.jpg"/> <graphic url="MS-SCHNITZLER-B-0008-B-00001-000-00295.jpg"/> </facsimile> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="center"><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00294"/><rs ref="#pmb34824" type="place">Seeboden</rs><space unit="chars" quantity="1"/><date when="1899-07-11">11 Juli 1899</date>.</dateline></opener><p><salute>Lieber Arthur! </salute>Theilen Sie mir mit wann Sie in <rs ref="#pmb909" type="place">Velden</rs> sind. Vielleicht sind wir dann <date>Ende Juli</date> ein paar Tage beisa<c rendition="#gemination-m"/>en. Vielleicht. Von mir mag ich nicht schreiben. Ich bin heute dreiunddreißig Jahre alt.</p><p><pb facs="MS-SCHNITZLER-B-0008-B-00001-000-00295"/>Ich grüße Sie herzlich.</p><closer><signed>Richard</signed></closer></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="1899_AS_RBH_1_00037.jpeg"/> <graphic url="1899_AS_RBH_1_00038.jpeg"/> <graphic url="1899_AS_RBH_1_00039.jpeg"/> <graphic url="1899_AS_RBH_1_00040.jpeg"/> </facsimile> <text type="letter"> <body><div type="address"><address><addrLine><pb facs="1899_AS_RBH_1_00037"/><hi rend="latintype">Dr Richard Beer-Hofmann</hi></addrLine><addrLine><rs ref="#pmb40788" type="place"><hi rend="latintype">Villa Platzer</hi></rs></addrLine><addrLine><rs ref="#pmb34824" type="place"><hi rend="latintype">Seeboden am Millstätter</hi><c rendition="#langesS">s</c>ee</rs></addrLine><addrLine><rs ref="#pmb651" type="place"><hi rend="latintype">Kärnthen</hi></rs></addrLine></address></div><div type="writingSession" n="1"><p><pb facs="1899_AS_RBH_1_00039"/><salute>Lieber Richard, </salute>meine Ab<c rendition="#langesS">s</c>icht i<c rendition="#langesS">s</c>t, <date>Montag</date> nach <rs ref="#pmb909" type="place">Velden</rs> zu rei<c rendition="#langesS">s</c>en. Schreiben Sie mir vorher ein Wort. Von <rs ref="#pmb909" type="place">Velden</rs> aus möcht ich Sie eventuell <date>Mittwoch</date> oder <date>Donner<c rendition="#langesS">s</c>tg</date> be<c rendition="#langesS">s</c>uchen. Sagen Sie mir – auf wie lang Sie <pb facs="1899_AS_RBH_1_00040"/>event. <rs ref="#pmb34824" type="place"><hi rend="latintype">Seeboden</hi></rs> verla<c rendition="#langesS">s</c><c rendition="#langesS">s</c>en k<unclear>ö</unclear>nnten.</p><closer>Herzlich Ihr<lb/><signed>Arthur</signed></closer></div></body> </text></TEI>

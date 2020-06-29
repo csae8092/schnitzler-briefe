@@ -48,7 +48,7 @@
                         <repository>University Library</repository>
                         <idno>Schnitzler, B 43</idno>
                      </msIdentifier>
-                     <physDesc><p>eh. Postkarte (Rohrpost), Bleistift (Lateinschrift). Von Schnitzler mit              Bleistift datiert: »<quote><date>14/4 907</date></quote>«. Von              unbekannter Hand mit Bleistift nummeriert: »<quote>273</quote>«.</p><stamp n="1">              <placeName ref="#pmb51">1/1 Wien</placeName>              <date>13 IV 07</date>              <time>1 – N</time>             </stamp><stamp n="2">              <placeName ref="#pmb68">18/1 Wien</placeName>              <date>14 IV 07</date>              <time>1 50</time>             </stamp></physDesc>
+                     <physDesc><p>eh. Postkarte (Rohrpost), Bleistift, Lateinschrift. Von Schnitzler mit Bleistift datiert: »<quote><date>14/4 907</date></quote>«. Von unbekannter Hand mit Bleistift an Stelle der früheren Zählung »<quote>270</quote>« nummeriert: »<quote>273</quote>«.</p><stamp n="1">              <placeName ref="#pmb51">1/1 Wien 15</placeName>              <date>13 IV 07</date>              <time>1–N</time>             </stamp><stamp n="2">              <placeName ref="#pmb68">18/1 Wien 111</placeName>              <date>14 IV 07</date>              <time>1<hi rend="superscript">50</hi></time>             </stamp></physDesc>
                   </msDesc>
                </witness>
             </listWit>
@@ -86,7 +86,8 @@
                <date when="1907-04-14">14. 4. 1907</date>
             </correspAction>
             <correspContext>
-               <tei:ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</tei:ref>
+               <tei:ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo
+                  von</tei:ref>
                <ref subtype="previous_letter" type="withinCorrespondence" target="1907-03-13_01">Hofmannsthal an Schnitzler, [13. 3. 1907]</ref>
                <ref subtype="next_letter" type="withinCorrespondence" target="1907-04-29_01">Hofmannsthal an Schnitzler, 29. 4. 1907</ref>
             </correspContext>
@@ -94,14 +95,15 @@
       </profileDesc>
       <encodingDesc>
          <refsDecl>
-            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only,
+               e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+               'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
          </refsDecl>
       </encodingDesc>
-      <revisionDesc status="proposed">
+      <revisionDesc status="approved">
          <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
          <change who="GHS" when="2020-04-24">Durchsicht</change>
+         <change who="MAM" when="2020-06-23">Durchsicht</change>
+         <change who="MAM" when="2020-06-23">Index check</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00269.jpg"/> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00270.jpg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00269"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs type="place" ref="#pmb50">Wien</rs></addrLine><addrLine><rs ref="#pmb133" type="place">XVIII Spöttelgasse 7</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00270"/><date>Samstag</date></dateline></opener><p>Können wir morgen <date>Sonntag</date> nachmittag mit <rs ref="#pmb3220" type="person">Christiane</rs> ko<c rendition="#gemination-m"/>en? (Nicht zum Nachtmahl)</p><p>Bitte pneumatisch umgehend <rs ref="#pmb795" type="place"><hi rend="underline" n="1">Elisabethstraße 6</hi></rs><space unit="chars" quantity="1"/><rs ref="#pmb24233" type="person">Schlesinger</rs> oder <hi n="1" rend="underline">telephonisch</hi> 229 (vielleicht durch <rs ref="#pmb10863 #pmb10860" cert="low" type="person">Beers</rs>).</p><p>(Die Antwort trifft uns dort bis heute <time>abends 8<hi rend="superscript">h</hi></time>)</p></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00269.jpg"/> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00270.jpg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00269"/>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine><addrLine><rs type="place" ref="#pmb50">Wien</rs></addrLine><addrLine><rs ref="#pmb133" type="place">XVII Spöttelgasse 7</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00270"/><date>Samstag</date></dateline></opener><p>Können wir morgen <date>Sonntag</date> nachmittg mit <rs ref="#pmb3220" type="person">Christiane</rs> ko<c rendition="#gemination-m"/>en? (<hi rend="underline" n="1">Nicht</hi> zum Nachtmahl)</p><p>Bitte pneumatisch umgehend <rs ref="#pmb795" type="place"><hi rend="underline" n="1">Elisabethstraße <add place="below">6</add></hi></rs><space unit="chars" quantity="1"/><add place="above"><rs ref="#pmb24233" type="person">Schlesinger</rs></add> oder <hi n="1" rend="underline">telephonisch</hi> 229 (vielleicht durch <rs ref="#pmb10863 #pmb10860" cert="low" type="person">Beers</rs>).</p><p><anchor type="textConst" xml:id="TL1907-04-13_01_Hofmannsthal_AS-1"/>(die Antwort trifft uns dort bis heute <time>abends 8<hi rend="superscript">h</hi></time>)<note type="textConst" xml:id="TL1907-04-13_01_Hofmannsthal_AS-1h">oberhalb des Textes in der linken Ecke.</note></p></div></body> </text></TEI>

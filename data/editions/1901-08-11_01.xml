@@ -48,7 +48,7 @@
                                 <repository>University Library</repository>
                                 <idno>Schnitzler, B 8</idno>
                             </msIdentifier>
-                            <physDesc><p>eh. Brief, 1 Bl., 1 S. XXXX Von unbekannter Hand mit                   Bleistift nummeriert: »<quote>167</quote>«.</p></physDesc>
+                            <physDesc><p>eh. Briefkarte, Bleistift; Lateinschrift. Von unbekannter Hand mit Bleistift nummeriert: »<quote>167</quote>«.</p></physDesc>
                         </msDesc>
                     </witness>
                 </listWit>
@@ -66,8 +66,7 @@
                 </correspAction>
                 <correspAction type="received">
                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                    <!-- <placeName ref="#50"><settlement>Wien</settlement></placeName> -->
-                    <!-- <date when="0000-00-00"></date> -->
+                    <placeName ref="#pmb946">Vahrn</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -78,7 +77,10 @@
                     'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
             </refsDecl>
         </encodingDesc>
-        <revisionDesc status="proposed">
+        <revisionDesc status="approved">
             <change who="MAM" when="2019-06-12">Rohdaten angelegt</change>
+            <change who="MAM" when="2020-06-17">Index check</change>
+            <change who="MAM" when="2020-06-17">Durchsicht</change>
+            <change who="GHS" when="2020-06-21">Durchsicht</change>
         </revisionDesc>
-    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-0008-B-00002-000-00016"/> <graphic url="MS-SCHNITZLER-B-0008-B-00002-000-00015"/> </facsimile> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-0008-B-00002-000-00016"/><rs ref="#pmb44278" type="place">Pörtschach</rs><space unit="chars" quantity="1"/><date>11/VIII 01</date></dateline></opener><p><salute>Lieber Arthur! </salute>Es ist immerhin möglich daß ich auf ein paar Stunden nach <rs type="place" ref="">Welsberg</rs> ko<c rendition="#gemination-m"/>e. Aber die <pb facs="MS-SCHNITZLER-B-0008-B-00002-000-00015"/>Nähe wäre ja auch ein Grund für Sie zu ko<c rendition="#gemination-m"/>en, nicht?</p><closer>Herzlich grüßt Sie und <rs ref="#pmb11485" type="person">Paul</rs><space unit="chars" quantity="1"/><hi rend="underline" n="1">Ihr</hi><lb/><signed>Richard</signed></closer></div></body> </text></TEI>
+    </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-0008-B-00002-000-00016"/> <graphic url="MS-SCHNITZLER-B-0008-B-00002-000-00015"/> </facsimile> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-0008-B-00002-000-00016"/><rs ref="#pmb44278" type="place">Pörtschach</rs><space unit="chars" quantity="1"/><date>11/VIII 01</date></dateline></opener><p><salute>Lieber Arthur! </salute>Es ist immerhin möglich daß ich auf ein paar Stunden nach <rs type="place" ref="#pmb428">Welsberg</rs> ko<c rendition="#gemination-m"/>e. Aber die <pb facs="MS-SCHNITZLER-B-0008-B-00002-000-00015"/>Nähe wäre ja auch ein Grund für Sie zu ko<c rendition="#gemination-m"/>en, nicht?</p><closer>Herzlich grüßt Sie und <rs ref="#pmb11485" type="person">Paul</rs><space unit="chars" quantity="1"/><hi rend="underline" n="1">Ihr</hi><lb/><signed>Richard</signed></closer></div></body> </text></TEI>

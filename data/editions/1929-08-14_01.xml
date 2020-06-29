@@ -14,9 +14,9 @@
                         <street>Sensengasse 1</street>
                         <postCode>1090 Wien</postCode>
                         <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -48,7 +48,7 @@
                                 <repository>Deutsches Literaturarchiv</repository>
                                 <idno>96.34.2/32</idno>
                             </msIdentifier>
-                            <physDesc><p>eh. Postkarte, Lateinschrift, ovaler Absenderkleber: »<quote><p>A. S.</p><p><rs ref="#pmb68" type="place">Wien, XVIII.</rs></p><p><rs ref="#pmb150" type="place">Sternwartestr.71</rs></p></quote>«. Die Empfängeradresse von unbekannter Hand geändert                   zu: »<quote><p><rs ref="#pmb415" type="place"><hi rend="latintype">Bad-Aussee</hi></rs></p><p><rs ref="#pmb34435" type="place"><hi rend="latintype">Meraner    Haus</hi></rs></p></quote>«.</p><stamp n="1">                   <placeName ref="#pmb59">9/<hi rend="subscript">1</hi>   Wien</placeName>                   <date when="1929-08-15">15. VIII. 29</date>                   <time>18</time>                 </stamp><stamp n="2">                   <placeName ref="#pmb62">12/<hi rend="subscript">1</hi>   Wien</placeName>                   <date when="1929-08-16">16. VIII. 29</date>                   <time>19</time>                 </stamp></physDesc>
+                            <physDesc><p>eh. Postkarte, schwarze Tinte; Lateinschrift. Ovaler Absenderkleber: »<quote><p>A. S.</p><p><rs ref="#pmb68" type="place">Wien, XVIII.</rs></p><p><rs ref="#pmb150" type="place">Sternwartestr.71</rs></p></quote>«. Nachgesandt nach <rs ref="#pmb415" type="place"><hi rend="latintype">Bad-Aussee</hi></rs>, <rs ref="#pmb34435" type="place"><hi rend="latintype">Meraner Haus</hi></rs>«.</p><stamp n="1">                   <placeName ref="#pmb59">9/<hi rend="subscript">1</hi>                     Wien</placeName>                   <date when="1929-08-15">15. VIII. 29</date>                   <time>18</time>                 </stamp><stamp n="2">                   <placeName ref="#pmb62">12/<hi rend="subscript">1</hi>                     Wien</placeName>                   <date when="1929-08-16">16. VIII. 29</date>                   <time>19</time>                 </stamp></physDesc>
                         </msDesc>
                     </witness>
                 </listWit>
@@ -59,40 +59,40 @@
                 <language ident="de-AT">German</language>
             </langUsage>
             <correspDesc>
-            <correspAction type="sent">
+                <correspAction type="sent">
                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                     <placeName ref="#pmb50">Wien</placeName>
                     <date when="1929-08-14" n="01">14. 8. 1929</date>
                 </correspAction>
-            <correspAction type="transmitted">
+                <correspAction type="transmitted">
                     <placeName ref="#pmb50">Wien</placeName>
                     <date when="1929-08-15">15. 8. 1929</date>
                 </correspAction>
-            <correspAction type="forwarded">
+                <correspAction type="forwarded">
                     <placeName ref="#pmb62">Wien</placeName>
                     <date when="1929-08-16">16. 8. 1929</date>
                 </correspAction>
-            <correspAction type="received">
+                <correspAction type="received">
                     <persName ref="#pmb12438">Adam, Robert</persName>
                     <placeName ref="#pmb415">Bad Aussee</placeName>
                 </correspAction>
-            <correspContext>
-               <tei:ref type="belongsToCorrespondence" target="#pmb12438">Adam, Robert</tei:ref>
-               <ref subtype="previous_letter" type="withinCorrespondence" target="1929-07-22_01">Adam an Schnitzler, 22. 7. 1929</ref>
-               <ref subtype="next_letter" type="withinCorrespondence" target="1929-12-22_01">Adam an Schnitzler, 22. 12. 1929</ref>
-            </correspContext>
-         </correspDesc>
+                <correspContext>
+                    <tei:ref type="belongsToCorrespondence" target="#pmb12438">Adam, Robert</tei:ref>
+                    <ref subtype="previous_letter" type="withinCorrespondence" target="1929-07-22_01">Adam an Schnitzler, 22. 7. 1929</ref>
+                    <ref subtype="next_letter" type="withinCorrespondence" target="1929-12-22_01">Adam an Schnitzler, 22. 12. 1929</ref>
+                </correspContext>
+            </correspDesc>
         </profileDesc>
-      <encodingDesc>          
-         <refsDecl>             
-            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>          
-         </refsDecl>       
-      </encodingDesc>
+        <encodingDesc>
+            <refsDecl>
+                <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates
+                    only, e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+                    'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
+            </refsDecl>
+        </encodingDesc>
         <revisionDesc status="proposed">
             <change who="MAM" when="2019-05-21">Angelegt</change>
             <change who="MAM" when="2020-04-14">Index check</change>
+            <change who="GHS" when="2020-06-06">Durchsicht</change>
         </revisionDesc>
-    </teiHeader> <text type="card"> <body><div type="address"><address><addrLine><pb facs=""/>Hrn Ober L.<unclear>g</unclear>r. Rath</addrLine><addrLine>Dr. Robert Adam Pollak</addrLine><addrLine><rs ref="#pmb63" type="place">XIII</rs></addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hptstr 58</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><rs ref="#pmb50" type="place">Wien</rs>, <date>14/8 929</date></dateline><salute>verehrter Herr Doctor, </salute></opener><p>Ihren <rs type="work" ref="#pmb33616" subtype="implied">Aufsatz</rs>, so präcise und so klar hab ich mit aufrichtigem Vergnügen gelesen. Ich danke Ihnen sehr, auch für den lieben Brief und grüße Sie herzlichst.</p><closer><pb/>Ihr sehr ergebner<lb/><signed>ArthSchnitzler</signed></closer></div></body> </text></TEI>
+    </teiHeader> <text type="card"> <body><div type="address"><address><addrLine><pb facs=""/>Hrn Ober L.<unclear>g</unclear>r. Rath</addrLine><addrLine>Dr. Robert Adam Pollak</addrLine><addrLine><rs ref="#pmb63" type="place">Wien XIII</rs></addrLine><addrLine><rs ref="#pmb1239" type="place">Meidlinger Hptstr 58</rs>.</addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs=""/><rs ref="#pmb50" type="place">Wien</rs>, <date>14/8 929</date></dateline><salute>verehrter Herr Doctor, </salute></opener><p>Ihren <rs type="work" ref="#pmb33616" subtype="implied">Aufsatz</rs>, so präcise und so klar hab ich mit aufrichtigem Vergnügen gelesen. Ich danke Ihnen sehr, auch für den lieben Brief und grüße Sie herzlichst.</p><closer><pb/>Ihr sehr ergebner<lb/><signed>ArthSchnitzler</signed></closer></div></body> </text></TEI>

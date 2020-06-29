@@ -232,10 +232,10 @@
                         </button>
                     </div>
                     <div class="modal-info-body">
-                        <p>Dieses Korrespondenzstück wurde noch nicht ausreichend mit dem
-                                Original abgeglichen. Es entspricht damit noch nicht den
-                                angestrebten Qualitätsstandards und sollte derzeit nicht als
-                                Zitatvorlage dienen. </p>
+                        <p>Diese Abschrift wurde noch nicht ausreichend mit dem
+                            Original abgeglichen. Sie sollte derzeit nicht – oder nur
+                            durch eigenen Abgleich mit dem Faksimile, falls vorliegend – als
+                            Zitatvorlage dienen.</p>
                     </div>
                 </div>
             </div>

@@ -48,7 +48,7 @@
                         <repository>University Library</repository>
                         <idno>Schnitzler, B 43</idno>
                      </msIdentifier>
-                     <physDesc><p>eh. Bildpostkarte, schwarze Tinte. Motiv: »<pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00202"/><rs type="place" ref="#pmb189">Semmering</rs>. Adlitzgraben. Strasse zum Orthof.«. Von              unbekannter Hand mit Bleistift nummeriert: »<quote>179 252</quote>«.</p><stamp n="1">              <placeName ref="#pmb189">Semmering</placeName>              <date>23 VI 06</date>             </stamp></physDesc>
+                     <physDesc><p>eh. Bildpostkarte, schwarze Tinte. Von unbekannter Hand mit Bleistift nummeriert: »<quote>179</quote>«. Von weiterer Hand: »<quote>252</quote>«.</p><stamp n="1">              <placeName ref="#pmb189">Semmer<unclear>ing</unclear></placeName>              <date>23 VI 06</date>             </stamp></physDesc>
                   </msDesc>
                </witness>
             </listWit>
@@ -85,7 +85,8 @@
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <tei:ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</tei:ref>
+               <tei:ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo
+                  von</tei:ref>
                <ref subtype="previous_letter" type="withinCorrespondence" target="1906-05-07_01">Hofmannsthal an Schnitzler, 7. 5. 1906</ref>
                <ref subtype="next_letter" type="withinCorrespondence" target="1906-06-24_02">Hofmannsthal an Schnitzler, [zwischen 24. und 27. 6. 1906]</ref>
             </correspContext>
@@ -93,14 +94,15 @@
       </profileDesc>
       <encodingDesc>
          <refsDecl>
-            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only,
+               e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+               'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
          </refsDecl>
       </encodingDesc>
-      <revisionDesc status="proposed">
+      <revisionDesc status="approved">
          <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
          <change who="GHS" when="2020-04-14">Durchsicht</change>
+         <change who="MAM" when="2020-06-16">Index check</change>
+         <change who="MAM" when="2020-06-16">Durchsicht</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00201.jpg"/> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00202.jpg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00201"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><rs type="place" ref="#pmb50"><hi rend="latintype">Wien</hi></rs></addrLine><addrLine><rs ref="#pmb133" type="place"><hi rend="latintype">XVIII Spöttelgasse 7</hi>.</rs></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00202"/><date>23 VI. 06.</date>.</dateline></opener><p>Bin wegen<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>chlechtem Kopf hier herauf. Wie lange bleibt Ihr noch in <rs ref="#pmb50" type="place">Wien</rs>?</p><closer><signed>Hugo</signed></closer></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00201.jpg"/> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00202.jpg"/> </facsimile> <text type="card"> <body><div type="address"><address><addrLine><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00201"/><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine><addrLine><rs type="place" ref="#pmb50"><hi rend="latintype">Wien</hi></rs></addrLine><addrLine><rs ref="#pmb133" type="place"><hi rend="latintype">XVII<!-- sic! --> Spöttelgasse 7</hi>.</rs></addrLine></address></div><div type="writingSession" n="1"><opener><p><hi rend="pre-print"><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00202"/><rs type="place" ref="#pmb189">Semmering</rs>. <rs type="place" ref="#pmb46087">Adlitzgraben</rs>. Strasse zum <rs type="place" ref="#pmb250">Orthof</rs>.</hi></p><dateline rend="right"><date>23 VI. 06</date>.</dateline></opener><p>Bin wegen<tei:space unit="chars" quantity="1"></tei:space><c rendition="#langesS">s</c>chlechtem Kopf hier herauf. Wie lange bleibt Ihr noch in <rs ref="#pmb50" type="place">Wien</rs>?</p><closer><signed>Hugo</signed></closer></div></body> </text></TEI>

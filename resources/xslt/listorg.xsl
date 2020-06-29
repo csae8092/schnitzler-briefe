@@ -60,7 +60,7 @@
                                     </xsl:element>
                                     </p>
                                 </div>
-                                <div class="modal-body"/>
+                                <div class="modal-body-pmb"/>
                             </xsl:when>
                         </xsl:choose>
                         <div class="modal-footer"><!--<button type="button" class="btn btn-default" data-dismiss="modal">X</button>--></div>

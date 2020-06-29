@@ -17,7 +17,6 @@
             <div class="modal" id="myModal" role="dialog">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <xsl:text>ARSCH</xsl:text>
                         <xsl:choose>
                             <xsl:when test="$entity">
                                 <xsl:variable name="entity" select="//tei:bibl[@xml:id=$entiyID]"/>
@@ -39,7 +38,7 @@
                                         <span class="fa fa-times"/>
                                     </button>
                                 </div>
-                                <div class="modal-body">
+                                <div class="modal-body-pmb">
                                     <table class="table table-boardered table-hover">
                                         <tr>
                                             <th>Name</th>

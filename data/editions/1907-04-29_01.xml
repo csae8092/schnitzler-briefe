@@ -48,7 +48,7 @@
                         <repository>University Library</repository>
                         <idno>Schnitzler, B 43</idno>
                      </msIdentifier>
-                     <physDesc><p>ms. Brief mit eh. Unterschrift in schwarzer Tinte, 1 Bl., 1 S. Von              unbekannter Hand mit Bleistift nummeriert: »<quote>274 275</quote>«.</p></physDesc>
+                     <physDesc><p>ms. Brief mit eh. Unterschrift in Bleistift, 1 Bl., 1 S. Von unbekannter Hand mit Bleistift Nummerierungen angebracht: »<quote>274</quote>« respektive »<quote>275</quote>«.</p></physDesc>
                   </msDesc>
                </witness>
             </listWit>
@@ -85,7 +85,8 @@
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspContext>
-               <tei:ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</tei:ref>
+               <tei:ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo
+                  von</tei:ref>
                <ref subtype="previous_letter" type="withinCorrespondence" target="1907-04-13_01">Hofmannsthal an Schnitzler, 13. 4. 1907</ref>
                <ref subtype="next_letter" type="withinCorrespondence" target="1907-05-25_01">Hofmannsthal an Schnitzler, [25. 5. 1907]</ref>
             </correspContext>
@@ -93,15 +94,15 @@
       </profileDesc>
       <encodingDesc>
          <refsDecl>
-            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
-            e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
-            'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
-        </ab>
+            <ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only,
+               e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is:
+               'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15' </ab>
          </refsDecl>
       </encodingDesc>
-      <revisionDesc status="proposed">
+      <revisionDesc status="approved">
          <change who="MAM" when="2019-07-31">Angelegt aus Buchausgabe</change>
          <change who="GHS" when="2020-04-18">Durchsicht</change>
          <change who="MAM" when="2020-04-22">Index check</change>
+         <change who="MAM" when="2020-06-08">Durchsicht</change>
       </revisionDesc>
-   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00265.jpg"/> </facsimile> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00265"/><rs ref="#pmb173" type="place">Rodaun</rs> d <date>29 IV 07</date></dateline><salute>Mein lieber Arthur, </salute></opener><p>bitte seien Sie so gut und schreiben mir gleich in aller Kürze auf einer offenen Karte ob Sie von <rs ref="#pmb11324" type="person">Fischer</rs> für Novellen und ähnliches gleich von der ersten Auflage an 25<c rendition="#prozent"/> bekommen oder von den ersten Auflagen nur 20<c rendition="#prozent"/> und erst von einer höheren an 25<c rendition="#prozent"/>.</p><p>Letzteres wäre mein bisheriger Fall.</p><closer>Herzlichchst Ihr<signed>Hugo</signed></closer></div></body> </text></TEI>
+   </teiHeader> <facsimile> <graphic url="MS-SCHNITZLER-B-00043-B-00002-000-00265.jpg"/> </facsimile> <text type="letter"> <body><div type="writingSession" n="1"><opener><dateline rend="right"><pb facs="MS-SCHNITZLER-B-00043-B-00002-000-00265"/><rs ref="#pmb173" type="place">Rodaun</rs> d <date>29 IV 07</date></dateline><salute>Mein lieber Arthur, </salute></opener><p>bitte seien Sie so gut und schreiben mir gleich in aller Kürze auf einer offenen Karte ob Sie von <rs ref="#pmb11324" type="person">Fischer</rs> für Novellen und ähnliches gleich von der ersten Auflage an 25<c rendition="#prozent"/> bekommen oder von den ersten Auflagen nur 20<c rendition="#prozent"/> und erst von einer höheren an 25<c rendition="#prozent"/>.</p><p>Letzteres wäre mein bisheriger Fall.</p><closer>Herzlichchst Ihr<signed><handShift/>Hugo</signed></closer></div></body> </text></TEI>
