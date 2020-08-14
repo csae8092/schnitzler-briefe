@@ -48,6 +48,11 @@
             <xsl:when test="@rend = 'small_caps'">
                 <xsl:apply-templates/>
             </xsl:when>
+            <xsl:when test="@rend = 'capitals'">
+                <span class="uppercase">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
             <xsl:when test="@rend = 'spaced_out'">
                 <xsl:apply-templates/>
             </xsl:when>
