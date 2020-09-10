@@ -71,6 +71,9 @@
                                         <xsl:attribute name="href">
                                             <xsl:value-of select="$pmb-url"/>
                                         </xsl:attribute>
+                                            <xsl:attribute name="target">
+                                                <xsl:text>_blank</xsl:text>
+                                            </xsl:attribute>
                                         <xsl:text>Zum PMB-Eintrag</xsl:text>
                                     </xsl:element>
                                     </p>

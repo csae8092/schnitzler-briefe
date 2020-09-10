@@ -17,7 +17,7 @@
         <xsl:value-of select="concat('https://schnitzler-briefe.acdh.oeaw.ac.at/pages/show.html?document=', $document)"/>
     </xsl:variable>
     <xsl:variable name="quotationString">
-        <xsl:value-of select="concat(//tei:titleStmt/tei:title[@level = 'a'], ' In: Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren. Digitale Edition. Hg. Martin Anton Müller und Gerd Hermann Susen', $doctitle, ', ', $quotationURL, ' (Abfrage ', $currentDate, ')')"/>
+        <xsl:value-of select="concat(normalize-space(//tei:titleStmt/tei:title[@level = 'a']), '. In: Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren. Digitale Edition. Hg. Martin Anton Müller und Gerd Hermann Susen', $doctitle, ', ', $quotationURL, ' (Abfrage ', $currentDate, ')')"/>
     </xsl:variable>
     <xsl:variable name="doctitle">
         <xsl:value-of select="//tei:title[@type = 'main']/text()"/>
@@ -694,7 +694,13 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template><!-- Streichung -->
-    <xsl:template match="tei:del"/><!-- Substi -->
+    <xsl:template match="tei:del[not(ancestor::tei:physDesc)]"/>
+    <xsl:template match="tei:del[(ancestor::tei:physDesc)]">
+        <span class="del">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <!-- Substi -->
     <xsl:template match="tei:subst">
         <span class="subst-add">
             <xsl:apply-templates select="tei:add"/>
