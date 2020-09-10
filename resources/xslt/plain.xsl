@@ -850,17 +850,23 @@
     <xsl:template match="tei:c[@rendition = '#prozent']">
         <xsl:text>%</xsl:text>
     </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#dots']" mode="lemma">
-        <xsl:value-of select="foo:dots(@n)"/>
-    </xsl:template>
+    
     <xsl:template match="tei:space[@unit='chars' and @quantity='1']" mode="lemma">
         <xsl:text> </xsl:text>
     </xsl:template>
     <xsl:function name="foo:dots">
-        <xsl:param name="anzahl"/> . <xsl:if test="$anzahl &gt; 1">
+        <xsl:param name="anzahl"/>
+        <xsl:text>&#160;.&#160;</xsl:text>
+        <xsl:if test="$anzahl &gt; 1">
             <xsl:value-of select="foo:dots($anzahl - 1)"/>
         </xsl:if>
     </xsl:function>
+    <xsl:template match="tei:c[@rendition = '#dots']">
+        <xsl:value-of select="foo:dots(@n)"/>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#dots']" mode="lemma">
+        <xsl:value-of select="foo:dots(@n)"/>
+    </xsl:template>
     <xsl:function name="foo:gaps">
         <xsl:param name="anzahl"/>
         <xsl:text>×</xsl:text>

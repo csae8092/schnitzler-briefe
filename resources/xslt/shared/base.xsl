@@ -627,7 +627,7 @@
     </xsl:template>
     <xsl:function name="foo:dots">
         <xsl:param name="anzahl"/>
-        .
+        <xsl:text>&#160;.&#160;</xsl:text>
         <xsl:if test="$anzahl &gt; 1">
             <xsl:value-of select="foo:dots($anzahl - 1)"/>
         </xsl:if>
