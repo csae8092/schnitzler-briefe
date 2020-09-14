@@ -4,7 +4,7 @@ import module namespace app="http://www.digital-archiv.at/ns/templates" at "../m
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 declare option exist:serialize "method=json media-type=text/javascript";
 
-(:transforms a CMFI document into a JSON which can be processed by visjs into a network graph:)
+(:transforms a CMIF document into a JSON which can be processed by visjs into a network graph:)
 
 let $result := 
     <result>{

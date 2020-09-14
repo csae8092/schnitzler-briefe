@@ -8,10 +8,10 @@ declare namespace gefx = "http://gexf.net/data/hello-world.gexf";
 declare namespace util = "http://exist-db.org/xquery/util";
 declare option exist:serialize "method=json media-type=text/javascript";
 
-(:transforms a CMFI document into a JSON which can be processed by visjs into a network graph:)
+(:transforms a CMIF document into a JSON which can be processed by visjs into a network graph:)
 
-let $CMFI:= request:get-parameter("CMFI", "")
-let $fallback := if ($CMFI eq "") then $config:app-root||'/data/indices/cmfi.xml' else $CMFI
+let $CMIF:= request:get-parameter("CMIF", "")
+let $fallback := if ($CMIF eq "") then $config:app-root||'/data/indices/cmif.xml' else $CMIF
 let $source := doc($fallback)
 let $result := 
         <result>
