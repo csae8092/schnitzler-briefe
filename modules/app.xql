@@ -130,13 +130,17 @@ let $name := functx:substring-after-last(document-uri(root($node)), '/')
 (:~
 : returns the title of the document of the node passed to this function.
 :)
-declare function app:getTitle($node as node()){
-let $name := if (contains(root($node)/descendant::tei:correspAction[@type='sent']/tei:persName//text(), 'Schnitzler'))
-then
-root($node)/descendant::tei:correspAction[@type='received']/tei:persName//text()
-else
-root($node)/descendant::tei:correspAction[@type='sent']/tei:persName//text()
-    return $name 
+declare function app:getCorrespondence($node as node()){
+let $name := if (contains(root($node)/descendant::tei:correspAction[@type='sent'][1]/tei:persName//text(), 'Schnitzler'))
+then if (root($node)/descendant::tei:correspAction[@type='received'][1]/tei:persName[2]) then
+    root($node)/descendant::tei:correspAction[@type='received'][1]/tei:persName/concat(., '. ')
+    else
+    root($node)/descendant::tei:correspAction[@type='received'][1]/tei:persName/text()
+else if (root($node)/descendant::tei:correspAction[@type='sent'][1]/tei:persName[2]) then
+    root($node)/descendant::tei:correspAction[@type='sent'][1]/tei:persName/concat(., '. ')
+    else
+    root($node)/descendant::tei:correspAction[@type='sent'][1]/tei:persName/text()
+return $name
 };
 
 (:~
@@ -226,7 +230,7 @@ let $href := concat('show.html','?document=', app:getDocName($node), '&amp;style
 <a href="{app:hrefToDoc($hit)}">{app:getDocNameWithoutCountingNumberAndFileSuffix($hit)}</a>
 </td>
 <td>
-<a href="{app:hrefToDoc($hit)}">{app:getTitle($hit)}</a>
+<a href="{app:hrefToDoc($hit)}">{app:getCorrespondence($hit)}</a>
 </td>
 <td>{kwic:summarize($hit, <config width="40" link="{$href}" />)}</td>
 <td>{$score}</td>
