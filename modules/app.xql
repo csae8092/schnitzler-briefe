@@ -126,6 +126,19 @@ let $name := functx:substring-after-last(document-uri(root($node)), '/')
     return $name
 };
 
+
+(:~
+: returns the title of the document of the node passed to this function.
+:)
+declare function app:getTitle($node as node()){
+let $name := if (contains(root($node)/descendant::tei:correspAction[@type='sent']/tei:persName//text(), 'Schnitzler'))
+then
+root($node)/descendant::tei:correspAction[@type='received']/tei:persName//text()
+else
+root($node)/descendant::tei:correspAction[@type='sent']/tei:persName//text()
+    return $name 
+};
+
 (:~
 : returns the name of the document of the node passed to this function.
 :)
@@ -203,7 +216,7 @@ let $href := concat('show.html','?document=', app:getDocName($node), '&amp;style
  declare function app:ft_search($node as node(), $model as map (*)) {
  if (request:get-parameter("searchexpr", "") !="") then
  let $searchterm as xs:string:= request:get-parameter("searchexpr", "")
- for $hit in collection(concat($config:app-root, '/data/editions/'))//*[(.//tei:p[ft:query(.,$searchterm)]) or .//tei:persName[ft:query(.,$searchterm)] or .//tei:cell[ft:query(.,$searchterm)] or .//tei:dateline[ft:query(.,$searchterm)] or .//tei:seg[ft:query(.,$searchterm)] or .//tei:l[ft:query(.,$searchterm)] or .//tei:correspAction[ft:query(.,$searchterm)] or .//tei:correspAction/tei:date[ft:query(.,$searchterm)] or .//tei:correspAction/tei:placeName[ft:query(.,$searchterm)] or .//tei:correspContext[ft:query(.,$searchterm)]]
+ for $hit in collection(concat($config:app-root, '/data/editions/'))//*[(.//tei:p[ft:query(.,$searchterm)]) or .//tei:persName[ft:query(.,$searchterm)] or .//tei:cell[ft:query(.,$searchterm)] or .//tei:dateline[ft:query(.,$searchterm)] or .//tei:seg[ft:query(.,$searchterm)] or .//tei:l[ft:query(.,$searchterm)] or .//tei:correspAction[ft:query(.,$searchterm)] or .//tei:correspAction/tei:date[ft:query(.,$searchterm)] or .//tei:correspAction/tei:placeName[ft:query(.,$searchterm)] or .//tei:correspContext[ft:query(.,$searchterm)] or .//tei:note[ft:query(.,$searchterm)]]
     let $href := concat(app:hrefToDoc($hit), "&amp;searchexpr=", $searchterm)
     let $score as xs:float := ft:score($hit)
     order by $score descending
@@ -212,12 +225,16 @@ let $href := concat('show.html','?document=', app:getDocName($node), '&amp;style
 <td>
 <a href="{app:hrefToDoc($hit)}">{app:getDocNameWithoutCountingNumberAndFileSuffix($hit)}</a>
 </td>
-<td class="KWIC">{kwic:summarize($hit, <config width="40" link="{$href}" />)}</td>
+<td>
+<a href="{app:hrefToDoc($hit)}">{app:getTitle($hit)}</a>
+</td>
+<td>{kwic:summarize($hit, <config width="40" link="{$href}" />)}</td>
 <td>{$score}</td>
 </tr>
  else
-    <div>Kein Suchtext vorhanden</div>
+    <div>Kein Suchtext vorhanden. Verwenden Sie Platzhalter, um Ihre Suche auszuweiten. Beispielsweise findet »Kaffee*« auch »Kaffeehaus« und »Kaffeemaschine«. </div>
  };
+
 
 declare function app:indexSearch_hits($node as node(), $model as map(*),  $searchkey as xs:string?, $path as xs:string?){
 let $indexSerachKey := $searchkey
