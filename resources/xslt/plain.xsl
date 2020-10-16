@@ -413,6 +413,10 @@
                 <xsl:value-of select="foo:autor-rekursion($analytic, 1, count($analytic/tei:author))"/>
                 <xsl:text>: </xsl:text>
             </xsl:when>
+            <xsl:when test="$analytic/tei:author[1]">
+                <xsl:value-of select="foo:vorname-vor-nachname($analytic/tei:author)"/>
+                <xsl:text>: </xsl:text>
+            </xsl:when>
         </xsl:choose>
         <xsl:choose>
             <xsl:when test="not($analytic/tei:title/@type = 'j')">
@@ -439,11 +443,24 @@
             </xsl:otherwise>
         </xsl:choose>
         <xsl:if test="$analytic/tei:editor[1]">
-            <xsl:text> </xsl:text>
-            <xsl:value-of select="$analytic/tei:editor"/>
+            <xsl:text>. </xsl:text>
+            <xsl:choose>
+                <xsl:when test="$analytic/tei:editor[2]">
+                    <xsl:text>Hg. </xsl:text>
+                    <xsl:value-of select="foo:editor-rekursion($analytic, 1, count($analytic/tei:editor))"/>
+                </xsl:when>
+                <xsl:when test="$analytic/tei:editor[1] and contains($analytic/tei:editor[1], ', ') and not(count(contains($analytic/tei:editor[1], ' ')) &gt; 2) and not(contains($analytic/tei:editor[1], 'Hg') or contains($analytic/tei:editor[1], 'Hrsg'))">
+                    <xsl:text>Hg. </xsl:text>
+                    <xsl:value-of select="foo:vorname-vor-nachname($analytic/tei:editor/text())"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="$analytic/tei:editor/text()"/>
+                </xsl:otherwise>
+            </xsl:choose>
             <xsl:text>.</xsl:text>
         </xsl:if>
     </xsl:function>
+    
     <xsl:function name="foo:monogr-angabe">
         <xsl:param name="monogr" as="node()"/>
         <xsl:choose>
@@ -451,11 +468,27 @@
                 <xsl:value-of select="foo:autor-rekursion($monogr, 1, count($monogr/tei:author))"/>
                 <xsl:text>: </xsl:text>
             </xsl:when>
+            <xsl:when test="$monogr/tei:author[1]">
+                <xsl:value-of select="foo:vorname-vor-nachname($monogr/tei:author/text())"/>
+                <xsl:text>: </xsl:text>
+            </xsl:when>
         </xsl:choose>
         <xsl:value-of select="$monogr/tei:title"/>
         <xsl:if test="$monogr/tei:editor[1]">
             <xsl:text>. </xsl:text>
-            <xsl:value-of select="$monogr/tei:editor"/>
+            <xsl:choose>
+                <xsl:when test="$monogr/tei:editor[2]">
+                    <xsl:text>Hg. </xsl:text>
+                    <xsl:value-of select="foo:editor-rekursion($monogr, 1, count($monogr/tei:editor))"/>
+                </xsl:when>
+                <xsl:when test="$monogr/tei:editor[1] and contains($monogr/tei:editor[1], ', ') and not(count(contains($monogr/tei:editor[1], ' ')) &gt; 2) and not(contains($monogr/tei:editor[1], 'Hg') or contains($monogr/tei:editor[1], 'Hrsg'))">
+                    <xsl:text>Hg. </xsl:text>
+                    <xsl:value-of select="foo:vorname-vor-nachname($monogr/tei:editor/text())"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="$monogr/tei:editor/text()"/>
+                </xsl:otherwise>
+            </xsl:choose>
         </xsl:if>
         <xsl:if test="$monogr/tei:edition">
             <xsl:text>. </xsl:text>
@@ -485,6 +518,17 @@
         <xsl:param name="autor-count-gesamt"/>
         <!-- in den Fällen, wo ein Text unter einem Kürzel erschien, wird zum sortieren der key-Wert verwendet -->
         <xsl:value-of select="foo:vorname-vor-nachname($monogr/tei:author[$autor-count])"/>
+        <xsl:if test="$autor-count &lt; $autor-count-gesamt">
+            <xsl:text>, </xsl:text>
+            <xsl:value-of select="foo:autor-rekursion($monogr, $autor-count + 1, $autor-count-gesamt)"/>
+        </xsl:if>
+    </xsl:function>
+    <xsl:function name="foo:editor-rekursion">
+        <xsl:param name="monogr" as="node()"/>
+        <xsl:param name="autor-count"/>
+        <xsl:param name="autor-count-gesamt"/>
+        <!-- in den Fällen, wo ein Text unter einem Kürzel erschien, wird zum sortieren der key-Wert verwendet -->
+        <xsl:value-of select="foo:vorname-vor-nachname($monogr/tei:editor[$autor-count])"/>
         <xsl:if test="$autor-count &lt; $autor-count-gesamt">
             <xsl:text>, </xsl:text>
             <xsl:value-of select="foo:autor-rekursion($monogr, $autor-count + 1, $autor-count-gesamt)"/>
