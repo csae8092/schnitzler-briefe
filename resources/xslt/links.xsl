@@ -812,8 +812,22 @@
     <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-zu']" mode="lemma">
         <xsl:text>}</xsl:text>
     </xsl:template>
+    <xsl:template match="tei:space[@unit='chars' and @quantity='1']">
+        <xsl:text> </xsl:text>
+    </xsl:template>
     <xsl:template match="tei:space[@unit='chars' and @quantity='1']" mode="lemma">
         <xsl:text> </xsl:text>
+    </xsl:template>
+    <xsl:function name="foo:spaci-space">
+        <xsl:param name="anzahl"/>
+        <xsl:param name="gesamt"/>
+        &#160;<br/>
+        <xsl:if test="$anzahl &lt; $gesamt">
+            <xsl:value-of select="foo:spaci-space($anzahl, $gesamt)"/>
+        </xsl:if>
+    </xsl:function>
+    <xsl:template match="tei:space[@unit='line']">
+        <xsl:value-of select="foo:spaci-space(@quantity, @quantity)"/>
     </xsl:template>
     <xsl:template match="tei:c[@rendition = '#gemination-m']" mode="lemma">
         <span class="gemination">mm</span>
