@@ -852,7 +852,9 @@
         </p>
     </xsl:template>
     <xsl:template match="tei:damage">
-        <xsl:apply-templates/>
+        <span class="damage-critical">
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
     <xsl:template match="tei:pb">
         <span class="steuerzeichenUnten">*</span>
