@@ -758,6 +758,12 @@
     <xsl:template match="tei:unclear">
         <xsl:apply-templates/>
     </xsl:template>
+    <!-- Titel kursiv, wenn in Kommentar -->
+    <xsl:template match="tei:rs[@type='work' and not(ancestor::tei:quote) and ancestor::tei:note]/text()">
+        <span class="italics">
+            <xsl:value-of select="."/>
+        </span>
+    </xsl:template>
     <xsl:template match="tei:rs[(@ref or @key) and not(descendant::tei:rs) and not(ancestor::tei:rs)]">
         <xsl:element name="a">
             <xsl:attribute name="class">reference-black</xsl:attribute>

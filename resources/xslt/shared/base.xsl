@@ -625,9 +625,13 @@
     <xsl:template match="tei:c[@rendition = '#prozent']">
         %
     </xsl:template>
+    
+    <xsl:template match="tei:c[@rendition='#externer-link']">
+        <i class="fas fa-external-link-alt"/>
+    </xsl:template>
     <xsl:function name="foo:dots">
         <xsl:param name="anzahl"/>
-        <xsl:text>&#160;.&#160;</xsl:text>
+        <xsl:text> . </xsl:text>
         <xsl:if test="$anzahl &gt; 1">
             <xsl:value-of select="foo:dots($anzahl - 1)"/>
         </xsl:if>
@@ -851,7 +855,7 @@
         <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="tei:pb">
-        <span class="steuerzeichenUnten">|</span>
+        <span class="steuerzeichenUnten">*</span>
     </xsl:template>
     <xsl:template match="tei:unclear">
         <span class="unsicher">
