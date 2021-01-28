@@ -30,10 +30,10 @@ let $result :=
                 {
                     for $corresp in $source//tei:correspDesc[./tei:correspAction[@type='sent'] and ./tei:correspAction[@type='received']]
                         let $sender := $corresp/tei:correspAction[@type='sent']//tei:persName[1]
-                        let $reciver := $corresp/tei:correspAction[@type='received']//tei:persName[1]
+                        let $receiver := $corresp/tei:correspAction[@type='received']//tei:persName[1]
                         let $id := data($corresp/@ref)
                             return
-                                <edges><from>{data($sender/@ref)}</from><to>{data($reciver/@ref)}</to></edges>
+                                <edges><from>{data($sender/@ref)}</from><to>{data($receiver/@ref)}</to></edges>
                 }
 
         </result>
