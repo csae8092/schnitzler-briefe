@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:foo="whatever" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0"><!-- <xsl:strip-space elements="*"/>-->
     <xsl:import href="editions-critical.xsl"/>
     <xsl:param name="document"/>
@@ -227,7 +226,7 @@
             </div>
             <div class="card-body-anhang">
                 <dl class="kommentarhang">
-                    <xsl:apply-templates select="//tei:anchor[@type = 'textConst'] | //tei:note[@type = 'textConst'] | //tei:anchor[@type = 'commentary'] | //tei:note[@type = 'commentary']" mode="lemma"/>
+                    <xsl:apply-templates select="//tei:anchor[@type = 'textConst'] | //tei:anchor[@type = 'commentary'] " mode="lemma"/>
                 </dl>
             </div>
             <div class="row">
@@ -688,27 +687,50 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
-    <xsl:template match="tei:anchor[@type = 'commentary']" mode="lemma">
-        <xsl:for-each-group select="following-sibling::node()" group-ending-with="//tei:note[@type = 'commentary']">
-            <xsl:if test="position() eq 1">
-                <dt class="kommentar-lemma">
-                    <xsl:apply-templates select="current-group()[position() != last()]" mode="lemma"/>]</dt>
-            </xsl:if>
-        </xsl:for-each-group>
+    <xsl:template match="tei:note[@type = 'commentary']" mode="lemma-k">
+        <xsl:apply-templates/>
     </xsl:template>
-    <xsl:template match="tei:note" mode="lemma">
+    <xsl:template match="tei:note[@type = 'textConst']" mode="lemma-k"/>
+    <xsl:template match="tei:note[@type = 'textConst']" mode="lemma-t">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="tei:note[@type = 'commentary']" mode="lemma-t"/>
+    
+    
+    
+    <xsl:template match="tei:note[@type = 'commentary']" mode="lemma">
         <dd class="kommentar-text">
-            <xsl:apply-templates/>
+            <xsl:apply-templates select="*[not(name()=tei:anchor or name()=tei:note)]"/>
+        </dd>
+    </xsl:template>
+    <xsl:template match="tei:note[@type = 'textConst']" mode="lemma">
+        <dd class="kommentar-text">
+            <xsl:apply-templates select="*[not(name()=tei:anchor or name()=tei:note)]"/>
         </dd>
     </xsl:template>
     <xsl:template match="tei:anchor[@type = 'textConst']" mode="lemma">
         <xsl:for-each-group select="following-sibling::node()" group-ending-with="//tei:note[@type = 'textConst']">
             <xsl:if test="position() eq 1">
                 <dt class="kommentar-lemma">
-                    <xsl:apply-templates select="current-group()[position() != last()]" mode="lemma"/>]</dt>
+                    <xsl:apply-templates select="current-group()[position() != last()]" mode="lemma-t"/>]</dt>
             </xsl:if>
         </xsl:for-each-group>
+        <dd class="kommentar-text">
+            <xsl:apply-templates select="following-sibling::tei:note[@type='textConst']" mode="lemma-t"/>
+        </dd>
     </xsl:template>
+    <xsl:template match="tei:anchor[@type = 'commentary']" mode="lemma">
+        <xsl:for-each-group select="following-sibling::node()" group-ending-with="//tei:note[@type = 'commentary']">
+            <xsl:if test="position() eq 1">
+                <dt class="kommentar-lemma">
+                    <xsl:apply-templates select="current-group()[position() != last()]" mode="lemma-k"/>]</dt>
+            </xsl:if>
+        </xsl:for-each-group>
+        <dd class="kommentar-text">
+            <xsl:apply-templates select="following-sibling::tei:note[@type='commentary']" mode="lemma-k"/>
+        </dd>
+    </xsl:template>
+    
     <!-- Titel kursiv, wenn in Kommentar -->
     <xsl:template match="tei:rs[@type='work' and not(ancestor::tei:quote) and ancestor::tei:note]/text()">
         <span class="italics">
@@ -871,7 +893,7 @@
     <xsl:function name="foo:spaci-space">
         <xsl:param name="anzahl"/>
         <xsl:param name="gesamt"/>
-        &#160;<br/>
+         <br/>
         <xsl:if test="$anzahl &lt; $gesamt">
             <xsl:value-of select="foo:spaci-space($anzahl, $gesamt)"/>
         </xsl:if>
@@ -905,7 +927,7 @@
     </xsl:template>
     <xsl:function name="foo:dots">
         <xsl:param name="anzahl"/>
-        <xsl:text>&#160;.&#160;</xsl:text>
+        <xsl:text> . </xsl:text>
         <xsl:if test="$anzahl &gt; 1">
             <xsl:value-of select="foo:dots($anzahl - 1)"/>
         </xsl:if>
