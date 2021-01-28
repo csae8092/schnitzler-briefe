@@ -658,9 +658,10 @@
         </span>
     </xsl:template>
     <xsl:template match="tei:anchor[@type = 'textConst']" mode="lemma">
+        <xsl:variable name="xmlid" select="concat(@xml:id, 'h')"/>
         <p class="kommentar">
             <xsl:for-each-group select="following-sibling::node()"
-                group-ending-with="//tei:note[@type = 'textConst']">
+                group-ending-with="//tei:note[@type = 'textConst' and @xml:id=$xmlid]">
                 <xsl:if test="position() eq 1">
                     <span class="lemma">
                         <xsl:apply-templates select="current-group()[position() != last()]"
@@ -675,8 +676,9 @@
     </xsl:template>
     <xsl:template match="tei:anchor[@type = 'commentary']" mode="lemma">
         <p class="kommentar">
+            <xsl:variable name="xmlid" select="concat(@xml:id, 'h')"/>
             <xsl:for-each-group select="following-sibling::node()"
-                group-ending-with="//tei:note[@type = 'commentary']">
+                group-ending-with="//tei:note[@type = 'commentary' and @xml:id=$xmlid]">
                 <xsl:if test="position() eq 1">
                     <span class="lemma">
                         <xsl:apply-templates select="current-group()[position() != last()]"
