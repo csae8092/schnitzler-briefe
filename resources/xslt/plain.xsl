@@ -635,6 +635,7 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
+    <!-- Kommentar und Textkonstitution -->
     <xsl:template match="tei:note[@type = 'commentary']" mode="lemma-k">
         <xsl:apply-templates/>
     </xsl:template>
@@ -644,42 +645,46 @@
     </xsl:template>
     <xsl:template match="tei:note[@type = 'commentary']" mode="lemma-t"/>
     <xsl:template match="tei:note[@type = 'commentary']" mode="lemma">
-        <dd class="kommentar-text">
+        <span class="kommentar-text">
             <xsl:apply-templates select="*[not(name() = tei:anchor or name() = tei:note)]"/>
-        </dd>
+        </span>
     </xsl:template>
     <xsl:template match="tei:note[@type = 'textConst']" mode="lemma">
-        <dd class="kommentar-text">
+        <span class="kommentar-text">
             <xsl:apply-templates select="*[not(name() = tei:anchor or name() = tei:note)]"/>
-        </dd>
+        </span>
     </xsl:template>
     <xsl:template match="tei:anchor[@type = 'textConst']" mode="lemma">
-        <xsl:for-each-group select="following-sibling::node()"
-            group-ending-with="//tei:note[@type = 'textConst']">
-            <xsl:if test="position() eq 1">
-                <dt class="kommentar-lemma">
-                    <xsl:apply-templates select="current-group()[position() != last()]"
-                        mode="lemma-t"/>]</dt>
-            </xsl:if>
-        </xsl:for-each-group>
-        <dd class="kommentar-text">
-            <xsl:apply-templates select="following-sibling::tei:note[@type = 'textConst']"
-                mode="lemma-t"/>
-        </dd>
+        <p class="kommentar">
+            <xsl:for-each-group select="following-sibling::node()"
+                group-ending-with="//tei:note[@type = 'textConst']">
+                <xsl:if test="position() eq 1">
+                    <span class="lemma">
+                        <xsl:apply-templates select="current-group()[position() != last()]"
+                            mode="lemma-t"/>] </span>
+                </xsl:if>
+            </xsl:for-each-group>
+            <span class="kommentar-text">
+                <xsl:apply-templates select="following-sibling::tei:note[@type = 'textConst'][1]"
+                    mode="lemma-t"/>
+            </span>
+        </p>
     </xsl:template>
     <xsl:template match="tei:anchor[@type = 'commentary']" mode="lemma">
-        <xsl:for-each-group select="following-sibling::node()"
-            group-ending-with="//tei:note[@type = 'commentary']">
-            <xsl:if test="position() eq 1">
-                <dt class="kommentar-lemma">
-                    <xsl:apply-templates select="current-group()[position() != last()]"
-                        mode="lemma-k"/>]</dt>
-            </xsl:if>
-        </xsl:for-each-group>
-        <dd class="kommentar-text">
-            <xsl:apply-templates select="following-sibling::tei:note[@type = 'commentary']"
-                mode="lemma-k"/>
-        </dd>
+        <p class="kommentar">
+            <xsl:for-each-group select="following-sibling::node()"
+                group-ending-with="//tei:note[@type = 'commentary']">
+                <xsl:if test="position() eq 1">
+                    <span class="lemma">
+                        <xsl:apply-templates select="current-group()[position() != last()]"
+                            mode="lemma-k"/>] </span>
+                </xsl:if>
+            </xsl:for-each-group>
+            <span class="kommentar-text">
+                <xsl:apply-templates select="following-sibling::tei:note[@type = 'commentary'][1]"
+                    mode="lemma-k"/>
+            </span>
+        </p>
     </xsl:template>
     <xsl:template match="tei:hi">
         <xsl:choose>

@@ -20,17 +20,8 @@ a:hover{
 cursor: pointer
 }
 
-dd {
-  margin-left: 0px;
-}
- 
-
-dt {
-  float: left;
-  clear: left;
-  margin-right: 5px;
-  font-weight: bold;
-}
+dt, dd { display: block; float: left; margin-top: 0px; }
+dt { clear: both; }
 
 .image-rights{
 text-align : right;
@@ -464,6 +455,10 @@ background-color: white;
 color: black;
 max-width: 850px;
 width: 100vw;}
+
+.lemma {
+  font-weight: bold;
+}
 
 .latintype {
     font-variant:small-caps;
