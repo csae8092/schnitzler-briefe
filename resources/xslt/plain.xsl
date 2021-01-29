@@ -636,6 +636,7 @@
         </xsl:choose>
     </xsl:function>
     <!-- Kommentar und Textkonstitution -->
+    <!-- Kommentar und Textkonstitution -->
     <xsl:template match="tei:note[@type = 'commentary']" mode="lemma-k">
         <xsl:apply-templates/>
     </xsl:template>
@@ -657,34 +658,28 @@
     <xsl:template match="tei:anchor[@type = 'textConst']" mode="lemma">
         <xsl:variable name="xmlid" select="concat(@xml:id, 'h')"/>
         <p class="kommentar">
-            <xsl:for-each-group select="following-sibling::node()"
-                group-ending-with="//tei:note[@type = 'textConst' and @xml:id=$xmlid]">
+            <xsl:for-each-group select="following-sibling::node()" group-ending-with="//tei:note[@type = 'textConst' and @xml:id=$xmlid]">
                 <xsl:if test="position() eq 1">
                     <span class="lemma">
-                        <xsl:apply-templates select="current-group()[position() != last()]"
-                            mode="lemma-t"/>] </span>
+                        <xsl:apply-templates select="current-group()[position() != last()]" mode="lemma-t"/>] </span>
                 </xsl:if>
             </xsl:for-each-group>
             <span class="kommentar-text">
-                <xsl:apply-templates select="following-sibling::tei:note[@type = 'textConst'][1]"
-                    mode="lemma-t"/>
+                <xsl:apply-templates select="following-sibling::tei:note[@type = 'textConst'][1]" mode="lemma-t"/>
             </span>
         </p>
     </xsl:template>
     <xsl:template match="tei:anchor[@type = 'commentary']" mode="lemma">
         <p class="kommentar">
             <xsl:variable name="xmlid" select="concat(@xml:id, 'h')"/>
-            <xsl:for-each-group select="following-sibling::node()"
-                group-ending-with="//tei:note[@type = 'commentary' and @xml:id=$xmlid]">
+            <xsl:for-each-group select="following-sibling::node()" group-ending-with="//tei:note[@type = 'commentary' and @xml:id=$xmlid]">
                 <xsl:if test="position() eq 1">
                     <span class="lemma">
-                        <xsl:apply-templates select="current-group()[position() != last()]"
-                            mode="lemma-k"/>] </span>
+                        <xsl:apply-templates select="current-group()[position() != last()]" mode="lemma-k"/>] </span>
                 </xsl:if>
             </xsl:for-each-group>
             <span class="kommentar-text">
-                <xsl:apply-templates select="following-sibling::tei:note[@type = 'commentary'][1]"
-                    mode="lemma-k"/>
+                <xsl:apply-templates select="following-sibling::tei:note[@type = 'commentary'][1]" mode="lemma-k"/>
             </span>
         </p>
     </xsl:template>
@@ -868,7 +863,10 @@
     <xsl:template match="tei:body">
         <xsl:apply-templates/>
     </xsl:template>
-    <xsl:template match="tei:c[@rendition='#langesS']" mode="lemma">
+    <xsl:template match="tei:c[@rendition='#langesS']" mode="lemma-k">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition='#langesS']" mode="lemma-t">
         <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="tei:c[@rendition='#langesS']">
@@ -883,7 +881,10 @@
     <xsl:template match="tei:c[@rendition='#kaufmannsund']">
         <xsl:text>&amp;</xsl:text>
     </xsl:template>
-    <xsl:template match="tei:c[@rendition='#kaufmannsund']" mode="lemma">
+    <xsl:template match="tei:c[@rendition='#kaufmannsund']" mode="lemma-k">
+        <xsl:text>&amp;</xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition='#kaufmannsund']" mode="lemma-t">
         <xsl:text>&amp;</xsl:text>
     </xsl:template>
     <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-auf']">
@@ -892,29 +893,47 @@
     <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-zu']">
         <xsl:text>}</xsl:text>
     </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-auf']" mode="lemma">
+    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-auf']" mode="lemma-k">
         <xsl:text>{</xsl:text>
     </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-zu']" mode="lemma">
+    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-zu']" mode="lemma-k">
+        <xsl:text>}</xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-auf']" mode="lemma-t">
+        <xsl:text>{</xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-zu']" mode="lemma-t">
         <xsl:text>}</xsl:text>
     </xsl:template>
     <xsl:template match="tei:space[@unit='chars' and @quantity='1']">
         <xsl:text> </xsl:text>
     </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#gemination-m']" mode="lemma">
+    <xsl:template match="tei:c[@rendition = '#gemination-m']" mode="lemma-k">
         <span class="gemination">mm</span>
     </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#gemination-n']" mode="lemma">
+    <xsl:template match="tei:c[@rendition = '#gemination-n']" mode="lemma-k">
         <span class="gemination">nn</span>
     </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#prozent']" mode="lemma">
+    <xsl:template match="tei:c[@rendition = '#prozent']" mode="lemma-k">
+        <xsl:text>%</xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#gemination-m']" mode="lemma-t">
+        <span class="gemination">mm</span>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#gemination-n']" mode="lemma-t">
+        <span class="gemination">nn</span>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#prozent']" mode="lemma-t">
         <xsl:text>%</xsl:text>
     </xsl:template>
     <xsl:template match="tei:c[@rendition = '#prozent']">
         <xsl:text>%</xsl:text>
     </xsl:template>
     
-    <xsl:template match="tei:space[@unit='chars' and @quantity='1']" mode="lemma">
+    <xsl:template match="tei:space[@unit='chars' and @quantity='1']" mode="lemma-k">
+        <xsl:text> </xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:space[@unit='chars' and @quantity='1']" mode="lemma-t">
         <xsl:text> </xsl:text>
     </xsl:template>
     <xsl:function name="foo:spaci-space">
@@ -938,7 +957,10 @@
     <xsl:template match="tei:c[@rendition = '#dots']">
         <xsl:value-of select="foo:dots(@n)"/>
     </xsl:template>
-    <xsl:template match="tei:c[@rendition = '#dots']" mode="lemma">
+    <xsl:template match="tei:c[@rendition = '#dots']" mode="lemma-k">
+        <xsl:value-of select="foo:dots(@n)"/>
+    </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#dots']" mode="lemma-t">
         <xsl:value-of select="foo:dots(@n)"/>
     </xsl:template>
     <xsl:function name="foo:gaps">
