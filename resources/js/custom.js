@@ -28,7 +28,6 @@ $(document).ready(function(){
    var dataType = $( this ).attr('data-type');
    var dataKey = $( this ).attr('data-key');
    var dataKeys = $( this ).attr('data-keys');
-   // if (dataKeys != undefined && dataKeys != "" && dataKeys != null){
    if(dataKeys != undefined){
       let html = "<div id='linksModal' tabindex='-1' class='modal' role='dialog' aria-labelledby='modal-label'>";
       html = html + "<div class='modal-dialog modal-sm' role='document'>";
@@ -37,55 +36,64 @@ $(document).ready(function(){
       html = html + "<h3 class='modal-title' id='modal-label'>Links</h3></div>";
       html = html + "<div class='modal-body-pmb'>";
       let keys = dataKeys.split(' ');
-      if(dataType != undefined){
+      /* if(dataType != undefined){
           for (let j = 0; j < keys.length; j++){
               keys[j] = keys[j].substring(1,keys[j].length); // Remove hash
           }
       }
+      */
       let linkTitles = [];
       let promises = [];
+	  let textForModal = '';
       for (let i = 0; i < keys.length; i++){
           let dataTypeInKey = '';
           let key = '';
-          if(dataType != undefined){
-              dataTypeInKey = dataType;
-              key = keys[i];
-          }
-          else {
             if (keys[i].startsWith('work')){ dataTypeInKey = 'listwork.xml'; key = keys[i].substring(5,keys[i].length); }
             else if (keys[i].startsWith('org')){ dataTypeInKey = 'listorg.xml'; key = keys[i].substring(4,keys[i].length); }
             else if (keys[i].startsWith('person')){ dataTypeInKey = 'listperson.xml'; key = keys[i].substring(7,keys[i].length); }
             else if (keys[i].startsWith('place')){ dataTypeInKey = 'listplace.xml'; key = keys[i].substring(6,keys[i].length); }
-          }
-          let linkTitle = '';
           let url = "showNoTemplate.html?directory=indices&document=" + dataTypeInKey + "&entiyID=" + key;
-          promises[i] = $.get(url,function(data){
+          
+		  promises[i] = $.get(url, function(data){
+			  if (i == 0){
+				$('#loadModal').append(data);
+			  }
+			  else{
+				  let parser = new DOMParser();
+				  let contentToInsert = parser.parseFromString(data,'text/html');
+				  let subTree = contentToInsert.getElementsByClassName('modal-dialog')[0];
+				  let subTreeToInsert = $(subTree).clone();
+				  $('#myModal').append(subTreeToInsert);
+			  }
+			});
+		  /*
+		  promises[i] = $.get(url,function(data){
                 let parser = new DOMParser();
                 let contentAsDOM = parser.parseFromString(data, "text/html");
-                linkTitle = contentAsDOM
-                    .getElementsByTagName('div')[0]
-                    .getElementsByTagName('div')[0]
-                    .getElementsByTagName('div')[0]
-                    .getElementsByTagName('div')[1]
-                    .getElementsByTagName('table')[0]
-                    .getElementsByTagName('tr')[0]
-                    .getElementsByTagName('td')[0].childNodes[0].nodeValue;
-                linkTitles.push(linkTitle);
+				if (dataTypeInKey === 'listwork.xml'){
+					textForModal = "<p class='work-modal-author'>" + contentAsDOM
+                    .getElementById('work-modal-author').textContent + "</p>";
+					console.log(textForModal);
+                    //.getElementsByTagName('h3')[0]
+                    //.getElementsByTagName('small')[0].childNodes[0].nodeValue;
+                //linkTitles.push(linkTitle);
+				}
           });
-          promises[i].always(function(){
+		  */
+          /*promises[i].always(function(){
             let anchor = "<div><a data-type='" + dataTypeInKey + "' data-key='" + key + "'>" + linkTitle + "</a></div>";
-            html = html + anchor;
-          });
+            html = html + textForModal;
+          });*/
       }
       Promise.all(promises).then(function(){
-        html = html + "</div><div class='modal-footer'><button onclick='$(`#linksModal`).modal(`hide`);$(`#linksModal`).remove();' type='button' class='btn btn-secondary' data-dismiss='modal'>X</button></div>" + "</div></div></div>";
+        html = "</div><div class='modal-footer'><button onclick='$(`#linksModal`).modal(`hide`);$(`#linksModal`).remove();' type='button' class='btn btn-secondary' data-dismiss='modal'>X</button></div>" + "</div></div></div>";
         $('#linksModal').remove();
         $('#loadModal').append(html);
+		$('#myModal').modal('show');
         $('#linksModal').modal('show');
         $('#linksModal').focus();
               
         let handlesForModalLinks = $('#linksModal div div a');
-        console.log(handlesForModalLinks);
         $(handlesForModalLinks).each(function(){$(this).click(function(){
             let dataType = $( this ).attr('data-type');
             let dataKey = $( this ).attr('data-key');
@@ -103,7 +111,7 @@ $(document).ready(function(){
    else{
        var xsl = dataType.replace(".xml", "");
        var baseUrl = "showNoTemplate.html?directory=indices&document="
-       var url = baseUrl+dataType+"&entiyID="+dataKey;
+       var url = baseUrl + dataType + "&entiyID=" + dataKey;
        $('#loadModal').load(url, function(){
 		   
 		// new code start
