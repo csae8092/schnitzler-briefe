@@ -791,51 +791,55 @@
             <xsl:value-of select="."/>
         </span>
     </xsl:template>
-    <xsl:template match="tei:rs[(@ref or @key) and (ancestor::tei:rs)]">
+    <!-- <rs> -->
+    <xsl:template match="tei:rs[(@ref or @key) and ancestor::tei:rs]">
         <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="tei:rs[(@ref or @key) and not(ancestor::tei:rs)]">
         <!-- das template macht aus allen @refs eine liste, die vorne den typ enthält, also beispielsweise
         so: data-keys="work:pmb33436 person:pmb2425 person:pmb2456"
         es gibt ein gemurkse mit den leerzeichen, die zuerst als ä gesetzt werden, damit sie nicht verloren gehen-->
-        <xsl:variable name="unteres-element-liste">
+        
+        <xsl:variable name="unteres-element">
             <xsl:for-each select="descendant::tei:rs">
-                <xsl:variable name="type" select="concat(@type, ':')"/>
+                <xsl:variable name="type" select="@type"/>
                 <xsl:for-each select="tokenize(@ref, ' ')">
-                    <xsl:value-of select="concat($type, substring(., 2))"/>
+                    <xsl:value-of select="$type"/>
+                    <xsl:text>:</xsl:text>
+                    <xsl:value-of select="concat(substring-after(., '#'), 'ä')"/>
                 </xsl:for-each>
-                <xsl:text>ä</xsl:text>
             </xsl:for-each>
         </xsl:variable>
-        <xsl:variable name="unteres-element" select="(replace($unteres-element-liste, 'ä', ' '))"/>
-        <xsl:variable name="current-liste">
-            <xsl:variable name="type" select="concat(@type, ':')"/>
+        <xsl:variable name="current">
+            <xsl:variable name="type" select="@type"/>
             <xsl:for-each select="tokenize(@ref, ' ')">
-                <xsl:value-of select="concat($type, substring(., 2), 'ä')"/>
+                <xsl:value-of select="$type"/>
+                <xsl:text>:</xsl:text>
+                <xsl:value-of select="concat(substring-after(., '#'), 'ä')"/>
             </xsl:for-each>
         </xsl:variable>
-        <xsl:variable name="current" select="normalize-space(replace($current-liste, 'ä', ' '))"/>
-        <xsl:variable name="data-keys" select="(concat($current, ' ', $unteres-element))"/>
+        <xsl:variable name="data-keys" select="normalize-space(replace(concat($current, $unteres-element), 'ä', ' '))"/>
         <xsl:element name="a">
             <xsl:attribute name="class">reference-black</xsl:attribute>
             <xsl:choose>
-                <xsl:when test="string-length($data-keys) - string-length(translate($data-keys, 'pmb', '')) = 3">
-                    <xsl:attribute name="data-type">
-                        <xsl:value-of select="concat('list', substring-before($data-keys, ':'), '.xml')"/>
-                    </xsl:attribute>
+                <xsl:when test="string-length($data-keys) - string-length(translate($data-keys, 'pmb', '')) = 4">
                     <xsl:attribute name="data-key">
-                        <xsl:value-of select="normalize-space(substring-after($data-keys, ':'))"/>
+                        <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="data-type">
+                        <xsl:value-of select="concat('list', @type, '.xml')"/>
                     </xsl:attribute>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:attribute name="data-keys">
-                        <xsl:value-of select="normalize-space($data-keys)"/>
+                        <xsl:value-of select="$data-keys"/>
                     </xsl:attribute>
                 </xsl:otherwise>
             </xsl:choose>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
+    <!-- Ende rs -->
     <xsl:template match="tei:footNote">
         <xsl:element name="a">
             <xsl:attribute name="href">
