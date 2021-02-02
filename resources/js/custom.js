@@ -21,7 +21,7 @@ function findGetParameter(parameterName) {
     return result;
 }
 
-/*script for loading the content of the modal */
+/* script for loading the content of the modal */
 $(document).ready(function(){
    var trigger = $('a[data-key],a[data-keys]');
    $(trigger).click(function(){
@@ -56,39 +56,22 @@ $(document).ready(function(){
           
 		  promises[i] = $.get(url, function(data){
 			  if (i == 0){
+				$('#myModal').remove();
 				$('#loadModal').append(data);
 			  }
 			  else{
 				  let parser = new DOMParser();
 				  let contentToInsert = parser.parseFromString(data,'text/html');
-				  let subTree = contentToInsert.getElementsByClassName('modal-dialog')[0];
+				  let subTree = contentToInsert.getElementsByClassName('modal-content')[0];
 				  let subTreeToInsert = $(subTree).clone();
-				  $('#myModal').append(subTreeToInsert);
+				  $('.modal-dialog').append(subTreeToInsert);
 			  }
 			});
-		  /*
-		  promises[i] = $.get(url,function(data){
-                let parser = new DOMParser();
-                let contentAsDOM = parser.parseFromString(data, "text/html");
-				if (dataTypeInKey === 'listwork.xml'){
-					textForModal = "<p class='work-modal-author'>" + contentAsDOM
-                    .getElementById('work-modal-author').textContent + "</p>";
-					console.log(textForModal);
-                    //.getElementsByTagName('h3')[0]
-                    //.getElementsByTagName('small')[0].childNodes[0].nodeValue;
-                //linkTitles.push(linkTitle);
-				}
-          });
-		  */
-          /*promises[i].always(function(){
-            let anchor = "<div><a data-type='" + dataTypeInKey + "' data-key='" + key + "'>" + linkTitle + "</a></div>";
-            html = html + textForModal;
-          });*/
       }
       Promise.all(promises).then(function(){
         html = "</div><div class='modal-footer'><button onclick='$(`#linksModal`).modal(`hide`);$(`#linksModal`).remove();' type='button' class='btn btn-secondary' data-dismiss='modal'>X</button></div>" + "</div></div></div>";
         $('#linksModal').remove();
-        $('#loadModal').append(html);
+        //$('#loadModal').append(html);
 		$('#myModal').modal('show');
         $('#linksModal').modal('show');
         $('#linksModal').focus();
@@ -106,6 +89,113 @@ $(document).ready(function(){
             });
         });
         });
+		// handle pmb relations for more than one modal
+			let linksIntoPMB = $('#myModal div div div h3 small a');
+			let pmbKeys = new Array();
+			for (let i = 0; i < linksIntoPMB.length; i++){
+				if (linksIntoPMB[i] !== undefined){
+					let reference = $(linksIntoPMB[i]).attr('href');
+					let pmbKey = 0;
+					if (reference !== undefined){
+						let position = reference.lastIndexOf('pmb');
+						pmbKey = reference.substring(position + 3,reference.length);
+						pmbKeys.push(pmbKey);
+					}
+				}
+			}
+			for (let j = 0; j < pmbKeys.length; j++){
+				// make request to pmb and process them
+				let url = 'https://pmb.acdh.oeaw.ac.at/apis/api2/entity/' + pmbKeys[j] + '/?format=json';
+				let promise = $.get(url,function(data){
+					if (data.entity_type === 'Institution' || data.entity_type === 'Place' || data.entity_type === 'Person' || data.entity_type === 'Event' || data.entity_type === 'Work'){
+					// persons relations
+					for (let i = 0; i < data.relations.persons.length; i++){
+						let idOfRelation = data.relations.persons[i].target.id;
+						let labelOfRelation = data.relations.persons[i].relation_type.label;
+						let targetOfRelation = data.relations.persons[i].target.name;
+						let firstname = data.relations.persons[i].target.first_name;
+						let linkhref = 'https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/' + idOfRelation +'/detail';
+						if (firstname) {
+							if (targetOfRelation) {
+								var name = firstname + ' ' + targetOfRelation;
+							} else {
+								var name = firstname;
+							};
+						} else 
+							{ var name = targetOfRelation; };
+						if (labelOfRelation.includes('>>')) {
+					    	var n = labelOfRelation.lastIndexOf('>>');
+					        var str = labelOfRelation.substring(n+3);
+
+						} else {
+							var str = labelOfRelation;
+						}
+						$('#myModal div div .modal-body-pmb').eq(j).append('<div class="pmbAbfrageText">' + str + ' <a href="' + linkhref + '">' + name + '</a></div>');
+					}
+					// works relations
+					for (let i = 0; i < data.relations.works.length; i++){
+						let idOfRelation = data.relations.works[i].target.id;
+						let labelOfRelation = data.relations.works[i].relation_type.label;
+						let targetOfRelation = data.relations.works[i].target.name;
+						let linkhref = 'https://pmb.acdh.oeaw.ac.at/apis/entities/entity/work/' + idOfRelation +'/detail';
+						if (labelOfRelation.includes('>>')) {
+					    	var n = labelOfRelation.lastIndexOf('>>');
+					        var str = labelOfRelation.substring(n + 3);
+
+						} else {
+							var str = labelOfRelation;
+						}
+						$('#myModal div div .modal-body-pmb').eq(j).append('<div class="pmbAbfrageText">' + str + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
+					}
+					// events relations
+					for (let i = 0; i < data.relations.events.length; i++){
+						let idOfRelation = data.relations.events[i].target.id;
+						let labelOfRelation = data.relations.events[i].relation_type.label;
+						let targetOfRelation = data.relations.events[i].target.name;
+						let linkhref = 'https://pmb.acdh.oeaw.ac.at/apis/entities/entity/event/' + idOfRelation +'/detail';
+						if (labelOfRelation.includes('>>')) {
+					    	var n = labelOfRelation.lastIndexOf('>>');
+					        var str = labelOfRelation.substring(n + 3);
+
+						} else {
+							var str = labelOfRelation;
+						}
+						$('#myModal div div .modal-body-pmb').eq(j).append('<div class="pmbAbfrageText">' + str + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
+					}
+					// institutions relations
+					for (let i = 0; i < data.relations.institutions.length; i++){
+						let idOfRelation = data.relations.institutions[i].target.id;
+						let labelOfRelation = data.relations.institutions[i].relation_type.label;
+						let targetOfRelation = data.relations.institutions[i].target.name;
+						let linkhref = 'https://pmb.acdh.oeaw.ac.at/apis/entities/entity/institution/' + idOfRelation +'/detail';
+						if (labelOfRelation.includes('>>')) {
+					    	var n = labelOfRelation.lastIndexOf('>>');
+					        var str = labelOfRelation.substring(n + 3);
+						} else {
+							var str = labelOfRelation;
+						}
+						$('#myModal div div .modal-body-pmb').eq(j).append('<div class="pmbAbfrageText">' + str + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
+					}
+					// places relations
+					for (let i = 0; i < data.relations.places.length; i++){
+						let idOfRelation = data.relations.places[i].target.id;
+						let labelOfRelation = data.relations.places[i].relation_type.label;
+						let targetOfRelation = data.relations.places[i].target.name;
+						let linkhref = 'https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/' + idOfRelation +'/detail';
+						if (labelOfRelation.includes('>>')) {
+					    	var n = labelOfRelation.lastIndexOf('>>');
+					        var str = labelOfRelation.substring(n+3);
+
+						} else {
+							var str = labelOfRelation;
+						}
+						$('#myModal div div .modal-body-pmb').eq(j).append('<div class="pmbAbfrageText">' + str + ' <a href="' + linkhref + '">' + targetOfRelation + '</a></div>');
+					}
+				}
+			});
+			// make request to pmb and process them - end
+			}
+		// handle pmb relations for more than one modal - end
       });
    }
    else{
@@ -134,7 +224,7 @@ $(document).ready(function(){
 				}
 			}
 		}
-		// console.log(pmbKey);
+		// make request to pmb and process them
 		let url = 'https://pmb.acdh.oeaw.ac.at/apis/api2/entity/' + pmbKey + '/?format=json';
 		let promise = $.get(url,function(data){
 			if (data.entity_type === 'Institution' || data.entity_type === 'Place' || data.entity_type === 'Person' || data.entity_type === 'Event' || data.entity_type === 'Work'){
@@ -224,6 +314,7 @@ $(document).ready(function(){
 				}
 			}
 		});
+		// make request to pmb and process them - end
 	  }
 	  // new code end   
 		   
