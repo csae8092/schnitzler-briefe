@@ -64,6 +64,7 @@
                         html += "</button></div>";
                         html += "<div class='modal-body'>";
                         let promises = [];
+						let numbersTitlesAndIds = new Array();
                         for (let i = 0; i < ids.length; i++){
                             let linkTitle = '';
                             let url = ids[i];
@@ -78,11 +79,31 @@
                                 .getElementsByTagName('div')[0]
                                 .getElementsByTagName('div')[1]
                                 .getElementsByTagName('h2')[0].innerHTML;
-                                console.log(linkTitle);
-                                html += "<div class='indent'><a href='" + ids[i] + "'>" + linkTitle + "</a></div>";
+								let numberInSeriesOfLetters = contentAsDOM.getElementById('content')
+								.getElementsByTagName('div')[0]
+                                .getElementsByTagName('div')[0]
+                                .getElementsByTagName('div')[0]
+                                .getElementsByTagName('div')[0]
+                                .getElementsByTagName('div')[1]
+                                .getElementsByTagName('h2')[0].getAttribute('id');
+								numbersTitlesAndIds.push({'i':i,'position':numberInSeriesOfLetters,'linkTitle':linkTitle,'id':ids[i]});
                             });
                         }
                         Promise.all(promises).then(function(){
+							numbersTitlesAndIds.sort(function(a,b){
+								let positionOne = parseInt(a.position);
+								let positionTwo = parseInt(b.position);
+								if (positionOne < positionTwo){
+									return -1;
+								}
+								if (positionOne > positionTwo){
+									return 1;
+								}
+								return 0;
+							});
+							for (let k = 0; k < numbersTitlesAndIds.length; k++){
+								html += "<div class='indent'><a href='" + numbersTitlesAndIds[k].id + "'>" + numbersTitlesAndIds[k].linkTitle + "</a></div>";
+							}
                             html += "</div>";
                             html += "<div class='modal-footer'>";
                             html += "<button type='button' class='btn btn-secondary' data-dismiss='modal'>X</button>";

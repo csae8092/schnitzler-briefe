@@ -54,6 +54,9 @@
                     </div>
                     <div class="col-md-8">
                         <h2 align="center">
+                            <xsl:attribute name="id">
+                                <xsl:value-of select="root()/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@n"/>
+                            </xsl:attribute>
                             <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title[@level = 'a']">
                                 <xsl:apply-templates/>
                                 <br/>
