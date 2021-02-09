@@ -210,7 +210,7 @@ let $href := concat('show.html','?document=', app:getDocName($node), "&amp;style
  :)
 declare function app:hrefToDoc($node as node(), $collection as xs:string){
 let $name := functx:substring-after-last($node, '/')
-let $href := concat('show.html','?document=', app:getDocName($node), '&amp;stylesheet=plain')
+let $href := concat('show.html','?document=', app:getDocName($node),'&amp;directory=',$collection, '&amp;stylesheet=plain')
     return $href
 };
 
