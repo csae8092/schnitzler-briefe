@@ -29,22 +29,8 @@ $(document).ready(function(){
    var dataKey = $( this ).attr('data-key');
    var dataKeys = $( this ).attr('data-keys');
    if(dataKeys != undefined){
-      let html = "<div id='linksModal' tabindex='-1' class='modal' role='dialog' aria-labelledby='modal-label'>";
-      html = html + "<div class='modal-dialog modal-sm' role='document'>";
-      html = html + "<div class='modal-content'>";
-      html = html + "<div class='modal-header'>";
-      html = html + "<h3 class='modal-title' id='modal-label'>Links</h3></div>";
-      html = html + "<div class='modal-body-pmb'>";
       let keys = dataKeys.split(' ');
-      /* if(dataType != undefined){
-          for (let j = 0; j < keys.length; j++){
-              keys[j] = keys[j].substring(1,keys[j].length); // Remove hash
-          }
-      }
-      */
-      let linkTitles = [];
       let promises = [];
-	  let textForModal = '';
       for (let i = 0; i < keys.length; i++){
           let dataTypeInKey = '';
           let key = '';
@@ -54,9 +40,11 @@ $(document).ready(function(){
             else if (keys[i].startsWith('place')){ dataTypeInKey = 'listplace.xml'; key = keys[i].substring(6,keys[i].length); }
           let url = "showNoTemplate.html?directory=indices&document=" + dataTypeInKey + "&entiyID=" + key;
           
+		  $('#myModal').remove();
+		  
 		  promises[i] = $.get(url, function(data){
-			  if (i == 0){
-				$('#myModal').remove();
+			  let myModal = document.getElementById('myModal');
+			  if (myModal == undefined){
 				$('#loadModal').append(data);
 			  }
 			  else{
@@ -69,10 +57,8 @@ $(document).ready(function(){
 			});
       }
       Promise.all(promises).then(function(){
-        html = "</div><div class='modal-footer'><button onclick='$(`#linksModal`).modal(`hide`);$(`#linksModal`).remove();' type='button' class='btn btn-secondary' data-dismiss='modal'>X</button></div>" + "</div></div></div>";
         $('#linksModal').remove();
-        //$('#loadModal').append(html);
-		$('#myModal').modal('show');
+        $('#myModal').modal('show');
         $('#linksModal').modal('show');
         $('#linksModal').focus();
               
