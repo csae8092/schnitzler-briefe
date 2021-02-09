@@ -31,7 +31,7 @@
                         </div>
                         <div class="col-md-8" align="center">
                             <h1>
-                                <xsl:value-of select="//tei:title[@type='main']"/>
+                                <xsl:value-of select="//tei:title[@level='a']"/>
                             </h1>
                             <h5>
                                 <muted>
@@ -60,7 +60,7 @@
                     ACDH-OeAW,
                     <i>
                         <xsl:value-of select="//tei:title[@type='sub']"/> - 
-                        <xsl:value-of select="//tei:title[@type='main']"/>
+                        <xsl:value-of select="//tei:title[@level='a']"/>
                     </i>
                     <br/>
                     <a>

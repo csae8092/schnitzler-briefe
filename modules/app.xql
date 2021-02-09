@@ -624,7 +624,8 @@ declare function app:toc($node as node(), $model as map(*)) {
         let $title_a := $title//tei:titleStmt/tei:title[@level='a']//text()
         let $date := if ($title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when) then $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when/string()
         else if ($title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notBefore) then $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notBefore/string()
-        else $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notAfter/string() return
+        else if ($title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notAfter/string()) then $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notAfter/string() else
+            $title_a return
         let $link2doc := if ($collection)
             then
                 <a href="{app:hrefToDoc($title, $collection)}">{$date}</a>
