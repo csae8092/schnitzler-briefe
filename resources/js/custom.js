@@ -41,6 +41,7 @@ $(document).ready(function(){
           let url = "showNoTemplate.html?directory=indices&document=" + dataTypeInKey + "&entiyID=" + key;
           
 		  $('#myModal').remove();
+		  $('#ueberlieferung').modal('hide');
 		  
 		  promises[i] = $.get(url, function(data){
 			  let myModal = document.getElementById('myModal');
@@ -52,7 +53,7 @@ $(document).ready(function(){
 				  let contentToInsert = parser.parseFromString(data,'text/html');
 				  let subTree = contentToInsert.getElementsByClassName('modal-content')[0];
 				  let subTreeToInsert = $(subTree).clone();
-				  $('.modal-dialog').append(subTreeToInsert);
+				  $('#myModal .modal-dialog').append(subTreeToInsert);
 			  }
 			});
       }
@@ -185,6 +186,7 @@ $(document).ready(function(){
       });
    }
    else{
+	   $('#ueberlieferung').modal('hide');
        var xsl = dataType.replace(".xml", "");
        var baseUrl = "showNoTemplate.html?directory=indices&document="
        var url = baseUrl + dataType + "&entiyID=" + dataKey;
