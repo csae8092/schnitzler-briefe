@@ -621,10 +621,10 @@ declare function app:toc($node as node(), $model as map(*)) {
         else
             collection(concat($config:app-root, '/data/editions/'))//tei:TEI
    for $title in $docs
-        let $title_a := $title//tei:titleStmt/tei:title[@level='a']//text()
-        let $date := if ($title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when) then $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when/string()
-        else if ($title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notBefore) then $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notBefore/string()
-        else if ($title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notAfter/string()) then $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notAfter/string() else
+        let $title_a := $title/descendant::tei:titleStmt[1]/tei:title[@level='a'][1]/text()
+        let $date := if ($title//tei:correspDesc[1]/tei:correspAction[1][@type='sent'][1]/tei:date/@when and not($title//tei:correspDesc[2])) then $title//tei:correspDesc[1]/tei:correspAction[@type='sent'][1]/tei:date[1]/@when/string()
+        else if ($title//tei:correspDesc[1]/tei:correspAction[@type='sent'][1]/tei:date/@notBefore) then $title//tei:correspDesc[1]/tei:correspAction[@type='sent'][1]/tei:date[1]/@notBefore/string()
+        else if ($title//tei:correspDesc/tei:correspAction[@type='sent'][1]/tei:date[1]/@notAfter/string()) then $title//tei:correspDesc[1]/tei:correspAction[@type='sent']/tei:date/@notAfter/string() else
             $title_a return
         let $link2doc := if ($collection)
             then
@@ -735,12 +735,12 @@ declare function app:toc_correspDesc_sent($node as node(), $model as map(*)) {
     for $title in $docs
         let $sent_pers := $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:persName
         let $received_pers := $title//tei:correspDesc/tei:correspAction[@type='received']/tei:persName
-        let $date_sent := $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date
-        let $date_sent_ISO := if ($title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when) then $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when/string() else 
-                                    if ($title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notBefore) then $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notBefore/string() else
-                                    $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notAfter/string()
-        let $date_sent_notBefore := fn:string($title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notBefore)
-        let $date_sent_notAfter := fn:string($title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notAfter)
+        let $date_sent := $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date[1]
+        let $date_sent_ISO := if ($title//tei:correspDesc[1]/tei:correspAction[1][@type='sent']/tei:date[1]/@when) then $title//tei:correspDesc[1]/tei:correspAction[1][@type='sent']/tei:date[1]/@when/string() else 
+                                    if ($title//tei:correspDesc[1]/tei:correspAction[1][@type='sent']/tei:date[1]/@notBefore) then $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notBefore/string() else
+                                    $title//tei:correspDesc[1]/tei:correspAction[1][@type='sent']/tei:date[1]/@notAfter/string()
+        let $date_sent_notBefore := fn:string($title//tei:correspDesc[1]/tei:correspAction[1][@type='sent']/tei:date[1]/@notBefore)
+        let $date_sent_notAfter := fn:string($title//tei:correspDesc[1]/tei:correspAction[1][@type='sent']/tei:date[1]/@notAfter)
         let $place := $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName
         let $link2doc := if ($collection)
             then
