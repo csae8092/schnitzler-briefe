@@ -133,7 +133,7 @@
                                 <xsl:attribute name="href">
                                     <xsl:value-of select="$path2source"/>
                                 </xsl:attribute>
-                                see the TEI source of this document
+                                zum TEI Quellcode dieses Dokuments
                             </a>
                         </p>
                     </div>
