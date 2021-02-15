@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:foo="just some local crap" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0">
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:foo="just some local crap"
+    xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0">
     <xsl:template match="tei:date[@*]">
         <xsl:apply-templates/>
     </xsl:template>
@@ -66,7 +68,8 @@
                 <xsl:apply-templates/>
             </xsl:otherwise>
         </xsl:choose>
-    </xsl:template><!--    footnotes -->
+    </xsl:template>
+    <!--    footnotes -->
     <xsl:template match="tei:note">
         <xsl:element name="a">
             <xsl:attribute name="name">
@@ -94,7 +97,8 @@
                     </xsl:attribute>
                     <xsl:apply-templates/>
                 </div>
-            </xsl:when><!-- transcript -->
+            </xsl:when>
+            <!-- transcript -->
             <xsl:when test="@type = 'transcript'">
                 <div>
                     <xsl:attribute name="class">
@@ -102,7 +106,8 @@
                     </xsl:attribute>
                     <xsl:apply-templates/>
                 </div>
-            </xsl:when><!-- Anlagen/Beilagen  -->
+            </xsl:when>
+            <!-- Anlagen/Beilagen  -->
             <xsl:when test="@xml:id">
                 <xsl:element name="div">
                     <xsl:attribute name="id">
@@ -115,7 +120,9 @@
                 <xsl:apply-templates/>
             </xsl:otherwise>
         </xsl:choose>
-    </xsl:template><!-- Verweise auf andere Dokumente   --><!-- resp -->
+    </xsl:template>
+    <!-- Verweise auf andere Dokumente   -->
+    <!-- resp -->
     <xsl:template match="tei:respStmt/tei:resp">
         <xsl:apply-templates/>  </xsl:template>
     <xsl:template match="tei:respStmt/tei:name">
@@ -124,7 +131,8 @@
                 <xsl:apply-templates/>
             </li>
         </xsl:for-each>
-    </xsl:template><!-- Tabellen -->
+    </xsl:template>
+    <!-- Tabellen -->
     <xsl:template match="tei:table">
         <xsl:element name="table">
             <xsl:if test="@xml:id">
@@ -149,7 +157,8 @@
         <xsl:element name="td">
             <xsl:apply-templates/>
         </xsl:element>
-    </xsl:template><!-- Überschriften -->
+    </xsl:template>
+    <!-- Überschriften -->
     <xsl:template match="tei:head">
         <xsl:if test="@xml:id[starts-with(., 'org') or starts-with(., 'ue')]">
             <a>
@@ -171,7 +180,8 @@
                 <xsl:apply-templates/>
             </div>
         </h3>
-    </xsl:template><!--  Quotes / Zitate -->
+    </xsl:template>
+    <!--  Quotes / Zitate -->
     <xsl:template match="tei:q">
         <xsl:element name="i">
             <xsl:apply-templates/>
@@ -179,10 +189,12 @@
     </xsl:template>
     <xsl:template match="tei:quote">
         <xsl:apply-templates/>
-    </xsl:template><!-- Zeilenumbürche   -->
+    </xsl:template>
+    <!-- Zeilenumbürche   -->
     <xsl:template match="tei:lb">
         <br/>
-    </xsl:template><!-- Durchstreichungen -->
+    </xsl:template>
+    <!-- Durchstreichungen -->
     <xsl:template match="tei:origDate[@notBefore and @notAfter]">
         <xsl:variable name="dates">
             <xsl:value-of select="./@*" separator="-"/>
@@ -220,7 +232,8 @@
     <xsl:template match="tei:layoutDesc">
         <xsl:for-each select="tei:layout">
             <div>
-                <xsl:value-of select="./@columns"/> Column(s) à <xsl:value-of select="./@ruledLines | ./@writtenLines"/> ruled/written lines:
+                <xsl:value-of select="./@columns"/> Column(s) à <xsl:value-of
+                    select="./@ruledLines | ./@writtenLines"/> ruled/written lines:
                 <xsl:apply-templates/>
             </div>
         </xsl:for-each>
@@ -289,7 +302,8 @@
                 <xsl:apply-templates/>
             </li>
         </xsl:for-each>
-    </xsl:template><!--    <xsl:template match="tei:ptr"><xsl:variable name="x"><xsl:value-of select="./@target"/></xsl:variable><a href="{$x}" class="fas fa-link"/></xsl:template>
+    </xsl:template>
+    <!--    <xsl:template match="tei:ptr"><xsl:variable name="x"><xsl:value-of select="./@target"/></xsl:variable><a href="{$x}" class="fas fa-link"/></xsl:template>
 -->
     <xsl:template match="tei:msPart">
         <xsl:variable name="x">
@@ -366,14 +380,13 @@
             <xsl:text> / </xsl:text>
         </xsl:if>
     </xsl:template>
-    <xsl:function name="foo:verticalSpace">
-        <xsl:param name="anzahl"/>
-        <br/>
-        <xsl:if test="$anzahl &gt; 1">
-            <xsl:value-of select="foo:verticalSpace($anzahl - 1)"/>
-        </xsl:if>
-    </xsl:function><!--<xsl:template match="tei:space[@dim = 'vertical']"><xsl:element name="div"><xsl:attribute name="style"><xsl:value-of select="concat('padding-bottom:', @quantity,'em;')"/></xsl:attribute></xsl:element></xsl:template>
-    -->
+    <xsl:template match="tei:space[@dim = 'vertical']">
+        <xsl:element name="div">
+            <xsl:attribute name="style">
+                <xsl:value-of select="concat('padding-bottom:', @quantity, 'em;')"/>
+            </xsl:attribute>
+        </xsl:element>
+    </xsl:template>
     <xsl:template match="tei:space[@unit = 'chars' and @quantity = 1]">
         <xsl:text> </xsl:text>
     </xsl:template>
@@ -384,10 +397,17 @@
         <div class="opener">
             <xsl:apply-templates/>
         </div>
-    </xsl:template><!--<xsl:template match="tei:add[@place and not(parent::tei:subst)]"><span class="steuerzeichen">↓</span><span class="add"><xsl:apply-templates/></span><span class="steuerzeichen">↓</span></xsl:template>
-    --><!-- Streichung --><!--<xsl:template match="tei:del[not(parent::tei:subst)]"><span class="del"><xsl:apply-templates/></span></xsl:template><xsl:template match="tei:del[parent::tei:subst]"><xsl:apply-templates/></xsl:template>
-    --><!-- Substi --><!--<xsl:template match="tei:subst"><span class="steuerzeichen">↑</span><span class="superscript"><xsl:apply-templates select="tei:del"/></span><span class="subst-add"><xsl:apply-templates select="tei:add"/></span><span class="steuerzeichen">↓</span></xsl:template>
-    --><!-- Wechsel der Schreiber <handShift --><!--<xsl:template match="tei:handShift[not(@scribe)]"><xsl:choose><xsl:when test="@medium = 'typewriter'"><xsl:text>[ms.:] </xsl:text></xsl:when><xsl:otherwise><xsl:text>[hs.:] </xsl:text></xsl:otherwise></xsl:choose></xsl:template><xsl:template match="tei:handShift[@scribe]"><xsl:variable name="scribe"><xsl:value-of select="@scribe"/></xsl:variable><xsl:text>[hs. </xsl:text><xsl:value-of select="foo:vorname-vor-nachname(//tei:correspDesc//tei:persName[@ref  = $scribe])"/><xsl:text>:] </xsl:text></xsl:template>
+    </xsl:template>
+    <!--<xsl:template match="tei:add[@place and not(parent::tei:subst)]"><span class="steuerzeichen">↓</span><span class="add"><xsl:apply-templates/></span><span class="steuerzeichen">↓</span></xsl:template>
+    -->
+    <!-- Streichung -->
+    <!--<xsl:template match="tei:del[not(parent::tei:subst)]"><span class="del"><xsl:apply-templates/></span></xsl:template><xsl:template match="tei:del[parent::tei:subst]"><xsl:apply-templates/></xsl:template>
+    -->
+    <!-- Substi -->
+    <!--<xsl:template match="tei:subst"><span class="steuerzeichen">↑</span><span class="superscript"><xsl:apply-templates select="tei:del"/></span><span class="subst-add"><xsl:apply-templates select="tei:add"/></span><span class="steuerzeichen">↓</span></xsl:template>
+    -->
+    <!-- Wechsel der Schreiber <handShift -->
+    <!--<xsl:template match="tei:handShift[not(@scribe)]"><xsl:choose><xsl:when test="@medium = 'typewriter'"><xsl:text>[ms.:] </xsl:text></xsl:when><xsl:otherwise><xsl:text>[hs.:] </xsl:text></xsl:otherwise></xsl:choose></xsl:template><xsl:template match="tei:handShift[@scribe]"><xsl:variable name="scribe"><xsl:value-of select="@scribe"/></xsl:variable><xsl:text>[hs. </xsl:text><xsl:value-of select="foo:vorname-vor-nachname(//tei:correspDesc//tei:persName[@ref  = $scribe])"/><xsl:text>:] </xsl:text></xsl:template>
     -->
     <xsl:function name="foo:vorname-vor-nachname">
         <xsl:param name="autorname"/>
@@ -414,7 +434,8 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    <xsl:template match="tei:p[ancestor::tei:body and not(ancestor::tei:note) and not(ancestor::tei:footNote) and not(ancestor::tei:caption) and not(parent::tei:bibl) and not(parent::tei:quote) and not(child::tei:space[@dim])] | tei:dateline | tei:closer">
+    <xsl:template
+        match="tei:p[ancestor::tei:body and not(ancestor::tei:note) and not(ancestor::tei:footNote) and not(ancestor::tei:caption) and not(parent::tei:bibl) and not(parent::tei:quote) and not(child::tei:space[@dim])] | tei:dateline | tei:closer">
         <xsl:choose>
             <xsl:when test="@rend = 'right'">
                 <p align="right" class="editionText">
@@ -454,7 +475,8 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    <xsl:template match="tei:p[not(parent::tei:quote) and (ancestor::tei:note or ancestor::tei:footNote or ancestor::tei:caption or parent::tei:bibl)]">
+    <xsl:template
+        match="tei:p[not(parent::tei:quote) and (ancestor::tei:note or ancestor::tei:footNote or ancestor::tei:caption or parent::tei:bibl)]">
         <xsl:choose>
             <xsl:when test="@rend = 'right'">
                 <p align="right">
@@ -508,7 +530,8 @@
         <span class="damage">
             <xsl:apply-templates/>
         </span>
-    </xsl:template><!--<xsl:template match="tei:pb"><span class="steuerzeichenUnten">|</span></xsl:template>
+    </xsl:template>
+    <!--<xsl:template match="tei:pb"><span class="steuerzeichenUnten">|</span></xsl:template>
    -->
     <xsl:template match="tei:unclear">
         <span class="unsicher">
@@ -527,6 +550,4 @@
             <xsl:apply-templates/>
         </li>
     </xsl:template>
-    
-    
 </xsl:stylesheet>
