@@ -71,54 +71,67 @@
                     <a>
                         <xsl:attribute name="href">
                             <xsl:value-of select="$path2source"/>
-                        </xsl:attribute> zum TEI Quellcode dieses Dokuments </a>
+                        </xsl:attribute> zum TEI Quellendokument </a>
                 </div>
             </div>
         </div>
     </xsl:template>
-    <xsl:template match="tei:listOrg | tei:listPerson | tei:listBibl | tei:listPlace">
+    <!-- LISTPLACE -->
+    <xsl:template match="tei:listPlace">
         <ul>
-            <xsl:apply-templates mode="list"/>
+            <xsl:apply-templates select="tei:place" mode="listPlace"/>
         </ul>
     </xsl:template>
-    <xsl:template match="tei:place" mode="list">
+    <xsl:template match="tei:place" mode="listPlace">
         <li>
-            <xsl:apply-templates mode="list"/>
+            <xsl:apply-templates select="tei:placeName" mode="listTitle"/>
+            <table>
+                <xsl:apply-templates select="tei:*[not(self::tei:placeName)]" mode="tabelle"/>
+            </table>
         </li>
     </xsl:template>
-    <xsl:template match="tei:placeName" mode="list">
-        <b><xsl:apply-templates mode="list"/></b><br/>
+    <xsl:template match="tei:placeName|tei:orgName|tei:persName|tei:title" mode="listTitle">
+        <b>
+            <xsl:apply-templates/>
+        </b>
+        <br/>
     </xsl:template>
-    <xsl:template match="tei:bibl" mode="list">
-        <li style="margin: 2em 0;">
-            <xsl:choose>
-                <xsl:when test="tei:author">
-                    <xsl:value-of select="tei:author" separator=", "/>
-                    <xsl:text>: </xsl:text>
-                </xsl:when>
-            </xsl:choose>
-            <b>
-                <xsl:apply-templates select="tei:title"/>
-            </b>
-            <xsl:if test="tei:date">
-                <xsl:text>(</xsl:text>
-                <xsl:choose>
-                    <xsl:when test="contains(tei:date, '|')">
-                        <xsl:value-of select="substring-before(tei:date, '|')"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:value-of select="tei:date"/>
-                    </xsl:otherwise>
-                </xsl:choose>
-                <xsl:text>)</xsl:text>
-            </xsl:if>
+    <!-- LISTORG -->
+    <xsl:template match="tei:listOrg">
+        <ul>
+            <xsl:apply-templates mode="listOrg"/>
+        </ul>
+    </xsl:template>
+    <xsl:template match="tei:org" mode="listOrg">
+        <li><xsl:apply-templates select="tei:orgName" mode="listTitle"/>
+            <table>
+                <xsl:apply-templates select="tei:*[not(self::tei:orgName)]" mode="tabelle"/>
+            </table>
         </li>
     </xsl:template>
-    <xsl:template match="tei:person" mode="list">
-        <li style="margin: 2em 0;">
-            <b>
-                <xsl:apply-templates select="tei:persName"/>
-            </b>
+    <xsl:template match="tei:org/tei:place" mode="tabelle">
+        <tr>
+            <th>Ort</th>
+            <td>
+                <xsl:apply-templates select="tei:placeName" mode="tabelle"/>
+            </td>
+        </tr>
+        <tr>
+            <th/>
+            <td>
+                <xsl:apply-templates select="tei:location" mode="tabelle"/>
+            </td>
+        </tr>
+    </xsl:template>
+    <!-- LISTPERS -->
+    <xsl:template match="tei:listPerson">
+        <ul>
+            <xsl:apply-templates mode="listPerson"/>
+        </ul>
+    </xsl:template>
+    <xsl:template match="tei:person" mode="listPerson">
+        <li>
+            <xsl:apply-templates select="tei:persName" mode="listTitle"/>
             <table>
                 <xsl:choose>
                     <xsl:when test="tei:birth and tei:death">
@@ -156,68 +169,41 @@
                         </tr>
                     </xsl:when>
                 </xsl:choose>
-                <xsl:if test="tei:occupation">
-                    <tr>
-                        <th>Beruf</th>
-                        <td>
-                            <xsl:apply-templates select="tei:occupation" mode="list"/>
-                        </td>
-                    </tr>
-                </xsl:if>
+                <xsl:apply-templates select="tei:*[not(self::tei:persName or self::tei:birth or self::tei:death)]" mode="tabelle"/>
             </table>
         </li>
     </xsl:template>
-    <xsl:template match="tei:birth | tei:death" mode="list">
+    <xsl:template match="tei:occupation" mode="tabelle">
         <tr>
-            <th>Lebensdaten</th>
+            <th>Beruf</th>
             <td>
-                <xsl:apply-templates select="tei:date" mode="list"/>
+               <xsl:value-of select="."/>
             </td>
         </tr>
     </xsl:template>
-    <xsl:template match="tei:org" mode="list">
-        <li style="margin: 2em 0;">
-            <b>
-                <xsl:apply-templates select="tei:orgName"/>
-            </b>
-            <table>
-                <xsl:apply-templates select="tei:desc/tei:gloss | tei:place" mode="orgList"/>
-            </table>
+   <!-- LISTWORK -->
+    <xsl:template match="tei:listBibl">
+        <ul>
+            <xsl:apply-templates mode="list"/>
+        </ul>
+    </xsl:template>
+    <xsl:template match="tei:bibl" mode="list">
+        <li><xsl:apply-templates select="tei:title" mode="listTitle"/>
         </li>
+        <table>
+            <xsl:apply-templates select="tei:*[not(self::tei:title)]" mode="tabelle"/>
+        </table>
     </xsl:template>
-    <xsl:template match="tei:place" mode="orgList">
+    <xsl:template match="tei:author" mode="tabelle">
         <tr>
-            <th>Ort</th>
-            <td>
-                <xsl:apply-templates select="tei:placeName" mode="list"/>
-                <xsl:text>, </xsl:text>
-            </td>
-        </tr>
-        <tr>
-            <th/>
-            <td>
-                <xsl:apply-templates select="tei:location" mode="list"/>
-            </td>
+        <th>Von</th>
+        <td><xsl:value-of select="." separator=", "/></td>
         </tr>
     </xsl:template>
-    <xsl:template match="tei:gloss" mode="orgList">
-        <tr>
-            <th>Typ</th>
-            <td><xsl:apply-templates/>, </td>
-        </tr>
-    </xsl:template>
-    <xsl:template match="tei:location" mode="list">
-        <xsl:variable name="lat" select="tokenize(tei:geo, ' ')[1]"/>
-        <xsl:variable name="long" select="tokenize(tei:geo, ' ')[2]"/>
-        <xsl:element name="a">
-            <xsl:attribute name="href">
-                <xsl:value-of
-                    select="concat('https://www.openstreetmap.org/?mlat=', $lat, '&amp;mlon=', $long)"
-                />
-            </xsl:attribute>
-            <xsl:value-of select="concat($lat, '/', $long)"/>
-        </xsl:element>
-    </xsl:template>
+   
+        
+        
+    
     <xsl:template match="tei:profileDesc">
         <xsl:if test="descendant::tei:correspDesc[10]">
             <xsl:apply-templates select="tei:correspDesc"/>
@@ -306,6 +292,79 @@
                         <xsl:value-of select="normalize-space(.)"/>
                     </xsl:otherwise>
                 </xsl:choose>
+            </td>
+        </tr>
+    </xsl:template>
+    <!-- TABELLENZEILEN -->
+    <xsl:template match="tei:desc" mode="tabelle">
+        <xsl:apply-templates select="tei:*" mode="tabelle"/>
+    </xsl:template>
+    <xsl:template match="tei:gloss" mode="tabelle">
+        <th>Typ</th>
+        <td>
+            <xsl:value-of select="."/>
+        </td>
+    </xsl:template>
+    <xsl:template match="tei:date" mode="tabelle">
+        <xsl:variable name="datum-von">
+            <xsl:choose>
+                <xsl:when test="contains(@from-custom, '|')">
+                    <xsl:value-of select="substring-before(@from-custom, '|')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="@from-custom"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <xsl:variable name="datum-bis">
+            <xsl:choose>
+                <xsl:when test="contains(@to-custom, '|')">
+                    <xsl:value-of select="substring-before(@to-custom, '|')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="@to-custom"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <tr>
+            <xsl:choose>
+                <xsl:when test="(@from-custom and @to-custom) and not(@from-custom = @to-custom)">
+                    <th>Zeit</th>
+                    <td>
+                        <xsl:value-of select="$datum-von"/>
+                        <xsl:text>–</xsl:text>
+                        <xsl:value-of select="$datum-bis"/>
+                    </td>
+                </xsl:when>
+                <xsl:when test="(@from-custom and not(@to-custom)) or (@from-custom = @to-custom)">
+                    <th>Datum</th>
+                    <td>
+                        <xsl:value-of select="$datum-von"/>
+                    </td>
+                </xsl:when>
+                <xsl:when test="@to-custom and not(@from-custom)">
+                    <th>Bis</th>
+                    <td>
+                        <xsl:value-of select="$datum-von"/>
+                    </td>
+                </xsl:when>
+            </xsl:choose>
+        </tr>
+    </xsl:template>
+    <xsl:template match="tei:location" mode="tabelle">
+        <xsl:variable name="lat" select="tokenize(tei:geo, ' ')[1]"/>
+        <xsl:variable name="long" select="tokenize(tei:geo, ' ')[2]"/>
+        <tr>
+            <th>Länge/Breite</th>
+            <td>
+                <xsl:element name="a">
+                    <xsl:attribute name="href">
+                        <xsl:value-of
+                            select="concat('https://www.openstreetmap.org/?mlat=', $lat, '&amp;mlon=', $long)"
+                        />
+                    </xsl:attribute>
+                    <xsl:value-of select="concat($lat, '/', $long)"/>
+                </xsl:element>
             </td>
         </tr>
     </xsl:template>
