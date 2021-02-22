@@ -11,7 +11,7 @@ declare option exist:serialize "method=xml media-type=text/xml omit-xml-declarat
 (:transforms a CMIF document into a GEXF document, random CMIF could be passed in via @CMIF param:)
 
 let $CMIF:= request:get-parameter("CMIF", "")
-let $fallback := if ($CMIF eq "") then $config:app-root||'/data/indices/cmif.xml' else $CMIF
+let $fallback := if ($CMIF eq "") then $config:app-root||'/data/cmif/asbw-cmif.xml' else $CMIF
 let $source := doc($fallback)
 let $result := 
         <gexf xmlns="http://www.gexf.net/1.2draft" version="1.2"><meta lastmodifieddate="{current-date()}"><creator>schnitzler-briefe-net.xql</creator><description>A network of persons Erwähnungen the schnitzler-briefe-Korpus</description></meta><graph mode="static" defaultedgetype="directed"><nodes>
