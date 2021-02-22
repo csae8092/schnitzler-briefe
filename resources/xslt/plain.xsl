@@ -17,7 +17,7 @@
         <xsl:value-of select="concat('https://schnitzler-briefe.acdh.oeaw.ac.at/pages/show.html?document=', $document)"/>
     </xsl:variable>
     <xsl:variable name="quotationString">
-        <xsl:value-of select="concat(normalize-space(//tei:titleStmt/tei:title[@level = 'a']), '. In: Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren. Digitale Edition. Hg. Martin Anton Müller und Gerd Hermann Susen. ', $doctitle, ', ', $quotationURL, ' (Abfrage ', $currentDate, ')')"/>
+        <xsl:value-of select="concat(normalize-space(//tei:titleStmt/tei:title[@level = 'a']), '. In: Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren. Digitale Edition. Hg. Martin Anton Müller und Gerd Hermann Susen', $doctitle, ', ', $quotationURL, ' (Abfrage ', $currentDate, ')')"/>
     </xsl:variable>
     <xsl:variable name="doctitle">
         <xsl:value-of select="//tei:title[@type = 'main']/text()"/>
@@ -56,14 +56,15 @@
                 <div class="col-md-2">
                 
                     <!-- add button for collapseable navigation start -->
-                <div>
-                    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar-left" aria-expanded="false" aria-controls  
-                    ="navbar-left">
-                    <span class="sr-only">Toggle navigation</span>
-                    <a href="#"><i class="fa fa-bars"></i></a>
-                    </button>
-                </div>
-                <!-- add button for collapseable navigation end -->
+                    <div>
+                        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar-left" aria-expanded="false" aria-controls="navbar-left"> 
+                        <span class="sr-only">Toggle navigation</span>
+                        <a href="#">
+                                <i class="fa fa-bars"/>
+                        </a>
+                        </button>
+                    </div>
+                    <!-- add button for collapseable navigation end -->
                 
                     <div class="side-menu-container collapse" id="navbar-left" style="margin-left:10pt;">
                         <ul class="nav navbar-nav mr-auto">
@@ -128,7 +129,8 @@
                         </ul>
                     </div>
                 <!--</nav>-->
-            </div>
+                </div>
+            <!--</div>-->
             <!-- left menue end -->
         <!--<div class="card">-->
             <div class="card card-header col-md-8">
@@ -166,9 +168,8 @@
                         </xsl:if>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-2"> </div>
-            </div>
+            <!--</div>-->
+            <!-- </div> div removed to put following div in second row -->
             <div class="card-body-normalertext">
                 <xsl:apply-templates select="//tei:text"/>
                 <xsl:element name="ol">
@@ -178,7 +179,7 @@
                     <xsl:apply-templates select="//tei:footNote" mode="footnote"/>
                 </xsl:element>
             </div>
-        </div>
+        <!-- </div> div removed to put following div in second row -->
         <div class="card-body-anhang">
             <dl class="kommentarhang">
                 <xsl:apply-templates select="//tei:anchor[@type = 'textConst'] | //tei:anchor[@type = 'commentary'] " mode="lemma"/>
@@ -417,6 +418,10 @@
                     </div>
                 </div>
             </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-2"> </div>
         </div>
     </xsl:template>
     <xsl:function name="foo:analytic-angabe">
