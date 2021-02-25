@@ -17,10 +17,10 @@
         <xsl:value-of select="concat('https://schnitzler-briefe.acdh.oeaw.ac.at/pages/show.html?document=', $document)"/>
     </xsl:variable>
     <xsl:variable name="quotationString">
-        <xsl:value-of select="concat(normalize-space(//tei:titleStmt/tei:title[@level = 'a']), '. In: Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren. Digitale Edition. Hg. Martin Anton Müller und Gerd Hermann Susen', $doctitle, ', ', $quotationURL, ' (Abfrage ', $currentDate, ')')"/>
+        <xsl:value-of select="concat(normalize-space(//tei:titleStmt/tei:title[@level = 'a']), '. In: Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren. Digitale Edition. Hg. Martin Anton Müller und Gerd Hermann Susen', $quotationURL, ' (Abfrage ', $currentDate, ')')"/>
     </xsl:variable>
     <xsl:variable name="doctitle">
-        <xsl:value-of select="//tei:title[@type = 'main']/text()"/>
+        <xsl:value-of select="//tei:titleStmt/tei:title[@type = 'main']/text()"/>
     </xsl:variable>
     <xsl:variable name="currentDate">
         <xsl:value-of select="format-date(current-date(), '[Y]-[M]-[D]')"/>
@@ -857,17 +857,23 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:footNote">
+        <xsl:if test="preceding-sibling::*[1][name()='footNote']"><!-- Sonderregel für zwei Fußnoten in Folge -->
+            <sup><xsl:text>,</xsl:text></sup>
+        </xsl:if>
         <xsl:element name="a">
+            <xsl:attribute name="class">
+                <xsl:text>reference-black</xsl:text>
+            </xsl:attribute>
             <xsl:attribute name="href">
                 <xsl:text>#footnote</xsl:text>
                 <xsl:number level="any" count="tei:footNote" format="1"/>
             </xsl:attribute>
             <sup>
-                <xsl:number level="any" count="tei:footNote" format="[1]"/>
+                <xsl:number level="any" count="tei:footNote" format="1"/>
             </sup>
         </xsl:element>
     </xsl:template>
-    <xsl:template match="//tei:footNote" mode="footnote">
+    <xsl:template match="tei:footNote" mode="footnote">
         <xsl:element name="li">
             <xsl:attribute name="id">
                 <xsl:text>footnote</xsl:text>
