@@ -17,7 +17,7 @@
         <xsl:value-of select="concat('https://schnitzler-briefe.acdh.oeaw.ac.at/pages/show.html?document=', $document)"/>
     </xsl:variable>
     <xsl:variable name="quotationString">
-        <xsl:value-of select="concat(normalize-space(//tei:titleStmt/tei:title[@level = 'a']), '. In: Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren. Digitale Edition. Hg. Martin Anton Müller und Gerd Hermann Susen', $quotationURL, ' (Abfrage ', $currentDate, ')')"/>
+        <xsl:value-of select="concat(normalize-space(//tei:titleStmt/tei:title[@level = 'a']), '. In: Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren. Digitale Edition. Hg. Martin Anton Müller und Gerd Hermann Susen, ', $quotationURL, ' (Abfrage ', $currentDate, ')')"/>
     </xsl:variable>
     <xsl:variable name="doctitle">
         <xsl:value-of select="//tei:titleStmt/tei:title[@type = 'main']/text()"/>
@@ -37,8 +37,55 @@
 -->
     <xsl:template match="/">
         <div class="card">
-            <div class="row">
-            <!-- left menue start -->
+            <div class="card card-header">
+                <div class="row">
+                    <div class="col-md-2">
+                        <xsl:if test="$prev">
+                            <h1>
+                                <a>
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of select="concat(substring-before($prev,'&amp;directory'),'&amp;stylesheet=', $current-view)"/>
+                                    </xsl:attribute>
+                                    <i class="fas fa-chevron-left" title="prev"/>
+                                </a>
+                            </h1>
+                        </xsl:if>
+                    </div>
+                    <div class="col-md-8">
+                        <h2 align="center">
+                            <xsl:attribute name="id">
+                                <xsl:value-of select="root()/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@n"/>
+                            </xsl:attribute>
+                            <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title[@level = 'a']">
+                                <xsl:apply-templates/>
+                                <br/>
+                            </xsl:for-each>
+                        </h2>
+                    </div>
+                    <div class="col-md-2" style="text-align:right">
+                        <xsl:if test="$next">
+                            <h1>
+                                <a>
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of select="concat(substring-before($next,'&amp;directory'),'&amp;stylesheet=', $current-view)"/>
+                                    </xsl:attribute>
+                                    <i class="fas fa-chevron-right" title="next"/>
+                                </a>
+                            </h1>
+                        </xsl:if>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body-normalertext">
+                <xsl:apply-templates select="//tei:text"/>
+                <xsl:element name="ol">
+                    <xsl:attribute name="class">
+                        <xsl:text>list-for-footnotes</xsl:text>
+                    </xsl:attribute>
+                    <xsl:apply-templates select="//tei:footNote" mode="footnote"/>
+                </xsl:element>
+            </div>
+            <div class="card-body">
                 <xsl:variable name="datum">
                     <xsl:choose>
                         <xsl:when test="//tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@when">
@@ -52,22 +99,9 @@
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:variable>
-                <!--<nav id="navbar-left" class="navbar-expand-md navbar-light bg-white box-shadow">-->
-                <div class="col-md-2">
-                
-                    <!-- add button for collapseable navigation start -->
+                <nav class="navbar-expand-md navbar-light bg-white box-shadow">
                     <div>
-                        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar-left" aria-expanded="false" aria-controls="navbar-left"> 
-                        <span class="sr-only">Toggle navigation</span>
-                        <a href="#">
-                                <i class="fa fa-bars"/>
-                        </a>
-                        </button>
-                    </div>
-                    <!-- add button for collapseable navigation end -->
-                
-                    <div class="side-menu-container collapse" id="navbar-left" style="margin-left:10pt;">
-                        <ul class="nav navbar-nav mr-auto">
+                        <ul class="navbar-nav mr-auto">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <i title="Critical Edition" class="fas fa-glasses"/> ANSICHT
@@ -128,58 +162,10 @@
                             </li>
                         </ul>
                     </div>
-                <!--</nav>-->
-                </div>
-            <!--</div>-->
-            <!-- left menue end -->
-        <!--<div class="card">-->
-            <div class="card card-header col-md-8">
-                <div class="row">
-                    <div class="col-md-2">
-                        <xsl:if test="$prev">
-                            <h1>
-                                <a>
-                                    <xsl:attribute name="href">
-                                        <xsl:value-of select="concat(substring-before($prev,'&amp;directory'),'&amp;stylesheet=', $current-view)"/>
-                                    </xsl:attribute>
-                                    <i class="fas fa-chevron-left" title="prev"/>
-                                </a>
-                            </h1>
-                        </xsl:if>
-                    </div>
-                    <div class="col-md-8">
-                        <h2 align="center">
-                            <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title[@level = 'a']">
-                                <xsl:apply-templates/>
-                                <br/>
-                            </xsl:for-each>
-                        </h2>
-                    </div>
-                    <div class="col-md-2" style="text-align:right">
-                        <xsl:if test="$next">
-                            <h1>
-                                <a>
-                                    <xsl:attribute name="href">
-                                        <xsl:value-of select="concat(substring-before($next,'&amp;directory'),'&amp;stylesheet=', $current-view)"/>
-                                    </xsl:attribute>
-                                    <i class="fas fa-chevron-right" title="next"/>
-                                </a>
-                            </h1>
-                        </xsl:if>
-                    </div>
-                </div>
-            <!--</div>-->
-            <!-- </div> div removed to put following div in second row -->
-            <div class="card-body-normalertext">
-                <xsl:apply-templates select="//tei:text"/>
-                <xsl:element name="ol">
-                    <xsl:attribute name="class">
-                        <xsl:text>list-for-footnotes</xsl:text>
-                    </xsl:attribute>
-                    <xsl:apply-templates select="//tei:footNote" mode="footnote"/>
-                </xsl:element>
+                </nav>
+                
             </div>
-        <!-- </div> div removed to put following div in second row -->
+        </div>
         <div class="card-body-anhang">
             <dl class="kommentarhang">
                 <xsl:apply-templates select="//tei:anchor[@type = 'textConst'] | //tei:anchor[@type = 'commentary'] " mode="lemma"/>
@@ -280,7 +266,7 @@
                                                   Übermittelt: </xsl:when>
                                                 </xsl:choose>
                                             </th>
-                                            <td> </td>
+                                            <td> </td>
                                             <td>
                                                 <xsl:if test="./tei:date">
                                                   <xsl:value-of select="./tei:date"/>
@@ -418,10 +404,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-        </div>
-        <div class="col-md-2"> </div>
         </div>
     </xsl:template>
     <xsl:function name="foo:analytic-angabe">
