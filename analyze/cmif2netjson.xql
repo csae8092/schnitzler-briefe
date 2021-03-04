@@ -11,7 +11,7 @@ declare option exist:serialize "method=json media-type=text/javascript";
 (:transforms a CMIF document into a JSON which can be processed by visjs into a network graph:)
 
 let $CMIF:= request:get-parameter("CMIF", "")
-let $fallback := if ($CMIF eq "") then $config:app-root||'/data/indices/cmif.xml' else $CMIF
+let $fallback := if ($CMIF eq "") then $config:app-root||'/data/cmif/asbw-cmif.xml' else $CMIF
 let $source := doc($fallback)
 let $result := 
         <result>
