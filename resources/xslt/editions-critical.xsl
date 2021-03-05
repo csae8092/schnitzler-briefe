@@ -826,13 +826,27 @@
       <xsl:apply-templates/>
     </span>
   </xsl:template>
-  <xsl:template match="tei:lg[@type = 'poem']">
+  <xsl:template match="tei:lg[@type = 'poem' and not(descendant::lg[@type='stanza'])]">
     <div class="poem editionText">
       <ul>
         <xsl:apply-templates/>
       </ul>
     </div>
   </xsl:template>
+  <xsl:template match="tei:lg[@type = 'poem' and descendant::lg[@type='stanza']]">
+    <div class="poem editionText">
+        <xsl:apply-templates/>
+    </div>
+  </xsl:template>
+  <xsl:template match="tei:lg[@type = 'stanza']">
+    <ul>
+      <xsl:apply-templates/>
+    </ul>
+    <xsl:if test="not(position()=last())">
+      <br/>
+    </xsl:if>
+  </xsl:template>
+ 
   <xsl:template match="tei:l">
     <li>
       <xsl:apply-templates/>
