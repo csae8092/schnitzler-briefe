@@ -113,7 +113,14 @@
                             showReferenceStrip: true,
                             defaultZoomLevel : 0,
                             fitHorizontally : true,
-                            tileSources: [<xsl:value-of select="$url-of-facsimile"/>]
+                            tileSources: [<xsl:value-of select="$url-of-facsimile"/>],
+                                    // Initial rotation angle
+                                    degrees: 0,
+                                    // Show rotation buttons
+                                    showRotationControl: true,
+                                    // Enable touch rotation on tactile devices
+                                    gestureSettingsTouch: {
+                                    pinchRotate: true}
                             });
                         </script>
                                 <div class="image-rights">
