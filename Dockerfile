@@ -1,34 +1,28 @@
-# START STAGE 1
-FROM openjdk:8
+FROM python:3.8-buster
 
 USER root
+WORKDIR /app
 
-ENV ANT_VERSION 1.10.6
-ENV ANT_HOME /etc/ant-${ANT_VERSION}
+RUN apt-get update && apt-get -y install git ant && pip install -U pip
+RUN pip install acdh-tei-pyutils==0.9.0
 
-WORKDIR /tmp
-
-RUN wget http://www-us.apache.org/dist/ant/binaries/apache-ant-${ANT_VERSION}-bin.tar.gz \
-    && mkdir ant-${ANT_VERSION} \
-    && tar -zxvf apache-ant-${ANT_VERSION}-bin.tar.gz \
-    && mv apache-ant-${ANT_VERSION} ${ANT_HOME} \
-    && rm apache-ant-${ANT_VERSION}-bin.tar.gz \
-    && rm -rf ant-${ANT_VERSION} \
-    && rm -rf ${ANT_HOME}/manual \
-    && unset ANT_VERSION
-
-ENV PATH ${PATH}:${ANT_HOME}/bin
-
-WORKDIR /home/build-app
 COPY . .
+RUN cd 
+RUN denormalize-indices -t "erwähnt in " -i "/app/data/indices/*.xml" -f "/app/data/editions/*.xml" -x ".//tei:title[@level='a']/text()"
 RUN ant
 
+RUN ant -f /app/build.xml
 
 # START STAGE 2
 FROM existdb/existdb:release
+ENV JAVA_OPTS="-Xms256m -Xmx2048m -XX:+UseConcMarkSweepGC -XX:MaxHeapFreeRatio=20 -XX:MinHeapFreeRatio=10 -XX:GCTimeRatio=20"
 
-COPY --from=0 /home/build-app/build/*.xar /exist/autodeploy
+COPY --from=0 /app/build/*.xar /exist/autodeploy
 
 EXPOSE 8080 8443
+
+RUN [ "java", \
+    "org.exist.start.Main", "client", "-l", \
+    "--no-gui",  "--xpath", "system:get-version()" ]
 
 CMD [ "java", "-jar", "start.jar", "jetty" ]
