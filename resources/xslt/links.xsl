@@ -983,7 +983,7 @@
     
       <!-- Ergänzungen für neues physDesc -->
     <xsl:template match="tei:incident/tei:desc/tei:stamp">
-        <td><xsl:text>Stempel </xsl:text><xsl:value-of select="@n"/><xsl:text>:</xsl:text><br/><xsl:if test="tei:placeName"> Ort: <xsl:apply-templates select="./tei:placeName"/>
+        <xsl:text>Stempel </xsl:text><xsl:value-of select="@n"/><xsl:text>:</xsl:text><br/><xsl:if test="tei:placeName"> Ort: <xsl:apply-templates select="./tei:placeName"/>
             <br/>
         </xsl:if>
             <xsl:if test="tei:date"> Datum: <xsl:apply-templates select="./tei:date"/>
@@ -995,7 +995,7 @@
             <xsl:if test="tei:action"> Vorgang: <xsl:apply-templates select="./tei:action"/>
                 <br/>
             </xsl:if>
-        </td>
+        
     </xsl:template>
     <xsl:template match="tei:incident">
         <tr xml:id="3">
@@ -1044,9 +1044,9 @@
             <xsl:when test="$poschitzion &gt; 0">
                 <tr>
                 <th/>    
-                
+                <td>
                     <xsl:apply-templates/>
-                
+                </td>
                 </tr>
             </xsl:when>
             <xsl:when test="$poschitzion = 0 and not(parent::tei:incident/following-sibling::tei:incident[@type = 'postal'])">
