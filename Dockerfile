@@ -8,7 +8,7 @@ RUN pip install acdh-tei-pyutils==0.9.0
 
 COPY . .
 RUN cd 
-RUN denormalize-indices -t "erwähnt in " -i "/app/data/indices/*.xml" -f "/app/data/editions/*.xml" -x ".//tei:title[@level='a']/text()"
+# RUN denormalize-indices -t "erwähnt in " -i "/app/data/indices/*.xml" -f "/app/data/editions/*.xml" -x ".//tei:title[@level='a']/text()"
 RUN ant
 
 RUN ant -f /app/build.xml
