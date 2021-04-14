@@ -432,7 +432,7 @@
                                 <table class="table table-striped">
                                     <tbody>
                                         <xsl:if test="tei:msDesc/tei:msIdentifier">
-                                            <tr xml:id="10">
+                                            <tr>
                                                 <th>Signatur </th>
                                                 <td>
                                                   <xsl:for-each
@@ -445,7 +445,7 @@
                                             </tr>
                                         </xsl:if>
                                         <xsl:if test="//tei:physDesc">
-                                            <tr xml:id="9">
+                                            <tr>
                                                 <th>Beschreibung </th>
                                                 <td>
                                                   <xsl:apply-templates
@@ -477,7 +477,7 @@
                                 </h5>
                                 <table class="table table-striped">
                                     <tbody>
-                                        <tr xml:id="5">
+                                        <tr>
                                             <th/>
                                             <td>
                                                 <xsl:choose>
@@ -1202,7 +1202,7 @@
         </xsl:if>
     </xsl:template>
     <xsl:template match="tei:incident">
-        <tr xml:id="3">
+        <tr>
             <xsl:apply-templates select="tei:desc"/>
         </tr>
     </xsl:template>

@@ -358,7 +358,7 @@
                                         </tr>
                                     </xsl:if>
                                     <xsl:if test="//tei:physDesc">
-                                        <tr xml:id="9">
+                                        <tr>
                                             <th>Beschreibung </th>
                                             <td>
                                                 <xsl:apply-templates
@@ -1101,7 +1101,7 @@
         </xsl:if>
     </xsl:template>
     <xsl:template match="tei:incident">
-        <tr xml:id="3">
+        <tr>
             <xsl:apply-templates select="tei:desc"/>
         </tr>
     </xsl:template>

@@ -11,6 +11,10 @@
         <create qname="tei:author" type="xs:string"/>
         <create qname="tei:correspAction" type="xs:string"/>
         <create qname="tei:correspContext" type="xs:string"/>
+        <create qname="tei:address"/>
+        <create qname="tei:physDesc"/>
+        <create qname="tei:dateline"/>
+        <create qname="tei:closer"/>
         <lucene>
             <text qname="tei:correspAction" boost="2.0"/>
             <ignore qname="tei:correspContext"/>
@@ -21,6 +25,10 @@
             <text qname="tei:persName"/>
             <text qname="tei:title"/>
             <text qname="tei:author"/>
+            <text qname="tei:address"/>
+            <text qname="tei:physDesc"/>
+            <text qname="tei:dateline"/>
+            <text qname="tei:closer"/>
         </lucene>
     </index>
     <triggers>
