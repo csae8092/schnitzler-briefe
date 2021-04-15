@@ -1464,7 +1464,7 @@
         </xsl:choose>
         <xsl:if test="string-length(normalize-space($entry/.)) &gt; 1">
             <xsl:text> (</xsl:text>
-            <xsl:value-of select="normalize-space($entry/.)"/>
+            <xsl:apply-templates select="($entry/.)"/>
             <xsl:text>)</xsl:text>
         </xsl:if>
     </xsl:function>
