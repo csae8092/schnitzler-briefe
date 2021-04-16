@@ -96,7 +96,7 @@
                                 <xsl:attribute name="class">
                                     <xsl:text>list-for-footnotes</xsl:text>
                                 </xsl:attribute>
-                                <xsl:apply-templates select="descendant::footNote" mode="footnote"/>
+                                <xsl:apply-templates select="descendant::tei:footNote" mode="footnote"/>
                             </xsl:element>
                         </div>
                         <div class="card-body-iif">
@@ -894,7 +894,7 @@
         </xsl:element>
     </xsl:template>
     <!-- Ende rs -->
-    <xsl:template match="footNote">
+    <xsl:template match="tei:footNote">
         <xsl:if test="preceding-sibling::*[1][name() = 'footNote']">
             <!-- Sonderregel für zwei Fußnoten in Folge -->
             <sup>
@@ -907,27 +907,27 @@
             </xsl:attribute>
             <xsl:attribute name="href">
                 <xsl:text>#footnote</xsl:text>
-                <xsl:number level="any" count="footNote" format="1"/>
+                <xsl:number level="any" count="tei:footNote" format="1"/>
             </xsl:attribute>
             <sup>
-                <xsl:number level="any" count="footNote" format="1"/>
+                <xsl:number level="any" count="tei:footNote" format="1"/>
             </sup>
         </xsl:element>
     </xsl:template>
-    <xsl:template match="footNote" mode="footnote">
+    <xsl:template match="tei:footNote" mode="footnote">
         <xsl:element name="li">
             <xsl:attribute name="id">
                 <xsl:text>footnote</xsl:text>
-                <xsl:number level="any" count="footNote" format="1"/>
+                <xsl:number level="any" count="tei:footNote" format="1"/>
             </xsl:attribute>
             <sup>
-                <xsl:number level="any" count="footNote" format="1"/>
+                <xsl:number level="any" count="tei:footNote" format="1"/>
             </sup>
             <xsl:text> </xsl:text>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
-    <xsl:template match="tei:p[ancestor::footNote]">
+    <xsl:template match="tei:p[ancestor::tei:footNote]">
         <span>
             <xsl:apply-templates/>
         </span>
