@@ -24,7 +24,12 @@
                                     <h3 class="modal-title">
                                         <xsl:if test="$entity/tei:author[@role='author']">
                                             <small>
-                                                <xsl:value-of select="concat($entity/tei:author[@role='author']/tei:forename, ' ', $entity/tei:author[@role='author']/tei:surname)" separator=", "/>
+                                                <xsl:for-each select="$entity/tei:author[@role='author']">
+                                                    <xsl:value-of select="concat(./tei:forename, ' ', ./tei:surname)" separator=", "/>
+                                                    <xsl:if test="not(position() = last())">
+                                                        <xsl:text>, </xsl:text>
+                                                    </xsl:if>
+                                                </xsl:for-each>
                                             </small>
                                             <br/>
                                         </xsl:if>
