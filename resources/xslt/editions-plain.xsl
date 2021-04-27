@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:foo="just some local crap"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0">
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:foo="just some local crap" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0">
     <xsl:template match="tei:date[@*]">
         <xsl:apply-templates/>
     </xsl:template>
@@ -232,8 +230,7 @@
     <xsl:template match="tei:layoutDesc">
         <xsl:for-each select="tei:layout">
             <div>
-                <xsl:value-of select="./@columns"/> Column(s) à <xsl:value-of
-                    select="./@ruledLines | ./@writtenLines"/> ruled/written lines:
+                <xsl:value-of select="./@columns"/> Column(s) à <xsl:value-of select="./@ruledLines | ./@writtenLines"/> ruled/written lines:
                 <xsl:apply-templates/>
             </div>
         </xsl:for-each>
@@ -434,8 +431,7 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    <xsl:template
-        match="tei:p[ancestor::tei:body and not(ancestor::tei:note) and not(ancestor::tei:footNote) and not(ancestor::tei:caption) and not(parent::tei:bibl) and not(parent::tei:quote) and not(child::tei:space[@dim])] | tei:dateline | tei:closer">
+    <xsl:template match="tei:p[ancestor::tei:body and not(ancestor::tei:note) and not(ancestor::tei:footNote) and not(ancestor::tei:caption) and not(parent::tei:bibl) and not(parent::tei:quote) and not(child::tei:space[@dim])] | tei:dateline | tei:closer">
         <xsl:choose>
             <xsl:when test="@rend = 'right'">
                 <p align="right" class="editionText">
@@ -475,8 +471,7 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    <xsl:template
-        match="tei:p[not(parent::tei:quote) and (ancestor::tei:note or ancestor::tei:footNote or ancestor::tei:caption or parent::tei:bibl)]">
+    <xsl:template match="tei:p[not(parent::tei:quote) and (ancestor::tei:note or ancestor::tei:footNote or ancestor::tei:caption or parent::tei:bibl)]">
         <xsl:choose>
             <xsl:when test="@rend = 'right'">
                 <p align="right">
@@ -563,4 +558,6 @@
             <xsl:apply-templates/>
         </li>
     </xsl:template>
+    
+    <xsl:template match="tei:back"/>
 </xsl:stylesheet>

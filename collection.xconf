@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <collection xmlns="http://exist-db.org/collection-config/1.0">
-    <index xmlns:wiki="http://exist-db.org/xquery/wiki" xmlns:html="http://www.w3.org/1999/xhtml"
-        xmlns:atom="http://www.w3.org/2005/Atom"
-        xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <index xmlns:wiki="http://exist-db.org/xquery/wiki" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:atom="http://www.w3.org/2005/Atom">
         <!-- Lucene index is configured below -->
         <lucene>
             <analyzer class="org.apache.lucene.analysis.standard.StandardAnalyzer"/>
@@ -27,8 +25,7 @@
             <text qname="tei:div"/>
         </lucene>
     </index>
-</collection>
-<!--<collection xmlns="http://exist-db.org/collection-config/1.0">
+</collection><!--<collection xmlns="http://exist-db.org/collection-config/1.0">
     <index xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
         <fulltext default="none" attributes="false"/>
         <create qname="tei:term" type="xs:string"/>

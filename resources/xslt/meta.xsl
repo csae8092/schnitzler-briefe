@@ -1,6 +1,5 @@
-<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    exclude-result-prefixes="tei" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0">
     <!-- <xsl:strip-space elements="*"/>-->
     <xsl:import href="shared/base.xsl"/>
     <xsl:param name="document"/>
@@ -64,8 +63,7 @@
                     </xsl:if>
                 </div>
                 <div class="card-footer text-muted" style="text-align:center"> ACDH-OeAW, <i>
-                        <xsl:value-of select="//tei:title[@type = 'sub']"/> - <xsl:value-of
-                            select="//tei:title[@level = 'a']"/>
+                        <xsl:value-of select="//tei:title[@type = 'sub']"/> - <xsl:value-of select="//tei:title[@level = 'a']"/>
                     </i>
                     <br/>
                     <a>
@@ -103,7 +101,8 @@
         </ul>
     </xsl:template>
     <xsl:template match="tei:org" mode="listOrg">
-        <li><xsl:apply-templates select="tei:orgName" mode="listTitle"/>
+        <li>
+            <xsl:apply-templates select="tei:orgName" mode="listTitle"/>
             <table>
                 <xsl:apply-templates select="tei:*[not(self::tei:orgName)]" mode="tabelle"/>
             </table>
@@ -188,7 +187,8 @@
         </ul>
     </xsl:template>
     <xsl:template match="tei:bibl" mode="list">
-        <li><xsl:apply-templates select="tei:title" mode="listTitle"/>
+        <li>
+            <xsl:apply-templates select="tei:title" mode="listTitle"/>
         </li>
         <table>
             <xsl:apply-templates select="tei:*[not(self::tei:title)]" mode="tabelle"/>
@@ -197,7 +197,9 @@
     <xsl:template match="tei:author" mode="tabelle">
         <tr>
         <th>Von</th>
-        <td><xsl:value-of select="." separator=", "/></td>
+        <td>
+                <xsl:value-of select="." separator=", "/>
+            </td>
         </tr>
     </xsl:template>
    
@@ -241,8 +243,7 @@
                             </xsl:choose>
                         </th>
                     </tr>
-                    <xsl:apply-templates select="tei:date | tei:persName | tei:placeName"
-                        mode="cmif"/>
+                    <xsl:apply-templates select="tei:date | tei:persName | tei:placeName" mode="cmif"/>
                 </table>
             </xsl:for-each>
         </li>
@@ -359,9 +360,7 @@
             <td>
                 <xsl:element name="a">
                     <xsl:attribute name="href">
-                        <xsl:value-of
-                            select="concat('https://www.openstreetmap.org/?mlat=', $lat, '&amp;mlon=', $long)"
-                        />
+                        <xsl:value-of select="concat('https://www.openstreetmap.org/?mlat=', $lat, '&amp;mlon=', $long)"/>
                     </xsl:attribute>
                     <xsl:value-of select="concat($lat, '/', $long)"/>
                 </xsl:element>

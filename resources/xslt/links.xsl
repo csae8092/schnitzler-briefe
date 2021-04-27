@@ -74,7 +74,7 @@
             </div>
             <div class="card-body-normalertext">
                 <div>
-                    <xsl:apply-templates select="//tei:text"/>
+                    <xsl:apply-templates select="//tei:text/tei:body"/>
                     <xsl:element name="ol">
                         <xsl:attribute name="class">
                             <xsl:text>list-for-footnotes</xsl:text>
@@ -176,7 +176,14 @@
                 </nav>
             </div>
         </div>
+        
+            
+        
         <div class="card-body-anhang">
+            <dl>
+                <xsl:apply-templates select="//tei:back"/>
+            </dl>
+            
             <dl class="kommentarhang">
                 <xsl:apply-templates select="//tei:anchor[@type = 'textConst'] | //tei:anchor[@type = 'commentary'] " mode="lemma"/>
             </dl>
@@ -326,7 +333,10 @@
                                             <xsl:apply-templates select="tei:msDesc/tei:physDesc/tei:handDesc"/>
                                         </xsl:if>
                                         <xsl:if test="tei:msDesc/tei:physDesc/tei:additions">
-                                            <tr><th/><th>Zufügungen</th></tr>
+                                            <tr>
+                                                <th/>
+                                                <th>Zufügungen</th>
+                                            </tr>
                                             <xsl:apply-templates select="tei:msDesc/tei:physDesc/tei:additions"/>
                                         </xsl:if>
                                     </xsl:if>
@@ -620,7 +630,6 @@
         </xsl:choose>
     </xsl:function>
     <!-- Kommentar und Textkonstitution -->
-    <!-- Kommentar und Textkonstitution -->
     <xsl:template match="tei:note[@type = 'commentary']" mode="lemma-k">
         <xsl:apply-templates/>
     </xsl:template>
@@ -686,7 +695,9 @@
     </xsl:template>
     <xsl:template match="tei:footNote">
         <xsl:if test="preceding-sibling::*[1][name()='footNote']"><!-- Sonderregel für zwei Fußnoten in Folge -->
-            <sup><xsl:text>,</xsl:text></sup>
+            <sup>
+                <xsl:text>,</xsl:text>
+            </sup>
         </xsl:if>
         <xsl:element name="a">
             <xsl:attribute name="class">
@@ -772,7 +783,7 @@
     <xsl:function name="foo:spaci-space">
         <xsl:param name="anzahl"/>
         <xsl:param name="gesamt"/>
-        &#160;<br/>
+         <br/>
         <xsl:if test="$anzahl &lt; $gesamt">
             <xsl:value-of select="foo:spaci-space($anzahl, $gesamt)"/>
         </xsl:if>
@@ -983,7 +994,11 @@
     
       <!-- Ergänzungen für neues physDesc -->
     <xsl:template match="tei:incident/tei:desc/tei:stamp">
-        <xsl:text>Stempel </xsl:text><xsl:value-of select="@n"/><xsl:text>:</xsl:text><br/><xsl:if test="tei:placeName"> Ort: <xsl:apply-templates select="./tei:placeName"/>
+        <xsl:text>Stempel </xsl:text>
+        <xsl:value-of select="@n"/>
+        <xsl:text>:</xsl:text>
+        <br/>
+        <xsl:if test="tei:placeName"> Ort: <xsl:apply-templates select="./tei:placeName"/>
             <br/>
         </xsl:if>
             <xsl:if test="tei:date"> Datum: <xsl:apply-templates select="./tei:date"/>
@@ -1050,7 +1065,8 @@
                 </tr>
             </xsl:when>
             <xsl:when test="$poschitzion = 0 and not(parent::tei:incident/following-sibling::tei:incident[@type = 'postal'])">
-                <tr><th>
+                <tr>
+                    <th>
                     <xsl:text>Versand</xsl:text>
                 </th>
                 <td>
@@ -1059,12 +1075,14 @@
                 </tr>
             </xsl:when>
             <xsl:when test="$poschitzion = 0 and parent::tei:incident/following-sibling::tei:incident[@type = 'postal']">
-                <tr><th>
+                <tr>
+                    <th>
                     <xsl:text>Versand</xsl:text>
                 </th>
                 <td>
                     <xsl:apply-templates/>
-                </td></tr>
+                </td>
+                </tr>
             </xsl:when>
         </xsl:choose>
     </xsl:template>
@@ -1081,7 +1099,9 @@
                 </td>
             </xsl:when>
             <xsl:when test="$poschitzion = 0 and parent::tei:incident/following-sibling::tei:incident[@type = 'receiver']">
-                <th><xsl:value-of select="$receiver"/></th>
+                <th>
+                        <xsl:value-of select="$receiver"/>
+                    </th>
                 <td>
                     <xsl:value-of select="$poschitzion + 1"/>
                     <xsl:text>) </xsl:text>
@@ -1089,7 +1109,9 @@
                 </td>
             </xsl:when>
             <xsl:otherwise>
-                <th><xsl:value-of select="$receiver"/></th>
+                <th>
+                        <xsl:value-of select="$receiver"/>
+                    </th>
                 <td>
                     <xsl:apply-templates/>
                 </td>
@@ -1232,7 +1254,8 @@
                     <xsl:otherwise>
                         <xsl:variable name="sender" select="ancestor::tei:teiHeader[1]/tei:profileDesc[1]/tei:correspDesc[1]/tei:correspAction[@type = 'sent']/tei:persName[@ref = tei:handNote/@corresp]"/>
                         <tr>
-                            <th>Handschrift <xsl:value-of select="$sender"/></th>
+                            <th>Handschrift <xsl:value-of select="$sender"/>
+                            </th>
                             <td>
                                 <xsl:value-of select="foo:handNote(tei:handNote)"/>
                             </td>
@@ -1563,5 +1586,176 @@
     </xsl:template>
     <xsl:template match="tei:objectDesc/tei:desc[not(@type)]">
         <xsl:text>XXXX desc-Fehler</xsl:text>
+    </xsl:template>
+    
+    <xsl:template match="tei:back">
+        
+        
+            <xsl:apply-templates/>
+        
+    </xsl:template>
+    <xsl:template match="tei:back/tei:listPerson[child::*[1]]">
+        <span class="lemma">Erwähnte Personen: </span>
+        <span class="kommentar-text">
+        <xsl:apply-templates select="tei:person"/>
+        <xsl:if test="following-sibling::tei:listBibl/*[1] or following-sibling::tei:listPlace/*[1] or following-sibling::tei:listOrg/*[1]">
+            <xsl:text> — </xsl:text>
+        </xsl:if>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:back/tei:listBibl[child::*[1]]">
+        <span class="lemma">Erwähnte Werke: </span>
+        <span class="kommentar-text">
+        <xsl:apply-templates select="tei:bibl"/>
+        <xsl:if test="child::*[1] and (following-sibling::tei:listPlace/*[1] or following-sibling::tei:listOrg/*[1])">
+            <xsl:text> — </xsl:text>
+        </xsl:if>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:back/tei:listPlace[child::*[1]]">
+        <span class="lemma">Erwähnte Orte: </span>
+        <span class="kommentar-text">
+        <xsl:apply-templates select="tei:place"/>
+        <xsl:if test="child::*[1] and following-sibling::tei:listOrg/*[1]">
+            <xsl:text> — </xsl:text>
+        </xsl:if>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:back/tei:listOrg[child::*[1]]">
+        <span class="lemma">Erwähnte Institutionen: </span>
+        <span class="kommentar-text">
+        <xsl:apply-templates select="tei:org"/>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:back/tei:listPerson/tei:person">
+        <xsl:apply-templates select="tei:persName[1]"/>
+    </xsl:template>
+    <xsl:template match="tei:back/tei:listPerson/tei:person/tei:persName">
+        <a>
+            <xsl:attribute name="data-key">
+                <xsl:value-of select="concat('person:', parent::tei:person/@xml:id)"/>
+            </xsl:attribute>
+            <xsl:attribute name="data-type">
+                <xsl:text>listperson.xml</xsl:text>
+            </xsl:attribute>
+            <xsl:choose>
+                <xsl:when test="tei:surname and tei:forename">
+                    <xsl:value-of select="concat(tei:forename, ' ', tei:surname)"/>
+                </xsl:when>
+                <xsl:when test="tei:surname">
+                    <xsl:value-of select="tei:surname"/>
+                </xsl:when>
+                <xsl:when test="tei:forename">
+                    <xsl:value-of select="tei:forename"/>
+                </xsl:when>
+            </xsl:choose>
+        </a>
+        <xsl:if test="parent::tei:person/following-sibling::tei:person">
+            <xsl:text> – </xsl:text>
+        </xsl:if>
+    </xsl:template>
+    <xsl:template match="tei:back/tei:listBibl/tei:bibl">
+        <xsl:if test="tei:author">
+            <xsl:for-each select="tei:author">
+                <a>
+                    <xsl:attribute name="data-key">
+                        <xsl:value-of select="concat('person:', parent::tei:person/@xml:id)"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="data-type">
+                        <xsl:text>listperson.xml</xsl:text>
+                    </xsl:attribute>
+                    <xsl:choose>
+                        <xsl:when test="tei:surname and tei:forename">
+                            <xsl:value-of select="concat(tei:forename, ' ', tei:surname)"/>
+                        </xsl:when>
+                        <xsl:when test="tei:surname">
+                            <xsl:value-of select="tei:surname"/>
+                        </xsl:when>
+                        <xsl:when test="tei:forename">
+                            <xsl:value-of select="tei:forename"/>
+                        </xsl:when>
+                    </xsl:choose>
+                </a>
+                <xsl:if test="not(position()=last())">
+                    <xsl:text>, </xsl:text>
+                </xsl:if>
+            </xsl:for-each>
+            <xsl:text>: </xsl:text>
+        </xsl:if>
+        <a>
+            <xsl:attribute name="data-key">
+                <xsl:value-of select="concat('work:', parent::tei:bibl/@xml:id)"/>
+            </xsl:attribute>
+            <xsl:attribute name="data-type">
+                <xsl:text>listwork.xml</xsl:text>
+            </xsl:attribute>
+            <xsl:apply-templates select="tei:title[1]"/>
+        </a>
+        <xsl:if test="tei:date">
+            <xsl:value-of select="concat(' (', tei:date/text(), ')')"/>
+        </xsl:if>
+        <xsl:if test="following-sibling::tei:bibl">
+            <xsl:text> – </xsl:text>
+        </xsl:if>
+    </xsl:template>
+    <xsl:template match="tei:back/tei:listPerson/tei:person/tei:persName">
+        <a>
+            <xsl:attribute name="data-key">
+                <xsl:value-of select="concat('person:', parent::tei:person/@xml:id)"/>
+            </xsl:attribute>
+            <xsl:attribute name="data-type">
+                <xsl:text>listperson.xml</xsl:text>
+            </xsl:attribute>
+            <xsl:choose>
+                <xsl:when test="tei:surname and tei:forename">
+                    <xsl:value-of select="concat(tei:forename, ' ', tei:surname)"/>
+                </xsl:when>
+                <xsl:when test="tei:surname">
+                    <xsl:value-of select="tei:surname"/>
+                </xsl:when>
+                <xsl:when test="tei:forename">
+                    <xsl:value-of select="tei:forename"/>
+                </xsl:when>
+            </xsl:choose>
+        </a>
+        <xsl:if test="parent::tei:person/following-sibling::tei:person">
+            <xsl:text> – </xsl:text>
+        </xsl:if>
+    </xsl:template>
+    
+    
+    <xsl:template match="tei:back/tei:listPlace/tei:place">
+        <xsl:apply-templates select="tei:placeName[1]"/>
+    </xsl:template>
+    <xsl:template match="tei:back/tei:listPlace/tei:place/tei:placeName">
+        <a>
+            <xsl:attribute name="data-key">
+                <xsl:value-of select="concat('place:', parent::tei:place/@xml:id)"/>
+            </xsl:attribute>
+            <xsl:attribute name="data-type">
+                <xsl:text>listplace.xml</xsl:text>
+            </xsl:attribute>
+            <xsl:value-of select="."/>
+        </a>
+        <xsl:if test="parent::tei:place/following-sibling::tei:place">
+            <xsl:text> – </xsl:text>
+        </xsl:if>
+    </xsl:template>
+    <xsl:template match="tei:back/tei:listOrg/tei:org">
+        <xsl:apply-templates select="tei:orgName[1]"/>
+    </xsl:template>
+    <xsl:template match="tei:back/tei:listOrg/tei:org/tei:orgName">
+        <a>
+            <xsl:attribute name="data-key">
+                <xsl:value-of select="concat('org:', parent::tei:org/@xml:id)"/>
+            </xsl:attribute>
+            <xsl:attribute name="data-type">
+                <xsl:text>listorg.xml</xsl:text>
+            </xsl:attribute>
+            <xsl:value-of select="."/>
+        </a>
+        <xsl:if test="parent::tei:org/following-sibling::tei:org">
+            <xsl:text> – </xsl:text>
+        </xsl:if>
     </xsl:template>
 </xsl:stylesheet>

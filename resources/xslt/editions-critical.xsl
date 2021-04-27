@@ -11,7 +11,9 @@
     </span>
   </xsl:template>
   <xsl:template match="tei:supplied">
-    <xsl:text>[</xsl:text><xsl:apply-templates/><xsl:text>]</xsl:text>
+    <xsl:text>[</xsl:text>
+        <xsl:apply-templates/>
+        <xsl:text>]</xsl:text>
   </xsl:template>
   <xsl:template match="tei:hi">
     <xsl:choose>
@@ -852,4 +854,6 @@
       <xsl:apply-templates/>
     </li>
   </xsl:template>
+  
+  <xsl:template match="tei:back"/>
 </xsl:stylesheet>
