@@ -4,8 +4,8 @@
     <xsl:param name="entiyID"/>
     <xsl:variable name="entity" as="node()">
         <xsl:choose>
-            <xsl:when test="not(empty(//tei:place[@xml:id=$entiyID][1]))">
-                <xsl:value-of select="//tei:place[@xml:id=$entiyID][1]"/>
+            <xsl:when test="not(empty(//tei:place[replace(@xml:id,'pmb','')=$entiyID][1]))">
+                <xsl:value-of select="//tei:place[replace(@xml:id,'pmb','')=$entiyID][1]"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of select="false()"/>
@@ -19,7 +19,7 @@
                     <div class="modal-content">
                         <xsl:choose>
                             <xsl:when test="$entity">
-                                <xsl:variable name="entity" select="//tei:place[@xml:id=$entiyID]"/>
+                                <xsl:variable name="entity" select="//tei:place[replace(@xml:id,'pmb','')=$entiyID]"/>
                                 <div class="modal-header">
                                     <h3 class="modal-title">
                                         <xsl:value-of select="$entity/tei:placeName[1]"/>
@@ -40,7 +40,16 @@
                                 </div>
                                 <div>
                                     <h3 class="pmb">PMB</h3>
-                                    <xsl:variable name="pmb-weg" select="substring-after($entiyID, 'pmb')"/>
+                                    <xsl:variable name="pmb-weg">
+                                        <xsl:choose>
+                                            <xsl:when test="contains($entiyID,'pmb')">
+                                                <xsl:value-of select="replace($entiyID,'pmb', '')"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="$entiyID"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:variable>
                                     <xsl:variable name="pmb-url" select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/', $pmb-weg, '/detail')"/>
                                     <p class="pmbAbfrageText">
                                         <xsl:element name="a">

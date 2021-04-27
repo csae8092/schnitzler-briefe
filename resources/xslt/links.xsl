@@ -1655,8 +1655,8 @@
         </xsl:if>
     </xsl:template>
     <xsl:template match="tei:back/tei:listBibl/tei:bibl">
-        <xsl:if test="tei:author">
-            <xsl:for-each select="tei:author">
+        <xsl:if test="tei:author[@role='author']">
+            <xsl:for-each select="tei:author[@role='author']">
                 <a>
                     <xsl:attribute name="data-key">
                         <xsl:value-of select="concat('person:', parent::tei:person/@xml:id)"/>
