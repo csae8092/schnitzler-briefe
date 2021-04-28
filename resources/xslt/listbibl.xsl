@@ -4,8 +4,8 @@
     <xsl:param name="entiyID"/>
     <xsl:variable name="entity" as="node()">
         <xsl:choose>
-            <xsl:when test="not(empty(//tei:bibl[replace(@xml:id,'pmb','')=$entiyID][1]))">
-                <xsl:value-of select="//tei:bibl[replace(@xml:id,'pmb','')=$entiyID][1]"/>
+            <xsl:when test="not(empty(//tei:bibl[replace(@xml:id,'pmb','')=replace($entiyID, 'pmb','')][1]))">
+                <xsl:value-of select="//tei:bibl[replace(@xml:id,'pmb','')=replace($entiyID, 'pmb','')][1]"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of select="false()"/>
@@ -19,7 +19,7 @@
                     <div class="modal-content">
                         <xsl:choose>
                             <xsl:when test="$entity">
-                                <xsl:variable name="entity" select="//tei:bibl[replace(@xml:id,'pmb','')=$entiyID]"/>
+                                <xsl:variable name="entity" select="//tei:bibl[replace(@xml:id,'pmb','')=replace($entiyID, 'pmb','')]"/>
                                 <div class="modal-header">
                                     <h3 class="modal-title">
                                         <xsl:value-of select="$entity"/>  

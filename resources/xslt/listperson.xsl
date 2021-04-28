@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0">
     <xsl:import href="shared/base_index.xsl"/>
     <xsl:param name="entiyID"/>
     <xsl:variable name="entity" as="node()">
         <xsl:choose>
-            <xsl:when test="not(empty(//tei:bibl[replace(@xml:id,'pmb','')=$entiyID][1]))">
-                <xsl:value-of select="//tei:bibl[replace(@xml:id,'pmb','')=$entiyID][1]"/>
+            <xsl:when test="not(empty(//tei:bibl[replace(@xml:id,'pmb','')=replace($entiyID,'pmb','')][1]))">
+                <xsl:value-of select="//tei:bibl[replace(@xml:id,'pmb','')=replace($entiyID,'pmb','')][1]"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of select="false()"/>
@@ -19,7 +18,7 @@
                     <div class="modal-content">
                         <xsl:choose>
                             <xsl:when test="$entity">
-                                <xsl:variable name="entity" select="//tei:person[replace(@xml:id,'pmb','')=$entiyID]"/>
+                                <xsl:variable name="entity" select="//tei:person[replace(@xml:id,'pmb','')=replace($entiyID,'pmb','')]"/>
                                 <div class="modal-header">
                                     <h3 class="modal-title">
                                         <xsl:choose>
@@ -38,8 +37,8 @@
                                                 <xsl:value-of select="$entity//tei:persName[1]"/>
                                             </xsl:otherwise>
                                         </xsl:choose>
-                                       
-                                       
+                                        
+                                        
                                         <small>
                                             <xsl:choose>
                                                 <xsl:when test="//$entity//tei:birth[1]/tei:date[1]/text() and //$entity//tei:death[1]/tei:date[1]/text()">
@@ -89,14 +88,14 @@
                                     <xsl:variable name="pmb-url" select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/', $pmb-weg, '/detail')"/>
                                     <p class="pmbAbfrageText">
                                         <xsl:element name="a">
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of select="$pmb-url"/>
-                                        </xsl:attribute>
+                                            <xsl:attribute name="href">
+                                                <xsl:value-of select="$pmb-url"/>
+                                            </xsl:attribute>
                                             <xsl:attribute name="target">
                                                 <xsl:text>_blank</xsl:text>
                                             </xsl:attribute>
-                                        <xsl:text>Zum PMB-Eintrag</xsl:text>
-                                    </xsl:element>
+                                            <xsl:text>Zum PMB-Eintrag</xsl:text>
+                                        </xsl:element>
                                     </p>
                                 </div>
                                 <div class="modal-body-pmb"/>

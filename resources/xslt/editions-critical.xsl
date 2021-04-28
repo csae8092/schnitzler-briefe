@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:foo="just some local crap" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0">
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:foo="just some local crap"
+  xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0">
   <xsl:template match="tei:date[@*]">
     <!-- <abbr><xsl:attribute name="title"><xsl:value-of select="data(./@*)"/></xsl:attribute>-->
     <xsl:apply-templates/>
@@ -12,8 +14,8 @@
   </xsl:template>
   <xsl:template match="tei:supplied">
     <xsl:text>[</xsl:text>
-        <xsl:apply-templates/>
-        <xsl:text>]</xsl:text>
+    <xsl:apply-templates/>
+    <xsl:text>]</xsl:text>
   </xsl:template>
   <xsl:template match="tei:hi">
     <xsl:choose>
@@ -153,7 +155,6 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-  
   <!-- resp -->
   <xsl:template match="tei:respStmt/tei:resp">
     <xsl:apply-templates/>  </xsl:template>
@@ -396,7 +397,8 @@
   <xsl:template match="tei:layoutDesc">
     <xsl:for-each select="tei:layout">
       <div>
-        <xsl:value-of select="./@columns"/> Column(s) à <xsl:value-of select="./@ruledLines | ./@writtenLines"/> ruled/written lines: <xsl:apply-templates/>
+        <xsl:value-of select="./@columns"/> Column(s) à <xsl:value-of
+          select="./@ruledLines | ./@writtenLines"/> ruled/written lines: <xsl:apply-templates/>
       </div>
     </xsl:for-each>
   </xsl:template>
@@ -682,19 +684,26 @@
   </xsl:template>
   <xsl:template match="tei:handShift[@scribe]">
     <xsl:variable name="scribe">
-      <xsl:value-of select="@scribe"/>
+      <xsl:choose>
+        <xsl:when test="contains(@scribe, 'pmb')">
+          <xsl:value-of select="replace(@scribe, 'pmb', '')"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="@scribe"/>
+        </xsl:otherwise>
+      </xsl:choose>
     </xsl:variable>
     <xsl:choose>
-      <xsl:when test="//tei:correspAction//tei:persName[@ref = $scribe]">
+      <xsl:when test="//tei:correspAction//tei:persName[replace(@ref, 'pmb', '') = $scribe]">
         <xsl:text>[hs. </xsl:text>
-        <xsl:value-of select="foo:vorname-vor-nachname(//tei:correspAction//tei:persName[@ref = $scribe])"/>
+        <xsl:value-of
+          select="foo:vorname-vor-nachname(//tei:correspAction//tei:persName[replace(@ref, 'pmb', '') = $scribe])"/>
         <xsl:text>:] </xsl:text>
       </xsl:when>
       <xsl:otherwise>
         <xsl:text>[Schreiberwechsel:] </xsl:text>
       </xsl:otherwise>
     </xsl:choose>
-   
   </xsl:template>
   <xsl:function name="foo:vorname-vor-nachname">
     <xsl:param name="autorname"/>
@@ -722,7 +731,8 @@
       <xsl:apply-templates/>
     </div>
   </xsl:template>
-  <xsl:template match="tei:p[ancestor::tei:body and not(ancestor::tei:note) and not(ancestor::tei:footNote) and not(ancestor::tei:caption) and not(parent::tei:bibl) and not(parent::tei:quote) and not(child::tei:space[@dim])] | tei:dateline | tei:closer">
+  <xsl:template
+    match="tei:p[ancestor::tei:body and not(ancestor::tei:note) and not(ancestor::tei:footNote) and not(ancestor::tei:caption) and not(parent::tei:bibl) and not(parent::tei:quote) and not(child::tei:space[@dim])] | tei:dateline | tei:closer">
     <xsl:choose>
       <xsl:when test="@rend = 'right'">
         <div align="right" class="editionText">
@@ -762,7 +772,8 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-  <xsl:template match="tei:p[not(parent::tei:quote) and (ancestor::tei:note or ancestor::tei:footNote or ancestor::tei:caption or parent::tei:bibl)]">
+  <xsl:template
+    match="tei:p[not(parent::tei:quote) and (ancestor::tei:note or ancestor::tei:footNote or ancestor::tei:caption or parent::tei:bibl)]">
     <xsl:choose>
       <xsl:when test="@rend = 'right'">
         <div align="right">
@@ -828,32 +839,30 @@
       <xsl:apply-templates/>
     </span>
   </xsl:template>
-  <xsl:template match="tei:lg[@type = 'poem' and not(descendant::lg[@type='stanza'])]">
+  <xsl:template match="tei:lg[@type = 'poem' and not(descendant::lg[@type = 'stanza'])]">
     <div class="poem editionText">
       <ul>
         <xsl:apply-templates/>
       </ul>
     </div>
   </xsl:template>
-  <xsl:template match="tei:lg[@type = 'poem' and descendant::lg[@type='stanza']]">
+  <xsl:template match="tei:lg[@type = 'poem' and descendant::lg[@type = 'stanza']]">
     <div class="poem editionText">
-        <xsl:apply-templates/>
+      <xsl:apply-templates/>
     </div>
   </xsl:template>
   <xsl:template match="tei:lg[@type = 'stanza']">
     <ul>
       <xsl:apply-templates/>
     </ul>
-    <xsl:if test="not(position()=last())">
+    <xsl:if test="not(position() = last())">
       <br/>
     </xsl:if>
   </xsl:template>
- 
   <xsl:template match="tei:l">
     <li>
       <xsl:apply-templates/>
     </li>
   </xsl:template>
-  
   <xsl:template match="tei:back"/>
 </xsl:stylesheet>
