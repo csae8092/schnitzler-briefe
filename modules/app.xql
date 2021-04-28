@@ -170,7 +170,7 @@ declare function app:nameOfIndexEntry($node as node(), $model as map (*)){
     let $entities := collection($app:editions)//tei:TEI//*[contains-token(tokenize(@ref,'\s+'),$withHash)]
     let $terms := (collection($app:editions)//tei:TEI[.//tei:term[./text() eq substring-after($withHash, '#')]])
     let $noOfterms := count(($entities, $terms))
-    let $hit := collection($app:indices)//*[replace(@xml:id,'pmb','')=$searchkey]
+    let $hit := collection($app:indices)//*[replace(@xml:id,'pmb','')=replace($searchkey,'pmb','')]]
     let $name := if (contains(node-name($hit), 'person'))
         then
             <a class="reference" data-type="listperson.xml" data-key="{$searchkey}">{normalize-space(string-join($hit/tei:persName[1], ', '))}</a>
