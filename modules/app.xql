@@ -161,6 +161,24 @@ let $root := tokenize(document-uri(root($node)), '/')
 };
 
 (:~
+: returns the date of the correspondence-piece of the node passed to this function.
+:)
+declare function app:getDate($node as node()){
+let $name := if ($node/ancestor::tei:TEI) then $node/ancestor::tei:TEI/descendant::tei:correspDesc/tei:correspAction[@type='sent']/tei:date[1]/text()
+else $node/descendant::tei:correspDesc/tei:correspAction[@type='sent']/tei:date[1]/text()
+return $name
+};
+
+(:~
+: returns the title of the correspondence-piece of the node passed to this function.
+:)
+declare function app:getTitle($node as node()){
+let $name :=  if ($node/ancestor::tei:TEI) then $node/ancestor::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[2]/text() else
+$node/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[2]/text()
+return $name
+};
+
+(:~
 : renders the name element of the passed in entity node as a link to entity's info-modal.
 :)
 declare function app:nameOfIndexEntry($node as node(), $model as map (*)){
@@ -170,7 +188,7 @@ declare function app:nameOfIndexEntry($node as node(), $model as map (*)){
     let $entities := collection($app:editions)//tei:TEI//*[contains-token(tokenize(@ref,'\s+'),$withHash)]
     let $terms := (collection($app:editions)//tei:TEI[.//tei:term[./text() eq substring-after($withHash, '#')]])
     let $noOfterms := count(($entities, $terms))
-    let $hit := collection($app:indices)//*[replace(@xml:id,'pmb','')=replace($searchkey,'pmb','')]]
+    let $hit := collection($app:indices)//*[replace(@xml:id,'pmb','')=replace($searchkey,'pmb','')]
     let $name := if (contains(node-name($hit), 'person'))
         then
             <a class="reference" data-type="listperson.xml" data-key="{$searchkey}">{normalize-space(string-join($hit/tei:persName[1], ', '))}</a>
@@ -247,13 +265,12 @@ concat('show.html','?document=', app:getDocName($node),'&amp;directory=',$collec
     return
     <tr>
 <td>
-<a href="{app:hrefToDoc($hit)}">{app:getDocNameWithoutCountingNumberAndFileSuffix($hit)}</a>
-</td>
-<td>
-<a href="{app:hrefToDoc($hit)}">{app:getCorrespondence($hit)}</a>
+<a href="{app:hrefToDoc($hit)}">{app:getDate($hit)}</a>
 </td>
 <td>{kwic:summarize($hit, <config width="40" link="{$href}" />)}</td>
-<td>{$score}</td>
+<td>
+<a href="{app:hrefToDoc($hit)}">{app:getTitle($hit)}</a>
+</td>
 </tr>
  else
     <div>Kein Suchtext vorhanden. Verwenden Sie Platzhalter, um Ihre Suche auszuweiten. Beispielsweise findet »Kaffee*« auch »Kaffeehaus« und »Kaffeemaschine«. </div>

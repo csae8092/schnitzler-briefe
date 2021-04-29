@@ -1200,6 +1200,7 @@
             <xsl:variable name="poschitzion" select="count(parent::tei:incident/preceding-sibling::tei:incident[@type = 'archival'])"/>
             <xsl:choose>
                 <xsl:when test="$poschitzion &gt; 0">
+                    <td/>
                     <td>
                         <xsl:value-of select="$poschitzion + 1"/>
                         <xsl:text>) </xsl:text>
@@ -1633,7 +1634,7 @@
                 <xsl:text>XXXXAnderes</xsl:text>
             </xsl:otherwise>
         </xsl:choose>
-        <xsl:if test="(following-sibling::tei:desc[@type = 'umschlag' or @type = 'fragment' or @type = 'reproduktion' or @type = 'entwurf']) or (preceding-sibling::tei:desc[@type = 'umschlag' or @type = 'fragment' or @type = 'reproduktion' or @type = 'entwurf'])">
+        <xsl:if test="(following-sibling::tei:desc[@type = 'umschlag' or @type = 'fragment' or @type = 'reproduktion' or @type = 'entwurf' or @type='_blaetter' or @type='_seiten']) or (preceding-sibling::tei:desc[@type = 'umschlag' or @type = 'fragment' or @type = 'reproduktion' or @type = 'entwurf'])">
             <xsl:text>, </xsl:text>
         </xsl:if>
     </xsl:template>

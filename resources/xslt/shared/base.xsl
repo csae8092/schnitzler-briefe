@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:foo="just some local crap" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0">
     <xsl:template match="tei:date[@*]"><!-- <abbr><xsl:attribute name="title"><xsl:value-of select="data(./@*)"/></xsl:attribute>-->
         <xsl:apply-templates/><!--</abbr>-->
@@ -461,7 +460,7 @@
         </xsl:for-each>
     </xsl:template>
     <xsl:template match="tei:list">
-        <ul class="editionText">
+        <ul >
             <xsl:apply-templates/>
         </ul>
     </xsl:template>
@@ -757,44 +756,44 @@
         </xsl:choose>
     </xsl:function>
     <xsl:template match="tei:signed">
-        <div class="signed editionText">
+        <div class="signed">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
     <xsl:template match="tei:p[ancestor::tei:body and not(ancestor::tei:note) and not(ancestor::tei:footNote) and not(ancestor::tei:caption) and not(parent::tei:bibl) and not(parent::tei:quote)]|tei:dateline|tei:closer">
         <xsl:choose>
             <xsl:when test="@rend='right'">
-                <div align="right" class="editionText">
+                <div align="right" >
                     <xsl:apply-templates/>
                 </div>
             </xsl:when>
             <xsl:when test="@rend='left'">
-                <div align="left" class="editionText">
+                <div align="left" >
                     <xsl:apply-templates/>
                 </div>
             </xsl:when>
             <xsl:when test="@rend='center'">
-                <div align="center" class="editionText">
+                <div align="center" >
                     <xsl:apply-templates/>
                 </div>
             </xsl:when>
             <xsl:when test="@rend='inline'">
-                <div class="inline editionText">
+                <div class="inline">
                     <xsl:apply-templates/>
                 </div>
             </xsl:when>
             <xsl:when test="child::tei:seg">
-                <div class="wrapper editionText">
-                    <span class="editionText ">
+                <div class="wrapper">
+                    <span>
                         <xsl:apply-templates select="tei:seg[@rend='left']"/>
                     </span>
-                    <span class="editionText">
+                    <span >
                         <xsl:apply-templates select="tei:seg[@rend='right']"/>
                     </span>
                 </div>
             </xsl:when>
             <xsl:otherwise>
-                <div class="editionText">
+                <div >
                     <xsl:apply-templates/>
                 </div>
             </xsl:otherwise>
@@ -865,7 +864,7 @@
         </span>
     </xsl:template>
     <xsl:template match="tei:lg[@type='poem']">
-        <div class="poem editionText">
+        <div class="poem">
             <ul>
                 <xsl:apply-templates/>
             </ul>
