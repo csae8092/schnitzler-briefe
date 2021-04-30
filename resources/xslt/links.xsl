@@ -1636,7 +1636,7 @@
     <xsl:template match="tei:back/tei:listPerson/tei:person/tei:persName">
         <a>
             <xsl:attribute name="data-key">
-                <xsl:value-of select="concat('person:', parent::tei:person/@xml:id)"/>
+                <xsl:value-of select="parent::tei:person/@xml:id"/>
             </xsl:attribute>
             <xsl:attribute name="data-type">
                 <xsl:text>listperson.xml</xsl:text>
@@ -1662,7 +1662,7 @@
             <xsl:for-each select="tei:author[@role='author']">
                 <a>
                     <xsl:attribute name="data-key">
-                        <xsl:value-of select="concat('person:', parent::tei:person/@xml:id)"/>
+                        <xsl:value-of select="parent::tei:person/@xml:id"/>
                     </xsl:attribute>
                     <xsl:attribute name="data-type">
                         <xsl:text>listperson.xml</xsl:text>
@@ -1687,7 +1687,7 @@
         </xsl:if>
         <a>
             <xsl:attribute name="data-key">
-                <xsl:value-of select="concat('work:', parent::tei:bibl/@xml:id)"/>
+                <xsl:value-of select="parent::tei:bibl/@xml:id"/>
             </xsl:attribute>
             <xsl:attribute name="data-type">
                 <xsl:text>listwork.xml</xsl:text>
@@ -1704,7 +1704,7 @@
     <xsl:template match="tei:back/tei:listPerson/tei:person/tei:persName">
         <a>
             <xsl:attribute name="data-key">
-                <xsl:value-of select="concat('person:', parent::tei:person/@xml:id)"/>
+                <xsl:value-of select="parent::tei:person/@xml:id"/>
             </xsl:attribute>
             <xsl:attribute name="data-type">
                 <xsl:text>listperson.xml</xsl:text>
@@ -1733,7 +1733,7 @@
     <xsl:template match="tei:back/tei:listPlace/tei:place/tei:placeName">
         <a>
             <xsl:attribute name="data-key">
-                <xsl:value-of select="concat('place:', parent::tei:place/@xml:id)"/>
+                <xsl:value-of select="parent::tei:place/@xml:id"/>
             </xsl:attribute>
             <xsl:attribute name="data-type">
                 <xsl:text>listplace.xml</xsl:text>
@@ -1750,7 +1750,7 @@
     <xsl:template match="tei:back/tei:listOrg/tei:org/tei:orgName">
         <a>
             <xsl:attribute name="data-key">
-                <xsl:value-of select="concat('org:', parent::tei:org/@xml:id)"/>
+                <xsl:value-of select="parent::tei:org/@xml:id"/>
             </xsl:attribute>
             <xsl:attribute name="data-type">
                 <xsl:text>listorg.xml</xsl:text>

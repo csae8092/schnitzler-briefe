@@ -1,6 +1,4 @@
 /* ALLGEMEIN */
-
-
 a {
     color: #A63437;
 }
@@ -525,9 +523,12 @@ text-indent: -0.5em;
 .mt-3{
     width:650px;
     max-width:650px;
-    color:black;
+    color:#212529;
 }
 
+.card-wrapper .card .card-inner .entry-content p{
+    color:#212529;
+}
 .navbar {
     padding-left: 0;
     padding-right: 0;
@@ -710,61 +711,21 @@ color: #A23B72;
 /* @media */
 
 @media (min-width:1200px) {
-.container {
- max-width:850px;
 }
-
-@media (max-width: 1200px) {
-
-row {
-background: red;
-color: pink}
-
-.container {
-max-width:850px;
-}
-  .flex-direction{
-  flex-direction:column;
-  }
-.card-body-text{
-  width:100%;
-  background: purple
-  }
-  .card-body-iif{
-  width:100%;
-  }
   .container-fluid {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 0rem;
     padding-top: 0rem;
-    max-width:850px;
-
-}
-
+    max-width:1200px;
+  }
 .container-fluid-empty {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     padding-bottom: 0rem;
     padding-top: 0rem;
-    background:purple;
-    max-width:850px;
-
+    background:none;
+    max-width:1200px;
+    margin-right: auto;
+    margin-left: auto;
 }
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
