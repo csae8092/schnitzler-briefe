@@ -1030,6 +1030,7 @@
         <xsl:variable name="poschitzion" select="count(parent::tei:incident/preceding-sibling::tei:incident[@type = 'supplement'])"/>
         <xsl:choose>
             <xsl:when test="$poschitzion &gt; 0">
+                <td/>
                 <td>
                     <xsl:value-of select="$poschitzion + 1"/>
                     <xsl:text>) </xsl:text>
@@ -1092,6 +1093,7 @@
         <xsl:variable name="poschitzion" select="count(parent::tei:incident/preceding-sibling::tei:incident[@type = 'receiver'])"/>
         <xsl:choose>
             <xsl:when test="$poschitzion &gt; 0">
+                <td/>
                 <td>
                     <xsl:value-of select="$poschitzion + 1"/>
                     <xsl:text>) </xsl:text>
@@ -1157,6 +1159,7 @@
         <xsl:variable name="poschitzion" select="count(parent::tei:incident/preceding-sibling::tei:incident[@type = 'additional-information'])"/>
         <xsl:choose>
             <xsl:when test="$poschitzion &gt; 0">
+                <td/>
                 <td>
                     <xsl:value-of select="$poschitzion + 1"/>
                     <xsl:text>) </xsl:text>
@@ -1189,6 +1192,7 @@
         <xsl:variable name="poschitzion" select="count(parent::tei:incident/preceding-sibling::tei:incident[@type = 'editorial'])"/>
         <xsl:choose>
             <xsl:when test="$poschitzion &gt; 0">
+                <td/>
                 <td>
                     <xsl:value-of select="$poschitzion + 1"/>
                     <xsl:text>) </xsl:text>

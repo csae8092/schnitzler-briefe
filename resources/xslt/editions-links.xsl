@@ -58,9 +58,7 @@
                 <xsl:apply-templates/>
             </xsl:when>
             <xsl:when test="@rend = 'small_caps'">
-                <span class="small_caps">
                     <xsl:apply-templates/>
-                </span>
             </xsl:when>
             <xsl:when test="@rend = 'capitals'">
                 <span class="uppercase">
@@ -68,19 +66,13 @@
                 </span>
             </xsl:when>
             <xsl:when test="@rend = 'spaced_out'">
-                <span class="spaced_out">
                     <xsl:apply-templates/>
-                </span>
             </xsl:when>
             <xsl:when test="@rend = 'latintype'">
-                <span class="latintype">
                     <xsl:apply-templates/>
-                </span>
             </xsl:when>
             <xsl:when test="@rend = 'antiqua'">
-                <span class="antiqua">
                     <xsl:apply-templates/>
-                </span>
             </xsl:when>
             <xsl:otherwise>
                 <span>
