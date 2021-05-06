@@ -853,7 +853,7 @@
     </xsl:template>
     <!-- Titel kursiv, wenn in Kommentar -->
     <xsl:template
-        match="tei:rs[@type = 'work' and not(ancestor::tei:quote) and ancestor::tei:note]/text()">
+        match="tei:rs[@type = 'work' and not(ancestor::tei:quote) and ancestor::tei:note and not(@subtype='implied')]/text()">
         <span class="italics">
             <xsl:value-of select="."/>
         </span>
