@@ -41,13 +41,15 @@
             <div class="card card-header">
                 <div class="row">
                     <div class="col-md-2">
-                        <xsl:if test="$prev">
+                        <xsl:if test="//tei:correspContext/tei:ref[@type='withinCorrespondence' and @subtype='previous_letter']">
+                            <xsl:variable name="previousLetterInCollectionTitle" select="//tei:correspContext/tei:ref[@type='withinCorrespondence' and @subtype='previous_letter']"/>
+                            <xsl:variable name="previousLetterInCollectionTarget" select="//tei:correspContext/tei:ref[@type='withinCorrespondence' and @subtype='previous_letter']/@target"/>
                             <h1>
                                 <a>
                                     <xsl:attribute name="href">
-                                        <xsl:value-of select="concat(substring-before($prev,'&amp;directory'),'&amp;stylesheet=', $current-view)"/>
+                                        <xsl:value-of select="concat('show.html?document=',$previousLetterInCollectionTarget,'.xml&amp;stylesheet=', $current-view)"/>
                                     </xsl:attribute>
-                                    <i class="fas fa-chevron-left" title="Voriger"/>
+                                    <i class="fas fa-chevron-left" title="{$previousLetterInCollectionTitle}"/>
                                 </a>
                             </h1>
                         </xsl:if>
@@ -60,14 +62,17 @@
                             </xsl:for-each>
                         </h2>
                     </div>
+                    
                     <div class="col-md-2" style="text-align:right">
-                        <xsl:if test="$next">
+                        <xsl:if test="//tei:correspContext/tei:ref[@type='withinCorrespondence' and @subtype='next_letter']">
+                            <xsl:variable name="nextLetterInCollectionTitle" select="//tei:correspContext/tei:ref[@type='withinCorrespondence' and @subtype='next_letter']"/>
+                            <xsl:variable name="nextLetterInCollectionTarget" select="//tei:correspContext/tei:ref[@type='withinCorrespondence' and @subtype='next_letter']/@target"/>
                             <h1>
                                 <a>
                                     <xsl:attribute name="href">
-                                        <xsl:value-of select="concat(substring-before($next,'&amp;directory'),'&amp;stylesheet=', $current-view)"/>
+                                        <xsl:value-of select="concat('show.html?document=',$nextLetterInCollectionTarget,'.xml&amp;stylesheet=', $current-view)"/>
                                     </xsl:attribute>
-                                    <i class="fas fa-chevron-right" title="Nächster"/>
+                                    <i class="fas fa-chevron-right" title="{$nextLetterInCollectionTitle}"/>
                                 </a>
                             </h1>
                         </xsl:if>
