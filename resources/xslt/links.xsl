@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:foo="whatever" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0"><!-- <xsl:strip-space elements="*"/>-->
     <xsl:import href="editions-links.xsl"/>
     <xsl:param name="document"/>
@@ -39,50 +38,37 @@
             <div class="card card-header">
                 <div class="row">
                     <div class="col-md-2">
-                        <xsl:if
-                            test="//tei:correspContext/tei:ref[@type = 'withinCollection' and @subtype = 'previous_letter']">
-                            <xsl:variable name="previousLetterInCollectionTitle"
-                                select="//tei:correspContext/tei:ref[@type = 'withinCollection' and @subtype = 'previous_letter']"/>
-                            <xsl:variable name="previousLetterInCollectionTarget"
-                                select="//tei:correspContext/tei:ref[@type = 'withinCollection' and @subtype = 'previous_letter']/@target"/>
+                        <xsl:if test="//tei:correspContext/tei:ref[@type = 'withinCollection' and @subtype = 'previous_letter']">
+                            <xsl:variable name="previousLetterInCollectionTitle" select="//tei:correspContext/tei:ref[@type = 'withinCollection' and @subtype = 'previous_letter']"/>
+                            <xsl:variable name="previousLetterInCollectionTarget" select="//tei:correspContext/tei:ref[@type = 'withinCollection' and @subtype = 'previous_letter']/@target"/>
                             <h1>
                                 <a>
                                     <xsl:attribute name="href">
-                                        <xsl:value-of
-                                            select="concat('show.html?document=',$previousLetterInCollectionTarget,'.xml&amp;stylesheet=', $current-view)"
-                                        />
+                                        <xsl:value-of select="concat('show.html?document=',$previousLetterInCollectionTarget,'.xml&amp;stylesheet=', $current-view)"/>
                                     </xsl:attribute>
-                                    <i class="fas fa-chevron-left"
-                                        title="{$previousLetterInCollectionTitle}"/>
+                                    <i class="fas fa-chevron-left" title="{$previousLetterInCollectionTitle}"/>
                                 </a>
                             </h1>
                         </xsl:if>
                     </div>
                     <div class="col-md-8">
                         <h2 align="center">
-                            <xsl:for-each
-                                select="//tei:fileDesc/tei:titleStmt/tei:title[@level = 'a']">
+                            <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title[@level = 'a']">
                                 <xsl:apply-templates/>
                                 <br/>
                             </xsl:for-each>
                         </h2>
                     </div>
                     <div class="col-md-2" style="text-align:right">
-                        <xsl:if
-                            test="//tei:correspContext/tei:ref[@type = 'withinCollection' and @subtype = 'next_letter']">
-                            <xsl:variable name="nextLetterInCollectionTitle"
-                                select="//tei:correspContext/tei:ref[@type = 'withinCollection' and @subtype = 'next_letter']"/>
-                            <xsl:variable name="nextLetterInCollectionTarget"
-                                select="//tei:correspContext/tei:ref[@type = 'withinCollection' and @subtype = 'next_letter']/@target"/>
+                        <xsl:if test="//tei:correspContext/tei:ref[@type = 'withinCollection' and @subtype = 'next_letter']">
+                            <xsl:variable name="nextLetterInCollectionTitle" select="//tei:correspContext/tei:ref[@type = 'withinCollection' and @subtype = 'next_letter']"/>
+                            <xsl:variable name="nextLetterInCollectionTarget" select="//tei:correspContext/tei:ref[@type = 'withinCollection' and @subtype = 'next_letter']/@target"/>
                             <h1>
                                 <a>
                                     <xsl:attribute name="href">
-                                        <xsl:value-of
-                                            select="concat('show.html?document=',$nextLetterInCollectionTarget,'.xml&amp;stylesheet=', $current-view)"
-                                        />
+                                        <xsl:value-of select="concat('show.html?document=',$nextLetterInCollectionTarget,'.xml&amp;stylesheet=', $current-view)"/>
                                     </xsl:attribute>
-                                    <i class="fas fa-chevron-right"
-                                        title="{$nextLetterInCollectionTitle}"/>
+                                    <i class="fas fa-chevron-right" title="{$nextLetterInCollectionTitle}"/>
                                 </a>
                             </h1>
                         </xsl:if>
@@ -1683,7 +1669,7 @@
             <xsl:for-each select="tei:author[@role='author']">
                 <a>
                     <xsl:attribute name="data-key">
-                        <xsl:value-of select="parent::tei:person/@xml:id"/>
+                        <xsl:value-of select="@ref"/>
                     </xsl:attribute>
                     <xsl:attribute name="data-type">
                         <xsl:text>listperson.xml</xsl:text>
@@ -1708,7 +1694,7 @@
         </xsl:if>
         <a>
             <xsl:attribute name="data-key">
-                <xsl:value-of select="parent::tei:bibl/@xml:id"/>
+                <xsl:value-of select="@xml:id"/>
             </xsl:attribute>
             <xsl:attribute name="data-type">
                 <xsl:text>listwork.xml</xsl:text>
