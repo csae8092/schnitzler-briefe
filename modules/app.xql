@@ -338,23 +338,24 @@ declare function app:listPers($node as node(), $model as map(*)) {
 (:~
  : creates a basic work-index derived from the  '/data/indices/listwork.xml'
  :)
-declare function app:listbibl($node as node(), $model as map(*)) {
+declare function app:listBibl($node as node(), $model as map(*)) {
     let $hitHtml := "hits.html?searchkey="
-    for $work in doc($app:workIndex)//tei:listBibl/tei:bibl
-    let $gnd := $person/tei:note/tei:p[3]/text()
-    let $gnd_link := if ($gnd != "no gnd provided") then
-        <a href="{$gnd}">{$gnd}</a>
-        else
-        "-"
-        return
+    for $item in doc($app:workIndex)//tei:listBibl/tei:bibl
+    let $date := $item//tei:date/text()
+    let $date-iso := concat($item//tei:date/@when, $item//tei:date/@from)
+    let $autoren := $item/tei:author
+    for $author in $autoren
+    let $autorname := concat($author/tei:forename/text(), ' ', $author/tei:surname/text())
+   return
         <tr>
 <td>
-<a href="{concat($hitHtml,data($work/@xml:id))}">{$work/tei:title}</a>
+<a href="{concat($hitHtml,data($item/@xml:id))}">{$item//tei:title[1]/text()}</a>
 </td>
 <td>
-</td>
+                {$autorname}
+            </td>
 <td>
-                {$gnd_link}
+            <span style="visibility: hidden">{$date-iso}</span>{$date}
             </td>
 </tr>
 };
@@ -893,30 +894,7 @@ return
     transform:transform($xml, $xsl, $params)
 };
 
-(:~
- : creates a basic work-index derived from the  '/data/indices/listwork.xml'
- :)
-declare function app:listBibl($node as node(), $model as map(*)) {
-    let $hitHtml := "hits.html?searchkey="
-    for $item in doc($app:workIndex)//tei:listBibl/tei:bibl
-    let $date := $item//tei:date/text()
-    let $date-iso := concat($item//tei:date/@when, $item//tei:date/@from)
-    let $autoren := $item/tei:author
-    for $author in $autoren
-    let $autorname := normalize-space(string-join($author//text(), ' '))
-   return
-        <tr>
-<td>
-<a href="{concat($hitHtml,data($item/@xml:id))}">{$item//tei:title[1]/text()}</a>
-</td>
-<td>
-                {$author}
-            </td>
-<td>
-            <span style="visibility: hidden">{$date-iso}</span>{$date}
-            </td>
-</tr>
-};
+
 
 (:~
  : creates a basic organisation-index derived from the  '/data/indices/listorg.xml'
