@@ -452,9 +452,10 @@
                                                   <xsl:for-each
                                                   select="tei:msDesc/tei:msIdentifier/child::*">
                                                   <xsl:value-of select="."/>
-                                                  <br/>
+                                                  <xsl:if test="not(position() = last())">
+                                                  <xsl:text>, </xsl:text>
+                                                  </xsl:if>
                                                   </xsl:for-each>
-                                                  <!--<xsl:apply-templates select="//tei:msIdentifier"/>-->
                                                 </td>
                                             </tr>
                                         </xsl:if>
@@ -853,7 +854,7 @@
     </xsl:template>
     <!-- Titel kursiv, wenn in Kommentar -->
     <xsl:template
-        match="tei:rs[@type = 'work' and not(ancestor::tei:quote) and ancestor::tei:note and not(@subtype='implied')]/text()">
+        match="tei:rs[@type = 'work' and not(ancestor::tei:quote) and ancestor::tei:note and not(@subtype = 'implied')]/text()">
         <span class="italics">
             <xsl:value-of select="."/>
         </span>
@@ -1591,11 +1592,25 @@
     </xsl:function>
     <xsl:template match="tei:objectDesc/tei:desc[@type = '_blaetter']">
         <xsl:choose>
-            <xsl:when test="@n = '1'">
-                <xsl:value-of select="concat(@n, ' Blatt')"/>
+            <xsl:when test="parent::tei:objectDesc/tei:desc/@type = 'karte'">
+                <xsl:choose>
+                    <xsl:when test="@n = '1'">
+                        <xsl:value-of select="concat(@n, ' Karte')"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="concat(@n, ' Karten')"/>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:value-of select="concat(@n, ' Blätter')"/>
+                <xsl:choose>
+                    <xsl:when test="@n = '1'">
+                        <xsl:value-of select="concat(@n, ' Blatt')"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="concat(@n, ' Blätter')"/>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:otherwise>
         </xsl:choose>
         <xsl:if test="string-length(.) &gt; 1">
@@ -1656,7 +1671,7 @@
             </xsl:otherwise>
         </xsl:choose>
         <xsl:if
-            test="(following-sibling::tei:desc[@type = 'umschlag' or @type = 'fragment' or @type = 'reproduktion' or @type = 'entwurf']) or (preceding-sibling::tei:desc[@type = 'umschlag' or @type = 'fragment' or @type = 'reproduktion' or @type = 'entwurf'])">
+            test="(following-sibling::tei:desc[@type = 'umschlag' or @type = 'fragment' or @type = 'reproduktion' or @type = 'entwurf' or @type = '_blaetter' or @type = '_seiten']) or (preceding-sibling::tei:desc[@type = 'umschlag' or @type = 'fragment' or @type = 'reproduktion' or @type = 'entwurf' or @type = '_blaetter' or @type = '_seiten'])">
             <xsl:text>, </xsl:text>
         </xsl:if>
     </xsl:template>
@@ -1685,7 +1700,7 @@
             </xsl:otherwise>
         </xsl:choose>
         <xsl:if
-            test="(following-sibling::tei:desc[@type = 'umschlag' or @type = 'fragment' or @type = 'reproduktion' or @type = 'entwurf']) or (preceding-sibling::tei:desc[@type = 'umschlag' or @type = 'fragment' or @type = 'reproduktion' or @type = 'entwurf'])">
+            test="(following-sibling::tei:desc[@type = 'umschlag' or @type = 'fragment' or @type = 'reproduktion' or @type = 'entwurf' or @type='_blaetter' or @type='_seiten']) or (preceding-sibling::tei:desc[@type = 'umschlag' or @type = 'fragment' or @type = 'reproduktion' or @type = 'entwurf' or @type='_blaetter' or @type='_seiten'])">
             <xsl:text>, </xsl:text>
         </xsl:if>
     </xsl:template>
@@ -1745,7 +1760,7 @@
             </xsl:otherwise>
         </xsl:choose>
         <xsl:if
-            test="(following-sibling::tei:desc[@type = 'umschlag' or @type = 'fragment' or @type = 'reproduktion' or @type = 'entwurf']) or (preceding-sibling::tei:desc[@type = 'umschlag' or @type = 'fragment' or @type = 'reproduktion' or @type = 'entwurf'])">
+            test="(following-sibling::tei:desc[@type = 'umschlag' or @type = 'fragment' or @type = 'reproduktion' or @type = 'entwurf' or @type='_blaetter' or @type='_seiten']) or (preceding-sibling::tei:desc[@type = 'umschlag' or @type = 'fragment' or @type = 'reproduktion' or @type = 'entwurf' or @type='_blaetter' or @type='_seiten'])">
             <xsl:text>, </xsl:text>
         </xsl:if>
     </xsl:template>
@@ -1759,7 +1774,7 @@
             </xsl:otherwise>
         </xsl:choose>
         <xsl:if
-            test="(following-sibling::tei:desc[@type = 'umschlag' or @type = 'fragment' or @type = 'reproduktion' or @type = 'entwurf']) or (preceding-sibling::tei:desc[@type = 'umschlag' or @type = 'fragment' or @type = 'reproduktion' or @type = 'entwurf'])">
+            test="(following-sibling::tei:desc[@type = 'umschlag' or @type = 'fragment' or @type = 'reproduktion' or @type = 'entwurf' or @type='_blaetter' or @type='_seiten']) or (preceding-sibling::tei:desc[@type = 'umschlag' or @type = 'fragment' or @type = 'reproduktion' or @type = 'entwurf' or @type='_blaetter' or @type='_seiten'])">
             <xsl:text>, </xsl:text>
         </xsl:if>
     </xsl:template>

@@ -1,4 +1,7 @@
 /* ALLGEMEIN */
+textarea:focus, input:focus{
+    outline: none;
+}
 body {
     font-family: inherit;
     font-weight: 400;
@@ -264,7 +267,9 @@ padding-top: 0.3rem;
 #wrapper-hero-content>#wrapper-hero-inner>p {
     font-size: 1.25rem;
 }
-
+#wrapper-hero-inner {
+    padding: 0 35% 0 15px;
+}
 
 
 
@@ -797,12 +802,12 @@ color: #A23B72;
     padding-top: 0rem;
 }
   .container-fluid-start {
+    padding: 0 15px;
     max-width:1200px;
     margin-right: auto;
     margin-left: auto;
 }
 .container-fluid-empty {
-    padding: 0 15px 0 15px;
     background:none;
     max-width:1200px;
     margin-right: auto;
