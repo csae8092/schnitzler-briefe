@@ -1105,7 +1105,7 @@
         <xsl:if test="tei:time"> Zeit: <xsl:apply-templates select="./tei:time"/>
             <br/>
         </xsl:if>
-        <xsl:if test="tei:action"> Vorgang: <xsl:apply-templates select="./tei:action"/>
+        <xsl:if test="tei:addSpan"> Vorgang: <xsl:apply-templates select="./tei:addSpan"/>
             <br/>
         </xsl:if>
     </xsl:template>

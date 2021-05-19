@@ -380,7 +380,7 @@
                <xs:element ref="tei:placeName" minOccurs="0" maxOccurs="1"/>
                <xs:element ref="tei:date" minOccurs="0" maxOccurs="1"/>
                <xs:element ref="tei:time" minOccurs="0" maxOccurs="1"/>
-               <xs:element ref="tei:action" minOccurs="0" maxOccurs="1"/>
+               <xs:element ref="tei:addSpan" minOccurs="0" maxOccurs="1"/>
             </xs:choice>
          </xs:sequence>
          <xs:attribute name="n" use="required" type="xs:integer"/>
@@ -389,7 +389,7 @@
          />
       </xs:complexType>
    </xs:element>
-   <xs:element name="action">
+   <xs:element name="addSpan">
       <xs:complexType mixed="true">
          <xs:all>
             <xs:element ref="tei:unclear" maxOccurs="unbounded" minOccurs="0"/>
