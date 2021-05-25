@@ -188,7 +188,10 @@ declare function app:nameOfIndexEntry($node as node(), $model as map (*)){
     let $entities := collection($app:editions)//tei:TEI//*[contains-token(tokenize(@ref,'\s+'),$withHash)]
     let $terms := (collection($app:editions)//tei:TEI[.//tei:term[./text() eq substring-after($withHash, '#')]])
     let $noOfterms := count(($entities, $terms))
-    let $hit := collection($app:indices)//*[replace(@xml:id,'pmb','')=replace($searchkey,'pmb','')]
+    let $hit := 
+        if (starts-with($searchkey, 'pmb')) 
+        then (collection($app:indices)//*[@xml:id = $searchkey])
+        else (collection($app:indices)//*[@xml:id=concat('pmb', $searchkey)])
     let $name := if (contains(node-name($hit), 'person'))
         then
             <a class="reference" data-type="listperson.xml" data-key="{$searchkey}">{normalize-space(string-join($hit/tei:persName[1], ', '))}</a>
@@ -313,12 +316,6 @@ declare function app:listPers($node as node(), $model as map(*)) {
     let $hitHtml := "hits.html?searchkey="
     for $person in doc($app:personIndex)//tei:listPerson/tei:person
     return
-    (:let $gnd := $person/tei:note/tei:p[3]/text()
-    let $gnd_link := if ($gnd != "no gnd provided") then
-        <a href="{$gnd}">{$gnd}</a>
-        else
-        "-"
-        return:)
         <tr>
 <td>
 <a href="{concat($hitHtml,data($person/@xml:id))}">{$person/tei:persName/tei:surname}</a>
@@ -328,7 +325,7 @@ declare function app:listPers($node as node(), $model as map(*)) {
 <td>{$person/tei:birth/tei:placeName}</td>
 <td>{$person/tei:death/tei:date}</td>
 <td>{$person/tei:death/tei:placeName}</td>
-<td><a href="{$person/tei:idno[@type='GND']}" target="_blank">gnd:{substring-after($person/tei:idno[@type='GND'], 'https://d-nb.info/gnd/')}</a></td>
+<td><a href="{$person/tei:idno[@type='GND']}" target="_blank">{substring-after($person/tei:idno[@type='GND'], 'https://d-nb.info/')}</a></td>
 </tr>
 };
 
@@ -364,13 +361,11 @@ declare function app:listPlace($node as node(), $model as map(*)) {
     let $lng := tokenize($place//tei:geo/text(), ' ')[2]
         return
         <tr>
-<td>
-<a href="{concat($hitHtml, data($place/@xml:id))}">{functx:capitalize-first($place/tei:placeName[1])}</a>
-</td>
-<td>{for $altName in $place//tei:placeName[@type='alt'] return <li>{$altName/text()}</li>}</td>
- <td>{$place//tei:idno/text()}</td>
-<td>{$lat}</td>
-<td>{$lng}</td>
+<td><a href="{concat($hitHtml, data($place/@xml:id))}">{functx:capitalize-first($place/tei:placeName[1])}</a></td>
+
+<td>{$place/tei:desc/tei:gloss/text()}</td>
+<td>{substring($lat, 1, 8)}</td>
+<td>{substring($lng, 1, 8)}</td>
 </tr>
 };
 

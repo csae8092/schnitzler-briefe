@@ -132,8 +132,8 @@
         geojson.geometry = {
         "type": "Point",
         "coordinates": [
-        element[4],
-        element[3]
+        element[3],
+        element[2]
         ]
         };
         geojson.properties = {
