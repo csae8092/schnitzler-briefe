@@ -15,7 +15,7 @@
                      möglicherweise nicht alle Erlaubnisse, die Sie für die jeweilige Nutzung
                      brauchen. Es können beispielsweise andere Rechte wie Persönlichkeits- und
                      Datenschutzrechte zu beachten sein, die Ihre Nutzung des Materials entsprechend
-                     beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>U.S.A.</country><settlement>Yale</settlement><repository>Beinecke Rare Book and Manuscript Library</repository><idno>Yale Collection of German Literature, MSS 31</idno></msIdentifier><physDesc><objectDesc><desc type="brief"/><desc n="1" type="_blaetter">Briefpapier mit Trauerrand</desc><desc n="2" type="_seiten"/><desc type="umschlag"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="kurrent"/></handDesc><additions><incident type="postal"><desc><stamp n="1"><placeName ref="#pmb428"><supplied>Wels</supplied>berg</placeName><date><unclear>15</unclear>. 7. 07</date></stamp></desc></incident><incident type="receiver"><desc>Mit blauem Buntstift das Datum der Beantwortung festgehalten:
+                     beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>U.S.A.</country><settlement>Yale</settlement><repository>Beinecke Rare Book and Manuscript Library</repository><idno>Yale Collection of German Literature, MSS 31</idno></msIdentifier><physDesc><objectDesc><desc type="brief"/><desc n="1" type="_blaetter">Briefpapier mit Trauerrand</desc><desc n="2" type="_seiten"/><desc type="umschlag"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="deutsche-kurrent"/></handDesc><additions><incident type="postal"><desc><stamp n="1"><placeName ref="#pmb428"><supplied>Wels</supplied>berg</placeName><date><unclear>15</unclear>. 7. 07</date></stamp></desc></incident><incident type="receiver"><desc>Mit blauem Buntstift das Datum der Beantwortung festgehalten:
                   »<quote>B <date>26/VII 07</date></quote>«.</desc></incident></additions></physDesc></msDesc></witness></listWit><listBibl><biblStruct corresp="ASBH"><monogr><author ref="#pmb2121">Schnitzler, Arthur</author><author ref="#pmb10863">Beer-Hofmann, Richard</author><title level="m">Briefwechsel 1891–1931</title><editor>Hg. Konstanze Fliedl</editor><imprint><pubPlace>Wien, Zürich</pubPlace><publisher>Europaverlag</publisher><date when="1992">1992</date></imprint><biblScope unit="pp">180</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb428">Welsberg-Taisten</placeName><date when="1907-07-14" n="01">14. 7. 1907</date></correspAction><correspAction type="received"><persName ref="#pmb10863">Beer-Hofmann, Richard</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb10863">Beer-Hofmann, Richard</ref><ref subtype="previous_letter" type="withinCollection" target="L01690">Hofmannsthal an Schnitzler, 11. 7. 1907</ref><ref subtype="next_letter" type="withinCollection" target="L01692">Mell an Schnitzler, 15. 7. 1907</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L01689">Schnitzler an Beer-Hofmann, 11. 7. 1907</ref><ref subtype="next_letter" type="withinCorrespondence" target="L01694">Beer-Hofmann an Schnitzler, 26. 7. 1907</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
@@ -105,20 +105,61 @@
                      <tei:date when="1939-10-30">30. 10. 1939</tei:date>
                      <tei:placeName ref="#pmb484">Zürich</tei:placeName>
                   </tei:death>
-               </tei:person><person xml:id="#pmb2534 #pmb13923 #pmb2668"><note>OFFEN</note></person><person xml:id="#pmb2534 #pmb13923 #pmb2668"><note>OFFEN</note></person><person xml:id="#pmb2534 #pmb13923 #pmb2668"><note>OFFEN</note></person></listPerson><listBibl><tei:bibl xml:id="pmb35935">
+               </tei:person><tei:person xml:id="pmb2534">
+                  <tei:persName>
+                     <tei:surname>Beer-Hofmann</tei:surname>
+                     <tei:forename>Naëmah</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1898-12-20">20. 12. 1898</tei:date>
+                     <tei:placeName ref="#pmb50">Wien</tei:placeName>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1971-11-10">10. 11. 1971</tei:date>
+                     <tei:placeName ref="#pmb44053">New York City</tei:placeName>
+                  </tei:death>
+               </tei:person><tei:person xml:id="pmb13923">
+                  <tei:persName>
+                     <tei:surname>Beer-Hofmann</tei:surname>
+                     <tei:forename>Gabriel</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1901-01-09">9. 1. 1901</tei:date>
+                     <tei:placeName ref="#pmb50">Wien</tei:placeName>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1971-03-24">24. 3. 1971</tei:date>
+                     <tei:placeName ref="#pmb48322">St Albans</tei:placeName>
+                  </tei:death>
+                  <occupation code="90">Schriftsteller*in</occupation>
+                  <occupation code="550">Filmagent</occupation>
+               </tei:person><tei:person xml:id="pmb2668">
+                  <tei:persName>
+                     <tei:surname>Beer-Hofmann</tei:surname>
+                     <tei:forename>Mirjam</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1897-09-04">4. 9. 1897</tei:date>
+                     <tei:placeName ref="#pmb50">Wien</tei:placeName>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1984-12-24">24. 12. 1984</tei:date>
+                     <tei:placeName ref="#pmb44053">New York City</tei:placeName>
+                  </tei:death>
+               </tei:person></listPerson><listBibl><tei:bibl xml:id="pmb35935">
                   <tei:title>Die Zeit</tei:title>
-                  <tei:date from="1902-01-01" from-custom="1902" to="1919-01-01" to-custom="1919">1902</tei:date>
-                  <gloss type="1220">Tageszeitung</gloss>
+                  <tei:date from="1902-01-01" from-custom="1902" to="1919-01-01" to-custom="1919">1902–1919</tei:date>
+                  <tei:gloss type="w1220">Tageszeitung</tei:gloss>
                </tei:bibl><tei:bibl xml:id="pmb46347">
                   <tei:title>[Todesanzeige von Alois Hofmann]</tei:title>
                   <tei:date when="1907-07-13" when-custom="1907-07-13">13. 7. 1907</tei:date>
-                  <gloss type="1525"/>
-                  <tei:note>7748.0</tei:note>
-                  <tei:note>7749.0</tei:note>
+                  <tei:gloss type="w1525"/>
+                  <tei:note>7748</tei:note>
+                  <tei:note>7749</tei:note>
                </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb428">
                   <tei:placeName>Welsberg-Taisten</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.75774 12.10556</tei:geo>
@@ -126,7 +167,7 @@
                </tei:place><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -134,7 +175,7 @@
                </tei:place><tei:place xml:id="pmb133">
                   <tei:placeName>Edmund-Weiß-Gasse</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>26.0</tei:gloss>
+                     <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.219883621255 16.25565018043</tei:geo>
@@ -142,7 +183,7 @@
                </tei:place><tei:place xml:id="pmb68">
                   <tei:placeName>XVIII., Währing</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>25.0</tei:gloss>
+                     <tei:gloss ana="i25">Bezirk</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.23333 16.31667</tei:geo>
@@ -150,7 +191,7 @@
                </tei:place><tei:place xml:id="pmb383">
                   <tei:placeName>Hasenauerstraße</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>26.0</tei:gloss>
+                     <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.233816866614 16.337927920952</tei:geo>
@@ -158,7 +199,7 @@
                </tei:place><tei:place xml:id="pmb723">
                   <tei:placeName>Wildbad Waldbrunn</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>12.0</tei:gloss>
+                     <tei:gloss ana="i12">Hotel</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.751211 12.101269</tei:geo>
@@ -166,7 +207,7 @@
                </tei:place><tei:place xml:id="pmb43520">
                   <tei:placeName>Meran</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1410.0</tei:gloss>
+                     <tei:gloss ana="i1410">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.66817 11.15953</tei:geo>

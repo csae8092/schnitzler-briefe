@@ -54,11 +54,11 @@
                   </tei:author>
                   <tei:title>Zwischenspiel. Komödie in drei Akten</tei:title>
                   <tei:date when="1905-10-12" when-custom="1905-10-12">12. 10. 1905</tei:date>
-                  <gloss type="1056">Mehraktiges Drama</gloss>
+                  <tei:gloss type="w1056">Mehraktiges Drama</tei:gloss>
                </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb33">
                   <tei:placeName>St. Gilgen</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">47.76667 13.36667</tei:geo>
@@ -66,7 +66,7 @@
                </tei:place><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -74,7 +74,7 @@
                </tei:place><tei:place xml:id="pmb41013">
                   <tei:placeName>Misurina</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1123.0</tei:gloss>
+                     <tei:gloss ana="i1123">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.58108 12.25275</tei:geo>
@@ -82,7 +82,7 @@
                </tei:place><tei:place xml:id="pmb186">
                   <tei:placeName>Lueg am Wolfgangsee</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>25.0</tei:gloss>
+                     <tei:gloss ana="i25">Bezirk</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">47.754041 13.372211</tei:geo>
@@ -91,7 +91,7 @@
                   <tei:orgName>Burgtheater</tei:orgName>
                   <tei:desc>
                      <tei:date from="1852-01-01" from-custom="1852">1852</tei:date>
-                     <tei:gloss>1012.0</tei:gloss>
+                     <tei:gloss ana="i1012">Theater</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
                      <tei:placeName>Wien</tei:placeName>
@@ -99,5 +99,16 @@
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
                   </tei:place>
-                 
+                  <tei:place corresp="pmb14">
+                     <tei:placeName>Burgtheater</tei:placeName>
+                     <tei:location>
+                        <tei:geo decls="LatLng">48.210333 16.361139</tei:geo>
+                     </tei:location>
+                  </tei:place>
+                  <tei:place corresp="pmb44649">
+                     <tei:placeName>Schlosstheater Schönbrunn</tei:placeName>
+                     <tei:location>
+                        <tei:geo decls="LatLng">48.186667 16.3125</tei:geo>
+                     </tei:location>
+                  </tei:place>
                </tei:org></listOrg></back></text></TEI>

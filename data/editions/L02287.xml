@@ -16,7 +16,7 @@
                 verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die Sie für die
                 jeweilige Nutzung brauchen. Es können beispielsweise andere Rechte wie
                 Persönlichkeits- und Datenschutzrechte zu beachten sein, die Ihre
-                Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 1</idno></msIdentifier><physDesc><objectDesc><desc n="1" type="_blaetter"/><desc type="brief"/><desc n="2" type="_seiten"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="kurrent"/></handDesc><additions><incident type="receiver"><desc>Mit Bleistift beschriftet: »<quote><hi rend="latintype">Adam</hi></quote>«.</desc></incident><incident type="archival"><desc>Von unbekannter Hand nummeriert:
+                Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 1</idno></msIdentifier><physDesc><objectDesc><desc n="1" type="_blaetter"/><desc type="brief"/><desc n="2" type="_seiten"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="deutsche-kurrent"/></handDesc><additions><incident type="receiver"><desc>Mit Bleistift beschriftet: »<quote><hi rend="latintype">Adam</hi></quote>«.</desc></incident><incident type="archival"><desc>Von unbekannter Hand nummeriert:
                                     »<quote>3</quote>«.</desc></incident></additions></physDesc></msDesc></witness><witness n="2"><msDesc><msIdentifier><country>A</country><settlement>Wien</settlement><repository>Österreichische Nationalbibliothek</repository><idno>Cod.ser. 52.263, 214 recto</idno></msIdentifier><physDesc><objectDesc><desc type="reproduktion" subtype="ms_abschrift"/><desc type="brief"/></objectDesc><typeDesc><p>Schreibmaschine</p></typeDesc></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb12438">Adam, Robert</persName><placeName ref="#pmb50">Wien</placeName><date when="1918-06-12" n="01">12. 6. 1918</date></correspAction><correspAction type="received"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb12438">Adam, Robert</ref><ref subtype="previous_letter" type="withinCollection" target="L02286">Schnitzler an Adam, 11. 6. 1918</ref><ref subtype="next_letter" type="withinCollection" target="L02288">Schnitzler an Adam, 15. 6. 1918</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L02286">Schnitzler an Adam, 11. 6. 1918</ref><ref subtype="next_letter" type="withinCorrespondence" target="L02288">Schnitzler an Adam, 15. 6. 1918</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
@@ -50,10 +50,37 @@
                   </tei:death>
                   <occupation code="90">Schriftsteller*in</occupation>
                   <occupation code="97">Mediziner*in</occupation>
-               </tei:person><person xml:id="#pmb29173 #pmb29176"><note>OFFEN</note></person><person xml:id="#pmb29173 #pmb29176"><note>OFFEN</note></person></listPerson><listBibl/><listPlace><tei:place xml:id="pmb50">
+               </tei:person><tei:person xml:id="pmb29173">
+                  <tei:persName>
+                     <tei:surname>Pollak</tei:surname>
+                     <tei:forename>Emil</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1841-06-03">3. 6. 1841</tei:date>
+                     <tei:placeName ref="#pmb652">Prag</tei:placeName>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1919-01-21">21. 1. 1919</tei:date>
+                     <tei:placeName ref="#pmb50">Wien</tei:placeName>
+                  </tei:death>
+                  <occupation code="968">Möbelfabrikant*in</occupation>
+               </tei:person><tei:person xml:id="pmb29176">
+                  <tei:persName>
+                     <tei:surname>Pollak</tei:surname>
+                     <tei:forename>Sidonie</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1851-04-05">5. 4. 1851</tei:date>
+                     <tei:placeName ref="#pmb43471">Budapest</tei:placeName>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1928-04-07">7. 4. 1928</tei:date>
+                     <tei:placeName ref="#pmb50">Wien</tei:placeName>
+                  </tei:death>
+               </tei:person></listPerson><listBibl/><listPlace><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>

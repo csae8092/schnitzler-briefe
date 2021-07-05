@@ -134,9 +134,9 @@
                   </tei:author>
                   <tei:title>Der Schleier der Beatrice. Schauspiel in fünf Akten</tei:title>
                   <tei:date when="1900-12-01" when-custom="1900-12-01">1. 12. 1900</tei:date>
-                  <gloss type="1056">Mehraktiges Drama</gloss>
-                  <tei:note>6201.0</tei:note>
-                  <tei:note>8990.0</tei:note>
+                  <tei:gloss type="w1056">Mehraktiges Drama</tei:gloss>
+                  <tei:note>6201</tei:note>
+                  <tei:note>8990</tei:note>
                </tei:bibl><tei:bibl xml:id="pmb30839">
                   <tei:author ref="pmb11740" role="author">
                      <tei:surname>Hofmannsthal</tei:surname>
@@ -144,21 +144,42 @@
                   </tei:author>
                   <tei:title>Das Salzburger große Welttheater</tei:title>
                   <tei:date from="1922-01-01" from-custom="1922">1922</tei:date>
-                  <gloss type="1056">Mehraktiges Drama</gloss>
-                  <tei:note>8737.0</tei:note>
-               </tei:bibl><work><note>OFFEN</note></work><work><note>OFFEN</note></work><tei:bibl xml:id="pmb41296">
+                  <tei:gloss type="w1056">Mehraktiges Drama</tei:gloss>
+                  <tei:note>8737</tei:note>
+               </tei:bibl><tei:bibl xml:id="pmb41299">
+                  <tei:author ref="pmb11740" role="author">
+                     <tei:surname>Hofmannsthal</tei:surname>
+                     <tei:forename>Hugo von</tei:forename>
+                  </tei:author>
+                  <tei:title>Vienna Letter</tei:title>
+                  <tei:date when="1922-08-01" when-custom="1.8.1922">1. 8. 1922</tei:date>
+                  <tei:gloss type="w1154">Aufsatz</tei:gloss>
+                  <tei:note>5738</tei:note>
+                  <tei:note>5740</tei:note>
+                  <tei:note>5741</tei:note>
+               </tei:bibl><tei:bibl xml:id="pmb41302">
+                  <tei:author ref="pmb11740" role="author">
+                     <tei:surname>Hofmannsthal</tei:surname>
+                     <tei:forename>Hugo von</tei:forename>
+                  </tei:author>
+                  <tei:title>Vienna Letter</tei:title>
+                  <tei:date when="1922-10-01" when-custom="1.10.1922">1. 10. 1922</tei:date>
+                  <tei:gloss type="w1154">Aufsatz</tei:gloss>
+                  <tei:note>5739</tei:note>
+                  <tei:note>5742</tei:note>
+               </tei:bibl><tei:bibl xml:id="pmb41296">
                   <tei:author ref="pmb2276" role="editor">
                      <tei:surname>Thayer</tei:surname>
                      <tei:forename>Scofield</tei:forename>
                      <tei:term>[Herausgeber*in]</tei:term>
                   </tei:author>
                   <tei:title>The Dial</tei:title>
-                  <tei:date from="1840-01-01" from-custom="1840" to="1929-01-01" to-custom="1929">1840</tei:date>
-                  <gloss type="1219">Zeitschrift</gloss>
+                  <tei:date from="1840-01-01" from-custom="1840" to="1929-01-01" to-custom="1929">1840–1929</tei:date>
+                  <tei:gloss type="w1219">Zeitschrift</tei:gloss>
                </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -166,7 +187,7 @@
                </tei:place><tei:place xml:id="pmb173">
                   <tei:placeName>Rodaun</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>18.0</tei:gloss>
+                     <tei:gloss ana="i18">Teil eines besiedelten Ortes</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.132793312328 16.256152195922</tei:geo>
@@ -174,7 +195,7 @@
                </tei:place><tei:place xml:id="pmb41240">
                   <tei:placeName>Österreich</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1107.0</tei:gloss>
+                     <tei:gloss ana="i1107">Land</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">47.33333 13.33333</tei:geo>
@@ -183,7 +204,7 @@
                   <tei:placeName>Kollegienkirche (Salzburg)</tei:placeName>
                   <tei:desc>
                      <tei:date from="1707-07-02" from-custom="1707-07-02">2. 7. 1707</tei:date>
-                     <tei:gloss>33.0</tei:gloss>
+                     <tei:gloss ana="i33">Kirche</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">47.799167 13.043056</tei:geo>
@@ -191,8 +212,8 @@
                </tei:place></listPlace><listOrg><tei:org xml:id="pmb36687">
                   <tei:orgName>Staatsoper</tei:orgName>
                   <tei:desc>
-                     <tei:date from="1918-12-03" from-custom="03.12.1918" to="1938-09-25" to-custom="25.09.1938">3. 12. 1918</tei:date>
-                     <tei:gloss>1479.0</tei:gloss>
+                     <tei:date from="1918-12-03" from-custom="03.12.1918" to="1938-09-25" to-custom="25.09.1938">3. 12. 1918–25. 9. 1938</tei:date>
+                     <tei:gloss ana="i1479">Oper</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
                      <tei:placeName>Wien</tei:placeName>

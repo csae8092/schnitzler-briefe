@@ -16,7 +16,7 @@
                 verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die Sie für die
                 jeweilige Nutzung brauchen. Es können beispielsweise andere Rechte wie
                 Persönlichkeits- und Datenschutzrechte zu beachten sein, die Ihre
-                Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 34</idno></msIdentifier><physDesc><objectDesc><desc type="brief"/><desc n="1" type="_blaetter">Briefpapier mit Trauerrand</desc><desc n="3" type="_seiten"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="kurrent"/></handDesc><additions><incident type="receiver"><desc>Mit Bleistift beschriftet: »<quote>Großman</quote>«.</desc></incident><incident type="archival"><desc>Von unbekannter Hand mit Bleistift
+                Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 34</idno></msIdentifier><physDesc><objectDesc><desc type="brief"/><desc n="1" type="_blaetter">Briefpapier mit Trauerrand</desc><desc n="3" type="_seiten"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="deutsche-kurrent"/></handDesc><additions><incident type="receiver"><desc>Mit Bleistift beschriftet: »<quote>Großman</quote>«.</desc></incident><incident type="archival"><desc>Mit Bleistift von unbekannter Hand
                            nummeriert: »<quote>4</quote>«.</desc></incident></additions></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb11527">Großmann, Stefan</persName><placeName ref="#pmb50">Wien</placeName><date when="1906-05-04" n="01">4. 5. 1906</date></correspAction><correspAction type="received"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb11527">Großmann, Stefan</ref><ref subtype="previous_letter" type="withinCollection" target="L01594">Bahr an Schnitzler, [23. 3. 1906]</ref><ref subtype="next_letter" type="withinCollection" target="L01596">Hofmannsthal an Schnitzler, 7. 5. 1906</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L01069">Großmann an Schnitzler, 30. 8. 1900</ref><ref subtype="next_letter" type="withinCorrespondence" target="L01711">Großmann an Schnitzler, 27. 9. 1907</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
@@ -173,7 +173,7 @@
                </tei:person></listPerson><listBibl/><listPlace><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -181,7 +181,7 @@
                </tei:place><tei:place xml:id="pmb302">
                   <tei:placeName>Mariahilferstraße</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>26.0</tei:gloss>
+                     <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2007 16.3574</tei:geo>
@@ -189,7 +189,7 @@
                </tei:place><tei:place xml:id="pmb39599">
                   <tei:placeName>Graben</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>26.0</tei:gloss>
+                     <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.208786 16.369106</tei:geo>
@@ -197,8 +197,8 @@
                </tei:place></listPlace><listOrg><tei:org xml:id="pmb29644">
                   <tei:orgName>Arbeiter-Zeitung</tei:orgName>
                   <tei:desc>
-                     <tei:date from="1889-07-12" from-custom="1889-07-12" to="1991-10-31" to-custom="1991-10-31">12. 7. 1889</tei:date>
-                     <tei:gloss>972.0</tei:gloss>
+                     <tei:date from="1889-07-12" from-custom="1889-07-12" to="1991-10-31" to-custom="1991-10-31">12. 7. 1889–31. 10. 1991</tei:date>
+                     <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
                      <tei:placeName>Wien</tei:placeName>
@@ -226,18 +226,27 @@
                   </tei:place>
                </tei:org><tei:org xml:id="pmb36940">
                   <tei:orgName>Volksbühne Berlin</tei:orgName>
-                  <tei:desc/>
+                  <tei:desc>
+                     <tei:date from="1890-01-01" from-custom="1890">1890</tei:date>
+                     <tei:gloss ana="i1012">Theater</tei:gloss>
+                  </tei:desc>
                   <tei:place corresp="pmb36737">
                      <tei:placeName>Mitte</tei:placeName>
                      <tei:location>
                         <tei:geo decls="LatLng">52.516669 13.366669</tei:geo>
                      </tei:location>
                   </tei:place>
+                  <tei:place corresp="pmb168">
+                     <tei:placeName>Berlin</tei:placeName>
+                     <tei:location>
+                        <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
+                     </tei:location>
+                  </tei:place>
                </tei:org><tei:org xml:id="pmb29569">
                   <tei:orgName>Wiener Freie Volksbühne</tei:orgName>
                   <tei:desc>
                      <tei:date from="1906-09-13" from-custom="1906-09-13">13. 9. 1906</tei:date>
-                     <tei:gloss>995.0</tei:gloss>
+                     <tei:gloss ana="i995">Theaterverein</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
                      <tei:placeName>Wien</tei:placeName>

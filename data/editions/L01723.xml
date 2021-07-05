@@ -15,7 +15,7 @@
                      möglicherweise nicht alle Erlaubnisse, die Sie für die jeweilige Nutzung
                      brauchen. Es können beispielsweise andere Rechte wie Persönlichkeits- und
                      Datenschutzrechte zu beachten sein, die Ihre Nutzung des Materials entsprechend
-                     beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>U.S.A.</country><settlement>Yale</settlement><repository>Beinecke Rare Book and Manuscript Library</repository><idno>Yale Collection of German Literature, MSS 31</idno></msIdentifier><physDesc><objectDesc><desc type="karte" subtype="briefkarte"/><desc type="umschlag"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="latintype"/></handDesc><additions><incident type="postal"><desc>Ohne
+                     beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>U.S.A.</country><settlement>Yale</settlement><repository>Beinecke Rare Book and Manuscript Library</repository><idno>Yale Collection of German Literature, MSS 31</idno></msIdentifier><physDesc><objectDesc><desc type="karte" subtype="briefkarte"/><desc type="umschlag"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="lateinische-kurrent"/></handDesc><additions><incident type="postal"><desc>Ohne
                            postalischen Übermittlungsvermerk</desc></incident></additions></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb2173">Schnitzler, Olga</persName><placeName ref="#pmb50">Wien</placeName><date when="1907-10-18" n="01">[18. 10. 1907]</date></correspAction><correspAction type="received"><persName ref="#pmb10863">Beer-Hofmann, Richard</persName><placeName ref="#pmb50">Wien</placeName><date when="1907-10-18">[18. 10. 1907]</date></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb10863">Beer-Hofmann, Richard</ref><ref subtype="previous_letter" type="withinCollection" target="L01722">Großmann an Schnitzler, 12. 10. 1907</ref><ref subtype="next_letter" type="withinCollection" target="L01724">Beer-Hofmann an Schnitzler, 19. 10. 1907</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L01720">Schnitzler an Beer-Hofmann, 10. 10. 1907</ref><ref subtype="next_letter" type="withinCorrespondence" target="L01724">Beer-Hofmann an Schnitzler, 19. 10. 1907</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
@@ -53,8 +53,12 @@
                      <tei:surname>Cubasch</tei:surname>
                      <tei:forename>Heinrich</tei:forename>
                   </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1857-01-01">1857/1858</tei:date>
+                  </tei:birth>
                   <tei:death>
                      <tei:date when="1904-08-13">13. 8. 1904</tei:date>
+                     <tei:placeName ref="#pmb50">Wien</tei:placeName>
                   </tei:death>
                   <occupation code="553">Antiquitätenhändler*in</occupation>
                   <occupation code="628">Schätzmeister*in</occupation>
@@ -74,7 +78,7 @@
                </tei:person></listPerson><listBibl/><listPlace><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -82,7 +86,7 @@
                </tei:place><tei:place xml:id="pmb51871">
                   <tei:placeName>Weihburggasse</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>26.0</tei:gloss>
+                     <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.20654 16.37393</tei:geo>
@@ -91,7 +95,7 @@
                   <tei:orgName>Zentralbad</tei:orgName>
                   <tei:desc>
                      <tei:date from="1889-01-01" from-custom="1889">1889</tei:date>
-                     <tei:gloss>1612.0</tei:gloss>
+                     <tei:gloss ana="i1612">Spa/Sauna</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb51871">
                      <tei:placeName>Weihburggasse</tei:placeName>
@@ -99,16 +103,28 @@
                         <tei:geo decls="LatLng">48.20654 16.37393</tei:geo>
                      </tei:location>
                   </tei:place>
+                  <tei:place corresp="pmb51">
+                     <tei:placeName>I., Innere Stadt</tei:placeName>
+                     <tei:location>
+                        <tei:geo decls="LatLng">48.20769 16.37049</tei:geo>
+                     </tei:location>
+                  </tei:place>
                </tei:org><tei:org xml:id="pmb51868">
                   <tei:orgName>Cabaret Fledermaus</tei:orgName>
                   <tei:desc>
-                     <tei:date from="1907-10-19" from-custom="1907-10-19" to="1913-01-01" to-custom="1913">19. 10. 1907</tei:date>
-                     <tei:gloss>1042.0</tei:gloss>
+                     <tei:date from="1907-10-19" from-custom="1907-10-19" to="1913-01-01" to-custom="1913">19. 10. 1907–1913</tei:date>
+                     <tei:gloss ana="i1042">Kabarett</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb42213">
                      <tei:placeName>Johannesgasse</tei:placeName>
                      <tei:location>
                         <tei:geo decls="LatLng">48.20358 16.376</tei:geo>
+                     </tei:location>
+                  </tei:place>
+                  <tei:place corresp="pmb51">
+                     <tei:placeName>I., Innere Stadt</tei:placeName>
+                     <tei:location>
+                        <tei:geo decls="LatLng">48.20769 16.37049</tei:geo>
                      </tei:location>
                   </tei:place>
                </tei:org></listOrg></back></text></TEI>

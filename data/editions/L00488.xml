@@ -16,7 +16,7 @@
                             verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die Sie für die
                             jeweilige Nutzung brauchen. Es können beispielsweise andere Rechte wie
                             Persönlichkeits- und Datenschutzrechte zu beachten sein, die Ihre
-                            Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>D</country><settlement>Marbach am Neckar</settlement><repository>Deutsches Literaturarchiv</repository><idno>A:Schnitzler, HS.NZ85.1.2956</idno></msIdentifier><physDesc><objectDesc><desc type="brief"/><desc n="1" type="_blaetter"/><desc n="4" type="_seiten"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="latintype"/></handDesc><additions><incident type="receiver"><desc>Nummeriert: »<quote>24</quote>«. Eine Unterstreichung mit rotem
+                            Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>D</country><settlement>Marbach am Neckar</settlement><repository>Deutsches Literaturarchiv</repository><idno>A:Schnitzler, HS.NZ85.1.2956</idno></msIdentifier><physDesc><objectDesc><desc type="brief"/><desc n="1" type="_blaetter"/><desc n="4" type="_seiten"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="lateinische-kurrent"/></handDesc><additions><incident type="receiver"><desc>Nummeriert: »<quote>24</quote>«. Eine Unterstreichung mit rotem
             Buntstift.</desc></incident></additions></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb2450">Fels, Friedrich M.</persName><placeName ref="#pmb484">Zürich</placeName><date when="1895-09-19" n="02">19. 9. 1895</date></correspAction><correspAction type="received"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName><date when="1895-09-21">21. 9. 1895</date></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb2450">Fels, Friedrich M.</ref><ref subtype="previous_letter" type="withinCollection" target="L00487">Schnitzler an Beer-Hofmann, 19. 9. 1895</ref><ref subtype="next_letter" type="withinCollection" target="L00489">Schnitzler an Beer-Hofmann, 21. 9. 1895</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L00447">Fels an Schnitzler, [1. Hälfte Juni
                         1895]</ref><ref subtype="next_letter" type="withinCorrespondence" target="L00495">Fels an Schnitzler, 28. 9. 1895</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
@@ -136,7 +136,31 @@
                      <tei:placeName ref="#pmb50">Wien</tei:placeName>
                   </tei:birth>
                   <occupation code="108">Schauspieler*in</occupation>
-               </tei:person><person xml:id="#pmb42390 #pmb42393"><note>OFFEN</note></person><person xml:id="#pmb42390 #pmb42393"><note>OFFEN</note></person><tei:person xml:id="pmb10863">
+               </tei:person><tei:person xml:id="pmb42390">
+                  <tei:persName>
+                     <tei:surname>?? [Amerikanische Studentin in Zürich 1]</tei:surname>
+                     <tei:forename/>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1895-07-02">1895</tei:date>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1895-07-02">1895</tei:date>
+                  </tei:death>
+                  <occupation code="651">Student*in</occupation>
+               </tei:person><tei:person xml:id="pmb42393">
+                  <tei:persName>
+                     <tei:surname>?? [Amerikanische Studentin in Zürich 2]</tei:surname>
+                     <tei:forename/>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1895-07-02">1895</tei:date>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1895-07-02">1895</tei:date>
+                  </tei:death>
+                  <occupation code="651">Student*in</occupation>
+               </tei:person><tei:person xml:id="pmb10863">
                   <tei:persName>
                      <tei:surname>Beer-Hofmann</tei:surname>
                      <tei:forename>Richard</tei:forename>
@@ -167,17 +191,16 @@
                </tei:person></listPerson><listBibl><tei:bibl xml:id="pmb42406">
                   <tei:title>Neue Zürcher Zeitung</tei:title>
                   <tei:date from="1780-01-12" from-custom="12.1.1780">12. 1. 1780</tei:date>
-                  <gloss type="1220">Tageszeitung</gloss>
-                  <tei:note>6012.0</tei:note>
+                  <tei:gloss type="w1220">Tageszeitung</tei:gloss>
+                  <tei:note>6012</tei:note>
                </tei:bibl><tei:bibl xml:id="pmb43130">
                   <tei:author ref="pmb2450" role="author">
                      <tei:surname>Fels</tei:surname>
                      <tei:forename>Friedrich M.</tei:forename>
                   </tei:author>
                   <tei:title>?? [Doppelfeuilleton]</tei:title>
-                  <tei:date from="1895-07-01" from-custom="Sommer? 1895|1895-07-01&gt;">Sommer?
-                     1895|1895-07-01&gt;</tei:date>
-                  <gloss type="1154">Aufsatz</gloss>
+                  <tei:date from="1895-07-01" from-custom="Sommer? 1895&lt;1895-07-01&gt;">Sommer? 1895</tei:date>
+                  <tei:gloss type="w1154">Aufsatz</tei:gloss>
                </tei:bibl><tei:bibl xml:id="pmb31975">
                   <tei:author ref="pmb2121" role="author">
                      <tei:surname>Schnitzler</tei:surname>
@@ -185,8 +208,8 @@
                   </tei:author>
                   <tei:title>Die kleine Komödie</tei:title>
                   <tei:date when="1895-08-01" when-custom="01.08.1895">1. 8. 1895</tei:date>
-                  <gloss type="1340">Novelle</gloss>
-                  <tei:note>3096.0</tei:note>
+                  <tei:gloss type="w1340">Novelle</tei:gloss>
+                  <tei:note>3096</tei:note>
                </tei:bibl><tei:bibl xml:id="pmb36152">
                   <tei:author ref="pmb10928" role="editor">
                      <tei:surname>Bierbaum</tei:surname>
@@ -199,12 +222,12 @@
                      <tei:term>[Herausgeber*in]</tei:term>
                   </tei:author>
                   <tei:title>Neue Deutsche Rundschau</tei:title>
-                  <tei:date from="1894-01-01" from-custom="1894-01-01" to="1903-12-31" to-custom="1903-12-31">1. 1. 1894</tei:date>
-                  <gloss type="1219">Zeitschrift</gloss>
+                  <tei:date from="1894-01-01" from-custom="1894-01-01" to="1903-12-31" to-custom="1903-12-31">1. 1. 1894–31. 12. 1903</tei:date>
+                  <tei:gloss type="w1219">Zeitschrift</tei:gloss>
                </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb484">
                   <tei:placeName>Zürich</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">47.37174 8.54226</tei:geo>
@@ -212,7 +235,7 @@
                </tei:place><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -220,7 +243,7 @@
                </tei:place><tei:place xml:id="pmb213">
                   <tei:placeName>Bad Ischl</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">47.71109 13.61893</tei:geo>
@@ -228,7 +251,7 @@
                </tei:place><tei:place xml:id="pmb43435">
                   <tei:placeName>Schweiz</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1411.0</tei:gloss>
+                     <tei:gloss ana="i1411">Land</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">47.00016 8.01427</tei:geo>
@@ -236,7 +259,7 @@
                </tei:place><tei:place xml:id="pmb42383">
                   <tei:placeName>Rämistrasse</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>26.0</tei:gloss>
+                     <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">47.3674154 8.5455124</tei:geo>
@@ -244,16 +267,16 @@
                </tei:place><tei:place xml:id="pmb777">
                   <tei:placeName>Stadttheater</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>4.0</tei:gloss>
+                     <tei:gloss ana="i4">Theater</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">47.365 8.546944</tei:geo>
+                     <tei:geo decls="LatLng">47365 8.546944</tei:geo>
                   </tei:location>
                </tei:place><tei:place xml:id="pmb42359">
                   <tei:placeName>Volkstheater</tei:placeName>
                   <tei:desc>
                      <tei:date from="1894-07-02" from-custom="1894-07-02">2. 7. 1894</tei:date>
-                     <tei:gloss>4.0</tei:gloss>
+                     <tei:gloss ana="i4">Theater</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">47.37 8.549167</tei:geo>
@@ -261,7 +284,7 @@
                </tei:place><tei:place xml:id="pmb34">
                   <tei:placeName>Café Griensteidl</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>20.0</tei:gloss>
+                     <tei:gloss ana="i20">Kaffeehaus</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.208258 16.366111</tei:geo>

@@ -16,7 +16,7 @@
                 verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die Sie für die
                 jeweilige Nutzung brauchen. Es können beispielsweise andere Rechte wie
                 Persönlichkeits- und Datenschutzrechte zu beachten sein, die Ihre
-                Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 43</idno></msIdentifier><physDesc><objectDesc><desc n="1" type="_blaetter"/><desc type="brief"/><desc n="3" type="_seiten"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="kurrent"/></handDesc><additions><incident type="receiver"><desc>Mit Bleistift die Jahreszahl ergänzt: »<quote><date>98</date></quote>«.</desc></incident><incident type="archival"><desc>Von unbekannter Hand mit Bleistift nummeriert:
+                Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 43</idno></msIdentifier><physDesc><objectDesc><desc n="1" type="_blaetter"/><desc type="brief"/><desc n="3" type="_seiten"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="deutsche-kurrent"/></handDesc><additions><incident type="receiver"><desc>Mit Bleistift die Jahreszahl ergänzt: »<quote><date>98</date></quote>«.</desc></incident><incident type="archival"><desc>Mit Bleistift von unbekannter Hand nummeriert:
                                         »<quote>135</quote>«.</desc></incident></additions></physDesc></msDesc></witness></listWit><listBibl><biblStruct corresp="HvHAS"><monogr><author ref="#pmb11740">Hofmannsthal, Hugo von</author><author ref="#pmb2121">Schnitzler, Arthur</author><title level="m">Briefwechsel</title><editor>Hg. Therese Nickl und Heinrich Schnitzler</editor><imprint><pubPlace>Frankfurt am Main</pubPlace><publisher>S. Fischer</publisher><date when="1964">1964</date></imprint><biblScope unit="pp">112</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb11740">Hofmannsthal, Hugo von</persName><placeName ref="#pmb75">Hinterbrühl</placeName><date when="1898-10-12" n="01">12. 10. [1898]</date></correspAction><correspAction type="received"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</ref><ref subtype="previous_letter" type="withinCollection" target="L00850">Schnitzler an Hofmannsthal, 4. 10. 1898</ref><ref subtype="next_letter" type="withinCollection" target="L00852">Schnitzler an Bahr, 14. 10. 1898</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L00850">Schnitzler an Hofmannsthal, 4. 10. 1898</ref><ref subtype="next_letter" type="withinCorrespondence" target="L00853">Schnitzler an Hofmannsthal, 14. 10. 1898</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
@@ -49,28 +49,54 @@
                   </tei:death>
                   <occupation code="90">Schriftsteller*in</occupation>
                   <occupation code="97">Mediziner*in</occupation>
-               </tei:person><person xml:id="#pmb24230 #pmb24233"><note>OFFEN</note></person><person xml:id="#pmb24230 #pmb24233"><note>OFFEN</note></person></listPerson><listBibl><tei:bibl xml:id="pmb30219">
+               </tei:person><tei:person xml:id="pmb24230">
+                  <tei:persName>
+                     <tei:surname>Schlesinger</tei:surname>
+                     <tei:forename>Emil</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1844-05-10">10. 5. 1844</tei:date>
+                     <tei:placeName ref="#pmb50">Wien</tei:placeName>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1899-05-31">31. 5. 1899</tei:date>
+                     <tei:placeName ref="#pmb50">Wien</tei:placeName>
+                  </tei:death>
+                  <occupation code="465">Bankdirektor*in</occupation>
+               </tei:person><tei:person xml:id="pmb24233">
+                  <tei:persName>
+                     <tei:surname>Schlesinger</tei:surname>
+                     <tei:forename>Franziska</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1851-08-17">17. 8. 1851</tei:date>
+                     <tei:placeName ref="#pmb50">Wien</tei:placeName>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1932-08-11">11. 8. 1932</tei:date>
+                     <tei:placeName ref="#pmb50">Wien</tei:placeName>
+                  </tei:death>
+               </tei:person></listPerson><listBibl><tei:bibl xml:id="pmb30219">
                   <tei:author ref="pmb2121" role="author">
                      <tei:surname>Schnitzler</tei:surname>
                      <tei:forename>Arthur</tei:forename>
                   </tei:author>
                   <tei:title>Das Vermächtnis. Schauspiel in drei Akten</tei:title>
                   <tei:date from="1898-01-01" from-custom="1898">1898</tei:date>
-                  <gloss type="1056">Mehraktiges Drama</gloss>
-                  <tei:note>5719.0</tei:note>
+                  <tei:gloss type="w1056">Mehraktiges Drama</tei:gloss>
+                  <tei:note>5719</tei:note>
                </tei:bibl><tei:bibl xml:id="pmb32512">
                   <tei:author ref="pmb11740" role="author">
                      <tei:surname>Hofmannsthal</tei:surname>
                      <tei:forename>Hugo von</tei:forename>
                   </tei:author>
-                  <tei:title>Der Abenteurer und die Sängerin oder Die Geschenke des
-                     Lebens</tei:title>
+                  <tei:title>Der Abenteurer und die Sängerin oder Die Geschenke des Lebens</tei:title>
                   <tei:date from="1899-03-18" from-custom="18.3.1899">18. 3. 1899</tei:date>
-                  <gloss type="1097">Drama</gloss>
+                  <tei:gloss type="w1097">Drama</tei:gloss>
                </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb75">
                   <tei:placeName>Hinterbrühl</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.08611 16.24809</tei:geo>
@@ -78,7 +104,7 @@
                </tei:place><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -86,7 +112,7 @@
                </tei:place><tei:place xml:id="pmb34104">
                   <tei:placeName>Gießhüblerstraße</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>26.0</tei:gloss>
+                     <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.091236 16.250761</tei:geo>
@@ -94,7 +120,7 @@
                </tei:place><tei:place xml:id="pmb168">
                   <tei:placeName>Berlin</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
@@ -102,7 +128,7 @@
                </tei:place><tei:place xml:id="pmb462">
                   <tei:placeName>Venedig</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">45.43713 12.33265</tei:geo>

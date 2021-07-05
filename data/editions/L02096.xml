@@ -16,8 +16,8 @@
                 verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die Sie für die
                 jeweilige Nutzung brauchen. Es können beispielsweise andere Rechte wie
                 Persönlichkeits- und Datenschutzrechte zu beachten sein, die Ihre
-                Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 43</idno></msIdentifier><physDesc><objectDesc><desc type="karte" subtype="postkarte"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="kurrent"/></handDesc><additions><incident type="postal"><desc><stamp n="1"><placeName ref="#pmb173">Rodaun</placeName><date>14 11 12</date><time>3N</time></stamp></desc></incident><incident type="archival"><desc>Von weiterer Hand nummeriert:
-                              »<quote>342</quote>«.</desc></incident><incident type="archival"><desc>Von unbekannter Hand mit Bleistift
+                Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 43</idno></msIdentifier><physDesc><objectDesc><desc type="karte" subtype="postkarte"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="deutsche-kurrent"/></handDesc><additions><incident type="postal"><desc><stamp n="1"><placeName ref="#pmb173">Rodaun</placeName><date>14 11 12</date><time>3N</time></stamp></desc></incident><incident type="archival"><desc>Von weiterer Hand nummeriert:
+                              »<quote>342</quote>«.</desc></incident><incident type="archival"><desc>Mit Bleistift von unbekannter Hand
                            nummeriert: »<quote>381</quote>«.</desc></incident></additions></physDesc></msDesc></witness></listWit><listBibl><biblStruct corresp="HvHAS"><monogr><author ref="#pmb11740">Hofmannsthal, Hugo von</author><author ref="#pmb2121">Schnitzler, Arthur</author><title level="m">Briefwechsel</title><editor>Hg. Therese Nickl und Heinrich Schnitzler</editor><imprint><pubPlace>Frankfurt am Main</pubPlace><publisher>S. Fischer</publisher><date when="1964">1964</date></imprint><biblScope unit="pp">269</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb11740">Hofmannsthal, Hugo von</persName><placeName ref="#pmb173">Rodaun</placeName><date when="1912-11-13" n="01">13. 11. 1912</date></correspAction><correspAction type="received"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</ref><ref subtype="previous_letter" type="withinCollection" target="L02095">Altenberg an Schnitzler, [zwischen 9. und
                         15. 11. 1912?]</ref><ref subtype="next_letter" type="withinCollection" target="L02097">Andreas-Salomé an Schnitzler, [vor dem 15. 11. 1912?]</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L02093">Hofmannsthal an Schnitzler, 6. 11. 1912</ref><ref subtype="next_letter" type="withinCorrespondence" target="L02098">Hofmannsthal an Schnitzler, [15. 11. 1912]</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
@@ -115,12 +115,12 @@
                      <tei:forename>Karl August von</tei:forename>
                   </tei:author>
                   <tei:title>Tagebücher</tei:title>
-                  <tei:date from="1861-01-01" from-custom="1861" to="1870-01-01" to-custom="1870">1861</tei:date>
-                  <gloss type="1356">Tagebuch</gloss>
+                  <tei:date from="1861-01-01" from-custom="1861" to="1870-01-01" to-custom="1870">1861–1870</tei:date>
+                  <tei:gloss type="w1356">Tagebuch</tei:gloss>
                </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb173">
                   <tei:placeName>Rodaun</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>18.0</tei:gloss>
+                     <tei:gloss ana="i18">Teil eines besiedelten Ortes</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.132793312328 16.256152195922</tei:geo>
@@ -128,7 +128,7 @@
                </tei:place><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -136,7 +136,7 @@
                </tei:place><tei:place xml:id="pmb150">
                   <tei:placeName>Sternwartestraße</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>26.0</tei:gloss>
+                     <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.23099349198 16.340117830625</tei:geo>
@@ -144,7 +144,7 @@
                </tei:place></listPlace><listOrg><tei:org xml:id="pmb29752">
                   <tei:orgName>Concordia</tei:orgName>
                   <tei:desc>
-                     <tei:gloss>1017.0</tei:gloss>
+                     <tei:gloss ana="i1017">Schriftstellerverein</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
                      <tei:placeName>Wien</tei:placeName>

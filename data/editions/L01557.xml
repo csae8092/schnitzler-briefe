@@ -16,7 +16,7 @@
                 verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die Sie für die
                 jeweilige Nutzung brauchen. Es können beispielsweise andere Rechte wie
                 Persönlichkeits- und Datenschutzrechte zu beachten sein, die Ihre
-                Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 43</idno></msIdentifier><physDesc><objectDesc><desc type="karte" subtype="postkarte"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="kurrent"/></handDesc><additions><incident type="postal"><desc><stamp n="1"><placeName ref="#pmb173">Ro<supplied>da</supplied>un</placeName><date>6. 10. <unclear>0</unclear>5</date><time>9–12V</time></stamp></desc></incident><incident type="receiver"><desc>Mit Bleistift datiert: »<quote><date>2/10 90<unclear>5</unclear></date></quote>«.</desc></incident><incident type="archival"><desc>Von weiterer Hand »<quote>258b</quote>«.</desc></incident><incident type="archival"><desc>Von unbekannter Hand mit Bleistift nummeriert:
+                Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 43</idno></msIdentifier><physDesc><objectDesc><desc type="karte" subtype="postkarte"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="deutsche-kurrent"/></handDesc><additions><incident type="postal"><desc><stamp n="1"><placeName ref="#pmb173">Ro<supplied>da</supplied>un</placeName><date>6. 10. <unclear>0</unclear>5</date><time>9–12V</time></stamp></desc></incident><incident type="receiver"><desc>Mit Bleistift datiert: »<quote><date>2/10 90<unclear>5</unclear></date></quote>«.</desc></incident><incident type="archival"><desc>Von weiterer Hand »<quote>258b</quote>«.</desc></incident><incident type="archival"><desc>Mit Bleistift von unbekannter Hand nummeriert:
                               »<quote>255</quote>«.</desc></incident></additions></physDesc></msDesc></witness></listWit><listBibl><biblStruct corresp="HvHAS"><monogr><author ref="#pmb11740">Hofmannsthal, Hugo von</author><author ref="#pmb2121">Schnitzler, Arthur</author><title level="m">Briefwechsel</title><editor>Hg. Therese Nickl und Heinrich Schnitzler</editor><imprint><pubPlace>Frankfurt am Main</pubPlace><publisher>S. Fischer</publisher><date when="1964">1964</date></imprint><biblScope unit="pp">216</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb11740">Hofmannsthal, Hugo von</persName><placeName ref="#pmb173">Rodaun</placeName><date when="1905-10-06" n="01">6. 10. 1905</date></correspAction><correspAction type="received"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb11740">Hofmannsthal, Hugo von</ref><ref subtype="previous_letter" type="withinCollection" target="L01556">Bahr an Schnitzler, 4. 10. 1905</ref><ref subtype="next_letter" type="withinCollection" target="L01558">Beer-Hofmann an Schnitzler, [7. 10. 1905]</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L01555">Schnitzler an Hofmannsthal, 3. 10. 1905</ref><ref subtype="next_letter" type="withinCorrespondence" target="L01560">Hofmannsthal an Schnitzler, 11. 10. 1905</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
@@ -83,11 +83,11 @@
                   </tei:author>
                   <tei:title>Zwischenspiel. Komödie in drei Akten</tei:title>
                   <tei:date when="1905-10-12" when-custom="1905-10-12">12. 10. 1905</tei:date>
-                  <gloss type="1056">Mehraktiges Drama</gloss>
+                  <tei:gloss type="w1056">Mehraktiges Drama</tei:gloss>
                </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb173">
                   <tei:placeName>Rodaun</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>18.0</tei:gloss>
+                     <tei:gloss ana="i18">Teil eines besiedelten Ortes</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.132793312328 16.256152195922</tei:geo>
@@ -95,7 +95,7 @@
                </tei:place><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -103,7 +103,7 @@
                </tei:place><tei:place xml:id="pmb133">
                   <tei:placeName>Edmund-Weiß-Gasse</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>26.0</tei:gloss>
+                     <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.219883621255 16.25565018043</tei:geo>
@@ -111,7 +111,7 @@
                </tei:place><tei:place xml:id="pmb795">
                   <tei:placeName>Elisabethstraße</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>26.0</tei:gloss>
+                     <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.202505409168 16.365996258067</tei:geo>

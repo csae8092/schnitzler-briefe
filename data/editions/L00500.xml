@@ -17,7 +17,7 @@
                 verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die Sie für die
                 jeweilige Nutzung brauchen. Es können beispielsweise andere Rechte wie
                 Persönlichkeits- und Datenschutzrechte zu beachten sein, die Ihre
-                Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 25</idno></msIdentifier><physDesc><objectDesc><desc type="karte" subtype="briefkarte"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="latintype"/></handDesc><additions><incident type="receiver"><desc>Mit Bleistift datiert: »<quote><date>5/10 95</date></quote>«.</desc></incident><incident type="archival"><desc>Von unbekannter Hand mit Bleistift nummeriert:
+                Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 25</idno></msIdentifier><physDesc><objectDesc><desc type="karte" subtype="briefkarte"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="lateinische-kurrent"/></handDesc><additions><incident type="receiver"><desc>Mit Bleistift datiert: »<quote><date>5/10 95</date></quote>«.</desc></incident><incident type="archival"><desc>Mit Bleistift von unbekannter Hand nummeriert:
                                         »<quote>2.</quote>«, von anderer Hand:
                                     »<quote>3</quote>«.</desc></incident></additions></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb2416">David, Jakob Julius</persName><placeName ref="#pmb50">Wien</placeName><date when="1895-10-05" n="01">[5. 10. 1895]</date></correspAction><correspAction type="received"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb2416">David, Jakob Julius</ref><ref subtype="previous_letter" type="withinCollection" target="L00499">Fels an Schnitzler, 4. 10. 1895</ref><ref subtype="next_letter" type="withinCollection" target="L00501">Bahr an Schnitzler, [6. 10. 1895]</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L00427">David an Schnitzler, [27. 3. 1895]</ref><ref subtype="next_letter" type="withinCorrespondence" target="L00511">David an Schnitzler, 4. 11. 1895</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
@@ -75,7 +75,7 @@
                   </tei:author>
                   <tei:title>Liebelei. Schauspiel in drei Akten</tei:title>
                   <tei:date from="1895-10-09" from-custom="9.10.1895">9. 10. 1895</tei:date>
-                  <gloss type="1056">Mehraktiges Drama</gloss>
+                  <tei:gloss type="w1056">Mehraktiges Drama</tei:gloss>
                </tei:bibl><tei:bibl xml:id="pmb44811">
                   <tei:author ref="pmb2416" role="author">
                      <tei:surname>David</tei:surname>
@@ -83,14 +83,14 @@
                   </tei:author>
                   <tei:title>Arthur Schnitzler</tei:title>
                   <tei:date when="1895-10-09" when-custom="9.10.1895">9. 10. 1895</tei:date>
-                  <gloss type="1131">Rezension</gloss>
-                  <tei:note>7083.0</tei:note>
-                  <tei:note>7084.0</tei:note>
-                  <tei:note>7085.0</tei:note>
+                  <tei:gloss type="w1131">Rezension</tei:gloss>
+                  <tei:note>7083</tei:note>
+                  <tei:note>7084</tei:note>
+                  <tei:note>7085</tei:note>
                </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -98,7 +98,7 @@
                </tei:place><tei:place xml:id="pmb59">
                   <tei:placeName>IX., Alsergrund</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>25.0</tei:gloss>
+                     <tei:gloss ana="i25">Bezirk</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.22387 16.35641</tei:geo>
@@ -106,7 +106,7 @@
                </tei:place><tei:place xml:id="pmb1270">
                   <tei:placeName>Nussdorfer Straße</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>26.0</tei:gloss>
+                     <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.22921 16.35461</tei:geo>
@@ -114,8 +114,8 @@
                </tei:place></listPlace><listOrg><tei:org xml:id="pmb29320">
                   <tei:orgName>Neues Wiener Journal</tei:orgName>
                   <tei:desc>
-                     <tei:date from="1893-01-01" from-custom="1893" to="1939-01-01" to-custom="1939">1893</tei:date>
-                     <tei:gloss>972.0</tei:gloss>
+                     <tei:date from="1893-01-01" from-custom="1893" to="1939-01-01" to-custom="1939">1893–1939</tei:date>
+                     <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
                      <tei:placeName>Wien</tei:placeName>

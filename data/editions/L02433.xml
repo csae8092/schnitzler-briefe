@@ -16,7 +16,7 @@
                 verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die Sie für die
                 jeweilige Nutzung brauchen. Es können beispielsweise andere Rechte wie
                 Persönlichkeits- und Datenschutzrechte zu beachten sein, die Ihre
-                Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 17</idno></msIdentifier><physDesc><objectDesc><desc type="brief"/><desc n="1" type="_blaetter"/><desc n="2" type="_seiten"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="latintype"/></handDesc><additions><incident type="receiver"><desc>Mit Bleistift beschriftet: »<quote><p>(<hi rend="latintype">Brandes</hi></p><p><hi rend="latintype">Rung</hi>)</p></quote>«.</desc></incident><incident type="receiver"><desc>Vereinzelte Unterstreichungen mit rotem Buntstift.</desc></incident><incident type="archival"><desc>Von unbekannter Hand mit Bleistift nummeriert:
+                Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 17</idno></msIdentifier><physDesc><objectDesc><desc type="brief"/><desc n="1" type="_blaetter"/><desc n="2" type="_seiten"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="lateinische-kurrent"/></handDesc><additions><incident type="receiver"><desc>Mit Bleistift beschriftet: »<quote><p>(<hi rend="latintype">Brandes</hi></p><p><hi rend="latintype">Rung</hi>)</p></quote>«.</desc></incident><incident type="receiver"><desc>Vereinzelte Unterstreichungen mit rotem Buntstift.</desc></incident><incident type="archival"><desc>Mit Bleistift von unbekannter Hand nummeriert:
                                         »<quote>56</quote>«.</desc></incident></additions></physDesc></msDesc></witness></listWit><listBibl><biblStruct corresp="ASGB"><monogr><author ref="#pmb10992">Brandes, Georg</author><author ref="#pmb2121">Schnitzler, Arthur</author><title level="m">Ein Briefwechsel</title><editor>Hg. Kurt Bergel</editor><imprint><pubPlace>Bern</pubPlace><publisher>Francke</publisher><date when="1956">1956</date></imprint><biblScope unit="pp">144</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb5558">Rung, Gertrud</persName><placeName ref="#pmb36300">Kopenhagen</placeName><date when="1925-02-17" n="01">17. 2. 1925</date></correspAction><correspAction type="received"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb10992">Brandes Georg</ref><ref subtype="previous_letter" type="withinCollection" target="L02432">Schnitzler an Brandes, 11. 2. 1925</ref><ref subtype="next_letter" type="withinCollection" target="L02434">Schnitzler an Brandes, 22. 2. 1925</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L02432">Schnitzler an Brandes, 11. 2. 1925</ref><ref subtype="next_letter" type="withinCorrespondence" target="L02434">Schnitzler an Brandes, 22. 2. 1925</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
@@ -80,7 +80,7 @@
                </tei:person><tei:person xml:id="pmb29137">
                   <tei:persName>
                      <tei:surname>Span</tei:surname>
-                     <tei:forename>J.</tei:forename>
+                     <tei:forename>J. </tei:forename>
                   </tei:persName>
                   <occupation code="111">Veranstalter</occupation>
                </tei:person></listPerson><listBibl><tei:bibl xml:id="pmb37723">
@@ -90,7 +90,7 @@
                   </tei:author>
                   <tei:title>Das heutige Europa</tei:title>
                   <tei:date when="1925-01-01" when-custom="1925">1925</tei:date>
-                  <gloss type="1250">Vortrag</gloss>
+                  <tei:gloss type="w1250">Vortrag</tei:gloss>
                </tei:bibl><tei:bibl xml:id="pmb37740">
                   <tei:author ref="pmb37739" role="author">
                      <tei:surname>Cohn</tei:surname>
@@ -98,13 +98,13 @@
                   </tei:author>
                   <tei:title>Georg Brandes in Berlin</tei:title>
                   <tei:date when="1925-03-31" when-custom="31.3.1925">31. 3. 1925</tei:date>
-                  <gloss type="1131">Rezension</gloss>
-                  <tei:note>4017.0</tei:note>
-                  <tei:note>4018.0</tei:note>
+                  <tei:gloss type="w1131">Rezension</tei:gloss>
+                  <tei:note>4017</tei:note>
+                  <tei:note>4018</tei:note>
                </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb36300">
                   <tei:placeName>Kopenhagen</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">55.67594 12.56553</tei:geo>
@@ -112,7 +112,7 @@
                </tei:place><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -120,7 +120,7 @@
                </tei:place><tei:place xml:id="pmb168">
                   <tei:placeName>Berlin</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
@@ -128,8 +128,8 @@
                </tei:place><tei:place xml:id="pmb37725">
                   <tei:placeName>Blüthner-Saal</tei:placeName>
                   <tei:desc>
-                     <tei:date from="1908-01-01" from-custom="1908-01-01" to="1939-01-01" to-custom="1939-01-01">1. 1. 1908</tei:date>
-                     <tei:gloss>5.0</tei:gloss>
+                     <tei:date from="1908-01-01" from-custom="1908-01-01" to="1939-01-01" to-custom="1939-01-01">1908–1939</tei:date>
+                     <tei:gloss ana="i5">Veranstaltungsgebäude</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">52.504815 13.360062</tei:geo>
@@ -137,7 +137,7 @@
                </tei:place><tei:place xml:id="pmb1156">
                   <tei:placeName>Straße des 17. Juni</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>26.0</tei:gloss>
+                     <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">52.51241 13.32384</tei:geo>
@@ -145,7 +145,7 @@
                </tei:place></listPlace><listOrg><tei:org xml:id="pmb29329">
                   <tei:orgName>Berliner Tageblatt</tei:orgName>
                   <tei:desc>
-                     <tei:gloss>972.0</tei:gloss>
+                     <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
                      <tei:placeName>Berlin</tei:placeName>

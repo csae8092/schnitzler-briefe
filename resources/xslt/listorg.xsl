@@ -2,24 +2,24 @@
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0">
     <xsl:import href="shared/base_index.xsl"/>
     <xsl:param name="entiyID"/>
-    <xsl:variable name="entity" as="node()">
-        <xsl:choose>
-            <xsl:when test="not(empty(//tei:org[replace(@xml:id,'pmb','')=replace($entiyID, 'pmb','')][1]))">
-                <xsl:value-of select="//tei:org[replace(@xml:id,'pmb','')=replace($entiyID, 'pmb','')][1]"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:value-of select="false()"/>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:variable>
     <xsl:template match="/">
-        <xsl:if test="$entity">
+        <xsl:variable name="entity" as="node()" select="//tei:org[@xml:id=$entiyID][1]"/>
+        <xsl:variable name="entity-vorhanden">
+            <xsl:choose>
+                <xsl:when test="//tei:org[@xml:id=$entiyID][1]">
+                    <xsl:value-of select="true()"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="false()"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <xsl:if test="$entity-vorhanden">
             <div class="modal" id="myModal" role="dialog">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <xsl:choose>
                             <xsl:when test="$entity">
-                                <xsl:variable name="entity" select="//tei:org[replace(@xml:id,'pmb','')=replace($entiyID, 'pmb','')]"/>
                                 <div class="modal-header">
                                     <h3 class="modal-title">
                                         <xsl:value-of select="$entity/tei:orgName[1]"/>  

@@ -16,7 +16,7 @@
                             verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die Sie für die
                             jeweilige Nutzung brauchen. Es können beispielsweise andere Rechte wie
                             Persönlichkeits- und Datenschutzrechte zu beachten sein, die Ihre
-                            Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>D</country><settlement>Hamburg</settlement><repository>Staats- und Universitätsbibliothek</repository><idno>DA:Br:K:282</idno></msIdentifier><physDesc><objectDesc><desc type="kartenbrief"/></objectDesc><handDesc hands="4"><handNote medium="schwarze_tinte" style="kurrent" corresp="#pmb11988"/><handNote medium="schwarze_tinte" style="kurrent" corresp="#pmb2121"/><handNote medium="schwarze_tinte" style="kurrent" corresp="#pmb10863"/><handNote medium="schwarze_tinte" style="kurrent" corresp="#pmb11740"/></handDesc><additions><incident type="postal"><desc><stamp n="1"><placeName ref="#pmb51">Wien 1/1</placeName><date when="1894-02-11" n="01">11. 2. 94</date><time>8–9V</time></stamp></desc></incident><incident type="postal"><desc><stamp n="1"><placeName ref="#pmb17871">Pankow bei
+                            Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>D</country><settlement>Hamburg</settlement><repository>Staats- und Universitätsbibliothek</repository><idno>DA:Br:K:282</idno></msIdentifier><physDesc><objectDesc><desc type="kartenbrief"/></objectDesc><handDesc hands="4"><handNote medium="schwarze_tinte" style="deutsche-kurrent" corresp="#pmb11988"/><handNote medium="schwarze_tinte" style="deutsche-kurrent" corresp="#pmb2121"/><handNote medium="schwarze_tinte" style="deutsche-kurrent" corresp="#pmb10863"/><handNote medium="schwarze_tinte" style="deutsche-kurrent" corresp="#pmb11740"/></handDesc><additions><incident type="postal"><desc><stamp n="1"><placeName ref="#pmb51">Wien 1/1</placeName><date when="1894-02-11" n="01">11. 2. 94</date><time>8–9V</time></stamp></desc></incident><incident type="postal"><desc><stamp n="1"><placeName ref="#pmb17871">Pankow bei
                                                   Berlin</placeName><date when="1894-02-12">12. 2. 94</date><time>10–11V.</time></stamp></desc></incident></additions></physDesc></msDesc></witness></listWit><listBibl><biblStruct><monogr><author>Kersten, Joachim</author><author>Pfäfflin, Friedrich</author><title level="m">Detlev von Liliencron entdeckt, gefeiert und gelesen
                                 von Karl Kraus</title><imprint><date when="2016">2016</date><pubPlace>Göttingen</pubPlace><publisher>Wallstein</publisher></imprint><biblScope unit="pp">116–117</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb11988">Kraus, Karl</persName><persName ref="#pmb2121">Schnitzler, Arthur</persName><persName ref="#pmb10863">Beer-Hofmann, Richard</persName><persName ref="#pmb11740">Hofmannsthal, Hugo von</persName><placeName ref="#pmb50">Wien</placeName><date when="1894-02-10" n="01">10. 2. 1894</date></correspAction><correspAction type="received"><persName ref="#pmb11148">Dehmel, Richard</persName><placeName ref="#pmb17871">Pankow</placeName><date when="1894-02-12">12. 2. 1894</date></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb11148">Dehmel, Richard</ref><ref subtype="previous_letter" type="withinCollection" target="L00296">Saar an Schnitzler, 5. 2. 1894</ref><ref subtype="next_letter" type="withinCollection" target="L00298">Burckhard an Schnitzler, 12. 2. 1894</ref><ref subtype="next_letter" type="withinCorrespondence" target="L02550">Schnitzler an Dehmel, [1. 1. 1902?]</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
@@ -168,11 +168,11 @@
                   </tei:author>
                   <tei:title>Novellen</tei:title>
                   <tei:date from="1893-12-01" from-custom="1.12.1893">1. 12. 1893</tei:date>
-                  <gloss type="1098">Novellensammlung</gloss>
+                  <tei:gloss type="w1098">Novellensammlung</tei:gloss>
                </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb51">
                   <tei:placeName>I., Innere Stadt</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>25.0</tei:gloss>
+                     <tei:gloss ana="i25">Bezirk</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.20769 16.37049</tei:geo>
@@ -180,7 +180,7 @@
                </tei:place><tei:place xml:id="pmb17871">
                   <tei:placeName>Berlin-Pankow</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>25.0</tei:gloss>
+                     <tei:gloss ana="i25">Bezirk</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">52.569167 13.403333</tei:geo>
@@ -188,7 +188,7 @@
                </tei:place><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -196,7 +196,7 @@
                </tei:place><tei:place xml:id="pmb1178">
                   <tei:placeName>Mahlerstraße</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>26.0</tei:gloss>
+                     <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.20282 16.371172</tei:geo>
@@ -204,7 +204,7 @@
                </tei:place><tei:place xml:id="pmb43459">
                   <tei:placeName>Parkstraße</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>26.0</tei:gloss>
+                     <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">52.57279 13.40334</tei:geo>
@@ -212,7 +212,7 @@
                </tei:place><tei:place xml:id="pmb262">
                   <tei:placeName>Café Central</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>20.0</tei:gloss>
+                     <tei:gloss ana="i20">Kaffeehaus</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.210278 16.365278</tei:geo>
@@ -220,7 +220,7 @@
                </tei:place><tei:place xml:id="pmb34">
                   <tei:placeName>Café Griensteidl</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>20.0</tei:gloss>
+                     <tei:gloss ana="i20">Kaffeehaus</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.208258 16.366111</tei:geo>
@@ -228,7 +228,7 @@
                </tei:place><tei:place xml:id="pmb168">
                   <tei:placeName>Berlin</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
@@ -237,7 +237,7 @@
                   <tei:orgName>Freund &amp; Jeckel</tei:orgName>
                   <tei:desc>
                      <tei:date from="1879-01-01" from-custom="1879">1879</tei:date>
-                     <tei:gloss>975.0</tei:gloss>
+                     <tei:gloss ana="i975">Verlag</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
                      <tei:placeName>Berlin</tei:placeName>

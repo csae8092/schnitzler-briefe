@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
      xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd">
    <tei:teiHeader>
       <tei:fileDesc>
@@ -300,11 +300,11 @@
                <tei:place xml:id="pmb33913">
                   <tei:placeName>Alter Jüdischer Friedhof</tei:placeName>
                   <tei:desc>
+                     <tei:date from="1478-07-02"
+                               from-custom="1478-07-02"
+                               to="1890-07-02"
+                               to-custom="1890-07-02">1478–1890</tei:date>
                      <tei:gloss ana="i51">Friedhof</tei:gloss>
-                     <tei:date from="1478-01-01"
-                               from-custom="1478-01-01"
-                               to="1890-01-01"
-                               to-custom="1890-01-01">1478–1890</tei:date>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">50.089722 14.417222</tei:geo>
@@ -527,7 +527,7 @@
                      <tei:gloss ana="i28">Berg</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">47.13 10.211</tei:geo>
+                     <tei:geo decls="LatLng">47.13 10211</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb641">
@@ -708,7 +708,7 @@
                      <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">32.542 44.421</tei:geo>
+                     <tei:geo decls="LatLng">32542 44421</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb50546">
@@ -995,7 +995,7 @@
                      <tei:gloss ana="i33">Kirche</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">44.495 11.335278</tei:geo>
+                     <tei:geo decls="LatLng">44495 11.335278</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb52179">
@@ -1285,6 +1285,15 @@
                      <tei:geo decls="LatLng">46.7275 7.971944</tei:geo>
                   </tei:location>
                </tei:place>
+               <tei:place xml:id="pmb47503">
+                  <tei:placeName>Bernried</tei:placeName>
+                  <tei:desc>
+                     <tei:gloss ana="i1483">Besiedelter Ort</tei:gloss>
+                  </tei:desc>
+                  <tei:location>
+                     <tei:geo decls="LatLng">47.86604 11.29386</tei:geo>
+                  </tei:location>
+               </tei:place>
                <tei:place xml:id="pmb1203">
                   <tei:placeName>Beuerberg</tei:placeName>
                   <tei:desc>
@@ -1525,7 +1534,7 @@
                      <tei:gloss ana="i28">Berg</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">47.714806 13.388</tei:geo>
+                     <tei:geo decls="LatLng">47.714806 13388</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb1022">
@@ -1915,7 +1924,7 @@
                      <tei:gloss ana="i20">Kaffeehaus</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">47.799167 13.045</tei:geo>
+                     <tei:geo decls="LatLng">47.799167 13045</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb48">
@@ -2027,7 +2036,7 @@
                      <tei:gloss ana="i4">Theater</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">48.215 16.384444</tei:geo>
+                     <tei:geo decls="LatLng">48215 16.384444</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb40580">
@@ -2140,7 +2149,7 @@
                      <tei:gloss ana="i38">Land</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">32.8 103.083</tei:geo>
+                     <tei:geo decls="LatLng">32.8 103083</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb2448">
@@ -2323,7 +2332,7 @@
                      <tei:gloss ana="i38">Land</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">44.894 5.02</tei:geo>
+                     <tei:geo decls="LatLng">44894 5.02</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb892">
@@ -2475,7 +2484,7 @@
                      <tei:gloss ana="i50">Fluss</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">46.5257 32.252</tei:geo>
+                     <tei:geo decls="LatLng">46.5257 32252</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb50471">
@@ -2638,7 +2647,7 @@
                      <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">47.80716 13.779</tei:geo>
+                     <tei:geo decls="LatLng">47.80716 13779</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb44192">
@@ -2889,7 +2898,7 @@
                      <tei:gloss ana="i4">Theater</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">48.205139 16.375</tei:geo>
+                     <tei:geo decls="LatLng">48.205139 16375</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb468">
@@ -3297,7 +3306,7 @@
                      <tei:gloss ana="i47">Region</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">49.521 23.245</tei:geo>
+                     <tei:geo decls="LatLng">49521 23245</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb38897">
@@ -3458,7 +3467,7 @@
                      <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">48.156 11.58708</tei:geo>
+                     <tei:geo decls="LatLng">48156 11.58708</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb5">
@@ -3652,7 +3661,7 @@
                      <tei:gloss ana="i65">Meer</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">41.029167 28.961</tei:geo>
+                     <tei:geo decls="LatLng">41.029167 28961</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb84">
@@ -4440,7 +4449,7 @@
                      <tei:gloss ana="i15">Universität</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">48.201667 16.385</tei:geo>
+                     <tei:geo decls="LatLng">48.201667 16385</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb52353">
@@ -5346,6 +5355,16 @@
                      <tei:geo decls="LatLng">48.14092 11.56197</tei:geo>
                   </tei:location>
                </tei:place>
+               <tei:place xml:id="pmb56099">
+                  <tei:placeName>Hotel Seeblick</tei:placeName>
+                  <tei:desc>
+                     <tei:date from="1891-07-02" from-custom="1891-07-02">2. 7. 1891</tei:date>
+                     <tei:gloss ana="i12">Hotel</tei:gloss>
+                  </tei:desc>
+                  <tei:location>
+                     <tei:geo decls="LatLng">47.86795006339737 11.292273639534862</tei:geo>
+                  </tei:location>
+               </tei:place>
                <tei:place xml:id="pmb51937">
                   <tei:placeName>Hotel Simson</tei:placeName>
                   <tei:desc>
@@ -5727,7 +5746,7 @@
                      <tei:gloss ana="i50">Fluss</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">48.803611 12.975</tei:geo>
+                     <tei:geo decls="LatLng">48.803611 12975</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb51445">
@@ -5875,7 +5894,7 @@
                      <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">48.20358 16.376</tei:geo>
+                     <tei:geo decls="LatLng">48.20358 16376</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb298">
@@ -5942,7 +5961,7 @@
                      <tei:gloss ana="i28">Berg</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">46.538 7.9637</tei:geo>
+                     <tei:geo decls="LatLng">46538 7.9637</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb1">
@@ -6019,7 +6038,7 @@
                      <tei:gloss ana="i24">Gebäude</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">47.715 13.620278</tei:geo>
+                     <tei:geo decls="LatLng">47715 13.620278</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb555">
@@ -6119,7 +6138,7 @@
                      <tei:gloss ana="i44">See</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">46.409167 11.575</tei:geo>
+                     <tei:geo decls="LatLng">46.409167 11575</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb842">
@@ -7194,7 +7213,7 @@
                      <tei:gloss ana="i1412">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">47.139 7.21407</tei:geo>
+                     <tei:geo decls="LatLng">47139 7.21407</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb52001">
@@ -7364,8 +7383,8 @@
                <tei:place xml:id="pmb44846">
                   <tei:placeName>Maria Santissima Assunta</tei:placeName>
                   <tei:desc>
-                     <tei:gloss ana="i33">Kirche</tei:gloss>
                      <tei:date from="1184-07-01" from-custom="1184-07-01">1. 7. 1184</tei:date>
+                     <tei:gloss ana="i33">Kirche</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">38.11449 13.356146</tei:geo>
@@ -7505,7 +7524,7 @@
                      <tei:gloss ana="i1419">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">45.36167 14.325</tei:geo>
+                     <tei:geo decls="LatLng">45.36167 14325</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb7728">
@@ -7533,7 +7552,7 @@
                      <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">52.496389 13.435</tei:geo>
+                     <tei:geo decls="LatLng">52.496389 13435</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb40776">
@@ -7660,7 +7679,7 @@
                      <tei:gloss ana="i1412">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">48.81381 2.235</tei:geo>
+                     <tei:geo decls="LatLng">48.81381 2235</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb41069">
@@ -7678,7 +7697,7 @@
                      <tei:gloss ana="i44">See</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">46.795 13.579722</tei:geo>
+                     <tei:geo decls="LatLng">46795 13.579722</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb24">
@@ -8201,6 +8220,15 @@
                      <tei:geo decls="LatLng">48.233119188484 16.28610371233</tei:geo>
                   </tei:location>
                </tei:place>
+               <tei:place xml:id="pmb55891">
+                  <tei:placeName>Newa</tei:placeName>
+                  <tei:desc>
+                     <tei:gloss ana="i1577">Fluss</tei:gloss>
+                  </tei:desc>
+                  <tei:location>
+                     <tei:geo decls="LatLng">59.94444 30.31</tei:geo>
+                  </tei:location>
+               </tei:place>
                <tei:place xml:id="pmb44165">
                   <tei:placeName>New Haven</tei:placeName>
                   <tei:desc>
@@ -8234,7 +8262,7 @@
                      <tei:gloss ana="i33">Kirche</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">63.426857 10.397</tei:geo>
+                     <tei:geo decls="LatLng">63.426857 10397</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb40556">
@@ -8352,15 +8380,14 @@
                      <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     
                      <tei:geo decls="LatLng">48.22921 16.35461</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb44489">
                   <tei:placeName>Nyhavn</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>Hafen</tei:gloss>
                      <tei:date from="1673-07-02" from-custom="1673-07-02">2. 7. 1673</tei:date>
+                     <tei:gloss ana="i84">K.HFN</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">55.679687 12.590659</tei:geo>
@@ -8399,7 +8426,7 @@
                      <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">50.705556 10.725</tei:geo>
+                     <tei:geo decls="LatLng">50.705556 10725</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb11483">
@@ -8480,7 +8507,7 @@
                      <tei:gloss ana="i10">Oper</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">48.203 16.3691</tei:geo>
+                     <tei:geo decls="LatLng">48203 16.3691</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb717">
@@ -9012,7 +9039,7 @@
                      <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">52.4531 13.621</tei:geo>
+                     <tei:geo decls="LatLng">52.4531 13621</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb41955">
@@ -9043,7 +9070,7 @@
                      <tei:gloss ana="i28">Berg</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">46.995 11.660278</tei:geo>
+                     <tei:geo decls="LatLng">46995 11.660278</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb44263">
@@ -9097,7 +9124,7 @@
                      <tei:gloss ana="i1124">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">46.42302 12.361</tei:geo>
+                     <tei:geo decls="LatLng">46.42302 12361</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb44600">
@@ -9227,7 +9254,7 @@
                      <tei:gloss ana="i37">Brücke</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">46.202 6.147</tei:geo>
+                     <tei:geo decls="LatLng">46202 6147</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb148">
@@ -10069,7 +10096,7 @@
                      <tei:gloss ana="i1128">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">47.42681 12.848</tei:geo>
+                     <tei:geo decls="LatLng">47.42681 12848</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb209">
@@ -10569,7 +10596,7 @@
                      <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">47.7242 11.86259</tei:geo>
+                     <tei:geo decls="LatLng">47.73621 11.85936</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb160">
@@ -10766,6 +10793,15 @@
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.18789 16.34508</tei:geo>
+                  </tei:location>
+               </tei:place>
+               <tei:place xml:id="pmb52498">
+                  <tei:placeName>Schönburgstraße</tei:placeName>
+                  <tei:desc>
+                     <tei:gloss ana="i26">Straße</tei:gloss>
+                  </tei:desc>
+                  <tei:location>
+                     <tei:geo decls="LatLng">48.18614 16.37042</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb44464">
@@ -11382,16 +11418,7 @@
                      <tei:gloss ana="i4">Theater</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">47.365 8.546944</tei:geo>
-                  </tei:location>
-               </tei:place>
-               <tei:place xml:id="pmb1179">
-                  <tei:placeName>Stadttheater</tei:placeName>
-                  <tei:desc>
-                     <tei:gloss ana="i4">Theater</tei:gloss>
-                  </tei:desc>
-                  <tei:location>
-                     <tei:geo decls="LatLng">47.711389 13.618611</tei:geo>
+                     <tei:geo decls="LatLng">47365 8.546944</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb42968">
@@ -11402,6 +11429,15 @@
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">49.201364 16.608143</tei:geo>
+                  </tei:location>
+               </tei:place>
+               <tei:place xml:id="pmb1179">
+                  <tei:placeName>Stadttheater (Bad Ischl)</tei:placeName>
+                  <tei:desc>
+                     <tei:gloss ana="i4">Theater</tei:gloss>
+                  </tei:desc>
+                  <tei:location>
+                     <tei:geo decls="LatLng">47.711389 13.618611</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb34213">
@@ -11592,7 +11628,7 @@
                      <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">59.325 18.05</tei:geo>
+                     <tei:geo decls="LatLng">59325 18.05</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb51882">
@@ -11871,7 +11907,7 @@
                <tei:place xml:id="pmb34026">
                   <tei:placeName>Telegrafenstation</tei:placeName>
                   <tei:desc>
-                     <tei:gloss ana="i87">no type provided</tei:gloss>
+                     <tei:gloss ana="i64">Bürogebäude</tei:gloss>
                   </tei:desc>
                </tei:place>
                <tei:place xml:id="pmb52330">
@@ -12275,7 +12311,7 @@
                      <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">46.434 11.252</tei:geo>
+                     <tei:geo decls="LatLng">46434 11252</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb970">
@@ -12330,7 +12366,7 @@
                      <tei:gloss ana="i23">Krankenhaus</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">48.576 7.7443</tei:geo>
+                     <tei:geo decls="LatLng">48576 7.7443</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb39594">
@@ -13119,7 +13155,7 @@
                      <tei:gloss ana="i1412">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">48.291 16.30865</tei:geo>
+                     <tei:geo decls="LatLng">48291 16.30865</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb19829">
@@ -13203,6 +13239,15 @@
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                   </tei:location>
                </tei:place>
+               <tei:place xml:id="pmb40876">
+                  <tei:placeName>Wienerwald</tei:placeName>
+                  <tei:desc>
+                     <tei:gloss ana="i62">Ausflugsziel</tei:gloss>
+                  </tei:desc>
+                  <tei:location>
+                     <tei:geo decls="LatLng">48.087222 15.911944</tei:geo>
+                  </tei:location>
+               </tei:place>
                <tei:place xml:id="pmb42639">
                   <tei:placeName>Wienerhof</tei:placeName>
                   <tei:desc>
@@ -13238,15 +13283,6 @@
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">47.8 16.25</tei:geo>
-                  </tei:location>
-               </tei:place>
-               <tei:place xml:id="pmb40876">
-                  <tei:placeName>Wienerwald</tei:placeName>
-                  <tei:desc>
-                     <tei:gloss ana="i62">Ausflugsziel</tei:gloss>
-                  </tei:desc>
-                  <tei:location>
-                     <tei:geo decls="LatLng">48.087222 15.911944</tei:geo>
                   </tei:location>
                </tei:place>
                <tei:place xml:id="pmb41376">

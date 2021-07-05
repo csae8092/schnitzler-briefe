@@ -16,7 +16,7 @@
                 verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die Sie für die
                 jeweilige Nutzung brauchen. Es können beispielsweise andere Rechte wie
                 Persönlichkeits- und Datenschutzrechte zu beachten sein, die Ihre
-                Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 3</idno></msIdentifier><physDesc><objectDesc><desc type="karte" subtype="postkarte"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="kurrent"/></handDesc><additions><incident type="postal"><desc><stamp n="1"><placeName ref="#pmb51">Wien 1/1</placeName><date>22. 11. 95</date><time>11–12 N</time></stamp></desc></incident><incident type="postal"><desc><stamp n="2"><placeName ref="#pmb59">Wien 9/3</placeName><date>23. 11. 95</date><time>8.V</time><addSpan>Bestellt</addSpan></stamp></desc></incident><incident type="receiver"><desc>Eine Unterstreichung mit rotem Buntstift.</desc></incident><incident type="archival"><desc>Von unbekannter Hand mit rotem Buntstift
+                Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 3</idno></msIdentifier><physDesc><objectDesc><desc type="karte" subtype="postkarte"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="deutsche-kurrent"/></handDesc><additions><incident type="postal"><desc><stamp n="1"><placeName ref="#pmb51">Wien 1/1</placeName><date>22. 11. 95</date><time>11–12 N</time></stamp></desc></incident><incident type="postal"><desc><stamp n="2"><placeName ref="#pmb59">Wien 9/3</placeName><date>23. 11. 95</date><time>8.V</time><addSpan>Bestellt</addSpan></stamp></desc></incident><incident type="receiver"><desc>Eine Unterstreichung mit rotem Buntstift</desc></incident><incident type="archival"><desc>Von unbekannter Hand mit rotem Buntstift
                                     nummeriert: »7«</desc></incident></additions></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb10762">Andreas-Salomé, Lou</persName><placeName ref="#pmb50">Wien</placeName><date when="1895-11-22" n="01">22. 11. 1895</date></correspAction><correspAction type="received"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName><date when="1895-11-23">23. 11. 1895</date></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb10762">Andreas-Salomé, Lou</ref><ref subtype="previous_letter" type="withinCollection" target="L00513">Schnitzler an Beer-Hofmann, 16. 11. 1895</ref><ref subtype="next_letter" type="withinCollection" target="L00515">Andreas-Salomé an Schnitzler, [24.? 11. 1895]</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L00473">Andreas-Salomé an Schnitzler, [vor dem 17. 8. 1895]</ref><ref subtype="next_letter" type="withinCorrespondence" target="L00515">Andreas-Salomé an Schnitzler, [24.? 11. 1895]</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
@@ -60,7 +60,7 @@
                   </tei:birth>
                   <tei:death>
                      <tei:date when="1909-03-12">12. 3. 1909</tei:date>
-                     <tei:placeName ref="#pmb5414">Dornburg-Camburg</tei:placeName>
+                     <tei:placeName ref="#pmb56133">Dornburg</tei:placeName>
                   </tei:death>
                   <occupation code="91">Schriftsteller*in</occupation>
                </tei:person></listPerson><listBibl><tei:bibl xml:id="pmb29917">
@@ -70,11 +70,11 @@
                   </tei:author>
                   <tei:title>Liebelei. Schauspiel in drei Akten</tei:title>
                   <tei:date from="1895-10-09" from-custom="9.10.1895">9. 10. 1895</tei:date>
-                  <gloss type="1056">Mehraktiges Drama</gloss>
+                  <tei:gloss type="w1056">Mehraktiges Drama</tei:gloss>
                </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb51">
                   <tei:placeName>I., Innere Stadt</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>25.0</tei:gloss>
+                     <tei:gloss ana="i25">Bezirk</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.20769 16.37049</tei:geo>
@@ -82,7 +82,7 @@
                </tei:place><tei:place xml:id="pmb59">
                   <tei:placeName>IX., Alsergrund</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>25.0</tei:gloss>
+                     <tei:gloss ana="i25">Bezirk</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.22387 16.35641</tei:geo>
@@ -90,7 +90,7 @@
                </tei:place><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -98,7 +98,7 @@
                </tei:place><tei:place xml:id="pmb397">
                   <tei:placeName>Frankgasse</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>26.0</tei:gloss>
+                     <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.215516628628 16.356475515829</tei:geo>
@@ -106,7 +106,7 @@
                </tei:place><tei:place xml:id="pmb43570">
                   <tei:placeName>Dänemark</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1411.0</tei:gloss>
+                     <tei:gloss ana="i1411">Land</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">56.0 10.0</tei:geo>
@@ -114,7 +114,7 @@
                </tei:place><tei:place xml:id="pmb36300">
                   <tei:placeName>Kopenhagen</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">55.67594 12.56553</tei:geo>
@@ -122,7 +122,7 @@
                </tei:place><tei:place xml:id="pmb1101">
                   <tei:placeName>Hotel Royal</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>12.0</tei:gloss>
+                     <tei:gloss ana="i12">Hotel</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2078844 16.3723234</tei:geo>

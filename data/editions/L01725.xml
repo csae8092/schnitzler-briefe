@@ -16,7 +16,7 @@
                      möglicherweise nicht alle Erlaubnisse, die Sie für die jeweilige Nutzung
                      brauchen. Es können beispielsweise andere Rechte wie Persönlichkeits- und
                      Datenschutzrechte zu beachten sein, die Ihre Nutzung des Materials entsprechend
-                     beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>U.S.A.</country><settlement>Yale</settlement><repository>Beinecke Rare Book and Manuscript Library</repository><idno>Yale Collection of German Literature, MSS 31</idno></msIdentifier><physDesc><objectDesc><desc type="karte" subtype="briefkarte"/><desc type="umschlag"/></objectDesc><handDesc><handNote medium="bleistift" style="latintype"/></handDesc><additions><incident type="postal"><desc>Ohne postalischen
+                     beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>U.S.A.</country><settlement>Yale</settlement><repository>Beinecke Rare Book and Manuscript Library</repository><idno>Yale Collection of German Literature, MSS 31</idno></msIdentifier><physDesc><objectDesc><desc type="karte" subtype="briefkarte"/><desc type="umschlag"/></objectDesc><handDesc><handNote medium="bleistift" style="lateinische-kurrent"/></handDesc><additions><incident type="postal"><desc>Ohne postalischen
                            Übermittlungsvermerk</desc></incident></additions></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb2173">Schnitzler, Olga</persName><placeName ref="#pmb50">Wien</placeName><date when="1907-10-19" n="02">[19. 10. 1907]</date></correspAction><correspAction type="received"><persName ref="#pmb10863">Beer-Hofmann, Richard</persName><placeName ref="#pmb50">Wien</placeName><date when="1907-10-19">19. 10. 1907</date></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb10863">Beer-Hofmann, Richard</ref><ref subtype="previous_letter" type="withinCollection" target="L01724">Beer-Hofmann an Schnitzler, 19. 10. 1907</ref><ref subtype="next_letter" type="withinCollection" target="L01726">Schnitzler an Beer-Hofmann, [25. 10. 1907]</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L01724">Beer-Hofmann an Schnitzler, 19. 10. 1907</ref><ref subtype="next_letter" type="withinCorrespondence" target="L01726">Schnitzler an Beer-Hofmann, [25. 10. 1907]</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
@@ -49,7 +49,36 @@
                      <tei:placeName ref="#pmb44053">New York City</tei:placeName>
                   </tei:death>
                   <occupation code="90">Schriftsteller*in</occupation>
-               </tei:person><person xml:id="#pmb2646 #pmb2642"><note>OFFEN</note></person><person xml:id="#pmb2646 #pmb2642"><note>OFFEN</note></person><tei:person xml:id="pmb2121">
+               </tei:person><tei:person xml:id="pmb2646">
+                  <tei:persName>
+                     <tei:surname>Speidel</tei:surname>
+                     <tei:forename>Felix</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1875-07-02">2. 7. 1875</tei:date>
+                     <tei:placeName ref="#pmb872">Stuttgart</tei:placeName>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1952-10-03">3. 10. 1952</tei:date>
+                     <tei:placeName ref="#pmb877">Unterach am Attersee</tei:placeName>
+                  </tei:death>
+                  <occupation code="90">Schriftsteller*in</occupation>
+                  <occupation code="144">Verleger*in</occupation>
+               </tei:person><tei:person xml:id="pmb2642">
+                  <tei:persName>
+                     <tei:surname>Speidel</tei:surname>
+                     <tei:forename>Else</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1877-07-11">11. 7. 1877</tei:date>
+                     <tei:placeName ref="#pmb872">Stuttgart</tei:placeName>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1937-07-21">21. 7. 1937</tei:date>
+                     <tei:placeName ref="#pmb46544">Augustenfeld</tei:placeName>
+                  </tei:death>
+                  <occupation code="108">Schauspieler*in</occupation>
+               </tei:person><tei:person xml:id="pmb2121">
                   <tei:persName>
                      <tei:surname>Schnitzler</tei:surname>
                      <tei:forename>Arthur</tei:forename>
@@ -70,11 +99,11 @@
                      <tei:forename>Felix</tei:forename>
                   </tei:author>
                   <tei:title>Föhn</tei:title>
-                  <gloss type="1212">Unveröffentlichtes dramatisches Werk</gloss>
+                  <tei:gloss type="w1212">Unveröffentlichtes dramatisches Werk</tei:gloss>
                </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>

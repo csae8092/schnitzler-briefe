@@ -246,22 +246,9 @@ concat('show.html','?document=', app:getDocName($node),'&amp;directory=',$collec
  declare function app:ft_search($node as node(), $model as map (*)) {
  if (request:get-parameter("searchexpr", "") !="") then
  let $searchterm as xs:string:= request:get-parameter("searchexpr", "")
- for $hit in collection(concat($config:app-root, '/data/editions/'))//*[(.//tei:p[ft:query(.,$searchterm)]) or 
- .//tei:persName[ft:query(.,$searchterm)] or 
- .//tei:cell[ft:query(.,$searchterm)] or 
- .//tei:dateline[ft:query(.,$searchterm)] or 
- .//tei:seg[ft:query(.,$searchterm)] or 
- .//tei:l[ft:query(.,$searchterm)] or 
- .//tei:correspAction[ft:query(.,$searchterm)] or 
- .//tei:correspAction/tei:date[ft:query(.,$searchterm)] or 
- .//tei:correspAction/tei:placeName[ft:query(.,$searchterm)] or 
- .//tei:note[ft:query(.,$searchterm)] or 
- .//tei:salute[ft:query(.,$searchterm)] or 
- .//tei:closer[ft:query(.,$searchterm)]
- or 
- .//tei:physDesc[ft:query(.,$searchterm)]
- or 
- .//tei:addrLine[ft:query(.,$searchterm)]]
+ for $hit in collection(concat($config:app-root, '/data/editions/'))//*[(tei:text/tei:body/tei:div[ft:query(.,$searchterm)]) 
+ or (tei:teiHeader[1]/tei:profileDesc[1]/tei:correspDesc[1][ft:query(.,$searchterm)]) 
+ or (tei:teiHeader[1]/tei:profileDesc[1]/tei:correspDesc[1][ft:query(.,$searchterm)])]
     let $href := concat(app:hrefToDoc($hit), "&amp;searchexpr=", $searchterm)
     let $score as xs:float := ft:score($hit)
     order by $score descending
@@ -291,13 +278,13 @@ for $title in ($entities, $terms)
     let $collection := app:getColName($title)
     let $snippet :=
         for $entity in root($title)//*[contains-token(tokenize(@ref,'\s+'),$searchkey)]
-                let $before := $entity/preceding::text()[1]
-                let $after := $entity/following::text()[1]
+                let $before := concat(substring($entity/preceding::text()[1], string-length($entity/preceding::text()[1])-35, 35),' ')
+                let $after := substring($entity/following::text()[1],1,35)
                 return
-                    <p>… {$before} <strong>
+                    <span>… {$before} <strong>
 <a href="{concat(app:hrefToDoc($title, $collection), "&amp;searchkey=", $indexSerachKey)}">{$entity//text()[not(ancestor::tei:abbr)]}</a>
 </strong> {$after}…<br/>
-</p>
+</span>
     let $zitat := $title//tei:msIdentifier
     let $collection := app:getColName($title)
     return
@@ -889,15 +876,14 @@ return
 declare function app:listOrg($node as node(), $model as map(*)) {
     let $hitHtml := "hits.html?searchkey="
     for $item in doc($app:orgIndex)//tei:listOrg/tei:org
-    let $geo := $item//tei:place/tei:location/tei:geo[1]
-    let $place := $item//tei:place/tei:placeName[1]
+    let $geo := $item//tei:place[1]/tei:location[1]/tei:geo[1]
+    let $places := $item/tei:place/tei:placeName
     let $kind := $item//tei:desc/tei:gloss[1]
    return
         <tr>
 <td><a href="{concat($hitHtml,data($item/@xml:id))}">{$item//tei:orgName[1]/text()}</a></td>
-<td>{$place}</td>
+<td>{fn:string-join($places, ", ")}</td>
 <td>{$kind}</td>
-<td>{$geo}</td>
 </tr>
 };
 

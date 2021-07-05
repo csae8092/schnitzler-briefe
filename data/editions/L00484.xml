@@ -16,7 +16,7 @@
                 verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die Sie für die
                 jeweilige Nutzung brauchen. Es können beispielsweise andere Rechte wie
                 Persönlichkeits- und Datenschutzrechte zu beachten sein, die Ihre
-                Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 20</idno></msIdentifier><physDesc><objectDesc><desc type="brief"/><desc n="1" type="_blaetter"/><desc n="2" type="_seiten"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="kurrent"/></handDesc><additions><incident type="archival"><desc>Von unbekannter Hand mit rotem Buntstift nummeriert:
+                Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 20</idno></msIdentifier><physDesc><objectDesc><desc type="brief"/><desc n="1" type="_blaetter"/><desc n="2" type="_seiten"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="deutsche-kurrent"/></handDesc><additions><incident type="archival"><desc>Von unbekannter Hand mit rotem Buntstift nummeriert:
                                         »<quote>6.</quote>«, mutmaßlich von anderer Hand mit
                                     Bleistift durchgestrichen und nummeriert:
                                     »<quote>7</quote>«.</desc></incident></additions></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb11036">Burckhard, Max</persName><placeName ref="#pmb50">Wien</placeName><date when="1895-09-15" n="02">15. 9. 1895</date></correspAction><correspAction type="received"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb11036">Burckhard, Max</ref><ref subtype="previous_letter" type="withinCollection" target="L00483">Schnitzler an Beer-Hofmann, 15. 9. 1895</ref><ref subtype="next_letter" type="withinCollection" target="L00485">Beer-Hofmann an Schnitzler, 16. 9. 1895</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L00404">Burckhard an Schnitzler, [22. 11. 1894]</ref><ref subtype="next_letter" type="withinCorrespondence" target="L00553">Burckhard an Schnitzler, 25. 6. 1896</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
@@ -116,7 +116,7 @@
                   </tei:author>
                   <tei:title>Liebelei. Schauspiel in drei Akten</tei:title>
                   <tei:date from="1895-10-09" from-custom="9.10.1895">9. 10. 1895</tei:date>
-                  <gloss type="1056">Mehraktiges Drama</gloss>
+                  <tei:gloss type="w1056">Mehraktiges Drama</tei:gloss>
                </tei:bibl><tei:bibl xml:id="pmb31711">
                   <tei:author ref="pmb11431" role="author">
                      <tei:surname>Giacosa</tei:surname>
@@ -124,11 +124,11 @@
                   </tei:author>
                   <tei:title>Rechte der Seele</tei:title>
                   <tei:date from="1894-01-01" from-custom="1894">1894</tei:date>
-                  <gloss type="1097">Drama</gloss>
+                  <tei:gloss type="w1097">Drama</tei:gloss>
                </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -136,7 +136,7 @@
                </tei:place><tei:place xml:id="pmb1004">
                   <tei:placeName>Sprottau</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">51.56563 15.53664</tei:geo>
@@ -145,7 +145,7 @@
                   <tei:orgName>Burgtheater</tei:orgName>
                   <tei:desc>
                      <tei:date from="1852-01-01" from-custom="1852">1852</tei:date>
-                     <tei:gloss>1012.0</tei:gloss>
+                     <tei:gloss ana="i1012">Theater</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
                      <tei:placeName>Wien</tei:placeName>
@@ -153,5 +153,16 @@
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
                   </tei:place>
-                 
+                  <tei:place corresp="pmb14">
+                     <tei:placeName>Burgtheater</tei:placeName>
+                     <tei:location>
+                        <tei:geo decls="LatLng">48.210333 16.361139</tei:geo>
+                     </tei:location>
+                  </tei:place>
+                  <tei:place corresp="pmb44649">
+                     <tei:placeName>Schlosstheater Schönbrunn</tei:placeName>
+                     <tei:location>
+                        <tei:geo decls="LatLng">48.186667 16.3125</tei:geo>
+                     </tei:location>
+                  </tei:place>
                </tei:org></listOrg></back></text></TEI>

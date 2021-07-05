@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0">
     <!-- <xsl:strip-space elements="*"/>-->
     <xsl:import href="shared/base.xsl"/>
@@ -19,18 +18,8 @@
             <div class="card">
                 <div class="card-header">
                     <div class="row" style="text-align:left">
-                        <div class="col-md-2">
-                            <xsl:if test="$prev">
-                                <h1>
-                                    <a>
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of select="$prev"/>
-                                        </xsl:attribute>
-                                        <i class="fas fa-chevron-left" title="prev"/>
-                                    </a>
-                                </h1>
-                            </xsl:if>
-                        </div>
+                        <div class="col-md-2" style="text-align:right"/>
+                        
                         <div class="col-md-8" align="center">
                             <h1>
                                 <xsl:value-of select="//tei:title[@level = 'a']"/>
@@ -41,21 +30,10 @@
                                 </muted>
                             </h5>
                         </div>
-                        <div class="col-md-2" style="text-align:right">
-                            <xsl:if test="$next">
-                                <h1>
-                                    <a>
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of select="$next"/>
-                                        </xsl:attribute>
-                                        <i class="fas fa-chevron-right" title="next"/>
-                                    </a>
-                                </h1>
-                            </xsl:if>
-                        </div>
+                        <div class="col-md-2" style="text-align:right"/>
                     </div>
                 </div>
-                <div>
+                <div class="card-body-meta">
                     <xsl:apply-templates select="//tei:body"/>
                     <!-- CMIF Sonderregel: -->
                     <xsl:if test="//tei:profileDesc/tei:correspDesc[10]">
@@ -366,5 +344,8 @@
                 </xsl:element>
             </td>
         </tr>
+    </xsl:template>
+    <xsl:template match="tei:code">
+        <code><xsl:apply-templates/></code>
     </xsl:template>
 </xsl:stylesheet>

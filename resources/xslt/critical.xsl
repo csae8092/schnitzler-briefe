@@ -1574,11 +1574,11 @@
             <xsl:text>, </xsl:text>
         </xsl:if>
         <xsl:choose>
-            <xsl:when test="$entry/@style = 'kurrent'">
-                <xsl:text>Kurrentschrift</xsl:text>
+            <xsl:when test="$entry/@style = 'deutsche-kurrent'">
+                <xsl:text>deutsche Kurrentschrift</xsl:text>
             </xsl:when>
-            <xsl:when test="$entry/@style = 'latintype'">
-                <xsl:text>Lateinschrift</xsl:text>
+            <xsl:when test="$entry/@style = 'lateinische-kurrent'">
+                <xsl:text>lateinische Kurrentschrift</xsl:text>
             </xsl:when>
             <xsl:when test="$entry/@style = 'gabelsberger'">
                 <xsl:text>Gabelsberger Kurzschrift</xsl:text>

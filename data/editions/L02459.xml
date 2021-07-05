@@ -84,8 +84,8 @@
                   </tei:author>
                   <tei:title>Schnitzlers Unterleibsbeschwerden</tei:title>
                   <tei:date when="1925-12-19" when-custom="1925-12-19">19. 12. 1925</tei:date>
-                  <gloss type="1392">Glosse</gloss>
-                  <tei:note>8171.0</tei:note>
+                  <tei:gloss type="w1392">Glosse</tei:gloss>
+                  <tei:note>8171</tei:note>
                </tei:bibl><tei:bibl xml:id="pmb46493">
                   <tei:author ref="pmb11527" role="editor">
                      <tei:surname>Großmann</tei:surname>
@@ -93,10 +93,10 @@
                      <tei:term>[Herausgeber*in]</tei:term>
                   </tei:author>
                   <tei:title>Das Tage-Buch</tei:title>
-                  <tei:date from="1920-01-01" from-custom="1920-01-01" to="1933-01-01" to-custom="1933-01-01">1. 1. 1920</tei:date>
-                  <gloss type="1219">Zeitschrift</gloss>
-                  <tei:note>7799.0</tei:note>
-                  <tei:note>7800.0</tei:note>
+                  <tei:date from="1920-01-01" from-custom="1920-01-01" to="1933-01-01" to-custom="1933-01-01">1. 1. 1920–1. 1. 1933</tei:date>
+                  <tei:gloss type="w1219">Zeitschrift</tei:gloss>
+                  <tei:note>7799</tei:note>
+                  <tei:note>7800</tei:note>
                </tei:bibl><tei:bibl xml:id="pmb47194">
                   <tei:author ref="pmb47197" role="author">
                      <tei:surname>Stolzing-Cerny</tei:surname>
@@ -104,8 +104,8 @@
                   </tei:author>
                   <tei:title>Residenztheater. Erstaufführung: Anatol</tei:title>
                   <tei:date when="1925-12-15" when-custom="1925-12-15">15. 12. 1925</tei:date>
-                  <gloss type="1131">Rezension</gloss>
-                  <tei:note>8454.0</tei:note>
+                  <tei:gloss type="w1131">Rezension</tei:gloss>
+                  <tei:note>8454</tei:note>
                </tei:bibl><tei:bibl xml:id="pmb47189">
                   <tei:author ref="pmb11715" role="editor">
                      <tei:surname>Hitler</tei:surname>
@@ -113,14 +113,14 @@
                      <tei:term>[Herausgeber*in]</tei:term>
                   </tei:author>
                   <tei:title>Völkischer Beobachter</tei:title>
-                  <tei:date from="1920-12-17" from-custom="1920-12-17" to="1945-04-29" to-custom="1945-04-29">17. 12. 1920</tei:date>
-                  <gloss type="1220">Tageszeitung</gloss>
-                  <tei:note>8145.0</tei:note>
-                  <tei:note>8146.0</tei:note>
+                  <tei:date from="1920-12-17" from-custom="1920-12-17" to="1945-04-29" to-custom="1945-04-29">17. 12. 1920–29. 4. 1945</tei:date>
+                  <tei:gloss type="w1220">Tageszeitung</tei:gloss>
+                  <tei:note>8145</tei:note>
+                  <tei:note>8146</tei:note>
                </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -128,7 +128,7 @@
                </tei:place><tei:place xml:id="pmb168">
                   <tei:placeName>Berlin</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
@@ -136,14 +136,16 @@
                </tei:place><tei:place xml:id="pmb45258">
                   <tei:placeName>München</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1415.0</tei:gloss>
+                     <tei:gloss ana="i1415">Land</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.13743 11.57549</tei:geo>
                   </tei:location>
                </tei:place></listPlace><listOrg><tei:org xml:id="pmb37551">
                   <tei:orgName>Völkischer Beobachter</tei:orgName>
-                  <tei:desc/>
+                  <tei:desc>
+                     <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
+                  </tei:desc>
                   <tei:place corresp="pmb45258">
                      <tei:placeName>München</tei:placeName>
                      <tei:location>
@@ -153,8 +155,8 @@
                </tei:org><tei:org xml:id="pmb37544">
                   <tei:orgName>Das Tage-Buch</tei:orgName>
                   <tei:desc>
-                     <tei:date from="1920-01-01" from-custom="1920" to="1933-01-01" to-custom="1933">1920</tei:date>
-                     <tei:gloss>973.0</tei:gloss>
+                     <tei:date from="1920-01-01" from-custom="1920" to="1933-01-01" to-custom="1933">1920–1933</tei:date>
+                     <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
                      <tei:placeName>Berlin</tei:placeName>

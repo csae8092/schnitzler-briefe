@@ -15,7 +15,7 @@
                      möglicherweise nicht alle Erlaubnisse, die Sie für die jeweilige Nutzung
                      brauchen. Es können beispielsweise andere Rechte wie Persönlichkeits- und
                      Datenschutzrechte zu beachten sein, die Ihre Nutzung des Materials entsprechend
-                     beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 5b</idno></msIdentifier><physDesc><objectDesc><desc type="brief"/><desc n="1" type="_blaetter"/><desc n="1" type="_seiten"/></objectDesc><handDesc hands="2"><handNote medium="schwarze_tinte" corresp="#pmb27910" style="latintype"/><handNote medium="schwarze_tinte" corresp="#pmb10815" style="nicht_anzuwenden"><p>Unterschrift</p></handNote></handDesc><additions><incident type="receiver"><desc>Mit Bleistift ergänzt »<quote>Bahr</quote>«.</desc></incident><incident type="archival"><desc>Von unbekannter Hand mit Bleistift nummeriert:
+                     beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 5b</idno></msIdentifier><physDesc><objectDesc><desc type="brief"/><desc n="1" type="_blaetter"/><desc n="1" type="_seiten"/></objectDesc><handDesc hands="2"><handNote medium="schwarze_tinte" corresp="#pmb27910" style="lateinische-kurrent"/><handNote medium="schwarze_tinte" corresp="#pmb10815" style="nicht_anzuwenden"><p>Unterschrift</p></handNote></handDesc><additions><incident type="receiver"><desc>Mit Bleistift ergänzt »<quote>Bahr</quote>«.</desc></incident><incident type="archival"><desc>Mit Bleistift von unbekannter Hand nummeriert:
                                     »<quote>165</quote>«.</desc></incident></additions></physDesc></msDesc></witness></listWit><listBibl><biblStruct corresp="HBAS"><monogr><author ref="#pmb10815">Bahr, Hermann</author><author ref="#pmb2121">Schnitzler, Arthur</author><title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title><editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor><imprint><pubPlace>Göttingen</pubPlace><publisher>Wallstein</publisher><date when="2018">2018</date></imprint><biblScope unit="pp">431</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb10815">Bahr, Hermann</persName><placeName ref="#pmb50">Wien</placeName><date when="1909-12-24" n="01">24. 12. 1909</date></correspAction><correspAction type="received"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb10815">Bahr, Hermann</ref><ref subtype="previous_letter" type="withinCollection" target="L01907">Schnitzler an Bahr, 22. 12. 1909</ref><ref subtype="next_letter" type="withinCollection" target="L01909">Wedekind an Schnitzler, 24. 12. 1909</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L01907">Schnitzler an Bahr, 22. 12. 1909</ref><ref subtype="next_letter" type="withinCorrespondence" target="L01956">Schnitzler, Schnitzler an Bahr, 18. 9. 1910</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
@@ -77,19 +77,47 @@
                   </tei:death>
                   <occupation code="107">Sänger*in</occupation>
                   <occupation code="108">Schauspieler*in</occupation>
-               </tei:person><person xml:id="#pmb12692 #pmb2238"><note>OFFEN</note></person><person xml:id="#pmb12692 #pmb2238"><note>OFFEN</note></person></listPerson><listBibl><tei:bibl xml:id="pmb29939">
+               </tei:person><tei:person xml:id="pmb12692">
+                  <tei:persName>
+                     <tei:surname>Schnitzler</tei:surname>
+                     <tei:forename>Heinrich</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1902-08-09">9. 8. 1902</tei:date>
+                     <tei:placeName ref="#pmb75">Hinterbrühl</tei:placeName>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1982-07-12">12. 7. 1982</tei:date>
+                     <tei:placeName ref="#pmb50">Wien</tei:placeName>
+                  </tei:death>
+                  <occupation code="104">Regisseur*in</occupation>
+                  <occupation code="105">Schauspieler*in</occupation>
+               </tei:person><tei:person xml:id="pmb2238">
+                  <tei:persName>
+                     <tei:surname>Schnitzler</tei:surname>
+                     <tei:forename>Lili</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1909-09-13">13. 9. 1909</tei:date>
+                     <tei:placeName ref="#pmb50">Wien</tei:placeName>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1928-07-26">26. 7. 1928</tei:date>
+                     <tei:placeName ref="#pmb462">Venedig</tei:placeName>
+                  </tei:death>
+               </tei:person></listPerson><listBibl><tei:bibl xml:id="pmb29939">
                   <tei:author ref="pmb10815" role="author">
                      <tei:surname>Bahr</tei:surname>
                      <tei:forename>Hermann</tei:forename>
                   </tei:author>
                   <tei:title>O Mensch!</tei:title>
-                  <tei:date from="1910-05-31" from-custom="1910-05-31" to="1910-09-04" to-custom="1910-09-04">31. 5. 1910</tei:date>
-                  <gloss type="1060">Roman</gloss>
-                  <tei:note>2851.0</tei:note>
+                  <tei:date from="1910-05-31" from-custom="1910-05-31" to="1910-09-04" to-custom="1910-09-04">31. 5. 1910–4. 9. 1910</tei:date>
+                  <tei:gloss type="w1060">Roman</tei:gloss>
+                  <tei:note>2851</tei:note>
                </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -97,7 +125,7 @@
                </tei:place><tei:place xml:id="pmb165">
                   <tei:placeName>Ober Sankt Veit</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>40.0</tei:gloss>
+                     <tei:gloss ana="i40">eingemeindeter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.188056 16.266389</tei:geo>

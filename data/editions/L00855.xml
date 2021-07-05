@@ -16,7 +16,7 @@
                 verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die Sie für die
                 jeweilige Nutzung brauchen. Es können beispielsweise andere Rechte wie
                 Persönlichkeits- und Datenschutzrechte zu beachten sein, die Ihre
-                Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>A</country><settlement>Wien</settlement><repository>Theatermuseum</repository><idno>HS AM 23333 Ba</idno></msIdentifier><physDesc><objectDesc><desc n="1" type="_blaetter"/><desc type="brief"/><desc n="1" type="_seiten"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="kurrent"/></handDesc><additions><incident type="archival"><desc>Lochung</desc></incident></additions></physDesc></msDesc></witness></listWit><listBibl><biblStruct corresp="DASB"><analytic><title level="a">14. 11. 1898</title></analytic><monogr><author ref="#pmb2121">Schnitzler, Arthur</author><title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title><editor>Edited, annotated, and with an introduction, by Donald G.
+                Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>A</country><settlement>Wien</settlement><repository>Theatermuseum</repository><idno>HS AM 23333 Ba</idno></msIdentifier><physDesc><objectDesc><desc n="1" type="_blaetter"/><desc type="brief"/><desc n="1" type="_seiten"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="deutsche-kurrent"/></handDesc><additions><incident type="archival"><desc>Lochung</desc></incident></additions></physDesc></msDesc></witness></listWit><listBibl><biblStruct corresp="DASB"><analytic><title level="a">14. 11. 1898</title></analytic><monogr><author ref="#pmb2121">Schnitzler, Arthur</author><title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title><editor>Edited, annotated, and with an introduction, by Donald G.
                         Daviau</editor><imprint><pubPlace>Chapel Hill</pubPlace><publisher>The University of North Carolina Press</publisher><date when="1978">1978</date></imprint><biblScope unit="pp">64</biblScope></monogr><series><title level="s">University of North Carolina studies in the Germanic languages
                         and literatures</title><biblScope unit="nr">89</biblScope></series></biblStruct><biblStruct corresp="HBAS"><monogr><author ref="#pmb10815">Bahr, Hermann</author><author ref="#pmb2121">Schnitzler, Arthur</author><title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title><editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor><imprint><pubPlace>Göttingen</pubPlace><publisher>Wallstein</publisher><date when="2018">2018</date></imprint><biblScope unit="pp">164</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName><date when="1898-11-13" n="01">13. 11. 1898</date></correspAction><correspAction type="received"><persName ref="#pmb10815">Bahr, Hermann</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb10815">Bahr, Hermann</ref><ref subtype="previous_letter" type="withinCollection" target="L00854">Beer-Hofmann an Schnitzler, 4. 11. 1898</ref><ref subtype="next_letter" type="withinCollection" target="L00856">Bahr an Schnitzler, 14. 11. 1898</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L00852">Schnitzler an Bahr, 14. 10. 1898</ref><ref subtype="next_letter" type="withinCorrespondence" target="L00856">Bahr an Schnitzler, 14. 11. 1898</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
@@ -58,11 +58,11 @@
                   </tei:author>
                   <tei:title>Der Star</tei:title>
                   <tei:date from="1898-01-01" from-custom="1898">1898</tei:date>
-                  <gloss type="1056">Mehraktiges Drama</gloss>
+                  <tei:gloss type="w1056">Mehraktiges Drama</tei:gloss>
                </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -70,7 +70,7 @@
                </tei:place><tei:place xml:id="pmb168">
                   <tei:placeName>Berlin</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
@@ -78,8 +78,8 @@
                </tei:place></listPlace><listOrg><tei:org xml:id="pmb35053">
                   <tei:orgName>Lessing-Theater</tei:orgName>
                   <tei:desc>
-                     <tei:date from="1888-01-01" from-custom="1888" to="1945-04-18" to-custom="4.1945 |1945-04&gt;">1888</tei:date>
-                     <tei:gloss>1047.0</tei:gloss>
+                     <tei:date from="1888-01-01" from-custom="1888" to="1945-04-18" to-custom="4.1945 &lt;1945-04&gt;">1888 – 4.1945 </tei:date>
+                     <tei:gloss ana="i1047">Theaterunternehmen</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb18">
                      <tei:placeName>Lessing-Theater</tei:placeName>
@@ -91,6 +91,12 @@
                      <tei:placeName>Kapelle-Ufer</tei:placeName>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52315 13.374789</tei:geo>
+                     </tei:location>
+                  </tei:place>
+                  <tei:place corresp="pmb168">
+                     <tei:placeName>Berlin</tei:placeName>
+                     <tei:location>
+                        <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
                   </tei:place>
                </tei:org></listOrg></back></text></TEI>

@@ -64,10 +64,37 @@
                   </tei:death>
                   <occupation code="90">Schriftsteller*in</occupation>
                   <occupation code="267">Diplomat*in</occupation>
-               </tei:person><person xml:id="#pmb18404 #pmb11737"><note>OFFEN</note></person><person xml:id="#pmb18404 #pmb11737"><note>OFFEN</note></person></listPerson><listBibl/><listPlace><tei:place xml:id="pmb30">
+               </tei:person><tei:person xml:id="pmb18404">
+                  <tei:persName>
+                     <tei:surname>Hofmannsthal</tei:surname>
+                     <tei:forename>Anna von</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1849-01-27">27. 1. 1849</tei:date>
+                     <tei:placeName ref="#pmb50">Wien</tei:placeName>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1904-03-22">22. 3. 1904</tei:date>
+                     <tei:placeName ref="#pmb50">Wien</tei:placeName>
+                  </tei:death>
+               </tei:person><tei:person xml:id="pmb11737">
+                  <tei:persName>
+                     <tei:surname>Hofmannsthal</tei:surname>
+                     <tei:forename>Hugo August von</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1841-12-21">21. 12. 1841</tei:date>
+                     <tei:placeName ref="#pmb50">Wien</tei:placeName>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1915-12-08">8. 12. 1915</tei:date>
+                     <tei:placeName ref="#pmb50">Wien</tei:placeName>
+                  </tei:death>
+                  <occupation code="465">Bankdirektor*in</occupation>
+               </tei:person></listPerson><listBibl/><listPlace><tei:place xml:id="pmb30">
                   <tei:placeName>Salzburg</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">47.80067 13.04532</tei:geo>
@@ -75,7 +102,7 @@
                </tei:place><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -83,7 +110,7 @@
                </tei:place><tei:place xml:id="pmb791">
                   <tei:placeName>Habsburgergasse</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>26.0</tei:gloss>
+                     <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.208204022265 16.36812658292</tei:geo>

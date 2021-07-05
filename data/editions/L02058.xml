@@ -16,7 +16,7 @@
                      möglicherweise nicht alle Erlaubnisse, die Sie für die jeweilige Nutzung
                      brauchen. Es können beispielsweise andere Rechte wie Persönlichkeits- und
                      Datenschutzrechte zu beachten sein, die Ihre Nutzung des Materials entsprechend
-                     beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>U.S.A.</country><settlement>Yale</settlement><repository>Beinecke Rare Book and Manuscript Library</repository><idno>Yale Collection of German Literature, MSS 31</idno></msIdentifier><physDesc><objectDesc><desc type="karte" subtype="bildpostkarte"/></objectDesc><handDesc hands="3"><handNote medium="bleistift" corresp="#pmb2121" style="kurrent"/><handNote medium="bleistift" corresp="#pmb2173" style="nicht_anzuwenden"/><handNote medium="bleistift" corresp="#pmb2315" style="nicht_anzuwenden"/></handDesc><additions><incident type="postal"><desc><stamp n="1"><placeName ref="#pmb30"><supplied>Sal</supplied>zburg</placeName><date when="1912-04-04">3. IIII. 12</date><time>6</time></stamp></desc></incident></additions></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb2121">Schnitzler, Arthur</persName><persName ref="#pmb2173">Schnitzler, Olga</persName><persName ref="#pmb2315">Steinrück, Elisabeth</persName><placeName ref="#pmb30">Salzburg</placeName><date when="1912-04-03" n="01">3. 4. 1912</date></correspAction><correspAction type="received"><persName ref="#pmb10863">Beer-Hofmann, Richard</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb10863">Beer-Hofmann, Richard</ref><ref subtype="previous_letter" type="withinCollection" target="L02111">Blumenthal an Schnitzler, [nach dem 13. 3. 1912]</ref><ref subtype="next_letter" type="withinCollection" target="L02061">Altenberg an Schnitzler, [zwischen April und
+                     beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>U.S.A.</country><settlement>Yale</settlement><repository>Beinecke Rare Book and Manuscript Library</repository><idno>Yale Collection of German Literature, MSS 31</idno></msIdentifier><physDesc><objectDesc><desc type="karte" subtype="bildpostkarte"/></objectDesc><handDesc hands="3"><handNote medium="bleistift" corresp="#pmb2121" style="deutsche-kurrent"/><handNote medium="bleistift" corresp="#pmb2173" style="nicht_anzuwenden"/><handNote medium="bleistift" corresp="#pmb2315" style="nicht_anzuwenden"/></handDesc><additions><incident type="postal"><desc><stamp n="1"><placeName ref="#pmb30"><supplied>Sal</supplied>zburg</placeName><date when="1912-04-04">3. IIII. 12</date><time>6</time></stamp></desc></incident></additions></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb2121">Schnitzler, Arthur</persName><persName ref="#pmb2173">Schnitzler, Olga</persName><persName ref="#pmb2315">Steinrück, Elisabeth</persName><placeName ref="#pmb30">Salzburg</placeName><date when="1912-04-03" n="01">3. 4. 1912</date></correspAction><correspAction type="received"><persName ref="#pmb10863">Beer-Hofmann, Richard</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb10863">Beer-Hofmann, Richard</ref><ref subtype="previous_letter" type="withinCollection" target="L02111">Blumenthal an Schnitzler, [nach dem 13. 3. 1912]</ref><ref subtype="next_letter" type="withinCollection" target="L02061">Altenberg an Schnitzler, [zwischen April und
                         Oktober 1912]</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L02056">Schnitzler an Beer-Hofmann, 14. 2. 1912</ref><ref subtype="next_letter" type="withinCorrespondence" target="L02063">Schnitzler an Beer-Hofmann, 13. 5. 1912</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
@@ -77,7 +77,20 @@
                      <tei:placeName ref="#pmb44053">New York City</tei:placeName>
                   </tei:death>
                   <occupation code="90">Schriftsteller*in</occupation>
-               </tei:person><person xml:id="#pmb28739"><note>OFFEN</note></person><tei:person xml:id="pmb10860">
+               </tei:person><tei:person xml:id="pmb28739">
+                  <tei:persName>
+                     <tei:surname>Irresberger</tei:surname>
+                     <tei:forename>Franz</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1862-01-01">1862</tei:date>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1929-01-01">1929</tei:date>
+                     <tei:placeName ref="#pmb30">Salzburg</tei:placeName>
+                  </tei:death>
+                  <occupation code="389">Hotelier</occupation>
+               </tei:person><tei:person xml:id="pmb10860">
                   <tei:persName>
                      <tei:surname>Beer-Hofmann</tei:surname>
                      <tei:forename>Paula</tei:forename>
@@ -93,7 +106,7 @@
                </tei:person></listPerson><listBibl/><listPlace><tei:place xml:id="pmb30">
                   <tei:placeName>Salzburg</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">47.80067 13.04532</tei:geo>
@@ -101,7 +114,7 @@
                </tei:place><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -109,7 +122,7 @@
                </tei:place><tei:place xml:id="pmb68">
                   <tei:placeName>XVIII., Währing</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>25.0</tei:gloss>
+                     <tei:gloss ana="i25">Bezirk</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.23333 16.31667</tei:geo>
@@ -117,7 +130,7 @@
                </tei:place><tei:place xml:id="pmb383">
                   <tei:placeName>Hasenauerstraße</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>26.0</tei:gloss>
+                     <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.233816866614 16.337927920952</tei:geo>
@@ -126,7 +139,7 @@
                   <tei:placeName>Österreichischer Hof</tei:placeName>
                   <tei:desc>
                      <tei:date from="1866-07-02" from-custom="1866-07-02">2. 7. 1866</tei:date>
-                     <tei:gloss>12.0</tei:gloss>
+                     <tei:gloss ana="i12">Hotel</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">47.802045 13.043401</tei:geo>

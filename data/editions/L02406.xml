@@ -15,7 +15,7 @@
                      möglicherweise nicht alle Erlaubnisse, die Sie für die jeweilige Nutzung
                      brauchen. Es können beispielsweise andere Rechte wie Persönlichkeits- und
                      Datenschutzrechte zu beachten sein, die Ihre Nutzung des Materials entsprechend
-                     beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>U.S.A.</country><settlement>Yale</settlement><repository>Beinecke Rare Book and Manuscript Library</repository><idno>Yale Collection of German Literature, MSS 31</idno></msIdentifier><physDesc><objectDesc><desc n="2" type="_blaetter"/><desc type="brief"/><desc n="3" type="_seiten"/></objectDesc><handDesc><handNote medium="bleistift" style="latintype"><p>Anrede, Korrekturen, Schlussformel, Unterschrift</p></handNote></handDesc><typeDesc><p>Schreibmaschine</p></typeDesc><additions><incident type="archival"><desc>Auf dem 2. Blatt von unbekannter Hand mit Bleistift den
+                     beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>U.S.A.</country><settlement>Yale</settlement><repository>Beinecke Rare Book and Manuscript Library</repository><idno>Yale Collection of German Literature, MSS 31</idno></msIdentifier><physDesc><objectDesc><desc n="2" type="_blaetter"/><desc type="brief"/><desc n="3" type="_seiten"/></objectDesc><handDesc><handNote medium="bleistift" style="lateinische-kurrent"><p>Anrede, Korrekturen, Schlussformel, Unterschrift</p></handNote></handDesc><typeDesc><p>Schreibmaschine</p></typeDesc><additions><incident type="archival"><desc>Mit Bleistift von unbekannter Hand auf dem zweiten Blatt den
                                  Zusammenhang zum ersten Blatt hergestellt: »<quote>(zu
                                        <date>24. 12. 23</date>)</quote>«.</desc></incident></additions></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName><date when="1923-12-14" n="01">14. 12. 1923</date></correspAction><correspAction type="received"><persName ref="#pmb10863">Beer-Hofmann, Richard</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb10863">Beer-Hofmann, Richard</ref><ref subtype="previous_letter" type="withinCollection" target="L02405">Mann an Schnitzler, 22. 11. 1923</ref><ref subtype="next_letter" type="withinCollection" target="L02407">Schnitzler an Brandes, 4. 1. 1924</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L02402">Beer-Hofmann an Schnitzler, 13. 8. 1923</ref><ref subtype="next_letter" type="withinCorrespondence" target="L02409">Schnitzler an Beer-Hofmann, 21. 1. 1924</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
@@ -100,14 +100,13 @@
                      <tei:surname>Schnitzler</tei:surname>
                      <tei:forename>Arthur</tei:forename>
                   </tei:author>
-                  <tei:title>Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf
-                     Aufzügen</tei:title>
+                  <tei:title>Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</tei:title>
                   <tei:date from="1910-10-26" from-custom="1910-10-26">26. 10. 1910</tei:date>
-                  <gloss type="1056">Mehraktiges Drama</gloss>
+                  <tei:gloss type="w1056">Mehraktiges Drama</tei:gloss>
                </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -115,7 +114,7 @@
                </tei:place><tei:place xml:id="pmb150">
                   <tei:placeName>Sternwartestraße</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>26.0</tei:gloss>
+                     <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.23099349198 16.340117830625</tei:geo>
@@ -123,6 +122,12 @@
                </tei:place></listPlace><listOrg><tei:org xml:id="pmb52610">
                   <tei:orgName>Bundestheaterkassen</tei:orgName>
                   <tei:desc>
-                     <tei:gloss>1047.0</tei:gloss>
+                     <tei:gloss ana="i1047">Theaterunternehmen</tei:gloss>
                   </tei:desc>
+                  <tei:place corresp="pmb50">
+                     <tei:placeName>Wien</tei:placeName>
+                     <tei:location>
+                        <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
+                     </tei:location>
+                  </tei:place>
                </tei:org></listOrg></back></text></TEI>

@@ -15,7 +15,7 @@
                      möglicherweise nicht alle Erlaubnisse, die Sie für die jeweilige Nutzung
                      brauchen. Es können beispielsweise andere Rechte wie Persönlichkeits- und
                      Datenschutzrechte zu beachten sein, die Ihre Nutzung des Materials entsprechend
-                     beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 5b</idno></msIdentifier><physDesc><objectDesc><desc type="brief"/><desc n="1" type="_blaetter"/><desc n="3" type="_seiten"/></objectDesc><handDesc hands="2"><handNote medium="blaue_tinte" style="latintype" corresp="#pmb27910"/><handNote medium="blaue_tinte" style="nicht_anzuwenden" corresp="#pmb10815"><p>Unterschrift</p></handNote></handDesc><additions><incident type="archival"><desc>Von unbekannter Hand mit Bleistift nummeriert:
+                     beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 5b</idno></msIdentifier><physDesc><objectDesc><desc type="brief"/><desc n="1" type="_blaetter"/><desc n="3" type="_seiten"/></objectDesc><handDesc hands="2"><handNote medium="blaue_tinte" style="lateinische-kurrent" corresp="#pmb27910"/><handNote medium="blaue_tinte" style="nicht_anzuwenden" corresp="#pmb10815"><p>Unterschrift</p></handNote></handDesc><additions><incident type="archival"><desc>Mit Bleistift von unbekannter Hand nummeriert:
                                     »<quote>143</quote>«.</desc></incident></additions></physDesc></msDesc></witness></listWit><listBibl><biblStruct corresp="HBAS"><monogr><author ref="#pmb10815">Bahr, Hermann</author><author ref="#pmb2121">Schnitzler, Arthur</author><title level="m">Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title><editor>Hg. Kurt Ifkovits und Martin Anton Müller</editor><imprint><pubPlace>Göttingen</pubPlace><publisher>Wallstein</publisher><date when="2018">2018</date></imprint><biblScope unit="pp">387</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb10815">Bahr, Hermann</persName><placeName ref="#pmb50">Wien</placeName><date when="1907-01-11" n="01">11. 1. 1907</date></correspAction><correspAction type="received"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb10815">Bahr, Hermann</ref><ref subtype="previous_letter" type="withinCollection" target="L01649">Schnitzler an Bahr, 10. 1. 1907</ref><ref subtype="next_letter" type="withinCollection" target="L01651">Hofmannsthal an Schnitzler, [14. 1. 1907]</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L01649">Schnitzler an Bahr, 10. 1. 1907</ref><ref subtype="next_letter" type="withinCorrespondence" target="L01656">Bahr an Schnitzler, 12. 2. 1907</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
@@ -171,7 +171,7 @@
                   </tei:author>
                   <tei:title>Hedda Gabler</tei:title>
                   <tei:date from="1891-01-01" from-custom="1891">1891</tei:date>
-                  <gloss type="1056">Mehraktiges Drama</gloss>
+                  <tei:gloss type="w1056">Mehraktiges Drama</tei:gloss>
                </tei:bibl><tei:bibl xml:id="pmb30021">
                   <tei:author ref="pmb10815" role="author">
                      <tei:surname>Bahr</tei:surname>
@@ -179,17 +179,16 @@
                   </tei:author>
                   <tei:title>Die gelbe Nachtigall</tei:title>
                   <tei:date from="1907-01-01" from-custom="1907">1907</tei:date>
-                  <gloss type="1056">Mehraktiges Drama</gloss>
+                  <tei:gloss type="w1056">Mehraktiges Drama</tei:gloss>
                </tei:bibl><tei:bibl xml:id="pmb30049">
                   <tei:author ref="pmb10815" role="author">
                      <tei:surname>Bahr</tei:surname>
                      <tei:forename>Hermann</tei:forename>
                   </tei:author>
                   <tei:title>Brief an Arthur Schnitzler</tei:title>
-                  <tei:date from="1922-05-01" from-custom="Mai 1922|1922-05-01&gt;">Mai
-                     1922|1922-05-01&gt;</tei:date>
-                  <gloss type="1154">Aufsatz</gloss>
-                  <tei:note>2873.0</tei:note>
+                  <tei:date from="1922-05-01" from-custom="Mai 1922&lt;1922-05-01&gt;">Mai 1922</tei:date>
+                  <tei:gloss type="w1154">Aufsatz</tei:gloss>
+                  <tei:note>2873</tei:note>
                </tei:bibl><tei:bibl xml:id="pmb30091">
                   <tei:author ref="pmb10815" role="author">
                      <tei:surname>Bahr</tei:surname>
@@ -197,11 +196,11 @@
                   </tei:author>
                   <tei:title>Grotesken</tei:title>
                   <tei:date from="1906-01-01" from-custom="1906">1906</tei:date>
-                  <gloss type="1058">Einakterzyklus</gloss>
+                  <tei:gloss type="w1058">Einakterzyklus</tei:gloss>
                </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -209,7 +208,7 @@
                </tei:place><tei:place xml:id="pmb165">
                   <tei:placeName>Ober Sankt Veit</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>40.0</tei:gloss>
+                     <tei:gloss ana="i40">eingemeindeter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.188056 16.266389</tei:geo>
@@ -217,7 +216,7 @@
                </tei:place><tei:place xml:id="pmb189">
                   <tei:placeName>Semmering</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">47.64224 15.8241</tei:geo>

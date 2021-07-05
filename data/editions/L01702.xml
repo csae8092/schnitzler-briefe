@@ -16,7 +16,7 @@
                      brauchen. Es können beispielsweise andere Rechte wie Persönlichkeits- und
                      Datenschutzrechte zu beachten sein, die Ihre Nutzung des Materials entsprechend
                      beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>U.S.A.</country><settlement>Yale</settlement><repository>Beinecke Rare Book and Manuscript Library</repository><idno>Yale Collection of German Literature, MSS 31</idno></msIdentifier><physDesc><objectDesc><desc type="brief"/><desc n="1" type="_blaetter"/><desc n="3" type="_seiten"/><desc type="umschlag">Umschlag (Auf der Rückseite Fotografien von »<quote><rs type="place" ref="#pmb47570">Hôtel <c rendition="#kaufmannsund"/>
-                                 Pension Bavaria</rs><space unit="chars" quantity="1"/><rs ref="#pmb11483" type="place">Meran-Obermais</rs></quote>« und »<quote>Hôtel <c rendition="#kaufmannsund"/> Pension <rs ref="#pmb723" type="place">Wildbad-Waldbrunn</rs>, <rs type="place" ref="#pmb724">Pustertal (Tirol)</rs></quote>«.)</desc></objectDesc><handDesc><handNote medium="bleistift" style="kurrent"/></handDesc><additions><incident type="postal"><desc><stamp n="1"><placeName ref="#pmb428">Wels<supplied>berg</supplied></placeName><date>25. 7. 07</date></stamp></desc></incident><incident type="postal"><desc><stamp n="2"><placeName ref="#pmb909"><pb facs="1907_AS_RBH_1_00035"/>Velden am
+                                 Pension Bavaria</rs><space unit="chars" quantity="1"/><rs ref="#pmb11483" type="place">Meran-Obermais</rs></quote>« und »<quote>Hôtel <c rendition="#kaufmannsund"/> Pension <rs ref="#pmb723" type="place">Wildbad-Waldbrunn</rs>, <rs type="place" ref="#pmb724">Pustertal (Tirol)</rs></quote>«.)</desc></objectDesc><handDesc><handNote medium="bleistift" style="deutsche-kurrent"/></handDesc><additions><incident type="postal"><desc><stamp n="1"><placeName ref="#pmb428">Wels<supplied>berg</supplied></placeName><date>25. 7. 07</date></stamp></desc></incident><incident type="postal"><desc><stamp n="2"><placeName ref="#pmb909"><pb facs="1907_AS_RBH_1_00035"/>Velden am
                                        Wörtherseee</placeName><date>26. VIII. 07</date><time>VII</time></stamp></desc></incident><incident type="receiver"><desc>Mit Bleistift den Zeitpunkt der Beantwortung festgehalten:
                »<quote>Be <date>29/VIII 07</date></quote>«.</desc></incident></additions></physDesc></msDesc></witness></listWit><listBibl><biblStruct corresp="ASBH"><monogr><author ref="#pmb2121">Schnitzler, Arthur</author><author ref="#pmb10863">Beer-Hofmann, Richard</author><title level="m">Briefwechsel 1891–1931</title><editor>Hg. Konstanze Fliedl</editor><imprint><pubPlace>Wien, Zürich</pubPlace><publisher>Europaverlag</publisher><date when="1992">1992</date></imprint><biblScope unit="pp">183–184</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb428">Welsberg-Taisten</placeName><date when="1907-08-25" n="01">25. 8. 1907</date></correspAction><correspAction type="received"><persName ref="#pmb10863">Beer-Hofmann, Richard</persName><placeName ref="#pmb909">Velden</placeName><date when="1907-08-26">26. 8. 1907</date></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb10863">Beer-Hofmann, Richard</ref><ref subtype="previous_letter" type="withinCollection" target="L01701">Beer-Hofmann an Schnitzler, 23. 8. 1907</ref><ref subtype="next_letter" type="withinCollection" target="L01703">Beer-Hofmann an Schnitzler, 29. 8. 1907</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L01701">Beer-Hofmann an Schnitzler, 23. 8. 1907</ref><ref subtype="next_letter" type="withinCorrespondence" target="L01703">Beer-Hofmann an Schnitzler, 29. 8. 1907</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
@@ -146,13 +146,13 @@
                   </tei:author>
                   <tei:title>Die Fremde</tei:title>
                   <tei:date when="1902-05-18" when-custom="18.5.1902">18. 5. 1902</tei:date>
-                  <gloss type="1054">Erzählung</gloss>
-                  <tei:note>5662.0</tei:note>
-                  <tei:note>5663.0</tei:note>
+                  <tei:gloss type="w1054">Erzählung</tei:gloss>
+                  <tei:note>5662</tei:note>
+                  <tei:note>5663</tei:note>
                </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb47570">
                   <tei:placeName>Hotel &amp; Pension Bavaria</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>12.0</tei:gloss>
+                     <tei:gloss ana="i12">Hotel</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.669688 11.169677</tei:geo>
@@ -160,7 +160,7 @@
                </tei:place><tei:place xml:id="pmb11483">
                   <tei:placeName>Obermais</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>25.0</tei:gloss>
+                     <tei:gloss ana="i25">Bezirk</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.668909 11.1739</tei:geo>
@@ -168,7 +168,7 @@
                </tei:place><tei:place xml:id="pmb723">
                   <tei:placeName>Wildbad Waldbrunn</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>12.0</tei:gloss>
+                     <tei:gloss ana="i12">Hotel</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.751211 12.101269</tei:geo>
@@ -176,7 +176,7 @@
                </tei:place><tei:place xml:id="pmb724">
                   <tei:placeName>Pustertal</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>47.0</tei:gloss>
+                     <tei:gloss ana="i47">Region</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.75 12.33333</tei:geo>
@@ -184,7 +184,7 @@
                </tei:place><tei:place xml:id="pmb428">
                   <tei:placeName>Welsberg-Taisten</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.75774 12.10556</tei:geo>
@@ -192,7 +192,7 @@
                </tei:place><tei:place xml:id="pmb909">
                   <tei:placeName>Velden</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.61901 14.03129</tei:geo>
@@ -200,7 +200,7 @@
                </tei:place><tei:place xml:id="pmb430">
                   <tei:placeName>Wörthersee</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>44.0</tei:gloss>
+                     <tei:gloss ana="i44">See</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.62917 14.12306</tei:geo>
@@ -209,7 +209,7 @@
                   <tei:placeName>Etablissement Ernst Wahliss</tei:placeName>
                   <tei:desc>
                      <tei:date from="1892-01-01" from-custom="1892-01-01">1. 1. 1892</tei:date>
-                     <tei:gloss>12.0</tei:gloss>
+                     <tei:gloss ana="i12">Hotel</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.611733 14.043236</tei:geo>
@@ -217,7 +217,7 @@
                </tei:place><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -225,7 +225,7 @@
                </tei:place><tei:place xml:id="pmb40343">
                   <tei:placeName>Ponte Gardena</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1124.0</tei:gloss>
+                     <tei:gloss ana="i1124">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.59712 11.53088</tei:geo>
@@ -233,7 +233,7 @@
                </tei:place><tei:place xml:id="pmb40350">
                   <tei:placeName>Val Badia</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1152.0</tei:gloss>
+                     <tei:gloss ana="i1152">Tal</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.68361 11.89917</tei:geo>
@@ -241,7 +241,7 @@
                </tei:place><tei:place xml:id="pmb40346">
                   <tei:placeName>Grödner Joch</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>28.0</tei:gloss>
+                     <tei:gloss ana="i28">Berg</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.55 11.809444</tei:geo>
@@ -249,7 +249,7 @@
                </tei:place><tei:place xml:id="pmb40366">
                   <tei:placeName>Corvara</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1128.0</tei:gloss>
+                     <tei:gloss ana="i1128">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.55037 11.87342</tei:geo>
@@ -257,7 +257,7 @@
                </tei:place><tei:place xml:id="pmb40354">
                   <tei:placeName>Arabba</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1123.0</tei:gloss>
+                     <tei:gloss ana="i1123">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.49757 11.87485</tei:geo>
@@ -265,7 +265,7 @@
                </tei:place><tei:place xml:id="pmb40369">
                   <tei:placeName>Pordoijoch</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>28.0</tei:gloss>
+                     <tei:gloss ana="i28">Berg</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.4875 11.8125</tei:geo>
@@ -273,7 +273,7 @@
                </tei:place><tei:place xml:id="pmb40362">
                   <tei:placeName>Vigo di Fassa</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1128.0</tei:gloss>
+                     <tei:gloss ana="i1128">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.41898 11.67418</tei:geo>
@@ -281,15 +281,15 @@
                </tei:place><tei:place xml:id="pmb40371">
                   <tei:placeName>Karersee</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>44.0</tei:gloss>
+                     <tei:gloss ana="i44">See</tei:gloss>
                   </tei:desc>
                   <tei:location>
-                     <tei:geo decls="LatLng">46.409167 11.575</tei:geo>
+                     <tei:geo decls="LatLng">46.409167 11575</tei:geo>
                   </tei:location>
                </tei:place><tei:place xml:id="pmb40260">
                   <tei:placeName>Bozen</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1134.0</tei:gloss>
+                     <tei:gloss ana="i1134">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.49067 11.33982</tei:geo>
@@ -297,7 +297,7 @@
                </tei:place><tei:place xml:id="pmb43520">
                   <tei:placeName>Meran</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1410.0</tei:gloss>
+                     <tei:gloss ana="i1410">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.66817 11.15953</tei:geo>
@@ -305,7 +305,7 @@
                </tei:place><tei:place xml:id="pmb41086">
                   <tei:placeName>Palasthotel Meran</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>12.0</tei:gloss>
+                     <tei:gloss ana="i12">Hotel</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.667691 11.165082</tei:geo>
@@ -313,7 +313,7 @@
                </tei:place><tei:place xml:id="pmb41083">
                   <tei:placeName>Mendelpass</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>68.0</tei:gloss>
+                     <tei:gloss ana="i68">Pass</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.416944 11.207222</tei:geo>
@@ -321,7 +321,7 @@
                </tei:place><tei:place xml:id="pmb867">
                   <tei:placeName>Innsbruck</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">47.28433 11.37706</tei:geo>
@@ -329,7 +329,7 @@
                </tei:place><tei:place xml:id="pmb41093">
                   <tei:placeName>Hofkirche</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>33.0</tei:gloss>
+                     <tei:gloss ana="i33">Kirche</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">47.26839 11.39525</tei:geo>
@@ -337,7 +337,7 @@
                </tei:place><tei:place xml:id="pmb30">
                   <tei:placeName>Salzburg</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">47.80067 13.04532</tei:geo>
@@ -345,7 +345,7 @@
                </tei:place><tei:place xml:id="pmb39975">
                   <tei:placeName>Lago di Garda</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>44.0</tei:gloss>
+                     <tei:gloss ana="i44">See</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">45.6316 10.660517</tei:geo>
@@ -353,7 +353,7 @@
                </tei:place><tei:place xml:id="pmb40474">
                   <tei:placeName>Gossensass</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1128.0</tei:gloss>
+                     <tei:gloss ana="i1128">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">46.93857 11.44245</tei:geo>

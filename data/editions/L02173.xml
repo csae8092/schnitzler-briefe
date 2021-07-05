@@ -17,8 +17,8 @@
                             verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die Sie für die
                             jeweilige Nutzung brauchen. Es können beispielsweise andere Rechte wie
                             Persönlichkeits- und Datenschutzrechte zu beachten sein, die Ihre
-                            Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 8</idno></msIdentifier><physDesc><objectDesc><desc type="karte" subtype="bildpostkarte"/></objectDesc><handDesc><handNote medium="bleistift" style="latintype" corresp="#pmb10863"/><handNote medium="bleistift" style="nicht_anzuwenden" corresp="#pmb10860"/></handDesc><additions><incident type="postal"><desc><stamp n="1"><placeName ref="#pmb34869">Cap
-                                                  D’A<supplied>il</supplied></placeName><date>5-4 14</date></stamp></desc></incident><incident type="archival"><desc>Von unbekannter Hand mit Bleistift nummeriert:
+                            Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 8</idno></msIdentifier><physDesc><objectDesc><desc type="karte" subtype="bildpostkarte"/></objectDesc><handDesc><handNote medium="bleistift" style="lateinische-kurrent" corresp="#pmb10863"/><handNote medium="bleistift" style="nicht_anzuwenden" corresp="#pmb10860"/></handDesc><additions><incident type="postal"><desc><stamp n="1"><placeName ref="#pmb34869">Cap
+                                                  D’A<supplied>il</supplied></placeName><date>5-4 14</date></stamp></desc></incident><incident type="archival"><desc>Mit Bleistift von unbekannter Hand nummeriert:
                                                 »<quote>256</quote>«.</desc></incident></additions></physDesc></msDesc></witness></listWit><listBibl><biblStruct corresp="ASBH"><monogr><author ref="#pmb2121">Schnitzler, Arthur</author><author ref="#pmb10863">Beer-Hofmann, Richard</author><title level="m">Briefwechsel 1891–1931</title><editor>Hg. Konstanze Fliedl</editor><imprint><pubPlace>Wien, Zürich</pubPlace><publisher>Europaverlag</publisher><date when="1992">1992</date></imprint><biblScope unit="pp">219</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb10863">Beer-Hofmann, Richard</persName><persName ref="#pmb10860">Beer-Hofmann, Paula</persName><placeName ref="#pmb34869">Cap d’Ail</placeName><date when="1914-04-05" n="01">5. 4. 1914</date></correspAction><correspAction type="received"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb10863">Beer-Hofmann, Richard</ref><ref subtype="previous_letter" type="withinCollection" target="L02172">Beer-Hofmann an Schnitzler, 1. 4. 1914</ref><ref subtype="next_letter" type="withinCollection" target="L02174">Schnitzler, Schnitzler an Beer-Hofmann, 9. 4. 1914</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L02172">Beer-Hofmann an Schnitzler, 1. 4. 1914</ref><ref subtype="next_letter" type="withinCorrespondence" target="L02174">Schnitzler, Schnitzler an Beer-Hofmann, 9. 4. 1914</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
@@ -64,10 +64,51 @@
                   </tei:death>
                   <occupation code="90">Schriftsteller*in</occupation>
                   <occupation code="97">Mediziner*in</occupation>
-               </tei:person><person xml:id="#pmb2534 #pmb10860 #pmb13923 #pmb2668"><note>OFFEN</note></person><person xml:id="#pmb2534 #pmb10860 #pmb13923 #pmb2668"><note>OFFEN</note></person><person xml:id="#pmb2534 #pmb10860 #pmb13923 #pmb2668"><note>OFFEN</note></person></listPerson><listBibl/><listPlace><tei:place xml:id="pmb34869">
+               </tei:person><tei:person xml:id="pmb2534">
+                  <tei:persName>
+                     <tei:surname>Beer-Hofmann</tei:surname>
+                     <tei:forename>Naëmah</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1898-12-20">20. 12. 1898</tei:date>
+                     <tei:placeName ref="#pmb50">Wien</tei:placeName>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1971-11-10">10. 11. 1971</tei:date>
+                     <tei:placeName ref="#pmb44053">New York City</tei:placeName>
+                  </tei:death>
+               </tei:person><tei:person xml:id="pmb13923">
+                  <tei:persName>
+                     <tei:surname>Beer-Hofmann</tei:surname>
+                     <tei:forename>Gabriel</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1901-01-09">9. 1. 1901</tei:date>
+                     <tei:placeName ref="#pmb50">Wien</tei:placeName>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1971-03-24">24. 3. 1971</tei:date>
+                     <tei:placeName ref="#pmb48322">St Albans</tei:placeName>
+                  </tei:death>
+                  <occupation code="90">Schriftsteller*in</occupation>
+                  <occupation code="550">Filmagent</occupation>
+               </tei:person><tei:person xml:id="pmb2668">
+                  <tei:persName>
+                     <tei:surname>Beer-Hofmann</tei:surname>
+                     <tei:forename>Mirjam</tei:forename>
+                  </tei:persName>
+                  <tei:birth>
+                     <tei:date when="1897-09-04">4. 9. 1897</tei:date>
+                     <tei:placeName ref="#pmb50">Wien</tei:placeName>
+                  </tei:birth>
+                  <tei:death>
+                     <tei:date when="1984-12-24">24. 12. 1984</tei:date>
+                     <tei:placeName ref="#pmb44053">New York City</tei:placeName>
+                  </tei:death>
+               </tei:person></listPerson><listBibl/><listPlace><tei:place xml:id="pmb34869">
                   <tei:placeName>Cap-d'Ail</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1123.0</tei:gloss>
+                     <tei:gloss ana="i1123">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">43.72192 7.40685</tei:geo>
@@ -75,7 +116,7 @@
                </tei:place><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -83,7 +124,7 @@
                </tei:place><tei:place xml:id="pmb68">
                   <tei:placeName>XVIII., Währing</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>25.0</tei:gloss>
+                     <tei:gloss ana="i25">Bezirk</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.23333 16.31667</tei:geo>
@@ -91,7 +132,7 @@
                </tei:place><tei:place xml:id="pmb150">
                   <tei:placeName>Sternwartestraße</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>26.0</tei:gloss>
+                     <tei:gloss ana="i26">Straße</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.23099349198 16.340117830625</tei:geo>
@@ -99,7 +140,7 @@
                </tei:place><tei:place xml:id="pmb41240">
                   <tei:placeName>Österreich</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1107.0</tei:gloss>
+                     <tei:gloss ana="i1107">Land</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">47.33333 13.33333</tei:geo>

@@ -16,7 +16,7 @@
                             verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die Sie für die
                             jeweilige Nutzung brauchen. Es können beispielsweise andere Rechte wie
                             Persönlichkeits- und Datenschutzrechte zu beachten sein, die Ihre
-                            Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 1</idno></msIdentifier><physDesc><objectDesc><desc n="1" type="_blaetter"/><desc type="brief"/><desc n="3" type="_seiten"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="kurrent"/></handDesc><additions><incident type="receiver"><desc>Mit Bleistift beschriftet: »<quote><hi rend="latintype">Adam</hi></quote>«.</desc></incident><incident type="receiver"><desc>Zwei Unterstreichungen mit rotem Buntstift.</desc></incident><incident type="archival"><desc>Von unbekannter Hand nummeriert:
+                            Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 1</idno></msIdentifier><physDesc><objectDesc><desc n="1" type="_blaetter"/><desc type="brief"/><desc n="3" type="_seiten"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="deutsche-kurrent"/></handDesc><additions><incident type="receiver"><desc>Mit Bleistift beschriftet: »<quote><hi rend="latintype">Adam</hi></quote>«.</desc></incident><incident type="receiver"><desc>Zwei Unterstreichungen mit rotem Buntstift.</desc></incident><incident type="archival"><desc>Von unbekannter Hand nummeriert:
                                             »<quote>7</quote>«.</desc></incident></additions></physDesc></msDesc></witness><witness n="2"><msDesc><msIdentifier><country>A</country><settlement>Wien</settlement><repository>Österreichische Nationalbibliothek</repository><idno>Cod.ser. 52.269, 223 recto</idno></msIdentifier><physDesc><objectDesc><desc type="brief"/><desc type="reproduktion" subtype="ms_abschrift"/></objectDesc><typeDesc><p>Schreibmaschine</p></typeDesc></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb12438">Adam, Robert</persName><placeName ref="#pmb50">Wien</placeName><date when="1918-10-01" n="01">1. 10. 1918</date></correspAction><correspAction type="received"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb12438">Adam, Robert</ref><ref subtype="previous_letter" type="withinCollection" target="L02305">Buschbeck an Schnitzler, 24. 9. 1918</ref><ref subtype="next_letter" type="withinCollection" target="L02307">Schnitzler an Adam, 5. 10. 1918</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L02298">Schnitzler an Adam, 19. 8. 1918</ref><ref subtype="next_letter" type="withinCorrespondence" target="L02307">Schnitzler an Adam, 5. 10. 1918</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
@@ -56,18 +56,39 @@
                      <tei:forename>Robert</tei:forename>
                   </tei:author>
                   <tei:title>Yppl</tei:title>
-                  <gloss type="1055">Text</gloss>
+                  <tei:gloss type="w1212">Unveröffentlichtes dramatisches Werk</tei:gloss>
                </tei:bibl><tei:bibl xml:id="pmb33580">
                   <tei:author ref="pmb12438" role="author">
                      <tei:surname>Adam</tei:surname>
                      <tei:forename>Robert</tei:forename>
                   </tei:author>
                   <tei:title>Neidhard</tei:title>
-                  <gloss type="1055">Text</gloss>
-               </tei:bibl><work><note>OFFEN</note></work><work><note>OFFEN</note></work></listBibl><listPlace><tei:place xml:id="pmb50">
+                  <tei:gloss type="w1056">Mehraktiges Drama</tei:gloss>
+               </tei:bibl><tei:bibl xml:id="pmb34080">
+                  <tei:author ref="pmb34073" role="author">
+                     <tei:surname>Mönkemöller</tei:surname>
+                     <tei:forename>Otto</tei:forename>
+                  </tei:author>
+                  <tei:title>Geistesstörung und Verbrechen im Kindesalter</tei:title>
+                  <tei:date when="1903-01-01" when-custom="1903">1903</tei:date>
+                  <tei:gloss type="w1065">Aphorismensammlung</tei:gloss>
+               </tei:bibl><tei:bibl xml:id="pmb34086">
+                  <tei:author ref="pmb34083" role="author">
+                     <tei:surname>Ferriani</tei:surname>
+                     <tei:forename>Lino</tei:forename>
+                  </tei:author>
+                  <tei:author ref="pmb34088" role="translator">
+                     <tei:surname>Ruhemann</tei:surname>
+                     <tei:forename>Alfred</tei:forename>
+                     <tei:term>[Übersetzung]</tei:term>
+                  </tei:author>
+                  <tei:title>Minderjährige Verbrecher. (Versuch einer strafgerichtlichen Psychologie) mit Original-Gutachten von Berenini – Brusa – Colajanni – Negri – Nordau – Pierantoni</tei:title>
+                  <tei:date from="1896-01-01" from-custom="1896">1896</tei:date>
+                  <tei:gloss type="w1142">Fachliteratur</tei:gloss>
+               </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -75,7 +96,7 @@
                </tei:place><tei:place xml:id="pmb14">
                   <tei:placeName>Burgtheater</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>4.0</tei:gloss>
+                     <tei:gloss ana="i4">Theater</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.210333 16.361139</tei:geo>
@@ -83,7 +104,7 @@
                </tei:place><tei:place xml:id="pmb44397">
                   <tei:placeName>Wels</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1419.0</tei:gloss>
+                     <tei:gloss ana="i1419">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.16667 14.03333</tei:geo>
@@ -91,7 +112,7 @@
                </tei:place><tei:place xml:id="pmb332">
                   <tei:placeName>Linz</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.3 14.28333</tei:geo>
@@ -99,7 +120,7 @@
                </tei:place><tei:place xml:id="pmb44190">
                   <tei:placeName>Wilhering</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1434.0</tei:gloss>
+                     <tei:gloss ana="i1434">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.32319 14.1885</tei:geo>
@@ -107,7 +128,7 @@
                </tei:place><tei:place xml:id="pmb44187">
                   <tei:placeName>Ottensheim</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1434.0</tei:gloss>
+                     <tei:gloss ana="i1434">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.33349 14.18454</tei:geo>
@@ -115,7 +136,7 @@
                </tei:place><tei:place xml:id="pmb44192">
                   <tei:placeName>Eberstalzell</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1412.0</tei:gloss>
+                     <tei:gloss ana="i1412">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.04392 13.98319</tei:geo>
@@ -123,7 +144,7 @@
                </tei:place><tei:place xml:id="pmb44195">
                   <tei:placeName>Vorchdorf</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1434.0</tei:gloss>
+                     <tei:gloss ana="i1434">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.00365 13.92217</tei:geo>
@@ -131,7 +152,7 @@
                </tei:place><tei:place xml:id="pmb44370">
                   <tei:placeName>Sankt Florian</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1412.0</tei:gloss>
+                     <tei:gloss ana="i1412">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.20568 14.37836</tei:geo>
@@ -139,7 +160,7 @@
                </tei:place><tei:place xml:id="pmb44280">
                   <tei:placeName>Pöstlingberg</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>1412.0</tei:gloss>
+                     <tei:gloss ana="i1412">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.31667 14.26667</tei:geo>

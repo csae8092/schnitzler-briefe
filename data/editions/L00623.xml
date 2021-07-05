@@ -16,8 +16,8 @@
                             verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die Sie für die
                             jeweilige Nutzung brauchen. Es können beispielsweise andere Rechte wie
                             Persönlichkeits- und Datenschutzrechte zu beachten sein, die Ihre
-                            Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 15</idno></msIdentifier><physDesc><objectDesc><desc n="1" type="_blaetter"/><desc type="brief"/><desc n="2" type="_seiten"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="latintype"><p>eine
-                                        Korrektur, Unterschrift</p></handNote></handDesc><typeDesc><p>Schreibmaschine</p></typeDesc><additions><incident type="receiver"><desc>Eine Unterstreichung mit rotem Buntstift.</desc></incident><incident type="archival"><desc>Von unbekannter Hand mit Bleistift nummeriert:
+                            Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 15</idno></msIdentifier><physDesc><objectDesc><desc n="1" type="_blaetter"/><desc type="brief"/><desc n="2" type="_seiten"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="lateinische-kurrent"><p>eine
+                                        Korrektur, Unterschrift</p></handNote></handDesc><typeDesc><p>Schreibmaschine</p></typeDesc><additions><incident type="receiver"><desc>Eine Unterstreichung mit rotem Buntstift</desc></incident><incident type="archival"><desc>Mit Bleistift von unbekannter Hand nummeriert:
                                                 »<quote>8</quote>«.</desc></incident></additions></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb14328">Blumenthal, Oscar</persName><placeName ref="#pmb168">Berlin</placeName><date when="1896-11-19" n="01">19. 11. 1896</date></correspAction><correspAction type="received"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb14328">Blumenthal, Oscar</ref><ref subtype="previous_letter" type="withinCollection" target="L00622">Blumenthal an Schnitzler, 14. 11. 1896</ref><ref subtype="next_letter" type="withinCollection" target="L00624">Hofmannsthal an Schnitzler, 23. 11. 1896</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L00622">Blumenthal an Schnitzler, 14. 11. 1896</ref><ref subtype="next_letter" type="withinCorrespondence" target="L00676">Blumenthal an Schnitzler, 12. 5. 1897</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
@@ -83,7 +83,7 @@
                   </tei:author>
                   <tei:title>Anatol</tei:title>
                   <tei:date when="1892-10-29" when-custom="1892-10-29">29. 10. 1892</tei:date>
-                  <gloss type="1058">Einakterzyklus</gloss>
+                  <tei:gloss type="w1058">Einakterzyklus</tei:gloss>
                </tei:bibl><tei:bibl xml:id="pmb30159">
                   <tei:author ref="pmb2121" role="author">
                      <tei:surname>Schnitzler</tei:surname>
@@ -91,7 +91,7 @@
                   </tei:author>
                   <tei:title>Agonie</tei:title>
                   <tei:date from="1892-01-01" from-custom="1892">1892</tei:date>
-                  <gloss type="1057">Einakter</gloss>
+                  <tei:gloss type="w1057">Einakter</tei:gloss>
                </tei:bibl><tei:bibl xml:id="pmb30145">
                   <tei:author ref="pmb2121" role="author">
                      <tei:surname>Schnitzler</tei:surname>
@@ -99,12 +99,12 @@
                   </tei:author>
                   <tei:title>Denksteine</tei:title>
                   <tei:date from="1891-05-15" from-custom="15.05.1891">15. 5. 1891</tei:date>
-                  <gloss type="1057">Einakter</gloss>
-                  <tei:note>2896.0</tei:note>
+                  <tei:gloss type="w1057">Einakter</tei:gloss>
+                  <tei:note>2896</tei:note>
                </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb168">
                   <tei:placeName>Berlin</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
@@ -112,7 +112,7 @@
                </tei:place><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -120,8 +120,8 @@
                </tei:place></listPlace><listOrg><tei:org xml:id="pmb35053">
                   <tei:orgName>Lessing-Theater</tei:orgName>
                   <tei:desc>
-                     <tei:date from="1888-01-01" from-custom="1888" to="1945-04-18" to-custom="4.1945 |1945-04&gt;">1888</tei:date>
-                     <tei:gloss>1047.0</tei:gloss>
+                     <tei:date from="1888-01-01" from-custom="1888" to="1945-04-18" to-custom="4.1945 &lt;1945-04&gt;">1888 – 4.1945 </tei:date>
+                     <tei:gloss ana="i1047">Theaterunternehmen</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb18">
                      <tei:placeName>Lessing-Theater</tei:placeName>
@@ -133,6 +133,12 @@
                      <tei:placeName>Kapelle-Ufer</tei:placeName>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52315 13.374789</tei:geo>
+                     </tei:location>
+                  </tei:place>
+                  <tei:place corresp="pmb168">
+                     <tei:placeName>Berlin</tei:placeName>
+                     <tei:location>
+                        <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
                   </tei:place>
                </tei:org></listOrg></back></text></TEI>

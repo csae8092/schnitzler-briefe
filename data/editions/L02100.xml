@@ -17,7 +17,7 @@
                             verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die Sie für die
                             jeweilige Nutzung brauchen. Es können beispielsweise andere Rechte wie
                             Persönlichkeits- und Datenschutzrechte zu beachten sein, die Ihre
-                            Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>D</country><settlement>Marbach am Neckar</settlement><repository>Deutsches Literaturarchiv</repository><idno>G:Schnitzler, Arthur (Sammlung Heinrich Schnitzler)</idno></msIdentifier><physDesc><objectDesc><desc type="widmung" subtype="widmung_vorsatzblatt"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="latintype"/></handDesc><additions><incident type="archival"><desc>Von unbekannter Hand mit Bleistift das Pseudonym der
+                            Nutzung des Materials entsprechend beschränken.</p></licence></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondences of Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>D</country><settlement>Marbach am Neckar</settlement><repository>Deutsches Literaturarchiv</repository><idno>G:Schnitzler, Arthur (Sammlung Heinrich Schnitzler)</idno></msIdentifier><physDesc><objectDesc><desc type="widmung" subtype="widmung_vorsatzblatt"/></objectDesc><handDesc><handNote medium="schwarze_tinte" style="lateinische-kurrent"/></handDesc><additions><incident type="archival"><desc>Mit Bleistift von unbekannter Hand das Pseudonym der
                                             Übersetzerin aufgelöst: »<quote><rs type="person" ref="#pmb47716">Prager Mathilde</rs></quote>«.</desc></incident></additions></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage><correspDesc><correspAction type="sent"><persName ref="#pmb10992">Brandes, Georg</persName><date notBefore="1912-11-16" n="02">[nach dem 16. 11. 1912]</date></correspAction><correspAction type="received"><persName ref="#pmb2121">Schnitzler, Arthur</persName><placeName ref="#pmb50">Wien</placeName></correspAction><correspContext><ref type="belongsToCorrespondence" target="#pmb10992">Brandes, Georg</ref><ref subtype="previous_letter" type="withinCollection" target="L02099">Schnitzler an Bahr, 16. 11. 1912</ref><ref subtype="next_letter" type="withinCollection" target="L02101">Schnitzler an Brandes, 20. 11. 1912</ref><ref subtype="previous_letter" type="withinCorrespondence" target="L02091">Brandes an Schnitzler, 26. 9. 1912</ref><ref subtype="next_letter" type="withinCorrespondence" target="L02101">Schnitzler an Brandes, 20. 11. 1912</ref></correspContext></correspDesc></profileDesc><encodingDesc><refsDecl><ab>References to Arthur Schnitzler’s diary online consist of the relevant dates only, 
             e.g. @type="schnitzlerDiary" @target="1891-05-15". The complete URI is: 
             'https://schnitzler-tagebuch.acdh.oeaw.ac.at/v/editions/entry__1891-05-15'
@@ -72,8 +72,8 @@
                      <tei:forename/>
                   </tei:author>
                   <tei:title>Ilias</tei:title>
-                  <gloss type="1554"/>
-                  <tei:note>8458.0</tei:note>
+                  <tei:gloss type="w1554"/>
+                  <tei:note>8458</tei:note>
                </tei:bibl><tei:bibl xml:id="pmb47714">
                   <tei:author ref="pmb10992" role="author">
                      <tei:surname>Brandes</tei:surname>
@@ -86,17 +86,17 @@
                   </tei:author>
                   <tei:title>Armand Carrel</tei:title>
                   <tei:date when="1911-07-02" when-custom="1911">1911</tei:date>
-                  <gloss type="1156">Biografie</gloss>
+                  <tei:gloss type="w1156">Biografie</tei:gloss>
                </tei:bibl><tei:bibl xml:id="pmb47979">
                   <tei:title>Börsenblatt für den deutschen Buchhandel</tei:title>
                   <tei:date from="1843-01-03" from-custom="1843-01-03">3. 1. 1843</tei:date>
-                  <gloss type="1221">Wochenschrift</gloss>
-                  <tei:note>8460.0</tei:note>
-                  <tei:note>8461.0</tei:note>
+                  <tei:gloss type="w1221">Wochenschrift</tei:gloss>
+                  <tei:note>8460</tei:note>
+                  <tei:note>8461</tei:note>
                </tei:bibl></listBibl><listPlace><tei:place xml:id="pmb50">
                   <tei:placeName>Wien</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
@@ -104,7 +104,7 @@
                </tei:place><tei:place xml:id="pmb871">
                   <tei:placeName>Karlsruhe</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">49.00937 8.40444</tei:geo>
@@ -112,7 +112,7 @@
                </tei:place><tei:place xml:id="pmb168">
                   <tei:placeName>Berlin</tei:placeName>
                   <tei:desc>
-                     <tei:gloss>14.0</tei:gloss>
+                     <tei:gloss ana="i14">Besiedelter Ort</tei:gloss>
                   </tei:desc>
                   <tei:location>
                      <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
@@ -120,7 +120,7 @@
                </tei:place></listPlace><listOrg><tei:org xml:id="pmb29215">
                   <tei:orgName>J.G. Cotta’sche Buchhandlung Nachfolger</tei:orgName>
                   <tei:desc>
-                     <tei:gloss>975.0</tei:gloss>
+                     <tei:gloss ana="i975">Verlag</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb872">
                      <tei:placeName>Stuttgart</tei:placeName>
