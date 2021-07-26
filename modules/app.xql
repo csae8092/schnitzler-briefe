@@ -4,7 +4,6 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace pkg="http://expath.org/ns/pkg";
 declare namespace repo="http://exist-db.org/xquery/repo";
 declare namespace functx = 'http://www.functx.com';
-import module namespace templates="http://exist-db.org/xquery/html-templating";
 import module namespace config="http://www.digital-archiv.at/ns/config" at "config.xqm";
 import module namespace kwic = "http://exist-db.org/xquery/kwic" at "resource:org/exist/xquery/lib/kwic.xql";
 import module namespace util = "http://exist-db.org/xquery/util";
