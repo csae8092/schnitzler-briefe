@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <collection xmlns="http://exist-db.org/collection-config/1.0">
-    <index xmlns:wiki="http://exist-db.org/xquery/wiki" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:atom="http://www.w3.org/2005/Atom">
+    <index xmlns:wiki="http://exist-db.org/xquery/wiki" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+        <create qname="@ref" type="xs:string"/>
+        <create qname="tei:rs" type="xs:string"/>
         <!-- Lucene index is configured below -->
         <lucene>
             <analyzer class="org.apache.lucene.analysis.standard.StandardAnalyzer"/>
@@ -25,49 +26,4 @@
             <text qname="tei:div"/>
         </lucene>
     </index>
-</collection><!--<collection xmlns="http://exist-db.org/collection-config/1.0">
-    <index xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-        <fulltext default="none" attributes="false"/>
-        <create qname="tei:term" type="xs:string"/>
-        <create qname="tei:addrLine" type="xs:string"/>
-        <create qname="tei:persName" type="xs:string"/>
-        <create qname="tei:placeName" type="xs:string"/>
-        <create qname="tei:rs" type="xs:string"/>
-        <create qname="tei:title" type="xs:string"/>
-        <create qname="tei:author" type="xs:string"/>
-        <create qname="tei:correspAction" type="xs:string"/>
-        <create qname="tei:correspContext" type="xs:string"/>
-        <create qname="tei:note" type="xs:string"/>
-        <create qname="tei:physDesc" type="xs:string"/>
-        <create qname="tei:dateline" type="xs:string"/>
-        <create qname="tei:closer" type="xs:string"/>
-        <create qname="tei:div" type="xs:string"/>
-        <lucene>
-            <analyzer class="org.apache.lucene.analysis.standard.StandardAnalyzer"/>
-            <analyzer id="ws" class="org.apache.lucene.analysis.core.WhitespaceAnalyzer"/>
-            <text qname="tei:addrLine"/>
-            <text qname="tei:correspAction" boost="2.0"/>
-            <ignore qname="tei:correspContext"/>
-           
-            <text qname="tei:p">
-                <inline qname="tei:note"/>
-                <inline qname="tei:c"/>
-                <inline qname="tei:hi"/>
-                <inline qname="tei:rs"/>
-            </text>
-            <text qname="tei:note"/>
-            <text qname="tei:persName"/>
-            <text qname="tei:placeName"/>
-            <text qname="tei:title"/>
-            <text qname="tei:author"/>
-           
-            <text qname="tei:physDesc"/>
-            <text qname="tei:dateline"/>
-            <text qname="tei:closer"/>
-            <text qname="tei:div"/>
-        </lucene>
-    </index>
-    <triggers>
-        <trigger class="org.exist.extensions.exquery.restxq.impl.RestXqTrigger"/>
-    </triggers>
-</collection>-->
+</collection>

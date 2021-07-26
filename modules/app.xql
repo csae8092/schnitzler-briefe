@@ -184,6 +184,7 @@ declare function app:nameOfIndexEntry($node as node(), $model as map (*)){
 
     let $searchkey := xs:string(request:get-parameter("searchkey", "Kein Suchstring vorhanden"))
     let $withHash:= '#'||$searchkey
+    (: 
     let $entities := collection($app:editions)//tei:TEI//*[contains-token(tokenize(@ref,'\s+'),$withHash)]
     let $terms := (collection($app:editions)//tei:TEI[.//tei:term[./text() eq substring-after($withHash, '#')]])
     let $noOfterms := count(($entities, $terms))
@@ -204,14 +205,14 @@ declare function app:nameOfIndexEntry($node as node(), $model as map (*)){
         then
             <a class="reference" data-type="listwork.xml" data-key="{$searchkey}">{normalize-space(string-join($hit/tei:title[1], ', '))}</a>
         else
-            functx:capitalize-first($searchkey)
+            functx:capitalize-first($searchkey):)
     return
     <h1 style="text-align:center;">
 <small>
-<span id="hitcount"/>{$noOfterms} Treffer für</small>
+<span id="hitcount"/>asdf Treffer für</small>
 <br/>
 <strong>
-            {$name}
+            adsf
         </strong>
 </h1>
 };
@@ -266,33 +267,27 @@ concat('show.html','?document=', app:getDocName($node),'&amp;directory=',$collec
  };
 
 
-declare function app:indexSearch_hits($node as node(), $model as map(*),  $searchkey as xs:string?, $path as xs:string?){
+declare function app:indexSearch_hits($node as node(), $model as map(*),  $searchkey as xs:string?){
 let $indexSerachKey := $searchkey
 let $searchkey:= '#'||$searchkey
-let $entities := collection($app:editions)//tei:TEI//*[contains-token(tokenize(@ref,'\s+'),$searchkey)]
-let $terms := collection($app:editions)//tei:TEI[.//tei:term[./text() eq substring-after($searchkey, '#')]]
-for $title in ($entities, $terms)
-    let $docTitle := string-join(root($title)//tei:titleStmt/tei:title[@level='a']//text(), ' ')
-    let $hits := if (count(root($title)//*[contains-token(tokenize(@ref,'\s+'),$searchkey)]) = 0) then 1 else count(root($title)//*[contains-token(tokenize(@ref,'\s+'),$searchkey)])
-    let $collection := app:getColName($title)
+let $entities := collection($app:editions)//tei:TEI[.//tei:rs[@ref=$searchkey]]
+for $title in $entities
+    let $doc := root($title)
+    let $docTitle := string-join($doc//tei:titleStmt/tei:title[@level='a']//text(), ' ')
+    let $hits := count($doc//tei:rs[@ref=$searchkey])
     let $snippet :=
-        for $entity in root($title)//*[contains-token(tokenize(@ref,'\s+'),$searchkey)]
-                let $before := concat(substring($entity/preceding::text()[1], string-length($entity/preceding::text()[1])-35, 35),' ')
-                let $after := substring($entity/following::text()[1],1,35)
+        for $entity in $doc//*[@ref=$searchkey]
+                let $before := string-join(($entity/preceding::text()[3],$entity/preceding::text()[2], $entity/preceding::text()[1]), '')
+                let $after := substring(normalize-space(string-join($entity/following::text(), '')), 1, 50)
                 return
-                    <span>… {$before} <strong>
-<a href="{concat(app:hrefToDoc($title, $collection), "&amp;searchkey=", $indexSerachKey)}">{$entity//text()[not(ancestor::tei:abbr)]}</a>
-</strong> {$after}…<br/>
-</span>
-    let $zitat := $title//tei:msIdentifier
-    let $collection := app:getColName($title)
+                    <p>... {concat($before, ' ')} <strong><a href="{concat(app:hrefToDoc($title), "&amp;searchkey=", $indexSerachKey)}"> {string-join($entity//text(), '')}</a></strong> {concat(' ', $after)}...<br/></p>
+    let $actual_snippet := if ($snippet) then $snippet else <p>keine Verknüpfung zur eigentlichen Textstelle</p>
     return
-            <tr>
-            <td>{$snippet}</td>
-<td><a href="{concat(app:hrefToDoc($title, $collection), "&amp;searchkey=", $indexSerachKey)}">{$docTitle}</a></td>
-<td><a href="{concat(app:hrefToDoc($title, $collection), "&amp;searchkey=", $indexSerachKey)}">{$hits}</a></td>
-
-</tr>
+        <tr>
+            <td>{$actual_snippet}</td>
+            <td><a href="{concat(app:hrefToDoc($title), "&amp;searchkey=", $indexSerachKey)}">{$docTitle}</a></td>
+            <td>{$hits}</td>
+        </tr>
 };
 
 (:~
