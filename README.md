@@ -20,8 +20,12 @@ FWF-Projekt P31277 (https://pf.fwf.ac.at/de/wissenschaft-konkret/project-finder?
 ## Install (no docker)
 
 1. clone the repo `git clone https://github.com/acdh-oeaw/schnitzler-briefe.git`
-2. enter the repo and init and update the submodules `cd schnitzler-briefe && git submodule init && git submodule update`
-3. build the application `ant` -> creates a `.xar` in the `build` directory
-4. install this `.xar` package via eXist-db Package Manager
+1. enter the repo and init and update the submodules `cd schnitzler-briefe && git submodule init && git submodule update`
+1. build the application `ant` -> creates a `.xar` in the `build` directory
+1. install this `.xar` package via eXist-db Package Manager
 
 ## Install (with docker)
+
+1. build the image with `docker image build -t sb:latest .`
+2. run the image with `docker run -it -d -p 8080:8080 -p 8443:8443 --name sb sb:latest`
+3. inpect logs with `docker container logs --follow sb`
