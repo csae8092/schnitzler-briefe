@@ -16,7 +16,7 @@ RUN ant
 RUN ant -f /app/build.xml
 
 # START STAGE 2
-FROM acdhch/existdb:5.3.0-java11-ShenGC
+FROM existdb/existdb:5.3.0
 
 COPY --from=0 /app/build/*.xar /exist/autodeploy
 
