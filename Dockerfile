@@ -8,13 +8,15 @@ RUN pip install acdh-tei-pyutils==0.16.0
 
 COPY . .
 RUN cd 
+RUN add-attributes -g "/app/data/editions/*.xml" -b "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-briefe/editions" \
+    && add-attributes -g "/app/data/indices/list*.xml" -b "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-briefe/indices"
 RUN denormalize-indices -t "erwähnt in " -i "/app/data/indices/*.xml" -f "/app/data/editions/*.xml" -x ".//tei:title[@level='a']/text()"
 RUN ant
 
 RUN ant -f /app/build.xml
 
 # START STAGE 2
-FROM existdb/existdb:5.3.0
+FROM acdhch/existdb:5.3.0-java11-ShenGC
 
 COPY --from=0 /app/build/*.xar /exist/autodeploy
 
