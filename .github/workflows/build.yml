@@ -1,8 +1,5 @@
 name: Build, Release
-on:
-  push:
-    branches:
-      - exist-5.3
+on: workflow_dispatch
 jobs:
   push_to_registry:
     name: Push Docker image to Docker Hub

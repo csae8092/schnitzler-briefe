@@ -322,7 +322,7 @@ declare function app:listBibl($node as node(), $model as map(*)) {
     let $autorname := concat($author/tei:forename/text(), ' ', $author/tei:surname/text())
    return
         <tr>
-<td><a href="{concat($hitHtml,data($item/@xml:id))}">{$item//tei:title[1]/text()}</a></td>
+<td><a href="{concat($hitHtml,data($item/@xml:id))}">{$item/tei:title[1]/text()}</a></td>
 <td>{$autorname}</td>
 <td>{$date}</td>
 <td>{$item/tei:gloss[1]}</td>
