@@ -183,10 +183,10 @@ declare function app:nameOfIndexEntry($node as node(), $model as map (*)){
 
     let $searchkey := xs:string(request:get-parameter("searchkey", "Kein Suchstring vorhanden"))
     let $withHash:= '#'||$searchkey
-    (: 
-    let $entities := collection($app:editions)//tei:TEI//*[contains-token(tokenize(@ref,'\s+'),$withHash)]
-    let $terms := (collection($app:editions)//tei:TEI[.//tei:term[./text() eq substring-after($withHash, '#')]])
-    let $noOfterms := count(($entities, $terms))
+
+     
+    let $entities := collection($app:editions)//tei:TEI[descendant::*[@ref=$withHash]]
+    let $noOfterms := count($entities)
     let $hit := 
         if (starts-with($searchkey, 'pmb')) 
         then (collection($app:indices)//*[@xml:id = $searchkey])
@@ -204,16 +204,9 @@ declare function app:nameOfIndexEntry($node as node(), $model as map (*)){
         then
             <a class="reference" data-type="listwork.xml" data-key="{$searchkey}">{normalize-space(string-join($hit/tei:title[1], ', '))}</a>
         else
-            functx:capitalize-first($searchkey):)
+            functx:capitalize-first($searchkey)
     return
-    <h1 style="text-align:center;">
-<small>
-<span id="hitcount"/>asdf Treffer für</small>
-<br/>
-<strong>
-            adsf
-        </strong>
-</h1>
+        <h1 style="text-align:center;">{$name}</h1>
 };
 
 (:~
@@ -269,17 +262,19 @@ concat('show.html','?document=', app:getDocName($node),'&amp;directory=',$collec
 declare function app:indexSearch_hits($node as node(), $model as map(*),  $searchkey as xs:string?){
 let $indexSerachKey := $searchkey
 let $searchkey:= '#'||$searchkey
-let $entities := collection($app:editions)//tei:TEI[.//tei:rs[@ref=$searchkey]]
+let $entities := collection($app:editions)//tei:TEI[descendant::*[@ref=$searchkey]]
 for $title in $entities
     let $doc := root($title)
     let $docTitle := string-join($doc//tei:titleStmt/tei:title[@level='a']//text(), ' ')
     let $hits := count($doc//tei:rs[@ref=$searchkey])
-    let $snippet :=
+    let $snippet := if (count($entities) < 50) then
         for $entity in $doc//*[@ref=$searchkey]
                 let $before := string-join(($entity/preceding::text()[3],$entity/preceding::text()[2], $entity/preceding::text()[1]), '')
                 let $after := substring(normalize-space(string-join($entity/following::text(), '')), 1, 50)
                 return
                     <p>... {concat($before, ' ')} <strong><a href="{concat(app:hrefToDoc($title), "&amp;searchkey=", $indexSerachKey)}"> {string-join($entity//text(), '')}</a></strong> {concat(' ', $after)}...<br/></p>
+                    else
+                         <p>zu viele Treffer für eine detaillierte Anzeige</p>
     let $actual_snippet := if ($snippet) then $snippet else <p>keine Verknüpfung zur eigentlichen Textstelle</p>
     return
         <tr>
