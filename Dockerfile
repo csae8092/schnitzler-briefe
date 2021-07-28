@@ -7,7 +7,6 @@ RUN apt-get update && apt-get -y install git ant && pip install -U pip
 RUN pip install acdh-tei-pyutils==0.16.0
 
 COPY . .
-RUN cd 
 RUN add-attributes -g "/app/data/editions/*.xml" -b "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-briefe/editions" \
     && add-attributes -g "/app/data/indices/list*.xml" -b "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-briefe/indices"
 RUN denormalize-indices -t "erwähnt in " -i "/app/data/indices/*.xml" -f "/app/data/editions/*.xml" -x ".//tei:title[@level='a']/text()"
