@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          submodules: 'true'
       - name: docker build
         run: docker build -t acdhch/schnitzler-briefe .
       - name: docker push
