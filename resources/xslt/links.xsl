@@ -569,17 +569,46 @@
             <xsl:text>. </xsl:text>
             <xsl:choose>
                 <xsl:when test="$monogr/tei:editor[2]">
-                    <xsl:text>Hg. </xsl:text>
-                    <xsl:value-of
-                        select="foo:editor-rekursion($monogr, 1, count($monogr/tei:editor))"/>
+                    <!-- es gibt mehr als einen Herausgeber -->
+                    <xsl:text>Hgg. </xsl:text>
+                    <xsl:for-each select="$monogr/tei:editor">
+                        <xsl:choose>
+                            <xsl:when test="contains(., ', ')">
+                                <xsl:value-of
+                                    select="concat(substring-after(normalize-space(.), ', '), ' ', substring-before(normalize-space(.), ', '))"
+                                />
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="."/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                        <xsl:choose>
+                            <xsl:when test="position() = last()"/>
+                            <xsl:when test="position() = last() - 1">
+                                <xsl:text> und </xsl:text>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:text>, </xsl:text>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:for-each>
                 </xsl:when>
                 <xsl:when
-                    test="$monogr/tei:editor[1] and contains($monogr/tei:editor[1], ', ') and not(count(contains($monogr/tei:editor[1], ' ')) &gt; 2) and not(contains($monogr/tei:editor[1], 'Hg') or contains($monogr/tei:editor[1], 'Hrsg'))">
-                    <xsl:text>Hg. </xsl:text>
-                    <xsl:value-of select="foo:vorname-vor-nachname($monogr/tei:editor/text())"/>
+                    test="contains($monogr/tei:editor, 'Hg.') or contains($monogr/tei:editor, 'Hrsg.') or contains($monogr/tei:editor, 'erausge') or contains($monogr/tei:editor, 'Edited')">
+                    <xsl:value-of select="$monogr/tei:editor"/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:value-of select="$monogr/tei:editor/text()"/>
+                    <xsl:text>Hg. </xsl:text>
+                    <xsl:choose>
+                        <xsl:when test="contains($monogr/tei:editor, ', ')">
+                            <xsl:value-of
+                                select="concat(substring-after(normalize-space($monogr/tei:editor), ', '), ' ', substring-before(normalize-space($monogr/tei:editor), ', '))"
+                            />
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="$monogr/tei:editor"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:if>
@@ -810,7 +839,7 @@
         </xsl:if>
         <xsl:element name="a">
             <xsl:attribute name="class">
-                <xsl:text>reference-black</xsl:text>
+                <xsl:text>reference</xsl:text>
             </xsl:attribute>
             <xsl:attribute name="href">
                 <xsl:text>#footnote</xsl:text>
@@ -862,6 +891,9 @@
     <xsl:template match="tei:c[@rendition = '#kaufmannsund']" mode="lemma-t">
         <xsl:text>&amp;</xsl:text>
     </xsl:template>
+    <xsl:template match="tei:c[@rendition = '#tilde']">~</xsl:template>
+    <xsl:template match="tei:c[@rendition = '#tilde']" mode="lemma-k">~</xsl:template>
+    <xsl:template match="tei:c[@rendition = '#tilde']" mode="lemma-t">~</xsl:template>
     <xsl:template match="tei:c[@rendition = '#geschwungene-klammer-auf']">
         <xsl:text>{</xsl:text>
     </xsl:template>
@@ -958,7 +990,7 @@
         <xsl:choose>
             <xsl:when test="@target[ends-with(., '.xml')]">
                 <xsl:element name="a">
-                    <xsl:attribute name="class">reference-black</xsl:attribute>
+                    <xsl:attribute name="class">reference</xsl:attribute>
                     <xsl:attribute name="href"> show.html?ref=<xsl:value-of
                             select="tokenize(./@target, '/')[4]"/>
                     </xsl:attribute>
@@ -978,17 +1010,23 @@
     <xsl:template match="tei:ref[@type = 'schnitzlerDiary']">
         <xsl:if test="not(@subtype = 'date-only')">
             <xsl:choose>
-                <xsl:when test="@subtype = 'see'">
+                <xsl:when test="@subtype = 'See'">
                     <xsl:text>Siehe </xsl:text>
                 </xsl:when>
-                <xsl:when test="@subtype = 'cf'">
+                <xsl:when test="@subtype = 'Cf'">
                     <xsl:text>Vgl. </xsl:text>
+                </xsl:when>
+                <xsl:when test="@subtype = 'see'">
+                    <xsl:text>siehe </xsl:text>
+                </xsl:when>
+                <xsl:when test="@subtype = 'cf'">
+                    <xsl:text>vgl. </xsl:text>
                 </xsl:when>
             </xsl:choose>
             <xsl:text>A. S.: Tagebuch, </xsl:text>
         </xsl:if>
         <a>
-            <xsl:attribute name="class">reference-black</xsl:attribute>
+            <xsl:attribute name="class">reference</xsl:attribute>
             <xsl:attribute name="href">
                 <xsl:value-of
                     select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/pages/show.html?document=entry__', @target, '.xml')"
@@ -1019,7 +1057,7 @@
         <xsl:choose>
             <xsl:when test="@subtype = 'date-only'">
                 <a>
-                    <xsl:attribute name="class">reference-black</xsl:attribute>
+                    <xsl:attribute name="class">reference</xsl:attribute>
                     <xsl:attribute name="href">
                         <xsl:value-of
                             select="concat('https://schnitzler-briefe.acdh.oeaw.ac.at/pages/show.html?document=', @target)"
@@ -1038,7 +1076,7 @@
                     </xsl:when>
                 </xsl:choose>
                 <a>
-                    <xsl:attribute name="class">reference-black</xsl:attribute>
+                    <xsl:attribute name="class">reference</xsl:attribute>
                     <xsl:attribute name="href">
                         <xsl:value-of
                             select="concat('https://schnitzler-briefe.acdh.oeaw.ac.at/pages/show.html?document=', @target)"
