@@ -31,10 +31,24 @@
                             </h5>
                         </div>
                         <div class="col-md-2" style="text-align:right"/>
+                        
                     </div>
                 </div>
                 <div class="card-body-meta">
                     <xsl:apply-templates select="//tei:body"/>
+                    <p/>
+                    <xsl:if test="descendant::tei:footNotes">
+                    <div class="card-body-footnotes">
+                        <xsl:text>FUSSNOTEN</xsl:text>
+                    <xsl:element name="ol">
+                        <xsl:attribute name="footnotes">
+                            <xsl:text>list-for-footnotes</xsl:text>
+                        </xsl:attribute>
+                        <xsl:apply-templates select="descendant::tei:footNote"
+                            mode="footnote"/>
+                    </xsl:element>
+                    </div>
+                    </xsl:if>
                     <!-- CMIF Sonderregel: -->
                     <xsl:if test="//tei:profileDesc/tei:correspDesc[10]">
                         <xsl:apply-templates select="//tei:profileDesc/tei:correspDesc"/>
@@ -348,4 +362,6 @@
     <xsl:template match="tei:code">
         <code><xsl:apply-templates/></code>
     </xsl:template>
+    
+    
 </xsl:stylesheet>
