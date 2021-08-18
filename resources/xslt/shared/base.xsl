@@ -1024,7 +1024,7 @@
                         <xsl:text>vgl. </xsl:text>
                     </xsl:when>
                 </xsl:choose>
-                <xsl:variable name="href-addr" select="concat('https://schnitzler-briefe.acdh.oeaw.ac.at/pages/show.html?document=', @target, '.xml&stylesheet=critical')"/>
+                <xsl:variable name="href-addr" select="concat('https://schnitzler-briefe.acdh.oeaw.ac.at/pages/show.html?document=', @target, '.xml%26stylesheet=critical')"/>
                 <a>
                     <xsl:attribute name="class">reference</xsl:attribute>
                     <xsl:attribute name="href">
