@@ -27,6 +27,8 @@ FWF-Projekt P31277 (https://pf.fwf.ac.at/de/wissenschaft-konkret/project-finder?
 ## Install (with docker)
 
 1. build the image with `docker image build -t sb:latest .`
-2. run the image with `docker run -it -d -p 8080:8080 -p 8443:8443 --name sb sb:latest`
-3. inpect logs with `docker container logs --follow sb`
+1. run the image with `docker run -it -d -p 8080:8080 -p 8443:8443 --name sb sb:latest`
+1. bind-mount log-file-dir `docker run -it -d -p 8080:8080 -p 8443:8443 -v $(pwd)/logs:/exist/logs --name sb sb:latest`
+1. inpect logs with `docker container logs --follow sb`
 1. run image from dockerub `docker run -it -p 8080:8080 -p 8443:8443 --name sb acdhch/schnitzler-briefe`
+
