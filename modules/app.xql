@@ -266,11 +266,20 @@ let $entities := collection($app:editions)//id($indexSerachKey)
 for $title in $entities
     let $doc := root($title)
     let $docTitle := string-join($doc//tei:titleStmt/tei:title[@level='a']//text(), ' ')
+    let $entlist := 
+    <ul>
+        {
+            for $x in $doc//tei:person
+                return <li>{normalize-space(string-join($x/tei:persName//text()))}</li>
+        }
+    </ul>
+    let $incipt := substring(normalize-space(string-join($doc//tei:body//tei:p//text())), 1, 100)
     return
         <tr>
-            <td>to be removed</td>
             <td><a href="{concat(app:hrefToDoc($title), "&amp;searchkey=", $indexSerachKey)}">{$docTitle}</a></td>
-            <td>also to be removed  </td>
+            <td><a href="{concat(app:hrefToDoc($title), "&amp;searchkey=", $indexSerachKey)}">{app:getDocName($title)}</a></td>
+            <td>{$entlist}</td>
+            <td>{$incipt}</td>
         </tr>
 };
 
