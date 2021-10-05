@@ -262,25 +262,15 @@ concat('show.html','?document=', app:getDocName($node),'&amp;directory=',$collec
 declare function app:indexSearch_hits($node as node(), $model as map(*),  $searchkey as xs:string?){
 let $indexSerachKey := $searchkey
 let $searchkey:= '#'||$searchkey
-let $entities := collection($app:editions)//tei:TEI[descendant::*[@ref=$searchkey]]
+let $entities := collection($app:editions)//id($indexSerachKey)
 for $title in $entities
     let $doc := root($title)
     let $docTitle := string-join($doc//tei:titleStmt/tei:title[@level='a']//text(), ' ')
-    let $hits := count($doc//tei:rs[@ref=$searchkey])
-    let $snippet := if (count($entities) < 50) then
-        for $entity in $doc//*[@ref=$searchkey]
-                let $before := string-join(($entity/preceding::text()[3],$entity/preceding::text()[2], $entity/preceding::text()[1]), '')
-                let $after := substring(normalize-space(string-join($entity/following::text(), '')), 1, 50)
-                return
-                    <p>... {concat($before, ' ')} <strong><a href="{concat(app:hrefToDoc($title), "&amp;searchkey=", $indexSerachKey)}"> {string-join($entity//text(), '')}</a></strong> {concat(' ', $after)}...<br/></p>
-                    else
-                         <p>zu viele Treffer für eine detaillierte Anzeige</p>
-    let $actual_snippet := if ($snippet) then $snippet else <p>keine Verknüpfung zur eigentlichen Textstelle</p>
     return
         <tr>
-            <td>{$actual_snippet}</td>
+            <td>to be removed</td>
             <td><a href="{concat(app:hrefToDoc($title), "&amp;searchkey=", $indexSerachKey)}">{$docTitle}</a></td>
-            <td>{$hits}</td>
+            <td>also to be removed  </td>
         </tr>
 };
 
