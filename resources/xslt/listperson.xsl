@@ -37,25 +37,39 @@
                                                 <xsl:value-of select="$entity//tei:persName[1]"/>
                                             </xsl:otherwise>
                                         </xsl:choose>
-                                        
-                                        
                                         <small>
                                             <xsl:choose>
                                                 <xsl:when test="//$entity//tei:birth[1]/tei:date[1]/text() and //$entity//tei:death[1]/tei:date[1]/text()">
                                                     <br/>
                                                     <xsl:value-of select="//$entity//tei:birth[1]/tei:date[1]/text()"/>
+                                                    <xsl:if test="//$entity//tei:birth[1]/tei:placeName">
+                                                        <xsl:text> </xsl:text>
+                                                        <xsl:value-of select="//$entity//tei:birth[1]/tei:placeName"/>
+                                                    </xsl:if>
                                                     <xsl:text> – </xsl:text>
                                                     <xsl:value-of select="//$entity//tei:death[1]/tei:date[1]/text()"/>
+                                                    <xsl:if test="//$entity//tei:death[1]/tei:placeName">
+                                                        <xsl:text> </xsl:text>
+                                                        <xsl:value-of select="//$entity//tei:death[1]/tei:placeName"/>
+                                                    </xsl:if>
                                                 </xsl:when>
                                                 <xsl:when test="//$entity//tei:birth[1]/tei:date[1]/text()">
                                                     <br/>
                                                     <xsl:text>* </xsl:text>
                                                     <xsl:value-of select="//$entity//tei:birth[1]/tei:date[1]/text()"/>
+                                                    <xsl:if test="//$entity//tei:birth[1]/tei:placeName">
+                                                        <xsl:text> </xsl:text>
+                                                        <xsl:value-of select="//$entity//tei:birth[1]/tei:placeName"/>
+                                                    </xsl:if>
                                                 </xsl:when>
                                                 <xsl:when test="//$entity//tei:death[1]/tei:date[1]/text()">
                                                     <br/>
                                                     <xsl:text>† </xsl:text>
                                                     <xsl:value-of select="//$entity//tei:death[1]/tei:date[1]/text()"/>
+                                                    <xsl:if test="//$entity//tei:death[1]/tei:placeName">
+                                                        <xsl:text> </xsl:text>
+                                                        <xsl:value-of select="//$entity//tei:death[1]/tei:placeName"/>
+                                                    </xsl:if>
                                                 </xsl:when>
                                             </xsl:choose>
                                             <br/>

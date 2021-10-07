@@ -278,7 +278,6 @@ for $title in $entities
         <tr>
             <td><a href="{concat(app:hrefToDoc($title), "&amp;searchkey=", $indexSerachKey)}">{$docTitle}</a></td>
             <td><a href="{concat(app:hrefToDoc($title), "&amp;searchkey=", $indexSerachKey)}">{app:getDocName($title)}</a></td>
-            <td>{$entlist}</td>
             <td>{$incipt}</td>
         </tr>
 };
@@ -563,6 +562,45 @@ declare function app:tocCorrespondenceHeader($node as node(), $model as map(*)) 
 };
 
 (:~
+ : returns header information about the current collection
+ :)
+declare function app:tocArchiveHeader($node as node(), $model as map(*)) {
+
+    let $collection := request:get-parameter("collection", "")
+    let $archive := request:get-parameter("archive","")
+    let $colName := if ($collection)
+        then
+            $collection
+        else
+            "editions"
+    let $docs := count(collection(concat($config:app-root, '/data/', $colName, '/'))//tei:TEI)
+    let $infoDoc := doc($app:meta||"/"||$colName||".xml")
+    let $colLabel := $infoDoc//tei:titleStmt/tei:title[@level='a']/text()
+    let $infoUrl := "show.html?document="||$colName||".xml&amp;directory=meta"
+    let $apiUrl := "../resolver/resolve-col.xql?collection="||$colName
+    let $zipUrl := "../resolver/download-col.xql?collection="||$colName
+        let $list-of-persons := doc(concat($config:app-root,'/data/indices/listperson.xml'))
+    return
+        <div class="card-header" style="text-align:center;">
+<h1 style="padding-right:10px;">{replace($archive,'_',' ')}
+</h1>
+<a>
+<i class="fas fa-info" title="Info zum Personenregister" data-toggle="modal" data-target="#exampleModal"/>
+</a>
+                |
+                <a href="{$apiUrl}">
+<i class="fas fa-download" title="Liste der TEI Dokumente"/>
+</a>
+                  |
+                <a href="{$zipUrl}">
+<i class="fas fa-file-archive" title="Sammlung als ZIP laden">
+</i>
+</a>
+</div>
+};
+
+
+(:~
  : returns context information about the current collection displayd in a bootstrap modal
  :)
 declare function app:tocModal($node as node(), $model as map(*)) {
@@ -648,7 +686,7 @@ declare function app:toc_correspondences($node as node(), $model as map(*)) {
             collection(concat($config:app-root, '/data/editions/'))//tei:TEI
     let $list-of-persons := doc(concat($config:app-root,'/data/indices/listperson.xml'))
     let $correspondences := for $doc in $docs
-         let $targets := $doc//tei:correspDesc/tei:correspContext/tei:ref[@type='belongsToCorrespondence']/@target
+         let $targets := $doc//tei:teiHeader[1]/tei:profileDesc[1]/tei:correspDesc[1]/tei:correspContext/tei:ref[@type='belongsToCorrespondence']/@target
         for $target in $targets
            let $target-normalized := substring-after($target,'#')
         group by $target-normalized
@@ -678,25 +716,44 @@ declare function app:toc_archives($node as node(), $model as map(*)) {
             collection(concat($config:app-root, '/data/editions/'))//tei:TEI
     let $list-of-persons := doc(concat($config:app-root,'/data/indices/listperson.xml'))
     let $correspondences := for $doc in $docs
-         let $targets := $doc//tei:msDesc
+         let $targets := $doc//tei:teiHeader[1]/tei:fileDesc[1]/tei:sourceDesc[1]/tei:listWit[1]/tei:witness/tei:msDesc[1]/tei:msIdentifier[1]
         for $target in $targets
-           let $target-normalized := tei:msDesc
+           let $target-normalized := concat($target/tei:settlement, ', ', $target/tei:repository)
         group by $target-normalized
-        return $target-normalized
+        return ($target-normalized)
     for $correspondence in $correspondences
-        let $person-name := $list-of-persons/tei:TEI/tei:text/tei:body/tei:div[@type='index_persons']/tei:listPerson[@xml:id='listperson']/tei:person[@xml:id=$correspondence]/tei:persName
-        let $forename := $person-name/tei:forename/text()
-        let $surname := $person-name/tei:surname/text()
-        let $name := $target-normalized
-        let $link-to-doc := concat('toc_correspondence.html?collection=editions&amp;correspondence=',$correspondence)
+        let $name := $correspondence
+        let $link-to-doc := concat('toc_archive.html?collection=editions&amp;archive=',replace($correspondence, ' ', '_'))
         return
         <tr>
 <td>
-<span style="display: none;">{$target}</span>
 <a href="{$link-to-doc}">{$name}</a>
 </td>
 </tr>
 };
+
+(: creates a list of archives :)
+declare function app:toc_archive($node as node(), $model as map(*)) {
+       let $collection := request:get-parameter("collection", "")
+       let $correspondence := request:get-parameter("archive","")
+   let $docs := collection(concat($config:app-root, '/data/editions/'))//tei:TEI[tei:teiHeader[1]/tei:fileDesc[1]/tei:sourceDesc[1]/tei:listWit[1]/tei:witness/tei:msDesc[1]/tei:msIdentifier[1]/replace(concat(tei:settlement, ', ', tei:repository), ' ', '_')=$correspondence]
+   for $title in $docs
+        let $title_a := $title//tei:titleStmt[1]/tei:title[@level='a']//text()
+        let $date := if ($title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when) then $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when/string()
+        else if ($title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notBefore) then $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notBefore/string()
+        else $title//tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notAfter/string() return
+        let $link2doc := if ($collection)
+            then
+                <a href="{app:hrefToDoc($title, $collection)}">{$title_a}</a>
+            else
+                <a href="{app:hrefToDoc($title)}">{$title_a}</a>
+        return
+        <tr>
+<td>
+<span style='display: none;'>{$date}</span>{$link2doc}</td>
+</tr>
+};
+
 
 (: creates a list of letters belonging to a particular correspondence :)
 declare function app:toc_correspondence($node as node(), $model as map(*)) {
