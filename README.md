@@ -5,17 +5,14 @@
 
 Quellcode der Website:
 https://schnitzler-briefe.acdh.oeaw.ac.at
-Arthur Schnitzler
-Briefwechsel mit Autorinnen und Autoren
-1888–1931
-
-Dieses Repositorium: https://doi.org/10.5281/zenodo.5555918
-
 
 Transkriptionen von
-Martin Anton Müller (@martinantonmueller) 
-Gerd-Hermann Susen (2018–2021)
-Die Transkriptionen der Korrespondenzstücke sind im Ordner /editions/data
+
+* Martin Anton Müller (@martinantonmueller) 
+
+* Gerd-Hermann Susen (2018–2021)
+
+Die Transkriptionen der Korrespondenzstücke finden sich im Ordner /editions/data
 
 Die Web-Applikation basierend auf der DSE Base App (https://github.com/KONDE-AT/dsebaseapp) wurde unterstützt durch: 
 * Peter Andorfer (@csae8092)
