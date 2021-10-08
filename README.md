@@ -28,7 +28,7 @@ P 34792 (2021–2024)
 ## Rights
 Die Daten unterliegen der https://de.wikipedia.org/wiki/MIT-Lizenz
 
-Zusätzlich sei darauf verwiesen, dass das nicht heißt, dass die Texte der jeweiligen Autorinnen und Autoren frei verfügbar sind. Im Zweifel sind die Rechte mit den jeweiligen Rechteinhabern von Schreibpartnerinnen und Schreibpartnern, die vor weniger als 70 Jahren verstorben sind, mit den jeweiligen Erben zu klären.
+Zusätzlich sei darauf verwiesen, dass das nicht heißt, dass die Texte der jeweiligen Autorinnen und Autoren frei verfügbar sind. Im Zweifel sind die Rechte mit den Rechteinhabern von Schreibpartnerinnen und Schreibpartnern, die vor weniger als 70 Jahren verstorben sind, mit den jeweiligen Erben zu klären.
 
 
 ## Install (no docker)
