@@ -6,7 +6,8 @@ Arthur Schnitzler
 Briefwechsel mit Autorinnen und Autoren
 1888–1931
 
-Dieses Repositorium: https://doi.org/10.5281/zenodo.5555918
+Dieses Repositorium: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5555918.svg)](https://doi.org/10.5281/zenodo.5555918)
+
 
 Transkriptionen von
 Martin Anton Müller (@martinantonmueller) 
